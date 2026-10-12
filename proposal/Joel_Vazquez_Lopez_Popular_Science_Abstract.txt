@@ -1,0 +1,11 @@
+"The fox chased the dog" and "the dog chased the fox" have almost the same number of words, but they describe two very different events. A Language Model is a system trained to predict and produce text, it may recognize every word in a sentence and still confuse who did what to whom, for instance, this could make a summary blame the wrong person, I want to understand when a correct answer shows that the model has kept track of these roles, rather than only working well on familiar situations. 
+
+I will start with a small model in a controlled space where I can control what it learns, the model will see characters moving towards or away from one another, but some pairs will never interact during training, even though both characters appear with others. At test time, the model is required to choose the correct scene for these new pairs from four choices, including one where their roles are reversed. I will change which characters appeared together during training, while keeping the amount of training the same. I will also look at what happens inside the model to see what differs when it succeeds or reverses the roles. 
+
+Then I will test a possible way to improve this transfer, the idea is to facilitate the model to give consistent answers when two participants exchange roles, I will compare this with models that receive the same examples and training time, but without the extra rule, and test both on new arrangements.
+
+Finally I will check if a similar problem appears in existing Large Language Models, for instance "The fox chased the dog" and "the dog was chased by the fox" describe the same event even though their structure is different, I will test whether models still identify the correct roles when I change the sentence structure or the way I ask the question, and use carefully checked sentences from ordinary texts. 
+
+If a model gets who did what to whom right, we should know whether it learned these roles or simply found the test familiar. 
+
+
