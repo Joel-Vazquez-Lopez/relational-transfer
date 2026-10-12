@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+
+# Model checkpoints and generated artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+checkpoints/
+wandb/
+
+# Private evaluation material
+private_data/
+reserved_evaluation/
+human_review/
