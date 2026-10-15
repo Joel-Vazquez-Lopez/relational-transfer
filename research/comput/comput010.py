@@ -24,7 +24,8 @@ def evaluate(rows):
         if r['question_role'] not in ('actor','patient') or r['construction'] not in ('active','passive','subject_cleft','object_cleft'):raise ValueError('unsupported role/form')
         if r['gold_answer'] not in (r['participant_a'],r['participant_b']):raise ValueError('invalid gold')
         key=(r['event_id'],r['question_role'],r['construction'])
-        if key in seen:raise ValueError('duplicate');seen.add(key)
+        if key in seen:raise ValueError('duplicate')
+        seen.add(key)
         if not isinstance(r['model_answer'],str):raise ValueError('invalid answer')
         valid=r['model_answer'] in (r['participant_a'],r['participant_b'])
         rules={name:predict(r,name) for name in RULES}
@@ -49,5 +50,7 @@ def evaluate(rows):
 if __name__=='__main__':
     data=[json.loads(s) for s in Path(sys.argv[1]).read_text().splitlines() if s.strip()]
     output=json.dumps(evaluate(data),indent=2)+'\n'
-    if len(sys.argv)>2:Path(sys.argv[-1]).write_text(output)
+    if len(sys.argv)>2:
+        if len(sys.argv)!=4 or sys.argv[2]!='--output':raise ValueError('usage: comput010.py source.jsonl [--output output.json]')
+        Path(sys.argv[3]).write_text(output)
     else:print(output)
