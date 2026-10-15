@@ -1,0 +1,1 @@
+The complete frozen diagnostic is archived in [completed_adapter_diagnostic](../completed_adapter_diagnostic/). Local analysis scripts retain their original workspace paths; configure these before reproduction.

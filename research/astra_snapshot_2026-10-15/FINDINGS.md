@@ -41,3 +41,7 @@ The scientific ambition remains a strong LLM/natural-language contribution. No c
 ## Completed development update: interface-dependent adapter rankings
 
 The formerly pending diagnostic is complete: 21 model evaluations, 2,016 sentence-model comparisons. On clefts, ordered-role versus ordinary actor accuracy changed from 77.1% vs 62.5% under the archived interface to 63.5% vs 69.8% under the fixed explicit direct question. Joint extraction was 90.6% untouched and 84.9–85.9% for adapted arms. Direct patient QA was poor, and extraction also failed frequently on active sentences. This supports interface-dependent behavioral rankings, not a preserved internal mechanism or a general repair. [Full results and uncertainty](completed_adapter_diagnostic/RESULTS.md). All outcomes are synthetic development evidence; the large prompt count does not provide independent natural-language replication.
+
+## Post hoc positional audit
+
+Untouched extraction matched last-mentioned actor/first-mentioned patient on 227/288 outputs, including 71/96 incorrect active assignments. Same-event extraction correct in all three forms was 21/96 untouched, 98/192 ordinary, 79/192 ordered, and 72/192 participant-only (trained denominators include two matched seeds). These descriptive development counts expose a positional explanation for high cleft scores and qualify any claim of global fine-tuning damage. [Audit, format sensitivity, and competing explanations](adapter_shortcut_audit_2026-10-15/RESULTS.md).

@@ -25,3 +25,7 @@ The adapter diagnostic has completed loading/format preflight only. Its proposed
 ## Completed diagnostic update
 
 The initial snapshot above preserves the preflight stage. The full diagnostic has now completed: see [results](completed_adapter_diagnostic/RESULTS.md), frozen protocol, source, analysis, and all 21 synthetic raw output files in `completed_adapter_diagnostic/`. Its own artifact manifest verifies the complete diagnostic. These synthetic raw predictions are an explicit exception to the original snapshot exclusions. No private natural data or weights are included.
+
+## Post hoc shortcut audit
+
+[Read the shortcut audit](adapter_shortcut_audit_2026-10-15/RESULTS.md). Reanalysis of saved predictions identifies a strong last-mentioned-actor pattern and shows why cleft-only accuracy gives an incomplete account. No new inference was performed; frozen outcomes remain unchanged.
