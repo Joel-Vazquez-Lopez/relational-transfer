@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-12",
+  "status": "post_hoc_diagnostic_fixed_before_tuple_inference; prior_direct_answers_seen",
+  "question": "Can the same checkpoints prefer the correct ordered (actor, patient) tuple over the reversed tuple without separate actor/patient question wording? Compare active and object cleft; also score a sentence-omitted control for candidate-order preference.",
+  "arms": [
+    "old_sft",
+    "old_coupled"
+  ],
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "forms": [
+    "active",
+    "object_cleft"
+  ],
+  "cases": 72,
+  "metric": "Teacher-forced log-likelihood of ' NAME; Patient: NAME' after a fixed 'Actor:' prefix. Correct-minus-reversed tuple log score, and whether its sign is positive. Same two names in opposite positions have the same token count. Report sentence-present and sentence-omitted scores; do not interpret a positive score as a verified internal event representation.",
+  "limitations": "Post hoc on the same already-inspected constructed bank. Prompt/format itself may change behavior. Candidate-relative scores may reflect name/order priors.",
+  "script_sha256": "ad28ab9f9a47e377d59b9d8d955c8a0f3b6ebb812c5864c2c825d45ce95de679",
+  "boost_protocol_sha256": "bb02bda8b558d33af5af58a23901b4ff0d8f533374b4f9939268efe48765d79f",
+  "checkpoint_sha256": {
+    "fresh1_old_sft": "fa7b85d9a948d6b2cfadaede1a2ddb49c6869823de53c456f368c016804232e0",
+    "fresh1_old_coupled": "63af5c35541fb84603d4cc2c978b613570c5b3d3e416f4fc361592c5c8d8f9c3",
+    "fresh3_old_sft": "4c2312c97cc0bf7e6cad3d0ae86a008628bb9363d19bfcbfc9fd5804bf674bb2",
+    "fresh3_old_coupled": "cea42ccfa87a700e4ae71cf6d1ead10d50350b43ecf7aba50163674144c27589"
+  }
+}

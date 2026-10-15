@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-13",
+  "status": "prospectively frozen v3 after examining v2 failure; fresh data bank, five paired seeds",
+  "question": "Does replacing the irrelevant clause by a single constant marker enable each operation to be learned independently, and does that knowledge survive full-question inference?",
+  "scope": "Predict only two role-direction operations from a generated nested question. Verb recognition, participant binding, and execution are deliberately excluded. This is not full inverted CoT or an LLM repair.",
+  "data": "Fresh data excludes all exact sentence/question signatures from the first pilot and v2. 6000 train FF/RR, 400 development FF/RR, 400 in-domain FF/RR, 400 mixed FR/RF. Same restricted event grammar and name/verb vocabulary.",
+  "arms": [
+    "joint_replay",
+    "clause_decomposition"
+  ],
+  "seeds": [
+    11,
+    23,
+    37,
+    41,
+    53
+  ],
+  "epochs": 10,
+  "batch": 128,
+  "learning_rate": 0.001,
+  "dimension": 64,
+  "layers": 2,
+  "heads": 4,
+  "matched": "Both arms use the same architecture, initial seed, training rows and order, optimizer, updates, and four direction labels per row. All views are padded to 14 tokens, matching input length and compute shape. Primary views are full questions for both. Auxiliary views are a second full-question copy for joint_replay and a normalized clause-only view for clause_decomposition. Input information differs by design.",
+  "primary": "Both operation directions correct on 400 fresh mixed items from the full unmasked question, each paired seed. Separately report the normalized-clause inference diagnostic and step-wise accuracy. No oracle segmentation at primary full-question inference.",
+  "positive_screen": "All five seeds must reach >=360/400 in-domain both-correct. For end-to-end normalization learning, clause decomposition must beat joint replay on the full mixed question by >=40/400 in at least four paired seeds, with no in-domain loss >10/400. For the narrower oracle-normalization signal, normalized-clause inference must reach >=380/400 mixed both-correct in at least four of five seeds, while the joint-replay model on those same normalized views stays at least 40/400 lower on average. These are separate gates; the latter cannot support a learned segmentation claim.",
+  "limits": "The clause-only auxiliary and diagnostic views use oracle clause boundaries from a restricted grammar; a positive normalized-view result shows a benefit of supplied decomposition, not learned normalization. Full-question success would need a fresh independent test. No entity execution, natural language, or LLM is tested. Five seeds share items.",
+  "data_script_sha256": "4653df8a984228eacc22d0f7ded4584b9cb10d53d4cc7833bdeb8f38e2a95833",
+  "data_sha256": "38a4cf7f52682168057123c09a80ecdd833c1f86af5d65017679a5e38627d6e6",
+  "audit_sha256": "12b15e8094fec0e3bdde90ebcb64d8a0470be1a83ff2303d31323ba02611293a",
+  "vocab_sha256": "2a50021ddd7e13fcf5c9c2c1687b5733e7b8e52bc803356940b09ff548320860",
+  "script_sha256": "7a90e52703493332d4856041e128c7321c32ef9b50a84e38849ddcc82ea0c7ed"
+}

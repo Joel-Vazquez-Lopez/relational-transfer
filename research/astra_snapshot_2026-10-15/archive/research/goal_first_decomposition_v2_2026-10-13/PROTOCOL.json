@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-13",
+  "status": "prospectively frozen targeted follow-up; new data bank, five paired seeds",
+  "question": "Does training each operation with its irrelevant clause masked prevent an FF/RR correlation shortcut and improve FR/RF operation-plan composition at inference on the full question?",
+  "scope": "Predict only two role-direction operations from a generated nested question. Verb recognition, participant binding, and execution are deliberately excluded. This is not full inverted CoT or an LLM repair.",
+  "data": "Fresh data excludes all old exact sentence/question signatures. 6000 train FF/RR, 400 development FF/RR, 400 in-domain FF/RR, 400 mixed FR/RF. Same event grammar and name/verb vocabulary as old pilot.",
+  "arms": [
+    "joint_replay",
+    "clause_decomposition"
+  ],
+  "seeds": [
+    11,
+    23,
+    37,
+    41,
+    53
+  ],
+  "epochs": 10,
+  "batch": 128,
+  "learning_rate": 0.001,
+  "dimension": 64,
+  "layers": 2,
+  "heads": 4,
+  "matched": "Both arms use the same architecture, initial seed, training rows and order, optimizer, updates, and four direction labels per row. Primary views are full questions for both. Auxiliary views are a second full-question copy for joint_replay and a same-length masked-clause view for clause_decomposition. Thus input information differs by design, but labels, length, and gradient opportunities are matched.",
+  "primary": "Free prediction on full unmasked questions: both operation directions correct on 400 fresh mixed items, each paired seed. Also report individual direction accuracy, in-domain both-correct, invalids (not applicable to classifier), and masked-view diagnostic. No oracle segmentation at primary inference.",
+  "positive_screen": "All five seeds must reach >=360/400 in-domain both-correct for the comparison to be interpretable. Clause decomposition must exceed joint replay by >=40/400 mixed both-correct in at least four of five paired seeds, have a positive five-seed mean, and lose <=10/400 in-domain in each seed. This is a development signal; independent syntax and task-family tests still required.",
+  "limits": "Masked auxiliary views are constructed from known query grammar, so the training intervention receives oracle clause boundaries. The generated grammar is narrow; success does not show general task decomposition, learnable segmentation, or internal procedure use. No entity execution is trained. Five seeds share the same test items.",
+  "data_script_sha256": "7e1c0c5e14277cc25d80aa135d7235d4c3897d7e9bac5754c98e06d0519553cc",
+  "data_sha256": "586dced9f37183da22e8600bfff4aee7230d6cf69f7b79db72d8abac8126673a",
+  "audit_sha256": "b2b739498b851e2fbe78633a6c1245489b2f2ea861fc19e9b16fa6714445e410",
+  "vocab_sha256": "1a018e932d6143a0dbb6990f5663a1544b9d91302581ed065d4cd3464aa8729a",
+  "script_sha256": "7ea104bc8e99d58ffa2b14da79a166a04c2e5b0c7c9f494075289f31b1ef2b7f"
+}

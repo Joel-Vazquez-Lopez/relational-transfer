@@ -1,0 +1,71 @@
+{
+  "status": "exploratory_development_only",
+  "scores": {
+    "fresh1": {
+      "typed": {
+        "training": {
+          "target_tokens": 4238
+        },
+        "exact": 111,
+        "both_answers": 31,
+        "actor_exact": 54,
+        "patient_exact": 57,
+        "both_printed_roles": 82,
+        "routed_exact": 119,
+        "answer_matches_field": 166,
+        "parsed": 196,
+        "tag_correct": 191
+      },
+      "neutral": {
+        "training": {
+          "target_tokens": 4238
+        },
+        "exact": 88,
+        "both_answers": 11,
+        "actor_exact": 40,
+        "patient_exact": 48,
+        "both_printed_roles": 79,
+        "routed_exact": 118,
+        "answer_matches_field": 112,
+        "parsed": 199,
+        "tag_correct": 191
+      }
+    },
+    "fresh3": {
+      "typed": {
+        "training": {
+          "target_tokens": 4238
+        },
+        "exact": 93,
+        "both_answers": 21,
+        "actor_exact": 42,
+        "patient_exact": 51,
+        "both_printed_roles": 69,
+        "routed_exact": 105,
+        "answer_matches_field": 156,
+        "parsed": 191,
+        "tag_correct": 191
+      },
+      "neutral": {
+        "training": {
+          "target_tokens": 4238
+        },
+        "exact": 88,
+        "both_answers": 13,
+        "actor_exact": 40,
+        "patient_exact": 48,
+        "both_printed_roles": 81,
+        "routed_exact": 118,
+        "answer_matches_field": 112,
+        "parsed": 198,
+        "tag_correct": 191
+      }
+    }
+  },
+  "positive_screen_by_start": {
+    "fresh1": true,
+    "fresh3": false
+  },
+  "positive_screen_all": false,
+  "limits": "This isolates a candidate-free input condition and cue comparison, not an original general method. QA-SRL labels are human question/answer annotations but our semantic mapping is automatic. Actor-first skew, one 0.5B model family, two related starts, previously developed source corpus, and unknown pretraining overlap preclude a natural-language repair claim."
+}

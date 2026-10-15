@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-13",
+  "status": "exploratory test designed after v4; fresh generated examples and five selector seeds",
+  "question": "Can a supervised token selector learn to derive the clause views from intact questions, then transfer its predicted views to a frozen local-operation model on unseen mixed operation pairs?",
+  "data": "Train selectors on the 6000 v4 FF/RR questions. Test on 400 new FF/RR and 400 new FR/RF complete sentence/question pairs, excluding all earlier exact pair signatures. Mixed compositional patterns were unseen in selector and planner training.",
+  "model": "2-layer 64-dimensional 4-head Transformer token classifier trained to keep/drop words for each requested step; no gold clause mask at test. Frozen v4 clause_decomposition planner checkpoints provide operation decisions.",
+  "controls": "Record selector exact-mask accuracy, operation accuracy with predicted masks, oracle masks, and the planner's original full-question prediction. The same seed is used for selector and frozen planner, but this is not a fresh planner training comparison.",
+  "positive_screen": "In at least four of five starts, exact masks >=380/400 for both unseen mixed operation pairs jointly and both operation choices >=380/400 with predicted masks. Full-question planner results remain reported as a control.",
+  "limits": "The selector gets explicit gold keep/drop supervision derived from the generator. The syntax has only two templates, and exact question strings may recur because only full sentence/question pairs are excluded. Passing cannot show that a model invents decompositions, works on natural language, or has a general planning ability.",
+  "seeds": [
+    11,
+    23,
+    37,
+    41,
+    53
+  ],
+  "selector_epochs": 10,
+  "selector_batch": 128,
+  "prior_signatures_excluded": 26800,
+  "padding_token_id": 2,
+  "data_sha256": "c263ef8127bf4b6eb2ede1d994543d48fc35d15a5aa2897cb110c350bf67de61",
+  "v4_protocol_sha256": "7cb4f13af6b1cd813a7dfcf81084e0914c5fc1b4c53a0953ac2ace6e87d7b55f",
+  "v4_data_sha256": "755680f19f8d27b21879102a8b7810746e94c19d102e4b3e15c8b0a3e09a17c3",
+  "v4_vocab_sha256": "2a50021ddd7e13fcf5c9c2c1687b5733e7b8e52bc803356940b09ff548320860",
+  "script_sha256": "971d6551edc1c70f817af9fa5704480764f08e9c2ded212a28a8a2895c236104"
+}

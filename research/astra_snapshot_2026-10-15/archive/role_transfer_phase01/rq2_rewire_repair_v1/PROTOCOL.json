@@ -1,0 +1,40 @@
+{
+  "status": "frozen_before_training",
+  "date": "2026-10-09",
+  "question": "Does ordered-role auxiliary training reduce the focal high-versus-sham transfer penalty relative to a parameter- and compute-matched unordered-identity auxiliary control on fresh matched rewiring graphs?",
+  "design": {
+    "families": 8,
+    "seeds_per_family": 3,
+    "conditions": [
+      "sham",
+      "high"
+    ],
+    "training_arms": [
+      "unordered_identities",
+      "ordered_roles"
+    ],
+    "planned_models": 96,
+    "entities": 10,
+    "observed_pairs": 20,
+    "degree": 4,
+    "generator": "balanced distractors and dedicated padding",
+    "updates": 6000,
+    "batch_size": 128,
+    "auxiliary_weight": 0.5,
+    "same_focal_pair": "within each family and across all four condition/training cells",
+    "evaluation": "all 45 pairs; fixed 512-rendering suites 260107 primary and 260108 robustness"
+  },
+  "first_gate": "Unordered-control high-minus-sham focal binary-role accuracy, averaged over paired starts then eight equal-weight families, must be <= -0.10 with two-sided exact family sign-flip p <= 0.05",
+  "primary_endpoint": "(ordered high-minus-sham focal binary-role accuracy) minus (unordered high-minus-sham focal binary-role accuracy), paired within seed and averaged within family, then equal-weight across eight families; final checkpoint, scene suite 260107",
+  "primary_test": "Only if first gate passes, exact two-sided sign-flip over eight family-level attenuation effects, all 256 assignments",
+  "primary_success": "mean attenuation >= +0.10; p <= 0.05; all ordered models familiar four-choice accuracy >=0.95; mean ordered-minus-unordered familiar four-choice >= -0.01 and unseen event accuracy >= -0.02",
+  "uncertainty": "report all family-level penalties and attenuation effects with graph-level t(7) 95 percent intervals; seeds, pairs and scene items are nested within graph family",
+  "secondary": [
+    "second scene suite attenuation",
+    "high-condition ordered-minus-unordered focal accuracy",
+    "familiar and event accuracy by condition",
+    "all other unseen pairs"
+  ],
+  "missingness": "no graph, seed or checkpoint replacement based on results; only same-configuration technical reruns",
+  "interpretation": "Positive attenuation shows ordered-role training protects against this matched rewiring package. It does not identify overlap as the unique cause or establish transfer to natural-language LLMs."
+}

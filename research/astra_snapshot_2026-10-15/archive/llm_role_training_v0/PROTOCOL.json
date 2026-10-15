@@ -1,0 +1,12 @@
+{
+  "status": "feasibility_fixed_before_run",
+  "date": "2026-10-07",
+  "purpose": "Measure whether local CPU-only, open-weight Qwen2.5-0.5B-Instruct can support a matched role-supervision fine-tuning experiment without downloading data or changing the synthetic confirmation.",
+  "model": "Locally cached Qwen/Qwen2.5-0.5B-Instruct, snapshot 7ae557604adf67be50417f59c2c2f167def9a775",
+  "device": "CPU; two PyTorch threads; no MPS available in the installed environment",
+  "adapter": "Manually implemented rank-four LoRA on every q_proj and v_proj, alpha eight, base model frozen",
+  "example": "One active sentence and a question about its actor; assistant target is the actor name. Two 10-way heads predict actor and patient from the hidden state immediately before answer generation.",
+  "objective": "Assistant next-token cross-entropy plus 0.5 times the mean of the two role-classification cross-entropies.",
+  "run": "Five optimizer updates on one fixed example, batch size one; record step times, final losses, parameter and gradient counts, and process peak RSS. Do not save or evaluate this model as a research outcome.",
+  "gate": "If finite gradients reach LoRA and heads, all five steps finish, and projected training time is tractable, design and freeze a full matched training study. This is not evidence that LLM roles were repaired."
+}

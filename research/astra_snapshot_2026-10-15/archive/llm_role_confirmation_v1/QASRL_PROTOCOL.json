@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-10",
+  "status": "fixed_before_authentic_inference",
+  "source": "QA-SRL Gold (plroit/qasrl-gs); 63 unique source sentences selected from 100 rule-filtered candidates by source/annotation inspection before inference",
+  "source_candidate_sha256": "61533aba900d98a7d97ff70bc08c4a6f0fec9f7a9ad8731b751170761364f888",
+  "model": "Qwen2.5-1.5B-Instruct, same fixed local snapshot, no weight updates",
+  "model_weights_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+  "source_sha256": "1b05eb403dcf829f24c272fea0119e00ee2e3a30ecb56fbcbf619b1b976562f4",
+  "design": "63 source sentences x actor/patient query x two fixed question wordings x both A/B choice orders = 504 prompts. Whole source sentences retained, with original corpus token spacing. Options reproduce annotated spans. Source is human annotated; candidate screening here was performed by an AI assistant, not independently checked by the student.",
+  "scoring": "Greedy next token stripped, valid iff exactly A or B; accuracy against chosen annotated span; invalid counted wrong. Report per role, wording and option order, and complete eight-prompt event reliability.",
+  "interpretation": "This tests role choice on selected authentic text, separately from constructed active/passive transfer. It cannot establish an unseen-pretraining relation or causal graph effect. Any publication claim needs independent human verification of all labels and a second model."
+}

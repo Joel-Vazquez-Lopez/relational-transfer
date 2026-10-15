@@ -1,0 +1,33 @@
+{
+  "status": "frozen before candidate-free training and dev inference",
+  "date": "2026-10-14",
+  "phase": "exploratory development, not publication confirmation",
+  "question": "Can a typed requested-role cue still improve end-to-end role answers when the model must extract participants from natural sentences rather than select supplied candidates?",
+  "design": "Two matched arms (ACTOR/PATIENT cue vs neutral NONE cue), two starts, original QA-SRL Bank questions and consensus answer spans. No candidate spans in training or evaluation. Same 160 prior natural training items, two role questions per item, 160 updates, same role-first output targets and optimizer. Compare final answer and printed role-field accuracy separately.",
+  "development": "100 deterministic one-predicate-per-sentence QA-SRL Bank original-dev items, sentence-disjoint from train. This source was used in earlier broad development, so the set is not independent confirmation. The automatic actor/other direct-participant mapping has no independent human review; almost all selected sentences put actor first.",
+  "primary": "Both actor and patient direct final answers exact per sentence /100; also individual exact /200. Typed-minus-neutral gain >=10/100 both-correct and >=20/200 exact in both starts, without >10/200 loss in both printed role fields, is an exploratory positive screen.",
+  "secondary": "Printed actor/patient exact, answer agreement with requested printed field, invalid schema, role-tag classifier accuracy. The classifier trains on training questions only. No candidate-list lines appear in prompts.",
+  "limits": "This isolates a candidate-free input condition and cue comparison, not an original general method. QA-SRL labels are human question/answer annotations but our semantic mapping is automatic. Actor-first skew, one 0.5B model family, two related starts, previously developed source corpus, and unknown pretraining overlap preclude a natural-language repair claim.",
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "arms": [
+    "typed",
+    "neutral"
+  ],
+  "seed": 910214,
+  "learning_rate": 5e-05,
+  "updates_per_checkpoint": 160,
+  "dev_items": 100,
+  "script_sha256": "1aae57277dd6ae9c4d6019dee47abd30faa433b97c6b0f6d9cee3d636388cbf1",
+  "analysis_sha256": "e67bcb2f4af48cee3c8fc5f817763168f13ffefeb1868c5aa766b54e818cf954",
+  "runner_sha256": "61b72562069d84b07784ebf9b50fde445b4470a23e2f56af12d8ce31f0a4bb81",
+  "splits_sha256": "d64c82d87f1087b43810c2e41fa014109b0386bbec30048032050914ee709cd8",
+  "source_dev_sha256": "c186acf2bfd4a211ed1ff31bbae4fbe39c53f9a4d5c802c942e716c53baed1bb",
+  "prior_protocol_sha256": "f57a13e17e726afbb56d16bac504198732990b1dde2b38a5411e4b9a3527db83",
+  "source_adapters_sha256": {
+    "fresh1": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e",
+    "fresh3": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48"
+  }
+}

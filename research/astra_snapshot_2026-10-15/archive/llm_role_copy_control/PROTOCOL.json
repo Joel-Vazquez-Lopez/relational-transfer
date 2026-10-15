@@ -1,0 +1,16 @@
+{
+  "status": "post_EWT_first_start_result_diagnostic_fixed_before_copy_training",
+  "date": "2026-10-12",
+  "design": "Start from the same fresh1 participant-only adapter. Use the identical ordered 256 natural QA-SRL train events, two gold answer spans per update, 256 AdamW updates at LR 5e-5, and no synthetic replay. Replace the actor/object question with an explicit copy request naming the exact gold span. This preserves natural sentences, answer strings, update count, and answer-format practice, but removes any requirement to infer role from the question. Prompt tokens are not identical and this is an imperfect matched control.",
+  "evaluation": "Evaluate frozen 75-item EWT cross-corpus primary candidate contrast under original role questions, sentence-omitted contrast, and 130-item Bank candidate contrast. Compare source, copy control, and natural-role adaptation per item. No exclusions. The first EWT natural-only result was already seen, so this is diagnostic, not blind confirmation.",
+  "interpretation": "A copy-control gain as large as role-adaptation gain would weaken a role-specific interpretation. A smaller gain would support, but not prove, a role-question contribution because training prompts differ.",
+  "n_train": 256,
+  "n_ewt": 75,
+  "references": {
+    "source_adapter_sha256": "8b114fa025a91199702d685da46b859e9d9e0ea08293cf9c5ac78a8c7eaa2e79",
+    "train_sha256": "70609ac375d05937e85c7b9bd791a1f4274565e4109d8c4b70d590f4519f7686",
+    "ewt_protocol_sha256": "323abca6180e7bec61ebd9b0c65203d0405cae22a1288739aa6043320a9788be",
+    "ewt_events_sha256": "9f108d08e2955228a2a232f056e6919ed22f2057223ff9cfdc70fb3004da928b",
+    "script_sha256": "4b26d22c338023a8cb2d6b22adbc2272be5381b4876ea560a842b417c5225652"
+  }
+}

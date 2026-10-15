@@ -1,0 +1,8 @@
+{
+  "analysis_sha256": "d498ae9c9151870a39573989272b7f113cd925b41a3d3e203ae198ceb5df9ed3",
+  "recorded_utc": "2026-10-15T09:03:53.252232+00:00",
+  "scope": "Exploratory analysis implemented during generation, before viewing any new condition scores. Generation design frozen before inference; do not describe this as independent preregistered confirmation.",
+  "compliance_definition": "nonempty contiguous normalized phrase from available sentence or a supplied field, without the target verb; operational format measure, not a complete grammatical NP judgment",
+  "semantic_limit": "Referent alias scoring is AI-provisional; source-span EM remains separate. No independent human semantic validation.",
+  "non_eos_rule": "Non-EOS budget/length terminations count as failed answers, regardless of a matching truncated span."
+}

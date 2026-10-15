@@ -1,0 +1,31 @@
+{
+  "status": "fixed_before_training",
+  "date": "2026-10-10",
+  "purpose": "Pilot whether ordered semantic-role supervision and transformation-aware consistency improve correct role transfer in a pretrained decoder model.",
+  "model": "Qwen2.5-0.5B-Instruct local unmodified snapshot before LoRA",
+  "model_weights_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+  "source_sha256": "f895d7b66649fe963028dd8b920c917352232c7340e6b87ab201850ec76efd50",
+  "graph_sha256": "706f190e41453b32990985c68b499ae15541c2f099ba1ea17a9720cd2512b097",
+  "design": "One 10-name graph, 20 observed and 25 withheld unordered pairs. All arms train on identical 240 examples: 20 observed pairs x 3 verbs x 2 directions x 2 voices. Only actor question 'Who performed the action?' is in training. Four matched training groups plus unmodified reference.",
+  "arms": [
+    "pretrained",
+    "ordinary",
+    "generic_consistency",
+    "ordered_roles",
+    "ordered_plus_transformations"
+  ],
+  "training": {
+    "ordinary": "Supervised answer loss alone.",
+    "generic_consistency": "Same supervised loss plus Jensen-Shannon agreement of two-name actor distributions between active/passive renderings of each directed event.",
+    "ordered_roles": "Same supervised loss plus ordered actor and patient ID cross-entropy from the final prompt state.",
+    "ordered_plus_transformations": "Same supervised loss and ordered heads, plus voice agreement and Jensen-Shannon equivariance when the two participant roles are reversed.",
+    "matched": "Same group ordering, all four sentence variants per group, LoRA architecture and initialization, two epochs (120 updates), learning rate 1e-4, no test-based tuning. Each additional objective uses the same four training examples.",
+    "weights": {
+      "ordered": 0.5,
+      "voice": 0.5,
+      "role_swap": 0.5
+    }
+  },
+  "evaluation": "All 45 name pairs x two directions x five verbs (three seen and two unseen) x four forms (two seen and two unseen clefts) x three fixed actor questions (one seen and two unseen) = 5400 prompts per arm. Greedy first token; exact actor name counts correct; invalid token wrong. Primary pilot subset is 25 withheld pairs x 2 directions x 3 seen verbs x 2 seen forms x 3 questions (900 prompts). Also report unseen verbs, unseen forms, all-variant event correctness, invalid rate, per-pair results and familiar-pair retention. No post-hoc exclusions.",
+  "interpretation": "One graph, one training start and one small model family constitute a feasibility and direction pilot. A repair claim requires fresh graph, independent starts and model families with frozen replication criteria."
+}

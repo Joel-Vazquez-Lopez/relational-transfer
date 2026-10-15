@@ -1,0 +1,19 @@
+{
+  "status": "fixed_after_primary_results_before_field_only_inference",
+  "date": "2026-10-15",
+  "scope": "Exploratory follow-up on same 24 examined events",
+  "question": "Does showing the original question alter extraction when the output schema and extraction instruction are identical?",
+  "design": "Reuse question-blind extraction for each event. Generate extraction twice with each original question appended. Identical system instruction, Subject prefix, max tokens, target verb, weights and decoding. No final Answer field is requested in either arm. Query information and input length still differ. This does not isolate a hidden mechanism.",
+  "models": [
+    "0.5b",
+    "1.5b"
+  ],
+  "records_per_model": 48,
+  "primary": "Paired both-correct subject/object answers from requested generated fields versus blind extraction, with deterministic or existing trained question-role selector. Also role-tuple changes, parse failures, field-wise correctness. No success threshold or significance-based continuation.",
+  "parent_protocol_sha256": "6f5623f0f2cf4be0d6b4b07db7b158292c3c82a83adcb867535647a9ecc0f214",
+  "script_sha256": "c36a77cf7f034aaf8203a0a200420ef1ad96663c2fcc7c0a59e32f7ad0ab1198",
+  "baseline_hashes": {
+    "0.5b": "eeacad742a939056f07dc9205fb4dcb29464b850d554128c38dcff39e127fdd0",
+    "1.5b": "994419bf508665efc8bc6e86d50392ef5520f87237b78c33880d29cfb79b763c"
+  }
+}

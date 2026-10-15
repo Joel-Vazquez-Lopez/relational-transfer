@@ -1,0 +1,1094 @@
+{
+  "scope": "Exploratory 12 previously examined events from12 source documents, one model; all intervals descriptive without multiplicity control",
+  "semantic_scoring_limit": "Original QA-SRL exact span and separately provisional referent-alias correctness, not independent human semantic Agent/Patient validation",
+  "cells": {
+    "generated/sentence0/history0/intact": {
+      "n_outputs": 48,
+      "n_events": 12,
+      "exact": 23,
+      "semantic_proxy": 27,
+      "compliant": 45,
+      "follows_requested": 27,
+      "follows_opposite": 14,
+      "nondegenerate": 44,
+      "follows_first": 21,
+      "follows_last": 20,
+      "budget_failure": 0,
+      "length_termination": 0,
+      "mean_work_proxy": 495265120256.0,
+      "mean_budget_fraction": 0.6009754526310339,
+      "both_role_success_mean": 0.125,
+      "by_order": {
+        "subject_first": {
+          "n": 24,
+          "exact": 10,
+          "semantic_proxy": 13,
+          "compliant": 21
+        },
+        "object_first": {
+          "n": 24,
+          "exact": 13,
+          "semantic_proxy": 14,
+          "compliant": 24
+        }
+      },
+      "by_role": {
+        "subject": {
+          "n": 24,
+          "exact": 12,
+          "semantic_proxy": 13
+        },
+        "object": {
+          "n": 24,
+          "exact": 11,
+          "semantic_proxy": 14
+        }
+      }
+    },
+    "generated/sentence0/history0/swapped": {
+      "n_outputs": 48,
+      "n_events": 12,
+      "exact": 18,
+      "semantic_proxy": 19,
+      "compliant": 45,
+      "follows_requested": 21,
+      "follows_opposite": 20,
+      "nondegenerate": 44,
+      "follows_first": 22,
+      "follows_last": 19,
+      "budget_failure": 0,
+      "length_termination": 0,
+      "mean_work_proxy": 494553823232.0,
+      "mean_budget_fraction": 0.600020577504279,
+      "both_role_success_mean": 0.08333333333333333,
+      "by_order": {
+        "subject_first": {
+          "n": 24,
+          "exact": 9,
+          "semantic_proxy": 10,
+          "compliant": 22
+        },
+        "object_first": {
+          "n": 24,
+          "exact": 9,
+          "semantic_proxy": 9,
+          "compliant": 23
+        }
+      },
+      "by_role": {
+        "subject": {
+          "n": 24,
+          "exact": 6,
+          "semantic_proxy": 6
+        },
+        "object": {
+          "n": 24,
+          "exact": 12,
+          "semantic_proxy": 13
+        }
+      }
+    },
+    "generated/sentence0/history1/intact": {
+      "n_outputs": 48,
+      "n_events": 12,
+      "exact": 0,
+      "semantic_proxy": 0,
+      "compliant": 0,
+      "follows_requested": 0,
+      "follows_opposite": 0,
+      "nondegenerate": 44,
+      "follows_first": 0,
+      "follows_last": 0,
+      "budget_failure": 0,
+      "length_termination": 0,
+      "mean_work_proxy": 620680221696.0,
+      "mean_budget_fraction": 0.7536809213843622,
+      "both_role_success_mean": 0.0,
+      "by_order": {
+        "subject_first": {
+          "n": 24,
+          "exact": 0,
+          "semantic_proxy": 0,
+          "compliant": 0
+        },
+        "object_first": {
+          "n": 24,
+          "exact": 0,
+          "semantic_proxy": 0,
+          "compliant": 0
+        }
+      },
+      "by_role": {
+        "subject": {
+          "n": 24,
+          "exact": 0,
+          "semantic_proxy": 0
+        },
+        "object": {
+          "n": 24,
+          "exact": 0,
+          "semantic_proxy": 0
+        }
+      }
+    },
+    "generated/sentence0/history1/swapped": {
+      "n_outputs": 48,
+      "n_events": 12,
+      "exact": 0,
+      "semantic_proxy": 0,
+      "compliant": 0,
+      "follows_requested": 0,
+      "follows_opposite": 0,
+      "nondegenerate": 44,
+      "follows_first": 0,
+      "follows_last": 0,
+      "budget_failure": 0,
+      "length_termination": 0,
+      "mean_work_proxy": 620680282624.0,
+      "mean_budget_fraction": 0.7537327036719331,
+      "both_role_success_mean": 0.0,
+      "by_order": {
+        "subject_first": {
+          "n": 24,
+          "exact": 0,
+          "semantic_proxy": 0,
+          "compliant": 0
+        },
+        "object_first": {
+          "n": 24,
+          "exact": 0,
+          "semantic_proxy": 0,
+          "compliant": 0
+        }
+      },
+      "by_role": {
+        "subject": {
+          "n": 24,
+          "exact": 0,
+          "semantic_proxy": 0
+        },
+        "object": {
+          "n": 24,
+          "exact": 0,
+          "semantic_proxy": 0
+        }
+      }
+    },
+    "generated/sentence1/history0/intact": {
+      "n_outputs": 48,
+      "n_events": 12,
+      "exact": 26,
+      "semantic_proxy": 32,
+      "compliant": 42,
+      "follows_requested": 27,
+      "follows_opposite": 8,
+      "nondegenerate": 44,
+      "follows_first": 18,
+      "follows_last": 17,
+      "budget_failure": 0,
+      "length_termination": 0,
+      "mean_work_proxy": 562679009280.0,
+      "mean_budget_fraction": 0.6813233115393423,
+      "both_role_success_mean": 0.25,
+      "by_order": {
+        "subject_first": {
+          "n": 24,
+          "exact": 13,
+          "semantic_proxy": 16,
+          "compliant": 21
+        },
+        "object_first": {
+          "n": 24,
+          "exact": 13,
+          "semantic_proxy": 16,
+          "compliant": 21
+        }
+      },
+      "by_role": {
+        "subject": {
+          "n": 24,
+          "exact": 13,
+          "semantic_proxy": 15
+        },
+        "object": {
+          "n": 24,
+          "exact": 13,
+          "semantic_proxy": 17
+        }
+      }
+    },
+    "generated/sentence1/history0/swapped": {
+      "n_outputs": 48,
+      "n_events": 12,
+      "exact": 20,
+      "semantic_proxy": 26,
+      "compliant": 42,
+      "follows_requested": 14,
+      "follows_opposite": 21,
+      "nondegenerate": 44,
+      "follows_first": 17,
+      "follows_last": 18,
+      "budget_failure": 0,
+      "length_termination": 0,
+      "mean_work_proxy": 563261306368.0,
+      "mean_budget_fraction": 0.682062559571765,
+      "both_role_success_mean": 0.125,
+      "by_order": {
+        "subject_first": {
+          "n": 24,
+          "exact": 9,
+          "semantic_proxy": 12,
+          "compliant": 21
+        },
+        "object_first": {
+          "n": 24,
+          "exact": 11,
+          "semantic_proxy": 14,
+          "compliant": 21
+        }
+      },
+      "by_role": {
+        "subject": {
+          "n": 24,
+          "exact": 10,
+          "semantic_proxy": 12
+        },
+        "object": {
+          "n": 24,
+          "exact": 10,
+          "semantic_proxy": 14
+        }
+      }
+    },
+    "generated/sentence1/history1/intact": {
+      "n_outputs": 48,
+      "n_events": 12,
+      "exact": 7,
+      "semantic_proxy": 9,
+      "compliant": 18,
+      "follows_requested": 7,
+      "follows_opposite": 7,
+      "nondegenerate": 44,
+      "follows_first": 7,
+      "follows_last": 7,
+      "budget_failure": 0,
+      "length_termination": 0,
+      "mean_work_proxy": 688430260736.0,
+      "mean_budget_fraction": 0.8342739218434296,
+      "both_role_success_mean": 0.0,
+      "by_order": {
+        "subject_first": {
+          "n": 24,
+          "exact": 3,
+          "semantic_proxy": 4,
+          "compliant": 9
+        },
+        "object_first": {
+          "n": 24,
+          "exact": 4,
+          "semantic_proxy": 5,
+          "compliant": 9
+        }
+      },
+      "by_role": {
+        "subject": {
+          "n": 24,
+          "exact": 2,
+          "semantic_proxy": 2
+        },
+        "object": {
+          "n": 24,
+          "exact": 5,
+          "semantic_proxy": 7
+        }
+      }
+    },
+    "generated/sentence1/history1/swapped": {
+      "n_outputs": 48,
+      "n_events": 12,
+      "exact": 8,
+      "semantic_proxy": 11,
+      "compliant": 19,
+      "follows_requested": 6,
+      "follows_opposite": 9,
+      "nondegenerate": 44,
+      "follows_first": 7,
+      "follows_last": 8,
+      "budget_failure": 0,
+      "length_termination": 0,
+      "mean_work_proxy": 688754536448.0,
+      "mean_budget_fraction": 0.8346806565670715,
+      "both_role_success_mean": 0.0,
+      "by_order": {
+        "subject_first": {
+          "n": 24,
+          "exact": 4,
+          "semantic_proxy": 6,
+          "compliant": 10
+        },
+        "object_first": {
+          "n": 24,
+          "exact": 4,
+          "semantic_proxy": 5,
+          "compliant": 9
+        }
+      },
+      "by_role": {
+        "subject": {
+          "n": 24,
+          "exact": 2,
+          "semantic_proxy": 2
+        },
+        "object": {
+          "n": 24,
+          "exact": 6,
+          "semantic_proxy": 9
+        }
+      }
+    },
+    "reference/sentence1/history0/intact": {
+      "n_outputs": 48,
+      "n_events": 12,
+      "exact": 34,
+      "semantic_proxy": 34,
+      "compliant": 42,
+      "follows_requested": 34,
+      "follows_opposite": 8,
+      "nondegenerate": 48,
+      "follows_first": 25,
+      "follows_last": 17,
+      "budget_failure": 0,
+      "length_termination": 0,
+      "mean_work_proxy": 563596916736.0,
+      "mean_budget_fraction": 0.6821560106584722,
+      "both_role_success_mean": 0.5,
+      "by_order": {
+        "subject_first": {
+          "n": 24,
+          "exact": 18,
+          "semantic_proxy": 18,
+          "compliant": 21
+        },
+        "object_first": {
+          "n": 24,
+          "exact": 16,
+          "semantic_proxy": 16,
+          "compliant": 21
+        }
+      },
+      "by_role": {
+        "subject": {
+          "n": 24,
+          "exact": 15,
+          "semantic_proxy": 15
+        },
+        "object": {
+          "n": 24,
+          "exact": 19,
+          "semantic_proxy": 19
+        }
+      }
+    },
+    "reference/sentence1/history0/swapped": {
+      "n_outputs": 48,
+      "n_events": 12,
+      "exact": 26,
+      "semantic_proxy": 26,
+      "compliant": 42,
+      "follows_requested": 16,
+      "follows_opposite": 26,
+      "nondegenerate": 48,
+      "follows_first": 18,
+      "follows_last": 24,
+      "budget_failure": 0,
+      "length_termination": 0,
+      "mean_work_proxy": 563467526144.0,
+      "mean_budget_fraction": 0.6819913564634614,
+      "both_role_success_mean": 0.25,
+      "by_order": {
+        "subject_first": {
+          "n": 24,
+          "exact": 13,
+          "semantic_proxy": 13,
+          "compliant": 21
+        },
+        "object_first": {
+          "n": 24,
+          "exact": 13,
+          "semantic_proxy": 13,
+          "compliant": 21
+        }
+      },
+      "by_role": {
+        "subject": {
+          "n": 24,
+          "exact": 11,
+          "semantic_proxy": 11
+        },
+        "object": {
+          "n": 24,
+          "exact": 15,
+          "semantic_proxy": 15
+        }
+      }
+    },
+    "direct": {
+      "n_outputs": 24,
+      "n_events": 12,
+      "exact": 11,
+      "semantic_proxy": 14,
+      "compliant": 22,
+      "follows_requested": 0,
+      "follows_opposite": 0,
+      "nondegenerate": 0,
+      "follows_first": 0,
+      "follows_last": 0,
+      "budget_failure": 0,
+      "length_termination": 0,
+      "mean_work_proxy": 263742147584.0,
+      "mean_budget_fraction": 0.3191975171397628,
+      "both_role_success_mean": 0.16666666666666666,
+      "by_order": {},
+      "by_role": {
+        "subject": {
+          "n": 12,
+          "exact": 6,
+          "semantic_proxy": 7
+        },
+        "object": {
+          "n": 12,
+          "exact": 5,
+          "semantic_proxy": 7
+        }
+      }
+    },
+    "direct_review": {
+      "n_outputs": 24,
+      "n_events": 12,
+      "exact": 6,
+      "semantic_proxy": 10,
+      "compliant": 24,
+      "follows_requested": 0,
+      "follows_opposite": 0,
+      "nondegenerate": 0,
+      "follows_first": 0,
+      "follows_last": 0,
+      "budget_failure": 0,
+      "length_termination": 0,
+      "mean_work_proxy": 623369693184.0,
+      "mean_budget_fraction": 0.7550177963187058,
+      "both_role_success_mean": 0.0,
+      "by_order": {},
+      "by_role": {
+        "subject": {
+          "n": 12,
+          "exact": 3,
+          "semantic_proxy": 4
+        },
+        "object": {
+          "n": 12,
+          "exact": 3,
+          "semantic_proxy": 6
+        }
+      }
+    }
+  },
+  "contrasts": {
+    "generated_sentence_fresh_minus_direct/exact": {
+      "difference_pp": 8.333333333333334,
+      "paired_event_bootstrap_95_pp": [
+        -6.25,
+        22.916666666666668
+      ],
+      "event_gains": 3,
+      "event_losses": 2,
+      "event_ties": 7,
+      "n_events": 12
+    },
+    "generated_sentence_fresh_minus_direct_review/exact": {
+      "difference_pp": 29.166666666666668,
+      "paired_event_bootstrap_95_pp": [
+        12.5,
+        47.916666666666664
+      ],
+      "event_gains": 6,
+      "event_losses": 0,
+      "event_ties": 6,
+      "n_events": 12
+    },
+    "sentence_effect_history0/exact": {
+      "difference_pp": 6.25,
+      "paired_event_bootstrap_95_pp": [
+        -8.333333333333334,
+        20.833333333333332
+      ],
+      "event_gains": 5,
+      "event_losses": 2,
+      "event_ties": 5,
+      "n_events": 12
+    },
+    "sentence_effect_history1/exact": {
+      "difference_pp": 14.583333333333334,
+      "paired_event_bootstrap_95_pp": [
+        4.166666666666667,
+        27.083333333333332
+      ],
+      "event_gains": 4,
+      "event_losses": 0,
+      "event_ties": 8,
+      "n_events": 12
+    },
+    "transcript_effect_sentence0/exact": {
+      "difference_pp": -47.916666666666664,
+      "paired_event_bootstrap_95_pp": [
+        -62.5,
+        -35.416666666666664
+      ],
+      "event_gains": 0,
+      "event_losses": 11,
+      "event_ties": 1,
+      "n_events": 12
+    },
+    "transcript_effect_sentence1/exact": {
+      "difference_pp": -39.583333333333336,
+      "paired_event_bootstrap_95_pp": [
+        -56.25,
+        -20.833333333333332
+      ],
+      "event_gains": 0,
+      "event_losses": 8,
+      "event_ties": 4,
+      "n_events": 12
+    },
+    "sentence_x_transcript/exact": {
+      "difference_pp": 8.333333333333334,
+      "paired_event_bootstrap_95_pp": [
+        -8.333333333333334,
+        25.0
+      ],
+      "event_gains": 5,
+      "event_losses": 3,
+      "event_ties": 4,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence0_history0/exact": {
+      "difference_pp": 10.416666666666666,
+      "paired_event_bootstrap_95_pp": [
+        -2.0833333333333335,
+        22.916666666666668
+      ],
+      "event_gains": 5,
+      "event_losses": 2,
+      "event_ties": 5,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence0_history1/exact": {
+      "difference_pp": 0.0,
+      "paired_event_bootstrap_95_pp": [
+        0.0,
+        0.0
+      ],
+      "event_gains": 0,
+      "event_losses": 0,
+      "event_ties": 12,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence1_history0/exact": {
+      "difference_pp": 12.5,
+      "paired_event_bootstrap_95_pp": [
+        2.0833333333333335,
+        25.0
+      ],
+      "event_gains": 4,
+      "event_losses": 0,
+      "event_ties": 8,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence1_history1/exact": {
+      "difference_pp": -2.0833333333333335,
+      "paired_event_bootstrap_95_pp": [
+        -8.333333333333334,
+        4.166666666666667
+      ],
+      "event_gains": 1,
+      "event_losses": 2,
+      "event_ties": 9,
+      "n_events": 12
+    },
+    "generated_sentence_fresh_minus_direct/semantic_proxy": {
+      "difference_pp": 8.333333333333334,
+      "paired_event_bootstrap_95_pp": [
+        -10.416666666666666,
+        27.083333333333332
+      ],
+      "event_gains": 4,
+      "event_losses": 3,
+      "event_ties": 5,
+      "n_events": 12
+    },
+    "generated_sentence_fresh_minus_direct_review/semantic_proxy": {
+      "difference_pp": 25.0,
+      "paired_event_bootstrap_95_pp": [
+        8.333333333333334,
+        45.833333333333336
+      ],
+      "event_gains": 5,
+      "event_losses": 0,
+      "event_ties": 7,
+      "n_events": 12
+    },
+    "sentence_effect_history0/semantic_proxy": {
+      "difference_pp": 10.416666666666666,
+      "paired_event_bootstrap_95_pp": [
+        -8.333333333333334,
+        27.083333333333332
+      ],
+      "event_gains": 6,
+      "event_losses": 3,
+      "event_ties": 3,
+      "n_events": 12
+    },
+    "sentence_effect_history1/semantic_proxy": {
+      "difference_pp": 18.75,
+      "paired_event_bootstrap_95_pp": [
+        6.25,
+        31.25
+      ],
+      "event_gains": 5,
+      "event_losses": 0,
+      "event_ties": 7,
+      "n_events": 12
+    },
+    "transcript_effect_sentence0/semantic_proxy": {
+      "difference_pp": -56.25,
+      "paired_event_bootstrap_95_pp": [
+        -70.83333333333333,
+        -41.666666666666664
+      ],
+      "event_gains": 0,
+      "event_losses": 11,
+      "event_ties": 1,
+      "n_events": 12
+    },
+    "transcript_effect_sentence1/semantic_proxy": {
+      "difference_pp": -47.916666666666664,
+      "paired_event_bootstrap_95_pp": [
+        -62.5,
+        -33.333333333333336
+      ],
+      "event_gains": 0,
+      "event_losses": 10,
+      "event_ties": 2,
+      "n_events": 12
+    },
+    "sentence_x_transcript/semantic_proxy": {
+      "difference_pp": 8.333333333333334,
+      "paired_event_bootstrap_95_pp": [
+        -8.333333333333334,
+        25.0
+      ],
+      "event_gains": 5,
+      "event_losses": 3,
+      "event_ties": 4,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence0_history0/semantic_proxy": {
+      "difference_pp": 16.666666666666668,
+      "paired_event_bootstrap_95_pp": [
+        4.166666666666667,
+        29.166666666666668
+      ],
+      "event_gains": 6,
+      "event_losses": 1,
+      "event_ties": 5,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence0_history1/semantic_proxy": {
+      "difference_pp": 0.0,
+      "paired_event_bootstrap_95_pp": [
+        0.0,
+        0.0
+      ],
+      "event_gains": 0,
+      "event_losses": 0,
+      "event_ties": 12,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence1_history0/semantic_proxy": {
+      "difference_pp": 12.5,
+      "paired_event_bootstrap_95_pp": [
+        2.0833333333333335,
+        25.0
+      ],
+      "event_gains": 4,
+      "event_losses": 0,
+      "event_ties": 8,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence1_history1/semantic_proxy": {
+      "difference_pp": -4.166666666666667,
+      "paired_event_bootstrap_95_pp": [
+        -12.5,
+        4.166666666666667
+      ],
+      "event_gains": 1,
+      "event_losses": 3,
+      "event_ties": 8,
+      "n_events": 12
+    },
+    "generated_sentence_fresh_minus_direct/compliant": {
+      "difference_pp": -4.166666666666667,
+      "paired_event_bootstrap_95_pp": [
+        -12.5,
+        0.0
+      ],
+      "event_gains": 0,
+      "event_losses": 1,
+      "event_ties": 11,
+      "n_events": 12
+    },
+    "generated_sentence_fresh_minus_direct_review/compliant": {
+      "difference_pp": -12.5,
+      "paired_event_bootstrap_95_pp": [
+        -25.0,
+        0.0
+      ],
+      "event_gains": 0,
+      "event_losses": 3,
+      "event_ties": 9,
+      "n_events": 12
+    },
+    "sentence_effect_history0/compliant": {
+      "difference_pp": -6.25,
+      "paired_event_bootstrap_95_pp": [
+        -22.916666666666668,
+        8.333333333333334
+      ],
+      "event_gains": 3,
+      "event_losses": 3,
+      "event_ties": 6,
+      "n_events": 12
+    },
+    "sentence_effect_history1/compliant": {
+      "difference_pp": 37.5,
+      "paired_event_bootstrap_95_pp": [
+        20.833333333333332,
+        56.25
+      ],
+      "event_gains": 8,
+      "event_losses": 0,
+      "event_ties": 4,
+      "n_events": 12
+    },
+    "transcript_effect_sentence0/compliant": {
+      "difference_pp": -93.75,
+      "paired_event_bootstrap_95_pp": [
+        -100.0,
+        -87.5
+      ],
+      "event_gains": 0,
+      "event_losses": 12,
+      "event_ties": 0,
+      "n_events": 12
+    },
+    "transcript_effect_sentence1/compliant": {
+      "difference_pp": -50.0,
+      "paired_event_bootstrap_95_pp": [
+        -62.5,
+        -37.5
+      ],
+      "event_gains": 0,
+      "event_losses": 11,
+      "event_ties": 1,
+      "n_events": 12
+    },
+    "sentence_x_transcript/compliant": {
+      "difference_pp": 43.75,
+      "paired_event_bootstrap_95_pp": [
+        31.25,
+        58.333333333333336
+      ],
+      "event_gains": 11,
+      "event_losses": 0,
+      "event_ties": 1,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence0_history0/compliant": {
+      "difference_pp": 0.0,
+      "paired_event_bootstrap_95_pp": [
+        -10.416666666666666,
+        12.5
+      ],
+      "event_gains": 2,
+      "event_losses": 3,
+      "event_ties": 7,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence0_history1/compliant": {
+      "difference_pp": 0.0,
+      "paired_event_bootstrap_95_pp": [
+        0.0,
+        0.0
+      ],
+      "event_gains": 0,
+      "event_losses": 0,
+      "event_ties": 12,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence1_history0/compliant": {
+      "difference_pp": 0.0,
+      "paired_event_bootstrap_95_pp": [
+        0.0,
+        0.0
+      ],
+      "event_gains": 0,
+      "event_losses": 0,
+      "event_ties": 12,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence1_history1/compliant": {
+      "difference_pp": -2.0833333333333335,
+      "paired_event_bootstrap_95_pp": [
+        -12.5,
+        8.333333333333334
+      ],
+      "event_gains": 1,
+      "event_losses": 3,
+      "event_ties": 8,
+      "n_events": 12
+    },
+    "generated_sentence_fresh_minus_direct/both_roles": {
+      "difference_pp": 8.333333333333334,
+      "paired_event_bootstrap_95_pp": [
+        -12.5,
+        37.5
+      ],
+      "event_gains": 2,
+      "event_losses": 2,
+      "event_ties": 8,
+      "n_events": 12
+    },
+    "generated_sentence_fresh_minus_direct_review/both_roles": {
+      "difference_pp": 25.0,
+      "paired_event_bootstrap_95_pp": [
+        4.166666666666667,
+        45.833333333333336
+      ],
+      "event_gains": 4,
+      "event_losses": 0,
+      "event_ties": 8,
+      "n_events": 12
+    },
+    "sentence_effect_history0/both_roles": {
+      "difference_pp": 12.5,
+      "paired_event_bootstrap_95_pp": [
+        -8.333333333333334,
+        33.333333333333336
+      ],
+      "event_gains": 3,
+      "event_losses": 1,
+      "event_ties": 8,
+      "n_events": 12
+    },
+    "sentence_effect_history1/both_roles": {
+      "difference_pp": 0.0,
+      "paired_event_bootstrap_95_pp": [
+        0.0,
+        0.0
+      ],
+      "event_gains": 0,
+      "event_losses": 0,
+      "event_ties": 12,
+      "n_events": 12
+    },
+    "transcript_effect_sentence0/both_roles": {
+      "difference_pp": -12.5,
+      "paired_event_bootstrap_95_pp": [
+        -33.333333333333336,
+        0.0
+      ],
+      "event_gains": 0,
+      "event_losses": 2,
+      "event_ties": 10,
+      "n_events": 12
+    },
+    "transcript_effect_sentence1/both_roles": {
+      "difference_pp": -25.0,
+      "paired_event_bootstrap_95_pp": [
+        -45.833333333333336,
+        -4.166666666666667
+      ],
+      "event_gains": 0,
+      "event_losses": 4,
+      "event_ties": 8,
+      "n_events": 12
+    },
+    "sentence_x_transcript/both_roles": {
+      "difference_pp": -12.5,
+      "paired_event_bootstrap_95_pp": [
+        -33.333333333333336,
+        8.333333333333334
+      ],
+      "event_gains": 1,
+      "event_losses": 3,
+      "event_ties": 8,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence0_history0/both_roles": {
+      "difference_pp": 4.166666666666667,
+      "paired_event_bootstrap_95_pp": [
+        -8.333333333333334,
+        16.666666666666668
+      ],
+      "event_gains": 2,
+      "event_losses": 1,
+      "event_ties": 9,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence0_history1/both_roles": {
+      "difference_pp": 0.0,
+      "paired_event_bootstrap_95_pp": [
+        0.0,
+        0.0
+      ],
+      "event_gains": 0,
+      "event_losses": 0,
+      "event_ties": 12,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence1_history0/both_roles": {
+      "difference_pp": 12.5,
+      "paired_event_bootstrap_95_pp": [
+        0.0,
+        33.333333333333336
+      ],
+      "event_gains": 2,
+      "event_losses": 0,
+      "event_ties": 10,
+      "n_events": 12
+    },
+    "intact_minus_swapped_sentence1_history1/both_roles": {
+      "difference_pp": 0.0,
+      "paired_event_bootstrap_95_pp": [
+        0.0,
+        0.0
+      ],
+      "event_gains": 0,
+      "event_losses": 0,
+      "event_ties": 12,
+      "n_events": 12
+    },
+    "reference_intact_minus_swapped/exact": {
+      "difference_pp": 16.666666666666668,
+      "paired_event_bootstrap_95_pp": [
+        8.333333333333334,
+        25.0
+      ],
+      "event_gains": 7,
+      "event_losses": 0,
+      "event_ties": 5,
+      "n_events": 12
+    }
+  },
+  "swap_pairs": {
+    "sentence0_history0": {
+      "pairs": 48,
+      "nondegenerate_pairs": 44,
+      "answer_changed": 23,
+      "changed_given_nondegenerate": 23,
+      "follows_requested_in_both": 12
+    },
+    "sentence0_history1": {
+      "pairs": 48,
+      "nondegenerate_pairs": 44,
+      "answer_changed": 15,
+      "changed_given_nondegenerate": 15,
+      "follows_requested_in_both": 0
+    },
+    "sentence1_history0": {
+      "pairs": 48,
+      "nondegenerate_pairs": 44,
+      "answer_changed": 8,
+      "changed_given_nondegenerate": 8,
+      "follows_requested_in_both": 6
+    },
+    "sentence1_history1": {
+      "pairs": 48,
+      "nondegenerate_pairs": 44,
+      "answer_changed": 11,
+      "changed_given_nondegenerate": 11,
+      "follows_requested_in_both": 1
+    }
+  },
+  "field_order_changes": {
+    "generated/sentence0/history0/intact": {
+      "answer_changed": 7,
+      "pairs": 24
+    },
+    "generated/sentence0/history0/swapped": {
+      "answer_changed": 5,
+      "pairs": 24
+    },
+    "generated/sentence0/history1/intact": {
+      "answer_changed": 7,
+      "pairs": 24
+    },
+    "generated/sentence0/history1/swapped": {
+      "answer_changed": 9,
+      "pairs": 24
+    },
+    "generated/sentence1/history0/intact": {
+      "answer_changed": 3,
+      "pairs": 24
+    },
+    "generated/sentence1/history0/swapped": {
+      "answer_changed": 3,
+      "pairs": 24
+    },
+    "generated/sentence1/history1/intact": {
+      "answer_changed": 2,
+      "pairs": 24
+    },
+    "generated/sentence1/history1/swapped": {
+      "answer_changed": 7,
+      "pairs": 24
+    },
+    "reference/sentence1/history0/intact": {
+      "answer_changed": 7,
+      "pairs": 24
+    },
+    "reference/sentence1/history0/swapped": {
+      "answer_changed": 7,
+      "pairs": 24
+    }
+  },
+  "interface_transitions": {
+    "original/Answer:": {
+      "both_correct": 19,
+      "both_wrong": 22,
+      "gain": 7
+    },
+    "explicit_span_contract/none": {
+      "both_correct": 18,
+      "both_wrong": 21,
+      "gain": 8,
+      "loss": 1
+    },
+    "explicit_span_contract/Answer:": {
+      "both_correct": 18,
+      "both_wrong": 21,
+      "gain": 8,
+      "loss": 1
+    }
+  },
+  "runtime": {
+    "records": 540,
+    "actual_generation_calls": 540,
+    "actual_input_tokens": 62913,
+    "actual_generated_tokens": 2221,
+    "run_wall_seconds_after_model_load": 474.8789805000415,
+    "note": "CPU batches up to4; recorded run wall includes padding, bookkeeping and identity check. Proxy budgets do not certify exact hardware FLOP equality.",
+    "all_within_proxy_budget": true
+  },
+  "protocol_sha256": "7cbabff31f2b24dc5206a8966fffa768c4a74c734b083d26d464388d9152cc0b"
+}

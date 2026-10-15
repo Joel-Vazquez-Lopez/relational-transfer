@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-10",
+  "status": "fixed_before_v2_run",
+  "model": "Qwen2.5-1.5B-Instruct at commit 989aa7980e4cf806f80c7fef2b1adb7bc71aa306, no weight updates",
+  "model_weights_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+  "source_hashes": {
+    "v1": "a9c9be6ee62e305ca6729514cf07a2c92450a73de5f85b521c83c957dcb9f697",
+    "v2": "aab02c873fc6224c3b3409b9d95f02b9016f99fe83ae95b4f3d091bf32e96b68"
+  },
+  "design": "8 fresh name pairs x 4 fresh reversible verbs x 2 directions x active/passive x 3 questions = 384 prompts, 64 events",
+  "question_conditions": {
+    "generic_actor": "Who did the action?",
+    "performed_actor": "Who performed the action?",
+    "verb_patient": "Who was [verb]?"
+  },
+  "selection": "generic actor first token wrong, performed actor first token correct, verb-specific patient first token correct, on exactly the same sentence; all valid outputs must be a name from the sentence",
+  "causal_comparison": "replace the generic actor prompt's last-token residual stream after block20 with either the performed-actor donor or the verb-patient donor from the identical sentence; compare actor-minus-patient candidate logit margin",
+  "analysis": "report all selected cases, donor answer rates, group means over eight name pairs, and exact paired sign flip if each pair contributes cases; no inference from the 384 dependent prompts as independent observations",
+  "limits": "the entire state is transplanted, including question semantics; this tests whether a role-selective state can steer the answer, not an isolated role circuit or training repair"
+}

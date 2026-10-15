@@ -1,0 +1,21 @@
+{
+  "status": "secondary comparison frozen before baseline inference on fresh2",
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "arms": [
+    "answer_only",
+    "role_first"
+  ],
+  "main_protocol_sha256": "f57a13e17e726afbb56d16bac504198732990b1dde2b38a5411e4b9a3527db83",
+  "splits_sha256": "7da96a87d65fa48434f466dd03bb3f39bd020340d93670959adf27f3ac891025",
+  "script_sha256": "523ded0dee0247572424b62a3d70b478068eaef3d1344bf9b83dbc9209ebc5bd",
+  "checkpoint_sha256": {
+    "fresh1_answer_only": "a51e961770b4ca7ad1ab5bbe05002e6be98443d01e9b1406716c93fd9b959d76",
+    "fresh1_role_first": "38792b0566c786bafeffe5ff6b1cf69be3a16bf9d5e0ac8ec933010e6b11e1dd",
+    "fresh3_answer_only": "70867296df4acf6a66723c05c1cc8cbd8392085f1d1547242b5084e871d1ccd3",
+    "fresh3_role_first": "f3c89b2ca511fd90e54f415d0b0c4b573f6cf21a210cb5984f4ef376f67bff1d"
+  },
+  "limits": "These fixed checkpoints were trained on the same 160 source items but use different output targets and token counts; they are descriptive baselines, not the matched causal control."
+}

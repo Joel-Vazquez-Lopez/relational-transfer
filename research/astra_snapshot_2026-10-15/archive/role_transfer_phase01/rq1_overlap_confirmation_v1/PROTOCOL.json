@@ -1,0 +1,50 @@
+{
+  "status": "frozen_before_training",
+  "date": "2026-10-08",
+  "questions": [
+    "Within a fresh training network, are unseen pairs with 3-4 shared observed partners harder on actor/patient direction than unseen pairs with 0-1 shared partners?",
+    "Does ordered-role auxiliary supervision reduce that high-overlap penalty relative to a parameter- and compute-matched unordered-identity auxiliary control?"
+  ],
+  "design": {
+    "graphs": 8,
+    "starts_per_graph": 3,
+    "arms": [
+      "balanced_baseline",
+      "unordered_identities",
+      "ordered_roles"
+    ],
+    "models": 72,
+    "entities": 10,
+    "observed_unordered_pairs": 20,
+    "degree_per_entity": 4,
+    "unseen_unordered_pairs": 25,
+    "minimum_low_overlap_pairs_per_graph": 3,
+    "minimum_high_overlap_pairs_per_graph": 3,
+    "low_overlap": "0 or 1 common observed partner",
+    "high_overlap": "3 or 4 common observed partners",
+    "updates": 6000,
+    "batch_size": 128,
+    "generator": "balanced distractors and dedicated padding token",
+    "auxiliary_weight": 0.5,
+    "endpoint": "final checkpoint only, no test-based checkpoint selection"
+  },
+  "primary_endpoint": "baseline high-overlap minus low-overlap binary role accuracy, each pair averaged within category, then three starts averaged within graph, then equal-weight mean over eight graphs",
+  "primary_test": "exact two-sided sign-flip over eight graph-level penalties, all 256 sign assignments",
+  "primary_success_rule": "mean penalty <= -0.10, exact two-sided p <= 0.05, and every baseline model at least 0.95 familiar four-choice accuracy",
+  "secondary_endpoint": "(ordered high-minus-low penalty) minus (unordered high-minus-low penalty), averaged over paired starts and graphs",
+  "secondary_test": "exact two-sided sign-flip over eight graph-level paired attenuation differences, evaluated as a confirmatory second test only if primary rule passes",
+  "secondary_success_rule": "mean attenuation >= +0.10 and exact two-sided p <= 0.05; mean familiar loss <=0.01 and mean unseen-event loss <=0.02 relative to unordered control",
+  "multiplicity": "hierarchical gate: test secondary claim only after primary success; report both effect estimates regardless",
+  "uncertainty": "report all eight graph effects and graph-level t(7) 95 percent intervals; pairs, starts, and scene renderings are nested, not independent graph replications",
+  "fixed_evaluation": "all 20 seen and 25 unseen pairs, two existing 512-rendering scene suites with seeds 260107 and 260108; primary uses 260107",
+  "other_secondary_measures": [
+    "unseen four-choice accuracy",
+    "unseen event accuracy",
+    "seen four-choice accuracy",
+    "weak-pair incidence",
+    "second-rendering robustness",
+    "accuracy by exact overlap count 0-4"
+  ],
+  "no_adaptive_replacement": "all eight graphs and three starts remain regardless of learning or transfer; only same-configuration technical reruns are allowed",
+  "scope_limit": "A positive within-graph association is predictive, not proof that overlap itself causes the failure; correlated local graph properties and training distractor co-occurrences remain alternatives. The task uses coded messages and generated scenes, not natural language or pretrained LLMs."
+}

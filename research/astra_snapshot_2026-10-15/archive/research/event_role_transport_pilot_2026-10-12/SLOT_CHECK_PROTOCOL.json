@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-12",
+  "status": "post_hoc_diagnostic_frozen_before_slot_test_inference; direct_QA_results_seen",
+  "question": "Does the same checkpoint prefer the correct ordered actor/patient tuple on held-out lexical events, even where direct role QA fails?",
+  "arms": [
+    "slot_sft",
+    "transport"
+  ],
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "forms": [
+    "active",
+    "passive",
+    "subject_cleft",
+    "object_cleft"
+  ],
+  "cases": 144,
+  "metric": "Teacher-forced correct-versus-reversed tuple log-likelihood under the same slot prompt used in training, plus sentence-omitted name-order control. Positive margin favors the correct tuple. This is output behavior, not proof of an internal slot representation.",
+  "limitations": "Post hoc on the already inspected lexical QA bank; prompts match training format; candidate-relative score may exceed open-generation accuracy.",
+  "script_sha256": "5d614c46fb33298b668b2aaa647024bac8f9095038f6c7adf3fdacb0885fd582",
+  "main_protocol_sha256": "2c33b265278b0f83d549107b2f609357e9736845f76b8af2853318300a79783d",
+  "checkpoints": {
+    "fresh1_slot_sft": "f8771c55fa3a5fb8d41ca8543f5fd9b3a037de03eecd5990df1268c0d3eb2adc",
+    "fresh1_transport": "58907f2a8f3eb4f18e8d4733556f8736c97a369b3177a881b97c3284d8b157d5",
+    "fresh3_slot_sft": "c931aa54ba1b6687891cde197aae916dec564843f55757d97de5f69a27d6b003",
+    "fresh3_transport": "286b4dc0b8dac0b13f85190a94c0649f3e70f77b04e3e1a53a9e459d69eee12d"
+  }
+}

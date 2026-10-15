@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-10",
+  "status": "fixed_before_inference",
+  "model": "Qwen2.5-1.5B-Instruct, fixed local snapshot, unmodified",
+  "model_weights_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+  "source_sha256": "2178eda72d79923338a140ce03d77b465ad34b5c61f9dbc7fd34f5591bc709b8",
+  "design": "Three disjoint sets: each has 5 new name pairs x 4 new reversible verbs x 2 actor directions = 40 events. Each event has active/passive x two fixed actor questions = 4 related prompts. Names and verbs do not overlap earlier Qwen diagnostic panels.",
+  "scoring": "Greedy next token decoded and stripped. Correct iff exactly actor name; invalid answers are wrong and counted separately. Also record forced actor-minus-patient candidate-token logit margin. Both names have one token with/without leading space.",
+  "primary_comparison": "For each event, performed-minus-generic correctness in active and passive. Wording-by-form interaction is (active performed - active generic) - (passive performed - passive generic). Report all 3 sets, and pair-clustered mean difference plus exact two-sided pair sign-flip p over 15 pairs. A replicated wording effect requires active performed-minus-generic >= 20 percentage points in each set and overall; otherwise call it mixed or absent.",
+  "secondary": "Four-prompt all-correct rate per event; both-voices-correct and both-wordings-correct rates; correctness and invalid counts by cell. Agreement without correctness is separately counted. First-name heuristic is a baseline.",
+  "limits": "Constructed English; one small pretrained model; prompt forms reused from diagnostics, but all names, verbs, pairings and event instances are new. No claim about model pretraining exposure or other LLMs."
+}

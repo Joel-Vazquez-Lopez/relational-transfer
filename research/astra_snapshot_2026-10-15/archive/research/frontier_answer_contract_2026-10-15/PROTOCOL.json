@@ -1,0 +1,50 @@
+{
+  "status": "exploratory development fixed before new inference",
+  "scope": "All 24 previously inspected active QA-SRL events; grammatical subject/object, NOT verified semantic roles. No sealed data, no optimization.",
+  "model": "Qwen2.5-1.5B-Instruct unchanged local weights",
+  "generation_count_cap": 192,
+  "teacher_forced_candidate_pairs": 48,
+  "factorial": {
+    "instruction": [
+      "original",
+      "explicit_span_contract"
+    ],
+    "assistant_prefill": [
+      "none",
+      "Answer:"
+    ],
+    "question_role": [
+      "subject",
+      "object"
+    ]
+  },
+  "prediction": "If output contract explains the old gain, explicit participant-only instruction and/or Answer prefix improve direct subject accuracy more than object accuracy and narrow the blind-routing discrepancy. Failure to improve weakens this account. Prompt gains alone do not isolate internal representation.",
+  "primary_contrast": "Within-event instruction x requested-role risk difference averaged across prefixes, plus every factorial cell. No significance-based selection or progression.",
+  "secondary": "Prefix x role; joint answers per event; label-based content diagnostics, exact span F1; constrained two-gold-participant sequence likelihood as oracle diagnostic only; historical raw baseline reproducibility.",
+  "limits": [
+    "One small checkpoint and reused 24 events; no new population or semantic generalization claim.",
+    "Different instructions change attention as well as format; no exclusive mechanism identification.",
+    "Likelihood candidate set uses gold spans and is not autonomous QA; token normalization may alter choice.",
+    "No tuning after partial outputs."
+  ],
+  "generation": {
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 2,
+    "batch_size": 4,
+    "max_new_tokens": 48,
+    "do_sample": false,
+    "seed": 910215
+  },
+  "source_hashes": {
+    "research/frozen_query_diagnostic_2026-10-15/ITEMS.json": "89bae4be3aadd2c65cc4463e3428e19887a863b31ac50e3bbca6a33ea83baef7",
+    "research/frozen_query_diagnostic_2026-10-15/PROTOCOL.json": "6f5623f0f2cf4be0d6b4b07db7b158292c3c82a83adcb867535647a9ecc0f214",
+    "research/frozen_query_diagnostic_2026-10-15/PREDICTIONS_1.5b.jsonl": "994419bf508665efc8bc6e86d50392ef5520f87237b78c33880d29cfb79b763c",
+    "research/frozen_query_diagnostic_2026-10-15/FIELD_ONLY_1.5b.jsonl": "a2edbe2aa5df07ac46abb7e2d5be681d85aa7c86d2655b4530fab9becaa4c6b3"
+  },
+  "script_sha256": "9565220f3ce01e998bab870e3314c5a16f5b6532243e698106f7e07b0d2a5f3f",
+  "items_sha256": "c82d22ea7dd7d04bacbdf9719a92f6fa9de094b98107935fa1ee0fe2ab397304",
+  "weights_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+  "config_sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+  "tokenizer_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+}

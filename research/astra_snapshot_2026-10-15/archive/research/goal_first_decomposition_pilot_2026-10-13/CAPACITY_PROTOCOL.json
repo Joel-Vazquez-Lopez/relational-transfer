@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-13",
+  "status": "adaptive exploratory capacity check after first frozen pilot failed",
+  "reason": "First 2-layer 64-dimensional scratch model learned in-domain operation tokens but failed to bind the intermediate and final entities. Increase capacity and updates once using a fixed predeclared setting; no new data or prompt optimization.",
+  "arms": [
+    "direct",
+    "forward",
+    "goal_first"
+  ],
+  "seed": 41,
+  "epochs": 24,
+  "batch": 64,
+  "learning_rate": 0.0007,
+  "dimension": 128,
+  "layers": 4,
+  "heads": 4,
+  "diagnostic_gate": "If both forward and goal-first in-domain exact answer accuracy remain below 280/400, the task is not learned sufficiently to interpret their held-out difference. If learned, compare mixed accuracy and freely generated plan validity descriptively; any apparent gain requires a fresh locked dataset before confirmation.",
+  "limits": "Adaptive on the same data after inspecting first pilot. One seed and synthetic controlled language; no LLM or general procedure-learning claim.",
+  "data_sha256": "10a831ab40d215386d5751628334d2c79a7021f5e16ff3105e3ed1f389c1fe9f",
+  "vocab_sha256": "09e62cb8d02d38c34895615c0be8377ba50bccdfbd4a3bfe4e565b995ae88d2b",
+  "original_protocol_sha256": "abb1fe9376897378c303625e320f5973b24561f1f3a88bc32d5e1749fdc31460",
+  "original_script_sha256": "3b3bfa22aa96aa905536e1092a3612398231e14df2c55ced4df75266ee344e93",
+  "script_sha256": "2cdc68be86158fc9ae5284e117c05f48b5dca39ff7da3dc335e7fa512dccaf45"
+}

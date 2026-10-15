@@ -1,0 +1,446 @@
+{
+  "protocol_sha256": "6198484ae2fc2fc8bd3998fa0f6de6d5ad9e00f9786327b45a978b4b484a282d",
+  "selection_sha256": "10e0b78d919c0c02e0ab479ea01db7796b2086ccad66446c85f18c6c9367f13d",
+  "selection": {
+    "ordered_roles": {
+      "auxiliary_dev_patient": 0.675,
+      "auxiliary_dev_familiar": 0.998,
+      "candidates": [
+        {
+          "step": 20,
+          "patient": 0.674,
+          "familiar": 0.9825,
+          "eligible": false
+        },
+        {
+          "step": 40,
+          "patient": 0.416,
+          "familiar": 1.0,
+          "eligible": true
+        },
+        {
+          "step": 60,
+          "patient": 0.445,
+          "familiar": 1.0,
+          "eligible": true
+        },
+        {
+          "step": 80,
+          "patient": 0.454,
+          "familiar": 1.0,
+          "eligible": true
+        },
+        {
+          "step": 100,
+          "patient": 0.442,
+          "familiar": 1.0,
+          "eligible": true
+        },
+        {
+          "step": 120,
+          "patient": 0.432,
+          "familiar": 1.0,
+          "eligible": true
+        }
+      ],
+      "selected": {
+        "step": 80,
+        "patient": 0.454,
+        "familiar": 1.0,
+        "eligible": true
+      }
+    },
+    "unordered_pair": {
+      "auxiliary_dev_patient": 0.745,
+      "auxiliary_dev_familiar": 0.9895,
+      "candidates": [
+        {
+          "step": 20,
+          "patient": 0.674,
+          "familiar": 0.9825,
+          "eligible": false
+        },
+        {
+          "step": 40,
+          "patient": 0.416,
+          "familiar": 1.0,
+          "eligible": true
+        },
+        {
+          "step": 60,
+          "patient": 0.445,
+          "familiar": 1.0,
+          "eligible": true
+        },
+        {
+          "step": 80,
+          "patient": 0.454,
+          "familiar": 1.0,
+          "eligible": true
+        },
+        {
+          "step": 100,
+          "patient": 0.442,
+          "familiar": 1.0,
+          "eligible": true
+        },
+        {
+          "step": 120,
+          "patient": 0.432,
+          "familiar": 1.0,
+          "eligible": true
+        }
+      ],
+      "selected": {
+        "step": 80,
+        "patient": 0.454,
+        "familiar": 1.0,
+        "eligible": true
+      }
+    }
+  },
+  "units": [
+    {
+      "world": "fresh1",
+      "seed": 830211,
+      "screen": {
+        "20": {
+          "patient_correct": 159,
+          "patient_total": 250,
+          "familiar_correct": 498,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "40": {
+          "patient_correct": 92,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "60": {
+          "patient_correct": 95,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "80": {
+          "patient_correct": 97,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "100": {
+          "patient_correct": 98,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "120": {
+          "patient_correct": 95,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        }
+      }
+    },
+    {
+      "world": "fresh1",
+      "seed": 830212,
+      "screen": {
+        "20": {
+          "patient_correct": 166,
+          "patient_total": 250,
+          "familiar_correct": 489,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "40": {
+          "patient_correct": 100,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "60": {
+          "patient_correct": 112,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "80": {
+          "patient_correct": 108,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "100": {
+          "patient_correct": 105,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "120": {
+          "patient_correct": 103,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        }
+      }
+    },
+    {
+      "world": "fresh2",
+      "seed": 830211,
+      "screen": {
+        "20": {
+          "patient_correct": 162,
+          "patient_total": 250,
+          "familiar_correct": 498,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "40": {
+          "patient_correct": 121,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "60": {
+          "patient_correct": 124,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "80": {
+          "patient_correct": 124,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "100": {
+          "patient_correct": 119,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "120": {
+          "patient_correct": 120,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        }
+      }
+    },
+    {
+      "world": "fresh2",
+      "seed": 830212,
+      "screen": {
+        "20": {
+          "patient_correct": 187,
+          "patient_total": 250,
+          "familiar_correct": 480,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "40": {
+          "patient_correct": 103,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "60": {
+          "patient_correct": 114,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "80": {
+          "patient_correct": 125,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "100": {
+          "patient_correct": 120,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "120": {
+          "patient_correct": 114,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        }
+      }
+    },
+    {
+      "world": "fresh3",
+      "seed": 830211,
+      "screen": {
+        "20": {
+          "patient_correct": 176,
+          "patient_total": 250,
+          "familiar_correct": 491,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "40": {
+          "patient_correct": 111,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "60": {
+          "patient_correct": 116,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "80": {
+          "patient_correct": 120,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "100": {
+          "patient_correct": 120,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "120": {
+          "patient_correct": 115,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        }
+      }
+    },
+    {
+      "world": "fresh3",
+      "seed": 830212,
+      "screen": {
+        "20": {
+          "patient_correct": 230,
+          "patient_total": 250,
+          "familiar_correct": 481,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "40": {
+          "patient_correct": 93,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "60": {
+          "patient_correct": 137,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "80": {
+          "patient_correct": 140,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "100": {
+          "patient_correct": 138,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        },
+        "120": {
+          "patient_correct": 135,
+          "patient_total": 250,
+          "familiar_correct": 500,
+          "familiar_total": 500,
+          "invalid": 0
+        }
+      }
+    }
+  ],
+  "confirmation": [
+    {
+      "seed": 830211,
+      "scores": {
+        "ordinary_80": {
+          "patient_correct": 314,
+          "patient_total": 500,
+          "familiar_correct": 1000,
+          "familiar_total": 1000,
+          "invalid": 0
+        },
+        "ordered_roles": {
+          "patient_correct": 421,
+          "patient_total": 500,
+          "familiar_correct": 982,
+          "familiar_total": 1000,
+          "invalid": 0
+        },
+        "unordered_pair": {
+          "patient_correct": 458,
+          "patient_total": 500,
+          "familiar_correct": 979,
+          "familiar_total": 1000,
+          "invalid": 0
+        }
+      }
+    },
+    {
+      "seed": 830212,
+      "scores": {
+        "ordinary_80": {
+          "patient_correct": 358,
+          "patient_total": 500,
+          "familiar_correct": 1000,
+          "familiar_total": 1000,
+          "invalid": 0
+        },
+        "ordered_roles": {
+          "patient_correct": 398,
+          "patient_total": 500,
+          "familiar_correct": 964,
+          "familiar_total": 1000,
+          "invalid": 0
+        },
+        "unordered_pair": {
+          "patient_correct": 471,
+          "patient_total": 500,
+          "familiar_correct": 947,
+          "familiar_total": 1000,
+          "invalid": 0
+        }
+      }
+    }
+  ]
+}

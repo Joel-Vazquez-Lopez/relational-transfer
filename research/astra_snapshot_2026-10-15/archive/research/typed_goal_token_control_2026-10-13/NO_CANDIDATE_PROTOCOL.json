@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-13",
+  "status": "post hoc stress designed after full fresh3 candidate-supported result; frozen before no-candidate inference",
+  "question": "Does the typed input benefit survive removing the supplied answer candidates at inference?",
+  "items": "The same 20 fresh3 sentences; one actor question and one patient question per sentence, giving 40 distinct prompts. No new-item confirmation.",
+  "intervention": "Delete only the Candidates line from the test prompt. Keep Sentence, Requested role, Question, system instruction, fixed classifier, checkpoints, and greedy decoding. No retraining or calibration.",
+  "outcomes": "Exact final answers/40, both printed role fields correct/40, final answer agrees with requested printed field/40, parsed/40. Compare arms within start. Diagnostic only; no prespecified pass threshold.",
+  "limits": "Out-of-distribution prompt removal, same already-used fresh3 items, automatic unreviewed labels, one model family. A failure would not negate the candidate-supported result; a success would still need new candidate-free training and external tests.",
+  "source_protocol_sha256": "747a7aca3e9ea99d773c7d34122c67de7346934b7b3917ae3066fad0d6019148",
+  "source_splits_sha256": "fd035a2d40a29b8f29f2daac574a030df4f9cb1d23115e602dbf176e94ec1ebc",
+  "script_sha256": "83379bc3f7b278ac5bc2f9496a15b24482c11e02938df0c67c92b72ba3b3216a",
+  "checkpoint_sha256": {
+    "fresh1:typed_goal": "f4391aca766873ebb7b8e4fcfddb5029ee1185695e00a598649e075abe8ba40b",
+    "fresh1:null_two_token": "979e34478cf0d67c8a2e3ac2778c6907d35a022648f9fc512071ae5777bb35a8",
+    "fresh3:typed_goal": "7c66d3da4a5ea8781e4c10e45aa24609e454e41c3dd36aff2ef259e1d8151306",
+    "fresh3:null_two_token": "094b101ecbe597e144c702420db01b87026ff8983c706e2429cd538cec4de427"
+  }
+}

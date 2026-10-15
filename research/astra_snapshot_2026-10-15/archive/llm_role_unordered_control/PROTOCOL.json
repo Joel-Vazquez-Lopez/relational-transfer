@@ -1,0 +1,23 @@
+{
+  "status": "fixed_before_unordered_training",
+  "date": "2026-10-11",
+  "question": "Is the ordered-role cleft benefit specific to assigning actor and patient, or can an otherwise matched participant-identity auxiliary produce it?",
+  "model": "Qwen2.5-0.5B-Instruct, same local snapshot and LoRA setup as the fresh-graph confirmation",
+  "source_sha256": "bb84d383fd65a383e67bb9de93a9a53a04ca32fe41362d370fa4e026e11a367c",
+  "core_source_sha256": "65c6dd6f675c464fc764c9682a5914f4dc30cfba2bc1a8c64d4be402b737a92a",
+  "confirmation_source_sha256": "ded4eebd96720502b48281af45376bfa9f96af45fb961209063b79693714b93e",
+  "reference_protocol_sha256": "db72b03db9db1cc051811184c0d53d57cfdff9c86ac25cc904cc351e74beca3a",
+  "worlds": [
+    "fresh1",
+    "fresh2",
+    "fresh3"
+  ],
+  "seeds": [
+    830211,
+    830212
+  ],
+  "design": "Same six graph/start units, training groups, labels, initialization, update order, model architecture, optimizer and 0.5 auxiliary weight as ordered-role confirmation. Only auxiliary targets change: heads predict the two participants in canonical index order (smaller ID, larger ID), independent of actor/patient order. The standard language-model answer loss is unchanged.",
+  "primary": "Exact actor accuracy on the same 750 held-out patient-cleft prompts per unit. Compare unordered against both frozen ordinary and frozen ordered results. If unordered gives a similar gain to ordered, participant identity supervision is sufficient; if ordered consistently exceeds unordered, ordered roles add something beyond the extra heads and identity labels.",
+  "secondary": "Familiar active/passive retention, actor-cleft control, seen/unseen verbs, question wording, all-three-wording correctness, invalid first tokens. Report every unit without exclusions.",
+  "limits": "Follow-up was designed after inspecting ordered-versus-ordinary results. It is a mechanism-discrimination control, not a preregistered component of the original six-run directional replication. Three graph layouts and one small model family."
+}

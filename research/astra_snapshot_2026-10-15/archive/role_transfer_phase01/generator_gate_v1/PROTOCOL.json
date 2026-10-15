@@ -1,0 +1,19 @@
+{
+  "status": "developmental_generator_gate",
+  "date": "2026-10-06",
+  "script": "../generator_gate_v1.py",
+  "question": "Does the all-pair unseen role gap persist after padding is corrected, and does independently balanced distractor identity change it?",
+  "graphs": ["new0", "new2", "confirm0"],
+  "graph_selection": "Previously studied connected 10-node 4-regular graphs, chosen by graph identity before this generator comparison; all are development graphs for this question.",
+  "labeling": "One shared1 mapping per graph, fixed across both arms; all 45 labeled unordered pairs are evaluated.",
+  "seeds": [261001, 261002],
+  "arms": ["historical_distractor", "balanced_distractor"],
+  "shared_change": "Fourth message token receives dedicated id 12 in both arms; vocabulary size 13.",
+  "comparison": "Historical serial/member/position distractor rule versus per-epoch independently shuffled assignment with exact uniform counts within each semantic candidate group.",
+  "matched": ["model initialization", "graph labeling", "semantic pool", "pool order", "candidate semantic foils", "answer position", "scene random seeds", "optimizer", "updates"],
+  "unavoidable_episode_difference": "Distractor identity, and hence its one-hot identity and stochastic motion, can differ across arms. Other scene geometry is generated from matched random seeds but random-number consumption inside scene() depends only on scene generation, not on identity.",
+  "training": {"steps": 6000, "batch": 128, "pool_size": 1280},
+  "evaluation": {"pairs": 45, "renderings_per_pair": 512, "scene_seeds": [260107, 260108], "primary_metric": "mean binary role accuracy over all 25 unseen pairs, then average within graph and across graphs", "other_metrics": ["four_choice_accuracy", "event_accuracy", "weak_pair_fraction_below_0.8", "familiar_four_choice_accuracy"]},
+  "interpretation_gate": "Familiar four-choice accuracy at least 0.99 for each model before interpreting unseen transfer.",
+  "limitations": ["development-only; fresh graphs are needed for independent confirmation", "source motion remains visually diagnostic", "one graph labeling per world in this gate"]
+}

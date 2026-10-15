@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-11",
+  "status": "fixed_before_heldout_contrast_inference",
+  "source": "Previously selected QA-SRL Gold 63 events: 12 development events, stratified three per source partition, used only for untouched-model screen; 51 remaining events for this comparison.",
+  "development": "The untouched 0.5B model gave 10/12 positive raw-sum role contrasts; untouched 1.5B gave 12/12. These observations motivated this frozen held-out check, not any fine-tuned-arm selection.",
+  "task": "For each event and each of two fixed questions (actor versus other direct participant), score each of the two annotated answer spans as a continuation with the sentence and target verb in context. No A/B options and no free generation.",
+  "primary": "Role-contrast raw-sum margin D = [logP(actorSpan|actorQ)-logP(otherSpan|actorQ)] - [logP(actorSpan|otherQ)-logP(otherSpan|otherQ)]. Correct iff D>0, zero wrong. The same spans appear under both questions, cancelling much of the candidate prior and answer-length effect. Compare paired fine-tuned arms over 51 held-out events and six graph/start units; report every unit and equal-unit mean.",
+  "secondary": "Mean-token-logprob version of D, raw margins, source partition, untouched 0.5B and 1.5B baselines. No-sentence baselines use the same question/target verb and candidates but replace the sentence with '[omitted]' as a lexical-prior diagnostic. No-sentence is run only on untouched models.",
+  "criterion": "Interpret a transfer gain only if the untouched 0.5B model reaches >=70% on the 51 holdout events, the no-sentence baseline is at least 15 percentage points lower, and an auxiliary arm exceeds ordinary by >=10 points in >=5/6 paired units without a negative equal-unit mean margin shift. Otherwise report the observed direction without a transfer-repair claim.",
+  "limits": "Candidate spans were drawn from QA-SRL Gold and AI-screened; no independent student verification. This is candidate-relative likelihood, not direct answer generation. One selected sentence set shared across all graph/start units; model pretraining overlap unknown. Other participant is not uniformly a semantic patient.",
+  "reference_sha256": {
+    "source_items": "e1fbfd7ae9eb041e13488a5ddac203194d80b2f84a9e250262f924cf8942ea48",
+    "development_05": "bdd62a8252b815b6c0b392afca9065f8a5474895b8a6124bde4225c9ea98b88f",
+    "development_15": "c8b38c96d529aac975361004529436a49b0120b06b7dc853facaf31fdfdba2f9",
+    "screen_code": "3c2592c7551d657be2870c8eef175ca486aa8277aa1412a97990fab921cd8deb",
+    "prompt_code": "839ec97ff4ced8c24b3530c4e4aa75c51b8595c1c0ff6fe019e42a6f043de610",
+    "model05_weights": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+    "model15_weights": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+    "confirmation_protocol": "db72b03db9db1cc051811184c0d53d57cfdff9c86ac25cc904cc351e74beca3a",
+    "unordered_protocol": "dab387df03680c39d33a92a6e692796468ec50494c9da3187568d6de35381917"
+  },
+  "script_sha256": "7cf0f2a81d9f31d5e176af3bff8d4c190932a61b1d8099de67e8a652c91d2144"
+}

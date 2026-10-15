@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-15",
+  "status": "frozen_before_diagnostic_inference",
+  "scope": "Exploratory development. Original 100-item source already examined. No sealed data. No training.",
+  "question": "Do untouched models show question-dependent grammatical participant outputs, and does question-independent extraction improve original QA answers?",
+  "labels": "Grammatical active subject and direct object from original QA-SRL question slots, NOT verified semantic agent/patient. Consensus original spans, alternate consensus spans accepted.",
+  "arms": [
+    "direct",
+    "query_visible",
+    "query_blind"
+  ],
+  "items": 24,
+  "per_model_generations": 120,
+  "design": "Direct and query_visible receive each original question plus target verb. query_blind extracts subject/object once with sentence and target verb, then a gold question-role selector deterministically reads each field. Selector is oracle diagnostic; question interpretation and extra output differ, so this is not a fair end-to-end intervention claim.",
+  "primary": "Both original QA answers exact per event; compare direct, query-visible final answers, and query-blind deterministic selection. Descriptive paired event bootstrap intervals, no selection or significance gate.",
+  "secondary": "Accepted-span token F1, requested field exact, conditional answer-use failures, visible role-tuple changes across questions, parse/termination failures. Fields are printed outputs, not hidden states.",
+  "limits": [
+    "All selected events active and actor-first; no construction generalization claim.",
+    "One pretrained family, two sizes, no independent human semantic review.",
+    "Question changes role and wording jointly; no isolated causal query mechanism.",
+    "Blind extraction has oracle role routing and different instruction; its invariance is guaranteed by reuse, not learned.",
+    "No model selection, prompt tuning or training will follow partial scores."
+  ],
+  "generation": {
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 2,
+    "batch_size": 4,
+    "max_new_tokens": 48,
+    "do_sample": false
+  },
+  "hashes": {
+    "source": "c186acf2bfd4a211ed1ff31bbae4fbe39c53f9a4d5c802c942e716c53baed1bb",
+    "previous_split": "d64c82d87f1087b43810c2e41fa014109b0386bbec30048032050914ee709cd8",
+    "items": "89bae4be3aadd2c65cc4463e3428e19887a863b31ac50e3bbca6a33ea83baef7",
+    "script": "51200ae09e4b82fae2e3eb04815cbff29e47c43b6db9d267e14e5968e14a83c0"
+  },
+  "models": {
+    "0.5b": {
+      "path": "/Users/joelvazquezlopez/.cache/huggingface/hub/models--Qwen--Qwen2.5-0.5B-Instruct/snapshots/7ae557604adf67be50417f59c2c2f167def9a775",
+      "weights_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "config_sha256": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45",
+      "tokenizer_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    "1.5b": {
+      "path": "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/frozen_query_diagnostic_2026-10-15/local_qwen15",
+      "weights_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+      "config_sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+      "tokenizer_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    }
+  }
+}

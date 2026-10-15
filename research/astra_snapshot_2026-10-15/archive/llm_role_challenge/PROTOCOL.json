@@ -1,0 +1,47 @@
+{
+  "status": "fixed_before_any_challenge_checkpoint_inference; awaiting_independent_human_review",
+  "date": "2026-10-12",
+  "source": {
+    "name": "Active/passive sentence pairs and their embeddings",
+    "landing_page": "https://kclpure.kcl.ac.uk/portal/en/datasets/activepassive-sentence-pairs-and-their-embeddings/",
+    "doi": "10.18742/22183633",
+    "text_pair_member": "data/active_passive_full_cleaned.tsv",
+    "text_pair_sha256": "eb1905ccaf078d6f7c5d8a944f3abbb97ac5a39a2123ef00690311ac5df79299",
+    "caveat": "The passive side was extracted from natural text; the active side is an automatic rewrite. Human review of both is mandatory. Source book identities are not supplied in the text-pair member. Pretraining contamination cannot be ruled out."
+  },
+  "selection": {
+    "candidates": 32,
+    "candidate_file": "BLIND_HUMAN_REVIEW.csv",
+    "rule": "A reviewer who has not seen any model predictions must complete all six judgments and initials for every row. Accept an item only when passive naturalness, active grammar, semantic equivalence, participant reversibility, and actor/other labels are all yes. Record all exclusions. Human semantic-patient judgment is separate and is not required for the actor/other analysis. Freeze FROZEN_ITEMS.json before inference. If fewer than 20 pairs pass, label the experiment a feasibility test rather than a strong confirmation.",
+    "training_overlap": "The 32 candidate active/passive sentences have zero exact normalized sentence overlap with the 256 natural role-training examples. This does not establish zero paraphrase or pretraining overlap."
+  },
+  "checkpoints": {
+    "untouched_qwen05": {"base_model": "Qwen2.5-0.5B-Instruct", "adapter": null},
+    "fresh1_source": {"adapter": "../llm_role_unordered_control/fresh1_830211_unordered_pair/adapter.pt", "sha256": "8b114fa025a91199702d685da46b859e9d9e0ea08293cf9c5ac78a8c7eaa2e79"},
+    "fresh1_natural": {"adapter": "../llm_role_natural_repair/controls_fresh1_830211/natural_only/adapter.pt", "sha256": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e"},
+    "fresh3_source": {"adapter": "../llm_role_unordered_control/fresh3_830212_unordered_pair/adapter.pt", "sha256": "13be9824ff3f77b60eb8619c174b22aa87a69a0e54f71d83bd0a4ffe4eaa3bc8"},
+    "fresh3_natural": {"adapter": "../llm_role_natural_repair/natural_only_fresh3_830212/adapter.pt", "sha256": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48"},
+    "fresh1_copy_control": {"adapter": "../llm_role_copy_control/adapter.pt", "sha256": "2b9b3a2c1205e19e2bc8ae7bd1e15b2bf1d88c9600d174a344cd4a2334f09607"}
+  },
+  "questions": {
+    "wording_1_actor": "Who carried out the event expressed by the target verb? Copy the exact phrase from the sentence.",
+    "wording_1_other": "Which person or group was the target of the event expressed by the target verb? Copy the exact phrase from the sentence.",
+    "wording_1_patient": "Who was affected by the event expressed by the target verb? Copy the exact phrase from the sentence.",
+    "wording_2_actor": "Which person or group performed the target action? Answer with words from the sentence only.",
+    "wording_2_other": "Who was the actor's target in the action named by the target verb? Answer with words from the sentence only.",
+    "wording_2_patient": "Which person or group underwent the target action? Answer with words from the sentence only."
+  },
+  "evaluation": {
+    "unit": "human-approved source event pair; each pair has an active and a passive surface form",
+    "model_settings": "local Qwen2.5-0.5B-Instruct float32 CPU, greedy decoding, max 24 new tokens, fixed chat template",
+    "candidate_contrast": "For each form and wording, compute raw summed answer log probabilities for actor and other spans under actor and other questions; D=[L(actor|actor question)-L(other|actor question)]-[L(actor|other question)-L(other|other question)]. Correct iff D>0. Report margins and accuracy; no threshold tuning.",
+    "exact_actor": "Greedy actor answer equals the reviewed actor phrase after casefolding, stripping punctuation, and collapsing whitespace. Any extra or unclear text is wrong.",
+    "exact_other": "The same strict scoring for the reviewed other participant phrase. This is not called patient accuracy unless the human reviewer judged semantic_patient=yes.",
+    "exact_patient": "On the human-reviewed semantic_patient=yes subset only, use the patient question and the reviewed other phrase; same strict answer rule.",
+    "both_roles_correct": "Actor and other direct answers are both exactly correct for the same form and wording. Also report whether both forms of the same event are jointly correct.",
+    "construction_reporting": "Report active and passive separately, both question wordings separately, and event-paired active/passive differences. Show affected-patient and other-participant strata separately. Do not treat forms or wordings from the same event as independent replicates.",
+    "comparison": "Primary matched contrasts are fresh1_natural versus fresh1_source and fresh3_natural versus fresh3_source; compare fresh1_natural versus fresh1_copy_control as a diagnostic. Untouched is an external baseline. Use event-paired counts and uncertainty across events; starts are two matched replications, not independent datasets.",
+    "negative_control": "Check whether the actor answer is stable across active/passive while surface subject position changes. For each item, record whether the answer is simply the grammatical subject or first mentioned participant; report this shortcut baseline.",
+    "decision": "If natural role training improves direct both-roles-correct on both starts, including passive forms and both wordings, over matched source and copy control without a loss on active forms, pursue scaling and internal tests. If not, diagnose positional shortcut, voice transformation, or answer generation from the separate measures before changing training. A ceiling in candidate contrast alone is insufficient."
+  }
+}

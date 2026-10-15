@@ -1,0 +1,28 @@
+{
+  "status": "fixed_before_dense_training",
+  "date": "2026-10-11",
+  "question": "Does an ordinary checkpoint between 20 and 40 updates match the auxiliary arms' patient-cleft accuracy at their familiar-form accuracy?",
+  "source_sha256": "26c44e3dcaa2e5a82dd1634abc9bc08a0de321f7b560eab34a316a429fed0d04",
+  "core_source_sha256": "65c6dd6f675c464fc764c9682a5914f4dc30cfba2bc1a8c64d4be402b737a92a",
+  "confirmation_source_sha256": "ded4eebd96720502b48281af45376bfa9f96af45fb961209063b79693714b93e",
+  "trajectory_source_sha256": "0aab6035c816fbfc9ae8f194965fc4a505c80f7b4e95528987bc205a4d5f7b3e",
+  "trajectory_protocol_sha256": "6198484ae2fc2fc8bd3998fa0f6de6d5ad9e00f9786327b45a978b4b484a282d",
+  "development_worlds": [
+    "fresh1",
+    "fresh2"
+  ],
+  "reserved_world": "fresh3",
+  "seeds": [
+    830211,
+    830212
+  ],
+  "new_checkpoints": [
+    25,
+    30,
+    35
+  ],
+  "training": "Same ordinary loss, examples, optimizer, LR, update order, attention masks, LoRA initialization as the frozen trajectory. Evaluate at 25,30,35; train through 40 and require an exact match to its previously saved step-40 adapter.",
+  "screen": "Same performed-wording 750 rows per graph/start as the frozen trajectory: 250 patient-cleft and 500 familiar active/passive. Retain every prediction.",
+  "selection": "Combine the prior checkpoints 20,40,60,80,100,120 with new 25,30,35. On fresh1/fresh2 and both starts, separately for ordered and unordered auxiliary arms, require ordinary mean familiar accuracy at least that arm's mean familiar accuracy; among eligible steps choose highest mean patient accuracy, earliest step on ties. Keep fresh3 out of the choice. If a new 25/30/35 checkpoint is selected, run it on fresh3 and evaluate the two unseen question wordings with the same three forms. If an old checkpoint remains selected, retain its existing fresh3 confirmation.",
+  "interpretation": "This follow-up was chosen after seeing the coarse 20-40 drop. It narrows, but cannot eliminate, unsampled-step or changed-learning-rate alternatives. Do not treat a participant-only effect as a semantic-role mechanism."
+}

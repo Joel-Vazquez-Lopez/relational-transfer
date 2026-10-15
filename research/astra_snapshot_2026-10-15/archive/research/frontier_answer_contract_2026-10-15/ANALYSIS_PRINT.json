@@ -1,0 +1,200 @@
+{
+  "single_cue_overlap": {
+    "subject": {
+      "prefix_gains": 6,
+      "explicit_gains": 6,
+      "common_gains": 5,
+      "equal_correctness_between_single_cues": 22
+    },
+    "object": {
+      "prefix_gains": 1,
+      "explicit_gains": 2,
+      "common_gains": 0,
+      "equal_correctness_between_single_cues": 20
+    }
+  },
+  "blind_route_minus_direct_joint": {
+    "original/none": {
+      "difference_pp": 37.5,
+      "paired_document_bootstrap_95_pp": [
+        16.666666666666668,
+        56.52173913043478
+      ],
+      "source_documents": 19,
+      "scope": "exploratory descriptive interval on reused development examples; no multiplicity correction or population confirmation"
+    },
+    "original/Answer:": {
+      "difference_pp": 25.0,
+      "paired_document_bootstrap_95_pp": [
+        4.3478260869565215,
+        45.45454545454545
+      ],
+      "source_documents": 19,
+      "scope": "exploratory descriptive interval on reused development examples; no multiplicity correction or population confirmation"
+    },
+    "explicit_span_contract/none": {
+      "difference_pp": 25.0,
+      "paired_document_bootstrap_95_pp": [
+        4.3478260869565215,
+        45.45454545454545
+      ],
+      "source_documents": 19,
+      "scope": "exploratory descriptive interval on reused development examples; no multiplicity correction or population confirmation"
+    },
+    "explicit_span_contract/Answer:": {
+      "difference_pp": 25.0,
+      "paired_document_bootstrap_95_pp": [
+        4.3478260869565215,
+        45.45454545454545
+      ],
+      "source_documents": 19,
+      "scope": "exploratory descriptive interval on reused development examples; no multiplicity correction or population confirmation"
+    }
+  },
+  "scope": "New untouched 1.5B development-only factorial; no training; same examined active grammatical examples, not verified semantic roles",
+  "cells_out_of_24": {
+    "original/none": {
+      "subject": 4,
+      "object": 15,
+      "joint": 2
+    },
+    "original/Answer:": {
+      "subject": 10,
+      "object": 16,
+      "joint": 5
+    },
+    "explicit_span_contract/none": {
+      "subject": 10,
+      "object": 16,
+      "joint": 5
+    },
+    "explicit_span_contract/Answer:": {
+      "subject": 10,
+      "object": 16,
+      "joint": 5
+    }
+  },
+  "contrasts": {
+    "instruction_x_prefix": {
+      "difference_pp": -14.583333333333334,
+      "paired_document_bootstrap_95_pp": [
+        -24.0,
+        -5.0
+      ],
+      "source_documents": 19,
+      "scope": "exploratory descriptive interval on reused development examples; no multiplicity correction or population confirmation"
+    },
+    "instruction_x_role": {
+      "difference_pp": 10.416666666666666,
+      "paired_document_bootstrap_95_pp": [
+        -4.545454545454546,
+        22.916666666666668
+      ],
+      "source_documents": 19,
+      "scope": "exploratory descriptive interval on reused development examples; no multiplicity correction or population confirmation"
+    },
+    "prefix_x_role": {
+      "difference_pp": 10.416666666666666,
+      "paired_document_bootstrap_95_pp": [
+        -6.0,
+        26.08695652173913
+      ],
+      "source_documents": 19,
+      "scope": "exploratory descriptive interval on reused development examples; no multiplicity correction or population confirmation"
+    },
+    "instruction_subject_no_prefix": {
+      "difference_pp": 25.0,
+      "paired_document_bootstrap_95_pp": [
+        9.090909090909092,
+        40.90909090909091
+      ],
+      "source_documents": 19,
+      "scope": "exploratory descriptive interval on reused development examples; no multiplicity correction or population confirmation"
+    },
+    "instruction_object_no_prefix": {
+      "difference_pp": 4.166666666666667,
+      "paired_document_bootstrap_95_pp": [
+        -8.695652173913043,
+        19.047619047619047
+      ],
+      "source_documents": 19,
+      "scope": "exploratory descriptive interval on reused development examples; no multiplicity correction or population confirmation"
+    },
+    "prefix_subject_original": {
+      "difference_pp": 25.0,
+      "paired_document_bootstrap_95_pp": [
+        9.090909090909092,
+        40.90909090909091
+      ],
+      "source_documents": 19,
+      "scope": "exploratory descriptive interval on reused development examples; no multiplicity correction or population confirmation"
+    },
+    "prefix_object_original": {
+      "difference_pp": 4.166666666666667,
+      "paired_document_bootstrap_95_pp": [
+        0.0,
+        12.5
+      ],
+      "source_documents": 19,
+      "scope": "exploratory descriptive interval on reused development examples; no multiplicity correction or population confirmation"
+    }
+  },
+  "historical_baseline_replay": {
+    "raw_identical": 48,
+    "correctness_identical": 48,
+    "n": 48
+  },
+  "oracle_candidate_scoring": {
+    "logprob_sum": {
+      "subject": {
+        "correct": 15,
+        "n": 24,
+        "correct_among_generation_wrong": 11,
+        "generation_wrong": 20
+      },
+      "object": {
+        "correct": 17,
+        "n": 24,
+        "correct_among_generation_wrong": 2,
+        "generation_wrong": 9
+      }
+    },
+    "logprob_mean": {
+      "subject": {
+        "correct": 15,
+        "n": 24,
+        "correct_among_generation_wrong": 11,
+        "generation_wrong": 20
+      },
+      "object": {
+        "correct": 18,
+        "n": 24,
+        "correct_among_generation_wrong": 3,
+        "generation_wrong": 9
+      }
+    },
+    "first_token_logprob": {
+      "subject": {
+        "correct": 14,
+        "n": 24,
+        "correct_among_generation_wrong": 10,
+        "generation_wrong": 20
+      },
+      "object": {
+        "correct": 16,
+        "n": 24,
+        "correct_among_generation_wrong": 1,
+        "generation_wrong": 9
+      }
+    }
+  },
+  "actual_token_cost": {
+    "input_tokens": 15952,
+    "output_tokens": 686,
+    "calls": 192,
+    "generation_wall_seconds": 139.7106876677135,
+    "teacher_forcing_excluded_from_generation_cost": true,
+    "length_terminations": 0
+  },
+  "protocol_sha256": "a25e281d8324054af7b9e615bbd403737457d4652774e9597097941d080a93b0"
+}

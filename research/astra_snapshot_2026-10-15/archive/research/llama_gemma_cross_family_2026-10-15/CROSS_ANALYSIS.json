@@ -1,0 +1,4251 @@
+{
+  "status": "Exploratory reused constructed examples, six name-pair clusters; not independent natural-language confirmation",
+  "uncertainty_caveat": "Only six reused name-pair clusters. Bootstrap intervals are unstable and degenerate for all-zero/all-one cells; they do not bound unseen-population error.",
+  "models": {
+    "llama": {
+      "records": 1728,
+      "strong_free": {
+        "active/lexical": {
+          "events": 12,
+          "joint_correct": 11,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.9166666666666666,
+            "interval95": [
+              0.75,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              0.5,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 11,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "active/explicit": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        },
+        "passive/lexical": {
+          "events": 12,
+          "joint_correct": 8,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.6666666666666666,
+            "interval95": [
+              0.5,
+              0.8333333333333334
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.5,
+              0.5,
+              1.0,
+              0.5,
+              0.5,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 8,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "patient",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "passive/explicit": {
+          "events": 12,
+          "joint_correct": 10,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.8333333333333334,
+            "interval95": [
+              0.6666666666666666,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 10,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p2-pulled-d1",
+              "role": "actor",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Dan",
+              "gold": "Bill"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "object_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 2,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.16666666666666666,
+            "interval95": [
+              0.0,
+              0.3333333333333333
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5
+            ]
+          },
+          "actor_correct": 11,
+          "patient_correct": 3,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "patient",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "patient",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "patient",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "actor",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "patient",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "patient",
+              "answer": "Susan",
+              "gold": "David"
+            }
+          ],
+          "contrast_reversed": 1
+        },
+        "object_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 0,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.0,
+            "interval95": [
+              0.0,
+              0.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 0,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "actor",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "actor",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "actor",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "actor",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "actor",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "actor",
+              "answer": "Bill",
+              "gold": "Dan"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "actor",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "actor",
+              "answer": "Susan",
+              "gold": "David"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "actor",
+              "answer": "David",
+              "gold": "Susan"
+            }
+          ],
+          "contrast_reversed": 9
+        },
+        "subject_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        },
+        "subject_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        }
+      },
+      "wording_transitions": "explicit",
+      "candidate_order": {
+        "strong_list": {
+          "active": {
+            "comparisons": 48,
+            "answer_flips": 8
+          },
+          "passive": {
+            "comparisons": 48,
+            "answer_flips": 16
+          },
+          "object_cleft": {
+            "comparisons": 48,
+            "answer_flips": 21
+          },
+          "subject_cleft": {
+            "comparisons": 48,
+            "answer_flips": 8
+          }
+        },
+        "legacy": {
+          "active": {
+            "comparisons": 144,
+            "answer_flips": 19
+          },
+          "passive": {
+            "comparisons": 144,
+            "answer_flips": 51
+          },
+          "object_cleft": {
+            "comparisons": 144,
+            "answer_flips": 7
+          },
+          "subject_cleft": {
+            "comparisons": 144,
+            "answer_flips": 24
+          }
+        }
+      },
+      "heuristic_prediction_agreement": {
+        "active/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 13,
+            "always_patient": 11,
+            "always_first": 13,
+            "always_last": 11,
+            "first_as_actor": 23,
+            "last_as_actor": 1,
+            "event_subject_as_actor": 23,
+            "event_subject_as_patient": 1
+          }
+        },
+        "active/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "passive/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 16,
+            "always_patient": 8,
+            "always_first": 8,
+            "always_last": 16,
+            "first_as_actor": 4,
+            "last_as_actor": 20,
+            "event_subject_as_actor": 4,
+            "event_subject_as_patient": 20
+          }
+        },
+        "passive/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 10,
+            "always_patient": 14,
+            "always_first": 14,
+            "always_last": 10,
+            "first_as_actor": 2,
+            "last_as_actor": 22,
+            "event_subject_as_actor": 2,
+            "event_subject_as_patient": 22
+          }
+        },
+        "object_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 20,
+            "always_patient": 4,
+            "always_first": 4,
+            "always_last": 20,
+            "first_as_actor": 10,
+            "last_as_actor": 14,
+            "event_subject_as_actor": 14,
+            "event_subject_as_patient": 10
+          }
+        },
+        "object_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 0,
+            "always_patient": 24,
+            "always_first": 24,
+            "always_last": 0,
+            "first_as_actor": 12,
+            "last_as_actor": 12,
+            "event_subject_as_actor": 12,
+            "event_subject_as_patient": 12
+          }
+        },
+        "subject_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "subject_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        }
+      }
+    },
+    "llama_no_prefill": {
+      "records": 192,
+      "strong_free": {
+        "active/lexical": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        },
+        "active/explicit": {
+          "events": 12,
+          "joint_correct": 11,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.9166666666666666,
+            "interval95": [
+              0.75,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              0.5,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 11,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p2-pulled-d1",
+              "role": "actor",
+              "answer": "Mark",
+              "gold": "Rose"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "passive/lexical": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        },
+        "passive/explicit": {
+          "events": 12,
+          "joint_correct": 9,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.75,
+            "interval95": [
+              0.5833333333333334,
+              0.9166666666666666
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              0.5,
+              0.5,
+              1.0,
+              0.5
+            ]
+          },
+          "actor_correct": 9,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p2-pulled-d1",
+              "role": "actor",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "actor",
+              "answer": "David",
+              "gold": "Susan"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "object_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 4,
+          "both_wrong": 2,
+          "accuracy_uncertainty": {
+            "estimate": 0.3333333333333333,
+            "interval95": [
+              0.16666666666666666,
+              0.5
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.5,
+              0.0,
+              0.5,
+              0.5,
+              0.0,
+              0.5
+            ]
+          },
+          "actor_correct": 8,
+          "patient_correct": 6,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p0-nudged-d0",
+              "role": "patient",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "actor",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "patient",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "actor",
+              "answer": "David",
+              "gold": "Susan"
+            }
+          ],
+          "contrast_reversed": 4
+        },
+        "object_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 0,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.0,
+            "interval95": [
+              0.0,
+              0.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 0,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "actor",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "actor",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "actor",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "actor",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "actor",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "actor",
+              "answer": "Bill",
+              "gold": "Dan"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "actor",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "actor",
+              "answer": "Susan",
+              "gold": "David"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "actor",
+              "answer": "David",
+              "gold": "Susan"
+            }
+          ],
+          "contrast_reversed": 11
+        },
+        "subject_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        },
+        "subject_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        }
+      },
+      "wording_transitions": "explicit",
+      "candidate_order": {},
+      "heuristic_prediction_agreement": {
+        "active/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "active/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 11,
+            "always_patient": 13,
+            "always_first": 11,
+            "always_last": 13,
+            "first_as_actor": 23,
+            "last_as_actor": 1,
+            "event_subject_as_actor": 23,
+            "event_subject_as_patient": 1
+          }
+        },
+        "passive/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 0,
+            "last_as_actor": 24,
+            "event_subject_as_actor": 0,
+            "event_subject_as_patient": 24
+          }
+        },
+        "passive/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 9,
+            "always_patient": 15,
+            "always_first": 15,
+            "always_last": 9,
+            "first_as_actor": 3,
+            "last_as_actor": 21,
+            "event_subject_as_actor": 3,
+            "event_subject_as_patient": 21
+          }
+        },
+        "object_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 14,
+            "always_patient": 10,
+            "always_first": 10,
+            "always_last": 14,
+            "first_as_actor": 10,
+            "last_as_actor": 14,
+            "event_subject_as_actor": 14,
+            "event_subject_as_patient": 10
+          }
+        },
+        "object_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 0,
+            "always_patient": 24,
+            "always_first": 24,
+            "always_last": 0,
+            "first_as_actor": 12,
+            "last_as_actor": 12,
+            "event_subject_as_actor": 12,
+            "event_subject_as_patient": 12
+          }
+        },
+        "subject_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "subject_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        }
+      }
+    },
+    "gemma": {
+      "records": 1728,
+      "strong_free": {
+        "active/lexical": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": []
+        },
+        "active/explicit": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": []
+        },
+        "passive/lexical": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": []
+        },
+        "passive/explicit": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": []
+        },
+        "object_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": []
+        },
+        "object_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": []
+        },
+        "subject_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": []
+        },
+        "subject_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": []
+        }
+      },
+      "wording_transitions": "explicit",
+      "candidate_order": {
+        "strong_list": {
+          "active": {
+            "comparisons": 48,
+            "answer_flips": 0
+          },
+          "passive": {
+            "comparisons": 48,
+            "answer_flips": 0
+          },
+          "object_cleft": {
+            "comparisons": 48,
+            "answer_flips": 0
+          },
+          "subject_cleft": {
+            "comparisons": 48,
+            "answer_flips": 0
+          }
+        },
+        "legacy": {
+          "active": {
+            "comparisons": 144,
+            "answer_flips": 0
+          },
+          "passive": {
+            "comparisons": 144,
+            "answer_flips": 0
+          },
+          "object_cleft": {
+            "comparisons": 144,
+            "answer_flips": 0
+          },
+          "subject_cleft": {
+            "comparisons": 144,
+            "answer_flips": 0
+          }
+        }
+      },
+      "heuristic_prediction_agreement": {
+        "active/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "active/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "passive/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 0,
+            "last_as_actor": 24,
+            "event_subject_as_actor": 0,
+            "event_subject_as_patient": 24
+          }
+        },
+        "passive/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 0,
+            "last_as_actor": 24,
+            "event_subject_as_actor": 0,
+            "event_subject_as_patient": 24
+          }
+        },
+        "object_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 0,
+            "last_as_actor": 24,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "object_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 0,
+            "last_as_actor": 24,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "subject_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "subject_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        }
+      }
+    },
+    "phi3": {
+      "records": 1728,
+      "strong_free": {
+        "active/lexical": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        },
+        "active/explicit": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        },
+        "passive/lexical": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        },
+        "passive/explicit": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        },
+        "object_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 9,
+          "both_wrong": 1,
+          "accuracy_uncertainty": {
+            "estimate": 0.75,
+            "interval95": [
+              0.5833333333333334,
+              0.9166666666666666
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.5,
+              1.0,
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 11,
+          "patient_correct": 9,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p0-nudged-d0",
+              "role": "patient",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "patient",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            }
+          ],
+          "contrast_reversed": 1
+        },
+        "object_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 1,
+          "both_wrong": 6,
+          "accuracy_uncertainty": {
+            "estimate": 0.08333333333333333,
+            "interval95": [
+              0.0,
+              0.25
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 1,
+          "patient_correct": 6,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p0-nudged-d0",
+              "role": "patient",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "actor",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "actor",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "actor",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "actor",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "patient",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "actor",
+              "answer": "Bill",
+              "gold": "Dan"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "actor",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "actor",
+              "answer": "Susan",
+              "gold": "David"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "patient",
+              "answer": "David",
+              "gold": "Susan"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "actor",
+              "answer": "David",
+              "gold": "Susan"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "patient",
+              "answer": "Susan",
+              "gold": "David"
+            }
+          ],
+          "contrast_reversed": 9
+        },
+        "subject_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        },
+        "subject_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        }
+      },
+      "wording_transitions": "explicit",
+      "candidate_order": {
+        "strong_list": {
+          "active": {
+            "comparisons": 48,
+            "answer_flips": 0
+          },
+          "passive": {
+            "comparisons": 48,
+            "answer_flips": 0
+          },
+          "object_cleft": {
+            "comparisons": 48,
+            "answer_flips": 4
+          },
+          "subject_cleft": {
+            "comparisons": 48,
+            "answer_flips": 0
+          }
+        },
+        "legacy": {
+          "active": {
+            "comparisons": 144,
+            "answer_flips": 26
+          },
+          "passive": {
+            "comparisons": 144,
+            "answer_flips": 28
+          },
+          "object_cleft": {
+            "comparisons": 144,
+            "answer_flips": 19
+          },
+          "subject_cleft": {
+            "comparisons": 144,
+            "answer_flips": 15
+          }
+        }
+      },
+      "heuristic_prediction_agreement": {
+        "active/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "active/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "passive/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 0,
+            "last_as_actor": 24,
+            "event_subject_as_actor": 0,
+            "event_subject_as_patient": 24
+          }
+        },
+        "passive/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 0,
+            "last_as_actor": 24,
+            "event_subject_as_actor": 0,
+            "event_subject_as_patient": 24
+          }
+        },
+        "object_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 14,
+            "always_patient": 10,
+            "always_first": 10,
+            "always_last": 14,
+            "first_as_actor": 4,
+            "last_as_actor": 20,
+            "event_subject_as_actor": 20,
+            "event_subject_as_patient": 4
+          }
+        },
+        "object_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 7,
+            "always_patient": 17,
+            "always_first": 17,
+            "always_last": 7,
+            "first_as_actor": 17,
+            "last_as_actor": 7,
+            "event_subject_as_actor": 7,
+            "event_subject_as_patient": 17
+          }
+        },
+        "subject_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "subject_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        }
+      }
+    },
+    "qwen05": {
+      "records": 1152,
+      "strong_free": {
+        "active/lexical": {
+          "events": 12,
+          "joint_correct": 3,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.25,
+            "interval95": [
+              0.0,
+              0.5833333333333334
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.5,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 7,
+          "patient_correct": 8,
+          "compliant": 23,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "patient",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "patient",
+              "answer": "Mark was pulled by someone in this sentence.",
+              "gold": "Rose"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "actor",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "actor",
+              "answer": "Susan",
+              "gold": "David"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "actor",
+              "answer": "David",
+              "gold": "Susan"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "active/explicit": {
+          "events": 12,
+          "joint_correct": 0,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.0,
+            "interval95": [
+              0.0,
+              0.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 7,
+          "patient_correct": 5,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "patient",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "patient",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "actor",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "patient",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "actor",
+              "answer": "Susan",
+              "gold": "David"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "actor",
+              "answer": "David",
+              "gold": "Susan"
+            }
+          ],
+          "contrast_reversed": 6
+        },
+        "passive/lexical": {
+          "events": 12,
+          "joint_correct": 0,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.0,
+            "interval95": [
+              0.0,
+              0.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 0,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "patient",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "patient",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "patient",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "patient",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "patient",
+              "answer": "Bill",
+              "gold": "Dan"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "patient",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "patient",
+              "answer": "David",
+              "gold": "Susan"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "patient",
+              "answer": "Susan",
+              "gold": "David"
+            }
+          ],
+          "contrast_reversed": 11
+        },
+        "passive/explicit": {
+          "events": 12,
+          "joint_correct": 1,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.08333333333333333,
+            "interval95": [
+              0.0,
+              0.25
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 10,
+          "patient_correct": 3,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "patient",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "patient",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "patient",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "patient",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "patient",
+              "answer": "David",
+              "gold": "Susan"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "patient",
+              "answer": "Susan",
+              "gold": "David"
+            }
+          ],
+          "contrast_reversed": 1
+        },
+        "object_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 0,
+          "both_wrong": 1,
+          "accuracy_uncertainty": {
+            "estimate": 0.0,
+            "interval95": [
+              0.0,
+              0.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 10,
+          "patient_correct": 1,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "patient",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "patient",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "patient",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "patient",
+              "answer": "Bill",
+              "gold": "Dan"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "patient",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "patient",
+              "answer": "David",
+              "gold": "Susan"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "patient",
+              "answer": "Susan",
+              "gold": "David"
+            }
+          ],
+          "contrast_reversed": 8
+        },
+        "object_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 0,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.0,
+            "interval95": [
+              0.0,
+              0.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 0,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "patient",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "patient",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "patient",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "patient",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "patient",
+              "answer": "Bill",
+              "gold": "Dan"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "patient",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "patient",
+              "answer": "David",
+              "gold": "Susan"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "patient",
+              "answer": "Susan",
+              "gold": "David"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "subject_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 4,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.3333333333333333,
+            "interval95": [
+              0.08333333333333333,
+              0.6666666666666666
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.5,
+              0.5,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 8,
+          "patient_correct": 8,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "patient",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "patient",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "actor",
+              "answer": "Susan",
+              "gold": "David"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "actor",
+              "answer": "David",
+              "gold": "Susan"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "subject_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 0,
+          "both_wrong": 2,
+          "accuracy_uncertainty": {
+            "estimate": 0.0,
+            "interval95": [
+              0.0,
+              0.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 6,
+          "patient_correct": 4,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "patient",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "patient",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "actor",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "patient",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "actor",
+              "answer": "Susan",
+              "gold": "David"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "patient",
+              "answer": "David",
+              "gold": "Susan"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "actor",
+              "answer": "David",
+              "gold": "Susan"
+            }
+          ],
+          "contrast_reversed": 10
+        }
+      },
+      "wording_transitions": "explicit",
+      "candidate_order": {
+        "strong_list": {
+          "active": {
+            "comparisons": 48,
+            "answer_flips": 16
+          },
+          "passive": {
+            "comparisons": 48,
+            "answer_flips": 4
+          },
+          "object_cleft": {
+            "comparisons": 48,
+            "answer_flips": 5
+          },
+          "subject_cleft": {
+            "comparisons": 48,
+            "answer_flips": 15
+          }
+        }
+      },
+      "heuristic_prediction_agreement": {
+        "active/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 10,
+            "always_patient": 13,
+            "always_first": 10,
+            "always_last": 13,
+            "first_as_actor": 15,
+            "last_as_actor": 8,
+            "event_subject_as_actor": 15,
+            "event_subject_as_patient": 8
+          }
+        },
+        "active/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 14,
+            "always_patient": 10,
+            "always_first": 14,
+            "always_last": 10,
+            "first_as_actor": 12,
+            "last_as_actor": 12,
+            "event_subject_as_actor": 12,
+            "event_subject_as_patient": 12
+          }
+        },
+        "passive/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 24,
+            "always_patient": 0,
+            "always_first": 0,
+            "always_last": 24,
+            "first_as_actor": 12,
+            "last_as_actor": 12,
+            "event_subject_as_actor": 12,
+            "event_subject_as_patient": 12
+          }
+        },
+        "passive/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 19,
+            "always_patient": 5,
+            "always_first": 5,
+            "always_last": 19,
+            "first_as_actor": 11,
+            "last_as_actor": 13,
+            "event_subject_as_actor": 11,
+            "event_subject_as_patient": 13
+          }
+        },
+        "object_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 21,
+            "always_patient": 3,
+            "always_first": 3,
+            "always_last": 21,
+            "first_as_actor": 13,
+            "last_as_actor": 11,
+            "event_subject_as_actor": 11,
+            "event_subject_as_patient": 13
+          }
+        },
+        "object_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 24,
+            "always_patient": 0,
+            "always_first": 0,
+            "always_last": 24,
+            "first_as_actor": 12,
+            "last_as_actor": 12,
+            "event_subject_as_actor": 12,
+            "event_subject_as_patient": 12
+          }
+        },
+        "subject_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 16,
+            "last_as_actor": 8,
+            "event_subject_as_actor": 16,
+            "event_subject_as_patient": 8
+          }
+        },
+        "subject_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 14,
+            "always_patient": 10,
+            "always_first": 14,
+            "always_last": 10,
+            "first_as_actor": 10,
+            "last_as_actor": 14,
+            "event_subject_as_actor": 10,
+            "event_subject_as_patient": 14
+          }
+        }
+      }
+    },
+    "qwen15": {
+      "records": 1152,
+      "strong_free": {
+        "active/lexical": {
+          "events": 12,
+          "joint_correct": 5,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.4166666666666667,
+            "interval95": [
+              0.08333333333333333,
+              0.75
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.5,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "actor_correct": 9,
+          "patient_correct": 8,
+          "compliant": 22,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Bill nudged Dan.",
+              "gold": "Bill"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "actor",
+              "answer": "Dan nudged Bill.",
+              "gold": "Dan"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "patient",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "active/explicit": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        },
+        "passive/lexical": {
+          "events": 12,
+          "joint_correct": 1,
+          "both_wrong": 2,
+          "accuracy_uncertainty": {
+            "estimate": 0.08333333333333333,
+            "interval95": [
+              0.0,
+              0.25
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.5
+            ]
+          },
+          "actor_correct": 8,
+          "patient_correct": 3,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "patient",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "patient",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "actor",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "actor",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "patient",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "patient",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "patient",
+              "answer": "Bill",
+              "gold": "Dan"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "actor",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "patient",
+              "answer": "Susan",
+              "gold": "David"
+            }
+          ],
+          "contrast_reversed": 5
+        },
+        "passive/explicit": {
+          "events": 12,
+          "joint_correct": 1,
+          "both_wrong": 2,
+          "accuracy_uncertainty": {
+            "estimate": 0.08333333333333333,
+            "interval95": [
+              0.0,
+              0.25
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.0,
+              0.5,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 4,
+          "patient_correct": 7,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "patient",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "actor",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "actor",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "patient",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "patient",
+              "answer": "Bill",
+              "gold": "Dan"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "actor",
+              "answer": "Bill",
+              "gold": "Dan"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "actor",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "actor",
+              "answer": "Susan",
+              "gold": "David"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "patient",
+              "answer": "Susan",
+              "gold": "David"
+            }
+          ],
+          "contrast_reversed": 8
+        },
+        "object_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 0,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.0,
+            "interval95": [
+              0.0,
+              0.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 0,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "actor",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "actor",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "actor",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "actor",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "actor",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "actor",
+              "answer": "Bill",
+              "gold": "Dan"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "actor",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "actor",
+              "answer": "Susan",
+              "gold": "David"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "actor",
+              "answer": "David",
+              "gold": "Susan"
+            }
+          ],
+          "contrast_reversed": 9
+        },
+        "object_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 0,
+          "both_wrong": 1,
+          "accuracy_uncertainty": {
+            "estimate": 0.0,
+            "interval95": [
+              0.0,
+              0.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 0,
+          "patient_correct": 11,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "actor",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "actor",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "actor",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "actor",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "actor",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "patient",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "actor",
+              "answer": "Bill",
+              "gold": "Dan"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "actor",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "actor",
+              "answer": "Susan",
+              "gold": "David"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "actor",
+              "answer": "David",
+              "gold": "Susan"
+            }
+          ],
+          "contrast_reversed": 11
+        },
+        "subject_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 6,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.5,
+            "interval95": [
+              0.16666666666666666,
+              0.8333333333333334
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              0.0,
+              0.5,
+              1.0,
+              0.0,
+              0.5
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 6,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "patient",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "patient",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "patient",
+              "answer": "Susan",
+              "gold": "David"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "subject_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 3,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.25,
+            "interval95": [
+              0.08333333333333333,
+              0.4166666666666667
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.5,
+              0.0,
+              0.5,
+              0.5,
+              0.0,
+              0.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 3,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d1",
+              "role": "patient",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "patient",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "patient",
+              "answer": "Bill",
+              "gold": "Dan"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "patient",
+              "answer": "Carl",
+              "gold": "Matt"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "patient",
+              "answer": "David",
+              "gold": "Susan"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "patient",
+              "answer": "Susan",
+              "gold": "David"
+            }
+          ],
+          "contrast_reversed": 0
+        }
+      },
+      "wording_transitions": "explicit",
+      "candidate_order": {
+        "strong_list": {
+          "active": {
+            "comparisons": 48,
+            "answer_flips": 7
+          },
+          "passive": {
+            "comparisons": 48,
+            "answer_flips": 14
+          },
+          "object_cleft": {
+            "comparisons": 48,
+            "answer_flips": 0
+          },
+          "subject_cleft": {
+            "comparisons": 48,
+            "answer_flips": 6
+          }
+        }
+      },
+      "heuristic_prediction_agreement": {
+        "active/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 13,
+            "always_patient": 9,
+            "always_first": 13,
+            "always_last": 9,
+            "first_as_actor": 17,
+            "last_as_actor": 5,
+            "event_subject_as_actor": 17,
+            "event_subject_as_patient": 5
+          }
+        },
+        "active/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "passive/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 17,
+            "always_patient": 7,
+            "always_first": 7,
+            "always_last": 17,
+            "first_as_actor": 13,
+            "last_as_actor": 11,
+            "event_subject_as_actor": 13,
+            "event_subject_as_patient": 11
+          }
+        },
+        "passive/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 9,
+            "always_patient": 15,
+            "always_first": 15,
+            "always_last": 9,
+            "first_as_actor": 13,
+            "last_as_actor": 11,
+            "event_subject_as_actor": 13,
+            "event_subject_as_patient": 11
+          }
+        },
+        "object_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 0,
+            "always_patient": 24,
+            "always_first": 24,
+            "always_last": 0,
+            "first_as_actor": 12,
+            "last_as_actor": 12,
+            "event_subject_as_actor": 12,
+            "event_subject_as_patient": 12
+          }
+        },
+        "object_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 1,
+            "always_patient": 23,
+            "always_first": 23,
+            "always_last": 1,
+            "first_as_actor": 13,
+            "last_as_actor": 11,
+            "event_subject_as_actor": 11,
+            "event_subject_as_patient": 13
+          }
+        },
+        "subject_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 18,
+            "always_patient": 6,
+            "always_first": 18,
+            "always_last": 6,
+            "first_as_actor": 18,
+            "last_as_actor": 6,
+            "event_subject_as_actor": 18,
+            "event_subject_as_patient": 6
+          }
+        },
+        "subject_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 21,
+            "always_patient": 3,
+            "always_first": 21,
+            "always_last": 3,
+            "first_as_actor": 15,
+            "last_as_actor": 9,
+            "event_subject_as_actor": 15,
+            "event_subject_as_patient": 9
+          }
+        }
+      }
+    },
+    "qwen7b": {
+      "records": 1152,
+      "strong_free": {
+        "active/lexical": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        },
+        "active/explicit": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        },
+        "passive/lexical": {
+          "events": 12,
+          "joint_correct": 10,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.8333333333333334,
+            "interval95": [
+              0.6666666666666666,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              0.5,
+              1.0,
+              0.5,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 10,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p1-tagged-d1",
+              "role": "actor",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Dan",
+              "gold": "Bill"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "passive/explicit": {
+          "events": 12,
+          "joint_correct": 8,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.6666666666666666,
+            "interval95": [
+              0.5,
+              0.8333333333333334
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.5,
+              0.5,
+              1.0,
+              0.5,
+              0.5,
+              1.0
+            ]
+          },
+          "actor_correct": 8,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "actor",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "actor",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "actor",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p4-tagged-d0",
+              "role": "actor",
+              "answer": "Matt",
+              "gold": "Carl"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "object_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 3,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.25,
+            "interval95": [
+              0.08333333333333333,
+              0.4166666666666667
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              0.0,
+              0.0,
+              0.5,
+              0.0,
+              0.5,
+              0.5
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 3,
+          "compliant": 23,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p0-nudged-d0",
+              "role": "patient",
+              "answer": "Amy",
+              "gold": "Ben"
+            },
+            {
+              "id": "p0-nudged-d1",
+              "role": "patient",
+              "answer": "Ben",
+              "gold": "Amy"
+            },
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d1",
+              "role": "patient",
+              "answer": "Rose",
+              "gold": "Mark"
+            },
+            {
+              "id": "p3-nudged-d0",
+              "role": "patient",
+              "answer": "Bill",
+              "gold": "Dan"
+            },
+            {
+              "id": "p3-nudged-d1",
+              "role": "patient",
+              "answer": "Dan",
+              "gold": "Bill"
+            },
+            {
+              "id": "p4-tagged-d1",
+              "role": "patient",
+              "answer": "Matt",
+              "gold": "Carl"
+            },
+            {
+              "id": "p5-pulled-d1",
+              "role": "patient",
+              "answer": "Susan pulled David.",
+              "gold": "David"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "object_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 8,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.6666666666666666,
+            "interval95": [
+              0.3333333333333333,
+              0.9166666666666666
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              0.0,
+              0.5,
+              1.0,
+              1.0,
+              0.5
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 8,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p1-tagged-d0",
+              "role": "patient",
+              "answer": "Fred",
+              "gold": "Jane"
+            },
+            {
+              "id": "p1-tagged-d1",
+              "role": "patient",
+              "answer": "Jane",
+              "gold": "Fred"
+            },
+            {
+              "id": "p2-pulled-d0",
+              "role": "patient",
+              "answer": "Mark",
+              "gold": "Rose"
+            },
+            {
+              "id": "p5-pulled-d0",
+              "role": "patient",
+              "answer": "David",
+              "gold": "Susan"
+            }
+          ],
+          "contrast_reversed": 1
+        },
+        "subject_cleft/lexical": {
+          "events": 12,
+          "joint_correct": 11,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 0.9166666666666666,
+            "interval95": [
+              0.75,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              0.5,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 11,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [
+            {
+              "id": "p1-tagged-d0",
+              "role": "actor",
+              "answer": "Jane",
+              "gold": "Fred"
+            }
+          ],
+          "contrast_reversed": 0
+        },
+        "subject_cleft/explicit": {
+          "events": 12,
+          "joint_correct": 12,
+          "both_wrong": 0,
+          "accuracy_uncertainty": {
+            "estimate": 1.0,
+            "interval95": [
+              1.0,
+              1.0
+            ],
+            "clusters": 6,
+            "cluster_values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "compliant": 24,
+          "answers": 24,
+          "errors": [],
+          "contrast_reversed": 0
+        }
+      },
+      "wording_transitions": "explicit",
+      "candidate_order": {
+        "strong_list": {
+          "active": {
+            "comparisons": 48,
+            "answer_flips": 0
+          },
+          "passive": {
+            "comparisons": 48,
+            "answer_flips": 3
+          },
+          "object_cleft": {
+            "comparisons": 48,
+            "answer_flips": 11
+          },
+          "subject_cleft": {
+            "comparisons": 48,
+            "answer_flips": 1
+          }
+        }
+      },
+      "heuristic_prediction_agreement": {
+        "active/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "active/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        },
+        "passive/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 10,
+            "always_patient": 14,
+            "always_first": 14,
+            "always_last": 10,
+            "first_as_actor": 2,
+            "last_as_actor": 22,
+            "event_subject_as_actor": 2,
+            "event_subject_as_patient": 22
+          }
+        },
+        "passive/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 8,
+            "always_patient": 16,
+            "always_first": 16,
+            "always_last": 8,
+            "first_as_actor": 4,
+            "last_as_actor": 20,
+            "event_subject_as_actor": 4,
+            "event_subject_as_patient": 20
+          }
+        },
+        "object_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 20,
+            "always_patient": 3,
+            "always_first": 3,
+            "always_last": 20,
+            "first_as_actor": 8,
+            "last_as_actor": 15,
+            "event_subject_as_actor": 15,
+            "event_subject_as_patient": 8
+          }
+        },
+        "object_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 16,
+            "always_patient": 8,
+            "always_first": 8,
+            "always_last": 16,
+            "first_as_actor": 4,
+            "last_as_actor": 20,
+            "event_subject_as_actor": 20,
+            "event_subject_as_patient": 4
+          }
+        },
+        "subject_cleft/lexical": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 11,
+            "always_patient": 13,
+            "always_first": 11,
+            "always_last": 13,
+            "first_as_actor": 23,
+            "last_as_actor": 1,
+            "event_subject_as_actor": 23,
+            "event_subject_as_patient": 1
+          }
+        },
+        "subject_cleft/explicit": {
+          "n": 24,
+          "agreement": {
+            "always_actor": 12,
+            "always_patient": 12,
+            "always_first": 12,
+            "always_last": 12,
+            "first_as_actor": 24,
+            "last_as_actor": 0,
+            "event_subject_as_actor": 24,
+            "event_subject_as_patient": 0
+          }
+        }
+      }
+    }
+  },
+  "interface_transitions": {
+    "active/lexical": {
+      "newly_correct": [
+        "p3-nudged-d1"
+      ],
+      "newly_incorrect": [],
+      "paired_difference": {
+        "estimate": 0.08333333333333333,
+        "interval95": [
+          0.0,
+          0.25
+        ],
+        "clusters": 6,
+        "cluster_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "active/explicit": {
+      "newly_correct": [],
+      "newly_incorrect": [
+        "p2-pulled-d1"
+      ],
+      "paired_difference": {
+        "estimate": -0.08333333333333333,
+        "interval95": [
+          -0.25,
+          0.0
+        ],
+        "clusters": 6,
+        "cluster_values": [
+          0.0,
+          0.0,
+          -0.5,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "passive/lexical": {
+      "newly_correct": [
+        "p0-nudged-d0",
+        "p1-tagged-d1",
+        "p3-nudged-d1",
+        "p4-tagged-d1"
+      ],
+      "newly_incorrect": [],
+      "paired_difference": {
+        "estimate": 0.3333333333333333,
+        "interval95": [
+          0.16666666666666666,
+          0.5
+        ],
+        "clusters": 6,
+        "cluster_values": [
+          0.5,
+          0.5,
+          0.0,
+          0.5,
+          0.5,
+          0.0
+        ]
+      }
+    },
+    "passive/explicit": {
+      "newly_correct": [],
+      "newly_incorrect": [
+        "p5-pulled-d1"
+      ],
+      "paired_difference": {
+        "estimate": -0.08333333333333333,
+        "interval95": [
+          -0.25,
+          0.0
+        ],
+        "clusters": 6,
+        "cluster_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.5
+        ]
+      }
+    },
+    "object_cleft/lexical": {
+      "newly_correct": [
+        "p0-nudged-d1",
+        "p2-pulled-d0"
+      ],
+      "newly_incorrect": [],
+      "paired_difference": {
+        "estimate": 0.16666666666666666,
+        "interval95": [
+          0.0,
+          0.3333333333333333
+        ],
+        "clusters": 6,
+        "cluster_values": [
+          0.5,
+          0.0,
+          0.5,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "object_cleft/explicit": {
+      "newly_correct": [],
+      "newly_incorrect": [],
+      "paired_difference": {
+        "estimate": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ],
+        "clusters": 6,
+        "cluster_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "subject_cleft/lexical": {
+      "newly_correct": [],
+      "newly_incorrect": [],
+      "paired_difference": {
+        "estimate": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ],
+        "clusters": 6,
+        "cluster_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "subject_cleft/explicit": {
+      "newly_correct": [],
+      "newly_incorrect": [],
+      "paired_difference": {
+        "estimate": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ],
+        "clusters": 6,
+        "cluster_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "checksums": {
+    "llama": "7d9ad2e8d698f87b7e0a79fc7a845828a3450ea03034deb6c726177943b175fc",
+    "llama_no_prefill": "4e7465310de74e8a35ae920cffc5200ff1acd784f6e687581614e31e118adbcb",
+    "gemma": "15fcfa9e0b2a5593cbe079c180b436080887fb78e78ff30ef2d0881833e04df6",
+    "phi3": "2b1a000a177c933cef302b366e170b11328dd6f854683eb72fe45e8680176a64",
+    "qwen05": "a730a914629f58a91f1167e13e9065a9e398e478ddf30a546de902dcad10c652",
+    "qwen15": "bffaff31e8a39002a5d868463b97594959d23863f1d82dcfc8602dfa90db282a",
+    "qwen7b": "1f6b2442eabf2ec45e9cc6f407bc1bf9265d1a4feb6d4de4683c4f617537d155"
+  },
+  "billing": {
+    "successful_requests_including_smoke": 1729,
+    "conservative_accounted_eur": "0.58085600",
+    "cap_eur": "1.00",
+    "unresolved_rejected_request_upper_eur": "0.52430"
+  }
+}

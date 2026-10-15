@@ -1,0 +1,18 @@
+{
+  "status": "fixed_before_fresh_bank_test_inference",
+  "date": "2026-10-12",
+  "design": "After observing the positive 51-item Gold exploratory pilot, evaluate both its source participant-only checkpoint and the natural-data-plus-replay checkpoint on all qualifying QA-SRL Bank 2.0 original test events from unseen articles/sentences. This is a post-pilot test selection and one training run, not a preregistered independent replication.",
+  "selection": "Apply the identical strict actor/direct-participant extraction rule used for training. Include all Bank orig test events surviving exact normalized-sentence and Wiki1k source-article exclusions against Gold, selected training, and development items. No test result or model score used in selection.",
+  "primary": "Paired candidate-relative role contrast D>0 on each event. A useful directional fresh-test signal is at least seven additional correct events for the new checkpoint, a positive mean paired margin change, and synthetic cleft loss no worse than five percentage points (already frozen in the original pilot). Report all items and source domains.",
+  "control": "Repeat contrast with the sentence replaced by [omitted], retaining verb and candidate spans. Compare with-sentence minus omitted accuracy and mean margin for each model; a gain solely in the omitted condition is not evidence of better use of sentence context.",
+  "limits": "Bank original annotations have at least two agreeing judgments under our extraction rule but have not been independently reviewed by the student. Multiple predicates may come from one sentence/article. These events are not independent training replications. Source and new checkpoints have one shared model/start; current Gold test was already used in study design.",
+  "references": {
+    "bank_test_sha256": "08be07a8d2b269a64f1076abc979b34aeb6f41ecfb4a134a1cabda1ffeb6c4b9",
+    "gold_events_sha256": "8f7bf12e238889d5775da08a463343a4034349e0a199c61b020531e287e1d71b",
+    "repair_protocol_sha256": "7516a54e18aea5a811c6c65300583663c886222a7650f32c22375d502933e719",
+    "source_adapter_sha256": "8b114fa025a91199702d685da46b859e9d9e0ea08293cf9c5ac78a8c7eaa2e79",
+    "new_adapter_sha256": "d9fb2e75905905d687adff1f88ec4e5856ebfa2800130717f199e85ef11fc884",
+    "script_sha256": "e30fbefd1374ca9e85c59944ee62f7812ba7e5077fe09a283f55a16d26b2b03a"
+  },
+  "n_events": 130
+}

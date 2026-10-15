@@ -1,0 +1,21 @@
+{
+  "status": "fixed_before_new_inference",
+  "date": "2026-10-07",
+  "purpose": "Exploratory local test of role-answer accuracy and prompt/voice sensitivity in pretrained language models while the synthetic confirmation runs.",
+  "models": ["Qwen/Qwen2.5-1.5B-Instruct", "Qwen/Qwen2.5-0.5B-Instruct"],
+  "design": {
+    "name_pairs": 4,
+    "verbs": 3,
+    "agent_directions": 2,
+    "voices": ["active", "passive"],
+    "queried_roles": ["actor", "patient"],
+    "question_wordings": ["generic", "verb_specific"],
+    "semantic_events": 24,
+    "prompts_per_model": 192,
+    "generation": "greedy, maximum 8 new tokens, local model weights",
+    "balanced_factors": ["name order", "voice", "queried role", "wording", "verb"]
+  },
+  "scoring": "An answer is correct only if, after trimming whitespace and terminal punctuation, it is exactly the intended name. Other text and the other name count as errors. Preserve raw outputs.",
+  "outcomes": ["accuracy by model, voice, role and wording", "paired active/passive consistency", "paired generic/verb-specific consistency", "position-only baselines", "invalid-answer count"],
+  "limits": "This small synthetic-language pilot is exploratory. Pretraining exposure is unknown, so it cannot establish that a name pair or construction was unseen. Answers alone cannot establish the model's internal mechanism."
+}

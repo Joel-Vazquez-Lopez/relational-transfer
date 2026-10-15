@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-13",
+  "status": "prospectively frozen no-training development diagnostic; automatic QA-SRL role mapping remains provisional",
+  "question": "Does an explicit requested-role tag improve direct answers from existing checkpoints, and do candidates scaffold the role fields?",
+  "sample": "40 new original-train QA-SRL Bank items, disjoint from prior 160 train and 40 development sentences and excluded from QA-SRL Gold. Human QA annotation consensus, automatic actor/patient mapping; no independent human review. Deterministic SHA256 selection among remaining items with <=20 sentence tokens and <=3-token role spans.",
+  "conditions": [
+    "ordinary",
+    "tagged",
+    "no_candidates",
+    "tagged_no_candidates"
+  ],
+  "arms": [
+    "role_first",
+    "answer_only"
+  ],
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "prompts": "Native ordinary prompt; add Requested role: ACTOR/PATIENT before the unchanged original question, remove candidate line, or both. Same sentence, actor/patient questions, both candidate orders, fixed greedy decoding, 48 new tokens. No model training.",
+  "primary": "For role_first with candidates, compare paired exact direct-answer counts for tagged versus ordinary on 160 prompts per start, and compare same-output routed-minus-direct gap. Report all-four-correct items, question-pair identical-answer rate, generated actor/patient field correctness, parse rates, and answer-other-field errors.",
+  "secondary": "Answer-only tag effect tests generic explicit-role prompting. No-candidate conditions test reliance on supplied candidate spans but are an output/input distribution shift. Route from generated fields using metadata role is an oracle-selector diagnostic, not end-to-end QA.",
+  "positive_screen": "A promising question-role interpretation signal requires tagged role_first direct accuracy >= ordinary +16/160 in each start, with routed field accuracy falling by no more than 8/160. A large residual routed-minus-direct gap under tagged prompts means question interpretation alone is insufficient. These are development decisions, not publication confirmation.",
+  "limits": "This is one Qwen2.5-0.5B family, two starts, automatically mapped labels, and development data from the same source corpus. The 51 previously examined Gold items and both sealed human-review challenges are not evaluated. Explicit tags may help through prompt salience as well as role disambiguation; no-candidate performance may change because the training format included candidates.",
+  "script_sha256": "e709da83c6cd7620aa82498f2dab37e445e68d89f2092e3d7c8ebc11b793de71",
+  "items_sha256": "1fad7c3a560dbf10825ab0db151d3c55cbe8e5053e6ff644723d8f687012b410",
+  "source_data_sha256": "7fe15c03f02f02056944767630dc55e833f2980cbc469d13067d625a75f8917c",
+  "source_eval_sha256": "d0be17c60c0b68eaa6975c797cf8ea1d4ac9495b380eb7772f283f49288b0dbc",
+  "checkpoint_sha256": {
+    "fresh1:role_first": "38792b0566c786bafeffe5ff6b1cf69be3a16bf9d5e0ac8ec933010e6b11e1dd",
+    "fresh1:answer_only": "a51e961770b4ca7ad1ab5bbe05002e6be98443d01e9b1406716c93fd9b959d76",
+    "fresh3:role_first": "f3c89b2ca511fd90e54f415d0b0c4b573f6cf21a210cb5984f4ef376f67bff1d",
+    "fresh3:answer_only": "70867296df4acf6a66723c05c1cc8cbd8392085f1d1547242b5084e871d1ccd3"
+  }
+}

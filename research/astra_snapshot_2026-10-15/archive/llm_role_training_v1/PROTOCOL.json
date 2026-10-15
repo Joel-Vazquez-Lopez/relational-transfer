@@ -1,0 +1,23 @@
+{
+  "status": "exploratory_pilot_fixed_before_training",
+  "date": "2026-10-07",
+  "question": "On a locally fine-tuned open-weight language model, does ordered actor/patient auxiliary training improve role answers on pairs not shown together during fine-tuning, relative to a matched unordered-identity auxiliary control?",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct, local snapshot 7ae557604adf67be50417f59c2c2f167def9a775",
+  "graph": "fresh0 from the sealed synthetic manifest; its 10 entity labels map to the 10 fixed names in runner.py. All 20 observed pairs are used for fine-tuning in both directions; all 25 missing pairs are test-only.",
+  "arms": ["pretrained_no_finetuning", "unordered_identities", "ordered_roles"],
+  "matched_training": {
+    "examples": "20 observed pairs x 2 directions x 3 verbs x 2 voices x 2 queried roles = 480 identical supervised examples per trained arm",
+    "main_task": "Answer the actor or patient question with one name; identical target answer in both arms.",
+    "auxiliary": "Two 10-way heads applied to the final prompt-token state before the answer. Ordered arm targets actor and patient IDs; unordered arm targets the same two IDs sorted numerically. Both losses have weight 0.5.",
+    "adapter": "Rank-four LoRA, alpha eight, all q_proj and v_proj modules; frozen base, same head sizes and optimizer.",
+    "optimization": "One epoch, batch size one, 480 updates, AdamW learning rate 0.0001, identical initial seed and shuffled example order; no test-based checkpoint selection."
+  },
+  "evaluation": {
+    "data": "All 45 pairs x 2 directions x 3 verbs x 2 voices x 2 queried roles x 2 question wordings = 2160 prompts per arm. Observed and held-out pairs reported separately; no test prompt matches a training question.",
+    "generation": "Greedy, maximum eight new tokens. Keep every raw output; exact one-name parsing after trimming terminal punctuation.",
+    "primary_pilot_measure": "Held-out-pair answer accuracy averaged equally across all 25 missing pairs, with ordered minus unordered as the comparison.",
+    "secondary": ["Accuracy by voice, role and wording", "active/passive consistency with correctness", "question-wording consistency with correctness", "observed-pair accuracy", "invalid output rate", "untrained model reference"],
+    "no_interim_selection": "Run and score all three arms on the full fixed set. Do not alter prompts, names, verbs, model, steps, or exclusions based on partial outputs."
+  },
+  "limits": "One small pretrained model, one graph, one start and constructed sentences only. The 25 pairs are absent from this fine-tuning set but may have appeared during pretraining. This pilot cannot establish robust LLM repair or internal mechanism."
+}

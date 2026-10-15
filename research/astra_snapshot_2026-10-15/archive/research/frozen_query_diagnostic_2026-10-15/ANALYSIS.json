@@ -1,0 +1,123 @@
+{
+  "status": "exploratory_development_only",
+  "protocol_sha256": "6f5623f0f2cf4be0d6b4b07db7b158292c3c82a83adcb867535647a9ecc0f214",
+  "models": {
+    "0.5b": {
+      "metrics": {
+        "direct": {
+          "answers_correct": 17,
+          "missing_answers": 0,
+          "length_limit_responses": 0,
+          "both_answers_correct": 0,
+          "answer_denominator": 48,
+          "event_denominator": 24,
+          "mean_answer_f1": 0.43158095559411347
+        },
+        "query_visible": {
+          "answers_correct": 1,
+          "missing_answers": 46,
+          "length_limit_responses": 0,
+          "requested_field_correct": 6,
+          "correct_field_wrong_answer": 6,
+          "answer_matches_field": 1,
+          "both_answers_correct": 0,
+          "both_role_tuples_parse": 7,
+          "role_tuple_changes": 5,
+          "answer_denominator": 48,
+          "event_denominator": 24,
+          "mean_answer_f1": 0.020833333333333332
+        },
+        "query_blind": {
+          "answers_correct": 8,
+          "missing_answers": 15,
+          "length_limit_responses": 0,
+          "requested_field_correct": 8,
+          "correct_field_wrong_answer": 0,
+          "answer_matches_field": 33,
+          "both_answers_correct": 2,
+          "answer_denominator": 48,
+          "event_denominator": 24,
+          "mean_answer_f1": 0.2609165140415141
+        }
+      },
+      "contrasts": {
+        "query_visible_minus_direct": {
+          "both_correct_difference_pp": 0.0,
+          "paired_event_bootstrap_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "query_blind_minus_direct": {
+          "both_correct_difference_pp": 8.333333333333334,
+          "paired_event_bootstrap_95_pp": [
+            0.0,
+            20.833333333333336
+          ]
+        }
+      }
+    },
+    "1.5b": {
+      "metrics": {
+        "direct": {
+          "answers_correct": 19,
+          "missing_answers": 0,
+          "length_limit_responses": 0,
+          "both_answers_correct": 2,
+          "answer_denominator": 48,
+          "event_denominator": 24,
+          "mean_answer_f1": 0.5489087301587302
+        },
+        "query_visible": {
+          "answers_correct": 2,
+          "missing_answers": 45,
+          "length_limit_responses": 0,
+          "requested_field_correct": 27,
+          "correct_field_wrong_answer": 26,
+          "answer_matches_field": 2,
+          "both_answers_correct": 0,
+          "both_role_tuples_parse": 23,
+          "role_tuple_changes": 10,
+          "answer_denominator": 48,
+          "event_denominator": 24,
+          "mean_answer_f1": 0.041666666666666664
+        },
+        "query_blind": {
+          "answers_correct": 31,
+          "missing_answers": 0,
+          "length_limit_responses": 0,
+          "requested_field_correct": 31,
+          "correct_field_wrong_answer": 0,
+          "answer_matches_field": 48,
+          "both_answers_correct": 11,
+          "answer_denominator": 48,
+          "event_denominator": 24,
+          "mean_answer_f1": 0.6858363858363857
+        }
+      },
+      "contrasts": {
+        "query_visible_minus_direct": {
+          "both_correct_difference_pp": -8.333333333333334,
+          "paired_event_bootstrap_95_pp": [
+            -20.833333333333336,
+            0.0
+          ]
+        },
+        "query_blind_minus_direct": {
+          "both_correct_difference_pp": 37.5,
+          "paired_event_bootstrap_95_pp": [
+            16.666666666666664,
+            58.333333333333336
+          ]
+        }
+      }
+    }
+  },
+  "caveats": [
+    "All selected events active and actor-first; no construction generalization claim.",
+    "One pretrained family, two sizes, no independent human semantic review.",
+    "Question changes role and wording jointly; no isolated causal query mechanism.",
+    "Blind extraction has oracle role routing and different instruction; its invariance is guaranteed by reuse, not learned.",
+    "No model selection, prompt tuning or training will follow partial scores."
+  ]
+}

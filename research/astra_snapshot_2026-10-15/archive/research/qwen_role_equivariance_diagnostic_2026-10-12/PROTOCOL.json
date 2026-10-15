@@ -1,0 +1,23 @@
+{
+  "status": "frozen_before_inference; exploratory_constructed_items",
+  "date": "2026-10-12",
+  "question": "Does natural role adaptation improve jointly correct actor/patient answers across meaning-preserving forms and role reversal, beyond source adapters, on new constructed items?",
+  "models": ["untouched_qwen05", "fresh1_source", "fresh1_natural", "fresh3_source", "fresh3_natural"],
+  "pairs": [["Amy", "Ben"], ["Fred", "Jane"], ["Mark", "Rose"], ["Bill", "Dan"], ["Carl", "Matt"], ["David", "Susan"]],
+  "verbs": ["nudged", "tagged", "pulled"],
+  "directions": 2,
+  "forms": ["active", "passive", "object_cleft", "subject_cleft"],
+  "questions": {
+    "actor_performed": "Who performed the action?",
+    "actor_acted": "Who acted on the other person?",
+    "patient_verb": "Who was {verb}?",
+    "patient_affected": "Who was acted on?"
+  },
+  "prompt": "Fixed chat system says answer with one candidate name; user gives sentence, alphabetically fixed candidate list, and question. Both event directions are included to balance candidate position.",
+  "answer_measure": "Greedy next-token answer must decode to exactly the gold name; invalid outputs count wrong. Candidate actor-vs-patient next-token logit margin is reported separately.",
+  "event_level_measure": "Both roles correct under both wordings across all four meaning-preserving forms; both participant directions evaluated as separate records but paired within unordered pair/verb.",
+  "omitted_sentence_control": "For each event/role/wording prompt, replace sentence with [omitted] while keeping both candidate names; candidate margin only.",
+  "primary_comparison": "Within each of two matched starts, natural-role adapter minus its source adapter on event-level exact correctness. Report individual starts and six pair groups; no claim of independent datasets.",
+  "success_screen": "An exploratory positive requires at least four additional jointly correct events of 36 in each matched start, no more than two fewer active-form correct prompts per start, and a sentence-present margin gain larger than omitted-sentence margin gain. Otherwise do not claim robust transfer.",
+  "limits": "One Qwen0.5B model family; synthetic templates; no human natural-language confirmation; source and natural adapters already selected in earlier work. This is a new test set, not a blind paper-level replication."
+}

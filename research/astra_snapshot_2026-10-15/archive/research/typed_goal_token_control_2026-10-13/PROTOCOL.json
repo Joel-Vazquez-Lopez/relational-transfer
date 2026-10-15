@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-13",
+  "status": "post hoc token-control design, frozen before training or any fresh3 inference; earlier typed checkpoint fixed",
+  "question": "Does typed requested-role conditioning beat a null two-token tag with exactly matched input and output token counts on new natural sentences?",
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "arms": [
+    "typed_goal",
+    "null_two_token"
+  ],
+  "data": "Same 160 QA-SRL Bank training items as prior typed study; 20 new sentence-disjoint items excluded from all earlier local banks. Automatic actor/patient mapping remains unreviewed.",
+  "comparison": "Reuse the already trained typed_goal checkpoint. Train a fresh null_two_token control from the same paired source adapter and item order, identical Actor/Patient/Answer output targets, 160 updates, optimizer, and target tokens. Null prompt has 'Requested role: NO ROLE', two Qwen tokens, exactly matching ACTOR/PATIENT token count in all train prompts. At inference typed gets the same fixed question-only classifier prediction as before. Both receive the same sentence, original QA-SRL question, candidates, and decoding.",
+  "token_counts": {
+    "typed_goal": {
+      "nonpad_input_plus_target_tokens": 56700,
+      "supervised_target_tokens": 8476
+    },
+    "null_two_token": {
+      "nonpad_input_plus_target_tokens": 56700,
+      "supervised_target_tokens": 8476
+    }
+  },
+  "primary": "All four answers correct per fresh3 item, exact/80, both printed fields correct, answer-field agreement, and classifier role accuracy. Compare typed_goal with null_two_token in each start.",
+  "screen": "Typed_goal gains >=4/20 all-four items and >=10/80 exact answers in each start, with no loss >4/80 in both-correct role fields; classifier >=38/40 correct roles. This is an exploratory independent-item confirmation of the matched effect, not a new model-family replication.",
+  "limits": "The null control was designed after seeing the first positive result. Fresh3 examples were not inspected before this freeze. One model family, related starts, original-train QA-SRL source distribution, automatic semantic role mapping, candidate support, and templatic questions. Same 160 training items as all prior natural pilots. No causal claim about internal states or broad LLM reasoning.",
+  "seed": 910127,
+  "lr": 5e-05,
+  "updates_per_checkpoint": 160,
+  "splits_sha256": "fd035a2d40a29b8f29f2daac574a030df4f9cb1d23115e602dbf176e94ec1ebc",
+  "script_sha256": "716721482ec17838fc15f64890b741ec26058f1217e3d1e2eb5c815a68a8e351",
+  "typed_protocol_sha256": "f57a13e17e726afbb56d16bac504198732990b1dde2b38a5411e4b9a3527db83",
+  "typed_script_sha256": "14e8a1c8771846f82a0fc9bdcbffdc5347406d191909ffe101bdb54139bc5c92",
+  "typed_checkpoint_sha256": {
+    "fresh1": "f4391aca766873ebb7b8e4fcfddb5029ee1185695e00a598649e075abe8ba40b",
+    "fresh3": "7c66d3da4a5ea8781e4c10e45aa24609e454e41c3dd36aff2ef259e1d8151306"
+  },
+  "source_adapters_sha256": {
+    "fresh1": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e",
+    "fresh3": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48"
+  }
+}

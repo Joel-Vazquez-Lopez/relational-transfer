@@ -1,0 +1,13 @@
+{
+  "status": "adaptive_followup_fixed_before_v2_runs",
+  "date": "2026-10-07",
+  "reason": "Mechanism v1 found stronger held-out role decoding but its 18-dimensional role swap did not consistently exceed an 18-dimensional random swap. This follow-up separates role order from unordered identity in the same fitted readout.",
+  "models": "Same 16 frozen checkpoints as mechanism v1: eight fresh graphs, seed 271001, ordered and unordered auxiliary arms.",
+  "probe_data": "Same observed-pair scene suite and fixed ridge readout as mechanism v1. No unseen-pair fitting.",
+  "role_order_subspace": "Top nine singular vectors of W_source minus W_target, where W are the observed-only final-scene readout weights.",
+  "identity_subspace": "Top nine singular vectors of W_source plus W_target, from the same readout.",
+  "controls": "Five random nine-dimensional subspaces per graph with deterministic seeds, plus no intervention and full embedding swap.",
+  "intervention_data": "The same second-rendering 25 unseen pairs times 128 balanced episodes per pair used in mechanism v1.",
+  "outcomes": "Binary role accuracy and mean correct-minus-reversed margin after swapping each subspace between correct and reversed candidates; fraction of the candidate-difference energy captured by each subspace.",
+  "analysis": "Report every graph and both arms. This is an exploratory follow-up selected after v1, not a preregistered confirmation of a unique circuit."
+}

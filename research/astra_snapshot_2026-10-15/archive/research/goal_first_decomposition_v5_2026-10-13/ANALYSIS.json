@@ -1,0 +1,141 @@
+{
+  "protocol_sha256": "d34e0e805c73d159061e72de9a571347805c9042202f21425121342ecb3f596e",
+  "seeds": {
+    "11": {
+      "in_domain": {
+        "n": 400,
+        "selector_both_exact": 400,
+        "selector_step1_exact": 400,
+        "selector_step2_exact": 400,
+        "predicted_mask_both_correct": 400,
+        "oracle_mask_both_correct": 400,
+        "full_question_both_correct": 400
+      },
+      "mixed": {
+        "n": 400,
+        "selector_both_exact": 400,
+        "selector_step1_exact": 400,
+        "selector_step2_exact": 400,
+        "predicted_mask_both_correct": 400,
+        "oracle_mask_both_correct": 400,
+        "full_question_both_correct": 0,
+        "question_new_since_v4_mixed": {
+          "n": 113,
+          "selector_both_exact": 113,
+          "predicted_mask_both_correct": 113,
+          "full_question_both_correct": 0
+        }
+      }
+    },
+    "23": {
+      "in_domain": {
+        "n": 400,
+        "selector_both_exact": 400,
+        "selector_step1_exact": 400,
+        "selector_step2_exact": 400,
+        "predicted_mask_both_correct": 400,
+        "oracle_mask_both_correct": 400,
+        "full_question_both_correct": 400
+      },
+      "mixed": {
+        "n": 400,
+        "selector_both_exact": 400,
+        "selector_step1_exact": 400,
+        "selector_step2_exact": 400,
+        "predicted_mask_both_correct": 400,
+        "oracle_mask_both_correct": 400,
+        "full_question_both_correct": 0,
+        "question_new_since_v4_mixed": {
+          "n": 113,
+          "selector_both_exact": 113,
+          "predicted_mask_both_correct": 113,
+          "full_question_both_correct": 0
+        }
+      }
+    },
+    "37": {
+      "in_domain": {
+        "n": 400,
+        "selector_both_exact": 400,
+        "selector_step1_exact": 400,
+        "selector_step2_exact": 400,
+        "predicted_mask_both_correct": 400,
+        "oracle_mask_both_correct": 400,
+        "full_question_both_correct": 400
+      },
+      "mixed": {
+        "n": 400,
+        "selector_both_exact": 400,
+        "selector_step1_exact": 400,
+        "selector_step2_exact": 400,
+        "predicted_mask_both_correct": 400,
+        "oracle_mask_both_correct": 400,
+        "full_question_both_correct": 12,
+        "question_new_since_v4_mixed": {
+          "n": 113,
+          "selector_both_exact": 113,
+          "predicted_mask_both_correct": 113,
+          "full_question_both_correct": 5
+        }
+      }
+    },
+    "41": {
+      "in_domain": {
+        "n": 400,
+        "selector_both_exact": 400,
+        "selector_step1_exact": 400,
+        "selector_step2_exact": 400,
+        "predicted_mask_both_correct": 400,
+        "oracle_mask_both_correct": 400,
+        "full_question_both_correct": 400
+      },
+      "mixed": {
+        "n": 400,
+        "selector_both_exact": 400,
+        "selector_step1_exact": 400,
+        "selector_step2_exact": 400,
+        "predicted_mask_both_correct": 400,
+        "oracle_mask_both_correct": 400,
+        "full_question_both_correct": 0,
+        "question_new_since_v4_mixed": {
+          "n": 113,
+          "selector_both_exact": 113,
+          "predicted_mask_both_correct": 113,
+          "full_question_both_correct": 0
+        }
+      }
+    },
+    "53": {
+      "in_domain": {
+        "n": 400,
+        "selector_both_exact": 400,
+        "selector_step1_exact": 400,
+        "selector_step2_exact": 400,
+        "predicted_mask_both_correct": 400,
+        "oracle_mask_both_correct": 400,
+        "full_question_both_correct": 400
+      },
+      "mixed": {
+        "n": 400,
+        "selector_both_exact": 400,
+        "selector_step1_exact": 400,
+        "selector_step2_exact": 400,
+        "predicted_mask_both_correct": 400,
+        "oracle_mask_both_correct": 400,
+        "full_question_both_correct": 0,
+        "question_new_since_v4_mixed": {
+          "n": 113,
+          "selector_both_exact": 113,
+          "predicted_mask_both_correct": 113,
+          "full_question_both_correct": 0
+        }
+      }
+    }
+  },
+  "gate_pass": true,
+  "question_overlap": {
+    "mixed_rows_in_earlier_train": 0,
+    "mixed_rows_in_earlier_mixed_eval": 287,
+    "mixed_rows_not_in_earlier_mixed_eval": 113
+  }
+}

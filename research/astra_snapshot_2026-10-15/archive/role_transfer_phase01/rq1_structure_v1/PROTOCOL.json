@@ -1,0 +1,41 @@
+{
+  "status": "frozen_before_training",
+  "question": "Does a less clustered arrangement of the same number of observed actor-patient pairs improve transfer to pairs absent from both training networks?",
+  "design": {
+    "paired_networks": 8,
+    "starts_per_network": 3,
+    "models": 48,
+    "nodes": 10,
+    "degree_each_node": 4,
+    "edges_each_network": 20,
+    "training_updates": 6000,
+    "batch_size": 128,
+    "training_arm": "ordinary balanced four-choice Transformer",
+    "topology_groups": {
+      "sparse": "at most 4 triangles",
+      "clustered": "at least 8 triangles"
+    }
+  },
+  "paired_controls": [
+    "same ten labeled entities and their per-entity training frequency",
+    "same number of observed pairs and meanings",
+    "same label permutation within a pair",
+    "same initialization seed",
+    "same generator, optimizer, training budget and testing renderings"
+  ],
+  "primary_endpoint": "binary actor/patient accuracy averaged over only the unordered entity pairs absent from BOTH networks of each pair, then over three starts; sparse minus clustered within each network pair",
+  "primary_test": "exact two-sided sign-flip test over eight network-pair differences, all 256 assignments",
+  "uncertainty": "graph-pair t interval with seven degrees of freedom; report every pair and start",
+  "directional_prediction": "sparser triangles distribute observed partners more broadly and may yield higher transfer accuracy",
+  "practical_threshold": "mean sparse-minus-clustered gain at least 0.03 and p <= 0.05; this is a pragmatic target, not a power calculation",
+  "secondary": [
+    "all 25 unseen pairs per network",
+    "seen four-choice accuracy",
+    "unseen event accuracy",
+    "second scene-rendering seed",
+    "weak shared pairs below 80%"
+  ],
+  "analysis_unit": "network pair; starts, semantic pairs and scene renderings are nested",
+  "no_adaptive_replacement": "All 16 graphs and 48 starts remain in analysis regardless of result; only same-configuration technical reruns are allowed",
+  "scope": "An effect concerns this small coded-message, generated-scene Transformer; the triangle count is a selected topology contrast, not an established mechanism. A null does not prove graph structure irrelevant."
+}

@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-12",
+  "status": "exploratory; frozen before training or inference on this new lexical bank",
+  "hypothesis": "Role-slot invariance, reversal, and answer grounding improve strict held-out two-role QA beyond identical QA and slot supervision.",
+  "arms": [
+    "slot_sft",
+    "transport"
+  ],
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "train_forms": [
+    "active",
+    "passive",
+    "object_cleft"
+  ],
+  "test_forms": [
+    "active",
+    "passive",
+    "subject_cleft",
+    "object_cleft"
+  ],
+  "train_question_wordings": {
+    "actor_performed": "Who performed the action?",
+    "actor_did": "Who did the action?",
+    "patient_verb": "Who was {verb}?"
+  },
+  "test_question_wordings": {
+    "actor_performed": "Who performed the action?",
+    "actor_did": "Who did the action?",
+    "patient_verb": "Who was {verb}?",
+    "actor_carried": "Which person carried out the action described in the sentence?",
+    "patient_which": "Which person was {verb}?"
+  },
+  "test_pairs": [
+    [
+      "Charlie",
+      "Dave"
+    ],
+    [
+      "Joy",
+      "Kyle"
+    ],
+    [
+      "Meg",
+      "Pat"
+    ],
+    [
+      "Ray",
+      "Ted"
+    ],
+    [
+      "Val",
+      "Will"
+    ],
+    [
+      "Andy",
+      "Carol"
+    ]
+  ],
+  "test_verbs": [
+    "grabbed",
+    "called",
+    "poked"
+  ],
+  "train_units": 24,
+  "epochs": 2,
+  "updates": 48,
+  "rows_per_update": 24,
+  "lambdas": {
+    "invariance": 0.5,
+    "reversal": 0.5,
+    "grounding": 0.5
+  },
+  "matched": "Both arms see identical 24 supervised rows per update: two directions \u00d7 three forms \u00d7 (three QA + ordered slot tuple); same answer labels, updates, source adapters, optimizer, event order. Only transport arm adds distribution constraints.",
+  "primary": "Event-forms /144 where both held-out actor_carried and patient_which answers are correct on 36 new events \u00d7 four forms. Compare transport minus slot_sft in each start.",
+  "screen": "At least +8/144 strict joint in both starts, no worse than -4/36 active or passive strict joint, and positive object-cleft strict joint in both starts. Full claim needs independent natural and second-family confirmation.",
+  "limitations": "One 0.5B family, two related starts, constructed English; even a positive screen is not a conference-level repair claim. No human-review data accessed.",
+  "source_sha256": {
+    "fresh1": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e",
+    "fresh3": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48"
+  },
+  "script_sha256": "de2f5bd9d09c20418ff8174867abb1ab0251dd1c1dac7bd6fa83bc161e1a207e",
+  "train_sha256": "fc780b0032947b84b97c01e0c1b37e8db0f465d30bfb7ad60931911bde5c398e",
+  "test_sha256": "af80de67dd30bd3a283f259fedaf18ae973f0a297f30a5048a1b3e0ead0be506"
+}

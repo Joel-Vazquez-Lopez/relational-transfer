@@ -1,0 +1,25 @@
+{
+  "status": "fixed_before_cross_adapter_natural_sentence_inference",
+  "date": "2026-10-11",
+  "dataset": "QA-SRL Gold, Wikinews and Wikipedia dev/test; 63 source sentences, 504 fixed prompts from prior exploratory Qwen 1.5B evaluation.",
+  "dataset_source": "https://github.com/plroit/qasrl-gs",
+  "reuse_disclosure": "These exact 63 sentences were previously evaluated on an unmodified Qwen2.5-1.5B model. They were selected by an AI assistant from 100 rule-filtered candidates before that inference, but selection and prior answers are known. No claim of a fresh blind test. The student_verified column in the prior review sheet is blank.",
+  "question": "Does auxiliary role/participant supervision that protected synthetic patient-cleft accuracy also change performance on selected authentic sentences, relative to matched ordinary fine-tuning?",
+  "model": "Local Qwen2.5-0.5B-Instruct weights and already trained LoRA adapters, no further updates.",
+  "units": "Three fresh graph/name worlds x two matched random starts. Evaluate ordinary, ordered-role and unordered-participant arms in each; the unchanged pretrained model is scored once.",
+  "primary": "Exact actor A/B accuracy over 63 sentences x two fixed actor question wordings x both option orders = 252 prompts per model; report six paired arm-minus-ordinary differences, equal-unit mean and each item/wording/order cell. No significance claim from treating prompts as independent.",
+  "secondary": "Patient A/B accuracy on the same events, all-eight-prompts-correct event rate, option-order and wording sensitivity, invalid first-token rate, macro scores by Wikipedia/Wikinews. Report all results even if primary is negative.",
+  "scoring": "Greedy first generated token after the fixed chat prompt; strip whitespace and accept only A or B. Any other token is invalid and wrong. Both A/B orders are shown. No post-hoc prompt edits or exclusions.",
+  "interpretation": "Different domain and prompt style from synthetic training, with long sentences and multiword answer spans. A gain would support transfer to this selected natural-sentence role-choice task; a null result does not rule out gains under other natural evaluations. QA-SRL annotations and item suitability require independent human review before a paper-level claim. Prior Qwen 1.5B results and these items are known, so this is exploratory, not independent confirmation. Model pretraining overlap is unknown.",
+  "references_sha256": {
+    "source_items": "21f197f07a0aafc1db4ab3faada610a0becbcfc5d0409571147cf088bbb5d254",
+    "source_candidates": "61533aba900d98a7d97ff70bc08c4a6f0fec9f7a9ad8731b751170761364f888",
+    "source_protocol": "1ba03feb2ce5606a16d8640c8e3add84870e81b8a9a72a62f757595efed8dfe9",
+    "old_result": "608d0851da641f2462ca381fa72f7c18105bb04d458f0d560ef5bfd56b1b81e5",
+    "original_selection_code": "1b05eb403dcf829f24c272fea0119e00ee2e3a30ecb56fbcbf619b1b976562f4",
+    "confirmation_protocol": "db72b03db9db1cc051811184c0d53d57cfdff9c86ac25cc904cc351e74beca3a",
+    "unordered_protocol": "dab387df03680c39d33a92a6e692796468ec50494c9da3187568d6de35381917",
+    "model_weights": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+  },
+  "script_sha256": "8b3edf5898237836faac1905b54b352bb763823915908eefcc3b7e6c968f1a95"
+}

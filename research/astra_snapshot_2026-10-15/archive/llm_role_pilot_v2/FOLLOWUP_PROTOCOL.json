@@ -1,0 +1,12 @@
+{
+  "status": "exploratory_adaptive_followup_fixed_before_followup_inference",
+  "date": "2026-10-07",
+  "reason": "The first fixed pilot found a near-exclusive last-name response pattern in Qwen2.5-1.5B. This follow-up tests whether explicit role definitions and a joint answer change that behavior.",
+  "models": ["Qwen/Qwen2.5-1.5B-Instruct", "Qwen/Qwen2.5-0.5B-Instruct"],
+  "data": "The same 24 semantic events as PROTOCOL.json, each in active and passive form (48 sentences).",
+  "conditions": ["joint_no_example", "joint_with_example"],
+  "prompts_per_model": 96,
+  "generation": "Greedy, maximum 32 new tokens, local model weights.",
+  "scoring": "Parse the entire response as actor=<name>; patient=<name>. Count an invalid format as incorrect. Report actor, patient and joint correctness by condition and voice; retain raw responses.",
+  "interpretation": "A repair under explicit instructions supports prompt sensitivity and retained role-answer capacity on these items. Persistent errors would motivate a broader, independently designed benchmark. This adaptive pilot cannot establish unseen-pair transfer or internal representations."
+}

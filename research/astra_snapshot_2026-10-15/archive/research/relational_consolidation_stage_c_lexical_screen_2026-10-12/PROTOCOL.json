@@ -1,0 +1,23 @@
+{
+  "status": "exploratory_development_only_before_human_review",
+  "date": "2026-10-12",
+  "motivation": "V1 augmentation, S2 offline and S2 interleaved all reached ceiling on unseen pairs when transformed training covered every verb. Test transfer to a verb absent from transformed training.",
+  "source_benchmark": "../relational_consolidation_stage_b_2026-10-12",
+  "development_family": 0,
+  "confirmation_families_prohibited": [2, 3, 4, 5, 6, 7],
+  "seeds": [4201],
+  "model": {"layers": 2, "heads": 4, "width": 64, "ff_width": 128, "dropout": 0.0},
+  "optimizer": {"name": "AdamW", "learning_rate": 0.003, "weight_decay": 0.0},
+  "wake_steps": 300,
+  "ordinary_continuation_batches": 100,
+  "transformation_continuation_batches": 100,
+  "batch_size": 64,
+  "consistency_weight": 0.5,
+  "arms": ["stop", "extra_ordinary", "augmentation", "s2_offline", "s2_interleaved"],
+  "transformed_train_verbs": ["chased", "helped"],
+  "primary_development_verb": "followed",
+  "primary_development_measure": "joint correct actor and patient across five forms for withheld pairs using followed, absent from transformed training",
+  "technical_screen": "Wake canonical accuracy on followed >= 0.90 and wake joint L2 event accuracy <= 0.80.",
+  "stop_rule": "If augmentation, offline and interleaved tie at ceiling or floor, stop this synthetic schedule direction; do not search confirmation graphs for a positive effect.",
+  "interpretation": "One-seed difficulty diagnostic, not natural-language evidence or a publishable effect."
+}

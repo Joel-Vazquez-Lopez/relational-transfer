@@ -1,0 +1,32 @@
+{
+  "status": "fixed_before_trajectory_training",
+  "date": "2026-10-11",
+  "question": "Can a shorter ordinary fine-tuning run reach the same patient-cleft and familiar-form accuracy trade-off as the ordered-role or participant-only auxiliary arms?",
+  "source_sha256": "0aab6035c816fbfc9ae8f194965fc4a505c80f7b4e95528987bc205a4d5f7b3e",
+  "core_source_sha256": "65c6dd6f675c464fc764c9682a5914f4dc30cfba2bc1a8c64d4be402b737a92a",
+  "confirmation_source_sha256": "ded4eebd96720502b48281af45376bfa9f96af45fb961209063b79693714b93e",
+  "reference_protocol_sha256": "db72b03db9db1cc051811184c0d53d57cfdff9c86ac25cc904cc351e74beca3a",
+  "unordered_protocol_sha256": "dab387df03680c39d33a92a6e692796468ec50494c9da3187568d6de35381917",
+  "worlds": [
+    "fresh1",
+    "fresh2",
+    "fresh3"
+  ],
+  "seeds": [
+    830211,
+    830212
+  ],
+  "checkpoints": [
+    20,
+    40,
+    60,
+    80,
+    100,
+    120
+  ],
+  "training": "Exact ordinary-loss setup, groups, update order, optimizer, LR 1e-4, corrected masks and LoRA initializations as the six-run confirmation. Run 120 updates and evaluate saved adapters at steps 20,40,60,80,100,120; no changes to examples or hyperparameters. Verify step-120 adapter exactly matches the prior ordinary result.",
+  "screen": "At each checkpoint score all 25 withheld pairs x two directions x five verbs x active/passive/patient-cleft x the 'performed' wording = 750 prompts per graph/start (250 patient cleft, 500 familiar). Retain every raw prediction. No checkpoint selected using the other two wordings.",
+  "selection": "On development graphs fresh1 and fresh2 (both starts), select one global ordinary checkpoint separately for ordered-role and unordered-participant comparisons: among checkpoints whose mean familiar accuracy on the screen is at least the corresponding auxiliary arm's mean familiar screen accuracy, take the highest mean patient-cleft accuracy; break ties toward the earlier step. If no checkpoint is eligible, report that explicitly. The criterion is a familiar-accuracy floor, not a full Pareto test.",
+  "confirmation": "Evaluate the selected ordinary checkpoint(s), if any, on fresh3's two starts using the two nontraining question wordings ('did','carried_out') and all three primary forms (1500 prompts per start). Compare with previously frozen auxiliary arms on exactly those rows. Also report the full screen trajectory for all six units and the untouched baseline. Fresh3 was not used to choose the step, but its final-arm results were inspected before this follow-up was designed, so this is a held-out checkpoint choice rather than a wholly untouched study design.",
+  "interpretation": "If a selected ordinary checkpoint matches or exceeds the auxiliary in both patient-cleft and familiar accuracy on both fresh3 starts, early stopping is sufficient for this tested trade-off. If not, the auxiliary may extend the tested trade-off, subject to other LR/regularization controls and one-model synthetic limits. Do not infer internal semantic-role mechanism from either result."
+}

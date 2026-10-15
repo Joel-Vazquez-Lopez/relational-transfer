@@ -1,0 +1,866 @@
+{
+  "protocol_sha256": "3a19d89d79331c9ee878816a9ea7f5295575ef4b65987d14e42d9dae15dd28ee",
+  "training_budgets": {
+    "fresh1_answer_only": {
+      "updates": 160,
+      "examples": 640,
+      "target_tokens": 1972,
+      "elapsed_seconds": 152.40760141704232
+    },
+    "fresh1_candidate_first": {
+      "updates": 160,
+      "examples": 640,
+      "target_tokens": 8476,
+      "elapsed_seconds": 194.52967733307742
+    },
+    "fresh1_role_first": {
+      "updates": 160,
+      "examples": 640,
+      "target_tokens": 8476,
+      "elapsed_seconds": 192.67817304108758
+    },
+    "fresh1_verifier_clean": {
+      "updates": 160,
+      "examples": 640,
+      "target_tokens": 8476,
+      "elapsed_seconds": 234.73898533405736
+    },
+    "fresh1_verifier_noisy": {
+      "updates": 160,
+      "examples": 640,
+      "target_tokens": 8476,
+      "elapsed_seconds": 231.00340916693676
+    },
+    "fresh3_answer_only": {
+      "updates": 160,
+      "examples": 640,
+      "target_tokens": 1972,
+      "elapsed_seconds": 284.87939658295363
+    },
+    "fresh3_candidate_first": {
+      "updates": 160,
+      "examples": 640,
+      "target_tokens": 8476,
+      "elapsed_seconds": 348.29381283395924
+    },
+    "fresh3_role_first": {
+      "updates": 160,
+      "examples": 640,
+      "target_tokens": 8476,
+      "elapsed_seconds": 317.8259358330397
+    },
+    "fresh3_verifier_clean": {
+      "updates": 160,
+      "examples": 640,
+      "target_tokens": 8476,
+      "elapsed_seconds": 448.4869059580378
+    },
+    "fresh3_verifier_noisy": {
+      "updates": 160,
+      "examples": 640,
+      "target_tokens": 8476,
+      "elapsed_seconds": 426.1178925000131
+    }
+  },
+  "datasets": {
+    "development": {
+      "fresh1_answer_only_normal": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 4,
+        "exact_answers": 98,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 28,
+          "actor/order1": 27,
+          "patient/order0": 24,
+          "patient/order1": 19
+        },
+        "answer_candidate_position": {
+          "first": 75,
+          "second": 83,
+          "other": 2
+        },
+        "draft_present": 0,
+        "requested_draft_correct": 0,
+        "answer_follows_requested_draft": 0,
+        "raw_output_examples": [
+          " English troops",
+          " English troops"
+        ]
+      },
+      "fresh1_candidate_first_normal": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 0,
+        "exact_answers": 84,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 18,
+          "actor/order1": 23,
+          "patient/order0": 22,
+          "patient/order1": 21
+        },
+        "answer_candidate_position": {
+          "first": 73,
+          "second": 85,
+          "other": 2
+        },
+        "draft_present": 0,
+        "requested_draft_correct": 0,
+        "answer_follows_requested_draft": 0,
+        "raw_output_examples": [
+          " Colonel Richard Nicolls; Second: English troops; Answer: English troops",
+          " English troops; Second: Colonel Richard Nicolls; Answer: English troops"
+        ]
+      },
+      "fresh1_role_first_normal": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 1,
+        "exact_answers": 87,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 25,
+          "actor/order1": 23,
+          "patient/order0": 23,
+          "patient/order1": 16
+        },
+        "answer_candidate_position": {
+          "first": 73,
+          "second": 84,
+          "other": 3
+        },
+        "draft_present": 0,
+        "requested_draft_correct": 0,
+        "answer_follows_requested_draft": 0,
+        "raw_output_examples": [
+          " English troops; Patient: Colonel Richard Nicolls; Answer: Colonel Richard Nicolls",
+          " English troops; Patient: Colonel Richard Nicolls; Answer: Colonel Richard Nicolls"
+        ],
+        "correct_actor_fields": 122,
+        "correct_patient_fields": 116,
+        "routed_exact_answers": 119,
+        "routed_four_correct": 24
+      },
+      "fresh1_verifier_clean_normal": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 9,
+        "exact_answers": 103,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 25,
+          "actor/order1": 26,
+          "patient/order0": 29,
+          "patient/order1": 23
+        },
+        "answer_candidate_position": {
+          "first": 70,
+          "second": 85,
+          "other": 5
+        },
+        "draft_present": 160,
+        "requested_draft_correct": 119,
+        "answer_follows_requested_draft": 112,
+        "raw_output_examples": [
+          " English troops; Patient: Colonel Richard Nicolls; Answer: English troops",
+          " English troops; Patient: Colonel Richard Nicolls; Answer: English troops"
+        ],
+        "correct_actor_fields": 122,
+        "correct_patient_fields": 116,
+        "routed_exact_answers": 119,
+        "routed_four_correct": 24
+      },
+      "fresh1_verifier_clean_swapped": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 4,
+        "exact_answers": 76,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 22,
+          "actor/order1": 24,
+          "patient/order0": 15,
+          "patient/order1": 15
+        },
+        "answer_candidate_position": {
+          "first": 75,
+          "second": 79,
+          "other": 6
+        },
+        "draft_present": 160,
+        "requested_draft_correct": 36,
+        "answer_follows_requested_draft": 89,
+        "raw_output_examples": [
+          " Colonel Richard Nicolls; Patient: English troops; Answer: English troops",
+          " Colonel Richard Nicolls; Patient: English troops; Answer: English troops"
+        ],
+        "correct_actor_fields": 38,
+        "correct_patient_fields": 34,
+        "routed_exact_answers": 36,
+        "routed_four_correct": 4
+      },
+      "fresh1_verifier_noisy_normal": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 2,
+        "exact_answers": 87,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 26,
+          "actor/order1": 23,
+          "patient/order0": 22,
+          "patient/order1": 16
+        },
+        "answer_candidate_position": {
+          "first": 74,
+          "second": 81,
+          "other": 5
+        },
+        "draft_present": 160,
+        "requested_draft_correct": 119,
+        "answer_follows_requested_draft": 89,
+        "raw_output_examples": [
+          " English troops; Patient: Colonel Richard Nicolls; Answer: Colonel Richard Nicolls",
+          " English troops; Patient: Colonel Richard Nicolls; Answer: Colonel Richard Nicolls"
+        ],
+        "correct_actor_fields": 120,
+        "correct_patient_fields": 115,
+        "routed_exact_answers": 118,
+        "routed_four_correct": 25
+      },
+      "fresh1_verifier_noisy_swapped": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 0,
+        "exact_answers": 75,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 22,
+          "actor/order1": 18,
+          "patient/order0": 15,
+          "patient/order1": 20
+        },
+        "answer_candidate_position": {
+          "first": 85,
+          "second": 67,
+          "other": 8
+        },
+        "draft_present": 160,
+        "requested_draft_correct": 36,
+        "answer_follows_requested_draft": 78,
+        "raw_output_examples": [
+          " English troops; Patient: Colonel Richard Nicolls; Answer: Colonel Richard Nicolls",
+          " English troops; Patient: Colonel Richard Nicolls; Answer: English troops"
+        ],
+        "correct_actor_fields": 119,
+        "correct_patient_fields": 114,
+        "routed_exact_answers": 117,
+        "routed_four_correct": 25
+      },
+      "fresh3_answer_only_normal": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 0,
+        "exact_answers": 91,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 28,
+          "actor/order1": 24,
+          "patient/order0": 22,
+          "patient/order1": 17
+        },
+        "answer_candidate_position": {
+          "first": 77,
+          "second": 79,
+          "other": 4
+        },
+        "draft_present": 0,
+        "requested_draft_correct": 0,
+        "answer_follows_requested_draft": 0,
+        "raw_output_examples": [
+          " English troops",
+          " English troops"
+        ]
+      },
+      "fresh3_candidate_first_normal": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 0,
+        "exact_answers": 82,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 18,
+          "actor/order1": 24,
+          "patient/order0": 19,
+          "patient/order1": 21
+        },
+        "answer_candidate_position": {
+          "first": 75,
+          "second": 83,
+          "other": 2
+        },
+        "draft_present": 0,
+        "requested_draft_correct": 0,
+        "answer_follows_requested_draft": 0,
+        "raw_output_examples": [
+          " Colonel Richard Nicolls; Second: English troops; Answer: English troops",
+          " English troops; Second: Colonel Richard Nicolls; Answer: English troops"
+        ]
+      },
+      "fresh3_role_first_normal": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 1,
+        "exact_answers": 85,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 23,
+          "actor/order1": 27,
+          "patient/order0": 20,
+          "patient/order1": 15
+        },
+        "answer_candidate_position": {
+          "first": 69,
+          "second": 88,
+          "other": 3
+        },
+        "draft_present": 0,
+        "requested_draft_correct": 0,
+        "answer_follows_requested_draft": 0,
+        "raw_output_examples": [
+          " English troops; Patient: Colonel Richard Nicolls; Answer: Colonel Richard Nicolls",
+          " English troops; Patient: Colonel Richard Nicolls; Answer: Colonel Richard Nicolls"
+        ],
+        "correct_actor_fields": 123,
+        "correct_patient_fields": 119,
+        "routed_exact_answers": 121,
+        "routed_four_correct": 26
+      },
+      "fresh3_verifier_clean_normal": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 5,
+        "exact_answers": 97,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 27,
+          "actor/order1": 27,
+          "patient/order0": 22,
+          "patient/order1": 21
+        },
+        "answer_candidate_position": {
+          "first": 76,
+          "second": 79,
+          "other": 5
+        },
+        "draft_present": 160,
+        "requested_draft_correct": 121,
+        "answer_follows_requested_draft": 98,
+        "raw_output_examples": [
+          " English troops; Patient: Colonel Richard Nicolls; Answer: Colonel Richard Nicolls",
+          " English troops; Patient: Colonel Richard Nicolls; Answer: Colonel Richard Nicolls"
+        ],
+        "correct_actor_fields": 123,
+        "correct_patient_fields": 119,
+        "routed_exact_answers": 121,
+        "routed_four_correct": 26
+      },
+      "fresh3_verifier_clean_swapped": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 2,
+        "exact_answers": 75,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 22,
+          "actor/order1": 23,
+          "patient/order0": 15,
+          "patient/order1": 15
+        },
+        "answer_candidate_position": {
+          "first": 77,
+          "second": 78,
+          "other": 5
+        },
+        "draft_present": 160,
+        "requested_draft_correct": 31,
+        "answer_follows_requested_draft": 94,
+        "raw_output_examples": [
+          " Colonel Richard Nicolls; Patient: English troops; Answer: English troops",
+          " Colonel Richard Nicolls; Patient: English troops; Answer: English troops"
+        ],
+        "correct_actor_fields": 34,
+        "correct_patient_fields": 30,
+        "routed_exact_answers": 32,
+        "routed_four_correct": 4
+      },
+      "fresh3_verifier_noisy_normal": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 2,
+        "exact_answers": 84,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 27,
+          "actor/order1": 23,
+          "patient/order0": 18,
+          "patient/order1": 16
+        },
+        "answer_candidate_position": {
+          "first": 79,
+          "second": 75,
+          "other": 6
+        },
+        "draft_present": 160,
+        "requested_draft_correct": 121,
+        "answer_follows_requested_draft": 88,
+        "raw_output_examples": [
+          " Colonel Richard Nicolls; Patient: English troops; Answer: English troops",
+          " English troops; Patient: Colonel Richard Nicolls; Answer: Colonel Richard Nicolls"
+        ],
+        "correct_actor_fields": 116,
+        "correct_patient_fields": 112,
+        "routed_exact_answers": 114,
+        "routed_four_correct": 25
+      },
+      "fresh3_verifier_noisy_swapped": {
+        "items": 40,
+        "prompts": 160,
+        "four_correct": 0,
+        "exact_answers": 76,
+        "parsed": 160,
+        "by_role_order": {
+          "actor/order0": 21,
+          "actor/order1": 15,
+          "patient/order0": 18,
+          "patient/order1": 22
+        },
+        "answer_candidate_position": {
+          "first": 86,
+          "second": 66,
+          "other": 8
+        },
+        "draft_present": 160,
+        "requested_draft_correct": 31,
+        "answer_follows_requested_draft": 81,
+        "raw_output_examples": [
+          " Colonel Richard Nicolls; Patient: English troops; Answer: English troops",
+          " English troops; Patient: Colonel Richard Nicolls; Answer: English troops"
+        ],
+        "correct_actor_fields": 125,
+        "correct_patient_fields": 119,
+        "routed_exact_answers": 122,
+        "routed_four_correct": 26
+      }
+    },
+    "gold_exploratory": {
+      "fresh1_answer_only_normal": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 4,
+        "exact_answers": 116,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 27,
+          "actor/order1": 30,
+          "patient/order0": 31,
+          "patient/order1": 28
+        },
+        "answer_candidate_position": {
+          "first": 88,
+          "second": 100,
+          "other": 16
+        },
+        "draft_present": 0,
+        "requested_draft_correct": 0,
+        "answer_follows_requested_draft": 0,
+        "raw_output_examples": [
+          " his fellow Deputy",
+          " his fellow Deputy"
+        ]
+      },
+      "fresh1_candidate_first_normal": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 1,
+        "exact_answers": 97,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 23,
+          "actor/order1": 26,
+          "patient/order0": 24,
+          "patient/order1": 24
+        },
+        "answer_candidate_position": {
+          "first": 92,
+          "second": 97,
+          "other": 15
+        },
+        "draft_present": 0,
+        "requested_draft_correct": 0,
+        "answer_follows_requested_draft": 0,
+        "raw_output_examples": [
+          " a Deputy; Second: his fellow Deputy; Answer: his fellow Deputy",
+          " his fellow Deputy; Second: a Deputy; Answer: his fellow Deputy"
+        ]
+      },
+      "fresh1_role_first_normal": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 1,
+        "exact_answers": 102,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 21,
+          "actor/order1": 27,
+          "patient/order0": 30,
+          "patient/order1": 24
+        },
+        "answer_candidate_position": {
+          "first": 85,
+          "second": 109,
+          "other": 10
+        },
+        "draft_present": 0,
+        "requested_draft_correct": 0,
+        "answer_follows_requested_draft": 0,
+        "raw_output_examples": [
+          " a Deputy; Patient: his fellow Deputy; Answer: his fellow Deputy",
+          " a Deputy; Patient: his fellow Deputy; Answer: his fellow Deputy"
+        ],
+        "correct_actor_fields": 155,
+        "correct_patient_fields": 151,
+        "routed_exact_answers": 153,
+        "routed_four_correct": 29
+      },
+      "fresh1_verifier_clean_normal": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 10,
+        "exact_answers": 119,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 30,
+          "actor/order1": 33,
+          "patient/order0": 29,
+          "patient/order1": 27
+        },
+        "answer_candidate_position": {
+          "first": 89,
+          "second": 101,
+          "other": 14
+        },
+        "draft_present": 204,
+        "requested_draft_correct": 153,
+        "answer_follows_requested_draft": 135,
+        "raw_output_examples": [
+          " a Deputy; Patient: his fellow Deputy; Answer: his fellow Deputy",
+          " a Deputy; Patient: his fellow Deputy; Answer: his fellow Deputy"
+        ],
+        "correct_actor_fields": 155,
+        "correct_patient_fields": 151,
+        "routed_exact_answers": 153,
+        "routed_four_correct": 29
+      },
+      "fresh1_verifier_clean_swapped": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 1,
+        "exact_answers": 84,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 24,
+          "actor/order1": 28,
+          "patient/order0": 16,
+          "patient/order1": 16
+        },
+        "answer_candidate_position": {
+          "first": 92,
+          "second": 102,
+          "other": 10
+        },
+        "draft_present": 204,
+        "requested_draft_correct": 41,
+        "answer_follows_requested_draft": 128,
+        "raw_output_examples": [
+          " his fellow Deputy; Patient: a Deputy; Answer: a Deputy",
+          " his fellow Deputy; Patient: a Deputy; Answer: a Deputy"
+        ],
+        "correct_actor_fields": 56,
+        "correct_patient_fields": 36,
+        "routed_exact_answers": 45,
+        "routed_four_correct": 2
+      },
+      "fresh1_verifier_noisy_normal": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 2,
+        "exact_answers": 108,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 31,
+          "actor/order1": 25,
+          "patient/order0": 27,
+          "patient/order1": 25
+        },
+        "answer_candidate_position": {
+          "first": 99,
+          "second": 92,
+          "other": 13
+        },
+        "draft_present": 204,
+        "requested_draft_correct": 153,
+        "answer_follows_requested_draft": 119,
+        "raw_output_examples": [
+          " a Deputy; Patient: his fellow Deputy; Answer: his fellow Deputy",
+          " his fellow Deputy; Patient: a Deputy; Answer: his fellow Deputy"
+        ],
+        "correct_actor_fields": 150,
+        "correct_patient_fields": 144,
+        "routed_exact_answers": 146,
+        "routed_four_correct": 25
+      },
+      "fresh1_verifier_noisy_swapped": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 3,
+        "exact_answers": 101,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 29,
+          "actor/order1": 28,
+          "patient/order0": 22,
+          "patient/order1": 22
+        },
+        "answer_candidate_position": {
+          "first": 96,
+          "second": 93,
+          "other": 15
+        },
+        "draft_present": 204,
+        "requested_draft_correct": 41,
+        "answer_follows_requested_draft": 96,
+        "raw_output_examples": [
+          " a Deputy; Patient: his fellow Deputy; Answer: his fellow Deputy",
+          " a Deputy; Patient: a Deputy; Answer: a Deputy"
+        ],
+        "correct_actor_fields": 136,
+        "correct_patient_fields": 125,
+        "routed_exact_answers": 129,
+        "routed_four_correct": 19
+      },
+      "fresh3_answer_only_normal": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 2,
+        "exact_answers": 112,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 28,
+          "actor/order1": 28,
+          "patient/order0": 30,
+          "patient/order1": 26
+        },
+        "answer_candidate_position": {
+          "first": 89,
+          "second": 98,
+          "other": 17
+        },
+        "draft_present": 0,
+        "requested_draft_correct": 0,
+        "answer_follows_requested_draft": 0,
+        "raw_output_examples": [
+          " his fellow Deputy",
+          " his fellow Deputy"
+        ]
+      },
+      "fresh3_candidate_first_normal": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 0,
+        "exact_answers": 95,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 22,
+          "actor/order1": 24,
+          "patient/order0": 22,
+          "patient/order1": 27
+        },
+        "answer_candidate_position": {
+          "first": 98,
+          "second": 92,
+          "other": 14
+        },
+        "draft_present": 0,
+        "requested_draft_correct": 0,
+        "answer_follows_requested_draft": 0,
+        "raw_output_examples": [
+          " a Deputy; Second: his fellow Deputy; Answer: his fellow Deputy",
+          " his fellow Deputy; Second: a Deputy; Answer: his fellow Deputy"
+        ]
+      },
+      "fresh3_role_first_normal": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 2,
+        "exact_answers": 101,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 22,
+          "actor/order1": 30,
+          "patient/order0": 31,
+          "patient/order1": 18
+        },
+        "answer_candidate_position": {
+          "first": 73,
+          "second": 115,
+          "other": 16
+        },
+        "draft_present": 0,
+        "requested_draft_correct": 0,
+        "answer_follows_requested_draft": 0,
+        "raw_output_examples": [
+          " a Deputy; Patient: his fellow Deputy; Answer: his fellow Deputy",
+          " a Deputy; Patient: his fellow Deputy; Answer: his fellow Deputy"
+        ],
+        "correct_actor_fields": 154,
+        "correct_patient_fields": 151,
+        "routed_exact_answers": 153,
+        "routed_four_correct": 28
+      },
+      "fresh3_verifier_clean_normal": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 6,
+        "exact_answers": 119,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 32,
+          "actor/order1": 33,
+          "patient/order0": 33,
+          "patient/order1": 21
+        },
+        "answer_candidate_position": {
+          "first": 82,
+          "second": 105,
+          "other": 17
+        },
+        "draft_present": 204,
+        "requested_draft_correct": 153,
+        "answer_follows_requested_draft": 129,
+        "raw_output_examples": [
+          " a Deputy; Patient: his fellow Deputy; Answer: his fellow Deputy",
+          " a Deputy; Patient: his fellow Deputy; Answer: his fellow Deputy"
+        ],
+        "correct_actor_fields": 153,
+        "correct_patient_fields": 151,
+        "routed_exact_answers": 153,
+        "routed_four_correct": 28
+      },
+      "fresh3_verifier_clean_swapped": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 2,
+        "exact_answers": 90,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 23,
+          "actor/order1": 29,
+          "patient/order0": 17,
+          "patient/order1": 21
+        },
+        "answer_candidate_position": {
+          "first": 91,
+          "second": 97,
+          "other": 16
+        },
+        "draft_present": 204,
+        "requested_draft_correct": 43,
+        "answer_follows_requested_draft": 124,
+        "raw_output_examples": [
+          " his fellow Deputy; Patient: a Deputy; Answer: a Deputy",
+          " his fellow Deputy; Patient: a Deputy; Answer: a Deputy"
+        ],
+        "correct_actor_fields": 49,
+        "correct_patient_fields": 39,
+        "routed_exact_answers": 45,
+        "routed_four_correct": 1
+      },
+      "fresh3_verifier_noisy_normal": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 3,
+        "exact_answers": 104,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 28,
+          "actor/order1": 26,
+          "patient/order0": 25,
+          "patient/order1": 25
+        },
+        "answer_candidate_position": {
+          "first": 95,
+          "second": 90,
+          "other": 19
+        },
+        "draft_present": 204,
+        "requested_draft_correct": 153,
+        "answer_follows_requested_draft": 113,
+        "raw_output_examples": [
+          " a Deputy; Patient: his fellow Deputy; Answer: his fellow Deputy",
+          " a Deputy; Patient: his fellow Deputy; Answer: his fellow Deputy"
+        ],
+        "correct_actor_fields": 150,
+        "correct_patient_fields": 148,
+        "routed_exact_answers": 149,
+        "routed_four_correct": 26
+      },
+      "fresh3_verifier_noisy_swapped": {
+        "items": 51,
+        "prompts": 204,
+        "four_correct": 3,
+        "exact_answers": 104,
+        "parsed": 204,
+        "by_role_order": {
+          "actor/order0": 23,
+          "actor/order1": 33,
+          "patient/order0": 29,
+          "patient/order1": 19
+        },
+        "answer_candidate_position": {
+          "first": 75,
+          "second": 111,
+          "other": 18
+        },
+        "draft_present": 204,
+        "requested_draft_correct": 43,
+        "answer_follows_requested_draft": 90,
+        "raw_output_examples": [
+          " a Deputy; Patient: his fellow Deputy; Answer: his fellow Deputy",
+          " a Deputy; Patient: a Deputy; Answer: a Deputy"
+        ],
+        "correct_actor_fields": 143,
+        "correct_patient_fields": 133,
+        "routed_exact_answers": 139,
+        "routed_four_correct": 20
+      }
+    }
+  },
+  "screen": {
+    "fresh1": {
+      "noisy_minus_clean_four_correct": -7,
+      "noisy_minus_role_first_four_correct": 1,
+      "noisy_parsed_rate": 1.0,
+      "pass": false
+    },
+    "fresh3": {
+      "noisy_minus_clean_four_correct": -3,
+      "noisy_minus_role_first_four_correct": 1,
+      "noisy_parsed_rate": 1.0,
+      "pass": false
+    }
+  },
+  "positive_development_screen": false
+}

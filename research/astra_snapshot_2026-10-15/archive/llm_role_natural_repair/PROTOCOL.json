@@ -1,0 +1,24 @@
+{
+  "status": "fixed_before_training",
+  "date": "2026-10-11",
+  "purpose": "Screen whether authentic role-supervised examples plus synthetic replay improve the previously weak authentic contrast while retaining synthetic cleft transfer.",
+  "design": "Exploratory continuation of one Qwen2.5-0.5B-Instruct participant-only adapter (fresh1, seed 830211). Use 256 original QA-SRL Bank 2.0 train events. Evaluate on separate Bank dev events, 51 previously inspected QA-SRL Gold events, and the original frozen synthetic held-out-pair test. One seed and a previously inspected Gold set cannot establish a publication-level repair.",
+  "data_rule": "Active, non-negated WHO subject and direct-object questions for the same verb; each answer span receives at least two agreeing valid judgments; unique, non-overlapping spans up to eight tokens; sentence 5-45 tokens. Bank train only; Gold and Bank dev excluded; exact normalized-sentence overlap and Wiki1k article-ID overlap with Gold are zero. Deterministic hash sample of 256 train events. Do not select on Gold results.",
+  "training": "One epoch of 256 updates at LR 5e-5. Each step uses both fixed actor and other-participant questions with gold span answers. Synthetic replay uses the same original four-example group, with 0.3 times its language-model loss; replay groups cycle through a seeded permutation. Source adapter and all data/checkpoint hashes are fixed here. No new synthetic clefts are trained.",
+  "primary": "Candidate-relative raw-sum role contrast D>0 on the 51 Gold events, reported beside untouched 0.5B and source participant-only adapter. This is an exploratory screen because these Gold events were examined in prior experiments. A useful signal requires at least +5/51 correct over the source adapter and no drop of more than 5 percentage points on patient clefts or familiar synthetic forms. Also report sentence-omitted contrast, mean margins, and direct-span exact answers to detect prompt-format gains.",
+  "secondary": "TQA dev contrast and exact actor/other answers; frozen synthetic patient-cleft, active and passive accuracy. This is a test of natural-data adaptation with rehearsal, not an isolated proof of role-specific objective or novelty.",
+  "references": {
+    "bank_train_sha256": "836676f1dd6722fd299baa13a19654ab0d6ee9c49f15fedb8c2047d9ac935470",
+    "bank_dev_sha256": "c186acf2bfd4a211ed1ff31bbae4fbe39c53f9a4d5c802c942e716c53baed1bb",
+    "gold_events_sha256": "8f7bf12e238889d5775da08a463343a4034349e0a199c61b020531e287e1d71b",
+    "source_adapter_sha256": "8b114fa025a91199702d685da46b859e9d9e0ea08293cf9c5ac78a8c7eaa2e79",
+    "synthetic_test_sha256": "91c96d8dccf6a874fbc69eb7e248cb79a443bcf95457b59b39e6e6e2f4b46431",
+    "source_code_sha256": "388f4d6bfb42e8f370f0536a24335ac35fbdcf1437c12ffbc6993a41ba1a1333"
+  },
+  "train_count": 256,
+  "dev_count": 75,
+  "all_qualifying_bank_train": 1154,
+  "seed": 710261,
+  "lr": 5e-05,
+  "replay_weight": 0.3
+}

@@ -1,0 +1,43 @@
+{
+  "status": "frozen_before_strict_training",
+  "date": "2026-10-14",
+  "phase": "Independent stricter Phase 1 confirmation after the initial factorial near miss",
+  "graph_manifest_sha256": "49a27b608067463cdc5346d1295e6b8dccc6a91a5933163f9b10ac89e52e9665",
+  "selection_history": "This design responds to the earlier study's unmatched simple four-edge paths. All earlier outcomes, including the failed success criterion, remain public in PHASE1_REPORT.md. Fresh graph classes and seeds are selected without model outcomes from this cohort.",
+  "design": {
+    "independent_graph_families": 8,
+    "conditions_per_family": ["cn1_p3", "cn1_p4", "cn2_p3", "cn2_p4"],
+    "model_seeds": [314001, 314002, 314003],
+    "models": 96,
+    "entities": 12,
+    "degree": 4,
+    "observed_unordered_pairs": 24,
+    "unseen_focal_pair": [0, 1],
+    "matched_graph_statistics": ["degree sequence", "observed pair count", "total triangles", "triangles touching each focal entity", "simple four-edge paths between focal entities", "four-cycle count"],
+    "maximum_switches_from_anchor": 2,
+    "training_configurations_per_condition": 1536,
+    "training_updates": 6000,
+    "batch_size": 128,
+    "learning_rate": 0.0008,
+    "architecture": "same 48-dimensional two-layer two-tower Transformer and data generator as the initial 12-entity factorial",
+    "balanced_distractors": "exact balance for each semantic candidate over five-epoch blocks",
+    "padding": "dedicated token 14; vocabulary 15",
+    "evaluation": "fixed 320-rendering focal suite: two directions, two events, four answer positions, ten distractors, two scene repeats; independent scene seeds 260107 and 260108",
+    "preflight": "The identical architecture and generator passed the earlier, outcome-blind 12-entity development-graph preflight at 98.91 percent familiar accuracy; no strict-cohort held results used before freeze."
+  },
+  "hypotheses": {
+    "H_CN": "Increasing focal common partners from one to two reduces unseen-pair role accuracy at both fixed three-edge-path levels.",
+    "H_P3": "Increasing simple three-edge paths from three to four improves unseen-pair role accuracy at both fixed common-partner levels.",
+    "alternative": "One, both, neither, or an interaction may account for the original rewiring effect."
+  },
+  "primary_endpoint": "Final-checkpoint focal-pair binary correct-vs-role-reversed accuracy, first scene suite; average three paired seeds within each graph family, then eight families equally.",
+  "primary_contrasts": {
+    "CN": "mean[(cn2_p3-cn1_p3), (cn2_p4-cn1_p4)] per family",
+    "P3": "mean[(cn1_p4-cn1_p3), (cn2_p4-cn2_p3)] per family"
+  },
+  "tests": "Exact two-sided sign-flip p across eight family effects for each of two primary contrasts; Holm adjustment at familywise 0.05; 95 percent family t intervals also reported.",
+  "practical_success": "At least one primary contrast has Holm-adjusted p<=0.05 and absolute mean effect >=0.10, with all conditions' familiar four-choice accuracy >=0.95. Directional hypotheses are supported only when the significant contrast has the predicted sign.",
+  "secondary": ["CN x P3 interaction", "second scene suite", "familiar four-choice and event accuracy", "all family and seed effects", "remaining unmatched graph motifs"],
+  "missingness": "No family or seed replacement based on outcomes; rerun only documented technical failures with the same configuration.",
+  "interpretation_limit": "Even with the matched graph statistics, edge switches alter the identities of observed pairs and may alter other local motifs. A positive result supports a structural intervention effect under these constraints, not a unique neural mechanism."
+}

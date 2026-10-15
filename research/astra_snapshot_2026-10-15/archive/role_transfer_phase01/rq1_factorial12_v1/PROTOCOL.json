@@ -1,0 +1,40 @@
+{
+  "status": "frozen_before_any_factorial_training",
+  "date": "2026-10-13",
+  "phase": "Phase 1: distinguish common-partner and simple-three-edge-path contributions",
+  "graph_manifest_sha256": "2ed15895e8e05b111e5925d42c3bdbcd2ab964f166c687c8d3f9ea980947586c",
+  "design": {
+    "independent_graph_families": 8,
+    "conditions_per_family": ["cn1_p3", "cn1_p4", "cn2_p3", "cn2_p4"],
+    "model_seeds": [312001, 312002, 312003],
+    "models": 96,
+    "entities": 12,
+    "degree": 4,
+    "observed_unordered_pairs": 24,
+    "unseen_focal_pair": [0, 1],
+    "training_configurations_per_condition": 1536,
+    "training_updates": 6000,
+    "batch_size": 128,
+    "learning_rate": 0.0008,
+    "architecture": "two-tower 48-dimensional two-layer Transformer adapted from d5_indirect_support/run.py; identical across conditions",
+    "balanced_distractors": "exact balance for each semantic candidate over five-epoch blocks",
+    "padding": "dedicated token 14; vocabulary 15",
+    "evaluation": "fixed 320-rendering focal suite: two directions, two events, four answer positions, ten distractors, two scene repeats; independent scene seeds 260107 and 260108",
+    "preflight": "a separate 12-node regular graph seed 89999, one model seed 311999, at most 1000 updates; inspect only training loss and familiar-pair accuracy; proceed to full run if the model trains stably, otherwise report design failure before factorial training"
+  },
+  "hypotheses": {
+    "H_CN": "Increasing focal common partners from one to two reduces unseen-pair role accuracy at both fixed three-edge-path levels, consistent with the earlier confounded result.",
+    "H_P3": "Increasing simple three-edge paths from three to four improves unseen-pair role accuracy at both fixed common-partner levels.",
+    "alternative": "One, both, neither, or a CN-by-path interaction may explain earlier rewiring results."
+  },
+  "primary_endpoint": "Final-checkpoint focal-pair binary correct-vs-role-reversed accuracy, first scene suite; average three paired seeds within each graph family, then eight families equally.",
+  "primary_contrasts": {
+    "CN": "mean[(cn2_p3-cn1_p3), (cn2_p4-cn1_p4)] per family",
+    "P3": "mean[(cn1_p4-cn1_p3), (cn2_p4-cn2_p3)] per family"
+  },
+  "tests": "Exact two-sided sign-flip p across eight family effects for each of two primary contrasts; Holm adjustment at familywise 0.05; 95 percent family t intervals also reported.",
+  "practical_success": "At least one primary contrast has Holm-adjusted p<=0.05 and absolute mean effect >=0.10, with all conditions' familiar four-choice accuracy >=0.95. Directional hypotheses are supported only when the significant contrast has the predicted sign.",
+  "secondary": ["CN x P3 interaction", "second scene suite", "familiar four-choice and event accuracy", "all family and seed effects", "four-cycle count and focal-neighborhood edit covariates"],
+  "missingness": "No family or seed replacement based on outcomes; rerun only documented technical failures with the same configuration.",
+  "interpretation_limit": "Matched local graph interventions test the contribution of CN and three-edge paths under these graph constraints; they do not uniquely prove that either graph count is a neural mechanism or eliminate every higher-order graph difference."
+}

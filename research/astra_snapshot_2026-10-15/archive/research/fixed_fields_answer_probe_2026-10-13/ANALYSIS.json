@@ -1,0 +1,139 @@
+{
+  "protocol_sha256": "f7216be292e3a4116adc2905b2830e17d70452691d2313561f81ef4197abee7e",
+  "cells": {
+    "fresh1/ordinary/original": {
+      "exact": 88,
+      "four_correct": 2,
+      "matches_cached_full_answer": 160,
+      "requested_field_correct": 128,
+      "answer_matches_requested_field": 86,
+      "answer_matches_other_field": 72,
+      "exact_when_requested_field_correct": 73,
+      "exact_when_requested_field_wrong": 15,
+      "requested_field_follow_when_correct": 73,
+      "requested_field_follow_when_wrong": 13
+    },
+    "fresh1/ordinary/swapped": {
+      "exact": 77,
+      "four_correct": 0,
+      "matches_cached_full_answer": 96,
+      "requested_field_correct": 26,
+      "answer_matches_requested_field": 84,
+      "answer_matches_other_field": 74,
+      "exact_when_requested_field_correct": 16,
+      "exact_when_requested_field_wrong": 61,
+      "requested_field_follow_when_correct": 16,
+      "requested_field_follow_when_wrong": 68
+    },
+    "fresh1/tagged/original": {
+      "exact": 97,
+      "four_correct": 3,
+      "matches_cached_full_answer": 131,
+      "requested_field_correct": 128,
+      "answer_matches_requested_field": 109,
+      "answer_matches_other_field": 50,
+      "exact_when_requested_field_correct": 88,
+      "exact_when_requested_field_wrong": 9,
+      "requested_field_follow_when_correct": 88,
+      "requested_field_follow_when_wrong": 21
+    },
+    "fresh1/tagged/swapped": {
+      "exact": 62,
+      "four_correct": 1,
+      "matches_cached_full_answer": 89,
+      "requested_field_correct": 26,
+      "answer_matches_requested_field": 109,
+      "answer_matches_other_field": 50,
+      "exact_when_requested_field_correct": 20,
+      "exact_when_requested_field_wrong": 42,
+      "requested_field_follow_when_correct": 20,
+      "requested_field_follow_when_wrong": 89
+    },
+    "fresh3/ordinary/original": {
+      "exact": 85,
+      "four_correct": 2,
+      "matches_cached_full_answer": 160,
+      "requested_field_correct": 125,
+      "answer_matches_requested_field": 90,
+      "answer_matches_other_field": 68,
+      "exact_when_requested_field_correct": 72,
+      "exact_when_requested_field_wrong": 13,
+      "requested_field_follow_when_correct": 72,
+      "requested_field_follow_when_wrong": 18
+    },
+    "fresh3/ordinary/swapped": {
+      "exact": 81,
+      "four_correct": 0,
+      "matches_cached_full_answer": 103,
+      "requested_field_correct": 28,
+      "answer_matches_requested_field": 73,
+      "answer_matches_other_field": 85,
+      "exact_when_requested_field_correct": 14,
+      "exact_when_requested_field_wrong": 67,
+      "requested_field_follow_when_correct": 14,
+      "requested_field_follow_when_wrong": 59
+    },
+    "fresh3/tagged/original": {
+      "exact": 98,
+      "four_correct": 6,
+      "matches_cached_full_answer": 129,
+      "requested_field_correct": 125,
+      "answer_matches_requested_field": 115,
+      "answer_matches_other_field": 44,
+      "exact_when_requested_field_correct": 90,
+      "exact_when_requested_field_wrong": 8,
+      "requested_field_follow_when_correct": 90,
+      "requested_field_follow_when_wrong": 25
+    },
+    "fresh3/tagged/swapped": {
+      "exact": 59,
+      "four_correct": 0,
+      "matches_cached_full_answer": 99,
+      "requested_field_correct": 28,
+      "answer_matches_requested_field": 103,
+      "answer_matches_other_field": 55,
+      "exact_when_requested_field_correct": 18,
+      "exact_when_requested_field_wrong": 41,
+      "requested_field_follow_when_correct": 18,
+      "requested_field_follow_when_wrong": 85
+    }
+  },
+  "paired": {
+    "fresh1/original/tagged-vs-ordinary": {
+      "rescue": 18,
+      "harm": 9,
+      "net": 9,
+      "answer_changed": 29
+    },
+    "fresh1/swapped/tagged-vs-ordinary": {
+      "rescue": 5,
+      "harm": 20,
+      "net": -15,
+      "answer_changed": 26
+    },
+    "fresh1/ordinary/swapped-vs-original": {
+      "answer_changed": 64
+    },
+    "fresh1/tagged/swapped-vs-original": {
+      "answer_changed": 80
+    },
+    "fresh3/original/tagged-vs-ordinary": {
+      "rescue": 21,
+      "harm": 8,
+      "net": 13,
+      "answer_changed": 31
+    },
+    "fresh3/swapped/tagged-vs-ordinary": {
+      "rescue": 4,
+      "harm": 26,
+      "net": -22,
+      "answer_changed": 30
+    },
+    "fresh3/ordinary/swapped-vs-original": {
+      "answer_changed": 57
+    },
+    "fresh3/tagged/swapped-vs-original": {
+      "answer_changed": 79
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "fixed_before_untouched_0.5B_EWT_inference",
+  "date": "2026-10-12",
+  "model": "untouched local Qwen2.5-0.5B-Instruct; no adapter",
+  "purpose": "Diagnostic baseline for the already published 75-item EWT evaluation; not a blind confirmation of adaptation.",
+  "measures": "Same original candidate D>0, omitted-sentence D>0, paraphrased D>0, and greedy strict exact actor/object spans as the existing 0.5B adapter evaluations. All 75 events; no exclusions.",
+  "limits": "Existing adapted EWT outcomes were inspected before this baseline. EWT labels are unreviewed syntactic proxies. Pretraining exposure unknown.",
+  "n_events": 75,
+  "model_snapshot": "/Users/joelvazquezlopez/.cache/huggingface/hub/models--Qwen--Qwen2.5-0.5B-Instruct/snapshots/7ae557604adf67be50417f59c2c2f167def9a775",
+  "references": {
+    "events_sha256": "9f108d08e2955228a2a232f056e6919ed22f2057223ff9cfdc70fb3004da928b",
+    "selection_protocol_sha256": "323abca6180e7bec61ebd9b0c65203d0405cae22a1288739aa6043320a9788be",
+    "script_sha256": "07708f0098898a7e7b8dca1f87527f9783e66b8a3368da8ad87ec66b2c39dce1"
+  }
+}

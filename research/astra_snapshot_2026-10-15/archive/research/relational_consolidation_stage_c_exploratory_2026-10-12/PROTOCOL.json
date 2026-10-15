@@ -1,0 +1,20 @@
+{
+  "status": "exploratory_synthetic_engineering_only_before_human_grammar_review",
+  "date": "2026-10-12",
+  "reason": "The user cannot do the Stage B human grammar review now and requested continued work. This pilot may calibrate the synthetic task but cannot support a natural-language or publication-level inference.",
+  "source_benchmark": "../relational_consolidation_stage_b_2026-10-12",
+  "development_family": 0,
+  "confirmation_families_prohibited": [2, 3, 4, 5, 6, 7],
+  "seeds": [4101, 4102],
+  "model": {"layers": 2, "heads": 4, "width": 64, "ff_width": 128, "dropout": 0.0},
+  "optimizer": {"name": "AdamW", "learning_rate": 0.003, "weight_decay": 0.0},
+  "wake_steps": 300,
+  "ordinary_continuation_batches": 100,
+  "transformation_continuation_batches": 100,
+  "batch_size": 64,
+  "consistency_weight": 0.5,
+  "arms": ["stop", "extra_ordinary", "augmentation", "s2_offline", "s2_interleaved"],
+  "primary_development_measure": "joint correct actor and patient for all five forms on each withheld development event",
+  "technical_screen": "Wake canonical accuracy >= 0.90 and wake joint L2 event accuracy <= 0.80; otherwise this pilot is not a useful schedule test.",
+  "interpretation": "Development-only recipe screen. Human grammar review pending; no confirmation test access."
+}

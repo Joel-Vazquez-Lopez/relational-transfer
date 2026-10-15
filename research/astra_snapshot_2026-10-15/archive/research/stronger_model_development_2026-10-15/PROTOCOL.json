@@ -1,0 +1,455 @@
+{
+  "status": "frozen before new inference; development/exploratory only",
+  "models": {
+    "qwen05": [
+      "mlx-community/Qwen2.5-0.5B-Instruct-4bit",
+      "a5339a4131f135d0fdc6a5c8b5bbed2753bbe0f3"
+    ],
+    "qwen15": [
+      "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "8b403126fc14f14cfc99bb4cfa72ecbc129ea677"
+    ],
+    "qwen7b": [
+      "mlx-community/Qwen2.5-7B-Instruct-4bit",
+      "c26a38f6a37d0a51b4e9a1eb3026530fa35d9fed"
+    ]
+  },
+  "model_order": [
+    "qwen05",
+    "qwen15",
+    "qwen7b"
+  ],
+  "events": [
+    {
+      "id": "p0-nudged-d0",
+      "pair_index": 0,
+      "a": "Amy",
+      "b": "Ben",
+      "actor": "Amy",
+      "patient": "Ben",
+      "verb": "nudged",
+      "direction": 0
+    },
+    {
+      "id": "p0-nudged-d1",
+      "pair_index": 0,
+      "a": "Amy",
+      "b": "Ben",
+      "actor": "Ben",
+      "patient": "Amy",
+      "verb": "nudged",
+      "direction": 1
+    },
+    {
+      "id": "p0-tagged-d0",
+      "pair_index": 0,
+      "a": "Amy",
+      "b": "Ben",
+      "actor": "Amy",
+      "patient": "Ben",
+      "verb": "tagged",
+      "direction": 0
+    },
+    {
+      "id": "p0-tagged-d1",
+      "pair_index": 0,
+      "a": "Amy",
+      "b": "Ben",
+      "actor": "Ben",
+      "patient": "Amy",
+      "verb": "tagged",
+      "direction": 1
+    },
+    {
+      "id": "p0-pulled-d0",
+      "pair_index": 0,
+      "a": "Amy",
+      "b": "Ben",
+      "actor": "Amy",
+      "patient": "Ben",
+      "verb": "pulled",
+      "direction": 0
+    },
+    {
+      "id": "p0-pulled-d1",
+      "pair_index": 0,
+      "a": "Amy",
+      "b": "Ben",
+      "actor": "Ben",
+      "patient": "Amy",
+      "verb": "pulled",
+      "direction": 1
+    },
+    {
+      "id": "p1-nudged-d0",
+      "pair_index": 1,
+      "a": "Fred",
+      "b": "Jane",
+      "actor": "Fred",
+      "patient": "Jane",
+      "verb": "nudged",
+      "direction": 0
+    },
+    {
+      "id": "p1-nudged-d1",
+      "pair_index": 1,
+      "a": "Fred",
+      "b": "Jane",
+      "actor": "Jane",
+      "patient": "Fred",
+      "verb": "nudged",
+      "direction": 1
+    },
+    {
+      "id": "p1-tagged-d0",
+      "pair_index": 1,
+      "a": "Fred",
+      "b": "Jane",
+      "actor": "Fred",
+      "patient": "Jane",
+      "verb": "tagged",
+      "direction": 0
+    },
+    {
+      "id": "p1-tagged-d1",
+      "pair_index": 1,
+      "a": "Fred",
+      "b": "Jane",
+      "actor": "Jane",
+      "patient": "Fred",
+      "verb": "tagged",
+      "direction": 1
+    },
+    {
+      "id": "p1-pulled-d0",
+      "pair_index": 1,
+      "a": "Fred",
+      "b": "Jane",
+      "actor": "Fred",
+      "patient": "Jane",
+      "verb": "pulled",
+      "direction": 0
+    },
+    {
+      "id": "p1-pulled-d1",
+      "pair_index": 1,
+      "a": "Fred",
+      "b": "Jane",
+      "actor": "Jane",
+      "patient": "Fred",
+      "verb": "pulled",
+      "direction": 1
+    },
+    {
+      "id": "p2-nudged-d0",
+      "pair_index": 2,
+      "a": "Mark",
+      "b": "Rose",
+      "actor": "Mark",
+      "patient": "Rose",
+      "verb": "nudged",
+      "direction": 0
+    },
+    {
+      "id": "p2-nudged-d1",
+      "pair_index": 2,
+      "a": "Mark",
+      "b": "Rose",
+      "actor": "Rose",
+      "patient": "Mark",
+      "verb": "nudged",
+      "direction": 1
+    },
+    {
+      "id": "p2-tagged-d0",
+      "pair_index": 2,
+      "a": "Mark",
+      "b": "Rose",
+      "actor": "Mark",
+      "patient": "Rose",
+      "verb": "tagged",
+      "direction": 0
+    },
+    {
+      "id": "p2-tagged-d1",
+      "pair_index": 2,
+      "a": "Mark",
+      "b": "Rose",
+      "actor": "Rose",
+      "patient": "Mark",
+      "verb": "tagged",
+      "direction": 1
+    },
+    {
+      "id": "p2-pulled-d0",
+      "pair_index": 2,
+      "a": "Mark",
+      "b": "Rose",
+      "actor": "Mark",
+      "patient": "Rose",
+      "verb": "pulled",
+      "direction": 0
+    },
+    {
+      "id": "p2-pulled-d1",
+      "pair_index": 2,
+      "a": "Mark",
+      "b": "Rose",
+      "actor": "Rose",
+      "patient": "Mark",
+      "verb": "pulled",
+      "direction": 1
+    },
+    {
+      "id": "p3-nudged-d0",
+      "pair_index": 3,
+      "a": "Bill",
+      "b": "Dan",
+      "actor": "Bill",
+      "patient": "Dan",
+      "verb": "nudged",
+      "direction": 0
+    },
+    {
+      "id": "p3-nudged-d1",
+      "pair_index": 3,
+      "a": "Bill",
+      "b": "Dan",
+      "actor": "Dan",
+      "patient": "Bill",
+      "verb": "nudged",
+      "direction": 1
+    },
+    {
+      "id": "p3-tagged-d0",
+      "pair_index": 3,
+      "a": "Bill",
+      "b": "Dan",
+      "actor": "Bill",
+      "patient": "Dan",
+      "verb": "tagged",
+      "direction": 0
+    },
+    {
+      "id": "p3-tagged-d1",
+      "pair_index": 3,
+      "a": "Bill",
+      "b": "Dan",
+      "actor": "Dan",
+      "patient": "Bill",
+      "verb": "tagged",
+      "direction": 1
+    },
+    {
+      "id": "p3-pulled-d0",
+      "pair_index": 3,
+      "a": "Bill",
+      "b": "Dan",
+      "actor": "Bill",
+      "patient": "Dan",
+      "verb": "pulled",
+      "direction": 0
+    },
+    {
+      "id": "p3-pulled-d1",
+      "pair_index": 3,
+      "a": "Bill",
+      "b": "Dan",
+      "actor": "Dan",
+      "patient": "Bill",
+      "verb": "pulled",
+      "direction": 1
+    },
+    {
+      "id": "p4-nudged-d0",
+      "pair_index": 4,
+      "a": "Carl",
+      "b": "Matt",
+      "actor": "Carl",
+      "patient": "Matt",
+      "verb": "nudged",
+      "direction": 0
+    },
+    {
+      "id": "p4-nudged-d1",
+      "pair_index": 4,
+      "a": "Carl",
+      "b": "Matt",
+      "actor": "Matt",
+      "patient": "Carl",
+      "verb": "nudged",
+      "direction": 1
+    },
+    {
+      "id": "p4-tagged-d0",
+      "pair_index": 4,
+      "a": "Carl",
+      "b": "Matt",
+      "actor": "Carl",
+      "patient": "Matt",
+      "verb": "tagged",
+      "direction": 0
+    },
+    {
+      "id": "p4-tagged-d1",
+      "pair_index": 4,
+      "a": "Carl",
+      "b": "Matt",
+      "actor": "Matt",
+      "patient": "Carl",
+      "verb": "tagged",
+      "direction": 1
+    },
+    {
+      "id": "p4-pulled-d0",
+      "pair_index": 4,
+      "a": "Carl",
+      "b": "Matt",
+      "actor": "Carl",
+      "patient": "Matt",
+      "verb": "pulled",
+      "direction": 0
+    },
+    {
+      "id": "p4-pulled-d1",
+      "pair_index": 4,
+      "a": "Carl",
+      "b": "Matt",
+      "actor": "Matt",
+      "patient": "Carl",
+      "verb": "pulled",
+      "direction": 1
+    },
+    {
+      "id": "p5-nudged-d0",
+      "pair_index": 5,
+      "a": "David",
+      "b": "Susan",
+      "actor": "David",
+      "patient": "Susan",
+      "verb": "nudged",
+      "direction": 0
+    },
+    {
+      "id": "p5-nudged-d1",
+      "pair_index": 5,
+      "a": "David",
+      "b": "Susan",
+      "actor": "Susan",
+      "patient": "David",
+      "verb": "nudged",
+      "direction": 1
+    },
+    {
+      "id": "p5-tagged-d0",
+      "pair_index": 5,
+      "a": "David",
+      "b": "Susan",
+      "actor": "David",
+      "patient": "Susan",
+      "verb": "tagged",
+      "direction": 0
+    },
+    {
+      "id": "p5-tagged-d1",
+      "pair_index": 5,
+      "a": "David",
+      "b": "Susan",
+      "actor": "Susan",
+      "patient": "David",
+      "verb": "tagged",
+      "direction": 1
+    },
+    {
+      "id": "p5-pulled-d0",
+      "pair_index": 5,
+      "a": "David",
+      "b": "Susan",
+      "actor": "David",
+      "patient": "Susan",
+      "verb": "pulled",
+      "direction": 0
+    },
+    {
+      "id": "p5-pulled-d1",
+      "pair_index": 5,
+      "a": "David",
+      "b": "Susan",
+      "actor": "Susan",
+      "patient": "David",
+      "verb": "pulled",
+      "direction": 1
+    }
+  ],
+  "strong_event_ids": [
+    "p0-nudged-d0",
+    "p0-nudged-d1",
+    "p1-tagged-d0",
+    "p1-tagged-d1",
+    "p2-pulled-d0",
+    "p2-pulled-d1",
+    "p3-nudged-d0",
+    "p3-nudged-d1",
+    "p4-tagged-d0",
+    "p4-tagged-d1",
+    "p5-pulled-d0",
+    "p5-pulled-d1"
+  ],
+  "forms": [
+    "active",
+    "passive",
+    "object_cleft",
+    "subject_cleft"
+  ],
+  "legacy_questions": {
+    "actor_performed": "Who performed the action?",
+    "actor_acted": "Who acted on the other person?",
+    "patient_verb": "Who was {verb}?",
+    "patient_affected": "Who was acted on?"
+  },
+  "strong_questions": {
+    "lexical": {
+      "actor": "Who {verb} someone in this sentence?",
+      "patient": "Who was {verb} by someone in this sentence?"
+    },
+    "explicit": {
+      "actor": "Which person does the sentence describe as carrying out the action?",
+      "patient": "Which person does the sentence describe as having the action done to them?"
+    }
+  },
+  "strong_system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+  "strong_assistant_prefix": "Answer:",
+  "panels": {
+    "legacy": "36 events x 4 forms x 4 archived questions = 576 next-token prompts; identical old interface; no new omitted-sentence calibration",
+    "strong_free": "12 predetermined events x 4 forms x 2 roles x 2 question wordings = 192 candidate-free greedy generations, max 12 tokens",
+    "strong_list": "same 192 prompts x both candidate orders = 384 next-token contrast prompts; otherwise identical strong interface"
+  },
+  "scoring": {
+    "contrast": "logsumexp of bare and leading-space single-token actor names minus equivalent patient names; fail if names are not single tokens",
+    "r": "(actor-question actor-minus-patient contrast - patient-question actor-minus-patient contrast)/2; r<0 is question-to-argument contrast reversal, r=0 tie",
+    "joint": "both actor and patient correct for same event/form/wording, plus all-form joint; both wrong reported separately",
+    "free": "strip whitespace only; exact full name correctness and strict candidate compliance; invalid outputs wrong; first-token answer recorded separately",
+    "list": "candidate contrast correctness is distinct from unconstrained generation; first-token compliance reported",
+    "heuristics": "always first/last sentence participant; always grammatical agent-verb subject (patient in passive), its complement; always candidate first/second; compare errors and predictions, do not fit after results"
+  },
+  "inference": {
+    "backend": "MLX-LM 0.32.0, MLX 0.32.4; community 4bit weights; verify actual per-model quantization config",
+    "decoding": "greedy, no stochastic sampling, no fine-tuning, sequential models",
+    "resource_bound": "M2 16 GiB; estimated 5.43 GB weights total; no paid inference; stop on resource failures; no prompt search"
+  },
+  "analysis": {
+    "unit": "event paired across forms/questions/models; uncertainty resample SIX name-pair clusters with both directions and all observations retained",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20261015,
+    "primary": "strong candidate-free lexical-question object-cleft vs active joint accuracy, and negative question-contrast rates; compare matched 7B vs 1.5B",
+    "secondary": "explicit wording, legacy replication, candidate order, construction tables, individual gains/losses; no confirmatory p-values",
+    "limits": "synthetic previously examined development items; only six participant-pair clusters, intervals conditional on these templates; quantization and model differences limit pure scaling conclusions; no mechanistic claims"
+  },
+  "new_review_gate": "NEW_REVIEW.csv is a separate new constructed review set, NOT human-validated or authentic corpus evidence. No inference on it until independent review is recorded.",
+  "old_hashes": {
+    "qwen_role_equivariance_diagnostic_2026-10-12/PROTOCOL.json": "16ac1504edcb57f3ca5a836e7166780769618934816ac45742510a884f092485",
+    "qwen_role_equivariance_diagnostic_2026-10-12/untouched_qwen05.json": "881fa73445595ed3f76b9b9d76995ba19772df5eace804a7160217d956043b4c",
+    "qwen_role_equivariance_diagnostic_2026-10-12/untouched_qwen15.json": "f3467f5f0cc29aad4d86dd592453756765d3e2dd45787a6bc2c215a6020e499a",
+    "FRONTIER_DIAGNOSTICS_CLOSED_2026-10-15.json": "e92e75dec4c73ce3bd92295f76096c2b9b41c1057d50fbc390335fd5333340dd"
+  }
+}

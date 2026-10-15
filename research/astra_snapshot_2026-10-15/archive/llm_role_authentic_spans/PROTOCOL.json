@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-11",
+  "status": "fixed_before_direct_span_inference",
+  "purpose": "Remove A/B answer-position cues from the exploratory natural-language evaluation.",
+  "source": "The same 63 previously selected QA-SRL Gold sentences. Use their original subject and direct-object question-answer annotations, with no A/B options.",
+  "role_terms": "subject_answer is the answer to the active QA-SRL subject question; other_participant_answer is the answer to its direct-object question. The latter is not uniformly a semantic patient.",
+  "prior_knowledge": "All source sentences and prior A/B outcomes are known. This is a follow-up diagnostic, not a blind external confirmation. An AI assistant inspected the items, but no independent student verification has been entered.",
+  "units": "One untouched Qwen2.5-0.5B model plus ordinary, ordered-role and participant-only fine-tuned adapters for three graph worlds x two matched starts; no new training.",
+  "prompt": "Fixed system instruction explaining QA-SRL's someone/something placeholders and requiring the exact noun phrase from the sentence, plus the full sentence, target verb, and original QA-SRL question. No candidate answers are presented.",
+  "decoding": "Greedy generation, at most 18 new tokens, stop at EOS. Keep raw text and all outputs including invalid ones.",
+  "primary": "Exact normalized subject-answer span accuracy over 63 events per model. Report six paired arm-minus-ordinary differences and an equal-unit mean, alongside raw individual starts.",
+  "secondary": "Exact normalized other-participant-answer accuracy; both roles correct per event; copied-substring and nonempty rates; Wikinews/Wikipedia breakdown. Report outputs for human error review.",
+  "normalization": "Unicode NFKC, lowercase, trim boundary quote/punctuation characters, collapse whitespace and tokenized apostrophe spacing. No article removal, substring matching or aliases in primary exact score.",
+  "limits": "Exact-span scoring is conservative when multiple phrase boundaries or referentially equivalent answers exist. Original QA-SRL annotations do not constitute independent verification for this selected subset. Model pretraining overlap is unknown. A null result may reflect prompt/domain transfer rather than absent role knowledge.",
+  "inputs_sha256": {
+    "qa_srl_candidates": "61533aba900d98a7d97ff70bc08c4a6f0fec9f7a9ad8731b751170761364f888",
+    "prior_items": "21f197f07a0aafc1db4ab3faada610a0becbcfc5d0409571147cf088bbb5d254",
+    "prior_diagnostics": "c79ad522bd928a949f9547e061059faa4b81ea1f3f5787fa7ad33433a566f4ba",
+    "confirmation_protocol": "db72b03db9db1cc051811184c0d53d57cfdff9c86ac25cc904cc351e74beca3a",
+    "unordered_protocol": "dab387df03680c39d33a92a6e692796468ec50494c9da3187568d6de35381917",
+    "model_weights": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+  },
+  "script_sha256": "2ca0b244074a7baf699bbd5eef7f5cd1bc4eba7931d31548577d166134b5f425"
+}

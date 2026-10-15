@@ -1,0 +1,21 @@
+{
+  "status": "fixed_before_any_EWT_model_inference",
+  "date": "2026-10-12",
+  "source": "UniversalDependencies/UD_English-EWT r2.18 test CoNLL-U",
+  "source_url": "https://github.com/UniversalDependencies/UD_English-EWT/tree/r2.18",
+  "selection": "All unique EWT test sentences with 5-35 tokens, one root VERB, exactly one nsubj and obj dependent with NOUN/PROPN heads, no root-verb passive/negation/expletive marker, and simple contiguous <=8-token noun phrases. Exclude exact normalized sentence overlaps with selected QA-SRL train, dev, Bank test, and Gold. No manual exclusions or model-based selection. UD subject/object are provisional proxies for actor/other roles.",
+  "primary": "Paired candidate-relative role contrast D>0 for each sentence under the exact two QA-SRL evaluation questions. Compare same Qwen2.5-0.5B source and natural-only checkpoints for two starts. Report each item and start; no post-hoc threshold to declare success.",
+  "controls": "Sentence-omitted D; directly generated exact actor and other spans under the same prompts; report these separately. Fixed secondary paraphrase: 'Which phrase names the doer of [verb]?' versus 'Which phrase names what [verb] affects directly?' Both ask for a phrase from the sentence. The paraphrase is a prompt-sensitivity test, not a new trained prompt.",
+  "analysis": "Report raw counts, gains/losses for matched items, document source counts, and per-start scores. Prefer document-cluster uncertainty if a document key can be reliably extracted; do not treat two starts or multiple sentences from a document as independent models. Human review CSV remains blank and its absence must be stated in results.",
+  "limits": "EWT is a syntactic treebank, not a semantic-role gold corpus. Subjects can be non-agentive and objects non-patient. Pretraining overlap unknown. The test source and design were chosen after QA-SRL successes, so cross-corpus evidence is exploratory even though items and measures are frozen before EWT inference.",
+  "n_events": 75,
+  "references": {
+    "ewt_sha256": "fa024f43dc5da3c5ac02563bc9bd0e974f46cbb1560823976a8f342a37dc494a",
+    "bank_train_sha256": "70609ac375d05937e85c7b9bd791a1f4274565e4109d8c4b70d590f4519f7686",
+    "bank_dev_sha256": "78330add70b1ff616c819875b1ba3b697cf68792f2b4c5bc325452fe672bb87b",
+    "bank_test_sha256": "b26094178fa5ccdb63d62ca84957c83bda398e5363cc287095d0a51ec2ca016e",
+    "gold_sha256": "8f7bf12e238889d5775da08a463343a4034349e0a199c61b020531e287e1d71b",
+    "events_sha256": "9f108d08e2955228a2a232f056e6919ed22f2057223ff9cfdc70fb3004da928b",
+    "script_sha256": "58a1929f8479a5895de6104675672c3ea92b34aca64222f6c1348790cef5c292"
+  }
+}

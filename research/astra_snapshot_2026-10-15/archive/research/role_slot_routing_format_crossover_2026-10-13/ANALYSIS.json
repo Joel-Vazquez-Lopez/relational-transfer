@@ -1,0 +1,281 @@
+{
+  "protocol_sha256": "88b8f832014d8ed3ac9ecc3ac7ef2b03130728de608ab0040af152a248662997",
+  "arms": {
+    "fresh1_answer_first": {
+      "native": {
+        "crossed_joint_by_form": {
+          "active": 13,
+          "passive": 0,
+          "subject_cleft": 21,
+          "object_cleft": 4
+        },
+        "primary_crossed_joint": 25,
+        "prefix_tolerant_answer_joint_by_form": {
+          "active": 13,
+          "passive": 0,
+          "subject_cleft": 21,
+          "object_cleft": 4
+        },
+        "prefix_tolerant_answer_primary": 25,
+        "routed_from_generated_fields_joint_by_form": {
+          "active": 25,
+          "passive": 47,
+          "subject_cleft": 37,
+          "object_cleft": 14
+        },
+        "routed_primary": 98,
+        "valid_answers": 960,
+        "slot_joint_outputs": 758,
+        "answer_field_present": 960,
+        "actor_field_present": 960,
+        "patient_field_present": 960,
+        "raw_output_examples": [
+          " Robin; Actor: Robin; Patient: Jerry",
+          " Robin; Actor: Robin; Patient: Jerry",
+          " Jerry; Actor: Robin; Patient: Jerry"
+        ]
+      },
+      "cross": {
+        "crossed_joint_by_form": {
+          "active": 1,
+          "passive": 2,
+          "subject_cleft": 1,
+          "object_cleft": 8
+        },
+        "primary_crossed_joint": 11,
+        "prefix_tolerant_answer_joint_by_form": {
+          "active": 1,
+          "passive": 2,
+          "subject_cleft": 1,
+          "object_cleft": 8
+        },
+        "prefix_tolerant_answer_primary": 11,
+        "routed_from_generated_fields_joint_by_form": {
+          "active": 23,
+          "passive": 25,
+          "subject_cleft": 29,
+          "object_cleft": 26
+        },
+        "routed_primary": 80,
+        "valid_answers": 488,
+        "slot_joint_outputs": 312,
+        "answer_field_present": 516,
+        "actor_field_present": 960,
+        "patient_field_present": 960,
+        "raw_output_examples": [
+          " Robin; Patient: Jerry",
+          " Robin; Patient: Jerry",
+          " Robin; Patient: Jerry; Answer: Robin"
+        ]
+      },
+      "cross_minus_native": -14
+    },
+    "fresh1_slot_first": {
+      "native": {
+        "crossed_joint_by_form": {
+          "active": 39,
+          "passive": 25,
+          "subject_cleft": 45,
+          "object_cleft": 36
+        },
+        "primary_crossed_joint": 106,
+        "prefix_tolerant_answer_joint_by_form": {
+          "active": 39,
+          "passive": 25,
+          "subject_cleft": 45,
+          "object_cleft": 36
+        },
+        "prefix_tolerant_answer_primary": 106,
+        "routed_from_generated_fields_joint_by_form": {
+          "active": 39,
+          "passive": 31,
+          "subject_cleft": 45,
+          "object_cleft": 40
+        },
+        "routed_primary": 116,
+        "valid_answers": 960,
+        "slot_joint_outputs": 834,
+        "answer_field_present": 960,
+        "actor_field_present": 960,
+        "patient_field_present": 960,
+        "raw_output_examples": [
+          " Robin; Patient: Jerry; Answer: Robin",
+          " Robin; Patient: Jerry; Answer: Robin",
+          " Robin; Patient: Jerry; Answer: Jerry"
+        ]
+      },
+      "cross": {
+        "crossed_joint_by_form": {
+          "active": 0,
+          "passive": 0,
+          "subject_cleft": 0,
+          "object_cleft": 0
+        },
+        "primary_crossed_joint": 0,
+        "prefix_tolerant_answer_joint_by_form": {
+          "active": 15,
+          "passive": 0,
+          "subject_cleft": 22,
+          "object_cleft": 2
+        },
+        "prefix_tolerant_answer_primary": 24,
+        "routed_from_generated_fields_joint_by_form": {
+          "active": 0,
+          "passive": 1,
+          "subject_cleft": 1,
+          "object_cleft": 0
+        },
+        "routed_primary": 2,
+        "valid_answers": 10,
+        "slot_joint_outputs": 2,
+        "answer_field_present": 960,
+        "actor_field_present": 15,
+        "patient_field_present": 387,
+        "raw_output_examples": [
+          " Robin",
+          " Robin; Patient: Jerry",
+          " Jerry; Patient: Jerry"
+        ]
+      },
+      "cross_minus_native": -106
+    },
+    "fresh3_answer_first": {
+      "native": {
+        "crossed_joint_by_form": {
+          "active": 12,
+          "passive": 0,
+          "subject_cleft": 31,
+          "object_cleft": 5
+        },
+        "primary_crossed_joint": 36,
+        "prefix_tolerant_answer_joint_by_form": {
+          "active": 12,
+          "passive": 0,
+          "subject_cleft": 31,
+          "object_cleft": 5
+        },
+        "prefix_tolerant_answer_primary": 36,
+        "routed_from_generated_fields_joint_by_form": {
+          "active": 23,
+          "passive": 46,
+          "subject_cleft": 43,
+          "object_cleft": 10
+        },
+        "routed_primary": 99,
+        "valid_answers": 960,
+        "slot_joint_outputs": 744,
+        "answer_field_present": 960,
+        "actor_field_present": 960,
+        "patient_field_present": 960,
+        "raw_output_examples": [
+          " Robin; Actor: Robin; Patient: Jerry",
+          " Robin; Actor: Robin; Patient: Jerry",
+          " Jerry; Actor: Robin; Patient: Jerry"
+        ]
+      },
+      "cross": {
+        "crossed_joint_by_form": {
+          "active": 7,
+          "passive": 0,
+          "subject_cleft": 8,
+          "object_cleft": 9
+        },
+        "primary_crossed_joint": 17,
+        "prefix_tolerant_answer_joint_by_form": {
+          "active": 7,
+          "passive": 0,
+          "subject_cleft": 8,
+          "object_cleft": 9
+        },
+        "prefix_tolerant_answer_primary": 17,
+        "routed_from_generated_fields_joint_by_form": {
+          "active": 25,
+          "passive": 24,
+          "subject_cleft": 36,
+          "object_cleft": 25
+        },
+        "routed_primary": 85,
+        "valid_answers": 623,
+        "slot_joint_outputs": 411,
+        "answer_field_present": 657,
+        "actor_field_present": 960,
+        "patient_field_present": 960,
+        "raw_output_examples": [
+          " Jerry; Patient: Robin; Answer: Jerry",
+          " Robin; Patient: Jerry",
+          " Robin; Patient: Jerry; Answer: Jerry"
+        ]
+      },
+      "cross_minus_native": -19
+    },
+    "fresh3_slot_first": {
+      "native": {
+        "crossed_joint_by_form": {
+          "active": 40,
+          "passive": 24,
+          "subject_cleft": 47,
+          "object_cleft": 32
+        },
+        "primary_crossed_joint": 103,
+        "prefix_tolerant_answer_joint_by_form": {
+          "active": 40,
+          "passive": 24,
+          "subject_cleft": 47,
+          "object_cleft": 32
+        },
+        "prefix_tolerant_answer_primary": 103,
+        "routed_from_generated_fields_joint_by_form": {
+          "active": 41,
+          "passive": 31,
+          "subject_cleft": 46,
+          "object_cleft": 34
+        },
+        "routed_primary": 111,
+        "valid_answers": 960,
+        "slot_joint_outputs": 825,
+        "answer_field_present": 960,
+        "actor_field_present": 960,
+        "patient_field_present": 960,
+        "raw_output_examples": [
+          " Robin; Patient: Jerry; Answer: Robin",
+          " Robin; Patient: Jerry; Answer: Robin",
+          " Robin; Patient: Jerry; Answer: Jerry"
+        ]
+      },
+      "cross": {
+        "crossed_joint_by_form": {
+          "active": 0,
+          "passive": 0,
+          "subject_cleft": 0,
+          "object_cleft": 0
+        },
+        "primary_crossed_joint": 0,
+        "prefix_tolerant_answer_joint_by_form": {
+          "active": 23,
+          "passive": 0,
+          "subject_cleft": 16,
+          "object_cleft": 3
+        },
+        "prefix_tolerant_answer_primary": 19,
+        "routed_from_generated_fields_joint_by_form": {
+          "active": 0,
+          "passive": 0,
+          "subject_cleft": 0,
+          "object_cleft": 0
+        },
+        "routed_primary": 0,
+        "valid_answers": 1,
+        "slot_joint_outputs": 0,
+        "answer_field_present": 960,
+        "actor_field_present": 1,
+        "patient_field_present": 530,
+        "raw_output_examples": [
+          " Robin",
+          " Robin; Patient: Jerry",
+          " Jerry; Patient: Jerry"
+        ]
+      },
+      "cross_minus_native": -103
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "fixed secondary context before baseline inference",
+  "split": "fresh",
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "arms": [
+    "answer_only",
+    "role_first"
+  ],
+  "data_sha256": "7ce6472eee8dd595955cda929c9eae74844d60d73dd4a151683b6744aa891cd8",
+  "main_protocol_sha256": "96e1dcc8880d57c4df5550113fca1cef51c75bda352f4250d3ed867ade99ad46",
+  "script_sha256": "c13b70b4207a785fada95bcab8eddac60f0bf103ed83894e9a77f9a69bf91025",
+  "checkpoint_sha256": {
+    "fresh1_answer_only": "a51e961770b4ca7ad1ab5bbe05002e6be98443d01e9b1406716c93fd9b959d76",
+    "fresh1_role_first": "38792b0566c786bafeffe5ff6b1cf69be3a16bf9d5e0ac8ec933010e6b11e1dd",
+    "fresh3_answer_only": "70867296df4acf6a66723c05c1cc8cbd8392085f1d1547242b5084e871d1ccd3",
+    "fresh3_role_first": "f3c89b2ca511fd90e54f415d0b0c4b573f6cf21a210cb5984f4ef376f67bff1d"
+  },
+  "note": "These previously trained checkpoints used the same training item bank, but differ from the new matched arms in output target content and token budget. Compare descriptively; they are not matched causal controls."
+}

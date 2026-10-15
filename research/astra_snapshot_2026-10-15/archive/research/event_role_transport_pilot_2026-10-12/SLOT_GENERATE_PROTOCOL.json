@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-12",
+  "status": "post_hoc_free_generation_diagnostic; tuple-rank and direct-QA results seen",
+  "cases": "36 held-out directed lexical events \u00d7 all four forms = 144/checkpoint",
+  "prompt": "The same structured slot prompt as training, ending with Actor:",
+  "decoding": "greedy, max_new_tokens=7, no sampling; parse first actor and patient candidate names only",
+  "metric": "Exact both-role slot generation; actor and patient separately; unparseable outputs counted wrong",
+  "limits": "The lexical bank and output behavior were already inspected; exploratory output-level check, not independent confirmation or internal mechanism evidence.",
+  "script_sha256": "29581bf65a4d3fae2c6cfc3c45f0168bc3d966b957a7f64fccd2f8a871c8a184",
+  "main_protocol_sha256": "2c33b265278b0f83d549107b2f609357e9736845f76b8af2853318300a79783d",
+  "slot_check_protocol_sha256": "8bbe39d3bcf761769f2537dacab85b6bbe4570483b32ae2d28836f69d426d095",
+  "checkpoints": {
+    "fresh1_slot_sft": "f8771c55fa3a5fb8d41ca8543f5fd9b3a037de03eecd5990df1268c0d3eb2adc",
+    "fresh1_transport": "58907f2a8f3eb4f18e8d4733556f8736c97a369b3177a881b97c3284d8b157d5",
+    "fresh3_slot_sft": "c931aa54ba1b6687891cde197aae916dec564843f55757d97de5f69a27d6b003",
+    "fresh3_transport": "286b4dc0b8dac0b13f85190a94c0649f3e70f77b04e3e1a53a9e459d69eee12d"
+  }
+}

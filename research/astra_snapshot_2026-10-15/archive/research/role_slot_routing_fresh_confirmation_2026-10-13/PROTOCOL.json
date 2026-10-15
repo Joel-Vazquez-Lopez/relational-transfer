@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-13",
+  "status": "frozen before any inference on this new lexical bank; no additional training",
+  "question": "Does the slot-first answer gain over both answer-first and candidate-first replicate on independently chosen names and verbs?",
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "arms": [
+    "answer_first",
+    "candidate_first",
+    "slot_first"
+  ],
+  "test_pairs": [
+    [
+      "Robin",
+      "Jerry"
+    ],
+    [
+      "Taylor",
+      "Jordan"
+    ],
+    [
+      "Kim",
+      "Jean"
+    ],
+    [
+      "Jess",
+      "Kay"
+    ],
+    [
+      "Lou",
+      "Jim"
+    ],
+    [
+      "Sean",
+      "Scott"
+    ]
+  ],
+  "test_verbs": [
+    "nudged",
+    "phoned",
+    "teased",
+    "scolded"
+  ],
+  "forms": [
+    "active",
+    "passive",
+    "subject_cleft",
+    "object_cleft"
+  ],
+  "questions": {
+    "actor_performed": "Who performed the action?",
+    "actor_did": "Who did the action?",
+    "patient_verb": "Who was {verb}?",
+    "actor_carried": "Which person carried out the action described in the sentence?",
+    "patient_which": "Which person was {verb}?"
+  },
+  "test_cases": "48 directed events \u00d7 4 forms \u00d7 5 questions = 960 outputs per checkpoint",
+  "primary": "Across passive, subject_cleft and object_cleft, count event-form cases where actor_did and patient_verb are both correct; 48\u00d73=144 cases/checkpoint. One question/form pairing was absent in training for each of these forms.",
+  "positive_screen": "Slot-first improves primary by at least +12/144 over BOTH answer-first and candidate-first in EACH start; active same-pair joint regresses by no more than 5/48 versus either; object-cleft primary improves by at least +6/48 over each in both starts. Report all cells and invalids regardless.",
+  "secondary": "Novel actor_carried+patient_which both correct across all four forms /192; per-form and per-pair results; source-output slot routing audit. Same 13-token greedy decoding used in pilot.",
+  "limits": "Independent lexical test only, not training replication, model-family replication, or natural-language confirmation. Six pair families share one generator; the placebo was designed post hoc on the earlier bank but all three arms are fixed before this bank.",
+  "script_sha256": "37f0490a64962a83eb04f710b06418cbc4c6fc02860111510defac35f2398df2",
+  "base_protocol_sha256": "c3725a19885f0aea2ba2278ea1801069bc8b5dfb40dafd352d8718d447f73410",
+  "placebo_protocol_sha256": "5288194e037abfe2951788be40f0b4cddf6837c37f8e1e008fa65fbf6a60aae3",
+  "checkpoint_sha256": {
+    "fresh1_answer_first": "e0655954a50829f6dceab900c501312c45ab9403d0de06c3e3f58b3c9b7bf595",
+    "fresh1_candidate_first": "497aa06f2fad3f68e129d249e0bcd44016d8296f641f209879db574169010b33",
+    "fresh1_slot_first": "e15d80489719004ba78bfc9df7bb49c03dcfefcb2813ac4cf14e404f8aabc7bf",
+    "fresh3_answer_first": "eb64a2c3c3f84d510bd2abdcbbcacb8ef7054e776f256fd9b7164d0481b49210",
+    "fresh3_candidate_first": "53e34baa4a3e0d29cb366629a135191bf114aebd267344e1937ce5e0f4bbff1e",
+    "fresh3_slot_first": "075a2960ed8046f1fae89ed475a0ef5fc2952f55f0839e39ec986636f228d7e0"
+  },
+  "test_rows_sha256": "c0657145bfe64026159737b21d742ef7c06f27602d5b3889437dbd0da8257aff"
+}

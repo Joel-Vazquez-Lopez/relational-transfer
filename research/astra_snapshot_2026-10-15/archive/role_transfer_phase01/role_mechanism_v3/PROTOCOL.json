@@ -1,0 +1,11 @@
+{
+  "status": "fixed_before_v3_runs",
+  "date": "2026-10-07",
+  "origin": "Mechanism v1 and adaptive v2 used seed 271001 on all eight fresh graphs. V3 repeats the unchanged v2 analysis on the two as-yet-unexamined internal-state starts 271002 and 271003 for every graph and both auxiliary arms.",
+  "checkpoints": "Eight graphs times two held-aside starts times two auxiliary arms = 32 frozen checkpoints. No outcome-based exclusion.",
+  "method": "Exactly the role-order, unordered-identity, five random nine-dimensional subspaces, observed-only ridge fit, and 25 unseen pairs times 128 balanced episodes of mechanism v2. No choice of subspace rank, probe regularization, rendering, or metric is changed.",
+  "primary_descriptive_contrast": "For each graph, average over the two starts the ordered-arm reduction in correct-minus-reversed margin after role-order subspace swap, minus the corresponding reduction in the unordered-arm. Report all eight graph values.",
+  "secondary": ["binary role accuracy reductions", "role-order versus unordered-identity and random subspace swaps in the ordered arm", "fraction of candidate-difference energy captured"],
+  "interpretation_rule": "A positive primary contrast on at least seven of eight graphs and an average above 1 margin unit is a useful replication of the v2 mechanism diagnostic. This is not an independent graph confirmation and does not prove a unique circuit.",
+  "scope": "Only the synthetic coded-message/generated-scene architecture; natural-language and pretrained-LLM mechanisms remain untested."
+}

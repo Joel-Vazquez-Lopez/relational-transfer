@@ -1,0 +1,16 @@
+{
+  "status": "fixed_before_natural_only_second_start",
+  "date": "2026-10-12",
+  "question": "Does removing synthetic replay preserve patient-cleft transfer while retaining the authentic-role gain on the second starting adapter?",
+  "design": "Start from the identical fresh3/830212 participant-only adapter as the mixed second-world run. Train on the same frozen 256 natural Bank examples, same actor and other-span objectives, order, 256 updates and LR 5e-5. Omit only the synthetic replay gradient. The decision follows inspection of first-start replay controls and the mixed second-world outcome; all evaluations are exploratory reuse of fixed items.",
+  "criterion": "Useful repeat if candidate role-contrast accuracy rises by at least 7/130 Bank test events and patient-cleft accuracy loses no more than 5 percentage points (at most 37 of 750 items). Also report sentence-omitted margin, Gold51, and active/passive accuracy without exclusions.",
+  "limits": "One model family, same Bank data and questions as earlier runs, no new blind dataset, human label verification pending. This is a recipe screen rather than publication-level confirmation.",
+  "references": {
+    "source_adapter_sha256": "13be9824ff3f77b60eb8619c174b22aa87a69a0e54f71d83bd0a4ffe4eaa3bc8",
+    "first_protocol_sha256": "7516a54e18aea5a811c6c65300583663c886222a7650f32c22375d502933e719",
+    "train_sha256": "70609ac375d05937e85c7b9bd791a1f4274565e4109d8c4b70d590f4519f7686",
+    "fresh_protocol_sha256": "b2a49fc0aa04eded5c2c310aca7c878a10a1de5881122062fff0f530f41f8901",
+    "replication_protocol_sha256": "afa32e912ae30b569bea0cf80b620f6e287c8354119f912ab7d1da508216f2ad",
+    "script_sha256": "cee1003721cbb1dd9f92934a9ae4afd894a56805bc41e40a8cdb7fe3c8d3375f"
+  }
+}

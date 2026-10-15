@@ -1,0 +1,76 @@
+{
+  "status": "prospective_followup_frozen_before_mixed_training_or_any_new_test_inference",
+  "date": "2026-10-12",
+  "motivation": "The fixed first test found that passive-containing training helped passive and relative-patient answers but harmed active answers. Test whether covering both clefts while retaining passive exposure avoids this trade-off under the same update and example budget.",
+  "new_test_pairs": [
+    [
+      "John",
+      "Mary"
+    ],
+    [
+      "James",
+      "Lisa"
+    ],
+    [
+      "Michael",
+      "Rachel"
+    ],
+    [
+      "Philip",
+      "Karen"
+    ],
+    [
+      "Joseph",
+      "Charles"
+    ],
+    [
+      "George",
+      "Edward"
+    ]
+  ],
+  "new_test_verbs": [
+    "admired",
+    "invited",
+    "comforted"
+  ],
+  "forms": [
+    "active",
+    "passive",
+    "subject_cleft",
+    "object_cleft",
+    "relative_actor",
+    "relative_patient"
+  ],
+  "questions": {
+    "actor": "Who performed the action?",
+    "patient": "Who was {verb}?"
+  },
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "evaluation_arms": [
+    "source",
+    "aligned",
+    "decoupled",
+    "mixed"
+  ],
+  "mixed_training": "Continue the same natural adapter. On each of the same 48 directed train events in each of two epochs, train actor and patient questions for active, passive, and exactly one cleft. Alternate subject and object cleft by event index plus epoch, so each event sees each cleft once across the two epochs. Use 96 updates and six answer targets per update, with exactly the original optimizer, LR, event order and LoRA parameter set.",
+  "comparison": "Compare newly trained mixed arm with both existing same-start aligned and decoupled checkpoints on the newly frozen 36-event lexical test. No checkpoint or prompt selection using this new test.",
+  "primary_endpoint": "Sum of per-form both-roles-correct event counts across the six forms, out of 216 form-events, reported for each start. This rewards broad joint correctness rather than a single form.",
+  "positive_screen": "In EACH start mixed must exceed the better of aligned and decoupled by at least 6/216 form-events; active, passive and relative-patient joint counts each must be within 3/36 of the best old arm on that form; report all cells regardless. A positive remains exploratory until natural human-checked confirmation.",
+  "secondary": "Per-form actor/patient and joint counts, all-six-form event correctness, candidate validity, subject/first-mentioned answer rates, and per-pair results.",
+  "limits": "The mixed arm is specified after seeing the first test, but all comparisons here use disjoint new names and verbs. One Qwen0.5B family, two related source starts and constructed sentences. Simpler form coverage, not a novel offline consolidation mechanism.",
+  "source_script_sha256": "f4e20c209c98c411bd311bdcea6cbda4699ab5bac998e873d5fe070f5d2897ef",
+  "source_protocol_sha256": "fc560750c3c7f6dc6937da78e1f4af83e87009086c7977f61eb5bbd607d715a8",
+  "source_checkpoint_sha256": {
+    "fresh1_source": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e",
+    "fresh1_aligned": "86da418ae3197fafcba2c6c44ee6b48f9cb483001116228d7ffec44ec4321e5f",
+    "fresh1_decoupled": "6787964a2cbd026315037588e7e69c832319e0b6132332a7fec6da44de65d366",
+    "fresh3_source": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48",
+    "fresh3_aligned": "740075de285191ff49b803abefec974d669890ab7210a5554507e0fec16bccdb",
+    "fresh3_decoupled": "5a6c45ff43f91a5b882de721e6743e72335843642b891931cfbb16dc68723d35"
+  },
+  "script_sha256": "efa6d9730397306e844616c032432b1c8909875d078a704fa69566b64d0ca9b2",
+  "new_test_rows_sha256": "49d463cde33a340529ad4105e23e84ccd002c6a9b59c518a81813d762d6b9173"
+}

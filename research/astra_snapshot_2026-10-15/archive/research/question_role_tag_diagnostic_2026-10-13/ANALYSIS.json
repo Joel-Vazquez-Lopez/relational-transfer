@@ -1,0 +1,393 @@
+{
+  "protocol_sha256": "5696e9251b4a36c41bcd58fa7194bb780ec376ad5aefa6c444ab33c6b33bc0a8",
+  "cells": {
+    "fresh1/role_first/ordinary": {
+      "exact_answers": 88,
+      "four_correct": 2,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 17,
+        "actor/order1": 21,
+        "patient/order0": 28,
+        "patient/order1": 22
+      },
+      "position": {
+        "first": 65,
+        "second": 85,
+        "other": 10
+      },
+      "routed_exact": 128,
+      "routed_four_correct": 24,
+      "actor_field_correct": 130,
+      "patient_field_correct": 127,
+      "same_answer_actor_patient_question_pairs": 64,
+      "stable_fields_across_question_pairs": 76,
+      "routed_direct_pair_table": {
+        "route_1_direct_0": 55,
+        "route_1_direct_1": 73,
+        "route_0_direct_0": 17,
+        "route_0_direct_1": 15
+      }
+    },
+    "fresh1/role_first/tagged": {
+      "exact_answers": 85,
+      "four_correct": 1,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 20,
+        "actor/order1": 20,
+        "patient/order0": 28,
+        "patient/order1": 17
+      },
+      "position": {
+        "first": 65,
+        "second": 83,
+        "other": 12
+      },
+      "routed_exact": 106,
+      "routed_four_correct": 12,
+      "actor_field_correct": 107,
+      "patient_field_correct": 106,
+      "same_answer_actor_patient_question_pairs": 49,
+      "stable_fields_across_question_pairs": 51,
+      "routed_direct_pair_table": {
+        "route_1_direct_0": 34,
+        "route_1_direct_1": 72,
+        "route_0_direct_0": 41,
+        "route_0_direct_1": 13
+      }
+    },
+    "fresh1/role_first/no_candidates": {
+      "exact_answers": 34,
+      "four_correct": 0,
+      "parsed": 158,
+      "by_role_order": {
+        "actor/order0": 8,
+        "actor/order1": 8,
+        "patient/order0": 9,
+        "patient/order1": 9
+      },
+      "position": {
+        "first": 33,
+        "second": 33,
+        "other": 94
+      },
+      "routed_exact": 66,
+      "routed_four_correct": 11,
+      "actor_field_correct": 74,
+      "patient_field_correct": 48,
+      "same_answer_actor_patient_question_pairs": 52,
+      "stable_fields_across_question_pairs": 46,
+      "routed_direct_pair_table": {
+        "route_1_direct_0": 38,
+        "route_1_direct_1": 28,
+        "route_0_direct_0": 88,
+        "route_0_direct_1": 6
+      }
+    },
+    "fresh1/role_first/tagged_no_candidates": {
+      "exact_answers": 36,
+      "four_correct": 4,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 8,
+        "actor/order1": 8,
+        "patient/order0": 10,
+        "patient/order1": 10
+      },
+      "position": {
+        "first": 23,
+        "second": 23,
+        "other": 114
+      },
+      "routed_exact": 44,
+      "routed_four_correct": 4,
+      "actor_field_correct": 48,
+      "patient_field_correct": 34,
+      "same_answer_actor_patient_question_pairs": 38,
+      "stable_fields_across_question_pairs": 20,
+      "routed_direct_pair_table": {
+        "route_1_direct_0": 10,
+        "route_0_direct_0": 114,
+        "route_1_direct_1": 34,
+        "route_0_direct_1": 2
+      }
+    },
+    "fresh1/answer_only/ordinary": {
+      "exact_answers": 96,
+      "four_correct": 3,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 22,
+        "actor/order1": 19,
+        "patient/order0": 27,
+        "patient/order1": 28
+      },
+      "position": {
+        "first": 82,
+        "second": 73,
+        "other": 5
+      }
+    },
+    "fresh1/answer_only/tagged": {
+      "exact_answers": 100,
+      "four_correct": 5,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 23,
+        "actor/order1": 23,
+        "patient/order0": 26,
+        "patient/order1": 28
+      },
+      "position": {
+        "first": 80,
+        "second": 75,
+        "other": 5
+      }
+    },
+    "fresh1/answer_only/no_candidates": {
+      "exact_answers": 74,
+      "four_correct": 5,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 21,
+        "actor/order1": 21,
+        "patient/order0": 16,
+        "patient/order1": 16
+      },
+      "position": {
+        "first": 62,
+        "second": 62,
+        "other": 36
+      }
+    },
+    "fresh1/answer_only/tagged_no_candidates": {
+      "exact_answers": 72,
+      "four_correct": 6,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 20,
+        "actor/order1": 20,
+        "patient/order0": 16,
+        "patient/order1": 16
+      },
+      "position": {
+        "first": 55,
+        "second": 55,
+        "other": 50
+      }
+    },
+    "fresh3/role_first/ordinary": {
+      "exact_answers": 85,
+      "four_correct": 2,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 18,
+        "actor/order1": 19,
+        "patient/order0": 28,
+        "patient/order1": 20
+      },
+      "position": {
+        "first": 66,
+        "second": 85,
+        "other": 9
+      },
+      "routed_exact": 125,
+      "routed_four_correct": 24,
+      "actor_field_correct": 125,
+      "patient_field_correct": 123,
+      "same_answer_actor_patient_question_pairs": 68,
+      "stable_fields_across_question_pairs": 76,
+      "routed_direct_pair_table": {
+        "route_1_direct_0": 53,
+        "route_1_direct_1": 72,
+        "route_0_direct_0": 22,
+        "route_0_direct_1": 13
+      }
+    },
+    "fresh3/role_first/tagged": {
+      "exact_answers": 91,
+      "four_correct": 4,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 20,
+        "actor/order1": 23,
+        "patient/order0": 29,
+        "patient/order1": 19
+      },
+      "position": {
+        "first": 60,
+        "second": 87,
+        "other": 13
+      },
+      "routed_exact": 107,
+      "routed_four_correct": 16,
+      "actor_field_correct": 105,
+      "patient_field_correct": 106,
+      "same_answer_actor_patient_question_pairs": 44,
+      "stable_fields_across_question_pairs": 51,
+      "routed_direct_pair_table": {
+        "route_1_direct_0": 28,
+        "route_1_direct_1": 79,
+        "route_0_direct_1": 12,
+        "route_0_direct_0": 41
+      }
+    },
+    "fresh3/role_first/no_candidates": {
+      "exact_answers": 36,
+      "four_correct": 0,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 10,
+        "actor/order1": 10,
+        "patient/order0": 8,
+        "patient/order1": 8
+      },
+      "position": {
+        "first": 34,
+        "second": 34,
+        "other": 92
+      },
+      "routed_exact": 68,
+      "routed_four_correct": 11,
+      "actor_field_correct": 82,
+      "patient_field_correct": 50,
+      "same_answer_actor_patient_question_pairs": 54,
+      "stable_fields_across_question_pairs": 60,
+      "routed_direct_pair_table": {
+        "route_1_direct_0": 38,
+        "route_1_direct_1": 30,
+        "route_0_direct_0": 86,
+        "route_0_direct_1": 6
+      }
+    },
+    "fresh3/role_first/tagged_no_candidates": {
+      "exact_answers": 30,
+      "four_correct": 3,
+      "parsed": 158,
+      "by_role_order": {
+        "actor/order0": 7,
+        "actor/order1": 7,
+        "patient/order0": 8,
+        "patient/order1": 8
+      },
+      "position": {
+        "first": 24,
+        "second": 24,
+        "other": 112
+      },
+      "routed_exact": 40,
+      "routed_four_correct": 4,
+      "actor_field_correct": 44,
+      "patient_field_correct": 32,
+      "same_answer_actor_patient_question_pairs": 36,
+      "stable_fields_across_question_pairs": 12,
+      "routed_direct_pair_table": {
+        "route_1_direct_0": 10,
+        "route_0_direct_0": 120,
+        "route_1_direct_1": 30
+      }
+    },
+    "fresh3/answer_only/ordinary": {
+      "exact_answers": 100,
+      "four_correct": 3,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 23,
+        "actor/order1": 18,
+        "patient/order0": 29,
+        "patient/order1": 30
+      },
+      "position": {
+        "first": 84,
+        "second": 72,
+        "other": 4
+      }
+    },
+    "fresh3/answer_only/tagged": {
+      "exact_answers": 99,
+      "four_correct": 3,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 24,
+        "actor/order1": 20,
+        "patient/order0": 26,
+        "patient/order1": 29
+      },
+      "position": {
+        "first": 85,
+        "second": 70,
+        "other": 5
+      }
+    },
+    "fresh3/answer_only/no_candidates": {
+      "exact_answers": 76,
+      "four_correct": 5,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 21,
+        "actor/order1": 21,
+        "patient/order0": 17,
+        "patient/order1": 17
+      },
+      "position": {
+        "first": 65,
+        "second": 65,
+        "other": 30
+      }
+    },
+    "fresh3/answer_only/tagged_no_candidates": {
+      "exact_answers": 62,
+      "four_correct": 6,
+      "parsed": 160,
+      "by_role_order": {
+        "actor/order0": 18,
+        "actor/order1": 18,
+        "patient/order0": 13,
+        "patient/order1": 13
+      },
+      "position": {
+        "first": 49,
+        "second": 49,
+        "other": 62
+      }
+    }
+  },
+  "paired": {
+    "fresh1/role_first/tagged-vs-ordinary": {
+      "tag_rescues": 20,
+      "tag_harms": 23,
+      "net": -3
+    },
+    "fresh1/answer_only/tagged-vs-ordinary": {
+      "tag_rescues": 10,
+      "tag_harms": 6,
+      "net": 4
+    },
+    "fresh3/role_first/tagged-vs-ordinary": {
+      "tag_rescues": 21,
+      "tag_harms": 15,
+      "net": 6
+    },
+    "fresh3/answer_only/tagged-vs-ordinary": {
+      "tag_rescues": 7,
+      "tag_harms": 8,
+      "net": -1
+    }
+  },
+  "screen": {
+    "fresh1": {
+      "tag_direct_gain": -3,
+      "tag_routed_change": -22,
+      "residual_tagged_route_minus_direct": 21,
+      "pass": false
+    },
+    "fresh3": {
+      "tag_direct_gain": 6,
+      "tag_routed_change": -18,
+      "residual_tagged_route_minus_direct": 16,
+      "pass": false
+    }
+  },
+  "positive_development_screen": false
+}

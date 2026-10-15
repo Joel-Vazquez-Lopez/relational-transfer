@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-12",
+  "status": "post_hoc_placebo; slot-first and answer-first results on test bank already seen",
+  "question": "Does listing both candidate names before the answer explain the slot-first advantage without actor/patient labels?",
+  "method": "Same source adapters, training events, question-by-form schedule, 96 updates, optimizer and test items as the frozen slot-routing pilot. Output First: candidate0; Second: candidate1; Answer: gold. Candidate order is fixed by the offered pair and does not encode roles.",
+  "primary": "The original pilot's 108 crossed construction/question event-form groups where actor_did and patient_verb are both correct.",
+  "interpretation": "If candidate-first approaches slot-first, generic answer position/name priming may explain much of the gain. If it resembles answer-first, role-specific intermediate content remains a plausible explanation, but this post hoc control is not independent confirmation.",
+  "base_protocol_sha256": "c3725a19885f0aea2ba2278ea1801069bc8b5dfb40dafd352d8718d447f73410",
+  "script_sha256": "2ac03b73403d5f1355707a014571cf94592b29d43edbef7ee89cc26d94d44868",
+  "source_sha256": {
+    "fresh1": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e",
+    "fresh3": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48"
+  },
+  "train_sha256": "c5a5270f70dc7b159ed7c36bb16ce60efa8c1840f27cd02e5c3bff1dc141c3e3",
+  "test_sha256": "8c1df63f75790738b09f591ac769ac6032bece3d511d032689c944b026842aad"
+}

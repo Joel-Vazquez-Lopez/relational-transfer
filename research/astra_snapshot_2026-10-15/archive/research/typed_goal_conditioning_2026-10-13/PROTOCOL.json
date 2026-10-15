@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-13",
+  "status": "adaptive follow-up design frozen before training/inference on fresh2; human-review set untouched",
+  "question": "Can supplying a predicted requested-role tag during training and inference make the model's own final answers use its actor/patient fields, beyond a constant-tag control?",
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "arms": [
+    "typed_goal",
+    "constant_tag"
+  ],
+  "data": "Same 160 automatically mapped QA-SRL Bank training items as prior development, and a new 40-item, 40-sentence fresh2 set disjoint from all earlier local train/development/fresh items. Source human QA labels, actor/patient conversion unreviewed.",
+  "matched": "Within each start, both arms use the same source adapter, train prompts, output targets, role fields, answer labels, candidate orders, 160 updates, optimizer, and target-token count. The only input difference is an ACTOR/PATIENT requested-role tag versus a constant NONE tag. At inference typed_goal uses a fixed question-only classifier trained on the 160 training items; no gold tag is supplied.",
+  "router": "Character 2-5 gram TF-IDF plus C=1 logistic regression, identical hyperparameters to earlier router. Train on 320 question-role labels from train only. No fresh2 tuning.",
+  "primary": "All four final answers correct per fresh2 item (actor/patient x both candidate orders), plus exact /160, both printed role fields correct, classifier role accuracy, answer-field consistency, and missing outputs. Compare typed_goal against constant_tag for each matched start. Report older fixed role_first and answer_only checkpoints descriptively on this bank if feasible.",
+  "screen": "Typed_goal must beat constant_tag by >=8/40 all-four items and >=20/160 exact answers in BOTH starts, with no more than 8/160 loss of both-correct role fields, and classifier role >=76/80. Threshold is exploratory, not a significance test.",
+  "limits": "Previous fresh-bank results motivated this adaptive design, but fresh2 sentences and outputs were not inspected before freeze. Questions are templatic and a simple rule can identify role. One small model family, two related starts, one source corpus, automatically mapped semantic labels, and extra input information relative to an untagged model. A win would not prove general reasoning or unique internal mechanism. Deterministic routing remains a strong baseline and may outperform this learned readout.",
+  "seed": 910127,
+  "lr": 5e-05,
+  "updates_per_checkpoint": 160,
+  "splits_sha256": "7da96a87d65fa48434f466dd03bb3f39bd020340d93670959adf27f3ac891025",
+  "script_sha256": "14e8a1c8771846f82a0fc9bdcbffdc5347406d191909ffe101bdb54139bc5c92",
+  "old_splits_sha256": "7ce6472eee8dd595955cda929c9eae74844d60d73dd4a151683b6744aa891cd8",
+  "source_adapters_sha256": {
+    "fresh1": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e",
+    "fresh3": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48"
+  }
+}

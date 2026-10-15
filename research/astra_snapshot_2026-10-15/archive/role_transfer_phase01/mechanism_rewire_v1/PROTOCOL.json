@@ -1,0 +1,33 @@
+{
+  "status": "frozen_before_internal_state_analysis",
+  "date": "2026-10-09",
+  "checkpoint_study": "rq2_rewire_repair_v1, all 96 fixed checkpoints, no weight updates",
+  "checkpoint_manifest_sha256": "4f9abb394ebe7b6b993ef989fa01a3052720d4250086d59d3bf510a798c5f255",
+  "checkpoint_summary_sha256": "2e4342fbb24ef1208c4013e72773878ca2b4b75cf030087783634f88cb81bdda",
+  "question": "On fresh rewiring graphs, does ordered-role training make actor/patient order more decodable and more consequential to the held-out pair decision?",
+  "data": {
+    "probe_train": "all 20 observed unordered pairs, both directions, two events, eight distractors: 640 independent scene renderings per model, seed 620107",
+    "probe_test": "all 25 unseen pairs: 800 independent renderings, seed 620108; focal subset 32 renderings",
+    "intervention_test": "same focal unseen pair, 128 balanced episodes from fixed scene suite 260108; source message unchanged",
+    "models": 96
+  },
+  "probe": "fixed ridge 0.1 linear readout from final scene-tower state to separate actor and patient IDs; train on observed pairs only",
+  "intervention": "project correct-versus-reversed candidate-state shift into nine-dimensional actor-minus-patient readout subspace, exchange that component, and renormalize; five random nine-dimensional subspaces scaled to the same per-episode L2 shift",
+  "primary_endpoint": "on high-rewiring focal pair, random-control mean minus role-swap correct-versus-reversed score margin; ordered minus unordered, paired by seed then averaged equally over eight families",
+  "primary_test": "exact two-sided family-level sign flip; describe as support if mean > 0 and p <= .05",
+  "secondary": [
+    "observed-trained probe joint actor/patient accuracy on unseen and focal scene states",
+    "intervention accuracy change",
+    "sham-condition contrast",
+    "role-shift energy"
+  ],
+  "uncertainty": "report all eight family contrasts and t(7) 95 percent interval; seeds and episodes are nested, not independent replications",
+  "limitations": "linear probe and hybrid-state intervention do not prove a unique neuron or complete circuit; movement and identity cues remain available in generated scenes; this is not an LLM result",
+  "source_hashes": {
+    "role_transfer_phase01/mechanism_rewire_v1.py": "ad104dc1d6c6b583cb61d5ffc6c3a578d51ec8015d5dc0586b32e4ca2620a937",
+    "role_transfer_phase01/role_mechanism_v1.py": "78c5b5cc951efb8d1d0e69dc9740839bbe7a196665aa47ace22a504669c80362",
+    "role_transfer_phase01/role_mechanism_v2.py": "f82fef45a024eb747e748925f9123df8bef01f0b7cff660087483886a1e1337b",
+    "role_transfer_phase01/role_mechanism_v4.py": "5da7fcc810015bdd40727131ce1ae42a884e3bfd1b184d07f79916eb2184003f",
+    "role_transfer_phase01/rq2_rewire_repair_v1.py": "2f40a3e10062bf1f14321271f9cbd69097854332593454e880e60178afc7d106"
+  }
+}

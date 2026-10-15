@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-12",
+  "status": "frozen_before_training_or_test_inference; exploratory_pilot",
+  "motivation": "Fresh wording audit found that prior role training improved patient answers but lost actor accuracy on a question absent from training. Test whether coupling role answers across wording and form helps beyond training on the same questions with ordinary SFT.",
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "arms": [
+    "balanced_sft",
+    "role_coupled"
+  ],
+  "train_pairs": [
+    [
+      "Leo",
+      "Emma"
+    ],
+    [
+      "Jake",
+      "Kate"
+    ],
+    [
+      "Sam",
+      "Luke"
+    ],
+    [
+      "Anna",
+      "Eric"
+    ],
+    [
+      "Paul",
+      "Sarah"
+    ],
+    [
+      "Adam",
+      "Grace"
+    ]
+  ],
+  "train_verbs": [
+    "pushed",
+    "praised",
+    "warned",
+    "visited"
+  ],
+  "test_pairs": [
+    [
+      "Steve",
+      "Tom"
+    ],
+    [
+      "Bill",
+      "Alex"
+    ],
+    [
+      "Jack",
+      "Nick"
+    ],
+    [
+      "Chris",
+      "Ann"
+    ],
+    [
+      "Ben",
+      "Joe"
+    ],
+    [
+      "Mike",
+      "Fred"
+    ]
+  ],
+  "test_verbs": [
+    "pulled",
+    "rescued",
+    "guided"
+  ],
+  "train_question_wordings": {
+    "actor_performed": "Who performed the action?",
+    "actor_did": "Who did the action?",
+    "patient_verb": "Who was {verb}?"
+  },
+  "test_question_wordings": {
+    "actor_performed": "Who performed the action?",
+    "actor_did": "Who did the action?",
+    "patient_verb": "Who was {verb}?",
+    "actor_carried": "Which person carried out the action described in the sentence?",
+    "patient_which": "Which person was {verb}?"
+  },
+  "train_forms": "For each of 48 events per epoch, active, passive, and one cleft (subject/object alternate by event index and epoch). 3 forms x 3 questions = 9 answer targets per update; 2 epochs=96 updates.",
+  "test_forms": [
+    "active",
+    "passive",
+    "subject_cleft",
+    "object_cleft"
+  ],
+  "matched": "Both arms begin from the same natural-role adapter in each start, use identical event order, examples, tokens, questions, forms, 96 optimizer updates, AdamW, LR and LoRA parameters. Only the auxiliary objective differs.",
+  "losses": "Balanced SFT minimizes mean first-answer-token plus EOS cross-entropy on all nine targets. Role-coupled uses the same CE plus 0.5 times within-role Jensen-Shannon dispersion of the two-candidate next-token distributions across all event forms/questions, plus 0.25 times a softplus(2-D) contrast, where D is mean actor-minus-patient candidate margin on actor questions minus that margin on patient questions. Gold CE anchors role polarity and both event directions are trained.",
+  "lambda_js": 0.5,
+  "lambda_contrast": 0.25,
+  "primary": "On 36 new directed events x four forms =144 event-forms per checkpoint, count event-forms where BOTH held-out actor_carried and held-out patient_which questions are correct. Compare role_coupled minus balanced_sft within each start.",
+  "positive_screen": "At least +8/144 held-out two-role-correct event-forms in EACH start; active actor_did, active patient_verb, and passive actor_performed each no worse than -3/36 versus balanced SFT; report all individual cells, worst wording, all-five and invalid outputs regardless. A passing pilot would need generic-margin control and natural/second-family confirmation before a repair claim.",
+  "secondary": "Per-form, per-wording correct /36; held-out actor and patient joint /36 by form; all-five questions correct /36 by form; actor-question contradictions and valid output rate.",
+  "limits": "Constructed English; one Qwen0.5B family and two related starts; held-out question forms were chosen after earlier Qwen observations but this lexical test is new. Only one objective weight chosen prospectively; any success remains exploratory.",
+  "source_sha256": {
+    "fresh1": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e",
+    "fresh3": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48"
+  },
+  "prior_code_sha256": {
+    "experiment": "f4e20c209c98c411bd311bdcea6cbda4699ab5bac998e873d5fe070f5d2897ef",
+    "followup": "efa6d9730397306e844616c032432b1c8909875d078a704fa69566b64d0ca9b2"
+  },
+  "script_sha256": "7f53cc2834a9ef6ec83153f5bc9f077d1afdd94982b3d4a1e3e6beb0807e3bdd",
+  "train_events_sha256": "c5a5270f70dc7b159ed7c36bb16ce60efa8c1840f27cd02e5c3bff1dc141c3e3",
+  "test_rows_sha256": "fd215791f94fd1476721993624928360de8b14325de0794d50c77cebdc0813eb"
+}

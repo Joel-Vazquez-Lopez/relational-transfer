@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-06",
+  "status": "development_reanalysis_of_existing_checkpoints",
+  "historical_outputs_immutable": true,
+  "protected_material": "Do not access protected seeds 1704-1706, P4, or reserved material from other tracks.",
+  "phase0": {
+    "graph_nodes": 10,
+    "degree": 4,
+    "expected_edges": 20,
+    "expected_observed_ordered_pair_event_meanings": 80,
+    "expected_observed_configurations": 1280,
+    "checks": ["connected_simple_regular_graph", "unique_label_map", "observed_pair_coverage", "balanced_direction_event_selection_position", "withheld_pair_absent_from_training_meanings", "checkpoint_hash_match", "fourth_token_alias_documented", "candidate_distractor_correlation_documented", "source_velocity_cue_documented"]
+  },
+  "phase1a": {
+    "cohorts": ["prospective_20261006", "prospective_20261006_confirm"],
+    "checkpoints": "all_42_final_checkpoints",
+    "pairs": "all_45_unordered_pairs_per_labeled_graph",
+    "renderings_per_pair": 512,
+    "factors": {"direction": 2, "event": 2, "answer_position": 4, "distractor_identity": 8, "geometry_repeat": 4},
+    "evaluation_seed": 260107,
+    "candidate_order": "all four semantic foils, independently shuffled with correct answer fixed at specified position",
+    "distractor": "same identity in all four candidate scenes",
+    "primary_descriptive_units": ["unordered_entity_pair", "graph", "model"],
+    "metrics": ["four_choice_accuracy", "binary_role_accuracy", "event_accuracy", "four_semantic_error_fractions", "correct_minus_reversed_role_score_margin"],
+    "interpretation": "Descriptive development analysis; historical confirmation models are no longer untouched for this new question. No outcome from this run independently confirms a new repair or predictor."
+  },
+  "phase1b_existing_trajectories": {
+    "source": "component_20261006/original new2 shared1/shared2 seeds 10402/10403",
+    "saved_steps": [0, 1000, 3000, 6000],
+    "evaluation": "same all-pair 512-rendering protocol as phase1a",
+    "scope": "one historically selected graph and two seeds; developmental clue only",
+    "early_stopping_caveat": "Familiar validation was only saved at selected steps; any stopping-rule comparison here is illustrative and cannot establish a prospective rule."
+  },
+  "post_result_rendering_check": {
+    "reason": "The all-pair map revealed weak pairs even in historical focal-pair confirmation models; check scene-sample stability.",
+    "evaluation_seed": 260108,
+    "same_pairs_models_and_crossed_factors": true,
+    "status": "adaptive_reliability_check_not_independent_hypothesis_confirmation"
+  },
+  "phase1c_restricted_adapter_pilot": {
+    "status": "development_diagnostic_only",
+    "selection": "five previously identified focal-pair-weak checkpoints in AUDIT_COMPONENT_RESULTS_20261006.md",
+    "model_frozen": true,
+    "rank": 4,
+    "score": "10 * q^T (I + U V^T) c",
+    "initialization": "U small Gaussian, V zero",
+    "train_data": "1280 observed-pair configurations with fresh scenes; no withheld pair",
+    "validation_data": "1280 observed-pair configurations with another scene seed",
+    "optimizer": "Adam, learning rate 0.01, 800 full-batch updates, weight deviation penalty 0.01",
+    "checkpoint_selection": "minimum familiar-validation cross entropy among 0,100,...,800 steps",
+    "held_evaluation": "the fixed 260107 all-pair suite; never used to choose the adapter step",
+    "interpretation_limit": "extra observed-pair training and no matched full-model continuation; a gain is diagnostic, not yet a controlled repair"
+  },
+  "phase1c_role_decoders": {
+    "status": "development_diagnostic_only",
+    "cases": "five historically focal-weak checkpoints and their five matched other-condition controls",
+    "model_frozen": true,
+    "familiar_meanings": 80,
+    "validation": "16 observed meanings held aside from probe fitting; no unseen-pair data for model selection",
+    "scene_samples_per_meaning": 8,
+    "test": "100 unobserved ordered-pair-event meanings and eight new scenes per meaning",
+    "probe_families": ["linear", "one_hidden_layer_64"],
+    "optimizer": "Adam learning rate 0.01, full batch, maximum 1000 updates",
+    "selection": "minimum observed-meaning validation loss among steps 100,200,...,1000",
+    "readout": "source identity, target identity, event; report exact two-role recovery",
+    "interpretation_limit": "supervised accessibility test, not evidence that the native decision uses the decoded labels"
+  }
+}

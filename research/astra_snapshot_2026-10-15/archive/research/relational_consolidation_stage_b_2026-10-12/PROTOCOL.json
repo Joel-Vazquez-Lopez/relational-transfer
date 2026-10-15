@@ -1,0 +1,23 @@
+{
+  "status": "frozen_before_generation",
+  "date": "2026-10-12",
+  "generator_version": "stage-b-l0-l2-v1",
+  "purpose": "Source-only benchmark validity. No model training and no reserved natural-language challenge access.",
+  "seed": 20261012,
+  "families": 8,
+  "development_families": [0, 1],
+  "confirmation_families": [2, 3, 4, 5, 6, 7],
+  "entities_per_family": 18,
+  "degree_per_entity": 6,
+  "verbs": ["chased", "helped", "followed"],
+  "withheld_pairs_per_split": 15,
+  "directions_per_pair_verb": 2,
+  "focal_withheld_pair": [0, 1],
+  "train_forms": ["symbolic", "canonical"],
+  "test_forms": ["canonical", "passive", "object_cleft", "subject_cleft", "role_reversal"],
+  "simple_heuristic_actor_accuracy_fail_at_or_above": 0.85,
+  "simple_heuristic_joint_event_accuracy_fail_at_or_above": 0.25,
+  "human_grammar_review_required_before_training": true,
+  "review_min_items_per_test_form": 4,
+  "known_limitation": "A construction-aware hand-coded parser can solve the finite grammar. Passing shallow-heuristic checks does not prove abstract relational learning."
+}

@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "status": "fixed_before_secondary_inference",
+  "model": "unmodified Qwen2.5-0.5B-Instruct local snapshot",
+  "model_weights_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+  "source_sha256": "58584be5018d248fc499d872621640e5c7168688c0bb82e8e5f9a5d4d96cd142",
+  "items_sha256": "29b5d38d2fd776758181f0cee55aa853b3c3a612f0211df7708db785c332c342",
+  "design": "Same frozen 120 events and 480 prompts as 1.5B confirmation. Secondary same-family size check, not an independent architecture replication. Same exact first-answer-token scoring.",
+  "interpretation": "Report all form-by-wording cells and compare descriptively with the 1.5B model; no pooled generalization claim."
+}

@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-12",
+  "status": "exploratory; frozen before training and any inference on this new lexical bank",
+  "hypothesis": "When given the same actor, patient, and answer labels, generating role slots before the answer improves transfer to crossed construction/question combinations versus giving the answer before the slots.",
+  "arms": [
+    "answer_first",
+    "slot_first"
+  ],
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "train_question_sets": {
+    "active": [
+      "actor_performed",
+      "actor_did",
+      "patient_verb"
+    ],
+    "passive": [
+      "actor_performed",
+      "actor_did"
+    ],
+    "subject_cleft": [
+      "actor_performed",
+      "patient_verb"
+    ],
+    "object_cleft": [
+      "actor_performed",
+      "patient_verb"
+    ]
+  },
+  "test_questions": {
+    "actor_performed": "Who performed the action?",
+    "actor_did": "Who did the action?",
+    "patient_verb": "Who was {verb}?",
+    "actor_carried": "Which person carried out the action described in the sentence?",
+    "patient_which": "Which person was {verb}?"
+  },
+  "forms": [
+    "active",
+    "passive",
+    "subject_cleft",
+    "object_cleft"
+  ],
+  "test_pairs": [
+    [
+      "Aaron",
+      "Ruby"
+    ],
+    [
+      "Matt",
+      "Kelly"
+    ],
+    [
+      "Dan",
+      "Hope"
+    ],
+    [
+      "Ryan",
+      "Jessica"
+    ],
+    [
+      "Tyler",
+      "Jennifer"
+    ],
+    [
+      "Grant",
+      "Michelle"
+    ]
+  ],
+  "test_verbs": [
+    "lifted",
+    "tapped",
+    "emailed"
+  ],
+  "epochs": 2,
+  "train_events": 48,
+  "updates": 96,
+  "rows_per_update": 9,
+  "learning_rate": 5e-05,
+  "matched": "Same natural-role source adapter within each start, 48 directed train events, 9 sentence/question prompts per event, same role and answer labels, same train item order, 96 updates, optimizer, learning rate, LoRA parameters. The output order and format instruction differ. Compare logged target-token totals.",
+  "primary": "On 36 new lexical events, sum event-form cases where both actor_did and patient_verb are correct for passive, subject_cleft, and object_cleft (108 cases). In each of these cells one question/form combination was absent in training.",
+  "primary_cells": [
+    [
+      "passive",
+      "actor_did",
+      "patient_verb"
+    ],
+    [
+      "subject_cleft",
+      "actor_did",
+      "patient_verb"
+    ],
+    [
+      "object_cleft",
+      "actor_did",
+      "patient_verb"
+    ]
+  ],
+  "positive_screen": "Slot-first exceeds answer-first by at least 10/108 crossed-form joint cases in EACH start, loses no more than 4/36 active joint cases, and improves object-cleft joint in each start. Report all cells, novel wording accuracy, tuple accuracy, invalid outputs and target-token totals regardless.",
+  "limits": "A positive result would still be format/order-specific, one Qwen0.5B family, two related starts, constructed English. It would require a control for output position, independent natural data, and a second model family before a general training-repair claim. No human-review data accessed.",
+  "source_sha256": {
+    "fresh1": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e",
+    "fresh3": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48"
+  },
+  "script_sha256": "f4649f2004cfb2d70cd9d2e657c3b7f8b0cfc7e9c8bfca8256bada2b1032dee1",
+  "train_sha256": "c5a5270f70dc7b159ed7c36bb16ce60efa8c1840f27cd02e5c3bff1dc141c3e3",
+  "test_sha256": "8c1df63f75790738b09f591ac769ac6032bece3d511d032689c944b026842aad"
+}

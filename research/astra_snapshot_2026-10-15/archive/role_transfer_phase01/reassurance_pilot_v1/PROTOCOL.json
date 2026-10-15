@@ -1,0 +1,11 @@
+{
+  "status": "development_only_small_pilot_before_fresh_confirmation",
+  "date": "2026-10-06",
+  "question": "Does the ordered-role advantage reproduce on one additional previously studied graph and a new training start?",
+  "world": "new1 from prospective_20261006.py; not one of the eight sealed fresh confirmation graphs",
+  "seed": 261003,
+  "arms": ["balanced_distractor_baseline", "unordered_identities", "ordered_roles"],
+  "training_and_evaluation": "Exactly the generator_gate_v1 and role_aux_v1 code, 6000 updates and 512 crossed renderings for every seen and unseen pair under scene seeds 260107 and 260108. No hyperparameter changes.",
+  "pilot_success": "Ordered-role unseen binary accuracy above both comparators, with seen four-choice >=0.99 and unseen event accuracy at most two points below baseline.",
+  "interpretation": "A failure is an early warning; a success only supports feasibility. This graph and start are development material and never enter the untouched-graph confirmation analysis."
+}

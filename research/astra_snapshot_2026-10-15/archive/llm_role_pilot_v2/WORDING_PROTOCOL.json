@@ -1,0 +1,10 @@
+{
+  "status": "exploratory_adaptive_matched_wording_check_fixed_before_inference",
+  "date": "2026-10-07",
+  "reason": "The first pilot showed a strong last-name shortcut under 'Who did the action?'. A previous pilot used 'Who performed the action?' on different names and instructions. This check isolates the question phrase on the same events and system prompt.",
+  "models": ["Qwen/Qwen2.5-1.5B-Instruct", "Qwen/Qwen2.5-0.5B-Instruct"],
+  "data": "All 24 semantic events, each in active and passive form; actor question only, 48 prompts per model.",
+  "control": "Use the identical model, sentence, system instruction, generation settings and name parser from run.py. Replace only 'Who did the action?' with 'Who performed the action?'. Pair results with run.py actor/generic rows.",
+  "outcomes": ["actor accuracy by voice", "paired changed answers", "last-name selection rate"],
+  "limits": "This is adaptive exploratory evidence about wording sensitivity, not a preregistered independent confirmation or an internal-representation test."
+}

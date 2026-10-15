@@ -1,0 +1,117 @@
+{
+  "status": "fixed_before_training_and_test_inference; exploratory",
+  "date": "2026-10-12",
+  "hypothesis": "Balanced exposure to passive clauses where grammatical subject is patient reduces the subject-answer shortcut created by active-only natural role supervision, beyond equal-volume aligned syntax exposure.",
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "arms": [
+    "aligned",
+    "decoupled"
+  ],
+  "source_adapters_sha256": {
+    "fresh1": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e",
+    "fresh3": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48"
+  },
+  "train_pairs": [
+    [
+      "Leo",
+      "Emma"
+    ],
+    [
+      "Jake",
+      "Kate"
+    ],
+    [
+      "Sam",
+      "Luke"
+    ],
+    [
+      "Anna",
+      "Eric"
+    ],
+    [
+      "Paul",
+      "Sarah"
+    ],
+    [
+      "Adam",
+      "Grace"
+    ]
+  ],
+  "test_pairs": [
+    [
+      "Henry",
+      "Peter"
+    ],
+    [
+      "Simon",
+      "Laura"
+    ],
+    [
+      "Kevin",
+      "Maria"
+    ],
+    [
+      "Robert",
+      "Brian"
+    ],
+    [
+      "Jacob",
+      "Thomas"
+    ],
+    [
+      "Daniel",
+      "Emily"
+    ]
+  ],
+  "train_verbs": [
+    "pushed",
+    "praised",
+    "warned",
+    "visited"
+  ],
+  "test_verbs": [
+    "greeted",
+    "thanked",
+    "hugged"
+  ],
+  "train_forms": {
+    "aligned": [
+      "active",
+      "subject_cleft",
+      "object_cleft"
+    ],
+    "decoupled": [
+      "active",
+      "passive",
+      "object_cleft"
+    ]
+  },
+  "test_forms": [
+    "active",
+    "passive",
+    "subject_cleft",
+    "object_cleft",
+    "relative_actor",
+    "relative_patient"
+  ],
+  "questions": {
+    "actor": "Who performed the action?",
+    "patient": "Who was {verb}?"
+  },
+  "epochs": 2,
+  "updates_per_arm": 96,
+  "examples_per_update": 6,
+  "lr": 5e-05,
+  "seed": 910127,
+  "matched": "Both arms continue the same natural adapter within a start, use the same 48 directed events, both role questions, six supervised targets per update, two epochs, event order, optimizer, LR and LoRA parameters. Active and object cleft are shared; aligned adds subject cleft whereas decoupled adds passive.",
+  "primary_endpoint": "On the 36 events with disjoint test names and verbs, count events whose actor and patient questions are both correct in the never-trained relative_patient construction. Compare decoupled minus aligned within each start.",
+  "positive_screen": "At least +6/36 relative_patient both-roles-correct events in EACH start versus aligned, no more than 4/36 fewer both-roles-correct relative_actor events in either start, and no more than 5 percentage points less active-form question accuracy. All other cells and per-pair outcomes reported regardless.",
+  "secondary": "Per-form role accuracy, both-roles-correct by form, six-form joint event correctness, and subject/first-mentioned response rates. The same items also evaluate uncontinued natural source adapters.",
+  "limits": "One 0.5B Qwen family, two related starts, constructed language, no human natural-sentence challenge. The arms differ in construction as well as subject/actor correlation; a positive alone does not isolate a representation or establish a general LLM repair. Relative-clause forms introduce reference resolution. These test items were specified after inspecting the preceding pilot but before any inference on them.",
+  "source_code_sha256": "f4e20c209c98c411bd311bdcea6cbda4699ab5bac998e873d5fe070f5d2897ef",
+  "train_events_sha256": "c5a5270f70dc7b159ed7c36bb16ce60efa8c1840f27cd02e5c3bff1dc141c3e3",
+  "test_rows_sha256": "2e53f153090173dcaa961178f1ae78fc00982dd444c1c2c1bd25c20aa05c68a2"
+}

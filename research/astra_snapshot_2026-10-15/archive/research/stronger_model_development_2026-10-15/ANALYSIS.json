@@ -1,0 +1,6131 @@
+{
+  "status": "exploratory, previously examined constructed events; fresh review not evaluated",
+  "models": {
+    "qwen05": {
+      "legacy": {
+        "by_form": {
+          "active": {
+            "n": 144,
+            "correct": 83,
+            "valid": 144,
+            "contrast_correct": 83,
+            "joint": {
+              "n": 72,
+              "count": 12,
+              "rate": 0.16666666666666666
+            },
+            "question_contrast_reversed": {
+              "n": 72,
+              "count": 24,
+              "rate": 0.3333333333333333
+            },
+            "both_wrong": {
+              "n": 72,
+              "count": 1,
+              "rate": 0.013888888888888888
+            }
+          },
+          "passive": {
+            "n": 144,
+            "correct": 72,
+            "valid": 144,
+            "contrast_correct": 72,
+            "joint": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            },
+            "question_contrast_reversed": {
+              "n": 72,
+              "count": 13,
+              "rate": 0.18055555555555555
+            },
+            "both_wrong": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "object_cleft": {
+            "n": 144,
+            "correct": 68,
+            "valid": 144,
+            "contrast_correct": 68,
+            "joint": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            },
+            "question_contrast_reversed": {
+              "n": 72,
+              "count": 38,
+              "rate": 0.5277777777777778
+            },
+            "both_wrong": {
+              "n": 72,
+              "count": 4,
+              "rate": 0.05555555555555555
+            }
+          },
+          "subject_cleft": {
+            "n": 144,
+            "correct": 80,
+            "valid": 144,
+            "contrast_correct": 80,
+            "joint": {
+              "n": 72,
+              "count": 9,
+              "rate": 0.125
+            },
+            "question_contrast_reversed": {
+              "n": 72,
+              "count": 26,
+              "rate": 0.3611111111111111
+            },
+            "both_wrong": {
+              "n": 72,
+              "count": 1,
+              "rate": 0.013888888888888888
+            }
+          }
+        },
+        "by_form_wording": {
+          "active/actor_performed": {
+            "joint": {
+              "n": 36,
+              "count": 10,
+              "rate": 0.2777777777777778
+            },
+            "reversed": {
+              "n": 36,
+              "count": 13,
+              "rate": 0.3611111111111111
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 1,
+              "rate": 0.027777777777777776
+            },
+            "r_distribution": {
+              "mean": 0.47178181012471515,
+              "median": 0.3750133514404297,
+              "minimum": -0.7265644073486328,
+              "maximum": 1.7108945846557617
+            }
+          },
+          "passive/actor_performed": {
+            "joint": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 36,
+              "count": 2,
+              "rate": 0.05555555555555555
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.5204083124796549,
+              "median": 0.5078129768371582,
+              "minimum": -0.09371376037597656,
+              "maximum": 1.5547504425048828
+            }
+          },
+          "object_cleft/actor_performed": {
+            "joint": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 36,
+              "count": 18,
+              "rate": 0.5
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 4,
+              "rate": 0.1111111111111111
+            },
+            "r_distribution": {
+              "mean": -0.12782298194037545,
+              "median": -0.0038995742797851562,
+              "minimum": -1.2265424728393555,
+              "maximum": 1.2422294616699219
+            }
+          },
+          "subject_cleft/actor_performed": {
+            "joint": {
+              "n": 36,
+              "count": 8,
+              "rate": 0.2222222222222222
+            },
+            "reversed": {
+              "n": 36,
+              "count": 15,
+              "rate": 0.4166666666666667
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.4528861840565999,
+              "median": 0.355466365814209,
+              "minimum": -0.8359670639038086,
+              "maximum": 1.7186756134033203
+            }
+          },
+          "active/actor_acted": {
+            "joint": {
+              "n": 36,
+              "count": 2,
+              "rate": 0.05555555555555555
+            },
+            "reversed": {
+              "n": 36,
+              "count": 11,
+              "rate": 0.3055555555555556
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.15255726708306205,
+              "median": 0.11328697204589844,
+              "minimum": -0.5625,
+              "maximum": 0.8281335830688477
+            }
+          },
+          "passive/actor_acted": {
+            "joint": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 36,
+              "count": 11,
+              "rate": 0.3055555555555556
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.12760898802015516,
+              "median": 0.15233898162841797,
+              "minimum": -0.42970848083496094,
+              "maximum": 0.6015710830688477
+            }
+          },
+          "object_cleft/actor_acted": {
+            "joint": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 36,
+              "count": 20,
+              "rate": 0.5555555555555556
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": -0.03906236754523383,
+              "median": -0.082000732421875,
+              "minimum": -0.4765596389770508,
+              "maximum": 0.46091747283935547
+            }
+          },
+          "subject_cleft/actor_acted": {
+            "joint": {
+              "n": 36,
+              "count": 1,
+              "rate": 0.027777777777777776
+            },
+            "reversed": {
+              "n": 36,
+              "count": 11,
+              "rate": 0.3055555555555556
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 1,
+              "rate": 0.027777777777777776
+            },
+            "r_distribution": {
+              "mean": 0.30317046907212997,
+              "median": 0.41014671325683594,
+              "minimum": -0.3282127380371094,
+              "maximum": 0.8437719345092773
+            }
+          }
+        },
+        "by_form_role_wording": {
+          "active/actor/actor_performed": {
+            "n": 36,
+            "correct": 22,
+            "valid": 36,
+            "contrast_correct": 22
+          },
+          "active/actor/actor_acted": {
+            "n": 36,
+            "correct": 14,
+            "valid": 36,
+            "contrast_correct": 14
+          },
+          "active/patient/patient_verb": {
+            "n": 36,
+            "correct": 23,
+            "valid": 36,
+            "contrast_correct": 23
+          },
+          "active/patient/patient_affected": {
+            "n": 36,
+            "correct": 24,
+            "valid": 36,
+            "contrast_correct": 24
+          },
+          "passive/actor/actor_performed": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          },
+          "passive/actor/actor_acted": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          },
+          "passive/patient/patient_verb": {
+            "n": 36,
+            "correct": 0,
+            "valid": 36,
+            "contrast_correct": 0
+          },
+          "passive/patient/patient_affected": {
+            "n": 36,
+            "correct": 0,
+            "valid": 36,
+            "contrast_correct": 0
+          },
+          "object_cleft/actor/actor_performed": {
+            "n": 36,
+            "correct": 26,
+            "valid": 36,
+            "contrast_correct": 26
+          },
+          "object_cleft/actor/actor_acted": {
+            "n": 36,
+            "correct": 30,
+            "valid": 36,
+            "contrast_correct": 30
+          },
+          "object_cleft/patient/patient_verb": {
+            "n": 36,
+            "correct": 6,
+            "valid": 36,
+            "contrast_correct": 6
+          },
+          "object_cleft/patient/patient_affected": {
+            "n": 36,
+            "correct": 6,
+            "valid": 36,
+            "contrast_correct": 6
+          },
+          "subject_cleft/actor/actor_performed": {
+            "n": 36,
+            "correct": 35,
+            "valid": 36,
+            "contrast_correct": 35
+          },
+          "subject_cleft/actor/actor_acted": {
+            "n": 36,
+            "correct": 23,
+            "valid": 36,
+            "contrast_correct": 23
+          },
+          "subject_cleft/patient/patient_verb": {
+            "n": 36,
+            "correct": 9,
+            "valid": 36,
+            "contrast_correct": 9
+          },
+          "subject_cleft/patient/patient_affected": {
+            "n": 36,
+            "correct": 13,
+            "valid": 36,
+            "contrast_correct": 13
+          }
+        },
+        "all_form_joint": {
+          "actor_performed/ab": {
+            "events": 36,
+            "correct": 0
+          },
+          "actor_acted/ab": {
+            "events": 36,
+            "correct": 0
+          }
+        }
+      },
+      "strong_free": {
+        "by_form": {
+          "active": {
+            "n": 48,
+            "correct": 27,
+            "valid": 47,
+            "contrast_correct": 27,
+            "joint": {
+              "n": 24,
+              "count": 3,
+              "rate": 0.125
+            },
+            "question_contrast_reversed": {
+              "n": 24,
+              "count": 6,
+              "rate": 0.25
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "passive": {
+            "n": 48,
+            "correct": 25,
+            "valid": 48,
+            "contrast_correct": 25,
+            "joint": {
+              "n": 24,
+              "count": 1,
+              "rate": 0.041666666666666664
+            },
+            "question_contrast_reversed": {
+              "n": 24,
+              "count": 12,
+              "rate": 0.5
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "object_cleft": {
+            "n": 48,
+            "correct": 23,
+            "valid": 48,
+            "contrast_correct": 23,
+            "joint": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "question_contrast_reversed": {
+              "n": 24,
+              "count": 8,
+              "rate": 0.3333333333333333
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 1,
+              "rate": 0.041666666666666664
+            }
+          },
+          "subject_cleft": {
+            "n": 48,
+            "correct": 26,
+            "valid": 48,
+            "contrast_correct": 26,
+            "joint": {
+              "n": 24,
+              "count": 4,
+              "rate": 0.16666666666666666
+            },
+            "question_contrast_reversed": {
+              "n": 24,
+              "count": 10,
+              "rate": 0.4166666666666667
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 2,
+              "rate": 0.08333333333333333
+            }
+          }
+        },
+        "by_form_wording": {
+          "active/lexical": {
+            "joint": {
+              "n": 12,
+              "count": 3,
+              "rate": 0.25
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.5169281164805094,
+              "median": 0.5312433242797852,
+              "minimum": 0.14845752716064453,
+              "maximum": 0.8281269073486328
+            }
+          },
+          "active/explicit": {
+            "joint": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 12,
+              "count": 6,
+              "rate": 0.5
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.0019523302714029949,
+              "median": -0.007800102233886719,
+              "minimum": -0.296875,
+              "maximum": 0.32027721405029297
+            }
+          },
+          "passive/lexical": {
+            "joint": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 12,
+              "count": 11,
+              "rate": 0.9166666666666666
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": -0.21224244435628256,
+              "median": -0.21876811981201172,
+              "minimum": -0.5781240463256836,
+              "maximum": 0.3437509536743164
+            }
+          },
+          "passive/explicit": {
+            "joint": {
+              "n": 12,
+              "count": 1,
+              "rate": 0.08333333333333333
+            },
+            "reversed": {
+              "n": 12,
+              "count": 1,
+              "rate": 0.08333333333333333
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.26888108253479004,
+              "median": 0.26559877395629883,
+              "minimum": -0.03905773162841797,
+              "maximum": 0.5000581741333008
+            }
+          },
+          "object_cleft/lexical": {
+            "joint": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 12,
+              "count": 8,
+              "rate": 0.6666666666666666
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 1,
+              "rate": 0.08333333333333333
+            },
+            "r_distribution": {
+              "mean": -0.003907601038614909,
+              "median": -0.0664067268371582,
+              "minimum": -0.3671913146972656,
+              "maximum": 0.6093759536743164
+            }
+          },
+          "object_cleft/explicit": {
+            "joint": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.2858070532480876,
+              "median": 0.2851753234863281,
+              "minimum": 0.04687213897705078,
+              "maximum": 0.4765663146972656
+            }
+          },
+          "subject_cleft/lexical": {
+            "joint": {
+              "n": 12,
+              "count": 4,
+              "rate": 0.3333333333333333
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.8391925493876139,
+              "median": 0.7656230926513672,
+              "minimum": 0.3671607971191406,
+              "maximum": 1.3906354904174805
+            }
+          },
+          "subject_cleft/explicit": {
+            "joint": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 12,
+              "count": 10,
+              "rate": 0.8333333333333334
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 2,
+              "rate": 0.16666666666666666
+            },
+            "r_distribution": {
+              "mean": -0.11783742904663086,
+              "median": -0.1171422004699707,
+              "minimum": -0.4062480926513672,
+              "maximum": 0.17185688018798828
+            }
+          }
+        },
+        "by_form_role_wording": {
+          "active/actor/lexical": {
+            "n": 12,
+            "correct": 7,
+            "valid": 12,
+            "contrast_correct": 7
+          },
+          "active/patient/lexical": {
+            "n": 12,
+            "correct": 8,
+            "valid": 11,
+            "contrast_correct": 8
+          },
+          "active/actor/explicit": {
+            "n": 12,
+            "correct": 7,
+            "valid": 12,
+            "contrast_correct": 7
+          },
+          "active/patient/explicit": {
+            "n": 12,
+            "correct": 5,
+            "valid": 12,
+            "contrast_correct": 5
+          },
+          "passive/actor/lexical": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "passive/patient/lexical": {
+            "n": 12,
+            "correct": 0,
+            "valid": 12,
+            "contrast_correct": 0
+          },
+          "passive/actor/explicit": {
+            "n": 12,
+            "correct": 10,
+            "valid": 12,
+            "contrast_correct": 10
+          },
+          "passive/patient/explicit": {
+            "n": 12,
+            "correct": 3,
+            "valid": 12,
+            "contrast_correct": 3
+          },
+          "object_cleft/actor/lexical": {
+            "n": 12,
+            "correct": 10,
+            "valid": 12,
+            "contrast_correct": 10
+          },
+          "object_cleft/patient/lexical": {
+            "n": 12,
+            "correct": 1,
+            "valid": 12,
+            "contrast_correct": 1
+          },
+          "object_cleft/actor/explicit": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "object_cleft/patient/explicit": {
+            "n": 12,
+            "correct": 0,
+            "valid": 12,
+            "contrast_correct": 0
+          },
+          "subject_cleft/actor/lexical": {
+            "n": 12,
+            "correct": 8,
+            "valid": 12,
+            "contrast_correct": 8
+          },
+          "subject_cleft/patient/lexical": {
+            "n": 12,
+            "correct": 8,
+            "valid": 12,
+            "contrast_correct": 8
+          },
+          "subject_cleft/actor/explicit": {
+            "n": 12,
+            "correct": 6,
+            "valid": 12,
+            "contrast_correct": 6
+          },
+          "subject_cleft/patient/explicit": {
+            "n": 12,
+            "correct": 4,
+            "valid": 12,
+            "contrast_correct": 4
+          }
+        },
+        "all_form_joint": {
+          "lexical/none": {
+            "events": 12,
+            "correct": 0
+          },
+          "explicit/none": {
+            "events": 12,
+            "correct": 0
+          }
+        }
+      },
+      "strong_list": {
+        "by_form": {
+          "active": {
+            "n": 96,
+            "correct": 54,
+            "valid": 96,
+            "contrast_correct": 54,
+            "joint": {
+              "n": 48,
+              "count": 6,
+              "rate": 0.125
+            },
+            "question_contrast_reversed": {
+              "n": 48,
+              "count": 9,
+              "rate": 0.1875
+            },
+            "both_wrong": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "passive": {
+            "n": 96,
+            "correct": 44,
+            "valid": 96,
+            "contrast_correct": 45,
+            "joint": {
+              "n": 48,
+              "count": 1,
+              "rate": 0.020833333333333332
+            },
+            "question_contrast_reversed": {
+              "n": 48,
+              "count": 29,
+              "rate": 0.6041666666666666
+            },
+            "both_wrong": {
+              "n": 48,
+              "count": 4,
+              "rate": 0.08333333333333333
+            }
+          },
+          "object_cleft": {
+            "n": 96,
+            "correct": 49,
+            "valid": 96,
+            "contrast_correct": 49,
+            "joint": {
+              "n": 48,
+              "count": 1,
+              "rate": 0.020833333333333332
+            },
+            "question_contrast_reversed": {
+              "n": 48,
+              "count": 18,
+              "rate": 0.375
+            },
+            "both_wrong": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "subject_cleft": {
+            "n": 96,
+            "correct": 53,
+            "valid": 96,
+            "contrast_correct": 53,
+            "joint": {
+              "n": 48,
+              "count": 6,
+              "rate": 0.125
+            },
+            "question_contrast_reversed": {
+              "n": 48,
+              "count": 14,
+              "rate": 0.2916666666666667
+            },
+            "both_wrong": {
+              "n": 48,
+              "count": 1,
+              "rate": 0.020833333333333332
+            }
+          }
+        },
+        "by_form_wording": {
+          "active/lexical": {
+            "joint": {
+              "n": 24,
+              "count": 4,
+              "rate": 0.16666666666666666
+            },
+            "reversed": {
+              "n": 24,
+              "count": 3,
+              "rate": 0.125
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.2662770350774129,
+              "median": 0.25781774520874023,
+              "minimum": -0.2109375,
+              "maximum": 0.7890625
+            }
+          },
+          "active/explicit": {
+            "joint": {
+              "n": 24,
+              "count": 2,
+              "rate": 0.08333333333333333
+            },
+            "reversed": {
+              "n": 24,
+              "count": 6,
+              "rate": 0.25
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.1494129498799642,
+              "median": 0.20310401916503906,
+              "minimum": -0.23437023162841797,
+              "maximum": 0.40630531311035156
+            }
+          },
+          "passive/lexical": {
+            "joint": {
+              "n": 24,
+              "count": 1,
+              "rate": 0.041666666666666664
+            },
+            "reversed": {
+              "n": 24,
+              "count": 20,
+              "rate": 0.8333333333333334
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 3,
+              "rate": 0.125
+            },
+            "r_distribution": {
+              "mean": -0.17024763425191244,
+              "median": -0.16016340255737305,
+              "minimum": -0.703125,
+              "maximum": 0.2343730926513672
+            }
+          },
+          "passive/explicit": {
+            "joint": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 24,
+              "count": 9,
+              "rate": 0.375
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 1,
+              "rate": 0.041666666666666664
+            },
+            "r_distribution": {
+              "mean": 0.06282631556193034,
+              "median": 0.01171875,
+              "minimum": -0.12499713897705078,
+              "maximum": 0.45312023162841797
+            }
+          },
+          "object_cleft/lexical": {
+            "joint": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 24,
+              "count": 10,
+              "rate": 0.4166666666666667
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.05077997843424479,
+              "median": 0.03125333786010742,
+              "minimum": -0.2968759536743164,
+              "maximum": 0.4843759536743164
+            }
+          },
+          "object_cleft/explicit": {
+            "joint": {
+              "n": 24,
+              "count": 1,
+              "rate": 0.041666666666666664
+            },
+            "reversed": {
+              "n": 24,
+              "count": 8,
+              "rate": 0.3333333333333333
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.09928373495737712,
+              "median": 0.1328125,
+              "minimum": -0.3124961853027344,
+              "maximum": 0.5468721389770508
+            }
+          },
+          "subject_cleft/lexical": {
+            "joint": {
+              "n": 24,
+              "count": 4,
+              "rate": 0.16666666666666666
+            },
+            "reversed": {
+              "n": 24,
+              "count": 3,
+              "rate": 0.125
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.17024858792622885,
+              "median": 0.16016530990600586,
+              "minimum": -0.1328125,
+              "maximum": 0.44532108306884766
+            }
+          },
+          "subject_cleft/explicit": {
+            "joint": {
+              "n": 24,
+              "count": 2,
+              "rate": 0.08333333333333333
+            },
+            "reversed": {
+              "n": 24,
+              "count": 11,
+              "rate": 0.4583333333333333
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 1,
+              "rate": 0.041666666666666664
+            },
+            "r_distribution": {
+              "mean": 0.04362038771311442,
+              "median": 0.031239032745361328,
+              "minimum": -0.609370231628418,
+              "maximum": 0.4531221389770508
+            }
+          }
+        },
+        "by_form_role_wording": {
+          "active/actor/lexical": {
+            "n": 24,
+            "correct": 12,
+            "valid": 24,
+            "contrast_correct": 12
+          },
+          "active/patient/lexical": {
+            "n": 24,
+            "correct": 16,
+            "valid": 24,
+            "contrast_correct": 16
+          },
+          "active/actor/explicit": {
+            "n": 24,
+            "correct": 11,
+            "valid": 24,
+            "contrast_correct": 11
+          },
+          "active/patient/explicit": {
+            "n": 24,
+            "correct": 15,
+            "valid": 24,
+            "contrast_correct": 15
+          },
+          "passive/actor/lexical": {
+            "n": 24,
+            "correct": 21,
+            "valid": 24,
+            "contrast_correct": 21
+          },
+          "passive/patient/lexical": {
+            "n": 24,
+            "correct": 1,
+            "valid": 24,
+            "contrast_correct": 1
+          },
+          "passive/actor/explicit": {
+            "n": 24,
+            "correct": 21,
+            "valid": 24,
+            "contrast_correct": 22
+          },
+          "passive/patient/explicit": {
+            "n": 24,
+            "correct": 1,
+            "valid": 24,
+            "contrast_correct": 1
+          },
+          "object_cleft/actor/lexical": {
+            "n": 24,
+            "correct": 18,
+            "valid": 24,
+            "contrast_correct": 18
+          },
+          "object_cleft/patient/lexical": {
+            "n": 24,
+            "correct": 6,
+            "valid": 24,
+            "contrast_correct": 6
+          },
+          "object_cleft/actor/explicit": {
+            "n": 24,
+            "correct": 19,
+            "valid": 24,
+            "contrast_correct": 19
+          },
+          "object_cleft/patient/explicit": {
+            "n": 24,
+            "correct": 6,
+            "valid": 24,
+            "contrast_correct": 6
+          },
+          "subject_cleft/actor/lexical": {
+            "n": 24,
+            "correct": 14,
+            "valid": 24,
+            "contrast_correct": 14
+          },
+          "subject_cleft/patient/lexical": {
+            "n": 24,
+            "correct": 14,
+            "valid": 24,
+            "contrast_correct": 14
+          },
+          "subject_cleft/actor/explicit": {
+            "n": 24,
+            "correct": 12,
+            "valid": 24,
+            "contrast_correct": 12
+          },
+          "subject_cleft/patient/explicit": {
+            "n": 24,
+            "correct": 13,
+            "valid": 24,
+            "contrast_correct": 13
+          }
+        },
+        "all_form_joint": {
+          "lexical/ab": {
+            "events": 12,
+            "correct": 0
+          },
+          "lexical/ba": {
+            "events": 12,
+            "correct": 0
+          },
+          "explicit/ab": {
+            "events": 12,
+            "correct": 0
+          },
+          "explicit/ba": {
+            "events": 12,
+            "correct": 0
+          }
+        }
+      },
+      "compute": {
+        "prompt_tokens": 67776,
+        "candidate_free_generated_tokens": 200,
+        "candidate_free_length_limit_hits": 0,
+        "complete": {
+          "rows": 1152,
+          "sha256": "a730a914629f58a91f1167e13e9065a9e398e478ddf30a546de902dcad10c652",
+          "elapsed_s": 53.62390512495767,
+          "peak_memory_gb": 0.435318708
+        }
+      },
+      "candidate_order": {
+        "comparisons": 192,
+        "contrast_choice_flips": 39,
+        "next_token_answer_changes": 40,
+        "by_form": {
+          "active": {
+            "comparisons": 48,
+            "contrast_choice_flips": 16
+          },
+          "passive": {
+            "comparisons": 48,
+            "contrast_choice_flips": 3
+          },
+          "object_cleft": {
+            "comparisons": 48,
+            "contrast_choice_flips": 5
+          },
+          "subject_cleft": {
+            "comparisons": 48,
+            "contrast_choice_flips": 15
+          }
+        }
+      }
+    },
+    "qwen15": {
+      "legacy": {
+        "by_form": {
+          "active": {
+            "n": 144,
+            "correct": 126,
+            "valid": 144,
+            "contrast_correct": 126,
+            "joint": {
+              "n": 72,
+              "count": 54,
+              "rate": 0.75
+            },
+            "question_contrast_reversed": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "passive": {
+            "n": 144,
+            "correct": 85,
+            "valid": 144,
+            "contrast_correct": 85,
+            "joint": {
+              "n": 72,
+              "count": 13,
+              "rate": 0.18055555555555555
+            },
+            "question_contrast_reversed": {
+              "n": 72,
+              "count": 8,
+              "rate": 0.1111111111111111
+            },
+            "both_wrong": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "object_cleft": {
+            "n": 144,
+            "correct": 59,
+            "valid": 144,
+            "contrast_correct": 59,
+            "joint": {
+              "n": 72,
+              "count": 7,
+              "rate": 0.09722222222222222
+            },
+            "question_contrast_reversed": {
+              "n": 72,
+              "count": 43,
+              "rate": 0.5972222222222222
+            },
+            "both_wrong": {
+              "n": 72,
+              "count": 20,
+              "rate": 0.2777777777777778
+            }
+          },
+          "subject_cleft": {
+            "n": 144,
+            "correct": 138,
+            "valid": 144,
+            "contrast_correct": 138,
+            "joint": {
+              "n": 72,
+              "count": 66,
+              "rate": 0.9166666666666666
+            },
+            "question_contrast_reversed": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            }
+          }
+        },
+        "by_form_wording": {
+          "active/actor_performed": {
+            "joint": {
+              "n": 36,
+              "count": 31,
+              "rate": 0.8611111111111112
+            },
+            "reversed": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 4.764315313763088,
+              "median": 4.527352333068848,
+              "minimum": 1.09375,
+              "maximum": 9.124942779541016
+            }
+          },
+          "passive/actor_performed": {
+            "joint": {
+              "n": 36,
+              "count": 11,
+              "rate": 0.3055555555555556
+            },
+            "reversed": {
+              "n": 36,
+              "count": 5,
+              "rate": 0.1388888888888889
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 1.476128922568427,
+              "median": 1.2890691757202148,
+              "minimum": -1.460932731628418,
+              "maximum": 4.906242370605469
+            }
+          },
+          "object_cleft/actor_performed": {
+            "joint": {
+              "n": 36,
+              "count": 6,
+              "rate": 0.16666666666666666
+            },
+            "reversed": {
+              "n": 36,
+              "count": 20,
+              "rate": 0.5555555555555556
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 13,
+              "rate": 0.3611111111111111
+            },
+            "r_distribution": {
+              "mean": -0.3394095102945964,
+              "median": -0.632814884185791,
+              "minimum": -2.8515501022338867,
+              "maximum": 2.453110694885254
+            }
+          },
+          "subject_cleft/actor_performed": {
+            "joint": {
+              "n": 36,
+              "count": 34,
+              "rate": 0.9444444444444444
+            },
+            "reversed": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 5.455287138621013,
+              "median": 5.238286972045898,
+              "minimum": 0.7265691757202148,
+              "maximum": 10.109298706054688
+            }
+          },
+          "active/actor_acted": {
+            "joint": {
+              "n": 36,
+              "count": 23,
+              "rate": 0.6388888888888888
+            },
+            "reversed": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 2.3543801837497287,
+              "median": 2.5429611206054688,
+              "minimum": 0.3671865463256836,
+              "maximum": 4.804662704467773
+            }
+          },
+          "passive/actor_acted": {
+            "joint": {
+              "n": 36,
+              "count": 2,
+              "rate": 0.05555555555555555
+            },
+            "reversed": {
+              "n": 36,
+              "count": 3,
+              "rate": 0.08333333333333333
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 1.0286487208472357,
+              "median": 0.7109375,
+              "minimum": -0.09374332427978516,
+              "maximum": 2.8593873977661133
+            }
+          },
+          "object_cleft/actor_acted": {
+            "joint": {
+              "n": 36,
+              "count": 1,
+              "rate": 0.027777777777777776
+            },
+            "reversed": {
+              "n": 36,
+              "count": 23,
+              "rate": 0.6388888888888888
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 7,
+              "rate": 0.19444444444444445
+            },
+            "r_distribution": {
+              "mean": -0.06965939203898112,
+              "median": -0.3281235694885254,
+              "minimum": -1.3046932220458984,
+              "maximum": 1.710947036743164
+            }
+          },
+          "subject_cleft/actor_acted": {
+            "joint": {
+              "n": 36,
+              "count": 32,
+              "rate": 0.8888888888888888
+            },
+            "reversed": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 3.5779009660085044,
+              "median": 3.5078139305114746,
+              "minimum": 0.6953220367431641,
+              "maximum": 7.382753372192383
+            }
+          }
+        },
+        "by_form_role_wording": {
+          "active/actor/actor_performed": {
+            "n": 36,
+            "correct": 32,
+            "valid": 36,
+            "contrast_correct": 32
+          },
+          "active/actor/actor_acted": {
+            "n": 36,
+            "correct": 23,
+            "valid": 36,
+            "contrast_correct": 23
+          },
+          "active/patient/patient_verb": {
+            "n": 36,
+            "correct": 35,
+            "valid": 36,
+            "contrast_correct": 35
+          },
+          "active/patient/patient_affected": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          },
+          "passive/actor/actor_performed": {
+            "n": 36,
+            "correct": 31,
+            "valid": 36,
+            "contrast_correct": 31
+          },
+          "passive/actor/actor_acted": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          },
+          "passive/patient/patient_verb": {
+            "n": 36,
+            "correct": 16,
+            "valid": 36,
+            "contrast_correct": 16
+          },
+          "passive/patient/patient_affected": {
+            "n": 36,
+            "correct": 2,
+            "valid": 36,
+            "contrast_correct": 2
+          },
+          "object_cleft/actor/actor_performed": {
+            "n": 36,
+            "correct": 13,
+            "valid": 36,
+            "contrast_correct": 13
+          },
+          "object_cleft/actor/actor_acted": {
+            "n": 36,
+            "correct": 18,
+            "valid": 36,
+            "contrast_correct": 18
+          },
+          "object_cleft/patient/patient_verb": {
+            "n": 36,
+            "correct": 16,
+            "valid": 36,
+            "contrast_correct": 16
+          },
+          "object_cleft/patient/patient_affected": {
+            "n": 36,
+            "correct": 12,
+            "valid": 36,
+            "contrast_correct": 12
+          },
+          "subject_cleft/actor/actor_performed": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          },
+          "subject_cleft/actor/actor_acted": {
+            "n": 36,
+            "correct": 34,
+            "valid": 36,
+            "contrast_correct": 34
+          },
+          "subject_cleft/patient/patient_verb": {
+            "n": 36,
+            "correct": 34,
+            "valid": 36,
+            "contrast_correct": 34
+          },
+          "subject_cleft/patient/patient_affected": {
+            "n": 36,
+            "correct": 34,
+            "valid": 36,
+            "contrast_correct": 34
+          }
+        },
+        "all_form_joint": {
+          "actor_performed/ab": {
+            "events": 36,
+            "correct": 5
+          },
+          "actor_acted/ab": {
+            "events": 36,
+            "correct": 0
+          }
+        }
+      },
+      "strong_free": {
+        "by_form": {
+          "active": {
+            "n": 48,
+            "correct": 41,
+            "valid": 46,
+            "contrast_correct": 43,
+            "joint": {
+              "n": 24,
+              "count": 17,
+              "rate": 0.7083333333333334
+            },
+            "question_contrast_reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "passive": {
+            "n": 48,
+            "correct": 22,
+            "valid": 48,
+            "contrast_correct": 22,
+            "joint": {
+              "n": 24,
+              "count": 2,
+              "rate": 0.08333333333333333
+            },
+            "question_contrast_reversed": {
+              "n": 24,
+              "count": 13,
+              "rate": 0.5416666666666666
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 4,
+              "rate": 0.16666666666666666
+            }
+          },
+          "object_cleft": {
+            "n": 48,
+            "correct": 23,
+            "valid": 48,
+            "contrast_correct": 23,
+            "joint": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "question_contrast_reversed": {
+              "n": 24,
+              "count": 20,
+              "rate": 0.8333333333333334
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 1,
+              "rate": 0.041666666666666664
+            }
+          },
+          "subject_cleft": {
+            "n": 48,
+            "correct": 33,
+            "valid": 48,
+            "contrast_correct": 33,
+            "joint": {
+              "n": 24,
+              "count": 9,
+              "rate": 0.375
+            },
+            "question_contrast_reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            }
+          }
+        },
+        "by_form_wording": {
+          "active/lexical": {
+            "joint": {
+              "n": 12,
+              "count": 5,
+              "rate": 0.4166666666666667
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 1.7772929668426514,
+              "median": 1.792921543121338,
+              "minimum": 0.4296855926513672,
+              "maximum": 3.679697036743164
+            }
+          },
+          "active/explicit": {
+            "joint": {
+              "n": 12,
+              "count": 12,
+              "rate": 1.0
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 3.3261017402013144,
+              "median": 3.355299472808838,
+              "minimum": 2.5623769760131836,
+              "maximum": 4.2810378074646
+            }
+          },
+          "passive/lexical": {
+            "joint": {
+              "n": 12,
+              "count": 1,
+              "rate": 0.08333333333333333
+            },
+            "reversed": {
+              "n": 12,
+              "count": 5,
+              "rate": 0.4166666666666667
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 2,
+              "rate": 0.16666666666666666
+            },
+            "r_distribution": {
+              "mean": 0.06156563758850098,
+              "median": 0.41991519927978516,
+              "minimum": -1.3043622970581055,
+              "maximum": 0.9765405654907227
+            }
+          },
+          "passive/explicit": {
+            "joint": {
+              "n": 12,
+              "count": 1,
+              "rate": 0.08333333333333333
+            },
+            "reversed": {
+              "n": 12,
+              "count": 8,
+              "rate": 0.6666666666666666
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 2,
+              "rate": 0.16666666666666666
+            },
+            "r_distribution": {
+              "mean": -0.04164433479309082,
+              "median": -0.19530677795410156,
+              "minimum": -0.9840555191040039,
+              "maximum": 1.3983688354492188
+            }
+          },
+          "object_cleft/lexical": {
+            "joint": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 12,
+              "count": 9,
+              "rate": 0.75
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": -0.356087327003479,
+              "median": -0.44138097763061523,
+              "minimum": -1.0859479904174805,
+              "maximum": 0.3828544616699219
+            }
+          },
+          "object_cleft/explicit": {
+            "joint": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 12,
+              "count": 11,
+              "rate": 0.9166666666666666
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 1,
+              "rate": 0.08333333333333333
+            },
+            "r_distribution": {
+              "mean": -0.7577759424845377,
+              "median": -0.6367154121398926,
+              "minimum": -1.3945326805114746,
+              "maximum": 0.03125476837158203
+            }
+          },
+          "subject_cleft/lexical": {
+            "joint": {
+              "n": 12,
+              "count": 6,
+              "rate": 0.5
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 3.2088900407155356,
+              "median": 3.2148470878601074,
+              "minimum": 1.499997615814209,
+              "maximum": 5.429688930511475
+            }
+          },
+          "subject_cleft/explicit": {
+            "joint": {
+              "n": 12,
+              "count": 3,
+              "rate": 0.25
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 3.274673024813334,
+              "median": 2.941211700439453,
+              "minimum": 1.952993392944336,
+              "maximum": 4.749943256378174
+            }
+          }
+        },
+        "by_form_role_wording": {
+          "active/actor/lexical": {
+            "n": 12,
+            "correct": 9,
+            "valid": 10,
+            "contrast_correct": 11
+          },
+          "active/patient/lexical": {
+            "n": 12,
+            "correct": 8,
+            "valid": 12,
+            "contrast_correct": 8
+          },
+          "active/actor/explicit": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "active/patient/explicit": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "passive/actor/lexical": {
+            "n": 12,
+            "correct": 8,
+            "valid": 12,
+            "contrast_correct": 8
+          },
+          "passive/patient/lexical": {
+            "n": 12,
+            "correct": 3,
+            "valid": 12,
+            "contrast_correct": 3
+          },
+          "passive/actor/explicit": {
+            "n": 12,
+            "correct": 4,
+            "valid": 12,
+            "contrast_correct": 4
+          },
+          "passive/patient/explicit": {
+            "n": 12,
+            "correct": 7,
+            "valid": 12,
+            "contrast_correct": 7
+          },
+          "object_cleft/actor/lexical": {
+            "n": 12,
+            "correct": 0,
+            "valid": 12,
+            "contrast_correct": 0
+          },
+          "object_cleft/patient/lexical": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "object_cleft/actor/explicit": {
+            "n": 12,
+            "correct": 0,
+            "valid": 12,
+            "contrast_correct": 0
+          },
+          "object_cleft/patient/explicit": {
+            "n": 12,
+            "correct": 11,
+            "valid": 12,
+            "contrast_correct": 11
+          },
+          "subject_cleft/actor/lexical": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "subject_cleft/patient/lexical": {
+            "n": 12,
+            "correct": 6,
+            "valid": 12,
+            "contrast_correct": 6
+          },
+          "subject_cleft/actor/explicit": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "subject_cleft/patient/explicit": {
+            "n": 12,
+            "correct": 3,
+            "valid": 12,
+            "contrast_correct": 3
+          }
+        },
+        "all_form_joint": {
+          "lexical/none": {
+            "events": 12,
+            "correct": 0
+          },
+          "explicit/none": {
+            "events": 12,
+            "correct": 0
+          }
+        }
+      },
+      "strong_list": {
+        "by_form": {
+          "active": {
+            "n": 96,
+            "correct": 75,
+            "valid": 96,
+            "contrast_correct": 75,
+            "joint": {
+              "n": 48,
+              "count": 27,
+              "rate": 0.5625
+            },
+            "question_contrast_reversed": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "passive": {
+            "n": 96,
+            "correct": 52,
+            "valid": 96,
+            "contrast_correct": 51,
+            "joint": {
+              "n": 48,
+              "count": 5,
+              "rate": 0.10416666666666667
+            },
+            "question_contrast_reversed": {
+              "n": 48,
+              "count": 22,
+              "rate": 0.4583333333333333
+            },
+            "both_wrong": {
+              "n": 48,
+              "count": 2,
+              "rate": 0.041666666666666664
+            }
+          },
+          "object_cleft": {
+            "n": 96,
+            "correct": 48,
+            "valid": 96,
+            "contrast_correct": 48,
+            "joint": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            },
+            "question_contrast_reversed": {
+              "n": 48,
+              "count": 39,
+              "rate": 0.8125
+            },
+            "both_wrong": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "subject_cleft": {
+            "n": 96,
+            "correct": 54,
+            "valid": 96,
+            "contrast_correct": 54,
+            "joint": {
+              "n": 48,
+              "count": 6,
+              "rate": 0.125
+            },
+            "question_contrast_reversed": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            }
+          }
+        },
+        "by_form_wording": {
+          "active/lexical": {
+            "joint": {
+              "n": 24,
+              "count": 12,
+              "rate": 0.5
+            },
+            "reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 1.723271111647288,
+              "median": 1.2930831909179688,
+              "minimum": 0.5000324249267578,
+              "maximum": 5.22624397277832
+            }
+          },
+          "active/explicit": {
+            "joint": {
+              "n": 24,
+              "count": 15,
+              "rate": 0.625
+            },
+            "reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 1.6959312955538433,
+              "median": 1.6796679496765137,
+              "minimum": 0.2656383514404297,
+              "maximum": 2.859370231628418
+            }
+          },
+          "passive/lexical": {
+            "joint": {
+              "n": 24,
+              "count": 2,
+              "rate": 0.08333333333333333
+            },
+            "reversed": {
+              "n": 24,
+              "count": 7,
+              "rate": 0.2916666666666667
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 0.40266366799672443,
+              "median": 0.253903865814209,
+              "minimum": -0.6171989440917969,
+              "maximum": 1.6952886581420898
+            }
+          },
+          "passive/explicit": {
+            "joint": {
+              "n": 24,
+              "count": 3,
+              "rate": 0.125
+            },
+            "reversed": {
+              "n": 24,
+              "count": 15,
+              "rate": 0.625
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 2,
+              "rate": 0.08333333333333333
+            },
+            "r_distribution": {
+              "mean": -0.012043595314025879,
+              "median": -0.1250472068786621,
+              "minimum": -1.1406135559082031,
+              "maximum": 1.0311899185180664
+            }
+          },
+          "object_cleft/lexical": {
+            "joint": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 24,
+              "count": 18,
+              "rate": 0.75
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": -0.4366786281267802,
+              "median": -0.42382192611694336,
+              "minimum": -1.4453558921813965,
+              "maximum": 0.5234718322753906
+            }
+          },
+          "object_cleft/explicit": {
+            "joint": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "reversed": {
+              "n": 24,
+              "count": 21,
+              "rate": 0.875
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": -0.6967746615409851,
+              "median": -0.7031126022338867,
+              "minimum": -1.6484241485595703,
+              "maximum": 0.32420778274536133
+            }
+          },
+          "subject_cleft/lexical": {
+            "joint": {
+              "n": 24,
+              "count": 5,
+              "rate": 0.20833333333333334
+            },
+            "reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 2.1130727728207908,
+              "median": 2.156277894973755,
+              "minimum": 0.5624570846557617,
+              "maximum": 5.652291297912598
+            }
+          },
+          "subject_cleft/explicit": {
+            "joint": {
+              "n": 24,
+              "count": 1,
+              "rate": 0.041666666666666664
+            },
+            "reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 1.5512460271517436,
+              "median": 1.5682744979858398,
+              "minimum": 0.35939502716064453,
+              "maximum": 2.812478542327881
+            }
+          }
+        },
+        "by_form_role_wording": {
+          "active/actor/lexical": {
+            "n": 24,
+            "correct": 20,
+            "valid": 24,
+            "contrast_correct": 20
+          },
+          "active/patient/lexical": {
+            "n": 24,
+            "correct": 16,
+            "valid": 24,
+            "contrast_correct": 16
+          },
+          "active/actor/explicit": {
+            "n": 24,
+            "correct": 22,
+            "valid": 24,
+            "contrast_correct": 22
+          },
+          "active/patient/explicit": {
+            "n": 24,
+            "correct": 17,
+            "valid": 24,
+            "contrast_correct": 17
+          },
+          "passive/actor/lexical": {
+            "n": 24,
+            "correct": 11,
+            "valid": 24,
+            "contrast_correct": 11
+          },
+          "passive/patient/lexical": {
+            "n": 24,
+            "correct": 16,
+            "valid": 24,
+            "contrast_correct": 15
+          },
+          "passive/actor/explicit": {
+            "n": 24,
+            "correct": 5,
+            "valid": 24,
+            "contrast_correct": 5
+          },
+          "passive/patient/explicit": {
+            "n": 24,
+            "correct": 20,
+            "valid": 24,
+            "contrast_correct": 20
+          },
+          "object_cleft/actor/lexical": {
+            "n": 24,
+            "correct": 0,
+            "valid": 24,
+            "contrast_correct": 0
+          },
+          "object_cleft/patient/lexical": {
+            "n": 24,
+            "correct": 24,
+            "valid": 24,
+            "contrast_correct": 24
+          },
+          "object_cleft/actor/explicit": {
+            "n": 24,
+            "correct": 0,
+            "valid": 24,
+            "contrast_correct": 0
+          },
+          "object_cleft/patient/explicit": {
+            "n": 24,
+            "correct": 24,
+            "valid": 24,
+            "contrast_correct": 24
+          },
+          "subject_cleft/actor/lexical": {
+            "n": 24,
+            "correct": 24,
+            "valid": 24,
+            "contrast_correct": 24
+          },
+          "subject_cleft/patient/lexical": {
+            "n": 24,
+            "correct": 5,
+            "valid": 24,
+            "contrast_correct": 5
+          },
+          "subject_cleft/actor/explicit": {
+            "n": 24,
+            "correct": 24,
+            "valid": 24,
+            "contrast_correct": 24
+          },
+          "subject_cleft/patient/explicit": {
+            "n": 24,
+            "correct": 1,
+            "valid": 24,
+            "contrast_correct": 1
+          }
+        },
+        "all_form_joint": {
+          "lexical/ab": {
+            "events": 12,
+            "correct": 0
+          },
+          "lexical/ba": {
+            "events": 12,
+            "correct": 0
+          },
+          "explicit/ab": {
+            "events": 12,
+            "correct": 0
+          },
+          "explicit/ba": {
+            "events": 12,
+            "correct": 0
+          }
+        }
+      },
+      "compute": {
+        "prompt_tokens": 67776,
+        "candidate_free_generated_tokens": 200,
+        "candidate_free_length_limit_hits": 0,
+        "complete": {
+          "rows": 1152,
+          "sha256": "bffaff31e8a39002a5d868463b97594959d23863f1d82dcfc8602dfa90db282a",
+          "elapsed_s": 150.02576774999034,
+          "peak_memory_gb": 1.112648864
+        }
+      },
+      "candidate_order": {
+        "comparisons": 192,
+        "contrast_choice_flips": 26,
+        "next_token_answer_changes": 27,
+        "by_form": {
+          "active": {
+            "comparisons": 48,
+            "contrast_choice_flips": 7
+          },
+          "passive": {
+            "comparisons": 48,
+            "contrast_choice_flips": 13
+          },
+          "object_cleft": {
+            "comparisons": 48,
+            "contrast_choice_flips": 0
+          },
+          "subject_cleft": {
+            "comparisons": 48,
+            "contrast_choice_flips": 6
+          }
+        }
+      }
+    },
+    "qwen7b": {
+      "legacy": {
+        "by_form": {
+          "active": {
+            "n": 144,
+            "correct": 120,
+            "valid": 144,
+            "contrast_correct": 120,
+            "joint": {
+              "n": 72,
+              "count": 48,
+              "rate": 0.6666666666666666
+            },
+            "question_contrast_reversed": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "passive": {
+            "n": 144,
+            "correct": 107,
+            "valid": 144,
+            "contrast_correct": 107,
+            "joint": {
+              "n": 72,
+              "count": 35,
+              "rate": 0.4861111111111111
+            },
+            "question_contrast_reversed": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "object_cleft": {
+            "n": 144,
+            "correct": 96,
+            "valid": 144,
+            "contrast_correct": 96,
+            "joint": {
+              "n": 72,
+              "count": 29,
+              "rate": 0.4027777777777778
+            },
+            "question_contrast_reversed": {
+              "n": 72,
+              "count": 13,
+              "rate": 0.18055555555555555
+            },
+            "both_wrong": {
+              "n": 72,
+              "count": 5,
+              "rate": 0.06944444444444445
+            }
+          },
+          "subject_cleft": {
+            "n": 144,
+            "correct": 144,
+            "valid": 144,
+            "contrast_correct": 144,
+            "joint": {
+              "n": 72,
+              "count": 72,
+              "rate": 1.0
+            },
+            "question_contrast_reversed": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 72,
+              "count": 0,
+              "rate": 0.0
+            }
+          }
+        },
+        "by_form_wording": {
+          "active/actor_performed": {
+            "joint": {
+              "n": 36,
+              "count": 36,
+              "rate": 1.0
+            },
+            "reversed": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 16.465437173843384,
+              "median": 17.085904598236084,
+              "minimum": 9.882732391357422,
+              "maximum": 20.6091890335083
+            }
+          },
+          "passive/actor_performed": {
+            "joint": {
+              "n": 36,
+              "count": 4,
+              "rate": 0.1111111111111111
+            },
+            "reversed": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 5.692033264372084,
+              "median": 4.984364986419678,
+              "minimum": 0.19529342651367188,
+              "maximum": 14.640606880187988
+            }
+          },
+          "object_cleft/actor_performed": {
+            "joint": {
+              "n": 36,
+              "count": 17,
+              "rate": 0.4722222222222222
+            },
+            "reversed": {
+              "n": 36,
+              "count": 8,
+              "rate": 0.2222222222222222
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 4,
+              "rate": 0.1111111111111111
+            },
+            "r_distribution": {
+              "mean": 3.7695199383629694,
+              "median": 3.3359179496765137,
+              "minimum": -6.078095436096191,
+              "maximum": 11.99994945526123
+            }
+          },
+          "subject_cleft/actor_performed": {
+            "joint": {
+              "n": 36,
+              "count": 36,
+              "rate": 1.0
+            },
+            "reversed": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 17.337289147906834,
+              "median": 17.8867130279541,
+              "minimum": 10.148331642150879,
+              "maximum": 23.25761127471924
+            }
+          },
+          "active/actor_acted": {
+            "joint": {
+              "n": 36,
+              "count": 12,
+              "rate": 0.3333333333333333
+            },
+            "reversed": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 9.209615495469835,
+              "median": 8.371082782745361,
+              "minimum": 4.671749114990234,
+              "maximum": 17.937487602233887
+            }
+          },
+          "passive/actor_acted": {
+            "joint": {
+              "n": 36,
+              "count": 31,
+              "rate": 0.8611111111111112
+            },
+            "reversed": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 9.759074555502998,
+              "median": 9.67962646484375,
+              "minimum": 2.6640682220458984,
+              "maximum": 18.015624046325684
+            }
+          },
+          "object_cleft/actor_acted": {
+            "joint": {
+              "n": 36,
+              "count": 12,
+              "rate": 0.3333333333333333
+            },
+            "reversed": {
+              "n": 36,
+              "count": 5,
+              "rate": 0.1388888888888889
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 1,
+              "rate": 0.027777777777777776
+            },
+            "r_distribution": {
+              "mean": 5.629971928066677,
+              "median": 6.570285797119141,
+              "minimum": -6.078120231628418,
+              "maximum": 12.36715030670166
+            }
+          },
+          "subject_cleft/actor_acted": {
+            "joint": {
+              "n": 36,
+              "count": 36,
+              "rate": 1.0
+            },
+            "reversed": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 36,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 14.226738267474705,
+              "median": 14.191316604614258,
+              "minimum": 9.078113555908203,
+              "maximum": 18.929625511169434
+            }
+          }
+        },
+        "by_form_role_wording": {
+          "active/actor/actor_performed": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          },
+          "active/actor/actor_acted": {
+            "n": 36,
+            "correct": 12,
+            "valid": 36,
+            "contrast_correct": 12
+          },
+          "active/patient/patient_verb": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          },
+          "active/patient/patient_affected": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          },
+          "passive/actor/actor_performed": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          },
+          "passive/actor/actor_acted": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          },
+          "passive/patient/patient_verb": {
+            "n": 36,
+            "correct": 4,
+            "valid": 36,
+            "contrast_correct": 4
+          },
+          "passive/patient/patient_affected": {
+            "n": 36,
+            "correct": 31,
+            "valid": 36,
+            "contrast_correct": 31
+          },
+          "object_cleft/actor/actor_performed": {
+            "n": 36,
+            "correct": 22,
+            "valid": 36,
+            "contrast_correct": 22
+          },
+          "object_cleft/actor/actor_acted": {
+            "n": 36,
+            "correct": 12,
+            "valid": 36,
+            "contrast_correct": 12
+          },
+          "object_cleft/patient/patient_verb": {
+            "n": 36,
+            "correct": 27,
+            "valid": 36,
+            "contrast_correct": 27
+          },
+          "object_cleft/patient/patient_affected": {
+            "n": 36,
+            "correct": 35,
+            "valid": 36,
+            "contrast_correct": 35
+          },
+          "subject_cleft/actor/actor_performed": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          },
+          "subject_cleft/actor/actor_acted": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          },
+          "subject_cleft/patient/patient_verb": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          },
+          "subject_cleft/patient/patient_affected": {
+            "n": 36,
+            "correct": 36,
+            "valid": 36,
+            "contrast_correct": 36
+          }
+        },
+        "all_form_joint": {
+          "actor_performed/ab": {
+            "events": 36,
+            "correct": 2
+          },
+          "actor_acted/ab": {
+            "events": 36,
+            "correct": 6
+          }
+        }
+      },
+      "strong_free": {
+        "by_form": {
+          "active": {
+            "n": 48,
+            "correct": 48,
+            "valid": 48,
+            "contrast_correct": 48,
+            "joint": {
+              "n": 24,
+              "count": 24,
+              "rate": 1.0
+            },
+            "question_contrast_reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "passive": {
+            "n": 48,
+            "correct": 42,
+            "valid": 48,
+            "contrast_correct": 42,
+            "joint": {
+              "n": 24,
+              "count": 18,
+              "rate": 0.75
+            },
+            "question_contrast_reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "object_cleft": {
+            "n": 48,
+            "correct": 35,
+            "valid": 47,
+            "contrast_correct": 35,
+            "joint": {
+              "n": 24,
+              "count": 11,
+              "rate": 0.4583333333333333
+            },
+            "question_contrast_reversed": {
+              "n": 24,
+              "count": 1,
+              "rate": 0.041666666666666664
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "subject_cleft": {
+            "n": 48,
+            "correct": 47,
+            "valid": 48,
+            "contrast_correct": 47,
+            "joint": {
+              "n": 24,
+              "count": 23,
+              "rate": 0.9583333333333334
+            },
+            "question_contrast_reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            }
+          }
+        },
+        "by_form_wording": {
+          "active/lexical": {
+            "joint": {
+              "n": 12,
+              "count": 12,
+              "rate": 1.0
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 13.99247149626414,
+              "median": 13.919861078262329,
+              "minimum": 11.179686546325684,
+              "maximum": 18.36716365814209
+            }
+          },
+          "active/explicit": {
+            "joint": {
+              "n": 12,
+              "count": 12,
+              "rate": 1.0
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 14.770777861277262,
+              "median": 15.142537117004395,
+              "minimum": 10.19531536102295,
+              "maximum": 17.730441093444824
+            }
+          },
+          "passive/lexical": {
+            "joint": {
+              "n": 12,
+              "count": 10,
+              "rate": 0.8333333333333334
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 10.184866746266684,
+              "median": 10.427736520767212,
+              "minimum": 3.0234317779541016,
+              "maximum": 16.027252674102783
+            }
+          },
+          "passive/explicit": {
+            "joint": {
+              "n": 12,
+              "count": 8,
+              "rate": 0.6666666666666666
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 9.023700396219889,
+              "median": 7.8006768226623535,
+              "minimum": 4.453063011169434,
+              "maximum": 14.499846458435059
+            }
+          },
+          "object_cleft/lexical": {
+            "joint": {
+              "n": 12,
+              "count": 3,
+              "rate": 0.25
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 3.351560354232788,
+              "median": 3.5781307220458984,
+              "minimum": 0.046871185302734375,
+              "maximum": 6.773423194885254
+            }
+          },
+          "object_cleft/explicit": {
+            "joint": {
+              "n": 12,
+              "count": 8,
+              "rate": 0.6666666666666666
+            },
+            "reversed": {
+              "n": 12,
+              "count": 1,
+              "rate": 0.08333333333333333
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 5.665351947148641,
+              "median": 6.050746917724609,
+              "minimum": -1.0000085830688477,
+              "maximum": 9.781251907348633
+            }
+          },
+          "subject_cleft/lexical": {
+            "joint": {
+              "n": 12,
+              "count": 11,
+              "rate": 0.9166666666666666
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 14.12560760974884,
+              "median": 14.32030963897705,
+              "minimum": 7.312456130981445,
+              "maximum": 18.718717575073242
+            }
+          },
+          "subject_cleft/explicit": {
+            "joint": {
+              "n": 12,
+              "count": 12,
+              "rate": 1.0
+            },
+            "reversed": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 12,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 16.251237670580547,
+              "median": 16.769538640975952,
+              "minimum": 11.703120231628418,
+              "maximum": 18.999895095825195
+            }
+          }
+        },
+        "by_form_role_wording": {
+          "active/actor/lexical": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "active/patient/lexical": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "active/actor/explicit": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "active/patient/explicit": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "passive/actor/lexical": {
+            "n": 12,
+            "correct": 10,
+            "valid": 12,
+            "contrast_correct": 10
+          },
+          "passive/patient/lexical": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "passive/actor/explicit": {
+            "n": 12,
+            "correct": 8,
+            "valid": 12,
+            "contrast_correct": 8
+          },
+          "passive/patient/explicit": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "object_cleft/actor/lexical": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "object_cleft/patient/lexical": {
+            "n": 12,
+            "correct": 3,
+            "valid": 11,
+            "contrast_correct": 3
+          },
+          "object_cleft/actor/explicit": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "object_cleft/patient/explicit": {
+            "n": 12,
+            "correct": 8,
+            "valid": 12,
+            "contrast_correct": 8
+          },
+          "subject_cleft/actor/lexical": {
+            "n": 12,
+            "correct": 11,
+            "valid": 12,
+            "contrast_correct": 11
+          },
+          "subject_cleft/patient/lexical": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "subject_cleft/actor/explicit": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          },
+          "subject_cleft/patient/explicit": {
+            "n": 12,
+            "correct": 12,
+            "valid": 12,
+            "contrast_correct": 12
+          }
+        },
+        "all_form_joint": {
+          "lexical/none": {
+            "events": 12,
+            "correct": 3
+          },
+          "explicit/none": {
+            "events": 12,
+            "correct": 5
+          }
+        }
+      },
+      "strong_list": {
+        "by_form": {
+          "active": {
+            "n": 96,
+            "correct": 96,
+            "valid": 96,
+            "contrast_correct": 96,
+            "joint": {
+              "n": 48,
+              "count": 48,
+              "rate": 1.0
+            },
+            "question_contrast_reversed": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "passive": {
+            "n": 96,
+            "correct": 91,
+            "valid": 96,
+            "contrast_correct": 91,
+            "joint": {
+              "n": 48,
+              "count": 43,
+              "rate": 0.8958333333333334
+            },
+            "question_contrast_reversed": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "object_cleft": {
+            "n": 96,
+            "correct": 83,
+            "valid": 96,
+            "contrast_correct": 83,
+            "joint": {
+              "n": 48,
+              "count": 35,
+              "rate": 0.7291666666666666
+            },
+            "question_contrast_reversed": {
+              "n": 48,
+              "count": 1,
+              "rate": 0.020833333333333332
+            },
+            "both_wrong": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            }
+          },
+          "subject_cleft": {
+            "n": 96,
+            "correct": 95,
+            "valid": 96,
+            "contrast_correct": 95,
+            "joint": {
+              "n": 48,
+              "count": 47,
+              "rate": 0.9791666666666666
+            },
+            "question_contrast_reversed": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 48,
+              "count": 0,
+              "rate": 0.0
+            }
+          }
+        },
+        "by_form_wording": {
+          "active/lexical": {
+            "joint": {
+              "n": 24,
+              "count": 24,
+              "rate": 1.0
+            },
+            "reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 13.498614768187204,
+              "median": 13.902285099029541,
+              "minimum": 9.734419822692871,
+              "maximum": 16.62886142730713
+            }
+          },
+          "active/explicit": {
+            "joint": {
+              "n": 24,
+              "count": 24,
+              "rate": 1.0
+            },
+            "reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 16.848435521125793,
+              "median": 16.85537838935852,
+              "minimum": 13.515555381774902,
+              "maximum": 20.3241548538208
+            }
+          },
+          "passive/lexical": {
+            "joint": {
+              "n": 24,
+              "count": 21,
+              "rate": 0.875
+            },
+            "reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 8.849047501881918,
+              "median": 8.945281028747559,
+              "minimum": 1.5781316757202148,
+              "maximum": 12.523266792297363
+            }
+          },
+          "passive/explicit": {
+            "joint": {
+              "n": 24,
+              "count": 22,
+              "rate": 0.9166666666666666
+            },
+            "reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 12.690561026334763,
+              "median": 13.216161489486694,
+              "minimum": 2.765610694885254,
+              "maximum": 17.115696907043457
+            }
+          },
+          "object_cleft/lexical": {
+            "joint": {
+              "n": 24,
+              "count": 14,
+              "rate": 0.5833333333333334
+            },
+            "reversed": {
+              "n": 24,
+              "count": 1,
+              "rate": 0.041666666666666664
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 5.895489573478699,
+              "median": 5.890624523162842,
+              "minimum": -2.0702877044677734,
+              "maximum": 10.87492561340332
+            }
+          },
+          "object_cleft/explicit": {
+            "joint": {
+              "n": 24,
+              "count": 21,
+              "rate": 0.875
+            },
+            "reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 9.72033965587616,
+              "median": 10.195305824279785,
+              "minimum": 0.39057445526123047,
+              "maximum": 15.648447036743164
+            }
+          },
+          "subject_cleft/lexical": {
+            "joint": {
+              "n": 24,
+              "count": 23,
+              "rate": 0.9583333333333334
+            },
+            "reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 14.468158106009165,
+              "median": 15.398258209228516,
+              "minimum": 5.066155910491943,
+              "maximum": 19.238289833068848
+            }
+          },
+          "subject_cleft/explicit": {
+            "joint": {
+              "n": 24,
+              "count": 24,
+              "rate": 1.0
+            },
+            "reversed": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "both_wrong": {
+              "n": 24,
+              "count": 0,
+              "rate": 0.0
+            },
+            "r_distribution": {
+              "mean": 17.74209714929263,
+              "median": 18.33361029624939,
+              "minimum": 12.496006965637207,
+              "maximum": 20.488159656524658
+            }
+          }
+        },
+        "by_form_role_wording": {
+          "active/actor/lexical": {
+            "n": 24,
+            "correct": 24,
+            "valid": 24,
+            "contrast_correct": 24
+          },
+          "active/patient/lexical": {
+            "n": 24,
+            "correct": 24,
+            "valid": 24,
+            "contrast_correct": 24
+          },
+          "active/actor/explicit": {
+            "n": 24,
+            "correct": 24,
+            "valid": 24,
+            "contrast_correct": 24
+          },
+          "active/patient/explicit": {
+            "n": 24,
+            "correct": 24,
+            "valid": 24,
+            "contrast_correct": 24
+          },
+          "passive/actor/lexical": {
+            "n": 24,
+            "correct": 22,
+            "valid": 24,
+            "contrast_correct": 22
+          },
+          "passive/patient/lexical": {
+            "n": 24,
+            "correct": 23,
+            "valid": 24,
+            "contrast_correct": 23
+          },
+          "passive/actor/explicit": {
+            "n": 24,
+            "correct": 22,
+            "valid": 24,
+            "contrast_correct": 22
+          },
+          "passive/patient/explicit": {
+            "n": 24,
+            "correct": 24,
+            "valid": 24,
+            "contrast_correct": 24
+          },
+          "object_cleft/actor/lexical": {
+            "n": 24,
+            "correct": 20,
+            "valid": 24,
+            "contrast_correct": 20
+          },
+          "object_cleft/patient/lexical": {
+            "n": 24,
+            "correct": 18,
+            "valid": 24,
+            "contrast_correct": 18
+          },
+          "object_cleft/actor/explicit": {
+            "n": 24,
+            "correct": 24,
+            "valid": 24,
+            "contrast_correct": 24
+          },
+          "object_cleft/patient/explicit": {
+            "n": 24,
+            "correct": 21,
+            "valid": 24,
+            "contrast_correct": 21
+          },
+          "subject_cleft/actor/lexical": {
+            "n": 24,
+            "correct": 23,
+            "valid": 24,
+            "contrast_correct": 23
+          },
+          "subject_cleft/patient/lexical": {
+            "n": 24,
+            "correct": 24,
+            "valid": 24,
+            "contrast_correct": 24
+          },
+          "subject_cleft/actor/explicit": {
+            "n": 24,
+            "correct": 24,
+            "valid": 24,
+            "contrast_correct": 24
+          },
+          "subject_cleft/patient/explicit": {
+            "n": 24,
+            "correct": 24,
+            "valid": 24,
+            "contrast_correct": 24
+          }
+        },
+        "all_form_joint": {
+          "lexical/ab": {
+            "events": 12,
+            "correct": 6
+          },
+          "lexical/ba": {
+            "events": 12,
+            "correct": 6
+          },
+          "explicit/ab": {
+            "events": 12,
+            "correct": 9
+          },
+          "explicit/ba": {
+            "events": 12,
+            "correct": 10
+          }
+        }
+      },
+      "compute": {
+        "prompt_tokens": 67776,
+        "candidate_free_generated_tokens": 195,
+        "candidate_free_length_limit_hits": 0,
+        "complete": {
+          "rows": 1152,
+          "sha256": "1f6b2442eabf2ec45e9cc6f407bc1bf9265d1a4feb6d4de4683c4f617537d155",
+          "elapsed_s": 663.2006132090464,
+          "peak_memory_gb": 4.502138004
+        }
+      },
+      "candidate_order": {
+        "comparisons": 192,
+        "contrast_choice_flips": 15,
+        "next_token_answer_changes": 15,
+        "by_form": {
+          "active": {
+            "comparisons": 48,
+            "contrast_choice_flips": 0
+          },
+          "passive": {
+            "comparisons": 48,
+            "contrast_choice_flips": 3
+          },
+          "object_cleft": {
+            "comparisons": 48,
+            "contrast_choice_flips": 11
+          },
+          "subject_cleft": {
+            "comparisons": 48,
+            "contrast_choice_flips": 1
+          }
+        }
+      }
+    }
+  },
+  "paired_uncertainty": {
+    "qwen05/lexical/object_minus_active_joint": {
+      "estimate": -0.25,
+      "cluster_bootstrap_95": [
+        -0.5833333333333334,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        -0.5,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/lexical/object_minus_active_reversal": {
+      "estimate": 0.6666666666666666,
+      "cluster_bootstrap_95": [
+        0.5,
+        0.8333333333333334
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.5,
+        0.5,
+        1.0,
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    "qwen05/lexical/active/joint": {
+      "estimate": 0.25,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.5833333333333334
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.5,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/lexical/active/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/lexical/passive/joint": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/lexical/passive/reversed": {
+      "estimate": 0.9166666666666666,
+      "cluster_bootstrap_95": [
+        0.75,
+        1.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0
+      ]
+    },
+    "qwen05/lexical/object_cleft/joint": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/lexical/object_cleft/reversed": {
+      "estimate": 0.6666666666666666,
+      "cluster_bootstrap_95": [
+        0.5,
+        0.8333333333333334
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.5,
+        0.5,
+        1.0,
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    "qwen05/lexical/subject_cleft/joint": {
+      "estimate": 0.3333333333333333,
+      "cluster_bootstrap_95": [
+        0.08333333333333333,
+        0.6666666666666666
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.5,
+        0.5,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/lexical/subject_cleft/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/explicit/object_minus_active_joint": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/explicit/object_minus_active_reversal": {
+      "estimate": -0.5,
+      "cluster_bootstrap_95": [
+        -0.75,
+        -0.25
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        -1.0,
+        0.0,
+        -0.5,
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    "qwen05/explicit/active/joint": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/explicit/active/reversed": {
+      "estimate": 0.5,
+      "cluster_bootstrap_95": [
+        0.25,
+        0.75
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        0.0,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "qwen05/explicit/passive/joint": {
+      "estimate": 0.08333333333333333,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.25
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/explicit/passive/reversed": {
+      "estimate": 0.08333333333333333,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.25
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/explicit/object_cleft/joint": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/explicit/object_cleft/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/explicit/subject_cleft/joint": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen05/explicit/subject_cleft/reversed": {
+      "estimate": 0.8333333333333334,
+      "cluster_bootstrap_95": [
+        0.6666666666666666,
+        1.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        0.5,
+        1.0,
+        0.5,
+        1.0,
+        1.0
+      ]
+    },
+    "qwen15/lexical/object_minus_active_joint": {
+      "estimate": -0.4166666666666667,
+      "cluster_bootstrap_95": [
+        -0.75,
+        -0.08333333333333333
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        -0.5,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    "qwen15/lexical/object_minus_active_reversal": {
+      "estimate": 0.75,
+      "cluster_bootstrap_95": [
+        0.5833333333333334,
+        0.9166666666666666
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.5,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        0.5
+      ]
+    },
+    "qwen15/lexical/active/joint": {
+      "estimate": 0.4166666666666667,
+      "cluster_bootstrap_95": [
+        0.08333333333333333,
+        0.75
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.5,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "qwen15/lexical/active/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen15/lexical/passive/joint": {
+      "estimate": 0.08333333333333333,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.25
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ]
+    },
+    "qwen15/lexical/passive/reversed": {
+      "estimate": 0.4166666666666667,
+      "cluster_bootstrap_95": [
+        0.08333333333333333,
+        0.75
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        1.0,
+        0.5,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "qwen15/lexical/object_cleft/joint": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen15/lexical/object_cleft/reversed": {
+      "estimate": 0.75,
+      "cluster_bootstrap_95": [
+        0.5833333333333334,
+        0.9166666666666666
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.5,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        0.5
+      ]
+    },
+    "qwen15/lexical/subject_cleft/joint": {
+      "estimate": 0.5,
+      "cluster_bootstrap_95": [
+        0.16666666666666666,
+        0.8333333333333334
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        0.0,
+        0.5,
+        1.0,
+        0.0,
+        0.5
+      ]
+    },
+    "qwen15/lexical/subject_cleft/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen15/explicit/object_minus_active_joint": {
+      "estimate": -1.0,
+      "cluster_bootstrap_95": [
+        -1.0,
+        -1.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    "qwen15/explicit/object_minus_active_reversal": {
+      "estimate": 0.9166666666666666,
+      "cluster_bootstrap_95": [
+        0.75,
+        1.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "qwen15/explicit/active/joint": {
+      "estimate": 1.0,
+      "cluster_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "qwen15/explicit/active/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen15/explicit/passive/joint": {
+      "estimate": 0.08333333333333333,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.25
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen15/explicit/passive/reversed": {
+      "estimate": 0.6666666666666666,
+      "cluster_bootstrap_95": [
+        0.3333333333333333,
+        0.9166666666666666
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.5,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "qwen15/explicit/object_cleft/joint": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen15/explicit/object_cleft/reversed": {
+      "estimate": 0.9166666666666666,
+      "cluster_bootstrap_95": [
+        0.75,
+        1.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "qwen15/explicit/subject_cleft/joint": {
+      "estimate": 0.25,
+      "cluster_bootstrap_95": [
+        0.08333333333333333,
+        0.4166666666666667
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.5,
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen15/explicit/subject_cleft/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen7b/lexical/object_minus_active_joint": {
+      "estimate": -0.75,
+      "cluster_bootstrap_95": [
+        -0.9166666666666666,
+        -0.5833333333333334
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        -1.0,
+        -1.0,
+        -0.5,
+        -1.0,
+        -0.5,
+        -0.5
+      ]
+    },
+    "qwen7b/lexical/object_minus_active_reversal": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen7b/lexical/active/joint": {
+      "estimate": 1.0,
+      "cluster_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "qwen7b/lexical/active/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen7b/lexical/passive/joint": {
+      "estimate": 0.8333333333333334,
+      "cluster_bootstrap_95": [
+        0.6666666666666666,
+        1.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        0.5,
+        1.0,
+        0.5,
+        1.0,
+        1.0
+      ]
+    },
+    "qwen7b/lexical/passive/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen7b/lexical/object_cleft/joint": {
+      "estimate": 0.25,
+      "cluster_bootstrap_95": [
+        0.08333333333333333,
+        0.4166666666666667
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.5,
+        0.5
+      ]
+    },
+    "qwen7b/lexical/object_cleft/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen7b/lexical/subject_cleft/joint": {
+      "estimate": 0.9166666666666666,
+      "cluster_bootstrap_95": [
+        0.75,
+        1.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "qwen7b/lexical/subject_cleft/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen7b/explicit/object_minus_active_joint": {
+      "estimate": -0.3333333333333333,
+      "cluster_bootstrap_95": [
+        -0.6666666666666666,
+        -0.08333333333333333
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        -1.0,
+        -0.5,
+        0.0,
+        0.0,
+        -0.5
+      ]
+    },
+    "qwen7b/explicit/object_minus_active_reversal": {
+      "estimate": 0.08333333333333333,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.25
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen7b/explicit/active/joint": {
+      "estimate": 1.0,
+      "cluster_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "qwen7b/explicit/active/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen7b/explicit/passive/joint": {
+      "estimate": 0.6666666666666666,
+      "cluster_bootstrap_95": [
+        0.5,
+        0.8333333333333334
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.5,
+        0.5,
+        1.0,
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    "qwen7b/explicit/passive/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen7b/explicit/object_cleft/joint": {
+      "estimate": 0.6666666666666666,
+      "cluster_bootstrap_95": [
+        0.3333333333333333,
+        0.9166666666666666
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        0.0,
+        0.5,
+        1.0,
+        1.0,
+        0.5
+      ]
+    },
+    "qwen7b/explicit/object_cleft/reversed": {
+      "estimate": 0.08333333333333333,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.25
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "qwen7b/explicit/subject_cleft/joint": {
+      "estimate": 1.0,
+      "cluster_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "qwen7b/explicit/subject_cleft/reversed": {
+      "estimate": 0.0,
+      "cluster_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "7b_minus_15/lexical/object_active_interaction/joint": {
+      "estimate": -0.3333333333333333,
+      "cluster_bootstrap_95": [
+        -0.8333333333333334,
+        0.16666666666666666
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        -0.5,
+        -1.0,
+        0.5,
+        -1.0,
+        -0.5,
+        0.5
+      ]
+    },
+    "7b_minus_15/lexical/object_active_interaction/reversed": {
+      "estimate": -0.75,
+      "cluster_bootstrap_95": [
+        -0.9166666666666666,
+        -0.5833333333333334
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        -0.5,
+        -1.0,
+        -0.5,
+        -1.0,
+        -1.0,
+        -0.5
+      ]
+    },
+    "7b_minus_15/explicit/object_active_interaction/joint": {
+      "estimate": 0.6666666666666666,
+      "cluster_bootstrap_95": [
+        0.3333333333333333,
+        0.9166666666666666
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        1.0,
+        0.0,
+        0.5,
+        1.0,
+        1.0,
+        0.5
+      ]
+    },
+    "7b_minus_15/explicit/object_active_interaction/reversed": {
+      "estimate": -0.8333333333333334,
+      "cluster_bootstrap_95": [
+        -1.0,
+        -0.6666666666666666
+      ],
+      "clusters": 6,
+      "cluster_values": [
+        -1.0,
+        -0.5,
+        -0.5,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    }
+  },
+  "heuristics": {
+    "qwen05": {
+      "active": {
+        "n": 48,
+        "model_errors": 21,
+        "heuristics": {
+          "always_first_mention": {
+            "correct": 24,
+            "agreement": 24,
+            "error_agreement": 10
+          },
+          "always_last_mention": {
+            "correct": 24,
+            "agreement": 23,
+            "error_agreement": 10
+          },
+          "first_mention_as_actor": {
+            "correct": 48,
+            "agreement": 27,
+            "error_agreement": 0
+          },
+          "last_mention_as_actor": {
+            "correct": 0,
+            "agreement": 20,
+            "error_agreement": 20
+          },
+          "event_grammatical_subject_as_actor": {
+            "correct": 48,
+            "agreement": 27,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_patient": {
+            "correct": 0,
+            "agreement": 20,
+            "error_agreement": 20
+          }
+        }
+      },
+      "passive": {
+        "n": 48,
+        "model_errors": 23,
+        "heuristics": {
+          "always_first_mention": {
+            "correct": 24,
+            "agreement": 5,
+            "error_agreement": 2
+          },
+          "always_last_mention": {
+            "correct": 24,
+            "agreement": 43,
+            "error_agreement": 21
+          },
+          "first_mention_as_actor": {
+            "correct": 0,
+            "agreement": 23,
+            "error_agreement": 23
+          },
+          "last_mention_as_actor": {
+            "correct": 48,
+            "agreement": 25,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_actor": {
+            "correct": 0,
+            "agreement": 23,
+            "error_agreement": 23
+          },
+          "event_grammatical_subject_as_patient": {
+            "correct": 48,
+            "agreement": 25,
+            "error_agreement": 0
+          }
+        }
+      },
+      "object_cleft": {
+        "n": 48,
+        "model_errors": 25,
+        "heuristics": {
+          "always_first_mention": {
+            "correct": 24,
+            "agreement": 3,
+            "error_agreement": 2
+          },
+          "always_last_mention": {
+            "correct": 24,
+            "agreement": 45,
+            "error_agreement": 23
+          },
+          "first_mention_as_actor": {
+            "correct": 0,
+            "agreement": 25,
+            "error_agreement": 25
+          },
+          "last_mention_as_actor": {
+            "correct": 48,
+            "agreement": 23,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_actor": {
+            "correct": 48,
+            "agreement": 23,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_patient": {
+            "correct": 0,
+            "agreement": 25,
+            "error_agreement": 25
+          }
+        }
+      },
+      "subject_cleft": {
+        "n": 48,
+        "model_errors": 22,
+        "heuristics": {
+          "always_first_mention": {
+            "correct": 24,
+            "agreement": 26,
+            "error_agreement": 12
+          },
+          "always_last_mention": {
+            "correct": 24,
+            "agreement": 22,
+            "error_agreement": 10
+          },
+          "first_mention_as_actor": {
+            "correct": 48,
+            "agreement": 26,
+            "error_agreement": 0
+          },
+          "last_mention_as_actor": {
+            "correct": 0,
+            "agreement": 22,
+            "error_agreement": 22
+          },
+          "event_grammatical_subject_as_actor": {
+            "correct": 48,
+            "agreement": 26,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_patient": {
+            "correct": 0,
+            "agreement": 22,
+            "error_agreement": 22
+          }
+        }
+      }
+    },
+    "qwen15": {
+      "active": {
+        "n": 48,
+        "model_errors": 7,
+        "heuristics": {
+          "always_first_mention": {
+            "correct": 24,
+            "agreement": 25,
+            "error_agreement": 4
+          },
+          "always_last_mention": {
+            "correct": 24,
+            "agreement": 21,
+            "error_agreement": 1
+          },
+          "first_mention_as_actor": {
+            "correct": 48,
+            "agreement": 41,
+            "error_agreement": 0
+          },
+          "last_mention_as_actor": {
+            "correct": 0,
+            "agreement": 5,
+            "error_agreement": 5
+          },
+          "event_grammatical_subject_as_actor": {
+            "correct": 48,
+            "agreement": 41,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_patient": {
+            "correct": 0,
+            "agreement": 5,
+            "error_agreement": 5
+          }
+        }
+      },
+      "passive": {
+        "n": 48,
+        "model_errors": 26,
+        "heuristics": {
+          "always_first_mention": {
+            "correct": 24,
+            "agreement": 22,
+            "error_agreement": 12
+          },
+          "always_last_mention": {
+            "correct": 24,
+            "agreement": 26,
+            "error_agreement": 14
+          },
+          "first_mention_as_actor": {
+            "correct": 0,
+            "agreement": 26,
+            "error_agreement": 26
+          },
+          "last_mention_as_actor": {
+            "correct": 48,
+            "agreement": 22,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_actor": {
+            "correct": 0,
+            "agreement": 26,
+            "error_agreement": 26
+          },
+          "event_grammatical_subject_as_patient": {
+            "correct": 48,
+            "agreement": 22,
+            "error_agreement": 0
+          }
+        }
+      },
+      "object_cleft": {
+        "n": 48,
+        "model_errors": 25,
+        "heuristics": {
+          "always_first_mention": {
+            "correct": 24,
+            "agreement": 47,
+            "error_agreement": 24
+          },
+          "always_last_mention": {
+            "correct": 24,
+            "agreement": 1,
+            "error_agreement": 1
+          },
+          "first_mention_as_actor": {
+            "correct": 0,
+            "agreement": 25,
+            "error_agreement": 25
+          },
+          "last_mention_as_actor": {
+            "correct": 48,
+            "agreement": 23,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_actor": {
+            "correct": 48,
+            "agreement": 23,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_patient": {
+            "correct": 0,
+            "agreement": 25,
+            "error_agreement": 25
+          }
+        }
+      },
+      "subject_cleft": {
+        "n": 48,
+        "model_errors": 15,
+        "heuristics": {
+          "always_first_mention": {
+            "correct": 24,
+            "agreement": 39,
+            "error_agreement": 15
+          },
+          "always_last_mention": {
+            "correct": 24,
+            "agreement": 9,
+            "error_agreement": 0
+          },
+          "first_mention_as_actor": {
+            "correct": 48,
+            "agreement": 33,
+            "error_agreement": 0
+          },
+          "last_mention_as_actor": {
+            "correct": 0,
+            "agreement": 15,
+            "error_agreement": 15
+          },
+          "event_grammatical_subject_as_actor": {
+            "correct": 48,
+            "agreement": 33,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_patient": {
+            "correct": 0,
+            "agreement": 15,
+            "error_agreement": 15
+          }
+        }
+      }
+    },
+    "qwen7b": {
+      "active": {
+        "n": 48,
+        "model_errors": 0,
+        "heuristics": {
+          "always_first_mention": {
+            "correct": 24,
+            "agreement": 24,
+            "error_agreement": 0
+          },
+          "always_last_mention": {
+            "correct": 24,
+            "agreement": 24,
+            "error_agreement": 0
+          },
+          "first_mention_as_actor": {
+            "correct": 48,
+            "agreement": 48,
+            "error_agreement": 0
+          },
+          "last_mention_as_actor": {
+            "correct": 0,
+            "agreement": 0,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_actor": {
+            "correct": 48,
+            "agreement": 48,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_patient": {
+            "correct": 0,
+            "agreement": 0,
+            "error_agreement": 0
+          }
+        }
+      },
+      "passive": {
+        "n": 48,
+        "model_errors": 6,
+        "heuristics": {
+          "always_first_mention": {
+            "correct": 24,
+            "agreement": 30,
+            "error_agreement": 6
+          },
+          "always_last_mention": {
+            "correct": 24,
+            "agreement": 18,
+            "error_agreement": 0
+          },
+          "first_mention_as_actor": {
+            "correct": 0,
+            "agreement": 6,
+            "error_agreement": 6
+          },
+          "last_mention_as_actor": {
+            "correct": 48,
+            "agreement": 42,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_actor": {
+            "correct": 0,
+            "agreement": 6,
+            "error_agreement": 6
+          },
+          "event_grammatical_subject_as_patient": {
+            "correct": 48,
+            "agreement": 42,
+            "error_agreement": 0
+          }
+        }
+      },
+      "object_cleft": {
+        "n": 48,
+        "model_errors": 13,
+        "heuristics": {
+          "always_first_mention": {
+            "correct": 24,
+            "agreement": 11,
+            "error_agreement": 0
+          },
+          "always_last_mention": {
+            "correct": 24,
+            "agreement": 36,
+            "error_agreement": 12
+          },
+          "first_mention_as_actor": {
+            "correct": 0,
+            "agreement": 12,
+            "error_agreement": 12
+          },
+          "last_mention_as_actor": {
+            "correct": 48,
+            "agreement": 35,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_actor": {
+            "correct": 48,
+            "agreement": 35,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_patient": {
+            "correct": 0,
+            "agreement": 12,
+            "error_agreement": 12
+          }
+        }
+      },
+      "subject_cleft": {
+        "n": 48,
+        "model_errors": 1,
+        "heuristics": {
+          "always_first_mention": {
+            "correct": 24,
+            "agreement": 23,
+            "error_agreement": 0
+          },
+          "always_last_mention": {
+            "correct": 24,
+            "agreement": 25,
+            "error_agreement": 1
+          },
+          "first_mention_as_actor": {
+            "correct": 48,
+            "agreement": 47,
+            "error_agreement": 0
+          },
+          "last_mention_as_actor": {
+            "correct": 0,
+            "agreement": 1,
+            "error_agreement": 1
+          },
+          "event_grammatical_subject_as_actor": {
+            "correct": 48,
+            "agreement": 47,
+            "error_agreement": 0
+          },
+          "event_grammatical_subject_as_patient": {
+            "correct": 0,
+            "agreement": 1,
+            "error_agreement": 1
+          }
+        }
+      }
+    }
+  },
+  "validation": {
+    "old_source_hashes_unchanged": true,
+    "source_lock": {
+      "PROTOCOL.json": "4cb3044866e259ed5bf0c25f08787a6809563a854d80fcb22997eb9151573a17",
+      "design.py": "576d40a09f6d4391ecc04fc07ec6265232fc37b0698f15f6a442590616f7b765",
+      "run.py": "77af78bffab8dcbb1a1ad3b18adf0712b3a43de074755e4b76f0a6697198d7f4"
+    },
+    "closed_manifest_sha256": "e92e75dec4c73ce3bd92295f76096c2b9b41c1057d50fbc390335fd5333340dd",
+    "raw_record_count": 3456,
+    "new_review_inference_count": 0,
+    "closed_files_unchanged": 37,
+    "identical_prompt_text_and_token_ids_across_sizes": true,
+    "note": "No sealed data, no new reviewed-set evaluation, no fine-tuning; closure manifest unchanged. Bootstrap intervals are conditional on only six reused name pairs."
+  },
+  "individual_transitions": {
+    "qwen05": {
+      "note": "legacy to strong changes BOTH wording and answer interface and removes candidates; cannot isolate a cause",
+      "newly_correct": [
+        {
+          "id": "p0-nudged-d0",
+          "form": "subject_cleft",
+          "role": "patient",
+          "before": "Amy",
+          "after": "Ben"
+        },
+        {
+          "id": "p1-tagged-d1",
+          "form": "active",
+          "role": "patient",
+          "before": "Jane",
+          "after": "Fred"
+        },
+        {
+          "id": "p1-tagged-d1",
+          "form": "subject_cleft",
+          "role": "patient",
+          "before": "Jane",
+          "after": "Fred"
+        },
+        {
+          "id": "p2-pulled-d1",
+          "form": "active",
+          "role": "patient",
+          "before": "Rose",
+          "after": "Mark"
+        },
+        {
+          "id": "p2-pulled-d1",
+          "form": "subject_cleft",
+          "role": "patient",
+          "before": "Rose",
+          "after": "Mark"
+        },
+        {
+          "id": "p3-nudged-d0",
+          "form": "active",
+          "role": "actor",
+          "before": "Dan",
+          "after": "Bill"
+        },
+        {
+          "id": "p3-nudged-d0",
+          "form": "object_cleft",
+          "role": "actor",
+          "before": "Dan",
+          "after": "Bill"
+        },
+        {
+          "id": "p3-nudged-d1",
+          "form": "subject_cleft",
+          "role": "patient",
+          "before": "Dan",
+          "after": "Bill"
+        },
+        {
+          "id": "p4-tagged-d0",
+          "form": "subject_cleft",
+          "role": "patient",
+          "before": "Carl",
+          "after": "Matt"
+        },
+        {
+          "id": "p5-pulled-d1",
+          "form": "subject_cleft",
+          "role": "patient",
+          "before": "Susan",
+          "after": "David"
+        }
+      ],
+      "newly_wrong": [
+        {
+          "id": "p0-nudged-d0",
+          "form": "subject_cleft",
+          "role": "actor",
+          "before": "Amy",
+          "after": "Ben"
+        },
+        {
+          "id": "p2-pulled-d0",
+          "form": "active",
+          "role": "patient",
+          "before": "Rose",
+          "after": "Mark was pulled by someone in this sentence."
+        },
+        {
+          "id": "p2-pulled-d0",
+          "form": "subject_cleft",
+          "role": "patient",
+          "before": "Rose",
+          "after": "Mark"
+        },
+        {
+          "id": "p2-pulled-d1",
+          "form": "active",
+          "role": "actor",
+          "before": "Rose",
+          "after": "Mark"
+        },
+        {
+          "id": "p3-nudged-d0",
+          "form": "object_cleft",
+          "role": "patient",
+          "before": "Dan",
+          "after": "Bill"
+        },
+        {
+          "id": "p4-tagged-d0",
+          "form": "active",
+          "role": "actor",
+          "before": "Carl",
+          "after": "Matt"
+        },
+        {
+          "id": "p4-tagged-d0",
+          "form": "object_cleft",
+          "role": "actor",
+          "before": "Carl",
+          "after": "Matt"
+        },
+        {
+          "id": "p4-tagged-d0",
+          "form": "subject_cleft",
+          "role": "actor",
+          "before": "Carl",
+          "after": "Matt"
+        },
+        {
+          "id": "p5-pulled-d0",
+          "form": "active",
+          "role": "actor",
+          "before": "David",
+          "after": "Susan"
+        },
+        {
+          "id": "p5-pulled-d0",
+          "form": "subject_cleft",
+          "role": "actor",
+          "before": "David",
+          "after": "Susan"
+        },
+        {
+          "id": "p5-pulled-d1",
+          "form": "subject_cleft",
+          "role": "actor",
+          "before": "Susan",
+          "after": "David"
+        }
+      ]
+    },
+    "qwen15": {
+      "note": "legacy to strong changes BOTH wording and answer interface and removes candidates; cannot isolate a cause",
+      "newly_correct": [
+        {
+          "id": "p0-nudged-d0",
+          "form": "object_cleft",
+          "role": "patient",
+          "before": "Amy",
+          "after": "Ben"
+        },
+        {
+          "id": "p0-nudged-d1",
+          "form": "object_cleft",
+          "role": "patient",
+          "before": "Ben",
+          "after": "Amy"
+        },
+        {
+          "id": "p1-tagged-d0",
+          "form": "passive",
+          "role": "patient",
+          "before": "Fred",
+          "after": "Jane"
+        },
+        {
+          "id": "p1-tagged-d0",
+          "form": "object_cleft",
+          "role": "patient",
+          "before": "Fred",
+          "after": "Jane"
+        },
+        {
+          "id": "p2-pulled-d1",
+          "form": "object_cleft",
+          "role": "patient",
+          "before": "Rose",
+          "after": "Mark"
+        },
+        {
+          "id": "p3-nudged-d1",
+          "form": "object_cleft",
+          "role": "patient",
+          "before": "Dan",
+          "after": "Bill"
+        },
+        {
+          "id": "p4-tagged-d0",
+          "form": "passive",
+          "role": "patient",
+          "before": "Carl",
+          "after": "Matt"
+        },
+        {
+          "id": "p4-tagged-d0",
+          "form": "object_cleft",
+          "role": "patient",
+          "before": "Carl",
+          "after": "Matt"
+        },
+        {
+          "id": "p5-pulled-d1",
+          "form": "object_cleft",
+          "role": "patient",
+          "before": "Susan",
+          "after": "David"
+        }
+      ],
+      "newly_wrong": [
+        {
+          "id": "p0-nudged-d0",
+          "form": "active",
+          "role": "actor",
+          "before": "Amy",
+          "after": "Ben"
+        },
+        {
+          "id": "p0-nudged-d1",
+          "form": "object_cleft",
+          "role": "actor",
+          "before": "Ben",
+          "after": "Amy"
+        },
+        {
+          "id": "p1-tagged-d0",
+          "form": "active",
+          "role": "patient",
+          "before": "Jane",
+          "after": "Fred"
+        },
+        {
+          "id": "p1-tagged-d0",
+          "form": "passive",
+          "role": "actor",
+          "before": "Fred",
+          "after": "Jane"
+        },
+        {
+          "id": "p1-tagged-d0",
+          "form": "object_cleft",
+          "role": "actor",
+          "before": "Fred",
+          "after": "Jane"
+        },
+        {
+          "id": "p1-tagged-d0",
+          "form": "subject_cleft",
+          "role": "patient",
+          "before": "Jane",
+          "after": "Fred"
+        },
+        {
+          "id": "p1-tagged-d1",
+          "form": "active",
+          "role": "patient",
+          "before": "Fred",
+          "after": "Jane"
+        },
+        {
+          "id": "p1-tagged-d1",
+          "form": "passive",
+          "role": "patient",
+          "before": "Fred",
+          "after": "Jane"
+        },
+        {
+          "id": "p1-tagged-d1",
+          "form": "subject_cleft",
+          "role": "patient",
+          "before": "Fred",
+          "after": "Jane"
+        },
+        {
+          "id": "p2-pulled-d0",
+          "form": "passive",
+          "role": "patient",
+          "before": "Rose",
+          "after": "Mark"
+        },
+        {
+          "id": "p2-pulled-d0",
+          "form": "object_cleft",
+          "role": "actor",
+          "before": "Mark",
+          "after": "Rose"
+        },
+        {
+          "id": "p2-pulled-d1",
+          "form": "subject_cleft",
+          "role": "patient",
+          "before": "Mark",
+          "after": "Rose"
+        },
+        {
+          "id": "p3-nudged-d0",
+          "form": "active",
+          "role": "actor",
+          "before": "Bill",
+          "after": "Bill nudged Dan."
+        },
+        {
+          "id": "p3-nudged-d1",
+          "form": "active",
+          "role": "actor",
+          "before": "Dan",
+          "after": "Dan nudged Bill."
+        },
+        {
+          "id": "p4-tagged-d0",
+          "form": "active",
+          "role": "patient",
+          "before": "Matt",
+          "after": "Carl"
+        },
+        {
+          "id": "p4-tagged-d0",
+          "form": "passive",
+          "role": "actor",
+          "before": "Carl",
+          "after": "Matt"
+        },
+        {
+          "id": "p4-tagged-d0",
+          "form": "object_cleft",
+          "role": "actor",
+          "before": "Carl",
+          "after": "Matt"
+        },
+        {
+          "id": "p4-tagged-d0",
+          "form": "subject_cleft",
+          "role": "patient",
+          "before": "Matt",
+          "after": "Carl"
+        },
+        {
+          "id": "p4-tagged-d1",
+          "form": "active",
+          "role": "patient",
+          "before": "Carl",
+          "after": "Matt"
+        },
+        {
+          "id": "p4-tagged-d1",
+          "form": "passive",
+          "role": "patient",
+          "before": "Carl",
+          "after": "Matt"
+        },
+        {
+          "id": "p4-tagged-d1",
+          "form": "subject_cleft",
+          "role": "patient",
+          "before": "Carl",
+          "after": "Matt"
+        },
+        {
+          "id": "p5-pulled-d0",
+          "form": "object_cleft",
+          "role": "actor",
+          "before": "David",
+          "after": "Susan"
+        },
+        {
+          "id": "p5-pulled-d1",
+          "form": "object_cleft",
+          "role": "actor",
+          "before": "Susan",
+          "after": "David"
+        },
+        {
+          "id": "p5-pulled-d1",
+          "form": "subject_cleft",
+          "role": "patient",
+          "before": "David",
+          "after": "Susan"
+        }
+      ]
+    },
+    "qwen7b": {
+      "note": "legacy to strong changes BOTH wording and answer interface and removes candidates; cannot isolate a cause",
+      "newly_correct": [
+        {
+          "id": "p0-nudged-d0",
+          "form": "passive",
+          "role": "patient",
+          "before": "Amy",
+          "after": "Ben"
+        },
+        {
+          "id": "p0-nudged-d1",
+          "form": "passive",
+          "role": "patient",
+          "before": "Ben",
+          "after": "Amy"
+        },
+        {
+          "id": "p1-tagged-d0",
+          "form": "passive",
+          "role": "patient",
+          "before": "Fred",
+          "after": "Jane"
+        },
+        {
+          "id": "p1-tagged-d1",
+          "form": "passive",
+          "role": "patient",
+          "before": "Jane",
+          "after": "Fred"
+        },
+        {
+          "id": "p1-tagged-d1",
+          "form": "object_cleft",
+          "role": "actor",
+          "before": "Fred",
+          "after": "Jane"
+        },
+        {
+          "id": "p2-pulled-d0",
+          "form": "passive",
+          "role": "patient",
+          "before": "Mark",
+          "after": "Rose"
+        },
+        {
+          "id": "p2-pulled-d1",
+          "form": "passive",
+          "role": "patient",
+          "before": "Rose",
+          "after": "Mark"
+        },
+        {
+          "id": "p2-pulled-d1",
+          "form": "object_cleft",
+          "role": "actor",
+          "before": "Mark",
+          "after": "Rose"
+        },
+        {
+          "id": "p3-nudged-d1",
+          "form": "passive",
+          "role": "patient",
+          "before": "Dan",
+          "after": "Bill"
+        },
+        {
+          "id": "p4-tagged-d0",
+          "form": "passive",
+          "role": "patient",
+          "before": "Carl",
+          "after": "Matt"
+        },
+        {
+          "id": "p4-tagged-d0",
+          "form": "object_cleft",
+          "role": "actor",
+          "before": "Matt",
+          "after": "Carl"
+        },
+        {
+          "id": "p4-tagged-d1",
+          "form": "passive",
+          "role": "patient",
+          "before": "Matt",
+          "after": "Carl"
+        },
+        {
+          "id": "p5-pulled-d0",
+          "form": "passive",
+          "role": "patient",
+          "before": "David",
+          "after": "Susan"
+        },
+        {
+          "id": "p5-pulled-d1",
+          "form": "passive",
+          "role": "patient",
+          "before": "Susan",
+          "after": "David"
+        },
+        {
+          "id": "p5-pulled-d1",
+          "form": "object_cleft",
+          "role": "actor",
+          "before": "David",
+          "after": "Susan"
+        }
+      ],
+      "newly_wrong": [
+        {
+          "id": "p1-tagged-d0",
+          "form": "object_cleft",
+          "role": "patient",
+          "before": "Jane",
+          "after": "Fred"
+        },
+        {
+          "id": "p1-tagged-d0",
+          "form": "subject_cleft",
+          "role": "actor",
+          "before": "Fred",
+          "after": "Jane"
+        },
+        {
+          "id": "p1-tagged-d1",
+          "form": "passive",
+          "role": "actor",
+          "before": "Jane",
+          "after": "Fred"
+        },
+        {
+          "id": "p2-pulled-d1",
+          "form": "object_cleft",
+          "role": "patient",
+          "before": "Mark",
+          "after": "Rose"
+        },
+        {
+          "id": "p3-nudged-d0",
+          "form": "passive",
+          "role": "actor",
+          "before": "Bill",
+          "after": "Dan"
+        },
+        {
+          "id": "p4-tagged-d1",
+          "form": "object_cleft",
+          "role": "patient",
+          "before": "Carl",
+          "after": "Matt"
+        },
+        {
+          "id": "p5-pulled-d1",
+          "form": "object_cleft",
+          "role": "patient",
+          "before": "David",
+          "after": "Susan pulled David."
+        }
+      ]
+    }
+  },
+  "paired_model_transitions": {
+    "legacy/active": {
+      "n": 144,
+      "newly_correct": [
+        "legacy|p1-nudged-d1|active|actor_performed|actor|ab",
+        "legacy|p2-nudged-d0|active|actor_acted|actor|ab",
+        "legacy|p2-nudged-d1|active|actor_performed|actor|ab",
+        "legacy|p2-pulled-d0|active|actor_acted|actor|ab",
+        "legacy|p3-tagged-d1|active|patient_verb|patient|ab",
+        "legacy|p4-nudged-d1|active|actor_performed|actor|ab",
+        "legacy|p4-pulled-d1|active|actor_performed|actor|ab"
+      ],
+      "newly_wrong": [
+        "legacy|p0-nudged-d1|active|actor_acted|actor|ab",
+        "legacy|p0-tagged-d0|active|actor_acted|actor|ab",
+        "legacy|p0-tagged-d1|active|actor_acted|actor|ab",
+        "legacy|p1-nudged-d0|active|actor_acted|actor|ab",
+        "legacy|p1-tagged-d1|active|actor_acted|actor|ab",
+        "legacy|p2-tagged-d1|active|actor_acted|actor|ab",
+        "legacy|p2-pulled-d1|active|actor_acted|actor|ab",
+        "legacy|p3-nudged-d1|active|actor_acted|actor|ab",
+        "legacy|p3-tagged-d0|active|actor_acted|actor|ab",
+        "legacy|p3-pulled-d1|active|actor_acted|actor|ab",
+        "legacy|p4-nudged-d0|active|actor_acted|actor|ab",
+        "legacy|p5-nudged-d0|active|actor_acted|actor|ab",
+        "legacy|p5-tagged-d1|active|actor_acted|actor|ab"
+      ]
+    },
+    "legacy/passive": {
+      "n": 144,
+      "newly_correct": [
+        "legacy|p0-nudged-d0|passive|patient_affected|patient|ab",
+        "legacy|p0-tagged-d0|passive|patient_affected|patient|ab",
+        "legacy|p0-pulled-d0|passive|patient_affected|patient|ab",
+        "legacy|p1-nudged-d0|passive|patient_affected|patient|ab",
+        "legacy|p1-nudged-d1|passive|patient_affected|patient|ab",
+        "legacy|p1-tagged-d0|passive|patient_affected|patient|ab",
+        "legacy|p1-tagged-d1|passive|actor_performed|actor|ab",
+        "legacy|p1-pulled-d0|passive|patient_affected|patient|ab",
+        "legacy|p2-nudged-d1|passive|patient_affected|patient|ab",
+        "legacy|p2-tagged-d0|passive|patient_affected|patient|ab",
+        "legacy|p2-tagged-d1|passive|patient_affected|patient|ab",
+        "legacy|p2-pulled-d0|passive|patient_affected|patient|ab",
+        "legacy|p2-pulled-d1|passive|patient_affected|patient|ab",
+        "legacy|p3-nudged-d0|passive|patient_verb|patient|ab",
+        "legacy|p3-nudged-d0|passive|patient_affected|patient|ab",
+        "legacy|p3-nudged-d1|passive|patient_affected|patient|ab",
+        "legacy|p3-tagged-d0|passive|patient_affected|patient|ab",
+        "legacy|p3-tagged-d1|passive|actor_performed|actor|ab",
+        "legacy|p3-tagged-d1|passive|patient_affected|patient|ab",
+        "legacy|p3-pulled-d0|passive|patient_affected|patient|ab",
+        "legacy|p3-pulled-d1|passive|patient_affected|patient|ab",
+        "legacy|p4-nudged-d0|passive|patient_verb|patient|ab",
+        "legacy|p4-nudged-d0|passive|patient_affected|patient|ab",
+        "legacy|p4-nudged-d1|passive|actor_performed|actor|ab",
+        "legacy|p4-nudged-d1|passive|patient_affected|patient|ab",
+        "legacy|p4-tagged-d0|passive|patient_affected|patient|ab",
+        "legacy|p4-tagged-d1|passive|actor_performed|actor|ab",
+        "legacy|p4-pulled-d0|passive|patient_verb|patient|ab",
+        "legacy|p4-pulled-d0|passive|patient_affected|patient|ab",
+        "legacy|p4-pulled-d1|passive|patient_affected|patient|ab",
+        "legacy|p5-nudged-d0|passive|patient_affected|patient|ab",
+        "legacy|p5-nudged-d1|passive|patient_affected|patient|ab",
+        "legacy|p5-tagged-d0|passive|patient_affected|patient|ab",
+        "legacy|p5-tagged-d1|passive|actor_performed|actor|ab",
+        "legacy|p5-tagged-d1|passive|patient_affected|patient|ab",
+        "legacy|p5-pulled-d0|passive|patient_affected|patient|ab",
+        "legacy|p5-pulled-d1|passive|patient_affected|patient|ab"
+      ],
+      "newly_wrong": [
+        "legacy|p0-tagged-d1|passive|patient_verb|patient|ab",
+        "legacy|p0-pulled-d1|passive|patient_verb|patient|ab",
+        "legacy|p1-tagged-d1|passive|patient_verb|patient|ab",
+        "legacy|p2-tagged-d0|passive|patient_verb|patient|ab",
+        "legacy|p2-pulled-d0|passive|patient_verb|patient|ab",
+        "legacy|p3-tagged-d0|passive|patient_verb|patient|ab",
+        "legacy|p3-tagged-d1|passive|patient_verb|patient|ab",
+        "legacy|p3-pulled-d1|passive|patient_verb|patient|ab",
+        "legacy|p4-nudged-d1|passive|patient_verb|patient|ab",
+        "legacy|p4-tagged-d1|passive|patient_verb|patient|ab",
+        "legacy|p4-pulled-d1|passive|patient_verb|patient|ab",
+        "legacy|p5-nudged-d0|passive|patient_verb|patient|ab",
+        "legacy|p5-tagged-d0|passive|patient_verb|patient|ab",
+        "legacy|p5-tagged-d1|passive|patient_verb|patient|ab",
+        "legacy|p5-pulled-d0|passive|patient_verb|patient|ab"
+      ]
+    },
+    "legacy/object_cleft": {
+      "n": 144,
+      "newly_correct": [
+        "legacy|p0-nudged-d0|object_cleft|actor_performed|actor|ab",
+        "legacy|p0-nudged-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p0-tagged-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p0-pulled-d0|object_cleft|patient_verb|patient|ab",
+        "legacy|p0-pulled-d0|object_cleft|patient_affected|patient|ab",
+        "legacy|p0-pulled-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p1-nudged-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p1-tagged-d0|object_cleft|patient_verb|patient|ab",
+        "legacy|p1-tagged-d0|object_cleft|patient_affected|patient|ab",
+        "legacy|p1-tagged-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p1-pulled-d0|object_cleft|patient_verb|patient|ab",
+        "legacy|p1-pulled-d0|object_cleft|patient_affected|patient|ab",
+        "legacy|p1-pulled-d1|object_cleft|patient_verb|patient|ab",
+        "legacy|p2-nudged-d0|object_cleft|actor_performed|actor|ab",
+        "legacy|p2-nudged-d0|object_cleft|actor_acted|actor|ab",
+        "legacy|p2-nudged-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p2-tagged-d0|object_cleft|actor_performed|actor|ab",
+        "legacy|p2-tagged-d1|object_cleft|patient_verb|patient|ab",
+        "legacy|p2-tagged-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p2-pulled-d0|object_cleft|actor_acted|actor|ab",
+        "legacy|p2-pulled-d1|object_cleft|patient_verb|patient|ab",
+        "legacy|p2-pulled-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p3-nudged-d0|object_cleft|actor_performed|actor|ab",
+        "legacy|p3-nudged-d1|object_cleft|actor_performed|actor|ab",
+        "legacy|p3-nudged-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p3-tagged-d1|object_cleft|actor_performed|actor|ab",
+        "legacy|p3-tagged-d1|object_cleft|patient_verb|patient|ab",
+        "legacy|p3-tagged-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p3-pulled-d1|object_cleft|actor_performed|actor|ab",
+        "legacy|p3-pulled-d1|object_cleft|patient_verb|patient|ab",
+        "legacy|p3-pulled-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p4-nudged-d0|object_cleft|patient_affected|patient|ab",
+        "legacy|p4-nudged-d1|object_cleft|actor_performed|actor|ab",
+        "legacy|p4-nudged-d1|object_cleft|patient_verb|patient|ab",
+        "legacy|p4-nudged-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p4-tagged-d0|object_cleft|patient_verb|patient|ab",
+        "legacy|p4-tagged-d0|object_cleft|patient_affected|patient|ab",
+        "legacy|p4-tagged-d1|object_cleft|actor_performed|actor|ab",
+        "legacy|p4-tagged-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p4-pulled-d0|object_cleft|patient_verb|patient|ab",
+        "legacy|p4-pulled-d0|object_cleft|patient_affected|patient|ab",
+        "legacy|p4-pulled-d1|object_cleft|actor_performed|actor|ab",
+        "legacy|p4-pulled-d1|object_cleft|actor_acted|actor|ab",
+        "legacy|p4-pulled-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p5-nudged-d0|object_cleft|actor_performed|actor|ab",
+        "legacy|p5-nudged-d0|object_cleft|actor_acted|actor|ab",
+        "legacy|p5-nudged-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p5-tagged-d0|object_cleft|actor_acted|actor|ab",
+        "legacy|p5-tagged-d1|object_cleft|patient_verb|patient|ab",
+        "legacy|p5-tagged-d1|object_cleft|patient_affected|patient|ab",
+        "legacy|p5-pulled-d0|object_cleft|actor_acted|actor|ab",
+        "legacy|p5-pulled-d1|object_cleft|patient_verb|patient|ab",
+        "legacy|p5-pulled-d1|object_cleft|patient_affected|patient|ab"
+      ],
+      "newly_wrong": [
+        "legacy|p0-tagged-d1|object_cleft|actor_acted|actor|ab",
+        "legacy|p1-tagged-d1|object_cleft|patient_verb|patient|ab",
+        "legacy|p2-nudged-d1|object_cleft|actor_acted|actor|ab",
+        "legacy|p2-tagged-d1|object_cleft|actor_acted|actor|ab",
+        "legacy|p2-pulled-d1|object_cleft|actor_acted|actor|ab",
+        "legacy|p3-nudged-d0|object_cleft|patient_verb|patient|ab",
+        "legacy|p3-nudged-d1|object_cleft|actor_acted|actor|ab",
+        "legacy|p3-tagged-d1|object_cleft|actor_acted|actor|ab",
+        "legacy|p4-nudged-d0|object_cleft|actor_acted|actor|ab",
+        "legacy|p4-tagged-d0|object_cleft|actor_performed|actor|ab",
+        "legacy|p4-tagged-d0|object_cleft|actor_acted|actor|ab",
+        "legacy|p4-pulled-d0|object_cleft|actor_acted|actor|ab",
+        "legacy|p5-nudged-d1|object_cleft|actor_acted|actor|ab",
+        "legacy|p5-tagged-d1|object_cleft|actor_acted|actor|ab",
+        "legacy|p5-pulled-d1|object_cleft|actor_performed|actor|ab",
+        "legacy|p5-pulled-d1|object_cleft|actor_acted|actor|ab"
+      ]
+    },
+    "legacy/subject_cleft": {
+      "n": 144,
+      "newly_correct": [
+        "legacy|p0-tagged-d0|subject_cleft|patient_verb|patient|ab",
+        "legacy|p1-nudged-d1|subject_cleft|actor_acted|actor|ab",
+        "legacy|p2-tagged-d1|subject_cleft|patient_verb|patient|ab",
+        "legacy|p2-tagged-d1|subject_cleft|patient_affected|patient|ab",
+        "legacy|p2-pulled-d1|subject_cleft|patient_affected|patient|ab",
+        "legacy|p4-nudged-d1|subject_cleft|actor_acted|actor|ab"
+      ],
+      "newly_wrong": []
+    },
+    "strong_free/active": {
+      "n": 48,
+      "newly_correct": [
+        "strong_free|p0-nudged-d0|active|lexical|actor|none",
+        "strong_free|p1-tagged-d0|active|lexical|patient|none",
+        "strong_free|p1-tagged-d1|active|lexical|patient|none",
+        "strong_free|p3-nudged-d0|active|lexical|actor|none",
+        "strong_free|p3-nudged-d1|active|lexical|actor|none",
+        "strong_free|p4-tagged-d0|active|lexical|patient|none",
+        "strong_free|p4-tagged-d1|active|lexical|patient|none"
+      ],
+      "newly_wrong": []
+    },
+    "strong_list/active": {
+      "n": 96,
+      "newly_correct": [
+        "strong_list|p0-nudged-d0|active|lexical|actor|ab",
+        "strong_list|p0-nudged-d0|active|lexical|actor|ba",
+        "strong_list|p0-nudged-d0|active|explicit|actor|ab",
+        "strong_list|p0-nudged-d0|active|explicit|actor|ba",
+        "strong_list|p0-nudged-d1|active|lexical|patient|ab",
+        "strong_list|p1-tagged-d0|active|lexical|patient|ab",
+        "strong_list|p1-tagged-d0|active|lexical|patient|ba",
+        "strong_list|p1-tagged-d0|active|explicit|patient|ab",
+        "strong_list|p1-tagged-d0|active|explicit|patient|ba",
+        "strong_list|p1-tagged-d1|active|lexical|patient|ab",
+        "strong_list|p1-tagged-d1|active|lexical|patient|ba",
+        "strong_list|p1-tagged-d1|active|explicit|patient|ab",
+        "strong_list|p1-tagged-d1|active|explicit|patient|ba",
+        "strong_list|p2-pulled-d0|active|lexical|actor|ba",
+        "strong_list|p4-tagged-d0|active|lexical|patient|ba",
+        "strong_list|p4-tagged-d0|active|explicit|patient|ba",
+        "strong_list|p4-tagged-d1|active|lexical|patient|ab",
+        "strong_list|p4-tagged-d1|active|lexical|patient|ba",
+        "strong_list|p4-tagged-d1|active|explicit|patient|ab",
+        "strong_list|p5-pulled-d0|active|lexical|actor|ba",
+        "strong_list|p5-pulled-d1|active|explicit|patient|ba"
+      ],
+      "newly_wrong": []
+    },
+    "strong_free/passive": {
+      "n": 48,
+      "newly_correct": [
+        "strong_free|p0-nudged-d0|passive|lexical|patient|none",
+        "strong_free|p0-nudged-d1|passive|lexical|patient|none",
+        "strong_free|p0-nudged-d1|passive|explicit|patient|none",
+        "strong_free|p1-tagged-d0|passive|lexical|actor|none",
+        "strong_free|p1-tagged-d0|passive|explicit|actor|none",
+        "strong_free|p1-tagged-d1|passive|lexical|patient|none",
+        "strong_free|p1-tagged-d1|passive|explicit|patient|none",
+        "strong_free|p2-pulled-d0|passive|lexical|patient|none",
+        "strong_free|p2-pulled-d1|passive|lexical|patient|none",
+        "strong_free|p2-pulled-d1|passive|explicit|patient|none",
+        "strong_free|p3-nudged-d0|passive|lexical|patient|none",
+        "strong_free|p3-nudged-d0|passive|explicit|patient|none",
+        "strong_free|p3-nudged-d1|passive|lexical|patient|none",
+        "strong_free|p3-nudged-d1|passive|explicit|actor|none",
+        "strong_free|p4-tagged-d0|passive|lexical|actor|none",
+        "strong_free|p4-tagged-d1|passive|lexical|actor|none",
+        "strong_free|p4-tagged-d1|passive|lexical|patient|none",
+        "strong_free|p4-tagged-d1|passive|explicit|actor|none",
+        "strong_free|p5-pulled-d0|passive|explicit|actor|none",
+        "strong_free|p5-pulled-d1|passive|lexical|patient|none",
+        "strong_free|p5-pulled-d1|passive|explicit|patient|none"
+      ],
+      "newly_wrong": [
+        "strong_free|p3-nudged-d0|passive|lexical|actor|none"
+      ]
+    },
+    "strong_list/passive": {
+      "n": 96,
+      "newly_correct": [
+        "strong_list|p0-nudged-d0|passive|lexical|actor|ab",
+        "strong_list|p0-nudged-d0|passive|lexical|actor|ba",
+        "strong_list|p0-nudged-d0|passive|explicit|actor|ab",
+        "strong_list|p0-nudged-d0|passive|explicit|actor|ba",
+        "strong_list|p0-nudged-d1|passive|lexical|patient|ab",
+        "strong_list|p0-nudged-d1|passive|lexical|patient|ba",
+        "strong_list|p0-nudged-d1|passive|explicit|patient|ab",
+        "strong_list|p1-tagged-d0|passive|lexical|actor|ab",
+        "strong_list|p1-tagged-d0|passive|lexical|actor|ba",
+        "strong_list|p1-tagged-d0|passive|explicit|actor|ab",
+        "strong_list|p1-tagged-d0|passive|explicit|actor|ba",
+        "strong_list|p1-tagged-d1|passive|explicit|actor|ab",
+        "strong_list|p2-pulled-d0|passive|lexical|actor|ba",
+        "strong_list|p2-pulled-d0|passive|lexical|patient|ab",
+        "strong_list|p2-pulled-d0|passive|explicit|actor|ba",
+        "strong_list|p2-pulled-d1|passive|lexical|patient|ab",
+        "strong_list|p2-pulled-d1|passive|lexical|patient|ba",
+        "strong_list|p2-pulled-d1|passive|explicit|actor|ab",
+        "strong_list|p2-pulled-d1|passive|explicit|actor|ba",
+        "strong_list|p2-pulled-d1|passive|explicit|patient|ab",
+        "strong_list|p2-pulled-d1|passive|explicit|patient|ba",
+        "strong_list|p3-nudged-d0|passive|lexical|actor|ab",
+        "strong_list|p3-nudged-d0|passive|explicit|actor|ab",
+        "strong_list|p3-nudged-d0|passive|explicit|actor|ba",
+        "strong_list|p3-nudged-d1|passive|lexical|actor|ba",
+        "strong_list|p3-nudged-d1|passive|lexical|patient|ab",
+        "strong_list|p3-nudged-d1|passive|explicit|actor|ab",
+        "strong_list|p3-nudged-d1|passive|explicit|actor|ba",
+        "strong_list|p4-tagged-d0|passive|lexical|actor|ab",
+        "strong_list|p4-tagged-d0|passive|lexical|actor|ba",
+        "strong_list|p4-tagged-d0|passive|explicit|actor|ba",
+        "strong_list|p4-tagged-d1|passive|lexical|actor|ba",
+        "strong_list|p4-tagged-d1|passive|lexical|patient|ab",
+        "strong_list|p4-tagged-d1|passive|explicit|actor|ab",
+        "strong_list|p4-tagged-d1|passive|explicit|actor|ba",
+        "strong_list|p5-pulled-d0|passive|lexical|actor|ba",
+        "strong_list|p5-pulled-d0|passive|explicit|actor|ba",
+        "strong_list|p5-pulled-d1|passive|lexical|patient|ba",
+        "strong_list|p5-pulled-d1|passive|explicit|actor|ab",
+        "strong_list|p5-pulled-d1|passive|explicit|patient|ba"
+      ],
+      "newly_wrong": [
+        "strong_list|p0-nudged-d0|passive|lexical|patient|ba"
+      ]
+    },
+    "strong_free/object_cleft": {
+      "n": 48,
+      "newly_correct": [
+        "strong_free|p0-nudged-d0|object_cleft|lexical|actor|none",
+        "strong_free|p0-nudged-d0|object_cleft|explicit|actor|none",
+        "strong_free|p0-nudged-d1|object_cleft|lexical|actor|none",
+        "strong_free|p0-nudged-d1|object_cleft|explicit|actor|none",
+        "strong_free|p1-tagged-d0|object_cleft|lexical|actor|none",
+        "strong_free|p1-tagged-d0|object_cleft|explicit|actor|none",
+        "strong_free|p1-tagged-d1|object_cleft|lexical|actor|none",
+        "strong_free|p1-tagged-d1|object_cleft|explicit|actor|none",
+        "strong_free|p2-pulled-d0|object_cleft|lexical|actor|none",
+        "strong_free|p2-pulled-d0|object_cleft|explicit|actor|none",
+        "strong_free|p2-pulled-d1|object_cleft|lexical|actor|none",
+        "strong_free|p2-pulled-d1|object_cleft|explicit|actor|none",
+        "strong_free|p2-pulled-d1|object_cleft|explicit|patient|none",
+        "strong_free|p3-nudged-d0|object_cleft|lexical|actor|none",
+        "strong_free|p3-nudged-d0|object_cleft|explicit|actor|none",
+        "strong_free|p3-nudged-d1|object_cleft|lexical|actor|none",
+        "strong_free|p3-nudged-d1|object_cleft|explicit|actor|none",
+        "strong_free|p4-tagged-d0|object_cleft|lexical|actor|none",
+        "strong_free|p4-tagged-d0|object_cleft|explicit|actor|none",
+        "strong_free|p4-tagged-d1|object_cleft|lexical|actor|none",
+        "strong_free|p4-tagged-d1|object_cleft|explicit|actor|none",
+        "strong_free|p5-pulled-d0|object_cleft|lexical|actor|none",
+        "strong_free|p5-pulled-d0|object_cleft|explicit|actor|none",
+        "strong_free|p5-pulled-d1|object_cleft|lexical|actor|none",
+        "strong_free|p5-pulled-d1|object_cleft|explicit|actor|none"
+      ],
+      "newly_wrong": [
+        "strong_free|p0-nudged-d0|object_cleft|lexical|patient|none",
+        "strong_free|p0-nudged-d1|object_cleft|lexical|patient|none",
+        "strong_free|p1-tagged-d0|object_cleft|lexical|patient|none",
+        "strong_free|p1-tagged-d0|object_cleft|explicit|patient|none",
+        "strong_free|p1-tagged-d1|object_cleft|lexical|patient|none",
+        "strong_free|p1-tagged-d1|object_cleft|explicit|patient|none",
+        "strong_free|p2-pulled-d0|object_cleft|explicit|patient|none",
+        "strong_free|p2-pulled-d1|object_cleft|lexical|patient|none",
+        "strong_free|p3-nudged-d0|object_cleft|lexical|patient|none",
+        "strong_free|p3-nudged-d1|object_cleft|lexical|patient|none",
+        "strong_free|p4-tagged-d1|object_cleft|lexical|patient|none",
+        "strong_free|p5-pulled-d0|object_cleft|explicit|patient|none",
+        "strong_free|p5-pulled-d1|object_cleft|lexical|patient|none"
+      ]
+    },
+    "strong_list/object_cleft": {
+      "n": 96,
+      "newly_correct": [
+        "strong_list|p0-nudged-d0|object_cleft|lexical|actor|ab",
+        "strong_list|p0-nudged-d0|object_cleft|lexical|actor|ba",
+        "strong_list|p0-nudged-d0|object_cleft|explicit|actor|ab",
+        "strong_list|p0-nudged-d0|object_cleft|explicit|actor|ba",
+        "strong_list|p0-nudged-d1|object_cleft|lexical|actor|ab",
+        "strong_list|p0-nudged-d1|object_cleft|lexical|actor|ba",
+        "strong_list|p0-nudged-d1|object_cleft|explicit|actor|ab",
+        "strong_list|p0-nudged-d1|object_cleft|explicit|actor|ba",
+        "strong_list|p1-tagged-d0|object_cleft|lexical|actor|ab",
+        "strong_list|p1-tagged-d0|object_cleft|lexical|actor|ba",
+        "strong_list|p1-tagged-d0|object_cleft|explicit|actor|ab",
+        "strong_list|p1-tagged-d0|object_cleft|explicit|actor|ba",
+        "strong_list|p1-tagged-d1|object_cleft|lexical|actor|ab",
+        "strong_list|p1-tagged-d1|object_cleft|lexical|actor|ba",
+        "strong_list|p1-tagged-d1|object_cleft|explicit|actor|ab",
+        "strong_list|p1-tagged-d1|object_cleft|explicit|actor|ba",
+        "strong_list|p2-pulled-d0|object_cleft|lexical|actor|ba",
+        "strong_list|p2-pulled-d0|object_cleft|explicit|actor|ab",
+        "strong_list|p2-pulled-d0|object_cleft|explicit|actor|ba",
+        "strong_list|p2-pulled-d1|object_cleft|lexical|actor|ab",
+        "strong_list|p2-pulled-d1|object_cleft|explicit|actor|ab",
+        "strong_list|p2-pulled-d1|object_cleft|explicit|actor|ba",
+        "strong_list|p3-nudged-d0|object_cleft|lexical|actor|ab",
+        "strong_list|p3-nudged-d0|object_cleft|lexical|actor|ba",
+        "strong_list|p3-nudged-d0|object_cleft|explicit|actor|ab",
+        "strong_list|p3-nudged-d0|object_cleft|explicit|actor|ba",
+        "strong_list|p3-nudged-d1|object_cleft|lexical|actor|ab",
+        "strong_list|p3-nudged-d1|object_cleft|lexical|actor|ba",
+        "strong_list|p3-nudged-d1|object_cleft|explicit|actor|ab",
+        "strong_list|p3-nudged-d1|object_cleft|explicit|actor|ba",
+        "strong_list|p4-tagged-d0|object_cleft|lexical|actor|ba",
+        "strong_list|p4-tagged-d0|object_cleft|explicit|actor|ab",
+        "strong_list|p4-tagged-d0|object_cleft|explicit|actor|ba",
+        "strong_list|p4-tagged-d1|object_cleft|lexical|actor|ab",
+        "strong_list|p4-tagged-d1|object_cleft|lexical|actor|ba",
+        "strong_list|p4-tagged-d1|object_cleft|explicit|actor|ab",
+        "strong_list|p4-tagged-d1|object_cleft|explicit|actor|ba",
+        "strong_list|p5-pulled-d0|object_cleft|lexical|actor|ab",
+        "strong_list|p5-pulled-d0|object_cleft|lexical|actor|ba",
+        "strong_list|p5-pulled-d0|object_cleft|explicit|actor|ab",
+        "strong_list|p5-pulled-d0|object_cleft|explicit|actor|ba",
+        "strong_list|p5-pulled-d1|object_cleft|lexical|actor|ab",
+        "strong_list|p5-pulled-d1|object_cleft|explicit|actor|ab",
+        "strong_list|p5-pulled-d1|object_cleft|explicit|actor|ba"
+      ],
+      "newly_wrong": [
+        "strong_list|p0-nudged-d0|object_cleft|lexical|patient|ba",
+        "strong_list|p0-nudged-d1|object_cleft|lexical|patient|ab",
+        "strong_list|p1-tagged-d0|object_cleft|lexical|patient|ba",
+        "strong_list|p1-tagged-d1|object_cleft|lexical|patient|ab",
+        "strong_list|p2-pulled-d0|object_cleft|explicit|patient|ab",
+        "strong_list|p3-nudged-d0|object_cleft|lexical|patient|ba",
+        "strong_list|p3-nudged-d1|object_cleft|lexical|patient|ab",
+        "strong_list|p5-pulled-d0|object_cleft|explicit|patient|ab",
+        "strong_list|p5-pulled-d0|object_cleft|explicit|patient|ba"
+      ]
+    },
+    "strong_free/subject_cleft": {
+      "n": 48,
+      "newly_correct": [
+        "strong_free|p0-nudged-d1|subject_cleft|explicit|patient|none",
+        "strong_free|p1-tagged-d0|subject_cleft|lexical|patient|none",
+        "strong_free|p1-tagged-d0|subject_cleft|explicit|patient|none",
+        "strong_free|p1-tagged-d1|subject_cleft|lexical|patient|none",
+        "strong_free|p1-tagged-d1|subject_cleft|explicit|patient|none",
+        "strong_free|p2-pulled-d1|subject_cleft|lexical|patient|none",
+        "strong_free|p2-pulled-d1|subject_cleft|explicit|patient|none",
+        "strong_free|p3-nudged-d0|subject_cleft|explicit|patient|none",
+        "strong_free|p4-tagged-d0|subject_cleft|lexical|patient|none",
+        "strong_free|p4-tagged-d0|subject_cleft|explicit|patient|none",
+        "strong_free|p4-tagged-d1|subject_cleft|lexical|patient|none",
+        "strong_free|p4-tagged-d1|subject_cleft|explicit|patient|none",
+        "strong_free|p5-pulled-d0|subject_cleft|explicit|patient|none",
+        "strong_free|p5-pulled-d1|subject_cleft|lexical|patient|none",
+        "strong_free|p5-pulled-d1|subject_cleft|explicit|patient|none"
+      ],
+      "newly_wrong": [
+        "strong_free|p1-tagged-d0|subject_cleft|lexical|actor|none"
+      ]
+    },
+    "strong_list/subject_cleft": {
+      "n": 96,
+      "newly_correct": [
+        "strong_list|p0-nudged-d0|subject_cleft|lexical|patient|ba",
+        "strong_list|p0-nudged-d0|subject_cleft|explicit|patient|ba",
+        "strong_list|p0-nudged-d1|subject_cleft|lexical|patient|ab",
+        "strong_list|p0-nudged-d1|subject_cleft|lexical|patient|ba",
+        "strong_list|p0-nudged-d1|subject_cleft|explicit|patient|ab",
+        "strong_list|p0-nudged-d1|subject_cleft|explicit|patient|ba",
+        "strong_list|p1-tagged-d0|subject_cleft|lexical|patient|ab",
+        "strong_list|p1-tagged-d0|subject_cleft|lexical|patient|ba",
+        "strong_list|p1-tagged-d0|subject_cleft|explicit|patient|ab",
+        "strong_list|p1-tagged-d0|subject_cleft|explicit|patient|ba",
+        "strong_list|p1-tagged-d1|subject_cleft|lexical|patient|ab",
+        "strong_list|p1-tagged-d1|subject_cleft|lexical|patient|ba",
+        "strong_list|p1-tagged-d1|subject_cleft|explicit|patient|ab",
+        "strong_list|p1-tagged-d1|subject_cleft|explicit|patient|ba",
+        "strong_list|p2-pulled-d0|subject_cleft|lexical|patient|ba",
+        "strong_list|p2-pulled-d0|subject_cleft|explicit|patient|ab",
+        "strong_list|p2-pulled-d0|subject_cleft|explicit|patient|ba",
+        "strong_list|p2-pulled-d1|subject_cleft|lexical|patient|ab",
+        "strong_list|p2-pulled-d1|subject_cleft|lexical|patient|ba",
+        "strong_list|p2-pulled-d1|subject_cleft|explicit|patient|ab",
+        "strong_list|p2-pulled-d1|subject_cleft|explicit|patient|ba",
+        "strong_list|p3-nudged-d0|subject_cleft|lexical|patient|ba",
+        "strong_list|p3-nudged-d0|subject_cleft|explicit|patient|ab",
+        "strong_list|p3-nudged-d0|subject_cleft|explicit|patient|ba",
+        "strong_list|p3-nudged-d1|subject_cleft|lexical|patient|ab",
+        "strong_list|p3-nudged-d1|subject_cleft|explicit|patient|ab",
+        "strong_list|p3-nudged-d1|subject_cleft|explicit|patient|ba",
+        "strong_list|p4-tagged-d0|subject_cleft|lexical|patient|ab",
+        "strong_list|p4-tagged-d0|subject_cleft|lexical|patient|ba",
+        "strong_list|p4-tagged-d0|subject_cleft|explicit|patient|ab",
+        "strong_list|p4-tagged-d0|subject_cleft|explicit|patient|ba",
+        "strong_list|p4-tagged-d1|subject_cleft|lexical|patient|ab",
+        "strong_list|p4-tagged-d1|subject_cleft|lexical|patient|ba",
+        "strong_list|p4-tagged-d1|subject_cleft|explicit|patient|ab",
+        "strong_list|p4-tagged-d1|subject_cleft|explicit|patient|ba",
+        "strong_list|p5-pulled-d0|subject_cleft|lexical|patient|ba",
+        "strong_list|p5-pulled-d0|subject_cleft|explicit|patient|ab",
+        "strong_list|p5-pulled-d0|subject_cleft|explicit|patient|ba",
+        "strong_list|p5-pulled-d1|subject_cleft|lexical|patient|ab",
+        "strong_list|p5-pulled-d1|subject_cleft|lexical|patient|ba",
+        "strong_list|p5-pulled-d1|subject_cleft|explicit|patient|ab",
+        "strong_list|p5-pulled-d1|subject_cleft|explicit|patient|ba"
+      ],
+      "newly_wrong": [
+        "strong_list|p1-tagged-d0|subject_cleft|lexical|actor|ab"
+      ]
+    }
+  },
+  "archived_fp32_comparison": {
+    "qwen05": {
+      "note": "same examples and prompt construction; backend/precision changed; NOT a scaling comparison",
+      "n": 576,
+      "gains": 73,
+      "losses": 92,
+      "by_form": {
+        "active": {
+          "old_correct": 93,
+          "new_correct": 83
+        },
+        "passive": {
+          "old_correct": 72,
+          "new_correct": 72
+        },
+        "object_cleft": {
+          "old_correct": 66,
+          "new_correct": 68
+        },
+        "subject_cleft": {
+          "old_correct": 91,
+          "new_correct": 80
+        }
+      }
+    },
+    "qwen15": {
+      "note": "same examples and prompt construction; backend/precision changed; NOT a scaling comparison",
+      "n": 576,
+      "gains": 65,
+      "losses": 26,
+      "by_form": {
+        "active": {
+          "old_correct": 117,
+          "new_correct": 126
+        },
+        "passive": {
+          "old_correct": 75,
+          "new_correct": 85
+        },
+        "object_cleft": {
+          "old_correct": 51,
+          "new_correct": 59
+        },
+        "subject_cleft": {
+          "old_correct": 126,
+          "new_correct": 138
+        }
+      }
+    }
+  }
+}

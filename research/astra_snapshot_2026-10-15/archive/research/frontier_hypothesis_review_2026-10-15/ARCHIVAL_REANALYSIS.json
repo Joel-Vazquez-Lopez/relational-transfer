@@ -1,0 +1,1661 @@
+{
+  "scope": "Post hoc reanalysis of previously completed constructed-language studies; no independent confirmation or neural mechanistic identification",
+  "decomposition": "b=(m_actor+m_patient)/2; r=(m_actor-m_patient)/2; both right iff r>|b|. This is an exact algebraic reparameterization, not an explanatory discovery. Scores from two prompts are not a probe of one hidden state.",
+  "calibration": "Subtract each query-specific sentence-omitted margin, already archived. Standard context-free calibration diagnostic, not a proposed novel intervention.",
+  "sources": {
+    "research/qwen_role_equivariance_diagnostic_2026-10-12/untouched_qwen15.json": "f3467f5f0cc29aad4d86dd592453756765d3e2dd45787a6bc2c215a6020e499a",
+    "research/qwen_role_equivariance_diagnostic_2026-10-12/untouched_qwen05.json": "881fa73445595ed3f76b9b9d76995ba19772df5eace804a7160217d956043b4c",
+    "research/qwen_role_equivariance_diagnostic_2026-10-12/fresh1_source.json": "376c0b14e0f4654242aeee21f3f8868fcee181f546d1a2d706541cfe30cad0e8",
+    "research/qwen_role_equivariance_diagnostic_2026-10-12/fresh1_natural.json": "d77a4cb17a08ed7a503613146348fc2311d9d1c9848d06baea720a755f9d73a6",
+    "research/qwen_role_equivariance_diagnostic_2026-10-12/fresh3_source.json": "fe82bd0c93e2930ce6869dd2b704661984e8696fd97c5851bfa34beb9b5dc97d",
+    "research/qwen_role_equivariance_diagnostic_2026-10-12/fresh3_natural.json": "6eb61dfd80f00c8202c20259a8aa0dbfbe79b2327e0fbef22e674575a542e8d7",
+    "research/role_subject_decoupling_pilot_2026-10-12/EVAL_fresh1_aligned.json": "6a9f933295250216d230c2804365f50114e4dc46ad74f18a19819b9eecda6d15",
+    "research/role_subject_decoupling_pilot_2026-10-12/EVAL_fresh1_decoupled.json": "0ac8272686544773321224a0d44ca7aa460cada0081b7303d488b8e82188bb47",
+    "research/role_subject_decoupling_pilot_2026-10-12/EVAL_fresh3_aligned.json": "feea7162ac25bc0f09c8a6a4070f6fd679a916d9244e6da7bbab96cb168c82dc",
+    "research/role_subject_decoupling_pilot_2026-10-12/EVAL_fresh3_decoupled.json": "d212a97275cb452acb53be1d6ee281611813e428f830c5d2acd4206d7f29c49b",
+    "research/role_subject_balanced_followup_2026-10-12/EVAL_fresh1_aligned.json": "6285230f2c9d36202f45c1d6f4b095ce448d795dc6164f07cf491398ebb5a7ce",
+    "research/role_subject_balanced_followup_2026-10-12/EVAL_fresh1_decoupled.json": "1648c0511ba59ff2503be38a2985101b9606f248acac22f0da726954e809857f",
+    "research/role_subject_balanced_followup_2026-10-12/EVAL_fresh3_aligned.json": "112e08b16fc393eacd9899372b4f8dbdc44f33188c09c4573fa3b8bc3784f8fc",
+    "research/role_subject_balanced_followup_2026-10-12/EVAL_fresh3_decoupled.json": "934ac8933c9617563afa5028131a3e81b8b9451635874661345a6ec711c9bc48"
+  },
+  "summary": {
+    "untouched_qwen15": {
+      "candidate_margin_vs_generated_correctness_mismatches": 0,
+      "actor_performed/patient_verb": {
+        "active": {
+          "n": 36,
+          "mean_bias": -0.6933490965101454,
+          "mean_abs_bias": 2.8630898793538413,
+          "mean_role_contrast": 5.436390029059516,
+          "positive_contrast": 36,
+          "joint": 28,
+          "bias_dominant_failure": 8,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 35,
+          "calibration_gains": 7,
+          "calibration_losses": 0
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 3.269497553507487,
+          "mean_abs_bias": 3.410915798611111,
+          "mean_role_contrast": 1.0076482031080458,
+          "positive_contrast": 25,
+          "joint": 4,
+          "bias_dominant_failure": 21,
+          "nonpositive_contrast_failure": 11,
+          "content_free_calibrated_joint": 7,
+          "calibration_gains": 4,
+          "calibration_losses": 1
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 0.8072330951690674,
+          "mean_abs_bias": 3.065405978096856,
+          "mean_role_contrast": 5.699655135472615,
+          "positive_contrast": 36,
+          "joint": 30,
+          "bias_dominant_failure": 6,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 34,
+          "calibration_gains": 5,
+          "calibration_losses": 1
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.43281401528252494,
+          "mean_abs_bias": 1.7292613453335233,
+          "mean_role_contrast": -0.7727616098192003,
+          "positive_contrast": 14,
+          "joint": 6,
+          "bias_dominant_failure": 8,
+          "nonpositive_contrast_failure": 22,
+          "content_free_calibrated_joint": 4,
+          "calibration_gains": 3,
+          "calibration_losses": 5
+        }
+      },
+      "actor_acted/patient_affected": {
+        "active": {
+          "n": 36,
+          "mean_bias": -4.122331725226508,
+          "mean_abs_bias": 4.2808080779181585,
+          "mean_role_contrast": 3.5117904345194497,
+          "positive_contrast": 36,
+          "joint": 17,
+          "bias_dominant_failure": 19,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 11,
+          "calibration_gains": 2,
+          "calibration_losses": 8
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 4.84850091404385,
+          "mean_abs_bias": 4.84850091404385,
+          "mean_role_contrast": 0.8159837457868788,
+          "positive_contrast": 30,
+          "joint": 0,
+          "bias_dominant_failure": 30,
+          "nonpositive_contrast_failure": 6,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 0
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": -2.8737169636620417,
+          "mean_abs_bias": 3.336101770401001,
+          "mean_role_contrast": 4.524413294262356,
+          "positive_contrast": 36,
+          "joint": 24,
+          "bias_dominant_failure": 12,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 20,
+          "calibration_gains": 2,
+          "calibration_losses": 6
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 1.8387016985151503,
+          "mean_abs_bias": 2.1827690071529813,
+          "mean_role_contrast": -0.8978367646535238,
+          "positive_contrast": 10,
+          "joint": 0,
+          "bias_dominant_failure": 10,
+          "nonpositive_contrast_failure": 26,
+          "content_free_calibrated_joint": 2,
+          "calibration_gains": 2,
+          "calibration_losses": 0
+        }
+      },
+      "actor_performed/patient_affected": {
+        "active": {
+          "n": 36,
+          "mean_bias": -1.4455406135982938,
+          "mean_abs_bias": 3.116483555899726,
+          "mean_role_contrast": 6.188581546147664,
+          "positive_contrast": 36,
+          "joint": 29,
+          "bias_dominant_failure": 7,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 35,
+          "calibration_gains": 6,
+          "calibration_losses": 0
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 4.154831462436253,
+          "mean_abs_bias": 4.18658987681071,
+          "mean_role_contrast": 0.1223142941792806,
+          "positive_contrast": 20,
+          "joint": 0,
+          "bias_dominant_failure": 20,
+          "nonpositive_contrast_failure": 16,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 0
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": -0.4456210136413574,
+          "mean_abs_bias": 3.327492978837755,
+          "mean_role_contrast": 6.95250924428304,
+          "positive_contrast": 36,
+          "joint": 32,
+          "bias_dominant_failure": 4,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 36,
+          "calibration_gains": 4,
+          "calibration_losses": 0
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 1.1982954343159993,
+          "mean_abs_bias": 2.087092717488607,
+          "mean_role_contrast": -1.5382430288526747,
+          "positive_contrast": 8,
+          "joint": 0,
+          "bias_dominant_failure": 8,
+          "nonpositive_contrast_failure": 28,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 0
+        }
+      },
+      "actor_acted/patient_verb": {
+        "active": {
+          "n": 36,
+          "mean_bias": -3.37014020813836,
+          "mean_abs_bias": 3.640791336695353,
+          "mean_role_contrast": 2.7595989174313016,
+          "positive_contrast": 36,
+          "joint": 16,
+          "bias_dominant_failure": 20,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 11,
+          "calibration_gains": 3,
+          "calibration_losses": 8
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 3.963167005115085,
+          "mean_abs_bias": 3.963167005115085,
+          "mean_role_contrast": 1.701317654715644,
+          "positive_contrast": 33,
+          "joint": 5,
+          "bias_dominant_failure": 28,
+          "nonpositive_contrast_failure": 3,
+          "content_free_calibrated_joint": 7,
+          "calibration_gains": 4,
+          "calibration_losses": 2
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": -1.6208628548516169,
+          "mean_abs_bias": 2.489511171976725,
+          "mean_role_contrast": 3.2715591854519315,
+          "positive_contrast": 35,
+          "joint": 22,
+          "bias_dominant_failure": 13,
+          "nonpositive_contrast_failure": 1,
+          "content_free_calibrated_joint": 18,
+          "calibration_gains": 2,
+          "calibration_losses": 6
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 1.0732202794816759,
+          "mean_abs_bias": 1.6460498968760173,
+          "mean_role_contrast": -0.13235534562004936,
+          "positive_contrast": 14,
+          "joint": 7,
+          "bias_dominant_failure": 7,
+          "nonpositive_contrast_failure": 22,
+          "content_free_calibrated_joint": 10,
+          "calibration_gains": 4,
+          "calibration_losses": 1
+        }
+      }
+    },
+    "untouched_qwen05": {
+      "candidate_margin_vs_generated_correctness_mismatches": 0,
+      "actor_performed/patient_verb": {
+        "active": {
+          "n": 36,
+          "mean_bias": 1.214096360736423,
+          "mean_abs_bias": 1.9484850300682917,
+          "mean_role_contrast": 2.3353742758433023,
+          "positive_contrast": 36,
+          "joint": 21,
+          "bias_dominant_failure": 15,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 27,
+          "calibration_gains": 9,
+          "calibration_losses": 3
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": -0.3779125213623047,
+          "mean_abs_bias": 1.8535303009880915,
+          "mean_role_contrast": 0.5379507276746962,
+          "positive_contrast": 27,
+          "joint": 5,
+          "bias_dominant_failure": 22,
+          "nonpositive_contrast_failure": 9,
+          "content_free_calibrated_joint": 15,
+          "calibration_gains": 12,
+          "calibration_losses": 2
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 1.7118734783596463,
+          "mean_abs_bias": 2.2241129875183105,
+          "mean_role_contrast": 2.674221091800266,
+          "positive_contrast": 36,
+          "joint": 21,
+          "bias_dominant_failure": 15,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 25,
+          "calibration_gains": 5,
+          "calibration_losses": 1
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.6951029830508761,
+          "mean_abs_bias": 2.034704711702135,
+          "mean_role_contrast": -0.8579287264082167,
+          "positive_contrast": 10,
+          "joint": 2,
+          "bias_dominant_failure": 8,
+          "nonpositive_contrast_failure": 26,
+          "content_free_calibrated_joint": 1,
+          "calibration_gains": 0,
+          "calibration_losses": 1
+        }
+      },
+      "actor_acted/patient_affected": {
+        "active": {
+          "n": 36,
+          "mean_bias": -0.32969212532043457,
+          "mean_abs_bias": 2.4131965902116566,
+          "mean_role_contrast": -0.14952969551086426,
+          "positive_contrast": 18,
+          "joint": 1,
+          "bias_dominant_failure": 17,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 4,
+          "calibration_gains": 4,
+          "calibration_losses": 1
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 1.8701928191714816,
+          "mean_abs_bias": 2.764611694547865,
+          "mean_role_contrast": 0.39209983083936906,
+          "positive_contrast": 20,
+          "joint": 0,
+          "bias_dominant_failure": 20,
+          "nonpositive_contrast_failure": 16,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 0
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 0.6951273812188042,
+          "mean_abs_bias": 3.3090865347120495,
+          "mean_role_contrast": -0.09130504396226671,
+          "positive_contrast": 18,
+          "joint": 0,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 3,
+          "calibration_gains": 3,
+          "calibration_losses": 0
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.8858479393853081,
+          "mean_abs_bias": 3.185481548309326,
+          "mean_role_contrast": 0.07464170455932617,
+          "positive_contrast": 18,
+          "joint": 0,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 1,
+          "calibration_gains": 1,
+          "calibration_losses": 0
+        }
+      },
+      "actor_performed/patient_affected": {
+        "active": {
+          "n": 36,
+          "mean_bias": 1.6846541033850775,
+          "mean_abs_bias": 2.1351880762312145,
+          "mean_role_contrast": 1.8648165331946478,
+          "positive_contrast": 36,
+          "joint": 18,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 21,
+          "calibration_gains": 10,
+          "calibration_losses": 7
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 0.819065597322252,
+          "mean_abs_bias": 1.690563440322876,
+          "mean_role_contrast": -0.6590273910098605,
+          "positive_contrast": 3,
+          "joint": 1,
+          "bias_dominant_failure": 2,
+          "nonpositive_contrast_failure": 33,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 1
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 2.5862634976704917,
+          "mean_abs_bias": 2.7835461828443737,
+          "mean_role_contrast": 1.7998310724894206,
+          "positive_contrast": 36,
+          "joint": 16,
+          "bias_dominant_failure": 20,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 9,
+          "calibration_gains": 3,
+          "calibration_losses": 10
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.32419024573432076,
+          "mean_abs_bias": 1.76714293162028,
+          "mean_role_contrast": -0.4870159890916612,
+          "positive_contrast": 9,
+          "joint": 1,
+          "bias_dominant_failure": 8,
+          "nonpositive_contrast_failure": 27,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 1
+        }
+      },
+      "actor_acted/patient_verb": {
+        "active": {
+          "n": 36,
+          "mean_bias": -0.800249867969089,
+          "mean_abs_bias": 2.4723018805185952,
+          "mean_role_contrast": 0.32102804713779026,
+          "positive_contrast": 20,
+          "joint": 3,
+          "bias_dominant_failure": 17,
+          "nonpositive_contrast_failure": 16,
+          "content_free_calibrated_joint": 9,
+          "calibration_gains": 9,
+          "calibration_losses": 3
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 0.6732147004869249,
+          "mean_abs_bias": 2.8313914934794107,
+          "mean_role_contrast": 1.5890779495239258,
+          "positive_contrast": 36,
+          "joint": 6,
+          "bias_dominant_failure": 30,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 25,
+          "calibration_gains": 22,
+          "calibration_losses": 3
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": -0.17926263809204102,
+          "mean_abs_bias": 3.580774943033854,
+          "mean_role_contrast": 0.7830849753485786,
+          "positive_contrast": 25,
+          "joint": 3,
+          "bias_dominant_failure": 22,
+          "nonpositive_contrast_failure": 11,
+          "content_free_calibrated_joint": 13,
+          "calibration_gains": 10,
+          "calibration_losses": 0
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 1.2567606767018635,
+          "mean_abs_bias": 3.4749988185034857,
+          "mean_role_contrast": -0.29627103275722927,
+          "positive_contrast": 15,
+          "joint": 0,
+          "bias_dominant_failure": 15,
+          "nonpositive_contrast_failure": 21,
+          "content_free_calibrated_joint": 3,
+          "calibration_gains": 3,
+          "calibration_losses": 0
+        }
+      }
+    },
+    "fresh1_source": {
+      "candidate_margin_vs_generated_correctness_mismatches": 0,
+      "actor_performed/patient_verb": {
+        "active": {
+          "n": 36,
+          "mean_bias": 1.8291897773742676,
+          "mean_abs_bias": 2.069627602895101,
+          "mean_role_contrast": 1.2611681090460882,
+          "positive_contrast": 34,
+          "joint": 9,
+          "bias_dominant_failure": 25,
+          "nonpositive_contrast_failure": 2,
+          "content_free_calibrated_joint": 12,
+          "calibration_gains": 9,
+          "calibration_losses": 6
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 0.6977804766760932,
+          "mean_abs_bias": 1.6341634061601427,
+          "mean_role_contrast": 0.8439542187584771,
+          "positive_contrast": 30,
+          "joint": 12,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 6,
+          "content_free_calibrated_joint": 22,
+          "calibration_gains": 14,
+          "calibration_losses": 4
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 3.1153089735243054,
+          "mean_abs_bias": 3.1741473409864636,
+          "mean_role_contrast": 1.628772841559516,
+          "positive_contrast": 35,
+          "joint": 14,
+          "bias_dominant_failure": 21,
+          "nonpositive_contrast_failure": 1,
+          "content_free_calibrated_joint": 5,
+          "calibration_gains": 3,
+          "calibration_losses": 12
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.03652551439073351,
+          "mean_abs_bias": 1.4730806350708008,
+          "mean_role_contrast": -0.35678625106811523,
+          "positive_contrast": 16,
+          "joint": 3,
+          "bias_dominant_failure": 13,
+          "nonpositive_contrast_failure": 20,
+          "content_free_calibrated_joint": 1,
+          "calibration_gains": 1,
+          "calibration_losses": 3
+        }
+      },
+      "actor_acted/patient_affected": {
+        "active": {
+          "n": 36,
+          "mean_bias": 0.039667076534695096,
+          "mean_abs_bias": 2.3375761244032116,
+          "mean_role_contrast": -0.29711553785536027,
+          "positive_contrast": 18,
+          "joint": 0,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 0
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 1.9988351662953694,
+          "mean_abs_bias": 3.1162803173065186,
+          "mean_role_contrast": 0.4224514166514079,
+          "positive_contrast": 18,
+          "joint": 0,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 4,
+          "calibration_gains": 4,
+          "calibration_losses": 0
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 1.4450674057006836,
+          "mean_abs_bias": 3.170771492852105,
+          "mean_role_contrast": -0.313385804494222,
+          "positive_contrast": 18,
+          "joint": 0,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 2,
+          "calibration_gains": 2,
+          "calibration_losses": 0
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.5665761364830865,
+          "mean_abs_bias": 3.113929351170858,
+          "mean_role_contrast": 0.042116774453057185,
+          "positive_contrast": 18,
+          "joint": 0,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 4,
+          "calibration_gains": 4,
+          "calibration_losses": 0
+        }
+      },
+      "actor_performed/patient_affected": {
+        "active": {
+          "n": 36,
+          "mean_bias": 1.7135702504052057,
+          "mean_abs_bias": 2.0036337905459933,
+          "mean_role_contrast": 1.3767876360151503,
+          "positive_contrast": 31,
+          "joint": 13,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 5,
+          "content_free_calibrated_joint": 14,
+          "calibration_gains": 13,
+          "calibration_losses": 12
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 1.5590592225392659,
+          "mean_abs_bias": 2.0567726294199624,
+          "mean_role_contrast": -0.017324527104695637,
+          "positive_contrast": 18,
+          "joint": 3,
+          "bias_dominant_failure": 15,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 3,
+          "calibration_gains": 3,
+          "calibration_losses": 3
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 3.2512675126393638,
+          "mean_abs_bias": 3.3335480954911976,
+          "mean_role_contrast": 1.492814302444458,
+          "positive_contrast": 36,
+          "joint": 8,
+          "bias_dominant_failure": 28,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 3,
+          "calibration_gains": 3,
+          "calibration_losses": 8
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.10209931267632379,
+          "mean_abs_bias": 1.3465177218119304,
+          "mean_role_contrast": -0.4223600493537055,
+          "positive_contrast": 16,
+          "joint": 3,
+          "bias_dominant_failure": 13,
+          "nonpositive_contrast_failure": 20,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 3
+        }
+      },
+      "actor_acted/patient_verb": {
+        "active": {
+          "n": 36,
+          "mean_bias": 0.15528660350375706,
+          "mean_abs_bias": 2.1431833108266196,
+          "mean_role_contrast": -0.4127350648244222,
+          "positive_contrast": 16,
+          "joint": 0,
+          "bias_dominant_failure": 16,
+          "nonpositive_contrast_failure": 20,
+          "content_free_calibrated_joint": 2,
+          "calibration_gains": 2,
+          "calibration_losses": 0
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 1.1375564204321966,
+          "mean_abs_bias": 2.851721896065606,
+          "mean_role_contrast": 1.2837301625145807,
+          "positive_contrast": 30,
+          "joint": 6,
+          "bias_dominant_failure": 24,
+          "nonpositive_contrast_failure": 6,
+          "content_free_calibrated_joint": 23,
+          "calibration_gains": 19,
+          "calibration_losses": 2
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 1.3091088665856256,
+          "mean_abs_bias": 3.2076399856143527,
+          "mean_role_contrast": -0.17742726537916395,
+          "positive_contrast": 18,
+          "joint": 1,
+          "bias_dominant_failure": 17,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 3,
+          "calibration_gains": 2,
+          "calibration_losses": 0
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.5010023381974962,
+          "mean_abs_bias": 3.195109764734904,
+          "mean_role_contrast": 0.10769057273864746,
+          "positive_contrast": 18,
+          "joint": 1,
+          "bias_dominant_failure": 17,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 4,
+          "calibration_gains": 4,
+          "calibration_losses": 1
+        }
+      }
+    },
+    "fresh1_natural": {
+      "candidate_margin_vs_generated_correctness_mismatches": 0,
+      "actor_performed/patient_verb": {
+        "active": {
+          "n": 36,
+          "mean_bias": 1.7030502690209284,
+          "mean_abs_bias": 1.8195013205210369,
+          "mean_role_contrast": 0.8047578864627414,
+          "positive_contrast": 31,
+          "joint": 9,
+          "bias_dominant_failure": 22,
+          "nonpositive_contrast_failure": 5,
+          "content_free_calibrated_joint": 8,
+          "calibration_gains": 4,
+          "calibration_losses": 5
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 0.03134396341111925,
+          "mean_abs_bias": 1.347408480114407,
+          "mean_role_contrast": 0.8005359702640109,
+          "positive_contrast": 32,
+          "joint": 14,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 4,
+          "content_free_calibrated_joint": 13,
+          "calibration_gains": 4,
+          "calibration_losses": 5
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 2.3420908715989857,
+          "mean_abs_bias": 2.443070570627848,
+          "mean_role_contrast": 1.4024462170071073,
+          "positive_contrast": 32,
+          "joint": 15,
+          "bias_dominant_failure": 17,
+          "nonpositive_contrast_failure": 4,
+          "content_free_calibrated_joint": 14,
+          "calibration_gains": 0,
+          "calibration_losses": 1
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.5749441517723931,
+          "mean_abs_bias": 1.281093994776408,
+          "mean_role_contrast": -0.32525907622443306,
+          "positive_contrast": 14,
+          "joint": 5,
+          "bias_dominant_failure": 9,
+          "nonpositive_contrast_failure": 22,
+          "content_free_calibrated_joint": 3,
+          "calibration_gains": 2,
+          "calibration_losses": 4
+        }
+      },
+      "actor_acted/patient_affected": {
+        "active": {
+          "n": 36,
+          "mean_bias": 0.3890704843733046,
+          "mean_abs_bias": 1.6746215555402968,
+          "mean_role_contrast": -0.3834115399254693,
+          "positive_contrast": 18,
+          "joint": 0,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 0
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 1.0217205153571234,
+          "mean_abs_bias": 2.1833536359998913,
+          "mean_role_contrast": 0.6744425031873915,
+          "positive_contrast": 21,
+          "joint": 4,
+          "bias_dominant_failure": 17,
+          "nonpositive_contrast_failure": 15,
+          "content_free_calibrated_joint": 9,
+          "calibration_gains": 8,
+          "calibration_losses": 3
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 1.3682860533396404,
+          "mean_abs_bias": 2.460313664542304,
+          "mean_role_contrast": -0.3871012528737386,
+          "positive_contrast": 18,
+          "joint": 0,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 0
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.658629576365153,
+          "mean_abs_bias": 2.4069332546657987,
+          "mean_role_contrast": 0.1016702651977539,
+          "positive_contrast": 18,
+          "joint": 0,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 5,
+          "calibration_gains": 5,
+          "calibration_losses": 0
+        }
+      },
+      "actor_performed/patient_affected": {
+        "active": {
+          "n": 36,
+          "mean_bias": 1.6401450898912218,
+          "mean_abs_bias": 1.755619419945611,
+          "mean_role_contrast": 0.8676630655924479,
+          "positive_contrast": 32,
+          "joint": 7,
+          "bias_dominant_failure": 25,
+          "nonpositive_contrast_failure": 4,
+          "content_free_calibrated_joint": 9,
+          "calibration_gains": 8,
+          "calibration_losses": 6
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 0.5895789729224311,
+          "mean_abs_bias": 1.2753121852874756,
+          "mean_role_contrast": 0.2423009607526991,
+          "positive_contrast": 33,
+          "joint": 7,
+          "bias_dominant_failure": 26,
+          "nonpositive_contrast_failure": 3,
+          "content_free_calibrated_joint": 6,
+          "calibration_gains": 5,
+          "calibration_losses": 6
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 2.7499621974097357,
+          "mean_abs_bias": 2.776539829042223,
+          "mean_role_contrast": 0.9945748911963569,
+          "positive_contrast": 35,
+          "joint": 4,
+          "bias_dominant_failure": 31,
+          "nonpositive_contrast_failure": 1,
+          "content_free_calibrated_joint": 1,
+          "calibration_gains": 1,
+          "calibration_losses": 4
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.4033221933576796,
+          "mean_abs_bias": 1.0580292012956407,
+          "mean_role_contrast": -0.1536371178097195,
+          "positive_contrast": 16,
+          "joint": 4,
+          "bias_dominant_failure": 12,
+          "nonpositive_contrast_failure": 20,
+          "content_free_calibrated_joint": 1,
+          "calibration_gains": 1,
+          "calibration_losses": 4
+        }
+      },
+      "actor_acted/patient_verb": {
+        "active": {
+          "n": 36,
+          "mean_bias": 0.45197566350301105,
+          "mean_abs_bias": 1.660699897342258,
+          "mean_role_contrast": -0.4463167190551758,
+          "positive_contrast": 16,
+          "joint": 2,
+          "bias_dominant_failure": 14,
+          "nonpositive_contrast_failure": 20,
+          "content_free_calibrated_joint": 2,
+          "calibration_gains": 2,
+          "calibration_losses": 2
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 0.4634855058458116,
+          "mean_abs_bias": 2.3810966279771595,
+          "mean_role_contrast": 1.2326775126987033,
+          "positive_contrast": 34,
+          "joint": 8,
+          "bias_dominant_failure": 26,
+          "nonpositive_contrast_failure": 2,
+          "content_free_calibrated_joint": 19,
+          "calibration_gains": 12,
+          "calibration_losses": 1
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 0.96041472752889,
+          "mean_abs_bias": 2.7996401256985135,
+          "mean_role_contrast": 0.02077007293701172,
+          "positive_contrast": 19,
+          "joint": 1,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 17,
+          "content_free_calibrated_joint": 5,
+          "calibration_gains": 4,
+          "calibration_losses": 0
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.8302515347798666,
+          "mean_abs_bias": 2.647913932800293,
+          "mean_role_contrast": -0.06995169321695964,
+          "positive_contrast": 17,
+          "joint": 0,
+          "bias_dominant_failure": 17,
+          "nonpositive_contrast_failure": 19,
+          "content_free_calibrated_joint": 4,
+          "calibration_gains": 4,
+          "calibration_losses": 0
+        }
+      }
+    },
+    "fresh3_source": {
+      "candidate_margin_vs_generated_correctness_mismatches": 0,
+      "actor_performed/patient_verb": {
+        "active": {
+          "n": 36,
+          "mean_bias": 2.1179657777150473,
+          "mean_abs_bias": 2.1829282177819147,
+          "mean_role_contrast": 1.8674317730797663,
+          "positive_contrast": 30,
+          "joint": 15,
+          "bias_dominant_failure": 15,
+          "nonpositive_contrast_failure": 6,
+          "content_free_calibrated_joint": 12,
+          "calibration_gains": 6,
+          "calibration_losses": 9
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 1.3424895604451497,
+          "mean_abs_bias": 1.8162845505608454,
+          "mean_role_contrast": 0.5579814910888672,
+          "positive_contrast": 28,
+          "joint": 13,
+          "bias_dominant_failure": 15,
+          "nonpositive_contrast_failure": 8,
+          "content_free_calibrated_joint": 12,
+          "calibration_gains": 5,
+          "calibration_losses": 6
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 3.331018077002631,
+          "mean_abs_bias": 3.331018077002631,
+          "mean_role_contrast": 2.409389760759142,
+          "positive_contrast": 34,
+          "joint": 16,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 2,
+          "content_free_calibrated_joint": 10,
+          "calibration_gains": 5,
+          "calibration_losses": 11
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": -0.270097467634413,
+          "mean_abs_bias": 1.5164132118225098,
+          "mean_role_contrast": -0.6935772895812988,
+          "positive_contrast": 16,
+          "joint": 3,
+          "bias_dominant_failure": 13,
+          "nonpositive_contrast_failure": 20,
+          "content_free_calibrated_joint": 3,
+          "calibration_gains": 3,
+          "calibration_losses": 3
+        }
+      },
+      "actor_acted/patient_affected": {
+        "active": {
+          "n": 36,
+          "mean_bias": -0.11135345035129124,
+          "mean_abs_bias": 1.7644903924730089,
+          "mean_role_contrast": -0.8213113678826226,
+          "positive_contrast": 16,
+          "joint": 2,
+          "bias_dominant_failure": 14,
+          "nonpositive_contrast_failure": 20,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 2
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 2.932719601525201,
+          "mean_abs_bias": 3.102050675286187,
+          "mean_role_contrast": 0.7832038667466905,
+          "positive_contrast": 19,
+          "joint": 0,
+          "bias_dominant_failure": 19,
+          "nonpositive_contrast_failure": 17,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 0
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 1.3351417647467718,
+          "mean_abs_bias": 2.4904942512512207,
+          "mean_role_contrast": -0.7658294041951498,
+          "positive_contrast": 18,
+          "joint": 1,
+          "bias_dominant_failure": 17,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 1
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.8304261896345351,
+          "mean_abs_bias": 2.550384759902954,
+          "mean_role_contrast": 0.3276013533274333,
+          "positive_contrast": 18,
+          "joint": 4,
+          "bias_dominant_failure": 14,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 10,
+          "calibration_gains": 9,
+          "calibration_losses": 3
+        }
+      },
+      "actor_performed/patient_affected": {
+        "active": {
+          "n": 36,
+          "mean_bias": 2.3476777341630726,
+          "mean_abs_bias": 2.3924545447031655,
+          "mean_role_contrast": 1.637719816631741,
+          "positive_contrast": 33,
+          "joint": 10,
+          "bias_dominant_failure": 23,
+          "nonpositive_contrast_failure": 3,
+          "content_free_calibrated_joint": 12,
+          "calibration_gains": 11,
+          "calibration_losses": 9
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 2.0249933931562634,
+          "mean_abs_bias": 2.077415386835734,
+          "mean_role_contrast": -0.12452234162224664,
+          "positive_contrast": 13,
+          "joint": 0,
+          "bias_dominant_failure": 13,
+          "nonpositive_contrast_failure": 23,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 0
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 3.920689503351847,
+          "mean_abs_bias": 3.920689503351847,
+          "mean_role_contrast": 1.8197183344099257,
+          "positive_contrast": 36,
+          "joint": 3,
+          "bias_dominant_failure": 33,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 6,
+          "calibration_gains": 6,
+          "calibration_losses": 3
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": -0.23042496045430502,
+          "mean_abs_bias": 1.2063252925872803,
+          "mean_role_contrast": -0.7332497967614068,
+          "positive_contrast": 3,
+          "joint": 1,
+          "bias_dominant_failure": 2,
+          "nonpositive_contrast_failure": 33,
+          "content_free_calibrated_joint": 1,
+          "calibration_gains": 1,
+          "calibration_losses": 1
+        }
+      },
+      "actor_acted/patient_verb": {
+        "active": {
+          "n": 36,
+          "mean_bias": -0.3410654067993164,
+          "mean_abs_bias": 2.169037448035346,
+          "mean_role_contrast": -0.5915994114345975,
+          "positive_contrast": 12,
+          "joint": 1,
+          "bias_dominant_failure": 11,
+          "nonpositive_contrast_failure": 24,
+          "content_free_calibrated_joint": 3,
+          "calibration_gains": 3,
+          "calibration_losses": 1
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 2.250215768814087,
+          "mean_abs_bias": 3.0568768978118896,
+          "mean_role_contrast": 1.4657076994578044,
+          "positive_contrast": 33,
+          "joint": 7,
+          "bias_dominant_failure": 26,
+          "nonpositive_contrast_failure": 3,
+          "content_free_calibrated_joint": 13,
+          "calibration_gains": 10,
+          "calibration_losses": 4
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 0.7454703383975558,
+          "mean_abs_bias": 3.4719169669681125,
+          "mean_role_contrast": -0.1761579778459337,
+          "positive_contrast": 16,
+          "joint": 0,
+          "bias_dominant_failure": 16,
+          "nonpositive_contrast_failure": 20,
+          "content_free_calibrated_joint": 4,
+          "calibration_gains": 4,
+          "calibration_losses": 0
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.7907536824544271,
+          "mean_abs_bias": 3.2834868960910373,
+          "mean_role_contrast": 0.36727386050754124,
+          "positive_contrast": 22,
+          "joint": 1,
+          "bias_dominant_failure": 21,
+          "nonpositive_contrast_failure": 14,
+          "content_free_calibrated_joint": 8,
+          "calibration_gains": 8,
+          "calibration_losses": 1
+        }
+      }
+    },
+    "fresh3_natural": {
+      "candidate_margin_vs_generated_correctness_mismatches": 0,
+      "actor_performed/patient_verb": {
+        "active": {
+          "n": 36,
+          "mean_bias": 2.892342143588596,
+          "mean_abs_bias": 2.8961780865987143,
+          "mean_role_contrast": 1.5679744084676106,
+          "positive_contrast": 32,
+          "joint": 9,
+          "bias_dominant_failure": 23,
+          "nonpositive_contrast_failure": 4,
+          "content_free_calibrated_joint": 7,
+          "calibration_gains": 5,
+          "calibration_losses": 7
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 0.48615264892578125,
+          "mean_abs_bias": 1.2847712304857042,
+          "mean_role_contrast": 0.9102746115790473,
+          "positive_contrast": 31,
+          "joint": 12,
+          "bias_dominant_failure": 19,
+          "nonpositive_contrast_failure": 5,
+          "content_free_calibrated_joint": 20,
+          "calibration_gains": 13,
+          "calibration_losses": 5
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 3.243072933620877,
+          "mean_abs_bias": 3.243072933620877,
+          "mean_role_contrast": 2.5174200269911022,
+          "positive_contrast": 34,
+          "joint": 18,
+          "bias_dominant_failure": 16,
+          "nonpositive_contrast_failure": 2,
+          "content_free_calibrated_joint": 13,
+          "calibration_gains": 3,
+          "calibration_losses": 8
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.25933946503533256,
+          "mean_abs_bias": 1.3053156799740262,
+          "mean_role_contrast": -0.7038262950049506,
+          "positive_contrast": 15,
+          "joint": 2,
+          "bias_dominant_failure": 13,
+          "nonpositive_contrast_failure": 21,
+          "content_free_calibrated_joint": 2,
+          "calibration_gains": 1,
+          "calibration_losses": 1
+        }
+      },
+      "actor_acted/patient_affected": {
+        "active": {
+          "n": 36,
+          "mean_bias": 1.083842224544949,
+          "mean_abs_bias": 1.4285946951972113,
+          "mean_role_contrast": -0.8052457703484429,
+          "positive_contrast": 15,
+          "joint": 2,
+          "bias_dominant_failure": 13,
+          "nonpositive_contrast_failure": 21,
+          "content_free_calibrated_joint": 0,
+          "calibration_gains": 0,
+          "calibration_losses": 2
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 1.7530286577012804,
+          "mean_abs_bias": 2.05454773373074,
+          "mean_role_contrast": 1.1930291917588975,
+          "positive_contrast": 28,
+          "joint": 9,
+          "bias_dominant_failure": 19,
+          "nonpositive_contrast_failure": 8,
+          "content_free_calibrated_joint": 17,
+          "calibration_gains": 14,
+          "calibration_losses": 6
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 2.2407072914971247,
+          "mean_abs_bias": 2.4325393040974936,
+          "mean_role_contrast": -1.0049417813618977,
+          "positive_contrast": 18,
+          "joint": 0,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 2,
+          "calibration_gains": 2,
+          "calibration_losses": 0
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 0.7548556062910292,
+          "mean_abs_bias": 1.877987994088067,
+          "mean_role_contrast": 0.40854912334018284,
+          "positive_contrast": 18,
+          "joint": 7,
+          "bias_dominant_failure": 11,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 15,
+          "calibration_gains": 9,
+          "calibration_losses": 1
+        }
+      },
+      "actor_performed/patient_affected": {
+        "active": {
+          "n": 36,
+          "mean_bias": 3.174702273474799,
+          "mean_abs_bias": 3.174702273474799,
+          "mean_role_contrast": 1.2856142785814073,
+          "positive_contrast": 35,
+          "joint": 3,
+          "bias_dominant_failure": 32,
+          "nonpositive_contrast_failure": 1,
+          "content_free_calibrated_joint": 9,
+          "calibration_gains": 8,
+          "calibration_losses": 2
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 0.9782133632236056,
+          "mean_abs_bias": 1.2324143515692816,
+          "mean_role_contrast": 0.4182138972812229,
+          "positive_contrast": 32,
+          "joint": 4,
+          "bias_dominant_failure": 28,
+          "nonpositive_contrast_failure": 4,
+          "content_free_calibrated_joint": 14,
+          "calibration_gains": 14,
+          "calibration_losses": 4
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 4.5030710167355,
+          "mean_abs_bias": 4.5030710167355,
+          "mean_role_contrast": 1.2574219438764784,
+          "positive_contrast": 36,
+          "joint": 0,
+          "bias_dominant_failure": 36,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 4,
+          "calibration_gains": 4,
+          "calibration_losses": 0
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": -0.049090173509385854,
+          "mean_abs_bias": 1.0660241974724665,
+          "mean_role_contrast": -0.3953966564602322,
+          "positive_contrast": 3,
+          "joint": 0,
+          "bias_dominant_failure": 3,
+          "nonpositive_contrast_failure": 33,
+          "content_free_calibrated_joint": 3,
+          "calibration_gains": 3,
+          "calibration_losses": 0
+        }
+      },
+      "actor_acted/patient_verb": {
+        "active": {
+          "n": 36,
+          "mean_bias": 0.8014820946587456,
+          "mean_abs_bias": 1.6317285961574979,
+          "mean_role_contrast": -0.5228856404622396,
+          "positive_contrast": 11,
+          "joint": 2,
+          "bias_dominant_failure": 9,
+          "nonpositive_contrast_failure": 25,
+          "content_free_calibrated_joint": 1,
+          "calibration_gains": 1,
+          "calibration_losses": 2
+        },
+        "passive": {
+          "n": 36,
+          "mean_bias": 1.260967943403456,
+          "mean_abs_bias": 2.1872459517584906,
+          "mean_role_contrast": 1.685089906056722,
+          "positive_contrast": 36,
+          "joint": 15,
+          "bias_dominant_failure": 21,
+          "nonpositive_contrast_failure": 0,
+          "content_free_calibrated_joint": 24,
+          "calibration_gains": 15,
+          "calibration_losses": 6
+        },
+        "subject_cleft": {
+          "n": 36,
+          "mean_bias": 0.9807092083825005,
+          "mean_abs_bias": 2.9673641787634955,
+          "mean_role_contrast": 0.25505630175272626,
+          "positive_contrast": 20,
+          "joint": 1,
+          "bias_dominant_failure": 19,
+          "nonpositive_contrast_failure": 16,
+          "content_free_calibrated_joint": 8,
+          "calibration_gains": 8,
+          "calibration_losses": 1
+        },
+        "object_cleft": {
+          "n": 36,
+          "mean_bias": 1.0632852448357477,
+          "mean_abs_bias": 2.6920146412319608,
+          "mean_role_contrast": 0.10011948479546441,
+          "positive_contrast": 18,
+          "joint": 0,
+          "bias_dominant_failure": 18,
+          "nonpositive_contrast_failure": 18,
+          "content_free_calibrated_joint": 4,
+          "calibration_gains": 4,
+          "calibration_losses": 0
+        }
+      }
+    }
+  },
+  "natural_adaptation_changes": {
+    "fresh1": {
+      "actor_performed/patient_verb": {
+        "active": {
+          "mean_subject_oriented_bias_change": -0.1261395083533393,
+          "mean_role_contrast_change": -0.4564102225833469,
+          "positive_subject_bias_groups": 2,
+          "positive_role_contrast_groups": 0,
+          "groups": 6
+        },
+        "passive": {
+          "mean_subject_oriented_bias_change": 0.666436513264974,
+          "mean_role_contrast_change": -0.04341824849446615,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 2,
+          "groups": 6
+        },
+        "subject_cleft": {
+          "mean_subject_oriented_bias_change": -0.7732181019253201,
+          "mean_role_contrast_change": -0.22632662455240884,
+          "positive_subject_bias_groups": 0,
+          "positive_role_contrast_groups": 0,
+          "groups": 6
+        },
+        "object_cleft": {
+          "mean_subject_oriented_bias_change": 0.5384186373816596,
+          "mean_role_contrast_change": 0.031527174843682185,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 3,
+          "groups": 6
+        }
+      },
+      "actor_acted/patient_affected": {
+        "active": {
+          "mean_subject_oriented_bias_change": 0.34940340783860946,
+          "mean_role_contrast_change": -0.08629600207010905,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 0,
+          "groups": 6
+        },
+        "passive": {
+          "mean_subject_oriented_bias_change": 0.977114650938246,
+          "mean_role_contrast_change": 0.2519910865359836,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 6,
+          "groups": 6
+        },
+        "subject_cleft": {
+          "mean_subject_oriented_bias_change": -0.07678135236104329,
+          "mean_role_contrast_change": -0.0737154483795166,
+          "positive_subject_bias_groups": 2,
+          "positive_role_contrast_groups": 0,
+          "groups": 6
+        },
+        "object_cleft": {
+          "mean_subject_oriented_bias_change": 0.09205343988206652,
+          "mean_role_contrast_change": 0.05955349074469672,
+          "positive_subject_bias_groups": 4,
+          "positive_role_contrast_groups": 6,
+          "groups": 6
+        }
+      },
+      "actor_performed/patient_affected": {
+        "active": {
+          "mean_subject_oriented_bias_change": -0.07342516051398383,
+          "mean_role_contrast_change": -0.5091245704227023,
+          "positive_subject_bias_groups": 2,
+          "positive_role_contrast_groups": 0,
+          "groups": 6
+        },
+        "passive": {
+          "mean_subject_oriented_bias_change": 0.9694802496168349,
+          "mean_role_contrast_change": 0.25962548785739475,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 6,
+          "groups": 6
+        },
+        "subject_cleft": {
+          "mean_subject_oriented_bias_change": -0.5013053152296278,
+          "mean_role_contrast_change": -0.4982394112481011,
+          "positive_subject_bias_groups": 0,
+          "positive_role_contrast_groups": 0,
+          "groups": 6
+        },
+        "object_cleft": {
+          "mean_subject_oriented_bias_change": 0.3012228806813558,
+          "mean_role_contrast_change": 0.268722931543986,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 6,
+          "groups": 6
+        }
+      },
+      "actor_acted/patient_verb": {
+        "active": {
+          "mean_subject_oriented_bias_change": 0.296689059999254,
+          "mean_role_contrast_change": -0.03358165423075358,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 2,
+          "groups": 6
+        },
+        "passive": {
+          "mean_subject_oriented_bias_change": 0.6740709145863851,
+          "mean_role_contrast_change": -0.05105264981587728,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 1,
+          "groups": 6
+        },
+        "subject_cleft": {
+          "mean_subject_oriented_bias_change": -0.3486941390567356,
+          "mean_role_contrast_change": 0.19819733831617567,
+          "positive_subject_bias_groups": 2,
+          "positive_role_contrast_groups": 6,
+          "groups": 6
+        },
+        "object_cleft": {
+          "mean_subject_oriented_bias_change": 0.32924919658237034,
+          "mean_role_contrast_change": -0.1776422659556071,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 0,
+          "groups": 6
+        }
+      }
+    },
+    "fresh3": {
+      "actor_performed/patient_verb": {
+        "active": {
+          "mean_subject_oriented_bias_change": 0.7743763658735487,
+          "mean_role_contrast_change": -0.2994573646121555,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 0,
+          "groups": 6
+        },
+        "passive": {
+          "mean_subject_oriented_bias_change": 0.8563369115193685,
+          "mean_role_contrast_change": 0.35229312049018013,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 6,
+          "groups": 6
+        },
+        "subject_cleft": {
+          "mean_subject_oriented_bias_change": -0.08794514338175456,
+          "mean_role_contrast_change": 0.10803026623196071,
+          "positive_subject_bias_groups": 2,
+          "positive_role_contrast_groups": 4,
+          "groups": 6
+        },
+        "object_cleft": {
+          "mean_subject_oriented_bias_change": 0.5294369326697456,
+          "mean_role_contrast_change": -0.010249005423651801,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 3,
+          "groups": 6
+        }
+      },
+      "actor_acted/patient_affected": {
+        "active": {
+          "mean_subject_oriented_bias_change": 1.1951956748962402,
+          "mean_role_contrast_change": 0.016065597534179688,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 4,
+          "groups": 6
+        },
+        "passive": {
+          "mean_subject_oriented_bias_change": 1.1796909438239203,
+          "mean_role_contrast_change": 0.40982532501220703,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 6,
+          "groups": 6
+        },
+        "subject_cleft": {
+          "mean_subject_oriented_bias_change": 0.9055655267503526,
+          "mean_role_contrast_change": -0.23911237716674805,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 0,
+          "groups": 6
+        },
+        "object_cleft": {
+          "mean_subject_oriented_bias_change": -0.07557058334350586,
+          "mean_role_contrast_change": 0.08094777001274957,
+          "positive_subject_bias_groups": 1,
+          "positive_role_contrast_groups": 6,
+          "groups": 6
+        }
+      },
+      "actor_performed/patient_affected": {
+        "active": {
+          "mean_subject_oriented_bias_change": 0.8270245393117269,
+          "mean_role_contrast_change": -0.3521055380503337,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 0,
+          "groups": 6
+        },
+        "passive": {
+          "mean_subject_oriented_bias_change": 1.046780029932658,
+          "mean_role_contrast_change": 0.5427362389034696,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 6,
+          "groups": 6
+        },
+        "subject_cleft": {
+          "mean_subject_oriented_bias_change": 0.5823815133836534,
+          "mean_role_contrast_change": -0.5622963905334473,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 0,
+          "groups": 6
+        },
+        "object_cleft": {
+          "mean_subject_oriented_bias_change": 0.18133478694491917,
+          "mean_role_contrast_change": 0.3378531403011746,
+          "positive_subject_bias_groups": 5,
+          "positive_role_contrast_groups": 6,
+          "groups": 6
+        }
+      },
+      "actor_acted/patient_verb": {
+        "active": {
+          "mean_subject_oriented_bias_change": 1.1425475014580622,
+          "mean_role_contrast_change": 0.06871377097235785,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 5,
+          "groups": 6
+        },
+        "passive": {
+          "mean_subject_oriented_bias_change": 0.9892478254106309,
+          "mean_role_contrast_change": 0.21938220659891763,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 6,
+          "groups": 6
+        },
+        "subject_cleft": {
+          "mean_subject_oriented_bias_change": 0.23523886998494467,
+          "mean_role_contrast_change": 0.43121427959865993,
+          "positive_subject_bias_groups": 5,
+          "positive_role_contrast_groups": 6,
+          "groups": 6
+        },
+        "object_cleft": {
+          "mean_subject_oriented_bias_change": 0.27253156238132054,
+          "mean_role_contrast_change": -0.26715437571207684,
+          "positive_subject_bias_groups": 6,
+          "positive_role_contrast_groups": 0,
+          "groups": 6
+        }
+      }
+    }
+  },
+  "cross_bank_tradeoff": {
+    "bank1": {
+      "fresh1": {
+        "active": {
+          "n": 36,
+          "gains": 0,
+          "losses": 3,
+          "aligned_joint": 25,
+          "decoupled_joint": 22,
+          "invalid_outputs": 0
+        },
+        "passive": {
+          "n": 36,
+          "gains": 15,
+          "losses": 0,
+          "aligned_joint": 15,
+          "decoupled_joint": 30,
+          "invalid_outputs": 0
+        }
+      },
+      "fresh3": {
+        "active": {
+          "n": 36,
+          "gains": 0,
+          "losses": 9,
+          "aligned_joint": 26,
+          "decoupled_joint": 17,
+          "invalid_outputs": 0
+        },
+        "passive": {
+          "n": 36,
+          "gains": 28,
+          "losses": 0,
+          "aligned_joint": 4,
+          "decoupled_joint": 32,
+          "invalid_outputs": 0
+        }
+      }
+    },
+    "bank2": {
+      "fresh1": {
+        "active": {
+          "n": 36,
+          "gains": 0,
+          "losses": 5,
+          "aligned_joint": 31,
+          "decoupled_joint": 26,
+          "invalid_outputs": 0
+        },
+        "passive": {
+          "n": 36,
+          "gains": 15,
+          "losses": 0,
+          "aligned_joint": 17,
+          "decoupled_joint": 32,
+          "invalid_outputs": 0
+        }
+      },
+      "fresh3": {
+        "active": {
+          "n": 36,
+          "gains": 0,
+          "losses": 5,
+          "aligned_joint": 33,
+          "decoupled_joint": 28,
+          "invalid_outputs": 0
+        },
+        "passive": {
+          "n": 36,
+          "gains": 18,
+          "losses": 0,
+          "aligned_joint": 14,
+          "decoupled_joint": 32,
+          "invalid_outputs": 0
+        }
+      }
+    }
+  }
+}

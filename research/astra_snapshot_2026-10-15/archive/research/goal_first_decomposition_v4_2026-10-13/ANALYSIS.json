@@ -1,0 +1,427 @@
+{
+  "protocol_sha256": "7cb4f13af6b1cd813a7dfcf81084e0914c5fc1b4c53a0953ac2ace6e87d7b55f",
+  "paired": {
+    "11": {
+      "joint_replay": {
+        "updates": 470,
+        "labels_seen": 240000,
+        "splits": {
+          "development": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 206,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 206,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 206
+          },
+          "in_domain_test": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 210,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 210,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 210
+          },
+          "mixed_test": {
+            "n": 400,
+            "full_both": 0,
+            "normalized_both": 207,
+            "full_step1": 0,
+            "full_step2": 400,
+            "normalized_step1": 207,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 193
+          }
+        }
+      },
+      "clause_decomposition": {
+        "updates": 470,
+        "labels_seen": 240000,
+        "splits": {
+          "development": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 400,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 400
+          },
+          "in_domain_test": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 400,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 400
+          },
+          "mixed_test": {
+            "n": 400,
+            "full_both": 0,
+            "normalized_both": 400,
+            "full_step1": 0,
+            "full_step2": 400,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 0
+          }
+        }
+      }
+    },
+    "23": {
+      "joint_replay": {
+        "updates": 470,
+        "labels_seen": 240000,
+        "splits": {
+          "development": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 200,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 200,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 200
+          },
+          "in_domain_test": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 200,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 200,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 200
+          },
+          "mixed_test": {
+            "n": 400,
+            "full_both": 0,
+            "normalized_both": 200,
+            "full_step1": 0,
+            "full_step2": 400,
+            "normalized_step1": 200,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 200
+          }
+        }
+      },
+      "clause_decomposition": {
+        "updates": 470,
+        "labels_seen": 240000,
+        "splits": {
+          "development": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 400,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 400
+          },
+          "in_domain_test": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 400,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 400
+          },
+          "mixed_test": {
+            "n": 400,
+            "full_both": 0,
+            "normalized_both": 400,
+            "full_step1": 0,
+            "full_step2": 400,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 0
+          }
+        }
+      }
+    },
+    "37": {
+      "joint_replay": {
+        "updates": 470,
+        "labels_seen": 240000,
+        "splits": {
+          "development": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 200,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 200,
+            "normalized_step2": 200,
+            "full_same_direction": 400,
+            "normalized_same_direction": 400
+          },
+          "in_domain_test": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 200,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 200,
+            "normalized_step2": 200,
+            "full_same_direction": 400,
+            "normalized_same_direction": 400
+          },
+          "mixed_test": {
+            "n": 400,
+            "full_both": 0,
+            "normalized_both": 0,
+            "full_step1": 0,
+            "full_step2": 400,
+            "normalized_step1": 200,
+            "normalized_step2": 200,
+            "full_same_direction": 400,
+            "normalized_same_direction": 400
+          }
+        }
+      },
+      "clause_decomposition": {
+        "updates": 470,
+        "labels_seen": 240000,
+        "splits": {
+          "development": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 400,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 400
+          },
+          "in_domain_test": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 400,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 400
+          },
+          "mixed_test": {
+            "n": 400,
+            "full_both": 17,
+            "normalized_both": 400,
+            "full_step1": 84,
+            "full_step2": 333,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 383,
+            "normalized_same_direction": 0
+          }
+        }
+      }
+    },
+    "41": {
+      "joint_replay": {
+        "updates": 470,
+        "labels_seen": 240000,
+        "splits": {
+          "development": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 153,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 200,
+            "normalized_step2": 353,
+            "full_same_direction": 400,
+            "normalized_same_direction": 153
+          },
+          "in_domain_test": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 140,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 200,
+            "normalized_step2": 340,
+            "full_same_direction": 400,
+            "normalized_same_direction": 140
+          },
+          "mixed_test": {
+            "n": 400,
+            "full_both": 0,
+            "normalized_both": 200,
+            "full_step1": 0,
+            "full_step2": 400,
+            "normalized_step1": 200,
+            "normalized_step2": 361,
+            "full_same_direction": 400,
+            "normalized_same_direction": 161
+          }
+        }
+      },
+      "clause_decomposition": {
+        "updates": 470,
+        "labels_seen": 240000,
+        "splits": {
+          "development": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 400,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 400
+          },
+          "in_domain_test": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 400,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 400
+          },
+          "mixed_test": {
+            "n": 400,
+            "full_both": 0,
+            "normalized_both": 400,
+            "full_step1": 200,
+            "full_step2": 200,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 0
+          }
+        }
+      }
+    },
+    "53": {
+      "joint_replay": {
+        "updates": 470,
+        "labels_seen": 240000,
+        "splits": {
+          "development": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 362,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 362,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 362
+          },
+          "in_domain_test": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 361,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 361,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 361
+          },
+          "mixed_test": {
+            "n": 400,
+            "full_both": 0,
+            "normalized_both": 352,
+            "full_step1": 400,
+            "full_step2": 0,
+            "normalized_step1": 352,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 48
+          }
+        }
+      },
+      "clause_decomposition": {
+        "updates": 470,
+        "labels_seen": 240000,
+        "splits": {
+          "development": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 400,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 400
+          },
+          "in_domain_test": {
+            "n": 400,
+            "full_both": 400,
+            "normalized_both": 400,
+            "full_step1": 400,
+            "full_step2": 400,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 400
+          },
+          "mixed_test": {
+            "n": 400,
+            "full_both": 0,
+            "normalized_both": 400,
+            "full_step1": 200,
+            "full_step2": 200,
+            "normalized_step1": 400,
+            "normalized_step2": 400,
+            "full_same_direction": 400,
+            "normalized_same_direction": 0
+          }
+        }
+      }
+    }
+  },
+  "screens": {
+    "all_starts_in_domain_full_pass": true,
+    "full_mixed_gains_per_400": [
+      0,
+      0,
+      17,
+      0,
+      0
+    ],
+    "full_positive_starts": 0,
+    "end_to_end_gate_pass": false,
+    "normalized_mixed_gains_per_400": [
+      193,
+      200,
+      400,
+      200,
+      48
+    ],
+    "normalized_mean_gain_per_400": 208.2,
+    "normalized_positive_starts": 5,
+    "supplied_normalization_gate_pass": true
+  }
+}

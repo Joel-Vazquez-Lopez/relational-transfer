@@ -1,0 +1,54 @@
+{
+  "status": "frozen_before_ability_calibration",
+  "date": "2026-10-14",
+  "question": "At closely matched nonfocal transfer ability, does nonzero ordered-role supervision still attenuate the focal sham-to-high graph penalty relative to participant-only supervision?",
+  "source_sha256": "ef5d2c99a8b140e23719221b586c71ef2f40064ee735da3eea759c96019456d5",
+  "runner_sha256": "1189679c746f6438d3ed0cecba49cc3c6edeb45cf1cef222ed1ca92c072dcf87",
+  "selection_sha256": "c0c7ea6ccfe5585d909a388c1f53a859e193a454a93087430da027df35d95c5a",
+  "focal_evaluation_sha256": "8347abdf31a39b4b32eea4afb152369351f6c3793830268e7de3c60e12e5ef3d",
+  "preflight_sha256": "ade3ed69ca0e19e153fef668bc6031bb9f318a1b94670c441d2fd56c79b8a808",
+  "phase2_source_sha256": "b05e6c55ba51ba0dcbaf9dd5e05d5c5f6d6eadffd47711c999aa32a2f66c9f58",
+  "phase2_protocol_sha256": "de047643189dd84595c17a6be4866d237d3bd57be0908d8a403803043c22fd78",
+  "graph_manifest_sha256": "4f9abb394ebe7b6b993ef989fa01a3052720d4250086d59d3bf510a798c5f255",
+  "graph_status": "All eight graph families were previously examined; this entire experiment is development, never independent confirmation.",
+  "calibration_families": [
+    0,
+    1
+  ],
+  "full_development_families": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "conditions": [
+    "sham",
+    "high"
+  ],
+  "seeds": [
+    321001,
+    321002
+  ],
+  "weights": [
+    0.001,
+    0.005,
+    0.02,
+    0.08
+  ],
+  "steps": 6000,
+  "scene_seed": 260107,
+  "architecture_and_data": "Exactly the Phase 2 RoleListener architecture, graph conditions, balanced 1,280-item pool, paired seed streams, AdamW optimizer, batch 128 and learning rate 0.0008. Only the ordered-role auxiliary loss coefficient differs.",
+  "reference": "Existing Phase 2 participant-only arm at its 6,000-update checkpoint, on the same families/conditions/seeds.",
+  "calibration_metric": "Mean binary-role accuracy on the eight prespecified nonfocal unseen pairs per cell, across families 0 and 1, two conditions, and two seeds. Calibration files contain no focal scores.",
+  "selection_rule": "Among four nonzero weights with minimum familiar four-choice accuracy >=0.95 in every calibration cell, choose the smallest absolute gap to participant-only calibration mean. Ties prefer larger weight. Require gap <=0.02 or stop.",
+  "stage2_metric": "The same nonfocal measure, averaged equally across all eight examined graph families, conditions and paired seeds. Require absolute gap <=0.02 and familiar four-choice accuracy >=0.95 in every cell or stop without focal evaluation.",
+  "tolerance": 0.02,
+  "familiar_minimum": 0.95,
+  "focal_gate": "Only after the stage2 ability match passes, evaluate the same withheld focal pair with 512 balanced renderings in scene suite 260107 at 6,000 updates. Compare within-seed high-minus-sham penalties, average within family then equally across eight families. Report per-family effects, family-level 95% t interval, exact two-sided sign-flip p as descriptive development evidence, and every family ability gap.",
+  "interpretation": "An aggregate match may mask family-specific ability differences. No fresh graph, pretrained LLM, or causal mechanism claim from this development screen. Do not change candidate weights, target, metrics, seeds, or training budget based on focal scores.",
+  "stop_rules": "Stop on generator/label invalidity, nonfinite/zero gradients, technical failures, missing calibration match, or missing full-development ability match; never stop based on focal score."
+}

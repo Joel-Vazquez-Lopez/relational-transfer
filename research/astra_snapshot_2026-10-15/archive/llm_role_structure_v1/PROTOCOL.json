@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-10",
+  "status": "fixed_before_cross_form_run",
+  "model": "Qwen2.5-1.5B-Instruct at commit 989aa7980e4cf806f80c7fef2b1adb7bc71aa306, no weight updates",
+  "model_weights_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+  "source_hashes": {
+    "shared": "a9c9be6ee62e305ca6729514cf07a2c92450a73de5f85b521c83c957dcb9f697",
+    "this": "69f0476bd27356d196e2cf5149e01463a6e017514a1920d988ee089b53fda35d"
+  },
+  "design": "8 new pairings x 4 verbs x 2 actor directions = 64 events; each in active, passive, object cleft, subject cleft and two fixed actor questions = 512 related prompts",
+  "outcome": "greedy first token must be exactly one of the names; report actor accuracy and last-name choice for each form and wording; event is the comparison unit",
+  "interpretation": "consistent actor answers when actor appears first and last across forms would be stronger evidence of role use; a last-name rule across forms would indicate a positional shortcut",
+  "limitations": "constructed English, one small pretrained model, four templates; phrase-level grammar and model pretraining are uncontrolled"
+}

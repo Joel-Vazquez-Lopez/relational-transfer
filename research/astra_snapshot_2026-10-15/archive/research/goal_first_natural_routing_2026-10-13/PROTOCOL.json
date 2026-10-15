@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-13",
+  "status": "exploratory but prospective on fresh QA-SRL Bank items; no sealed human review accessed",
+  "question": "Does producing the requested semantic role before extracting actor/patient fields improve direct answers over producing the same role label after the fields?",
+  "design": "Both arms receive exactly the same 160 source training items, four actor/patient by candidate-order prompts per item, all gold role, requested-role, and answer labels, same source adapter within start, one epoch, optimizer, update order, and output field vocabulary. Only the order of the generated Need field changes. Token counts may differ slightly from tokenizer context; report them.",
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "arms": [
+    "goal_first",
+    "goal_after_roles"
+  ],
+  "train_n": 160,
+  "development_n": 40,
+  "fresh_n": 40,
+  "primary": "On 40 new sentence-disjoint QA-SRL Bank items, count items with all four final answers correct (actor/patient by both candidate orders). Compare goal_first minus goal_after_roles within each start. Report exact/160, requested-role accuracy, actor/patient field accuracy, output validity, and deterministic routing from fields.",
+  "screen": "Goal-first must gain at least 6/40 all-four-correct fresh items in BOTH starts, while requested-role parsing is at least 95% and joint actor/patient field correctness falls by no more than 8/160 prompts relative to goal_after_roles in either start. The threshold is an exploratory go/no-go screen, not a significance test.",
+  "limits": "Actor/patient labels are a deterministic mapping of human QA-SRL question/answer annotations and have not been independently human-reviewed. This is one small Qwen2.5 model family with two related starts, original-train source distribution, participant overlap, and possible source-model pretraining overlap. A positive cannot establish a general reasoning method, novel internal state, or publication-grade natural-language repair. Existing answer-only and role-first checkpoints are secondary, not supervision-matched to these new arms.",
+  "lr": 5e-05,
+  "seed": 910127,
+  "updates_per_checkpoint": 160,
+  "splits_sha256": "7ce6472eee8dd595955cda929c9eae74844d60d73dd4a151683b6744aa891cd8",
+  "script_sha256": "5b0c635c065739b9ca4f83c9c824a144484fd44e6a4b0b555723923929833532",
+  "prior_splits_sha256": "ab180d681bf37b0a2b501bd8532447dedc700b083af03eb6ee0636fb58d29932",
+  "source_adapters_sha256": {
+    "fresh1": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e",
+    "fresh3": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48"
+  }
+}

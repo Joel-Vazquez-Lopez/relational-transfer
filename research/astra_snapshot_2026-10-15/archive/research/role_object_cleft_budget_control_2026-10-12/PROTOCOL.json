@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-12",
+  "status": "frozen_before_boost_training_or_any_new_test_inference",
+  "reason": "The preceding role/prompt pilot made only 16-23 of 48 TRAIN object-cleft patient decisions correctly. Test whether higher object-cleft exposure under the same answer-target and update budget explains the failure.",
+  "pairs": [
+    [
+      "Harry",
+      "Susan"
+    ],
+    [
+      "Alan",
+      "Ada"
+    ],
+    [
+      "Gary",
+      "Albert"
+    ],
+    [
+      "Louis",
+      "Mark"
+    ],
+    [
+      "Ian",
+      "Carl"
+    ],
+    [
+      "Tony",
+      "Tim"
+    ]
+  ],
+  "verbs": [
+    "challenged",
+    "stopped",
+    "encouraged"
+  ],
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "arms": [
+    "old_sft",
+    "old_coupled",
+    "boost_sft",
+    "boost_coupled"
+  ],
+  "questions": {
+    "actor_performed": "Who performed the action?",
+    "actor_did": "Who did the action?",
+    "patient_verb": "Who was {verb}?",
+    "actor_carried": "Which person carried out the action described in the sentence?",
+    "patient_which": "Which person was {verb}?"
+  },
+  "forms_test": [
+    "active",
+    "passive",
+    "subject_cleft",
+    "object_cleft"
+  ],
+  "train_schedule": "Each directed training event is seen for two epochs. At each update: active, object cleft, and alternating passive/subject cleft, 3 forms x 3 questions = 9 answer targets. Each event gets active and object cleft twice, passive and subject cleft once. The old schedule used active and passive twice, subject/object cleft once.",
+  "matched": "Boosted SFT and boosted coupled begin from the same natural source within each start, use the original 48 directed events, 96 updates, 864 answer targets, questions, seed, LR, optimizer and LoRA configuration. The coupled objective is exactly the earlier frozen pilot objective; only the shared form schedule changes.",
+  "primary": "For each start and arm, object-cleft event correctness on both held-out actor_carried and patient_which questions, out of 36. Compare boosted SFT with old SFT, and boosted coupled with boosted SFT. Report all four forms and all five questions.",
+  "screen": "A simple exposure explanation is supported if boosted SFT improves object-cleft held-out two-role correctness by at least 8/36 in EACH start versus old SFT while active and passive held-out two-role correctness each fall by at most 4/36. A separate role-specific gain requires boosted coupled to improve over boosted SFT by at least 6/144 across all forms in EACH start with no object-cleft regression. These are pilot screens, not publication claims.",
+  "limits": "One Qwen0.5B family, two related starts, constructed English and one new lexical bank. Boosting object clefts necessarily reduces passive exposure under a fixed budget, so any result is a distribution trade-off. This protocol follows inspection of the preceding test, but the new names and verbs were unused.",
+  "script_sha256": "d1c1615bbfee0e54e6090c3032d08a6a27ef92d8f0f7cd8ea8c3f527d60a13b9",
+  "pilot_script_sha256": "7f53cc2834a9ef6ec83153f5bc9f077d1afdd94982b3d4a1e3e6beb0807e3bdd",
+  "pilot_protocol_sha256": "bab546d5406b3e7b99c6d66a3239410f647f41f424c65518eef59571b39e0817",
+  "source_checkpoint_sha256": {
+    "fresh1": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e",
+    "fresh3": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48"
+  },
+  "old_checkpoint_sha256": {
+    "fresh1_old_sft": "fa7b85d9a948d6b2cfadaede1a2ddb49c6869823de53c456f368c016804232e0",
+    "fresh1_old_coupled": "63af5c35541fb84603d4cc2c978b613570c5b3d3e416f4fc361592c5c8d8f9c3",
+    "fresh3_old_sft": "4c2312c97cc0bf7e6cad3d0ae86a008628bb9363d19bfcbfc9fd5804bf674bb2",
+    "fresh3_old_coupled": "cea42ccfa87a700e4ae71cf6d1ead10d50350b43ecf7aba50163674144c27589"
+  },
+  "rows_sha256": "521a7b6643d97fe35d9d2934009efb6e19081be90b9a222c0d3aead66239cbf9"
+}

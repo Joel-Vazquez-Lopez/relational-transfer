@@ -1,0 +1,2317 @@
+{
+  "status": "post_hoc_descriptive_analysis_of_frozen_exploratory_test",
+  "models": {
+    "untouched_qwen05": {
+      "model": "untouched_qwen05",
+      "summary": {
+        "joint_events": 0,
+        "events": 36,
+        "valid_outputs": 576,
+        "total_prompts": 576,
+        "all_prompt_accuracy": 0.5590277777777778,
+        "by_form": {
+          "active": {
+            "correct": 93,
+            "total": 144
+          },
+          "passive": {
+            "correct": 72,
+            "total": 144
+          },
+          "object_cleft": {
+            "correct": 66,
+            "total": 144
+          },
+          "subject_cleft": {
+            "correct": 91,
+            "total": 144
+          }
+        },
+        "mean_abs_present_actor_margin": 2.7967747118737964,
+        "mean_abs_omitted_actor_margin": 2.0919418334960938,
+        "mean_target_margin_present": 0.6144405206044515,
+        "mean_target_margin_omitted": 0.0,
+        "cells": {
+          "active/actor/actor_acted": {
+            "correct": 18,
+            "total": 36
+          },
+          "active/actor/actor_performed": {
+            "correct": 36,
+            "total": 36
+          },
+          "active/patient/patient_affected": {
+            "correct": 18,
+            "total": 36
+          },
+          "active/patient/patient_verb": {
+            "correct": 21,
+            "total": 36
+          },
+          "object_cleft/actor/actor_acted": {
+            "correct": 18,
+            "total": 36
+          },
+          "object_cleft/actor/actor_performed": {
+            "correct": 17,
+            "total": 36
+          },
+          "object_cleft/patient/patient_affected": {
+            "correct": 16,
+            "total": 36
+          },
+          "object_cleft/patient/patient_verb": {
+            "correct": 15,
+            "total": 36
+          },
+          "passive/actor/actor_acted": {
+            "correct": 22,
+            "total": 36
+          },
+          "passive/actor/actor_performed": {
+            "correct": 20,
+            "total": 36
+          },
+          "passive/patient/patient_affected": {
+            "correct": 10,
+            "total": 36
+          },
+          "passive/patient/patient_verb": {
+            "correct": 20,
+            "total": 36
+          },
+          "subject_cleft/actor/actor_acted": {
+            "correct": 18,
+            "total": 36
+          },
+          "subject_cleft/actor/actor_performed": {
+            "correct": 36,
+            "total": 36
+          },
+          "subject_cleft/patient/patient_affected": {
+            "correct": 16,
+            "total": 36
+          },
+          "subject_cleft/patient/patient_verb": {
+            "correct": 21,
+            "total": 36
+          }
+        }
+      },
+      "form_role": {
+        "active/actor": {
+          "correct": 54,
+          "first_name_answers": 54,
+          "n": 72
+        },
+        "active/patient": {
+          "correct": 39,
+          "first_name_answers": 33,
+          "n": 72
+        },
+        "passive/actor": {
+          "correct": 42,
+          "first_name_answers": 30,
+          "n": 72
+        },
+        "passive/patient": {
+          "correct": 30,
+          "first_name_answers": 30,
+          "n": 72
+        },
+        "object_cleft/actor": {
+          "correct": 35,
+          "first_name_answers": 37,
+          "n": 72
+        },
+        "object_cleft/patient": {
+          "correct": 31,
+          "first_name_answers": 31,
+          "n": 72
+        },
+        "subject_cleft/actor": {
+          "correct": 54,
+          "first_name_answers": 54,
+          "n": 72
+        },
+        "subject_cleft/patient": {
+          "correct": 37,
+          "first_name_answers": 35,
+          "n": 72
+        }
+      },
+      "wording": {
+        "active/actor_performed": {
+          "correct": 36,
+          "n": 36
+        },
+        "active/actor_acted": {
+          "correct": 18,
+          "n": 36
+        },
+        "active/patient_verb": {
+          "correct": 21,
+          "n": 36
+        },
+        "active/patient_affected": {
+          "correct": 18,
+          "n": 36
+        },
+        "passive/actor_performed": {
+          "correct": 20,
+          "n": 36
+        },
+        "passive/actor_acted": {
+          "correct": 22,
+          "n": 36
+        },
+        "passive/patient_verb": {
+          "correct": 20,
+          "n": 36
+        },
+        "passive/patient_affected": {
+          "correct": 10,
+          "n": 36
+        },
+        "object_cleft/actor_performed": {
+          "correct": 17,
+          "n": 36
+        },
+        "object_cleft/actor_acted": {
+          "correct": 18,
+          "n": 36
+        },
+        "object_cleft/patient_verb": {
+          "correct": 15,
+          "n": 36
+        },
+        "object_cleft/patient_affected": {
+          "correct": 16,
+          "n": 36
+        },
+        "subject_cleft/actor_performed": {
+          "correct": 36,
+          "n": 36
+        },
+        "subject_cleft/actor_acted": {
+          "correct": 18,
+          "n": 36
+        },
+        "subject_cleft/patient_verb": {
+          "correct": 21,
+          "n": 36
+        },
+        "subject_cleft/patient_affected": {
+          "correct": 16,
+          "n": 36
+        }
+      },
+      "candidate_contrast": {
+        "active/actor_performed+patient_verb": {
+          "contrast_positive": 36,
+          "context_lift_positive": 36,
+          "both_direct_answers_correct": 21,
+          "mean_contrast": 4.6707485516866045,
+          "mean_context_lift": 4.6707485516866045,
+          "n": 36
+        },
+        "active/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 13,
+          "both_direct_answers_correct": 1,
+          "mean_contrast": -0.2990593910217285,
+          "mean_context_lift": -0.2990593910217285,
+          "n": 36
+        },
+        "passive/actor_performed+patient_verb": {
+          "contrast_positive": 27,
+          "context_lift_positive": 29,
+          "both_direct_answers_correct": 5,
+          "mean_contrast": 1.0759014553493924,
+          "mean_context_lift": 1.0759014553493924,
+          "n": 36
+        },
+        "passive/actor_acted+patient_affected": {
+          "contrast_positive": 20,
+          "context_lift_positive": 30,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": 0.7841996616787381,
+          "mean_context_lift": 0.7841996616787381,
+          "n": 36
+        },
+        "object_cleft/actor_performed+patient_verb": {
+          "contrast_positive": 10,
+          "context_lift_positive": 5,
+          "both_direct_answers_correct": 2,
+          "mean_contrast": -1.7158574528164334,
+          "mean_context_lift": -1.7158574528164334,
+          "n": 36
+        },
+        "object_cleft/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 15,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": 0.14928340911865234,
+          "mean_context_lift": 0.14928340911865234,
+          "n": 36
+        },
+        "subject_cleft/actor_performed+patient_verb": {
+          "contrast_positive": 36,
+          "context_lift_positive": 36,
+          "both_direct_answers_correct": 21,
+          "mean_contrast": 5.348442183600532,
+          "mean_context_lift": 5.348442183600532,
+          "n": 36
+        },
+        "subject_cleft/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 16,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": -0.18261008792453343,
+          "mean_context_lift": -0.18261008792453343,
+          "n": 36
+        }
+      },
+      "local_subject_vs_first_mention": {
+        "active": {
+          "local_subject_answers": 87,
+          "first_mentioned_answers": 87,
+          "n": 144,
+          "by_pair": [
+            14,
+            15,
+            15,
+            13,
+            15,
+            15
+          ]
+        },
+        "passive": {
+          "local_subject_answers": 60,
+          "first_mentioned_answers": 60,
+          "n": 144,
+          "by_pair": [
+            8,
+            9,
+            10,
+            12,
+            9,
+            12
+          ]
+        },
+        "object_cleft": {
+          "local_subject_answers": 76,
+          "first_mentioned_answers": 68,
+          "n": 144,
+          "by_pair": [
+            12,
+            14,
+            12,
+            14,
+            12,
+            12
+          ]
+        },
+        "subject_cleft": {
+          "local_subject_answers": 89,
+          "first_mentioned_answers": 89,
+          "n": 144,
+          "by_pair": [
+            15,
+            16,
+            15,
+            14,
+            15,
+            14
+          ]
+        }
+      },
+      "explicit_wording_joint_events_exploratory": 0
+    },
+    "fresh1_source": {
+      "model": "fresh1_source",
+      "summary": {
+        "joint_events": 0,
+        "events": 36,
+        "valid_outputs": 576,
+        "total_prompts": 576,
+        "all_prompt_accuracy": 0.5260416666666666,
+        "by_form": {
+          "active": {
+            "correct": 77,
+            "total": 144
+          },
+          "passive": {
+            "correct": 80,
+            "total": 144
+          },
+          "object_cleft": {
+            "correct": 68,
+            "total": 144
+          },
+          "subject_cleft": {
+            "correct": 78,
+            "total": 144
+          }
+        },
+        "mean_abs_present_actor_margin": 2.6746084656980305,
+        "mean_abs_omitted_actor_margin": 2.528229580985175,
+        "mean_target_margin_present": 0.4038969708813561,
+        "mean_target_margin_omitted": 0.0,
+        "cells": {
+          "active/actor/actor_acted": {
+            "correct": 18,
+            "total": 36
+          },
+          "active/actor/actor_performed": {
+            "correct": 35,
+            "total": 36
+          },
+          "active/patient/patient_affected": {
+            "correct": 14,
+            "total": 36
+          },
+          "active/patient/patient_verb": {
+            "correct": 10,
+            "total": 36
+          },
+          "object_cleft/actor/actor_acted": {
+            "correct": 18,
+            "total": 36
+          },
+          "object_cleft/actor/actor_performed": {
+            "correct": 13,
+            "total": 36
+          },
+          "object_cleft/patient/patient_affected": {
+            "correct": 18,
+            "total": 36
+          },
+          "object_cleft/patient/patient_verb": {
+            "correct": 19,
+            "total": 36
+          },
+          "passive/actor/actor_acted": {
+            "correct": 23,
+            "total": 36
+          },
+          "passive/actor/actor_performed": {
+            "correct": 30,
+            "total": 36
+          },
+          "passive/patient/patient_affected": {
+            "correct": 9,
+            "total": 36
+          },
+          "passive/patient/patient_verb": {
+            "correct": 18,
+            "total": 36
+          },
+          "subject_cleft/actor/actor_acted": {
+            "correct": 20,
+            "total": 36
+          },
+          "subject_cleft/actor/actor_performed": {
+            "correct": 36,
+            "total": 36
+          },
+          "subject_cleft/patient/patient_affected": {
+            "correct": 8,
+            "total": 36
+          },
+          "subject_cleft/patient/patient_verb": {
+            "correct": 14,
+            "total": 36
+          }
+        }
+      },
+      "form_role": {
+        "active/actor": {
+          "correct": 53,
+          "first_name_answers": 53,
+          "n": 72
+        },
+        "active/patient": {
+          "correct": 24,
+          "first_name_answers": 48,
+          "n": 72
+        },
+        "passive/actor": {
+          "correct": 53,
+          "first_name_answers": 19,
+          "n": 72
+        },
+        "passive/patient": {
+          "correct": 27,
+          "first_name_answers": 27,
+          "n": 72
+        },
+        "object_cleft/actor": {
+          "correct": 31,
+          "first_name_answers": 41,
+          "n": 72
+        },
+        "object_cleft/patient": {
+          "correct": 37,
+          "first_name_answers": 37,
+          "n": 72
+        },
+        "subject_cleft/actor": {
+          "correct": 56,
+          "first_name_answers": 56,
+          "n": 72
+        },
+        "subject_cleft/patient": {
+          "correct": 22,
+          "first_name_answers": 50,
+          "n": 72
+        }
+      },
+      "wording": {
+        "active/actor_performed": {
+          "correct": 35,
+          "n": 36
+        },
+        "active/actor_acted": {
+          "correct": 18,
+          "n": 36
+        },
+        "active/patient_verb": {
+          "correct": 10,
+          "n": 36
+        },
+        "active/patient_affected": {
+          "correct": 14,
+          "n": 36
+        },
+        "passive/actor_performed": {
+          "correct": 30,
+          "n": 36
+        },
+        "passive/actor_acted": {
+          "correct": 23,
+          "n": 36
+        },
+        "passive/patient_verb": {
+          "correct": 18,
+          "n": 36
+        },
+        "passive/patient_affected": {
+          "correct": 9,
+          "n": 36
+        },
+        "object_cleft/actor_performed": {
+          "correct": 13,
+          "n": 36
+        },
+        "object_cleft/actor_acted": {
+          "correct": 18,
+          "n": 36
+        },
+        "object_cleft/patient_verb": {
+          "correct": 19,
+          "n": 36
+        },
+        "object_cleft/patient_affected": {
+          "correct": 18,
+          "n": 36
+        },
+        "subject_cleft/actor_performed": {
+          "correct": 36,
+          "n": 36
+        },
+        "subject_cleft/actor_acted": {
+          "correct": 20,
+          "n": 36
+        },
+        "subject_cleft/patient_verb": {
+          "correct": 14,
+          "n": 36
+        },
+        "subject_cleft/patient_affected": {
+          "correct": 8,
+          "n": 36
+        }
+      },
+      "candidate_contrast": {
+        "active/actor_performed+patient_verb": {
+          "contrast_positive": 34,
+          "context_lift_positive": 36,
+          "both_direct_answers_correct": 9,
+          "mean_contrast": 2.5223362180921765,
+          "mean_context_lift": 2.5223362180921765,
+          "n": 36
+        },
+        "active/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 1,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": -0.5942310757107205,
+          "mean_context_lift": -0.5942310757107205,
+          "n": 36
+        },
+        "passive/actor_performed+patient_verb": {
+          "contrast_positive": 30,
+          "context_lift_positive": 32,
+          "both_direct_answers_correct": 12,
+          "mean_contrast": 1.6879084375169542,
+          "mean_context_lift": 1.6879084375169542,
+          "n": 36
+        },
+        "passive/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 30,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": 0.8449028333028158,
+          "mean_context_lift": 0.8449028333028158,
+          "n": 36
+        },
+        "object_cleft/actor_performed+patient_verb": {
+          "contrast_positive": 16,
+          "context_lift_positive": 9,
+          "both_direct_answers_correct": 3,
+          "mean_contrast": -0.7135725021362305,
+          "mean_context_lift": -0.7135725021362305,
+          "n": 36
+        },
+        "object_cleft/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 20,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": 0.08423354890611437,
+          "mean_context_lift": 0.08423354890611437,
+          "n": 36
+        },
+        "subject_cleft/actor_performed+patient_verb": {
+          "contrast_positive": 35,
+          "context_lift_positive": 36,
+          "both_direct_answers_correct": 14,
+          "mean_contrast": 3.257545683119032,
+          "mean_context_lift": 3.257545683119032,
+          "n": 36
+        },
+        "subject_cleft/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 10,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": -0.626771608988444,
+          "mean_context_lift": -0.626771608988444,
+          "n": 36
+        }
+      },
+      "local_subject_vs_first_mention": {
+        "active": {
+          "local_subject_answers": 101,
+          "first_mentioned_answers": 101,
+          "n": 144,
+          "by_pair": [
+            19,
+            17,
+            19,
+            15,
+            17,
+            14
+          ]
+        },
+        "passive": {
+          "local_subject_answers": 46,
+          "first_mentioned_answers": 46,
+          "n": 144,
+          "by_pair": [
+            4,
+            5,
+            10,
+            12,
+            3,
+            12
+          ]
+        },
+        "object_cleft": {
+          "local_subject_answers": 66,
+          "first_mentioned_answers": 78,
+          "n": 144,
+          "by_pair": [
+            8,
+            10,
+            11,
+            12,
+            13,
+            12
+          ]
+        },
+        "subject_cleft": {
+          "local_subject_answers": 106,
+          "first_mentioned_answers": 106,
+          "n": 144,
+          "by_pair": [
+            22,
+            17,
+            18,
+            15,
+            19,
+            15
+          ]
+        }
+      },
+      "explicit_wording_joint_events_exploratory": 1
+    },
+    "fresh1_natural": {
+      "model": "fresh1_natural",
+      "summary": {
+        "joint_events": 0,
+        "events": 36,
+        "valid_outputs": 576,
+        "total_prompts": 576,
+        "all_prompt_accuracy": 0.5260416666666666,
+        "by_form": {
+          "active": {
+            "correct": 71,
+            "total": 144
+          },
+          "passive": {
+            "correct": 87,
+            "total": 144
+          },
+          "object_cleft": {
+            "correct": 71,
+            "total": 144
+          },
+          "subject_cleft": {
+            "correct": 74,
+            "total": 144
+          }
+        },
+        "mean_abs_present_actor_margin": 2.142537365357081,
+        "mean_abs_omitted_actor_margin": 1.5403582255045574,
+        "mean_target_margin_present": 0.3360101216369205,
+        "mean_target_margin_omitted": 0.0,
+        "cells": {
+          "active/actor/actor_acted": {
+            "correct": 18,
+            "total": 36
+          },
+          "active/actor/actor_performed": {
+            "correct": 35,
+            "total": 36
+          },
+          "active/patient/patient_affected": {
+            "correct": 8,
+            "total": 36
+          },
+          "active/patient/patient_verb": {
+            "correct": 10,
+            "total": 36
+          },
+          "object_cleft/actor/actor_acted": {
+            "correct": 18,
+            "total": 36
+          },
+          "object_cleft/actor/actor_performed": {
+            "correct": 20,
+            "total": 36
+          },
+          "object_cleft/patient/patient_affected": {
+            "correct": 16,
+            "total": 36
+          },
+          "object_cleft/patient/patient_verb": {
+            "correct": 17,
+            "total": 36
+          },
+          "passive/actor/actor_acted": {
+            "correct": 21,
+            "total": 36
+          },
+          "passive/actor/actor_performed": {
+            "correct": 27,
+            "total": 36
+          },
+          "passive/patient/patient_affected": {
+            "correct": 16,
+            "total": 36
+          },
+          "passive/patient/patient_verb": {
+            "correct": 23,
+            "total": 36
+          },
+          "subject_cleft/actor/actor_acted": {
+            "correct": 19,
+            "total": 36
+          },
+          "subject_cleft/actor/actor_performed": {
+            "correct": 36,
+            "total": 36
+          },
+          "subject_cleft/patient/patient_affected": {
+            "correct": 4,
+            "total": 36
+          },
+          "subject_cleft/patient/patient_verb": {
+            "correct": 15,
+            "total": 36
+          }
+        }
+      },
+      "form_role": {
+        "active/actor": {
+          "correct": 53,
+          "first_name_answers": 53,
+          "n": 72
+        },
+        "active/patient": {
+          "correct": 18,
+          "first_name_answers": 54,
+          "n": 72
+        },
+        "passive/actor": {
+          "correct": 48,
+          "first_name_answers": 24,
+          "n": 72
+        },
+        "passive/patient": {
+          "correct": 39,
+          "first_name_answers": 39,
+          "n": 72
+        },
+        "object_cleft/actor": {
+          "correct": 38,
+          "first_name_answers": 34,
+          "n": 72
+        },
+        "object_cleft/patient": {
+          "correct": 33,
+          "first_name_answers": 33,
+          "n": 72
+        },
+        "subject_cleft/actor": {
+          "correct": 55,
+          "first_name_answers": 55,
+          "n": 72
+        },
+        "subject_cleft/patient": {
+          "correct": 19,
+          "first_name_answers": 53,
+          "n": 72
+        }
+      },
+      "wording": {
+        "active/actor_performed": {
+          "correct": 35,
+          "n": 36
+        },
+        "active/actor_acted": {
+          "correct": 18,
+          "n": 36
+        },
+        "active/patient_verb": {
+          "correct": 10,
+          "n": 36
+        },
+        "active/patient_affected": {
+          "correct": 8,
+          "n": 36
+        },
+        "passive/actor_performed": {
+          "correct": 27,
+          "n": 36
+        },
+        "passive/actor_acted": {
+          "correct": 21,
+          "n": 36
+        },
+        "passive/patient_verb": {
+          "correct": 23,
+          "n": 36
+        },
+        "passive/patient_affected": {
+          "correct": 16,
+          "n": 36
+        },
+        "object_cleft/actor_performed": {
+          "correct": 20,
+          "n": 36
+        },
+        "object_cleft/actor_acted": {
+          "correct": 18,
+          "n": 36
+        },
+        "object_cleft/patient_verb": {
+          "correct": 17,
+          "n": 36
+        },
+        "object_cleft/patient_affected": {
+          "correct": 16,
+          "n": 36
+        },
+        "subject_cleft/actor_performed": {
+          "correct": 36,
+          "n": 36
+        },
+        "subject_cleft/actor_acted": {
+          "correct": 19,
+          "n": 36
+        },
+        "subject_cleft/patient_verb": {
+          "correct": 15,
+          "n": 36
+        },
+        "subject_cleft/patient_affected": {
+          "correct": 4,
+          "n": 36
+        }
+      },
+      "candidate_contrast": {
+        "active/actor_performed+patient_verb": {
+          "contrast_positive": 31,
+          "context_lift_positive": 35,
+          "both_direct_answers_correct": 9,
+          "mean_contrast": 1.6095157729254828,
+          "mean_context_lift": 1.6095157729254828,
+          "n": 36
+        },
+        "active/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 5,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": -0.7668230798509386,
+          "mean_context_lift": -0.7668230798509386,
+          "n": 36
+        },
+        "passive/actor_performed+patient_verb": {
+          "contrast_positive": 32,
+          "context_lift_positive": 31,
+          "both_direct_answers_correct": 14,
+          "mean_contrast": 1.6010719405280218,
+          "mean_context_lift": 1.6010719405280218,
+          "n": 36
+        },
+        "passive/actor_acted+patient_affected": {
+          "contrast_positive": 21,
+          "context_lift_positive": 33,
+          "both_direct_answers_correct": 4,
+          "mean_contrast": 1.348885006374783,
+          "mean_context_lift": 1.348885006374783,
+          "n": 36
+        },
+        "object_cleft/actor_performed+patient_verb": {
+          "contrast_positive": 14,
+          "context_lift_positive": 12,
+          "both_direct_answers_correct": 5,
+          "mean_contrast": -0.6505181524488661,
+          "mean_context_lift": -0.6505181524488661,
+          "n": 36
+        },
+        "object_cleft/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 20,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": 0.2033405303955078,
+          "mean_context_lift": 0.2033405303955078,
+          "n": 36
+        },
+        "subject_cleft/actor_performed+patient_verb": {
+          "contrast_positive": 32,
+          "context_lift_positive": 34,
+          "both_direct_answers_correct": 15,
+          "mean_contrast": 2.8048924340142145,
+          "mean_context_lift": 2.8048924340142145,
+          "n": 36
+        },
+        "subject_cleft/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 17,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": -0.7742025057474772,
+          "mean_context_lift": -0.7742025057474772,
+          "n": 36
+        }
+      },
+      "local_subject_vs_first_mention": {
+        "active": {
+          "local_subject_answers": 107,
+          "first_mentioned_answers": 107,
+          "n": 144,
+          "by_pair": [
+            20,
+            19,
+            19,
+            16,
+            19,
+            14
+          ]
+        },
+        "passive": {
+          "local_subject_answers": 63,
+          "first_mentioned_answers": 63,
+          "n": 144,
+          "by_pair": [
+            7,
+            12,
+            12,
+            14,
+            6,
+            12
+          ]
+        },
+        "object_cleft": {
+          "local_subject_answers": 77,
+          "first_mentioned_answers": 67,
+          "n": 144,
+          "by_pair": [
+            11,
+            12,
+            13,
+            13,
+            16,
+            12
+          ]
+        },
+        "subject_cleft": {
+          "local_subject_answers": 108,
+          "first_mentioned_answers": 108,
+          "n": 144,
+          "by_pair": [
+            21,
+            18,
+            17,
+            18,
+            19,
+            15
+          ]
+        }
+      },
+      "explicit_wording_joint_events_exploratory": 2
+    },
+    "fresh3_source": {
+      "model": "fresh3_source",
+      "summary": {
+        "joint_events": 0,
+        "events": 36,
+        "valid_outputs": 576,
+        "total_prompts": 576,
+        "all_prompt_accuracy": 0.4982638888888889,
+        "by_form": {
+          "active": {
+            "correct": 80,
+            "total": 144
+          },
+          "passive": {
+            "correct": 75,
+            "total": 144
+          },
+          "object_cleft": {
+            "correct": 59,
+            "total": 144
+          },
+          "subject_cleft": {
+            "correct": 73,
+            "total": 144
+          }
+        },
+        "mean_abs_present_actor_margin": 2.8073154621654086,
+        "mean_abs_omitted_actor_margin": 2.703860362370809,
+        "mean_target_margin_present": 0.4581112729178535,
+        "mean_target_margin_omitted": 0.0,
+        "cells": {
+          "active/actor/actor_acted": {
+            "correct": 18,
+            "total": 36
+          },
+          "active/actor/actor_performed": {
+            "correct": 35,
+            "total": 36
+          },
+          "active/patient/patient_affected": {
+            "correct": 11,
+            "total": 36
+          },
+          "active/patient/patient_verb": {
+            "correct": 16,
+            "total": 36
+          },
+          "object_cleft/actor/actor_acted": {
+            "correct": 19,
+            "total": 36
+          },
+          "object_cleft/actor/actor_performed": {
+            "correct": 8,
+            "total": 36
+          },
+          "object_cleft/patient/patient_affected": {
+            "correct": 15,
+            "total": 36
+          },
+          "object_cleft/patient/patient_verb": {
+            "correct": 17,
+            "total": 36
+          },
+          "passive/actor/actor_acted": {
+            "correct": 27,
+            "total": 36
+          },
+          "passive/actor/actor_performed": {
+            "correct": 32,
+            "total": 36
+          },
+          "passive/patient/patient_affected": {
+            "correct": 0,
+            "total": 36
+          },
+          "passive/patient/patient_verb": {
+            "correct": 16,
+            "total": 36
+          },
+          "subject_cleft/actor/actor_acted": {
+            "correct": 18,
+            "total": 36
+          },
+          "subject_cleft/actor/actor_performed": {
+            "correct": 36,
+            "total": 36
+          },
+          "subject_cleft/patient/patient_affected": {
+            "correct": 3,
+            "total": 36
+          },
+          "subject_cleft/patient/patient_verb": {
+            "correct": 16,
+            "total": 36
+          }
+        }
+      },
+      "form_role": {
+        "active/actor": {
+          "correct": 53,
+          "first_name_answers": 53,
+          "n": 72
+        },
+        "active/patient": {
+          "correct": 27,
+          "first_name_answers": 45,
+          "n": 72
+        },
+        "passive/actor": {
+          "correct": 59,
+          "first_name_answers": 13,
+          "n": 72
+        },
+        "passive/patient": {
+          "correct": 16,
+          "first_name_answers": 16,
+          "n": 72
+        },
+        "object_cleft/actor": {
+          "correct": 27,
+          "first_name_answers": 45,
+          "n": 72
+        },
+        "object_cleft/patient": {
+          "correct": 32,
+          "first_name_answers": 32,
+          "n": 72
+        },
+        "subject_cleft/actor": {
+          "correct": 54,
+          "first_name_answers": 54,
+          "n": 72
+        },
+        "subject_cleft/patient": {
+          "correct": 19,
+          "first_name_answers": 53,
+          "n": 72
+        }
+      },
+      "wording": {
+        "active/actor_performed": {
+          "correct": 35,
+          "n": 36
+        },
+        "active/actor_acted": {
+          "correct": 18,
+          "n": 36
+        },
+        "active/patient_verb": {
+          "correct": 16,
+          "n": 36
+        },
+        "active/patient_affected": {
+          "correct": 11,
+          "n": 36
+        },
+        "passive/actor_performed": {
+          "correct": 32,
+          "n": 36
+        },
+        "passive/actor_acted": {
+          "correct": 27,
+          "n": 36
+        },
+        "passive/patient_verb": {
+          "correct": 16,
+          "n": 36
+        },
+        "passive/patient_affected": {
+          "correct": 0,
+          "n": 36
+        },
+        "object_cleft/actor_performed": {
+          "correct": 8,
+          "n": 36
+        },
+        "object_cleft/actor_acted": {
+          "correct": 19,
+          "n": 36
+        },
+        "object_cleft/patient_verb": {
+          "correct": 17,
+          "n": 36
+        },
+        "object_cleft/patient_affected": {
+          "correct": 15,
+          "n": 36
+        },
+        "subject_cleft/actor_performed": {
+          "correct": 36,
+          "n": 36
+        },
+        "subject_cleft/actor_acted": {
+          "correct": 18,
+          "n": 36
+        },
+        "subject_cleft/patient_verb": {
+          "correct": 16,
+          "n": 36
+        },
+        "subject_cleft/patient_affected": {
+          "correct": 3,
+          "n": 36
+        }
+      },
+      "candidate_contrast": {
+        "active/actor_performed+patient_verb": {
+          "contrast_positive": 30,
+          "context_lift_positive": 36,
+          "both_direct_answers_correct": 15,
+          "mean_contrast": 3.7348635461595325,
+          "mean_context_lift": 3.7348635461595325,
+          "n": 36
+        },
+        "active/actor_acted+patient_affected": {
+          "contrast_positive": 16,
+          "context_lift_positive": 0,
+          "both_direct_answers_correct": 2,
+          "mean_contrast": -1.6426227357652452,
+          "mean_context_lift": -1.6426227357652452,
+          "n": 36
+        },
+        "passive/actor_performed+patient_verb": {
+          "contrast_positive": 28,
+          "context_lift_positive": 27,
+          "both_direct_answers_correct": 13,
+          "mean_contrast": 1.1159629821777344,
+          "mean_context_lift": 1.1159629821777344,
+          "n": 36
+        },
+        "passive/actor_acted+patient_affected": {
+          "contrast_positive": 19,
+          "context_lift_positive": 33,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": 1.566407733493381,
+          "mean_context_lift": 1.566407733493381,
+          "n": 36
+        },
+        "object_cleft/actor_performed+patient_verb": {
+          "contrast_positive": 16,
+          "context_lift_positive": 6,
+          "both_direct_answers_correct": 3,
+          "mean_contrast": -1.3871545791625977,
+          "mean_context_lift": -1.3871545791625977,
+          "n": 36
+        },
+        "object_cleft/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 20,
+          "both_direct_answers_correct": 4,
+          "mean_contrast": 0.6552027066548666,
+          "mean_context_lift": 0.6552027066548666,
+          "n": 36
+        },
+        "subject_cleft/actor_performed+patient_verb": {
+          "contrast_positive": 34,
+          "context_lift_positive": 35,
+          "both_direct_answers_correct": 16,
+          "mean_contrast": 4.818779521518284,
+          "mean_context_lift": 4.818779521518284,
+          "n": 36
+        },
+        "subject_cleft/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 5,
+          "both_direct_answers_correct": 1,
+          "mean_contrast": -1.5316588083902996,
+          "mean_context_lift": -1.5316588083902996,
+          "n": 36
+        }
+      },
+      "local_subject_vs_first_mention": {
+        "active": {
+          "local_subject_answers": 98,
+          "first_mentioned_answers": 98,
+          "n": 144,
+          "by_pair": [
+            16,
+            19,
+            17,
+            14,
+            16,
+            16
+          ]
+        },
+        "passive": {
+          "local_subject_answers": 29,
+          "first_mentioned_answers": 29,
+          "n": 144,
+          "by_pair": [
+            3,
+            4,
+            7,
+            6,
+            5,
+            4
+          ]
+        },
+        "object_cleft": {
+          "local_subject_answers": 67,
+          "first_mentioned_answers": 77,
+          "n": 144,
+          "by_pair": [
+            9,
+            10,
+            13,
+            12,
+            12,
+            11
+          ]
+        },
+        "subject_cleft": {
+          "local_subject_answers": 107,
+          "first_mentioned_answers": 107,
+          "n": 144,
+          "by_pair": [
+            18,
+            18,
+            19,
+            18,
+            18,
+            16
+          ]
+        }
+      },
+      "explicit_wording_joint_events_exploratory": 1
+    },
+    "fresh3_natural": {
+      "model": "fresh3_natural",
+      "summary": {
+        "joint_events": 0,
+        "events": 36,
+        "valid_outputs": 576,
+        "total_prompts": 576,
+        "all_prompt_accuracy": 0.5086805555555556,
+        "by_form": {
+          "active": {
+            "correct": 69,
+            "total": 144
+          },
+          "passive": {
+            "correct": 91,
+            "total": 144
+          },
+          "object_cleft": {
+            "correct": 61,
+            "total": 144
+          },
+          "subject_cleft": {
+            "correct": 72,
+            "total": 144
+          }
+        },
+        "mean_abs_present_actor_margin": 2.5353415144814386,
+        "mean_abs_omitted_actor_margin": 2.0720823340945773,
+        "mean_target_margin_present": 0.5104041894276937,
+        "mean_target_margin_omitted": 0.0,
+        "cells": {
+          "active/actor/actor_acted": {
+            "correct": 21,
+            "total": 36
+          },
+          "active/actor/actor_performed": {
+            "correct": 36,
+            "total": 36
+          },
+          "active/patient/patient_affected": {
+            "correct": 3,
+            "total": 36
+          },
+          "active/patient/patient_verb": {
+            "correct": 9,
+            "total": 36
+          },
+          "object_cleft/actor/actor_acted": {
+            "correct": 19,
+            "total": 36
+          },
+          "object_cleft/actor/actor_performed": {
+            "correct": 13,
+            "total": 36
+          },
+          "object_cleft/patient/patient_affected": {
+            "correct": 16,
+            "total": 36
+          },
+          "object_cleft/patient/patient_verb": {
+            "correct": 13,
+            "total": 36
+          },
+          "passive/actor/actor_acted": {
+            "correct": 30,
+            "total": 36
+          },
+          "passive/actor/actor_performed": {
+            "correct": 26,
+            "total": 36
+          },
+          "passive/patient/patient_affected": {
+            "correct": 14,
+            "total": 36
+          },
+          "passive/patient/patient_verb": {
+            "correct": 21,
+            "total": 36
+          },
+          "subject_cleft/actor/actor_acted": {
+            "correct": 18,
+            "total": 36
+          },
+          "subject_cleft/actor/actor_performed": {
+            "correct": 36,
+            "total": 36
+          },
+          "subject_cleft/patient/patient_affected": {
+            "correct": 0,
+            "total": 36
+          },
+          "subject_cleft/patient/patient_verb": {
+            "correct": 18,
+            "total": 36
+          }
+        }
+      },
+      "form_role": {
+        "active/actor": {
+          "correct": 57,
+          "first_name_answers": 57,
+          "n": 72
+        },
+        "active/patient": {
+          "correct": 12,
+          "first_name_answers": 60,
+          "n": 72
+        },
+        "passive/actor": {
+          "correct": 56,
+          "first_name_answers": 16,
+          "n": 72
+        },
+        "passive/patient": {
+          "correct": 35,
+          "first_name_answers": 35,
+          "n": 72
+        },
+        "object_cleft/actor": {
+          "correct": 32,
+          "first_name_answers": 40,
+          "n": 72
+        },
+        "object_cleft/patient": {
+          "correct": 29,
+          "first_name_answers": 29,
+          "n": 72
+        },
+        "subject_cleft/actor": {
+          "correct": 54,
+          "first_name_answers": 54,
+          "n": 72
+        },
+        "subject_cleft/patient": {
+          "correct": 18,
+          "first_name_answers": 54,
+          "n": 72
+        }
+      },
+      "wording": {
+        "active/actor_performed": {
+          "correct": 36,
+          "n": 36
+        },
+        "active/actor_acted": {
+          "correct": 21,
+          "n": 36
+        },
+        "active/patient_verb": {
+          "correct": 9,
+          "n": 36
+        },
+        "active/patient_affected": {
+          "correct": 3,
+          "n": 36
+        },
+        "passive/actor_performed": {
+          "correct": 26,
+          "n": 36
+        },
+        "passive/actor_acted": {
+          "correct": 30,
+          "n": 36
+        },
+        "passive/patient_verb": {
+          "correct": 21,
+          "n": 36
+        },
+        "passive/patient_affected": {
+          "correct": 14,
+          "n": 36
+        },
+        "object_cleft/actor_performed": {
+          "correct": 13,
+          "n": 36
+        },
+        "object_cleft/actor_acted": {
+          "correct": 19,
+          "n": 36
+        },
+        "object_cleft/patient_verb": {
+          "correct": 13,
+          "n": 36
+        },
+        "object_cleft/patient_affected": {
+          "correct": 16,
+          "n": 36
+        },
+        "subject_cleft/actor_performed": {
+          "correct": 36,
+          "n": 36
+        },
+        "subject_cleft/actor_acted": {
+          "correct": 18,
+          "n": 36
+        },
+        "subject_cleft/patient_verb": {
+          "correct": 18,
+          "n": 36
+        },
+        "subject_cleft/patient_affected": {
+          "correct": 0,
+          "n": 36
+        }
+      },
+      "candidate_contrast": {
+        "active/actor_performed+patient_verb": {
+          "contrast_positive": 32,
+          "context_lift_positive": 36,
+          "both_direct_answers_correct": 9,
+          "mean_contrast": 3.135948816935221,
+          "mean_context_lift": 3.135948816935221,
+          "n": 36
+        },
+        "active/actor_acted+patient_affected": {
+          "contrast_positive": 15,
+          "context_lift_positive": 1,
+          "both_direct_answers_correct": 2,
+          "mean_contrast": -1.6104915406968858,
+          "mean_context_lift": -1.6104915406968858,
+          "n": 36
+        },
+        "passive/actor_performed+patient_verb": {
+          "contrast_positive": 31,
+          "context_lift_positive": 30,
+          "both_direct_answers_correct": 12,
+          "mean_contrast": 1.8205492231580946,
+          "mean_context_lift": 1.8205492231580946,
+          "n": 36
+        },
+        "passive/actor_acted+patient_affected": {
+          "contrast_positive": 28,
+          "context_lift_positive": 36,
+          "both_direct_answers_correct": 9,
+          "mean_contrast": 2.386058383517795,
+          "mean_context_lift": 2.386058383517795,
+          "n": 36
+        },
+        "object_cleft/actor_performed+patient_verb": {
+          "contrast_positive": 15,
+          "context_lift_positive": 6,
+          "both_direct_answers_correct": 2,
+          "mean_contrast": -1.4076525900099013,
+          "mean_context_lift": -1.4076525900099013,
+          "n": 36
+        },
+        "object_cleft/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 18,
+          "both_direct_answers_correct": 7,
+          "mean_contrast": 0.8170982466803657,
+          "mean_context_lift": 0.8170982466803657,
+          "n": 36
+        },
+        "subject_cleft/actor_performed+patient_verb": {
+          "contrast_positive": 34,
+          "context_lift_positive": 36,
+          "both_direct_answers_correct": 18,
+          "mean_contrast": 5.0348400539822045,
+          "mean_context_lift": 5.0348400539822045,
+          "n": 36
+        },
+        "subject_cleft/actor_acted+patient_affected": {
+          "contrast_positive": 18,
+          "context_lift_positive": 14,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": -2.0098835627237954,
+          "mean_context_lift": -2.0098835627237954,
+          "n": 36
+        }
+      },
+      "local_subject_vs_first_mention": {
+        "active": {
+          "local_subject_answers": 117,
+          "first_mentioned_answers": 117,
+          "n": 144,
+          "by_pair": [
+            20,
+            21,
+            21,
+            18,
+            20,
+            17
+          ]
+        },
+        "passive": {
+          "local_subject_answers": 51,
+          "first_mentioned_answers": 51,
+          "n": 144,
+          "by_pair": [
+            3,
+            10,
+            8,
+            11,
+            8,
+            11
+          ]
+        },
+        "object_cleft": {
+          "local_subject_answers": 75,
+          "first_mentioned_answers": 69,
+          "n": 144,
+          "by_pair": [
+            10,
+            11,
+            16,
+            14,
+            12,
+            12
+          ]
+        },
+        "subject_cleft": {
+          "local_subject_answers": 108,
+          "first_mentioned_answers": 108,
+          "n": 144,
+          "by_pair": [
+            18,
+            18,
+            19,
+            17,
+            18,
+            18
+          ]
+        }
+      },
+      "explicit_wording_joint_events_exploratory": 1
+    },
+    "untouched_qwen15": {
+      "model": "untouched_qwen15",
+      "summary": {
+        "joint_events": 0,
+        "events": 36,
+        "valid_outputs": 576,
+        "total_prompts": 576,
+        "all_prompt_accuracy": 0.640625,
+        "by_form": {
+          "active": {
+            "correct": 117,
+            "total": 144
+          },
+          "passive": {
+            "correct": 75,
+            "total": 144
+          },
+          "object_cleft": {
+            "correct": 51,
+            "total": 144
+          },
+          "subject_cleft": {
+            "correct": 126,
+            "total": 144
+          }
+        },
+        "mean_abs_present_actor_margin": 4.412983086374071,
+        "mean_abs_omitted_actor_margin": 1.995663669374254,
+        "mean_target_margin_present": 2.415660308467017,
+        "mean_target_margin_omitted": 0.0,
+        "cells": {
+          "active/actor/actor_acted": {
+            "correct": 17,
+            "total": 36
+          },
+          "active/actor/actor_performed": {
+            "correct": 29,
+            "total": 36
+          },
+          "active/patient/patient_affected": {
+            "correct": 36,
+            "total": 36
+          },
+          "active/patient/patient_verb": {
+            "correct": 35,
+            "total": 36
+          },
+          "object_cleft/actor/actor_acted": {
+            "correct": 21,
+            "total": 36
+          },
+          "object_cleft/actor/actor_performed": {
+            "correct": 16,
+            "total": 36
+          },
+          "object_cleft/patient/patient_affected": {
+            "correct": 2,
+            "total": 36
+          },
+          "object_cleft/patient/patient_verb": {
+            "correct": 12,
+            "total": 36
+          },
+          "passive/actor/actor_acted": {
+            "correct": 36,
+            "total": 36
+          },
+          "passive/actor/actor_performed": {
+            "correct": 34,
+            "total": 36
+          },
+          "passive/patient/patient_affected": {
+            "correct": 0,
+            "total": 36
+          },
+          "passive/patient/patient_verb": {
+            "correct": 5,
+            "total": 36
+          },
+          "subject_cleft/actor/actor_acted": {
+            "correct": 24,
+            "total": 36
+          },
+          "subject_cleft/actor/actor_performed": {
+            "correct": 32,
+            "total": 36
+          },
+          "subject_cleft/patient/patient_affected": {
+            "correct": 36,
+            "total": 36
+          },
+          "subject_cleft/patient/patient_verb": {
+            "correct": 34,
+            "total": 36
+          }
+        }
+      },
+      "form_role": {
+        "active/actor": {
+          "correct": 46,
+          "first_name_answers": 46,
+          "n": 72
+        },
+        "active/patient": {
+          "correct": 71,
+          "first_name_answers": 1,
+          "n": 72
+        },
+        "passive/actor": {
+          "correct": 70,
+          "first_name_answers": 2,
+          "n": 72
+        },
+        "passive/patient": {
+          "correct": 5,
+          "first_name_answers": 5,
+          "n": 72
+        },
+        "object_cleft/actor": {
+          "correct": 37,
+          "first_name_answers": 35,
+          "n": 72
+        },
+        "object_cleft/patient": {
+          "correct": 14,
+          "first_name_answers": 14,
+          "n": 72
+        },
+        "subject_cleft/actor": {
+          "correct": 56,
+          "first_name_answers": 56,
+          "n": 72
+        },
+        "subject_cleft/patient": {
+          "correct": 70,
+          "first_name_answers": 2,
+          "n": 72
+        }
+      },
+      "wording": {
+        "active/actor_performed": {
+          "correct": 29,
+          "n": 36
+        },
+        "active/actor_acted": {
+          "correct": 17,
+          "n": 36
+        },
+        "active/patient_verb": {
+          "correct": 35,
+          "n": 36
+        },
+        "active/patient_affected": {
+          "correct": 36,
+          "n": 36
+        },
+        "passive/actor_performed": {
+          "correct": 34,
+          "n": 36
+        },
+        "passive/actor_acted": {
+          "correct": 36,
+          "n": 36
+        },
+        "passive/patient_verb": {
+          "correct": 5,
+          "n": 36
+        },
+        "passive/patient_affected": {
+          "correct": 0,
+          "n": 36
+        },
+        "object_cleft/actor_performed": {
+          "correct": 16,
+          "n": 36
+        },
+        "object_cleft/actor_acted": {
+          "correct": 21,
+          "n": 36
+        },
+        "object_cleft/patient_verb": {
+          "correct": 12,
+          "n": 36
+        },
+        "object_cleft/patient_affected": {
+          "correct": 2,
+          "n": 36
+        },
+        "subject_cleft/actor_performed": {
+          "correct": 32,
+          "n": 36
+        },
+        "subject_cleft/actor_acted": {
+          "correct": 24,
+          "n": 36
+        },
+        "subject_cleft/patient_verb": {
+          "correct": 34,
+          "n": 36
+        },
+        "subject_cleft/patient_affected": {
+          "correct": 36,
+          "n": 36
+        }
+      },
+      "candidate_contrast": {
+        "active/actor_performed+patient_verb": {
+          "contrast_positive": 36,
+          "context_lift_positive": 36,
+          "both_direct_answers_correct": 28,
+          "mean_contrast": 10.872780058119032,
+          "mean_context_lift": 10.872780058119032,
+          "n": 36
+        },
+        "active/actor_acted+patient_affected": {
+          "contrast_positive": 36,
+          "context_lift_positive": 36,
+          "both_direct_answers_correct": 17,
+          "mean_contrast": 7.023580869038899,
+          "mean_context_lift": 7.023580869038899,
+          "n": 36
+        },
+        "passive/actor_performed+patient_verb": {
+          "contrast_positive": 25,
+          "context_lift_positive": 27,
+          "both_direct_answers_correct": 4,
+          "mean_contrast": 2.0152964062160916,
+          "mean_context_lift": 2.0152964062160916,
+          "n": 36
+        },
+        "passive/actor_acted+patient_affected": {
+          "contrast_positive": 30,
+          "context_lift_positive": 30,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": 1.6319674915737576,
+          "mean_context_lift": 1.6319674915737576,
+          "n": 36
+        },
+        "object_cleft/actor_performed+patient_verb": {
+          "contrast_positive": 14,
+          "context_lift_positive": 11,
+          "both_direct_answers_correct": 6,
+          "mean_contrast": -1.5455232196384006,
+          "mean_context_lift": -1.5455232196384006,
+          "n": 36
+        },
+        "object_cleft/actor_acted+patient_affected": {
+          "contrast_positive": 10,
+          "context_lift_positive": 8,
+          "both_direct_answers_correct": 0,
+          "mean_contrast": -1.7956735293070476,
+          "mean_context_lift": -1.7956735293070476,
+          "n": 36
+        },
+        "subject_cleft/actor_performed+patient_verb": {
+          "contrast_positive": 36,
+          "context_lift_positive": 36,
+          "both_direct_answers_correct": 30,
+          "mean_contrast": 11.39931027094523,
+          "mean_context_lift": 11.39931027094523,
+          "n": 36
+        },
+        "subject_cleft/actor_acted+patient_affected": {
+          "contrast_positive": 36,
+          "context_lift_positive": 36,
+          "both_direct_answers_correct": 24,
+          "mean_contrast": 9.048826588524712,
+          "mean_context_lift": 9.048826588524712,
+          "n": 36
+        }
+      },
+      "local_subject_vs_first_mention": {
+        "active": {
+          "local_subject_answers": 47,
+          "first_mentioned_answers": 47,
+          "n": 144,
+          "by_pair": [
+            9,
+            7,
+            4,
+            11,
+            8,
+            8
+          ]
+        },
+        "passive": {
+          "local_subject_answers": 7,
+          "first_mentioned_answers": 7,
+          "n": 144,
+          "by_pair": [
+            2,
+            3,
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        "object_cleft": {
+          "local_subject_answers": 95,
+          "first_mentioned_answers": 49,
+          "n": 144,
+          "by_pair": [
+            15,
+            14,
+            16,
+            16,
+            17,
+            17
+          ]
+        },
+        "subject_cleft": {
+          "local_subject_answers": 58,
+          "first_mentioned_answers": 58,
+          "n": 144,
+          "by_pair": [
+            12,
+            7,
+            8,
+            12,
+            9,
+            10
+          ]
+        }
+      },
+      "explicit_wording_joint_events_exploratory": 2
+    }
+  },
+  "matched_changes": [
+    {
+      "source": "fresh1_source",
+      "natural": "fresh1_natural",
+      "cells": {
+        "active/actor": {
+          "source_correct": 53,
+          "natural_correct": 53,
+          "gained": 0,
+          "lost": 0,
+          "n": 72
+        },
+        "active/actor_acted": {
+          "source_correct": 18,
+          "natural_correct": 18,
+          "gained": 0,
+          "lost": 0,
+          "n": 36
+        },
+        "active/actor_performed": {
+          "source_correct": 35,
+          "natural_correct": 35,
+          "gained": 0,
+          "lost": 0,
+          "n": 36
+        },
+        "active/patient": {
+          "source_correct": 24,
+          "natural_correct": 18,
+          "gained": 2,
+          "lost": 8,
+          "n": 72
+        },
+        "active/patient_affected": {
+          "source_correct": 14,
+          "natural_correct": 8,
+          "gained": 0,
+          "lost": 6,
+          "n": 36
+        },
+        "active/patient_verb": {
+          "source_correct": 10,
+          "natural_correct": 10,
+          "gained": 2,
+          "lost": 2,
+          "n": 36
+        },
+        "object_cleft/actor": {
+          "source_correct": 31,
+          "natural_correct": 38,
+          "gained": 9,
+          "lost": 2,
+          "n": 72
+        },
+        "object_cleft/actor_acted": {
+          "source_correct": 18,
+          "natural_correct": 18,
+          "gained": 0,
+          "lost": 0,
+          "n": 36
+        },
+        "object_cleft/actor_performed": {
+          "source_correct": 13,
+          "natural_correct": 20,
+          "gained": 9,
+          "lost": 2,
+          "n": 36
+        },
+        "object_cleft/patient": {
+          "source_correct": 37,
+          "natural_correct": 33,
+          "gained": 0,
+          "lost": 4,
+          "n": 72
+        },
+        "object_cleft/patient_affected": {
+          "source_correct": 18,
+          "natural_correct": 16,
+          "gained": 0,
+          "lost": 2,
+          "n": 36
+        },
+        "object_cleft/patient_verb": {
+          "source_correct": 19,
+          "natural_correct": 17,
+          "gained": 0,
+          "lost": 2,
+          "n": 36
+        },
+        "passive/actor": {
+          "source_correct": 53,
+          "natural_correct": 48,
+          "gained": 2,
+          "lost": 7,
+          "n": 72
+        },
+        "passive/actor_acted": {
+          "source_correct": 23,
+          "natural_correct": 21,
+          "gained": 0,
+          "lost": 2,
+          "n": 36
+        },
+        "passive/actor_performed": {
+          "source_correct": 30,
+          "natural_correct": 27,
+          "gained": 2,
+          "lost": 5,
+          "n": 36
+        },
+        "passive/patient": {
+          "source_correct": 27,
+          "natural_correct": 39,
+          "gained": 12,
+          "lost": 0,
+          "n": 72
+        },
+        "passive/patient_affected": {
+          "source_correct": 9,
+          "natural_correct": 16,
+          "gained": 7,
+          "lost": 0,
+          "n": 36
+        },
+        "passive/patient_verb": {
+          "source_correct": 18,
+          "natural_correct": 23,
+          "gained": 5,
+          "lost": 0,
+          "n": 36
+        },
+        "subject_cleft/actor": {
+          "source_correct": 56,
+          "natural_correct": 55,
+          "gained": 0,
+          "lost": 1,
+          "n": 72
+        },
+        "subject_cleft/actor_acted": {
+          "source_correct": 20,
+          "natural_correct": 19,
+          "gained": 0,
+          "lost": 1,
+          "n": 36
+        },
+        "subject_cleft/actor_performed": {
+          "source_correct": 36,
+          "natural_correct": 36,
+          "gained": 0,
+          "lost": 0,
+          "n": 36
+        },
+        "subject_cleft/patient": {
+          "source_correct": 22,
+          "natural_correct": 19,
+          "gained": 1,
+          "lost": 4,
+          "n": 72
+        },
+        "subject_cleft/patient_affected": {
+          "source_correct": 8,
+          "natural_correct": 4,
+          "gained": 0,
+          "lost": 4,
+          "n": 36
+        },
+        "subject_cleft/patient_verb": {
+          "source_correct": 14,
+          "natural_correct": 15,
+          "gained": 1,
+          "lost": 0,
+          "n": 36
+        }
+      }
+    },
+    {
+      "source": "fresh3_source",
+      "natural": "fresh3_natural",
+      "cells": {
+        "active/actor": {
+          "source_correct": 53,
+          "natural_correct": 57,
+          "gained": 4,
+          "lost": 0,
+          "n": 72
+        },
+        "active/actor_acted": {
+          "source_correct": 18,
+          "natural_correct": 21,
+          "gained": 3,
+          "lost": 0,
+          "n": 36
+        },
+        "active/actor_performed": {
+          "source_correct": 35,
+          "natural_correct": 36,
+          "gained": 1,
+          "lost": 0,
+          "n": 36
+        },
+        "active/patient": {
+          "source_correct": 27,
+          "natural_correct": 12,
+          "gained": 1,
+          "lost": 16,
+          "n": 72
+        },
+        "active/patient_affected": {
+          "source_correct": 11,
+          "natural_correct": 3,
+          "gained": 0,
+          "lost": 8,
+          "n": 36
+        },
+        "active/patient_verb": {
+          "source_correct": 16,
+          "natural_correct": 9,
+          "gained": 1,
+          "lost": 8,
+          "n": 36
+        },
+        "object_cleft/actor": {
+          "source_correct": 27,
+          "natural_correct": 32,
+          "gained": 5,
+          "lost": 0,
+          "n": 72
+        },
+        "object_cleft/actor_acted": {
+          "source_correct": 19,
+          "natural_correct": 19,
+          "gained": 0,
+          "lost": 0,
+          "n": 36
+        },
+        "object_cleft/actor_performed": {
+          "source_correct": 8,
+          "natural_correct": 13,
+          "gained": 5,
+          "lost": 0,
+          "n": 36
+        },
+        "object_cleft/patient": {
+          "source_correct": 32,
+          "natural_correct": 29,
+          "gained": 3,
+          "lost": 6,
+          "n": 72
+        },
+        "object_cleft/patient_affected": {
+          "source_correct": 15,
+          "natural_correct": 16,
+          "gained": 3,
+          "lost": 2,
+          "n": 36
+        },
+        "object_cleft/patient_verb": {
+          "source_correct": 17,
+          "natural_correct": 13,
+          "gained": 0,
+          "lost": 4,
+          "n": 36
+        },
+        "passive/actor": {
+          "source_correct": 59,
+          "natural_correct": 56,
+          "gained": 7,
+          "lost": 10,
+          "n": 72
+        },
+        "passive/actor_acted": {
+          "source_correct": 27,
+          "natural_correct": 30,
+          "gained": 4,
+          "lost": 1,
+          "n": 36
+        },
+        "passive/actor_performed": {
+          "source_correct": 32,
+          "natural_correct": 26,
+          "gained": 3,
+          "lost": 9,
+          "n": 36
+        },
+        "passive/patient": {
+          "source_correct": 16,
+          "natural_correct": 35,
+          "gained": 20,
+          "lost": 1,
+          "n": 72
+        },
+        "passive/patient_affected": {
+          "source_correct": 0,
+          "natural_correct": 14,
+          "gained": 14,
+          "lost": 0,
+          "n": 36
+        },
+        "passive/patient_verb": {
+          "source_correct": 16,
+          "natural_correct": 21,
+          "gained": 6,
+          "lost": 1,
+          "n": 36
+        },
+        "subject_cleft/actor": {
+          "source_correct": 54,
+          "natural_correct": 54,
+          "gained": 0,
+          "lost": 0,
+          "n": 72
+        },
+        "subject_cleft/actor_acted": {
+          "source_correct": 18,
+          "natural_correct": 18,
+          "gained": 0,
+          "lost": 0,
+          "n": 36
+        },
+        "subject_cleft/actor_performed": {
+          "source_correct": 36,
+          "natural_correct": 36,
+          "gained": 0,
+          "lost": 0,
+          "n": 36
+        },
+        "subject_cleft/patient": {
+          "source_correct": 19,
+          "natural_correct": 18,
+          "gained": 2,
+          "lost": 3,
+          "n": 72
+        },
+        "subject_cleft/patient_affected": {
+          "source_correct": 3,
+          "natural_correct": 0,
+          "gained": 0,
+          "lost": 3,
+          "n": 36
+        },
+        "subject_cleft/patient_verb": {
+          "source_correct": 16,
+          "natural_correct": 18,
+          "gained": 2,
+          "lost": 0,
+          "n": 36
+        }
+      }
+    }
+  ]
+}

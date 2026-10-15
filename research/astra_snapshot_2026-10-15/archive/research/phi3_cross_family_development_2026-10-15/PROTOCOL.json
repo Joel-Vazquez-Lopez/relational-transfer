@@ -1,0 +1,475 @@
+{
+  "status": "frozen before Phi-3 inference; exploratory reused constructed examples",
+  "hub_id": "mlx-community/Phi-3-mini-4k-instruct-4bit",
+  "revision": "5b3819ed6317784fb20eddeae9bed984f778d0d0",
+  "weight_bytes": 2149696167,
+  "weight_sha256": "8d75680621a09474f6601e9176f2f61f92a5e4c079d68d583901f51699fda50a",
+  "license": "MIT; verified community and Microsoft model cards",
+  "runtime": "Existing MLX-LM 0.32.0 / MLX 0.32.4 on Apple M2 16 GiB; free local inference only",
+  "resource_estimate": "11 GiB disk available before download; 2.15 GB weights; estimated 3\u20135 GB allocation; no old files deleted",
+  "qwen_protocol_sha256": "4cb3044866e259ed5bf0c25f08787a6809563a854d80fcb22997eb9151573a17",
+  "qwen_source_lock_sha256": "5ca5e7da3bdb7c164b2baf6c67269ed707520eb269c9f4b561ccf6859ecc9d95",
+  "qwen_checksums": {
+    ".gitignore": "89c2d98cc31cb039e879383b36edfcea412c89db2bff644dcdc31726071c646b",
+    "ANALYSIS.json": "273ccf1aebea8165e135407efd479e2a659645ce90eddc4b0d86baf4b576ee2a",
+    "ANALYSIS_PRINT.txt": "5df26d2a00f672d4d607b7c3113436cdd3b36c2ca71781b1701790092c6678be",
+    "ARCHIVE_PROMPT_VALIDATION.json": "f26b12601ab260080e2c786230ffdafae62e29c3f9a835c8953c5c40cffea331",
+    "CLOSED_ARCHIVE_VALIDATION.json": "a15909a3022d7873a77715d71e61c36c6f623c5fa663ad3f6cc2121262073fec",
+    "NEW_PROPOSED_LABELS.json": "507b543333dbaa922c2ddc9a8b1136b72750f8d8de5249eae2f01142919569ff",
+    "NEW_REVIEW.csv": "10cf4262642f903cc19a9c0fcd4b706127be38ee65d620e22a5634713b6674bd",
+    "PROTOCOL.json": "4cb3044866e259ed5bf0c25f08787a6809563a854d80fcb22997eb9151573a17",
+    "RESULTS.md": "523558482bb4a119ca6dfae72284f39ef0e888b14acbddcd0d4929d3350e4162",
+    "REVIEW_INSTRUCTIONS.txt": "67b1736c2106eb9d0281e32bf3d945c1cda29b0047707c2ffdde000a7f82ab9f",
+    "SMOKE_qwen05.json": "77ec8160766ec95c27da6f25bf1f565cb8e2b56f7aaacf574c7cabfd10028dfb",
+    "SMOKE_qwen15.json": "f59c5e3b46d0351d690efdc2b16cc1d47d25a0d16de11ecc558742addfb80be2",
+    "SMOKE_qwen7b.json": "1c0b25beae9b4a1babaed275c741404942040026ca13970619cd3d57d7de8826",
+    "SOURCE_LOCK.json": "5ca5e7da3bdb7c164b2baf6c67269ed707520eb269c9f4b561ccf6859ecc9d95",
+    "WEIGHT_VALIDATION.json": "92284ab33722aa7beeff169ef301ea9bbdb5fbeadb6d54d77c916488515cceca",
+    "analyze.py": "d9502463c5be74a39a5e7540f570831aaf616e4a63d7b2c1c0b4d0e9c05aba24",
+    "design.py": "576d40a09f6d4391ecc04fc07ec6265232fc37b0698f15f6a442590616f7b765",
+    "qwen05.jsonl": "a730a914629f58a91f1167e13e9065a9e398e478ddf30a546de902dcad10c652",
+    "qwen05.log": "8924d74b4fe8bda97e00f3092bbb143317957435aa8d1f7fd0ebb3249c74fd2f",
+    "qwen05_COMPLETE.json": "2f2bb276527cc5437836a63c4f5e8dfa2a7f5de9470ba42e658496dfb5738187",
+    "qwen05_META.json": "cfff32e5aff282d527db4bf35c7b1c89fe5d485f11d014867afaf1fd9f74c3d3",
+    "qwen15.jsonl": "bffaff31e8a39002a5d868463b97594959d23863f1d82dcfc8602dfa90db282a",
+    "qwen15.log": "c92a212f1295bbf50886607ef78f46e9b67c98a908110190b8dca42060c5277e",
+    "qwen15_COMPLETE.json": "fc894362681333331a6a1e13acc95cbb3a44e66d14c642a3fe5cd7631a1e44ab",
+    "qwen15_META.json": "5e95166f0d9e70be5d125881d402974f2dab4ed0dfceee353695cc53618ca22b",
+    "qwen7b.jsonl": "1f6b2442eabf2ec45e9cc6f407bc1bf9265d1a4feb6d4de4683c4f617537d155",
+    "qwen7b.log": "88875bd32e1ae81645c8b58b9eb6d3745507f0666124322226ce90013e4bfe83",
+    "qwen7b_COMPLETE.json": "0449c8cdb38ab19882428e93319bc07b0ea19ec89fe828161150c5241896b561",
+    "qwen7b_META.json": "1d980778386126ea15251e389bf3bf97455bbcf33fb1cfaa0fdcd0c9a6b7c5ab",
+    "requirements-local.txt": "8c62652116f0470c58b2b6d855533a1f9c75ec93a9cbc570986ca8478d506834",
+    "run.py": "77af78bffab8dcbb1a1ad3b18adf0712b3a43de074755e4b76f0a6697198d7f4"
+  },
+  "events": [
+    {
+      "id": "p0-nudged-d0",
+      "pair_index": 0,
+      "a": "Amy",
+      "b": "Ben",
+      "actor": "Amy",
+      "patient": "Ben",
+      "verb": "nudged",
+      "direction": 0
+    },
+    {
+      "id": "p0-nudged-d1",
+      "pair_index": 0,
+      "a": "Amy",
+      "b": "Ben",
+      "actor": "Ben",
+      "patient": "Amy",
+      "verb": "nudged",
+      "direction": 1
+    },
+    {
+      "id": "p0-tagged-d0",
+      "pair_index": 0,
+      "a": "Amy",
+      "b": "Ben",
+      "actor": "Amy",
+      "patient": "Ben",
+      "verb": "tagged",
+      "direction": 0
+    },
+    {
+      "id": "p0-tagged-d1",
+      "pair_index": 0,
+      "a": "Amy",
+      "b": "Ben",
+      "actor": "Ben",
+      "patient": "Amy",
+      "verb": "tagged",
+      "direction": 1
+    },
+    {
+      "id": "p0-pulled-d0",
+      "pair_index": 0,
+      "a": "Amy",
+      "b": "Ben",
+      "actor": "Amy",
+      "patient": "Ben",
+      "verb": "pulled",
+      "direction": 0
+    },
+    {
+      "id": "p0-pulled-d1",
+      "pair_index": 0,
+      "a": "Amy",
+      "b": "Ben",
+      "actor": "Ben",
+      "patient": "Amy",
+      "verb": "pulled",
+      "direction": 1
+    },
+    {
+      "id": "p1-nudged-d0",
+      "pair_index": 1,
+      "a": "Fred",
+      "b": "Jane",
+      "actor": "Fred",
+      "patient": "Jane",
+      "verb": "nudged",
+      "direction": 0
+    },
+    {
+      "id": "p1-nudged-d1",
+      "pair_index": 1,
+      "a": "Fred",
+      "b": "Jane",
+      "actor": "Jane",
+      "patient": "Fred",
+      "verb": "nudged",
+      "direction": 1
+    },
+    {
+      "id": "p1-tagged-d0",
+      "pair_index": 1,
+      "a": "Fred",
+      "b": "Jane",
+      "actor": "Fred",
+      "patient": "Jane",
+      "verb": "tagged",
+      "direction": 0
+    },
+    {
+      "id": "p1-tagged-d1",
+      "pair_index": 1,
+      "a": "Fred",
+      "b": "Jane",
+      "actor": "Jane",
+      "patient": "Fred",
+      "verb": "tagged",
+      "direction": 1
+    },
+    {
+      "id": "p1-pulled-d0",
+      "pair_index": 1,
+      "a": "Fred",
+      "b": "Jane",
+      "actor": "Fred",
+      "patient": "Jane",
+      "verb": "pulled",
+      "direction": 0
+    },
+    {
+      "id": "p1-pulled-d1",
+      "pair_index": 1,
+      "a": "Fred",
+      "b": "Jane",
+      "actor": "Jane",
+      "patient": "Fred",
+      "verb": "pulled",
+      "direction": 1
+    },
+    {
+      "id": "p2-nudged-d0",
+      "pair_index": 2,
+      "a": "Mark",
+      "b": "Rose",
+      "actor": "Mark",
+      "patient": "Rose",
+      "verb": "nudged",
+      "direction": 0
+    },
+    {
+      "id": "p2-nudged-d1",
+      "pair_index": 2,
+      "a": "Mark",
+      "b": "Rose",
+      "actor": "Rose",
+      "patient": "Mark",
+      "verb": "nudged",
+      "direction": 1
+    },
+    {
+      "id": "p2-tagged-d0",
+      "pair_index": 2,
+      "a": "Mark",
+      "b": "Rose",
+      "actor": "Mark",
+      "patient": "Rose",
+      "verb": "tagged",
+      "direction": 0
+    },
+    {
+      "id": "p2-tagged-d1",
+      "pair_index": 2,
+      "a": "Mark",
+      "b": "Rose",
+      "actor": "Rose",
+      "patient": "Mark",
+      "verb": "tagged",
+      "direction": 1
+    },
+    {
+      "id": "p2-pulled-d0",
+      "pair_index": 2,
+      "a": "Mark",
+      "b": "Rose",
+      "actor": "Mark",
+      "patient": "Rose",
+      "verb": "pulled",
+      "direction": 0
+    },
+    {
+      "id": "p2-pulled-d1",
+      "pair_index": 2,
+      "a": "Mark",
+      "b": "Rose",
+      "actor": "Rose",
+      "patient": "Mark",
+      "verb": "pulled",
+      "direction": 1
+    },
+    {
+      "id": "p3-nudged-d0",
+      "pair_index": 3,
+      "a": "Bill",
+      "b": "Dan",
+      "actor": "Bill",
+      "patient": "Dan",
+      "verb": "nudged",
+      "direction": 0
+    },
+    {
+      "id": "p3-nudged-d1",
+      "pair_index": 3,
+      "a": "Bill",
+      "b": "Dan",
+      "actor": "Dan",
+      "patient": "Bill",
+      "verb": "nudged",
+      "direction": 1
+    },
+    {
+      "id": "p3-tagged-d0",
+      "pair_index": 3,
+      "a": "Bill",
+      "b": "Dan",
+      "actor": "Bill",
+      "patient": "Dan",
+      "verb": "tagged",
+      "direction": 0
+    },
+    {
+      "id": "p3-tagged-d1",
+      "pair_index": 3,
+      "a": "Bill",
+      "b": "Dan",
+      "actor": "Dan",
+      "patient": "Bill",
+      "verb": "tagged",
+      "direction": 1
+    },
+    {
+      "id": "p3-pulled-d0",
+      "pair_index": 3,
+      "a": "Bill",
+      "b": "Dan",
+      "actor": "Bill",
+      "patient": "Dan",
+      "verb": "pulled",
+      "direction": 0
+    },
+    {
+      "id": "p3-pulled-d1",
+      "pair_index": 3,
+      "a": "Bill",
+      "b": "Dan",
+      "actor": "Dan",
+      "patient": "Bill",
+      "verb": "pulled",
+      "direction": 1
+    },
+    {
+      "id": "p4-nudged-d0",
+      "pair_index": 4,
+      "a": "Carl",
+      "b": "Matt",
+      "actor": "Carl",
+      "patient": "Matt",
+      "verb": "nudged",
+      "direction": 0
+    },
+    {
+      "id": "p4-nudged-d1",
+      "pair_index": 4,
+      "a": "Carl",
+      "b": "Matt",
+      "actor": "Matt",
+      "patient": "Carl",
+      "verb": "nudged",
+      "direction": 1
+    },
+    {
+      "id": "p4-tagged-d0",
+      "pair_index": 4,
+      "a": "Carl",
+      "b": "Matt",
+      "actor": "Carl",
+      "patient": "Matt",
+      "verb": "tagged",
+      "direction": 0
+    },
+    {
+      "id": "p4-tagged-d1",
+      "pair_index": 4,
+      "a": "Carl",
+      "b": "Matt",
+      "actor": "Matt",
+      "patient": "Carl",
+      "verb": "tagged",
+      "direction": 1
+    },
+    {
+      "id": "p4-pulled-d0",
+      "pair_index": 4,
+      "a": "Carl",
+      "b": "Matt",
+      "actor": "Carl",
+      "patient": "Matt",
+      "verb": "pulled",
+      "direction": 0
+    },
+    {
+      "id": "p4-pulled-d1",
+      "pair_index": 4,
+      "a": "Carl",
+      "b": "Matt",
+      "actor": "Matt",
+      "patient": "Carl",
+      "verb": "pulled",
+      "direction": 1
+    },
+    {
+      "id": "p5-nudged-d0",
+      "pair_index": 5,
+      "a": "David",
+      "b": "Susan",
+      "actor": "David",
+      "patient": "Susan",
+      "verb": "nudged",
+      "direction": 0
+    },
+    {
+      "id": "p5-nudged-d1",
+      "pair_index": 5,
+      "a": "David",
+      "b": "Susan",
+      "actor": "Susan",
+      "patient": "David",
+      "verb": "nudged",
+      "direction": 1
+    },
+    {
+      "id": "p5-tagged-d0",
+      "pair_index": 5,
+      "a": "David",
+      "b": "Susan",
+      "actor": "David",
+      "patient": "Susan",
+      "verb": "tagged",
+      "direction": 0
+    },
+    {
+      "id": "p5-tagged-d1",
+      "pair_index": 5,
+      "a": "David",
+      "b": "Susan",
+      "actor": "Susan",
+      "patient": "David",
+      "verb": "tagged",
+      "direction": 1
+    },
+    {
+      "id": "p5-pulled-d0",
+      "pair_index": 5,
+      "a": "David",
+      "b": "Susan",
+      "actor": "David",
+      "patient": "Susan",
+      "verb": "pulled",
+      "direction": 0
+    },
+    {
+      "id": "p5-pulled-d1",
+      "pair_index": 5,
+      "a": "David",
+      "b": "Susan",
+      "actor": "Susan",
+      "patient": "David",
+      "verb": "pulled",
+      "direction": 1
+    }
+  ],
+  "strong_event_ids": [
+    "p0-nudged-d0",
+    "p0-nudged-d1",
+    "p1-tagged-d0",
+    "p1-tagged-d1",
+    "p2-pulled-d0",
+    "p2-pulled-d1",
+    "p3-nudged-d0",
+    "p3-nudged-d1",
+    "p4-tagged-d0",
+    "p4-tagged-d1",
+    "p5-pulled-d0",
+    "p5-pulled-d1"
+  ],
+  "forms": [
+    "active",
+    "passive",
+    "object_cleft",
+    "subject_cleft"
+  ],
+  "legacy_questions": {
+    "actor_performed": "Who performed the action?",
+    "actor_acted": "Who acted on the other person?",
+    "patient_verb": "Who was {verb}?",
+    "patient_affected": "Who was acted on?"
+  },
+  "strong_questions": {
+    "lexical": {
+      "actor": "Who {verb} someone in this sentence?",
+      "patient": "Who was {verb} by someone in this sentence?"
+    },
+    "explicit": {
+      "actor": "Which person does the sentence describe as carrying out the action?",
+      "patient": "Which person does the sentence describe as having the action done to them?"
+    }
+  },
+  "strong_system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+  "strong_assistant_prefix": "Answer:",
+  "panels": {
+    "legacy": "36 events x 4 forms x 4 wordings x 2 candidate orders = 1152; AB matches Qwen semantic prompt content, BA extra within-Phi control",
+    "strong_free": "same 12 predetermined events x 4 forms x 2 roles x 2 wordings = 192",
+    "strong_list": "same 192 x 2 candidate orders = 384"
+  },
+  "scoring": {
+    "candidate": "logsumexp over complete bare-name and leading-space-name continuation path probabilities; normalize at EACH step, no length normalization; shared whitespace prefix evaluated once per prompt. These paths are disjoint for this tokenizer. Record individual path scores.",
+    "contrast": "actor candidate log probability minus patient candidate log probability; r=(m_actor_question-m_patient_question)/2; negative r means reversal; use signs and correctness, NOT absolute values across families",
+    "generation": "greedy, 12-token maximum on ALL Phi panels; stop on tokenizer EOS or config EOS; strip whitespace only, exact name correctness and compliance; malformed output wrong",
+    "legacy_comparison": "Qwen legacy/list records contain one next-token answer, whereas Phi complete generation can require whitespace plus name. Compare candidate-score choices; retain Phi first-token answers separately and do not equate full Phi generation with Qwen one-token accuracy.",
+    "primary_cross_family": "strong_free full generation, same semantic system/user content, same Answer: prefill, same maximum generation tokens; native chat template differs",
+    "joint": "actor AND patient correct for each event/form/question pair and candidate order",
+    "format_controls": "report full response, first token, exact compliance, full generation length and EOS status; no prompt tuning"
+  },
+  "analysis": {
+    "unit": "paired events across constructions and wordings; bootstrap six participant-pair clusters, keeping both directions",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20261015,
+    "primary": "object-cleft minus active joint correctness and question reversal frequency, separately by lexical/explicit wording",
+    "secondary": "all constructions and roles, candidate order, both wrong vs same-participant answers, paired wording gains/losses and fixed heuristic fit",
+    "heuristics": "first/last mention, event grammatical subject/other, first/last as actor then complementary patient, always actor/patient, candidate first/second; no mechanistic inference",
+    "limits": "same previously examined synthetic data; only six name pairs; different size, training, native tokenization/template and quantized weights; no causal architecture/size attribution"
+  },
+  "guards": [
+    "Never read or evaluate NEW_REVIEW.csv or NEW_PROPOSED_LABELS.json",
+    "No sealed data",
+    "No fine-tuning or paid inference",
+    "One selected checkpoint only",
+    "Stop on invalid model loading, nonfinite scores, invalid tokenization or memory problems"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "adaptive_control_fixed_before_v4_runs",
+  "date": "2026-10-07",
+  "reason": "The role-order projection in v2/v3 captures more of the correct-versus-reversed scene difference than random projections. V4 tests whether its effect on decisions remains selective when each random projected shift is rescaled to the same L2 norm as the role-order shift for that episode.",
+  "models": "All eight fresh graphs, all three starts, ordered and unordered auxiliary arms: 48 frozen checkpoints.",
+  "shared_setup": "Same observed-only ridge readout, antisymmetric source-minus-target rank-nine subspace, five deterministic rank-nine random subspaces, and 25 unseen pairs times 128 second-rendering episodes as v2/v3.",
+  "intervention": "For each episode, exchange the role-order projected difference between correct and reversed candidate embeddings and renormalize. For each random subspace, use its projected direction but scale its shift to the exact L2 norm of the role-order projected shift for that episode, then renormalize. No model parameters or query state change.",
+  "primary_descriptive_contrast": "Within each ordered model, average over five matched-energy random controls their post-intervention correct-minus-reversed margin, minus the margin after the role-order swap. Average starts within each graph and report all eight graph contrasts.",
+  "secondary": ["same contrast in binary role accuracy", "same contrast in unordered control models", "fraction of original margin removed"],
+  "interpretation_rule": "Positive ordered-model margin contrast on at least seven of eight graphs supports a selective causal contribution of the role-order direction beyond shift magnitude. This adaptive test is exploratory, uses hybrid off-manifold embeddings, and does not identify a unique circuit."
+}

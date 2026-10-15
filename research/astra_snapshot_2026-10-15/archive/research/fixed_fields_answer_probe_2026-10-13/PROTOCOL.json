@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-13",
+  "status": "adaptive exploratory follow-up after the explicit-tag development screen failed",
+  "question": "When originally generated actor/patient fields are held fixed, does an explicit requested-role cue improve the final answer, and do swapped fields causally influence it?",
+  "data": "The same 40 new, non-sealed original-train QA-SRL Bank development items as the question-role-tag diagnostic. Automatic actor/patient mapping is not independently human-reviewed.",
+  "design": "For each original role-first output, prefill the assistant with its cached Actor and Patient text up to Answer:. Compare ordinary versus explicit role-tagged user prompt, crossing original versus swapped cached fields. Same sentence, question, candidates, checkpoint, and decoding. No training. The ordinary/original cell should approximately reproduce the prior full-generation answer; if it does not, prefill tokenization or prompt replay limits interpretation.",
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "tags": [
+    "ordinary",
+    "tagged"
+  ],
+  "fields": [
+    "original",
+    "swapped"
+  ],
+  "primary": "On original fields, compare paired exact-answer accuracy tagged minus ordinary; report separately for prompts where cached requested field matches the annotation. Measure final-answer agreement with requested and other fields, question-pair same-answer rate, and overlap of ordinary/original continuation with cached full-generation answer.",
+  "secondary": "Swap cached fields while holding question and sentence fixed. Field-following and gold-answer accuracy are separate outcomes. Swapped fields can be incorrect or correct relative to the sentence; neither behavior is automatically preferable.",
+  "limits": "Selected after inspecting earlier development results; exploratory only. Prefilling a reconstructed textual prefix can alter tokenization relative to original autoregressive generation. An explicit tag can change prompt processing beyond disambiguating question role. No internal-state claim and no sealed evaluation.",
+  "script_sha256": "d2e878eab7f62f4c28d2aca338e028919f8f7f2dc16debaad13029b92262b639",
+  "items_sha256": "1fad7c3a560dbf10825ab0db151d3c55cbe8e5053e6ff644723d8f687012b410",
+  "checkpoint_sha256": {
+    "fresh1": "38792b0566c786bafeffe5ff6b1cf69be3a16bf9d5e0ac8ec933010e6b11e1dd",
+    "fresh3": "f3c89b2ca511fd90e54f415d0b0c4b573f6cf21a210cb5984f4ef376f67bff1d"
+  },
+  "cached_eval_sha256": {
+    "fresh1": "4c1deff71a7d7803e96d0d8d3ddd6278912354f67c0a03bc335f777098eadd61",
+    "fresh3": "da23f184872b5eabdb9f79d0df89256fb771aa872fdfbba39b67e368acc08d38"
+  }
+}

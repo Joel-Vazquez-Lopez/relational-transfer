@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-13",
+  "status": "adaptive exploratory after two feasibility runs; no training",
+  "question": "Does supplying correct operation tokens without entity answers improve final answering on held-out mixed compositions?",
+  "design": "Prefix the goal-first assistant through the execute marker with (a) its own first eight emitted tokens, (b) the gold goal and operation tokens, or (c) the gold plan with both F/R directions flipped. Generate only intermediate names and final answer. The gold plan contains no middle or answer name. Same sentence/question/facts and checkpoint.",
+  "splits": [
+    "in_domain_test",
+    "heldout_mixed"
+  ],
+  "conditions": [
+    "own_plan",
+    "gold_plan",
+    "flipped_plan"
+  ],
+  "primary": "Exact final answer and exact middle entity for each condition; own-plan replay against original free generation; changed answer under flipped plan. Report in-domain and held-out separately, and do not call gold-plan performance end-to-end generalization.",
+  "limits": "Chosen after seeing failure; same reused data, one scratch model, oracle operation information in gold_plan, free text prefix can alter generation. A change in answer is behavioral text dependence, not an internal-state mechanism.",
+  "data_sha256": "10a831ab40d215386d5751628334d2c79a7021f5e16ff3105e3ed1f389c1fe9f",
+  "vocab_sha256": "09e62cb8d02d38c34895615c0be8377ba50bccdfbd4a3bfe4e565b995ae88d2b",
+  "capacity_protocol_sha256": "9c396f62713aad5d0c36edc1bd3a846e58163fb5197d5e332fc389e3b58606a5",
+  "checkpoint_sha256": "c3b3940ae76b246523630a3b977666f96c456ced8864080fe3c5e268a788886e",
+  "prior_eval_sha256": "c9809caf5daff4331867454cf04409d3cbe89714902aa9fb8bd319e1cc108089",
+  "script_sha256": "f84e67773aafd4c0245690c6788dca152289adece2212e78f99799547b1221ea"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "post hoc system follow-up, prospectively frozen before router training and new routing scores; same fresh bank already seen in matched-arm analysis",
+  "question": "Can a learned question-to-role normalizer convert printed actor/patient fields into an end-to-end answer system without oracle requested-role labels?",
+  "training": "Train a fixed character 2-5 gram TF-IDF plus C=1 logistic classifier on 320 actor/patient questions from the 160 training items. Input is question text only. No tuning or fresh labels used for fitting.",
+  "evaluation": "Predict requested role for 80 questions from 40 fresh items, report exact question-string overlap with training. Use that predicted role to select a printed field from each fixed model output; score 160 prompts per checkpoint, both candidate orders. Missing fields are errors. Compare against model's own direct answer and separately report the oracle-role route as a ceiling.",
+  "screen": "On each of two starts, role classifier >=76/80 fresh questions and routed role_first checkpoint improves exact answers by >=20/160 over that checkpoint's own direct answer. This is an exploratory system screen, not an independent model-training confirmation.",
+  "limits": "The source actor/patient mapping is unreviewed; question forms are repetitive, and previous matched-arm results used this fresh bank. A positive is an end-to-end system result only within this small source distribution. It is not a novel general planner, a learned internal state, or a natural-domain publication claim.",
+  "splits_sha256": "7ce6472eee8dd595955cda929c9eae74844d60d73dd4a151683b6744aa891cd8",
+  "main_protocol_sha256": "96e1dcc8880d57c4df5550113fca1cef51c75bda352f4250d3ed867ade99ad46",
+  "baseline_protocol_sha256": "6f0491f458bfaf159ae5494b1af734d3e268f3d6fea45d28310e5cb1c63d18e6",
+  "script_sha256": "92c2eed6dd3a1ef9ede7707fae9601d584a5de38b0b289104867e91761c31262"
+}

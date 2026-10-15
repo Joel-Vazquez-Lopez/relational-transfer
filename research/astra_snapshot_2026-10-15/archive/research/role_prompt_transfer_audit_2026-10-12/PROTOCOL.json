@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-12",
+  "status": "fixed_before_any_inference_on_new_items; read_only_existing_checkpoints",
+  "motivation": "Determine whether wording sensitivity persists after natural adaptation and matched construction training, and whether it interacts with sentence form. No new training in this diagnostic.",
+  "pairs": [
+    [
+      "Alice",
+      "Bob"
+    ],
+    [
+      "Bruce",
+      "Jane"
+    ],
+    [
+      "David",
+      "Amy"
+    ],
+    [
+      "Arthur",
+      "Max"
+    ],
+    [
+      "Frank",
+      "Rose"
+    ],
+    [
+      "Martin",
+      "June"
+    ]
+  ],
+  "verbs": [
+    "helped",
+    "followed",
+    "protected"
+  ],
+  "forms": [
+    "active",
+    "passive",
+    "subject_cleft",
+    "object_cleft"
+  ],
+  "questions": {
+    "actor_performed": "Who performed the action?",
+    "actor_did": "Who did the action?",
+    "actor_carried": "Which person carried out the action described in the sentence?",
+    "patient_verb": "Who was {verb}?",
+    "patient_which": "Which person was {verb}?"
+  },
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "arms": [
+    "source",
+    "aligned",
+    "decoupled",
+    "mixed"
+  ],
+  "known_vs_new_wording": "actor_performed and patient_verb were the earlier training questions. Other three questions are new to these continuations. Their exact semantics may still differ pragmatically; report each separately.",
+  "primary": "For each checkpoint and form, report event-level correct-answer agreement across all three actor wordings, and count events where all three actor answers are correct. Compare actor wording contradictions on identical events, not only marginal accuracy.",
+  "secondary": "Report individual role/question accuracy, both actor and patient answers correct across all five questions per form, worst-question accuracy, invalid output count, and candidate-relative score. Report each start and arm; no checkpoint selection.",
+  "limits": "Constructed English only; one Qwen family; two related starts. Question paraphrases may differ pragmatically. Earlier result motivated this new diagnostic, so it is a new lexical test but not a blind theoretical discovery. Human-review challenge remains sealed.",
+  "checkpoints_sha256": {
+    "fresh1_source": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e",
+    "fresh1_aligned": "86da418ae3197fafcba2c6c44ee6b48f9cb483001116228d7ffec44ec4321e5f",
+    "fresh1_decoupled": "6787964a2cbd026315037588e7e69c832319e0b6132332a7fec6da44de65d366",
+    "fresh1_mixed": "686068a01a5ce5b990aa076756e77c36eb006e3cd37c135ed2479d8bdbf82b00",
+    "fresh3_source": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48",
+    "fresh3_aligned": "740075de285191ff49b803abefec974d669890ab7210a5554507e0fec16bccdb",
+    "fresh3_decoupled": "5a6c45ff43f91a5b882de721e6743e72335843642b891931cfbb16dc68723d35",
+    "fresh3_mixed": "770f73eb0d89c46fc37965ceefac120e3775531a2fcaf774d3e251538e0e6b9e"
+  },
+  "script_sha256": "627115266fd2a67301805c743cd782ff8e823cc37f37ad57db9b5f13e0cc1696",
+  "rows_sha256": "0d6641f7bc168899691b711def1da539b110d16cd8e5573bf6024c3faf4db9ea"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "frozen_before_confirmation_training",
+  "date": "2026-10-06",
+  "graph_manifest": "GRAPH_MANIFEST.json",
+  "question": "Does ordered-role auxiliary supervision improve transfer to unseen entity pairs compared with parameter- and compute-matched unordered-identity supervision on new graph layouts?",
+  "design": {
+    "graphs": 8,
+    "seeds_per_graph": 3,
+    "arms": ["balanced_baseline", "unordered_identities", "ordered_roles"],
+    "models": 72,
+    "training_updates": 6000,
+    "batch_size": 128,
+    "auxiliary_weight": 0.5,
+    "optimizer": "AdamW, learning rate 0.0008",
+    "generator": "generator_gate_v1 balanced distractors and dedicated padding token",
+    "endpoint": "final update only; no unseen-pair-based checkpoint selection"
+  },
+  "paired_controls": ["canonical graph", "label permutation", "initial base weights", "pool order", "data seed", "training examples", "four-choice objective", "training updates"],
+  "evaluation": {
+    "pairs_per_model": {"seen": 20, "unseen": 25},
+    "renderings_per_pair": 512,
+    "primary_scene_seed": 260107,
+    "rendering_reliability_scene_seed": 260108,
+    "primary_model_metric": "mean binary role accuracy over all 25 unseen unordered pairs",
+    "primary_graph_metric": "mean across three paired seeds of ordered_roles minus unordered_identities model metric",
+    "primary_population_estimate": "equal-weight mean of the eight graph metrics",
+    "test": "exact two-sided sign-flip test over eight graph-level paired differences, all 256 sign assignments",
+    "uncertainty": "report all eight graph differences and mean +/- t(7,0.975) * sample_SD(graph_differences)/sqrt(8) as a graph-level 95% interval",
+    "secondary": ["ordered_roles minus balanced_baseline", "unseen four-choice accuracy", "weak-pair fraction below 0.8 binary role accuracy", "unseen event accuracy", "seen four-choice accuracy", "second-rendering robustness"]
+  },
+  "success_rule": "At least +0.05 primary mean improvement and exact sign-flip p <= 0.05; mean seen four-choice loss <=0.01 and mean unseen event loss <=0.02 relative to unordered identity control; report all individual degradations.",
+  "analysis_unit": "graph; pairs, renderings, and seeds are nested measurements, not independent graph replications",
+  "no_adaptive_replacement": "All eight graph layouts and all three starts remain in the primary analysis even if learning or transfer is poor. Any run failure is documented and rerun only with the same graph, seed, arm, and source version.",
+  "scope_limit": "Even a positive result is limited to this coded-message, generated-scene architecture and graph distribution; natural-language and pretrained-LLM claims require separate tests."
+}

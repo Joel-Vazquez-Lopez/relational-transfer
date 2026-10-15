@@ -1,0 +1,32 @@
+{
+  "status": "fixed_before_any_EWT_checkpoint_inference",
+  "date": "2026-10-12",
+  "n_events": 75,
+  "checkpoints": {
+    "fresh1_source": {
+      "source_type": "fresh1",
+      "adapter_sha256": "8b114fa025a91199702d685da46b859e9d9e0ea08293cf9c5ac78a8c7eaa2e79"
+    },
+    "fresh1_natural": {
+      "source_type": "fresh1",
+      "adapter_sha256": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e"
+    },
+    "fresh3_source": {
+      "source_type": "fresh3",
+      "adapter_sha256": "13be9824ff3f77b60eb8619c174b22aa87a69a0e54f71d83bd0a4ffe4eaa3bc8"
+    },
+    "fresh3_natural": {
+      "source_type": "fresh3",
+      "adapter_sha256": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48"
+    }
+  },
+  "primary": "For all EWT events and both starts, compare adapted versus source D>0 under the original QA-SRL actor and other questions, with the sentence present. A pairwise improvement is correct-after/wrong-before minus wrong-after/correct-before. No success threshold or item exclusion is defined post-inference.",
+  "secondary": "Sentence-omitted D>0 under original questions; sentence-present D>0 under frozen paraphrase questions; direct greedy generated actor and other spans under original questions with strict normalized exact match. Report per-checkpoint and paired results. Do not use EWT labels for training or model selection.",
+  "model": "Qwen2.5-0.5B-Instruct float32 CPU, each source adapter compared with its same-start natural-only adaptation; greedy decoding max 16 new tokens. Candidate contrast uses raw summed log probabilities exactly as in prior Bank experiment.",
+  "limits": "UD subject/object labels are provisional semantic-role proxies; human review CSV is unfilled. EWT corpus was chosen after QA-SRL outcomes; pretraining overlap unknown. No new fine-tuning in this run.",
+  "references": {
+    "data_protocol_sha256": "323abca6180e7bec61ebd9b0c65203d0405cae22a1288739aa6043320a9788be",
+    "events_sha256": "9f108d08e2955228a2a232f056e6919ed22f2057223ff9cfdc70fb3004da928b",
+    "evaluator_sha256": "6989bf49ec394e9c723f046c7d91055735825869535ad61f5dc41ca63c8cc832"
+  }
+}

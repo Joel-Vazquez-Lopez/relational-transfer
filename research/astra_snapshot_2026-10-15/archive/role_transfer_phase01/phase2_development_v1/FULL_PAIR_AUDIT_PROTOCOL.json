@@ -1,0 +1,7 @@
+{
+  "status": "declared_during_training_before_comparative_outcomes",
+  "date": "2026-10-14",
+  "script_sha256": "9ad7d6535df3b69dcf2c7926abc298e10731ea2d77d4e8e7fc60d2d23126c5cd",
+  "main_protocol_sha256": "de047643189dd84595c17a6be4866d237d3bd57be0908d8a403803043c22fd78",
+  "design": "For every final checkpoint, evaluate all 45 entity pairs with 128 balanced renderings per pair, scene seed 260107. Report all 20 familiar pairs and 24 nonfocal unseen pairs separately from the focal pair. This is a supplementary validity diagnostic, not the primary interaction endpoint or the nonfocal checkpoint selector."
+}

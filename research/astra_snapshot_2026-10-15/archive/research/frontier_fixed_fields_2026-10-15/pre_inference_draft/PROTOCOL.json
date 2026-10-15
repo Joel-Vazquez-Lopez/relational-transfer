@@ -1,0 +1,66 @@
+{
+  "status": "EXPLORATORY DEVELOPMENT fixed before new inference",
+  "date": "2026-10-15",
+  "items": 12,
+  "documents": 12,
+  "selection": "SHA256 event-ID ascending, first event per source document from previously examined 24; no prediction-dependent selection",
+  "max_new_generations": 540,
+  "scope": "Untouched Qwen2.5-1.5B only; no training, external credits, downloads or sealed data. All variants dependent within event.",
+  "design": {
+    "generated_fields": "2 sentence-present x 2 transcript-packaging x 2 field-order x 2 intact/swapped x 2 questions x 12 =384",
+    "reference_fields": "fresh sentence-present only x 2 orders x 2 intact/swapped x 2 questions x 12 =96; oracle diagnostic, not autonomous pipeline",
+    "direct": "12 x 2 questions x one-pass and self-review second pass =48 new calls; review reuses first answer",
+    "extraction_replay": "12 cached no-question extractions replayed to record exact token cost; values held at archived generated fields throughout"
+  },
+  "interface": "Same system and Answer: prefill for all readout and QA arms. Questions unchanged; both roles and field orders crossed. Transcript changes visible tokens/turn boundaries, not an unobserved generation-vs-supply state.",
+  "primary": [
+    "Fresh sentence-present generated fields versus strong one-pass and two-pass QA, averaging field order within event; both accuracy and cost",
+    "Requested-field following contrast intact versus swapped, and sentence/transcript effects holding field text and order fixed"
+  ],
+  "secondary": [
+    "Sentence x transcript risk contrast; role/order effects; oracle-field readout to diagnose query interpretation; token-identical full versus split-cache next-logit technical control"
+  ],
+  "scoring": {
+    "source_span": "Frozen accepted original QA-SRL span exact match",
+    "semantic_proxy": "Referent-alias exact match ignoring punctuation, case and English articles. New aliases fixed in ITEMS; provisional AI judgment, not independent human semantic validation. No correctness credit merely for mentioning an answer somewhere.",
+    "compliance": "Output is one normalized contiguous phrase from available sentence/fields; answer-label repetition, empty/multiple clauses and budget failure separately counted. Compliance does not imply correctness.",
+    "field_following": "Answer equals supplied requested field; also record opposite field and first/last-field following separately. Correctness evaluated independently; following a wrong field is not success."
+  },
+  "statistics": "Paired event bootstrap n=12,10000 resamples seed20261015; average orders/questions within event. Report gains/losses, all cells, intervals; descriptive only, no post hoc success gate or multiplicity-certified population claim.",
+  "compute": {
+    "primary": "Common per-event cold-query forward-work-proxy ceiling: replayed extraction cost plus maximum field-only fresh intact generated readout at 48 output tokens. All readout/oracle arms charged full extraction; D2 charged actual D1+review.",
+    "proxy": "Architecture matmul/attention FLOP approximation; not exact measured hardware FLOPs. F(L,g)=2W(L+g-1)+2*d*V*g+4*N*d*(L^2+sum_{t=1}^{g-1}(L+t)); W=N*(2d^2+2d*kv+3d*m).",
+    "max_decode": 48,
+    "enforcement": "Before each generation choose largest g<=48 fitting remaining proxy budget. Cannot fit prefill+one token => scored budget failure, no generation. Actual token counts/time also logged. Equal budget ceiling is not equal consumed computation.",
+    "replay_token_budget": 48
+  },
+  "generation": {
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 2,
+    "batch_size": 4,
+    "greedy": true,
+    "seed": 910215
+  },
+  "source_hashes": {
+    "research/frozen_query_diagnostic_2026-10-15/ITEMS.json": "89bae4be3aadd2c65cc4463e3428e19887a863b31ac50e3bbca6a33ea83baef7",
+    "research/frozen_query_diagnostic_2026-10-15/PREDICTIONS_1.5b.jsonl": "994419bf508665efc8bc6e86d50392ef5520f87237b78c33880d29cfb79b763c",
+    "research/frozen_query_diagnostic_2026-10-15/FIELD_ONLY_1.5b.jsonl": "a2edbe2aa5df07ac46abb7e2d5be681d85aa7c86d2655b4530fab9becaa4c6b3",
+    "research/frozen_query_diagnostic_2026-10-15/PROTOCOL.json": "6f5623f0f2cf4be0d6b4b07db7b158292c3c82a83adcb867535647a9ecc0f214",
+    "research/frontier_answer_contract_2026-10-15/ITEMS.json": "c82d22ea7dd7d04bacbdf9719a92f6fa9de094b98107935fa1ee0fe2ab397304",
+    "research/frontier_answer_contract_2026-10-15/PREDICTIONS.jsonl": "46f89c80005113c42c77cf7b943f7ea09046230c51ab69fe2980b1a4fb76922c",
+    "research/frontier_answer_contract_2026-10-15/PROTOCOL.json": "a25e281d8324054af7b9e615bbd403737457d4652774e9597097941d080a93b0"
+  },
+  "script_sha256": "398f20a97aec9fbb50840e7499c900ef4aa661f44f97cd2349cfeaf458baf057",
+  "items_sha256": "68edbb19247a932597b189740b992f593553097eae2fd7d382294986302da464",
+  "weights_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+  "config_sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+  "tokenizer_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+  "limits": [
+    "12 reused events and one compact checkpoint; no claim of unseen semantic generalization",
+    "Correct reference fields use source labels and do not validate semantic ontology or make an autonomous method",
+    "Transcript packaging changes token positions, length and conversational attribution; effects are visible-context package effects",
+    "Budget is approximate architecture-forward work, not certified exact hardware-compute matching",
+    "No adaptive changes or new inference after inspecting scores"
+  ]
+}

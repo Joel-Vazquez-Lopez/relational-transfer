@@ -1,0 +1,18 @@
+{
+  "status": "developmental_intervention_after_generator_gate",
+  "date": "2026-10-06",
+  "question": "Does explicitly aligning ordered source/target information across query and scene representations improve unseen-pair role transfer beyond a matched unordered-identity objective?",
+  "generator": "../generator_gate_v1.py balanced_distractor, dedicated padding token",
+  "graphs": ["new0", "new2", "confirm0"],
+  "seeds": [261001, 261002],
+  "arms": ["balanced baseline reused from generator_gate_v1", "ordered_role_auxiliary", "unordered_identity_auxiliary"],
+  "model": "Same two-tower listener. Auxiliary arms add two shared 10-class linear heads; both heads are applied to the normalized query and correct-scene embeddings. Auxiliary heads are unused at evaluation.",
+  "ordered_targets": ["source identity", "target identity"],
+  "unordered_control_targets": ["lower identity index of two participants", "higher identity index of two participants"],
+  "loss": "Original four-choice cross entropy plus 0.5 times the mean of four auxiliary cross entropies (two heads x query/scene).",
+  "training": {"steps": 6000, "batch": 128, "pool_size": 1280, "optimizer": "AdamW", "learning_rate": 0.0008},
+  "evaluation": "All 45 pairs, 512 renderings per pair, two fixed scene seeds as in generator_gate_v1. Primary development comparison is paired mean unseen binary role accuracy; also report seen four-choice, unseen event, and weak-pair incidence.",
+  "advance_only_if": "Ordered-role arm improves over both balanced baseline and unordered-identity control on all three graph means, with familiar four-choice at least 0.99 and no material event loss. This is a development gate, not a significance test.",
+  "no_test_leakage": "No unobserved pair contributes to training or auxiliary targets. No evaluation outcome changes objective weight or stopping step during this block.",
+  "interpretation_limits": ["A gain would demonstrate a useful training signal here, not that baseline representations lacked roles", "Source motion remains a perceptual cue", "The graphs have been inspected previously, so any advancing claim needs untouched graph confirmation"]
+}

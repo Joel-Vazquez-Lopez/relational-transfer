@@ -1,0 +1,37 @@
+{
+  "status": "frozen_before_training",
+  "date": "2026-10-09",
+  "design": {
+    "families": 8,
+    "seeds_per_family": 3,
+    "conditions": [
+      "base",
+      "sham",
+      "high"
+    ],
+    "models": 72,
+    "entities": 10,
+    "degree": 4,
+    "observed_pairs": 20,
+    "focal_pair": "same labeled unseen pair in all three conditions",
+    "base_sham_overlap": 1,
+    "high_overlap": 3,
+    "sham_high_matching": "two effective edge swaps from base; 8-edge symmetric difference; each focal endpoint loses one and gains one neighbor; same global and focal-endpoint triangle counts",
+    "updates": 6000,
+    "generator": "balanced distractors, dedicated padding",
+    "evaluation": "all 45 pairs; fixed 512-rendering suites 260107 primary and 260108 robustness"
+  },
+  "primary_endpoint": "high minus sham focal-pair binary role accuracy, averaged over three paired starts per graph family, then equally over eight families; final checkpoint, first scene suite",
+  "primary_test": "exact two-sided sign flip over eight family differences, all 256 sign assignments",
+  "primary_success": "mean difference <= -0.10 and exact p <= 0.05; every model at least 0.95 familiar four-choice accuracy",
+  "secondary": [
+    "high minus base focal-pair role accuracy",
+    "sham minus base focal-pair role accuracy",
+    "second scene suite",
+    "all other unseen pairs grouped by overlap",
+    "familiar four-choice and event accuracy"
+  ],
+  "uncertainty": "report all eight family effects and t(7) 95 percent interval; seeds and scene items are nested within family",
+  "missingness": "no adaptive family or seed replacement; only same-configuration technical reruns",
+  "interpretation": "A change after the matched rewiring supports a causal effect of the local graph modification, not unique causality of shared-partner overlap. Other local paths and training co-occurrences may change."
+}

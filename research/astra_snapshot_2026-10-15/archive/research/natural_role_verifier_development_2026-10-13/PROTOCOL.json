@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-13",
+  "status": "frozen natural-data development pilot; no final publication test selected or opened",
+  "question": "Does natural training with verified role drafts improve answer accuracy and robustness over answer-only, candidate-first, role-first, and clean-draft controls?",
+  "data": "QA-SRL Bank 2.0 original train split, human QA annotations with automatic direct-object role mapping; 160 sentence-disjoint train items and 40 development items. Exclude every sentence in the local QA-SRL Gold corpus. Previously examined 51 QA-SRL Gold items are exploratory out-of-domain diagnostics only.",
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "arms": [
+    "answer_only",
+    "candidate_first",
+    "role_first",
+    "verifier_clean",
+    "verifier_noisy"
+  ],
+  "prompts": "Original QA questions; both candidate orders; actor and patient requested. Four examples per item, one training update per item, one epoch, deterministic order.",
+  "training": "All arms initialize from the same natural-role source adapter within each start. Role-first and both verifier arms have identical gold output targets. Verifier-clean sees gold draft roles in the user prompt; verifier-noisy sees a hash-fixed mix of correct and swapped drafts. Both must output corrected gold roles and gold answer. Candidate-first is a structured answer-last control. Answer-only has fewer target tokens; report budgets.",
+  "corruption": {
+    "method": "swap actor and patient in the draft input only, selected by SHA256 parity of item/role/order; never change gold output",
+    "corrupted_train_rows": 303,
+    "total_train_rows": 640
+  },
+  "evaluation": "Evaluate all arms on the 40 source-development items and the 51 already examined QA-SRL Gold exploratory items, each in both candidate orders and actor/patient questions. Verifier arms receive the role-first arm's generated draft fields for the identical item and question; malformed drafts become Unknown/Unknown. Also swap the draft fields at evaluation as a frozen stress condition. Exact span accuracy, all-four-correct, role-field accuracy, candidate-order bias, invalid outputs, and answer-draft agreement all reported. No test result is a final paper confirmation.",
+  "primary_development": "All four answers correct per item on 40 source-development items. Compare verifier-noisy against verifier-clean and role-first, and direct against role-first deterministic routing; all items and starts reported.",
+  "screen": "A promising development signal requires verifier-noisy to beat verifier-clean by at least 4/40 all-four-correct on source-development in EACH start, parsed rate >=80%, and no drop greater than 4/40 relative to role-first on unswapped draft inputs. This screen is only for deciding whether to pursue final human-reviewed confirmation.",
+  "limits": "Automatic role mapping is not independent human verification; Gold 51 was previously examined, and this is a small-model development experiment. Two-pass verifier has extra inference compute relative to single-pass baselines. Participant identities are not disjoint; sentences are. The final sealed human-reviewed evaluation remains to be built separately.",
+  "learning_rate": 5e-05,
+  "seed": 910127,
+  "updates_per_checkpoint": 160,
+  "splits_sha256": "ab180d681bf37b0a2b501bd8532447dedc700b083af03eb6ee0636fb58d29932",
+  "data_script_sha256": "7fe15c03f02f02056944767630dc55e833f2980cbc469d13067d625a75f8917c",
+  "experiment_script_sha256": "d0be17c60c0b68eaa6975c797cf8ea1d4ac9495b380eb7772f283f49288b0dbc",
+  "source_adapters_sha256": {
+    "fresh1": "3c89e08af8828e40127317e4e4b7f5354af87512f9ffaf4886d5a6eb4451869e",
+    "fresh3": "a2ba7f1f5313a0ddfa305b2853bd2089b6efe6fc95ccb7027d2e3dea9c426b48"
+  },
+  "exploratory_gold_protocol_sha256": "8b5a8858f9abea8347f83a0e65b6fff79e5596bd2468df44afa93a5be8e7887f"
+}

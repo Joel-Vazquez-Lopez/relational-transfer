@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-10",
+  "status": "fixed_before_inference",
+  "purpose": "Check whether the prior Qwen actor-question effect persists with two clearer phrasings and a fresh event set; compare two local Qwen2.5 instruction models.",
+  "models": {
+    "1.5b": {
+      "path": "/private/tmp/rolepilot_hf/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "weights_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+    },
+    "0.5b": {
+      "path": "/Users/joelvazquezlopez/.cache/huggingface/hub/models--Qwen--Qwen2.5-0.5B-Instruct/snapshots/7ae557604adf67be50417f59c2c2f167def9a775",
+      "weights_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+    }
+  },
+  "source_sha256": "0a942ba9a5a1f70dafc8de94ccc1388a6951e5aa980916dac415fe7a7b7f9d75",
+  "design": "8 disjoint one-token name pairs x 4 new reversible verbs x 2 role directions = 64 events. Active/passive x four actor-question wordings = 8 prompts per event. Names, verbs, event instances new relative to confirmation set.",
+  "names": [
+    "Stephen",
+    "Alexander",
+    "Sean",
+    "Alan",
+    "Allen",
+    "Bruce",
+    "Carl",
+    "Louis",
+    "Roy",
+    "Juan",
+    "Jose",
+    "Carlos",
+    "Ali",
+    "Kevin",
+    "Jason",
+    "Scott"
+  ],
+  "verbs": [
+    "coached",
+    "interviewed",
+    "mentored",
+    "consulted"
+  ],
+  "questions": {
+    "did": "Who did the action?",
+    "performed": "Who performed the action?",
+    "carried_out": "Which person carried out the action described in the sentence?",
+    "actor": "Who is the actor in this sentence?"
+  },
+  "scoring": "Greedy next-token answer; exact actor name is correct. Record invalid names. Same fixed system instruction as prior confirmation.",
+  "primary": "Accuracy and all-eight-correct rate by model, form and wording, reporting each of 8 pairs. The key sensitivity check is whether the active did-to-performed gap remains and whether the carried_out and actor questions match performed on active items. No significance threshold is predeclared for these exploratory new wording contrasts.",
+  "limits": "Template English, one model family, no direct pretraining exposure audit; actor wording is a linguistic evaluation variable, not a training repair."
+}

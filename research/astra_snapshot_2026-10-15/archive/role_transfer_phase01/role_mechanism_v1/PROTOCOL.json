@@ -1,0 +1,23 @@
+{
+  "status": "fixed_before_mechanism_v1_runs",
+  "date": "2026-10-07",
+  "purpose": "Exploratory analysis of whether role information in scene-tower states contributes causally to unseen-pair decisions after ordered-role training.",
+  "checkpoints": "The first prespecified training start (271001) on each of the eight fresh confirmation graphs, ordered_roles and unordered_identities only: 16 existing frozen checkpoints.",
+  "probe": {
+    "features": "Scene tower CLS state after first block, second block, and final normalized output; no model weights changed.",
+    "labels": "Ordered source and target entity IDs (two 10-way readouts).",
+    "fit_data": "Observed pairs only: both directions and events, all eight legal distractors, scene seed 620107.",
+    "test_data": "All 25 unseen pairs: both directions and events, all eight legal distractors, independent scene seed 620108.",
+    "method": "Fixed ridge linear regression with lambda 0.1 on training-standardized features; no unseen-pair tuning.",
+    "metric": "Joint source-and-target exact decoding accuracy on unseen pairs, reported at all three states."
+  },
+  "intervention": {
+    "data": "The second confirmation rendering (scene seed 260108), all 25 unseen pairs, 128 balanced episodes per pair (repeat index 0 from each direction/event/answer/distractor cell).",
+    "role_subspace": "Top 18 singular vectors of the 20 source/target decoder weight columns fitted on observed scenes, mapped back to raw final-state coordinates. Each 10-way readout has one sum-to-zero dependency, so its informative rank is at most 9.",
+    "operation": "Exchange only the role-subspace components of the correct and role-reversed candidate scene embeddings, keep the query and other candidates fixed, then renormalize the two changed embeddings.",
+    "controls": "Five deterministic random 18-dimensional subspaces for each model and a full candidate-embedding swap positive control.",
+    "metrics": "Correct-versus-reversed margin and binary role accuracy before and after each intervention; changes are paired within the same episodes."
+  },
+  "analysis_unit": "Graph means over one fixed seed; this stage is an exploratory mechanism diagnostic, not a fresh independent replication of the behavioral confirmation.",
+  "limits": "A linear readout and projected-state swap show accessibility and causal contribution of a subspace, not unique localization or the complete computation. Scene source movement is a cue; the diagnostic does not establish natural-language or LLM mechanisms."
+}

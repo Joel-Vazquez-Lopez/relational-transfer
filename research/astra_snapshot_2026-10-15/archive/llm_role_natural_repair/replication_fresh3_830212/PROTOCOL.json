@@ -1,0 +1,20 @@
+{
+  "status": "fixed_before_second_world_training",
+  "date": "2026-10-12",
+  "question": "Does the first natural-data-plus-replay effect recur from another participant-only synthetic checkpoint with different graph, names and initialization?",
+  "source": "Qwen2.5-0.5B-Instruct, participant-only adapter fresh3/830212",
+  "training": "Same frozen 256 Bank original training events and order as first pilot, same two role-answer losses, LR 5e-5, 256 updates, same 0.3 synthetic replay weight. Replay uses the separate fresh3 graph/name world. No new cleft forms or Bank test items are trained.",
+  "evaluation": "Compare source and new checkpoint on the identical previously frozen 130-event Bank test, sentence-present and sentence-omitted candidate contrast; Gold 51; frozen fresh3 held-out-pair patient-cleft and familiar-form exact actor accuracy. Bank test has already been scored in the first pilot, so this tests starting-run stability rather than independent item selection.",
+  "criterion": "Useful repeat if fresh Bank role contrast increases by at least 7/130 events, mean role margin and mean sentence-contribution margin increase, and synthetic patient-cleft accuracy loses no more than five percentage points. Report all scores even if rule fails.",
+  "limits": "Second model initialization/graph but same Qwen family, same natural train data and evaluation items, and same data extraction errors. Not a fully independent multi-model confirmation.",
+  "references": {
+    "source_adapter_sha256": "13be9824ff3f77b60eb8619c174b22aa87a69a0e54f71d83bd0a4ffe4eaa3bc8",
+    "first_protocol_sha256": "7516a54e18aea5a811c6c65300583663c886222a7650f32c22375d502933e719",
+    "train_sha256": "70609ac375d05937e85c7b9bd791a1f4274565e4109d8c4b70d590f4519f7686",
+    "fresh_protocol_sha256": "b2a49fc0aa04eded5c2c310aca7c878a10a1de5881122062fff0f530f41f8901",
+    "fresh_events_sha256": "b26094178fa5ccdb63d62ca84957c83bda398e5363cc287095d0a51ec2ca016e",
+    "gold_sha256": "8f7bf12e238889d5775da08a463343a4034349e0a199c61b020531e287e1d71b",
+    "synthetic_sha256": "a557486fcf35408df7a3ee40f73592732dfc6facce65971c6df790a3917abed4",
+    "script_sha256": "19bba045da48133ecd7547a997889cad955d38f98c901cd5fc9b67eac43809ae"
+  }
+}

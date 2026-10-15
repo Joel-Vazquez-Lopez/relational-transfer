@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-10",
+  "status": "fixed_before_internal_readout",
+  "model": "unmodified Qwen2.5-1.5B-Instruct local snapshot",
+  "model_weights_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+  "source_sha256": "9241a3de773d60a207a5afa58173c66a32ae3b21b675df493dabf4f6e20dc6bb",
+  "items_sha256": "29b5d38d2fd776758181f0cee55aa853b3c3a612f0211df7708db785c332c342",
+  "readout": "At the final prompt position after blocks 0,4,8,12,16,20,24,28, apply final norm (except on final state) and fixed LM head restricted to actor/patient name tokens. Save actor-minus-patient logsumexp logit margin; no fitted probe and no weight changes.",
+  "primary_summary": "For each form x wording x layer, actor-positive fraction and mean actor margin over 120 prompts, plus by-set fractions at block20. On each event compare signs across four prompt variants. Full-layer actor margin should match the saved behavioral result.",
+  "limits": "An intermediate logit lens is an approximate readout, and candidate-name preference is not an isolated semantic role representation. Prompt content changes with form and wording. A causal or construction-general role claim requires stronger controls."
+}

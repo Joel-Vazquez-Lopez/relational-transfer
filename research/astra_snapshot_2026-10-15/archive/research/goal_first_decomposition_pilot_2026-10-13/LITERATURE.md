@@ -1,0 +1,10 @@
+# Closest verified prior work and novelty limit
+
+This is a targeted review of primary papers as of 13 October 2026, not an exhaustive priority search.
+
+- [Kazemi et al., *LAMBADA: Backward Chaining for Automated Reasoning in Natural Language* (ACL 2023)](https://aclanthology.org/2023.acl-long.361/) begin from a desired conclusion and work backward to supporting premises with prompted language-model modules. Goal-directed backward reasoning is therefore established.
+- [Huang et al., *QDMR-based Planning-and-Solving Prompting for Complex Reasoning Tasks* (LREC-COLING 2024)](https://aclanthology.org/2024.lrec-main.1173/) generate a decomposition graph of subquestions and then solve from it; their study also reports supervised fine-tuning for decomposition. A graph of required computations is not new by itself.
+- [Parmar et al., *PLAN-TUNING* (EMNLP 2025)](https://aclanthology.org/2025.emnlp-main.1087/) use post-training on synthetic planning trajectories and report out-of-domain gains on mathematical benchmarks. Training models to plan before solving is established in a different task setting.
+- [Raghav and Jana, *Are LLMs Good for Semantic Role Labeling via Question Answering?* (IJCNLP-AACL 2025)](https://aclanthology.org/2025.ijcnlp-srw.21/) evaluate multiple language models on semantic-role labeling as question answering. Role-conditioned QA is not a new task.
+
+The current pilot differs mainly by *testing a precisely withheld dependency composition in an actor/patient event task* and by checking whether printed plans affect execution. It did not succeed. A stronger future contribution would be a controlled training objective that improves **procedure construction**, not just plan formatting, on fresh held-out dependencies and a second task family. We should not use “inverted chain of thought” as a novelty claim based on the name alone; “reverse chain” and backward-reasoning terminology also occur in prior work. No claim that this exact future objective is absent from the literature has been established.

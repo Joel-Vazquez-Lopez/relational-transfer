@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-10",
+  "status": "fixed_before_hidden_state_run",
+  "model": "Qwen2.5-1.5B-Instruct at commit 989aa7980e4cf806f80c7fef2b1adb7bc71aa306, no weight updates",
+  "model_weights_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+  "model_config_sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+  "source_sha256": "a9c9be6ee62e305ca6729514cf07a2c92450a73de5f85b521c83c957dcb9f697",
+  "design": "8 new name pairs x 4 new reversible verbs x 2 directions x active/passive x 2 fixed actor questions = 256 prompts, 64 events",
+  "token_rule": "both names must be one token, with and without leading space; score each name by logsumexp of the two token logits",
+  "generation_measure": "greedy first answer token decoded and stripped; correct only if it is exactly the actor name, invalid counted separately",
+  "readout": "at final prompt token after 0,4,8,12,16,20,24,28 blocks, apply final model norm and fixed LM head to intermediate states; report actor-minus-patient candidate logit margin and positive fraction, without fitting a probe",
+  "main_diagnostic": "among prompts with a wrong generic first-token answer but a correct performed answer for the same event and voice, report generic actor-positive fraction at fixed layers 12,16,20,24 and final28; descriptive only",
+  "intervention": "for all generic-wrong/performed-correct cases, replace last-token state after block14 and block20 in generic prompt with state from performed prompt on same event; compare with state from performed prompt on direction-reversed event with same names, verb and voice",
+  "intervention_outcome": "correct-donor minus reversed-donor actor-versus-patient next-token margin, plus first-token actor accuracy, separately by layer; selected cases are conditional and findings exploratory",
+  "limits": "logit lens is an imperfect readout; whole-state patch transfers more than role information; output differences do not prove absence/presence of a complete role representation; one small model and constructed sentences"
+}

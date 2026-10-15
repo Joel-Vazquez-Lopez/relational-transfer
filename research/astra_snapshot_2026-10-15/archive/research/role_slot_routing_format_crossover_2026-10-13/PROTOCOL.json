@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-13",
+  "status": "exploratory, conceived after the main confirmation; frozen before crossover inference",
+  "question": "Does the answer-first checkpoint recover slot-first performance when prompted to output actor/patient before its answer, without changing weights?",
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "checkpoint_arms": [
+    "answer_first",
+    "slot_first"
+  ],
+  "prompt_format": "opposite trained format",
+  "test_rows": "same 960 rows per checkpoint as prior fresh lexical confirmation",
+  "primary": "both crossed actor_did and patient_verb answers correct in passive, subject cleft, and object cleft; 144 event-form groups/checkpoint",
+  "secondary": "valid-answer fraction, per-form crossed joint, generated-slot joint, answer-to-slot agreement",
+  "interpretation": "If answer-first with slot-first prompting approaches native slot-first, much of the effect may be an inference interface effect. If it does not, training or learned format remains relevant. Crossing formats is distribution shift; poor crossover alone does not isolate semantic training.",
+  "limits": "Post hoc mechanism diagnostic on an already evaluated synthetic bank; not fresh confirmation, new training replication, or natural-language transfer.",
+  "prior_protocol_sha256": "6c39453e7e7b7b2194053217ad570e1d566ca7e364baacb68d9fef2d76ae82b9",
+  "prior_inference_script_sha256": "37f0490a64962a83eb04f710b06418cbc4c6fc02860111510defac35f2398df2",
+  "script_sha256": "322c42f500a4ae5d7b74a1d6571a492d343262fcf476f0e34ac597a9b94cd473",
+  "test_rows_sha256": "c0657145bfe64026159737b21d742ef7c06f27602d5b3889437dbd0da8257aff",
+  "checkpoint_sha256": {
+    "fresh1_answer_first": "e0655954a50829f6dceab900c501312c45ab9403d0de06c3e3f58b3c9b7bf595",
+    "fresh1_slot_first": "e15d80489719004ba78bfc9df7bb49c03dcfefcb2813ac4cf14e404f8aabc7bf",
+    "fresh3_answer_first": "eb64a2c3c3f84d510bd2abdcbbcacb8ef7054e776f256fd9b7164d0481b49210",
+    "fresh3_slot_first": "075a2960ed8046f1fae89ed475a0ef5fc2952f55f0839e39ec986636f228d7e0"
+  }
+}

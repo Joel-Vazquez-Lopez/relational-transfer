@@ -1,0 +1,28 @@
+# Related work and novelty boundary — checked 12 October 2026
+
+This is a targeted primary-source review, not an exhaustive novelty guarantee. “Sleep” is already a research term in LLM work. The publishable question must be operational: can a distinct consolidation **schedule or objective** improve role transfer after controlling the information and compute supplied to the model?
+
+| Strand and verified primary source | What it establishes for this project | Boundary |
+| --- | --- | --- |
+| [Kumaran, Hassabis & McClelland, 2016, complementary learning systems](https://pubmed.ncbi.nlm.nih.gov/27315762/) | A theoretical account of complementary learning and memory consolidation motivates the analogy. | Biological theory is **not** evidence that a Transformer needs sleep. |
+| [Shin et al., NeurIPS 2017, deep generative replay](https://proceedings.neurips.cc/paper/2017/hash/0efbe98067c6c73dba1250d2beaa81f9-Abstract.html) | A generator samples prior-task examples for interleaved training; replay already addresses forgetting in sequential vision tasks. | S1 replay is prior art in mechanism, even if the role-transfer setting differs. |
+| [Sun et al., COLING 2020, Distill and Replay for Continual Language Learning](https://aclanthology.org/2020.coling-main.318/) | Distillation plus replay was explicitly tested for continual language learning. | “Replay plus distillation for language” cannot itself be the novelty claim. |
+| [Furlanello et al., ICML 2018, Born Again Neural Networks](https://proceedings.mlr.press/v80/furlanello18a.html) | Self-distillation between same-architecture teacher/student can improve performance, including language modeling. | An offline teacher/student pass needs comparison with this family of methods. |
+| [Behrouz et al., arXiv 2026, Language Models Need Sleep](https://arxiv.org/abs/2606.03979) | A named sleep paradigm combines replay, distillation and synthetic dreaming for continual learning. | **Naming or combining those generic elements is not novel.** Its tasks differ from the exact actor/patient transfer question, but overlap is substantial. |
+| [Xie, arXiv 2026, SleepGate](https://arxiv.org/abs/2603.14517) | A distinct sleep-inspired design consolidates the KV cache to manage stale in-context associations. | It acts on inference-time cache interference, not our proposed parameter-level linguistic role transfer. The title/analogy still overlaps. |
+| [Elazar et al., TACL 2021, consistency in pretrained LMs](https://aclanthology.org/2021.tacl-1.60/) | Paraphrase consistency and methods to improve it are established. | S2 cannot claim novelty simply for making equivalent prompts agree. Correct **role reversal** must be scored alongside invariance. |
+| [Guo et al., Findings ACL 2024, semantic-aware permutation training](https://aclanthology.org/2024.findings-acl.680/) | Semantic-unit permutation training addresses directional reversal failures in LLMs. | Adjacent to role-swap training; task semantics differ, so compare rather than claim identity. |
+| [Wilson, Petty & Frank, TACL 2023, argument structure in LLMs](https://aclanthology.org/2023.tacl-1.78/) | Tests how abstractly LLMs generalize argument structure, including active/passive related contexts. | Linguistic-role transfer itself is not an untouched topic. |
+| [Qiu et al., NAACL 2022, latent structure and augmentation](https://aclanthology.org/2022.naacl-main.323/) | Induced structure and recombined synthetic data can improve compositional generalization. | S3 as structural recombination is not novel without a sharper, leakage-safe distinction. |
+| [Oren, Herzig & Berant, EMNLP 2021, structural diversity](https://aclanthology.org/2021.emnlp-main.843/) | Selecting structurally diverse synthetic examples improves compositional generalization. | Coverage and sampling may explain gains attributed to consolidation. |
+| [Zhou et al., EMNLP 2023, data factors](https://aclanthology.org/2023.emnlp-main.898/) | Dataset scale and composition affect compositional generalization. | Match tokens, constructions and target counts before claiming an objective effect. |
+
+## Novel position worth testing
+
+The closest promising contribution is a **causal decomposition**, not a named sleep algorithm: in matched relational worlds, separate (i) information present in model states, (ii) correct use under form changes and role reversal, (iii) forgetting caused by fine-tuning, and (iv) gains from data diversity, extra gradients, and offline schedule. A positive **interaction**—offline role-aware consolidation improves unseen combinations and unseen constructions beyond identical examples interleaved, while preserving familiar ability—would be more distinctive than a larger aggregate score. This remains a hypothesis, not a novelty claim.
+
+The main alternatives are serious: existing Qwen participant-only supervision beats ordered-role supervision on synthetic clefts; untouched Qwen beats both on those clefts; and narrow replay-only continuation harmed clefts while authentic labeled data helped. The first research question is therefore whether a distinct offline phase earns its extra complexity at all.
+
+## Further literature check before a manuscript
+
+Search full texts and citation graphs for exact combinations of role-equivariant objectives, offline versus interleaved schedules, latent role alignment, and human-verified active/passive plus role-reversed benchmarks. Check recent 2026 papers after this date and relevant conference versions. Read methods and ablations, not just abstracts. Record exact overlap in a dated review log before making a novelty sentence. The present review supports **no assertion that no one has done this before**.

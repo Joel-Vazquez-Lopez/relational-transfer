@@ -1,0 +1,59 @@
+{
+  "status": "frozen_before_full_training",
+  "date": "2026-10-14",
+  "phase": "Phase 2 development; all graph families examined previously",
+  "source_manifest_sha256": "4f9abb394ebe7b6b993ef989fa01a3052720d4250086d59d3bf510a798c5f255",
+  "script_sha256": "b05e6c55ba51ba0dcbaf9dd5e05d5c5f6d6eadffd47711c999aa32a2f66c9f58",
+  "analysis_script_sha256": "e607eb9a5ed7aae8d30482c027dc82ddd9708f23ff35c4570446697b1479bf5c",
+  "runner_sha256": "724eb591592179388e5771673afc2cd7b3f7a44d00cecb941d996464d4911d5d",
+  "blueprint_sha256": "d2acea8b6d47d902c57f32ae19156796fbc686b39e5ee8e1aff3c277aedd7f32",
+  "preflight_report_sha256": "690eedd25d97ec084a5e6f7fa3d8d3e36716bde28c21413087cf066d95b9c395",
+  "design": {
+    "families": 8,
+    "conditions": [
+      "sham",
+      "high"
+    ],
+    "seeds": [
+      321001,
+      321002
+    ],
+    "arms": [
+      "standard",
+      "participant_only",
+      "ordered_roles",
+      "role_swap",
+      "permutation_control"
+    ],
+    "planned_models": 160,
+    "steps": 6000,
+    "batch_size": 128,
+    "learning_rate": 0.0008,
+    "checkpoints": [
+      1500,
+      3000,
+      4500,
+      6000
+    ],
+    "scene_suites": [
+      260107,
+      260108
+    ],
+    "role_swap_weight": 0.05,
+    "auxiliary_weight": 0.5,
+    "compute_control_weight": 0.5
+  },
+  "primary_estimand": "Within-family high-minus-sham focal binary-role-accuracy penalty for ordered_roles minus participant_only at final 6000-update checkpoint, first scene suite; average seeds within family then eight families equally.",
+  "secondary_contrasts": [
+    "role_swap minus permutation_control penalty",
+    "role_swap minus ordered_roles penalty",
+    "ordered_roles minus standard penalty",
+    "second scene suite",
+    "nonfocal performance-matched checkpoint analysis"
+  ],
+  "statistics": "Report family effects, mean, 95% t interval, exact two-sided family sign-flip p as descriptive development evidence; no independent-confirmation claim.",
+  "performance_match": "Select one arm-wide checkpoint from 1500/3000/4500/6000 minimizing difference to ordered_roles final average on eight preselected nonfocal unseen pairs per cell, requiring >=95% familiar accuracy in every cell. Valid match requires <=2 percentage-point gap. Focal outcomes do not select checkpoints.",
+  "ceiling": "Flag an arm/family when focal role accuracy >=97% in both conditions; a flat penalty at ceiling is not structural robustness.",
+  "guardrail": "Report familiar four-choice and focal event accuracy, no outcome-based exclusions. Technical reruns only at identical configuration.",
+  "interpretation": "The rewire is a multi-property package. Role-swap arm is global identity-equivariance and cannot by itself establish correct role extraction. No pretrained LLM claim."
+}

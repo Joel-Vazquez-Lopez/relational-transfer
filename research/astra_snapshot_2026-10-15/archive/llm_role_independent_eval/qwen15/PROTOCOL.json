@@ -1,0 +1,15 @@
+{
+  "status": "fixed_before_Qwen1.5B_EWT_inference",
+  "date": "2026-10-12",
+  "model": "untouched local Qwen2.5-1.5B-Instruct, no new training or intervention",
+  "purpose": "Check whether candidate contrast has headroom in a larger local model on the already fixed EWT items. This is a measure-feasibility check, not a replication of the adaptation effect.",
+  "measures": "Same primary D>0, omitted-sentence D>0, paraphrased D>0, and greedy strict direct actor/object spans as the 0.5B cross-corpus run. Same 75 events, no exclusions.",
+  "limits": "EWT items and 0.5B results were inspected before this baseline; labels remain unreviewed syntactic proxies, and pretraining exposure is unknown.",
+  "n_events": 75,
+  "model_snapshot": "/private/tmp/rolepilot_hf/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "references": {
+    "events_sha256": "9f108d08e2955228a2a232f056e6919ed22f2057223ff9cfdc70fb3004da928b",
+    "selection_protocol_sha256": "323abca6180e7bec61ebd9b0c65203d0405cae22a1288739aa6043320a9788be",
+    "script_sha256": "26c43e0451e321b5f24ba9efe0f6702ce1bcd96c166e5d8620ba416f5a310009"
+  }
+}

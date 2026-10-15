@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-13",
+  "status": "frozen before any inference on QA-SRL Gold with these six checkpoints",
+  "source": "QA-SRL Gold, as downloaded in llm_role_confirmation_v1/qasrl-gs; human-annotated QA spans but automatic direct-object role mapping, not independently human-reviewed by the student",
+  "selection": "All 51 rows from the prior 100 rule-filtered QA-SRL candidates where original gold metadata has an actor question with obj=someone and no preposition, and a patient question with subj=someone, no preposition, and no second object. These come from 49 unique source sentences. No item chosen using these checkpoints' predictions.",
+  "prompts": "51 annotated predicates \u00d7 actor/patient original gold questions \u00d7 two candidate orders = 204 prompts/checkpoint. Original sentence text and candidate answer spans retained. Native trained output format requested in each arm; greedy decoding, max 48 new tokens for multiword spans.",
+  "arms": [
+    "answer_first",
+    "candidate_first",
+    "slot_first"
+  ],
+  "starts": [
+    "fresh1",
+    "fresh3"
+  ],
+  "primary": "Number of 51 predicates with exact gold actor and patient span on both candidate orders (four answers all correct). Normalize case, punctuation, and whitespace only. Every parse failure counts wrong.",
+  "secondary": "Per-role, per-order exact span accuracy; parsed-output rate; slot-field accuracy; each source partition. Report all cells regardless of outcome.",
+  "positive_screen": "For a provisional natural-data transfer signal, slot-first improves primary by at least 6/51 over BOTH controls in EACH start; parsed-output rate must be at least 80% in each slot-first start. This is a screening rule, not publication validation.",
+  "limitations": "Question-answer pairs are human annotated, but the conversion to actor/patient is automatic and some predicates may not have canonical agent/patient semantics; candidate spans vary in length, 51 items are small and not all independent; output formats were trained on short synthetic names; natural QA-SRL may have appeared during base pretraining; no human review or second model family. Existing 63-item Qwen1.5B evaluation saw some of the same source sentences, but these six Qwen0.5B checkpoints have not been evaluated on this benchmark.",
+  "source_file_sha256": {
+    "wikinews.dev": "54cc51b09e7a6a2d1359c438f4edf26fa4d8c0ec8913620f41726f91da74e06a",
+    "wikinews.test": "e4e05dee47e85e55d2366242f23d5f0671b5c80f91da644b00e1a193c6467968",
+    "wikipedia.dev": "3c6e00024a8f0b304af34768dba016df6d12f3f1299730244d6bf348529b7694",
+    "wikipedia.test": "1ede49d4991a49787e7c8771843e1ce793724087887f43bb74a19871f9068a52"
+  },
+  "candidate_file_sha256": "61533aba900d98a7d97ff70bc08c4a6f0fec9f7a9ad8731b751170761364f888",
+  "script_sha256": "ad0b248be4ce916bec3477f410a6968305e85eabbf49b2f7ab3311471539521b",
+  "items_sha256": "29443e516dc88eb45466cbf5bc21f59cf18459c0771c747bcf9a24e61c5e134b",
+  "rows_sha256": "208f6bc5eb91b3200b62a5638f1c36eb1a6468bd1ce32dbd2135f9846658a8c4",
+  "checkpoint_sha256": {
+    "fresh1_answer_first": "e0655954a50829f6dceab900c501312c45ab9403d0de06c3e3f58b3c9b7bf595",
+    "fresh1_candidate_first": "497aa06f2fad3f68e129d249e0bcd44016d8296f641f209879db574169010b33",
+    "fresh1_slot_first": "e15d80489719004ba78bfc9df7bb49c03dcfefcb2813ac4cf14e404f8aabc7bf",
+    "fresh3_answer_first": "eb64a2c3c3f84d510bd2abdcbbcacb8ef7054e776f256fd9b7164d0481b49210",
+    "fresh3_candidate_first": "53e34baa4a3e0d29cb366629a135191bf114aebd267344e1937ce5e0f4bbff1e",
+    "fresh3_slot_first": "075a2960ed8046f1fae89ed475a0ef5fc2952f55f0839e39ec986636f228d7e0"
+  }
+}

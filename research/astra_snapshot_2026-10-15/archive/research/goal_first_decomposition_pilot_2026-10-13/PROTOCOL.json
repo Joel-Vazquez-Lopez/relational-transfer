@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-13",
+  "status": "prospectively frozen local synthetic feasibility pilot",
+  "question": "Does goal-first operation ordering improve two-hop answer transfer to unseen mixed F/R dependency compositions over direct and forward-trace training?",
+  "design": "Four event facts with active/passive realization and a nested natural-language-like question. Training uses FF/RR two-hop compositions; heldout_mixed uses FR/RF. All primitives and verbs occur in training. Distinct generated prompts across splits. No natural-language or LLM generalization claim.",
+  "arms": [
+    "direct",
+    "forward",
+    "goal_first"
+  ],
+  "seed": 41,
+  "epochs": 6,
+  "batch": 64,
+  "learning_rate": 0.001,
+  "dimension": 64,
+  "layers": 2,
+  "heads": 4,
+  "matched": "Same generated train rows/order, architecture, initial parameter seed, optimizer, updates. Forward and goal-first both supervise operation order, intermediate entity, and final answer, but differ in output order and target-token count. Direct has fewer supervised targets. This is a feasibility pilot, not a supervision-matched causal test.",
+  "primary": "Free-generated exact final answer on 400 heldout_mixed items per arm, plus in-domain test and output-plan validity. Report FF/RR and FR/RF separately, invalid outputs, target-token counts, and rule/position baselines.",
+  "positive_screen": "Goal-first exceeds forward trace on heldout_mixed answer accuracy by >= 20/400 while maintaining in-domain accuracy within 20/400; and freely generated goal-first plans are valid for >=300/400 mixed items. Otherwise do not advance this formulation to a larger run. This threshold is an exploratory development gate, not a significance test.",
+  "limits": "One seed, one tiny scratch-trained Transformer, symbolic names and four verbs, engineered grammar, no independent natural data. A win cannot establish generalized procedure learning, internal task states, or novelty beyond prior goal-first planning. Negative results may reflect model/data capacity or output design.",
+  "benchmark_sha256": "620943c9a1068c7255ff1427cb209dac55a7a5ef65c84a333489bc5aa54b823b",
+  "data_sha256": "10a831ab40d215386d5751628334d2c79a7021f5e16ff3105e3ed1f389c1fe9f",
+  "audit_sha256": "34e2809e42c6e56ab0deadb2851d565601b375ce24db9c19ee7b40d543aa257c",
+  "vocab_sha256": "09e62cb8d02d38c34895615c0be8377ba50bccdfbd4a3bfe4e565b995ae88d2b",
+  "script_sha256": "3b3bfa22aa96aa905536e1092a3612398231e14df2c55ced4df75266ee344e93",
+  "amendment": "Before any checkpoint or evaluation was saved, the first attempted training run stopped after epoch 1 due to a NameError in progress printing: B should be BATCH. Only that print expression was corrected; objectives, data, seeds, hyperparameters, and analysis gate are unchanged. Original protocol preserved in PROTOCOL_initial.json."
+}

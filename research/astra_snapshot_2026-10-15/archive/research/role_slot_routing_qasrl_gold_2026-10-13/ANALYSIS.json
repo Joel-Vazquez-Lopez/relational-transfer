@@ -1,0 +1,332 @@
+{
+  "protocol_sha256": "8b5a8858f9abea8347f83a0e65b6fff79e5596bd2468df44afa93a5be8e7887f",
+  "n_items": 51,
+  "n_unique_sentences": 49,
+  "arms": {
+    "fresh1_answer_first": {
+      "primary_four_correct": 0,
+      "both_roles_by_order": {
+        "order0": 2,
+        "order1": 3
+      },
+      "per_role_order": {
+        "actor/order0": 16,
+        "actor/order1": 31,
+        "patient/order0": 28,
+        "patient/order1": 15
+      },
+      "exact_answers": 90,
+      "parsed": 199,
+      "slot_joint_correct": 67,
+      "answer_matches_generated_slot": 79,
+      "answer_candidate_position": {
+        "first": 59,
+        "second": 117,
+        "other": 28
+      },
+      "single_word_items": 26,
+      "single_word_exact_answers": 43,
+      "single_word_primary_four_correct": 0,
+      "routed_exact_answers": 89,
+      "routed_four_correct": 8,
+      "by_partition": {
+        "wikinews.dev": {
+          "items": 20,
+          "four_correct": 0
+        },
+        "wikinews.test": {
+          "items": 17,
+          "four_correct": 0
+        },
+        "wikipedia.dev": {
+          "items": 6,
+          "four_correct": 0
+        },
+        "wikipedia.test": {
+          "items": 8,
+          "four_correct": 0
+        }
+      },
+      "raw_output_examples": [
+        " His fellow Deputy; Actor: NAME; Patient: NAME; Name: NAME",
+        " A Deputy; Actor: A Deputy; Patient: Someone who died going to help his fellow Deputy.",
+        " His fellow Deputy; Actor: NAME; Patient: NAME",
+        " A Deputy; Actor: NAME; Patient: NAME"
+      ]
+    },
+    "fresh1_candidate_first": {
+      "primary_four_correct": 2,
+      "both_roles_by_order": {
+        "order0": 4,
+        "order1": 9
+      },
+      "per_role_order": {
+        "actor/order0": 22,
+        "actor/order1": 30,
+        "patient/order0": 23,
+        "patient/order1": 19
+      },
+      "exact_answers": 94,
+      "parsed": 204,
+      "slot_joint_correct": null,
+      "answer_matches_generated_slot": null,
+      "answer_candidate_position": {
+        "first": 73,
+        "second": 96,
+        "other": 35
+      },
+      "single_word_items": 26,
+      "single_word_exact_answers": 45,
+      "single_word_primary_four_correct": 1,
+      "routed_exact_answers": null,
+      "routed_four_correct": null,
+      "by_partition": {
+        "wikinews.dev": {
+          "items": 20,
+          "four_correct": 2
+        },
+        "wikinews.test": {
+          "items": 17,
+          "four_correct": 0
+        },
+        "wikipedia.dev": {
+          "items": 6,
+          "four_correct": 0
+        },
+        "wikipedia.test": {
+          "items": 8,
+          "four_correct": 0
+        }
+      },
+      "raw_output_examples": [
+        " His fellow Deputy; Second: A Deputy; Answer: His fellow Deputy",
+        " His fellow Deputy; Second: A Deputy; Answer: His fellow Deputy",
+        " His fellow Deputy; Second: A Deputy; Answer: His fellow Deputy",
+        " His fellow Deputy; Second: A Deputy; Answer: His fellow Deputy"
+      ]
+    },
+    "fresh1_slot_first": {
+      "primary_four_correct": 1,
+      "both_roles_by_order": {
+        "order0": 4,
+        "order1": 2
+      },
+      "per_role_order": {
+        "actor/order0": 20,
+        "actor/order1": 28,
+        "patient/order0": 27,
+        "patient/order1": 9
+      },
+      "exact_answers": 84,
+      "parsed": 203,
+      "slot_joint_correct": 94,
+      "answer_matches_generated_slot": 106,
+      "answer_candidate_position": {
+        "first": 51,
+        "second": 100,
+        "other": 53
+      },
+      "single_word_items": 26,
+      "single_word_exact_answers": 40,
+      "single_word_primary_four_correct": 1,
+      "routed_exact_answers": 112,
+      "routed_four_correct": 15,
+      "by_partition": {
+        "wikinews.dev": {
+          "items": 20,
+          "four_correct": 0
+        },
+        "wikinews.test": {
+          "items": 17,
+          "four_correct": 1
+        },
+        "wikipedia.dev": {
+          "items": 6,
+          "four_correct": 0
+        },
+        "wikipedia.test": {
+          "items": 8,
+          "four_correct": 0
+        }
+      },
+      "raw_output_examples": [
+        " None; Patient: None; Answer: His fellow Deputy",
+        " His fellow Deputy; Patient: A Deputy; Answer: His fellow Deputy",
+        " None; Patient: None; Answer: His fellow Deputy",
+        " His fellow Deputy; Patient: A Deputy; Answer: His fellow Deputy"
+      ]
+    },
+    "fresh3_answer_first": {
+      "primary_four_correct": 1,
+      "both_roles_by_order": {
+        "order0": 4,
+        "order1": 2
+      },
+      "per_role_order": {
+        "actor/order0": 19,
+        "actor/order1": 31,
+        "patient/order0": 30,
+        "patient/order1": 12
+      },
+      "exact_answers": 92,
+      "parsed": 204,
+      "slot_joint_correct": 74,
+      "answer_matches_generated_slot": 96,
+      "answer_candidate_position": {
+        "first": 58,
+        "second": 116,
+        "other": 30
+      },
+      "single_word_items": 26,
+      "single_word_exact_answers": 41,
+      "single_word_primary_four_correct": 0,
+      "routed_exact_answers": 91,
+      "routed_four_correct": 7,
+      "by_partition": {
+        "wikinews.dev": {
+          "items": 20,
+          "four_correct": 1
+        },
+        "wikinews.test": {
+          "items": 17,
+          "four_correct": 0
+        },
+        "wikipedia.dev": {
+          "items": 6,
+          "four_correct": 0
+        },
+        "wikipedia.test": {
+          "items": 8,
+          "four_correct": 0
+        }
+      },
+      "raw_output_examples": [
+        " His fellow Deputy; Actor: His fellow Deputy; Patient: A Deputy",
+        " A Deputy; Actor: His fellow Deputy; Patient: A Deputy",
+        " His fellow Deputy; Actor: His fellow Deputy; Patient: None",
+        " A Deputy; Actor: His fellow Deputy; Patient: A Deputy"
+      ]
+    },
+    "fresh3_candidate_first": {
+      "primary_four_correct": 1,
+      "both_roles_by_order": {
+        "order0": 4,
+        "order1": 7
+      },
+      "per_role_order": {
+        "actor/order0": 18,
+        "actor/order1": 23,
+        "patient/order0": 23,
+        "patient/order1": 24
+      },
+      "exact_answers": 88,
+      "parsed": 204,
+      "slot_joint_correct": null,
+      "answer_matches_generated_slot": null,
+      "answer_candidate_position": {
+        "first": 75,
+        "second": 91,
+        "other": 38
+      },
+      "single_word_items": 26,
+      "single_word_exact_answers": 38,
+      "single_word_primary_four_correct": 0,
+      "routed_exact_answers": null,
+      "routed_four_correct": null,
+      "by_partition": {
+        "wikinews.dev": {
+          "items": 20,
+          "four_correct": 1
+        },
+        "wikinews.test": {
+          "items": 17,
+          "four_correct": 0
+        },
+        "wikipedia.dev": {
+          "items": 6,
+          "four_correct": 0
+        },
+        "wikipedia.test": {
+          "items": 8,
+          "four_correct": 0
+        }
+      },
+      "raw_output_examples": [
+        " a Deputy; Second: his fellow Deputy; Answer: a Deputy",
+        " his fellow Deputy; Second: a Deputy; Answer: his fellow Deputy",
+        " a Deputy; Second: his fellow Deputy; Answer: a Deputy",
+        " his fellow Deputy; Second: a Deputy; Answer: his fellow Deputy"
+      ]
+    },
+    "fresh3_slot_first": {
+      "primary_four_correct": 2,
+      "both_roles_by_order": {
+        "order0": 3,
+        "order1": 4
+      },
+      "per_role_order": {
+        "actor/order0": 18,
+        "actor/order1": 26,
+        "patient/order0": 23,
+        "patient/order1": 14
+      },
+      "exact_answers": 81,
+      "parsed": 203,
+      "slot_joint_correct": 91,
+      "answer_matches_generated_slot": 103,
+      "answer_candidate_position": {
+        "first": 58,
+        "second": 95,
+        "other": 51
+      },
+      "single_word_items": 26,
+      "single_word_exact_answers": 39,
+      "single_word_primary_four_correct": 1,
+      "routed_exact_answers": 109,
+      "routed_four_correct": 12,
+      "by_partition": {
+        "wikinews.dev": {
+          "items": 20,
+          "four_correct": 1
+        },
+        "wikinews.test": {
+          "items": 17,
+          "four_correct": 1
+        },
+        "wikipedia.dev": {
+          "items": 6,
+          "four_correct": 0
+        },
+        "wikipedia.test": {
+          "items": 8,
+          "four_correct": 0
+        }
+      },
+      "raw_output_examples": [
+        " None; Patient: None; Answer: Someone",
+        " His fellow Deputy; Patient: A Deputy; Answer: His fellow Deputy",
+        " None; Patient: None; Answer: None",
+        " His fellow Deputy; Patient: A Deputy; Answer: His fellow Deputy"
+      ]
+    }
+  },
+  "screen": {
+    "fresh1": {
+      "gains": {
+        "answer_first": 1,
+        "candidate_first": -1
+      },
+      "slot_parsed_rate": 0.9950980392156863,
+      "pass": false
+    },
+    "fresh3": {
+      "gains": {
+        "answer_first": 1,
+        "candidate_first": 1
+      },
+      "slot_parsed_rate": 0.9950980392156863,
+      "pass": false
+    }
+  },
+  "positive_screen": false
+}

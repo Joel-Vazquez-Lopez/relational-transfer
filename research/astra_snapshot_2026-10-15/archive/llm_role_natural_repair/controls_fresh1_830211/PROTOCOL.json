@@ -1,0 +1,17 @@
+{
+  "status": "fixed_before_control_training",
+  "date": "2026-10-12",
+  "question": "Do natural role examples drive the authentic-language gain, and does synthetic replay protect controlled cleft transfer?",
+  "design": "Both controls start from the identical fresh1/830211 participant-only adapter used by the mixed natural+replay pilot. Same 256 training steps, LR 5e-5, deterministic natural event order and synthetic replay-group order. Natural-only uses the same two annotated Bank questions/answers per step; replay-only uses the same four original synthetic examples per step with the same 0.3 replay coefficient. The mixed arm was already run; these controls were planned after seeing its test scores and are exploratory.",
+  "evaluation": "Freeze all 130 Bank test events, role-contrast and sentence-omitted controls, plus 750 patient clefts and 1,500 active/passive prompts from the same fresh1 held-out-pair test. Report raw paired counts against source and mixed. No item exclusion.",
+  "interpretation": "If natural-only and mixed both improve fresh Bank while replay-only does not, authentic supervision is necessary for this observed gain. If mixed retains more cleft accuracy than natural-only at similar natural accuracy, replay helps retention. Neither comparison isolates role-specific supervision from prompt-format learning or generic natural-language exposure.",
+  "limits": "Post-result one-start controls using the already inspected Bank test; no new blind confirmation, no human label verification, one model family.",
+  "references": {
+    "source_adapter_sha256": "8b114fa025a91199702d685da46b859e9d9e0ea08293cf9c5ac78a8c7eaa2e79",
+    "first_protocol_sha256": "7516a54e18aea5a811c6c65300583663c886222a7650f32c22375d502933e719",
+    "train_sha256": "70609ac375d05937e85c7b9bd791a1f4274565e4109d8c4b70d590f4519f7686",
+    "fresh_protocol_sha256": "b2a49fc0aa04eded5c2c310aca7c878a10a1de5881122062fff0f530f41f8901",
+    "fresh_events_sha256": "b26094178fa5ccdb63d62ca84957c83bda398e5363cc287095d0a51ec2ca016e",
+    "script_sha256": "34084d43b130204f38f6b0b781221d46e66be8c2fda2108f5ffb6176319434ce"
+  }
+}
