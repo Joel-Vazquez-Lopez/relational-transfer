@@ -1,4 +1,4 @@
-# Same-query binding counterfactuals — protocol auditor's independent methods experiment
+> **IMPORTANT V1 FALSIFICATION (15 Oct 2026):** The original generator below has a serious positional/name-order shortcut: a sorted-name + question-role baseline gets **768/1024 = 75%** of answer opportunities. **Do not use v1 as a stand-alone behavioral benchmark.** The newer [V2 audit](AUDIT_V2_2026-10-15.md) counterbalances name assignments (same rule **256/1024 = 25%**) but an exact local syntactic lookup still scores **1024/1024**. V2 is an open-development stimulus design, **not evidence of a learned or cached semantic mechanism**.\n\n# Same-query binding counterfactuals — protocol auditor's independent methods experiment
 
 **15 October 2026 · Status: executable *synthetic stimulus generator*; 4 generator tests executed locally, no model inference or neural intervention performed. No novel pretrained mechanism claimed.**
 
