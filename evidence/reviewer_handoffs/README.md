@@ -4,14 +4,14 @@
 
 ## Discovery in the research lead's ChatGPT File Library
 
-The exact files below were found at the **Library root** and materialized to an isolated workspace for checksum/ZIP inspection. The research lead's Library is separate from GitHub; **a Library listing does not prove another ChatGPT research session has access**. Each receiver must search their own authorized Library for the filename, retrieve bytes and report a local SHA-256 match. Request an explicit approved transfer through Ops [#22](../../issues/22) if access is unavailable.
+The exact files below were found at the **Library root** and materialized to an isolated workspace for checksum/ZIP inspection. The research lead's Library is separate from GitHub; **a Library listing does not prove another ChatGPT research session has access**. Each receiver must search their own authorized Library for the filename, retrieve bytes and report a local SHA-256 match. Request an explicit approved transfer through Ops [#22](https://github.com/Joel-Vazquez-Lopez/relational-transfer/issues/22) if access is unavailable.
 
 | Handoff | Exact Library filename | Verified archive SHA-256 | Inspected | GitHub access now |
 | --- | --- | --- | --- | --- |
 | **H1 Mira V4 → Comput/Nova** | `MIRA_V3_FALSIFICATION_AND_MULTISTRUCTURE_V4_2026-10-15.zip` | `50451ea957fb5e81a03ea7b637e34fd976906e9968186683f5118cd4c66b58d7` | ZIP CRC pass; internal SHA manifest 18/18 | Original remains in Library; **not yet receiver-confirmed** |
 | Mira's independent audit (supplement) | `MIRA_DATASET_EVALUATION_2026-10-15.zip` | `5f687f1ba2baf1f1b087b3d23957816b9d40e6dbd692e65ad821a1b9024be2be` | ZIP CRC pass | Library only |
 | **H2 Brain-O E037–038 → reviewers** | `BRAIN_O_POSITION_AND_FACTORIAL_037_038_2026-10-15.zip` | `14a6cdaa2b2c7403b00fb6fadb46eb553d1c25abb5985a6d6a59f865b8b7cf86` | ZIP CRC pass; internal manifest 13/13 | Source and checkpoints remain in Library; **not receiver-confirmed** |
-| **H3 Nova CAL-01 Qwen 1.5B+7B → Comput/Mira** | `nova004-cal-qwen7b-results.zip` | `dceb5086e27cf87c855e7f738407dabcff815c60a94f63ad50f7028373e6f17c` | ZIP CRC pass; raw predictions 24 + 24 | Raw synthetic predictions copied to this draft branch in `nova_cal01/` for reviewer access; **recipient still to replay** |
+| **H3 Nova CAL-01 Qwen 1.5B+7B → Comput/Mira** | `nova004-cal-qwen7b-results.zip` | `dceb5086e27cf87c855e7f738407dabcff815c60a94f63ad50f7028373e6f17c` | ZIP CRC pass; raw predictions 24 + 24 | Raw synthetic predictions copied byte-for-byte to this draft branch in `nova_cal01/` (verified source ZIP Git-blob hashes); **recipient still to replay** |
 | Nova earlier 1.5B-only archive (duplicate evidence) | `nova004-cal-results.zip` | `dbc73d30e4a455df1704e18f117312cf9d181c5fb983590b103ced7094ac19f0` | ZIP CRC pass | Library only; later combined ZIP is preferred |
 
 All five ZIPs were actually found and checked; no inferred or fabricated local path. The original source archive hashes match those previously reported in GitHub research notes.
@@ -24,7 +24,7 @@ Original ZIP includes exact development generator `build_v4.py`, `model_inputs_v
 
 For evaluated LLM inputs use **only `passage` and `question`** from `model_inputs_v4.jsonl`. Do not serialize `id` or `split` into the model prompt; ID encodes generator/world bits. Keep gold and `generator_edges` privileged and separate. `structure_holdout` is openly inspected development data, not sealed confirmation. Before sharing beyond authorized research agents, verify generator provenance and license/consent of every included source.
 
-**Comput:** reply in [#22](../../issues/22) with `H1 RECEIVED / SHA-256 VERIFIED` or `BLOCKED: cannot access Library file`. Then independently rerun the original benchmark's shortcut audit. **Nova:** audit data-interchange schema; avoid label leakage.
+**Comput:** reply in [#22](https://github.com/Joel-Vazquez-Lopez/relational-transfer/issues/22) with `H1 RECEIVED / SHA-256 VERIFIED` or `BLOCKED: cannot access Library file`. Then independently rerun the original benchmark's shortcut audit. **Nova:** audit data-interchange schema; avoid label leakage.
 
 ### H2 — Brain-O E037–038
 
