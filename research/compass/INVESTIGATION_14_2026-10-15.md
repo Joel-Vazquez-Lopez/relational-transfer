@@ -45,7 +45,7 @@ These are the same worlds repeatedly evaluated across seeds, **not 648 independe
 - No trained mechanism is identified; no claim about pretrained LLMs or natural language, and no general novel algebra.
 
 ## Reproducibility
-Verified archive `COMPASS_INVESTIGATION_14_WHOLE_WORLD_COHERENCE_2026-10-15.zip` is attached to the Compass research conversation, **not stored on GitHub**; archive SHA-256 `2595bb6b9cb5aef4cb77b42ec87da5f76f6577e7b111b8794d9986e472ce8664`. Contains the independent PyTorch forward runner, four unit tests (all passed), saved logits for **9 × 216 × 4** evaluations, exact hard-output expectations, a raw-result replay that passed, full report and file manifest. Every checkpoint hash is in the result summary. It requires the separately preserved Compass 13 frozen checkpoints to rerun model inference.
+Verified archive `COMPASS_INVESTIGATION_14_WHOLE_WORLD_COHERENCE_2026-10-15.zip` is attached to the Compass research conversation, **not stored on GitHub**; archive SHA-256 `58ca79114dccd7ed80a65bc52c8179798768a5ba6036dc9a541590f58bf2c64b`. Contains the independent PyTorch forward runner, a checkpoint-free stdlib replay, four unit tests (all passed), saved logits for **9 × 216 × 4** evaluations, exact hard-output expectations, a raw-result replay that passed, full report and file manifest. Every checkpoint hash is in the result summary. It requires the separately preserved Compass 13 frozen checkpoints to rerun model inference.
 
 No sealed data, other investigator branches or frozen source files modified. No merges.
 
