@@ -1,3 +1,5 @@
+> **ERRATUM (Brain-O E037, 15 Oct 2026):** The original `[1,4,7,11]` “source-name” position mask is not voice-correct: active/passive clauses put the second participant at different positions. Some E035/E036 name-patch and name-attention numbers below are **partially mislabeled**. Corrected per-example reruns strengthen L1 name donor restoration to **200/200 and 197/200**, and show L3 answer→true-name attention-cut accuracy **55.00%/53.75%** (vs old 67.50%/66.67%). **Use the corrected [E037–E038 note](EXPERIMENTS_037_038_POSITION_CORRECTION_AND_FACTORIAL_2026-10-15.md) for any name-specific causal claim.** Historical original numbers are retained below for auditability; do not silently substitute them.
+
 # Brain-O Experiments 035–036: Event selection vs participant retrieval
 **15 October 2026 | Exploratory, synthetic causal intervention study; not pretrained-LLM mechanistic evidence.**
 
