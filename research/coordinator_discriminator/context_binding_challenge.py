@@ -59,13 +59,13 @@ HYPOTHESES=("query_lexical_only","event_slot_address","donor_answer_content")
 
 def generate():
     rows=[]
-    for family,recipient in enumerate(worlds()):
+    for permutation_id,recipient in enumerate(worlds()):
         for voice,verb,role in product(("active","passive"),VERBS,ROLES):
             query=(verb,role)
             for kind in KINDS:
                 donor=transform(recipient,kind,verb)
                 donor_voice=("passive" if voice=="active" else "active") if kind=="voice_flip" else voice
-                rows.append({"family":family,"voice":voice,"query_verb":verb,
+                rows.append({"permutation_id":permutation_id,"voice":voice,"query_verb":verb,
                   "query_role":role,"intervention":kind,
                   "recipient":render(recipient,voice),"donor":render(donor,donor_voice),
                   "recipient_gold":answer(recipient,query),"donor_gold":answer(donor,query),
@@ -86,5 +86,5 @@ if __name__=="__main__":
     if a.out:
         with open(a.out,"w",encoding="utf8") as f:
             for r in rows:f.write(json.dumps(r,sort_keys=True)+"\n")
-    print(json.dumps({"n":len(rows),"families":len({r["family"] for r in rows}),
+    print(json.dumps({"n":len(rows),"permutations":len({r["permutation_id"] for r in rows}),
                       "signatures":summarize(rows)},indent=2,sort_keys=True))
