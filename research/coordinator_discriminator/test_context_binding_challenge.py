@@ -13,7 +13,7 @@ class SameQueryControls(unittest.TestCase):
         self.assertEqual(len(self.rows),768)
         self.assertEqual(Counter(x["intervention"] for x in self.rows),
                          {k:192 for k in KINDS})
-        self.assertEqual(len({x["family"] for x in self.rows}),24)
+        self.assertEqual(len({x["permutation_id"] for x in self.rows}),24)
 
     def test_participants_once_and_fixed_query_fields(self):
         for row in self.rows:
