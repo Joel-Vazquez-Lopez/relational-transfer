@@ -39,4 +39,4 @@ Interpretation: task-effective event selection and participant/name retrieval ha
 - Seek competence-matched natural-language training/heldout tests only after controlled mechanism passes adversarial checks.
 
 ## Reproducibility
-Chat artifact `BRAIN_O_DUAL_ROUTE_035_036_2026-10-15.zip` (SHA-256 `1238a387973b0a7476ffc42a12e2999422be7244a80632efa0fa801e82cd2b9b`, archive integrity and result invariants verified); includes executable scripts, complete metric JSON, E031-34 source and frozen 3L checkpoints. Binary ZIP is **not uploaded into the GitHub branch**. No new model training, no sealed data, no modifications to other branches.
+Chat artifact `BRAIN_O_DUAL_ROUTE_035_036_2026-10-15.zip` (SHA-256 `abeff7b1d63c536f1d9de1a5423f779e70224223b8a8b1c10301756b5178e59d`, archive integrity and result invariants verified; both experiments independently replayed after extraction with exact JSON metric reproduction); includes executable scripts, complete metric JSON, E031-34 source and frozen 3L checkpoints. Binary ZIP is **not uploaded into the GitHub branch**. No new model training, no sealed data, no modifications to other branches.
