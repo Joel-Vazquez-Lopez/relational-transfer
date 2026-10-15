@@ -25,19 +25,19 @@ The 'event-slot address' counterfactual is explicitly an **absolute slot pointer
 
 ## Control checks and limits
 
-The generator produces **768 paired question conditions in 24 independent name-family permutations** (192 per transformation). Predicate/participant/order variants match a lexical-plus-punctuation token **multiset** but do **not** promise identical GPT/Qwen tokenizer IDs, local hidden-state distributions, phrase order or attention paths. Voice-flip is a semantic-invariance control, not a token-bag match. The role- and verb-query text is identical, as required.
+The generator produces **768 paired question conditions from 24 permutations of the SAME four names** (192 per transformation). Predicate/participant/order variants match a lexical-plus-punctuation token **multiset** but do **not** promise identical GPT/Qwen tokenizer IDs, local hidden-state distributions, phrase order or attention paths. Voice-flip is a semantic-invariance control, not a token-bag match. The queried verb and role *fields* are held identical. This program does not produce Brain-O tokenizer-compatible prompts, and must be mapped through Brain-O’s pinned generator before checkpoint inference.
 
 **This program does not patch a neural network.** The "hypotheses" are transparent software functions predicting idealized patch outcomes from known event slots and gold participants; labels and event slots are **privileged calibration metadata and must not be included in LLM input**.
 
-The current two-event grammar and unique predicate/name assumptions make local textual parsing easy; Comput's positional, question × voice and punctuation heuristics, and Mira V4/Nova-005 v0.2 graph challenges remain mandatory adversarial comparators. Effective independent sample size is **24 families**, not 768 rows.
+The current two-event grammar and unique predicate/name assumptions make local textual parsing easy; Comput's positional, question × voice and punctuation heuristics, and Mira V4/Nova-005 v0.2 graph challenges remain mandatory adversarial comparators. There are **no independently sampled name families** in this enumeration: all permutations reuse the same four names and two verbs. Neither 768 rows nor 24 permutation IDs justify population-level uncertainty or generalization claims.
 
 ## Before experimental inference
 
 1. Use *identical frozen checkpoint(s)* and original Brain-O generator; verify model and data SHA256, layer indexing, output head position, donor/receptor activation tensor shape and teacher-forcing schedule.
 2. Predeclare patch location (after layer 1 query-verb token), unpatched recipient output, natural donor output, and the idealized hypotheses above; include same-context sham patch, unrelated contextual donor, source-token-only and answer-position patches.
-3. Stratify by active/passive voice, event slot, role, verb and family; examine distributions, not just argmax answer flips. Compare recipient/alternate name log-odds.
+3. Stratify by active/passive voice, event slot, role, verb and permutation ID; examine distributions, not just argmax answer flips. Compare recipient/alternate name log-odds.
 4. Generate unseen family and variable 3+ event controls and preserve some as **future untouched** held-out stimuli; the 24 permutations here are development-only.
-5. Apply strict format parsing, store **all raw predictions**, model hashes and family IDs; solicit blind semantic-review for authentic language transfer. Avoid overinterpreting off-manifold patching.
+5. Apply strict format parsing, store **all raw predictions**, model hashes, permutation IDs and independently sampled test-family IDs; solicit blind semantic-review for authentic language transfer. Avoid overinterpreting off-manifold patching.
 6. Have Comput and Mira independently attack any apparent discrimination with a competent token-position or construction-aware solution.
 
 ## Reproduce
