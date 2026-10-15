@@ -1,0 +1,24 @@
+{"id":"cal01.q0.minimal.helper_lookup","raw":"Evan helped Iris."}
+{"id":"cal01.q0.minimal.direct_upstream","raw":"Alice was pushed by Evan."}
+{"id":"cal01.q0.minimal.two_hop","raw":"Alice"}
+{"id":"cal01.q0.full.helper_lookup","raw":"Evan helped Iris."}
+{"id":"cal01.q0.full.direct_upstream","raw":"Alice"}
+{"id":"cal01.q0.full.two_hop","raw":"Bob"}
+{"id":"cal01.q1.minimal.helper_lookup","raw":"Faye helped Jude."}
+{"id":"cal01.q1.minimal.direct_upstream","raw":"Bob was pushed by Faye."}
+{"id":"cal01.q1.minimal.two_hop","raw":"Bob"}
+{"id":"cal01.q1.full.helper_lookup","raw":"Faye helped Jude."}
+{"id":"cal01.q1.full.direct_upstream","raw":"Faye pushed Bob."}
+{"id":"cal01.q1.full.two_hop","raw":"Faye"}
+{"id":"cal01.q2.minimal.helper_lookup","raw":"Gina helped Kira."}
+{"id":"cal01.q2.minimal.direct_upstream","raw":"Cara was pushed by Gina."}
+{"id":"cal01.q2.minimal.two_hop","raw":"Gina"}
+{"id":"cal01.q2.full.helper_lookup","raw":"Gina helped Kira."}
+{"id":"cal01.q2.full.direct_upstream","raw":"Gina pushed Kira."}
+{"id":"cal01.q2.full.two_hop","raw":"Bob"}
+{"id":"cal01.q3.minimal.helper_lookup","raw":"Hugo helped Liam."}
+{"id":"cal01.q3.minimal.direct_upstream","raw":"Dan was pushed by Hugo."}
+{"id":"cal01.q3.minimal.two_hop","raw":"Hugo was pushed by the person who helped Liam."}
+{"id":"cal01.q3.full.helper_lookup","raw":"Hugo helped Liam."}
+{"id":"cal01.q3.full.direct_upstream","raw":"Hugo pushed Dan."}
+{"id":"cal01.q3.full.two_hop","raw":"Bob"}
