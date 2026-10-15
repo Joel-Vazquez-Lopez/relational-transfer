@@ -1,7 +1,7 @@
 # Relational Transfer in Transformers and Language Models
 
 **Project:** Explaining Language Through Science · **Research deadline:** 15 December 2026  
-**Scientific lead:** Joel Vázquez López · **Status:** exploratory, independently audited research
+**Scientific lead:** Joel Vázquez López · **Status:** exploratory research with selected independent audits
 
 We study how Transformers **encode, select, compose, and use relational information**: who did what to whom, in which event, and how these answers change under sentence structure, question wording, and context. Our central question is no longer simply whether a model returns correct actor–patient answers:
 
@@ -15,7 +15,7 @@ All numerical results below are **attributed to their workstream reports**. Exce
 
 | Evidence | Reported finding | What it does **not** establish |
 |---|---|---|
-| **Brain-O: event information vs answer use** | On a structured synthetic two-event task, a two-layer Transformer learned 100% query-event identification but only 53.25% disjoint-answer accuracy. Matched three-layer local-auxiliary training reached 2,000/2,000 generated QA cases; query-verb-state transplant changed answers in 500/500 cases in the successful model versus 1/500 in the two-layer control. | No unique depth requirement, general pretrained-LM mechanism, or natural-language generalization. [Report](research/brain-o/EXPERIMENTS_021_029_CAUSAL_ROUTING_2026-10-15.md) |
+| **Brain-O: event information vs answer use** | On a structured synthetic two-event task, a two-layer Transformer learned 100% query-event identification but only 53.25% disjoint-answer accuracy. Matched three-layer local-auxiliary training reached 2,000/2,000 generated QA cases; query-verb-state transplant changed answers in 500/500 cases in the successful model versus 1/500 in the two-layer control. | No unique depth requirement, general pretrained-LM mechanism, or natural-language generalization. [Report](https://github.com/Joel-Vazquez-Lopez/relational-transfer/blob/research/brain-o-ideation/research/brain-o/EXPERIMENTS_021_029_CAUSAL_ROUTING_2026-10-15.md) |
 | **Astra: the interface changes the apparent ability** | In a completed synthetic Qwen2.5-0.5B development diagnostic, patient-cleft joint correctness for untouched Qwen was 3.1% with two direct role calls versus 90.6% with a joint extraction request; rankings among adapters also shifted across interfaces. | Interfaces differ in prompting/number of calls and were not compute matched. This is not proof that extraction retrieves a preserved abstract binding. [Astra snapshot](https://github.com/Joel-Vazquez-Lopez/relational-transfer/tree/codex/astra-research-2026-10-15/research/astra_snapshot_2026-10-15/completed_adapter_diagnostic) |
 | **Comput: historical response shortcut** | An independent replay of the original `llm_role_internal_v2/RESULT.json` found 240/384 correct answers and 368/384 agreement with a text-derived voice × question-wording positional rule; synonymous actor questions diverged on 48/64 matched active sentences. | Behavioral compression is not an identified neural circuit; the 384 responses reuse a small number of pairs and verbs. [Report](https://github.com/Joel-Vazquez-Lopez/relational-transfer/blob/research/comput-falsification/research/comput/REPORT_011_INDEPENDENT_RESPONSE_REPLICATION.md) |
 | **Compass: probing false positives** | Supervised high-capacity probes memorized 144/144 labels from contextual states, raw reconstruction inputs, and even raw one-hot tokens on the finite training table. | Probe success alone cannot show that a model already computed the relation. [Report](https://github.com/Joel-Vazquez-Lopez/relational-transfer/blob/research/compass-reuse/research/compass/INVESTIGATION_11_2026-10-15.md) |
@@ -37,7 +37,7 @@ The research uses three **distinct** evidence layers:
 | Version | Status | Main lesson |
 |---|---|---|
 | V1 | Development-only; rejected as benchmark | Frequency shortcut and duplicate examples. |
-| V2 | Development-only | Matched lexical bags, but anchor-blind rule succeeded on 320/320. |
+| V2 | Development-only | Matched lexical bags; a generator-aware compositional parser solved 320/320, while simple first/last relevant-verb actor rules scored 160/320 each. |
 | V3 | Development-only | Anchor sensitivity improved; verb-blind two-hop graph traversal still scored 320/320; punctuation leaked the split. |
 | V4 | **Exploratory, awaiting independent Comput audit** | 2,592 questions / 60 families across five relational motifs. On the 1,152-question predicate-competition condition, a full programmed parser scored 100%, while first-/second-predicate-blind references scored 50% and both-blind 25%. These are **programmed baseline** scores, not LM results. |
 
