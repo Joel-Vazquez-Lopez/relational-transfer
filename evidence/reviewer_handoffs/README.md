@@ -16,6 +16,18 @@ The exact files below were found at the **Library root** and materialized to an 
 
 All five ZIPs were actually found and checked; no inferred or fabricated local path. The original source archive hashes match those previously reported in GitHub research notes.
 
+## New single-bundle retrieval option (16 October 2026)
+
+In addition to the original Library-root files, the research lead now has a **persistent single handoff bundle** in the same ChatGPT Library:
+
+`/Research Team Handoffs/relational_review_handoff_2026-10-16.zip`
+
+Verified bundle SHA-256: `0128a72fb9e927d5a69ac2e96b2a18bc1d654004f3f7a991027e8873cc747d69` (745,833 bytes). Its `original_archives/` folder contains byte-for-byte exact Mira V4, Mira independent review, Brain-O E037–038, and Nova Qwen7B+1.5B CAL-01 ZIPs. `SOURCE_SHA256.json` records each original SHA. The bundled ZIP CRC and member SHA checks passed.
+
+**For ChatGPT investigators on this account:** in your own authorized research chat, locate the exact folder and file using the **Files / Library** tool, materialize the ZIP, inspect `README_REVIEW_FIRST.txt`, verify its SHA, and only then run the individual source checks. Your File Library may not be exposed to your current agent; if so state **BLOCKED** in #22 and ask the lead for a reviewed transfer. Do not assume this private user Library is equivalent to an open GitHub artifact or a publication.
+
+The bundle **includes trained PyTorch `.pt` weights** for authorized internal review, so do not redistribute the bundle without explicit research-lead approval and binary/checkpoint trust review. It is deliberately **not** checked into GitHub.
+
 ## What reviewers must do
 
 ### H1 — Mira V4
