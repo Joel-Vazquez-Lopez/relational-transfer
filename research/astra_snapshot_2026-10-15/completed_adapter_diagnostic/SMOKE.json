@@ -1,0 +1,618 @@
+{
+  "status": "technical_smoke_only_not_scientific_evidence",
+  "world": "fresh1",
+  "seed": 830211,
+  "provenance": {
+    "sha256": {
+      "model_weights": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "confirmation_source": "ded4eebd96720502b48281af45376bfa9f96af45fb961209063b79693714b93e",
+      "core_source": "65c6dd6f675c464fc764c9682a5914f4dc30cfba2bc1a8c64d4be402b737a92a",
+      "graph_manifest": "706f190e41453b32990985c68b499ae15541c2f099ba1ea17a9720cd2512b097",
+      "unordered_source": "bb84d383fd65a383e67bb9de93a9a53a04ca32fe41362d370fa4e026e11a367c"
+    },
+    "confirmation_protocol_sha256": "db72b03db9db1cc051811184c0d53d57cfdff9c86ac25cc904cc351e74beca3a",
+    "unordered_protocol_sha256": "dab387df03680c39d33a92a6e692796468ec50494c9da3187568d6de35381917",
+    "base_snapshot": "/Users/joelvazquezlopez/.cache/huggingface/hub/models--Qwen--Qwen2.5-0.5B-Instruct/snapshots/7ae557604adf67be50417f59c2c2f167def9a775"
+  },
+  "events": [
+    {
+      "id": "dev_photo",
+      "actor": "Ryan",
+      "patient": "Emma",
+      "verb": "photographed",
+      "active": "Ryan photographed Emma.",
+      "passive": "Emma was photographed by Ryan."
+    },
+    {
+      "id": "dev_rescue",
+      "actor": "Grace",
+      "patient": "Tyler",
+      "verb": "rescued",
+      "active": "Grace rescued Tyler.",
+      "passive": "Tyler was rescued by Grace."
+    }
+  ],
+  "arms": [
+    {
+      "load": {
+        "arm": "pretrained",
+        "load_seconds": 1.0662592919543386,
+        "adapter_tensors": 0,
+        "head_tensors": 0,
+        "checkpoint_sha256": null
+      },
+      "timing": {
+        "direct_qa_seconds": 0.740967083023861,
+        "role_extraction_seconds": 1.367054000031203,
+        "role_extraction_max_new_tokens": 20
+      },
+      "records": [
+        {
+          "id": "dev_photo_active",
+          "event_id": "dev_photo",
+          "form": "active",
+          "actor": "Ryan",
+          "patient": "Emma",
+          "sentence": "Ryan photographed Emma.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Ryan photographed Emma.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 48446,
+            "raw_first_token": "Ryan",
+            "parsed_actor": "Ryan"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Ryan photographed Emma.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              13646,
+              26,
+              28924,
+              25,
+              34935,
+              13,
+              151645
+            ],
+            "raw_output": "Actor: Ryan; Patient: Emma.<|im_end|>",
+            "clean_output": "Actor: Ryan; Patient: Emma.",
+            "parsed": null
+          }
+        },
+        {
+          "id": "dev_photo_passive",
+          "event_id": "dev_photo",
+          "form": "passive",
+          "actor": "Ryan",
+          "patient": "Emma",
+          "sentence": "Emma was photographed by Ryan.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Emma was photographed by Ryan.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 48446,
+            "raw_first_token": "Ryan",
+            "parsed_actor": "Ryan"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Emma was photographed by Ryan.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              13646,
+              26,
+              28924,
+              25,
+              34935,
+              151645,
+              151643
+            ],
+            "raw_output": "Actor: Ryan; Patient: Emma<|im_end|><|endoftext|>",
+            "clean_output": "Actor: Ryan; Patient: Emma",
+            "parsed": {
+              "actor": "Ryan",
+              "patient": "Emma"
+            }
+          }
+        },
+        {
+          "id": "dev_rescue_active",
+          "event_id": "dev_rescue",
+          "form": "active",
+          "actor": "Grace",
+          "patient": "Tyler",
+          "sentence": "Grace rescued Tyler.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Grace rescued Tyler.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 86543,
+            "raw_first_token": "Grace",
+            "parsed_actor": "Grace"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Grace rescued Tyler.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              31071,
+              26,
+              28924,
+              25,
+              31220,
+              13,
+              151645
+            ],
+            "raw_output": "Actor: Grace; Patient: Tyler.<|im_end|>",
+            "clean_output": "Actor: Grace; Patient: Tyler.",
+            "parsed": null
+          }
+        },
+        {
+          "id": "dev_rescue_passive",
+          "event_id": "dev_rescue",
+          "form": "passive",
+          "actor": "Grace",
+          "patient": "Tyler",
+          "sentence": "Tyler was rescued by Grace.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Tyler was rescued by Grace.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 86543,
+            "raw_first_token": "Grace",
+            "parsed_actor": "Grace"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Tyler was rescued by Grace.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              31220,
+              26,
+              28924,
+              25,
+              31071,
+              13,
+              151645
+            ],
+            "raw_output": "Actor: Tyler; Patient: Grace.<|im_end|>",
+            "clean_output": "Actor: Tyler; Patient: Grace.",
+            "parsed": null
+          }
+        }
+      ]
+    },
+    {
+      "load": {
+        "arm": "ordinary",
+        "load_seconds": 0.3465460410807282,
+        "adapter_tensors": 96,
+        "head_tensors": 0,
+        "checkpoint_sha256": "afda466ae2e746dfa66926db3abb3a7182c4d713a0928635b7d6185b40e371b6"
+      },
+      "timing": {
+        "direct_qa_seconds": 0.33096179098356515,
+        "role_extraction_seconds": 1.3431707080453634,
+        "role_extraction_max_new_tokens": 20
+      },
+      "records": [
+        {
+          "id": "dev_photo_active",
+          "event_id": "dev_photo",
+          "form": "active",
+          "actor": "Ryan",
+          "patient": "Emma",
+          "sentence": "Ryan photographed Emma.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Ryan photographed Emma.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 48446,
+            "raw_first_token": "Ryan",
+            "parsed_actor": "Ryan"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Ryan photographed Emma.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              13646,
+              26,
+              28924,
+              25,
+              34935,
+              13,
+              151645
+            ],
+            "raw_output": "Actor: Ryan; Patient: Emma.<|im_end|>",
+            "clean_output": "Actor: Ryan; Patient: Emma.",
+            "parsed": null
+          }
+        },
+        {
+          "id": "dev_photo_passive",
+          "event_id": "dev_photo",
+          "form": "passive",
+          "actor": "Ryan",
+          "patient": "Emma",
+          "sentence": "Emma was photographed by Ryan.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Emma was photographed by Ryan.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 48446,
+            "raw_first_token": "Ryan",
+            "parsed_actor": "Ryan"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Emma was photographed by Ryan.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              13646,
+              26,
+              28924,
+              25,
+              34935,
+              151645,
+              151643
+            ],
+            "raw_output": "Actor: Ryan; Patient: Emma<|im_end|><|endoftext|>",
+            "clean_output": "Actor: Ryan; Patient: Emma",
+            "parsed": {
+              "actor": "Ryan",
+              "patient": "Emma"
+            }
+          }
+        },
+        {
+          "id": "dev_rescue_active",
+          "event_id": "dev_rescue",
+          "form": "active",
+          "actor": "Grace",
+          "patient": "Tyler",
+          "sentence": "Grace rescued Tyler.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Grace rescued Tyler.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 86543,
+            "raw_first_token": "Grace",
+            "parsed_actor": "Grace"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Grace rescued Tyler.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              31071,
+              26,
+              28924,
+              25,
+              31220,
+              13,
+              151645
+            ],
+            "raw_output": "Actor: Grace; Patient: Tyler.<|im_end|>",
+            "clean_output": "Actor: Grace; Patient: Tyler.",
+            "parsed": null
+          }
+        },
+        {
+          "id": "dev_rescue_passive",
+          "event_id": "dev_rescue",
+          "form": "passive",
+          "actor": "Grace",
+          "patient": "Tyler",
+          "sentence": "Tyler was rescued by Grace.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Tyler was rescued by Grace.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 86543,
+            "raw_first_token": "Grace",
+            "parsed_actor": "Grace"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Tyler was rescued by Grace.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              31071,
+              26,
+              28924,
+              25,
+              31220,
+              151645,
+              151643
+            ],
+            "raw_output": "Actor: Grace; Patient: Tyler<|im_end|><|endoftext|>",
+            "clean_output": "Actor: Grace; Patient: Tyler",
+            "parsed": {
+              "actor": "Grace",
+              "patient": "Tyler"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "load": {
+        "arm": "ordered_roles",
+        "load_seconds": 0.3336399170802906,
+        "adapter_tensors": 96,
+        "head_tensors": 4,
+        "checkpoint_sha256": "939b7a7cafa3000fbc4ce84fa783859362b9b89e738e5c84390371cc26bb5443"
+      },
+      "timing": {
+        "direct_qa_seconds": 0.38356983300764114,
+        "role_extraction_seconds": 1.5563732499722391,
+        "role_extraction_max_new_tokens": 20
+      },
+      "records": [
+        {
+          "id": "dev_photo_active",
+          "event_id": "dev_photo",
+          "form": "active",
+          "actor": "Ryan",
+          "patient": "Emma",
+          "sentence": "Ryan photographed Emma.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Ryan photographed Emma.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 48446,
+            "raw_first_token": "Ryan",
+            "parsed_actor": "Ryan"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Ryan photographed Emma.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              13646,
+              26,
+              28924,
+              25,
+              34935,
+              13,
+              151645
+            ],
+            "raw_output": "Actor: Ryan; Patient: Emma.<|im_end|>",
+            "clean_output": "Actor: Ryan; Patient: Emma.",
+            "parsed": null
+          }
+        },
+        {
+          "id": "dev_photo_passive",
+          "event_id": "dev_photo",
+          "form": "passive",
+          "actor": "Ryan",
+          "patient": "Emma",
+          "sentence": "Emma was photographed by Ryan.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Emma was photographed by Ryan.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 48446,
+            "raw_first_token": "Ryan",
+            "parsed_actor": "Ryan"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Emma was photographed by Ryan.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              13646,
+              26,
+              28924,
+              25,
+              34935,
+              151645,
+              151643
+            ],
+            "raw_output": "Actor: Ryan; Patient: Emma<|im_end|><|endoftext|>",
+            "clean_output": "Actor: Ryan; Patient: Emma",
+            "parsed": {
+              "actor": "Ryan",
+              "patient": "Emma"
+            }
+          }
+        },
+        {
+          "id": "dev_rescue_active",
+          "event_id": "dev_rescue",
+          "form": "active",
+          "actor": "Grace",
+          "patient": "Tyler",
+          "sentence": "Grace rescued Tyler.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Grace rescued Tyler.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 86543,
+            "raw_first_token": "Grace",
+            "parsed_actor": "Grace"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Grace rescued Tyler.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              31071,
+              26,
+              28924,
+              25,
+              31220,
+              13,
+              151645
+            ],
+            "raw_output": "Actor: Grace; Patient: Tyler.<|im_end|>",
+            "clean_output": "Actor: Grace; Patient: Tyler.",
+            "parsed": null
+          }
+        },
+        {
+          "id": "dev_rescue_passive",
+          "event_id": "dev_rescue",
+          "form": "passive",
+          "actor": "Grace",
+          "patient": "Tyler",
+          "sentence": "Tyler was rescued by Grace.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Tyler was rescued by Grace.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 86543,
+            "raw_first_token": "Grace",
+            "parsed_actor": "Grace"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Tyler was rescued by Grace.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              31071,
+              26,
+              28924,
+              25,
+              31220,
+              151645,
+              151643
+            ],
+            "raw_output": "Actor: Grace; Patient: Tyler<|im_end|><|endoftext|>",
+            "clean_output": "Actor: Grace; Patient: Tyler",
+            "parsed": {
+              "actor": "Grace",
+              "patient": "Tyler"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "load": {
+        "arm": "unordered_pair",
+        "load_seconds": 0.3417061250656843,
+        "adapter_tensors": 96,
+        "head_tensors": 4,
+        "checkpoint_sha256": "8b114fa025a91199702d685da46b859e9d9e0ea08293cf9c5ac78a8c7eaa2e79"
+      },
+      "timing": {
+        "direct_qa_seconds": 0.3266790830530226,
+        "role_extraction_seconds": 1.4338456669356674,
+        "role_extraction_max_new_tokens": 20
+      },
+      "records": [
+        {
+          "id": "dev_photo_active",
+          "event_id": "dev_photo",
+          "form": "active",
+          "actor": "Ryan",
+          "patient": "Emma",
+          "sentence": "Ryan photographed Emma.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Ryan photographed Emma.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 48446,
+            "raw_first_token": "Ryan",
+            "parsed_actor": "Ryan"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Ryan photographed Emma.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              13646,
+              26,
+              28924,
+              25,
+              34935,
+              13,
+              151645
+            ],
+            "raw_output": "Actor: Ryan; Patient: Emma.<|im_end|>",
+            "clean_output": "Actor: Ryan; Patient: Emma.",
+            "parsed": null
+          }
+        },
+        {
+          "id": "dev_photo_passive",
+          "event_id": "dev_photo",
+          "form": "passive",
+          "actor": "Ryan",
+          "patient": "Emma",
+          "sentence": "Emma was photographed by Ryan.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Emma was photographed by Ryan.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 48446,
+            "raw_first_token": "Ryan",
+            "parsed_actor": "Ryan"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Emma was photographed by Ryan.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              13646,
+              26,
+              28924,
+              25,
+              34935,
+              151645,
+              151643
+            ],
+            "raw_output": "Actor: Ryan; Patient: Emma<|im_end|><|endoftext|>",
+            "clean_output": "Actor: Ryan; Patient: Emma",
+            "parsed": {
+              "actor": "Ryan",
+              "patient": "Emma"
+            }
+          }
+        },
+        {
+          "id": "dev_rescue_active",
+          "event_id": "dev_rescue",
+          "form": "active",
+          "actor": "Grace",
+          "patient": "Tyler",
+          "sentence": "Grace rescued Tyler.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Grace rescued Tyler.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 86543,
+            "raw_first_token": "Grace",
+            "parsed_actor": "Grace"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Grace rescued Tyler.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              31071,
+              26,
+              28924,
+              25,
+              31220,
+              13,
+              151645
+            ],
+            "raw_output": "Actor: Grace; Patient: Tyler.<|im_end|>",
+            "clean_output": "Actor: Grace; Patient: Tyler.",
+            "parsed": null
+          }
+        },
+        {
+          "id": "dev_rescue_passive",
+          "event_id": "dev_rescue",
+          "form": "passive",
+          "actor": "Grace",
+          "patient": "Tyler",
+          "sentence": "Tyler was rescued by Grace.",
+          "direct_qa": {
+            "prompt": "<|im_start|>system\nAnswer with exactly one of the two names in the sentence. Output only the name.<|im_end|>\n<|im_start|>user\nSentence: Tyler was rescued by Grace.\nQuestion: Who performed the action?<|im_end|>\n<|im_start|>assistant\n",
+            "first_token_id": 86543,
+            "raw_first_token": "Grace",
+            "parsed_actor": "Grace"
+          },
+          "role_extraction": {
+            "prompt": "<|im_start|>system\nExtract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.<|im_end|>\n<|im_start|>user\nSentence: Tyler was rescued by Grace.<|im_end|>\n<|im_start|>assistant\n",
+            "generated_token_ids": [
+              18870,
+              25,
+              31071,
+              26,
+              28924,
+              25,
+              31220,
+              151645,
+              151643
+            ],
+            "raw_output": "Actor: Grace; Patient: Tyler<|im_end|><|endoftext|>",
+            "clean_output": "Actor: Grace; Patient: Tyler",
+            "parsed": {
+              "actor": "Grace",
+              "patient": "Tyler"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

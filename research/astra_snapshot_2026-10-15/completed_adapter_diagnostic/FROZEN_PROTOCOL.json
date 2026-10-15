@@ -1,0 +1,73 @@
+{
+  "status": "frozen_before_full_development_inference",
+  "date": "2026-10-15",
+  "purpose": "Behavioral interface comparison after adaptation; no internal mechanism claim",
+  "worlds": [
+    "fresh1",
+    "fresh2",
+    "fresh3"
+  ],
+  "seeds": [
+    830211,
+    830212
+  ],
+  "arms": [
+    "pretrained",
+    "ordinary",
+    "ordered_roles",
+    "unordered_pair"
+  ],
+  "selection": "First eight lexicographically sorted unordered pairs absent from each world's 20 training edges",
+  "verbs": [
+    "praised",
+    "criticized"
+  ],
+  "forms": [
+    "active",
+    "passive",
+    "patient_cleft"
+  ],
+  "max_new_tokens_each_generated_interface": 20,
+  "batch_size": 4,
+  "actor_question": "Who performed the action described in the sentence?",
+  "patient_question": "Who received the action described in the sentence?",
+  "direct_system": "Answer with exactly one person's name. Do not add any other words.",
+  "extraction_system": "Extract the actor and patient from the sentence. Reply exactly: Actor: <name>; Patient: <name>.",
+  "parser": "Direct: exactly one ASCII alphabetic name, surrounding whitespace and at most one terminal period. Extraction: exactly Actor: NAME; Patient: NAME, surrounding whitespace and at most one terminal period. Reject extra text/names. Record exact requested-format separately. Special tokens removed only for semantic parsing; raw output retained.",
+  "primary": "Same-event semantic actor, patient, and joint accuracy under two strong direct questions versus one explicit joint extraction response; pair-level discordance and construction-specific differences by matched arm/world/seed.",
+  "secondary": "Archived training-compatible direct actor question, greedy first token, as historical compatibility measure only.",
+  "analysis": "All units reported. Paired bootstrap resamples eight unordered entity pairs within each world, sharing resample across arms and interfaces; average the two seeds per graph, and count base only once. CIs exploratory because only three worlds. Invalid formats count wrong. No prompt-level independence claim.",
+  "inference_budget": "Two direct calls of up to 20 new tokens versus one joint extraction call of up to 20 new tokens; compute and output budgets differ. Archived question uses one forward pass and one first-token answer.",
+  "reference_sha256": {
+    "model_weights": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+    "tokenizer_json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "confirmation_protocol": "db72b03db9db1cc051811184c0d53d57cfdff9c86ac25cc904cc351e74beca3a",
+    "unordered_protocol": "dab387df03680c39d33a92a6e692796468ec50494c9da3187568d6de35381917",
+    "core_source": "65c6dd6f675c464fc764c9682a5914f4dc30cfba2bc1a8c64d4be402b737a92a",
+    "confirmation_source": "ded4eebd96720502b48281af45376bfa9f96af45fb961209063b79693714b93e",
+    "unordered_source": "bb84d383fd65a383e67bb9de93a9a53a04ca32fe41362d370fa4e026e11a367c",
+    "graph_manifest": "706f190e41453b32990985c68b499ae15541c2f099ba1ea17a9720cd2512b097",
+    "full_source": "f201c687853be178d6b843e15a9590045547da5f415021b840d9ce15185ee18f"
+  },
+  "checkpoint_sha256": {
+    "fresh1_830211_ordinary": "afda466ae2e746dfa66926db3abb3a7182c4d713a0928635b7d6185b40e371b6",
+    "fresh1_830211_ordered_roles": "939b7a7cafa3000fbc4ce84fa783859362b9b89e738e5c84390371cc26bb5443",
+    "fresh1_830211_unordered_pair": "8b114fa025a91199702d685da46b859e9d9e0ea08293cf9c5ac78a8c7eaa2e79",
+    "fresh1_830212_ordinary": "97d737064f838accbe327aef022321b25753725a7e7e39fbcd6b65154431850b",
+    "fresh1_830212_ordered_roles": "424c381c9f07cd67532412db21727344bf9657f1786f1858c57cb9171b218e8f",
+    "fresh1_830212_unordered_pair": "b539bbaa937ec02c7f380531e8788f597e1e395846f73537839e9d5edded2d26",
+    "fresh2_830211_ordinary": "c2f47f556d1d816ec6ada6599af15b2e07a438a22988078815c1ab9ee3b570cc",
+    "fresh2_830211_ordered_roles": "145850cf39ffe28de4fbefce52b87a91e9dbbe6dcdb9b19da23b77ed58c6826d",
+    "fresh2_830211_unordered_pair": "5b812d591b1a7985ac8c080343a8b951dc7e6ce08f742621bcc5748db5dded75",
+    "fresh2_830212_ordinary": "14e2b3e555f6b33eed1d0087c7efed67bdba4799a300d2ab889c08df49183b91",
+    "fresh2_830212_ordered_roles": "44865cfc2909330e71affa34bae5cb0a1acc83b80113d702a72e5c1fb6a5f84c",
+    "fresh2_830212_unordered_pair": "9341613a6cbbec534f254f9517267bd177bc60ac31570c56945394503b7c50a2",
+    "fresh3_830211_ordinary": "1880625f704da5b3f85b33958544da977d1804e871d99c2209602ec619331c35",
+    "fresh3_830211_ordered_roles": "415ef01691ab2d43f5449679039bed018e740f57a8d3a4ae33c71085efe74bd1",
+    "fresh3_830211_unordered_pair": "66993abf31255e8596b5a296c85066edf09410747652b8f0e46249d1badf4346",
+    "fresh3_830212_ordinary": "7a991c14e6cbea64593ba9f19c04b65581c189b60dbbfd3c3356a2c753f3f94b",
+    "fresh3_830212_ordered_roles": "ad22a3eb54c6a0125045db548e2fc23f5e010a87639f0c24a01a1be49b088ddd",
+    "fresh3_830212_unordered_pair": "13be9824ff3f77b60eb8619c174b22aa87a69a0e54f71d83bd0a4ffe4eaa3bc8"
+  },
+  "item_sha256": "ba06a10084134f59359ec0f01b7a5a637ec09218cf7634d7fe6462265f2bc700"
+}

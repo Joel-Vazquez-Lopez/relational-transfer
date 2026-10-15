@@ -1,0 +1,6498 @@
+{
+  "status": "development_inference",
+  "protocol_sha256": "e7aa6cbfafdae5a063d8f90538f47484fb260517d4115481217e770adc697c3f",
+  "world": "fresh2",
+  "seed": 830211,
+  "arm": "ordinary",
+  "checkpoint_sha256": "c2f47f556d1d816ec6ada6599af15b2e07a438a22988078815c1ab9ee3b570cc",
+  "load_seconds": 1.5883494169684127,
+  "inference_seconds": 59.86850316694472,
+  "interface_seconds": {
+    "archived": 8.106015958241187,
+    "direct_actor": 10.592833543661982,
+    "direct_patient": 10.443351374939084,
+    "extraction": 30.72492041566875
+  },
+  "records": [
+    {
+      "id": "fresh2_0_3_0_praised_active",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Christopher; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_3_0_praised_passive",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Charlotte.<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Charlotte.",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          28373,
+          13,
+          151645
+        ],
+        "generated_tokens": 9,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": false
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_3_0_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Christopher; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_3_0_criticized_active",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Christopher; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_3_0_criticized_passive",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: Christopher<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Charlotte; Patient: Christopher",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          24986,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_3_0_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Christopher; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_3_3_praised_active",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Charlotte.<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Charlotte.",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          28373,
+          13,
+          151645
+        ],
+        "generated_tokens": 9,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": false
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_3_3_praised_passive",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Christopher; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_3_3_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Christopher; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_3_3_criticized_active",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Charlotte.<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Charlotte.",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          28373,
+          13,
+          151645
+        ],
+        "generated_tokens": 9,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": false
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_3_3_criticized_passive",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Christopher; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_3_3_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Christopher; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_5_0_praised_active",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Matthew; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_5_0_praised_passive",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Charlotte.<|im_end|>",
+        "clean_output": "Actor: Matthew; Patient: Charlotte.",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          28373,
+          13,
+          151645
+        ],
+        "generated_tokens": 9,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": false
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_5_0_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: Matthew<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Charlotte; Patient: Matthew",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          18939,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_5_0_criticized_active",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Matthew; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_5_0_criticized_passive",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: Matthew<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Charlotte; Patient: Matthew",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          18939,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_5_0_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: Matthew<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Charlotte; Patient: Matthew",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          18939,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_5_5_praised_active",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Charlotte.<|im_end|>",
+        "clean_output": "Actor: Matthew; Patient: Charlotte.",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          28373,
+          13,
+          151645
+        ],
+        "generated_tokens": 9,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": false
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_5_5_praised_passive",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Matthew; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_5_5_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Matthew; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_5_5_criticized_active",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Charlotte.<|im_end|>",
+        "clean_output": "Actor: Matthew; Patient: Charlotte.",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          28373,
+          13,
+          151645
+        ],
+        "generated_tokens": 9,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": false
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_5_5_criticized_passive",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Matthew; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_5_5_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Matthew; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_7_0_praised_active",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Jessica; Patient: Charlotte<|im_end|>",
+        "clean_output": "Actor: Jessica; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          32367,
+          26,
+          28924,
+          25,
+          28373,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Jessica",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_7_0_praised_passive",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: Jessica<|im_end|>",
+        "clean_output": "Actor: Charlotte; Patient: Jessica",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          32367,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_7_0_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: Jessica<|im_end|>",
+        "clean_output": "Actor: Charlotte; Patient: Jessica",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          32367,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_7_0_criticized_active",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Jessica; Patient: Charlotte<|im_end|>",
+        "clean_output": "Actor: Jessica; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          32367,
+          26,
+          28924,
+          25,
+          28373,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Jessica",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_7_0_criticized_passive",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: Jessica<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Charlotte; Patient: Jessica",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          32367,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_7_0_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: Jessica<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Charlotte; Patient: Jessica",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          32367,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_7_7_praised_active",
+      "archived": {
+        "raw_output": "Jessica",
+        "raw_token_ids": [
+          78990
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Jessica<|im_end|>",
+        "clean_output": "Jessica",
+        "raw_token_ids": [
+          78990,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Jessica; Patient: Charlotte.<|im_end|>",
+        "clean_output": "Actor: Jessica; Patient: Charlotte.",
+        "raw_token_ids": [
+          18870,
+          25,
+          32367,
+          26,
+          28924,
+          25,
+          28373,
+          13,
+          151645
+        ],
+        "generated_tokens": 9,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Jessica",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": false
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_7_7_praised_passive",
+      "archived": {
+        "raw_output": "Jessica",
+        "raw_token_ids": [
+          78990
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Jessica<|im_end|>",
+        "clean_output": "Jessica",
+        "raw_token_ids": [
+          78990,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Jessica<|im_end|>",
+        "clean_output": "Jessica",
+        "raw_token_ids": [
+          78990,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Jessica; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Jessica; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          32367,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Jessica",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_7_7_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Jessica; Patient: Charlotte<|im_end|>",
+        "clean_output": "Actor: Jessica; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          32367,
+          26,
+          28924,
+          25,
+          28373,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Jessica",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_7_7_criticized_active",
+      "archived": {
+        "raw_output": "Jessica",
+        "raw_token_ids": [
+          78990
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Jessica<|im_end|>",
+        "clean_output": "Jessica",
+        "raw_token_ids": [
+          78990,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Jessica; Patient: Charlotte<|im_end|>",
+        "clean_output": "Actor: Jessica; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          32367,
+          26,
+          28924,
+          25,
+          28373,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Jessica",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_7_7_criticized_passive",
+      "archived": {
+        "raw_output": "Jessica",
+        "raw_token_ids": [
+          78990
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Jessica<|im_end|>",
+        "clean_output": "Jessica",
+        "raw_token_ids": [
+          78990,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Jessica<|im_end|>",
+        "clean_output": "Jessica",
+        "raw_token_ids": [
+          78990,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Jessica",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Jessica; Patient: Charlotte<|im_end|>",
+        "clean_output": "Actor: Jessica; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          32367,
+          26,
+          28924,
+          25,
+          28373,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Jessica",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_7_7_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Jessica; Patient: Charlotte<|im_end|>",
+        "clean_output": "Actor: Jessica; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          32367,
+          26,
+          28924,
+          25,
+          28373,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Jessica",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_8_0_praised_active",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: David; Patient: Charlotte<|im_end|>",
+        "clean_output": "Actor: David; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          6798,
+          26,
+          28924,
+          25,
+          28373,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "David",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_8_0_praised_passive",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: David<|im_end|>",
+        "clean_output": "Actor: Charlotte; Patient: David",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          6798,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_8_0_praised_patient_cleft",
+      "archived": {
+        "raw_output": "David",
+        "raw_token_ids": [
+          22286
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: David<|im_end|>",
+        "clean_output": "Actor: Charlotte; Patient: David",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          6798,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_8_0_criticized_active",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: David; Patient: Charlotte<|im_end|>",
+        "clean_output": "Actor: David; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          6798,
+          26,
+          28924,
+          25,
+          28373,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "David",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_8_0_criticized_passive",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: David<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Charlotte; Patient: David",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          6798,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_8_0_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: David<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Charlotte; Patient: David",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          6798,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_8_8_praised_active",
+      "archived": {
+        "raw_output": "David",
+        "raw_token_ids": [
+          22286
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "David<|im_end|>",
+        "clean_output": "David",
+        "raw_token_ids": [
+          22286,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: David; Patient: Charlotte.<|im_end|>",
+        "clean_output": "Actor: David; Patient: Charlotte.",
+        "raw_token_ids": [
+          18870,
+          25,
+          6798,
+          26,
+          28924,
+          25,
+          28373,
+          13,
+          151645
+        ],
+        "generated_tokens": 9,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "David",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": false
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_8_8_praised_passive",
+      "archived": {
+        "raw_output": "David",
+        "raw_token_ids": [
+          22286
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "David<|im_end|>",
+        "clean_output": "David",
+        "raw_token_ids": [
+          22286,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "David<|im_end|>",
+        "clean_output": "David",
+        "raw_token_ids": [
+          22286,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: David; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: David; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          6798,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "David",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_8_8_praised_patient_cleft",
+      "archived": {
+        "raw_output": "David",
+        "raw_token_ids": [
+          22286
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "David<|im_end|>",
+        "clean_output": "David",
+        "raw_token_ids": [
+          22286,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: David; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: David; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          6798,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "David",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_8_8_criticized_active",
+      "archived": {
+        "raw_output": "David",
+        "raw_token_ids": [
+          22286
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "David<|im_end|>",
+        "clean_output": "David",
+        "raw_token_ids": [
+          22286,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: David; Patient: Charlotte.<|im_end|>",
+        "clean_output": "Actor: David; Patient: Charlotte.",
+        "raw_token_ids": [
+          18870,
+          25,
+          6798,
+          26,
+          28924,
+          25,
+          28373,
+          13,
+          151645
+        ],
+        "generated_tokens": 9,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "David",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": false
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_8_8_criticized_passive",
+      "archived": {
+        "raw_output": "David",
+        "raw_token_ids": [
+          22286
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "David<|im_end|>",
+        "clean_output": "David",
+        "raw_token_ids": [
+          22286,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "David<|im_end|>",
+        "clean_output": "David",
+        "raw_token_ids": [
+          22286,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "David",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: David; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: David; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          6798,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "David",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_8_8_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: David; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: David; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          6798,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "David",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_9_0_praised_active",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Sarah<|im_end|>",
+        "clean_output": "Sarah",
+        "raw_token_ids": [
+          53083,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Sarah; Patient: Charlotte<|im_end|>",
+        "clean_output": "Actor: Sarah; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          20445,
+          26,
+          28924,
+          25,
+          28373,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Sarah",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_9_0_praised_passive",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: Sarah<|im_end|>",
+        "clean_output": "Actor: Charlotte; Patient: Sarah",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          20445,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_9_0_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: Sarah<|im_end|>",
+        "clean_output": "Actor: Charlotte; Patient: Sarah",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          20445,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_9_0_criticized_active",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: Sarah<|im_end|>",
+        "clean_output": "Actor: Charlotte; Patient: Sarah",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          20445,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_9_0_criticized_passive",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: Sarah<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Charlotte; Patient: Sarah",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          20445,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_9_0_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Charlotte<|im_end|>",
+        "clean_output": "Charlotte",
+        "raw_token_ids": [
+          95895,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Charlotte; Patient: Sarah<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Charlotte; Patient: Sarah",
+        "raw_token_ids": [
+          18870,
+          25,
+          28373,
+          26,
+          28924,
+          25,
+          20445,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Charlotte",
+          "patient": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_9_9_praised_active",
+      "archived": {
+        "raw_output": "Sarah",
+        "raw_token_ids": [
+          53083
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Sarah<|im_end|>",
+        "clean_output": "Sarah",
+        "raw_token_ids": [
+          53083,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Sarah<|im_end|>",
+        "clean_output": "Sarah",
+        "raw_token_ids": [
+          53083,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Sarah; Patient: Charlotte.<|im_end|>",
+        "clean_output": "Actor: Sarah; Patient: Charlotte.",
+        "raw_token_ids": [
+          18870,
+          25,
+          20445,
+          26,
+          28924,
+          25,
+          28373,
+          13,
+          151645
+        ],
+        "generated_tokens": 9,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Sarah",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": false
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_9_9_praised_passive",
+      "archived": {
+        "raw_output": "Sarah",
+        "raw_token_ids": [
+          53083
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Sarah<|im_end|>",
+        "clean_output": "Sarah",
+        "raw_token_ids": [
+          53083,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Sarah<|im_end|>",
+        "clean_output": "Sarah",
+        "raw_token_ids": [
+          53083,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Sarah; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Sarah; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          20445,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Sarah",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_9_9_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Charlotte",
+        "raw_token_ids": [
+          95895
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Sarah<|im_end|>",
+        "clean_output": "Sarah",
+        "raw_token_ids": [
+          53083,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Sarah<|im_end|>",
+        "clean_output": "Sarah",
+        "raw_token_ids": [
+          53083,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Sarah; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Sarah; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          20445,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Sarah",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_9_9_criticized_active",
+      "archived": {
+        "raw_output": "Sarah",
+        "raw_token_ids": [
+          53083
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Sarah<|im_end|>",
+        "clean_output": "Sarah",
+        "raw_token_ids": [
+          53083,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Sarah<|im_end|>",
+        "clean_output": "Sarah",
+        "raw_token_ids": [
+          53083,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Sarah; Patient: Charlotte.<|im_end|>",
+        "clean_output": "Actor: Sarah; Patient: Charlotte.",
+        "raw_token_ids": [
+          18870,
+          25,
+          20445,
+          26,
+          28924,
+          25,
+          28373,
+          13,
+          151645
+        ],
+        "generated_tokens": 9,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Sarah",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": false
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_9_9_criticized_passive",
+      "archived": {
+        "raw_output": "Sarah",
+        "raw_token_ids": [
+          53083
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Sarah<|im_end|>",
+        "clean_output": "Sarah",
+        "raw_token_ids": [
+          53083,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Sarah<|im_end|>",
+        "clean_output": "Sarah",
+        "raw_token_ids": [
+          53083,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Sarah; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Sarah; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          20445,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Sarah",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_0_9_9_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Sarah",
+        "raw_token_ids": [
+          53083
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Sarah<|im_end|>",
+        "clean_output": "Sarah",
+        "raw_token_ids": [
+          53083,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Sarah<|im_end|>",
+        "clean_output": "Sarah",
+        "raw_token_ids": [
+          53083,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Sarah",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Sarah; Patient: Charlotte<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Sarah; Patient: Charlotte",
+        "raw_token_ids": [
+          18870,
+          25,
+          20445,
+          26,
+          28924,
+          25,
+          28373,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Sarah",
+          "patient": "Charlotte",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_3_1_praised_active",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_3_1_praised_passive",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_3_1_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_3_1_criticized_active",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_3_1_criticized_passive",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Richard; Patient: Christopher<|im_end|>",
+        "clean_output": "Actor: Richard; Patient: Christopher",
+        "raw_token_ids": [
+          18870,
+          25,
+          11867,
+          26,
+          28924,
+          25,
+          24986,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Richard",
+          "patient": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_3_1_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_3_3_praised_active",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_3_3_praised_passive",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_3_3_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_3_3_criticized_active",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_3_3_criticized_passive",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_3_3_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Christopher",
+        "raw_token_ids": [
+          73966
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Christopher<|im_end|>",
+        "clean_output": "Christopher",
+        "raw_token_ids": [
+          73966,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Christopher",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Christopher; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Christopher; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          24986,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Christopher",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_4_1_praised_active",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Ruby<|im_end|>",
+        "clean_output": "Ruby",
+        "raw_token_ids": [
+          61716,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Ruby; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Ruby; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          23726,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Ruby",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_4_1_praised_passive",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Ruby; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Ruby; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          23726,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Ruby",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_4_1_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Richard; Patient: Ruby<|im_end|>",
+        "clean_output": "Actor: Richard; Patient: Ruby",
+        "raw_token_ids": [
+          18870,
+          25,
+          11867,
+          26,
+          28924,
+          25,
+          23726,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Richard",
+          "patient": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_4_1_criticized_active",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Ruby<|im_end|>",
+        "clean_output": "Ruby",
+        "raw_token_ids": [
+          61716,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Ruby; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Ruby; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          23726,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Ruby",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_4_1_criticized_passive",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Richard; Patient: Ruby<|im_end|>",
+        "clean_output": "Actor: Richard; Patient: Ruby",
+        "raw_token_ids": [
+          18870,
+          25,
+          11867,
+          26,
+          28924,
+          25,
+          23726,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Richard",
+          "patient": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_4_1_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Richard; Patient: Ruby<|im_end|>",
+        "clean_output": "Actor: Richard; Patient: Ruby",
+        "raw_token_ids": [
+          18870,
+          25,
+          11867,
+          26,
+          28924,
+          25,
+          23726,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Richard",
+          "patient": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_4_4_praised_active",
+      "archived": {
+        "raw_output": "Ruby",
+        "raw_token_ids": [
+          61716
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Ruby<|im_end|>",
+        "clean_output": "Ruby",
+        "raw_token_ids": [
+          61716,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Ruby; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Ruby; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          23726,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Ruby",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_4_4_praised_passive",
+      "archived": {
+        "raw_output": "Ruby",
+        "raw_token_ids": [
+          61716
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Ruby<|im_end|>",
+        "clean_output": "Ruby",
+        "raw_token_ids": [
+          61716,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Ruby<|im_end|>",
+        "clean_output": "Ruby",
+        "raw_token_ids": [
+          61716,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Ruby; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Ruby; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          23726,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Ruby",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_4_4_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Ruby<|im_end|>",
+        "clean_output": "Ruby",
+        "raw_token_ids": [
+          61716,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Ruby; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Ruby; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          23726,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Ruby",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_4_4_criticized_active",
+      "archived": {
+        "raw_output": "Ruby",
+        "raw_token_ids": [
+          61716
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Ruby<|im_end|>",
+        "clean_output": "Ruby",
+        "raw_token_ids": [
+          61716,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Ruby<|im_end|>",
+        "clean_output": "Ruby",
+        "raw_token_ids": [
+          61716,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Ruby; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Ruby; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          23726,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Ruby",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_4_4_criticized_passive",
+      "archived": {
+        "raw_output": "Ruby",
+        "raw_token_ids": [
+          61716
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Ruby<|im_end|>",
+        "clean_output": "Ruby",
+        "raw_token_ids": [
+          61716,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Ruby<|im_end|>",
+        "clean_output": "Ruby",
+        "raw_token_ids": [
+          61716,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Ruby; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Ruby; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          23726,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Ruby",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_4_4_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Ruby<|im_end|>",
+        "clean_output": "Ruby",
+        "raw_token_ids": [
+          61716,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Ruby",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Ruby; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Ruby; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          23726,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Ruby",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_5_1_praised_active",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Matthew; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_5_1_praised_passive",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Matthew; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_5_1_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Richard; Patient: Matthew<|im_end|>",
+        "clean_output": "Actor: Richard; Patient: Matthew",
+        "raw_token_ids": [
+          18870,
+          25,
+          11867,
+          26,
+          28924,
+          25,
+          18939,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Richard",
+          "patient": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_5_1_criticized_active",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Matthew; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_5_1_criticized_passive",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Richard; Patient: Matthew<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Richard; Patient: Matthew",
+        "raw_token_ids": [
+          18870,
+          25,
+          11867,
+          26,
+          28924,
+          25,
+          18939,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Richard",
+          "patient": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_5_1_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Richard",
+        "raw_token_ids": [
+          41215
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Richard<|im_end|>",
+        "clean_output": "Richard",
+        "raw_token_ids": [
+          41215,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Richard; Patient: Matthew<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Richard; Patient: Matthew",
+        "raw_token_ids": [
+          18870,
+          25,
+          11867,
+          26,
+          28924,
+          25,
+          18939,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Richard",
+          "patient": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_5_5_praised_active",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Richard.<|im_end|>",
+        "clean_output": "Actor: Matthew; Patient: Richard.",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          11867,
+          13,
+          151645
+        ],
+        "generated_tokens": 9,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": false
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_5_5_praised_passive",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Richard<|im_end|><|endoftext|>",
+        "clean_output": "Actor: Matthew; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          11867,
+          151645,
+          151643
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 9,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_5_5_praised_patient_cleft",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Matthew; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_5_5_criticized_active",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Matthew; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_5_5_criticized_passive",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Matthew; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    },
+    {
+      "id": "fresh2_1_5_5_criticized_patient_cleft",
+      "archived": {
+        "raw_output": "Matthew",
+        "raw_token_ids": [
+          49888
+        ],
+        "generated_tokens": 1,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_actor": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "direct_patient": {
+        "raw_output": "Matthew<|im_end|>",
+        "clean_output": "Matthew",
+        "raw_token_ids": [
+          49888,
+          151645
+        ],
+        "generated_tokens": 2,
+        "batch_suffix_tokens": 2,
+        "parsed": {
+          "name": "Matthew",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      },
+      "extraction": {
+        "raw_output": "Actor: Matthew; Patient: Richard<|im_end|>",
+        "clean_output": "Actor: Matthew; Patient: Richard",
+        "raw_token_ids": [
+          18870,
+          25,
+          18939,
+          26,
+          28924,
+          25,
+          11867,
+          151645
+        ],
+        "generated_tokens": 8,
+        "batch_suffix_tokens": 8,
+        "parsed": {
+          "actor": "Matthew",
+          "patient": "Richard",
+          "semantic_format_valid": true,
+          "exact_requested_format": true
+        }
+      }
+    }
+  ]
+}

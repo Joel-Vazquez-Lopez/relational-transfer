@@ -21,3 +21,7 @@ A SHA-256 match verifies copied file identity, not scientific validity. The orig
 ## Current execution status
 
 The adapter diagnostic has completed loading/format preflight only. Its proposed full protocol is not frozen and no full diagnostic result exists. A terminal punctuation issue in the extraction parser needs a prespecified semantic-scoring rule, with strict formatting scored separately. No model training or new paid inference was performed for that preflight.
+
+## Completed diagnostic update
+
+The initial snapshot above preserves the preflight stage. The full diagnostic has now completed: see [results](completed_adapter_diagnostic/RESULTS.md), frozen protocol, source, analysis, and all 21 synthetic raw output files in `completed_adapter_diagnostic/`. Its own artifact manifest verifies the complete diagnostic. These synthetic raw predictions are an explicit exception to the original snapshot exclusions. No private natural data or weights are included.
