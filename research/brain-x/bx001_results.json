@@ -1,0 +1,90 @@
+{
+  "experiment": "BX-001",
+  "status": "synthetic_development",
+  "params": {
+    "nodes": 5,
+    "ring_edges": 5,
+    "p_node_flip": 0.35,
+    "p_parity_flip": 0.08,
+    "layers": 2,
+    "hidden_dim": 40,
+    "training_steps": 600,
+    "train_cases": 20000,
+    "eval_cases": 5000
+  },
+  "results": [
+    {
+      "seed": 17,
+      "parity": "valid",
+      "train_num": 20000,
+      "test_num": 5000,
+      "checks": [
+        {
+          "steps": 300,
+          "test_accuracy": 0.6374
+        },
+        {
+          "steps": 600,
+          "test_accuracy": 0.6456
+        }
+      ],
+      "local_accuracy": 0.6484,
+      "bayes_accuracy": 0.7224
+    },
+    {
+      "seed": 17,
+      "parity": "shuffled",
+      "train_num": 20000,
+      "test_num": 5000,
+      "checks": [
+        {
+          "steps": 300,
+          "test_accuracy": 0.6286
+        },
+        {
+          "steps": 600,
+          "test_accuracy": 0.6286
+        }
+      ],
+      "local_accuracy": 0.6286,
+      "bayes_accuracy": 0.6286
+    },
+    {
+      "seed": 29,
+      "parity": "valid",
+      "train_num": 20000,
+      "test_num": 5000,
+      "checks": [
+        {
+          "steps": 300,
+          "test_accuracy": 0.647
+        },
+        {
+          "steps": 600,
+          "test_accuracy": 0.65
+        }
+      ],
+      "local_accuracy": 0.6522,
+      "bayes_accuracy": 0.7202
+    },
+    {
+      "seed": 29,
+      "parity": "shuffled",
+      "train_num": 20000,
+      "test_num": 5000,
+      "checks": [
+        {
+          "steps": 300,
+          "test_accuracy": 0.653
+        },
+        {
+          "steps": 600,
+          "test_accuracy": 0.653
+        }
+      ],
+      "local_accuracy": 0.653,
+      "bayes_accuracy": 0.653
+    }
+  ],
+  "notes": "Synthetic strings encoded as feature vectors; no authentic text; trained independent models; fixed topology; Bayes oracle has full generative likelihood; high prompt counts are not independent linguistic families."
+}
