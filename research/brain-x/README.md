@@ -23,6 +23,8 @@ Brain-X does not coordinate the team, validate other members by fiat, manage the
 
 Details, assumptions, equations, rejection thresholds and limitations: [scientific notebook](NOTEBOOK_2026-10-15.md).
 
+**Latest completed test (BX-002, 16 Oct 2026):** Repaired BX-001's unpaired test design. Same 4,000 latent worlds and questions, only informative versus randomized parity evidence changed. Two trained three-layer Transformers changed their predictions when constraints were randomized, yet achieved only 65.15% and 65.35% on valid constraints, at the 65.30% node-only baseline; simple parity voting obtained 69.875% and exact Bayes 73.125%. **Negative** evidence for useful native integration in this configuration; no language/pretrained generalization. Full [BX-002 report](BX002_RESULTS_2026-10-16.md), [code](bx002_paired_syndromes.py), [tests](test_bx002_paired_syndromes.py) and [summary](bx002_summary.json). The original per-case CSV is available in a separately checked local ZIP, not in GitHub.
+
 ## Research artifacts
 
 - [Notebook — 2026-10-15](NOTEBOOK_2026-10-15.md)
