@@ -1,0 +1,30 @@
+{
+  "source_repository": "UniversalDependencies/UD_English-EWT",
+  "pinned_commit": "4a4d77f599ea53cc405f85d0cec4b2f14f81d42b",
+  "file": "en_ewt-ud-dev.conllu",
+  "sentences_scanned": 2001,
+  "pilot_size": 25,
+  "document_count": 25,
+  "genre_counts": {
+    "answers": 5,
+    "email": 5,
+    "newsgroup": 5,
+    "reviews": 5,
+    "weblog": 5
+  },
+  "selection_rule": "one VERB root, one UD nsubj, one UD obj; text length 55 to 180, content screen, one sentence per document",
+  "source_text_committed": false,
+  "semantic_gold_labels": 0,
+  "human_reviewers_completed": 0,
+  "rights_clearance": "blocked pending per-document underlying-text review",
+  "old20_exact_text_source_matches": 19,
+  "old20_mismatches": 1,
+  "old20_mismatched_id": "EWTDEV-011",
+  "next_required": [
+    "document-by-document rights screening",
+    "two independent human annotators",
+    "third-party adjudication",
+    "supplemental complex/repeated-predicate candidate selection",
+    "new untouched document-level confirmatory reserve"
+  ]
+}
