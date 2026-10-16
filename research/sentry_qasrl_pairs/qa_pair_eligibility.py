@@ -72,6 +72,7 @@ def audit_rows(rows, source):
         groups[key][slot].append(r)
     paired, qualified, ambiguous, overlap = 0, 0, 0, 0
     question_rows, same_workers, other_workers = 0, 0, 0
+    subject_before_object, object_before_subject = 0, 0
     all_sentences = set()
     wh = Counter()
     for key, g in groups.items():
@@ -90,6 +91,10 @@ def audit_rows(rows, source):
             continue
         qualified += 1
         question_rows += len(subj) + len(obj)
+        if int(next(iter(su)).split(':')[0]) < int(next(iter(ob)).split(':')[0]):
+            subject_before_object += 1
+        else:
+            object_before_subject += 1
         all_sentences.add(key[1])
         who = subj[0]['wh']; what = obj[0]['wh']
         wh['who_who' if who == what == 'who' else
@@ -104,6 +109,8 @@ def audit_rows(rows, source):
                 strict_unambiguous_pairs=qualified,
                 distinct_sentence_ids_with_pairs=len(all_sentences),
                 paired_human_question_rows=question_rows,
+                subject_gold_span_starts_before_object=subject_before_object,
+                object_gold_span_starts_before_subject=object_before_subject,
                 rejected_pairs_multiple_ambiguous_answers=ambiguous,
                 rejected_pairs_overlapping_spans=overlap,
                 pair_wh_types=dict(wh),
