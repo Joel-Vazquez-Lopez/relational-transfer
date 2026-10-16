@@ -9,6 +9,13 @@ class TestBX007(unittest.TestCase):
         return g,s
     def test_good_pair(self):
         g,s=self.example(); p,e=eligible_pairs(g,s); self.assertEqual(len(p),1);self.assertEqual(p[0]['wh'],'who')
+    def test_worker_dependence_preserved_without_ids_in_aggregate(self):
+        g,s=self.example()
+        for r in g:r['worker_id']='worker-private';r['assign_id']='assignment-private'
+        p,_=eligible_pairs(g,s);self.assertTrue(p[0]['same_worker']);self.assertTrue(p[0]['same_assignment'])
+        report=audit_sources({'wikinews.dev':(g,s)},quota=1)
+        self.assertEqual(report['sources']['wikinews.dev']['same_worker_pairs'],1)
+        self.assertNotIn('worker-private',str(report))
     def test_reject_answer_overlap(self):
         g,s=self.example();g[1]['answer_range']='0:1';g[1]['answer']='Alice';self.assertEqual(len(eligible_pairs(g,s)[0]),0)
     def test_reject_different_question_wh(self):
