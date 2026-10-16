@@ -12,3 +12,13 @@
 8. Reserve new documents and prepare no LLM prompts until rights/PII clearance, full semantic adjudication and baseline plan are signed off. Syntactic extraction is only a candidate selection aid. Never equate `nsubj/obj` with universal agent/patient roles.
 
 **Acceptance gate:** 25 candidate IDs/source IDs verified; all recorded scope and semantics human-authored; two independent review files; adjudication table with no silent exclusions; source-by-source rights and provenance; document-grouped error rates. Then a *separate*, untouched, document-disjoint confirmation design.
+
+## Challenge supplement — paired-event and ambiguity review
+
+The 24 supplemental challenge groups are intentionally harder than the first 25 convenience candidates. Reviewers must examine **all listed `sentence_ids` together** in the repeated-lemma category and independently label **each supplied predicate slot**. Two uses of the same verb may refer to different events, the same event, or one non-event use. Mark this explicitly instead of inferring event identity from a shared lemma.
+
+For passive candidates, mark agents as `UNEXPRESSED` when the sentence does not identify one. For two overt event candidates, do not assume both grammatical subjects are semantic agents. For pronoun/scope candidates, mark unresolved reference as `UNRESOLVED`; pronoun presence alone is not proof of cross-event coreference.
+
+A single **document** is the sampling unit even if it contributes two sentences and two predicate slots. All 49 documents are open development; no untouched confirmation sample has been declared or examined for this project. Store a full paper-level claim behind a separately frozen source/document-family-disjoint confirmation process.
+
+Annotator A and B files each have **36 blank predicate rows** for the challenge. A future adjudication file must be constructed by a human adjudicator from locked A and B submissions. Never merge independent reviewer decisions into a pseudo-gold automatically.
