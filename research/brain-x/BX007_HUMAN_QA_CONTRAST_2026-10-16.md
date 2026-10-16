@@ -1,6 +1,6 @@
 # BX-007 — Paired original human QA-SRL questions: a bounded answer-collapse discriminator
 
-**Date:** 2026-10-16. **Status:** source-checked full development **eligibility census**, executable selector with **15/15 locally passing fictional-fixture tests**, protocol ready for independent cold source replay. **Zero real LLM predictions, no model inference, no new human labels, no publication-level discovery.**
+**Date:** 2026-10-16. **Status:** source-checked full development **eligibility census**, executable selector with **16/16 locally passing fictional-fixture tests**, protocol ready for independent cold source replay. **Zero real LLM predictions, no model inference, no new human labels, no publication-level discovery.**
 
 ## Team collision check and narrow ownership
 
@@ -36,7 +36,7 @@ No original sentence, answer strings, worker IDs, or prompt rows have been commi
 
 ## Small pilot selection — not launched
 
-The committed stdlib selector takes at most **one eligible pair per source sentence**, choosing a SHA-256 rank fixed by source partition, source sentence ID and pair identifier. Proposed **20 pairs per each of four development strata**: WikiNews/Who, WikiNews/What, Wikipedia/Who, Wikipedia/What, for **80 pairs/160 original human questions**, if the approved cold source replay confirms all constraints.
+The committed stdlib selector takes at most **one eligible pair per source sentence**, choosing a SHA-256 rank fixed by source partition, source sentence ID and pair identifier. **Within each source, select the scarcer Who stratum before What** to avoid consuming shared source sentences and causing false quota shortfalls. A regression test now freezes this behavior. Proposed **20 pairs per each of four development strata**: WikiNews/Who, WikiNews/What, Wikipedia/Who, Wikipedia/What, for **80 pairs/160 original human questions**, if the approved cold source replay confirms all constraints.
 
 It emits only aggregate counts and a hash commitment to selected private pair IDs; no original source text or scorer-only answer strings. There are 79/161 eligible WikiNews sentence IDs for Who/What and 23/200 Wikipedia sentence IDs for Who/What, so the 20-per-stratum quota is feasible under the available one-per-sentence constraints. **The exact panel-selection hash and source IDs are PENDING** the Python cold replay. This is an exploratory development panel, *not* prospective untouched confirmation; no verified document-level cluster identity exists yet. Before inference, the lead/Comput should separately check overlap with Astra's previously inspected 63 original QA-SRL sentences.
 
@@ -52,11 +52,11 @@ For uncertainty use source sentence groups at minimum, with a further **document
 
 ## Actual implementation, testing and reproduction
 
-- [Executable selector/auditor](bx007_qasrl_contrast.py), byte-identical to locally tested source, **Git blob SHA `7784d60f246f516dd807a546bd54d4f06f29c12c`**, SHA256 `ce873c5a42fecc17cf0c1145dcc444cb58d2d26ef96b7375522c69ac840e59e5`.
-- [15 regression tests](test_bx007.py), byte-identical to locally tested tests, Git blob SHA `78dce0626cb0853d8f4bcaabc826ed134cf1dfea`, SHA256 `477bd8263193ba2dabb1fd96c13cae3e6ca031042c14d4cb979b68a046aa1602`.
+- [Executable selector/auditor](bx007_qasrl_contrast.py), byte-identical to locally tested source, **Git blob SHA `714b221dc59629bd4f9f9ab744465bc3d6188b51`**, SHA256 `27c5261fed2a6c05a49eca224b4ca166b6f4ee6df2c29340e27f277a6a533f29`.
+- [16 regression tests](test_bx007.py), byte-identical to locally tested tests, Git blob SHA `497c959dccac17d63ad94a3cbce8ee66a20a9ec9`, SHA256 `7bc5a91280734a6f33c17b57973c8b07ea812ee4722f71b8f2e83ee623a5a86d`.
 - [Machine-readable source-level census](bx007_qasrl_pair_census.json).
 
-Tested locally: `python -m unittest -q test_bx007` → **15/15 PASS**, including source-gold answer uniqueness, span disjointness, original human question and WH pairing, same-worker flag + no ID leakage in aggregates, source test split rejection, one-pair-per-sentence selection, answer-collapse sanity. **No QA-SRL original-data full replay of this Python program is claimed**.
+Tested locally: `python -m unittest -q test_bx007` → **16/16 PASS**, including source-gold answer uniqueness, span disjointness, original human question and WH pairing, same-worker flag + no ID leakage in aggregates, source test split rejection, one-pair-per-sentence selection, answer-collapse sanity. **No QA-SRL original-data full replay of this Python program is claimed**.
 
 After approved access to pinned **development** CSVs, and *only* for this offline audit:
 
