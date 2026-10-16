@@ -44,6 +44,15 @@ class TestBX007(unittest.TestCase):
     def test_small_source_audit_no_text(self):
         g,s=self.example();r=audit_sources({'wikinews.dev':(g,s)},quota=1)
         self.assertEqual(r['selected_groups'],1);self.assertNotIn('Alice',str(r));self.assertEqual(r['eligible_total_pairs'],1)
+    def test_scarce_who_priority_preserves_available_quota(self):
+        # S1 has WHO and WHAT contrasts; S2 only WHAT. WHO must reserve S1.
+        rows=[{'source':'wikipedia.dev','wh':'who','sid':'S1','qid':'a'},
+              {'source':'wikipedia.dev','wh':'what','sid':'S1','qid':'b'},
+              {'source':'wikipedia.dev','wh':'what','sid':'S2','qid':'c'}]
+        selected,counts=select_panel(rows,quota_per_source_wh=1)
+        self.assertEqual(counts['wikipedia.dev/who'],1)
+        self.assertEqual(counts['wikipedia.dev/what'],1)
+        self.assertEqual(len({x['sid'] for x in selected}),2)
     def test_fixed_selection_one_per_sentence(self):
         g,s=self.example();extra=[dict(r) for r in g]; extra[1]['question']='Who got the parcel?'
         p,_=eligible_pairs(g+extra[1:],s)
