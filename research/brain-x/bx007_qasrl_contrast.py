@@ -110,7 +110,8 @@ def select_panel(pairs, quota_per_source_wh=20):
         rank=hashlib.sha256((p['source']+'|'+p['sid']+'|'+p['qid']).encode()).hexdigest()
         candidates[key].append((rank,p))
     output=[];used=set();counts={}
-    for key in sorted(candidates):
+    # Reserve the scarcer WHO stratum before WHAT within each source.
+    for key in sorted(candidates, key=lambda k:(k[0], 0 if k[1]=='who' else 1)):
         selected=[]
         for _,p in sorted(candidates[key]):
             if (p['source'],p['sid']) in used:
