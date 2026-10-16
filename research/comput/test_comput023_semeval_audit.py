@@ -37,6 +37,8 @@ class Tests(unittest.TestCase):
         with self.assertRaises(ValueError):load_training(S.replace('<e1>cars</e1> to the <e2>market</e2>','<e2>cars</e2> to the <e1>market</e1>'))
     def test_source_span_normalization(self):
         self.assertEqual(base_sentence('A <e1>girl</e1> plays her <e2>violin</e2>.'),'a girl plays her violin.')
+    def test_windows_crlf_source(self):
+        self.assertEqual(len(load_training(S.replace('\n','\r\n'))),4)
     def test_no_other_as_direction(self):
         o=audit(load_training(S));self.assertEqual(o['n_undirected_relation_items'],2)
 if __name__=='__main__':unittest.main()
