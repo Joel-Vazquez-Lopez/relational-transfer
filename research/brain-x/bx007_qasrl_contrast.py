@@ -161,6 +161,8 @@ def pair_scores(answer1,answer2,gold1,gold2):
     c1=int(x==norm(gold1));c2=int(y==norm(gold2))
     return {'correct_count':c1+c2,'both_correct':bool(c1 and c2),
             'same_answer_collapse':bool(x and y and x==y),
+            'swapped_gold_answers':bool(x==norm(gold2) and y==norm(gold1)),
+            'both_gold_candidates_generated':bool(x and y and {x,y}=={norm(gold1),norm(gold2)}),
             'both_nonempty':bool(x and y),'one_correct':(c1+c2)==1}
 
 
