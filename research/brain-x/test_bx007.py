@@ -30,6 +30,10 @@ class TestBX007(unittest.TestCase):
         g,s=self.example();s[0]['tokens']='Alice gave Bob to Bob .';g[1]['answer_range']='2:3';self.assertEqual(len(eligible_pairs(g,s)[0]),0)
     def test_question_blind_answer_fails_both(self):
         r=pair_scores('Alice','Alice','Alice','Bob');self.assertTrue(r['same_answer_collapse']);self.assertFalse(r['both_correct']);self.assertEqual(r['correct_count'],1)
+    def test_swapped_gold_answers_are_retrieved_but_misassigned(self):
+        r=pair_scores('Bob','Alice','Alice','Bob')
+        self.assertTrue(r['swapped_gold_answers']);self.assertTrue(r['both_gold_candidates_generated'])
+        self.assertEqual(r['correct_count'],0);self.assertFalse(r['both_correct'])
     def test_empty_outputs_not_counted_as_collapse(self):
         r=pair_scores('', '', 'Alice','Bob');self.assertFalse(r['same_answer_collapse']);self.assertFalse(r['both_nonempty'])
     def test_correct_both_requires_distinct_answers(self):
