@@ -5,12 +5,13 @@ class BX006Tests(unittest.TestCase):
     def test_multiple_alternatives(self):
         row=parse_reference_spans('Amy~!~Lee','0:1~!~2:3','Amy and Lee ran'.split())
         self.assertEqual(row['status'],'EXACT')
-        self.assertTrue(exact_span_match('Lee',row,'Amy and Lee ran'.split()))
-        self.assertFalse(exact_span_match('and',row,'Amy and Lee ran'.split()))
+        self.assertIsNone(exact_span_match('Lee',row,'Amy and Lee ran'.split()))
+        self.assertIsNone(exact_span_match('and',row,'Amy and Lee ran'.split()))
     def test_zero_based_half_open(self):
         result=parse_reference_spans('and Lee','1:3','Amy and Lee'.split())
         self.assertEqual(result['status'],'EXACT')
         self.assertEqual(result['alternatives'][0]['end'],3)
+        self.assertTrue(exact_span_match('and Lee',result,'Amy and Lee'.split()))
     def test_count_mismatch(self):
         self.assertEqual(parse_reference_spans('Amy~!~Lee','0:1','Amy and Lee'.split())['status'],'COUNT_MISMATCH')
     def test_bad_range(self):
