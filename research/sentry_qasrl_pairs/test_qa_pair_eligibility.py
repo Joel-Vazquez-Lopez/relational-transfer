@@ -20,6 +20,8 @@ class AuditorTests(unittest.TestCase):
         self.assertEqual(out['strict_unambiguous_pairs'], 1)
         self.assertEqual(out['paired_human_question_rows'], 2)
         self.assertEqual(out['distinct_sentence_ids_with_pairs'], 1)
+        self.assertEqual(out['subject_gold_span_starts_before_object'], 1)
+        self.assertEqual(out['object_gold_span_starts_before_subject'], 0)
 
     def test_not_across_different_predicates_or_sentences(self):
         out = audit_rows([item(gap='subject'), item(sent='s2', gap='object'),
@@ -48,6 +50,12 @@ class AuditorTests(unittest.TestCase):
         self.assertEqual(out['strict_unambiguous_pairs'],0)
         self.assertEqual(out['rejected_pairs_overlapping_spans'],1)
         self.assertTrue(spans_overlap('0:2','1:3'))
+
+    def test_reverse_answer_span_order_survives(self):
+        out=audit_rows([item(gap='subject',span='8:9'),item(gap='object',span='2:3')],'wikipedia')
+        self.assertEqual(out['strict_unambiguous_pairs'],1)
+        self.assertEqual(out['subject_gold_span_starts_before_object'],0)
+        self.assertEqual(out['object_gold_span_starts_before_subject'],1)
 
     def test_mixed_wh_not_semantic_binary(self):
         out=audit_rows([item(gap='subject',span='0:1',wh='who'),item(gap='object',span='2:3',wh='what')],'wikinews')
