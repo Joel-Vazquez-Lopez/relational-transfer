@@ -1,0 +1,789 @@
+{
+  "limitations": [
+    "Reuses archived parsed outputs rather than reparsing raw token streams.",
+    "No model reruns, causal inference, real-language generalization or independent family sampling.",
+    "Repeated prompts and forms are clustered by participant pair and world."
+  ],
+  "sentence_model_comparisons": 2016,
+  "status": "independent_frozen_record_rescore",
+  "summary": {
+    "fresh1_0_pretrained": {
+      "arm": "pretrained",
+      "forms": {
+        "active": {
+          "actor_archived": 23,
+          "actor_direct": 27,
+          "both_direct": 6,
+          "extraction_both": 10,
+          "extraction_exact": 22,
+          "extraction_last": 22,
+          "n": 32,
+          "patient_direct": 10
+        },
+        "passive": {
+          "actor_archived": 19,
+          "actor_direct": 18,
+          "both_direct": 1,
+          "extraction_both": 20,
+          "extraction_exact": 23,
+          "extraction_last": 20,
+          "n": 32,
+          "patient_direct": 14
+        },
+        "patient_cleft": {
+          "actor_archived": 23,
+          "actor_direct": 25,
+          "both_direct": 2,
+          "extraction_both": 28,
+          "extraction_exact": 32,
+          "extraction_last": 28,
+          "n": 32,
+          "patient_direct": 4
+        }
+      },
+      "seed": 0,
+      "world": "fresh1"
+    },
+    "fresh1_830211_ordered_roles": {
+      "arm": "ordered_roles",
+      "forms": {
+        "active": {
+          "actor_archived": 30,
+          "actor_direct": 32,
+          "both_direct": 4,
+          "extraction_both": 16,
+          "extraction_exact": 19,
+          "extraction_last": 16,
+          "n": 32,
+          "patient_direct": 4
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 17,
+          "both_direct": 6,
+          "extraction_both": 21,
+          "extraction_exact": 27,
+          "extraction_last": 21,
+          "n": 32,
+          "patient_direct": 21
+        },
+        "patient_cleft": {
+          "actor_archived": 24,
+          "actor_direct": 22,
+          "both_direct": 2,
+          "extraction_both": 28,
+          "extraction_exact": 32,
+          "extraction_last": 28,
+          "n": 32,
+          "patient_direct": 7
+        }
+      },
+      "seed": 830211,
+      "world": "fresh1"
+    },
+    "fresh1_830211_ordinary": {
+      "arm": "ordinary",
+      "forms": {
+        "active": {
+          "actor_archived": 32,
+          "actor_direct": 32,
+          "both_direct": 3,
+          "extraction_both": 15,
+          "extraction_exact": 21,
+          "extraction_last": 17,
+          "n": 32,
+          "patient_direct": 3
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 28,
+          "both_direct": 6,
+          "extraction_both": 26,
+          "extraction_exact": 29,
+          "extraction_last": 26,
+          "n": 32,
+          "patient_direct": 10
+        },
+        "patient_cleft": {
+          "actor_archived": 15,
+          "actor_direct": 16,
+          "both_direct": 1,
+          "extraction_both": 26,
+          "extraction_exact": 32,
+          "extraction_last": 26,
+          "n": 32,
+          "patient_direct": 10
+        }
+      },
+      "seed": 830211,
+      "world": "fresh1"
+    },
+    "fresh1_830211_unordered_pair": {
+      "arm": "unordered_pair",
+      "forms": {
+        "active": {
+          "actor_archived": 29,
+          "actor_direct": 32,
+          "both_direct": 2,
+          "extraction_both": 12,
+          "extraction_exact": 24,
+          "extraction_last": 20,
+          "n": 32,
+          "patient_direct": 2
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 15,
+          "both_direct": 9,
+          "extraction_both": 23,
+          "extraction_exact": 28,
+          "extraction_last": 23,
+          "n": 32,
+          "patient_direct": 26
+        },
+        "patient_cleft": {
+          "actor_archived": 25,
+          "actor_direct": 21,
+          "both_direct": 1,
+          "extraction_both": 28,
+          "extraction_exact": 32,
+          "extraction_last": 28,
+          "n": 32,
+          "patient_direct": 10
+        }
+      },
+      "seed": 830211,
+      "world": "fresh1"
+    },
+    "fresh1_830212_ordered_roles": {
+      "arm": "ordered_roles",
+      "forms": {
+        "active": {
+          "actor_archived": 32,
+          "actor_direct": 32,
+          "both_direct": 6,
+          "extraction_both": 13,
+          "extraction_exact": 23,
+          "extraction_last": 19,
+          "n": 32,
+          "patient_direct": 6
+        },
+        "passive": {
+          "actor_archived": 29,
+          "actor_direct": 17,
+          "both_direct": 14,
+          "extraction_both": 18,
+          "extraction_exact": 27,
+          "extraction_last": 18,
+          "n": 32,
+          "patient_direct": 29
+        },
+        "patient_cleft": {
+          "actor_archived": 17,
+          "actor_direct": 15,
+          "both_direct": 0,
+          "extraction_both": 28,
+          "extraction_exact": 32,
+          "extraction_last": 28,
+          "n": 32,
+          "patient_direct": 6
+        }
+      },
+      "seed": 830212,
+      "world": "fresh1"
+    },
+    "fresh1_830212_ordinary": {
+      "arm": "ordinary",
+      "forms": {
+        "active": {
+          "actor_archived": 32,
+          "actor_direct": 32,
+          "both_direct": 4,
+          "extraction_both": 15,
+          "extraction_exact": 22,
+          "extraction_last": 17,
+          "n": 32,
+          "patient_direct": 4
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 29,
+          "both_direct": 9,
+          "extraction_both": 27,
+          "extraction_exact": 31,
+          "extraction_last": 27,
+          "n": 32,
+          "patient_direct": 12
+        },
+        "patient_cleft": {
+          "actor_archived": 16,
+          "actor_direct": 19,
+          "both_direct": 3,
+          "extraction_both": 28,
+          "extraction_exact": 32,
+          "extraction_last": 28,
+          "n": 32,
+          "patient_direct": 10
+        }
+      },
+      "seed": 830212,
+      "world": "fresh1"
+    },
+    "fresh1_830212_unordered_pair": {
+      "arm": "unordered_pair",
+      "forms": {
+        "active": {
+          "actor_archived": 31,
+          "actor_direct": 32,
+          "both_direct": 5,
+          "extraction_both": 12,
+          "extraction_exact": 20,
+          "extraction_last": 20,
+          "n": 32,
+          "patient_direct": 5
+        },
+        "passive": {
+          "actor_archived": 25,
+          "actor_direct": 12,
+          "both_direct": 10,
+          "extraction_both": 16,
+          "extraction_exact": 19,
+          "extraction_last": 16,
+          "n": 32,
+          "patient_direct": 30
+        },
+        "patient_cleft": {
+          "actor_archived": 25,
+          "actor_direct": 20,
+          "both_direct": 4,
+          "extraction_both": 28,
+          "extraction_exact": 32,
+          "extraction_last": 28,
+          "n": 32,
+          "patient_direct": 9
+        }
+      },
+      "seed": 830212,
+      "world": "fresh1"
+    },
+    "fresh2_0_pretrained": {
+      "arm": "pretrained",
+      "forms": {
+        "active": {
+          "actor_archived": 24,
+          "actor_direct": 18,
+          "both_direct": 3,
+          "extraction_both": 8,
+          "extraction_exact": 22,
+          "extraction_last": 22,
+          "n": 32,
+          "patient_direct": 5
+        },
+        "passive": {
+          "actor_archived": 25,
+          "actor_direct": 27,
+          "both_direct": 4,
+          "extraction_both": 24,
+          "extraction_exact": 27,
+          "extraction_last": 24,
+          "n": 32,
+          "patient_direct": 6
+        },
+        "patient_cleft": {
+          "actor_archived": 26,
+          "actor_direct": 26,
+          "both_direct": 1,
+          "extraction_both": 31,
+          "extraction_exact": 32,
+          "extraction_last": 31,
+          "n": 32,
+          "patient_direct": 3
+        }
+      },
+      "seed": 0,
+      "world": "fresh2"
+    },
+    "fresh2_830211_ordered_roles": {
+      "arm": "ordered_roles",
+      "forms": {
+        "active": {
+          "actor_archived": 29,
+          "actor_direct": 29,
+          "both_direct": 4,
+          "extraction_both": 13,
+          "extraction_exact": 23,
+          "extraction_last": 16,
+          "n": 32,
+          "patient_direct": 7
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 30,
+          "both_direct": 14,
+          "extraction_both": 21,
+          "extraction_exact": 25,
+          "extraction_last": 21,
+          "n": 32,
+          "patient_direct": 16
+        },
+        "patient_cleft": {
+          "actor_archived": 23,
+          "actor_direct": 18,
+          "both_direct": 1,
+          "extraction_both": 22,
+          "extraction_exact": 30,
+          "extraction_last": 22,
+          "n": 32,
+          "patient_direct": 8
+        }
+      },
+      "seed": 830211,
+      "world": "fresh2"
+    },
+    "fresh2_830211_ordinary": {
+      "arm": "ordinary",
+      "forms": {
+        "active": {
+          "actor_archived": 32,
+          "actor_direct": 32,
+          "both_direct": 11,
+          "extraction_both": 17,
+          "extraction_exact": 22,
+          "extraction_last": 15,
+          "n": 32,
+          "patient_direct": 11
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 32,
+          "both_direct": 1,
+          "extraction_both": 27,
+          "extraction_exact": 30,
+          "extraction_last": 27,
+          "n": 32,
+          "patient_direct": 1
+        },
+        "patient_cleft": {
+          "actor_archived": 21,
+          "actor_direct": 22,
+          "both_direct": 0,
+          "extraction_both": 28,
+          "extraction_exact": 32,
+          "extraction_last": 28,
+          "n": 32,
+          "patient_direct": 3
+        }
+      },
+      "seed": 830211,
+      "world": "fresh2"
+    },
+    "fresh2_830211_unordered_pair": {
+      "arm": "unordered_pair",
+      "forms": {
+        "active": {
+          "actor_archived": 30,
+          "actor_direct": 31,
+          "both_direct": 2,
+          "extraction_both": 12,
+          "extraction_exact": 22,
+          "extraction_last": 14,
+          "n": 32,
+          "patient_direct": 2
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 27,
+          "both_direct": 7,
+          "extraction_both": 22,
+          "extraction_exact": 24,
+          "extraction_last": 22,
+          "n": 32,
+          "patient_direct": 10
+        },
+        "patient_cleft": {
+          "actor_archived": 29,
+          "actor_direct": 25,
+          "both_direct": 0,
+          "extraction_both": 22,
+          "extraction_exact": 29,
+          "extraction_last": 22,
+          "n": 32,
+          "patient_direct": 3
+        }
+      },
+      "seed": 830211,
+      "world": "fresh2"
+    },
+    "fresh2_830212_ordered_roles": {
+      "arm": "ordered_roles",
+      "forms": {
+        "active": {
+          "actor_archived": 31,
+          "actor_direct": 30,
+          "both_direct": 13,
+          "extraction_both": 15,
+          "extraction_exact": 26,
+          "extraction_last": 16,
+          "n": 32,
+          "patient_direct": 15
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 29,
+          "both_direct": 14,
+          "extraction_both": 24,
+          "extraction_exact": 29,
+          "extraction_last": 24,
+          "n": 32,
+          "patient_direct": 17
+        },
+        "patient_cleft": {
+          "actor_archived": 29,
+          "actor_direct": 26,
+          "both_direct": 0,
+          "extraction_both": 29,
+          "extraction_exact": 32,
+          "extraction_last": 29,
+          "n": 32,
+          "patient_direct": 2
+        }
+      },
+      "seed": 830212,
+      "world": "fresh2"
+    },
+    "fresh2_830212_ordinary": {
+      "arm": "ordinary",
+      "forms": {
+        "active": {
+          "actor_archived": 32,
+          "actor_direct": 31,
+          "both_direct": 13,
+          "extraction_both": 17,
+          "extraction_exact": 24,
+          "extraction_last": 15,
+          "n": 32,
+          "patient_direct": 14
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 32,
+          "both_direct": 1,
+          "extraction_both": 27,
+          "extraction_exact": 29,
+          "extraction_last": 27,
+          "n": 32,
+          "patient_direct": 1
+        },
+        "patient_cleft": {
+          "actor_archived": 21,
+          "actor_direct": 24,
+          "both_direct": 0,
+          "extraction_both": 26,
+          "extraction_exact": 32,
+          "extraction_last": 26,
+          "n": 32,
+          "patient_direct": 2
+        }
+      },
+      "seed": 830212,
+      "world": "fresh2"
+    },
+    "fresh2_830212_unordered_pair": {
+      "arm": "unordered_pair",
+      "forms": {
+        "active": {
+          "actor_archived": 30,
+          "actor_direct": 30,
+          "both_direct": 12,
+          "extraction_both": 16,
+          "extraction_exact": 22,
+          "extraction_last": 16,
+          "n": 32,
+          "patient_direct": 14
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 26,
+          "both_direct": 12,
+          "extraction_both": 26,
+          "extraction_exact": 29,
+          "extraction_last": 26,
+          "n": 32,
+          "patient_direct": 17
+        },
+        "patient_cleft": {
+          "actor_archived": 30,
+          "actor_direct": 26,
+          "both_direct": 0,
+          "extraction_both": 32,
+          "extraction_exact": 32,
+          "extraction_last": 32,
+          "n": 32,
+          "patient_direct": 2
+        }
+      },
+      "seed": 830212,
+      "world": "fresh2"
+    },
+    "fresh3_0_pretrained": {
+      "arm": "pretrained",
+      "forms": {
+        "active": {
+          "actor_archived": 22,
+          "actor_direct": 18,
+          "both_direct": 0,
+          "extraction_both": 3,
+          "extraction_exact": 27,
+          "extraction_last": 27,
+          "n": 32,
+          "patient_direct": 0
+        },
+        "passive": {
+          "actor_archived": 26,
+          "actor_direct": 26,
+          "both_direct": 1,
+          "extraction_both": 25,
+          "extraction_exact": 27,
+          "extraction_last": 25,
+          "n": 32,
+          "patient_direct": 3
+        },
+        "patient_cleft": {
+          "actor_archived": 29,
+          "actor_direct": 28,
+          "both_direct": 0,
+          "extraction_both": 28,
+          "extraction_exact": 30,
+          "extraction_last": 28,
+          "n": 32,
+          "patient_direct": 2
+        }
+      },
+      "seed": 0,
+      "world": "fresh3"
+    },
+    "fresh3_830211_ordered_roles": {
+      "arm": "ordered_roles",
+      "forms": {
+        "active": {
+          "actor_archived": 32,
+          "actor_direct": 31,
+          "both_direct": 13,
+          "extraction_both": 14,
+          "extraction_exact": 20,
+          "extraction_last": 13,
+          "n": 32,
+          "patient_direct": 14
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 32,
+          "both_direct": 8,
+          "extraction_both": 27,
+          "extraction_exact": 29,
+          "extraction_last": 27,
+          "n": 32,
+          "patient_direct": 8
+        },
+        "patient_cleft": {
+          "actor_archived": 29,
+          "actor_direct": 23,
+          "both_direct": 0,
+          "extraction_both": 28,
+          "extraction_exact": 30,
+          "extraction_last": 28,
+          "n": 32,
+          "patient_direct": 3
+        }
+      },
+      "seed": 830211,
+      "world": "fresh3"
+    },
+    "fresh3_830211_ordinary": {
+      "arm": "ordinary",
+      "forms": {
+        "active": {
+          "actor_archived": 32,
+          "actor_direct": 31,
+          "both_direct": 14,
+          "extraction_both": 17,
+          "extraction_exact": 22,
+          "extraction_last": 15,
+          "n": 32,
+          "patient_direct": 15
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 32,
+          "both_direct": 5,
+          "extraction_both": 31,
+          "extraction_exact": 31,
+          "extraction_last": 31,
+          "n": 32,
+          "patient_direct": 5
+        },
+        "patient_cleft": {
+          "actor_archived": 21,
+          "actor_direct": 26,
+          "both_direct": 0,
+          "extraction_both": 28,
+          "extraction_exact": 32,
+          "extraction_last": 28,
+          "n": 32,
+          "patient_direct": 2
+        }
+      },
+      "seed": 830211,
+      "world": "fresh3"
+    },
+    "fresh3_830211_unordered_pair": {
+      "arm": "unordered_pair",
+      "forms": {
+        "active": {
+          "actor_archived": 29,
+          "actor_direct": 32,
+          "both_direct": 1,
+          "extraction_both": 15,
+          "extraction_exact": 19,
+          "extraction_last": 13,
+          "n": 32,
+          "patient_direct": 1
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 31,
+          "both_direct": 10,
+          "extraction_both": 26,
+          "extraction_exact": 29,
+          "extraction_last": 26,
+          "n": 32,
+          "patient_direct": 10
+        },
+        "patient_cleft": {
+          "actor_archived": 30,
+          "actor_direct": 28,
+          "both_direct": 0,
+          "extraction_both": 28,
+          "extraction_exact": 30,
+          "extraction_last": 28,
+          "n": 32,
+          "patient_direct": 3
+        }
+      },
+      "seed": 830211,
+      "world": "fresh3"
+    },
+    "fresh3_830212_ordered_roles": {
+      "arm": "ordered_roles",
+      "forms": {
+        "active": {
+          "actor_archived": 28,
+          "actor_direct": 27,
+          "both_direct": 14,
+          "extraction_both": 9,
+          "extraction_exact": 22,
+          "extraction_last": 21,
+          "n": 32,
+          "patient_direct": 19
+        },
+        "passive": {
+          "actor_archived": 31,
+          "actor_direct": 28,
+          "both_direct": 11,
+          "extraction_both": 25,
+          "extraction_exact": 29,
+          "extraction_last": 25,
+          "n": 32,
+          "patient_direct": 14
+        },
+        "patient_cleft": {
+          "actor_archived": 26,
+          "actor_direct": 18,
+          "both_direct": 0,
+          "extraction_both": 28,
+          "extraction_exact": 32,
+          "extraction_last": 28,
+          "n": 32,
+          "patient_direct": 7
+        }
+      },
+      "seed": 830212,
+      "world": "fresh3"
+    },
+    "fresh3_830212_ordinary": {
+      "arm": "ordinary",
+      "forms": {
+        "active": {
+          "actor_archived": 32,
+          "actor_direct": 32,
+          "both_direct": 18,
+          "extraction_both": 17,
+          "extraction_exact": 28,
+          "extraction_last": 15,
+          "n": 32,
+          "patient_direct": 18
+        },
+        "passive": {
+          "actor_archived": 32,
+          "actor_direct": 32,
+          "both_direct": 2,
+          "extraction_both": 31,
+          "extraction_exact": 31,
+          "extraction_last": 31,
+          "n": 32,
+          "patient_direct": 2
+        },
+        "patient_cleft": {
+          "actor_archived": 26,
+          "actor_direct": 27,
+          "both_direct": 0,
+          "extraction_both": 29,
+          "extraction_exact": 32,
+          "extraction_last": 29,
+          "n": 32,
+          "patient_direct": 1
+        }
+      },
+      "seed": 830212,
+      "world": "fresh3"
+    },
+    "fresh3_830212_unordered_pair": {
+      "arm": "unordered_pair",
+      "forms": {
+        "active": {
+          "actor_archived": 29,
+          "actor_direct": 28,
+          "both_direct": 9,
+          "extraction_both": 6,
+          "extraction_exact": 25,
+          "extraction_last": 25,
+          "n": 32,
+          "patient_direct": 9
+        },
+        "passive": {
+          "actor_archived": 31,
+          "actor_direct": 27,
+          "both_direct": 6,
+          "extraction_both": 23,
+          "extraction_exact": 26,
+          "extraction_last": 23,
+          "n": 32,
+          "patient_direct": 8
+        },
+        "patient_cleft": {
+          "actor_archived": 32,
+          "actor_direct": 20,
+          "both_direct": 0,
+          "extraction_both": 27,
+          "extraction_exact": 32,
+          "extraction_last": 27,
+          "n": 32,
+          "patient_direct": 4
+        }
+      },
+      "seed": 830212,
+      "world": "fresh3"
+    }
+  },
+  "units": 21
+}
