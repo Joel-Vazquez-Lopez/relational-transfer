@@ -71,16 +71,16 @@ def eligible_pairs(gold, sentences):
         question=r.get('question','').strip()
         if not question:
             exclusions['empty_question']+=1;continue
-        grouped[(sid,vi)].append((wh,question,span))
+        grouped[(sid,vi)].append((wh,question,span,r.get('worker_id',''),r.get('assign_id','')))
     eligible=[]
     for (sid,vi),items in grouped.items():
-        q_counts=Counter(norm(q) for _,q,_ in items)
+        q_counts=Counter(norm(row[1]) for row in items)
         filtered=[x for x in items if q_counts[norm(x[1])]==1]
         exclusions['duplicate_question_rows_excluded']+=len(items)-len(filtered)
         for i in range(len(filtered)):
             for j in range(i+1,len(filtered)):
-                wh1,q1,(a,b,ans1)=filtered[i]
-                wh2,q2,(c,d,ans2)=filtered[j]
+                wh1,q1,(a,b,ans1),worker1,assign1=filtered[i]
+                wh2,q2,(c,d,ans2),worker2,assign2=filtered[j]
                 if wh1 != wh2 or norm(q1)==norm(q2):
                     continue
                 if not (b<=c or d<=a):
@@ -92,7 +92,9 @@ def eligible_pairs(gold, sentences):
                 key=json.dumps([sid,vi,wh1,[(x[0],x[1],x[2]) for x in z]],ensure_ascii=False)
                 eligible.append({'sid':sid,'vi':vi,'wh':wh1,'qid':hashlib.sha256(key.encode()).hexdigest(),
                                  'questions':(z[0][0],z[1][0]),'ranges':((z[0][1],z[0][2]),(z[1][1],z[1][2])),
-                                 'answers':(z[0][3],z[1][3])})
+                                 'answers':(z[0][3],z[1][3]),
+                                 'same_worker':bool(worker1 and worker2 and worker1==worker2),
+                                 'same_assignment':bool(assign1 and assign2 and assign1==assign2)})
     return eligible, dict(exclusions)
 
 
@@ -133,7 +135,10 @@ def audit_sources(sources, *, quota=20):
         for p in pairs:p['source']=source
         allp+=pairs
         per[source]={'gold_rows':len(gold),'source_sentence_rows':len(sentences),
-                     'eligible_pairs':len(pairs),'distinct_source_sentences':len(set(p['sid'] for p in pairs)),
+                     'eligible_pairs':len(pairs),
+                     'same_worker_pairs':sum(p['same_worker'] for p in pairs),
+                     'same_assignment_pairs':sum(p['same_assignment'] for p in pairs),
+                     'distinct_source_sentences':len(set(p['sid'] for p in pairs)),
                      'pairs_by_wh':dict(Counter(p['wh'] for p in pairs)), 'excluded':ex}
     selected,quotas=select_panel(allp,quota)
     # No questions, source sentences or answer strings leave this audit.
