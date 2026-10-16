@@ -1,0 +1,51 @@
+{
+  "experiment": "BX-006",
+  "status": "executed_public_development_metadata_audit_no_model_inference",
+  "upstream": "https://github.com/plroit/qasrl-gs",
+  "source_commit": "f7c64ae9b6fe48ff3910c3e59850a12ec278bf83",
+  "method": "Two public QA-SRL Gold development CSVs joined to official sentences by qasrl_id, zero-based half-open token ranges and ~!~ span lists; analyzed in connected GitHub read-only source; stdlib Python audit independently implemented and locally fixture-tested.",
+  "development": {
+    "wikinews.dev": {
+      "human_gold_rows": 3714,
+      "annotated_sentence_ids": 500,
+      "reference_sentence_rows": 917,
+      "multi_span_rows": 474,
+      "multi_span_fraction": 0.12762520193861066,
+      "accepted_answer_spans": 4315,
+      "invalid_ranges": 0,
+      "missing_sentence_joins": 0,
+      "surface_vs_token_slice_mismatches": 3,
+      "duplicate_sentence_verb_question_keys": 1
+    },
+    "wikipedia.dev": {
+      "human_gold_rows": 3474,
+      "annotated_sentence_ids": 500,
+      "reference_sentence_rows": 917,
+      "multi_span_rows": 680,
+      "multi_span_fraction": 0.19573978123200922,
+      "accepted_answer_spans": 4523,
+      "invalid_ranges": 0,
+      "missing_sentence_joins": 0,
+      "surface_vs_token_slice_mismatches": 0,
+      "duplicate_sentence_verb_question_keys": 4
+    }
+  },
+  "pooled_descriptive": {
+    "human_gold_rows": 7188,
+    "annotated_sentence_ids": 1000,
+    "source_sentence_rows": 1834,
+    "multi_span_rows": 1154,
+    "multi_span_fraction": 0.16054535336672232,
+    "accepted_answer_spans": 8838,
+    "surface_text_disagreements": 3,
+    "invalid_ranges": 0,
+    "duplicate_question_keys": 5
+  },
+  "integrity": "No text or worker identifiers redistributed. Three dev-row mismatches appear to stem from accented characters rendered as '?' in answer strings while original source token sequences preserve accented letters; source is not rewritten.",
+  "scoring_contract": "QA-SRL gold question + source-indexed multiple answer spans; never map syntactic QA to actor/patient by rule; refuse single-name full-correct scoring for multiple answer spans; abstain/quarantine rows with reference text disagreement; use official QA-SRL evaluation for paper-level metrics",
+  "evaluation": "NONE",
+  "test_units": "10/10 local stdlib tests with fictional fixtures; full corpus was audited by separate in-connector JavaScript parser, not re-executed through newly committed Python CLI",
+  "test_split_contamination_disclosure": "During initial discovery, Brain-X opened official test CSVs and saw high-level aggregate metadata plus a few example answer spans before enforcing dev-only gate. No test model predictions run. Official test split must NOT be described as pristine/unseen by this workstream; preserve separate untouched confirmatory source.",
+  "permissions": "Public GitHub gold data read for internal metadata audit; rights of underlying Wikipedia/WikiNews original text require independent clearance, not assumed MIT from repository code.",
+  "ownership": "Independent Brain-X data integrity and scoring falsification; Nova owns QA-SRL model pipeline; Mira authentic source adjudication; Comput shortcut evaluation."
+}
