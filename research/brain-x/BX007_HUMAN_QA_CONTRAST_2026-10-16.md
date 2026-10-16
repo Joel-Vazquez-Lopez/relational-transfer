@@ -1,6 +1,6 @@
 # BX-007 — Paired original human QA-SRL questions: a bounded answer-collapse discriminator
 
-**Date:** 2026-10-16. **Status:** source-checked full development **eligibility census**, executable selector with **14/14 locally passing fictional-fixture tests**, protocol ready for independent cold source replay. **Zero real LLM predictions, no model inference, no new human labels, no publication-level discovery.**
+**Date:** 2026-10-16. **Status:** source-checked full development **eligibility census**, executable selector with **15/15 locally passing fictional-fixture tests**, protocol ready for independent cold source replay. **Zero real LLM predictions, no model inference, no new human labels, no publication-level discovery.**
 
 ## Team collision check and narrow ownership
 
@@ -44,7 +44,7 @@ It emits only aggregate counts and a hash commitment to selected private pair ID
 
 For the same original human-written sentence and predicate, run two **original** questions separately, retaining model ID, revision, decoding, one-name/span output validity, prompt hashes, and raw responses for every attempted pair. The model should receive **the sentence + the human question only**, never source IDs, span indices, worker IDs or answer gold. For this matched **singleton** task, the conservative strict diagnostic checks each response against its own original gold span text; official QA-SRL metrics remain the project-facing evaluation.
 
-Key per-pair outcome categories: both correct, exactly one correct, neither correct; whether **two nonempty responses are identical** (answer collapse); error transition by who/what and source; all invalid/empty response rates separately. A **question-blind fixed-answer strategy** necessarily has zero **both-correct** on these pairs under strict distinct-answer gold, even if it gets one question right. That is a necessary weak falsifier, not a strong lexical control and not a novel theorem. A competent **question-conditioned surface/syntax parser** could potentially perform very well with no abstract relational computation. Demand that rival from Comput.
+Key per-pair outcome categories: both correct, exactly one correct, neither correct; whether **two nonempty responses are identical** (answer collapse); and whether the model outputs **both original gold span strings but in exactly the wrong question order** (a **swapped-gold** routing error). A swapped-gold response proves both strings were emitted, not that the native model internally recovered the events. Report empty/invalid format separately and stratify by who/what and source. A **question-blind fixed-answer strategy** necessarily has zero **both-correct** on these pairs under strict distinct-answer gold, even if it gets one question right. That is a necessary weak falsifier, not a strong lexical control and not a novel theorem. A competent **question-conditioned surface/syntax parser** could potentially perform very well with no abstract relational computation. Demand that rival from Comput.
 
 **Overinterpretation to avoid:** answering two different questions with different output strings is not itself a relational mechanism, and collapsing to one name can be induced by response format, superficial question overlap, or systematic positional bias. Need matched competence, raw format validity, two **distinct** pretrained model families and eventual independently source-confirmed data. Question words change between the paired examples by design; unlike BX-005's informative-vs-irrelevant *fixed-question* experiment, BX-007 measures **question sensitivity at fixed source**, not contextual-information utility. Never pool the two outcomes as the same causal intervention.
 
@@ -52,11 +52,11 @@ For uncertainty use source sentence groups at minimum, with a further **document
 
 ## Actual implementation, testing and reproduction
 
-- [Executable selector/auditor](bx007_qasrl_contrast.py), byte-identical to locally tested source, **Git blob SHA `04d86eab89a61c868b5f45475cc3c1834fb84ca7`**, SHA256 `c404f80478243bc754414b68ad9a3adf3eafd6d2987238f37c8c61c85ea59d3b`.
-- [14 regression tests](test_bx007.py), byte-identical to locally tested tests, Git blob SHA `48e48b1c23c4a31f0393ab898fd2d4ce6d446b2e`, SHA256 `e28a480724b2ad401579e132a993f32da9d4fef45d5aaf908456d3d6473be480`.
+- [Executable selector/auditor](bx007_qasrl_contrast.py), byte-identical to locally tested source, **Git blob SHA `7784d60f246f516dd807a546bd54d4f06f29c12c`**, SHA256 `ce873c5a42fecc17cf0c1145dcc444cb58d2d26ef96b7375522c69ac840e59e5`.
+- [15 regression tests](test_bx007.py), byte-identical to locally tested tests, Git blob SHA `78dce0626cb0853d8f4bcaabc826ed134cf1dfea`, SHA256 `477bd8263193ba2dabb1fd96c13cae3e6ca031042c14d4cb979b68a046aa1602`.
 - [Machine-readable source-level census](bx007_qasrl_pair_census.json).
 
-Tested locally: `python -m unittest -q test_bx007` → **14/14 PASS**, including source-gold answer uniqueness, span disjointness, original human question and WH pairing, same-worker flag + no ID leakage in aggregates, source test split rejection, one-pair-per-sentence selection, answer-collapse sanity. **No QA-SRL original-data full replay of this Python program is claimed**.
+Tested locally: `python -m unittest -q test_bx007` → **15/15 PASS**, including source-gold answer uniqueness, span disjointness, original human question and WH pairing, same-worker flag + no ID leakage in aggregates, source test split rejection, one-pair-per-sentence selection, answer-collapse sanity. **No QA-SRL original-data full replay of this Python program is claimed**.
 
 After approved access to pinned **development** CSVs, and *only* for this offline audit:
 
