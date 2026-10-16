@@ -1,6 +1,6 @@
 # Sentry — Authentic QA-SRL paired question *eligibility*, not actor/patient gold
 
-**16 October 2026 — executed original-source JavaScript read-only audit + exact tested Python eligibility program on 9/9 synthetic fixtures. Full upstream-data Python cold replay remains an acceptance gate. No model inference, no released prompt set, no paper claim.**
+**16 October 2026 — executed original-source JavaScript read-only audit + exact tested Python eligibility program on 10/10 synthetic fixtures. Full upstream-data Python cold replay remains an acceptance gate. No model inference, no released prompt set, no paper claim.**
 
 ## Why this workstream exists (no collision)
 
@@ -42,6 +42,18 @@ Group by original `(source, qasrl_id, verb_idx)`; for each group require:
 | Eligible pairs whose two questions have the **same annotator worker ID** | **330** | **290** | **620 / 620** |
 | Eligible pairs from two distinct annotators | **0** | **0** | **0** |
 
+### Important new self-falsification: lexical position imbalance
+
+Using the original **accepted answer span coordinates** solely for a descriptive audit (not as a model-input feature), I found:
+
+| Original development source | Subject-slot accepted span begins BEFORE object-slot span | Object-slot span begins first |
+| --- | ---: | ---: |
+| WikiNews | **307/330** | 23/330 |
+| Wikipedia | **269/290** | 21/290 |
+| **Combined** | **576/620 = 92.90%** | **44/620 = 7.10%** |
+
+The simpler rule 'after you have somehow identified the two true answer spans, choose the earlier one for subject slot' has 92.9% agreement **conditional on access to privileged answer-span candidates**; this is **not** a measured independent raw-text parser, neural baseline, or end-to-end predictor. It nevertheless shows that the **structural question-pair subset is strongly position imbalanced**, likely partly because the rule selects nonpassive clauses. Treat this as an adversarial confound. A future directional challenge must keep the 44 reversed-order cases separate, measure competent surface syntactic/position heuristics, and add rights-cleared adjudicated cases that break or balance order without assuming synthetic paraphrases are authentic.
+
 WH wording structure across 620 pairs: **28 who/who**, **196 what/what**, **396 mixed who/what**. Counts are about QA template slots only, not semantic agent/patient. Other annotated predicates/questions exist, but are deliberately outside this conservative subset.
 
 **Important finding:** *every eligible pair was authored by the same human annotator*. This is human-origin annotation, **not independent dual-human corroboration**; don't claim two annotators just because there are two human questions. Also `qasrl_id` is a sentence ID, not proven document ID, and the 620 predicate groups reuse 450 sentence IDs: sample by source/document groups, never report 620 independent documents.
@@ -50,7 +62,7 @@ WH wording structure across 620 pairs: **28 who/who**, **196 what/what**, **396 
 
 Files here:
 - [`qa_pair_eligibility.py`](qa_pair_eligibility.py) uses Python's stdlib `csv.DictReader`, performs exact upstream Git-blob pin checks, refuses non-DEV filenames, never writes raw text, and reports only aggregate QA eligibility/skips.
-- [`test_qa_pair_eligibility.py`](test_qa_pair_eligibility.py) has **9/9 executed fixture tests** covering positive qualification, strict predicate/sentence grouping, multi-answer abstention, passive/negated/prepositional exclusions, duplicate/conflicting answers, overlap rejection, mixed WH question types, malformed span/schema and rejection of test/unpinned source files.
+- [`test_qa_pair_eligibility.py`](test_qa_pair_eligibility.py) has **10/10 executed fixture tests** covering positive qualification, strict predicate/sentence grouping, multi-answer abstention, passive/negated/prepositional exclusions, duplicate/conflicting answers, overlap rejection, mixed WH question types, malformed span/schema and rejection of test/unpinned source files.
 
 From a permitted local checkout of **the two original DEV gold files**:
 
@@ -63,9 +75,9 @@ python3 qa_pair_eligibility.py \
   --summary-json /tmp/sentry_qasrl_eligibility_dev.json
 ```
 
-The exact Python sources written to GitHub have been verified identical via their **Git blob IDs** to the files on which 9 local tests ran:
-- audit script `6419c849807d36a31c90d1a529466bf5e18e7078`
-- 9 tests `a43e5506a17af8c5a6504cb1a4be62ef974d3939`
+The exact Python sources written to GitHub have been verified identical via their **Git blob IDs** to the files on which 10 local tests ran:
+- audit script `7cac31ee0b5ac45dbbbb91ba7b25398e24e283a4`
+- 10 tests `0cc41102869513b634bcb0e6c105f81e86d3ca47`
 
 **Execution boundary:** the numeric original-data summary above came from *direct read-only in-memory JavaScript CSV analysis*, not from a local Python full-data replay. The container cannot fetch original upstream bytes. Independent Python original-source replay and correction of any discrepancy are mandatory before accepting the count into a model study. No local human GPU, model weights, test split, or annotation hiring needed for that replay.
 
