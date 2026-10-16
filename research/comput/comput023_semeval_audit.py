@@ -17,7 +17,7 @@ SENTENCE = re.compile(r'^(\d+)\s+"([\s\S]*)"$')
 
 def load_training(text):
     rows = []
-    for chunk in re.split(r'\n\s*\n', text.replace('\r', '\n')):
+    for chunk in re.split(r'\n\s*\n', text.replace('\r\n', '\n').replace('\r','\n')):
         if not chunk.strip():
             continue
         lines = chunk.strip().split('\n')
