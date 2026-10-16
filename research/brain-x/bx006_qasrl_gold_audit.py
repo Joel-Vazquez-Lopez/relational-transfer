@@ -23,7 +23,7 @@ def read_csv(path):
 
 
 def parse_reference_spans(answer, answer_range, tokens):
-    """Return source-index-backed alternatives; do not silently rewrite damaged gold text."""
+    """Return source-index-backed spans; multiple spans can be distinct required arguments, not aliases."""
     surfaces = [a.strip() for a in answer.split(SEP)]
     ranges = [r.strip() for r in answer_range.split(SEP)]
     if len(surfaces) != len(ranges) or not surfaces:
@@ -46,10 +46,11 @@ def parse_reference_spans(answer, answer_range, tokens):
 def exact_span_match(response, span_record, source_tokens):
     """Conservative plain-string QA match to any admissible source span.
 
-    Never use when reference is corrupt or disputed. This is diagnostic only;
-    official QA-SRL evaluation and span-overlap scoring are separate.
+    A single string must NOT count a multi-span gold row as completely correct.
+    Thus return None for multi-span rows and all disputed references.
+    Official QA-SRL evaluation and span-overlap scoring are separate.
     """
-    if span_record["status"] != "EXACT":
+    if span_record["status"] != "EXACT" or len(span_record["alternatives"]) != 1:
         return None  # abstain instead of silently repairing damaged gold
     response = " ".join(response.strip().split()).casefold()
     return any(response == " ".join(source_tokens[a["start"]:a["end"]]).casefold()
@@ -108,7 +109,7 @@ def audit(gold_rows, sentence_rows, *, partition):
             "valid_answer_unit":"human-written QA question and zero-based source token span(s)",
             "answer_range":"start-inclusive/end-exclusive; ~!~ separates alternatives",
             "gold_conversion":"NO actor/patient label derivation",
-            "score_policy":"quarantine SOURCE_TEXT_DISAGREEMENT; exact source-span alternatives only after integrity gate",
+            "score_policy":"quarantine SOURCE_TEXT_DISAGREEMENT and multi-span rows under single-response strict matching; use official QA-SRL evaluation for complete answer-set scoring",
             "sampling_unit":"sentence ID, not verified unique document; no document-level uncertainty without document IDs",
             "model_results":"NONE","blind_test_claim":"NONE"},
         "cautions":["No source text redistributed", "Third-party text rights not automatically established by repo MIT license", "Human QA spans do not imply binary agent/patient roles", "Official QA-SRL evaluation should be used for primary published-task metrics"]
