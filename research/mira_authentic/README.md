@@ -23,3 +23,19 @@ Two independent human reviewers must label full agent/undergoer spans *if semant
 - Reserve future **unexamined** documents, ideally from different document/source groups; predeclare rights, document split, source lineage, gold construction, and group-aware scoring.
 - Then, and only after human adjudication/licensing, plan small two-**distinct**-family pretrained LLM format/competence smoke with Nova and shortcut baselines with Comput. Do not expose source IDs, UD annotations, reviewer fields or gold to model prompts.
 - See [external validity issue #23](https://github.com/Joel-Vazquez-Lopez/relational-transfer/issues/23).
+
+## Day 2 expansion: complex event challenge (24 groups)
+
+In addition to the original 25 source-document references, `challenge_candidate_manifest.jsonl` supplies **24 additional document-disjoint groups**: six passive predicates, six multi-event sentence groups, six pairs of nearby sentences sharing a verbal lemma, and six pronoun-bearing multi-verb candidates. This makes **49 distinct development documents**, **55 distinct source sentences**, and **36 extra annotation slots**. These classifications come from syntactic discovery heuristics; they are **not verified semantic classifications**, and same-lemma passages do not necessarily denote the same event.
+
+`challenge_annotator_A.csv`, `challenge_annotator_B.csv` and `challenge_rights_review.csv` are **blank templates**. Human reviewers should use `CHALLENGE_SAMPLING_AUDIT.md` and the main annotation protocol. The complete original text remains upstream, not replicated in GitHub.
+
+For independent exact-source verification, download the pinned `en_ewt-ud-dev.conllu` **from the original repository**, keeping it locally under the rights-aware intake workflow, then run:
+
+```bash
+python3 research/mira_authentic/verify_authentic_intake.py /path/to/en_ewt-ud-dev.conllu
+```
+
+The script checks the **Git blob SHA-1 `120d04140cf4833690117bc74c08c8da861bbce6`**, source IDs, verb token references, duplicate documents, manifest categories and CSV structure. This script is a supplied independent replay route; the complete Python run has not yet been confirmed by a second investigator. An independent connected-source readback checked the 49 documents, 55 sentence IDs and 36 predicate references successfully.
+
+**Important:** a source-integrity PASS does not certify semantic correctness, redistribution rights, two independent human labels, model prompt safety, or a unique Transformer mechanism.
