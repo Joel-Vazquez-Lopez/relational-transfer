@@ -1,0 +1,2152 @@
+{
+  "status": "factorial_baseline_gate_complete",
+  "model": "qwen7b",
+  "lock_sha256": "2eda3be26aa5ed701b1fbcb6c7712a4d40f238395555c784175e3deca93e2782",
+  "script_sha256": "9070bae06ba8c77c0a0c307a2d8b5ce6656440218d63321b5ba4e3c6b79fa7dc",
+  "config_sha256": "1661a349986919d13820d3981623776138d50783d13e247cdc5b075a22b62698",
+  "old_scorer_validation_passed": true,
+  "old_validation": [
+    {
+      "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Alice praised Beth.\nQuestion: Who praised someone?<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_token_count": 40,
+      "generated": "Alice",
+      "expected": "Alice",
+      "rival": "Beth",
+      "full_name_logprob": {
+        "Alice": 0.0,
+        "Beth": -20.671875
+      },
+      "candidate_token_ids": {
+        "Alice": [
+          61686
+        ],
+        "Beth": [
+          91603
+        ]
+      },
+      "greedy_correct": true,
+      "score_correct": true,
+      "score_margin": 20.671875,
+      "case_id": "praise_1",
+      "reverse": false
+    },
+    {
+      "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Beth praised Alice.\nQuestion: Who praised someone?<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_token_count": 40,
+      "generated": "Beth",
+      "expected": "Beth",
+      "rival": "Alice",
+      "full_name_logprob": {
+        "Alice": -12.609375,
+        "Beth": 0.0
+      },
+      "candidate_token_ids": {
+        "Alice": [
+          61686
+        ],
+        "Beth": [
+          91603
+        ]
+      },
+      "greedy_correct": true,
+      "score_correct": true,
+      "score_margin": 12.609375,
+      "case_id": "praise_1",
+      "reverse": true
+    },
+    {
+      "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Clara helped David.\nQuestion: Who helped someone?<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_token_count": 40,
+      "generated": "Clara",
+      "expected": "Clara",
+      "rival": "David",
+      "full_name_logprob": {
+        "Clara": 0.0,
+        "David": -25.234375
+      },
+      "candidate_token_ids": {
+        "Clara": [
+          5066,
+          5059
+        ],
+        "David": [
+          22286
+        ]
+      },
+      "greedy_correct": true,
+      "score_correct": true,
+      "score_margin": 25.234375,
+      "case_id": "help_1",
+      "reverse": false
+    },
+    {
+      "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: David helped Clara.\nQuestion: Who helped someone?<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_token_count": 40,
+      "generated": "David",
+      "expected": "David",
+      "rival": "Clara",
+      "full_name_logprob": {
+        "Clara": -18.0,
+        "David": 0.0
+      },
+      "candidate_token_ids": {
+        "Clara": [
+          5066,
+          5059
+        ],
+        "David": [
+          22286
+        ]
+      },
+      "greedy_correct": true,
+      "score_correct": true,
+      "score_margin": 18.0,
+      "case_id": "help_1",
+      "reverse": true
+    },
+    {
+      "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ellen praised Frank.\nQuestion: Who praised someone?<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_token_count": 40,
+      "generated": "Ellen",
+      "expected": "Ellen",
+      "rival": "Frank",
+      "full_name_logprob": {
+        "Ellen": 0.0,
+        "Frank": -18.609375
+      },
+      "candidate_token_ids": {
+        "Ellen": [
+          42710,
+          268
+        ],
+        "Frank": [
+          37326
+        ]
+      },
+      "greedy_correct": true,
+      "score_correct": true,
+      "score_margin": 18.609375,
+      "case_id": "praise_2",
+      "reverse": false
+    },
+    {
+      "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Frank praised Ellen.\nQuestion: Who praised someone?<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_token_count": 40,
+      "generated": "Frank",
+      "expected": "Frank",
+      "rival": "Ellen",
+      "full_name_logprob": {
+        "Ellen": -17.390625,
+        "Frank": 0.0
+      },
+      "candidate_token_ids": {
+        "Ellen": [
+          42710,
+          268
+        ],
+        "Frank": [
+          37326
+        ]
+      },
+      "greedy_correct": true,
+      "score_correct": true,
+      "score_margin": 17.390625,
+      "case_id": "praise_2",
+      "reverse": true
+    },
+    {
+      "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Grace helped Henry.\nQuestion: Who helped someone?<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_token_count": 40,
+      "generated": "Grace",
+      "expected": "Grace",
+      "rival": "Henry",
+      "full_name_logprob": {
+        "Grace": 0.0,
+        "Henry": -21.953125
+      },
+      "candidate_token_ids": {
+        "Grace": [
+          86543
+        ],
+        "Henry": [
+          63363
+        ]
+      },
+      "greedy_correct": true,
+      "score_correct": true,
+      "score_margin": 21.953125,
+      "case_id": "help_2",
+      "reverse": false
+    },
+    {
+      "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Henry helped Grace.\nQuestion: Who helped someone?<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_token_count": 40,
+      "generated": "Henry",
+      "expected": "Henry",
+      "rival": "Grace",
+      "full_name_logprob": {
+        "Grace": -16.96875,
+        "Henry": 0.0
+      },
+      "candidate_token_ids": {
+        "Grace": [
+          86543
+        ],
+        "Henry": [
+          63363
+        ]
+      },
+      "greedy_correct": true,
+      "score_correct": true,
+      "score_margin": 16.96875,
+      "case_id": "help_2",
+      "reverse": true
+    }
+  ],
+  "families": [
+    {
+      "family": {
+        "id": "iris_noah_thanked",
+        "split": "development",
+        "a": "Iris",
+        "b": "Noah",
+        "verb": "thanked"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Iris thanked Noah.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Iris",
+          "expected": "Iris",
+          "rival": "Noah",
+          "full_name_logprob": {
+            "Iris": 0.0,
+            "Noah": -22.84375
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 22.84375,
+          "frame": "canonical",
+          "r": 0,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Iris thanked Noah.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Iris thanked Noah.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Noah",
+          "expected": "Noah",
+          "rival": "Iris",
+          "full_name_logprob": {
+            "Iris": -12.9375,
+            "Noah": 0.0
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 12.9375,
+          "frame": "canonical",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Iris thanked Noah.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Noah was thanked by Iris.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Iris",
+          "expected": "Iris",
+          "rival": "Noah",
+          "full_name_logprob": {
+            "Iris": 0.0,
+            "Noah": -7.421875
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 7.421875,
+          "frame": "canonical",
+          "r": 0,
+          "v": 1,
+          "role": "agent",
+          "sentence": "Noah was thanked by Iris.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Noah was thanked by Iris.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Iris",
+          "expected": "Noah",
+          "rival": "Iris",
+          "full_name_logprob": {
+            "Iris": -0.21875,
+            "Noah": -1.6875
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": false,
+          "score_margin": -1.46875,
+          "frame": "canonical",
+          "r": 0,
+          "v": 1,
+          "role": "patient",
+          "sentence": "Noah was thanked by Iris.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Noah thanked Iris.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Noah",
+          "expected": "Noah",
+          "rival": "Iris",
+          "full_name_logprob": {
+            "Iris": -21.546875,
+            "Noah": 0.0
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 21.546875,
+          "frame": "canonical",
+          "r": 1,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Noah thanked Iris.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Noah thanked Iris.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Iris",
+          "expected": "Iris",
+          "rival": "Noah",
+          "full_name_logprob": {
+            "Iris": 0.0,
+            "Noah": -12.8125
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 12.8125,
+          "frame": "canonical",
+          "r": 1,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Noah thanked Iris.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Iris was thanked by Noah.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Iris",
+          "expected": "Noah",
+          "rival": "Iris",
+          "full_name_logprob": {
+            "Iris": 0.0,
+            "Noah": -5.9375
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": false,
+          "score_margin": -5.9375,
+          "frame": "canonical",
+          "r": 1,
+          "v": 1,
+          "role": "agent",
+          "sentence": "Iris was thanked by Noah.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Iris was thanked by Noah.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Iris",
+          "expected": "Iris",
+          "rival": "Noah",
+          "full_name_logprob": {
+            "Iris": -0.0625,
+            "Noah": -2.84375
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 2.78125,
+          "frame": "canonical",
+          "r": 1,
+          "v": 1,
+          "role": "patient",
+          "sentence": "Iris was thanked by Noah.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Iris thanked Noah.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Iris",
+          "expected": "Iris",
+          "rival": "Noah",
+          "full_name_logprob": {
+            "Iris": 0.0,
+            "Noah": -22.84375
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 22.84375,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Iris thanked Noah.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Iris thanked Noah.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Noah",
+          "expected": "Noah",
+          "rival": "Iris",
+          "full_name_logprob": {
+            "Iris": -12.9375,
+            "Noah": 0.0
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 12.9375,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Iris thanked Noah.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Iris that Noah was thanked.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Iris",
+          "expected": "Iris",
+          "rival": "Noah",
+          "full_name_logprob": {
+            "Iris": -0.03125,
+            "Noah": -3.453125
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 3.421875,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 1,
+          "role": "agent",
+          "sentence": "It was by Iris that Noah was thanked.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Iris that Noah was thanked.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Noah",
+          "expected": "Noah",
+          "rival": "Iris",
+          "full_name_logprob": {
+            "Iris": -20.234375,
+            "Noah": 0.0
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 20.234375,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 1,
+          "role": "patient",
+          "sentence": "It was by Iris that Noah was thanked.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Noah thanked Iris.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Noah",
+          "expected": "Noah",
+          "rival": "Iris",
+          "full_name_logprob": {
+            "Iris": -21.546875,
+            "Noah": 0.0
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 21.546875,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Noah thanked Iris.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Noah thanked Iris.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Iris",
+          "expected": "Iris",
+          "rival": "Noah",
+          "full_name_logprob": {
+            "Iris": 0.0,
+            "Noah": -12.8125
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 12.8125,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Noah thanked Iris.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Noah that Iris was thanked.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Noah",
+          "expected": "Noah",
+          "rival": "Iris",
+          "full_name_logprob": {
+            "Iris": -6.46875,
+            "Noah": 0.0
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 6.46875,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 1,
+          "role": "agent",
+          "sentence": "It was by Noah that Iris was thanked.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Noah that Iris was thanked.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Iris",
+          "expected": "Iris",
+          "rival": "Noah",
+          "full_name_logprob": {
+            "Iris": 0.0,
+            "Noah": -22.453125
+          },
+          "candidate_token_ids": {
+            "Iris": [
+              40,
+              5963
+            ],
+            "Noah": [
+              2753,
+              1466
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 22.453125,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 1,
+          "role": "patient",
+          "sentence": "It was by Noah that Iris was thanked.",
+          "question": "Who was thanked?"
+        }
+      ],
+      "competent": false,
+      "correct_count": 14
+    },
+    {
+      "family": {
+        "id": "maya_owen_invited",
+        "split": "development",
+        "a": "Maya",
+        "b": "Owen",
+        "verb": "invited"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Maya invited Owen.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Maya",
+          "expected": "Maya",
+          "rival": "Owen",
+          "full_name_logprob": {
+            "Maya": 0.0,
+            "Owen": -20.8125
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 20.8125,
+          "frame": "canonical",
+          "r": 0,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Maya invited Owen.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Maya invited Owen.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Owen",
+          "expected": "Owen",
+          "rival": "Maya",
+          "full_name_logprob": {
+            "Maya": -13.21875,
+            "Owen": 0.0
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 13.21875,
+          "frame": "canonical",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Maya invited Owen.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Owen was invited by Maya.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Maya",
+          "expected": "Maya",
+          "rival": "Owen",
+          "full_name_logprob": {
+            "Maya": 0.0,
+            "Owen": -14.03125
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 14.03125,
+          "frame": "canonical",
+          "r": 0,
+          "v": 1,
+          "role": "agent",
+          "sentence": "Owen was invited by Maya.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Owen was invited by Maya.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Owen",
+          "expected": "Owen",
+          "rival": "Maya",
+          "full_name_logprob": {
+            "Maya": -18.78125,
+            "Owen": 0.0
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 18.78125,
+          "frame": "canonical",
+          "r": 0,
+          "v": 1,
+          "role": "patient",
+          "sentence": "Owen was invited by Maya.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Owen invited Maya.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Owen",
+          "expected": "Owen",
+          "rival": "Maya",
+          "full_name_logprob": {
+            "Maya": -21.28125,
+            "Owen": 0.0
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 21.28125,
+          "frame": "canonical",
+          "r": 1,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Owen invited Maya.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Owen invited Maya.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Maya",
+          "expected": "Maya",
+          "rival": "Owen",
+          "full_name_logprob": {
+            "Maya": 0.0,
+            "Owen": -16.03125
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 16.03125,
+          "frame": "canonical",
+          "r": 1,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Owen invited Maya.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Maya was invited by Owen.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Owen",
+          "expected": "Owen",
+          "rival": "Maya",
+          "full_name_logprob": {
+            "Maya": -14.75,
+            "Owen": 0.0
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 14.75,
+          "frame": "canonical",
+          "r": 1,
+          "v": 1,
+          "role": "agent",
+          "sentence": "Maya was invited by Owen.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Maya was invited by Owen.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Maya",
+          "expected": "Maya",
+          "rival": "Owen",
+          "full_name_logprob": {
+            "Maya": 0.0,
+            "Owen": -17.921875
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 17.921875,
+          "frame": "canonical",
+          "r": 1,
+          "v": 1,
+          "role": "patient",
+          "sentence": "Maya was invited by Owen.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Maya invited Owen.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Maya",
+          "expected": "Maya",
+          "rival": "Owen",
+          "full_name_logprob": {
+            "Maya": 0.0,
+            "Owen": -20.8125
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 20.8125,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Maya invited Owen.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Maya invited Owen.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Owen",
+          "expected": "Owen",
+          "rival": "Maya",
+          "full_name_logprob": {
+            "Maya": -13.21875,
+            "Owen": 0.0
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 13.21875,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Maya invited Owen.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Maya that Owen was invited.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Maya",
+          "expected": "Maya",
+          "rival": "Owen",
+          "full_name_logprob": {
+            "Maya": 0.0,
+            "Owen": -15.09375
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 15.09375,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 1,
+          "role": "agent",
+          "sentence": "It was by Maya that Owen was invited.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Maya that Owen was invited.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Owen",
+          "expected": "Owen",
+          "rival": "Maya",
+          "full_name_logprob": {
+            "Maya": -10.046875,
+            "Owen": 0.0
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 10.046875,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 1,
+          "role": "patient",
+          "sentence": "It was by Maya that Owen was invited.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Owen invited Maya.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Owen",
+          "expected": "Owen",
+          "rival": "Maya",
+          "full_name_logprob": {
+            "Maya": -21.28125,
+            "Owen": 0.0
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 21.28125,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Owen invited Maya.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Owen invited Maya.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Maya",
+          "expected": "Maya",
+          "rival": "Owen",
+          "full_name_logprob": {
+            "Maya": 0.0,
+            "Owen": -16.03125
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 16.03125,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Owen invited Maya.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Owen that Maya was invited.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Owen",
+          "expected": "Owen",
+          "rival": "Maya",
+          "full_name_logprob": {
+            "Maya": -10.84375,
+            "Owen": 0.0
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 10.84375,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 1,
+          "role": "agent",
+          "sentence": "It was by Owen that Maya was invited.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Owen that Maya was invited.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Maya",
+          "expected": "Maya",
+          "rival": "Owen",
+          "full_name_logprob": {
+            "Maya": 0.0,
+            "Owen": -17.109375
+          },
+          "candidate_token_ids": {
+            "Maya": [
+              11109,
+              64
+            ],
+            "Owen": [
+              46,
+              16948
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 17.109375,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 1,
+          "role": "patient",
+          "sentence": "It was by Owen that Maya was invited.",
+          "question": "Who was invited?"
+        }
+      ],
+      "competent": true,
+      "correct_count": 16
+    },
+    {
+      "family": {
+        "id": "nora_peter_thanked",
+        "split": "evaluation",
+        "a": "Nora",
+        "b": "Peter",
+        "verb": "thanked"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Nora thanked Peter.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Nora",
+          "expected": "Nora",
+          "rival": "Peter",
+          "full_name_logprob": {
+            "Nora": 0.0,
+            "Peter": -22.203125
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 22.203125,
+          "frame": "canonical",
+          "r": 0,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Nora thanked Peter.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Nora thanked Peter.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Peter",
+          "expected": "Peter",
+          "rival": "Nora",
+          "full_name_logprob": {
+            "Nora": -10.53125,
+            "Peter": 0.0
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 10.53125,
+          "frame": "canonical",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Nora thanked Peter.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Peter was thanked by Nora.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Nora",
+          "expected": "Nora",
+          "rival": "Peter",
+          "full_name_logprob": {
+            "Nora": 0.0,
+            "Peter": -13.484375
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 13.484375,
+          "frame": "canonical",
+          "r": 0,
+          "v": 1,
+          "role": "agent",
+          "sentence": "Peter was thanked by Nora.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Peter was thanked by Nora.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Nora",
+          "expected": "Peter",
+          "rival": "Nora",
+          "full_name_logprob": {
+            "Nora": -0.0625,
+            "Peter": -3.0
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": false,
+          "score_margin": -2.9375,
+          "frame": "canonical",
+          "r": 0,
+          "v": 1,
+          "role": "patient",
+          "sentence": "Peter was thanked by Nora.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Peter thanked Nora.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Peter",
+          "expected": "Peter",
+          "rival": "Nora",
+          "full_name_logprob": {
+            "Nora": -20.953125,
+            "Peter": 0.0
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 20.953125,
+          "frame": "canonical",
+          "r": 1,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Peter thanked Nora.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Peter thanked Nora.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Nora",
+          "expected": "Nora",
+          "rival": "Peter",
+          "full_name_logprob": {
+            "Nora": 0.0,
+            "Peter": -18.46875
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 18.46875,
+          "frame": "canonical",
+          "r": 1,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Peter thanked Nora.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Nora was thanked by Peter.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Nora",
+          "expected": "Peter",
+          "rival": "Nora",
+          "full_name_logprob": {
+            "Nora": -0.0625,
+            "Peter": -2.71875
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": false,
+          "score_margin": -2.65625,
+          "frame": "canonical",
+          "r": 1,
+          "v": 1,
+          "role": "agent",
+          "sentence": "Nora was thanked by Peter.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Nora was thanked by Peter.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Nora",
+          "expected": "Nora",
+          "rival": "Peter",
+          "full_name_logprob": {
+            "Nora": 0.0,
+            "Peter": -13.203125
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 13.203125,
+          "frame": "canonical",
+          "r": 1,
+          "v": 1,
+          "role": "patient",
+          "sentence": "Nora was thanked by Peter.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Nora thanked Peter.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Nora",
+          "expected": "Nora",
+          "rival": "Peter",
+          "full_name_logprob": {
+            "Nora": 0.0,
+            "Peter": -22.203125
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 22.203125,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Nora thanked Peter.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Nora thanked Peter.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Peter",
+          "expected": "Peter",
+          "rival": "Nora",
+          "full_name_logprob": {
+            "Nora": -10.53125,
+            "Peter": 0.0
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 10.53125,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Nora thanked Peter.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Nora that Peter was thanked.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Nora",
+          "expected": "Nora",
+          "rival": "Peter",
+          "full_name_logprob": {
+            "Nora": 0.0,
+            "Peter": -19.1875
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 19.1875,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 1,
+          "role": "agent",
+          "sentence": "It was by Nora that Peter was thanked.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Nora that Peter was thanked.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Peter",
+          "expected": "Peter",
+          "rival": "Nora",
+          "full_name_logprob": {
+            "Nora": -16.1875,
+            "Peter": 0.0
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 16.1875,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 1,
+          "role": "patient",
+          "sentence": "It was by Nora that Peter was thanked.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Peter thanked Nora.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Peter",
+          "expected": "Peter",
+          "rival": "Nora",
+          "full_name_logprob": {
+            "Nora": -20.953125,
+            "Peter": 0.0
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 20.953125,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Peter thanked Nora.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Peter thanked Nora.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Nora",
+          "expected": "Nora",
+          "rival": "Peter",
+          "full_name_logprob": {
+            "Nora": 0.0,
+            "Peter": -18.46875
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 18.46875,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Peter thanked Nora.",
+          "question": "Who was thanked?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Peter that Nora was thanked.\nQuestion: Who thanked someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Nora",
+          "expected": "Peter",
+          "rival": "Nora",
+          "full_name_logprob": {
+            "Nora": 0.0,
+            "Peter": -4.953125
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": false,
+          "score_margin": -4.953125,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 1,
+          "role": "agent",
+          "sentence": "It was by Peter that Nora was thanked.",
+          "question": "Who thanked someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Peter that Nora was thanked.\nQuestion: Who was thanked?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Nora",
+          "expected": "Nora",
+          "rival": "Peter",
+          "full_name_logprob": {
+            "Nora": 0.0,
+            "Peter": -22.28125
+          },
+          "candidate_token_ids": {
+            "Nora": [
+              45,
+              6215
+            ],
+            "Peter": [
+              36559
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 22.28125,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 1,
+          "role": "patient",
+          "sentence": "It was by Peter that Nora was thanked.",
+          "question": "Who was thanked?"
+        }
+      ],
+      "competent": false,
+      "correct_count": 13
+    },
+    {
+      "family": {
+        "id": "ruby_victor_invited",
+        "split": "evaluation",
+        "a": "Ruby",
+        "b": "Victor",
+        "verb": "invited"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ruby invited Victor.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Ruby",
+          "expected": "Ruby",
+          "rival": "Victor",
+          "full_name_logprob": {
+            "Ruby": 0.0,
+            "Victor": -13.265625
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 13.265625,
+          "frame": "canonical",
+          "r": 0,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Ruby invited Victor.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ruby invited Victor.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Victor",
+          "expected": "Victor",
+          "rival": "Ruby",
+          "full_name_logprob": {
+            "Ruby": -14.359375,
+            "Victor": 0.0
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 14.359375,
+          "frame": "canonical",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Ruby invited Victor.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Victor was invited by Ruby.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Ruby",
+          "expected": "Ruby",
+          "rival": "Victor",
+          "full_name_logprob": {
+            "Ruby": 0.0,
+            "Victor": -8.828125
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 8.828125,
+          "frame": "canonical",
+          "r": 0,
+          "v": 1,
+          "role": "agent",
+          "sentence": "Victor was invited by Ruby.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Victor was invited by Ruby.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Victor",
+          "expected": "Victor",
+          "rival": "Ruby",
+          "full_name_logprob": {
+            "Ruby": -20.65625,
+            "Victor": 0.0
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 20.65625,
+          "frame": "canonical",
+          "r": 0,
+          "v": 1,
+          "role": "patient",
+          "sentence": "Victor was invited by Ruby.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Victor invited Ruby.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Victor",
+          "expected": "Victor",
+          "rival": "Ruby",
+          "full_name_logprob": {
+            "Ruby": -19.53125,
+            "Victor": 0.0
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 19.53125,
+          "frame": "canonical",
+          "r": 1,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Victor invited Ruby.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Victor invited Ruby.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Ruby",
+          "expected": "Ruby",
+          "rival": "Victor",
+          "full_name_logprob": {
+            "Ruby": 0.0,
+            "Victor": -17.953125
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 17.953125,
+          "frame": "canonical",
+          "r": 1,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Victor invited Ruby.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ruby was invited by Victor.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Victor",
+          "expected": "Victor",
+          "rival": "Ruby",
+          "full_name_logprob": {
+            "Ruby": -10.25,
+            "Victor": 0.0
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 10.25,
+          "frame": "canonical",
+          "r": 1,
+          "v": 1,
+          "role": "agent",
+          "sentence": "Ruby was invited by Victor.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ruby was invited by Victor.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Ruby",
+          "expected": "Ruby",
+          "rival": "Victor",
+          "full_name_logprob": {
+            "Ruby": 0.0,
+            "Victor": -18.6875
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 18.6875,
+          "frame": "canonical",
+          "r": 1,
+          "v": 1,
+          "role": "patient",
+          "sentence": "Ruby was invited by Victor.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ruby invited Victor.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Ruby",
+          "expected": "Ruby",
+          "rival": "Victor",
+          "full_name_logprob": {
+            "Ruby": 0.0,
+            "Victor": -13.265625
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 13.265625,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Ruby invited Victor.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ruby invited Victor.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Victor",
+          "expected": "Victor",
+          "rival": "Ruby",
+          "full_name_logprob": {
+            "Ruby": -14.359375,
+            "Victor": 0.0
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 14.359375,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Ruby invited Victor.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Ruby that Victor was invited.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Ruby",
+          "expected": "Ruby",
+          "rival": "Victor",
+          "full_name_logprob": {
+            "Ruby": 0.0,
+            "Victor": -8.65625
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 8.65625,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 1,
+          "role": "agent",
+          "sentence": "It was by Ruby that Victor was invited.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Ruby that Victor was invited.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Victor",
+          "expected": "Victor",
+          "rival": "Ruby",
+          "full_name_logprob": {
+            "Ruby": -20.328125,
+            "Victor": 0.0
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 20.328125,
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 1,
+          "role": "patient",
+          "sentence": "It was by Ruby that Victor was invited.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Victor invited Ruby.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Victor",
+          "expected": "Victor",
+          "rival": "Ruby",
+          "full_name_logprob": {
+            "Ruby": -19.53125,
+            "Victor": 0.0
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 19.53125,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 0,
+          "role": "agent",
+          "sentence": "Victor invited Ruby.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Victor invited Ruby.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Ruby",
+          "expected": "Ruby",
+          "rival": "Victor",
+          "full_name_logprob": {
+            "Ruby": 0.0,
+            "Victor": -17.953125
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 17.953125,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Victor invited Ruby.",
+          "question": "Who was invited?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Victor that Ruby was invited.\nQuestion: Who invited someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Victor",
+          "expected": "Victor",
+          "rival": "Ruby",
+          "full_name_logprob": {
+            "Ruby": -12.984375,
+            "Victor": 0.0
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 12.984375,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 1,
+          "role": "agent",
+          "sentence": "It was by Victor that Ruby was invited.",
+          "question": "Who invited someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Victor that Ruby was invited.\nQuestion: Who was invited?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Ruby",
+          "expected": "Ruby",
+          "rival": "Victor",
+          "full_name_logprob": {
+            "Ruby": 0.0,
+            "Victor": -20.53125
+          },
+          "candidate_token_ids": {
+            "Ruby": [
+              61716
+            ],
+            "Victor": [
+              36125,
+              269
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 20.53125,
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 1,
+          "role": "patient",
+          "sentence": "It was by Victor that Ruby was invited.",
+          "question": "Who was invited?"
+        }
+      ],
+      "competent": true,
+      "correct_count": 16
+    }
+  ],
+  "limits": [
+    "No new hidden-state capture or causal patch is part of this gate.",
+    "Full-name log probabilities are teacher-forced continuation scores without EOS; greedy generations are separately checked."
+  ]
+}
