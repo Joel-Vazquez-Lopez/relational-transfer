@@ -1,0 +1,31 @@
+{
+  "status": "frozen_before_new_model_outputs",
+  "date": "2026-10-17",
+  "scope": "One fresh behavioral feasibility screen for a future family-dependent computation study; no activation capture or patching in this gate.",
+  "models": ["qwen05", "qwen15", "qwen7b", "llama3b"],
+  "primary_models": ["qwen15", "qwen7b", "llama3b"],
+  "diagnostic_model": "qwen05",
+  "families": [
+    {"id": "f01", "split": "development", "a": "Elena", "b": "Marcus", "verb": "hugged"},
+    {"id": "f02", "split": "development", "a": "Priya", "b": "Daniel", "verb": "called"},
+    {"id": "f03", "split": "development", "a": "Amira", "b": "Lucas", "verb": "pushed"},
+    {"id": "f04", "split": "development", "a": "Hannah", "b": "Felix", "verb": "followed"},
+    {"id": "f05", "split": "evaluation", "a": "Nadia", "b": "Simon", "verb": "hugged"},
+    {"id": "f06", "split": "evaluation", "a": "Olivia", "b": "Jasper", "verb": "called"},
+    {"id": "f07", "split": "evaluation", "a": "Miriam", "b": "Adrian", "verb": "pushed"},
+    {"id": "f08", "split": "evaluation", "a": "Isabel", "b": "Thomas", "verb": "followed"}
+  ],
+  "conditions": ["a_agent_active", "b_agent_active", "a_agent_passive", "b_agent_passive"],
+  "sentence_templates": {
+    "a_agent_active": "{a} {verb} {b}.",
+    "b_agent_active": "{b} {verb} {a}.",
+    "a_agent_passive": "{b} was {verb} by {a}.",
+    "b_agent_passive": "{a} was {verb} by {b}."
+  },
+  "question": "Who {verb} someone?",
+  "system": "Answer the question about the sentence. Reply with only the person's name.",
+  "answer_rule": "The Agent of the sole event, A for a_agent_* and B for b_agent_*.",
+  "scoring": "Both greedy exact normalized full-name match and positive teacher-forced full-name log-probability margin from the already validated factorial_gate.py scorer. No answer list is shown in the prompt.",
+  "gate": "A family is competent for a model only if all four conditions pass both checks. A common family is competent for every primary model. Proceed to separately frozen causal work only if at least two common development families and two common evaluation families pass. All eight families and all failures stay in the denominator. No replacements, prompt changes, alternate scoring or model substitution after outputs.",
+  "interpretation": "This is a feasibility gate, not a mechanistic result. Failure prevents a family-dependent causal comparison on this task with this model panel. Passing only authorizes design of a separately locked causal study; it does not validate a shared path."
+}

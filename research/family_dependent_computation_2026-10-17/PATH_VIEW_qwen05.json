@@ -1,0 +1,57 @@
+{
+  "model": "qwen05",
+  "status": "descriptive_path_capture_only",
+  "path_view_lock_sha256": "b1c6554799a3e1f0cd5070ef637aba7528d9c80d6ce7f432e359929d7dae0b47",
+  "gate_lock_sha256": "375e1927af634342c0d86f1e6f072859b96680426682469c005ec78dbdfec0d7",
+  "script_sha256": "ec2d665d1dcba4d78b4b7addbf34c122e84e8b01f208a2fc1cb6b0f52893b17b",
+  "states_sha256": "d6c5997b955b2a5c80e154e923b1f1e3ee9d655060f6ad5ceed44d9ebc43760f",
+  "config_sha256": "b045e57ea90b8f1b35f89f954b176a5c1faa02bd0af2c89bcec191239d66cef4",
+  "shape": [
+    4,
+    25,
+    2,
+    896
+  ],
+  "metadata": [
+    {
+      "condition": "a_agent_active",
+      "sentence": "Miriam pushed Adrian.",
+      "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Miriam pushed Adrian.\nQuestion: Who pushed someone?<|im_end|>\n<|im_start|>assistant\n",
+      "token_count": 41,
+      "positions": [
+        29,
+        40
+      ]
+    },
+    {
+      "condition": "b_agent_active",
+      "sentence": "Adrian pushed Miriam.",
+      "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Adrian pushed Miriam.\nQuestion: Who pushed someone?<|im_end|>\n<|im_start|>assistant\n",
+      "token_count": 41,
+      "positions": [
+        29,
+        40
+      ]
+    },
+    {
+      "condition": "a_agent_passive",
+      "sentence": "Adrian was pushed by Miriam.",
+      "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Adrian was pushed by Miriam.\nQuestion: Who pushed someone?<|im_end|>\n<|im_start|>assistant\n",
+      "token_count": 43,
+      "positions": [
+        31,
+        42
+      ]
+    },
+    {
+      "condition": "b_agent_passive",
+      "sentence": "Miriam was pushed by Adrian.",
+      "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Miriam was pushed by Adrian.\nQuestion: Who pushed someone?<|im_end|>\n<|im_start|>assistant\n",
+      "token_count": 43,
+      "positions": [
+        31,
+        42
+      ]
+    }
+  ]
+}

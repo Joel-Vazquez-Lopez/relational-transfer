@@ -1,0 +1,28 @@
+{
+  "model": "qwen7b",
+  "status": "saved_state_readout_diagnostic_only",
+  "source_states_sha256": "742ef377dbffa30a6cd123d16114c62538e99127d5d148ebccd6e350641abd73",
+  "script_sha256": "3a7a1d4e2c3d7b4caa0049dc76c6c23349920ca7c3f563d1cf0721b0b6b02379",
+  "config_sha256": "1661a349986919d13820d3981623776138d50783d13e247cdc5b075a22b62698",
+  "names": [
+    "Miriam",
+    "Adrian"
+  ],
+  "name_token_ids": [
+    [
+      58461,
+      4932
+    ],
+    [
+      2589,
+      7266
+    ]
+  ],
+  "first_token_ids": [
+    58461,
+    2589
+  ],
+  "selected_head_max_abs_error": 0.0008120472196502249,
+  "output_sha256": "df712942252c2be7b664149e93232038f9807c2ee488da570419b1a3b8bda51b",
+  "limitation": "Only one first-answer-token margin axis is removed. Earlier-layer use of final RMSNorm/head is a logit-lens convention, not the true downstream computation. Saved residual states are float16 captures."
+}

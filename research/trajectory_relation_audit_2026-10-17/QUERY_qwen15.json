@@ -1,0 +1,2270 @@
+{
+  "status": "frozen_query_geometry_pilot_complete",
+  "model": "qwen15",
+  "lock_sha256": "3735367fce044f102a13bd27df718d62fea62760d96ef61b6c2a9887c7baadeb",
+  "script_sha256": "43153fe27a7231dfe37d06dac11f8d09abe09158b8af5e5bc3bba415ec5f2567",
+  "scorer_sha256": "9070bae06ba8c77c0a0c307a2d8b5ce6656440218d63321b5ba4e3c6b79fa7dc",
+  "forward_helper_sha256": "28eb8afcffa94903bb1f994f8595e1f12db20b68346da3797d4816cd1f0fef44",
+  "config_sha256": "636d3e2a15e8914b8cf82b05cc2288a811f9bd93c3bf1afc00cab701a70b47c0",
+  "states_sha256": "bc123bc8077335760309c9a66526d1c8fcf08a5a3cd8559e3444afe3f23ad626",
+  "families": [
+    {
+      "family": {
+        "id": "q01",
+        "a": "Lena",
+        "b": "Bruno",
+        "verb": "chased"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Lena chased Bruno.\nQuestion: Who chased someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 40,
+              "generated": "Lena",
+              "expected": "Lena",
+              "rival": "Bruno",
+              "full_name_logprob": {
+                "Lena": 0.0,
+                "Bruno": -10.21875
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7157
+                ],
+                "Bruno": [
+                  94230,
+                  78
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 10.21875,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "a_agent_active",
+              "sentence": "Lena chased Bruno.",
+              "positions": [
+                28,
+                39
+              ],
+              "selected_head_max_error": 0.000499257581104473
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Bruno chased Lena.\nQuestion: Who chased someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 40,
+              "generated": "Bruno",
+              "expected": "Bruno",
+              "rival": "Lena",
+              "full_name_logprob": {
+                "Lena": -10.65625,
+                "Bruno": 0.0
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7157
+                ],
+                "Bruno": [
+                  94230,
+                  78
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 10.65625,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "b_agent_active",
+              "sentence": "Bruno chased Lena.",
+              "positions": [
+                28,
+                39
+              ],
+              "selected_head_max_error": 0.00039971102499691824
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Bruno was chased by Lena.\nQuestion: Who chased someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 42,
+              "generated": "Lena",
+              "expected": "Lena",
+              "rival": "Bruno",
+              "full_name_logprob": {
+                "Lena": -0.5,
+                "Bruno": -0.96875
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7157
+                ],
+                "Bruno": [
+                  94230,
+                  78
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 0.46875,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Bruno was chased by Lena.",
+              "positions": [
+                30,
+                41
+              ],
+              "selected_head_max_error": 0.00047739025920634504
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Lena was chased by Bruno.\nQuestion: Who chased someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 42,
+              "generated": "Bruno",
+              "expected": "Bruno",
+              "rival": "Lena",
+              "full_name_logprob": {
+                "Lena": -2.75,
+                "Bruno": -0.0625
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7157
+                ],
+                "Bruno": [
+                  94230,
+                  78
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.6875,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Lena was chased by Bruno.",
+              "positions": [
+                30,
+                41
+              ],
+              "selected_head_max_error": 0.000620366241719239
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Lena chased Bruno.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 44,
+              "generated": "Bruno",
+              "expected": "Lena",
+              "rival": "Bruno",
+              "full_name_logprob": {
+                "Lena": -1.84375,
+                "Bruno": -0.1875
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7157
+                ],
+                "Bruno": [
+                  94230,
+                  78
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -1.65625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Lena chased Bruno.",
+              "positions": [
+                28,
+                43
+              ],
+              "selected_head_max_error": 0.0005787381769124522
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Bruno chased Lena.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 44,
+              "generated": "Lena.",
+              "expected": "Bruno",
+              "rival": "Lena",
+              "full_name_logprob": {
+                "Lena": -0.625,
+                "Bruno": -0.734375
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7157
+                ],
+                "Bruno": [
+                  94230,
+                  78
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -0.109375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Bruno chased Lena.",
+              "positions": [
+                28,
+                43
+              ],
+              "selected_head_max_error": 0.0004167047336380847
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Bruno was chased by Lena.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 46,
+              "generated": "Bruno",
+              "expected": "Bruno",
+              "rival": "Lena",
+              "full_name_logprob": {
+                "Lena": -4.9375,
+                "Bruno": 0.0
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7157
+                ],
+                "Bruno": [
+                  94230,
+                  78
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.9375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Bruno was chased by Lena.",
+              "positions": [
+                30,
+                45
+              ],
+              "selected_head_max_error": 0.00045879163514683796
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Lena was chased by Bruno.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 46,
+              "generated": "Lena",
+              "expected": "Lena",
+              "rival": "Bruno",
+              "full_name_logprob": {
+                "Lena": -0.03125,
+                "Bruno": -4.171875
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7157
+                ],
+                "Bruno": [
+                  94230,
+                  78
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.140625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Lena was chased by Bruno.",
+              "positions": [
+                30,
+                45
+              ],
+              "selected_head_max_error": 0.0005721646799088376
+            }
+          ]
+        }
+      ],
+      "fully_competent": false
+    },
+    {
+      "family": {
+        "id": "q02",
+        "a": "Tessa",
+        "b": "Oscar",
+        "verb": "tapped"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Tessa tapped Oscar.\nQuestion: Who tapped someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 41,
+              "generated": "Tessa tapped Oscar.",
+              "expected": "Tessa",
+              "rival": "Oscar",
+              "full_name_logprob": {
+                "Tessa": 0.0,
+                "Oscar": -9.484375
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  25496
+                ],
+                "Oscar": [
+                  46,
+                  24513
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": true,
+              "score_margin": 9.484375,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "a_agent_active",
+              "sentence": "Tessa tapped Oscar.",
+              "positions": [
+                29,
+                40
+              ],
+              "selected_head_max_error": 0.0004222207242605691
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Oscar tapped Tessa.\nQuestion: Who tapped someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 41,
+              "generated": "Oscar tapped Tessa.",
+              "expected": "Oscar",
+              "rival": "Tessa",
+              "full_name_logprob": {
+                "Tessa": -8.40625,
+                "Oscar": 0.0
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  25496
+                ],
+                "Oscar": [
+                  46,
+                  24513
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": true,
+              "score_margin": 8.40625,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "b_agent_active",
+              "sentence": "Oscar tapped Tessa.",
+              "positions": [
+                29,
+                40
+              ],
+              "selected_head_max_error": 0.0004625829780806612
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Oscar was tapped by Tessa.\nQuestion: Who tapped someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 43,
+              "generated": "Oscar",
+              "expected": "Tessa",
+              "rival": "Oscar",
+              "full_name_logprob": {
+                "Tessa": -1.546875,
+                "Oscar": -0.25
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  25496
+                ],
+                "Oscar": [
+                  46,
+                  24513
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -1.296875,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Oscar was tapped by Tessa.",
+              "positions": [
+                31,
+                42
+              ],
+              "selected_head_max_error": 0.00040017307509288
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Tessa was tapped by Oscar.\nQuestion: Who tapped someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 43,
+              "generated": "Oscar",
+              "expected": "Oscar",
+              "rival": "Tessa",
+              "full_name_logprob": {
+                "Tessa": -1.25,
+                "Oscar": -0.34375
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  25496
+                ],
+                "Oscar": [
+                  46,
+                  24513
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 0.90625,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Tessa was tapped by Oscar.",
+              "positions": [
+                31,
+                42
+              ],
+              "selected_head_max_error": 0.0003687779746428532
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Tessa tapped Oscar.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 45,
+              "generated": "Tessa",
+              "expected": "Tessa",
+              "rival": "Oscar",
+              "full_name_logprob": {
+                "Tessa": -0.671875,
+                "Oscar": -0.71875
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  25496
+                ],
+                "Oscar": [
+                  46,
+                  24513
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 0.046875,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Tessa tapped Oscar.",
+              "positions": [
+                29,
+                44
+              ],
+              "selected_head_max_error": 0.0004935227242199858
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Oscar tapped Tessa.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 45,
+              "generated": "Oscar",
+              "expected": "Oscar",
+              "rival": "Tessa",
+              "full_name_logprob": {
+                "Tessa": -2.3125,
+                "Oscar": -0.09375
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  25496
+                ],
+                "Oscar": [
+                  46,
+                  24513
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.21875,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Oscar tapped Tessa.",
+              "positions": [
+                29,
+                44
+              ],
+              "selected_head_max_error": 0.0004334012348508054
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Oscar was tapped by Tessa.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 47,
+              "generated": "Oscar",
+              "expected": "Oscar",
+              "rival": "Tessa",
+              "full_name_logprob": {
+                "Tessa": -2.953125,
+                "Oscar": -0.0625
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  25496
+                ],
+                "Oscar": [
+                  46,
+                  24513
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.890625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Oscar was tapped by Tessa.",
+              "positions": [
+                31,
+                46
+              ],
+              "selected_head_max_error": 0.0003901895769757857
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Tessa was tapped by Oscar.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 47,
+              "generated": "Oscar",
+              "expected": "Tessa",
+              "rival": "Oscar",
+              "full_name_logprob": {
+                "Tessa": -0.984375,
+                "Oscar": -0.46875
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  25496
+                ],
+                "Oscar": [
+                  46,
+                  24513
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -0.515625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Tessa was tapped by Oscar.",
+              "positions": [
+                31,
+                46
+              ],
+              "selected_head_max_error": 0.0003935875397047539
+            }
+          ]
+        }
+      ],
+      "fully_competent": false
+    },
+    {
+      "family": {
+        "id": "q03",
+        "a": "Freya",
+        "b": "Hugo",
+        "verb": "visited"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Freya visited Hugo.\nQuestion: Who visited someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 41,
+              "generated": "Freya",
+              "expected": "Freya",
+              "rival": "Hugo",
+              "full_name_logprob": {
+                "Freya": 0.0,
+                "Hugo": -8.796875
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  36731,
+                  7755
+                ],
+                "Hugo": [
+                  39,
+                  33501
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 8.796875,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "a_agent_active",
+              "sentence": "Freya visited Hugo.",
+              "positions": [
+                29,
+                40
+              ],
+              "selected_head_max_error": 0.0005304494139295457
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Hugo visited Freya.\nQuestion: Who visited someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 41,
+              "generated": "Hugo",
+              "expected": "Hugo",
+              "rival": "Freya",
+              "full_name_logprob": {
+                "Freya": -8.6875,
+                "Hugo": 0.0
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  36731,
+                  7755
+                ],
+                "Hugo": [
+                  39,
+                  33501
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 8.6875,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "b_agent_active",
+              "sentence": "Hugo visited Freya.",
+              "positions": [
+                29,
+                40
+              ],
+              "selected_head_max_error": 0.0005991874502484507
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Hugo was visited by Freya.\nQuestion: Who visited someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 43,
+              "generated": "Hugo",
+              "expected": "Freya",
+              "rival": "Hugo",
+              "full_name_logprob": {
+                "Freya": -3.484375,
+                "Hugo": -0.03125
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  36731,
+                  7755
+                ],
+                "Hugo": [
+                  39,
+                  33501
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -3.453125,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Hugo was visited by Freya.",
+              "positions": [
+                31,
+                42
+              ],
+              "selected_head_max_error": 0.0006553914872995392
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Freya was visited by Hugo.\nQuestion: Who visited someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 43,
+              "generated": "Freya",
+              "expected": "Hugo",
+              "rival": "Freya",
+              "full_name_logprob": {
+                "Freya": 0.0,
+                "Hugo": -5.0625
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  36731,
+                  7755
+                ],
+                "Hugo": [
+                  39,
+                  33501
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -5.0625,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Freya was visited by Hugo.",
+              "positions": [
+                31,
+                42
+              ],
+              "selected_head_max_error": 0.0005728360784154063
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Freya visited Hugo.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 45,
+              "generated": "Freya",
+              "expected": "Freya",
+              "rival": "Hugo",
+              "full_name_logprob": {
+                "Freya": -0.125,
+                "Hugo": -2.140625
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  36731,
+                  7755
+                ],
+                "Hugo": [
+                  39,
+                  33501
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.015625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Freya visited Hugo.",
+              "positions": [
+                29,
+                44
+              ],
+              "selected_head_max_error": 0.0004845513499702747
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Hugo visited Freya.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 45,
+              "generated": "Hugo",
+              "expected": "Hugo",
+              "rival": "Freya",
+              "full_name_logprob": {
+                "Freya": -4.421875,
+                "Hugo": 0.0
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  36731,
+                  7755
+                ],
+                "Hugo": [
+                  39,
+                  33501
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.421875,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Hugo visited Freya.",
+              "positions": [
+                29,
+                44
+              ],
+              "selected_head_max_error": 0.0005548534945205574
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Hugo was visited by Freya.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 47,
+              "generated": "Hugo",
+              "expected": "Hugo",
+              "rival": "Freya",
+              "full_name_logprob": {
+                "Freya": -8.640625,
+                "Hugo": 0.0
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  36731,
+                  7755
+                ],
+                "Hugo": [
+                  39,
+                  33501
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 8.640625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Hugo was visited by Freya.",
+              "positions": [
+                31,
+                46
+              ],
+              "selected_head_max_error": 0.0005918364835366674
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Freya was visited by Hugo.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 47,
+              "generated": "Freya",
+              "expected": "Freya",
+              "rival": "Hugo",
+              "full_name_logprob": {
+                "Freya": 0.0,
+                "Hugo": -5.515625
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  36731,
+                  7755
+                ],
+                "Hugo": [
+                  39,
+                  33501
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 5.515625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Freya was visited by Hugo.",
+              "positions": [
+                31,
+                46
+              ],
+              "selected_head_max_error": 0.0005210897631187095
+            }
+          ]
+        }
+      ],
+      "fully_competent": false
+    },
+    {
+      "family": {
+        "id": "q04",
+        "a": "Zoya",
+        "b": "Derek",
+        "verb": "photographed"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Zoya photographed Derek.\nQuestion: Who photographed someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 41,
+              "generated": "Zoya",
+              "expected": "Zoya",
+              "rival": "Derek",
+              "full_name_logprob": {
+                "Zoya": 0.0,
+                "Derek": -8.671875
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  46062
+                ],
+                "Derek": [
+                  35,
+                  27626
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 8.671875,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "a_agent_active",
+              "sentence": "Zoya photographed Derek.",
+              "positions": [
+                29,
+                40
+              ],
+              "selected_head_max_error": 0.0009048132927773622
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Derek photographed Zoya.\nQuestion: Who photographed someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 41,
+              "generated": "Derek",
+              "expected": "Derek",
+              "rival": "Zoya",
+              "full_name_logprob": {
+                "Zoya": -6.75,
+                "Derek": 0.0
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  46062
+                ],
+                "Derek": [
+                  35,
+                  27626
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 6.75,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "b_agent_active",
+              "sentence": "Derek photographed Zoya.",
+              "positions": [
+                29,
+                40
+              ],
+              "selected_head_max_error": 0.0008813742212581133
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Derek was photographed by Zoya.\nQuestion: Who photographed someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 43,
+              "generated": "Zoya",
+              "expected": "Zoya",
+              "rival": "Derek",
+              "full_name_logprob": {
+                "Zoya": -0.1875,
+                "Derek": -1.78125
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  46062
+                ],
+                "Derek": [
+                  35,
+                  27626
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.59375,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Derek was photographed by Zoya.",
+              "positions": [
+                31,
+                42
+              ],
+              "selected_head_max_error": 0.0008834543792488603
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Zoya was photographed by Derek.\nQuestion: Who photographed someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 43,
+              "generated": "Derek",
+              "expected": "Derek",
+              "rival": "Zoya",
+              "full_name_logprob": {
+                "Zoya": -1.640625,
+                "Derek": -0.21875
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  46062
+                ],
+                "Derek": [
+                  35,
+                  27626
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.421875,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Zoya was photographed by Derek.",
+              "positions": [
+                31,
+                42
+              ],
+              "selected_head_max_error": 0.0009876590106543404
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Zoya photographed Derek.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 45,
+              "generated": "Zoya",
+              "expected": "Zoya",
+              "rival": "Derek",
+              "full_name_logprob": {
+                "Zoya": -0.125,
+                "Derek": -2.078125
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  46062
+                ],
+                "Derek": [
+                  35,
+                  27626
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.953125,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Zoya photographed Derek.",
+              "positions": [
+                29,
+                44
+              ],
+              "selected_head_max_error": 0.0007845127823884468
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Derek photographed Zoya.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 45,
+              "generated": "Derek",
+              "expected": "Derek",
+              "rival": "Zoya",
+              "full_name_logprob": {
+                "Zoya": -2.5,
+                "Derek": -0.09375
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  46062
+                ],
+                "Derek": [
+                  35,
+                  27626
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.40625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Derek photographed Zoya.",
+              "positions": [
+                29,
+                44
+              ],
+              "selected_head_max_error": 0.0007507371994321943
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Derek was photographed by Zoya.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 47,
+              "generated": "Derek",
+              "expected": "Derek",
+              "rival": "Zoya",
+              "full_name_logprob": {
+                "Zoya": -3.78125,
+                "Derek": -0.03125
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  46062
+                ],
+                "Derek": [
+                  35,
+                  27626
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 3.75,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Derek was photographed by Zoya.",
+              "positions": [
+                31,
+                46
+              ],
+              "selected_head_max_error": 0.0007160738139155853
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Zoya was photographed by Derek.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 47,
+              "generated": "Zoya",
+              "expected": "Zoya",
+              "rival": "Derek",
+              "full_name_logprob": {
+                "Zoya": 0.0,
+                "Derek": -6.359375
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  46062
+                ],
+                "Derek": [
+                  35,
+                  27626
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 6.359375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Zoya was photographed by Derek.",
+              "positions": [
+                31,
+                46
+              ],
+              "selected_head_max_error": 0.0007005928622945135
+            }
+          ]
+        }
+      ],
+      "fully_competent": true
+    },
+    {
+      "family": {
+        "id": "q05",
+        "a": "Ruth",
+        "b": "Elias",
+        "verb": "chased"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ruth chased Elias.\nQuestion: Who chased someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 40,
+              "generated": "Ruth",
+              "expected": "Ruth",
+              "rival": "Elias",
+              "full_name_logprob": {
+                "Ruth": 0.0,
+                "Elias": -8.921875
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  940
+                ],
+                "Elias": [
+                  36,
+                  71829
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 8.921875,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "a_agent_active",
+              "sentence": "Ruth chased Elias.",
+              "positions": [
+                28,
+                39
+              ],
+              "selected_head_max_error": 0.0014119092874125272
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Elias chased Ruth.\nQuestion: Who chased someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 40,
+              "generated": "Elias",
+              "expected": "Elias",
+              "rival": "Ruth",
+              "full_name_logprob": {
+                "Ruth": -10.953125,
+                "Elias": 0.0
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  940
+                ],
+                "Elias": [
+                  36,
+                  71829
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 10.953125,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "b_agent_active",
+              "sentence": "Elias chased Ruth.",
+              "positions": [
+                28,
+                39
+              ],
+              "selected_head_max_error": 0.0014618527794993952
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Elias was chased by Ruth.\nQuestion: Who chased someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 42,
+              "generated": "Ruth",
+              "expected": "Ruth",
+              "rival": "Elias",
+              "full_name_logprob": {
+                "Ruth": -0.296875,
+                "Elias": -1.375
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  940
+                ],
+                "Elias": [
+                  36,
+                  71829
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.078125,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Elias was chased by Ruth.",
+              "positions": [
+                30,
+                41
+              ],
+              "selected_head_max_error": 0.0014206800152862797
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ruth was chased by Elias.\nQuestion: Who chased someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 42,
+              "generated": "Elias",
+              "expected": "Elias",
+              "rival": "Ruth",
+              "full_name_logprob": {
+                "Ruth": -2.34375,
+                "Elias": -0.109375
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  940
+                ],
+                "Elias": [
+                  36,
+                  71829
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.234375,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Ruth was chased by Elias.",
+              "positions": [
+                30,
+                41
+              ],
+              "selected_head_max_error": 0.0014170399523933952
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ruth chased Elias.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 44,
+              "generated": "Elias.",
+              "expected": "Ruth",
+              "rival": "Elias",
+              "full_name_logprob": {
+                "Ruth": -0.953125,
+                "Elias": -0.484375
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  940
+                ],
+                "Elias": [
+                  36,
+                  71829
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -0.46875,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Ruth chased Elias.",
+              "positions": [
+                28,
+                43
+              ],
+              "selected_head_max_error": 0.0012763895244525258
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Elias chased Ruth.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 44,
+              "generated": "Ruth",
+              "expected": "Elias",
+              "rival": "Ruth",
+              "full_name_logprob": {
+                "Ruth": -0.171875,
+                "Elias": -1.828125
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  940
+                ],
+                "Elias": [
+                  36,
+                  71829
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -1.65625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Elias chased Ruth.",
+              "positions": [
+                28,
+                43
+              ],
+              "selected_head_max_error": 0.0012204042059558162
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Elias was chased by Ruth.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 46,
+              "generated": "Elias",
+              "expected": "Elias",
+              "rival": "Ruth",
+              "full_name_logprob": {
+                "Ruth": -1.734375,
+                "Elias": -0.1875
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  940
+                ],
+                "Elias": [
+                  36,
+                  71829
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.546875,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Elias was chased by Ruth.",
+              "positions": [
+                30,
+                45
+              ],
+              "selected_head_max_error": 0.0012768138684471353
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ruth was chased by Elias.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 46,
+              "generated": "Ruth",
+              "expected": "Ruth",
+              "rival": "Elias",
+              "full_name_logprob": {
+                "Ruth": 0.0,
+                "Elias": -5.125
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  940
+                ],
+                "Elias": [
+                  36,
+                  71829
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 5.125,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Ruth was chased by Elias.",
+              "positions": [
+                30,
+                45
+              ],
+              "selected_head_max_error": 0.0012393437391651219
+            }
+          ]
+        }
+      ],
+      "fully_competent": false
+    },
+    {
+      "family": {
+        "id": "q06",
+        "a": "Vera",
+        "b": "Colin",
+        "verb": "tapped"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Vera tapped Colin.\nQuestion: Who tapped someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 40,
+              "generated": "Vera tapped Colin.",
+              "expected": "Vera",
+              "rival": "Colin",
+              "full_name_logprob": {
+                "Vera": 0.0,
+                "Colin": -8.5
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2416
+                ],
+                "Colin": [
+                  6127,
+                  258
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": true,
+              "score_margin": 8.5,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "a_agent_active",
+              "sentence": "Vera tapped Colin.",
+              "positions": [
+                28,
+                39
+              ],
+              "selected_head_max_error": 0.00025424575689214635
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Colin tapped Vera.\nQuestion: Who tapped someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 40,
+              "generated": "Colin tapped Vera.",
+              "expected": "Colin",
+              "rival": "Vera",
+              "full_name_logprob": {
+                "Vera": -4.90625,
+                "Colin": 0.0
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2416
+                ],
+                "Colin": [
+                  6127,
+                  258
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": true,
+              "score_margin": 4.90625,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "b_agent_active",
+              "sentence": "Colin tapped Vera.",
+              "positions": [
+                28,
+                39
+              ],
+              "selected_head_max_error": 0.0007042060003072947
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Colin was tapped by Vera.\nQuestion: Who tapped someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 42,
+              "generated": "Vera",
+              "expected": "Vera",
+              "rival": "Colin",
+              "full_name_logprob": {
+                "Vera": -0.09375,
+                "Colin": -2.625
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2416
+                ],
+                "Colin": [
+                  6127,
+                  258
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.53125,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Colin was tapped by Vera.",
+              "positions": [
+                30,
+                41
+              ],
+              "selected_head_max_error": 0.000461036915993418
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Vera was tapped by Colin.\nQuestion: Who tapped someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 42,
+              "generated": "Vera",
+              "expected": "Colin",
+              "rival": "Vera",
+              "full_name_logprob": {
+                "Vera": -0.09375,
+                "Colin": -2.515625
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2416
+                ],
+                "Colin": [
+                  6127,
+                  258
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -2.421875,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Vera was tapped by Colin.",
+              "positions": [
+                30,
+                41
+              ],
+              "selected_head_max_error": 0.0004647286560413022
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Vera tapped Colin.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 44,
+              "generated": "Vera",
+              "expected": "Vera",
+              "rival": "Colin",
+              "full_name_logprob": {
+                "Vera": -0.265625,
+                "Colin": -1.46875
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2416
+                ],
+                "Colin": [
+                  6127,
+                  258
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.203125,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Vera tapped Colin.",
+              "positions": [
+                28,
+                43
+              ],
+              "selected_head_max_error": 0.0005817072746694407
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Colin tapped Vera.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 44,
+              "generated": "Vera",
+              "expected": "Colin",
+              "rival": "Vera",
+              "full_name_logprob": {
+                "Vera": -0.40625,
+                "Colin": -1.109375
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2416
+                ],
+                "Colin": [
+                  6127,
+                  258
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -0.703125,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Colin tapped Vera.",
+              "positions": [
+                28,
+                43
+              ],
+              "selected_head_max_error": 0.0006074811879699382
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Colin was tapped by Vera.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 46,
+              "generated": "Vera",
+              "expected": "Colin",
+              "rival": "Vera",
+              "full_name_logprob": {
+                "Vera": -0.265625,
+                "Colin": -1.453125
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2416
+                ],
+                "Colin": [
+                  6127,
+                  258
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -1.1875,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Colin was tapped by Vera.",
+              "positions": [
+                30,
+                45
+              ],
+              "selected_head_max_error": 0.0005654712004883322
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Vera was tapped by Colin.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 46,
+              "generated": "Vera",
+              "expected": "Vera",
+              "rival": "Colin",
+              "full_name_logprob": {
+                "Vera": -0.0625,
+                "Colin": -2.890625
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2416
+                ],
+                "Colin": [
+                  6127,
+                  258
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.828125,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Vera was tapped by Colin.",
+              "positions": [
+                30,
+                45
+              ],
+              "selected_head_max_error": 0.000495120129677673
+            }
+          ]
+        }
+      ],
+      "fully_competent": false
+    },
+    {
+      "family": {
+        "id": "q07",
+        "a": "Ada",
+        "b": "Martin",
+        "verb": "visited"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ada visited Martin.\nQuestion: Who visited someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 40,
+              "generated": "Ada",
+              "expected": "Ada",
+              "rival": "Martin",
+              "full_name_logprob": {
+                "Ada": 0.0,
+                "Martin": -12.546875
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  95347
+                ],
+                "Martin": [
+                  49119
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 12.546875,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "a_agent_active",
+              "sentence": "Ada visited Martin.",
+              "positions": [
+                28,
+                39
+              ],
+              "selected_head_max_error": 0.00023434535526689615
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Martin visited Ada.\nQuestion: Who visited someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 40,
+              "generated": "Martin",
+              "expected": "Martin",
+              "rival": "Ada",
+              "full_name_logprob": {
+                "Ada": -13.53125,
+                "Martin": 0.0
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  95347
+                ],
+                "Martin": [
+                  49119
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 13.53125,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "b_agent_active",
+              "sentence": "Martin visited Ada.",
+              "positions": [
+                28,
+                39
+              ],
+              "selected_head_max_error": 0.00022612860627191367
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Martin was visited by Ada.\nQuestion: Who visited someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 42,
+              "generated": "Martin",
+              "expected": "Ada",
+              "rival": "Martin",
+              "full_name_logprob": {
+                "Ada": -3.21875,
+                "Martin": -0.046875
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  95347
+                ],
+                "Martin": [
+                  49119
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -3.171875,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Martin was visited by Ada.",
+              "positions": [
+                30,
+                41
+              ],
+              "selected_head_max_error": 0.0001897019176340109
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ada was visited by Martin.\nQuestion: Who visited someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 42,
+              "generated": "Ada",
+              "expected": "Martin",
+              "rival": "Ada",
+              "full_name_logprob": {
+                "Ada": 0.0,
+                "Martin": -5.390625
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  95347
+                ],
+                "Martin": [
+                  49119
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -5.390625,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Ada was visited by Martin.",
+              "positions": [
+                30,
+                41
+              ],
+              "selected_head_max_error": 0.00023195326781433323
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ada visited Martin.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 44,
+              "generated": "Ada",
+              "expected": "Ada",
+              "rival": "Martin",
+              "full_name_logprob": {
+                "Ada": 0.0,
+                "Martin": -8.4375
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  95347
+                ],
+                "Martin": [
+                  49119
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 8.4375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Ada visited Martin.",
+              "positions": [
+                28,
+                43
+              ],
+              "selected_head_max_error": 0.00026698492396093343
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Martin visited Ada.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 44,
+              "generated": "Ada",
+              "expected": "Martin",
+              "rival": "Ada",
+              "full_name_logprob": {
+                "Ada": -0.078125,
+                "Martin": -2.515625
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  95347
+                ],
+                "Martin": [
+                  49119
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -2.4375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Martin visited Ada.",
+              "positions": [
+                28,
+                43
+              ],
+              "selected_head_max_error": 0.00024124345719656048
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Martin was visited by Ada.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 46,
+              "generated": "Ada",
+              "expected": "Martin",
+              "rival": "Ada",
+              "full_name_logprob": {
+                "Ada": -0.46875,
+                "Martin": -0.96875
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  95347
+                ],
+                "Martin": [
+                  49119
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -0.5,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Martin was visited by Ada.",
+              "positions": [
+                30,
+                45
+              ],
+              "selected_head_max_error": 0.00021197593872557263
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Ada was visited by Martin.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 46,
+              "generated": "Ada",
+              "expected": "Ada",
+              "rival": "Martin",
+              "full_name_logprob": {
+                "Ada": 0.0,
+                "Martin": -9.21875
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  95347
+                ],
+                "Martin": [
+                  49119
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 9.21875,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Ada was visited by Martin.",
+              "positions": [
+                30,
+                45
+              ],
+              "selected_head_max_error": 0.0002493590233427767
+            }
+          ]
+        }
+      ],
+      "fully_competent": false
+    },
+    {
+      "family": {
+        "id": "q08",
+        "a": "Cora",
+        "b": "Leon",
+        "verb": "photographed"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Cora photographed Leon.\nQuestion: Who photographed someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 41,
+              "generated": "Cora",
+              "expected": "Cora",
+              "rival": "Leon",
+              "full_name_logprob": {
+                "Cora": 0.0,
+                "Leon": -10.0625
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6215
+                ],
+                "Leon": [
+                  71904
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 10.0625,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "a_agent_active",
+              "sentence": "Cora photographed Leon.",
+              "positions": [
+                29,
+                40
+              ],
+              "selected_head_max_error": 0.0005952673601541392
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Leon photographed Cora.\nQuestion: Who photographed someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 41,
+              "generated": "Leon",
+              "expected": "Leon",
+              "rival": "Cora",
+              "full_name_logprob": {
+                "Cora": -4.09375,
+                "Leon": -0.03125
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6215
+                ],
+                "Leon": [
+                  71904
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.0625,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "b_agent_active",
+              "sentence": "Leon photographed Cora.",
+              "positions": [
+                29,
+                40
+              ],
+              "selected_head_max_error": 0.0003596800961105373
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Leon was photographed by Cora.\nQuestion: Who photographed someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 43,
+              "generated": "Cora",
+              "expected": "Cora",
+              "rival": "Leon",
+              "full_name_logprob": {
+                "Cora": 0.0,
+                "Leon": -8.328125
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6215
+                ],
+                "Leon": [
+                  71904
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 8.328125,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Leon was photographed by Cora.",
+              "positions": [
+                31,
+                42
+              ],
+              "selected_head_max_error": 0.0004755991620370992
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Cora was photographed by Leon.\nQuestion: Who photographed someone?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 43,
+              "generated": "Leon",
+              "expected": "Leon",
+              "rival": "Cora",
+              "full_name_logprob": {
+                "Cora": -2.203125,
+                "Leon": -0.125
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6215
+                ],
+                "Leon": [
+                  71904
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.078125,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Cora was photographed by Leon.",
+              "positions": [
+                31,
+                42
+              ],
+              "selected_head_max_error": 0.00037141957487563104
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Cora photographed Leon.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 45,
+              "generated": "Cora",
+              "expected": "Cora",
+              "rival": "Leon",
+              "full_name_logprob": {
+                "Cora": 0.0,
+                "Leon": -7.25
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6215
+                ],
+                "Leon": [
+                  71904
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 7.25,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Cora photographed Leon.",
+              "positions": [
+                29,
+                44
+              ],
+              "selected_head_max_error": 0.0005156511639938799
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Leon photographed Cora.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 45,
+              "generated": "Cora.",
+              "expected": "Leon",
+              "rival": "Cora",
+              "full_name_logprob": {
+                "Cora": -0.0625,
+                "Leon": -3.078125
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6215
+                ],
+                "Leon": [
+                  71904
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -3.015625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Leon photographed Cora.",
+              "positions": [
+                29,
+                44
+              ],
+              "selected_head_max_error": 0.0003377206686323575
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Leon was photographed by Cora.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 47,
+              "generated": "Cora",
+              "expected": "Leon",
+              "rival": "Cora",
+              "full_name_logprob": {
+                "Cora": -0.28125,
+                "Leon": -1.359375
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6215
+                ],
+                "Leon": [
+                  71904
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -1.078125,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Leon was photographed by Cora.",
+              "positions": [
+                31,
+                46
+              ],
+              "selected_head_max_error": 0.0003626695534819646
+            },
+            {
+              "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Cora was photographed by Leon.\nQuestion: Who is mentioned first in the sentence?<|im_end|>\n<|im_start|>assistant\n",
+              "prompt_token_count": 47,
+              "generated": "Cora",
+              "expected": "Cora",
+              "rival": "Leon",
+              "full_name_logprob": {
+                "Cora": 0.0,
+                "Leon": -7.359375
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6215
+                ],
+                "Leon": [
+                  71904
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 7.359375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Cora was photographed by Leon.",
+              "positions": [
+                31,
+                46
+              ],
+              "selected_head_max_error": 0.0004789204913464573
+            }
+          ]
+        }
+      ],
+      "fully_competent": false
+    }
+  ],
+  "elapsed_seconds": 32.706554083153605,
+  "state_shape": "family, question, sentence condition, stage, site, hidden dimension"
+}

@@ -1,0 +1,2270 @@
+{
+  "status": "frozen_query_geometry_pilot_complete",
+  "model": "llama3b",
+  "lock_sha256": "3735367fce044f102a13bd27df718d62fea62760d96ef61b6c2a9887c7baadeb",
+  "script_sha256": "43153fe27a7231dfe37d06dac11f8d09abe09158b8af5e5bc3bba415ec5f2567",
+  "scorer_sha256": "9070bae06ba8c77c0a0c307a2d8b5ce6656440218d63321b5ba4e3c6b79fa7dc",
+  "forward_helper_sha256": "28eb8afcffa94903bb1f994f8595e1f12db20b68346da3797d4816cd1f0fef44",
+  "config_sha256": "c546925585e48f43890d9dc5150df4fec73dd3780d92961c5ace451934cc4cd6",
+  "states_sha256": "685998f71666a2f0a5447cb4f82e73ecb88e69626754a6abb009d506470894bc",
+  "families": [
+    {
+      "family": {
+        "id": "q01",
+        "a": "Lena",
+        "b": "Bruno",
+        "verb": "chased"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Lena chased Bruno.\nQuestion: Who chased someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 62,
+              "generated": "Lena",
+              "expected": "Lena",
+              "rival": "Bruno",
+              "full_name_logprob": {
+                "Lena": -0.03125,
+                "Bruno": -3.625
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7304
+                ],
+                "Bruno": [
+                  95330,
+                  78
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 3.59375,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "a_agent_active",
+              "sentence": "Lena chased Bruno.",
+              "positions": [
+                50,
+                61
+              ],
+              "selected_head_max_error": 0.00019614433247028273
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Bruno chased Lena.\nQuestion: Who chased someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 62,
+              "generated": "Bruno",
+              "expected": "Bruno",
+              "rival": "Lena",
+              "full_name_logprob": {
+                "Lena": -4.421875,
+                "Bruno": -0.015625
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7304
+                ],
+                "Bruno": [
+                  95330,
+                  78
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.40625,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "b_agent_active",
+              "sentence": "Bruno chased Lena.",
+              "positions": [
+                50,
+                61
+              ],
+              "selected_head_max_error": 0.0002706051371319518
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Bruno was chased by Lena.\nQuestion: Who chased someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 64,
+              "generated": "Bruno",
+              "expected": "Lena",
+              "rival": "Bruno",
+              "full_name_logprob": {
+                "Lena": -2.125,
+                "Bruno": -0.125
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7304
+                ],
+                "Bruno": [
+                  95330,
+                  78
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -2.0,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Bruno was chased by Lena.",
+              "positions": [
+                52,
+                63
+              ],
+              "selected_head_max_error": 0.0002552542936875568
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Lena was chased by Bruno.\nQuestion: Who chased someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 64,
+              "generated": "Bruno",
+              "expected": "Bruno",
+              "rival": "Lena",
+              "full_name_logprob": {
+                "Lena": -2.59375,
+                "Bruno": -0.078125
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7304
+                ],
+                "Bruno": [
+                  95330,
+                  78
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.515625,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Lena was chased by Bruno.",
+              "positions": [
+                52,
+                63
+              ],
+              "selected_head_max_error": 0.000180122126714366
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Lena chased Bruno.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 66,
+              "generated": "Lena",
+              "expected": "Lena",
+              "rival": "Bruno",
+              "full_name_logprob": {
+                "Lena": -0.015625,
+                "Bruno": -3.90625
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7304
+                ],
+                "Bruno": [
+                  95330,
+                  78
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 3.890625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Lena chased Bruno.",
+              "positions": [
+                50,
+                65
+              ],
+              "selected_head_max_error": 0.0002592680963502403
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Bruno chased Lena.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 66,
+              "generated": "Bruno",
+              "expected": "Bruno",
+              "rival": "Lena",
+              "full_name_logprob": {
+                "Lena": -2.40625,
+                "Bruno": -0.09375
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7304
+                ],
+                "Bruno": [
+                  95330,
+                  78
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.3125,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Bruno chased Lena.",
+              "positions": [
+                50,
+                65
+              ],
+              "selected_head_max_error": 0.00030388915203261035
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Bruno was chased by Lena.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 68,
+              "generated": "Bruno",
+              "expected": "Bruno",
+              "rival": "Lena",
+              "full_name_logprob": {
+                "Lena": -4.96875,
+                "Bruno": -0.015625
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7304
+                ],
+                "Bruno": [
+                  95330,
+                  78
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.953125,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Bruno was chased by Lena.",
+              "positions": [
+                52,
+                67
+              ],
+              "selected_head_max_error": 0.0002648743953663768
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Lena was chased by Bruno.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 68,
+              "generated": "Lena",
+              "expected": "Lena",
+              "rival": "Bruno",
+              "full_name_logprob": {
+                "Lena": -0.015625,
+                "Bruno": -4.65625
+              },
+              "candidate_token_ids": {
+                "Lena": [
+                  43,
+                  7304
+                ],
+                "Bruno": [
+                  95330,
+                  78
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.640625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Lena was chased by Bruno.",
+              "positions": [
+                52,
+                67
+              ],
+              "selected_head_max_error": 0.000288778800765499
+            }
+          ]
+        }
+      ],
+      "fully_competent": false
+    },
+    {
+      "family": {
+        "id": "q02",
+        "a": "Tessa",
+        "b": "Oscar",
+        "verb": "tapped"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Tessa tapped Oscar.\nQuestion: Who tapped someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 63,
+              "generated": "Tessa",
+              "expected": "Tessa",
+              "rival": "Oscar",
+              "full_name_logprob": {
+                "Tessa": -0.015625,
+                "Oscar": -4.4375
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  26577
+                ],
+                "Oscar": [
+                  46,
+                  25529
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.421875,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "a_agent_active",
+              "sentence": "Tessa tapped Oscar.",
+              "positions": [
+                51,
+                62
+              ],
+              "selected_head_max_error": 9.654547337945019e-05
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Oscar tapped Tessa.\nQuestion: Who tapped someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 63,
+              "generated": "Oscar",
+              "expected": "Oscar",
+              "rival": "Tessa",
+              "full_name_logprob": {
+                "Tessa": -3.515625,
+                "Oscar": -0.03125
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  26577
+                ],
+                "Oscar": [
+                  46,
+                  25529
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 3.484375,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "b_agent_active",
+              "sentence": "Oscar tapped Tessa.",
+              "positions": [
+                51,
+                62
+              ],
+              "selected_head_max_error": 0.00016193185361856877
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Oscar was tapped by Tessa.\nQuestion: Who tapped someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 65,
+              "generated": "Tessa",
+              "expected": "Tessa",
+              "rival": "Oscar",
+              "full_name_logprob": {
+                "Tessa": -0.453125,
+                "Oscar": -1.03125
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  26577
+                ],
+                "Oscar": [
+                  46,
+                  25529
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 0.578125,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Oscar was tapped by Tessa.",
+              "positions": [
+                53,
+                64
+              ],
+              "selected_head_max_error": 0.00013900550743173312
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Tessa was tapped by Oscar.\nQuestion: Who tapped someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 65,
+              "generated": "Oscar",
+              "expected": "Oscar",
+              "rival": "Tessa",
+              "full_name_logprob": {
+                "Tessa": -1.296875,
+                "Oscar": -0.328125
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  26577
+                ],
+                "Oscar": [
+                  46,
+                  25529
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 0.96875,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Tessa was tapped by Oscar.",
+              "positions": [
+                53,
+                64
+              ],
+              "selected_head_max_error": 9.52007427628132e-05
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Tessa tapped Oscar.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 67,
+              "generated": "Tessa",
+              "expected": "Tessa",
+              "rival": "Oscar",
+              "full_name_logprob": {
+                "Tessa": -0.03125,
+                "Oscar": -3.65625
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  26577
+                ],
+                "Oscar": [
+                  46,
+                  25529
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 3.625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Tessa tapped Oscar.",
+              "positions": [
+                51,
+                66
+              ],
+              "selected_head_max_error": 4.660702167313957e-05
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Oscar tapped Tessa.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 67,
+              "generated": "Oscar",
+              "expected": "Oscar",
+              "rival": "Tessa",
+              "full_name_logprob": {
+                "Tessa": -1.390625,
+                "Oscar": -0.28125
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  26577
+                ],
+                "Oscar": [
+                  46,
+                  25529
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.109375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Oscar tapped Tessa.",
+              "positions": [
+                51,
+                66
+              ],
+              "selected_head_max_error": 0.0001597438413014629
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Oscar was tapped by Tessa.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 69,
+              "generated": "Oscar",
+              "expected": "Oscar",
+              "rival": "Tessa",
+              "full_name_logprob": {
+                "Tessa": -4.421875,
+                "Oscar": -0.015625
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  26577
+                ],
+                "Oscar": [
+                  46,
+                  25529
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.40625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Oscar was tapped by Tessa.",
+              "positions": [
+                53,
+                68
+              ],
+              "selected_head_max_error": 0.00014947755883554237
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Tessa was tapped by Oscar.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 69,
+              "generated": "Tessa",
+              "expected": "Tessa",
+              "rival": "Oscar",
+              "full_name_logprob": {
+                "Tessa": -0.015625,
+                "Oscar": -4.03125
+              },
+              "candidate_token_ids": {
+                "Tessa": [
+                  51,
+                  26577
+                ],
+                "Oscar": [
+                  46,
+                  25529
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.015625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Tessa was tapped by Oscar.",
+              "positions": [
+                53,
+                68
+              ],
+              "selected_head_max_error": 3.696104622363805e-05
+            }
+          ]
+        }
+      ],
+      "fully_competent": true
+    },
+    {
+      "family": {
+        "id": "q03",
+        "a": "Freya",
+        "b": "Hugo",
+        "verb": "visited"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Freya visited Hugo.\nQuestion: Who visited someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 63,
+              "generated": "Freya",
+              "expected": "Freya",
+              "rival": "Hugo",
+              "full_name_logprob": {
+                "Freya": -0.046875,
+                "Hugo": -3.109375
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  37831,
+                  7911
+                ],
+                "Hugo": [
+                  39,
+                  34601
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 3.0625,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "a_agent_active",
+              "sentence": "Freya visited Hugo.",
+              "positions": [
+                51,
+                62
+              ],
+              "selected_head_max_error": 0.00021814150635890428
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Hugo visited Freya.\nQuestion: Who visited someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 63,
+              "generated": "Hugo",
+              "expected": "Hugo",
+              "rival": "Freya",
+              "full_name_logprob": {
+                "Freya": -4.3125,
+                "Hugo": -0.015625
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  37831,
+                  7911
+                ],
+                "Hugo": [
+                  39,
+                  34601
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.296875,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "b_agent_active",
+              "sentence": "Hugo visited Freya.",
+              "positions": [
+                51,
+                62
+              ],
+              "selected_head_max_error": 0.00039900357874600445
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Hugo was visited by Freya.\nQuestion: Who visited someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 65,
+              "generated": "Hugo",
+              "expected": "Freya",
+              "rival": "Hugo",
+              "full_name_logprob": {
+                "Freya": -1.4375,
+                "Hugo": -0.28125
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  37831,
+                  7911
+                ],
+                "Hugo": [
+                  39,
+                  34601
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -1.15625,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Hugo was visited by Freya.",
+              "positions": [
+                53,
+                64
+              ],
+              "selected_head_max_error": 0.00033429060560763446
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Freya was visited by Hugo.\nQuestion: Who visited someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 65,
+              "generated": "Hugo",
+              "expected": "Hugo",
+              "rival": "Freya",
+              "full_name_logprob": {
+                "Freya": -1.28125,
+                "Hugo": -0.328125
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  37831,
+                  7911
+                ],
+                "Hugo": [
+                  39,
+                  34601
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 0.953125,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Freya was visited by Hugo.",
+              "positions": [
+                53,
+                64
+              ],
+              "selected_head_max_error": 0.0002218327495597805
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Freya visited Hugo.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 67,
+              "generated": "Freya",
+              "expected": "Freya",
+              "rival": "Hugo",
+              "full_name_logprob": {
+                "Freya": -0.078125,
+                "Hugo": -2.6875
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  37831,
+                  7911
+                ],
+                "Hugo": [
+                  39,
+                  34601
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.609375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Freya visited Hugo.",
+              "positions": [
+                51,
+                66
+              ],
+              "selected_head_max_error": 0.00021782007136295078
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Hugo visited Freya.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 67,
+              "generated": "Hugo",
+              "expected": "Hugo",
+              "rival": "Freya",
+              "full_name_logprob": {
+                "Freya": -5.34375,
+                "Hugo": 0.0
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  37831,
+                  7911
+                ],
+                "Hugo": [
+                  39,
+                  34601
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 5.34375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Hugo visited Freya.",
+              "positions": [
+                51,
+                66
+              ],
+              "selected_head_max_error": 0.00036557570099660097
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Hugo was visited by Freya.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 69,
+              "generated": "Hugo",
+              "expected": "Hugo",
+              "rival": "Freya",
+              "full_name_logprob": {
+                "Freya": -7.6875,
+                "Hugo": 0.0
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  37831,
+                  7911
+                ],
+                "Hugo": [
+                  39,
+                  34601
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 7.6875,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Hugo was visited by Freya.",
+              "positions": [
+                53,
+                68
+              ],
+              "selected_head_max_error": 0.000368829847559482
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Freya was visited by Hugo.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 69,
+              "generated": "Freya",
+              "expected": "Freya",
+              "rival": "Hugo",
+              "full_name_logprob": {
+                "Freya": -0.015625,
+                "Hugo": -4.359375
+              },
+              "candidate_token_ids": {
+                "Freya": [
+                  37831,
+                  7911
+                ],
+                "Hugo": [
+                  39,
+                  34601
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.34375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Freya was visited by Hugo.",
+              "positions": [
+                53,
+                68
+              ],
+              "selected_head_max_error": 0.00022635779097157638
+            }
+          ]
+        }
+      ],
+      "fully_competent": false
+    },
+    {
+      "family": {
+        "id": "q04",
+        "a": "Zoya",
+        "b": "Derek",
+        "verb": "photographed"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Zoya photographed Derek.\nQuestion: Who photographed someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 63,
+              "generated": "Zoya",
+              "expected": "Zoya",
+              "rival": "Derek",
+              "full_name_logprob": {
+                "Zoya": -0.171875,
+                "Derek": -1.90625
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  47162
+                ],
+                "Derek": [
+                  35,
+                  28726
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.734375,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "a_agent_active",
+              "sentence": "Zoya photographed Derek.",
+              "positions": [
+                51,
+                62
+              ],
+              "selected_head_max_error": 0.0003135929957771566
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Derek photographed Zoya.\nQuestion: Who photographed someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 63,
+              "generated": "Derek",
+              "expected": "Derek",
+              "rival": "Zoya",
+              "full_name_logprob": {
+                "Zoya": -3.375,
+                "Derek": -0.03125
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  47162
+                ],
+                "Derek": [
+                  35,
+                  28726
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 3.34375,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "b_agent_active",
+              "sentence": "Derek photographed Zoya.",
+              "positions": [
+                51,
+                62
+              ],
+              "selected_head_max_error": 0.00022963882021187487
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Derek was photographed by Zoya.\nQuestion: Who photographed someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 65,
+              "generated": "Zoya",
+              "expected": "Zoya",
+              "rival": "Derek",
+              "full_name_logprob": {
+                "Zoya": -0.25,
+                "Derek": -1.5625
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  47162
+                ],
+                "Derek": [
+                  35,
+                  28726
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.3125,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Derek was photographed by Zoya.",
+              "positions": [
+                53,
+                64
+              ],
+              "selected_head_max_error": 0.0002751034011261311
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Zoya was photographed by Derek.\nQuestion: Who photographed someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 65,
+              "generated": "Derek",
+              "expected": "Derek",
+              "rival": "Zoya",
+              "full_name_logprob": {
+                "Zoya": -1.640625,
+                "Derek": -0.21875
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  47162
+                ],
+                "Derek": [
+                  35,
+                  28726
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.421875,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Zoya was photographed by Derek.",
+              "positions": [
+                53,
+                64
+              ],
+              "selected_head_max_error": 0.0002508756193719819
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Zoya photographed Derek.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 67,
+              "generated": "Zoya",
+              "expected": "Zoya",
+              "rival": "Derek",
+              "full_name_logprob": {
+                "Zoya": -0.140625,
+                "Derek": -1.984375
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  47162
+                ],
+                "Derek": [
+                  35,
+                  28726
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.84375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Zoya photographed Derek.",
+              "positions": [
+                51,
+                66
+              ],
+              "selected_head_max_error": 0.0003410270409389682
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Derek photographed Zoya.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 67,
+              "generated": "Derek",
+              "expected": "Derek",
+              "rival": "Zoya",
+              "full_name_logprob": {
+                "Zoya": -2.9375,
+                "Derek": -0.0625
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  47162
+                ],
+                "Derek": [
+                  35,
+                  28726
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.875,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Derek photographed Zoya.",
+              "positions": [
+                51,
+                66
+              ],
+              "selected_head_max_error": 0.00024115975620730978
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Derek was photographed by Zoya.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 69,
+              "generated": "Derek",
+              "expected": "Derek",
+              "rival": "Zoya",
+              "full_name_logprob": {
+                "Zoya": -3.859375,
+                "Derek": -0.015625
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  47162
+                ],
+                "Derek": [
+                  35,
+                  28726
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 3.84375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Derek was photographed by Zoya.",
+              "positions": [
+                53,
+                68
+              ],
+              "selected_head_max_error": 0.00020441472839038966
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Zoya was photographed by Derek.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 69,
+              "generated": "Zoya",
+              "expected": "Zoya",
+              "rival": "Derek",
+              "full_name_logprob": {
+                "Zoya": -0.015625,
+                "Derek": -4.125
+              },
+              "candidate_token_ids": {
+                "Zoya": [
+                  57,
+                  47162
+                ],
+                "Derek": [
+                  35,
+                  28726
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.109375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Zoya was photographed by Derek.",
+              "positions": [
+                53,
+                68
+              ],
+              "selected_head_max_error": 0.00034834841360620317
+            }
+          ]
+        }
+      ],
+      "fully_competent": true
+    },
+    {
+      "family": {
+        "id": "q05",
+        "a": "Ruth",
+        "b": "Elias",
+        "verb": "chased"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Ruth chased Elias.\nQuestion: Who chased someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 62,
+              "generated": "Ruth",
+              "expected": "Ruth",
+              "rival": "Elias",
+              "full_name_logprob": {
+                "Ruth": -0.046875,
+                "Elias": -3.234375
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  952
+                ],
+                "Elias": [
+                  36,
+                  72929
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 3.1875,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "a_agent_active",
+              "sentence": "Ruth chased Elias.",
+              "positions": [
+                50,
+                61
+              ],
+              "selected_head_max_error": 0.0003996347733306038
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Elias chased Ruth.\nQuestion: Who chased someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 62,
+              "generated": "Elias",
+              "expected": "Elias",
+              "rival": "Ruth",
+              "full_name_logprob": {
+                "Ruth": -4.375,
+                "Elias": -0.015625
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  952
+                ],
+                "Elias": [
+                  36,
+                  72929
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.359375,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "b_agent_active",
+              "sentence": "Elias chased Ruth.",
+              "positions": [
+                50,
+                61
+              ],
+              "selected_head_max_error": 0.00029344528649133395
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Elias was chased by Ruth.\nQuestion: Who chased someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 64,
+              "generated": "Elias",
+              "expected": "Ruth",
+              "rival": "Elias",
+              "full_name_logprob": {
+                "Ruth": -1.078125,
+                "Elias": -0.421875
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  952
+                ],
+                "Elias": [
+                  36,
+                  72929
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -0.65625,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Elias was chased by Ruth.",
+              "positions": [
+                52,
+                63
+              ],
+              "selected_head_max_error": 0.0003484834723863628
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Ruth was chased by Elias.\nQuestion: Who chased someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 64,
+              "generated": "Elias",
+              "expected": "Elias",
+              "rival": "Ruth",
+              "full_name_logprob": {
+                "Ruth": -1.328125,
+                "Elias": -0.328125
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  952
+                ],
+                "Elias": [
+                  36,
+                  72929
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.0,
+              "question_key": "agent",
+              "question": "Who chased someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Ruth was chased by Elias.",
+              "positions": [
+                52,
+                63
+              ],
+              "selected_head_max_error": 0.00034441879049396107
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Ruth chased Elias.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 66,
+              "generated": "Ruth",
+              "expected": "Ruth",
+              "rival": "Elias",
+              "full_name_logprob": {
+                "Ruth": -0.046875,
+                "Elias": -3.09375
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  952
+                ],
+                "Elias": [
+                  36,
+                  72929
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 3.046875,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Ruth chased Elias.",
+              "positions": [
+                50,
+                65
+              ],
+              "selected_head_max_error": 0.00039116958271279145
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Elias chased Ruth.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 66,
+              "generated": "Elias",
+              "expected": "Elias",
+              "rival": "Ruth",
+              "full_name_logprob": {
+                "Ruth": -3.484375,
+                "Elias": -0.03125
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  952
+                ],
+                "Elias": [
+                  36,
+                  72929
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 3.453125,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Elias chased Ruth.",
+              "positions": [
+                50,
+                65
+              ],
+              "selected_head_max_error": 0.0002751867112351647
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Elias was chased by Ruth.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 68,
+              "generated": "Elias",
+              "expected": "Elias",
+              "rival": "Ruth",
+              "full_name_logprob": {
+                "Ruth": -5.234375,
+                "Elias": 0.0
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  952
+                ],
+                "Elias": [
+                  36,
+                  72929
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 5.234375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Elias was chased by Ruth.",
+              "positions": [
+                52,
+                67
+              ],
+              "selected_head_max_error": 0.00027267354075277694
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Ruth was chased by Elias.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 68,
+              "generated": "Ruth",
+              "expected": "Ruth",
+              "rival": "Elias",
+              "full_name_logprob": {
+                "Ruth": -0.015625,
+                "Elias": -4.09375
+              },
+              "candidate_token_ids": {
+                "Ruth": [
+                  49,
+                  952
+                ],
+                "Elias": [
+                  36,
+                  72929
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.078125,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Ruth was chased by Elias.",
+              "positions": [
+                52,
+                67
+              ],
+              "selected_head_max_error": 0.0004025096251609739
+            }
+          ]
+        }
+      ],
+      "fully_competent": false
+    },
+    {
+      "family": {
+        "id": "q06",
+        "a": "Vera",
+        "b": "Colin",
+        "verb": "tapped"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Vera tapped Colin.\nQuestion: Who tapped someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 62,
+              "generated": "Vera",
+              "expected": "Vera",
+              "rival": "Colin",
+              "full_name_logprob": {
+                "Vera": -0.046875,
+                "Colin": -3.15625
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2473
+                ],
+                "Colin": [
+                  6255,
+                  258
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 3.109375,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "a_agent_active",
+              "sentence": "Vera tapped Colin.",
+              "positions": [
+                50,
+                61
+              ],
+              "selected_head_max_error": 9.09166955409546e-05
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Colin tapped Vera.\nQuestion: Who tapped someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 62,
+              "generated": "Colin",
+              "expected": "Colin",
+              "rival": "Vera",
+              "full_name_logprob": {
+                "Vera": -4.875,
+                "Colin": -0.015625
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2473
+                ],
+                "Colin": [
+                  6255,
+                  258
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.859375,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "b_agent_active",
+              "sentence": "Colin tapped Vera.",
+              "positions": [
+                50,
+                61
+              ],
+              "selected_head_max_error": 0.0002033271568357975
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Colin was tapped by Vera.\nQuestion: Who tapped someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 64,
+              "generated": "Vera",
+              "expected": "Vera",
+              "rival": "Colin",
+              "full_name_logprob": {
+                "Vera": -0.703125,
+                "Colin": -0.703125
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2473
+                ],
+                "Colin": [
+                  6255,
+                  258
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": false,
+              "score_margin": 0.0,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Colin was tapped by Vera.",
+              "positions": [
+                52,
+                63
+              ],
+              "selected_head_max_error": 0.00016035178145301643
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Vera was tapped by Colin.\nQuestion: Who tapped someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 64,
+              "generated": "Colin",
+              "expected": "Colin",
+              "rival": "Vera",
+              "full_name_logprob": {
+                "Vera": -1.390625,
+                "Colin": -0.296875
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2473
+                ],
+                "Colin": [
+                  6255,
+                  258
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.09375,
+              "question_key": "agent",
+              "question": "Who tapped someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Vera was tapped by Colin.",
+              "positions": [
+                52,
+                63
+              ],
+              "selected_head_max_error": 0.00017631349072289026
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Vera tapped Colin.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 66,
+              "generated": "Vera",
+              "expected": "Vera",
+              "rival": "Colin",
+              "full_name_logprob": {
+                "Vera": -0.0625,
+                "Colin": -2.703125
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2473
+                ],
+                "Colin": [
+                  6255,
+                  258
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.640625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Vera tapped Colin.",
+              "positions": [
+                50,
+                65
+              ],
+              "selected_head_max_error": 0.00011672113526017824
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Colin tapped Vera.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 66,
+              "generated": "Colin",
+              "expected": "Colin",
+              "rival": "Vera",
+              "full_name_logprob": {
+                "Vera": -2.46875,
+                "Colin": -0.09375
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2473
+                ],
+                "Colin": [
+                  6255,
+                  258
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Colin tapped Vera.",
+              "positions": [
+                50,
+                65
+              ],
+              "selected_head_max_error": 0.00020690948451829172
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Colin was tapped by Vera.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 68,
+              "generated": "Colin",
+              "expected": "Colin",
+              "rival": "Vera",
+              "full_name_logprob": {
+                "Vera": -4.359375,
+                "Colin": -0.015625
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2473
+                ],
+                "Colin": [
+                  6255,
+                  258
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.34375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Colin was tapped by Vera.",
+              "positions": [
+                52,
+                67
+              ],
+              "selected_head_max_error": 0.0002058084131171256
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Vera was tapped by Colin.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 68,
+              "generated": "Vera",
+              "expected": "Vera",
+              "rival": "Colin",
+              "full_name_logprob": {
+                "Vera": -0.015625,
+                "Colin": -4.21875
+              },
+              "candidate_token_ids": {
+                "Vera": [
+                  53,
+                  2473
+                ],
+                "Colin": [
+                  6255,
+                  258
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.203125,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Vera was tapped by Colin.",
+              "positions": [
+                52,
+                67
+              ],
+              "selected_head_max_error": 0.00010179478808680642
+            }
+          ]
+        }
+      ],
+      "fully_competent": false
+    },
+    {
+      "family": {
+        "id": "q07",
+        "a": "Ada",
+        "b": "Martin",
+        "verb": "visited"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Ada visited Martin.\nQuestion: Who visited someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 62,
+              "generated": "Ada",
+              "expected": "Ada",
+              "rival": "Martin",
+              "full_name_logprob": {
+                "Ada": -0.609375,
+                "Martin": -0.8125
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  96447
+                ],
+                "Martin": [
+                  50219
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 0.203125,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "a_agent_active",
+              "sentence": "Ada visited Martin.",
+              "positions": [
+                50,
+                61
+              ],
+              "selected_head_max_error": 0.00019877574344917548
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Martin visited Ada.\nQuestion: Who visited someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 62,
+              "generated": "Martin",
+              "expected": "Martin",
+              "rival": "Ada",
+              "full_name_logprob": {
+                "Ada": -6.484375,
+                "Martin": 0.0
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  96447
+                ],
+                "Martin": [
+                  50219
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 6.484375,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "b_agent_active",
+              "sentence": "Martin visited Ada.",
+              "positions": [
+                50,
+                61
+              ],
+              "selected_head_max_error": 0.00021647292228976767
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Martin was visited by Ada.\nQuestion: Who visited someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 64,
+              "generated": "Martin",
+              "expected": "Ada",
+              "rival": "Martin",
+              "full_name_logprob": {
+                "Ada": -2.234375,
+                "Martin": -0.125
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  96447
+                ],
+                "Martin": [
+                  50219
+                ]
+              },
+              "greedy_correct": false,
+              "score_correct": false,
+              "score_margin": -2.109375,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Martin was visited by Ada.",
+              "positions": [
+                52,
+                63
+              ],
+              "selected_head_max_error": 0.0002160502940533604
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Ada was visited by Martin.\nQuestion: Who visited someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 64,
+              "generated": "Martin",
+              "expected": "Martin",
+              "rival": "Ada",
+              "full_name_logprob": {
+                "Ada": -3.0625,
+                "Martin": -0.046875
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  96447
+                ],
+                "Martin": [
+                  50219
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 3.015625,
+              "question_key": "agent",
+              "question": "Who visited someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Ada was visited by Martin.",
+              "positions": [
+                52,
+                63
+              ],
+              "selected_head_max_error": 0.00019276801493717244
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Ada visited Martin.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 66,
+              "generated": "Ada",
+              "expected": "Ada",
+              "rival": "Martin",
+              "full_name_logprob": {
+                "Ada": -0.328125,
+                "Martin": -1.296875
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  96447
+                ],
+                "Martin": [
+                  50219
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 0.96875,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Ada visited Martin.",
+              "positions": [
+                50,
+                65
+              ],
+              "selected_head_max_error": 0.00016609515556709198
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Martin visited Ada.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 66,
+              "generated": "Martin",
+              "expected": "Martin",
+              "rival": "Ada",
+              "full_name_logprob": {
+                "Ada": -5.546875,
+                "Martin": 0.0
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  96447
+                ],
+                "Martin": [
+                  50219
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 5.546875,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Martin visited Ada.",
+              "positions": [
+                50,
+                65
+              ],
+              "selected_head_max_error": 0.00018456657344856353
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Martin was visited by Ada.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 68,
+              "generated": "Martin",
+              "expected": "Martin",
+              "rival": "Ada",
+              "full_name_logprob": {
+                "Ada": -7.671875,
+                "Martin": 0.0
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  96447
+                ],
+                "Martin": [
+                  50219
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 7.671875,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Martin was visited by Ada.",
+              "positions": [
+                52,
+                67
+              ],
+              "selected_head_max_error": 0.00016399843736536468
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Ada was visited by Martin.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 68,
+              "generated": "Ada",
+              "expected": "Ada",
+              "rival": "Martin",
+              "full_name_logprob": {
+                "Ada": -0.0625,
+                "Martin": -2.8125
+              },
+              "candidate_token_ids": {
+                "Ada": [
+                  96447
+                ],
+                "Martin": [
+                  50219
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.75,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Ada was visited by Martin.",
+              "positions": [
+                52,
+                67
+              ],
+              "selected_head_max_error": 0.00014681585232878547
+            }
+          ]
+        }
+      ],
+      "fully_competent": false
+    },
+    {
+      "family": {
+        "id": "q08",
+        "a": "Cora",
+        "b": "Leon",
+        "verb": "photographed"
+      },
+      "tasks": [
+        {
+          "question_key": "agent",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Cora photographed Leon.\nQuestion: Who photographed someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 63,
+              "generated": "Cora",
+              "expected": "Cora",
+              "rival": "Leon",
+              "full_name_logprob": {
+                "Cora": -0.015625,
+                "Leon": -4.40625
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6347
+                ],
+                "Leon": [
+                  73004
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.390625,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "a_agent_active",
+              "sentence": "Cora photographed Leon.",
+              "positions": [
+                51,
+                62
+              ],
+              "selected_head_max_error": 8.14273436802182e-05
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Leon photographed Cora.\nQuestion: Who photographed someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 63,
+              "generated": "Leon",
+              "expected": "Leon",
+              "rival": "Cora",
+              "full_name_logprob": {
+                "Cora": -4.265625,
+                "Leon": -0.03125
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6347
+                ],
+                "Leon": [
+                  73004
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.234375,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "b_agent_active",
+              "sentence": "Leon photographed Cora.",
+              "positions": [
+                51,
+                62
+              ],
+              "selected_head_max_error": 0.00040521666057102834
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Leon was photographed by Cora.\nQuestion: Who photographed someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 65,
+              "generated": "Cora",
+              "expected": "Cora",
+              "rival": "Leon",
+              "full_name_logprob": {
+                "Cora": -0.265625,
+                "Leon": -1.8125
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6347
+                ],
+                "Leon": [
+                  73004
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 1.546875,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "a_agent_passive",
+              "sentence": "Leon was photographed by Cora.",
+              "positions": [
+                53,
+                64
+              ],
+              "selected_head_max_error": 0.0001796418435979774
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Cora was photographed by Leon.\nQuestion: Who photographed someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 65,
+              "generated": "Leon",
+              "expected": "Leon",
+              "rival": "Cora",
+              "full_name_logprob": {
+                "Cora": -0.96875,
+                "Leon": -0.53125
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6347
+                ],
+                "Leon": [
+                  73004
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 0.4375,
+              "question_key": "agent",
+              "question": "Who photographed someone?",
+              "condition": "b_agent_passive",
+              "sentence": "Cora was photographed by Leon.",
+              "positions": [
+                53,
+                64
+              ],
+              "selected_head_max_error": 0.0001828037718496489
+            }
+          ]
+        },
+        {
+          "question_key": "first",
+          "rows": [
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Cora photographed Leon.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 67,
+              "generated": "Cora",
+              "expected": "Cora",
+              "rival": "Leon",
+              "full_name_logprob": {
+                "Cora": -0.0625,
+                "Leon": -2.953125
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6347
+                ],
+                "Leon": [
+                  73004
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.890625,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_active",
+              "sentence": "Cora photographed Leon.",
+              "positions": [
+                51,
+                66
+              ],
+              "selected_head_max_error": 0.00010221665502641031
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Leon photographed Cora.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 67,
+              "generated": "Leon",
+              "expected": "Leon",
+              "rival": "Cora",
+              "full_name_logprob": {
+                "Cora": -2.890625,
+                "Leon": -0.078125
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6347
+                ],
+                "Leon": [
+                  73004
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 2.8125,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_active",
+              "sentence": "Leon photographed Cora.",
+              "positions": [
+                51,
+                66
+              ],
+              "selected_head_max_error": 0.0003146010190597792
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Leon was photographed by Cora.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 69,
+              "generated": "Leon",
+              "expected": "Leon",
+              "rival": "Cora",
+              "full_name_logprob": {
+                "Cora": -6.828125,
+                "Leon": 0.0
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6347
+                ],
+                "Leon": [
+                  73004
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 6.828125,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "a_agent_passive",
+              "sentence": "Leon was photographed by Cora.",
+              "positions": [
+                53,
+                68
+              ],
+              "selected_head_max_error": 0.00044750843827756626
+            },
+            {
+              "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Cora was photographed by Leon.\nQuestion: Who is mentioned first in the sentence?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+              "prompt_token_count": 69,
+              "generated": "Cora",
+              "expected": "Cora",
+              "rival": "Leon",
+              "full_name_logprob": {
+                "Cora": -0.015625,
+                "Leon": -5.0
+              },
+              "candidate_token_ids": {
+                "Cora": [
+                  34,
+                  6347
+                ],
+                "Leon": [
+                  73004
+                ]
+              },
+              "greedy_correct": true,
+              "score_correct": true,
+              "score_margin": 4.984375,
+              "question_key": "first",
+              "question": "Who is mentioned first in the sentence?",
+              "condition": "b_agent_passive",
+              "sentence": "Cora was photographed by Leon.",
+              "positions": [
+                53,
+                68
+              ],
+              "selected_head_max_error": 0.00014386044966840927
+            }
+          ]
+        }
+      ],
+      "fully_competent": true
+    }
+  ],
+  "elapsed_seconds": 80.0446592499502,
+  "state_shape": "family, question, sentence condition, stage, site, hidden dimension"
+}

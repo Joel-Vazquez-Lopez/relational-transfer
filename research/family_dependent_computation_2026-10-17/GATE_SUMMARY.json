@@ -1,0 +1,234 @@
+{
+  "status": "gate_failed_no_causal_work_authorized_by_this_lock",
+  "lock_sha256": "375e1927af634342c0d86f1e6f072859b96680426682469c005ec78dbdfec0d7",
+  "runner_sha256": "d0ec378804857bfbe2f4ede8ae92a731e0b04df389d69f96173e4e225ec0dbe2",
+  "scorer_sha256": "9070bae06ba8c77c0a0c307a2d8b5ce6656440218d63321b5ba4e3c6b79fa7dc",
+  "by_model": {
+    "qwen05": {
+      "raw_sha256": "2596abfa269d8f489063d34d1e0f848b960f00509a0b111baed08365a1cea027",
+      "competent_ids": [],
+      "competent_families": 0,
+      "greedy_correct_answers": 20,
+      "score_correct_answers": 20,
+      "joint_correct_answers": 20,
+      "total_answers": 32,
+      "greedy_score_disagreements": 0,
+      "by_condition": {
+        "a_agent_active": {
+          "joint_correct": 4,
+          "total": 8
+        },
+        "b_agent_active": {
+          "joint_correct": 1,
+          "total": 8
+        },
+        "a_agent_passive": {
+          "joint_correct": 8,
+          "total": 8
+        },
+        "b_agent_passive": {
+          "joint_correct": 7,
+          "total": 8
+        }
+      }
+    },
+    "qwen15": {
+      "raw_sha256": "388b3005524736eff1a322073354b99bb0b2db21798cba3f8b23356fd38b36d0",
+      "competent_ids": [
+        "f03",
+        "f07"
+      ],
+      "competent_families": 2,
+      "greedy_correct_answers": 22,
+      "score_correct_answers": 27,
+      "joint_correct_answers": 22,
+      "total_answers": 32,
+      "greedy_score_disagreements": 5,
+      "by_condition": {
+        "a_agent_active": {
+          "joint_correct": 5,
+          "total": 8
+        },
+        "b_agent_active": {
+          "joint_correct": 5,
+          "total": 8
+        },
+        "a_agent_passive": {
+          "joint_correct": 8,
+          "total": 8
+        },
+        "b_agent_passive": {
+          "joint_correct": 4,
+          "total": 8
+        }
+      }
+    },
+    "qwen7b": {
+      "raw_sha256": "dadf94ec7c462d78c3071b9470eb305f512732cfcb74526d9700aab319e7dcec",
+      "competent_ids": [
+        "f01",
+        "f03",
+        "f04",
+        "f05",
+        "f07"
+      ],
+      "competent_families": 5,
+      "greedy_correct_answers": 28,
+      "score_correct_answers": 28,
+      "joint_correct_answers": 28,
+      "total_answers": 32,
+      "greedy_score_disagreements": 0,
+      "by_condition": {
+        "a_agent_active": {
+          "joint_correct": 8,
+          "total": 8
+        },
+        "b_agent_active": {
+          "joint_correct": 8,
+          "total": 8
+        },
+        "a_agent_passive": {
+          "joint_correct": 6,
+          "total": 8
+        },
+        "b_agent_passive": {
+          "joint_correct": 6,
+          "total": 8
+        }
+      }
+    },
+    "llama3b": {
+      "raw_sha256": "ccdf3e301798189c94d5c53e0b3a12b9cd074cba0a05fdbd062f63e64117e915",
+      "competent_ids": [
+        "f01",
+        "f05",
+        "f07"
+      ],
+      "competent_families": 3,
+      "greedy_correct_answers": 26,
+      "score_correct_answers": 26,
+      "joint_correct_answers": 26,
+      "total_answers": 32,
+      "greedy_score_disagreements": 0,
+      "by_condition": {
+        "a_agent_active": {
+          "joint_correct": 8,
+          "total": 8
+        },
+        "b_agent_active": {
+          "joint_correct": 7,
+          "total": 8
+        },
+        "a_agent_passive": {
+          "joint_correct": 6,
+          "total": 8
+        },
+        "b_agent_passive": {
+          "joint_correct": 5,
+          "total": 8
+        }
+      }
+    }
+  },
+  "family_status": [
+    {
+      "id": "f01",
+      "split": "development",
+      "verb": "hugged",
+      "competent": {
+        "qwen05": false,
+        "qwen15": false,
+        "qwen7b": true,
+        "llama3b": true
+      },
+      "common_primary": false
+    },
+    {
+      "id": "f02",
+      "split": "development",
+      "verb": "called",
+      "competent": {
+        "qwen05": false,
+        "qwen15": false,
+        "qwen7b": false,
+        "llama3b": false
+      },
+      "common_primary": false
+    },
+    {
+      "id": "f03",
+      "split": "development",
+      "verb": "pushed",
+      "competent": {
+        "qwen05": false,
+        "qwen15": true,
+        "qwen7b": true,
+        "llama3b": false
+      },
+      "common_primary": false
+    },
+    {
+      "id": "f04",
+      "split": "development",
+      "verb": "followed",
+      "competent": {
+        "qwen05": false,
+        "qwen15": false,
+        "qwen7b": true,
+        "llama3b": false
+      },
+      "common_primary": false
+    },
+    {
+      "id": "f05",
+      "split": "evaluation",
+      "verb": "hugged",
+      "competent": {
+        "qwen05": false,
+        "qwen15": false,
+        "qwen7b": true,
+        "llama3b": true
+      },
+      "common_primary": false
+    },
+    {
+      "id": "f06",
+      "split": "evaluation",
+      "verb": "called",
+      "competent": {
+        "qwen05": false,
+        "qwen15": false,
+        "qwen7b": false,
+        "llama3b": false
+      },
+      "common_primary": false
+    },
+    {
+      "id": "f07",
+      "split": "evaluation",
+      "verb": "pushed",
+      "competent": {
+        "qwen05": false,
+        "qwen15": true,
+        "qwen7b": true,
+        "llama3b": true
+      },
+      "common_primary": true
+    },
+    {
+      "id": "f08",
+      "split": "evaluation",
+      "verb": "followed",
+      "competent": {
+        "qwen05": false,
+        "qwen15": false,
+        "qwen7b": false,
+        "llama3b": false
+      },
+      "common_primary": false
+    }
+  ],
+  "common_development_families": 0,
+  "common_evaluation_families": 1,
+  "pass": false
+}

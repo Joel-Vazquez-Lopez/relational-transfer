@@ -1,0 +1,434 @@
+{
+  "status": "bounded_query_measurement_diagnostic_complete",
+  "lock_sha256": "3735367fce044f102a13bd27df718d62fea62760d96ef61b6c2a9887c7baadeb",
+  "analysis_script_sha256": "6a0af359e1ca22304b56b018bf2b1048cbd62242452abe7b0a20535af195abcd",
+  "primary_descriptive_rule_passed": false,
+  "models": {
+    "qwen05": {
+      "raw_sha256": "d99621af1c0b72677bf9237aa1c0f36fba44c6e1bc9cbc58d67930d571a19370",
+      "states_sha256": "62d719724c9f461eea15a77db504aeb22db635e433e9560ecb251acb862be5eb",
+      "correct_answers_by_question": {
+        "agent": 22,
+        "first": 18
+      },
+      "answers_per_question": 32,
+      "fully_competent_family_ids": [],
+      "all_family_mean_late_agent_cos": -0.5241651525496343,
+      "all_family_mean_late_first_cos": -0.3918530343220451,
+      "all_family_mean_delta": -0.13231211822758918,
+      "delta_positive_family_count": 2,
+      "all_family_mean_delta_axis_removed": -0.11822231011407902,
+      "mean_late_energy_removed": 0.030923005997092596,
+      "competent_subset_mean_first_cos": null,
+      "max_prequestion_relative_discrepancy": 0.0,
+      "technical_invariance_passed": true,
+      "descriptive_rule_passed": false,
+      "final_geometry_sign_matches_scalar_output_response": 12,
+      "scalar_output_response_comparisons": 16,
+      "families": [
+        {
+          "id": "q01",
+          "verb": "chased",
+          "correct_answers": 6,
+          "fully_competent": false,
+          "late_cos_agent": -0.6960265567180459,
+          "late_cos_first": -0.7858785790382596,
+          "delta": 0.08985202232021372,
+          "delta_after_axis_removal": 0.08994222725636047
+        },
+        {
+          "id": "q02",
+          "verb": "tapped",
+          "correct_answers": 3,
+          "fully_competent": false,
+          "late_cos_agent": -0.8136125354547092,
+          "late_cos_first": -0.6080269080505935,
+          "delta": -0.2055856274041158,
+          "delta_after_axis_removal": -0.16602643804287842
+        },
+        {
+          "id": "q03",
+          "verb": "visited",
+          "correct_answers": 5,
+          "fully_competent": false,
+          "late_cos_agent": -0.5043375715939392,
+          "late_cos_first": -0.45905092469549974,
+          "delta": -0.045286646898439475,
+          "delta_after_axis_removal": -0.023047729235065484
+        },
+        {
+          "id": "q04",
+          "verb": "photographed",
+          "correct_answers": 6,
+          "fully_competent": false,
+          "late_cos_agent": -0.024232708959706105,
+          "late_cos_first": 0.27986260328463963,
+          "delta": -0.3040953122443457,
+          "delta_after_axis_removal": -0.2922156581508409
+        },
+        {
+          "id": "q05",
+          "verb": "chased",
+          "correct_answers": 5,
+          "fully_competent": false,
+          "late_cos_agent": -0.771879387110852,
+          "late_cos_first": -0.7743428361032713,
+          "delta": 0.002463448992419237,
+          "delta_after_axis_removal": 0.013098739489846523
+        },
+        {
+          "id": "q06",
+          "verb": "tapped",
+          "correct_answers": 4,
+          "fully_competent": false,
+          "late_cos_agent": -0.7959478574941825,
+          "late_cos_first": -0.3763300691739394,
+          "delta": -0.4196177883202431,
+          "delta_after_axis_removal": -0.40054995083192274
+        },
+        {
+          "id": "q07",
+          "verb": "visited",
+          "correct_answers": 5,
+          "fully_competent": false,
+          "late_cos_agent": -0.7093376899334933,
+          "late_cos_first": -0.6716096863579869,
+          "delta": -0.03772800357550643,
+          "delta_after_axis_removal": -0.02369230497554331
+        },
+        {
+          "id": "q08",
+          "verb": "photographed",
+          "correct_answers": 6,
+          "fully_competent": false,
+          "late_cos_agent": 0.1220530868678541,
+          "late_cos_first": 0.26055212555854984,
+          "delta": -0.13849903869069574,
+          "delta_after_axis_removal": -0.14328736642258832
+        }
+      ]
+    },
+    "qwen15": {
+      "raw_sha256": "b16e9d05c97718ff1ae2cbd77543f4c6426df2b00f483fa00578c1362c7653f1",
+      "states_sha256": "bc123bc8077335760309c9a66526d1c8fcf08a5a3cd8559e3444afe3f23ad626",
+      "correct_answers_by_question": {
+        "agent": 22,
+        "first": 21
+      },
+      "answers_per_question": 32,
+      "fully_competent_family_ids": [
+        "q04"
+      ],
+      "all_family_mean_late_agent_cos": -0.21420047814553336,
+      "all_family_mean_late_first_cos": -0.698988676582075,
+      "all_family_mean_delta": 0.4847881984365416,
+      "delta_positive_family_count": 6,
+      "all_family_mean_delta_axis_removed": 0.47656106578314134,
+      "mean_late_energy_removed": 0.026735539915532642,
+      "competent_subset_mean_first_cos": -0.775588311874238,
+      "max_prequestion_relative_discrepancy": 0.0,
+      "technical_invariance_passed": true,
+      "descriptive_rule_passed": false,
+      "final_geometry_sign_matches_scalar_output_response": 12,
+      "scalar_output_response_comparisons": 16,
+      "families": [
+        {
+          "id": "q01",
+          "verb": "chased",
+          "correct_answers": 6,
+          "fully_competent": false,
+          "late_cos_agent": 0.020217396968182477,
+          "late_cos_first": -0.3309792855708233,
+          "delta": 0.35119668253900577,
+          "delta_after_axis_removal": 0.3539890377475279
+        },
+        {
+          "id": "q02",
+          "verb": "tapped",
+          "correct_answers": 4,
+          "fully_competent": false,
+          "late_cos_agent": -0.3814916314900284,
+          "late_cos_first": -0.7327779395289609,
+          "delta": 0.35128630803893246,
+          "delta_after_axis_removal": 0.3305018834991367
+        },
+        {
+          "id": "q03",
+          "verb": "visited",
+          "correct_answers": 6,
+          "fully_competent": false,
+          "late_cos_agent": -0.8293921386566299,
+          "late_cos_first": -0.7327618166905258,
+          "delta": -0.0966303219661041,
+          "delta_after_axis_removal": -0.09368045342884102
+        },
+        {
+          "id": "q04",
+          "verb": "photographed",
+          "correct_answers": 8,
+          "fully_competent": true,
+          "late_cos_agent": 0.235843797972399,
+          "late_cos_first": -0.775588311874238,
+          "delta": 1.011432109846637,
+          "delta_after_axis_removal": 0.9778471529752613
+        },
+        {
+          "id": "q05",
+          "verb": "chased",
+          "correct_answers": 6,
+          "fully_competent": false,
+          "late_cos_agent": 0.1856194393526875,
+          "late_cos_first": -0.6058586213965016,
+          "delta": 0.7914780607491891,
+          "delta_after_axis_removal": 0.7945204344088326
+        },
+        {
+          "id": "q06",
+          "verb": "tapped",
+          "correct_answers": 3,
+          "fully_competent": false,
+          "late_cos_agent": -0.4475838773326797,
+          "late_cos_first": -0.7469594903797775,
+          "delta": 0.2993756130470978,
+          "delta_after_axis_removal": 0.276742718898937
+        },
+        {
+          "id": "q07",
+          "verb": "visited",
+          "correct_answers": 4,
+          "fully_competent": false,
+          "late_cos_agent": -0.8431672103213139,
+          "late_cos_first": -0.7926373644441496,
+          "delta": -0.05052984587716436,
+          "delta_after_axis_removal": -0.030396812416049634
+        },
+        {
+          "id": "q08",
+          "verb": "photographed",
+          "correct_answers": 6,
+          "fully_competent": false,
+          "late_cos_agent": 0.346350398343116,
+          "late_cos_first": -0.8743465827716229,
+          "delta": 1.220696981114739,
+          "delta_after_axis_removal": 1.2029645645803257
+        }
+      ]
+    },
+    "qwen7b": {
+      "raw_sha256": "7b6727caab34f36cae518e539db3ab0283e66d5937ee6595ee0145dff409b849",
+      "states_sha256": "99d5ae091b04d964d451fd2eb56e19667bd4c09b7642218733889796a8401cb7",
+      "correct_answers_by_question": {
+        "agent": 24,
+        "first": 32
+      },
+      "answers_per_question": 32,
+      "fully_competent_family_ids": [
+        "q03",
+        "q04",
+        "q08"
+      ],
+      "all_family_mean_late_agent_cos": 0.09919007318656703,
+      "all_family_mean_late_first_cos": -0.9105329179915018,
+      "all_family_mean_delta": 1.009722991178069,
+      "delta_positive_family_count": 8,
+      "all_family_mean_delta_axis_removed": 1.017387789292166,
+      "mean_late_energy_removed": 0.028266486721605977,
+      "competent_subset_mean_first_cos": -0.8998490086993476,
+      "max_prequestion_relative_discrepancy": 0.0,
+      "technical_invariance_passed": true,
+      "descriptive_rule_passed": true,
+      "final_geometry_sign_matches_scalar_output_response": 16,
+      "scalar_output_response_comparisons": 16,
+      "families": [
+        {
+          "id": "q01",
+          "verb": "chased",
+          "correct_answers": 7,
+          "fully_competent": false,
+          "late_cos_agent": 0.2832401403923545,
+          "late_cos_first": -0.936002542808485,
+          "delta": 1.2192426832008396,
+          "delta_after_axis_removal": 1.232575798709063
+        },
+        {
+          "id": "q02",
+          "verb": "tapped",
+          "correct_answers": 6,
+          "fully_competent": false,
+          "late_cos_agent": -0.7407191427545825,
+          "late_cos_first": -0.8833203003368401,
+          "delta": 0.14260115758225755,
+          "delta_after_axis_removal": 0.1601531363880616
+        },
+        {
+          "id": "q03",
+          "verb": "visited",
+          "correct_answers": 8,
+          "fully_competent": true,
+          "late_cos_agent": 0.6836441288589897,
+          "late_cos_first": -0.9039694087980117,
+          "delta": 1.5876135376570013,
+          "delta_after_axis_removal": 1.5917414751813217
+        },
+        {
+          "id": "q04",
+          "verb": "photographed",
+          "correct_answers": 8,
+          "fully_competent": true,
+          "late_cos_agent": 0.7387816506246889,
+          "late_cos_first": -0.9289818031441143,
+          "delta": 1.6677634537688033,
+          "delta_after_axis_removal": 1.6574124071177347
+        },
+        {
+          "id": "q05",
+          "verb": "chased",
+          "correct_answers": 6,
+          "fully_competent": false,
+          "late_cos_agent": -0.5223235118673556,
+          "late_cos_first": -0.9344361143873016,
+          "delta": 0.41211260251994597,
+          "delta_after_axis_removal": 0.4425428302208885
+        },
+        {
+          "id": "q06",
+          "verb": "tapped",
+          "correct_answers": 6,
+          "fully_competent": false,
+          "late_cos_agent": -0.7249973128779112,
+          "late_cos_first": -0.8978720116194774,
+          "delta": 0.17287469874156614,
+          "delta_after_axis_removal": 0.16759880651750259
+        },
+        {
+          "id": "q07",
+          "verb": "visited",
+          "correct_answers": 7,
+          "fully_competent": false,
+          "late_cos_agent": 0.3309923656511764,
+          "late_cos_first": -0.9330853486818682,
+          "delta": 1.2640777143330446,
+          "delta_after_axis_removal": 1.2540297936241738
+        },
+        {
+          "id": "q08",
+          "verb": "photographed",
+          "correct_answers": 8,
+          "fully_competent": true,
+          "late_cos_agent": 0.7449022674651762,
+          "late_cos_first": -0.8665958141559166,
+          "delta": 1.6114980816210926,
+          "delta_after_axis_removal": 1.6330480665785803
+        }
+      ]
+    },
+    "llama3b": {
+      "raw_sha256": "b02cdc408898ff5dd0a7ca9720603417ae3ef9235373addb244e49d6d611aa47",
+      "states_sha256": "685998f71666a2f0a5447cb4f82e73ecb88e69626754a6abb009d506470894bc",
+      "correct_answers_by_question": {
+        "agent": 27,
+        "first": 32
+      },
+      "answers_per_question": 32,
+      "fully_competent_family_ids": [
+        "q02",
+        "q04",
+        "q08"
+      ],
+      "all_family_mean_late_agent_cos": -0.03851977832629429,
+      "all_family_mean_late_first_cos": -0.906636082592195,
+      "all_family_mean_delta": 0.8681163042659007,
+      "delta_positive_family_count": 8,
+      "all_family_mean_delta_axis_removed": 0.850722799065983,
+      "mean_late_energy_removed": 0.03300271440610841,
+      "competent_subset_mean_first_cos": -0.8869327895617475,
+      "max_prequestion_relative_discrepancy": 0.0038271065052343112,
+      "technical_invariance_passed": false,
+      "descriptive_rule_passed": false,
+      "final_geometry_sign_matches_scalar_output_response": 13,
+      "scalar_output_response_comparisons": 16,
+      "families": [
+        {
+          "id": "q01",
+          "verb": "chased",
+          "correct_answers": 7,
+          "fully_competent": false,
+          "late_cos_agent": -0.005066140464806607,
+          "late_cos_first": -0.8375580011889965,
+          "delta": 0.8324918607241899,
+          "delta_after_axis_removal": 0.7972129211462416
+        },
+        {
+          "id": "q02",
+          "verb": "tapped",
+          "correct_answers": 8,
+          "fully_competent": true,
+          "late_cos_agent": 0.06393397872511995,
+          "late_cos_first": -0.8745400114027689,
+          "delta": 0.9384739901278889,
+          "delta_after_axis_removal": 0.9164938011861558
+        },
+        {
+          "id": "q03",
+          "verb": "visited",
+          "correct_answers": 7,
+          "fully_competent": false,
+          "late_cos_agent": -0.791694857773268,
+          "late_cos_first": -0.9719432521563952,
+          "delta": 0.18024839438312723,
+          "delta_after_axis_removal": 0.1822024541215823
+        },
+        {
+          "id": "q04",
+          "verb": "photographed",
+          "correct_answers": 8,
+          "fully_competent": true,
+          "late_cos_agent": 0.48790416439148754,
+          "late_cos_first": -0.8795747434252682,
+          "delta": 1.3674789078167557,
+          "delta_after_axis_removal": 1.3403819593503725
+        },
+        {
+          "id": "q05",
+          "verb": "chased",
+          "correct_answers": 7,
+          "fully_competent": false,
+          "late_cos_agent": -0.3287163305272708,
+          "late_cos_first": -0.9558998200640206,
+          "delta": 0.6271834895367498,
+          "delta_after_axis_removal": 0.6198337685207336
+        },
+        {
+          "id": "q06",
+          "verb": "tapped",
+          "correct_answers": 7,
+          "fully_competent": false,
+          "late_cos_agent": 0.05267244144566646,
+          "late_cos_first": -0.9129289590147484,
+          "delta": 0.9656014004604148,
+          "delta_after_axis_removal": 0.9456002274078235
+        },
+        {
+          "id": "q07",
+          "verb": "visited",
+          "correct_answers": 7,
+          "fully_competent": false,
+          "late_cos_agent": -0.28721615182449123,
+          "late_cos_first": -0.9139602596281567,
+          "delta": 0.6267441078036655,
+          "delta_after_axis_removal": 0.6178217221520821
+        },
+        {
+          "id": "q08",
+          "verb": "photographed",
+          "correct_answers": 8,
+          "fully_competent": true,
+          "late_cos_agent": 0.5000246694172084,
+          "late_cos_first": -0.9066836138572055,
+          "delta": 1.4067082832744138,
+          "delta_after_axis_removal": 1.3862355386428729
+        }
+      ]
+    }
+  }
+}

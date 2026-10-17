@@ -1,0 +1,28 @@
+{
+  "model": "llama3b",
+  "status": "saved_state_readout_diagnostic_only",
+  "source_states_sha256": "63edb10fa93fa0634303177a6d1a2b9c39fea2d880e909f5f0e16852568e873c",
+  "script_sha256": "3a7a1d4e2c3d7b4caa0049dc76c6c23349920ca7c3f563d1cf0721b0b6b02379",
+  "config_sha256": "c546925585e48f43890d9dc5150df4fec73dd3780d92961c5ace451934cc4cd6",
+  "names": [
+    "Miriam",
+    "Adrian"
+  ],
+  "name_token_ids": [
+    [
+      59561,
+      5038
+    ],
+    [
+      2654,
+      7414
+    ]
+  ],
+  "first_token_ids": [
+    59561,
+    2654
+  ],
+  "selected_head_max_abs_error": 0.0005982359566587547,
+  "output_sha256": "36bd2f31fc84447bdeec689859a2d057dd7176fddfaad9b7b80b6faceb4890a9",
+  "limitation": "Only one first-answer-token margin axis is removed. Earlier-layer use of final RMSNorm/head is a logit-lens convention, not the true downstream computation. Saved residual states are float16 captures."
+}

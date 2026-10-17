@@ -1,0 +1,13 @@
+{
+  "status": "frozen_before_path_capture_after_behavioral_gate",
+  "purpose": "Descriptive layerwise lines requested by user, separate from the failed causal-study gate.",
+  "selection": "f07 is the only family on which Qwen 1.5B, Qwen 7B and Llama 3B passed all four Agent questions. This choice uses known behavioral outcomes and cannot serve as a held-out test. Qwen 0.5B is shown as an incompetent diagnostic model.",
+  "family_id": "f07",
+  "models": ["qwen05", "qwen15", "qwen7b", "llama3b"],
+  "conditions": ["a_agent_active", "b_agent_active", "a_agent_passive", "b_agent_passive"],
+  "sites": ["event_end", "answer_prompt_end"],
+  "stages": "Embedding and every block output, with depth normalized as block index divided by number of blocks.",
+  "primary_quantity": "For each voice and site, relative separation between the A-Agent and B-Agent residual states: ||h_A-h_B|| / ((||h_A||+||h_B||)/2).",
+  "visualization": "Four panels: active and passive role reversal crossed with event-end and answer-prompt-end site. One line per model; Qwen 0.5B dashed due failed competence.",
+  "interpretation": "Observable state divergence only. It may reflect lexical exchange, tokenization, syntax, answer state or generic block schedules. Do not infer a shared semantic-role path, causal mechanism or model-family effect from one selected family. No patching or new gate decision."
+}

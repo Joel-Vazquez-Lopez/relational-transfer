@@ -1,0 +1,954 @@
+{
+  "status": "family_competence_gate_complete",
+  "model": "qwen15",
+  "lock_sha256": "375e1927af634342c0d86f1e6f072859b96680426682469c005ec78dbdfec0d7",
+  "script_sha256": "d0ec378804857bfbe2f4ede8ae92a731e0b04df389d69f96173e4e225ec0dbe2",
+  "scorer_sha256": "9070bae06ba8c77c0a0c307a2d8b5ce6656440218d63321b5ba4e3c6b79fa7dc",
+  "config_sha256": "636d3e2a15e8914b8cf82b05cc2288a811f9bd93c3bf1afc00cab701a70b47c0",
+  "families": [
+    {
+      "family": {
+        "id": "f01",
+        "split": "development",
+        "a": "Elena",
+        "b": "Marcus",
+        "verb": "hugged"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Elena hugged Marcus.\nQuestion: Who hugged someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Elena",
+          "expected": "Elena",
+          "rival": "Marcus",
+          "full_name_logprob": {
+            "Elena": 0.0,
+            "Marcus": -9.21875
+          },
+          "candidate_token_ids": {
+            "Elena": [
+              36,
+              48021
+            ],
+            "Marcus": [
+              82534
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 9.21875,
+          "condition": "a_agent_active",
+          "sentence": "Elena hugged Marcus.",
+          "question": "Who hugged someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Marcus hugged Elena.\nQuestion: Who hugged someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Marcus",
+          "expected": "Marcus",
+          "rival": "Elena",
+          "full_name_logprob": {
+            "Elena": -4.25,
+            "Marcus": 0.0
+          },
+          "candidate_token_ids": {
+            "Elena": [
+              36,
+              48021
+            ],
+            "Marcus": [
+              82534
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 4.25,
+          "condition": "b_agent_active",
+          "sentence": "Marcus hugged Elena.",
+          "question": "Who hugged someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Marcus was hugged by Elena.\nQuestion: Who hugged someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Elena",
+          "expected": "Elena",
+          "rival": "Marcus",
+          "full_name_logprob": {
+            "Elena": 0.0,
+            "Marcus": -4.21875
+          },
+          "candidate_token_ids": {
+            "Elena": [
+              36,
+              48021
+            ],
+            "Marcus": [
+              82534
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 4.21875,
+          "condition": "a_agent_passive",
+          "sentence": "Marcus was hugged by Elena.",
+          "question": "Who hugged someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Elena was hugged by Marcus.\nQuestion: Who hugged someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Elena",
+          "expected": "Marcus",
+          "rival": "Elena",
+          "full_name_logprob": {
+            "Elena": -0.1875,
+            "Marcus": -1.734375
+          },
+          "candidate_token_ids": {
+            "Elena": [
+              36,
+              48021
+            ],
+            "Marcus": [
+              82534
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": false,
+          "score_margin": -1.546875,
+          "condition": "b_agent_passive",
+          "sentence": "Elena was hugged by Marcus.",
+          "question": "Who hugged someone?"
+        }
+      ],
+      "competent": false
+    },
+    {
+      "family": {
+        "id": "f02",
+        "split": "development",
+        "a": "Priya",
+        "b": "Daniel",
+        "verb": "called"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Priya called Daniel.\nQuestion: Who called someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 41,
+          "generated": "Priya called Daniel.",
+          "expected": "Priya",
+          "rival": "Daniel",
+          "full_name_logprob": {
+            "Priya": 0.0,
+            "Daniel": -14.71875
+          },
+          "candidate_token_ids": {
+            "Priya": [
+              92878,
+              7755
+            ],
+            "Daniel": [
+              40586
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": true,
+          "score_margin": 14.71875,
+          "condition": "a_agent_active",
+          "sentence": "Priya called Daniel.",
+          "question": "Who called someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Daniel called Priya.\nQuestion: Who called someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 41,
+          "generated": "Daniel called Priya.",
+          "expected": "Daniel",
+          "rival": "Priya",
+          "full_name_logprob": {
+            "Priya": -17.78125,
+            "Daniel": 0.0
+          },
+          "candidate_token_ids": {
+            "Priya": [
+              92878,
+              7755
+            ],
+            "Daniel": [
+              40586
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": true,
+          "score_margin": 17.78125,
+          "condition": "b_agent_active",
+          "sentence": "Daniel called Priya.",
+          "question": "Who called someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Daniel was called by Priya.\nQuestion: Who called someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 43,
+          "generated": "Priya",
+          "expected": "Priya",
+          "rival": "Daniel",
+          "full_name_logprob": {
+            "Priya": -0.03125,
+            "Daniel": -3.34375
+          },
+          "candidate_token_ids": {
+            "Priya": [
+              92878,
+              7755
+            ],
+            "Daniel": [
+              40586
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 3.3125,
+          "condition": "a_agent_passive",
+          "sentence": "Daniel was called by Priya.",
+          "question": "Who called someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Priya was called by Daniel.\nQuestion: Who called someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 43,
+          "generated": "Daniel",
+          "expected": "Daniel",
+          "rival": "Priya",
+          "full_name_logprob": {
+            "Priya": -0.890625,
+            "Daniel": -0.53125
+          },
+          "candidate_token_ids": {
+            "Priya": [
+              92878,
+              7755
+            ],
+            "Daniel": [
+              40586
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 0.359375,
+          "condition": "b_agent_passive",
+          "sentence": "Priya was called by Daniel.",
+          "question": "Who called someone?"
+        }
+      ],
+      "competent": false
+    },
+    {
+      "family": {
+        "id": "f03",
+        "split": "development",
+        "a": "Amira",
+        "b": "Lucas",
+        "verb": "pushed"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Amira pushed Lucas.\nQuestion: Who pushed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 41,
+          "generated": "Amira",
+          "expected": "Amira",
+          "rival": "Lucas",
+          "full_name_logprob": {
+            "Amira": 0.0,
+            "Lucas": -14.203125
+          },
+          "candidate_token_ids": {
+            "Amira": [
+              6091,
+              8832
+            ],
+            "Lucas": [
+              40645,
+              300
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 14.203125,
+          "condition": "a_agent_active",
+          "sentence": "Amira pushed Lucas.",
+          "question": "Who pushed someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Lucas pushed Amira.\nQuestion: Who pushed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 41,
+          "generated": "Lucas",
+          "expected": "Lucas",
+          "rival": "Amira",
+          "full_name_logprob": {
+            "Amira": -12.359375,
+            "Lucas": 0.0
+          },
+          "candidate_token_ids": {
+            "Amira": [
+              6091,
+              8832
+            ],
+            "Lucas": [
+              40645,
+              300
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 12.359375,
+          "condition": "b_agent_active",
+          "sentence": "Lucas pushed Amira.",
+          "question": "Who pushed someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Lucas was pushed by Amira.\nQuestion: Who pushed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 43,
+          "generated": "Amira",
+          "expected": "Amira",
+          "rival": "Lucas",
+          "full_name_logprob": {
+            "Amira": -0.03125,
+            "Lucas": -3.96875
+          },
+          "candidate_token_ids": {
+            "Amira": [
+              6091,
+              8832
+            ],
+            "Lucas": [
+              40645,
+              300
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 3.9375,
+          "condition": "a_agent_passive",
+          "sentence": "Lucas was pushed by Amira.",
+          "question": "Who pushed someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Amira was pushed by Lucas.\nQuestion: Who pushed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 43,
+          "generated": "Lucas",
+          "expected": "Lucas",
+          "rival": "Amira",
+          "full_name_logprob": {
+            "Amira": -0.953125,
+            "Lucas": -0.484375
+          },
+          "candidate_token_ids": {
+            "Amira": [
+              6091,
+              8832
+            ],
+            "Lucas": [
+              40645,
+              300
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 0.46875,
+          "condition": "b_agent_passive",
+          "sentence": "Amira was pushed by Lucas.",
+          "question": "Who pushed someone?"
+        }
+      ],
+      "competent": true
+    },
+    {
+      "family": {
+        "id": "f04",
+        "split": "development",
+        "a": "Hannah",
+        "b": "Felix",
+        "verb": "followed"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Hannah followed Felix.\nQuestion: Who followed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Hannah followed Felix.",
+          "expected": "Hannah",
+          "rival": "Felix",
+          "full_name_logprob": {
+            "Hannah": 0.0,
+            "Felix": -16.6875
+          },
+          "candidate_token_ids": {
+            "Hannah": [
+              39,
+              43004
+            ],
+            "Felix": [
+              37,
+              67718
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": true,
+          "score_margin": 16.6875,
+          "condition": "a_agent_active",
+          "sentence": "Hannah followed Felix.",
+          "question": "Who followed someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Felix followed Hannah.\nQuestion: Who followed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Felix",
+          "expected": "Felix",
+          "rival": "Hannah",
+          "full_name_logprob": {
+            "Hannah": -4.34375,
+            "Felix": 0.0
+          },
+          "candidate_token_ids": {
+            "Hannah": [
+              39,
+              43004
+            ],
+            "Felix": [
+              37,
+              67718
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 4.34375,
+          "condition": "b_agent_active",
+          "sentence": "Felix followed Hannah.",
+          "question": "Who followed someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Felix was followed by Hannah.\nQuestion: Who followed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Hannah",
+          "expected": "Hannah",
+          "rival": "Felix",
+          "full_name_logprob": {
+            "Hannah": -0.09375,
+            "Felix": -2.375
+          },
+          "candidate_token_ids": {
+            "Hannah": [
+              39,
+              43004
+            ],
+            "Felix": [
+              37,
+              67718
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 2.28125,
+          "condition": "a_agent_passive",
+          "sentence": "Felix was followed by Hannah.",
+          "question": "Who followed someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Hannah was followed by Felix.\nQuestion: Who followed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Hannah",
+          "expected": "Felix",
+          "rival": "Hannah",
+          "full_name_logprob": {
+            "Hannah": 0.0,
+            "Felix": -5.765625
+          },
+          "candidate_token_ids": {
+            "Hannah": [
+              39,
+              43004
+            ],
+            "Felix": [
+              37,
+              67718
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": false,
+          "score_margin": -5.765625,
+          "condition": "b_agent_passive",
+          "sentence": "Hannah was followed by Felix.",
+          "question": "Who followed someone?"
+        }
+      ],
+      "competent": false
+    },
+    {
+      "family": {
+        "id": "f05",
+        "split": "evaluation",
+        "a": "Nadia",
+        "b": "Simon",
+        "verb": "hugged"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Nadia hugged Simon.\nQuestion: Who hugged someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 41,
+          "generated": "Nadia",
+          "expected": "Nadia",
+          "rival": "Simon",
+          "full_name_logprob": {
+            "Nadia": 0.0,
+            "Simon": -9.1875
+          },
+          "candidate_token_ids": {
+            "Nadia": [
+              45,
+              52831
+            ],
+            "Simon": [
+              68781
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 9.1875,
+          "condition": "a_agent_active",
+          "sentence": "Nadia hugged Simon.",
+          "question": "Who hugged someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Simon hugged Nadia.\nQuestion: Who hugged someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 41,
+          "generated": "Simon",
+          "expected": "Simon",
+          "rival": "Nadia",
+          "full_name_logprob": {
+            "Nadia": -7.578125,
+            "Simon": 0.0
+          },
+          "candidate_token_ids": {
+            "Nadia": [
+              45,
+              52831
+            ],
+            "Simon": [
+              68781
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 7.578125,
+          "condition": "b_agent_active",
+          "sentence": "Simon hugged Nadia.",
+          "question": "Who hugged someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Simon was hugged by Nadia.\nQuestion: Who hugged someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 43,
+          "generated": "Nadia",
+          "expected": "Nadia",
+          "rival": "Simon",
+          "full_name_logprob": {
+            "Nadia": -0.03125,
+            "Simon": -3.5
+          },
+          "candidate_token_ids": {
+            "Nadia": [
+              45,
+              52831
+            ],
+            "Simon": [
+              68781
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 3.46875,
+          "condition": "a_agent_passive",
+          "sentence": "Simon was hugged by Nadia.",
+          "question": "Who hugged someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Nadia was hugged by Simon.\nQuestion: Who hugged someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 43,
+          "generated": "Nadia",
+          "expected": "Simon",
+          "rival": "Nadia",
+          "full_name_logprob": {
+            "Nadia": -0.09375,
+            "Simon": -2.296875
+          },
+          "candidate_token_ids": {
+            "Nadia": [
+              45,
+              52831
+            ],
+            "Simon": [
+              68781
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": false,
+          "score_margin": -2.203125,
+          "condition": "b_agent_passive",
+          "sentence": "Nadia was hugged by Simon.",
+          "question": "Who hugged someone?"
+        }
+      ],
+      "competent": false
+    },
+    {
+      "family": {
+        "id": "f06",
+        "split": "evaluation",
+        "a": "Olivia",
+        "b": "Jasper",
+        "verb": "called"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Olivia called Jasper.\nQuestion: Who called someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Olivia called Jasper.",
+          "expected": "Olivia",
+          "rival": "Jasper",
+          "full_name_logprob": {
+            "Olivia": 0.0,
+            "Jasper": -13.046875
+          },
+          "candidate_token_ids": {
+            "Olivia": [
+              42719,
+              20809
+            ],
+            "Jasper": [
+              41,
+              32261
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": true,
+          "score_margin": 13.046875,
+          "condition": "a_agent_active",
+          "sentence": "Olivia called Jasper.",
+          "question": "Who called someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Jasper called Olivia.\nQuestion: Who called someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Jasper called Olivia.",
+          "expected": "Jasper",
+          "rival": "Olivia",
+          "full_name_logprob": {
+            "Olivia": -15.484375,
+            "Jasper": 0.0
+          },
+          "candidate_token_ids": {
+            "Olivia": [
+              42719,
+              20809
+            ],
+            "Jasper": [
+              41,
+              32261
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": true,
+          "score_margin": 15.484375,
+          "condition": "b_agent_active",
+          "sentence": "Jasper called Olivia.",
+          "question": "Who called someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Jasper was called by Olivia.\nQuestion: Who called someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Olivia",
+          "expected": "Olivia",
+          "rival": "Jasper",
+          "full_name_logprob": {
+            "Olivia": 0.0,
+            "Jasper": -5.984375
+          },
+          "candidate_token_ids": {
+            "Olivia": [
+              42719,
+              20809
+            ],
+            "Jasper": [
+              41,
+              32261
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 5.984375,
+          "condition": "a_agent_passive",
+          "sentence": "Jasper was called by Olivia.",
+          "question": "Who called someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Olivia was called by Jasper.\nQuestion: Who called someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Jasper",
+          "expected": "Jasper",
+          "rival": "Olivia",
+          "full_name_logprob": {
+            "Olivia": -0.78125,
+            "Jasper": -0.625
+          },
+          "candidate_token_ids": {
+            "Olivia": [
+              42719,
+              20809
+            ],
+            "Jasper": [
+              41,
+              32261
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 0.15625,
+          "condition": "b_agent_passive",
+          "sentence": "Olivia was called by Jasper.",
+          "question": "Who called someone?"
+        }
+      ],
+      "competent": false
+    },
+    {
+      "family": {
+        "id": "f07",
+        "split": "evaluation",
+        "a": "Miriam",
+        "b": "Adrian",
+        "verb": "pushed"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Miriam pushed Adrian.\nQuestion: Who pushed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 41,
+          "generated": "Miriam",
+          "expected": "Miriam",
+          "rival": "Adrian",
+          "full_name_logprob": {
+            "Miriam": 0.0,
+            "Adrian": -9.828125
+          },
+          "candidate_token_ids": {
+            "Miriam": [
+              58461,
+              4932
+            ],
+            "Adrian": [
+              2589,
+              7266
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 9.828125,
+          "condition": "a_agent_active",
+          "sentence": "Miriam pushed Adrian.",
+          "question": "Who pushed someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Adrian pushed Miriam.\nQuestion: Who pushed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 41,
+          "generated": "Adrian",
+          "expected": "Adrian",
+          "rival": "Miriam",
+          "full_name_logprob": {
+            "Miriam": -11.390625,
+            "Adrian": 0.0
+          },
+          "candidate_token_ids": {
+            "Miriam": [
+              58461,
+              4932
+            ],
+            "Adrian": [
+              2589,
+              7266
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 11.390625,
+          "condition": "b_agent_active",
+          "sentence": "Adrian pushed Miriam.",
+          "question": "Who pushed someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Adrian was pushed by Miriam.\nQuestion: Who pushed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 43,
+          "generated": "Miriam",
+          "expected": "Miriam",
+          "rival": "Adrian",
+          "full_name_logprob": {
+            "Miriam": -0.40625,
+            "Adrian": -1.078125
+          },
+          "candidate_token_ids": {
+            "Miriam": [
+              58461,
+              4932
+            ],
+            "Adrian": [
+              2589,
+              7266
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 0.671875,
+          "condition": "a_agent_passive",
+          "sentence": "Adrian was pushed by Miriam.",
+          "question": "Who pushed someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Miriam was pushed by Adrian.\nQuestion: Who pushed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 43,
+          "generated": "Adrian",
+          "expected": "Adrian",
+          "rival": "Miriam",
+          "full_name_logprob": {
+            "Miriam": -3.78125,
+            "Adrian": -0.03125
+          },
+          "candidate_token_ids": {
+            "Miriam": [
+              58461,
+              4932
+            ],
+            "Adrian": [
+              2589,
+              7266
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 3.75,
+          "condition": "b_agent_passive",
+          "sentence": "Miriam was pushed by Adrian.",
+          "question": "Who pushed someone?"
+        }
+      ],
+      "competent": true
+    },
+    {
+      "family": {
+        "id": "f08",
+        "split": "evaluation",
+        "a": "Isabel",
+        "b": "Thomas",
+        "verb": "followed"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Isabel followed Thomas.\nQuestion: Who followed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Isabel",
+          "expected": "Isabel",
+          "rival": "Thomas",
+          "full_name_logprob": {
+            "Isabel": 0.0,
+            "Thomas": -9.90625
+          },
+          "candidate_token_ids": {
+            "Isabel": [
+              3872,
+              780
+            ],
+            "Thomas": [
+              41393
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 9.90625,
+          "condition": "a_agent_active",
+          "sentence": "Isabel followed Thomas.",
+          "question": "Who followed someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Thomas followed Isabel.\nQuestion: Who followed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Isabel",
+          "expected": "Thomas",
+          "rival": "Isabel",
+          "full_name_logprob": {
+            "Isabel": -0.28125,
+            "Thomas": -1.359375
+          },
+          "candidate_token_ids": {
+            "Isabel": [
+              3872,
+              780
+            ],
+            "Thomas": [
+              41393
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": false,
+          "score_margin": -1.078125,
+          "condition": "b_agent_active",
+          "sentence": "Thomas followed Isabel.",
+          "question": "Who followed someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Thomas was followed by Isabel.\nQuestion: Who followed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Isabel",
+          "expected": "Isabel",
+          "rival": "Thomas",
+          "full_name_logprob": {
+            "Isabel": -0.015625,
+            "Thomas": -3.921875
+          },
+          "candidate_token_ids": {
+            "Isabel": [
+              3872,
+              780
+            ],
+            "Thomas": [
+              41393
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 3.90625,
+          "condition": "a_agent_passive",
+          "sentence": "Thomas was followed by Isabel.",
+          "question": "Who followed someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Isabel was followed by Thomas.\nQuestion: Who followed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Isabel",
+          "expected": "Thomas",
+          "rival": "Isabel",
+          "full_name_logprob": {
+            "Isabel": -0.015625,
+            "Thomas": -4.015625
+          },
+          "candidate_token_ids": {
+            "Isabel": [
+              3872,
+              780
+            ],
+            "Thomas": [
+              41393
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": false,
+          "score_margin": -4.0,
+          "condition": "b_agent_passive",
+          "sentence": "Isabel was followed by Thomas.",
+          "question": "Who followed someone?"
+        }
+      ],
+      "competent": false
+    }
+  ]
+}

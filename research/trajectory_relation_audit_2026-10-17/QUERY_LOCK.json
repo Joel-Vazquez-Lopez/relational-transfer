@@ -1,0 +1,39 @@
+{
+  "status": "frozen_before_fresh_query_diagnostic_outputs",
+  "date": "2026-10-17",
+  "scope": "One bounded local observational measurement diagnostic, eight constructed families, two question tasks, four sentence cells, four existing models. No patching, training, model download or paid API. Prior stopped studies remain stopped.",
+  "models": ["qwen05", "qwen15", "qwen7b", "llama3b"],
+  "primary_models": ["qwen15", "qwen7b", "llama3b"],
+  "families": [
+    {"id": "q01", "a": "Lena", "b": "Bruno", "verb": "chased"},
+    {"id": "q02", "a": "Tessa", "b": "Oscar", "verb": "tapped"},
+    {"id": "q03", "a": "Freya", "b": "Hugo", "verb": "visited"},
+    {"id": "q04", "a": "Zoya", "b": "Derek", "verb": "photographed"},
+    {"id": "q05", "a": "Ruth", "b": "Elias", "verb": "chased"},
+    {"id": "q06", "a": "Vera", "b": "Colin", "verb": "tapped"},
+    {"id": "q07", "a": "Ada", "b": "Martin", "verb": "visited"},
+    {"id": "q08", "a": "Cora", "b": "Leon", "verb": "photographed"}
+  ],
+  "source_annotation": "Constructed English minimal pairs, not corpus passages or independently human-validated data. Agent is the doer of the sole event; first person is the first name occurring after 'Sentence:'. Each sentence contains exactly these two people. Names/verbs and all answer rules are frozen before inference.",
+  "conditions": ["a_agent_active", "b_agent_active", "a_agent_passive", "b_agent_passive"],
+  "sentences": {
+    "a_agent_active": "{a} {verb} {b}.",
+    "b_agent_active": "{b} {verb} {a}.",
+    "a_agent_passive": "{b} was {verb} by {a}.",
+    "b_agent_passive": "{a} was {verb} by {b}."
+  },
+  "questions": {"agent": "Who {verb} someone?", "first": "Who is mentioned first in the sentence?"},
+  "system": "Answer the question about the sentence. Reply with only the person's name.",
+  "sites": ["event_end", "answer_prompt_end"],
+  "scoring": "Reuse factorial_gate.examine unchanged: exact normalized greedy full name plus positive full-name candidate log-probability margin. Report all 64 answers per model; a family is fully competent only if all eight answers pass both. No family replacement and no exclusion from the primary geometric mean. Competent subsets are explicitly secondary.",
+  "contrast_orientation": "Within each voice and question, d = h(A-Agent) - h(B-Agent). The orientation always refers to Agent, even for the first-name query. Thus accurate first-name answers reverse across voices while accurate Agent answers preserve identity across voices.",
+  "primary_metric": "For each model and family, average cos(d_active,d_passive) at the answer_prompt_end site over the final quarter of blocks (stage/num_blocks >= 0.75). Delta = mean_cos_agent - mean_cos_first. Report per family and model; mean over all eight families is the primary result.",
+  "predictions": {
+    "task_independent_role_geometry": "If the measured direction relation reflects a task-independent role canonicalization, active/passive alignment should be similar across the two questions during the relevant stages; late query difference should be small unless answer preparation dominates.",
+    "answer_conditioned_or_surface_keyed_computation": "On correctly solved families, late Agent-query cosine should exceed first-name-query cosine; first-name-query cosine should be negative. The already implemented surface-key lookup counterexample predicts this without a reusable pre-question semantic role code.",
+    "generic_schedule": "A question-insensitive layer schedule alone does not predict a consistent signed within-family difference between tasks. Query length/wording may still affect computation and is not isolated by this pilot."
+  },
+  "descriptive_success_rule": "The task-conditioning observation passes this pilot only if each primary model has >=2 fully competent families, its all-family mean Delta>0.25, and its mean first-query cosine on fully competent families is negative. This is a descriptive feasibility threshold, not a population significance test or mechanism criterion.",
+  "controls": ["event-end states must be invariant to the later question under causal masking; maximum relative norm discrepancy <0.001", "project both normalized response vectors off the same model-native first-answer-token margin axis, reporting retained cosine and removed energy", "native selected output weights must reproduce final normalized-state candidate logits within 0.05", "include Qwen 0.5B and all incorrect families without replacement", "explicit answer-copying counterexample already constructed before the new outputs"],
+  "stop": "Run this panel once. No altered prompts, new models, extra items, selected layers, subspace fitting or causal intervention after outcomes. Report every failure and technical limitation. A positive result establishes task-conditioned response geometry only, not a common semantic computation."
+}

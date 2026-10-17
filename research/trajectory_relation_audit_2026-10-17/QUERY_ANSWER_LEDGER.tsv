@@ -1,0 +1,257 @@
+model	family	question	condition	expected	generated	greedy_correct	score_correct	score_margin	sentence
+qwen05	q01	agent	a_agent_active	Lena	Bruno	False	False	-1.1875	Lena chased Bruno.
+qwen05	q01	agent	b_agent_active	Bruno	Bruno	True	True	1.109375	Bruno chased Lena.
+qwen05	q01	agent	a_agent_passive	Lena	Lena	True	True	0.640625	Bruno was chased by Lena.
+qwen05	q01	agent	b_agent_passive	Bruno	Bruno	True	True	3.765625	Lena was chased by Bruno.
+qwen05	q01	first	a_agent_active	Lena	Lena	True	True	1.671875	Lena chased Bruno.
+qwen05	q01	first	b_agent_active	Bruno	Bruno	True	True	4.703125	Bruno chased Lena.
+qwen05	q01	first	a_agent_passive	Bruno	Bruno	True	True	2.96875	Bruno was chased by Lena.
+qwen05	q01	first	b_agent_passive	Lena	Bruno	False	False	-0.96875	Lena was chased by Bruno.
+qwen05	q02	agent	a_agent_active	Tessa	Oscar	False	False	-5.953125	Tessa tapped Oscar.
+qwen05	q02	agent	b_agent_active	Oscar	Tessa.	False	False	-0.9375	Oscar tapped Tessa.
+qwen05	q02	agent	a_agent_passive	Tessa	Tessa.	True	True	4.109375	Oscar was tapped by Tessa.
+qwen05	q02	agent	b_agent_passive	Oscar	Oscar	True	True	11.6953125	Tessa was tapped by Oscar.
+qwen05	q02	first	a_agent_active	Tessa	Oscar	False	False	-0.5	Tessa tapped Oscar.
+qwen05	q02	first	b_agent_active	Oscar	Oscar	True	True	0.375	Oscar tapped Tessa.
+qwen05	q02	first	a_agent_passive	Oscar	Tessa	False	False	-3.125	Oscar was tapped by Tessa.
+qwen05	q02	first	b_agent_passive	Tessa	Oscar	False	False	-6.125	Tessa was tapped by Oscar.
+qwen05	q03	agent	a_agent_active	Freya	Hugo	False	False	-1.609375	Freya visited Hugo.
+qwen05	q03	agent	b_agent_active	Hugo	Hugo	True	True	1.765625	Hugo visited Freya.
+qwen05	q03	agent	a_agent_passive	Freya	Hugo	False	False	-0.125	Hugo was visited by Freya.
+qwen05	q03	agent	b_agent_passive	Hugo	Hugo	True	True	4.28125	Freya was visited by Hugo.
+qwen05	q03	first	a_agent_active	Freya	Freya	True	True	0.984375	Freya visited Hugo.
+qwen05	q03	first	b_agent_active	Hugo	Hugo	True	True	3.03125	Hugo visited Freya.
+qwen05	q03	first	a_agent_passive	Hugo	Hugo	True	True	0.875	Hugo was visited by Freya.
+qwen05	q03	first	b_agent_passive	Freya	Hugo	False	False	-1.71875	Freya was visited by Hugo.
+qwen05	q04	agent	a_agent_active	Zoya	Zoya	True	True	1.625	Zoya photographed Derek.
+qwen05	q04	agent	b_agent_active	Derek	Derek	True	True	0.90625	Derek photographed Zoya.
+qwen05	q04	agent	a_agent_passive	Zoya	Zoya	True	True	8.8125	Derek was photographed by Zoya.
+qwen05	q04	agent	b_agent_passive	Derek	Derek	True	True	5.703125	Zoya was photographed by Derek.
+qwen05	q04	first	a_agent_active	Zoya	Zoya	True	True	2.78125	Zoya photographed Derek.
+qwen05	q04	first	b_agent_active	Derek	Derek	True	True	4.0625	Derek photographed Zoya.
+qwen05	q04	first	a_agent_passive	Derek	Zoya	False	False	-4.84375	Derek was photographed by Zoya.
+qwen05	q04	first	b_agent_passive	Zoya	Derek	False	False	-4.265625	Zoya was photographed by Derek.
+qwen05	q05	agent	a_agent_active	Ruth	Elias	False	False	-3.359375	Ruth chased Elias.
+qwen05	q05	agent	b_agent_active	Elias	Elias	True	True	1.625	Elias chased Ruth.
+qwen05	q05	agent	a_agent_passive	Ruth	Ruth	True	True	1.0	Elias was chased by Ruth.
+qwen05	q05	agent	b_agent_passive	Elias	Elias	True	True	4.953125	Ruth was chased by Elias.
+qwen05	q05	first	a_agent_active	Ruth	Elias	False	False	-0.734375	Ruth chased Elias.
+qwen05	q05	first	b_agent_active	Elias	Elias	True	True	3.0	Elias chased Ruth.
+qwen05	q05	first	a_agent_passive	Elias	Elias	True	True	1.609375	Elias was chased by Ruth.
+qwen05	q05	first	b_agent_passive	Ruth	Elias	False	False	-1.421875	Ruth was chased by Elias.
+qwen05	q06	agent	a_agent_active	Vera	Colin	False	False	-1.8125	Vera tapped Colin.
+qwen05	q06	agent	b_agent_active	Colin	Vera.	False	False	-1.46875	Colin tapped Vera.
+qwen05	q06	agent	a_agent_passive	Vera	Vera	True	True	7.921875	Colin was tapped by Vera.
+qwen05	q06	agent	b_agent_passive	Colin	Colin	True	True	2.984375	Vera was tapped by Colin.
+qwen05	q06	first	a_agent_active	Vera	Vera	True	True	1.328125	Vera tapped Colin.
+qwen05	q06	first	b_agent_active	Colin	Colin	True	True	0.9375	Colin tapped Vera.
+qwen05	q06	first	a_agent_passive	Colin	Vera	False	False	-2.796875	Colin was tapped by Vera.
+qwen05	q06	first	b_agent_passive	Vera	Colin	False	False	-0.890625	Vera was tapped by Colin.
+qwen05	q07	agent	a_agent_active	Ada	Martin	False	False	-2.5625	Ada visited Martin.
+qwen05	q07	agent	b_agent_active	Martin	Martin	True	True	0.3125	Martin visited Ada.
+qwen05	q07	agent	a_agent_passive	Ada	Martin	False	False	-0.328125	Martin was visited by Ada.
+qwen05	q07	agent	b_agent_passive	Martin	Martin	True	True	5.0	Ada was visited by Martin.
+qwen05	q07	first	a_agent_active	Ada	Ada	True	True	0.421875	Ada visited Martin.
+qwen05	q07	first	b_agent_active	Martin	Martin	True	True	2.296875	Martin visited Ada.
+qwen05	q07	first	a_agent_passive	Martin	Martin	True	True	0.921875	Martin was visited by Ada.
+qwen05	q07	first	b_agent_passive	Ada	Martin	False	False	-3.0625	Ada was visited by Martin.
+qwen05	q08	agent	a_agent_active	Cora	Cora	True	True	2.8125	Cora photographed Leon.
+qwen05	q08	agent	b_agent_active	Leon	Leon	True	True	2.21875	Leon photographed Cora.
+qwen05	q08	agent	a_agent_passive	Cora	Cora	True	True	5.75	Leon was photographed by Cora.
+qwen05	q08	agent	b_agent_passive	Leon	Leon	True	True	3.484375	Cora was photographed by Leon.
+qwen05	q08	first	a_agent_active	Cora	Cora	True	True	6.1875	Cora photographed Leon.
+qwen05	q08	first	b_agent_active	Leon	Leon	True	True	3.609375	Leon photographed Cora.
+qwen05	q08	first	a_agent_passive	Leon	Cora	False	False	-3.0625	Leon was photographed by Cora.
+qwen05	q08	first	b_agent_passive	Cora	Leon	False	False	-1.25	Cora was photographed by Leon.
+qwen15	q01	agent	a_agent_active	Lena	Lena	True	True	10.21875	Lena chased Bruno.
+qwen15	q01	agent	b_agent_active	Bruno	Bruno	True	True	10.65625	Bruno chased Lena.
+qwen15	q01	agent	a_agent_passive	Lena	Lena	True	True	0.46875	Bruno was chased by Lena.
+qwen15	q01	agent	b_agent_passive	Bruno	Bruno	True	True	2.6875	Lena was chased by Bruno.
+qwen15	q01	first	a_agent_active	Lena	Bruno	False	False	-1.65625	Lena chased Bruno.
+qwen15	q01	first	b_agent_active	Bruno	Lena.	False	False	-0.109375	Bruno chased Lena.
+qwen15	q01	first	a_agent_passive	Bruno	Bruno	True	True	4.9375	Bruno was chased by Lena.
+qwen15	q01	first	b_agent_passive	Lena	Lena	True	True	4.140625	Lena was chased by Bruno.
+qwen15	q02	agent	a_agent_active	Tessa	Tessa tapped Oscar.	False	True	9.484375	Tessa tapped Oscar.
+qwen15	q02	agent	b_agent_active	Oscar	Oscar tapped Tessa.	False	True	8.40625	Oscar tapped Tessa.
+qwen15	q02	agent	a_agent_passive	Tessa	Oscar	False	False	-1.296875	Oscar was tapped by Tessa.
+qwen15	q02	agent	b_agent_passive	Oscar	Oscar	True	True	0.90625	Tessa was tapped by Oscar.
+qwen15	q02	first	a_agent_active	Tessa	Tessa	True	True	0.046875	Tessa tapped Oscar.
+qwen15	q02	first	b_agent_active	Oscar	Oscar	True	True	2.21875	Oscar tapped Tessa.
+qwen15	q02	first	a_agent_passive	Oscar	Oscar	True	True	2.890625	Oscar was tapped by Tessa.
+qwen15	q02	first	b_agent_passive	Tessa	Oscar	False	False	-0.515625	Tessa was tapped by Oscar.
+qwen15	q03	agent	a_agent_active	Freya	Freya	True	True	8.796875	Freya visited Hugo.
+qwen15	q03	agent	b_agent_active	Hugo	Hugo	True	True	8.6875	Hugo visited Freya.
+qwen15	q03	agent	a_agent_passive	Freya	Hugo	False	False	-3.453125	Hugo was visited by Freya.
+qwen15	q03	agent	b_agent_passive	Hugo	Freya	False	False	-5.0625	Freya was visited by Hugo.
+qwen15	q03	first	a_agent_active	Freya	Freya	True	True	2.015625	Freya visited Hugo.
+qwen15	q03	first	b_agent_active	Hugo	Hugo	True	True	4.421875	Hugo visited Freya.
+qwen15	q03	first	a_agent_passive	Hugo	Hugo	True	True	8.640625	Hugo was visited by Freya.
+qwen15	q03	first	b_agent_passive	Freya	Freya	True	True	5.515625	Freya was visited by Hugo.
+qwen15	q04	agent	a_agent_active	Zoya	Zoya	True	True	8.671875	Zoya photographed Derek.
+qwen15	q04	agent	b_agent_active	Derek	Derek	True	True	6.75	Derek photographed Zoya.
+qwen15	q04	agent	a_agent_passive	Zoya	Zoya	True	True	1.59375	Derek was photographed by Zoya.
+qwen15	q04	agent	b_agent_passive	Derek	Derek	True	True	1.421875	Zoya was photographed by Derek.
+qwen15	q04	first	a_agent_active	Zoya	Zoya	True	True	1.953125	Zoya photographed Derek.
+qwen15	q04	first	b_agent_active	Derek	Derek	True	True	2.40625	Derek photographed Zoya.
+qwen15	q04	first	a_agent_passive	Derek	Derek	True	True	3.75	Derek was photographed by Zoya.
+qwen15	q04	first	b_agent_passive	Zoya	Zoya	True	True	6.359375	Zoya was photographed by Derek.
+qwen15	q05	agent	a_agent_active	Ruth	Ruth	True	True	8.921875	Ruth chased Elias.
+qwen15	q05	agent	b_agent_active	Elias	Elias	True	True	10.953125	Elias chased Ruth.
+qwen15	q05	agent	a_agent_passive	Ruth	Ruth	True	True	1.078125	Elias was chased by Ruth.
+qwen15	q05	agent	b_agent_passive	Elias	Elias	True	True	2.234375	Ruth was chased by Elias.
+qwen15	q05	first	a_agent_active	Ruth	Elias.	False	False	-0.46875	Ruth chased Elias.
+qwen15	q05	first	b_agent_active	Elias	Ruth	False	False	-1.65625	Elias chased Ruth.
+qwen15	q05	first	a_agent_passive	Elias	Elias	True	True	1.546875	Elias was chased by Ruth.
+qwen15	q05	first	b_agent_passive	Ruth	Ruth	True	True	5.125	Ruth was chased by Elias.
+qwen15	q06	agent	a_agent_active	Vera	Vera tapped Colin.	False	True	8.5	Vera tapped Colin.
+qwen15	q06	agent	b_agent_active	Colin	Colin tapped Vera.	False	True	4.90625	Colin tapped Vera.
+qwen15	q06	agent	a_agent_passive	Vera	Vera	True	True	2.53125	Colin was tapped by Vera.
+qwen15	q06	agent	b_agent_passive	Colin	Vera	False	False	-2.421875	Vera was tapped by Colin.
+qwen15	q06	first	a_agent_active	Vera	Vera	True	True	1.203125	Vera tapped Colin.
+qwen15	q06	first	b_agent_active	Colin	Vera	False	False	-0.703125	Colin tapped Vera.
+qwen15	q06	first	a_agent_passive	Colin	Vera	False	False	-1.1875	Colin was tapped by Vera.
+qwen15	q06	first	b_agent_passive	Vera	Vera	True	True	2.828125	Vera was tapped by Colin.
+qwen15	q07	agent	a_agent_active	Ada	Ada	True	True	12.546875	Ada visited Martin.
+qwen15	q07	agent	b_agent_active	Martin	Martin	True	True	13.53125	Martin visited Ada.
+qwen15	q07	agent	a_agent_passive	Ada	Martin	False	False	-3.171875	Martin was visited by Ada.
+qwen15	q07	agent	b_agent_passive	Martin	Ada	False	False	-5.390625	Ada was visited by Martin.
+qwen15	q07	first	a_agent_active	Ada	Ada	True	True	8.4375	Ada visited Martin.
+qwen15	q07	first	b_agent_active	Martin	Ada	False	False	-2.4375	Martin visited Ada.
+qwen15	q07	first	a_agent_passive	Martin	Ada	False	False	-0.5	Martin was visited by Ada.
+qwen15	q07	first	b_agent_passive	Ada	Ada	True	True	9.21875	Ada was visited by Martin.
+qwen15	q08	agent	a_agent_active	Cora	Cora	True	True	10.0625	Cora photographed Leon.
+qwen15	q08	agent	b_agent_active	Leon	Leon	True	True	4.0625	Leon photographed Cora.
+qwen15	q08	agent	a_agent_passive	Cora	Cora	True	True	8.328125	Leon was photographed by Cora.
+qwen15	q08	agent	b_agent_passive	Leon	Leon	True	True	2.078125	Cora was photographed by Leon.
+qwen15	q08	first	a_agent_active	Cora	Cora	True	True	7.25	Cora photographed Leon.
+qwen15	q08	first	b_agent_active	Leon	Cora.	False	False	-3.015625	Leon photographed Cora.
+qwen15	q08	first	a_agent_passive	Leon	Cora	False	False	-1.078125	Leon was photographed by Cora.
+qwen15	q08	first	b_agent_passive	Cora	Cora	True	True	7.359375	Cora was photographed by Leon.
+qwen7b	q01	agent	a_agent_active	Lena	Lena	True	True	18.078125	Lena chased Bruno.
+qwen7b	q01	agent	b_agent_active	Bruno	Bruno	True	True	19.609375	Bruno chased Lena.
+qwen7b	q01	agent	a_agent_passive	Lena	Bruno	False	False	-4.484375	Bruno was chased by Lena.
+qwen7b	q01	agent	b_agent_passive	Bruno	Bruno	True	True	9.203125	Lena was chased by Bruno.
+qwen7b	q01	first	a_agent_active	Lena	Lena	True	True	21.09375	Lena chased Bruno.
+qwen7b	q01	first	b_agent_active	Bruno	Bruno	True	True	22.0625	Bruno chased Lena.
+qwen7b	q01	first	a_agent_passive	Bruno	Bruno	True	True	21.5625	Bruno was chased by Lena.
+qwen7b	q01	first	b_agent_passive	Lena	Lena	True	True	23.40625	Lena was chased by Bruno.
+qwen7b	q02	agent	a_agent_active	Tessa	Tessa	True	True	25.34375	Tessa tapped Oscar.
+qwen7b	q02	agent	b_agent_active	Oscar	Oscar	True	True	10.203125	Oscar tapped Tessa.
+qwen7b	q02	agent	a_agent_passive	Tessa	Oscar	False	False	-10.578125	Oscar was tapped by Tessa.
+qwen7b	q02	agent	b_agent_passive	Oscar	Tessa	False	False	-15.296875	Tessa was tapped by Oscar.
+qwen7b	q02	first	a_agent_active	Tessa	Tessa	True	True	30.828125	Tessa tapped Oscar.
+qwen7b	q02	first	b_agent_active	Oscar	Oscar	True	True	16.3125	Oscar tapped Tessa.
+qwen7b	q02	first	a_agent_passive	Oscar	Oscar	True	True	17.21875	Oscar was tapped by Tessa.
+qwen7b	q02	first	b_agent_passive	Tessa	Tessa	True	True	31.21875	Tessa was tapped by Oscar.
+qwen7b	q03	agent	a_agent_active	Freya	Freya	True	True	19.828125	Freya visited Hugo.
+qwen7b	q03	agent	b_agent_active	Hugo	Hugo	True	True	25.078125	Hugo visited Freya.
+qwen7b	q03	agent	a_agent_passive	Freya	Freya	True	True	10.328125	Hugo was visited by Freya.
+qwen7b	q03	agent	b_agent_passive	Hugo	Hugo	True	True	7.8125	Freya was visited by Hugo.
+qwen7b	q03	first	a_agent_active	Freya	Freya	True	True	19.421875	Freya visited Hugo.
+qwen7b	q03	first	b_agent_active	Hugo	Hugo	True	True	24.1875	Hugo visited Freya.
+qwen7b	q03	first	a_agent_passive	Hugo	Hugo	True	True	23.34375	Hugo was visited by Freya.
+qwen7b	q03	first	b_agent_passive	Freya	Freya	True	True	22.390625	Freya was visited by Hugo.
+qwen7b	q04	agent	a_agent_active	Zoya	Zoya	True	True	14.5625	Zoya photographed Derek.
+qwen7b	q04	agent	b_agent_active	Derek	Derek	True	True	21.53125	Derek photographed Zoya.
+qwen7b	q04	agent	a_agent_passive	Zoya	Zoya	True	True	22.84375	Derek was photographed by Zoya.
+qwen7b	q04	agent	b_agent_passive	Derek	Derek	True	True	21.796875	Zoya was photographed by Derek.
+qwen7b	q04	first	a_agent_active	Zoya	Zoya	True	True	13.5	Zoya photographed Derek.
+qwen7b	q04	first	b_agent_active	Derek	Derek	True	True	20.703125	Derek photographed Zoya.
+qwen7b	q04	first	a_agent_passive	Derek	Derek	True	True	25.78125	Derek was photographed by Zoya.
+qwen7b	q04	first	b_agent_passive	Zoya	Zoya	True	True	16.875	Zoya was photographed by Derek.
+qwen7b	q05	agent	a_agent_active	Ruth	Ruth	True	True	18.46875	Ruth chased Elias.
+qwen7b	q05	agent	b_agent_active	Elias	Elias	True	True	20.75	Elias chased Ruth.
+qwen7b	q05	agent	a_agent_passive	Ruth	Elias	False	False	-17.6875	Elias was chased by Ruth.
+qwen7b	q05	agent	b_agent_passive	Elias	Ruth	False	False	-1.4375	Ruth was chased by Elias.
+qwen7b	q05	first	a_agent_active	Ruth	Ruth	True	True	21.15625	Ruth chased Elias.
+qwen7b	q05	first	b_agent_active	Elias	Elias	True	True	23.0625	Elias chased Ruth.
+qwen7b	q05	first	a_agent_passive	Elias	Elias	True	True	24.859375	Elias was chased by Ruth.
+qwen7b	q05	first	b_agent_passive	Ruth	Ruth	True	True	23.0625	Ruth was chased by Elias.
+qwen7b	q06	agent	a_agent_active	Vera	Vera	True	True	22.375	Vera tapped Colin.
+qwen7b	q06	agent	b_agent_active	Colin	Colin	True	True	20.265625	Colin tapped Vera.
+qwen7b	q06	agent	a_agent_passive	Vera	Colin	False	False	-14.390625	Colin was tapped by Vera.
+qwen7b	q06	agent	b_agent_passive	Colin	Vera	False	False	-6.609375	Vera was tapped by Colin.
+qwen7b	q06	first	a_agent_active	Vera	Vera	True	True	27.0	Vera tapped Colin.
+qwen7b	q06	first	b_agent_active	Colin	Colin	True	True	27.25	Colin tapped Vera.
+qwen7b	q06	first	a_agent_passive	Colin	Colin	True	True	23.15625	Colin was tapped by Vera.
+qwen7b	q06	first	b_agent_passive	Vera	Vera	True	True	20.203125	Vera was tapped by Colin.
+qwen7b	q07	agent	a_agent_active	Ada	Ada	True	True	17.78125	Ada visited Martin.
+qwen7b	q07	agent	b_agent_active	Martin	Martin	True	True	22.015625	Martin visited Ada.
+qwen7b	q07	agent	a_agent_passive	Ada	Martin	False	False	-6.234375	Martin was visited by Ada.
+qwen7b	q07	agent	b_agent_passive	Martin	Martin	True	True	18.703125	Ada was visited by Martin.
+qwen7b	q07	first	a_agent_active	Ada	Ada	True	True	20.046875	Ada visited Martin.
+qwen7b	q07	first	b_agent_active	Martin	Martin	True	True	23.0	Martin visited Ada.
+qwen7b	q07	first	a_agent_passive	Martin	Martin	True	True	22.078125	Martin was visited by Ada.
+qwen7b	q07	first	b_agent_passive	Ada	Ada	True	True	20.390625	Ada was visited by Martin.
+qwen7b	q08	agent	a_agent_active	Cora	Cora	True	True	21.921875	Cora photographed Leon.
+qwen7b	q08	agent	b_agent_active	Leon	Leon	True	True	14.484375	Leon photographed Cora.
+qwen7b	q08	agent	a_agent_passive	Cora	Cora	True	True	28.9375	Leon was photographed by Cora.
+qwen7b	q08	agent	b_agent_passive	Leon	Leon	True	True	12.90625	Cora was photographed by Leon.
+qwen7b	q08	first	a_agent_active	Cora	Cora	True	True	21.265625	Cora photographed Leon.
+qwen7b	q08	first	b_agent_active	Leon	Leon	True	True	15.1875	Leon photographed Cora.
+qwen7b	q08	first	a_agent_passive	Leon	Leon	True	True	18.84375	Leon was photographed by Cora.
+qwen7b	q08	first	b_agent_passive	Cora	Cora	True	True	24.65625	Cora was photographed by Leon.
+llama3b	q01	agent	a_agent_active	Lena	Lena	True	True	3.59375	Lena chased Bruno.
+llama3b	q01	agent	b_agent_active	Bruno	Bruno	True	True	4.40625	Bruno chased Lena.
+llama3b	q01	agent	a_agent_passive	Lena	Bruno	False	False	-2.0	Bruno was chased by Lena.
+llama3b	q01	agent	b_agent_passive	Bruno	Bruno	True	True	2.515625	Lena was chased by Bruno.
+llama3b	q01	first	a_agent_active	Lena	Lena	True	True	3.890625	Lena chased Bruno.
+llama3b	q01	first	b_agent_active	Bruno	Bruno	True	True	2.3125	Bruno chased Lena.
+llama3b	q01	first	a_agent_passive	Bruno	Bruno	True	True	4.953125	Bruno was chased by Lena.
+llama3b	q01	first	b_agent_passive	Lena	Lena	True	True	4.640625	Lena was chased by Bruno.
+llama3b	q02	agent	a_agent_active	Tessa	Tessa	True	True	4.421875	Tessa tapped Oscar.
+llama3b	q02	agent	b_agent_active	Oscar	Oscar	True	True	3.484375	Oscar tapped Tessa.
+llama3b	q02	agent	a_agent_passive	Tessa	Tessa	True	True	0.578125	Oscar was tapped by Tessa.
+llama3b	q02	agent	b_agent_passive	Oscar	Oscar	True	True	0.96875	Tessa was tapped by Oscar.
+llama3b	q02	first	a_agent_active	Tessa	Tessa	True	True	3.625	Tessa tapped Oscar.
+llama3b	q02	first	b_agent_active	Oscar	Oscar	True	True	1.109375	Oscar tapped Tessa.
+llama3b	q02	first	a_agent_passive	Oscar	Oscar	True	True	4.40625	Oscar was tapped by Tessa.
+llama3b	q02	first	b_agent_passive	Tessa	Tessa	True	True	4.015625	Tessa was tapped by Oscar.
+llama3b	q03	agent	a_agent_active	Freya	Freya	True	True	3.0625	Freya visited Hugo.
+llama3b	q03	agent	b_agent_active	Hugo	Hugo	True	True	4.296875	Hugo visited Freya.
+llama3b	q03	agent	a_agent_passive	Freya	Hugo	False	False	-1.15625	Hugo was visited by Freya.
+llama3b	q03	agent	b_agent_passive	Hugo	Hugo	True	True	0.953125	Freya was visited by Hugo.
+llama3b	q03	first	a_agent_active	Freya	Freya	True	True	2.609375	Freya visited Hugo.
+llama3b	q03	first	b_agent_active	Hugo	Hugo	True	True	5.34375	Hugo visited Freya.
+llama3b	q03	first	a_agent_passive	Hugo	Hugo	True	True	7.6875	Hugo was visited by Freya.
+llama3b	q03	first	b_agent_passive	Freya	Freya	True	True	4.34375	Freya was visited by Hugo.
+llama3b	q04	agent	a_agent_active	Zoya	Zoya	True	True	1.734375	Zoya photographed Derek.
+llama3b	q04	agent	b_agent_active	Derek	Derek	True	True	3.34375	Derek photographed Zoya.
+llama3b	q04	agent	a_agent_passive	Zoya	Zoya	True	True	1.3125	Derek was photographed by Zoya.
+llama3b	q04	agent	b_agent_passive	Derek	Derek	True	True	1.421875	Zoya was photographed by Derek.
+llama3b	q04	first	a_agent_active	Zoya	Zoya	True	True	1.84375	Zoya photographed Derek.
+llama3b	q04	first	b_agent_active	Derek	Derek	True	True	2.875	Derek photographed Zoya.
+llama3b	q04	first	a_agent_passive	Derek	Derek	True	True	3.84375	Derek was photographed by Zoya.
+llama3b	q04	first	b_agent_passive	Zoya	Zoya	True	True	4.109375	Zoya was photographed by Derek.
+llama3b	q05	agent	a_agent_active	Ruth	Ruth	True	True	3.1875	Ruth chased Elias.
+llama3b	q05	agent	b_agent_active	Elias	Elias	True	True	4.359375	Elias chased Ruth.
+llama3b	q05	agent	a_agent_passive	Ruth	Elias	False	False	-0.65625	Elias was chased by Ruth.
+llama3b	q05	agent	b_agent_passive	Elias	Elias	True	True	1.0	Ruth was chased by Elias.
+llama3b	q05	first	a_agent_active	Ruth	Ruth	True	True	3.046875	Ruth chased Elias.
+llama3b	q05	first	b_agent_active	Elias	Elias	True	True	3.453125	Elias chased Ruth.
+llama3b	q05	first	a_agent_passive	Elias	Elias	True	True	5.234375	Elias was chased by Ruth.
+llama3b	q05	first	b_agent_passive	Ruth	Ruth	True	True	4.078125	Ruth was chased by Elias.
+llama3b	q06	agent	a_agent_active	Vera	Vera	True	True	3.109375	Vera tapped Colin.
+llama3b	q06	agent	b_agent_active	Colin	Colin	True	True	4.859375	Colin tapped Vera.
+llama3b	q06	agent	a_agent_passive	Vera	Vera	True	False	0.0	Colin was tapped by Vera.
+llama3b	q06	agent	b_agent_passive	Colin	Colin	True	True	1.09375	Vera was tapped by Colin.
+llama3b	q06	first	a_agent_active	Vera	Vera	True	True	2.640625	Vera tapped Colin.
+llama3b	q06	first	b_agent_active	Colin	Colin	True	True	2.375	Colin tapped Vera.
+llama3b	q06	first	a_agent_passive	Colin	Colin	True	True	4.34375	Colin was tapped by Vera.
+llama3b	q06	first	b_agent_passive	Vera	Vera	True	True	4.203125	Vera was tapped by Colin.
+llama3b	q07	agent	a_agent_active	Ada	Ada	True	True	0.203125	Ada visited Martin.
+llama3b	q07	agent	b_agent_active	Martin	Martin	True	True	6.484375	Martin visited Ada.
+llama3b	q07	agent	a_agent_passive	Ada	Martin	False	False	-2.109375	Martin was visited by Ada.
+llama3b	q07	agent	b_agent_passive	Martin	Martin	True	True	3.015625	Ada was visited by Martin.
+llama3b	q07	first	a_agent_active	Ada	Ada	True	True	0.96875	Ada visited Martin.
+llama3b	q07	first	b_agent_active	Martin	Martin	True	True	5.546875	Martin visited Ada.
+llama3b	q07	first	a_agent_passive	Martin	Martin	True	True	7.671875	Martin was visited by Ada.
+llama3b	q07	first	b_agent_passive	Ada	Ada	True	True	2.75	Ada was visited by Martin.
+llama3b	q08	agent	a_agent_active	Cora	Cora	True	True	4.390625	Cora photographed Leon.
+llama3b	q08	agent	b_agent_active	Leon	Leon	True	True	4.234375	Leon photographed Cora.
+llama3b	q08	agent	a_agent_passive	Cora	Cora	True	True	1.546875	Leon was photographed by Cora.
+llama3b	q08	agent	b_agent_passive	Leon	Leon	True	True	0.4375	Cora was photographed by Leon.
+llama3b	q08	first	a_agent_active	Cora	Cora	True	True	2.890625	Cora photographed Leon.
+llama3b	q08	first	b_agent_active	Leon	Leon	True	True	2.8125	Leon photographed Cora.
+llama3b	q08	first	a_agent_passive	Leon	Leon	True	True	6.828125	Leon was photographed by Cora.
+llama3b	q08	first	b_agent_passive	Cora	Cora	True	True	4.984375	Cora was photographed by Leon.

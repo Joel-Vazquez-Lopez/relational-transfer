@@ -1,0 +1,57 @@
+{
+  "model": "llama3b",
+  "status": "descriptive_path_capture_only",
+  "path_view_lock_sha256": "b1c6554799a3e1f0cd5070ef637aba7528d9c80d6ce7f432e359929d7dae0b47",
+  "gate_lock_sha256": "375e1927af634342c0d86f1e6f072859b96680426682469c005ec78dbdfec0d7",
+  "script_sha256": "ec2d665d1dcba4d78b4b7addbf34c122e84e8b01f208a2fc1cb6b0f52893b17b",
+  "states_sha256": "63edb10fa93fa0634303177a6d1a2b9c39fea2d880e909f5f0e16852568e873c",
+  "config_sha256": "c546925585e48f43890d9dc5150df4fec73dd3780d92961c5ace451934cc4cd6",
+  "shape": [
+    4,
+    29,
+    2,
+    3072
+  ],
+  "metadata": [
+    {
+      "condition": "a_agent_active",
+      "sentence": "Miriam pushed Adrian.",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Miriam pushed Adrian.\nQuestion: Who pushed someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "token_count": 63,
+      "positions": [
+        51,
+        62
+      ]
+    },
+    {
+      "condition": "b_agent_active",
+      "sentence": "Adrian pushed Miriam.",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Adrian pushed Miriam.\nQuestion: Who pushed someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "token_count": 63,
+      "positions": [
+        51,
+        62
+      ]
+    },
+    {
+      "condition": "a_agent_passive",
+      "sentence": "Adrian was pushed by Miriam.",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Adrian was pushed by Miriam.\nQuestion: Who pushed someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "token_count": 65,
+      "positions": [
+        53,
+        64
+      ]
+    },
+    {
+      "condition": "b_agent_passive",
+      "sentence": "Miriam was pushed by Adrian.",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 17 Oct 2026\n\nAnswer the question about the sentence. Reply with only the person's name.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nSentence: Miriam was pushed by Adrian.\nQuestion: Who pushed someone?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "token_count": 65,
+      "positions": [
+        53,
+        64
+      ]
+    }
+  ]
+}
