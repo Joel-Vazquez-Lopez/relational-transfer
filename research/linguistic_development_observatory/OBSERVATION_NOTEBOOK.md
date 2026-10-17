@@ -52,3 +52,29 @@ Name-axis removal retained impressive directional alignment, but an explicit cop
 - Would head/MLP contribution decomposition explain late rebounds or show cancellations hidden by the residual?
 - How would invented names, rare names and multi-token names alter the entire path without changing roles?
 - Can we build a known-mechanism toy model where nominally similar multi-site curves conceal incompatible algorithms?
+
+
+## Entry 004 — Question-conditioned developmental response, after Codex's final audit (17 October 2026)
+**Origin:** [Codex complete report, frozen commit `7cfb406`](https://github.com/Joel-Vazquez-Lopez/relational-transfer/blob/7cfb40634baf9783f7a1c0a057cde8feb82dbed9/research/trajectory_relation_audit_2026-10-17/REPORT.md), [query summary JSON](https://github.com/Joel-Vazquez-Lopez/relational-transfer/blob/7cfb40634baf9783f7a1c0a057cde8feb82dbed9/research/trajectory_relation_audit_2026-10-17/QUERY_SUMMARY.json), [Issue #33 outcome](https://github.com/Joel-Vazquez-Lopez/relational-transfer/issues/33#issuecomment-6240873041). **Evidence status:** one-model bounded descriptive result with retained multi-model failures; no identified mechanism.
+
+**Contrast:** Within each model, compare active/passive role-reversal response vectors, consistently oriented by which person is Agent; compare the same construction families under “who did the action?” vs “who was mentioned first?” using layerwise cosine. This captures response *direction*, unlike earlier response-magnitude plots. Eight new lexical families × four sentence cells × two questions × four models produced 256 recorded responses; fixed late summary over final quarter of blocks.
+
+- **Qwen7B:** late Agent cosine **+0.099**, first-mentioned cosine **−0.911**, difference **+1.010**; difference positive for **8/8 families**. Correct 24/32 Agent, 32/32 first-mentioned; fully competent in only **3/8 families**. Passed model-specific descriptive threshold.
+- **Llama3B:** late **−0.039 / −0.907**, difference **+0.868** and 8/8 positive, **but FAILED the frozen technical invariance control**: event-prefix states varied across later questions by up to 0.003827 in relative norm versus a 0.001 tolerance. **Do not call this clean replication.**
+- **Qwen1.5B:** difference **+0.485** but only **1/8 competent families**; failed competence gate.
+- **Qwen0.5B diagnostic:** difference **−0.132**, **0/8 competent families**.
+- **Whole three-primary-model rule failed.** No further adaptive inference was done.
+- Direct output-axis removal does not abolish the observed Qwen7B difference, but a **simple answer-response baseline matched all 16 final alignment signs**; a programmed surface-keyed answer copier reproduced key geometry and axis-removal signatures. It does not reproduce every measured magnitude, but defeats any unique-semantic-computation interpretation from signs alone.
+
+**What we find intriguing:** Same source transformations can have different *late developmental geometric relationships* depending on retrieval demand; early-to-late evolution matters. The earlier shape-based patterns were a real motivation for asking about the relation between *contrasts*, not sufficient evidence for common linguistic machinery.
+
+**Do not conclude:** semantic-role computation was localized; Qwen and Llama replicate a universal law; late convergence proves reusable role identity; removing one axis eliminates distributed answer code; all plotted 8 families are independent corpus-validity confirmation.
+
+**Ground-development ideas, not assignments to Codex:**
+1. Separate **linguistic operation**, **question formulation**, **output name** and **surface word order** in a crossed conceptual model; compute which contrasts are identifiable before paying for more traces.
+2. Investigate whether there are **site-by-depth developmental phases** under the question-conditioned contrast, not just one last-quarter cosine. Inspect full family traces and absolute magnitudes alongside signed direction; quantify how answer correctness relates to motif differences without conditioning away errors.
+3. Ask which patterns a **surface-keyed answer copier** predicts *across full layers and multiple sites*, not merely terminal signs; explore toy systems first.
+4. Treat Llama's pre-question numerical discrepancy as an unresolved technical confound. Never retroactively relax its threshold; debugging requires separate status.
+5. Preserve our original linguistic north star. Codex can later receive a narrow independently specified test after our exploratory inspection, with no automatic experiment expansion.
+
+**Decision:** Add to observational evidence ledger. No claim of cross-model mechanism; no new model runs triggered by the archival update.
