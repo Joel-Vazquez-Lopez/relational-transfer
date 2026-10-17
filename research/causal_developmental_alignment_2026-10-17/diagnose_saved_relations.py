@@ -63,6 +63,8 @@ def describe_grams(role, unrelated, raw):
     r_resid = [(g - raw_template)[mask] for g in role]
     u_resid = [(g - raw_template)[mask] for g in unrelated]
     out["raw_template_residual"] = {
+        "role_to_raw_template_corr": float(np.mean([corr(g[mask], raw_template[mask]) for g in role])),
+        "unrelated_to_raw_template_corr": float(np.mean([corr(g[mask], raw_template[mask]) for g in unrelated])),
         "role_within": mean_pairwise(r_resid),
         "unrelated_within": mean_pairwise(u_resid),
         "role_unrelated": float(np.mean([corr(a, b) for a in r_resid for b in u_resid])),
