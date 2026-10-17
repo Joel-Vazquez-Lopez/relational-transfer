@@ -7,6 +7,8 @@
 
 > Our original observation is NOT “two LLMs have the same vectors.” In Qwen 7B and Llama 3B, a controlled role reversal produces qualitatively related *up–down–continuity patterns* across subject, verb, object and question-token positions, with unequal amplitude and timing. Is that a meaningful regularity of linguistic processing, a general Transformer schedule, or some mixture? We want to **look at the entire development first** and discover how to tell.
 
+**Lab discussion and running decisions:** [GitHub Issue #35](https://github.com/Joel-Vazquez-Lopez/relational-transfer/issues/35). This is our dedicated ground-level laboratory; Codex's formal work remains in Issue #34.
+
 ## Why language, and why this scope?
 
 Linguistic phenomena are our experimental microscope, not an incidental benchmark. We can define what must change and what should remain invariant without looking at the neural representations: who did what to whom; active/passive descriptions of one event; novel entities; negation, event choice and question-dependent retrieval. These give us meaningful perturbations with which to inspect how the black box works.
