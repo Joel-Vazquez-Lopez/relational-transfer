@@ -4,7 +4,7 @@
     "qwen7b": "0776be0f0f1b2d5e0de3f85e100c81b64065f5f2e2ea5ac56f8ac087871232de",
     "llama3b": "85de38e3da7a491bdf16b4be597aa7a21fdc70951a53f08ae9faf55b4005d3b8"
   },
-  "script_sha256": "0817125d097eca4c8d0c3e45dbbaaf3d368f1b67a0a188cb9ff08c0c88d1e9aa",
+  "script_sha256": "58d36c1373790467630c99c5542788fa1d3bb1aa7a11c9118da2d5cfd0a76488",
   "definitions": {
     "role": "base minus reversal in same lexical family",
     "unrelated": "base family i minus base family i+1 modulo four",
@@ -54,6 +54,8 @@
           "role_unrelated": 0.8389829864353264
         },
         "raw_template_residual": {
+          "role_to_raw_template_corr": 0.5729175460254375,
+          "unrelated_to_raw_template_corr": 0.596184785987418,
           "role_within": 0.8341676256143485,
           "unrelated_within": 0.8542652803443801,
           "role_unrelated": 0.8535294576321755,
@@ -106,6 +108,8 @@
           "role_unrelated": 0.07362405874645456
         },
         "raw_template_residual": {
+          "role_to_raw_template_corr": 0.36963356284300364,
+          "unrelated_to_raw_template_corr": 0.582065296110347,
           "role_within": 0.9035999478839835,
           "unrelated_within": 0.9734869067127341,
           "role_unrelated": 0.7550155451348095,
@@ -158,6 +162,8 @@
           "role_unrelated": 0.6841426495901513
         },
         "raw_template_residual": {
+          "role_to_raw_template_corr": 0.5440218002735895,
+          "unrelated_to_raw_template_corr": 0.5559379136055206,
           "role_within": 0.7968785534681335,
           "unrelated_within": 0.8776054169153557,
           "role_unrelated": 0.7876353386756462,
@@ -210,6 +216,8 @@
           "role_unrelated": -0.005765438107958666
         },
         "raw_template_residual": {
+          "role_to_raw_template_corr": 0.3261468712422478,
+          "unrelated_to_raw_template_corr": 0.2947492955140546,
           "role_within": 0.9574423431211811,
           "unrelated_within": 0.9835003304960659,
           "role_unrelated": 0.9541000557778823,
@@ -1685,6 +1693,8 @@
           "role_unrelated": 0.6947101372889816
         },
         "raw_template_residual": {
+          "role_to_raw_template_corr": 0.5220684177995392,
+          "unrelated_to_raw_template_corr": 0.5309758506420179,
           "role_within": 0.7963433374087042,
           "unrelated_within": 0.8225542293926279,
           "role_unrelated": 0.8126280951011641,
@@ -1737,6 +1747,8 @@
           "role_unrelated": 0.02061736943014339
         },
         "raw_template_residual": {
+          "role_to_raw_template_corr": 0.34835518383413644,
+          "unrelated_to_raw_template_corr": 0.5589156814806614,
           "role_within": 0.8185988358619701,
           "unrelated_within": 0.9482627705322596,
           "role_unrelated": 0.6119414269167149,
@@ -1789,6 +1801,8 @@
           "role_unrelated": 0.716168190532656
         },
         "raw_template_residual": {
+          "role_to_raw_template_corr": 0.4948325245332739,
+          "unrelated_to_raw_template_corr": 0.598013062707828,
           "role_within": 0.8513838834599815,
           "unrelated_within": 0.8919456117378171,
           "role_unrelated": 0.7870773403972506,
@@ -1841,6 +1855,8 @@
           "role_unrelated": 0.008711683633995236
         },
         "raw_template_residual": {
+          "role_to_raw_template_corr": 0.5191163479779087,
+          "unrelated_to_raw_template_corr": 0.5709965004235669,
           "role_within": 0.8110256308995282,
           "unrelated_within": 0.8918557787358915,
           "role_unrelated": 0.7909890621550567,
