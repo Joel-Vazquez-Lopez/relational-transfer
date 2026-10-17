@@ -1,0 +1,25 @@
+{
+  "status": "frozen_before_factorial_model_outputs",
+  "date": "2026-10-17",
+  "scope": "One local, bounded competence and readout gate; no paid API, training, or downloads. Run Qwen 7B and Llama 3B sequentially.",
+  "question": "Can an active/passive factorial be screened in a second surface frame where the same-meaning voice edit no longer swaps the first-mentioned name?",
+  "models": ["qwen7b", "llama3b"],
+  "families": [
+    {"id": "iris_noah_thanked", "split": "development", "a": "Iris", "b": "Noah", "verb": "thanked"},
+    {"id": "maya_owen_invited", "split": "development", "a": "Maya", "b": "Owen", "verb": "invited"},
+    {"id": "nora_peter_thanked", "split": "evaluation", "a": "Nora", "b": "Peter", "verb": "thanked"},
+    {"id": "ruby_victor_invited", "split": "evaluation", "a": "Ruby", "b": "Victor", "verb": "invited"}
+  ],
+  "frames": {
+    "canonical": {"active": "{agent} {verb} {patient}.", "passive": "{patient} was {verb} by {agent}."},
+    "agent_first_passive_cleft": {"active": "{agent} {verb} {patient}.", "passive": "It was by {agent} that {patient} was {verb}."}
+  },
+  "questions": {"agent": "Who {verb} someone?", "patient": "Who was {verb}?"},
+  "prompt": "The same chat system instruction and Sentence/Question wrapper used in the previous role-path pilot; no person/team conflict.",
+  "pre_factorial_scorer_validation": "On all eight old exposed actor prompts, greedy generation must be the correct full name and teacher-forced full-name sequence log-probability must rank the correct name over the other name. Record candidate token IDs and lengths. If this fails, stop any new answer-based analysis for that model.",
+  "competence_gate": "For each family and model, all 2 frames x 4 R/V cells x 2 questions must be greedily answered with the exact expected full name, and the full-name score must rank it above the rival. Record all failures and do not replace a family.",
+  "surface_alias_test": "Canonical V swaps the first name; cleft V preserves Agent-first name order. At least one development and one evaluation family per model must pass both frames before geometry or causal patches are interpreted across models. If the cleft is not understood, stop at feasibility rather than interpreting canonical R x V.",
+  "geometry_if_gate_passes": "Capture embedding plus all 28 block-output residual states at the final prompt token for all four cells, both questions, both frames. Preserve full vectors locally. Report R and V response norms and cosines and I=RV-R-V+base per layer. Do not infer internal operation order from I.",
+  "causal_if_gate_passes": "Use the same final-prompt-token block-output site as the previous patch pilot, nine approximately equally spaced blocks. For each competent development family patch canonical/cleft R donor into base and compare with self-sham, same-answer voice donor, unrelated-family donor, and the preceding token as wrong-site control. Score complete name strings. Freeze one prediction before evaluation patches: a role-specific account expects selective R transfer across both frames after same-answer and unrelated-donor correction; a generic answer/position account predicts similar effects from unrelated-answer donors or frame-dependent effects tracking first-name order. No evaluation patch if development controls cannot distinguish them.",
+  "stopping": "No post hoc family replacement, layer selection, prompt rewording, threshold adjustment or extra model inference after seeing evaluation outcomes. Report an infeasible or negative result if competence or controls fail. This is a feasibility study, not a generalization claim."
+}
