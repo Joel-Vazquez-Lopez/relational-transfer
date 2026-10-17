@@ -1,0 +1,409 @@
+{
+  "status": "frozen_competence_gate_analysis_no_causal_patches",
+  "lock_sha256": "2eda3be26aa5ed701b1fbcb6c7712a4d40f238395555c784175e3deca93e2782",
+  "models": {
+    "qwen7b": {
+      "raw_sha256": "5397de719b668fb2f0be073edd7963b3c6bf1d7647e99ca2d62a38c62f38cc9d",
+      "old_scorer_validation_passed": true,
+      "old_correct": 8,
+      "old_total": 8,
+      "families": [
+        {
+          "id": "iris_noah_thanked",
+          "split": "development",
+          "competent": false,
+          "correct_rows": 14,
+          "total_rows": 16
+        },
+        {
+          "id": "maya_owen_invited",
+          "split": "development",
+          "competent": true,
+          "correct_rows": 16,
+          "total_rows": 16
+        },
+        {
+          "id": "nora_peter_thanked",
+          "split": "evaluation",
+          "competent": false,
+          "correct_rows": 13,
+          "total_rows": 16
+        },
+        {
+          "id": "ruby_victor_invited",
+          "split": "evaluation",
+          "competent": true,
+          "correct_rows": 16,
+          "total_rows": 16
+        }
+      ],
+      "competent_families": 2,
+      "correct_rows": 59,
+      "total_rows": 64,
+      "correct_unique_prompts": 43,
+      "unique_prompts": 48,
+      "by_frame": {
+        "agent_first_passive_cleft": {
+          "correct": 31,
+          "total": 32
+        },
+        "canonical": {
+          "correct": 28,
+          "total": 32
+        }
+      },
+      "by_role": {
+        "agent": {
+          "correct": 29,
+          "total": 32
+        },
+        "patient": {
+          "correct": 30,
+          "total": 32
+        }
+      },
+      "by_voice": {
+        "0": {
+          "correct": 32,
+          "total": 32
+        },
+        "1": {
+          "correct": 27,
+          "total": 32
+        }
+      },
+      "by_swap": {
+        "0": {
+          "correct": 30,
+          "total": 32
+        },
+        "1": {
+          "correct": 29,
+          "total": 32
+        }
+      },
+      "greedy_score_disagreements": 0,
+      "failures": [
+        {
+          "family": "iris_noah_thanked",
+          "split": "development",
+          "frame": "canonical",
+          "r": 0,
+          "v": 1,
+          "role": "patient",
+          "sentence": "Noah was thanked by Iris.",
+          "question": "Who was thanked?",
+          "generated": "Iris",
+          "expected": "Noah",
+          "score_margin": -1.46875
+        },
+        {
+          "family": "iris_noah_thanked",
+          "split": "development",
+          "frame": "canonical",
+          "r": 1,
+          "v": 1,
+          "role": "agent",
+          "sentence": "Iris was thanked by Noah.",
+          "question": "Who thanked someone?",
+          "generated": "Iris",
+          "expected": "Noah",
+          "score_margin": -5.9375
+        },
+        {
+          "family": "nora_peter_thanked",
+          "split": "evaluation",
+          "frame": "canonical",
+          "r": 0,
+          "v": 1,
+          "role": "patient",
+          "sentence": "Peter was thanked by Nora.",
+          "question": "Who was thanked?",
+          "generated": "Nora",
+          "expected": "Peter",
+          "score_margin": -2.9375
+        },
+        {
+          "family": "nora_peter_thanked",
+          "split": "evaluation",
+          "frame": "canonical",
+          "r": 1,
+          "v": 1,
+          "role": "agent",
+          "sentence": "Nora was thanked by Peter.",
+          "question": "Who thanked someone?",
+          "generated": "Nora",
+          "expected": "Peter",
+          "score_margin": -2.65625
+        },
+        {
+          "family": "nora_peter_thanked",
+          "split": "evaluation",
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 1,
+          "role": "agent",
+          "sentence": "It was by Peter that Nora was thanked.",
+          "question": "Who thanked someone?",
+          "generated": "Nora",
+          "expected": "Peter",
+          "score_margin": -4.953125
+        }
+      ]
+    },
+    "llama3b": {
+      "raw_sha256": "9655a2f04965ea2d00e1c03b32f74edbd3b486290a072e8bb88c8717e5b3e638",
+      "old_scorer_validation_passed": true,
+      "old_correct": 8,
+      "old_total": 8,
+      "families": [
+        {
+          "id": "iris_noah_thanked",
+          "split": "development",
+          "competent": false,
+          "correct_rows": 13,
+          "total_rows": 16
+        },
+        {
+          "id": "maya_owen_invited",
+          "split": "development",
+          "competent": false,
+          "correct_rows": 12,
+          "total_rows": 16
+        },
+        {
+          "id": "nora_peter_thanked",
+          "split": "evaluation",
+          "competent": false,
+          "correct_rows": 13,
+          "total_rows": 16
+        },
+        {
+          "id": "ruby_victor_invited",
+          "split": "evaluation",
+          "competent": false,
+          "correct_rows": 13,
+          "total_rows": 16
+        }
+      ],
+      "competent_families": 0,
+      "correct_rows": 51,
+      "total_rows": 64,
+      "correct_unique_prompts": 39,
+      "unique_prompts": 48,
+      "by_frame": {
+        "agent_first_passive_cleft": {
+          "correct": 24,
+          "total": 32
+        },
+        "canonical": {
+          "correct": 27,
+          "total": 32
+        }
+      },
+      "by_role": {
+        "agent": {
+          "correct": 31,
+          "total": 32
+        },
+        "patient": {
+          "correct": 20,
+          "total": 32
+        }
+      },
+      "by_voice": {
+        "0": {
+          "correct": 24,
+          "total": 32
+        },
+        "1": {
+          "correct": 27,
+          "total": 32
+        }
+      },
+      "by_swap": {
+        "0": {
+          "correct": 23,
+          "total": 32
+        },
+        "1": {
+          "correct": 28,
+          "total": 32
+        }
+      },
+      "greedy_score_disagreements": 0,
+      "failures": [
+        {
+          "family": "iris_noah_thanked",
+          "split": "development",
+          "frame": "canonical",
+          "r": 1,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Noah thanked Iris.",
+          "question": "Who was thanked?",
+          "generated": "Noah",
+          "expected": "Iris",
+          "score_margin": -0.40625
+        },
+        {
+          "family": "iris_noah_thanked",
+          "split": "development",
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Noah thanked Iris.",
+          "question": "Who was thanked?",
+          "generated": "Noah",
+          "expected": "Iris",
+          "score_margin": -0.40625
+        },
+        {
+          "family": "iris_noah_thanked",
+          "split": "development",
+          "frame": "agent_first_passive_cleft",
+          "r": 1,
+          "v": 1,
+          "role": "patient",
+          "sentence": "It was by Noah that Iris was thanked.",
+          "question": "Who was thanked?",
+          "generated": "Noah",
+          "expected": "Iris",
+          "score_margin": -0.6875
+        },
+        {
+          "family": "maya_owen_invited",
+          "split": "development",
+          "frame": "canonical",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Maya invited Owen.",
+          "question": "Who was invited?",
+          "generated": "Maya",
+          "expected": "Owen",
+          "score_margin": -1.546875
+        },
+        {
+          "family": "maya_owen_invited",
+          "split": "development",
+          "frame": "canonical",
+          "r": 1,
+          "v": 1,
+          "role": "agent",
+          "sentence": "Maya was invited by Owen.",
+          "question": "Who invited someone?",
+          "generated": "Maya",
+          "expected": "Owen",
+          "score_margin": -1.015625
+        },
+        {
+          "family": "maya_owen_invited",
+          "split": "development",
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Maya invited Owen.",
+          "question": "Who was invited?",
+          "generated": "Maya",
+          "expected": "Owen",
+          "score_margin": -1.546875
+        },
+        {
+          "family": "maya_owen_invited",
+          "split": "development",
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 1,
+          "role": "patient",
+          "sentence": "It was by Maya that Owen was invited.",
+          "question": "Who was invited?",
+          "generated": "Maya",
+          "expected": "Owen",
+          "score_margin": -2.734375
+        },
+        {
+          "family": "nora_peter_thanked",
+          "split": "evaluation",
+          "frame": "canonical",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Nora thanked Peter.",
+          "question": "Who was thanked?",
+          "generated": "Nora",
+          "expected": "Peter",
+          "score_margin": -0.984375
+        },
+        {
+          "family": "nora_peter_thanked",
+          "split": "evaluation",
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Nora thanked Peter.",
+          "question": "Who was thanked?",
+          "generated": "Nora",
+          "expected": "Peter",
+          "score_margin": -0.984375
+        },
+        {
+          "family": "nora_peter_thanked",
+          "split": "evaluation",
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 1,
+          "role": "patient",
+          "sentence": "It was by Nora that Peter was thanked.",
+          "question": "Who was thanked?",
+          "generated": "Nora",
+          "expected": "Peter",
+          "score_margin": -0.796875
+        },
+        {
+          "family": "ruby_victor_invited",
+          "split": "evaluation",
+          "frame": "canonical",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Ruby invited Victor.",
+          "question": "Who was invited?",
+          "generated": "Ruby",
+          "expected": "Victor",
+          "score_margin": -0.890625
+        },
+        {
+          "family": "ruby_victor_invited",
+          "split": "evaluation",
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 0,
+          "role": "patient",
+          "sentence": "Ruby invited Victor.",
+          "question": "Who was invited?",
+          "generated": "Ruby",
+          "expected": "Victor",
+          "score_margin": -0.890625
+        },
+        {
+          "family": "ruby_victor_invited",
+          "split": "evaluation",
+          "frame": "agent_first_passive_cleft",
+          "r": 0,
+          "v": 1,
+          "role": "patient",
+          "sentence": "It was by Ruby that Victor was invited.",
+          "question": "Who was invited?",
+          "generated": "Ruby",
+          "expected": "Victor",
+          "score_margin": -1.015625
+        }
+      ]
+    }
+  },
+  "cross_model_gate_passed": false
+}
