@@ -1,5 +1,6 @@
 {
   "status": "frozen_before_factorial_model_outputs",
+  "technical_amendment": "First Qwen invocation stopped on the first exposed validation prompt before any factorial output because this installed MLX has no mx.log_softmax. Replaced it with the exactly equivalent row[token]-mx.logsumexp(row). No prompt, model, family, scoring rule, threshold, site or hypothesis changed; no new-family outputs were observed.",
   "date": "2026-10-17",
   "scope": "One local, bounded competence and readout gate; no paid API, training, or downloads. Run Qwen 7B and Llama 3B sequentially.",
   "question": "Can an active/passive factorial be screened in a second surface frame where the same-meaning voice edit no longer swaps the first-mentioned name?",
