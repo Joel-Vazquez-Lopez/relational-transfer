@@ -1,3 +1,5 @@
+> **RETROSPECTIVE CORRECTION (Brain-O R060, 17 Oct 2026):** E058's 180/600 and 219/600 patched outputs equal to *new gold* include predictions **already equal to the new gold before patching**. True correct-target acquisitions are **63/600** and **103/600**, with **51/600** and **60/600** lost prior target guesses; net gains **+12/600** and **+43/600**. Among **127/151 changed-to-wrong** contextual outputs, **106/137** pick the *requested-role person from a different source event*. Both role outputs originate from a common event only **84/300** and **97/300** worlds (no excess relative to role-marginal permutation null). These are synthetic, read-only corrections and cannot identify a shared semantic event selector. See [fully source-checked R060 report](RETROSPECTIVE_060_ERROR_PROVENANCE_2026-10-17.md); the original report below remains unchanged for provenance.
+
 # Brain-O E057–059 — Context-dependent native causal influence is not sufficient for correct relational answers
 **16 October 2026 | Status: EXECUTED and exact frozen-checkpoint replay verified | Synthetic open development only**
 
