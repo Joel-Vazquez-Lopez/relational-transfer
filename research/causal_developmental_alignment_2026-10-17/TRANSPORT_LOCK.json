@@ -1,0 +1,36 @@
+{
+  "status": "frozen_before_transport_model_outputs",
+  "date": "2026-10-17",
+  "scope": "One bounded fresh-family local study using existing Qwen 7B and Llama 3B; no training, download or paid API.",
+  "scientific_question": "Does a pre-question, sentence-final event-state patch carry person B's Agent status across active/passive syntax and B-first/B-second surface position, more selectively than a positional or generic answer donor?",
+  "models": ["qwen7b", "llama3b"],
+  "families": [
+    {"id": "laura_michael_greeted", "split": "development", "a": "Laura", "b": "Michael", "verb": "greeted"},
+    {"id": "sophie_william_rescued", "split": "development", "a": "Sophie", "b": "William", "verb": "rescued"},
+    {"id": "anna_robert_greeted", "split": "evaluation", "a": "Anna", "b": "Robert", "verb": "greeted"},
+    {"id": "megan_patrick_rescued", "split": "evaluation", "a": "Megan", "b": "Patrick", "verb": "rescued"}
+  ],
+  "system": "Answer the question about the sentence. Reply with only the person's name.",
+  "question": "Who {verb} someone?",
+  "seven_conditions": ["b_agent_active_first", "b_agent_passive_second", "b_patient_active_second", "b_patient_passive_first", "receiver_cleft_a_agent", "receiver_cleft_b_agent", "same_answer_unrelated"],
+  "sentences": {
+    "b_agent_active_first": "{b} {verb} {a}.",
+    "b_agent_passive_second": "{a} was {verb} by {b}.",
+    "b_patient_active_second": "{a} {verb} {b}.",
+    "b_patient_passive_first": "{b} was {verb} by {a}.",
+    "receiver_cleft_a_agent": "It was by {a} that {b} was {verb}.",
+    "receiver_cleft_b_agent": "It was by {b} that {a} was {verb}.",
+    "same_answer_unrelated": "{b} photographed Quinn."
+  },
+  "competence_gate": "Before any hidden-state capture or patching, both models must pass full-name greedy and teacher-forced candidate scoring on all seven conditions in at least one development and one evaluation family each. All four families are reported; no replacement. The unrelated condition uses question 'Who photographed someone?'. Reuse the scorer already validated 8/8 on exposed prompts for each model, with no code change.",
+  "primary_patch_site": "Sentence-final period token, before the question in the causal stream. This token has seen the complete event but cannot see the question. Patch the block-output residual at that token within each model.",
+  "wrong_site": "The 'Sentence:' prefix token preceding both participant names; patch the donor's corresponding prefix-token state into the recipient prefix as a generic-disruption control.",
+  "layers_zero_indexed": [7, 15, 23],
+  "recipient": "receiver_cleft_a_agent, whose correct Agent is A; score logP(B)-logP(A) using complete name sequences after each patch.",
+  "donors": ["b_agent_active_first", "b_agent_passive_second", "b_patient_active_second", "b_patient_passive_first", "same_answer_unrelated"],
+  "controls": ["recipient self patch at primary site", "all four factorial donors at wrong site", "same-answer unrelated donor at primary site", "untouched receiver", "reversed receiver behavioral target"],
+  "main_contrasts": "At each layer, e_d = patched B-vs-A full-name margin minus self-patch margin. Role contrast D=mean(e_BAgentActive,e_BAgentPassive)-mean(e_BPatientActive,e_BPatientPassive). First-name-position contrast P=mean(e_BAgentActive,e_BPatientPassive)-mean(e_BAgentPassive,e_BPatientActive). Voice contrast V=mean(active donors)-mean(passive donors). Report all raw effects. Same-answer unrelated donor is a diagnostic for event specificity, not automatically a failed role-transfer control.",
+  "development_gate": "For each model, average D over the three frozen layers and all competent development families. Continue to evaluation patching only if D>0.5 nats and D exceeds abs(P) at the primary site, while the wrong-site D is smaller than half the primary-site D. If either model fails, stop without evaluation patches. This is a selective feasibility criterion, not a population hypothesis test.",
+  "evaluation_success": "On every competent held-out evaluation family in both models, layer-averaged primary-site D must be positive and larger than abs(P), and wrong-site D must be smaller than half primary-site D. Report failures, individual layers and unrelated-donor effects. A pass supports bounded role-conditioned event-state transport, not a unique internal role-binding algorithm.",
+  "stop_rules": "No prompt, item, role, site, layer, scorer, threshold or control changes after new-family outputs. If the competence or development gate fails, stop; do not run evaluation patches. No adaptive extra experiments in this run."
+}
