@@ -54,7 +54,7 @@ def full_name_logprob(model, tok, prompt_ids, name):
     values = []
     for j, token_id in enumerate(continuation):
         row = logits[len(prompt_ids) - 1 + j]
-        values.append(mx.log_softmax(row)[token_id])
+        values.append(row[token_id] - mx.logsumexp(row))
     score = mx.sum(mx.stack(values))
     mx.eval(score)
     return float(score.item()), continuation
