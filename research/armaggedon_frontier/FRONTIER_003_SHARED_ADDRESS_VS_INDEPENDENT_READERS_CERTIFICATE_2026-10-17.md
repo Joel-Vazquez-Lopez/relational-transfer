@@ -18,19 +18,19 @@ Let the original text x contain two correctly annotated events, indexed e∈{0,1
 
 ### S — shared address mediator
 
-\`\`\`
+```
 Z = SELECT_EVENT(x, q)                  # computed once before role readout
 ANSWER_S(x, q, r) = LOOKUP(x, Z, r)     # role-conditioned downstream retrieval
-\`\`\`
+```
 
 ### I — competent independent role readers
 
-\`\`\`
+```
 # There is no single SELECT_EVENT call causally required by both readers.
 # Each reader receives the SAME prefix content and event cue as S.
 ANSWER_I(x, q, "Agent")   = READ_AGENT(x, q)    # computes target internally
 ANSWER_I(x, q, "Patient") = READ_PATIENT(x, q)  # separately computes target
-\`\`\`
+```
 
 Choose READ_AGENT(x,q)=A_q and READ_PATIENT(x,q)=P_q. Both architectures return the exact same four answers. A complete, high-capacity upstream prefix state H(x,q) can hold x and q, so replacing H(x,q=0) with H(x,q=1) redirects Agent and Patient in **both** S and I. Even perfect cross-role transfer **does not identify S**.
 
@@ -88,6 +88,6 @@ Predefine and retain the following defeating outcomes; do NOT rescue the hypothe
 
 Before even an exploratory new run, a receiver must: (a) inspect exact historical raw local reports/checkpoint and role/patch failures; (b) demonstrate a credible native graph boundary whose isolated Z manipulation changes the predictions of S* and I* while holding the same x,q access; (c) independently review human original-source annotation and licensed text; (d) pin training-development versus untouched test clusters and accessible weights/hardware; (e) predeclare **actual recipient-local answer** for both roles under every surgical condition; (f) freeze no-go thresholds and resource limit; (g) check full-text prior art and obtain separate research-lead approval in #31 after the break.
 
-**Theoretical gate result TODAY:** \`PREFIX-ONLY=NO-GO\`; \`CONDITIONAL PATH-MEDIATION=UNPROVEN/NOT READY TO RUN\`. There is *no non-circular, presently executable distinctive prediction* unless paths can first be isolated. Preserve this as an attractive theoretical frontier without claiming the no-run Codex decision was overturned.
+**Theoretical gate result TODAY:** `PREFIX-ONLY=NO-GO`; `CONDITIONAL PATH-MEDIATION=UNPROVEN/NOT READY TO RUN`. There is *no non-circular, presently executable distinctive prediction* unless paths can first be isolated. Preserve this as an attractive theoretical frontier without claiming the no-run Codex decision was overturned.
 
 **Research governance:** this note is the coordinator's design-only archive. **No model inference, GPU, paid API, data download, corpus panel selection, Codex task, or other agent work was started.**
