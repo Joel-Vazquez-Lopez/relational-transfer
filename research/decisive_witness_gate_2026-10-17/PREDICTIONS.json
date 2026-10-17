@@ -1,0 +1,76 @@
+{
+  "status": "NO_DISCRIMINATING_WITNESS_BEFORE_MODEL_INFERENCE",
+  "donor": "E1 first, A attached to E1; fixed question-label patch",
+  "rival_definitions": {
+    "semantic_event_identity": "The donor state selects the same source-defined E1 event identity in the recipient, then retrieves the queried role.",
+    "ordinal_index": "The donor state selects the first recipient occurrence, then retrieves the queried role.",
+    "strong_compound_key": "The donor state conveys an E1 syntax/content key; a query-aware recipient parser matches that source record after order and marker changes, then copies the queried role."
+  },
+  "rows": [
+    {
+      "recipient_first_event": "E1",
+      "recipient_marker_A_event": "E1",
+      "role": "Agent",
+      "semantic_event_identity": "E1.Agent",
+      "ordinal_index": "E1.Agent",
+      "strong_compound_key": "E1.Agent"
+    },
+    {
+      "recipient_first_event": "E1",
+      "recipient_marker_A_event": "E1",
+      "role": "Patient",
+      "semantic_event_identity": "E1.Patient",
+      "ordinal_index": "E1.Patient",
+      "strong_compound_key": "E1.Patient"
+    },
+    {
+      "recipient_first_event": "E1",
+      "recipient_marker_A_event": "E2",
+      "role": "Agent",
+      "semantic_event_identity": "E1.Agent",
+      "ordinal_index": "E1.Agent",
+      "strong_compound_key": "E1.Agent"
+    },
+    {
+      "recipient_first_event": "E1",
+      "recipient_marker_A_event": "E2",
+      "role": "Patient",
+      "semantic_event_identity": "E1.Patient",
+      "ordinal_index": "E1.Patient",
+      "strong_compound_key": "E1.Patient"
+    },
+    {
+      "recipient_first_event": "E2",
+      "recipient_marker_A_event": "E1",
+      "role": "Agent",
+      "semantic_event_identity": "E1.Agent",
+      "ordinal_index": "E2.Agent",
+      "strong_compound_key": "E1.Agent"
+    },
+    {
+      "recipient_first_event": "E2",
+      "recipient_marker_A_event": "E1",
+      "role": "Patient",
+      "semantic_event_identity": "E1.Patient",
+      "ordinal_index": "E2.Patient",
+      "strong_compound_key": "E1.Patient"
+    },
+    {
+      "recipient_first_event": "E2",
+      "recipient_marker_A_event": "E2",
+      "role": "Agent",
+      "semantic_event_identity": "E1.Agent",
+      "ordinal_index": "E2.Agent",
+      "strong_compound_key": "E1.Agent"
+    },
+    {
+      "recipient_first_event": "E2",
+      "recipient_marker_A_event": "E2",
+      "role": "Patient",
+      "semantic_event_identity": "E1.Patient",
+      "ordinal_index": "E2.Patient",
+      "strong_compound_key": "E1.Patient"
+    }
+  ],
+  "certificate": "EI and OI disagree after order reversal, but the competent compound-key copier and EI agree in every order \u00d7 marker \u00d7 role cell. Identity, adjacent-token, sham, and cross-document controls cannot break this equivalence without independent restrictions on the copier's accessible key or native route. No unique event-selection mechanism is identifiable from the proposed answer outcomes."
+}
