@@ -1,0 +1,214 @@
+{
+  "status": "frozen_transport_development_analysis",
+  "split": "development",
+  "lock_sha256": "a3e9e5a0fafdfc7a384786ddd1dc103a5949d025496cd73031173eebdac0b623",
+  "script_sha256": "71744e8bf666f67e83c182f13c82fd738b9420293b7bbbd88462dc129cd08b28",
+  "models": {
+    "qwen7b": {
+      "patch_sha256": "3459c8117adb73b37229a534cd81153ab2d44ae34fbc15e35f31a29ce8073495",
+      "cases": [
+        {
+          "family_id": "sophie_william_rescued",
+          "profile": [
+            {
+              "layer": 7,
+              "period": {
+                "role_D": 0.2890625,
+                "first_name_position_P": 0.4609375,
+                "voice_V": -0.3203125,
+                "four_raw_margins": {
+                  "b_agent_active_first": -3.546875,
+                  "b_agent_passive_second": -3.6875,
+                  "b_patient_active_second": -4.296875,
+                  "b_patient_passive_first": -3.515625
+                }
+              },
+              "prefix": {
+                "role_D": 0.0,
+                "first_name_position_P": 0.0,
+                "voice_V": 0.0,
+                "four_raw_margins": {
+                  "b_agent_active_first": -3.875,
+                  "b_agent_passive_second": -3.875,
+                  "b_patient_active_second": -3.875,
+                  "b_patient_passive_first": -3.875
+                }
+              },
+              "self_patch_margin": -3.875,
+              "same_answer_unrelated_effect": 1.09375
+            },
+            {
+              "layer": 15,
+              "period": {
+                "role_D": 0.3125,
+                "first_name_position_P": -0.046875,
+                "voice_V": -0.28125,
+                "four_raw_margins": {
+                  "b_agent_active_first": -4.0,
+                  "b_agent_passive_second": -3.671875,
+                  "b_patient_active_second": -4.265625,
+                  "b_patient_passive_first": -4.03125
+                }
+              },
+              "prefix": {
+                "role_D": 0.0,
+                "first_name_position_P": 0.0,
+                "voice_V": 0.0,
+                "four_raw_margins": {
+                  "b_agent_active_first": -3.875,
+                  "b_agent_passive_second": -3.875,
+                  "b_patient_active_second": -3.875,
+                  "b_patient_passive_first": -3.875
+                }
+              },
+              "self_patch_margin": -3.875,
+              "same_answer_unrelated_effect": 0.921875
+            },
+            {
+              "layer": 23,
+              "period": {
+                "role_D": -0.015625,
+                "first_name_position_P": -0.015625,
+                "voice_V": 0.0,
+                "four_raw_margins": {
+                  "b_agent_active_first": -3.9375,
+                  "b_agent_passive_second": -3.921875,
+                  "b_patient_active_second": -3.90625,
+                  "b_patient_passive_first": -3.921875
+                }
+              },
+              "prefix": {
+                "role_D": 0.0,
+                "first_name_position_P": 0.0,
+                "voice_V": 0.0,
+                "four_raw_margins": {
+                  "b_agent_active_first": -3.875,
+                  "b_agent_passive_second": -3.875,
+                  "b_patient_active_second": -3.875,
+                  "b_patient_passive_first": -3.875
+                }
+              },
+              "self_patch_margin": -3.875,
+              "same_answer_unrelated_effect": -0.015625
+            }
+          ],
+          "mean_role_D": 0.1953125,
+          "mean_position_P": 0.1328125,
+          "mean_wrong_site_D": 0.0,
+          "passes_case_rule": true
+        }
+      ],
+      "mean_role_D": 0.1953125,
+      "mean_position_P": 0.1328125,
+      "mean_wrong_site_D": 0.0,
+      "development_pass": false,
+      "evaluation_pass": true
+    },
+    "llama3b": {
+      "patch_sha256": "4b8ef44198a7e5aa27407f8d3a7abdd78482525b881e6ace0d0530edd138af43",
+      "cases": [
+        {
+          "family_id": "sophie_william_rescued",
+          "profile": [
+            {
+              "layer": 7,
+              "period": {
+                "role_D": 0.078125,
+                "first_name_position_P": 0.078125,
+                "voice_V": -0.109375,
+                "four_raw_margins": {
+                  "b_agent_active_first": -1.328125,
+                  "b_agent_passive_second": -1.296875,
+                  "b_patient_active_second": -1.484375,
+                  "b_patient_passive_first": -1.296875
+                }
+              },
+              "prefix": {
+                "role_D": 0.0,
+                "first_name_position_P": 0.0,
+                "voice_V": 0.0,
+                "four_raw_margins": {
+                  "b_agent_active_first": -1.0625,
+                  "b_agent_passive_second": -1.0625,
+                  "b_patient_active_second": -1.0625,
+                  "b_patient_passive_first": -1.0625
+                }
+              },
+              "self_patch_margin": -1.046875,
+              "same_answer_unrelated_effect": -0.3125
+            },
+            {
+              "layer": 15,
+              "period": {
+                "role_D": 0.015625,
+                "first_name_position_P": 0.0,
+                "voice_V": -0.015625,
+                "four_raw_margins": {
+                  "b_agent_active_first": -1.0625,
+                  "b_agent_passive_second": -1.046875,
+                  "b_patient_active_second": -1.078125,
+                  "b_patient_passive_first": -1.0625
+                }
+              },
+              "prefix": {
+                "role_D": 0.0,
+                "first_name_position_P": 0.0,
+                "voice_V": 0.0,
+                "four_raw_margins": {
+                  "b_agent_active_first": -1.0625,
+                  "b_agent_passive_second": -1.0625,
+                  "b_patient_active_second": -1.0625,
+                  "b_patient_passive_first": -1.0625
+                }
+              },
+              "self_patch_margin": -1.046875,
+              "same_answer_unrelated_effect": -0.015625
+            },
+            {
+              "layer": 23,
+              "period": {
+                "role_D": 0.015625,
+                "first_name_position_P": 0.0,
+                "voice_V": 0.015625,
+                "four_raw_margins": {
+                  "b_agent_active_first": -1.03125,
+                  "b_agent_passive_second": -1.046875,
+                  "b_patient_active_second": -1.046875,
+                  "b_patient_passive_first": -1.0625
+                }
+              },
+              "prefix": {
+                "role_D": 0.0,
+                "first_name_position_P": 0.0,
+                "voice_V": 0.0,
+                "four_raw_margins": {
+                  "b_agent_active_first": -1.046875,
+                  "b_agent_passive_second": -1.046875,
+                  "b_patient_active_second": -1.046875,
+                  "b_patient_passive_first": -1.046875
+                }
+              },
+              "self_patch_margin": -1.046875,
+              "same_answer_unrelated_effect": -0.015625
+            }
+          ],
+          "mean_role_D": 0.036458333333333336,
+          "mean_position_P": 0.026041666666666668,
+          "mean_wrong_site_D": 0.0,
+          "passes_case_rule": true
+        }
+      ],
+      "mean_role_D": 0.036458333333333336,
+      "mean_position_P": 0.026041666666666668,
+      "mean_wrong_site_D": 0.0,
+      "development_pass": false,
+      "evaluation_pass": true
+    }
+  },
+  "pass": false,
+  "notes": [
+    "D/P/V are algebraic contrasts of patched answer margins, not recovered internal operation order.",
+    "The wrong-site criterion compares magnitudes: abs(wrong D) < 0.5*primary D.",
+    "Same-answer unrelated effects are diagnostic and do not automatically fail role transport."
+  ]
+}
