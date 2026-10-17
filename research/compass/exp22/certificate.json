@@ -1,0 +1,201 @@
+{
+  "source": "COMPASS_22_MODEL_FREE_CERTIFICATE",
+  "observed_local_evidence_used": "none; old reported seven errors are not replayed",
+  "two_event_predictions": [
+    {
+      "order": [
+        "E1",
+        "E2"
+      ],
+      "target": "E1",
+      "gold": "E1",
+      "first_fallback": "E1",
+      "other_event": "E2",
+      "rivals_disagree": true
+    },
+    {
+      "order": [
+        "E1",
+        "E2"
+      ],
+      "target": "E2",
+      "gold": "E2",
+      "first_fallback": "E1",
+      "other_event": "E1",
+      "rivals_disagree": false
+    },
+    {
+      "order": [
+        "E2",
+        "E1"
+      ],
+      "target": "E2",
+      "gold": "E2",
+      "first_fallback": "E2",
+      "other_event": "E1",
+      "rivals_disagree": true
+    },
+    {
+      "order": [
+        "E2",
+        "E1"
+      ],
+      "target": "E1",
+      "gold": "E1",
+      "first_fallback": "E2",
+      "other_event": "E2",
+      "rivals_disagree": false
+    }
+  ],
+  "three_event_predictions": [
+    {
+      "order": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "target": "E2",
+      "target_index": 1,
+      "first_fallback": "E1",
+      "immediate_predecessor": "E1",
+      "rivals_disagree": false
+    },
+    {
+      "order": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "target": "E3",
+      "target_index": 2,
+      "first_fallback": "E1",
+      "immediate_predecessor": "E2",
+      "rivals_disagree": true
+    },
+    {
+      "order": [
+        "E1",
+        "E3",
+        "E2"
+      ],
+      "target": "E3",
+      "target_index": 1,
+      "first_fallback": "E1",
+      "immediate_predecessor": "E1",
+      "rivals_disagree": false
+    },
+    {
+      "order": [
+        "E1",
+        "E3",
+        "E2"
+      ],
+      "target": "E2",
+      "target_index": 2,
+      "first_fallback": "E1",
+      "immediate_predecessor": "E3",
+      "rivals_disagree": true
+    },
+    {
+      "order": [
+        "E2",
+        "E1",
+        "E3"
+      ],
+      "target": "E1",
+      "target_index": 1,
+      "first_fallback": "E2",
+      "immediate_predecessor": "E2",
+      "rivals_disagree": false
+    },
+    {
+      "order": [
+        "E2",
+        "E1",
+        "E3"
+      ],
+      "target": "E3",
+      "target_index": 2,
+      "first_fallback": "E2",
+      "immediate_predecessor": "E1",
+      "rivals_disagree": true
+    },
+    {
+      "order": [
+        "E2",
+        "E3",
+        "E1"
+      ],
+      "target": "E3",
+      "target_index": 1,
+      "first_fallback": "E2",
+      "immediate_predecessor": "E2",
+      "rivals_disagree": false
+    },
+    {
+      "order": [
+        "E2",
+        "E3",
+        "E1"
+      ],
+      "target": "E1",
+      "target_index": 2,
+      "first_fallback": "E2",
+      "immediate_predecessor": "E3",
+      "rivals_disagree": true
+    },
+    {
+      "order": [
+        "E3",
+        "E1",
+        "E2"
+      ],
+      "target": "E1",
+      "target_index": 1,
+      "first_fallback": "E3",
+      "immediate_predecessor": "E3",
+      "rivals_disagree": false
+    },
+    {
+      "order": [
+        "E3",
+        "E1",
+        "E2"
+      ],
+      "target": "E2",
+      "target_index": 2,
+      "first_fallback": "E3",
+      "immediate_predecessor": "E1",
+      "rivals_disagree": true
+    },
+    {
+      "order": [
+        "E3",
+        "E2",
+        "E1"
+      ],
+      "target": "E2",
+      "target_index": 1,
+      "first_fallback": "E3",
+      "immediate_predecessor": "E3",
+      "rivals_disagree": false
+    },
+    {
+      "order": [
+        "E3",
+        "E2",
+        "E1"
+      ],
+      "target": "E1",
+      "target_index": 2,
+      "first_fallback": "E3",
+      "immediate_predecessor": "E2",
+      "rivals_disagree": true
+    }
+  ],
+  "two_event_disagree_count": 2,
+  "two_event_second_target_disagree_count": 0,
+  "three_event_late_target_first_vs_predecessor_disagree_count": 6,
+  "formal_bound": "For k=2 unique role fillers, conditional on a wrong response belonging to their two-element set, its source is determined exactly by target and error indicator.",
+  "caveat": "Three-event agreement/disagreement is between restricted symbolic fallback policies, not a distinguisher of arbitrary native neural mechanisms or competent syntax/content copy algorithms."
+}
