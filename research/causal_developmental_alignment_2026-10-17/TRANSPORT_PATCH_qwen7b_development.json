@@ -1,0 +1,398 @@
+{
+  "status": "native_prequestion_event_state_patching",
+  "model": "qwen7b",
+  "split": "development",
+  "lock_sha256": "a3e9e5a0fafdfc7a384786ddd1dc103a5949d025496cd73031173eebdac0b623",
+  "script_sha256": "0c08bb749e44180b78e1b238cfb32ba7ad48cd926836230224592f72e7b0b684",
+  "gate_sha256": "d2cd8afe521ab5dbe85d8234cfde97c79975ba29202ccfdca62430f4d26ac603",
+  "model_config_sha256": "1661a349986919d13820d3981623776138d50783d13e247cdc5b075a22b62698",
+  "state_shape": "[competent_family, seven_conditions, embedding_plus_28_blocks, period_and_prefix, hidden_width]",
+  "states_sha256": "50c36f7e0ffd4b1609faa226f9365df8189fc8c42d4e5a56bc4b88837109c71b",
+  "results": [
+    {
+      "family": {
+        "id": "sophie_william_rescued",
+        "split": "development",
+        "a": "Sophie",
+        "b": "William",
+        "verb": "rescued"
+      },
+      "recipient_baseline_margin_b_minus_a": -3.875,
+      "reversed_recipient_margin_b_minus_a": 10.75,
+      "metadata": {
+        "b_agent_active_first": {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: William rescued Sophie.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "sentence": "William rescued Sophie.",
+          "expected": "William",
+          "token_count": 40,
+          "sites": {
+            "period": 28,
+            "prefix": 24
+          }
+        },
+        "b_agent_passive_second": {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Sophie was rescued by William.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "sentence": "Sophie was rescued by William.",
+          "expected": "William",
+          "token_count": 42,
+          "sites": {
+            "period": 30,
+            "prefix": 24
+          }
+        },
+        "b_patient_active_second": {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Sophie rescued William.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "sentence": "Sophie rescued William.",
+          "expected": "Sophie",
+          "token_count": 40,
+          "sites": {
+            "period": 28,
+            "prefix": 24
+          }
+        },
+        "b_patient_passive_first": {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: William was rescued by Sophie.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "sentence": "William was rescued by Sophie.",
+          "expected": "Sophie",
+          "token_count": 42,
+          "sites": {
+            "period": 30,
+            "prefix": 24
+          }
+        },
+        "receiver_cleft_a_agent": {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Sophie that William was rescued.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "sentence": "It was by Sophie that William was rescued.",
+          "expected": "Sophie",
+          "token_count": 45,
+          "sites": {
+            "period": 33,
+            "prefix": 24
+          }
+        },
+        "receiver_cleft_b_agent": {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by William that Sophie was rescued.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "sentence": "It was by William that Sophie was rescued.",
+          "expected": "William",
+          "token_count": 45,
+          "sites": {
+            "period": 33,
+            "prefix": 24
+          }
+        },
+        "same_answer_unrelated": {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: William photographed Quinn.\nQuestion: Who photographed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "sentence": "William photographed Quinn.",
+          "expected": "William",
+          "token_count": 40,
+          "sites": {
+            "period": 28,
+            "prefix": 24
+          }
+        }
+      },
+      "patches": [
+        {
+          "layer": 7,
+          "donor": "receiver_cleft_a_agent",
+          "site": "period",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 7,
+          "donor": "b_agent_active_first",
+          "site": "period",
+          "margin_b_minus_a": -3.546875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.578125
+          }
+        },
+        {
+          "layer": 7,
+          "donor": "b_agent_active_first",
+          "site": "prefix",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 7,
+          "donor": "b_agent_passive_second",
+          "site": "period",
+          "margin_b_minus_a": -3.6875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.71875
+          }
+        },
+        {
+          "layer": 7,
+          "donor": "b_agent_passive_second",
+          "site": "prefix",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 7,
+          "donor": "b_patient_active_second",
+          "site": "period",
+          "margin_b_minus_a": -4.296875,
+          "scores": {
+            "Sophie": 0.0,
+            "William": -4.296875
+          }
+        },
+        {
+          "layer": 7,
+          "donor": "b_patient_active_second",
+          "site": "prefix",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 7,
+          "donor": "b_patient_passive_first",
+          "site": "period",
+          "margin_b_minus_a": -3.515625,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.546875
+          }
+        },
+        {
+          "layer": 7,
+          "donor": "b_patient_passive_first",
+          "site": "prefix",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 7,
+          "donor": "same_answer_unrelated",
+          "site": "period",
+          "margin_b_minus_a": -2.78125,
+          "scores": {
+            "Sophie": -0.0625,
+            "William": -2.84375
+          }
+        },
+        {
+          "layer": 15,
+          "donor": "receiver_cleft_a_agent",
+          "site": "period",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 15,
+          "donor": "b_agent_active_first",
+          "site": "period",
+          "margin_b_minus_a": -4.0,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -4.03125
+          }
+        },
+        {
+          "layer": 15,
+          "donor": "b_agent_active_first",
+          "site": "prefix",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 15,
+          "donor": "b_agent_passive_second",
+          "site": "period",
+          "margin_b_minus_a": -3.671875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.703125
+          }
+        },
+        {
+          "layer": 15,
+          "donor": "b_agent_passive_second",
+          "site": "prefix",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 15,
+          "donor": "b_patient_active_second",
+          "site": "period",
+          "margin_b_minus_a": -4.265625,
+          "scores": {
+            "Sophie": 0.0,
+            "William": -4.265625
+          }
+        },
+        {
+          "layer": 15,
+          "donor": "b_patient_active_second",
+          "site": "prefix",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 15,
+          "donor": "b_patient_passive_first",
+          "site": "period",
+          "margin_b_minus_a": -4.03125,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -4.0625
+          }
+        },
+        {
+          "layer": 15,
+          "donor": "b_patient_passive_first",
+          "site": "prefix",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 15,
+          "donor": "same_answer_unrelated",
+          "site": "period",
+          "margin_b_minus_a": -2.953125,
+          "scores": {
+            "Sophie": -0.0625,
+            "William": -3.015625
+          }
+        },
+        {
+          "layer": 23,
+          "donor": "receiver_cleft_a_agent",
+          "site": "period",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 23,
+          "donor": "b_agent_active_first",
+          "site": "period",
+          "margin_b_minus_a": -3.9375,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.96875
+          }
+        },
+        {
+          "layer": 23,
+          "donor": "b_agent_active_first",
+          "site": "prefix",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 23,
+          "donor": "b_agent_passive_second",
+          "site": "period",
+          "margin_b_minus_a": -3.921875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.953125
+          }
+        },
+        {
+          "layer": 23,
+          "donor": "b_agent_passive_second",
+          "site": "prefix",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 23,
+          "donor": "b_patient_active_second",
+          "site": "period",
+          "margin_b_minus_a": -3.90625,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.9375
+          }
+        },
+        {
+          "layer": 23,
+          "donor": "b_patient_active_second",
+          "site": "prefix",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 23,
+          "donor": "b_patient_passive_first",
+          "site": "period",
+          "margin_b_minus_a": -3.921875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.953125
+          }
+        },
+        {
+          "layer": 23,
+          "donor": "b_patient_passive_first",
+          "site": "prefix",
+          "margin_b_minus_a": -3.875,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          }
+        },
+        {
+          "layer": 23,
+          "donor": "same_answer_unrelated",
+          "site": "period",
+          "margin_b_minus_a": -3.890625,
+          "scores": {
+            "Sophie": -0.03125,
+            "William": -3.921875
+          }
+        }
+      ]
+    }
+  ]
+}
