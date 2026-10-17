@@ -1,0 +1,772 @@
+{
+  "status": "frozen_transport_competence_gate_complete",
+  "model": "qwen7b",
+  "lock_sha256": "a3e9e5a0fafdfc7a384786ddd1dc103a5949d025496cd73031173eebdac0b623",
+  "script_sha256": "8db53b510dab0687b30c8206d6da50e99780a8fdab74cafa7305e15cb12fccf2",
+  "scorer_sha256": "9070bae06ba8c77c0a0c307a2d8b5ce6656440218d63321b5ba4e3c6b79fa7dc",
+  "config_sha256": "1661a349986919d13820d3981623776138d50783d13e247cdc5b075a22b62698",
+  "families": [
+    {
+      "family": {
+        "id": "laura_michael_greeted",
+        "split": "development",
+        "a": "Laura",
+        "b": "Michael",
+        "verb": "greeted"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Michael greeted Laura.\nQuestion: Who greeted someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Michael",
+          "expected": "Michael",
+          "rival": "Laura",
+          "full_name_logprob": {
+            "Laura": -22.875,
+            "Michael": 0.0
+          },
+          "candidate_token_ids": {
+            "Laura": [
+              76460
+            ],
+            "Michael": [
+              25516
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 22.875,
+          "condition": "b_agent_active_first",
+          "sentence": "Michael greeted Laura.",
+          "question": "Who greeted someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Laura was greeted by Michael.\nQuestion: Who greeted someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Laura",
+          "expected": "Michael",
+          "rival": "Laura",
+          "full_name_logprob": {
+            "Laura": 0.0,
+            "Michael": -15.4375
+          },
+          "candidate_token_ids": {
+            "Laura": [
+              76460
+            ],
+            "Michael": [
+              25516
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": false,
+          "score_margin": -15.4375,
+          "condition": "b_agent_passive_second",
+          "sentence": "Laura was greeted by Michael.",
+          "question": "Who greeted someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Laura greeted Michael.\nQuestion: Who greeted someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Laura",
+          "expected": "Laura",
+          "rival": "Michael",
+          "full_name_logprob": {
+            "Laura": 0.0,
+            "Michael": -19.5625
+          },
+          "candidate_token_ids": {
+            "Laura": [
+              76460
+            ],
+            "Michael": [
+              25516
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 19.5625,
+          "condition": "b_patient_active_second",
+          "sentence": "Laura greeted Michael.",
+          "question": "Who greeted someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Michael was greeted by Laura.\nQuestion: Who greeted someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Michael",
+          "expected": "Laura",
+          "rival": "Michael",
+          "full_name_logprob": {
+            "Laura": -1.71875,
+            "Michael": -0.1875
+          },
+          "candidate_token_ids": {
+            "Laura": [
+              76460
+            ],
+            "Michael": [
+              25516
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": false,
+          "score_margin": -1.53125,
+          "condition": "b_patient_passive_first",
+          "sentence": "Michael was greeted by Laura.",
+          "question": "Who greeted someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Laura that Michael was greeted.\nQuestion: Who greeted someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Laura",
+          "expected": "Laura",
+          "rival": "Michael",
+          "full_name_logprob": {
+            "Laura": 0.0,
+            "Michael": -12.046875
+          },
+          "candidate_token_ids": {
+            "Laura": [
+              76460
+            ],
+            "Michael": [
+              25516
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 12.046875,
+          "condition": "receiver_cleft_a_agent",
+          "sentence": "It was by Laura that Michael was greeted.",
+          "question": "Who greeted someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Michael that Laura was greeted.\nQuestion: Who greeted someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Michael",
+          "expected": "Michael",
+          "rival": "Laura",
+          "full_name_logprob": {
+            "Laura": -14.21875,
+            "Michael": 0.0
+          },
+          "candidate_token_ids": {
+            "Laura": [
+              76460
+            ],
+            "Michael": [
+              25516
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 14.21875,
+          "condition": "receiver_cleft_b_agent",
+          "sentence": "It was by Michael that Laura was greeted.",
+          "question": "Who greeted someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Michael photographed Quinn.\nQuestion: Who photographed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Michael",
+          "expected": "Michael",
+          "rival": "Laura",
+          "full_name_logprob": {
+            "Laura": -30.109375,
+            "Michael": 0.0
+          },
+          "candidate_token_ids": {
+            "Laura": [
+              76460
+            ],
+            "Michael": [
+              25516
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 30.109375,
+          "condition": "same_answer_unrelated",
+          "sentence": "Michael photographed Quinn.",
+          "question": "Who photographed someone?"
+        }
+      ],
+      "competent": false
+    },
+    {
+      "family": {
+        "id": "sophie_william_rescued",
+        "split": "development",
+        "a": "Sophie",
+        "b": "William",
+        "verb": "rescued"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: William rescued Sophie.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "William",
+          "expected": "William",
+          "rival": "Sophie",
+          "full_name_logprob": {
+            "Sophie": -19.078125,
+            "William": 0.0
+          },
+          "candidate_token_ids": {
+            "Sophie": [
+              85232,
+              645
+            ],
+            "William": [
+              44787
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 19.078125,
+          "condition": "b_agent_active_first",
+          "sentence": "William rescued Sophie.",
+          "question": "Who rescued someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Sophie was rescued by William.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "William",
+          "expected": "William",
+          "rival": "Sophie",
+          "full_name_logprob": {
+            "Sophie": -16.9375,
+            "William": 0.0
+          },
+          "candidate_token_ids": {
+            "Sophie": [
+              85232,
+              645
+            ],
+            "William": [
+              44787
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 16.9375,
+          "condition": "b_agent_passive_second",
+          "sentence": "Sophie was rescued by William.",
+          "question": "Who rescued someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Sophie rescued William.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Sophie",
+          "expected": "Sophie",
+          "rival": "William",
+          "full_name_logprob": {
+            "Sophie": 0.0,
+            "William": -17.8125
+          },
+          "candidate_token_ids": {
+            "Sophie": [
+              85232,
+              645
+            ],
+            "William": [
+              44787
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 17.8125,
+          "condition": "b_patient_active_second",
+          "sentence": "Sophie rescued William.",
+          "question": "Who rescued someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: William was rescued by Sophie.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Sophie",
+          "expected": "Sophie",
+          "rival": "William",
+          "full_name_logprob": {
+            "Sophie": 0.0,
+            "William": -15.28125
+          },
+          "candidate_token_ids": {
+            "Sophie": [
+              85232,
+              645
+            ],
+            "William": [
+              44787
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 15.28125,
+          "condition": "b_patient_passive_first",
+          "sentence": "William was rescued by Sophie.",
+          "question": "Who rescued someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Sophie that William was rescued.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Sophie",
+          "expected": "Sophie",
+          "rival": "William",
+          "full_name_logprob": {
+            "Sophie": -0.03125,
+            "William": -3.90625
+          },
+          "candidate_token_ids": {
+            "Sophie": [
+              85232,
+              645
+            ],
+            "William": [
+              44787
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 3.875,
+          "condition": "receiver_cleft_a_agent",
+          "sentence": "It was by Sophie that William was rescued.",
+          "question": "Who rescued someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by William that Sophie was rescued.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "William",
+          "expected": "William",
+          "rival": "Sophie",
+          "full_name_logprob": {
+            "Sophie": -10.75,
+            "William": 0.0
+          },
+          "candidate_token_ids": {
+            "Sophie": [
+              85232,
+              645
+            ],
+            "William": [
+              44787
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 10.75,
+          "condition": "receiver_cleft_b_agent",
+          "sentence": "It was by William that Sophie was rescued.",
+          "question": "Who rescued someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: William photographed Quinn.\nQuestion: Who photographed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "William",
+          "expected": "William",
+          "rival": "Sophie",
+          "full_name_logprob": {
+            "Sophie": -30.34375,
+            "William": 0.0
+          },
+          "candidate_token_ids": {
+            "Sophie": [
+              85232,
+              645
+            ],
+            "William": [
+              44787
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 30.34375,
+          "condition": "same_answer_unrelated",
+          "sentence": "William photographed Quinn.",
+          "question": "Who photographed someone?"
+        }
+      ],
+      "competent": true
+    },
+    {
+      "family": {
+        "id": "anna_robert_greeted",
+        "split": "evaluation",
+        "a": "Anna",
+        "b": "Robert",
+        "verb": "greeted"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Robert greeted Anna.\nQuestion: Who greeted someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Robert",
+          "expected": "Robert",
+          "rival": "Anna",
+          "full_name_logprob": {
+            "Anna": -21.25,
+            "Robert": 0.0
+          },
+          "candidate_token_ids": {
+            "Anna": [
+              56756
+            ],
+            "Robert": [
+              34532
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 21.25,
+          "condition": "b_agent_active_first",
+          "sentence": "Robert greeted Anna.",
+          "question": "Who greeted someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Anna was greeted by Robert.\nQuestion: Who greeted someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Anna",
+          "expected": "Robert",
+          "rival": "Anna",
+          "full_name_logprob": {
+            "Anna": 0.0,
+            "Robert": -15.890625
+          },
+          "candidate_token_ids": {
+            "Anna": [
+              56756
+            ],
+            "Robert": [
+              34532
+            ]
+          },
+          "greedy_correct": false,
+          "score_correct": false,
+          "score_margin": -15.890625,
+          "condition": "b_agent_passive_second",
+          "sentence": "Anna was greeted by Robert.",
+          "question": "Who greeted someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Anna greeted Robert.\nQuestion: Who greeted someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Anna",
+          "expected": "Anna",
+          "rival": "Robert",
+          "full_name_logprob": {
+            "Anna": 0.0,
+            "Robert": -19.59375
+          },
+          "candidate_token_ids": {
+            "Anna": [
+              56756
+            ],
+            "Robert": [
+              34532
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 19.59375,
+          "condition": "b_patient_active_second",
+          "sentence": "Anna greeted Robert.",
+          "question": "Who greeted someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Robert was greeted by Anna.\nQuestion: Who greeted someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Anna",
+          "expected": "Anna",
+          "rival": "Robert",
+          "full_name_logprob": {
+            "Anna": 0.0,
+            "Robert": -8.921875
+          },
+          "candidate_token_ids": {
+            "Anna": [
+              56756
+            ],
+            "Robert": [
+              34532
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 8.921875,
+          "condition": "b_patient_passive_first",
+          "sentence": "Robert was greeted by Anna.",
+          "question": "Who greeted someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Anna that Robert was greeted.\nQuestion: Who greeted someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Anna",
+          "expected": "Anna",
+          "rival": "Robert",
+          "full_name_logprob": {
+            "Anna": 0.0,
+            "Robert": -10.203125
+          },
+          "candidate_token_ids": {
+            "Anna": [
+              56756
+            ],
+            "Robert": [
+              34532
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 10.203125,
+          "condition": "receiver_cleft_a_agent",
+          "sentence": "It was by Anna that Robert was greeted.",
+          "question": "Who greeted someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Robert that Anna was greeted.\nQuestion: Who greeted someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Robert",
+          "expected": "Robert",
+          "rival": "Anna",
+          "full_name_logprob": {
+            "Anna": -10.375,
+            "Robert": 0.0
+          },
+          "candidate_token_ids": {
+            "Anna": [
+              56756
+            ],
+            "Robert": [
+              34532
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 10.375,
+          "condition": "receiver_cleft_b_agent",
+          "sentence": "It was by Robert that Anna was greeted.",
+          "question": "Who greeted someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Robert photographed Quinn.\nQuestion: Who photographed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Robert",
+          "expected": "Robert",
+          "rival": "Anna",
+          "full_name_logprob": {
+            "Anna": -31.328125,
+            "Robert": 0.0
+          },
+          "candidate_token_ids": {
+            "Anna": [
+              56756
+            ],
+            "Robert": [
+              34532
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 31.328125,
+          "condition": "same_answer_unrelated",
+          "sentence": "Robert photographed Quinn.",
+          "question": "Who photographed someone?"
+        }
+      ],
+      "competent": false
+    },
+    {
+      "family": {
+        "id": "megan_patrick_rescued",
+        "split": "evaluation",
+        "a": "Megan",
+        "b": "Patrick",
+        "verb": "rescued"
+      },
+      "rows": [
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Patrick rescued Megan.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Patrick",
+          "expected": "Patrick",
+          "rival": "Megan",
+          "full_name_logprob": {
+            "Megan": -19.21875,
+            "Patrick": 0.0
+          },
+          "candidate_token_ids": {
+            "Megan": [
+              44,
+              15756
+            ],
+            "Patrick": [
+              65220
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 19.21875,
+          "condition": "b_agent_active_first",
+          "sentence": "Patrick rescued Megan.",
+          "question": "Who rescued someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Megan was rescued by Patrick.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Patrick",
+          "expected": "Patrick",
+          "rival": "Megan",
+          "full_name_logprob": {
+            "Megan": -14.765625,
+            "Patrick": 0.0
+          },
+          "candidate_token_ids": {
+            "Megan": [
+              44,
+              15756
+            ],
+            "Patrick": [
+              65220
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 14.765625,
+          "condition": "b_agent_passive_second",
+          "sentence": "Megan was rescued by Patrick.",
+          "question": "Who rescued someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Megan rescued Patrick.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Megan",
+          "expected": "Megan",
+          "rival": "Patrick",
+          "full_name_logprob": {
+            "Megan": 0.0,
+            "Patrick": -18.375
+          },
+          "candidate_token_ids": {
+            "Megan": [
+              44,
+              15756
+            ],
+            "Patrick": [
+              65220
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 18.375,
+          "condition": "b_patient_active_second",
+          "sentence": "Megan rescued Patrick.",
+          "question": "Who rescued someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Patrick was rescued by Megan.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 42,
+          "generated": "Megan",
+          "expected": "Megan",
+          "rival": "Patrick",
+          "full_name_logprob": {
+            "Megan": 0.0,
+            "Patrick": -19.421875
+          },
+          "candidate_token_ids": {
+            "Megan": [
+              44,
+              15756
+            ],
+            "Patrick": [
+              65220
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 19.421875,
+          "condition": "b_patient_passive_first",
+          "sentence": "Patrick was rescued by Megan.",
+          "question": "Who rescued someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Megan that Patrick was rescued.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Megan",
+          "expected": "Megan",
+          "rival": "Patrick",
+          "full_name_logprob": {
+            "Megan": 0.0,
+            "Patrick": -10.515625
+          },
+          "candidate_token_ids": {
+            "Megan": [
+              44,
+              15756
+            ],
+            "Patrick": [
+              65220
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 10.515625,
+          "condition": "receiver_cleft_a_agent",
+          "sentence": "It was by Megan that Patrick was rescued.",
+          "question": "Who rescued someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: It was by Patrick that Megan was rescued.\nQuestion: Who rescued someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 45,
+          "generated": "Patrick",
+          "expected": "Patrick",
+          "rival": "Megan",
+          "full_name_logprob": {
+            "Megan": -12.0625,
+            "Patrick": 0.0
+          },
+          "candidate_token_ids": {
+            "Megan": [
+              44,
+              15756
+            ],
+            "Patrick": [
+              65220
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 12.0625,
+          "condition": "receiver_cleft_b_agent",
+          "sentence": "It was by Patrick that Megan was rescued.",
+          "question": "Who rescued someone?"
+        },
+        {
+          "prompt": "<|im_start|>system\nAnswer the question about the sentence. Reply with only the person's name.<|im_end|>\n<|im_start|>user\nSentence: Patrick photographed Quinn.\nQuestion: Who photographed someone?<|im_end|>\n<|im_start|>assistant\n",
+          "prompt_token_count": 40,
+          "generated": "Patrick",
+          "expected": "Patrick",
+          "rival": "Megan",
+          "full_name_logprob": {
+            "Megan": -29.21875,
+            "Patrick": 0.0
+          },
+          "candidate_token_ids": {
+            "Megan": [
+              44,
+              15756
+            ],
+            "Patrick": [
+              65220
+            ]
+          },
+          "greedy_correct": true,
+          "score_correct": true,
+          "score_margin": 29.21875,
+          "condition": "same_answer_unrelated",
+          "sentence": "Patrick photographed Quinn.",
+          "question": "Who photographed someone?"
+        }
+      ],
+      "competent": true
+    }
+  ]
+}
