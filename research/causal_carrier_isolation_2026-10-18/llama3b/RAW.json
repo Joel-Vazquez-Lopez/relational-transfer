@@ -1,0 +1,2162 @@
+[
+  {
+    "call": 12,
+    "model": "llama3b",
+    "id": "d1_r0_active_q0",
+    "mode": "baseline",
+    "cut": 28,
+    "kind": "validation_unwrapped",
+    "wrapped": false,
+    "native": false,
+    "expected": "Yes",
+    "actual": "Yes",
+    "argmax_id": 9642,
+    "argmax_token": "Yes",
+    "gold_margin": 0.15625035387444441,
+    "correct": true,
+    "class_logits": {
+      "Yes": 29.468750357635983,
+      "No": 29.31250000376154
+    },
+    "alias_logits": {
+      "Yes": [
+        14.625,
+        29.46875
+      ],
+      "No": [
+        9.9140625,
+        29.3125
+      ]
+    },
+    "top20": [
+      {
+        "id": 9642,
+        "token": "Yes",
+        "logit": 29.46875
+      },
+      {
+        "id": 2822,
+        "token": "No",
+        "logit": 29.3125
+      },
+      {
+        "id": 14331,
+        "token": "YES",
+        "logit": 20.359375
+      },
+      {
+        "id": 9891,
+        "token": "yes",
+        "logit": 19.515625
+      },
+      {
+        "id": 99076,
+        "token": "-No",
+        "logit": 19.015625
+      },
+      {
+        "id": 9173,
+        "token": "NO",
+        "logit": 18.984375
+      },
+      {
+        "id": 40,
+        "token": "I",
+        "logit": 18.625
+      },
+      {
+        "id": 791,
+        "token": "The",
+        "logit": 18.53125
+      },
+      {
+        "id": 2688,
+        "token": "Not",
+        "logit": 18.21875
+      },
+      {
+        "id": 7456,
+        "token": "Only",
+        "logit": 18.171875
+      },
+      {
+        "id": 2181,
+        "token": "It",
+        "logit": 18.078125
+      },
+      {
+        "id": 2201,
+        "token": "no",
+        "logit": 17.984375
+      },
+      {
+        "id": 11458,
+        "token": "However",
+        "logit": 17.84375
+      },
+      {
+        "id": 2028,
+        "token": "This",
+        "logit": 17.78125
+      },
+      {
+        "id": 16533,
+        "token": "Answer",
+        "logit": 17.671875
+      },
+      {
+        "id": 58841,
+        "token": "\"Yes",
+        "logit": 17.671875
+      },
+      {
+        "id": 12834,
+        "token": "Since",
+        "logit": 17.625
+      },
+      {
+        "id": 3947,
+        "token": "There",
+        "logit": 17.609375
+      },
+      {
+        "id": 31140,
+        "token": "Unfortunately",
+        "logit": 17.578125
+      },
+      {
+        "id": 24220,
+        "token": "Yeah",
+        "logit": 17.546875
+      }
+    ],
+    "family": "d1",
+    "split": "development",
+    "role": 0,
+    "voice": "active",
+    "query": 0,
+    "payload": "CALL_0012",
+    "logits_sha256": "9c7a0dfe93a2f219f794583c1ac8d877888c16a9d00b3c0a692724a919fdb86c",
+    "states_sha256": "ac7596e0424a00e574ee9fb40aa8eee67f37808c4592f6c7a89a845a98a5e497"
+  },
+  {
+    "call": 13,
+    "model": "llama3b",
+    "id": "d1_r0_active_q0",
+    "mode": "baseline",
+    "cut": 28,
+    "kind": "validation_wrapped_native",
+    "wrapped": true,
+    "native": true,
+    "expected": "Yes",
+    "actual": "Yes",
+    "argmax_id": 9642,
+    "argmax_token": "Yes",
+    "gold_margin": 0.15625035387444441,
+    "correct": true,
+    "class_logits": {
+      "Yes": 29.468750357635983,
+      "No": 29.31250000376154
+    },
+    "alias_logits": {
+      "Yes": [
+        14.625,
+        29.46875
+      ],
+      "No": [
+        9.9140625,
+        29.3125
+      ]
+    },
+    "top20": [
+      {
+        "id": 9642,
+        "token": "Yes",
+        "logit": 29.46875
+      },
+      {
+        "id": 2822,
+        "token": "No",
+        "logit": 29.3125
+      },
+      {
+        "id": 14331,
+        "token": "YES",
+        "logit": 20.359375
+      },
+      {
+        "id": 9891,
+        "token": "yes",
+        "logit": 19.515625
+      },
+      {
+        "id": 99076,
+        "token": "-No",
+        "logit": 19.015625
+      },
+      {
+        "id": 9173,
+        "token": "NO",
+        "logit": 18.984375
+      },
+      {
+        "id": 40,
+        "token": "I",
+        "logit": 18.625
+      },
+      {
+        "id": 791,
+        "token": "The",
+        "logit": 18.53125
+      },
+      {
+        "id": 2688,
+        "token": "Not",
+        "logit": 18.21875
+      },
+      {
+        "id": 7456,
+        "token": "Only",
+        "logit": 18.171875
+      },
+      {
+        "id": 2181,
+        "token": "It",
+        "logit": 18.078125
+      },
+      {
+        "id": 2201,
+        "token": "no",
+        "logit": 17.984375
+      },
+      {
+        "id": 11458,
+        "token": "However",
+        "logit": 17.84375
+      },
+      {
+        "id": 2028,
+        "token": "This",
+        "logit": 17.78125
+      },
+      {
+        "id": 16533,
+        "token": "Answer",
+        "logit": 17.671875
+      },
+      {
+        "id": 58841,
+        "token": "\"Yes",
+        "logit": 17.671875
+      },
+      {
+        "id": 12834,
+        "token": "Since",
+        "logit": 17.625
+      },
+      {
+        "id": 3947,
+        "token": "There",
+        "logit": 17.609375
+      },
+      {
+        "id": 31140,
+        "token": "Unfortunately",
+        "logit": 17.578125
+      },
+      {
+        "id": 24220,
+        "token": "Yeah",
+        "logit": 17.546875
+      }
+    ],
+    "family": "d1",
+    "split": "development",
+    "role": 0,
+    "voice": "active",
+    "query": 0,
+    "payload": "CALL_0013",
+    "logits_sha256": "9c7a0dfe93a2f219f794583c1ac8d877888c16a9d00b3c0a692724a919fdb86c",
+    "states_sha256": "745b48c9e0c9c488881859f933e86cfefd45cc06522121dfc07f99f5499bdb66",
+    "prefix_hashes": {
+      "prefix": [
+        "2110300a66ed4b18e99c23cab10c52e1e51fbd4a9a1e020c983419d8918c20c5",
+        "f946b8d81cd5e0fd599fc1241a0cd295a17bcec7f6dfee55870a76e29074615e",
+        "f9e2cdcb32db3d559b16663047d93152223b05052f4317fabb9720f91bd062fb",
+        "dc5b4441cd1f12a17b6a8eef40a87fc9f26ba91937f767780d9a4aab8f40a6e6",
+        "898648c039a1258c4c8f155a2a5839d08f8335401ea60f7c4e53a956b5bb8994",
+        "d3be02a2bf3550cb0cd7e1d4e9d0e354854a635d71dbe48a0ab5702608ba5122",
+        "d1a53049ce80d70bc2e6b6ca58a873ab8951fd04fc7b9f253cececd8fc56af0a",
+        "8d31f77690b1800a5235c3b0f438e60ccf37d8b1f97bb093c2a6afd181a80c3e",
+        "4e5e4dc9e1a3c26595c558117b41453c9bb6e4315ff791010db6f3cf9b425fd9",
+        "235749e59bc9299c77e4033bd7d17172b079928e25a41b6c7380a8189fc4865c",
+        "5441e8c183a33ea67556efb3480229142d95f8af44f9ce8c93c285f38c575ed7",
+        "4b1f4ae9f99b68e073db69d9755a3f1a611168d50bd4e6c396421aee22791d32",
+        "9c0e4db83e048833b130f9537fd63556b51f1c67379af4bb807099cab60bce73",
+        "e10f7b3350d06b4127033fafc9d95f21d1126ceeb1a053e270e3abade7bf560d",
+        "3a3ec92f91e6d56f5254c87ed745709a40f9b7f66f36ab833d40d913f4b929ff",
+        "c770482f07c758d651dc7f476b1eb752a1462a1fee613259eb63582e907b3cee",
+        "e432db5e0f975c503412760f1cdf429b4f826733c1296dc764d9a9031b305a77",
+        "121826aa371d5599f37ef5b6196aa8b5eb7a83eb92c8bea41969c17a554e2119",
+        "034793707e5d625eb935bfbe3730eae4a3407b4e9d0119f9a584709b65917b46",
+        "d5b775c98860a951bd7cc0d7cb41ae8c6ffb4c0c005e0cf86e688eb8ac19b41a",
+        "105c293c3c223e6c1bea30c85dbfed967d3e5dbc123bef70db57dd90d024d546",
+        "d21d8405238ecab56b20cf03fd2923ecb324e7b6a0369032cfd4f8cce285c138",
+        "a3184fbe7c6667fdca18a9afa53bab688eec233b72662ea5a19cb7d063e2cc9d",
+        "92ea163f9c7a434f67a4c18e858993eba96d1df6a0b8dcf9587ef82394bfbbcb",
+        "be39465d6dba6cdf8e02f793c699a0d089de5afeaf319ba67258236044af70d4",
+        "51aeb242937037244707070ed47b41f985b69f268d18d811f64d466e17edb2ef",
+        "cf5eac765230e93be6066d1dc923727c22593e386cd2b3f09965c6e0aa34cd43",
+        "9148eb964b83302412aad49ab822621a324e4094cc1cf68e45a5dbafd6d02c15"
+      ],
+      "prefix_without_neighbor": [
+        "97ebde637fd71b372d1a4bf4d3f303e93887d42d5b45857f972fd3410cc18e7b",
+        "adee0b7ae6bf048d39345a9de862f71093438bfbf089ca6027312f8885660733",
+        "4390115e31a9f9ead8dcca79d4085c8526628232d3f7806e1afa0bf32dfdef1b",
+        "64f2eadd84d254027ef3eb25439c0fcd1f41090bda9e9da0e97f85f820916f0f",
+        "3a779efa103c82b08682195d88e4472f87d01e3b36a456b5892c7984f25a439c",
+        "3e63596a7847e093ab94a365fcf23ab62c2b9c5daa7cdcd5f7009b41dc195dfe",
+        "3b4aa458bbfc4c452040fc4f5f0d0bb70dda8bbadb21bad244e1f450c7e427d4",
+        "26e818a1b5131bdb4891822dfc30af4b4d7f928fc8b3e945aea4e46241315049",
+        "be6c4b8cdf2d12dd0e11e830c044d24b2f79f03abae85db911c02d38be273def",
+        "9df2e86f41d9450f0ff60a64188ded28879cfa406b75357a9db2a072333e70c0",
+        "1ec827bb2a4421f53dca5f174be25cfdb6b19451043c6d2541ca2e63b3226d7d",
+        "44439e1239233982296ec91995084630643dd01c22b97c2ef1e40e4127d698ac",
+        "492b4e77f3116c0a3f5cae316bad55b000adc310691963d1a9f1483cce8c6b90",
+        "c9ed9f094f42b700d07c9289e59ce68dfa500f6e1991b54ab3f716413d1b0d41",
+        "7f03ad391923d703a8d73267a692ec4173b3fc3931d3d496b3ea04f015045be1",
+        "26075794b44a20fd1c66c372f41d59a7698566f77831393665047b8ddd7d3663",
+        "81b4f59d71a129cc16261877e6c12636d3043bdb4c2f428716cb107a5866b944",
+        "fd0650c4239a543c39015a0ef1f7313aaa712192323238600f9f35e482190d50",
+        "1ed43156821032eb4d6345b749d3aa37546fc5ba626c9fcbf133c98d51eb6f96",
+        "7019ad34537b03029b649aa3c6bf87b33e8a1f33ba5a9725bd61b850451ecdea",
+        "fd687460866549b860d49ba28c56e140cdad60a72db636cfb2f25b2ebaa37e86",
+        "c82e0a544b2472bfa825d7e835b0a4c90d606103edd58de28eefc0874f4bddc9",
+        "ef79f2542abca4c527769d5fc7de4637ef4dde7eadf0732d2e21ca697ea6588c",
+        "db498ae4fd34fa854e23f79ff4f4138924ce72e1a65f38d306ff112f3c6d76b6",
+        "1261c0af47fc2e06dde17ff2e66cbab1c3642478fdb5b84824fc2bdfdc2344f1",
+        "f643478eb64abd92edbddae1c3090be94d9d047387a5f54bb86217a32d516ef1",
+        "08d68a401fd0c80a12310a46e96839aaadd7cc423574d2bd6ea4d2872e704c4b",
+        "fb591810ab15fb33b7fcee64a827df206f28f09b02a098a0f3c9516d71ad322b"
+      ]
+    }
+  },
+  {
+    "call": 14,
+    "model": "llama3b",
+    "id": "d1_r0_active_q0",
+    "mode": "baseline",
+    "cut": 28,
+    "kind": "scientific",
+    "wrapped": true,
+    "native": false,
+    "expected": "Yes",
+    "actual": "Yes",
+    "argmax_id": 9642,
+    "argmax_token": "Yes",
+    "gold_margin": 0.15625035387444441,
+    "correct": true,
+    "class_logits": {
+      "Yes": 29.468750357635983,
+      "No": 29.31250000376154
+    },
+    "alias_logits": {
+      "Yes": [
+        14.625,
+        29.46875
+      ],
+      "No": [
+        9.9140625,
+        29.3125
+      ]
+    },
+    "top20": [
+      {
+        "id": 9642,
+        "token": "Yes",
+        "logit": 29.46875
+      },
+      {
+        "id": 2822,
+        "token": "No",
+        "logit": 29.3125
+      },
+      {
+        "id": 14331,
+        "token": "YES",
+        "logit": 20.359375
+      },
+      {
+        "id": 9891,
+        "token": "yes",
+        "logit": 19.515625
+      },
+      {
+        "id": 99076,
+        "token": "-No",
+        "logit": 19.015625
+      },
+      {
+        "id": 9173,
+        "token": "NO",
+        "logit": 18.984375
+      },
+      {
+        "id": 40,
+        "token": "I",
+        "logit": 18.625
+      },
+      {
+        "id": 791,
+        "token": "The",
+        "logit": 18.53125
+      },
+      {
+        "id": 2688,
+        "token": "Not",
+        "logit": 18.21875
+      },
+      {
+        "id": 7456,
+        "token": "Only",
+        "logit": 18.171875
+      },
+      {
+        "id": 2181,
+        "token": "It",
+        "logit": 18.078125
+      },
+      {
+        "id": 2201,
+        "token": "no",
+        "logit": 17.984375
+      },
+      {
+        "id": 11458,
+        "token": "However",
+        "logit": 17.84375
+      },
+      {
+        "id": 2028,
+        "token": "This",
+        "logit": 17.78125
+      },
+      {
+        "id": 16533,
+        "token": "Answer",
+        "logit": 17.671875
+      },
+      {
+        "id": 58841,
+        "token": "\"Yes",
+        "logit": 17.671875
+      },
+      {
+        "id": 12834,
+        "token": "Since",
+        "logit": 17.625
+      },
+      {
+        "id": 3947,
+        "token": "There",
+        "logit": 17.609375
+      },
+      {
+        "id": 31140,
+        "token": "Unfortunately",
+        "logit": 17.578125
+      },
+      {
+        "id": 24220,
+        "token": "Yeah",
+        "logit": 17.546875
+      }
+    ],
+    "family": "d1",
+    "split": "development",
+    "role": 0,
+    "voice": "active",
+    "query": 0,
+    "payload": "CALL_0014",
+    "logits_sha256": "9c7a0dfe93a2f219f794583c1ac8d877888c16a9d00b3c0a692724a919fdb86c",
+    "states_sha256": "745b48c9e0c9c488881859f933e86cfefd45cc06522121dfc07f99f5499bdb66",
+    "prefix_hashes": {
+      "prefix": [
+        "2110300a66ed4b18e99c23cab10c52e1e51fbd4a9a1e020c983419d8918c20c5",
+        "f946b8d81cd5e0fd599fc1241a0cd295a17bcec7f6dfee55870a76e29074615e",
+        "f9e2cdcb32db3d559b16663047d93152223b05052f4317fabb9720f91bd062fb",
+        "dc5b4441cd1f12a17b6a8eef40a87fc9f26ba91937f767780d9a4aab8f40a6e6",
+        "898648c039a1258c4c8f155a2a5839d08f8335401ea60f7c4e53a956b5bb8994",
+        "d3be02a2bf3550cb0cd7e1d4e9d0e354854a635d71dbe48a0ab5702608ba5122",
+        "d1a53049ce80d70bc2e6b6ca58a873ab8951fd04fc7b9f253cececd8fc56af0a",
+        "8d31f77690b1800a5235c3b0f438e60ccf37d8b1f97bb093c2a6afd181a80c3e",
+        "4e5e4dc9e1a3c26595c558117b41453c9bb6e4315ff791010db6f3cf9b425fd9",
+        "235749e59bc9299c77e4033bd7d17172b079928e25a41b6c7380a8189fc4865c",
+        "5441e8c183a33ea67556efb3480229142d95f8af44f9ce8c93c285f38c575ed7",
+        "4b1f4ae9f99b68e073db69d9755a3f1a611168d50bd4e6c396421aee22791d32",
+        "9c0e4db83e048833b130f9537fd63556b51f1c67379af4bb807099cab60bce73",
+        "e10f7b3350d06b4127033fafc9d95f21d1126ceeb1a053e270e3abade7bf560d",
+        "3a3ec92f91e6d56f5254c87ed745709a40f9b7f66f36ab833d40d913f4b929ff",
+        "c770482f07c758d651dc7f476b1eb752a1462a1fee613259eb63582e907b3cee",
+        "e432db5e0f975c503412760f1cdf429b4f826733c1296dc764d9a9031b305a77",
+        "121826aa371d5599f37ef5b6196aa8b5eb7a83eb92c8bea41969c17a554e2119",
+        "034793707e5d625eb935bfbe3730eae4a3407b4e9d0119f9a584709b65917b46",
+        "d5b775c98860a951bd7cc0d7cb41ae8c6ffb4c0c005e0cf86e688eb8ac19b41a",
+        "105c293c3c223e6c1bea30c85dbfed967d3e5dbc123bef70db57dd90d024d546",
+        "d21d8405238ecab56b20cf03fd2923ecb324e7b6a0369032cfd4f8cce285c138",
+        "a3184fbe7c6667fdca18a9afa53bab688eec233b72662ea5a19cb7d063e2cc9d",
+        "92ea163f9c7a434f67a4c18e858993eba96d1df6a0b8dcf9587ef82394bfbbcb",
+        "be39465d6dba6cdf8e02f793c699a0d089de5afeaf319ba67258236044af70d4",
+        "51aeb242937037244707070ed47b41f985b69f268d18d811f64d466e17edb2ef",
+        "cf5eac765230e93be6066d1dc923727c22593e386cd2b3f09965c6e0aa34cd43",
+        "9148eb964b83302412aad49ab822621a324e4094cc1cf68e45a5dbafd6d02c15"
+      ],
+      "prefix_without_neighbor": [
+        "97ebde637fd71b372d1a4bf4d3f303e93887d42d5b45857f972fd3410cc18e7b",
+        "adee0b7ae6bf048d39345a9de862f71093438bfbf089ca6027312f8885660733",
+        "4390115e31a9f9ead8dcca79d4085c8526628232d3f7806e1afa0bf32dfdef1b",
+        "64f2eadd84d254027ef3eb25439c0fcd1f41090bda9e9da0e97f85f820916f0f",
+        "3a779efa103c82b08682195d88e4472f87d01e3b36a456b5892c7984f25a439c",
+        "3e63596a7847e093ab94a365fcf23ab62c2b9c5daa7cdcd5f7009b41dc195dfe",
+        "3b4aa458bbfc4c452040fc4f5f0d0bb70dda8bbadb21bad244e1f450c7e427d4",
+        "26e818a1b5131bdb4891822dfc30af4b4d7f928fc8b3e945aea4e46241315049",
+        "be6c4b8cdf2d12dd0e11e830c044d24b2f79f03abae85db911c02d38be273def",
+        "9df2e86f41d9450f0ff60a64188ded28879cfa406b75357a9db2a072333e70c0",
+        "1ec827bb2a4421f53dca5f174be25cfdb6b19451043c6d2541ca2e63b3226d7d",
+        "44439e1239233982296ec91995084630643dd01c22b97c2ef1e40e4127d698ac",
+        "492b4e77f3116c0a3f5cae316bad55b000adc310691963d1a9f1483cce8c6b90",
+        "c9ed9f094f42b700d07c9289e59ce68dfa500f6e1991b54ab3f716413d1b0d41",
+        "7f03ad391923d703a8d73267a692ec4173b3fc3931d3d496b3ea04f015045be1",
+        "26075794b44a20fd1c66c372f41d59a7698566f77831393665047b8ddd7d3663",
+        "81b4f59d71a129cc16261877e6c12636d3043bdb4c2f428716cb107a5866b944",
+        "fd0650c4239a543c39015a0ef1f7313aaa712192323238600f9f35e482190d50",
+        "1ed43156821032eb4d6345b749d3aa37546fc5ba626c9fcbf133c98d51eb6f96",
+        "7019ad34537b03029b649aa3c6bf87b33e8a1f33ba5a9725bd61b850451ecdea",
+        "fd687460866549b860d49ba28c56e140cdad60a72db636cfb2f25b2ebaa37e86",
+        "c82e0a544b2472bfa825d7e835b0a4c90d606103edd58de28eefc0874f4bddc9",
+        "ef79f2542abca4c527769d5fc7de4637ef4dde7eadf0732d2e21ca697ea6588c",
+        "db498ae4fd34fa854e23f79ff4f4138924ce72e1a65f38d306ff112f3c6d76b6",
+        "1261c0af47fc2e06dde17ff2e66cbab1c3642478fdb5b84824fc2bdfdc2344f1",
+        "f643478eb64abd92edbddae1c3090be94d9d047387a5f54bb86217a32d516ef1",
+        "08d68a401fd0c80a12310a46e96839aaadd7cc423574d2bd6ea4d2872e704c4b",
+        "fb591810ab15fb33b7fcee64a827df206f28f09b02a098a0f3c9516d71ad322b"
+      ]
+    }
+  },
+  {
+    "call": 15,
+    "model": "llama3b",
+    "id": "d1_r0_active_q1",
+    "mode": "baseline",
+    "cut": 28,
+    "kind": "scientific",
+    "wrapped": true,
+    "native": false,
+    "expected": "No",
+    "actual": "No",
+    "argmax_id": 2822,
+    "argmax_token": "No",
+    "gold_margin": 5.796874641876464,
+    "correct": true,
+    "class_logits": {
+      "Yes": 25.359375360440954,
+      "No": 31.156250002317417
+    },
+    "alias_logits": {
+      "Yes": [
+        10.5234375,
+        25.359375
+      ],
+      "No": [
+        11.2734375,
+        31.15625
+      ]
+    },
+    "top20": [
+      {
+        "id": 2822,
+        "token": "No",
+        "logit": 31.15625
+      },
+      {
+        "id": 9642,
+        "token": "Yes",
+        "logit": 25.359375
+      },
+      {
+        "id": 2201,
+        "token": "no",
+        "logit": 19.84375
+      },
+      {
+        "id": 99076,
+        "token": "-No",
+        "logit": 19.109375
+      },
+      {
+        "id": 9173,
+        "token": "NO",
+        "logit": 18.8125
+      },
+      {
+        "id": 791,
+        "token": "The",
+        "logit": 18.15625
+      },
+      {
+        "id": 63295,
+        "token": "Neither",
+        "logit": 18.046875
+      },
+      {
+        "id": 42257,
+        "token": ">No",
+        "logit": 17.90625
+      },
+      {
+        "id": 2181,
+        "token": "It",
+        "logit": 17.640625
+      },
+      {
+        "id": 40,
+        "token": "I",
+        "logit": 17.53125
+      },
+      {
+        "id": 2688,
+        "token": "Not",
+        "logit": 17.484375
+      },
+      {
+        "id": 2028,
+        "token": "This",
+        "logit": 17.484375
+      },
+      {
+        "id": 4897,
+        "token": "That",
+        "logit": 17.1875
+      },
+      {
+        "id": 7184,
+        "token": "Now",
+        "logit": 17.171875
+      },
+      {
+        "id": 16533,
+        "token": "Answer",
+        "logit": 17.03125
+      },
+      {
+        "id": 39522,
+        "token": "\"No",
+        "logit": 17.0
+      },
+      {
+        "id": 12834,
+        "token": "Since",
+        "logit": 16.96875
+      },
+      {
+        "id": 3947,
+        "token": "There",
+        "logit": 16.859375
+      },
+      {
+        "id": 17184,
+        "token": ".No",
+        "logit": 16.8125
+      },
+      {
+        "id": 2675,
+        "token": "You",
+        "logit": 16.8125
+      }
+    ],
+    "family": "d1",
+    "split": "development",
+    "role": 0,
+    "voice": "active",
+    "query": 1,
+    "payload": "CALL_0015",
+    "logits_sha256": "bfa63ea573dabe4a221768908a8215ecb8a0048ae579447a182d1b28a5147068",
+    "states_sha256": "7ba30bd4de7533d9748290f46971c3f9241195f717d8c4a5612443554c3319f6",
+    "prefix_hashes": {
+      "prefix": [
+        "2110300a66ed4b18e99c23cab10c52e1e51fbd4a9a1e020c983419d8918c20c5",
+        "f946b8d81cd5e0fd599fc1241a0cd295a17bcec7f6dfee55870a76e29074615e",
+        "f9e2cdcb32db3d559b16663047d93152223b05052f4317fabb9720f91bd062fb",
+        "dc5b4441cd1f12a17b6a8eef40a87fc9f26ba91937f767780d9a4aab8f40a6e6",
+        "898648c039a1258c4c8f155a2a5839d08f8335401ea60f7c4e53a956b5bb8994",
+        "d3be02a2bf3550cb0cd7e1d4e9d0e354854a635d71dbe48a0ab5702608ba5122",
+        "d1a53049ce80d70bc2e6b6ca58a873ab8951fd04fc7b9f253cececd8fc56af0a",
+        "8d31f77690b1800a5235c3b0f438e60ccf37d8b1f97bb093c2a6afd181a80c3e",
+        "4e5e4dc9e1a3c26595c558117b41453c9bb6e4315ff791010db6f3cf9b425fd9",
+        "235749e59bc9299c77e4033bd7d17172b079928e25a41b6c7380a8189fc4865c",
+        "5441e8c183a33ea67556efb3480229142d95f8af44f9ce8c93c285f38c575ed7",
+        "4b1f4ae9f99b68e073db69d9755a3f1a611168d50bd4e6c396421aee22791d32",
+        "9c0e4db83e048833b130f9537fd63556b51f1c67379af4bb807099cab60bce73",
+        "e10f7b3350d06b4127033fafc9d95f21d1126ceeb1a053e270e3abade7bf560d",
+        "3a3ec92f91e6d56f5254c87ed745709a40f9b7f66f36ab833d40d913f4b929ff",
+        "c770482f07c758d651dc7f476b1eb752a1462a1fee613259eb63582e907b3cee",
+        "e432db5e0f975c503412760f1cdf429b4f826733c1296dc764d9a9031b305a77",
+        "121826aa371d5599f37ef5b6196aa8b5eb7a83eb92c8bea41969c17a554e2119",
+        "034793707e5d625eb935bfbe3730eae4a3407b4e9d0119f9a584709b65917b46",
+        "d5b775c98860a951bd7cc0d7cb41ae8c6ffb4c0c005e0cf86e688eb8ac19b41a",
+        "105c293c3c223e6c1bea30c85dbfed967d3e5dbc123bef70db57dd90d024d546",
+        "d21d8405238ecab56b20cf03fd2923ecb324e7b6a0369032cfd4f8cce285c138",
+        "a3184fbe7c6667fdca18a9afa53bab688eec233b72662ea5a19cb7d063e2cc9d",
+        "92ea163f9c7a434f67a4c18e858993eba96d1df6a0b8dcf9587ef82394bfbbcb",
+        "be39465d6dba6cdf8e02f793c699a0d089de5afeaf319ba67258236044af70d4",
+        "51aeb242937037244707070ed47b41f985b69f268d18d811f64d466e17edb2ef",
+        "cf5eac765230e93be6066d1dc923727c22593e386cd2b3f09965c6e0aa34cd43",
+        "9148eb964b83302412aad49ab822621a324e4094cc1cf68e45a5dbafd6d02c15"
+      ],
+      "prefix_without_neighbor": [
+        "97ebde637fd71b372d1a4bf4d3f303e93887d42d5b45857f972fd3410cc18e7b",
+        "adee0b7ae6bf048d39345a9de862f71093438bfbf089ca6027312f8885660733",
+        "4390115e31a9f9ead8dcca79d4085c8526628232d3f7806e1afa0bf32dfdef1b",
+        "64f2eadd84d254027ef3eb25439c0fcd1f41090bda9e9da0e97f85f820916f0f",
+        "3a779efa103c82b08682195d88e4472f87d01e3b36a456b5892c7984f25a439c",
+        "3e63596a7847e093ab94a365fcf23ab62c2b9c5daa7cdcd5f7009b41dc195dfe",
+        "3b4aa458bbfc4c452040fc4f5f0d0bb70dda8bbadb21bad244e1f450c7e427d4",
+        "26e818a1b5131bdb4891822dfc30af4b4d7f928fc8b3e945aea4e46241315049",
+        "be6c4b8cdf2d12dd0e11e830c044d24b2f79f03abae85db911c02d38be273def",
+        "9df2e86f41d9450f0ff60a64188ded28879cfa406b75357a9db2a072333e70c0",
+        "1ec827bb2a4421f53dca5f174be25cfdb6b19451043c6d2541ca2e63b3226d7d",
+        "44439e1239233982296ec91995084630643dd01c22b97c2ef1e40e4127d698ac",
+        "492b4e77f3116c0a3f5cae316bad55b000adc310691963d1a9f1483cce8c6b90",
+        "c9ed9f094f42b700d07c9289e59ce68dfa500f6e1991b54ab3f716413d1b0d41",
+        "7f03ad391923d703a8d73267a692ec4173b3fc3931d3d496b3ea04f015045be1",
+        "26075794b44a20fd1c66c372f41d59a7698566f77831393665047b8ddd7d3663",
+        "81b4f59d71a129cc16261877e6c12636d3043bdb4c2f428716cb107a5866b944",
+        "fd0650c4239a543c39015a0ef1f7313aaa712192323238600f9f35e482190d50",
+        "1ed43156821032eb4d6345b749d3aa37546fc5ba626c9fcbf133c98d51eb6f96",
+        "7019ad34537b03029b649aa3c6bf87b33e8a1f33ba5a9725bd61b850451ecdea",
+        "fd687460866549b860d49ba28c56e140cdad60a72db636cfb2f25b2ebaa37e86",
+        "c82e0a544b2472bfa825d7e835b0a4c90d606103edd58de28eefc0874f4bddc9",
+        "ef79f2542abca4c527769d5fc7de4637ef4dde7eadf0732d2e21ca697ea6588c",
+        "db498ae4fd34fa854e23f79ff4f4138924ce72e1a65f38d306ff112f3c6d76b6",
+        "1261c0af47fc2e06dde17ff2e66cbab1c3642478fdb5b84824fc2bdfdc2344f1",
+        "f643478eb64abd92edbddae1c3090be94d9d047387a5f54bb86217a32d516ef1",
+        "08d68a401fd0c80a12310a46e96839aaadd7cc423574d2bd6ea4d2872e704c4b",
+        "fb591810ab15fb33b7fcee64a827df206f28f09b02a098a0f3c9516d71ad322b"
+      ]
+    }
+  },
+  {
+    "call": 16,
+    "model": "llama3b",
+    "id": "d1_r0_passive_q0",
+    "mode": "baseline",
+    "cut": 28,
+    "kind": "scientific",
+    "wrapped": true,
+    "native": false,
+    "expected": "Yes",
+    "actual": "No",
+    "argmax_id": 2822,
+    "argmax_token": "No",
+    "gold_margin": -0.9531245831038184,
+    "correct": false,
+    "class_logits": {
+      "Yes": 28.687500421398155,
+      "No": 29.640625004501974
+    },
+    "alias_logits": {
+      "Yes": [
+        14.0078125,
+        28.6875
+      ],
+      "No": [
+        10.421875,
+        29.640625
+      ]
+    },
+    "top20": [
+      {
+        "id": 2822,
+        "token": "No",
+        "logit": 29.640625
+      },
+      {
+        "id": 9642,
+        "token": "Yes",
+        "logit": 28.6875
+      },
+      {
+        "id": 14331,
+        "token": "YES",
+        "logit": 19.28125
+      },
+      {
+        "id": 791,
+        "token": "The",
+        "logit": 19.171875
+      },
+      {
+        "id": 40,
+        "token": "I",
+        "logit": 18.828125
+      },
+      {
+        "id": 99076,
+        "token": "-No",
+        "logit": 18.75
+      },
+      {
+        "id": 2181,
+        "token": "It",
+        "logit": 18.65625
+      },
+      {
+        "id": 9891,
+        "token": "yes",
+        "logit": 18.65625
+      },
+      {
+        "id": 9173,
+        "token": "NO",
+        "logit": 18.59375
+      },
+      {
+        "id": 7456,
+        "token": "Only",
+        "logit": 18.578125
+      },
+      {
+        "id": 12834,
+        "token": "Since",
+        "logit": 18.453125
+      },
+      {
+        "id": 16533,
+        "token": "Answer",
+        "logit": 18.40625
+      },
+      {
+        "id": 2028,
+        "token": "This",
+        "logit": 18.3125
+      },
+      {
+        "id": 2688,
+        "token": "Not",
+        "logit": 18.296875
+      },
+      {
+        "id": 3947,
+        "token": "There",
+        "logit": 18.265625
+      },
+      {
+        "id": 63295,
+        "token": "Neither",
+        "logit": 18.171875
+      },
+      {
+        "id": 9126,
+        "token": "Mark",
+        "logit": 18.171875
+      },
+      {
+        "id": 2201,
+        "token": "no",
+        "logit": 17.984375
+      },
+      {
+        "id": 11458,
+        "token": "However",
+        "logit": 17.953125
+      },
+      {
+        "id": 31140,
+        "token": "Unfortunately",
+        "logit": 17.9375
+      }
+    ],
+    "family": "d1",
+    "split": "development",
+    "role": 0,
+    "voice": "passive",
+    "query": 0,
+    "payload": "CALL_0016",
+    "logits_sha256": "5a5fcfcb4bc0847a99499d9735c7edf3e69bf7528f58776fa210a21810eaaf68",
+    "states_sha256": "373e0b82ea8f439d85862558c5ef9b88b457991c446c61bf32d784166f8741f5",
+    "prefix_hashes": {
+      "prefix": [
+        "18dc845f3c1e91fa20d7e776f26f2a090c0002258af771ffac613172b4f6fda8",
+        "1195544d36408e79d0b9b83f751287ed8da1275732d265e9137e949b64e6d58d",
+        "70ed5f614b33a1113ab7d3c26a0af77eade102fef7443f3d1ea024a15a616b26",
+        "6dc8e8bc64bb8bd344a722c43f14a1ad457df90bdb0079cebe89c9ea3d0e9dae",
+        "02179b1edc0d6e2ac840f1b9f944a68969fd56fb35ad53d00ddee511b8889649",
+        "796bd643a5ddd928e988f4534539349d7b8245a76f5899c2881124520f633ae0",
+        "55666a90b22b3189c6926bf60dacf247bfbf84f64c7d91e31fbbbe783f8a70f9",
+        "6f1e327aa49421aee044ae929caa1a57016fa344047530b8f3c8eb7212d90b2d",
+        "912e18b7268601cee5217bef0807a73c3e2c646e0c3e0172af748b3ecc181133",
+        "65b162d15176bb59beeb00607f2fecbb2161a8e33c3489c23fc7b201eb0977cc",
+        "919bee75d669f2d5f92128e6863d795a3c5982d04dec161957d43ead93d3b6ff",
+        "da06e7b9f0b23599294017cec1c09e1731cb10dee8e0622f6fcabff8160c6f4e",
+        "d0f6d7885289b4ee4d81a38bf5eaa78a087252f90199b194c5ebce6a1b586f26",
+        "c1a3bb2dc306ff3dfb079a31974d628c8772cb228b4d8131b4637bc38a53d181",
+        "9810c4047b0fc0f9d5e493dfee89f6572feba12facd321cb588f1c0bfdaa82c4",
+        "44465b4e3277bbddd305a154418820074b64806ce1c98f484a3da3bd7b7a8caa",
+        "95c4a2843c644ce81cda04ce18c17710e751dcba8117e5355c8e3b32bbb31512",
+        "6ffc477c4421c3853e95e85ae4d421c0bf88140ced4e70ab1d8e25cc4c9eb0a9",
+        "2dcd0fbe65526433f91c60fb1e4e77a0730439de77218e97f0f67a5adf166956",
+        "fa89859d86a763aa08f8d6580d490cbb5e40562a1090f196e0bbc672f245d22b",
+        "8c02bd34afbb31b7e08f5e2777b1bfdcb2077f3f3a8c36b31e7dbd6c5c407e74",
+        "96ec39bde3b9d258d154f69786cff0d2e0d385bee78cffbc5c6f6297ca22cf70",
+        "d360f99d95c4be4f70bc957e12943ea77b614426c15ea12ae601f25c8a4ade74",
+        "8f415ef1b4acb081737b0f8ecb4a779a86ec5f50fd2ad9e5eefe24bb233982a9",
+        "090ce6f62149fb2b40ee07c3b00a2479209be60c7555b2b46009f38f19158755",
+        "7109de6462bac161bc9c65cfdada412dc0487aa9bdcff83a60efe95e98bad4b7",
+        "2a0b6a21c7df4f87957b97b3220ecf9bdf66d5d655ad000634d862abb6d261fe",
+        "11b83f803840add3c9f1f9c50ed9144363576ac931a9dd6c501c1655d670b48c"
+      ],
+      "prefix_without_neighbor": [
+        "358f34181ec131cb0782333ca2be8b900534e61d3bb5d26e39742636d3ded009",
+        "49b1ba44581acfa92dc4c8b3919a8491eccff03c1d17fc157fa6fcec18285d2d",
+        "316e178057f4fdbbac6109f73b1fa0666e3e6f2835e6a6e8afdedb49a40b9d2e",
+        "f01ee649eed0ad3188dbc343ab7209534eae5a78150d8da607cca124a7091c47",
+        "3063056f53b73b4816bf18cb0036ab013eeb44827c5147e6bc5cf147106a4a62",
+        "5a05bfa98bedd88a31bc01e88baa24b9d6557584b6053894ed0798c3c8402b30",
+        "1c1b23102d6a6d39711519b75ba65c4a136c46744397d1b504f3b0cff91a7889",
+        "12b7d6fd2fd429ccb6212520c5964523f4637146021347cc3739ec60787f8a66",
+        "9796e3553f67428721e55206964fda011c4cddab1382d4ee48868e9e3973b269",
+        "383753b7dcf90260251a1b24adc0ac21dff89cf24141a661b2bd163311d5e5be",
+        "9aa91370f20f7ad63b0ce50f42b0419107942a517a228f0708ca53be39d42d80",
+        "9ce40b9aed8bf5f6fd63765baa13e04e9e605a6bf36ddd3c27a4693ac846e672",
+        "dde22e2c55d54688dc836c201188cea579e85457e0498509b7b7c92b90a5d5b4",
+        "33bb3d40a9f13894f159a8f36f23f01ca4aef613ffbf36167451fb67891c8224",
+        "3f21a930a65c57adb4f53a3fffbd266ddf8b3203ca97f9762dbadf61b792c902",
+        "56bdee86e52ac63ef796ceba3d82764fda79ffc5f53a9041b1a7ef30605ef0d2",
+        "8e5a2a12069903f7fe940dab51b24df0ef54bb0b75ae443c075405112ec496e7",
+        "79a224ed856d4d18b79850a28a0e8f7376475b88b80bda0da97c682105ebd741",
+        "2b1a39409d41f10c1b9ee71e001af0087dc2a55352186287559984df4854184d",
+        "930b4e37935ed402b7a9f52cd0dbbb90fd71816bafe66250a557c3ccceac64aa",
+        "f4564d7b8fc8ac91c582a7800f085c28aa3aca3b8c418c66bd3c28d1c4f65a0c",
+        "41b0b39a49c8715b2f6e9934d67f27fdac2858ba74426ecf37bc63a35d4f21e9",
+        "fb99092cc93d09650bc1c613976da96dd28925f25ec2dea4626adc85ce83c44b",
+        "9ee92af91f297a31b0b85084b1a27ae34d3ffb7d176363002c7353d2b3ff48ce",
+        "2feb044147640e6cde5042b41da85b4c7aa039d52877a0e86dededfa095964a1",
+        "68b48f247c452fe663cdde04b0e5af58d4b56e5a068effcd7617d36ae389d0b5",
+        "fbbf1f4702ba678c3766f524560743bc13c934ba1138eda5678f3b0f55c033b7",
+        "328b80bb5729543897d4bbaff71a8386f9d5cbbad9a316da47453c7bd14748bf"
+      ]
+    }
+  },
+  {
+    "call": 17,
+    "model": "llama3b",
+    "id": "d1_r0_passive_q1",
+    "mode": "baseline",
+    "cut": 28,
+    "kind": "scientific",
+    "wrapped": true,
+    "native": false,
+    "expected": "No",
+    "actual": "No",
+    "argmax_id": 2822,
+    "argmax_token": "No",
+    "gold_margin": 3.4999995884805983,
+    "correct": true,
+    "class_logits": {
+      "Yes": 27.078125414864985,
+      "No": 30.578125003345583
+    },
+    "alias_logits": {
+      "Yes": [
+        12.3828125,
+        27.078125
+      ],
+      "No": [
+        11.0625,
+        30.578125
+      ]
+    },
+    "top20": [
+      {
+        "id": 2822,
+        "token": "No",
+        "logit": 30.578125
+      },
+      {
+        "id": 9642,
+        "token": "Yes",
+        "logit": 27.078125
+      },
+      {
+        "id": 99076,
+        "token": "-No",
+        "logit": 19.125
+      },
+      {
+        "id": 9173,
+        "token": "NO",
+        "logit": 19.0625
+      },
+      {
+        "id": 2201,
+        "token": "no",
+        "logit": 19.046875
+      },
+      {
+        "id": 791,
+        "token": "The",
+        "logit": 18.78125
+      },
+      {
+        "id": 63295,
+        "token": "Neither",
+        "logit": 18.296875
+      },
+      {
+        "id": 40,
+        "token": "I",
+        "logit": 18.234375
+      },
+      {
+        "id": 2028,
+        "token": "This",
+        "logit": 18.171875
+      },
+      {
+        "id": 16533,
+        "token": "Answer",
+        "logit": 18.140625
+      },
+      {
+        "id": 2181,
+        "token": "It",
+        "logit": 18.125
+      },
+      {
+        "id": 3947,
+        "token": "There",
+        "logit": 17.984375
+      },
+      {
+        "id": 42257,
+        "token": ">No",
+        "logit": 17.9375
+      },
+      {
+        "id": 2688,
+        "token": "Not",
+        "logit": 17.796875
+      },
+      {
+        "id": 14331,
+        "token": "YES",
+        "logit": 17.78125
+      },
+      {
+        "id": 9891,
+        "token": "yes",
+        "logit": 17.6875
+      },
+      {
+        "id": 12834,
+        "token": "Since",
+        "logit": 17.5625
+      },
+      {
+        "id": 4897,
+        "token": "That",
+        "logit": 17.453125
+      },
+      {
+        "id": 8586,
+        "token": "Here",
+        "logit": 17.40625
+      },
+      {
+        "id": 7184,
+        "token": "Now",
+        "logit": 17.296875
+      }
+    ],
+    "family": "d1",
+    "split": "development",
+    "role": 0,
+    "voice": "passive",
+    "query": 1,
+    "payload": "CALL_0017",
+    "logits_sha256": "88ff90f6b47b72c29d27d0f984e3e8de04425cc3b5cb43c0b6e6bf7cb9ca7ce3",
+    "states_sha256": "7a8a64eb0a625508732380c6485e2e7daf2334ca98fe8ce2f0ba6cb8e3aaeafd",
+    "prefix_hashes": {
+      "prefix": [
+        "18dc845f3c1e91fa20d7e776f26f2a090c0002258af771ffac613172b4f6fda8",
+        "1195544d36408e79d0b9b83f751287ed8da1275732d265e9137e949b64e6d58d",
+        "70ed5f614b33a1113ab7d3c26a0af77eade102fef7443f3d1ea024a15a616b26",
+        "6dc8e8bc64bb8bd344a722c43f14a1ad457df90bdb0079cebe89c9ea3d0e9dae",
+        "02179b1edc0d6e2ac840f1b9f944a68969fd56fb35ad53d00ddee511b8889649",
+        "796bd643a5ddd928e988f4534539349d7b8245a76f5899c2881124520f633ae0",
+        "55666a90b22b3189c6926bf60dacf247bfbf84f64c7d91e31fbbbe783f8a70f9",
+        "6f1e327aa49421aee044ae929caa1a57016fa344047530b8f3c8eb7212d90b2d",
+        "912e18b7268601cee5217bef0807a73c3e2c646e0c3e0172af748b3ecc181133",
+        "65b162d15176bb59beeb00607f2fecbb2161a8e33c3489c23fc7b201eb0977cc",
+        "919bee75d669f2d5f92128e6863d795a3c5982d04dec161957d43ead93d3b6ff",
+        "da06e7b9f0b23599294017cec1c09e1731cb10dee8e0622f6fcabff8160c6f4e",
+        "d0f6d7885289b4ee4d81a38bf5eaa78a087252f90199b194c5ebce6a1b586f26",
+        "c1a3bb2dc306ff3dfb079a31974d628c8772cb228b4d8131b4637bc38a53d181",
+        "9810c4047b0fc0f9d5e493dfee89f6572feba12facd321cb588f1c0bfdaa82c4",
+        "44465b4e3277bbddd305a154418820074b64806ce1c98f484a3da3bd7b7a8caa",
+        "95c4a2843c644ce81cda04ce18c17710e751dcba8117e5355c8e3b32bbb31512",
+        "6ffc477c4421c3853e95e85ae4d421c0bf88140ced4e70ab1d8e25cc4c9eb0a9",
+        "2dcd0fbe65526433f91c60fb1e4e77a0730439de77218e97f0f67a5adf166956",
+        "fa89859d86a763aa08f8d6580d490cbb5e40562a1090f196e0bbc672f245d22b",
+        "8c02bd34afbb31b7e08f5e2777b1bfdcb2077f3f3a8c36b31e7dbd6c5c407e74",
+        "96ec39bde3b9d258d154f69786cff0d2e0d385bee78cffbc5c6f6297ca22cf70",
+        "d360f99d95c4be4f70bc957e12943ea77b614426c15ea12ae601f25c8a4ade74",
+        "8f415ef1b4acb081737b0f8ecb4a779a86ec5f50fd2ad9e5eefe24bb233982a9",
+        "090ce6f62149fb2b40ee07c3b00a2479209be60c7555b2b46009f38f19158755",
+        "7109de6462bac161bc9c65cfdada412dc0487aa9bdcff83a60efe95e98bad4b7",
+        "2a0b6a21c7df4f87957b97b3220ecf9bdf66d5d655ad000634d862abb6d261fe",
+        "11b83f803840add3c9f1f9c50ed9144363576ac931a9dd6c501c1655d670b48c"
+      ],
+      "prefix_without_neighbor": [
+        "358f34181ec131cb0782333ca2be8b900534e61d3bb5d26e39742636d3ded009",
+        "49b1ba44581acfa92dc4c8b3919a8491eccff03c1d17fc157fa6fcec18285d2d",
+        "316e178057f4fdbbac6109f73b1fa0666e3e6f2835e6a6e8afdedb49a40b9d2e",
+        "f01ee649eed0ad3188dbc343ab7209534eae5a78150d8da607cca124a7091c47",
+        "3063056f53b73b4816bf18cb0036ab013eeb44827c5147e6bc5cf147106a4a62",
+        "5a05bfa98bedd88a31bc01e88baa24b9d6557584b6053894ed0798c3c8402b30",
+        "1c1b23102d6a6d39711519b75ba65c4a136c46744397d1b504f3b0cff91a7889",
+        "12b7d6fd2fd429ccb6212520c5964523f4637146021347cc3739ec60787f8a66",
+        "9796e3553f67428721e55206964fda011c4cddab1382d4ee48868e9e3973b269",
+        "383753b7dcf90260251a1b24adc0ac21dff89cf24141a661b2bd163311d5e5be",
+        "9aa91370f20f7ad63b0ce50f42b0419107942a517a228f0708ca53be39d42d80",
+        "9ce40b9aed8bf5f6fd63765baa13e04e9e605a6bf36ddd3c27a4693ac846e672",
+        "dde22e2c55d54688dc836c201188cea579e85457e0498509b7b7c92b90a5d5b4",
+        "33bb3d40a9f13894f159a8f36f23f01ca4aef613ffbf36167451fb67891c8224",
+        "3f21a930a65c57adb4f53a3fffbd266ddf8b3203ca97f9762dbadf61b792c902",
+        "56bdee86e52ac63ef796ceba3d82764fda79ffc5f53a9041b1a7ef30605ef0d2",
+        "8e5a2a12069903f7fe940dab51b24df0ef54bb0b75ae443c075405112ec496e7",
+        "79a224ed856d4d18b79850a28a0e8f7376475b88b80bda0da97c682105ebd741",
+        "2b1a39409d41f10c1b9ee71e001af0087dc2a55352186287559984df4854184d",
+        "930b4e37935ed402b7a9f52cd0dbbb90fd71816bafe66250a557c3ccceac64aa",
+        "f4564d7b8fc8ac91c582a7800f085c28aa3aca3b8c418c66bd3c28d1c4f65a0c",
+        "41b0b39a49c8715b2f6e9934d67f27fdac2858ba74426ecf37bc63a35d4f21e9",
+        "fb99092cc93d09650bc1c613976da96dd28925f25ec2dea4626adc85ce83c44b",
+        "9ee92af91f297a31b0b85084b1a27ae34d3ffb7d176363002c7353d2b3ff48ce",
+        "2feb044147640e6cde5042b41da85b4c7aa039d52877a0e86dededfa095964a1",
+        "68b48f247c452fe663cdde04b0e5af58d4b56e5a068effcd7617d36ae389d0b5",
+        "fbbf1f4702ba678c3766f524560743bc13c934ba1138eda5678f3b0f55c033b7",
+        "328b80bb5729543897d4bbaff71a8386f9d5cbbad9a316da47453c7bd14748bf"
+      ]
+    }
+  },
+  {
+    "call": 18,
+    "model": "llama3b",
+    "id": "d1_r1_active_q0",
+    "mode": "baseline",
+    "cut": 28,
+    "kind": "scientific",
+    "wrapped": true,
+    "native": false,
+    "expected": "No",
+    "actual": "No",
+    "argmax_id": 2822,
+    "argmax_token": "No",
+    "gold_margin": 6.265624666093238,
+    "correct": true,
+    "class_logits": {
+      "Yes": 25.156250335967915,
+      "No": 31.421875002061153
+    },
+    "alias_logits": {
+      "Yes": [
+        10.25,
+        25.15625
+      ],
+      "No": [
+        11.421875,
+        31.421875
+      ]
+    },
+    "top20": [
+      {
+        "id": 2822,
+        "token": "No",
+        "logit": 31.421875
+      },
+      {
+        "id": 9642,
+        "token": "Yes",
+        "logit": 25.15625
+      },
+      {
+        "id": 2201,
+        "token": "no",
+        "logit": 19.84375
+      },
+      {
+        "id": 99076,
+        "token": "-No",
+        "logit": 19.296875
+      },
+      {
+        "id": 9173,
+        "token": "NO",
+        "logit": 19.09375
+      },
+      {
+        "id": 63295,
+        "token": "Neither",
+        "logit": 18.15625
+      },
+      {
+        "id": 42257,
+        "token": ">No",
+        "logit": 18.015625
+      },
+      {
+        "id": 791,
+        "token": "The",
+        "logit": 17.859375
+      },
+      {
+        "id": 2688,
+        "token": "Not",
+        "logit": 17.4375
+      },
+      {
+        "id": 2181,
+        "token": "It",
+        "logit": 17.328125
+      },
+      {
+        "id": 2028,
+        "token": "This",
+        "logit": 17.1875
+      },
+      {
+        "id": 39522,
+        "token": "\"No",
+        "logit": 17.140625
+      },
+      {
+        "id": 40,
+        "token": "I",
+        "logit": 17.109375
+      },
+      {
+        "id": 17184,
+        "token": ".No",
+        "logit": 17.046875
+      },
+      {
+        "id": 7184,
+        "token": "Now",
+        "logit": 17.046875
+      },
+      {
+        "id": 16533,
+        "token": "Answer",
+        "logit": 17.0
+      },
+      {
+        "id": 4897,
+        "token": "That",
+        "logit": 16.921875
+      },
+      {
+        "id": 3947,
+        "token": "There",
+        "logit": 16.84375
+      },
+      {
+        "id": 12834,
+        "token": "Since",
+        "logit": 16.671875
+      },
+      {
+        "id": 2675,
+        "token": "You",
+        "logit": 16.578125
+      }
+    ],
+    "family": "d1",
+    "split": "development",
+    "role": 1,
+    "voice": "active",
+    "query": 0,
+    "payload": "CALL_0018",
+    "logits_sha256": "ae2e9b33538cbd08dd40fda8d3080ce41c08bed69f73c56aaff23765cdabe25b",
+    "states_sha256": "504f70e534e803e30cc6abaa89f594aef5c632e2518bb6306fe3e6cfb1b4549d",
+    "prefix_hashes": {
+      "prefix": [
+        "fc60fad0d81ffdb1856aac123f6a13dc6f1b51bd488f8416cf6f81dbc3b092cc",
+        "0f32678128aaa676eba0b7592776f52c3ef46431245b87d2d8069dc9e0651f64",
+        "fbe52339aacf06bd838a8b7596fe15c83d5dc6c96ef46dca0f54453567202419",
+        "60e373de412d379f14a9b49b6e2900b50a73fead645ebbbb09b2a6e8a798a606",
+        "b6d4f2d9b6a797eb7499119a4973b20fe4466746ed136c7fe47a88576849c182",
+        "a64803d3ada8194b1ca23bcaf9bd75fb87d366dcf0fb7de75088e081f3dedc9c",
+        "1e251ce3cff5acef0374c85ddd413d4f1a9d90939aec8ddbb545ef0239425ca1",
+        "dcc853a9d62a79e823b0c5e3fb44e517310ca9472bf088360e92be294dff0df3",
+        "45d5996e1a51a96ef3a9231fb33c6d9997ec231de49071a28ce5cb8b900f95fe",
+        "042faf32872cf15067937898facd86bdd752c4656adaaed56a54712c9fbaab70",
+        "4c60d99d427462928c8f5fea0eb4657e1bc5201a77b030cda65985b9d56bad1c",
+        "ecdbe2d33a2f968b5414e03b629b784fc2d94287c2af6b8ed371866ac357751c",
+        "bb2419a6b5b33ae3f98bbf0f093276c882d66fad421c2f828be25d65e42e459d",
+        "89becf65207079a143fdf5d194d1a3af040ac69b65f3eae16e6d78b3b7cb7d9a",
+        "a0f9e18c2401368b6b706b1e038f2c6f659d1f3e9837933b799cbb5922f0131a",
+        "bb30d3887ae64bf9f382c48a3c63f9471f235b3796bd74139c1dd0a996139cae",
+        "a940628b7b7b003e48cfbfb603493955acc5f862be78abbfe0d2ea30913027f3",
+        "a2ba0a397db5aaa39c44dc95a35522ed50aab41d393009db06df350fc8cc6975",
+        "b2031ff54e1259529595394764bfc24d3f8e39a57e43918c2f99d0e070aecc1e",
+        "11c744e714fbb87d020fb83371fc74826f5e65e9feb4fc865a6cdf1d82fe73be",
+        "c51cd0f26b3f458b18019705ae2b47694faaba19f2e72561ff0fd432b86d642a",
+        "c186a96a7447c26a26eacffb3377242610b7b9d527636520ff718e17b475b430",
+        "a8af9f0eb8fd2a484125c669917f2d055e5aa81a5be09400e966e5681e4dceb3",
+        "ba276f07d5a93a9d679f4f6915ac8bd3dfef9eb0fc8a3718783efbff5ac2a51d",
+        "f2610d39537aeaf89e3cba8a961208a1ba58eceed852e75a23df59f4a665601f",
+        "c6a2bb33bacba679928d2f477ceb3af6af844cc1018debfe0e4fdca73f9e266d",
+        "c2285d4c0e0f58773b4584c870c0144ffa321ee9eb4012bd4f8bb6494346bf72",
+        "a2772eac39265c5317ac8ea60f3a6c4e7124f184aa6dcb74865b136f4d354e52"
+      ],
+      "prefix_without_neighbor": [
+        "d8eb675cbef7e61f5a4100fd9ea550ada626d99c6085603be0a243fc99490b98",
+        "425dd9af36449af68b3dff8133cb1006cb99378a2052da4526cba55355391018",
+        "69ab3001ad6f51d76aeb1549754a824c25cccb79980d0a6337fe94568378d02d",
+        "dd9dc5bc7f7037f621b8eb8df0785f6a2b3ed541d525c508f63b1b4d24298c33",
+        "531a28f9fc3729b83e0ff2ec7dc44b83be5fd56cdb61a1ac6c7fc181061c8406",
+        "e248101c6ba8d266f1063dfbafc613412b54571fe2f03f681becd8fee3f446c0",
+        "881ffad67ad7b0a37d94084b75423e27d9501a137ab869d06557c5d0729f780e",
+        "bda56f9de1620424f4d09d44085ebb7d794ed1dc5c485a159502b50d417a3e3a",
+        "70bc250159e32b776da0267eba492b19dd5da32813f14b666c9a981f7a6cd4db",
+        "3345dfdc87561d673eeaa5405da00805fcac15436d1a3519c1e5cc08ca20a4ad",
+        "9436590e72d804f49791a9b0ea07aa671046e568f9a3e49ea21853edcd46112d",
+        "5ba6b3b89efeaf39a8eed90d8e60235d814a3b5c092ed3e8ccf91068931cd177",
+        "85e7cd15b85e48d3a25ad70f2698940a1b987c9850ad2865ca5508237cce0f97",
+        "62a51961ef3a30b787833a39b918dfbc6bc6cbc5e42243e5b1dfc2d9b9ec331b",
+        "bb7cdde3de3f760ce023217546b054b161bae1d824c8a643908fffac64884008",
+        "8b21e7b1ec8f21e2543ecfce66158359b8341558c5162173d34e2dc2db5ae275",
+        "377f4d481f0f331d442829c79eec7c04eda4aa058ef2c92c1ec4be026852b387",
+        "5c9b85bf1d061653cfe6a8f220b1faa6014de5053186c26f584a20cda5ce0266",
+        "de24f1bb606a4ab87665146e82803f252ad0743dcd51c5fcd5aaaba5ab55fde7",
+        "f42daafe77397dc1713bd8b870847e777769b0bcc19193cf4c79f4da7cc72b34",
+        "1fbfc5598769beeb1eaffc392b0355df21218fa6a8175c3ee9f3338851846491",
+        "4a90895d6294fa5b146b0af2440a422762c216e69d3d7434be4bca9699a98023",
+        "0400c6b82397c0c61a10f2fa416a8d9639e53f81703b5b35a64a817018731955",
+        "69b80a191be90c2c7461a8dd65f2818b12890100fd423121fedf66909dbfcec8",
+        "05962abed945844cbc3b7f4a3d84321aec2cf05d2c56c8c8c27a19b731774813",
+        "e9b89d90564fb015e5fc48c25a558aad268f7eacf2b266371b7dc99a31769537",
+        "79093650cea5b474499fdd41d0ad2a60f4d49f40b9fa2e2ebc3c4228cda97a41",
+        "41538723941c5e7d9cb3dd0240ce3b59dc17f8974baaa5a970998027f3446ee3"
+      ]
+    }
+  },
+  {
+    "call": 19,
+    "model": "llama3b",
+    "id": "d1_r1_active_q1",
+    "mode": "baseline",
+    "cut": 28,
+    "kind": "scientific",
+    "wrapped": true,
+    "native": false,
+    "expected": "Yes",
+    "actual": "No",
+    "argmax_id": 2822,
+    "argmax_token": "No",
+    "gold_margin": -0.9999996595166181,
+    "correct": false,
+    "class_logits": {
+      "Yes": 28.859375343935163,
+      "No": 29.85937500345178
+    },
+    "alias_logits": {
+      "Yes": [
+        13.9765625,
+        28.859375
+      ],
+      "No": [
+        10.375,
+        29.859375
+      ]
+    },
+    "top20": [
+      {
+        "id": 2822,
+        "token": "No",
+        "logit": 29.859375
+      },
+      {
+        "id": 9642,
+        "token": "Yes",
+        "logit": 28.859375
+      },
+      {
+        "id": 9126,
+        "token": "Mark",
+        "logit": 19.875
+      },
+      {
+        "id": 14331,
+        "token": "YES",
+        "logit": 19.59375
+      },
+      {
+        "id": 9891,
+        "token": "yes",
+        "logit": 19.015625
+      },
+      {
+        "id": 99076,
+        "token": "-No",
+        "logit": 19.0
+      },
+      {
+        "id": 40,
+        "token": "I",
+        "logit": 18.9375
+      },
+      {
+        "id": 9173,
+        "token": "NO",
+        "logit": 18.796875
+      },
+      {
+        "id": 791,
+        "token": "The",
+        "logit": 18.640625
+      },
+      {
+        "id": 2688,
+        "token": "Not",
+        "logit": 18.5625
+      },
+      {
+        "id": 2181,
+        "token": "It",
+        "logit": 18.296875
+      },
+      {
+        "id": 7456,
+        "token": "Only",
+        "logit": 18.28125
+      },
+      {
+        "id": 2201,
+        "token": "no",
+        "logit": 18.265625
+      },
+      {
+        "id": 2028,
+        "token": "This",
+        "logit": 18.15625
+      },
+      {
+        "id": 3947,
+        "token": "There",
+        "logit": 17.984375
+      },
+      {
+        "id": 16533,
+        "token": "Answer",
+        "logit": 17.890625
+      },
+      {
+        "id": 14109,
+        "token": "Unknown",
+        "logit": 17.890625
+      },
+      {
+        "id": 11458,
+        "token": "However",
+        "logit": 17.71875
+      },
+      {
+        "id": 31140,
+        "token": "Unfortunately",
+        "logit": 17.59375
+      },
+      {
+        "id": 12834,
+        "token": "Since",
+        "logit": 17.578125
+      }
+    ],
+    "family": "d1",
+    "split": "development",
+    "role": 1,
+    "voice": "active",
+    "query": 1,
+    "payload": "CALL_0019",
+    "logits_sha256": "d9b615853d2d9cabbdcb02e4b2d5dcdb457a0fa112426896c5a191a09848dace",
+    "states_sha256": "8ecb50622f91c50c749980475c46028b04927f442ced856fb31601c877da06c1",
+    "prefix_hashes": {
+      "prefix": [
+        "fc60fad0d81ffdb1856aac123f6a13dc6f1b51bd488f8416cf6f81dbc3b092cc",
+        "0f32678128aaa676eba0b7592776f52c3ef46431245b87d2d8069dc9e0651f64",
+        "fbe52339aacf06bd838a8b7596fe15c83d5dc6c96ef46dca0f54453567202419",
+        "60e373de412d379f14a9b49b6e2900b50a73fead645ebbbb09b2a6e8a798a606",
+        "b6d4f2d9b6a797eb7499119a4973b20fe4466746ed136c7fe47a88576849c182",
+        "a64803d3ada8194b1ca23bcaf9bd75fb87d366dcf0fb7de75088e081f3dedc9c",
+        "1e251ce3cff5acef0374c85ddd413d4f1a9d90939aec8ddbb545ef0239425ca1",
+        "dcc853a9d62a79e823b0c5e3fb44e517310ca9472bf088360e92be294dff0df3",
+        "45d5996e1a51a96ef3a9231fb33c6d9997ec231de49071a28ce5cb8b900f95fe",
+        "042faf32872cf15067937898facd86bdd752c4656adaaed56a54712c9fbaab70",
+        "4c60d99d427462928c8f5fea0eb4657e1bc5201a77b030cda65985b9d56bad1c",
+        "ecdbe2d33a2f968b5414e03b629b784fc2d94287c2af6b8ed371866ac357751c",
+        "bb2419a6b5b33ae3f98bbf0f093276c882d66fad421c2f828be25d65e42e459d",
+        "89becf65207079a143fdf5d194d1a3af040ac69b65f3eae16e6d78b3b7cb7d9a",
+        "a0f9e18c2401368b6b706b1e038f2c6f659d1f3e9837933b799cbb5922f0131a",
+        "bb30d3887ae64bf9f382c48a3c63f9471f235b3796bd74139c1dd0a996139cae",
+        "a940628b7b7b003e48cfbfb603493955acc5f862be78abbfe0d2ea30913027f3",
+        "a2ba0a397db5aaa39c44dc95a35522ed50aab41d393009db06df350fc8cc6975",
+        "b2031ff54e1259529595394764bfc24d3f8e39a57e43918c2f99d0e070aecc1e",
+        "11c744e714fbb87d020fb83371fc74826f5e65e9feb4fc865a6cdf1d82fe73be",
+        "c51cd0f26b3f458b18019705ae2b47694faaba19f2e72561ff0fd432b86d642a",
+        "c186a96a7447c26a26eacffb3377242610b7b9d527636520ff718e17b475b430",
+        "a8af9f0eb8fd2a484125c669917f2d055e5aa81a5be09400e966e5681e4dceb3",
+        "ba276f07d5a93a9d679f4f6915ac8bd3dfef9eb0fc8a3718783efbff5ac2a51d",
+        "f2610d39537aeaf89e3cba8a961208a1ba58eceed852e75a23df59f4a665601f",
+        "c6a2bb33bacba679928d2f477ceb3af6af844cc1018debfe0e4fdca73f9e266d",
+        "c2285d4c0e0f58773b4584c870c0144ffa321ee9eb4012bd4f8bb6494346bf72",
+        "a2772eac39265c5317ac8ea60f3a6c4e7124f184aa6dcb74865b136f4d354e52"
+      ],
+      "prefix_without_neighbor": [
+        "d8eb675cbef7e61f5a4100fd9ea550ada626d99c6085603be0a243fc99490b98",
+        "425dd9af36449af68b3dff8133cb1006cb99378a2052da4526cba55355391018",
+        "69ab3001ad6f51d76aeb1549754a824c25cccb79980d0a6337fe94568378d02d",
+        "dd9dc5bc7f7037f621b8eb8df0785f6a2b3ed541d525c508f63b1b4d24298c33",
+        "531a28f9fc3729b83e0ff2ec7dc44b83be5fd56cdb61a1ac6c7fc181061c8406",
+        "e248101c6ba8d266f1063dfbafc613412b54571fe2f03f681becd8fee3f446c0",
+        "881ffad67ad7b0a37d94084b75423e27d9501a137ab869d06557c5d0729f780e",
+        "bda56f9de1620424f4d09d44085ebb7d794ed1dc5c485a159502b50d417a3e3a",
+        "70bc250159e32b776da0267eba492b19dd5da32813f14b666c9a981f7a6cd4db",
+        "3345dfdc87561d673eeaa5405da00805fcac15436d1a3519c1e5cc08ca20a4ad",
+        "9436590e72d804f49791a9b0ea07aa671046e568f9a3e49ea21853edcd46112d",
+        "5ba6b3b89efeaf39a8eed90d8e60235d814a3b5c092ed3e8ccf91068931cd177",
+        "85e7cd15b85e48d3a25ad70f2698940a1b987c9850ad2865ca5508237cce0f97",
+        "62a51961ef3a30b787833a39b918dfbc6bc6cbc5e42243e5b1dfc2d9b9ec331b",
+        "bb7cdde3de3f760ce023217546b054b161bae1d824c8a643908fffac64884008",
+        "8b21e7b1ec8f21e2543ecfce66158359b8341558c5162173d34e2dc2db5ae275",
+        "377f4d481f0f331d442829c79eec7c04eda4aa058ef2c92c1ec4be026852b387",
+        "5c9b85bf1d061653cfe6a8f220b1faa6014de5053186c26f584a20cda5ce0266",
+        "de24f1bb606a4ab87665146e82803f252ad0743dcd51c5fcd5aaaba5ab55fde7",
+        "f42daafe77397dc1713bd8b870847e777769b0bcc19193cf4c79f4da7cc72b34",
+        "1fbfc5598769beeb1eaffc392b0355df21218fa6a8175c3ee9f3338851846491",
+        "4a90895d6294fa5b146b0af2440a422762c216e69d3d7434be4bca9699a98023",
+        "0400c6b82397c0c61a10f2fa416a8d9639e53f81703b5b35a64a817018731955",
+        "69b80a191be90c2c7461a8dd65f2818b12890100fd423121fedf66909dbfcec8",
+        "05962abed945844cbc3b7f4a3d84321aec2cf05d2c56c8c8c27a19b731774813",
+        "e9b89d90564fb015e5fc48c25a558aad268f7eacf2b266371b7dc99a31769537",
+        "79093650cea5b474499fdd41d0ad2a60f4d49f40b9fa2e2ebc3c4228cda97a41",
+        "41538723941c5e7d9cb3dd0240ce3b59dc17f8974baaa5a970998027f3446ee3"
+      ]
+    }
+  },
+  {
+    "call": 20,
+    "model": "llama3b",
+    "id": "d1_r1_passive_q0",
+    "mode": "baseline",
+    "cut": 28,
+    "kind": "scientific",
+    "wrapped": true,
+    "native": false,
+    "expected": "No",
+    "actual": "No",
+    "argmax_id": 2822,
+    "argmax_token": "No",
+    "gold_margin": 3.093749610356607,
+    "correct": true,
+    "class_logits": {
+      "Yes": 27.328125392786276,
+      "No": 30.421875003142883
+    },
+    "alias_logits": {
+      "Yes": [
+        12.578125,
+        27.328125
+      ],
+      "No": [
+        10.84375,
+        30.421875
+      ]
+    },
+    "top20": [
+      {
+        "id": 2822,
+        "token": "No",
+        "logit": 30.421875
+      },
+      {
+        "id": 9642,
+        "token": "Yes",
+        "logit": 27.328125
+      },
+      {
+        "id": 99076,
+        "token": "-No",
+        "logit": 19.09375
+      },
+      {
+        "id": 9173,
+        "token": "NO",
+        "logit": 19.078125
+      },
+      {
+        "id": 2201,
+        "token": "no",
+        "logit": 18.9375
+      },
+      {
+        "id": 791,
+        "token": "The",
+        "logit": 18.84375
+      },
+      {
+        "id": 40,
+        "token": "I",
+        "logit": 18.34375
+      },
+      {
+        "id": 2181,
+        "token": "It",
+        "logit": 18.3125
+      },
+      {
+        "id": 2028,
+        "token": "This",
+        "logit": 18.171875
+      },
+      {
+        "id": 63295,
+        "token": "Neither",
+        "logit": 18.09375
+      },
+      {
+        "id": 14331,
+        "token": "YES",
+        "logit": 17.96875
+      },
+      {
+        "id": 42257,
+        "token": ">No",
+        "logit": 17.859375
+      },
+      {
+        "id": 9891,
+        "token": "yes",
+        "logit": 17.828125
+      },
+      {
+        "id": 3947,
+        "token": "There",
+        "logit": 17.8125
+      },
+      {
+        "id": 12834,
+        "token": "Since",
+        "logit": 17.796875
+      },
+      {
+        "id": 2688,
+        "token": "Not",
+        "logit": 17.796875
+      },
+      {
+        "id": 16533,
+        "token": "Answer",
+        "logit": 17.78125
+      },
+      {
+        "id": 4897,
+        "token": "That",
+        "logit": 17.578125
+      },
+      {
+        "id": 11458,
+        "token": "However",
+        "logit": 17.484375
+      },
+      {
+        "id": 7456,
+        "token": "Only",
+        "logit": 17.453125
+      }
+    ],
+    "family": "d1",
+    "split": "development",
+    "role": 1,
+    "voice": "passive",
+    "query": 0,
+    "payload": "CALL_0020",
+    "logits_sha256": "67deeeddf090fa8fd0fbe0cc006e3bbb36bf469d71cc9593a7d549ac19c1ad82",
+    "states_sha256": "65a62ffd2fb1ad8fdbbf35236827091444efb112f7487e13bf8ab85c51981732",
+    "prefix_hashes": {
+      "prefix": [
+        "bca7641591656a4a91f97c45bedec595386078ea3d26a01043b887b02946d2a8",
+        "bc691c2751c5a762ae8be5e701dc2ca1fad4c1ac1292d4cf2835d67f6771fb0a",
+        "05b17a7a08614cf70ace35f7a86446f936d12c1aff1a9f57bb40c241772b3fdb",
+        "9a2c8d786e7c60079803b2cf33600289ab232e440fad64f4fb3b4b0da60c95c2",
+        "f67283e8f2f6745f090c4c81b623947825c7e0b3365cf36dadf26c9aba03f902",
+        "3c11d313c0aa5c6e68964d04c16e0b7af9cddbf90fbc733c19ac0b1a480ef6b1",
+        "80cd847228aa3ff8bb60b654a279bcacbdd24252161fa6dee4653be42141017d",
+        "91527377ac0253e27421d99a8620771b75b9df8fda11da2b29b9774ddebec87d",
+        "3cb90b0852f69fac0615b43851deca7656fcd4031c9cd706850bd92fd58527e6",
+        "63c67a82663573439cbd2662475456c2f137a7da5e43209277eb5f89ddec1dc7",
+        "d9de9e72d347cfdf7ec5b04de701bbc6e7d5467087a3b827ac7ed19a06b4df49",
+        "cd1eced94db5cc0d9da9e205d229e75e8cc46b65383cb0ad44648a5dda67b433",
+        "e779eac0f7ebdc9a14d6d537c1afcea9318b728b304b175f5fb4f6761c490801",
+        "1a453462eaeaa9871157ece191da4ea77d812eb18e216b4014460e3de0a901f9",
+        "775c186d2c29ab5d1f4e4c75f44d4a0a10c2b169ed495c00a04ace3be7bb6d94",
+        "ac9d7a7b67d0d9f6f0d86704fdde950fdf118f4b84e046f6f05633677b5becf5",
+        "196558561b43b95017d13c81c6fd46b4cc2e9bb557c0ed251f2156909569d0be",
+        "d68a530a9ad931e838fb4ca1dfd223bd94189abd5b99bb73d6920dd25ff67b9c",
+        "4183275d4c771c51e3d4328c6dedbcadf2dfd7c09aea78e2cf0b4caeb4411b6e",
+        "d1616011ebfc3f3b4dd2004ce2ed0e50bac5c852d64a75a7e2704099fdc952c5",
+        "c1ae60a3027915082f02742b5e39f8abee6a09e3009524d1539a5ddeba342292",
+        "2e4a7b9e1ac400ab7a38d4c7917568b7e865f69370d9dfacaf25f88cb521f097",
+        "d8a308fdab626055d66f665e2760fce20570b0691c7ef2541a94fcfb8c12f51d",
+        "b96855e58097fd82e90d2c4a3c1bdf7707ad82adbff1dfb517068d9c1f634367",
+        "d5480c981b76ad632a53d7dc1e2629122e37e6a246d9acbe915ce537670e6b9e",
+        "44753bb831a4b670ad1fccd8547f312c2180aae8aa1c08932ad1c25794dbeb05",
+        "d01591823e8096db296a20c25ebfa4f74c4ef13df05e87d30423e4de4d5e2493",
+        "c5fcc1928f954d1dee012aa384a02f421279b99e1e6ed5308f2082a9807246e2"
+      ],
+      "prefix_without_neighbor": [
+        "5b06318ce2f819227d35897b6316da8cc05dc0ce24b1d6ce0fb980aaeb70debf",
+        "50268d7d0325cdbcfcda64507c1f258f722e949c924a78168fd6e4a237987549",
+        "324fd6a4e90c426236b499e46bcbfbbba860189ebbef3f47add352ec8df901de",
+        "424802fdf60619f67ad472fc422ff508337a62364a32568019ea90533662932e",
+        "97adae1d876f585b07ce7a9f15e04e47714e248ce2c48af1314088df008d85ae",
+        "61cd1066feef90795cdda92bb1aab00ab7224188c778bf747d66279cd628bb2f",
+        "cf6a727d0f178f9962e8b01561b047faeb8b0fed1816eefde4a1a6e5fb240f21",
+        "2e9030023e2e84e8d1fba63834deb7dc54ced2ecf1e3f060ba52eb50c9d8175c",
+        "a3bce69fdb6fe94fa9c00052ec12dad609690a34d8fb4e2ed7f4eec4a3ceca3b",
+        "9cebd9bf410cd5338618deb609372f5793c8281c8c550d12cfcb31679ad45021",
+        "ef5225e9ac8409bed9b33d56ee67c1fe0b0215d4349631df3e8950a451205130",
+        "925007bdc849eeab3ad109e3c3884d89d04a72aeb21ac60fcf961d623816143f",
+        "d09d276e37091a1f49fca0f99dee8c467ea3e874ba43ed9eea697986c4422783",
+        "1fcba6c3202327a36e82a9cda39f9bd023fc12b9691213b8db77e58dac16a950",
+        "d18fe4c14bcc393f1c371661b4487c35beb57d850bc97100557c7ce5a4077ac4",
+        "cfc65ce33b68702d6a67e61a316188b0b17ae03aeba15155536ffa3af1036e9c",
+        "abf36d5f414640fdfbb6db00f241bb5660fe0922f901aaf41f1120378a2e53fd",
+        "ecb353e8664fea8b2fe756da5890c19b2609e4ff6d2578e31f5a4a18afbd0cd8",
+        "48f85cd89b3b03020e8de7e5985740a713879c9a195fe7ad88f533cd09502647",
+        "6aa0f5f9d6334f4c5fcfbc234f655340382f0569672e69d7a67ea6e71960995e",
+        "9e5026cbffdd770dcacaa27a6e707645ebfe3b6e798bdecf58fb841345064bdf",
+        "99d82ad58ad7acab3aa1e49d2f705923439c88066db59388b67c246ebfba6483",
+        "4b63965dc984edfc1e995c35ec385d34bb548a5c8d08ada73a1bf0061b3baab8",
+        "2788613f511f5d2c20aaf52ce26f19fbdb93a06230b14421d0b26dde12bdfbd1",
+        "a41d0cf934a86b635b2320d8adf2170e1c5e81c36ada5dc0848ab8d5a1bb6ec5",
+        "e94e4022542f9c5d100f6d2079af7b4220ecf1a351d7bbd56e137cf06ef75fca",
+        "b4077c83f31d402e53fd1b789620f3b1a36851b3420928a0dcdf6e201fe92220",
+        "0facdd95b85110ea4f9276c40912445eb0bfa821da3edf21733c1f810fdf83f5"
+      ]
+    }
+  },
+  {
+    "call": 21,
+    "model": "llama3b",
+    "id": "d1_r1_passive_q1",
+    "mode": "baseline",
+    "cut": 28,
+    "kind": "scientific",
+    "wrapped": true,
+    "native": false,
+    "expected": "Yes",
+    "actual": "No",
+    "argmax_id": 2822,
+    "argmax_token": "No",
+    "gold_margin": -1.7343746456835625,
+    "correct": false,
+    "class_logits": {
+      "Yes": 28.265625357635983,
+      "No": 30.000000003319546
+    },
+    "alias_logits": {
+      "Yes": [
+        13.421875,
+        28.265625
+      ],
+      "No": [
+        10.4765625,
+        30.0
+      ]
+    },
+    "top20": [
+      {
+        "id": 2822,
+        "token": "No",
+        "logit": 30.0
+      },
+      {
+        "id": 9642,
+        "token": "Yes",
+        "logit": 28.265625
+      },
+      {
+        "id": 791,
+        "token": "The",
+        "logit": 19.171875
+      },
+      {
+        "id": 99076,
+        "token": "-No",
+        "logit": 18.96875
+      },
+      {
+        "id": 14331,
+        "token": "YES",
+        "logit": 18.84375
+      },
+      {
+        "id": 9173,
+        "token": "NO",
+        "logit": 18.765625
+      },
+      {
+        "id": 2181,
+        "token": "It",
+        "logit": 18.765625
+      },
+      {
+        "id": 40,
+        "token": "I",
+        "logit": 18.671875
+      },
+      {
+        "id": 7456,
+        "token": "Only",
+        "logit": 18.453125
+      },
+      {
+        "id": 12834,
+        "token": "Since",
+        "logit": 18.453125
+      },
+      {
+        "id": 2028,
+        "token": "This",
+        "logit": 18.4375
+      },
+      {
+        "id": 9891,
+        "token": "yes",
+        "logit": 18.40625
+      },
+      {
+        "id": 2201,
+        "token": "no",
+        "logit": 18.34375
+      },
+      {
+        "id": 2688,
+        "token": "Not",
+        "logit": 18.265625
+      },
+      {
+        "id": 63295,
+        "token": "Neither",
+        "logit": 18.171875
+      },
+      {
+        "id": 3947,
+        "token": "There",
+        "logit": 18.140625
+      },
+      {
+        "id": 16533,
+        "token": "Answer",
+        "logit": 18.109375
+      },
+      {
+        "id": 9126,
+        "token": "Mark",
+        "logit": 18.015625
+      },
+      {
+        "id": 11458,
+        "token": "However",
+        "logit": 18.015625
+      },
+      {
+        "id": 4897,
+        "token": "That",
+        "logit": 17.96875
+      }
+    ],
+    "family": "d1",
+    "split": "development",
+    "role": 1,
+    "voice": "passive",
+    "query": 1,
+    "payload": "CALL_0021",
+    "logits_sha256": "75d4f1dc622bc150d6188a0037a3382c322f06a7243c48621c378bc41acbe9ff",
+    "states_sha256": "c219de6035ede94e383d6d60a56181b8d09843221fcd1c15a84704cbf6271020",
+    "prefix_hashes": {
+      "prefix": [
+        "bca7641591656a4a91f97c45bedec595386078ea3d26a01043b887b02946d2a8",
+        "bc691c2751c5a762ae8be5e701dc2ca1fad4c1ac1292d4cf2835d67f6771fb0a",
+        "05b17a7a08614cf70ace35f7a86446f936d12c1aff1a9f57bb40c241772b3fdb",
+        "9a2c8d786e7c60079803b2cf33600289ab232e440fad64f4fb3b4b0da60c95c2",
+        "f67283e8f2f6745f090c4c81b623947825c7e0b3365cf36dadf26c9aba03f902",
+        "3c11d313c0aa5c6e68964d04c16e0b7af9cddbf90fbc733c19ac0b1a480ef6b1",
+        "80cd847228aa3ff8bb60b654a279bcacbdd24252161fa6dee4653be42141017d",
+        "91527377ac0253e27421d99a8620771b75b9df8fda11da2b29b9774ddebec87d",
+        "3cb90b0852f69fac0615b43851deca7656fcd4031c9cd706850bd92fd58527e6",
+        "63c67a82663573439cbd2662475456c2f137a7da5e43209277eb5f89ddec1dc7",
+        "d9de9e72d347cfdf7ec5b04de701bbc6e7d5467087a3b827ac7ed19a06b4df49",
+        "cd1eced94db5cc0d9da9e205d229e75e8cc46b65383cb0ad44648a5dda67b433",
+        "e779eac0f7ebdc9a14d6d537c1afcea9318b728b304b175f5fb4f6761c490801",
+        "1a453462eaeaa9871157ece191da4ea77d812eb18e216b4014460e3de0a901f9",
+        "775c186d2c29ab5d1f4e4c75f44d4a0a10c2b169ed495c00a04ace3be7bb6d94",
+        "ac9d7a7b67d0d9f6f0d86704fdde950fdf118f4b84e046f6f05633677b5becf5",
+        "196558561b43b95017d13c81c6fd46b4cc2e9bb557c0ed251f2156909569d0be",
+        "d68a530a9ad931e838fb4ca1dfd223bd94189abd5b99bb73d6920dd25ff67b9c",
+        "4183275d4c771c51e3d4328c6dedbcadf2dfd7c09aea78e2cf0b4caeb4411b6e",
+        "d1616011ebfc3f3b4dd2004ce2ed0e50bac5c852d64a75a7e2704099fdc952c5",
+        "c1ae60a3027915082f02742b5e39f8abee6a09e3009524d1539a5ddeba342292",
+        "2e4a7b9e1ac400ab7a38d4c7917568b7e865f69370d9dfacaf25f88cb521f097",
+        "d8a308fdab626055d66f665e2760fce20570b0691c7ef2541a94fcfb8c12f51d",
+        "b96855e58097fd82e90d2c4a3c1bdf7707ad82adbff1dfb517068d9c1f634367",
+        "d5480c981b76ad632a53d7dc1e2629122e37e6a246d9acbe915ce537670e6b9e",
+        "44753bb831a4b670ad1fccd8547f312c2180aae8aa1c08932ad1c25794dbeb05",
+        "d01591823e8096db296a20c25ebfa4f74c4ef13df05e87d30423e4de4d5e2493",
+        "c5fcc1928f954d1dee012aa384a02f421279b99e1e6ed5308f2082a9807246e2"
+      ],
+      "prefix_without_neighbor": [
+        "5b06318ce2f819227d35897b6316da8cc05dc0ce24b1d6ce0fb980aaeb70debf",
+        "50268d7d0325cdbcfcda64507c1f258f722e949c924a78168fd6e4a237987549",
+        "324fd6a4e90c426236b499e46bcbfbbba860189ebbef3f47add352ec8df901de",
+        "424802fdf60619f67ad472fc422ff508337a62364a32568019ea90533662932e",
+        "97adae1d876f585b07ce7a9f15e04e47714e248ce2c48af1314088df008d85ae",
+        "61cd1066feef90795cdda92bb1aab00ab7224188c778bf747d66279cd628bb2f",
+        "cf6a727d0f178f9962e8b01561b047faeb8b0fed1816eefde4a1a6e5fb240f21",
+        "2e9030023e2e84e8d1fba63834deb7dc54ced2ecf1e3f060ba52eb50c9d8175c",
+        "a3bce69fdb6fe94fa9c00052ec12dad609690a34d8fb4e2ed7f4eec4a3ceca3b",
+        "9cebd9bf410cd5338618deb609372f5793c8281c8c550d12cfcb31679ad45021",
+        "ef5225e9ac8409bed9b33d56ee67c1fe0b0215d4349631df3e8950a451205130",
+        "925007bdc849eeab3ad109e3c3884d89d04a72aeb21ac60fcf961d623816143f",
+        "d09d276e37091a1f49fca0f99dee8c467ea3e874ba43ed9eea697986c4422783",
+        "1fcba6c3202327a36e82a9cda39f9bd023fc12b9691213b8db77e58dac16a950",
+        "d18fe4c14bcc393f1c371661b4487c35beb57d850bc97100557c7ce5a4077ac4",
+        "cfc65ce33b68702d6a67e61a316188b0b17ae03aeba15155536ffa3af1036e9c",
+        "abf36d5f414640fdfbb6db00f241bb5660fe0922f901aaf41f1120378a2e53fd",
+        "ecb353e8664fea8b2fe756da5890c19b2609e4ff6d2578e31f5a4a18afbd0cd8",
+        "48f85cd89b3b03020e8de7e5985740a713879c9a195fe7ad88f533cd09502647",
+        "6aa0f5f9d6334f4c5fcfbc234f655340382f0569672e69d7a67ea6e71960995e",
+        "9e5026cbffdd770dcacaa27a6e707645ebfe3b6e798bdecf58fb841345064bdf",
+        "99d82ad58ad7acab3aa1e49d2f705923439c88066db59388b67c246ebfba6483",
+        "4b63965dc984edfc1e995c35ec385d34bb548a5c8d08ada73a1bf0061b3baab8",
+        "2788613f511f5d2c20aaf52ce26f19fbdb93a06230b14421d0b26dde12bdfbd1",
+        "a41d0cf934a86b635b2320d8adf2170e1c5e81c36ada5dc0848ab8d5a1bb6ec5",
+        "e94e4022542f9c5d100f6d2079af7b4220ecf1a351d7bbd56e137cf06ef75fca",
+        "b4077c83f31d402e53fd1b789620f3b1a36851b3420928a0dcdf6e201fe92220",
+        "0facdd95b85110ea4f9276c40912445eb0bfa821da3edf21733c1f810fdf83f5"
+      ]
+    }
+  },
+  {
+    "call": 22,
+    "model": "llama3b",
+    "id": "d1_r0_active_q0",
+    "mode": "baseline",
+    "cut": 28,
+    "kind": "validation_repeat",
+    "wrapped": true,
+    "native": false,
+    "expected": "Yes",
+    "actual": "Yes",
+    "argmax_id": 9642,
+    "argmax_token": "Yes",
+    "gold_margin": 0.15625035387444441,
+    "correct": true,
+    "class_logits": {
+      "Yes": 29.468750357635983,
+      "No": 29.31250000376154
+    },
+    "alias_logits": {
+      "Yes": [
+        14.625,
+        29.46875
+      ],
+      "No": [
+        9.9140625,
+        29.3125
+      ]
+    },
+    "top20": [
+      {
+        "id": 9642,
+        "token": "Yes",
+        "logit": 29.46875
+      },
+      {
+        "id": 2822,
+        "token": "No",
+        "logit": 29.3125
+      },
+      {
+        "id": 14331,
+        "token": "YES",
+        "logit": 20.359375
+      },
+      {
+        "id": 9891,
+        "token": "yes",
+        "logit": 19.515625
+      },
+      {
+        "id": 99076,
+        "token": "-No",
+        "logit": 19.015625
+      },
+      {
+        "id": 9173,
+        "token": "NO",
+        "logit": 18.984375
+      },
+      {
+        "id": 40,
+        "token": "I",
+        "logit": 18.625
+      },
+      {
+        "id": 791,
+        "token": "The",
+        "logit": 18.53125
+      },
+      {
+        "id": 2688,
+        "token": "Not",
+        "logit": 18.21875
+      },
+      {
+        "id": 7456,
+        "token": "Only",
+        "logit": 18.171875
+      },
+      {
+        "id": 2181,
+        "token": "It",
+        "logit": 18.078125
+      },
+      {
+        "id": 2201,
+        "token": "no",
+        "logit": 17.984375
+      },
+      {
+        "id": 11458,
+        "token": "However",
+        "logit": 17.84375
+      },
+      {
+        "id": 2028,
+        "token": "This",
+        "logit": 17.78125
+      },
+      {
+        "id": 16533,
+        "token": "Answer",
+        "logit": 17.671875
+      },
+      {
+        "id": 58841,
+        "token": "\"Yes",
+        "logit": 17.671875
+      },
+      {
+        "id": 12834,
+        "token": "Since",
+        "logit": 17.625
+      },
+      {
+        "id": 3947,
+        "token": "There",
+        "logit": 17.609375
+      },
+      {
+        "id": 31140,
+        "token": "Unfortunately",
+        "logit": 17.578125
+      },
+      {
+        "id": 24220,
+        "token": "Yeah",
+        "logit": 17.546875
+      }
+    ],
+    "family": "d1",
+    "split": "development",
+    "role": 0,
+    "voice": "active",
+    "query": 0,
+    "payload": "CALL_0022",
+    "logits_sha256": "9c7a0dfe93a2f219f794583c1ac8d877888c16a9d00b3c0a692724a919fdb86c",
+    "states_sha256": "745b48c9e0c9c488881859f933e86cfefd45cc06522121dfc07f99f5499bdb66",
+    "prefix_hashes": {
+      "prefix": [
+        "2110300a66ed4b18e99c23cab10c52e1e51fbd4a9a1e020c983419d8918c20c5",
+        "f946b8d81cd5e0fd599fc1241a0cd295a17bcec7f6dfee55870a76e29074615e",
+        "f9e2cdcb32db3d559b16663047d93152223b05052f4317fabb9720f91bd062fb",
+        "dc5b4441cd1f12a17b6a8eef40a87fc9f26ba91937f767780d9a4aab8f40a6e6",
+        "898648c039a1258c4c8f155a2a5839d08f8335401ea60f7c4e53a956b5bb8994",
+        "d3be02a2bf3550cb0cd7e1d4e9d0e354854a635d71dbe48a0ab5702608ba5122",
+        "d1a53049ce80d70bc2e6b6ca58a873ab8951fd04fc7b9f253cececd8fc56af0a",
+        "8d31f77690b1800a5235c3b0f438e60ccf37d8b1f97bb093c2a6afd181a80c3e",
+        "4e5e4dc9e1a3c26595c558117b41453c9bb6e4315ff791010db6f3cf9b425fd9",
+        "235749e59bc9299c77e4033bd7d17172b079928e25a41b6c7380a8189fc4865c",
+        "5441e8c183a33ea67556efb3480229142d95f8af44f9ce8c93c285f38c575ed7",
+        "4b1f4ae9f99b68e073db69d9755a3f1a611168d50bd4e6c396421aee22791d32",
+        "9c0e4db83e048833b130f9537fd63556b51f1c67379af4bb807099cab60bce73",
+        "e10f7b3350d06b4127033fafc9d95f21d1126ceeb1a053e270e3abade7bf560d",
+        "3a3ec92f91e6d56f5254c87ed745709a40f9b7f66f36ab833d40d913f4b929ff",
+        "c770482f07c758d651dc7f476b1eb752a1462a1fee613259eb63582e907b3cee",
+        "e432db5e0f975c503412760f1cdf429b4f826733c1296dc764d9a9031b305a77",
+        "121826aa371d5599f37ef5b6196aa8b5eb7a83eb92c8bea41969c17a554e2119",
+        "034793707e5d625eb935bfbe3730eae4a3407b4e9d0119f9a584709b65917b46",
+        "d5b775c98860a951bd7cc0d7cb41ae8c6ffb4c0c005e0cf86e688eb8ac19b41a",
+        "105c293c3c223e6c1bea30c85dbfed967d3e5dbc123bef70db57dd90d024d546",
+        "d21d8405238ecab56b20cf03fd2923ecb324e7b6a0369032cfd4f8cce285c138",
+        "a3184fbe7c6667fdca18a9afa53bab688eec233b72662ea5a19cb7d063e2cc9d",
+        "92ea163f9c7a434f67a4c18e858993eba96d1df6a0b8dcf9587ef82394bfbbcb",
+        "be39465d6dba6cdf8e02f793c699a0d089de5afeaf319ba67258236044af70d4",
+        "51aeb242937037244707070ed47b41f985b69f268d18d811f64d466e17edb2ef",
+        "cf5eac765230e93be6066d1dc923727c22593e386cd2b3f09965c6e0aa34cd43",
+        "9148eb964b83302412aad49ab822621a324e4094cc1cf68e45a5dbafd6d02c15"
+      ],
+      "prefix_without_neighbor": [
+        "97ebde637fd71b372d1a4bf4d3f303e93887d42d5b45857f972fd3410cc18e7b",
+        "adee0b7ae6bf048d39345a9de862f71093438bfbf089ca6027312f8885660733",
+        "4390115e31a9f9ead8dcca79d4085c8526628232d3f7806e1afa0bf32dfdef1b",
+        "64f2eadd84d254027ef3eb25439c0fcd1f41090bda9e9da0e97f85f820916f0f",
+        "3a779efa103c82b08682195d88e4472f87d01e3b36a456b5892c7984f25a439c",
+        "3e63596a7847e093ab94a365fcf23ab62c2b9c5daa7cdcd5f7009b41dc195dfe",
+        "3b4aa458bbfc4c452040fc4f5f0d0bb70dda8bbadb21bad244e1f450c7e427d4",
+        "26e818a1b5131bdb4891822dfc30af4b4d7f928fc8b3e945aea4e46241315049",
+        "be6c4b8cdf2d12dd0e11e830c044d24b2f79f03abae85db911c02d38be273def",
+        "9df2e86f41d9450f0ff60a64188ded28879cfa406b75357a9db2a072333e70c0",
+        "1ec827bb2a4421f53dca5f174be25cfdb6b19451043c6d2541ca2e63b3226d7d",
+        "44439e1239233982296ec91995084630643dd01c22b97c2ef1e40e4127d698ac",
+        "492b4e77f3116c0a3f5cae316bad55b000adc310691963d1a9f1483cce8c6b90",
+        "c9ed9f094f42b700d07c9289e59ce68dfa500f6e1991b54ab3f716413d1b0d41",
+        "7f03ad391923d703a8d73267a692ec4173b3fc3931d3d496b3ea04f015045be1",
+        "26075794b44a20fd1c66c372f41d59a7698566f77831393665047b8ddd7d3663",
+        "81b4f59d71a129cc16261877e6c12636d3043bdb4c2f428716cb107a5866b944",
+        "fd0650c4239a543c39015a0ef1f7313aaa712192323238600f9f35e482190d50",
+        "1ed43156821032eb4d6345b749d3aa37546fc5ba626c9fcbf133c98d51eb6f96",
+        "7019ad34537b03029b649aa3c6bf87b33e8a1f33ba5a9725bd61b850451ecdea",
+        "fd687460866549b860d49ba28c56e140cdad60a72db636cfb2f25b2ebaa37e86",
+        "c82e0a544b2472bfa825d7e835b0a4c90d606103edd58de28eefc0874f4bddc9",
+        "ef79f2542abca4c527769d5fc7de4637ef4dde7eadf0732d2e21ca697ea6588c",
+        "db498ae4fd34fa854e23f79ff4f4138924ce72e1a65f38d306ff112f3c6d76b6",
+        "1261c0af47fc2e06dde17ff2e66cbab1c3642478fdb5b84824fc2bdfdc2344f1",
+        "f643478eb64abd92edbddae1c3090be94d9d047387a5f54bb86217a32d516ef1",
+        "08d68a401fd0c80a12310a46e96839aaadd7cc423574d2bd6ea4d2872e704c4b",
+        "fb591810ab15fb33b7fcee64a827df206f28f09b02a098a0f3c9516d71ad322b"
+      ]
+    }
+  }
+]

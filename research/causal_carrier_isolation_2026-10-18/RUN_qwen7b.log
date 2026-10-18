@@ -1,0 +1,12 @@
+CASE 1 qwen7b d1_r0_active_q0 baseline 28 No False -7.8437
+CASE 2 qwen7b d1_r0_active_q0 baseline 28 No False -7.8437
+CASE 3 qwen7b d1_r0_active_q0 baseline 28 No False -7.8437
+CASE 4 qwen7b d1_r0_active_q1 baseline 28 No True 22.4844
+CASE 5 qwen7b d1_r0_passive_q0 baseline 28 No False -12.3437
+CASE 6 qwen7b d1_r0_passive_q1 baseline 28 No True 22.5312
+CASE 7 qwen7b d1_r1_active_q0 baseline 28 No True 24.0312
+CASE 8 qwen7b d1_r1_active_q1 baseline 28 No False -5.8125
+CASE 9 qwen7b d1_r1_passive_q0 baseline 28 No True 22.75
+CASE 10 qwen7b d1_r1_passive_q1 baseline 28 No False -16.5312
+CASE 11 qwen7b d1_r0_active_q0 baseline 28 No False -7.8437
+DECISION {"model": "qwen7b", "status": "STOP_DEVELOPMENT_COMPETENCE", "prediction": null, "attempted_forwards": 11, "recorded_forwards": 11, "control_failures": []}

@@ -1,0 +1,379 @@
+{
+  "kind": "saved_data_only_no_new_inference",
+  "checks": [
+    {
+      "kind": "frozen_source_hash",
+      "file": "core.py",
+      "passed": true
+    },
+    {
+      "kind": "frozen_source_hash",
+      "file": "instrument.py",
+      "passed": true
+    },
+    {
+      "kind": "frozen_source_hash",
+      "file": "prepare.py",
+      "passed": true
+    },
+    {
+      "kind": "frozen_source_hash",
+      "file": "run.py",
+      "passed": true
+    },
+    {
+      "kind": "frozen_source_hash",
+      "file": "test_pipeline.py",
+      "passed": true
+    },
+    {
+      "kind": "frozen_source_hash",
+      "file": "PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "kind": "frozen_source_hash",
+      "file": "PREPARATION_NOTES.md",
+      "passed": true
+    },
+    {
+      "kind": "frozen_source_hash",
+      "file": "RESEARCH_DECISION.md",
+      "passed": true
+    },
+    {
+      "kind": "frozen_source_hash",
+      "file": "PRIOR_WORK.md",
+      "passed": true
+    },
+    {
+      "kind": "frozen_source_hash",
+      "file": "INPUTS.json",
+      "passed": true
+    },
+    {
+      "kind": "frozen_source_hash",
+      "file": "TOKENIZER_ANNOTATION_AUDIT.json",
+      "passed": true
+    },
+    {
+      "kind": "frozen_source_hash",
+      "file": "KNOWN_ROUTE_CALIBRATION.json",
+      "passed": true
+    },
+    {
+      "kind": "frozen_source_hash",
+      "file": "PREFLIGHT_TESTS.json",
+      "passed": true
+    },
+    {
+      "kind": "frozen_source_hash",
+      "file": "STORAGE_BUDGET.json",
+      "passed": true
+    },
+    {
+      "kind": "budget_and_stop",
+      "model": "qwen7b",
+      "recorded": 11,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "qwen7b",
+      "call": 1,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "qwen7b",
+      "call": 2,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "qwen7b",
+      "call": 3,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "qwen7b",
+      "call": 4,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "qwen7b",
+      "call": 5,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "qwen7b",
+      "call": 6,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "qwen7b",
+      "call": 7,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "qwen7b",
+      "call": 8,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "qwen7b",
+      "call": 9,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "qwen7b",
+      "call": 10,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "qwen7b",
+      "call": 11,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_native_dense_repeat_prefix_nulls",
+      "model": "qwen7b",
+      "errors": {
+        "wrapper": 0.0,
+        "dense_mask": 0.0,
+        "repeat": 0.0
+      },
+      "passed": true
+    },
+    {
+      "kind": "budget_and_stop",
+      "model": "llama3b",
+      "recorded": 11,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "llama3b",
+      "call": 12,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "llama3b",
+      "call": 13,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "llama3b",
+      "call": 14,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "llama3b",
+      "call": 15,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "llama3b",
+      "call": 16,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "llama3b",
+      "call": 17,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "llama3b",
+      "call": 18,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "llama3b",
+      "call": 19,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "llama3b",
+      "call": 20,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "llama3b",
+      "call": 21,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_full_logit_scoring_and_annotation",
+      "model": "llama3b",
+      "call": 22,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "kind": "independent_native_dense_repeat_prefix_nulls",
+      "model": "llama3b",
+      "errors": {
+        "wrapper": 0.0,
+        "dense_mask": 0.0,
+        "repeat": 0.0
+      },
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "total_checks": 40,
+  "full_logit_records": 22,
+  "primary_records": 16,
+  "technical_forward_records": 6,
+  "attempted_forwards": 22,
+  "causal_interventions": 0,
+  "evaluation_forwards": 0,
+  "control_details": {
+    "qwen7b": [
+      {
+        "check": "wrapper",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "dense_mask",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "repeat",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "repeat_states",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "later_question_prefix_invariance",
+        "family": "d1",
+        "role": 0,
+        "voice": "active",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "later_question_prefix_invariance",
+        "family": "d1",
+        "role": 0,
+        "voice": "passive",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "later_question_prefix_invariance",
+        "family": "d1",
+        "role": 1,
+        "voice": "active",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "later_question_prefix_invariance",
+        "family": "d1",
+        "role": 1,
+        "voice": "passive",
+        "error": 0.0,
+        "passed": true
+      }
+    ],
+    "llama3b": [
+      {
+        "check": "wrapper",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "dense_mask",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "repeat",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "repeat_states",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "later_question_prefix_invariance",
+        "family": "d1",
+        "role": 0,
+        "voice": "active",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "later_question_prefix_invariance",
+        "family": "d1",
+        "role": 0,
+        "voice": "passive",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "later_question_prefix_invariance",
+        "family": "d1",
+        "role": 1,
+        "voice": "active",
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "check": "later_question_prefix_invariance",
+        "family": "d1",
+        "role": 1,
+        "voice": "passive",
+        "error": 0.0,
+        "passed": true
+      }
+    ]
+  }
+}

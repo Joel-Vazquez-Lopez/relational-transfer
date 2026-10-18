@@ -1,0 +1,33 @@
+{
+  "outcome": "NO-GO",
+  "carrier_hypotheses": "UNTESTED",
+  "reason": "Both frozen development competence gates failed",
+  "attempted_forwards": 22,
+  "primary_baseline_answers": 16,
+  "technical_forward_calls": 6,
+  "causal_interventions": 0,
+  "evaluation_forwards": 0,
+  "paid_calls": 0,
+  "downloads": 0,
+  "training_runs": 0,
+  "decisions": {
+    "qwen7b": {
+      "model": "qwen7b",
+      "status": "STOP_DEVELOPMENT_COMPETENCE",
+      "prediction": null,
+      "attempted_forwards": 11,
+      "recorded_forwards": 11,
+      "control_failures": []
+    },
+    "llama3b": {
+      "model": "llama3b",
+      "status": "STOP_DEVELOPMENT_COMPETENCE",
+      "prediction": null,
+      "attempted_forwards": 11,
+      "recorded_forwards": 11,
+      "control_failures": []
+    }
+  },
+  "exploratory_diagnostic": "Both models AUROC 1 on the exposed eight-row family; post hoc, no fitted threshold or repaired gate",
+  "independent_audit_checks": 40
+}

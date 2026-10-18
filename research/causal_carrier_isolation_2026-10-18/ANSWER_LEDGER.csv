@@ -1,0 +1,17 @@
+model,family,id,voice,role,query,sentence,question,expected,actual,correct,yes_minus_no,gold_margin,call
+qwen7b,d1,d1_r0_active_q0,active,0,0,Julia greeted Mark.,Did Julia greet Mark?,Yes,No,False,-7.843748685158346,-7.843748685158346,3
+qwen7b,d1,d1_r0_active_q1,active,0,1,Julia greeted Mark.,Did Mark greet Julia?,No,No,True,-22.484373881671836,22.484373881671836,4
+qwen7b,d1,d1_r0_passive_q0,passive,0,0,Mark was greeted by Julia.,Did Julia greet Mark?,Yes,No,False,-12.343749199734134,-12.343749199734134,5
+qwen7b,d1,d1_r0_passive_q1,passive,0,1,Mark was greeted by Julia.,Did Mark greet Julia?,No,No,True,-22.5312486302864,22.5312486302864,6
+qwen7b,d1,d1_r1_active_q0,active,1,0,Mark greeted Julia.,Did Julia greet Mark?,No,No,True,-24.031248764312785,24.031248764312785,7
+qwen7b,d1,d1_r1_active_q1,active,1,1,Mark greeted Julia.,Did Mark greet Julia?,Yes,No,False,-5.812498959874496,-5.812498959874496,8
+qwen7b,d1,d1_r1_passive_q0,passive,1,0,Julia was greeted by Mark.,Did Julia greet Mark?,No,No,True,-22.74999877713975,22.74999877713975,9
+qwen7b,d1,d1_r1_passive_q1,passive,1,1,Julia was greeted by Mark.,Did Mark greet Julia?,Yes,No,False,-16.531249316250392,-16.531249316250392,10
+llama3b,d1,d1_r0_active_q0,active,0,0,Julia greeted Mark.,Did Julia greet Mark?,Yes,Yes,True,0.15625035387444441,0.15625035387444441,14
+llama3b,d1,d1_r0_active_q1,active,0,1,Julia greeted Mark.,Did Mark greet Julia?,No,No,True,-5.796874641876464,5.796874641876464,15
+llama3b,d1,d1_r0_passive_q0,passive,0,0,Mark was greeted by Julia.,Did Julia greet Mark?,Yes,No,False,-0.9531245831038184,-0.9531245831038184,16
+llama3b,d1,d1_r0_passive_q1,passive,0,1,Mark was greeted by Julia.,Did Mark greet Julia?,No,No,True,-3.4999995884805983,3.4999995884805983,17
+llama3b,d1,d1_r1_active_q0,active,1,0,Mark greeted Julia.,Did Julia greet Mark?,No,No,True,-6.265624666093238,6.265624666093238,18
+llama3b,d1,d1_r1_active_q1,active,1,1,Mark greeted Julia.,Did Mark greet Julia?,Yes,No,False,-0.9999996595166181,-0.9999996595166181,19
+llama3b,d1,d1_r1_passive_q0,passive,1,0,Julia was greeted by Mark.,Did Julia greet Mark?,No,No,True,-3.093749610356607,3.093749610356607,20
+llama3b,d1,d1_r1_passive_q1,passive,1,1,Julia was greeted by Mark.,Did Mark greet Julia?,Yes,No,False,-1.7343746456835625,-1.7343746456835625,21

@@ -1,0 +1,13 @@
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+CASE 12 llama3b d1_r0_active_q0 baseline 28 Yes True 0.1563
+CASE 13 llama3b d1_r0_active_q0 baseline 28 Yes True 0.1563
+CASE 14 llama3b d1_r0_active_q0 baseline 28 Yes True 0.1563
+CASE 15 llama3b d1_r0_active_q1 baseline 28 No True 5.7969
+CASE 16 llama3b d1_r0_passive_q0 baseline 28 No False -0.9531
+CASE 17 llama3b d1_r0_passive_q1 baseline 28 No True 3.5
+CASE 18 llama3b d1_r1_active_q0 baseline 28 No True 6.2656
+CASE 19 llama3b d1_r1_active_q1 baseline 28 No False -1.0
+CASE 20 llama3b d1_r1_passive_q0 baseline 28 No True 3.0937
+CASE 21 llama3b d1_r1_passive_q1 baseline 28 No False -1.7344
+CASE 22 llama3b d1_r0_active_q0 baseline 28 Yes True 0.1563
+DECISION {"model": "llama3b", "status": "STOP_DEVELOPMENT_COMPETENCE", "prediction": null, "attempted_forwards": 11, "recorded_forwards": 11, "control_failures": []}
