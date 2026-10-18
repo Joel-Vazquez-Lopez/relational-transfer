@@ -1,0 +1,138 @@
+{
+  "status": "AMENDMENT_FROZEN_BEFORE_ADDITIONAL_INFERENCE_ONE_EXPOSED_DEV_CELL",
+  "date": "2026-10-18",
+  "user_authorization": "User: fix it and test it then no? Explicit technical continuation; AI-only annotation already authorized.",
+  "source_design_commit": "b6f0847105c62813bba36eba622928f0d8220d15",
+  "annotation_review_required_or_explicitly_waived": true,
+  "administrative_amendment": {
+    "status": "user_authorized_technical_continuation_before_additional_inference",
+    "date": "2026-10-18",
+    "direct_user_authorization": "fix it and test it then no?",
+    "parent_failure_commit": "878b7151201fe15536312618a48729f9a343b31f",
+    "original_run_directory": "research/linguistic_development_atlas_pilot_2026-10-18",
+    "prior_model_forwards": 2,
+    "prior_exposure": "One Qwen development cell; no held-out or Llama outputs",
+    "repair": "Assert expected fields agree, merge dictionaries using a literal; test complete persistence and downstream analysis",
+    "reuse": "Reuse saved first Qwen main capture without repeating it; preserve original failed attempt unchanged",
+    "lost_validation": "Repeat the unpersisted Qwen unwrapped validation and perform the originally required wrapped repeat; both consume budget",
+    "unchanged": "All stimuli, question wording, sites, models, scoring, hypotheses, annotation waiver and scientific gate thresholds",
+    "max_total_model_forwards_including_failed_attempt": 132,
+    "max_cumulative_per_model": {
+      "qwen7b": 67,
+      "llama3b": 66
+    },
+    "sequence": [
+      "Qwen development",
+      "Llama development",
+      "Qwen held-out if eligible",
+      "Llama held-out if eligible"
+    ],
+    "budget_policy": "Before each held-out family require >=16 remaining calls; otherwise leave that whole family unrun. Fixed family order a03 then a04. If both models pass all gates, Qwen completes both held-out families and Llama a03 only: 117 total calls, 15 unused. Never select families based on held-out answers.",
+    "stop": "One attempt per continuation phase, no automatic model reruns after further failures, no adaptive scientific changes"
+  },
+  "original_result_manifest_sha256": "d7bcc875c48214e246b775cc0b2ce84d4eb553b355ca1050bd6ea0280422b29d",
+  "original_forward_journal_sha256": "658f963ff14795889b05e7412b3bae27177b86a905118320a7ff7f11ad4829b0",
+  "files": {
+    "run.py": "185e24f943e290b6b9efa5441f176870460a6a3b56739bdc5ec8e3aee529b741",
+    "instrument.py": "17663fa0871548e85144ff38de3ccbf6873186c19e26205591cc683409da6acf",
+    "analyze.py": "ada4598f9b0eea8455bd9f43ff2ebdac2608424392e2c84dfed51a1d9a3b989e",
+    "PROTOCOL.json": "c15ce924d736dd9b7e3453699b9ec43655d03e1a404ec89446626f9e5ed7e893",
+    "ANNOTATION_REVIEW.md": "017e62952e35133f6adf88442e162e83593e4f0142e92a006723967fc9ffc71c",
+    "ANNOTATION_AUDIT.json": "e3ef8f1b47cd169032a3cad839ba49fffccae3ab0448d8c12651ab06ad986ab3",
+    "AMENDMENT.json": "06b768e173f74d7e57b6ddf1f857e6fcbab8f7936f2908aa597e4c8db68970da",
+    "test_integration.py": "b22735c43f58697e5e2003bfc26e60460905cfc5b192889c7008528b5f752100",
+    "orchestrate.py": "d94ca59fe9eb80c9a5fb8670569e01736ffb0d20a220c56b35c025820648854f"
+  },
+  "input_files": {
+    "research/linguistic_development_atlas_design_2026-10-18/DRAFT_STIMULI.jsonl": "b3cb5ea15859577106120e6458c0a33e23a5f8fec957b2403243df249ee3eae5",
+    "research/linguistic_development_atlas_design_2026-10-18/DRAFT_TOKENIZATION.jsonl": "19386ccb403089ca90d962ef39f36830c2fb91d566a9ab13c5aaa1e0cf429b1f",
+    "research/linguistic_development_atlas_design_2026-10-18/TOKENIZER_AUDIT.json": "3759006e4a070649687b08cf0a89fb642b24c2b665883cb99720362238cc9c45",
+    "research/linguistic_development_atlas_design_2026-10-18/DESIGN.md": "1094f0bf0b1909f44682f0feb2cb20413843ae1f198229709d533b1a7c94804b"
+  },
+  "models": {
+    "qwen7b": {
+      "model_path": "research/stronger_model_development_2026-10-15/models/qwen7b",
+      "padding_id": 87,
+      "width": 3584,
+      "blocks": 28,
+      "files": {
+        "research/stronger_model_development_2026-10-15/models/qwen7b/added_tokens.json": {
+          "bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/config.json": {
+          "bytes": 787,
+          "sha256": "1661a349986919d13820d3981623776138d50783d13e247cdc5b075a22b62698"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors": {
+          "bytes": 4284346255,
+          "sha256": "86110f368236b53cf4c2336f991a85703b17bcc60bb75f292b4002ec0219f071"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors.index.json": {
+          "bytes": 51711,
+          "sha256": "23cd562592dd96686d2e799eb02e4b578a4038b6045eaefe860d270cc060e24f"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/special_tokens_map.json": {
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer.json": {
+          "bytes": 7031673,
+          "sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer_config.json": {
+          "bytes": 7280,
+          "sha256": "4921d4cbae33349a9cb3b2ad3a7622efdea10a5d208c9f333c77b154aa714888"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/vocab.json": {
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      }
+    },
+    "llama3b": {
+      "model_path": "research/llama_gemma_cross_family_2026-10-15/model",
+      "padding_id": 87,
+      "width": 3072,
+      "blocks": 28,
+      "files": {
+        "research/llama_gemma_cross_family_2026-10-15/model/config.json": {
+          "bytes": 1122,
+          "sha256": "c546925585e48f43890d9dc5150df4fec73dd3780d92961c5ace451934cc4cd6"
+        },
+        "research/llama_gemma_cross_family_2026-10-15/model/model.safetensors": {
+          "bytes": 1807496278,
+          "sha256": "d75e1ee0ea653cc5b76191ec934c7c0d568e94d4e47846619f1f4bc715b7b265"
+        },
+        "research/llama_gemma_cross_family_2026-10-15/model/special_tokens_map.json": {
+          "bytes": 296,
+          "sha256": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+        },
+        "research/llama_gemma_cross_family_2026-10-15/model/tokenizer.json": {
+          "bytes": 17209920,
+          "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+        },
+        "research/llama_gemma_cross_family_2026-10-15/model/tokenizer_config.json": {
+          "bytes": 54558,
+          "sha256": "022d5ae3df4737998ab97d8f31ac2bcb4c06dd8ebe5a8aba2b4aceef1e5ea7d3"
+        }
+      }
+    }
+  },
+  "native_source_files": {
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/qwen2.py": "937e0321ef06a34efbd66d2ce0ce1e715aab98da4acefa376c8cd29291a0bc83",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/llama.py": "dfb656511e6740781cd0563f7994a78b3404c199b9aebaa2fbca28a19e280891",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/base.py": "b782b2ac0f55ed8fa9c1afce1f36307d5d8714aad2c0991d63998047f7507174"
+  },
+  "runtime": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.0",
+    "numpy": "2.4.4",
+    "transformers": "5.7.0",
+    "matplotlib": "3.10.9"
+  },
+  "prior_source_manifest_sha256": "91da231fed59a457ad4f2098e684d27e80c35f0ff6e81ab673e72fe2e01e1c4c",
+  "available_bytes": 9529720832,
+  "max_main_forwards": 128,
+  "max_validation_forwards": 4
+}

@@ -1,0 +1,26 @@
+{
+  "status": "user_authorized_technical_continuation_before_additional_inference",
+  "date": "2026-10-18",
+  "direct_user_authorization": "fix it and test it then no?",
+  "parent_failure_commit": "878b7151201fe15536312618a48729f9a343b31f",
+  "original_run_directory": "research/linguistic_development_atlas_pilot_2026-10-18",
+  "prior_model_forwards": 2,
+  "prior_exposure": "One Qwen development cell; no held-out or Llama outputs",
+  "repair": "Assert expected fields agree, merge dictionaries using a literal; test complete persistence and downstream analysis",
+  "reuse": "Reuse saved first Qwen main capture without repeating it; preserve original failed attempt unchanged",
+  "lost_validation": "Repeat the unpersisted Qwen unwrapped validation and perform the originally required wrapped repeat; both consume budget",
+  "unchanged": "All stimuli, question wording, sites, models, scoring, hypotheses, annotation waiver and scientific gate thresholds",
+  "max_total_model_forwards_including_failed_attempt": 132,
+  "max_cumulative_per_model": {
+    "qwen7b": 67,
+    "llama3b": 66
+  },
+  "sequence": [
+    "Qwen development",
+    "Llama development",
+    "Qwen held-out if eligible",
+    "Llama held-out if eligible"
+  ],
+  "budget_policy": "Before each held-out family require >=16 remaining calls; otherwise leave that whole family unrun. Fixed family order a03 then a04. If both models pass all gates, Qwen completes both held-out families and Llama a03 only: 117 total calls, 15 unused. Never select families based on held-out answers.",
+  "stop": "One attempt per continuation phase, no automatic model reruns after further failures, no adaptive scientific changes"
+}

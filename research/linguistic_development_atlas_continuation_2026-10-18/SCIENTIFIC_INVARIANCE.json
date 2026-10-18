@@ -1,0 +1,24 @@
+{
+  "unchanged_files": {
+    "instrument.py": true,
+    "analyze.py": true,
+    "PROTOCOL.json": true,
+    "ANNOTATION_REVIEW.md": true,
+    "ANNOTATION_AUDIT.json": true,
+    "ANNOTATION_DECISION.json": true
+  },
+  "unchanged_functions": {
+    "score": true,
+    "lse": true,
+    "inputs": true
+  },
+  "budget_arithmetic_if_both_development_gates_pass": {
+    "initial_failed_calls": 2,
+    "Qwen_new_development": 33,
+    "Llama_new_development": 34,
+    "Qwen_held_out": 32,
+    "Llama_held_out_whole_family": 16,
+    "total": 117,
+    "unspent_but_insufficient_for_another_16_call_family": 15
+  }
+}

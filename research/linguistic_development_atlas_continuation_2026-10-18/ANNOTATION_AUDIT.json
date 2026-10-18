@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-18",
+  "reviewer": "Codex, one AI annotator",
+  "materials": "All 16 sentence strings and the four question templates in ANNOTATION_REVIEW.md, read before any model output.",
+  "review": "Preferred ordinary-English parse agrees with all intended Agent/Theme/Goal membership labels. Within frames coordinate the two recommended/referred people; across frames coordinate the two recipients of to. The swapped names retain their group membership only in the within frame.",
+  "families_reviewed": ["a01", "a02", "a03", "a04"],
+  "sentence_variants_reviewed": 16,
+  "question_rows_reviewed": 64,
+  "uncertainties": [
+    "Coordination may have collective versus distributive event readings; claims concern membership in the explicitly described role group, not a complete event semantics.",
+    "Recommendation versus referral pragmatics differ; results must remain verb-specific in this small sample.",
+    "Singular someone is existential, so plural participant groups are intended to satisfy the corresponding membership questions. Human naturalness review remains useful.",
+    "No denotes absence of an explicitly assigned role under the system instruction; it is not a real-world negation judgment.",
+    "A marker/position parser solves the entire panel. Agreement with gold does not show a semantic mechanism."
+  ],
+  "independent_human_review": "PENDING; not inferred from general authorization to proceed",
+  "second_check": "Existing deterministic gold/position-parser consistency check passes all 64 rows; it is not an independent human review.",
+  "gate": "Run only after explicit human confirmation of annotations or an explicit human waiver accepting AI-only annotation. No model call has been made."
+}
