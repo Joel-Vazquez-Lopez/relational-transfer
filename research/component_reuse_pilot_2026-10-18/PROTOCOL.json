@@ -1,0 +1,43 @@
+{
+  "status": "frozen_before_new_model_outputs",
+  "date": "2026-10-18",
+  "scope": "One bounded Qwen 7B component-map and gated native-intervention pilot. Existing local MLX model only. No training, downloads, paid API or adaptive follow-up.",
+  "question": "Can a fixed pre-question attention/MLP write location carry a signal that selectively changes Agent and Patient answers while preserving first/last-person answers, across reversed output-code mappings and fresh lexical families?",
+  "claim_limit": "A success supports bounded query-general pre-question component reuse over position-only, fixed-output-code and simple voice-bit transfer. A strong syntax-aware compound-key implementation remains compatible; this cannot uniquely identify semantic role abstraction or a shared cross-model mechanism.",
+  "model": "Existing local Qwen2.5-7B-Instruct MLX 4-bit asset",
+  "families": [
+    {"id": "d1", "split": "development", "a": "Mara", "b": "Neil", "verb": "photographed"},
+    {"id": "d2", "split": "development", "a": "Eva", "b": "Ivan", "verb": "pushed"},
+    {"id": "e1", "split": "evaluation", "a": "Rose", "b": "Jack", "verb": "photographed"},
+    {"id": "e2", "split": "evaluation", "a": "Lily", "b": "Sean", "verb": "pushed"}
+  ],
+  "annotation": "Constructed single-event English clauses, not corpus or human-validated data. A/B are the only people. Active/passive/cleft templates determine the doer and undergoer without plausibility judgments. The first/last person is defined within the Sentence field only.",
+  "sentences": {
+    "active_a": "{a} {verb} {b}.",
+    "active_b": "{b} {verb} {a}.",
+    "passive_a": "{b} was {verb} by {a}.",
+    "passive_b": "{a} was {verb} by {b}.",
+    "cleft_a": "It was by {a} that {b} was {verb}.",
+    "cleft_b": "It was by {b} that {a} was {verb}."
+  },
+  "questions": {"agent": "Who {verb} someone?", "patient": "Who was {verb}?", "first": "Who is mentioned first in the sentence?", "last": "Who is mentioned last in the sentence?"},
+  "code_maps": {"normal": {"a": "X", "b": "Y"}, "reversed": {"a": "Y", "b": "X"}},
+  "system": "Read the sentence and answer the question. Follow the answer-code mapping exactly. Reply with only one letter: X or Y.",
+  "user_template": "Sentence: {sentence}\nQuestion: {question}\nAnswer code: use {code_a} for {a}; use {code_b} for {b}.",
+  "baseline": "Run all 192 prompts (4 families x 6 sentence cells x 4 questions x 2 code maps). An answer passes only if whitespace-stripped greedy generation equals its code and the one-token candidate probability favors that code. Codes must each tokenize to one distinct token. Preserve all errors, ties and non-code outputs.",
+  "orientations": {"a": {"receiver": "active_a", "target": "passive_b", "voice_control": "cleft_a", "role_matched": "cleft_b"}, "b": {"receiver": "active_b", "target": "passive_a", "voice_control": "cleft_b", "role_matched": "cleft_a"}},
+  "eligible_unit": "Family x orientation. Receiver, target and voice-control sentences must all pass every question under both code maps (24 baseline answers). No substitution. Both orientation units are reported for all families.",
+  "gate": "Causal development requires >=1 eligible development A-orientation family and at least one eligible evaluation orientation in each of the two evaluation families. If not, stop causal work. Development component maps are still captured as the separately declared descriptive instrument, never interpreted as a causal success.",
+  "capture": "For both development families and all six sentences, capture native incoming residual, attention write, MLP write and outgoing residual at every block, at the last subtokens of person A, person B and event verb, plus sentence-final period and the immediate predecessor tokens of verb/period. Save as float32 without extra float16 capture rounding. Use Agent/normal-code prompt; all target sites precede the question and code map.",
+  "technical_checks": "Verify incoming+attention+MLP reconstructs outgoing within 0.002 relative norm, allowing native arithmetic rounding. On active_a in each development family, compare pre-question captures under all questions/code maps; relative discrepancy must stay below 0.001. All identity patch margin discrepancies must be <=0.05 nat. Any technical failure stops causal evaluation; do not raise tolerances.",
+  "candidate_grid": {"layers_zero_indexed": [7, 15, 23], "components": ["attention", "mlp"], "sites": ["verb", "period"]},
+  "development": "Use only eligible A-orientation development families, Agent and first-person questions, normal code map. For every fixed candidate, replace the single component write at the declared receiver token with the native target, voice-control or self write captured before the question. Read the next-token X/Y log-probability margin and unconstrained greedy next token, not a generated full response. No hypothesis about EOS is made.",
+  "effect": "For every question, orient the margin as logP(other code)-logP(baseline code), then subtract unpatched receiver margin. Agent target effect should be positive; first-person target effect and voice-control Agent effect should be near zero.",
+  "selection": "For each candidate, average target Agent effect R, absolute target first effect P and absolute voice-control Agent effect V over eligible development families. A candidate is eligible only if R>1 nat, R>2P and R>2V. Select largest R-P-V, breaking ties by ascending layer, component name and site name. All candidates and failures are reported. If none qualifies, stop before evaluation component capture/interventions.",
+  "evaluation": "Freeze the selected location and patch rule. Capture only eligible evaluation families, then evaluate every eligible orientation with all four questions and both code maps. Donors: self, target, voice_control, role_matched, target at neighboring token, and three fixed-seed norm-matched random-write shams. Use the same pre-question donor vector across all questions and mappings within a unit.",
+  "random_shams": "For each unit and selected location, draw three Gaussian directions using seeds derived from SHA256(family id,orientation,candidate,sham index). Add a perturbation with norm equal to target-minus-self write to the receiver write. Directions are fixed across questions and code mappings.",
+  "evaluation_rule": "In each eligible unit and each code mapping, both target and role-matched donors must flip Agent and Patient greedy next-token codes correctly while preserving correct first/last codes. Self and voice-control donors must preserve all four correct codes. Target mean role effect must exceed 1 nat, exceed twice the maximum absolute first/last effect, and exceed the maximum absolute mean role effect among the three norm-matched shams by >0.5 nat. Neighbor effects are fully reported as a localization diagnostic, not required to vanish. Report per answer, unit and family. A bounded pass requires every eligible unit/mapping in both evaluation families to pass. No population or uniqueness claim follows.",
+  "max_scored_patch_conditions": 400,
+  "rival_predictions": {"reusable_prequestion_signal": "Role answers change jointly across queries and code mappings, while surface-order queries remain correct and voice control preserves answers.", "position_only": "Target preserves name order, so a position-only donor carries no intended role change; role-matched cleft changes order and should behave differently.", "fixed_answer_code": "A fixed next-token code preference will not reverse appropriately under the reversed person-to-code mapping or support both Agent and Patient switches.", "simple_voice_bit": "Target and same-role voice-control are both passive, so a simple passive flag cannot explain a selective target-only effect.", "strong_syntax_aware_compound_key": "Can remain equivalent to the reusable-signal account on these endpoints. It is an explicit surviving explanation; do not claim a unique semantic mechanism."},
+  "stop": "Run once. No new prompts, items, candidate locations, scoring, thresholds or hypotheses after outcomes. Prior experiments and their failed gates remain closed. Stop after reporting this pilot."
+}
