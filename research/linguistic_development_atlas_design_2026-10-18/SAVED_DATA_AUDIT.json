@@ -1,0 +1,1983 @@
+{
+  "status": "existing_files_and_design_only_no_new_inference",
+  "models": {
+    "qwen7b": {
+      "correct_answers_by_question": {
+        "agent": 24,
+        "first": 32
+      },
+      "fully_competent_family_ids": [
+        "q03",
+        "q04",
+        "q08"
+      ],
+      "all_family_mean_delta": 1.009722991178069,
+      "max_prequestion_relative_discrepancy": 0.0,
+      "technical_invariance_passed": true,
+      "descriptive_rule_passed": true,
+      "final_geometry_sign_matches_scalar_output_response": 16,
+      "same_answer_different_agent_pairs": 48,
+      "of_these_same_question": 16,
+      "of_these_both_answers_pass": 40
+    },
+    "llama3b": {
+      "correct_answers_by_question": {
+        "agent": 27,
+        "first": 32
+      },
+      "fully_competent_family_ids": [
+        "q02",
+        "q04",
+        "q08"
+      ],
+      "all_family_mean_delta": 0.8681163042659007,
+      "max_prequestion_relative_discrepancy": 0.0038271065052343112,
+      "technical_invariance_passed": false,
+      "descriptive_rule_passed": false,
+      "final_geometry_sign_matches_scalar_output_response": 13,
+      "same_answer_different_agent_pairs": 48,
+      "of_these_same_question": 16,
+      "of_these_both_answers_pass": 43
+    }
+  },
+  "inventory": [
+    {
+      "path": "research/trajectory_relation_audit_2026-10-17/QUERY_LOCK.json",
+      "bytes": 4858,
+      "sha256": "3735367fce044f102a13bd27df718d62fea62760d96ef61b6c2a9887c7baadeb"
+    },
+    {
+      "path": "research/trajectory_relation_audit_2026-10-17/QUERY_SUMMARY.json",
+      "bytes": 15333,
+      "sha256": "d283c86ab5902ae74a958de9b4d85e263da02a45b5b3e7767d578c1fded589b6"
+    },
+    {
+      "path": "research/trajectory_relation_audit_2026-10-17/QUERY_qwen7b.json",
+      "bytes": 83058,
+      "sha256": "7b6727caab34f36cae518e539db3ab0283e66d5937ee6595ee0145dff409b849"
+    },
+    {
+      "path": "research/trajectory_relation_audit_2026-10-17/QUERY_llama3b.json",
+      "bytes": 93322,
+      "sha256": "b02cdc408898ff5dd0a7ca9720603417ae3ef9235373addb244e49d6d611aa47"
+    },
+    {
+      "path": "research/trajectory_relation_audit_2026-10-17/QUERY_STATES_qwen7b.npz",
+      "bytes": 48989879,
+      "sha256": "99d5ae091b04d964d451fd2eb56e19667bd4c09b7642218733889796a8401cb7",
+      "arrays": {
+        "states.npy": {
+          "shape": [
+            8,
+            2,
+            4,
+            29,
+            2,
+            3584
+          ],
+          "dtype": "float16",
+          "fortran": false
+        },
+        "normalized_states.npy": {
+          "shape": [
+            8,
+            2,
+            4,
+            29,
+            2,
+            3584
+          ],
+          "dtype": "float16",
+          "fortran": false
+        },
+        "readout_axes.npy": {
+          "shape": [
+            8,
+            3584
+          ],
+          "dtype": "float64",
+          "fortran": false
+        },
+        "family_ids.npy": {
+          "shape": [
+            8
+          ],
+          "dtype": "<U3",
+          "fortran": false
+        },
+        "questions.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "<U5",
+          "fortran": false
+        },
+        "conditions.npy": {
+          "shape": [
+            4
+          ],
+          "dtype": "<U15",
+          "fortran": false
+        },
+        "sites.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "<U17",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "path": "research/trajectory_relation_audit_2026-10-17/QUERY_STATES_llama3b.npz",
+      "bytes": 41954653,
+      "sha256": "685998f71666a2f0a5447cb4f82e73ecb88e69626754a6abb009d506470894bc",
+      "arrays": {
+        "states.npy": {
+          "shape": [
+            8,
+            2,
+            4,
+            29,
+            2,
+            3072
+          ],
+          "dtype": "float16",
+          "fortran": false
+        },
+        "normalized_states.npy": {
+          "shape": [
+            8,
+            2,
+            4,
+            29,
+            2,
+            3072
+          ],
+          "dtype": "float16",
+          "fortran": false
+        },
+        "readout_axes.npy": {
+          "shape": [
+            8,
+            3072
+          ],
+          "dtype": "float64",
+          "fortran": false
+        },
+        "family_ids.npy": {
+          "shape": [
+            8
+          ],
+          "dtype": "<U3",
+          "fortran": false
+        },
+        "questions.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "<U5",
+          "fortran": false
+        },
+        "conditions.npy": {
+          "shape": [
+            4
+          ],
+          "dtype": "<U15",
+          "fortran": false
+        },
+        "sites.npy": {
+          "shape": [
+            2
+          ],
+          "dtype": "<U17",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "path": "research/component_reuse_pilot_2026-10-18/COMPONENT_STATES.npz",
+      "bytes": 65924936,
+      "sha256": "66b1c5dfefd5d4dea5b6521916ce5f1702e06e7122060791e42d9eb32b24bc4a",
+      "arrays": {
+        "d1__active_a.npy": {
+          "shape": [
+            28,
+            4,
+            6,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "d1__active_b.npy": {
+          "shape": [
+            28,
+            4,
+            6,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "d1__passive_a.npy": {
+          "shape": [
+            28,
+            4,
+            6,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "d1__passive_b.npy": {
+          "shape": [
+            28,
+            4,
+            6,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "d1__cleft_a.npy": {
+          "shape": [
+            28,
+            4,
+            6,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "d1__cleft_b.npy": {
+          "shape": [
+            28,
+            4,
+            6,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "d2__active_a.npy": {
+          "shape": [
+            28,
+            4,
+            6,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "d2__active_b.npy": {
+          "shape": [
+            28,
+            4,
+            6,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "d2__passive_a.npy": {
+          "shape": [
+            28,
+            4,
+            6,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "d2__passive_b.npy": {
+          "shape": [
+            28,
+            4,
+            6,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "d2__cleft_a.npy": {
+          "shape": [
+            28,
+            4,
+            6,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "d2__cleft_b.npy": {
+          "shape": [
+            28,
+            4,
+            6,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "parts.npy": {
+          "shape": [
+            4
+          ],
+          "dtype": "<U9",
+          "fortran": false
+        },
+        "sites.npy": {
+          "shape": [
+            6
+          ],
+          "dtype": "<U15",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "path": "research/trajectory_specificity_benchmark_2026-10-18/STATES_qwen7b.npz",
+      "bytes": 84824053,
+      "sha256": "35b9dc7a2d13bcd243f50158875ea60a4dd34353689ea16553a233083a3138ee",
+      "arrays": {
+        "b01__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3584
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "sites.npy": {
+          "shape": [
+            4
+          ],
+          "dtype": "<U8",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "path": "research/trajectory_specificity_benchmark_2026-10-18/STATES_llama3b.npz",
+      "bytes": 72460799,
+      "sha256": "91373cae2312b34855f587fc0dc35566d9b0a56e5b0801cc0adc14ef6489ef89",
+      "arrays": {
+        "b01__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b01__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b02__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b03__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b04__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b05__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b06__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b07__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__active_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__active_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__active_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__active_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__passive_a__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__passive_a__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__passive_b__native.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__passive_b__fixed.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__null_64.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__null_65.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "b08__fixed_content_control.npy": {
+          "shape": [
+            29,
+            4,
+            3072
+          ],
+          "dtype": "float32",
+          "fortran": false
+        },
+        "sites.npy": {
+          "shape": [
+            4
+          ],
+          "dtype": "<U8",
+          "fortran": false
+        }
+      }
+    },
+    {
+      "path": "research/component_reuse_pilot_2026-10-18/REPORT.md",
+      "bytes": 6396,
+      "sha256": "62216a70d923396463f0f5233e4e2a8e8169948f45c1810fce117bcc0ba87cd5"
+    },
+    {
+      "path": "research/prefix_shape_audit_2026-10-18/REPORT.md",
+      "bytes": 6777,
+      "sha256": "7e9bd7b36f2a2862e671f7811f21e6d19549cd5affce304ba6cc3a3bd7eab949"
+    },
+    {
+      "path": "research/prefix_shape_audit_2026-10-18/SOURCE_MANIFEST.json",
+      "bytes": 4048,
+      "sha256": "91da231fed59a457ad4f2098e684d27e80c35f0ff6e81ab673e72fe2e01e1c4c"
+    },
+    {
+      "path": "research/trajectory_specificity_benchmark_2026-10-18/FINDINGS.md",
+      "bytes": 3874,
+      "sha256": "432f8575bab62e8929a129663ff6f983f1f0acc19f72c286922e771e6512b4a7"
+    },
+    {
+      "path": "research/trajectory_specificity_benchmark_2026-10-18/MANIFEST.json",
+      "bytes": 8914,
+      "sha256": "d101722d4df42da54a33ac5c1474606d23692c9206f50fe70cb93a451fc38092"
+    }
+  ],
+  "notes": [
+    "Pairs are correlated within families, not independent replications.",
+    "Different Agent identity does not hold voice and first identity fixed.",
+    "Llama historical failed invariance remains failed; no retroactive repair.",
+    "NPZ headers and byte hashes inspected, not every scalar revalidated."
+  ]
+}

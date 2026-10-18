@@ -1,0 +1,76 @@
+{
+  "status": "algebraic_design_fact_not_new_model_result",
+  "columns": [
+    "1",
+    "R",
+    "V",
+    "Q",
+    "RV",
+    "RQ",
+    "VQ",
+    "RVQ"
+  ],
+  "rank": 8,
+  "rank_after_order_and_answer": 8,
+  "first_identity": "O=R*V",
+  "expected_answer_identity": "Y=(R+R*Q+R*V-R*V*Q)/2",
+  "rows": [
+    {
+      "R": 1,
+      "V": 1,
+      "Q": 1,
+      "O": 1,
+      "Y": 1
+    },
+    {
+      "R": 1,
+      "V": 1,
+      "Q": -1,
+      "O": 1,
+      "Y": 1
+    },
+    {
+      "R": 1,
+      "V": -1,
+      "Q": 1,
+      "O": -1,
+      "Y": 1
+    },
+    {
+      "R": 1,
+      "V": -1,
+      "Q": -1,
+      "O": -1,
+      "Y": -1
+    },
+    {
+      "R": -1,
+      "V": 1,
+      "Q": 1,
+      "O": -1,
+      "Y": -1
+    },
+    {
+      "R": -1,
+      "V": 1,
+      "Q": -1,
+      "O": -1,
+      "Y": -1
+    },
+    {
+      "R": -1,
+      "V": -1,
+      "Q": 1,
+      "O": 1,
+      "Y": -1
+    },
+    {
+      "R": -1,
+      "V": -1,
+      "Q": -1,
+      "O": 1,
+      "Y": 1
+    }
+  ],
+  "consequence": "Old full factorial is saturated; surface first identity and answer identity are algebraically aliased with its interactions. More families repeat this alias."
+}

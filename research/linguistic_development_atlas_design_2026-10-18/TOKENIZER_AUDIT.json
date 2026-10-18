@@ -1,0 +1,317 @@
+{
+  "status": "local_tokenization_only_no_model_execution",
+  "models": {
+    "qwen7b": {
+      "model_path": "research/stronger_model_development_2026-10-15/models/qwen7b",
+      "prompts": 64,
+      "prompt_token_range": [
+        69,
+        74
+      ],
+      "candidate_alias_ids": {
+        "Yes": {
+          "Yes": [
+            9454
+          ],
+          " Yes": [
+            7414
+          ],
+          "yes": [
+            9693
+          ],
+          " yes": [
+            9834
+          ]
+        },
+        "No": {
+          "No": [
+            2753
+          ],
+          " No": [
+            2308
+          ],
+          "no": [
+            2152
+          ],
+          " no": [
+            902
+          ]
+        }
+      },
+      "checks": [
+        {
+          "family": "a01",
+          "question": "agent",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a01",
+          "question": "theme",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a01",
+          "question": "goal",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a01",
+          "question": "order",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a02",
+          "question": "agent",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a02",
+          "question": "theme",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a02",
+          "question": "goal",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a02",
+          "question": "order",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a03",
+          "question": "agent",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a03",
+          "question": "theme",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a03",
+          "question": "goal",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a03",
+          "question": "order",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a04",
+          "question": "agent",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a04",
+          "question": "theme",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a04",
+          "question": "goal",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a04",
+          "question": "order",
+          "first_frame_cue_position": 52,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        }
+      ],
+      "retained_token_sites": 1008,
+      "float32_storage_upper_bound_bytes": 1228308480,
+      "tokenizer_sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf",
+      "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f"
+    },
+    "llama3b": {
+      "model_path": "research/llama_gemma_cross_family_2026-10-15/model",
+      "prompts": 64,
+      "prompt_token_range": [
+        91,
+        96
+      ],
+      "candidate_alias_ids": {
+        "Yes": {
+          "Yes": [
+            9642
+          ],
+          " Yes": [
+            7566
+          ],
+          "yes": [
+            9891
+          ],
+          " yes": [
+            10035
+          ]
+        },
+        "No": {
+          "No": [
+            2822
+          ],
+          " No": [
+            2360
+          ],
+          "no": [
+            2201
+          ],
+          " no": [
+            912
+          ]
+        }
+      },
+      "checks": [
+        {
+          "family": "a01",
+          "question": "agent",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a01",
+          "question": "theme",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a01",
+          "question": "goal",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a01",
+          "question": "order",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a02",
+          "question": "agent",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a02",
+          "question": "theme",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a02",
+          "question": "goal",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a02",
+          "question": "order",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a03",
+          "question": "agent",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a03",
+          "question": "theme",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a03",
+          "question": "goal",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a03",
+          "question": "order",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a04",
+          "question": "agent",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a04",
+          "question": "theme",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a04",
+          "question": "goal",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        },
+        {
+          "family": "a04",
+          "question": "order",
+          "first_frame_cue_position": 74,
+          "same_positions": true,
+          "only_and_to_frame_difference": true
+        }
+      ],
+      "retained_token_sites": 1008,
+      "float32_storage_upper_bound_bytes": 1052835840,
+      "tokenizer_sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+      "chat_template_sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4"
+    }
+  }
+}

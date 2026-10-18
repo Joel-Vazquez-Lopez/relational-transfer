@@ -1,0 +1,107 @@
+{
+  "status": "DRAFT_PENDING_REVIEW_NO_INFERENCE_AUTHORIZED",
+  "new_model_forwards": 0,
+  "original_audit_commit": "7cfb40634baf9783f7a1c0a057cde8feb82dbed9",
+  "latest_evidence_commit": "f59a798d2a2c76f6cf9ba4e73541cbf5b94fdf1a",
+  "proposed_models": [
+    "qwen7b",
+    "llama3b"
+  ],
+  "families": [
+    {
+      "id": "a01",
+      "split": "development",
+      "a": "Ada",
+      "b": "Boris",
+      "c": "Clara",
+      "d": "Neil",
+      "base": "recommend",
+      "past": "recommended",
+      "agent_target": "a"
+    },
+    {
+      "id": "a02",
+      "split": "development",
+      "a": "Mara",
+      "b": "Oscar",
+      "c": "Hugo",
+      "d": "Rose",
+      "base": "refer",
+      "past": "referred",
+      "agent_target": "d"
+    },
+    {
+      "id": "a03",
+      "split": "held_out",
+      "a": "Leah",
+      "b": "Felix",
+      "c": "Simon",
+      "d": "Vera",
+      "base": "recommend",
+      "past": "recommended",
+      "agent_target": "d"
+    },
+    {
+      "id": "a04",
+      "split": "held_out",
+      "a": "Eva",
+      "b": "Colin",
+      "c": "Ivan",
+      "d": "Ruby",
+      "base": "refer",
+      "past": "referred",
+      "agent_target": "a"
+    }
+  ],
+  "unique_prompts_per_model": 64,
+  "proposed_main_forwards": 128,
+  "proposed_validation_forwards": 4,
+  "paid_calls": 0,
+  "downloads": 0,
+  "files": {
+    "COORDINATION_SOURCES.json": {
+      "bytes": 1938,
+      "sha256": "c299e6f23ab64d9875a2cbc99240381c1574e72b6ac7009037cc3017b2f1651f"
+    },
+    "DESIGN.md": {
+      "bytes": 32144,
+      "sha256": "1094f0bf0b1909f44682f0feb2cb20413843ae1f198229709d533b1a7c94804b"
+    },
+    "DRAFT_STIMULI.jsonl": {
+      "bytes": 39376,
+      "sha256": "b3cb5ea15859577106120e6458c0a33e23a5f8fec957b2403243df249ee3eae5"
+    },
+    "DRAFT_TOKENIZATION.jsonl": {
+      "bytes": 144480,
+      "sha256": "19386ccb403089ca90d962ef39f36830c2fb91d566a9ab13c5aaa1e0cf429b1f"
+    },
+    "OLD_DESIGN_CERTIFICATE.json": {
+      "bytes": 1160,
+      "sha256": "09a6537a00525d7dbf18e22f3b11c07ad261821c742a79446e2732cb4253ffed"
+    },
+    "OLD_PAIR_COVERAGE.csv": {
+      "bytes": 6976,
+      "sha256": "641aa1db4d931dd9846917a6fa97bf67eeaa3d2bbef877d48dd921c9f27b5d96"
+    },
+    "PREDICTION_WITNESSES.json": {
+      "bytes": 1551,
+      "sha256": "b851e6ead2d23c646968ac99aebcfa9083e9a9f84802c3ef73cab30fd8e8833e"
+    },
+    "README.md": {
+      "bytes": 3216,
+      "sha256": "865af34c98b4bdc118edba277756b32946ec7de461161895c66d4823772a7276"
+    },
+    "SAVED_DATA_AUDIT.json": {
+      "bytes": 42798,
+      "sha256": "ee6b66db1e468d1babda56159871cfb2b8285a77101d179cef25e921139aeca2"
+    },
+    "TOKENIZER_AUDIT.json": {
+      "bytes": 8489,
+      "sha256": "3759006e4a070649687b08cf0a89fb642b24c2b665883cb99720362238cc9c45"
+    },
+    "design_audit.py": {
+      "bytes": 16392,
+      "sha256": "a935b5eba1bc683d75bf3554200f7a81d945474158f94a5cda0edc84b7f89d24"
+    }
+  }
+}

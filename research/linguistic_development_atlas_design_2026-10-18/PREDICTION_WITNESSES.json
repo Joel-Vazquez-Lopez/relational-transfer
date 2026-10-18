@@ -1,0 +1,36 @@
+{
+  "status": "toy_predictions_not_LM_findings",
+  "rows": [
+    {
+      "question": "agent",
+      "additive_lexical_frame_question_I": 0,
+      "label_only_answer_writer_I": 0,
+      "syntax_aware_copy_accuracy": "all_gold_labels_by_set_membership",
+      "interpretation": "I is a vector contrast; answer-writer scalar multiplies an arbitrary fixed output vector."
+    },
+    {
+      "question": "theme",
+      "additive_lexical_frame_question_I": 0,
+      "label_only_answer_writer_I": -2,
+      "syntax_aware_copy_accuracy": "all_gold_labels_by_set_membership",
+      "interpretation": "I is a vector contrast; answer-writer scalar multiplies an arbitrary fixed output vector."
+    },
+    {
+      "question": "goal",
+      "additive_lexical_frame_question_I": 0,
+      "label_only_answer_writer_I": 2,
+      "syntax_aware_copy_accuracy": "all_gold_labels_by_set_membership",
+      "interpretation": "I is a vector contrast; answer-writer scalar multiplies an arbitrary fixed output vector."
+    },
+    {
+      "question": "order",
+      "additive_lexical_frame_question_I": 0,
+      "label_only_answer_writer_I": 0,
+      "syntax_aware_copy_accuracy": "all_gold_labels_by_set_membership",
+      "interpretation": "I is a vector contrast; answer-writer scalar multiplies an arbitrary fixed output vector."
+    }
+  ],
+  "surface_string_copier_correct": 64,
+  "surface_string_copier_total": 64,
+  "implication": "All behavioral labels are compatible with a marker/position-keyed program. This pilot cannot uniquely identify a semantic mechanism."
+}
