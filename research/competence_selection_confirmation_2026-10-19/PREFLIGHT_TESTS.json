@@ -1,0 +1,23 @@
+{
+  "kind": "SYNTHETIC_ONLY_NOT_EMPIRICAL",
+  "real_LLM_forwards": 0,
+  "rehearsed_controller_calls": 1562,
+  "decisions": {
+    "qwen7b": {
+      "status": "COMPLETE_FIXED_PANEL",
+      "attempts": 781,
+      "payloads": 781,
+      "controls": 1260,
+      "all_controls_passed": true
+    },
+    "llama3b": {
+      "status": "COMPLETE_FIXED_PANEL",
+      "attempts": 781,
+      "payloads": 781,
+      "controls": 1260,
+      "all_controls_passed": true
+    }
+  },
+  "sign_test_known_cases_passed": true,
+  "contrast_known_case_passed": true
+}

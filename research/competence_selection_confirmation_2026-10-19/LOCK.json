@@ -1,0 +1,101 @@
+{
+  "status": "FROZEN_BEFORE_FRESH_OUTCOMES",
+  "files": {
+    "core.py": "a690bd185fd1c7bf65d97ad19284bfc08f8fe6302fa00a6f9bcf2309e0b06a9b",
+    "engine.py": "d5fdc52093db204ad2e5387e860e0da802a39b4fa2194a774486740ab1adc783",
+    "instrument.py": "ac0262d449ac5649e581b497e20b67adf227f7546328c02c007a523d19b98e90",
+    "prepare.py": "25d93bf0709b217045e3f8bf443714755b38f5aff237ad83d2606a8592e09268",
+    "run.py": "df29c4ed441b1272f06f0b375667aa2b9e6a0446b90374a3fd8397b6fa15d14d",
+    "analyze.py": "36cb1ee67e41a72c40136080b5c1d674efc6028a98c6f28eb5a0aab59591ad0a",
+    "test_pipeline.py": "a4813409216dc8493d3bfcaa546e46483e0a46b8e1b8b15acffb832792eb6397",
+    "PROTOCOL.md": "82d4c72c59fe931ae370fc40696b9efe7e3e6c0751d0bb7d1853ee08c777164a",
+    "INPUTS.json": "f7d2196224c2f312cd866aecd2f092d053f04a8323ccbc762ce825b937f0a961",
+    "SOURCE_MANIFEST.json": "afb514b9a4188ccfc08406fbf1e636c6b4361677bd7a0c89ae296e21d4774066",
+    "TOKENIZER_AUDIT.json": "6dd0524deeefc4716328417b226916e9bdd672ce88e655950b262af02720a2e5",
+    "READOUT_CALIBRATION.json": "9765372afb5e3ec896ca0a06cb5c5336a3ae223bf64a7beb7e8bba91e8c9976f",
+    "PREFLIGHT_TESTS.json": "ac6f70244e1891e17550ae0daefa99ea8d866bb4650da8dbd8e66d02a9456aa1",
+    "STORAGE_BUDGET.json": "10d42ed889b677b50ab88fc38a9e0afae889346ad55ddc65a1b7fe5cd8ec691e"
+  },
+  "models": {
+    "qwen7b": {
+      "path": "research/stronger_model_development_2026-10-15/models/qwen7b",
+      "files": {
+        "research/stronger_model_development_2026-10-15/models/qwen7b/added_tokens.json": {
+          "bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/config.json": {
+          "bytes": 787,
+          "sha256": "1661a349986919d13820d3981623776138d50783d13e247cdc5b075a22b62698"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors": {
+          "bytes": 4284346255,
+          "sha256": "86110f368236b53cf4c2336f991a85703b17bcc60bb75f292b4002ec0219f071"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors.index.json": {
+          "bytes": 51711,
+          "sha256": "23cd562592dd96686d2e799eb02e4b578a4038b6045eaefe860d270cc060e24f"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/special_tokens_map.json": {
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer.json": {
+          "bytes": 7031673,
+          "sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer_config.json": {
+          "bytes": 7280,
+          "sha256": "4921d4cbae33349a9cb3b2ad3a7622efdea10a5d208c9f333c77b154aa714888"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/vocab.json": {
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      },
+      "pad": 87
+    },
+    "llama3b": {
+      "path": "research/llama_gemma_cross_family_2026-10-15/model",
+      "files": {
+        "research/llama_gemma_cross_family_2026-10-15/model/config.json": {
+          "bytes": 1122,
+          "sha256": "c546925585e48f43890d9dc5150df4fec73dd3780d92961c5ace451934cc4cd6"
+        },
+        "research/llama_gemma_cross_family_2026-10-15/model/model.safetensors": {
+          "bytes": 1807496278,
+          "sha256": "d75e1ee0ea653cc5b76191ec934c7c0d568e94d4e47846619f1f4bc715b7b265"
+        },
+        "research/llama_gemma_cross_family_2026-10-15/model/special_tokens_map.json": {
+          "bytes": 296,
+          "sha256": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+        },
+        "research/llama_gemma_cross_family_2026-10-15/model/tokenizer.json": {
+          "bytes": 17209920,
+          "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+        },
+        "research/llama_gemma_cross_family_2026-10-15/model/tokenizer_config.json": {
+          "bytes": 54558,
+          "sha256": "022d5ae3df4737998ab97d8f31ac2bcb4c06dd8ebe5a8aba2b4aceef1e5ea7d3"
+        }
+      },
+      "pad": 87
+    }
+  },
+  "native_sources": {
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/qwen2.py": "937e0321ef06a34efbd66d2ce0ce1e715aab98da4acefa376c8cd29291a0bc83",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/llama.py": "dfb656511e6740781cd0563f7994a78b3404c199b9aebaa2fbca28a19e280891",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/base.py": "b782b2ac0f55ed8fa9c1afce1f36307d5d8714aad2c0991d63998047f7507174"
+  },
+  "runtime": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.0",
+    "numpy": "2.4.4",
+    "transformers": "5.7.0"
+  },
+  "max_forwards": 1562,
+  "max_per_model": 781,
+  "prior_lock_sha256": "11f43e8c1a107d0afeea5266753fa1799b868a1032a30501487e544adc52ea3d",
+  "authoritative_panel": "INPUTS.json; inherited core.py FAMILIES/jobs/select_prediction are unused",
+  "authoritative_protocol": "PROTOCOL.md"
+}
