@@ -1,0 +1,47 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "target_model_calls": 0,
+  "structural_no_relay": true,
+  "final_token_only_leak_detected": true,
+  "mask_controls": true,
+  "scoring_persistence_roundtrip": true,
+  "prediction_selection": true,
+  "known_programs": {
+    "kind": "synthetic_known_programs_no_LLM_calls",
+    "cuts": [
+      0,
+      7,
+      14,
+      21,
+      28
+    ],
+    "early": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "late": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "repeated": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "endpoint_answers_identical": true,
+    "limitations": [
+      "A preserved answer does not exclude repeated retrieval.",
+      "An unblocked relay can conceal source dependence.",
+      "These tests do not model off-distribution damage caused by attention removal."
+    ]
+  },
+  "tokenized_rows_checked": 32
+}
