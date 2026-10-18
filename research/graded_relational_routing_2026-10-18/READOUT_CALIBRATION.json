@@ -1,0 +1,40 @@
+{
+  "qwen7b": {
+    "threshold": -19.507811598961112,
+    "source": "research/causal_carrier_isolation_2026-10-18/qwen7b/RAW.json",
+    "source_sha256": "72f2408a15c27052563905279edca86a58f9e02e0a31f31c6390e8b14591e6bc",
+    "yes_scores": [
+      -7.843748685158346,
+      -12.343749199734134,
+      -5.812498959874496,
+      -16.531249316250392
+    ],
+    "no_scores": [
+      -22.484373881671836,
+      -22.5312486302864,
+      -24.031248764312785,
+      -22.74999877713975
+    ],
+    "fitting_cases": 8,
+    "rule": "One constant midpoint threshold from prior exposed d1; never refit on fresh data"
+  },
+  "llama3b": {
+    "threshold": -2.4140621280200847,
+    "source": "research/causal_carrier_isolation_2026-10-18/llama3b/RAW.json",
+    "source_sha256": "fd52aa40ba3e44bdc41e82fdbb9c79fe8fec139d115f96069f40216f544fa319",
+    "yes_scores": [
+      0.15625035387444441,
+      -0.9531245831038184,
+      -0.9999996595166181,
+      -1.7343746456835625
+    ],
+    "no_scores": [
+      -5.796874641876464,
+      -3.4999995884805983,
+      -6.265624666093238,
+      -3.093749610356607
+    ],
+    "fitting_cases": 8,
+    "rule": "One constant midpoint threshold from prior exposed d1; never refit on fresh data"
+  }
+}

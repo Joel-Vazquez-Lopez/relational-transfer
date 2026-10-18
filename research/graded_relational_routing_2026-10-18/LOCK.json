@@ -1,0 +1,105 @@
+{
+  "status": "FROZEN_BEFORE_ALL_NEW_OUTCOMES",
+  "authorization": "Joel explicitly directed continuation after the closed pilot; broad independent local-resource research authorization retained",
+  "annotation": "AI-only deterministic template annotation; no human validation",
+  "files": {
+    "core.py": "a690bd185fd1c7bf65d97ad19284bfc08f8fe6302fa00a6f9bcf2309e0b06a9b",
+    "instrument.py": "ac0262d449ac5649e581b497e20b67adf227f7546328c02c007a523d19b98e90",
+    "engine.py": "d5fdc52093db204ad2e5387e860e0da802a39b4fa2194a774486740ab1adc783",
+    "prepare.py": "25edae994815d2e94364c702583f7d102c2f6b372f9e058f019dea52d37e16ef",
+    "run.py": "d9d7ca52e2462178edee696a61aa1800599646d14ef6faaa5e59d7a37aabc256",
+    "test_pipeline.py": "c8c4eb4cec260c3306fe52a1f2428a170386cd5f48c7c0204f16b4618b81a4a3",
+    "PROTOCOL.md": "868d3a5ee15139d4f484725ef78b77ed52428fcf72557a84b1d8586828eb8db9",
+    "PREPARATION.md": "555e4b95ab62b13dd70d636385abd5148247add90d8bfbbddc5dd6d48fb643dd",
+    "INPUTS.json": "e7429780f7a1081a01392ebb3f18bda9bdee9832596014e1f5c5192f70977e71",
+    "READOUT_CALIBRATION.json": "9765372afb5e3ec896ca0a06cb5c5336a3ae223bf64a7beb7e8bba91e8c9976f",
+    "TOKENIZER_ANNOTATION_AUDIT.json": "d2cfc7363cb58188ec07723f19fbdcd47943b5ab1c2ac6f7079e6c2ac5fbbb7a",
+    "KNOWN_ROUTE_CALIBRATION.json": "458a8fb626f4ffe1f4738669be70448ecd5e55d2da84a3a89ca2f668fe9eb1f8",
+    "PREFLIGHT_TESTS.json": "612debf10c6553e1eb71107bc3563901f14b5f40082eeb1bb16beb280a09501a",
+    "SOURCE_REUSE.json": "6cda10f70ad6078fcd2790315d90e92ea3c2c2eeacf157bf6547697c2064eb88",
+    "STORAGE_BUDGET.json": "6d89704cac80c48450a1655bc201070c6fba8da2d54af9bbc48d3410232d8387",
+    "DRAFT_LOCK_BEFORE_SUFFIX_REVIEW.json": "9d3b51a8b14a6148899215aa277872ee41e43c551b5000c2cc276e570b452e43"
+  },
+  "models": {
+    "qwen7b": {
+      "path": "research/stronger_model_development_2026-10-15/models/qwen7b",
+      "files": {
+        "research/stronger_model_development_2026-10-15/models/qwen7b/added_tokens.json": {
+          "bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/config.json": {
+          "bytes": 787,
+          "sha256": "1661a349986919d13820d3981623776138d50783d13e247cdc5b075a22b62698"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors": {
+          "bytes": 4284346255,
+          "sha256": "86110f368236b53cf4c2336f991a85703b17bcc60bb75f292b4002ec0219f071"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors.index.json": {
+          "bytes": 51711,
+          "sha256": "23cd562592dd96686d2e799eb02e4b578a4038b6045eaefe860d270cc060e24f"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/special_tokens_map.json": {
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer.json": {
+          "bytes": 7031673,
+          "sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer_config.json": {
+          "bytes": 7280,
+          "sha256": "4921d4cbae33349a9cb3b2ad3a7622efdea10a5d208c9f333c77b154aa714888"
+        },
+        "research/stronger_model_development_2026-10-15/models/qwen7b/vocab.json": {
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      },
+      "pad": 87
+    },
+    "llama3b": {
+      "path": "research/llama_gemma_cross_family_2026-10-15/model",
+      "files": {
+        "research/llama_gemma_cross_family_2026-10-15/model/config.json": {
+          "bytes": 1122,
+          "sha256": "c546925585e48f43890d9dc5150df4fec73dd3780d92961c5ace451934cc4cd6"
+        },
+        "research/llama_gemma_cross_family_2026-10-15/model/model.safetensors": {
+          "bytes": 1807496278,
+          "sha256": "d75e1ee0ea653cc5b76191ec934c7c0d568e94d4e47846619f1f4bc715b7b265"
+        },
+        "research/llama_gemma_cross_family_2026-10-15/model/special_tokens_map.json": {
+          "bytes": 296,
+          "sha256": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+        },
+        "research/llama_gemma_cross_family_2026-10-15/model/tokenizer.json": {
+          "bytes": 17209920,
+          "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+        },
+        "research/llama_gemma_cross_family_2026-10-15/model/tokenizer_config.json": {
+          "bytes": 54558,
+          "sha256": "022d5ae3df4737998ab97d8f31ac2bcb4c06dd8ebe5a8aba2b4aceef1e5ea7d3"
+        }
+      },
+      "pad": 87
+    }
+  },
+  "native_sources": {
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/qwen2.py": "937e0321ef06a34efbd66d2ce0ce1e715aab98da4acefa376c8cd29291a0bc83",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/llama.py": "dfb656511e6740781cd0563f7994a78b3404c199b9aebaa2fbca28a19e280891",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/base.py": "b782b2ac0f55ed8fa9c1afce1f36307d5d8714aad2c0991d63998047f7507174"
+  },
+  "runtime": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.0",
+    "numpy": "2.4.4",
+    "transformers": "5.7.0"
+  },
+  "max_forwards": 1800,
+  "max_per_model": 900,
+  "planned_max_per_model": 879,
+  "source_parent": "2c29bc72b98530482b5fd7ddf0bbc3596c266c04",
+  "source_branch": "research/causal-developmental-relations-2026-10-17"
+}

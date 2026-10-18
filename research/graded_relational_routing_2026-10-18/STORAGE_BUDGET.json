@@ -1,0 +1,15 @@
+{
+  "models": {
+    "qwen7b": {
+      "planned_calls": 879,
+      "expected_lossless_float16_bytes": 632767488
+    },
+    "llama3b": {
+      "planned_calls": 879,
+      "expected_lossless_float16_bytes": 538707456
+    }
+  },
+  "required_bytes": 3074956416,
+  "available_bytes": 3675967488,
+  "rule": "Expected native-value lossless16 storage +25percent overhead +1.5GiB reserve; every call checks1GiB remaining"
+}

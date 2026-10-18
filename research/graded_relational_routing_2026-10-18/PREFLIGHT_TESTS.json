@@ -1,0 +1,20 @@
+{
+  "kind": "entirely_synthetic_rehearsal_no_LLM_calls",
+  "findings": {
+    "all96_actual_rows_scoring_unexpected_argmax_and_disconnection_certificate": true,
+    "lossless_storage_and_float32_fallback": true,
+    "constant_bias_cancellation_without_correct_label_gate": true,
+    "complete_production_controller_rehearsed_both_models": {
+      "qwen7b": {
+        "synthetic_calls": 295,
+        "status": "full_controller_pass",
+        "bad_native_accuracy_did_not_exclude_cases": true
+      },
+      "llama3b": {
+        "synthetic_calls": 295,
+        "status": "full_controller_pass",
+        "bad_native_accuracy_did_not_exclude_cases": true
+      }
+    }
+  }
+}
