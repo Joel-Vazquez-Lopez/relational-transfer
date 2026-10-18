@@ -1,0 +1,56 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "target_model_calls": 0,
+  "scoring_fixtures": {
+    "multi_token_success": true,
+    "partial_name_rejected": true,
+    "unterminated_rejected": true,
+    "duplicate_paths_deduplicated": true,
+    "teacher_forced_sum_equivalence": true
+  },
+  "real_saved_first_logits_hypothetical_continuation_fixture": true,
+  "hypothetical_fixture_is_not_empirical_completion": true,
+  "all_suffix_information_path_check": true,
+  "complete_production_controller_two_models_and_evaluation": true,
+  "simulated_dispatches": 966,
+  "continuations_counted_and_persisted": true,
+  "repeated_attempt_rejected": true,
+  "negative_competence_gate_prevents_cuts": true,
+  "known_programs": {
+    "kind": "synthetic_known_programs_no_LLM_calls",
+    "cuts": [
+      0,
+      7,
+      14,
+      21,
+      28
+    ],
+    "early": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "late": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "repeated": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "endpoint_answers_identical": true,
+    "limitations": [
+      "A preserved answer does not exclude repeated retrieval.",
+      "An unblocked relay can conceal source dependence.",
+      "These tests do not model off-distribution damage caused by attention removal."
+    ]
+  }
+}
