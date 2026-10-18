@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-18",
+  "status": "frozen_before_new_audit_outputs",
+  "scope": "One local measurement audit; no semantic rescue, training, downloads, paid calls or novel-mechanism claim. Prior failed protocols remain closed.",
+  "question": "Does sequence shape, rather than later question content, cause apparent pre-question state changes in the existing MLX 4-bit runtime?",
+  "models": ["qwen7b", "llama3b"],
+  "families": ["d1", "d2"],
+  "sources": "Exposed active_a prompts from component_reuse_pilot_2026-10-18. Qwen repeats exact original token IDs; Llama applies its native chat template to the identical system/user text. No held-out linguistic generalization is tested.",
+  "lengths": "For each model/family, let P end at the sentence-final period. Use sorted unique total lengths [P,P+1,60,63,64,65,67,68,96,128], omitting lengths <P.",
+  "suffixes": [" the", " a"],
+  "suffix_rule": "Each suffix must encode to one distinct token. After the identical sentence prefix, repeat that token to the declared total length. These are numerical controls, not grammatical tasks.",
+  "repeats": "Repeat the first suffix at P,63,67 after the full sweep where lengths exist. No stochastic sampling.",
+  "capture": "All 28 blocks, incoming residual, attention write, MLP write, outgoing residual; last subtokens of person A, person B, verb, period, and immediate predecessors of verb/period. Save float32 vectors. All captured tokens are in the byte/token-identical causal prefix.",
+  "projection_isolation": "For each shape, independently evaluate embedding, first-block input RMSNorm, native first-block Q projection, the same Q projection row by row at selected sites, and float32 matmul using the same dequantized 4-bit Q weights. No original full-precision weights or whole-model precision change is implied.",
+  "real_prompt_control": "For Qwen only, capture the existing eight active_a question/code prompts per family at native lengths and right-padded to exactly 128 tokens with the first suffix token. Append padding only after all original tokens. Native-length and equal-shape results are separate; no language answer is scored on padding.",
+  "metrics": "Full-coordinate absolute L2, relative L2, maximum absolute coordinate discrepancy, cosine (null if zero) against the shortest prefix run; also same-shape different-suffix differences, repeated-run differences, adjacent-length differences, and real-query differences versus Agent/normal. Record every layer/component/site without peak selection. Absolute scales and cosine are both retained.",
+  "predictions": {
+    "shape_dependent_numerics": "At least some different-length runs disagree on identical prefix vectors while same-length different suffix content and repeats agree. Equal-shape real-prompt controls remove or reduce discrepancies. Native Q projection may already be shape dependent; exact offending kernel is not assumed.",
+    "suffix_content_dependence": "Different future suffix content produces a prefix discrepancy at equal length as well; this would require investigation of masking, hooks or implementation rather than a semantic conclusion.",
+    "run_to_run_noise": "Identical repeated inputs differ, so deterministic shape scheduling alone is insufficient.",
+    "no_reproduction": "No difference reproduces; original failure remains unexplained. Do not relax thresholds or change controls."
+  },
+  "decision": "Report evidence for each rival separately. A bounded shape explanation requires max across-length discrepancy >0.001 in both exposed Qwen families, same-shape/same-prefix content and repeat discrepancies <=0.000001, and padded real-question discrepancy <=0.000001. Llama is an architecture/runtime check, not pooled confirmation. No inference that all prior linguistic effects were artifacts.",
+  "maximum_model_forwards_per_model": 80,
+  "stop": "Stop after these two models, complete descriptive analysis, literature comparison and a concrete research decision. No new semantic or adaptive patch experiment in this audit."
+}

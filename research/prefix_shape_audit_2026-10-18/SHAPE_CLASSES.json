@@ -1,0 +1,80 @@
+[
+  {
+    "model": "qwen7b",
+    "family": "d1",
+    "exact_tensor_equivalence_classes": [
+      [
+        39,
+        40,
+        60,
+        63,
+        64
+      ],
+      [
+        65,
+        67,
+        68,
+        96,
+        128
+      ]
+    ]
+  },
+  {
+    "model": "qwen7b",
+    "family": "d2",
+    "exact_tensor_equivalence_classes": [
+      [
+        39,
+        40,
+        60,
+        63,
+        64
+      ],
+      [
+        65,
+        67,
+        68,
+        96,
+        128
+      ]
+    ]
+  },
+  {
+    "model": "llama3b",
+    "family": "d1",
+    "exact_tensor_equivalence_classes": [
+      [
+        61,
+        62,
+        63,
+        64
+      ],
+      [
+        65,
+        67,
+        68,
+        96,
+        128
+      ]
+    ]
+  },
+  {
+    "model": "llama3b",
+    "family": "d2",
+    "exact_tensor_equivalence_classes": [
+      [
+        61,
+        62,
+        63,
+        64
+      ],
+      [
+        65,
+        67,
+        68,
+        96,
+        128
+      ]
+    ]
+  }
+]

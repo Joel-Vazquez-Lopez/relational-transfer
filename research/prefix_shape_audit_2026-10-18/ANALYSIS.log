@@ -1,0 +1,90 @@
+{
+  "qwen7b": {
+    "families": [
+      {
+        "id": "d1",
+        "prefix_length": 39,
+        "max_relative_discrepancies": {
+          "adjacent_lengths": 0.004911416553671469,
+          "real_native": 0.004911416553671469,
+          "real_padded": 0.0,
+          "repeat": 0.0,
+          "same_shape_content": 0.0,
+          "versus_prefix_only": 0.004911416553671469
+        },
+        "bounded_shape_pattern": true,
+        "first_nonzero_block": 0
+      },
+      {
+        "id": "d2",
+        "prefix_length": 39,
+        "max_relative_discrepancies": {
+          "adjacent_lengths": 0.005379802677155236,
+          "real_native": 0.005379802677155236,
+          "real_padded": 0.0,
+          "repeat": 0.0,
+          "same_shape_content": 0.0,
+          "versus_prefix_only": 0.005379802677155236
+        },
+        "bounded_shape_pattern": true,
+        "first_nonzero_block": 0
+      }
+    ],
+    "projection_max_relative": {
+      "embedding": 0.0,
+      "input_rmsnorm": 0.0,
+      "q_dequantized_float32": 4.2361736217813494e-07,
+      "q_native": 1.2190719153942743e-05,
+      "q_rowwise": 0.0
+    },
+    "forwards": 78,
+    "unique_archived_tensors": 4,
+    "conditions": 78,
+    "states_sha256": "a010f3803e779af200682b530a819ca821fc912eced241fb1fd10bba94afce9d"
+  },
+  "llama3b": {
+    "families": [
+      {
+        "id": "d1",
+        "prefix_length": 61,
+        "max_relative_discrepancies": {
+          "adjacent_lengths": 0.0038231895105219223,
+          "repeat": 0.0,
+          "same_shape_content": 0.0,
+          "versus_prefix_only": 0.0038231895105219223
+        },
+        "bounded_shape_pattern": true,
+        "first_nonzero_block": 0
+      },
+      {
+        "id": "d2",
+        "prefix_length": 61,
+        "max_relative_discrepancies": {
+          "adjacent_lengths": 0.004088157899748787,
+          "repeat": 0.0,
+          "same_shape_content": 0.0,
+          "versus_prefix_only": 0.004088157899748787
+        },
+        "bounded_shape_pattern": true,
+        "first_nonzero_block": 0
+      }
+    ],
+    "projection_max_relative": {
+      "embedding": 0.0,
+      "input_rmsnorm": 0.0,
+      "q_dequantized_float32": 7.647690776826229e-07,
+      "q_native": 3.59595594229505e-05,
+      "q_rowwise": 0.0
+    },
+    "forwards": 42,
+    "unique_archived_tensors": 4,
+    "conditions": 42,
+    "states_sha256": "2ceb56c91841bc4daf5fba819791c3f8b38cd5bd49ebb7ebb54ef437c8f259a8"
+  },
+  "decision": {
+    "bounded_Qwen_shape_explanation": true,
+    "semantic_interventions_run": 0,
+    "previous_failed_studies_reopened": false,
+    "claim": "Local execution-shape diagnostic, not a novel linguistic mechanism or universal backend theorem."
+  }
+}
