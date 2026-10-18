@@ -1,0 +1,285 @@
+{
+  "no_model_inference": true,
+  "no_probe_fitting": true,
+  "binary_rows": 96,
+  "role_determined_by_gold_answer_and_query": true,
+  "mapping": [
+    {
+      "answer_yes": 0,
+      "query": 0,
+      "role": 1
+    },
+    {
+      "answer_yes": 0,
+      "query": 1,
+      "role": 0
+    },
+    {
+      "answer_yes": 1,
+      "query": 0,
+      "role": 0
+    },
+    {
+      "answer_yes": 1,
+      "query": 1,
+      "role": 1
+    }
+  ],
+  "atlas_constant_answer_groups": [
+    {
+      "model": "qwen7b",
+      "family": "a01",
+      "question": "Did Ada recommend someone?",
+      "same_gold_answer": "Yes",
+      "distinct_role_assignments": 3,
+      "physical_sentences": 4,
+      "canonical_labels": [
+        {
+          "id": "a01_within_0_agent",
+          "roles": {
+            "agent": "Ada",
+            "goal": [
+              "Neil"
+            ],
+            "theme": [
+              "Boris",
+              "Clara"
+            ]
+          }
+        },
+        {
+          "id": "a01_within_1_agent",
+          "roles": {
+            "agent": "Ada",
+            "goal": [
+              "Neil"
+            ],
+            "theme": [
+              "Boris",
+              "Clara"
+            ]
+          }
+        },
+        {
+          "id": "a01_across_0_agent",
+          "roles": {
+            "agent": "Ada",
+            "goal": [
+              "Clara",
+              "Neil"
+            ],
+            "theme": [
+              "Boris"
+            ]
+          }
+        },
+        {
+          "id": "a01_across_1_agent",
+          "roles": {
+            "agent": "Ada",
+            "goal": [
+              "Boris",
+              "Neil"
+            ],
+            "theme": [
+              "Clara"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "model": "qwen7b",
+      "family": "a02",
+      "question": "Did Rose refer someone?",
+      "same_gold_answer": "No",
+      "distinct_role_assignments": 3,
+      "physical_sentences": 4,
+      "canonical_labels": [
+        {
+          "id": "a02_within_0_agent",
+          "roles": {
+            "agent": "Mara",
+            "goal": [
+              "Rose"
+            ],
+            "theme": [
+              "Hugo",
+              "Oscar"
+            ]
+          }
+        },
+        {
+          "id": "a02_within_1_agent",
+          "roles": {
+            "agent": "Mara",
+            "goal": [
+              "Rose"
+            ],
+            "theme": [
+              "Hugo",
+              "Oscar"
+            ]
+          }
+        },
+        {
+          "id": "a02_across_0_agent",
+          "roles": {
+            "agent": "Mara",
+            "goal": [
+              "Hugo",
+              "Rose"
+            ],
+            "theme": [
+              "Oscar"
+            ]
+          }
+        },
+        {
+          "id": "a02_across_1_agent",
+          "roles": {
+            "agent": "Mara",
+            "goal": [
+              "Oscar",
+              "Rose"
+            ],
+            "theme": [
+              "Hugo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "model": "llama3b",
+      "family": "a01",
+      "question": "Did Ada recommend someone?",
+      "same_gold_answer": "Yes",
+      "distinct_role_assignments": 3,
+      "physical_sentences": 4,
+      "canonical_labels": [
+        {
+          "id": "a01_within_0_agent",
+          "roles": {
+            "agent": "Ada",
+            "goal": [
+              "Neil"
+            ],
+            "theme": [
+              "Boris",
+              "Clara"
+            ]
+          }
+        },
+        {
+          "id": "a01_within_1_agent",
+          "roles": {
+            "agent": "Ada",
+            "goal": [
+              "Neil"
+            ],
+            "theme": [
+              "Boris",
+              "Clara"
+            ]
+          }
+        },
+        {
+          "id": "a01_across_0_agent",
+          "roles": {
+            "agent": "Ada",
+            "goal": [
+              "Clara",
+              "Neil"
+            ],
+            "theme": [
+              "Boris"
+            ]
+          }
+        },
+        {
+          "id": "a01_across_1_agent",
+          "roles": {
+            "agent": "Ada",
+            "goal": [
+              "Boris",
+              "Neil"
+            ],
+            "theme": [
+              "Clara"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "model": "llama3b",
+      "family": "a02",
+      "question": "Did Rose refer someone?",
+      "same_gold_answer": "No",
+      "distinct_role_assignments": 3,
+      "physical_sentences": 4,
+      "canonical_labels": [
+        {
+          "id": "a02_within_0_agent",
+          "roles": {
+            "agent": "Mara",
+            "goal": [
+              "Rose"
+            ],
+            "theme": [
+              "Hugo",
+              "Oscar"
+            ]
+          }
+        },
+        {
+          "id": "a02_within_1_agent",
+          "roles": {
+            "agent": "Mara",
+            "goal": [
+              "Rose"
+            ],
+            "theme": [
+              "Hugo",
+              "Oscar"
+            ]
+          }
+        },
+        {
+          "id": "a02_across_0_agent",
+          "roles": {
+            "agent": "Mara",
+            "goal": [
+              "Hugo",
+              "Rose"
+            ],
+            "theme": [
+              "Oscar"
+            ]
+          }
+        },
+        {
+          "id": "a02_across_1_agent",
+          "roles": {
+            "agent": "Mara",
+            "goal": [
+              "Oscar",
+              "Rose"
+            ],
+            "theme": [
+              "Hugo"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "independent_lexical_families": 2,
+  "scope": "Metadata support, not evidence of internal accessibility or causal use",
+  "sources_sha256": {
+    "research/graded_relational_routing_2026-10-18/INPUTS.json": "e7429780f7a1081a01392ebb3f18bda9bdee9832596014e1f5c5192f70977e71",
+    "research/linguistic_development_atlas_continuation_2026-10-18/qwen7b/RAW.json": "28b24096872a7d4238fd0d06f11313d44bc414a710a20480946546b7b8e4245d",
+    "research/linguistic_development_atlas_continuation_2026-10-18/llama3b/RAW.json": "95bed010826820a8196576b4cd61a272c60079d4d4370c553db7b99d30510003"
+  }
+}

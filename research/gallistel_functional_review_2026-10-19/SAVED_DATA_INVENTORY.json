@@ -1,0 +1,355 @@
+[
+  {
+    "study": "graded_relational_routing_2026-10-18",
+    "npz_files": 1761,
+    "report_exists": true,
+    "sample": "research/graded_relational_routing_2026-10-18/PUBLISHED_NATIVE_TRACES.npz",
+    "arrays": [
+      {
+        "key": "qwen7b__g01_r0_active_q0__trace",
+        "shape": [
+          29,
+          2,
+          3584
+        ],
+        "dtype": "float16"
+      },
+      {
+        "key": "qwen7b__g01_r0_active_q0__logits",
+        "shape": [
+          152064
+        ],
+        "dtype": "float16"
+      },
+      {
+        "key": "qwen7b__g01_r0_active_q1__trace",
+        "shape": [
+          29,
+          2,
+          3584
+        ],
+        "dtype": "float16"
+      },
+      {
+        "key": "qwen7b__g01_r0_active_q1__logits",
+        "shape": [
+          152064
+        ],
+        "dtype": "float16"
+      },
+      {
+        "key": "qwen7b__g01_r0_passive_q0__trace",
+        "shape": [
+          29,
+          2,
+          3584
+        ],
+        "dtype": "float16"
+      },
+      {
+        "key": "qwen7b__g01_r0_passive_q0__logits",
+        "shape": [
+          152064
+        ],
+        "dtype": "float16"
+      },
+      {
+        "key": "qwen7b__g01_r0_passive_q1__trace",
+        "shape": [
+          29,
+          2,
+          3584
+        ],
+        "dtype": "float16"
+      },
+      {
+        "key": "qwen7b__g01_r0_passive_q1__logits",
+        "shape": [
+          152064
+        ],
+        "dtype": "float16"
+      },
+      {
+        "key": "qwen7b__g01_r1_active_q0__trace",
+        "shape": [
+          29,
+          2,
+          3584
+        ],
+        "dtype": "float16"
+      },
+      {
+        "key": "qwen7b__g01_r1_active_q0__logits",
+        "shape": [
+          152064
+        ],
+        "dtype": "float16"
+      },
+      {
+        "key": "qwen7b__g01_r1_active_q1__trace",
+        "shape": [
+          29,
+          2,
+          3584
+        ],
+        "dtype": "float16"
+      },
+      {
+        "key": "qwen7b__g01_r1_active_q1__logits",
+        "shape": [
+          152064
+        ],
+        "dtype": "float16"
+      }
+    ],
+    "array_count": 192
+  },
+  {
+    "study": "linguistic_development_atlas_continuation_2026-10-18",
+    "npz_files": 69,
+    "report_exists": true,
+    "sample": "research/linguistic_development_atlas_continuation_2026-10-18/llama3b/a01_within_0_agent.npz",
+    "arrays": [
+      {
+        "key": "residual",
+        "shape": [
+          29,
+          14,
+          3072
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "attention",
+        "shape": [
+          28,
+          14,
+          3072
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "mlp",
+        "shape": [
+          28,
+          14,
+          3072
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "reconstruction_error_norm",
+        "shape": [
+          28,
+          14
+        ],
+        "dtype": "float64"
+      }
+    ],
+    "array_count": 4
+  },
+  {
+    "study": "component_reuse_pilot_2026-10-18",
+    "npz_files": 1,
+    "report_exists": true,
+    "sample": "research/component_reuse_pilot_2026-10-18/COMPONENT_STATES.npz",
+    "arrays": [
+      {
+        "key": "d1__active_a",
+        "shape": [
+          28,
+          4,
+          6,
+          3584
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "d1__active_b",
+        "shape": [
+          28,
+          4,
+          6,
+          3584
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "d1__passive_a",
+        "shape": [
+          28,
+          4,
+          6,
+          3584
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "d1__passive_b",
+        "shape": [
+          28,
+          4,
+          6,
+          3584
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "d1__cleft_a",
+        "shape": [
+          28,
+          4,
+          6,
+          3584
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "d1__cleft_b",
+        "shape": [
+          28,
+          4,
+          6,
+          3584
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "d2__active_a",
+        "shape": [
+          28,
+          4,
+          6,
+          3584
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "d2__active_b",
+        "shape": [
+          28,
+          4,
+          6,
+          3584
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "d2__passive_a",
+        "shape": [
+          28,
+          4,
+          6,
+          3584
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "d2__passive_b",
+        "shape": [
+          28,
+          4,
+          6,
+          3584
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "d2__cleft_a",
+        "shape": [
+          28,
+          4,
+          6,
+          3584
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "d2__cleft_b",
+        "shape": [
+          28,
+          4,
+          6,
+          3584
+        ],
+        "dtype": "float32"
+      }
+    ],
+    "array_count": 14
+  },
+  {
+    "study": "trajectory_relation_audit_2026-10-17",
+    "npz_files": 8,
+    "report_exists": true,
+    "sample": "research/trajectory_relation_audit_2026-10-17/QUERY_STATES_llama3b.npz",
+    "arrays": [
+      {
+        "key": "states",
+        "shape": [
+          8,
+          2,
+          4,
+          29,
+          2,
+          3072
+        ],
+        "dtype": "float16"
+      },
+      {
+        "key": "normalized_states",
+        "shape": [
+          8,
+          2,
+          4,
+          29,
+          2,
+          3072
+        ],
+        "dtype": "float16"
+      },
+      {
+        "key": "readout_axes",
+        "shape": [
+          8,
+          3072
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "family_ids",
+        "shape": [
+          8
+        ],
+        "dtype": "<U3"
+      },
+      {
+        "key": "questions",
+        "shape": [
+          2
+        ],
+        "dtype": "<U5"
+      },
+      {
+        "key": "conditions",
+        "shape": [
+          4
+        ],
+        "dtype": "<U15"
+      },
+      {
+        "key": "sites",
+        "shape": [
+          2
+        ],
+        "dtype": "<U17"
+      }
+    ],
+    "array_count": 7
+  },
+  {
+    "study": "layer_write_audit_2026-10-18",
+    "npz_files": 0,
+    "report_exists": true,
+    "sample": null
+  }
+]
