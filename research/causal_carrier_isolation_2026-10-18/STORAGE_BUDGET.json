@@ -1,0 +1,15 @@
+{
+  "models": {
+    "qwen7b": {
+      "max_calls": 683,
+      "raw_array_uncompressed_bytes": 1297733632
+    },
+    "llama3b": {
+      "max_calls": 683,
+      "raw_array_uncompressed_bytes": 1106648064
+    }
+  },
+  "required_bytes": 5032741683,
+  "available_bytes": 5978689536,
+  "rule": "Uncompressed raw tensors +20 percent metadata/overhead +2GiB reserve; compression is extra savings"
+}

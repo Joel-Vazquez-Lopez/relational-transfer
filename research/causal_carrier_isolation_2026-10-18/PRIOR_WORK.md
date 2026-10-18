@@ -1,0 +1,18 @@
+# Prior research and claim boundary
+
+Primary pages checked18 October2026. This targeted review is not an exhaustive novelty certificate. No source text is quoted.
+
+| Work | Already establishes / investigates | Consequence for this study |
+|---|---|---|
+| Geva et al.2023, [Dissecting Recall of Factual Associations](https://aclanthology.org/2023.emnlp-main.751/) | Attention-edge interventions and staged information routing for factual recall | Edge knockout and developmental routing are established methods; our contextual role task must earn a specific empirical finding |
+| Dai, Heinzerling & Inui2024, [Representational Analysis of Binding in Language Models](https://aclanthology.org/2024.emnlp-main.967/) | Low-rank binding information and edits redirecting retrieval | Generic role/binding redirection is insufficient for novelty; this pilot does not identify or outperform their binding representation |
+| Zhang & Nanda2023/2024, [Towards Best Practices of Activation Patching](https://arxiv.org/abs/2309.16042) | Interpretability outcomes depend on intervention and metric choices | Preserve margins, full-vocabulary predictions, failed gates and explicit masks; avoid interpreting off-manifold perturbation outcomes uncritically |
+| Geiger et al., [Causal Abstraction](https://arxiv.org/abs/2301.04709) | Formal intervention-based relationships between computation and interpretable causal descriptions | A local pathway dependency is not a uniquely identified semantic abstraction |
+| [Mixing Mechanisms](https://arxiv.org/abs/2510.06182) | Multiple mechanisms for in-context bound-entity retrieval | A single shared binding/lookup account must compete with mixtures and contextual routes |
+| Sun & Toneva2026, [Tracking Equivalent Mechanistic Interpretations](https://arxiv.org/abs/2603.30002) | Interpretive equivalence defined through possible implementations, with representation-based estimation | Fixed-observation counterexamples do not refute the implementation-sampling framework; no superiority claim is made here |
+| Wei et al.2026, [From Parameters to Answers](https://arxiv.org/abs/2609.11859) | Layerwise routing/content interventions across Qwen, Llama and Gemma; readability and causal use separated, with nonuniform model results | Merely separating availability and later use or drawing three curves is already close prior work; the present test is a restricted contextual carrier pathway assay |
+| Cardenas Piepereit2026, [Architecture-Dependent Causal Transfer](https://arxiv.org/abs/2608.16347) | Learned projections, retrieval and causal activation injection with architecture-dependent outcomes | Geometric alignment need not yield functional transfer; our comparison avoids transplanting coordinates and does not resolve universal transfer |
+| Mueller et al.2025, [MIB](https://proceedings.mlr.press/v267/mueller25a.html) | Benchmarking circuit localization and causal-variable methods | A comparison-method paper needs appropriate existing methods and matched information; our small routing pilot is not such a benchmark |
+| Ferrando & Voita2024, [Information Flow Routes](https://aclanthology.org/2024.emnlp-main.965/) | Attribution-derived token/component graphs and linguistic analyses | Token/layer graphs and broad linguistic component specialization are existing research directions |
+
+The possible contribution is an empirically supported, well-controlled difference or regularity in contextual linguistic information routing. No algorithm, metric name, causal graph or pilot pass in this directory establishes originality by itself. A positive finding would require a second literature audit against its actual result and stronger prospective replication.

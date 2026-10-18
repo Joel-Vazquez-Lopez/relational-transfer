@@ -1,0 +1,11 @@
+{
+  "kind": "offline_synthetic_only_zero_model_calls",
+  "checks": {
+    "known_routes_have_distinct_signatures": true,
+    "all_actual_rows_score_and_reject_unexpected_argmax": true,
+    "production_persistence_round_trip_and_duplicate_rejection": true,
+    "selection_priority_ties_and_null_gate": true,
+    "all_rows_all_layers_no_information_path_cut0": true
+  },
+  "rows": 64
+}
