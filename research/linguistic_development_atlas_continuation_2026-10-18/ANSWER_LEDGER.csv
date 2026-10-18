@@ -1,0 +1,65 @@
+model,id,family,split,frame,swap,question_key,sentence,question,expected,argmax_token,actual_class,gold_margin,pass_competence
+qwen7b,a01_within_0_agent,a01,development,within,0,agent,Ada recommended Boris and Clara to Neil.,Did Ada recommend someone?,Yes,Yes,Yes,23.906251185803203,True
+qwen7b,a01_within_0_theme,a01,development,within,0,theme,Ada recommended Boris and Clara to Neil.,Was Boris recommended to someone?,Yes,Yes,Yes,19.593750898794728,True
+qwen7b,a01_within_0_goal,a01,development,within,0,goal,Ada recommended Boris and Clara to Neil.,Was someone recommended to Boris?,No,No,No,21.17187094414616,True
+qwen7b,a01_within_0_order,a01,development,within,0,order,Ada recommended Boris and Clara to Neil.,"In the sentence, was Boris mentioned before Clara?",Yes,No,No,-13.23437423959513,False
+qwen7b,a01_within_1_agent,a01,development,within,1,agent,Ada recommended Clara and Boris to Neil.,Did Ada recommend someone?,Yes,Yes,Yes,23.75000116564712,True
+qwen7b,a01_within_1_theme,a01,development,within,1,theme,Ada recommended Clara and Boris to Neil.,Was Boris recommended to someone?,Yes,Yes,Yes,20.531251001787197,True
+qwen7b,a01_within_1_goal,a01,development,within,1,goal,Ada recommended Clara and Boris to Neil.,Was someone recommended to Boris?,No,No,No,18.843746869559176,True
+qwen7b,a01_within_1_order,a01,development,within,1,order,Ada recommended Clara and Boris to Neil.,"In the sentence, was Boris mentioned before Clara?",No,No,No,14.171874338084319,True
+qwen7b,a01_across_0_agent,a01,development,across,0,agent,Ada recommended Boris to Clara and Neil.,Did Ada recommend someone?,Yes,Yes,Yes,23.375001180409637,True
+qwen7b,a01_across_0_theme,a01,development,across,0,theme,Ada recommended Boris to Clara and Neil.,Was Boris recommended to someone?,Yes,Yes,Yes,18.21875086426271,True
+qwen7b,a01_across_0_goal,a01,development,across,0,goal,Ada recommended Boris to Clara and Neil.,Was someone recommended to Boris?,No,No,No,14.046873271315569,True
+qwen7b,a01_across_0_order,a01,development,across,0,order,Ada recommended Boris to Clara and Neil.,"In the sentence, was Boris mentioned before Clara?",Yes,No,No,-13.312499263076425,False
+qwen7b,a01_across_1_agent,a01,development,across,1,agent,Ada recommended Clara to Boris and Neil.,Did Ada recommend someone?,Yes,Yes,Yes,23.421876143687403,True
+qwen7b,a01_across_1_theme,a01,development,across,1,theme,Ada recommended Clara to Boris and Neil.,Was Boris recommended to someone?,No,No,No,20.249998636141214,True
+qwen7b,a01_across_1_goal,a01,development,across,1,goal,Ada recommended Clara to Boris and Neil.,Was someone recommended to Boris?,Yes,Yes,Yes,20.79687608419249,True
+qwen7b,a01_across_1_order,a01,development,across,1,order,Ada recommended Clara to Boris and Neil.,"In the sentence, was Boris mentioned before Clara?",No,No,No,10.874999389175443,True
+qwen7b,a02_within_0_agent,a02,development,within,0,agent,Mara referred Oscar and Hugo to Rose.,Did Rose refer someone?,No,No,No,22.093749161182217,True
+qwen7b,a02_within_0_theme,a02,development,within,0,theme,Mara referred Oscar and Hugo to Rose.,Was Oscar referred to someone?,Yes,Yes,Yes,19.187500710749212,True
+qwen7b,a02_within_0_goal,a02,development,within,0,goal,Mara referred Oscar and Hugo to Rose.,Was someone referred to Oscar?,No,No,No,13.671873413439524,True
+qwen7b,a02_within_0_order,a02,development,within,0,order,Mara referred Oscar and Hugo to Rose.,"In the sentence, was Oscar mentioned before Hugo?",Yes,No,No,-15.703124403071161,False
+qwen7b,a02_within_1_agent,a02,development,within,1,agent,Mara referred Hugo and Oscar to Rose.,Did Rose refer someone?,No,No,No,22.81249902754674,True
+qwen7b,a02_within_1_theme,a02,development,within,1,theme,Mara referred Hugo and Oscar to Rose.,Was Oscar referred to someone?,Yes,Yes,Yes,8.312502287516232,True
+qwen7b,a02_within_1_goal,a02,development,within,1,goal,Mara referred Hugo and Oscar to Rose.,Was someone referred to Oscar?,No,No,No,12.656248197963354,True
+qwen7b,a02_within_1_order,a02,development,within,1,order,Mara referred Hugo and Oscar to Rose.,"In the sentence, was Oscar mentioned before Hugo?",No,No,No,19.421874252795206,True
+qwen7b,a02_across_0_agent,a02,development,across,0,agent,Mara referred Oscar to Hugo and Rose.,Did Rose refer someone?,No,No,No,22.624998929828237,True
+qwen7b,a02_across_0_theme,a02,development,across,0,theme,Mara referred Oscar to Hugo and Rose.,Was Oscar referred to someone?,Yes,Yes,Yes,21.843750860498716,True
+qwen7b,a02_across_0_goal,a02,development,across,0,goal,Mara referred Oscar to Hugo and Rose.,Was someone referred to Oscar?,No,No,No,13.953123626383576,True
+qwen7b,a02_across_0_order,a02,development,across,0,order,Mara referred Oscar to Hugo and Rose.,"In the sentence, was Oscar mentioned before Hugo?",Yes,No,No,-15.796874253617876,False
+qwen7b,a02_across_1_agent,a02,development,across,1,agent,Mara referred Hugo to Oscar and Rose.,Did Rose refer someone?,No,No,No,23.359373857485974,True
+qwen7b,a02_across_1_theme,a02,development,across,1,theme,Mara referred Hugo to Oscar and Rose.,Was Oscar referred to someone?,No,No,No,13.74999883903289,True
+qwen7b,a02_across_1_goal,a02,development,across,1,goal,Mara referred Hugo to Oscar and Rose.,Was someone referred to Oscar?,Yes,Yes,Yes,11.390626705556791,True
+qwen7b,a02_across_1_order,a02,development,across,1,order,Mara referred Hugo to Oscar and Rose.,"In the sentence, was Oscar mentioned before Hugo?",No,No,No,18.29687417845786,True
+llama3b,a01_within_0_agent,a01,development,within,0,agent,Ada recommended Boris and Clara to Neil.,Did Ada recommend someone?,Yes,Yes,Yes,9.015613011654253,True
+llama3b,a01_within_0_theme,a01,development,within,0,theme,Ada recommended Boris and Clara to Neil.,Was Boris recommended to someone?,Yes,Yes,Yes,5.437491144359225,True
+llama3b,a01_within_0_goal,a01,development,within,0,goal,Ada recommended Boris and Clara to Neil.,Was someone recommended to Boris?,No,Yes,Yes,-5.187491115920025,False
+llama3b,a01_within_0_order,a01,development,within,0,order,Ada recommended Boris and Clara to Neil.,"In the sentence, was Boris mentioned before Clara?",Yes,Yes,Yes,1.3438022625424324,True
+llama3b,a01_within_1_agent,a01,development,within,1,agent,Ada recommended Clara and Boris to Neil.,Did Ada recommend someone?,Yes,Yes,Yes,9.15623744882891,True
+llama3b,a01_within_1_theme,a01,development,within,1,theme,Ada recommended Clara and Boris to Neil.,Was Boris recommended to someone?,Yes,Yes,Yes,5.656241109744201,True
+llama3b,a01_within_1_goal,a01,development,within,1,goal,Ada recommended Clara and Boris to Neil.,Was someone recommended to Boris?,No,Yes,Yes,-3.07813366375483,False
+llama3b,a01_within_1_order,a01,development,within,1,order,Ada recommended Clara and Boris to Neil.,"In the sentence, was Boris mentioned before Clara?",No,Yes,Yes,-0.26568368134428866,False
+llama3b,a01_across_0_agent,a01,development,across,0,agent,Ada recommended Boris to Clara and Neil.,Did Ada recommend someone?,Yes,Yes,Yes,9.203102248624429,True
+llama3b,a01_across_0_theme,a01,development,across,0,theme,Ada recommended Boris to Clara and Neil.,Was Boris recommended to someone?,Yes,Yes,Yes,8.718736952788543,True
+llama3b,a01_across_0_goal,a01,development,across,0,goal,Ada recommended Boris to Clara and Neil.,Was someone recommended to Boris?,No,Yes,Yes,-7.656220626169397,False
+llama3b,a01_across_0_order,a01,development,across,0,order,Ada recommended Boris to Clara and Neil.,"In the sentence, was Boris mentioned before Clara?",Yes,Yes,Yes,2.031289951507638,True
+llama3b,a01_across_1_agent,a01,development,across,1,agent,Ada recommended Clara to Boris and Neil.,Did Ada recommend someone?,Yes,Yes,Yes,8.999976869417143,True
+llama3b,a01_across_1_theme,a01,development,across,1,theme,Ada recommended Clara to Boris and Neil.,Was Boris recommended to someone?,No,Yes,Yes,-4.796857935659805,False
+llama3b,a01_across_1_goal,a01,development,across,1,goal,Ada recommended Clara to Boris and Neil.,Was someone recommended to Boris?,Yes,Yes,Yes,7.734358953172485,True
+llama3b,a01_across_1_order,a01,development,across,1,order,Ada recommended Clara to Boris and Neil.,"In the sentence, was Boris mentioned before Clara?",No,Yes,Yes,-0.34379774294095355,False
+llama3b,a02_within_0_agent,a02,development,within,0,agent,Mara referred Oscar and Hugo to Rose.,Did Rose refer someone?,No,No,No,0.43748444303536616,True
+llama3b,a02_within_0_theme,a02,development,within,0,theme,Mara referred Oscar and Hugo to Rose.,Was Oscar referred to someone?,Yes,Yes,Yes,4.671823306309459,True
+llama3b,a02_within_0_goal,a02,development,within,0,goal,Mara referred Oscar and Hugo to Rose.,Was someone referred to Oscar?,No,Yes,Yes,-2.73437165525171,False
+llama3b,a02_within_0_order,a02,development,within,0,order,Mara referred Oscar and Hugo to Rose.,"In the sentence, was Oscar mentioned before Hugo?",Yes,Yes,Yes,0.7344106522557219,True
+llama3b,a02_within_1_agent,a02,development,within,1,agent,Mara referred Hugo and Oscar to Rose.,Did Rose refer someone?,No,No,No,0.7187301959870389,True
+llama3b,a02_within_1_theme,a02,development,within,1,theme,Mara referred Hugo and Oscar to Rose.,Was Oscar referred to someone?,Yes,Yes,Yes,3.6405976905730526,True
+llama3b,a02_within_1_goal,a02,development,within,1,goal,Mara referred Hugo and Oscar to Rose.,Was someone referred to Oscar?,No,Yes,Yes,-2.140627918903327,False
+llama3b,a02_within_1_order,a02,development,within,1,order,Mara referred Hugo and Oscar to Rose.,"In the sentence, was Oscar mentioned before Hugo?",No,No,No,0.8593305184545663,True
+llama3b,a02_across_0_agent,a02,development,across,0,agent,Mara referred Oscar to Hugo and Rose.,Did Rose refer someone?,No,No,No,1.749971328881358,True
+llama3b,a02_across_0_theme,a02,development,across,0,theme,Mara referred Oscar to Hugo and Rose.,Was Oscar referred to someone?,Yes,Yes,Yes,6.7186939762071916,True
+llama3b,a02_across_0_goal,a02,development,across,0,goal,Mara referred Oscar to Hugo and Rose.,Was someone referred to Oscar?,No,Yes,Yes,-4.374990803323655,False
+llama3b,a02_across_0_order,a02,development,across,0,order,Mara referred Oscar to Hugo and Rose.,"In the sentence, was Oscar mentioned before Hugo?",Yes,Yes,Yes,0.9062840453697127,True
+llama3b,a02_across_1_agent,a02,development,across,1,agent,Mara referred Hugo to Oscar and Rose.,Did Rose refer someone?,No,No,No,1.9530883444050637,True
+llama3b,a02_across_1_theme,a02,development,across,1,theme,Mara referred Hugo to Oscar and Rose.,Was Oscar referred to someone?,No,No,No,1.2343538008257653,True
+llama3b,a02_across_1_goal,a02,development,across,1,goal,Mara referred Hugo to Oscar and Rose.,Was someone referred to Oscar?,Yes,Yes,Yes,4.32811092931416,True
+llama3b,a02_across_1_order,a02,development,across,1,order,Mara referred Hugo to Oscar and Rose.,"In the sentence, was Oscar mentioned before Hugo?",No,Yes,Yes,-0.15628525451985453,False

@@ -1,0 +1,4453 @@
+{
+  "model": "llama3b",
+  "rows": [
+    {
+      "id": "a01_within_0_agent",
+      "family": "a01",
+      "split": "development",
+      "frame": "within",
+      "swap": 0,
+      "question_key": "agent",
+      "sentence": "Ada recommended Boris and Clara to Neil.",
+      "question": "Did Ada recommend someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Boris",
+          "Clara"
+        ],
+        "goal": [
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 31.29691567922441,
+        "No": 22.281302667570156
+      },
+      "class_probability": {
+        "Yes": 0.9998409031919424,
+        "No": 0.00012147863902675228
+      },
+      "gold_margin": 9.015613011654253,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 31.296875
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 22.28125
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 21.171875
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 20.578125
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 18.53125
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.90625
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 17.203125
+        },
+        {
+          "id": 60844,
+          "token": "_yes",
+          "logit": 17.046875
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 16.984375
+        },
+        {
+          "id": 7566,
+          "token": " Yes",
+          "logit": 16.8125
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 16.4375
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.4375
+        },
+        {
+          "id": 41898,
+          "token": ".Yes",
+          "logit": 16.375
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 16.359375
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.328125
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 16.0625
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 16.046875
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 16.0
+        },
+        {
+          "id": 98171,
+          "token": ",Yes",
+          "logit": 15.984375
+        },
+        {
+          "id": 87575,
+          "token": "Ye",
+          "logit": 15.8359375
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004074459076956279
+    },
+    {
+      "id": "a01_within_0_theme",
+      "family": "a01",
+      "split": "development",
+      "frame": "within",
+      "swap": 0,
+      "question_key": "theme",
+      "sentence": "Ada recommended Boris and Clara to Neil.",
+      "question": "Was Boris recommended to someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Boris",
+          "Clara"
+        ],
+        "goal": [
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.06256898025619,
+        "No": 24.625077835896967
+      },
+      "class_probability": {
+        "Yes": 0.9955851199078823,
+        "No": 0.004331177652324939
+      },
+      "gold_margin": 5.437491144359225,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.0625
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 24.625
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.46875
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.359375
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.890625
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 17.703125
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.640625
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 17.046875
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.015625
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 16.546875
+        },
+        {
+          "id": 96447,
+          "token": "Ada",
+          "logit": 16.53125
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.375
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.328125
+        },
+        {
+          "id": 16,
+          "token": "1",
+          "logit": 16.3125
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 16.21875
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 16.21875
+        },
+        {
+          "id": 60844,
+          "token": "_yes",
+          "logit": 16.203125
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 16.140625
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 16.125
+        },
+        {
+          "id": 87575,
+          "token": "Ye",
+          "logit": 16.03125
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004234184753526881
+    },
+    {
+      "id": "a01_within_0_goal",
+      "family": "a01",
+      "split": "development",
+      "frame": "within",
+      "swap": 0,
+      "question_key": "goal",
+      "sentence": "Ada recommended Boris and Clara to Neil.",
+      "question": "Was someone recommended to Boris?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Boris",
+          "Clara"
+        ],
+        "goal": [
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 29.843809273825435,
+        "No": 24.65631815790541
+      },
+      "class_probability": {
+        "Yes": 0.9943129208221275,
+        "No": 0.005554235838899407
+      },
+      "gold_margin": -5.187491115920025,
+      "pass_competence": false,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 29.84375
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 24.65625
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.09375
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.234375
+        },
+        {
+          "id": 96447,
+          "token": "Ada",
+          "logit": 18.484375
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 17.984375
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.90625
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.84375
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.546875
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 16.671875
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.640625
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.625
+        },
+        {
+          "id": 3947,
+          "token": "There",
+          "logit": 16.578125
+        },
+        {
+          "id": 15546,
+          "token": "Who",
+          "logit": 16.46875
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 16.46875
+        },
+        {
+          "id": 16,
+          "token": "1",
+          "logit": 16.4375
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 16.359375
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 16.34375
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 16.296875
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 16.296875
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004047841689294049
+    },
+    {
+      "id": "a01_within_0_order",
+      "family": "a01",
+      "split": "development",
+      "frame": "within",
+      "swap": 0,
+      "question_key": "order",
+      "sentence": "Ada recommended Boris and Clara to Neil.",
+      "question": "In the sentence, was Boris mentioned before Clara?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Boris",
+          "Clara"
+        ],
+        "goal": [
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.640698050778372,
+        "No": 29.29689578823594
+      },
+      "class_probability": {
+        "Yes": 0.7930154198899582,
+        "No": 0.20685962102454422
+      },
+      "gold_margin": 1.3438022625424324,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.640625
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 29.296875
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 21.109375
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 20.359375
+        },
+        {
+          "id": 33,
+          "token": "B",
+          "logit": 18.890625
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 18.515625
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.40625
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 18.109375
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 18.0
+        },
+        {
+          "id": 9173,
+          "token": "NO",
+          "logit": 17.953125
+        },
+        {
+          "id": 99076,
+          "token": "-No",
+          "logit": 17.859375
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.765625
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.703125
+        },
+        {
+          "id": 7184,
+          "token": "Now",
+          "logit": 17.6875
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 17.59375
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 17.28125
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.21875
+        },
+        {
+          "id": 3947,
+          "token": "There",
+          "logit": 17.15625
+        },
+        {
+          "id": 644,
+          "token": "In",
+          "logit": 17.15625
+        },
+        {
+          "id": 10438,
+          "token": "Before",
+          "logit": 17.125
+        }
+      ],
+      "max_reconstruction_relative_error": 0.00042027549673468416
+    },
+    {
+      "id": "a01_within_1_agent",
+      "family": "a01",
+      "split": "development",
+      "frame": "within",
+      "swap": 1,
+      "question_key": "agent",
+      "sentence": "Ada recommended Clara and Boris to Neil.",
+      "question": "Did Ada recommend someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Clara",
+          "Boris"
+        ],
+        "goal": [
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 31.23441895257952,
+        "No": 22.07818150375061
+      },
+      "class_probability": {
+        "Yes": 0.9998580473055713,
+        "No": 0.0001055443397238031
+      },
+      "gold_margin": 9.15623744882891,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 31.234375
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 22.078125
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 21.1875
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 20.453125
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 18.484375
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.859375
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 17.078125
+        },
+        {
+          "id": 60844,
+          "token": "_yes",
+          "logit": 16.9375
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 16.859375
+        },
+        {
+          "id": 7566,
+          "token": " Yes",
+          "logit": 16.78125
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 16.484375
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 16.375
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.34375
+        },
+        {
+          "id": 41898,
+          "token": ".Yes",
+          "logit": 16.3125
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.28125
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 15.9375
+        },
+        {
+          "id": 98171,
+          "token": ",Yes",
+          "logit": 15.9296875
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 15.9296875
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 15.921875
+        },
+        {
+          "id": 16,
+          "token": "1",
+          "logit": 15.8203125
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004882681644185039
+    },
+    {
+      "id": "a01_within_1_theme",
+      "family": "a01",
+      "split": "development",
+      "frame": "within",
+      "swap": 1,
+      "question_key": "theme",
+      "sentence": "Ada recommended Clara and Boris to Neil.",
+      "question": "Was Boris recommended to someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Clara",
+          "Boris"
+        ],
+        "goal": [
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.250068944976935,
+        "No": 24.593827835232734
+      },
+      "class_probability": {
+        "Yes": 0.9964491735751969,
+        "No": 0.003483219548357059
+      },
+      "gold_margin": 5.656241109744201,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.25
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 24.59375
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.65625
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.46875
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 18.015625
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.703125
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 17.53125
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 17.0625
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 16.78125
+        },
+        {
+          "id": 16,
+          "token": "1",
+          "logit": 16.53125
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 16.40625
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.3125
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.28125
+        },
+        {
+          "id": 60844,
+          "token": "_yes",
+          "logit": 16.265625
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 16.234375
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 16.203125
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 16.109375
+        },
+        {
+          "id": 87575,
+          "token": "Ye",
+          "logit": 16.09375
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 15.9921875
+        },
+        {
+          "id": 96447,
+          "token": "Ada",
+          "logit": 15.9765625
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004334095506897138
+    },
+    {
+      "id": "a01_within_1_goal",
+      "family": "a01",
+      "split": "development",
+      "frame": "within",
+      "swap": 1,
+      "question_key": "goal",
+      "sentence": "Ada recommended Clara and Boris to Neil.",
+      "question": "Was someone recommended to Boris?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Clara",
+          "Boris"
+        ],
+        "goal": [
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 29.84380065576756,
+        "No": 26.76566699201273
+      },
+      "class_probability": {
+        "Yes": 0.9557356441308128,
+        "No": 0.04400695493719028
+      },
+      "gold_margin": -3.07813366375483,
+      "pass_competence": false,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 29.84375
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 26.765625
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 19.9375
+        },
+        {
+          "id": 96447,
+          "token": "Ada",
+          "logit": 19.9375
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.4375
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.28125
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 18.28125
+        },
+        {
+          "id": 65217,
+          "token": "Cla",
+          "logit": 18.15625
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 18.078125
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.96875
+        },
+        {
+          "id": 3947,
+          "token": "There",
+          "logit": 17.234375
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.15625
+        },
+        {
+          "id": 2654,
+          "token": "Ad",
+          "logit": 17.140625
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 17.125
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 17.078125
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 17.015625
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 16.953125
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 16.953125
+        },
+        {
+          "id": 15546,
+          "token": "Who",
+          "logit": 16.890625
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 16.890625
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0003937181839783492
+    },
+    {
+      "id": "a01_within_1_order",
+      "family": "a01",
+      "split": "development",
+      "frame": "within",
+      "swap": 1,
+      "question_key": "order",
+      "sentence": "Ada recommended Clara and Boris to Neil.",
+      "question": "In the sentence, was Boris mentioned before Clara?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Clara",
+          "Boris"
+        ],
+        "goal": [
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.3907014620753,
+        "No": 30.12501778073101
+      },
+      "class_probability": {
+        "Yes": 0.5659571299713547,
+        "No": 0.4339089206790859
+      },
+      "gold_margin": -0.26568368134428866,
+      "pass_competence": false,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.390625
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 30.125
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.90625
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 20.15625
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 19.1875
+        },
+        {
+          "id": 9173,
+          "token": "NO",
+          "logit": 18.703125
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.5625
+        },
+        {
+          "id": 99076,
+          "token": "-No",
+          "logit": 18.4375
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 18.375
+        },
+        {
+          "id": 7184,
+          "token": "Now",
+          "logit": 18.171875
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 18.125
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 17.875
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.75
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.484375
+        },
+        {
+          "id": 5618,
+          "token": "Please",
+          "logit": 17.453125
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.453125
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.4375
+        },
+        {
+          "id": 2688,
+          "token": "Not",
+          "logit": 17.4375
+        },
+        {
+          "id": 33,
+          "token": "B",
+          "logit": 17.421875
+        },
+        {
+          "id": 31140,
+          "token": "Unfortunately",
+          "logit": 17.421875
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004273483641498533
+    },
+    {
+      "id": "a01_across_0_agent",
+      "family": "a01",
+      "split": "development",
+      "frame": "across",
+      "swap": 0,
+      "question_key": "agent",
+      "sentence": "Ada recommended Boris to Clara and Neil.",
+      "question": "Did Ada recommend someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Boris"
+        ],
+        "goal": [
+          "Clara",
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.843799800064506,
+        "No": 21.640697551440077
+      },
+      "class_probability": {
+        "Yes": 0.9998597328615899,
+        "No": 0.00010071230957900418
+      },
+      "gold_margin": 9.203102248624429,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.84375
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 21.640625
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.921875
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 20.078125
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 18.28125
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.59375
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 16.84375
+        },
+        {
+          "id": 60844,
+          "token": "_yes",
+          "logit": 16.796875
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 16.5
+        },
+        {
+          "id": 7566,
+          "token": " Yes",
+          "logit": 16.5
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 16.25
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 16.171875
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.09375
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.078125
+        },
+        {
+          "id": 41898,
+          "token": ".Yes",
+          "logit": 16.046875
+        },
+        {
+          "id": 16,
+          "token": "1",
+          "logit": 15.875
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 15.828125
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 15.6328125
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 15.625
+        },
+        {
+          "id": 98171,
+          "token": ",Yes",
+          "logit": 15.59375
+        }
+      ],
+      "max_reconstruction_relative_error": 0.00047746010454596317
+    },
+    {
+      "id": "a01_across_0_theme",
+      "family": "a01",
+      "split": "development",
+      "frame": "across",
+      "swap": 0,
+      "question_key": "theme",
+      "sentence": "Ada recommended Boris to Clara and Neil.",
+      "question": "Was Boris recommended to someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Boris"
+        ],
+        "goal": [
+          "Clara",
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 31.17193064360987,
+        "No": 22.453193690821326
+      },
+      "class_probability": {
+        "Yes": 0.9998050568905408,
+        "No": 0.00016346168870980013
+      },
+      "gold_margin": 8.718736952788543,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 31.171875
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 22.453125
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 21.359375
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 20.078125
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 18.484375
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 18.0
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 17.5
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 17.140625
+        },
+        {
+          "id": 7566,
+          "token": " Yes",
+          "logit": 17.03125
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 16.8125
+        },
+        {
+          "id": 60844,
+          "token": "_yes",
+          "logit": 16.75
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 16.53125
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.34375
+        },
+        {
+          "id": 41898,
+          "token": ".Yes",
+          "logit": 16.25
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.1875
+        },
+        {
+          "id": 87575,
+          "token": "Ye",
+          "logit": 16.03125
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 15.953125
+        },
+        {
+          "id": 16,
+          "token": "1",
+          "logit": 15.8828125
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 15.765625
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 15.6875
+        }
+      ],
+      "max_reconstruction_relative_error": 0.00044284660799232553
+    },
+    {
+      "id": "a01_across_0_goal",
+      "family": "a01",
+      "split": "development",
+      "frame": "across",
+      "swap": 0,
+      "question_key": "goal",
+      "sentence": "Ada recommended Boris to Clara and Neil.",
+      "question": "Was someone recommended to Boris?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Boris"
+        ],
+        "goal": [
+          "Clara",
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.359440992609304,
+        "No": 22.703220366439908
+      },
+      "class_probability": {
+        "Yes": 0.9994748843741261,
+        "No": 0.0004728435999173673
+      },
+      "gold_margin": -7.656220626169397,
+      "pass_competence": false,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.359375
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 22.703125
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.71875
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.421875
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.859375
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.78125
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 17.28125
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 16.84375
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 16.71875
+        },
+        {
+          "id": 96447,
+          "token": "Ada",
+          "logit": 16.59375
+        },
+        {
+          "id": 16,
+          "token": "1",
+          "logit": 16.34375
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.328125
+        },
+        {
+          "id": 60844,
+          "token": "_yes",
+          "logit": 16.328125
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.296875
+        },
+        {
+          "id": 7566,
+          "token": " Yes",
+          "logit": 16.296875
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 16.109375
+        },
+        {
+          "id": 3947,
+          "token": "There",
+          "logit": 16.046875
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 15.859375
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 15.8359375
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 15.828125
+        }
+      ],
+      "max_reconstruction_relative_error": 0.00044284660799232553
+    },
+    {
+      "id": "a01_across_0_order",
+      "family": "a01",
+      "split": "development",
+      "frame": "across",
+      "swap": 0,
+      "question_key": "order",
+      "sentence": "Ada recommended Boris to Clara and Neil.",
+      "question": "In the sentence, was Boris mentioned before Clara?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Boris"
+        ],
+        "goal": [
+          "Clara",
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.453191644207976,
+        "No": 28.421901692700338
+      },
+      "class_probability": {
+        "Yes": 0.8839267370683683,
+        "No": 0.1159413234817224
+      },
+      "gold_margin": 2.031289951507638,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.453125
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 28.421875
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.828125
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 20.15625
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.46875
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.984375
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 17.890625
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 17.734375
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.703125
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.515625
+        },
+        {
+          "id": 99076,
+          "token": "-No",
+          "logit": 17.46875
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 17.453125
+        },
+        {
+          "id": 33,
+          "token": "B",
+          "logit": 17.28125
+        },
+        {
+          "id": 9173,
+          "token": "NO",
+          "logit": 17.234375
+        },
+        {
+          "id": 7184,
+          "token": "Now",
+          "logit": 17.203125
+        },
+        {
+          "id": 11458,
+          "token": "However",
+          "logit": 17.15625
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.03125
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 16.984375
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.984375
+        },
+        {
+          "id": 644,
+          "token": "In",
+          "logit": 16.96875
+        }
+      ],
+      "max_reconstruction_relative_error": 0.00044284660799232553
+    },
+    {
+      "id": "a01_across_1_agent",
+      "family": "a01",
+      "split": "development",
+      "frame": "across",
+      "swap": 1,
+      "question_key": "agent",
+      "sentence": "Ada recommended Clara to Boris and Neil.",
+      "question": "Did Ada recommend someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Clara"
+        ],
+        "goal": [
+          "Boris",
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.79692556297004,
+        "No": 21.796948693552896
+      },
+      "class_probability": {
+        "Yes": 0.999836358934991,
+        "No": 0.00012339246328149344
+      },
+      "gold_margin": 8.999976869417143,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.796875
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 21.796875
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.890625
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 20.046875
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 18.21875
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.546875
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 16.859375
+        },
+        {
+          "id": 60844,
+          "token": "_yes",
+          "logit": 16.703125
+        },
+        {
+          "id": 7566,
+          "token": " Yes",
+          "logit": 16.4375
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 16.4375
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 16.203125
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 16.109375
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.09375
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.078125
+        },
+        {
+          "id": 41898,
+          "token": ".Yes",
+          "logit": 15.9453125
+        },
+        {
+          "id": 16,
+          "token": "1",
+          "logit": 15.9140625
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 15.7578125
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 15.640625
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 15.6328125
+        },
+        {
+          "id": 98171,
+          "token": ",Yes",
+          "logit": 15.5
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004408959374220477
+    },
+    {
+      "id": "a01_across_1_theme",
+      "family": "a01",
+      "split": "development",
+      "frame": "across",
+      "swap": 1,
+      "question_key": "theme",
+      "sentence": "Ada recommended Clara to Boris and Neil.",
+      "question": "Was Boris recommended to someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Clara"
+        ],
+        "goal": [
+          "Boris",
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.00006775396049,
+        "No": 25.203209818300685
+      },
+      "class_probability": {
+        "Yes": 0.9917230117627744,
+        "No": 0.008187314224954155
+      },
+      "gold_margin": -4.796857935659805,
+      "pass_competence": false,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.0
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 25.203125
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.390625
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.140625
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 17.84375
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.8125
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.75
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.09375
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 16.953125
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.65625
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 16.625
+        },
+        {
+          "id": 16,
+          "token": "1",
+          "logit": 16.59375
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 16.4375
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.421875
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 16.265625
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 16.25
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 16.171875
+        },
+        {
+          "id": 60844,
+          "token": "_yes",
+          "logit": 16.125
+        },
+        {
+          "id": 3947,
+          "token": "There",
+          "logit": 16.03125
+        },
+        {
+          "id": 87575,
+          "token": "Ye",
+          "logit": 15.9765625
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004408959374220477
+    },
+    {
+      "id": "a01_across_1_goal",
+      "family": "a01",
+      "split": "development",
+      "frame": "across",
+      "swap": 1,
+      "question_key": "goal",
+      "sentence": "Ada recommended Clara to Boris and Neil.",
+      "question": "Was someone recommended to Boris?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Clara"
+        ],
+        "goal": [
+          "Boris",
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.468806505266603,
+        "No": 22.734447552094117
+      },
+      "class_probability": {
+        "Yes": 0.9995158930800038,
+        "No": 0.0004373209568956567
+      },
+      "gold_margin": 7.734358953172485,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.46875
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 22.734375
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.671875
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.46875
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.953125
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.71875
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 17.265625
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 16.890625
+        },
+        {
+          "id": 96447,
+          "token": "Ada",
+          "logit": 16.609375
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 16.46875
+        },
+        {
+          "id": 60844,
+          "token": "_yes",
+          "logit": 16.421875
+        },
+        {
+          "id": 7566,
+          "token": " Yes",
+          "logit": 16.25
+        },
+        {
+          "id": 16,
+          "token": "1",
+          "logit": 16.234375
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.21875
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 16.203125
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.171875
+        },
+        {
+          "id": 3947,
+          "token": "There",
+          "logit": 15.9765625
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 15.78125
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 15.7578125
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 15.734375
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004857986348979182
+    },
+    {
+      "id": "a01_across_1_order",
+      "family": "a01",
+      "split": "development",
+      "frame": "across",
+      "swap": 1,
+      "question_key": "order",
+      "sentence": "Ada recommended Clara to Boris and Neil.",
+      "question": "In the sentence, was Boris mentioned before Clara?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Ada",
+        "theme": [
+          "Clara"
+        ],
+        "goal": [
+          "Boris",
+          "Neil"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.625063434433443,
+        "No": 30.28126569149249
+      },
+      "class_probability": {
+        "Yes": 0.5850370420298426,
+        "No": 0.41483357761045714
+      },
+      "gold_margin": -0.34379774294095355,
+      "pass_competence": false,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.625
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 30.28125
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.953125
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 20.3125
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 19.21875
+        },
+        {
+          "id": 9173,
+          "token": "NO",
+          "logit": 18.84375
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.796875
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 18.5625
+        },
+        {
+          "id": 99076,
+          "token": "-No",
+          "logit": 18.5
+        },
+        {
+          "id": 7184,
+          "token": "Now",
+          "logit": 18.359375
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 18.328125
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 18.140625
+        },
+        {
+          "id": 11458,
+          "token": "However",
+          "logit": 17.796875
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.765625
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.6875
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.671875
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.65625
+        },
+        {
+          "id": 2688,
+          "token": "Not",
+          "logit": 17.65625
+        },
+        {
+          "id": 63295,
+          "token": "Neither",
+          "logit": 17.640625
+        },
+        {
+          "id": 31140,
+          "token": "Unfortunately",
+          "logit": 17.609375
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004408959374220477
+    },
+    {
+      "id": "a02_within_0_agent",
+      "family": "a02",
+      "split": "development",
+      "frame": "within",
+      "swap": 0,
+      "question_key": "agent",
+      "sentence": "Mara referred Oscar and Hugo to Rose.",
+      "question": "Did Rose refer someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Oscar",
+          "Hugo"
+        ],
+        "goal": [
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 2822,
+      "argmax_token": "No",
+      "actual_class": "No",
+      "class_logit_logsumexp": {
+        "Yes": 28.937572059417455,
+        "No": 29.37505650245282
+      },
+      "class_probability": {
+        "Yes": 0.39226269372791317,
+        "No": 0.6075388935350344
+      },
+      "gold_margin": 0.43748444303536616,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 29.375
+        },
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 28.9375
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 19.59375
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 19.390625
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 18.84375
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.375
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 18.09375
+        },
+        {
+          "id": 99076,
+          "token": "-No",
+          "logit": 18.09375
+        },
+        {
+          "id": 9173,
+          "token": "NO",
+          "logit": 18.03125
+        },
+        {
+          "id": 58524,
+          "token": "Rose",
+          "logit": 17.9375
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.671875
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.5
+        },
+        {
+          "id": 2688,
+          "token": "Not",
+          "logit": 17.3125
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.25
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 17.21875
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.203125
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 17.203125
+        },
+        {
+          "id": 19701,
+          "token": "Sorry",
+          "logit": 17.171875
+        },
+        {
+          "id": 7184,
+          "token": "Now",
+          "logit": 17.125
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 17.125
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0005160313053724825
+    },
+    {
+      "id": "a02_within_0_theme",
+      "family": "a02",
+      "split": "development",
+      "frame": "within",
+      "swap": 0,
+      "question_key": "theme",
+      "sentence": "Mara referred Oscar and Hugo to Rose.",
+      "question": "Was Oscar referred to someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Oscar",
+          "Hugo"
+        ],
+        "goal": [
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.203182214434207,
+        "No": 25.531358908124748
+      },
+      "class_probability": {
+        "Yes": 0.9906599819469638,
+        "No": 0.009267818873251097
+      },
+      "gold_margin": 4.671823306309459,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.203125
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 25.53125
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.421875
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.171875
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 17.859375
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.828125
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.203125
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 16.984375
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 16.921875
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 16.8125
+        },
+        {
+          "id": 46,
+          "token": "O",
+          "logit": 16.515625
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.484375
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 16.484375
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 16.484375
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 16.453125
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 16.40625
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 16.328125
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.21875
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 16.046875
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 16.03125
+        }
+      ],
+      "max_reconstruction_relative_error": 0.000390733802287482
+    },
+    {
+      "id": "a02_within_0_goal",
+      "family": "a02",
+      "split": "development",
+      "frame": "within",
+      "swap": 0,
+      "question_key": "goal",
+      "sentence": "Mara referred Oscar and Hugo to Rose.",
+      "question": "Was someone referred to Oscar?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Oscar",
+          "Hugo"
+        ],
+        "goal": [
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 29.73441850210258,
+        "No": 27.00004684685087
+      },
+      "class_probability": {
+        "Yes": 0.9387956662130323,
+        "No": 0.060960504813757595
+      },
+      "gold_margin": -2.73437165525171,
+      "pass_competence": false,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 29.734375
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 27.0
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 19.671875
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.0
+        },
+        {
+          "id": 44,
+          "token": "M",
+          "logit": 18.96875
+        },
+        {
+          "id": 58524,
+          "token": "Rose",
+          "logit": 18.859375
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.171875
+        },
+        {
+          "id": 12331,
+          "token": "Mar",
+          "logit": 17.9375
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.859375
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.640625
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.53125
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 17.5
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 17.40625
+        },
+        {
+          "id": 3947,
+          "token": "There",
+          "logit": 17.15625
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.0625
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 17.046875
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 17.03125
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.0
+        },
+        {
+          "id": 2688,
+          "token": "Not",
+          "logit": 16.96875
+        },
+        {
+          "id": 7456,
+          "token": "Only",
+          "logit": 16.890625
+        }
+      ],
+      "max_reconstruction_relative_error": 0.00041935938256322996
+    },
+    {
+      "id": "a02_within_0_order",
+      "family": "a02",
+      "split": "development",
+      "frame": "within",
+      "swap": 0,
+      "question_key": "order",
+      "sentence": "Mara referred Oscar and Hugo to Rose.",
+      "question": "In the sentence, was Oscar mentioned before Hugo?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Oscar",
+          "Hugo"
+        ],
+        "goal": [
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.734428433194196,
+        "No": 30.000017780938474
+      },
+      "class_probability": {
+        "Yes": 0.6757106938669996,
+        "No": 0.32419797545156537
+      },
+      "gold_margin": 0.7344106522557219,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.734375
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 30.0
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.890625
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 20.015625
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 19.0625
+        },
+        {
+          "id": 9173,
+          "token": "NO",
+          "logit": 18.625
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 18.296875
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.265625
+        },
+        {
+          "id": 644,
+          "token": "In",
+          "logit": 17.984375
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.953125
+        },
+        {
+          "id": 99076,
+          "token": "-No",
+          "logit": 17.765625
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 17.6875
+        },
+        {
+          "id": 46,
+          "token": "O",
+          "logit": 17.640625
+        },
+        {
+          "id": 7184,
+          "token": "Now",
+          "logit": 17.625
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.53125
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.28125
+        },
+        {
+          "id": 2688,
+          "token": "Not",
+          "logit": 17.28125
+        },
+        {
+          "id": 31140,
+          "token": "Unfortunately",
+          "logit": 17.25
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.203125
+        },
+        {
+          "id": 11439,
+          "token": "According",
+          "logit": 17.1875
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0003941841171552893
+    },
+    {
+      "id": "a02_within_1_agent",
+      "family": "a02",
+      "split": "development",
+      "frame": "within",
+      "swap": 1,
+      "question_key": "agent",
+      "sentence": "Mara referred Hugo and Oscar to Rose.",
+      "question": "Did Rose refer someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Hugo",
+          "Oscar"
+        ],
+        "goal": [
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 2822,
+      "argmax_token": "No",
+      "actual_class": "No",
+      "class_logit_logsumexp": {
+        "Yes": 29.00006664637648,
+        "No": 29.71879684236352
+      },
+      "class_probability": {
+        "Yes": 0.32761602408501295,
+        "No": 0.6722111216726875
+      },
+      "gold_margin": 0.7187301959870389,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 29.71875
+        },
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 29.0
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 19.75
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 19.375
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 18.859375
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.453125
+        },
+        {
+          "id": 99076,
+          "token": "-No",
+          "logit": 18.328125
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 18.203125
+        },
+        {
+          "id": 9173,
+          "token": "NO",
+          "logit": 18.125
+        },
+        {
+          "id": 58524,
+          "token": "Rose",
+          "logit": 17.8125
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.78125
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.625
+        },
+        {
+          "id": 2688,
+          "token": "Not",
+          "logit": 17.46875
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 17.390625
+        },
+        {
+          "id": 7184,
+          "token": "Now",
+          "logit": 17.359375
+        },
+        {
+          "id": 19701,
+          "token": "Sorry",
+          "logit": 17.359375
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 17.296875
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.296875
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 17.25
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 17.203125
+        }
+      ],
+      "max_reconstruction_relative_error": 0.00047103926085015704
+    },
+    {
+      "id": "a02_within_1_theme",
+      "family": "a02",
+      "split": "development",
+      "frame": "within",
+      "swap": 1,
+      "question_key": "theme",
+      "sentence": "Mara referred Hugo and Oscar to Rose.",
+      "question": "Was Oscar referred to someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Hugo",
+          "Oscar"
+        ],
+        "goal": [
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.578178624810835,
+        "No": 26.937580934237783
+      },
+      "class_probability": {
+        "Yes": 0.9743668688991384,
+        "No": 0.0255641301843927
+      },
+      "gold_margin": 3.6405976905730526,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.578125
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 26.9375
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.734375
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.65625
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.015625
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.984375
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.578125
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 17.515625
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.171875
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 17.15625
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 17.140625
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.84375
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 16.78125
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 16.78125
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 16.765625
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 16.640625
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.5
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 16.4375
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 16.421875
+        },
+        {
+          "id": 3947,
+          "token": "There",
+          "logit": 16.3125
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004180763080151182
+    },
+    {
+      "id": "a02_within_1_goal",
+      "family": "a02",
+      "split": "development",
+      "frame": "within",
+      "swap": 1,
+      "question_key": "goal",
+      "sentence": "Mara referred Hugo and Oscar to Rose.",
+      "question": "Was someone referred to Oscar?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Hugo",
+          "Oscar"
+        ],
+        "goal": [
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.125047619083297,
+        "No": 27.98441970017997
+      },
+      "class_probability": {
+        "Yes": 0.8946304105653626,
+        "No": 0.10519152802674771
+      },
+      "gold_margin": -2.140627918903327,
+      "pass_competence": false,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.125
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 27.984375
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.15625
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.421875
+        },
+        {
+          "id": 44,
+          "token": "M",
+          "logit": 19.21875
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.265625
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 18.078125
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 18.03125
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 17.96875
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.859375
+        },
+        {
+          "id": 12331,
+          "token": "Mar",
+          "logit": 17.75
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.65625
+        },
+        {
+          "id": 58524,
+          "token": "Rose",
+          "logit": 17.578125
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 17.46875
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.375
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.359375
+        },
+        {
+          "id": 7456,
+          "token": "Only",
+          "logit": 17.234375
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 17.203125
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 17.203125
+        },
+        {
+          "id": 3947,
+          "token": "There",
+          "logit": 17.171875
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004501211646296743
+    },
+    {
+      "id": "a02_within_1_order",
+      "family": "a02",
+      "split": "development",
+      "frame": "within",
+      "swap": 1,
+      "question_key": "order",
+      "sentence": "Mara referred Hugo and Oscar to Rose.",
+      "question": "In the sentence, was Oscar mentioned before Hugo?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Hugo",
+          "Oscar"
+        ],
+        "goal": [
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 2822,
+      "argmax_token": "No",
+      "actual_class": "No",
+      "class_logit_logsumexp": {
+        "Yes": 30.390685419414094,
+        "No": 31.25001593786866
+      },
+      "class_probability": {
+        "Yes": 0.2974538789898713,
+        "No": 0.7024608729697774
+      },
+      "gold_margin": 0.8593305184545663,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 31.25
+        },
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.390625
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.671875
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 20.203125
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.828125
+        },
+        {
+          "id": 9173,
+          "token": "NO",
+          "logit": 19.75
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 19.0
+        },
+        {
+          "id": 99076,
+          "token": "-No",
+          "logit": 18.671875
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.59375
+        },
+        {
+          "id": 7184,
+          "token": "Now",
+          "logit": 18.53125
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 18.296875
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 18.09375
+        },
+        {
+          "id": 42257,
+          "token": ">No",
+          "logit": 18.015625
+        },
+        {
+          "id": 644,
+          "token": "In",
+          "logit": 17.984375
+        },
+        {
+          "id": 2688,
+          "token": "Not",
+          "logit": 17.84375
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.828125
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.765625
+        },
+        {
+          "id": 11458,
+          "token": "However",
+          "logit": 17.671875
+        },
+        {
+          "id": 63295,
+          "token": "Neither",
+          "logit": 17.640625
+        },
+        {
+          "id": 31140,
+          "token": "Unfortunately",
+          "logit": 17.59375
+        }
+      ],
+      "max_reconstruction_relative_error": 0.00040856166262840093
+    },
+    {
+      "id": "a02_across_0_agent",
+      "family": "a02",
+      "split": "development",
+      "frame": "across",
+      "swap": 0,
+      "question_key": "agent",
+      "sentence": "Mara referred Oscar to Hugo and Rose.",
+      "question": "Did Rose refer someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Oscar"
+        ],
+        "goal": [
+          "Hugo",
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 2822,
+      "argmax_token": "No",
+      "actual_class": "No",
+      "class_logit_logsumexp": {
+        "Yes": 28.390702761178563,
+        "No": 30.14067409005992
+      },
+      "class_probability": {
+        "Yes": 0.14803318766767953,
+        "No": 0.8518477541119374
+      },
+      "gold_margin": 1.749971328881358,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 30.140625
+        },
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 28.390625
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 20.21875
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 18.921875
+        },
+        {
+          "id": 9173,
+          "token": "NO",
+          "logit": 18.625
+        },
+        {
+          "id": 99076,
+          "token": "-No",
+          "logit": 18.453125
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 18.21875
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 17.953125
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 17.9375
+        },
+        {
+          "id": 7184,
+          "token": "Now",
+          "logit": 17.390625
+        },
+        {
+          "id": 2688,
+          "token": "Not",
+          "logit": 17.375
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.296875
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 17.28125
+        },
+        {
+          "id": 58524,
+          "token": "Rose",
+          "logit": 17.265625
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.25
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.1875
+        },
+        {
+          "id": 19701,
+          "token": "Sorry",
+          "logit": 17.078125
+        },
+        {
+          "id": 42257,
+          "token": ">No",
+          "logit": 17.015625
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 17.015625
+        },
+        {
+          "id": 11458,
+          "token": "However",
+          "logit": 16.96875
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004379959307371616
+    },
+    {
+      "id": "a02_across_0_theme",
+      "family": "a02",
+      "split": "development",
+      "frame": "across",
+      "swap": 0,
+      "question_key": "theme",
+      "sentence": "Mara referred Oscar to Hugo and Rose.",
+      "question": "Was Oscar referred to someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Oscar"
+        ],
+        "goal": [
+          "Hugo",
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.90630634087813,
+        "No": 24.187612364670937
+      },
+      "class_probability": {
+        "Yes": 0.9987624681919132,
+        "No": 0.0012066199302615515
+      },
+      "gold_margin": 6.7186939762071916,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.90625
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 24.1875
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 21.109375
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.65625
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.96875
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.328125
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 17.3125
+        },
+        {
+          "id": 2575,
+          "token": "True",
+          "logit": 16.953125
+        },
+        {
+          "id": 7566,
+          "token": " Yes",
+          "logit": 16.546875
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 16.4375
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 16.34375
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.21875
+        },
+        {
+          "id": 60844,
+          "token": "_yes",
+          "logit": 16.109375
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 15.9765625
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 15.953125
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 15.921875
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 15.9140625
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 15.9140625
+        },
+        {
+          "id": 16,
+          "token": "1",
+          "logit": 15.796875
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 15.7890625
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004379959307371616
+    },
+    {
+      "id": "a02_across_0_goal",
+      "family": "a02",
+      "split": "development",
+      "frame": "across",
+      "swap": 0,
+      "question_key": "goal",
+      "sentence": "Mara referred Oscar to Hugo and Rose.",
+      "question": "Was someone referred to Oscar?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Oscar"
+        ],
+        "goal": [
+          "Hugo",
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.23442057121005,
+        "No": 25.859429767886397
+      },
+      "class_probability": {
+        "Yes": 0.9874776885291318,
+        "No": 0.01243062392433396
+      },
+      "gold_margin": -4.374990803323655,
+      "pass_competence": false,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.234375
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 25.859375
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.21875
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.296875
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.015625
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.859375
+        },
+        {
+          "id": 44,
+          "token": "M",
+          "logit": 17.6875
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.578125
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.578125
+        },
+        {
+          "id": 3947,
+          "token": "There",
+          "logit": 16.875
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 16.8125
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 16.8125
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.703125
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.65625
+        },
+        {
+          "id": 12331,
+          "token": "Mar",
+          "logit": 16.625
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 16.5625
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 16.5625
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 16.515625
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 16.4375
+        },
+        {
+          "id": 60844,
+          "token": "_yes",
+          "logit": 16.3125
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004379959307371616
+    },
+    {
+      "id": "a02_across_0_order",
+      "family": "a02",
+      "split": "development",
+      "frame": "across",
+      "swap": 0,
+      "question_key": "order",
+      "sentence": "Mara referred Oscar to Hugo and Rose.",
+      "question": "In the sentence, was Oscar mentioned before Hugo?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Oscar"
+        ],
+        "goal": [
+          "Hugo",
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.343808731496534,
+        "No": 29.43752468612682
+      },
+      "class_probability": {
+        "Yes": 0.7121539627279515,
+        "No": 0.28772641549473127
+      },
+      "gold_margin": 0.9062840453697127,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.34375
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 29.4375
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.59375
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 19.765625
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 18.828125
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.46875
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 18.21875
+        },
+        {
+          "id": 9173,
+          "token": "NO",
+          "logit": 18.140625
+        },
+        {
+          "id": 644,
+          "token": "In",
+          "logit": 18.0
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 17.609375
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.453125
+        },
+        {
+          "id": 7184,
+          "token": "Now",
+          "logit": 17.421875
+        },
+        {
+          "id": 99076,
+          "token": "-No",
+          "logit": 17.40625
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.359375
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.296875
+        },
+        {
+          "id": 11439,
+          "token": "According",
+          "logit": 17.28125
+        },
+        {
+          "id": 11458,
+          "token": "However",
+          "logit": 17.25
+        },
+        {
+          "id": 2688,
+          "token": "Not",
+          "logit": 17.171875
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.140625
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.125
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004379959307371616
+    },
+    {
+      "id": "a02_across_1_agent",
+      "family": "a02",
+      "split": "development",
+      "frame": "across",
+      "swap": 1,
+      "question_key": "agent",
+      "sentence": "Mara referred Hugo to Oscar and Rose.",
+      "question": "Did Rose refer someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Hugo"
+        ],
+        "goal": [
+          "Oscar",
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 2822,
+      "argmax_token": "No",
+      "actual_class": "No",
+      "class_logit_logsumexp": {
+        "Yes": 28.09383277169365,
+        "No": 30.046921116098712
+      },
+      "class_probability": {
+        "Yes": 0.12420120914727875,
+        "No": 0.8756717002976895
+      },
+      "gold_margin": 1.9530883444050637,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 30.046875
+        },
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 28.09375
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 20.0625
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 18.6875
+        },
+        {
+          "id": 9173,
+          "token": "NO",
+          "logit": 18.328125
+        },
+        {
+          "id": 99076,
+          "token": "-No",
+          "logit": 18.296875
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.015625
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 17.9375
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 17.90625
+        },
+        {
+          "id": 58524,
+          "token": "Rose",
+          "logit": 17.5
+        },
+        {
+          "id": 2688,
+          "token": "Not",
+          "logit": 17.390625
+        },
+        {
+          "id": 7184,
+          "token": "Now",
+          "logit": 17.390625
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 17.359375
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.25
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.203125
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.125
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 16.96875
+        },
+        {
+          "id": 11458,
+          "token": "However",
+          "logit": 16.921875
+        },
+        {
+          "id": 19701,
+          "token": "Sorry",
+          "logit": 16.90625
+        },
+        {
+          "id": 42257,
+          "token": ">No",
+          "logit": 16.859375
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004428952740009011
+    },
+    {
+      "id": "a02_across_1_theme",
+      "family": "a02",
+      "split": "development",
+      "frame": "across",
+      "swap": 1,
+      "question_key": "theme",
+      "sentence": "Mara referred Hugo to Oscar and Rose.",
+      "question": "Was Oscar referred to someone?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Hugo"
+        ],
+        "goal": [
+          "Oscar",
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 2822,
+      "argmax_token": "No",
+      "actual_class": "No",
+      "class_logit_logsumexp": {
+        "Yes": 29.06256253725563,
+        "No": 30.296916338081395
+      },
+      "class_probability": {
+        "Yes": 0.22538831880021667,
+        "No": 0.7744697307462217
+      },
+      "gold_margin": 1.2343538008257653,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 30.296875
+        },
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 29.0625
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 20.203125
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 19.375
+        },
+        {
+          "id": 9173,
+          "token": "NO",
+          "logit": 18.828125
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 18.71875
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.40625
+        },
+        {
+          "id": 99076,
+          "token": "-No",
+          "logit": 18.265625
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 17.9375
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 17.9375
+        },
+        {
+          "id": 7184,
+          "token": "Now",
+          "logit": 17.859375
+        },
+        {
+          "id": 11458,
+          "token": "However",
+          "logit": 17.71875
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 17.671875
+        },
+        {
+          "id": 2688,
+          "token": "Not",
+          "logit": 17.546875
+        },
+        {
+          "id": 7456,
+          "token": "Only",
+          "logit": 17.53125
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.53125
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.5
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.5
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.453125
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 17.453125
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004199752179103611
+    },
+    {
+      "id": "a02_across_1_goal",
+      "family": "a02",
+      "split": "development",
+      "frame": "across",
+      "swap": 1,
+      "question_key": "goal",
+      "sentence": "Mara referred Hugo to Oscar and Rose.",
+      "question": "Was someone referred to Oscar?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "Yes",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Hugo"
+        ],
+        "goal": [
+          "Oscar",
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 29.71880570336853,
+        "No": 25.39069477405437
+      },
+      "class_probability": {
+        "Yes": 0.9868766718980003,
+        "No": 0.013019316637810979
+      },
+      "gold_margin": 4.32811092931416,
+      "pass_competence": true,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 29.71875
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 25.390625
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 19.90625
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 18.609375
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 17.90625
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.484375
+        },
+        {
+          "id": 3957,
+          "token": "Is",
+          "logit": 17.453125
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 17.125
+        },
+        {
+          "id": 44,
+          "token": "M",
+          "logit": 17.03125
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 16.640625
+        },
+        {
+          "id": 40,
+          "token": "I",
+          "logit": 16.5
+        },
+        {
+          "id": 3923,
+          "token": "What",
+          "logit": 16.484375
+        },
+        {
+          "id": 3947,
+          "token": "There",
+          "logit": 16.4375
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 16.375
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 16.359375
+        },
+        {
+          "id": 2181,
+          "token": "It",
+          "logit": 16.15625
+        },
+        {
+          "id": 4897,
+          "token": "That",
+          "logit": 16.15625
+        },
+        {
+          "id": 15546,
+          "token": "Who",
+          "logit": 16.03125
+        },
+        {
+          "id": 14410,
+          "token": " YES",
+          "logit": 15.984375
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 15.9140625
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004199752179103611
+    },
+    {
+      "id": "a02_across_1_order",
+      "family": "a02",
+      "split": "development",
+      "frame": "across",
+      "swap": 1,
+      "question_key": "order",
+      "sentence": "Mara referred Hugo to Oscar and Rose.",
+      "question": "In the sentence, was Oscar mentioned before Hugo?",
+      "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+      "expected": "No",
+      "annotations": {
+        "agent": "Mara",
+        "theme": [
+          "Hugo"
+        ],
+        "goal": [
+          "Oscar",
+          "Rose"
+        ]
+      },
+      "annotation_status": "constructed_gold_pending_independent_human_review",
+      "argmax_id": 9642,
+      "argmax_token": "Yes",
+      "actual_class": "Yes",
+      "class_logit_logsumexp": {
+        "Yes": 30.59380508976962,
+        "No": 30.437519835249766
+      },
+      "class_probability": {
+        "Yes": 0.5389225697528963,
+        "No": 0.46094865100882393
+      },
+      "gold_margin": -0.15628525451985453,
+      "pass_competence": false,
+      "top20": [
+        {
+          "id": 9642,
+          "token": "Yes",
+          "logit": 30.59375
+        },
+        {
+          "id": 2822,
+          "token": "No",
+          "logit": 30.4375
+        },
+        {
+          "id": 9891,
+          "token": "yes",
+          "logit": 20.78125
+        },
+        {
+          "id": 14331,
+          "token": "YES",
+          "logit": 20.125
+        },
+        {
+          "id": 2201,
+          "token": "no",
+          "logit": 19.609375
+        },
+        {
+          "id": 9173,
+          "token": "NO",
+          "logit": 19.21875
+        },
+        {
+          "id": 791,
+          "token": "The",
+          "logit": 18.875
+        },
+        {
+          "id": 8586,
+          "token": "Here",
+          "logit": 18.828125
+        },
+        {
+          "id": 12834,
+          "token": "Since",
+          "logit": 18.5
+        },
+        {
+          "id": 7184,
+          "token": "Now",
+          "logit": 18.359375
+        },
+        {
+          "id": 99076,
+          "token": "-No",
+          "logit": 18.296875
+        },
+        {
+          "id": 24220,
+          "token": "Yeah",
+          "logit": 18.125
+        },
+        {
+          "id": 11458,
+          "token": "However",
+          "logit": 17.96875
+        },
+        {
+          "id": 644,
+          "token": "In",
+          "logit": 17.9375
+        },
+        {
+          "id": 2028,
+          "token": "This",
+          "logit": 17.890625
+        },
+        {
+          "id": 2688,
+          "token": "Not",
+          "logit": 17.890625
+        },
+        {
+          "id": 2675,
+          "token": "You",
+          "logit": 17.734375
+        },
+        {
+          "id": 5618,
+          "token": "Please",
+          "logit": 17.609375
+        },
+        {
+          "id": 31140,
+          "token": "Unfortunately",
+          "logit": 17.609375
+        },
+        {
+          "id": 58841,
+          "token": "\"Yes",
+          "logit": 17.5625
+        }
+      ],
+      "max_reconstruction_relative_error": 0.0004199752179103611
+    }
+  ]
+}

@@ -1,0 +1,1221 @@
+{
+  "status": "descriptive_pilot_no_unique_mechanism_claim",
+  "models": {
+    "qwen7b": {
+      "run": {
+        "status": "stopped_at_development_gate",
+        "main_forwards": 32,
+        "validation_forwards": 3,
+        "total_forwards": 35,
+        "lock_sha256": "d93a72c6d4fe9783f7b1996e530a3d2294b307dfcb1b7ed388e5f190104d712f",
+        "annotation_status": "human_explicitly_waived"
+      },
+      "controls": {
+        "wrapped_logit_max_absolute_error": 0.0,
+        "repeat_logit_max_absolute_error": 0.0,
+        "repeat_state_max_relative_error": 0.0,
+        "development": {
+          "prefix_pass": true,
+          "components_pass": true,
+          "max_precue_relative_interaction": 0.0,
+          "max_question_prefix_relative_discrepancy": 0.0,
+          "max_embedding_relative_interaction": 0.0,
+          "max_native_reconstruction_relative_error": 0.0005584466575055334,
+          "precue": [
+            {
+              "family": "a01",
+              "question": "agent",
+              "part": "residual",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "agent",
+              "part": "attention",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "agent",
+              "part": "mlp",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "theme",
+              "part": "residual",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "theme",
+              "part": "attention",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "theme",
+              "part": "mlp",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "goal",
+              "part": "residual",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "goal",
+              "part": "attention",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "goal",
+              "part": "mlp",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "order",
+              "part": "residual",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "order",
+              "part": "attention",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "order",
+              "part": "mlp",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "agent",
+              "part": "residual",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "agent",
+              "part": "attention",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "agent",
+              "part": "mlp",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "theme",
+              "part": "residual",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "theme",
+              "part": "attention",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "theme",
+              "part": "mlp",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "goal",
+              "part": "residual",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "goal",
+              "part": "attention",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "goal",
+              "part": "mlp",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "order",
+              "part": "residual",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "order",
+              "part": "attention",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "order",
+              "part": "mlp",
+              "cue_position": 52,
+              "relative_interaction": 0.0
+            }
+          ],
+          "question_prefix": [
+            {
+              "family": "a01",
+              "frame": "within",
+              "swap": 0,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "within",
+              "swap": 0,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "within",
+              "swap": 0,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "within",
+              "swap": 1,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "within",
+              "swap": 1,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "within",
+              "swap": 1,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "across",
+              "swap": 0,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "across",
+              "swap": 0,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "across",
+              "swap": 0,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "across",
+              "swap": 1,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "across",
+              "swap": 1,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "across",
+              "swap": 1,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "within",
+              "swap": 0,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "within",
+              "swap": 0,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "within",
+              "swap": 0,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "within",
+              "swap": 1,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "within",
+              "swap": 1,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "within",
+              "swap": 1,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "across",
+              "swap": 0,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "across",
+              "swap": 0,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "across",
+              "swap": 0,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "across",
+              "swap": 1,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "across",
+              "swap": 1,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "across",
+              "swap": 1,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            }
+          ]
+        }
+      },
+      "families": [
+        {
+          "family": "a01",
+          "split": "development",
+          "answers": 16,
+          "correct": 14,
+          "fully_competent": false,
+          "unexpected_answers": []
+        },
+        {
+          "family": "a02",
+          "split": "development",
+          "answers": 16,
+          "correct": 14,
+          "fully_competent": false,
+          "unexpected_answers": []
+        }
+      ],
+      "groups": [
+        {
+          "family": "a01",
+          "split": "development",
+          "question": "agent",
+          "four_answers_correct": true,
+          "actual_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes"
+          ],
+          "expected_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes"
+          ],
+          "yes_minus_no_margin_interaction": 0.20312498343384888,
+          "period_mean_ratio": 0.5067602066184927,
+          "readout_mean_ratio": 0.46898808484868104,
+          "period_final_interaction_norm": 23.253824973232682,
+          "readout_final_interaction_norm": 10.496690871911305,
+          "max_component_accounting_gap_norm": 0.43706537475357415
+        },
+        {
+          "family": "a01",
+          "split": "development",
+          "question": "theme",
+          "four_answers_correct": true,
+          "actual_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "No"
+          ],
+          "expected_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "No"
+          ],
+          "yes_minus_no_margin_interaction": -39.40624960339639,
+          "period_mean_ratio": 0.5067602066184927,
+          "readout_mean_ratio": 0.6219520849250976,
+          "period_final_interaction_norm": 23.253824973232682,
+          "readout_final_interaction_norm": 231.91929914777106,
+          "max_component_accounting_gap_norm": 0.4467975647140274
+        },
+        {
+          "family": "a01",
+          "split": "development",
+          "question": "goal",
+          "four_answers_correct": true,
+          "actual_classes": [
+            "No",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "expected_classes": [
+            "No",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "yes_minus_no_margin_interaction": 32.51562528092107,
+          "period_mean_ratio": 0.5067602066184927,
+          "readout_mean_ratio": 0.6510163322411089,
+          "period_final_interaction_norm": 23.253824973232682,
+          "readout_final_interaction_norm": 213.09719180249726,
+          "max_component_accounting_gap_norm": 0.3597884112027326
+        },
+        {
+          "family": "a01",
+          "split": "development",
+          "question": "order",
+          "four_answers_correct": false,
+          "actual_classes": [
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "expected_classes": [
+            "Yes",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "yes_minus_no_margin_interaction": 3.374999972390171,
+          "period_mean_ratio": 0.5067602066184927,
+          "readout_mean_ratio": 0.4712991995569243,
+          "period_final_interaction_norm": 23.253824973232682,
+          "readout_final_interaction_norm": 34.21018746361802,
+          "max_component_accounting_gap_norm": 0.38713129106419847
+        },
+        {
+          "family": "a02",
+          "split": "development",
+          "question": "agent",
+          "four_answers_correct": true,
+          "actual_classes": [
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "expected_classes": [
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "yes_minus_no_margin_interaction": -0.01562506129321406,
+          "period_mean_ratio": 0.5462695902476707,
+          "readout_mean_ratio": 0.43632327000854654,
+          "period_final_interaction_norm": 18.427375208478328,
+          "readout_final_interaction_norm": 13.959621702917849,
+          "max_component_accounting_gap_norm": 0.4401697314378931
+        },
+        {
+          "family": "a02",
+          "split": "development",
+          "question": "theme",
+          "four_answers_correct": true,
+          "actual_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "No"
+          ],
+          "expected_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "No"
+          ],
+          "yes_minus_no_margin_interaction": -24.718751276298626,
+          "period_mean_ratio": 0.5462695902476707,
+          "readout_mean_ratio": 0.49822615217146254,
+          "period_final_interaction_norm": 18.427375208478328,
+          "readout_final_interaction_norm": 190.827468493509,
+          "max_component_accounting_gap_norm": 0.5504852511412137
+        },
+        {
+          "family": "a02",
+          "split": "development",
+          "question": "goal",
+          "four_answers_correct": true,
+          "actual_classes": [
+            "No",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "expected_classes": [
+            "No",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "yes_minus_no_margin_interaction": 24.328125116464197,
+          "period_mean_ratio": 0.5462695902476707,
+          "readout_mean_ratio": 0.5788115737087296,
+          "period_final_interaction_norm": 18.427375208478328,
+          "readout_final_interaction_norm": 190.1198147049469,
+          "max_component_accounting_gap_norm": 0.4391897846543627
+        },
+        {
+          "family": "a02",
+          "split": "development",
+          "question": "order",
+          "four_answers_correct": false,
+          "actual_classes": [
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "expected_classes": [
+            "Yes",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "yes_minus_no_margin_interaction": 1.2187499248840616,
+          "period_mean_ratio": 0.5462695902476707,
+          "readout_mean_ratio": 0.5218680617184501,
+          "period_final_interaction_norm": 18.427375208478328,
+          "readout_final_interaction_norm": 42.82029423848577,
+          "max_component_accounting_gap_norm": 0.47186852561486814
+        }
+      ],
+      "total_answers": 32,
+      "correct_answers": 28,
+      "question_counts": {
+        "agent": {
+          "correct": 8,
+          "total": 8
+        },
+        "theme": {
+          "correct": 8,
+          "total": 8
+        },
+        "goal": {
+          "correct": 8,
+          "total": 8
+        },
+        "order": {
+          "correct": 4,
+          "total": 8
+        }
+      }
+    },
+    "llama3b": {
+      "run": {
+        "status": "stopped_at_development_gate",
+        "main_forwards": 32,
+        "validation_forwards": 2,
+        "total_forwards": 34,
+        "lock_sha256": "d93a72c6d4fe9783f7b1996e530a3d2294b307dfcb1b7ed388e5f190104d712f",
+        "annotation_status": "human_explicitly_waived"
+      },
+      "controls": {
+        "wrapped_logit_max_absolute_error": 0.0,
+        "repeat_logit_max_absolute_error": 0.0,
+        "repeat_state_max_relative_error": 0.0,
+        "development": {
+          "prefix_pass": true,
+          "components_pass": true,
+          "max_precue_relative_interaction": 0.0,
+          "max_question_prefix_relative_discrepancy": 0.0,
+          "max_embedding_relative_interaction": 0.0,
+          "max_native_reconstruction_relative_error": 0.0005160313053724825,
+          "precue": [
+            {
+              "family": "a01",
+              "question": "agent",
+              "part": "residual",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "agent",
+              "part": "attention",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "agent",
+              "part": "mlp",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "theme",
+              "part": "residual",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "theme",
+              "part": "attention",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "theme",
+              "part": "mlp",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "goal",
+              "part": "residual",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "goal",
+              "part": "attention",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "goal",
+              "part": "mlp",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "order",
+              "part": "residual",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "order",
+              "part": "attention",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a01",
+              "question": "order",
+              "part": "mlp",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "agent",
+              "part": "residual",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "agent",
+              "part": "attention",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "agent",
+              "part": "mlp",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "theme",
+              "part": "residual",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "theme",
+              "part": "attention",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "theme",
+              "part": "mlp",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "goal",
+              "part": "residual",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "goal",
+              "part": "attention",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "goal",
+              "part": "mlp",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "order",
+              "part": "residual",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "order",
+              "part": "attention",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            },
+            {
+              "family": "a02",
+              "question": "order",
+              "part": "mlp",
+              "cue_position": 74,
+              "relative_interaction": 0.0
+            }
+          ],
+          "question_prefix": [
+            {
+              "family": "a01",
+              "frame": "within",
+              "swap": 0,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "within",
+              "swap": 0,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "within",
+              "swap": 0,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "within",
+              "swap": 1,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "within",
+              "swap": 1,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "within",
+              "swap": 1,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "across",
+              "swap": 0,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "across",
+              "swap": 0,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "across",
+              "swap": 0,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "across",
+              "swap": 1,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "across",
+              "swap": 1,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a01",
+              "frame": "across",
+              "swap": 1,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "within",
+              "swap": 0,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "within",
+              "swap": 0,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "within",
+              "swap": 0,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "within",
+              "swap": 1,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "within",
+              "swap": 1,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "within",
+              "swap": 1,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "across",
+              "swap": 0,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "across",
+              "swap": 0,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "across",
+              "swap": 0,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "across",
+              "swap": 1,
+              "part": "residual",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "across",
+              "swap": 1,
+              "part": "attention",
+              "relative_discrepancy": 0.0
+            },
+            {
+              "family": "a02",
+              "frame": "across",
+              "swap": 1,
+              "part": "mlp",
+              "relative_discrepancy": 0.0
+            }
+          ]
+        }
+      },
+      "families": [
+        {
+          "family": "a01",
+          "split": "development",
+          "answers": 16,
+          "correct": 10,
+          "fully_competent": false,
+          "unexpected_answers": []
+        },
+        {
+          "family": "a02",
+          "split": "development",
+          "answers": 16,
+          "correct": 12,
+          "fully_competent": false,
+          "unexpected_answers": []
+        }
+      ],
+      "groups": [
+        {
+          "family": "a01",
+          "split": "development",
+          "question": "agent",
+          "four_answers_correct": true,
+          "actual_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes"
+          ],
+          "expected_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes"
+          ],
+          "yes_minus_no_margin_interaction": -0.34374981638194413,
+          "period_mean_ratio": 0.6129892400753105,
+          "readout_mean_ratio": 0.565142291784717,
+          "period_final_interaction_norm": 7.7174262401501785,
+          "readout_final_interaction_norm": 1.5316363900147776,
+          "max_component_accounting_gap_norm": 0.044453510841898136
+        },
+        {
+          "family": "a01",
+          "split": "development",
+          "question": "theme",
+          "four_answers_correct": false,
+          "actual_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes"
+          ],
+          "expected_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "No"
+          ],
+          "yes_minus_no_margin_interaction": -4.140628982513714,
+          "period_mean_ratio": 0.6129892400753105,
+          "readout_mean_ratio": 0.7233221428375092,
+          "period_final_interaction_norm": 7.7174262401501785,
+          "readout_final_interaction_norm": 10.714255241077225,
+          "max_component_accounting_gap_norm": 0.03783548149506722
+        },
+        {
+          "family": "a01",
+          "split": "development",
+          "question": "goal",
+          "four_answers_correct": false,
+          "actual_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes"
+          ],
+          "expected_classes": [
+            "No",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "yes_minus_no_margin_interaction": 2.187495779168284,
+          "period_mean_ratio": 0.6129892400753105,
+          "readout_mean_ratio": 0.6863829092558685,
+          "period_final_interaction_norm": 7.7174262401501785,
+          "readout_final_interaction_norm": 8.539030228222918,
+          "max_component_accounting_gap_norm": 0.04125260141089816
+        },
+        {
+          "family": "a01",
+          "split": "development",
+          "question": "order",
+          "four_answers_correct": false,
+          "actual_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes"
+          ],
+          "expected_classes": [
+            "Yes",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "yes_minus_no_margin_interaction": -0.6093736273685408,
+          "period_mean_ratio": 0.6129892400753105,
+          "readout_mean_ratio": 0.5891858981512074,
+          "period_final_interaction_norm": 7.7174262401501785,
+          "readout_final_interaction_norm": 5.80139788293674,
+          "max_component_accounting_gap_norm": 0.03680147006436341
+        },
+        {
+          "family": "a02",
+          "split": "development",
+          "question": "agent",
+          "four_answers_correct": true,
+          "actual_classes": [
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "expected_classes": [
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          "yes_minus_no_margin_interaction": 0.07812873742796711,
+          "period_mean_ratio": 0.5685498667580752,
+          "readout_mean_ratio": 0.5117954407979084,
+          "period_final_interaction_norm": 6.494316054804632,
+          "readout_final_interaction_norm": 2.666317205130847,
+          "max_component_accounting_gap_norm": 0.03971817273628337
+        },
+        {
+          "family": "a02",
+          "split": "development",
+          "question": "theme",
+          "four_answers_correct": true,
+          "actual_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "No"
+          ],
+          "expected_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "No"
+          ],
+          "yes_minus_no_margin_interaction": -6.92182216129655,
+          "period_mean_ratio": 0.5685498667580752,
+          "readout_mean_ratio": 0.6654542542981912,
+          "period_final_interaction_norm": 6.494316054804632,
+          "readout_final_interaction_norm": 18.827957608933943,
+          "max_component_accounting_gap_norm": 0.037348906804855
+        },
+        {
+          "family": "a02",
+          "split": "development",
+          "question": "goal",
+          "four_answers_correct": false,
+          "actual_classes": [
+            "Yes",
+            "Yes",
+            "Yes",
+            "Yes"
+          ],
+          "expected_classes": [
+            "No",
+            "No",
+            "No",
+            "Yes"
+          ],
+          "yes_minus_no_margin_interaction": 0.5468638623388884,
+          "period_mean_ratio": 0.5685498667580752,
+          "readout_mean_ratio": 0.6253380077582991,
+          "period_final_interaction_norm": 6.494316054804632,
+          "readout_final_interaction_norm": 7.229455275227706,
+          "max_component_accounting_gap_norm": 0.037348906804855
+        },
+        {
+          "family": "a02",
+          "split": "development",
+          "question": "order",
+          "four_answers_correct": false,
+          "actual_classes": [
+            "Yes",
+            "No",
+            "Yes",
+            "Yes"
+          ],
+          "expected_classes": [
+            "Yes",
+            "No",
+            "Yes",
+            "No"
+          ],
+          "yes_minus_no_margin_interaction": 0.84374237986043,
+          "period_mean_ratio": 0.5685498667580752,
+          "readout_mean_ratio": 0.5322748977487053,
+          "period_final_interaction_norm": 6.494316054804632,
+          "readout_final_interaction_norm": 5.492104996765779,
+          "max_component_accounting_gap_norm": 0.03789607631030171
+        }
+      ],
+      "total_answers": 32,
+      "correct_answers": 22,
+      "question_counts": {
+        "agent": {
+          "correct": 8,
+          "total": 8
+        },
+        "theme": {
+          "correct": 7,
+          "total": 8
+        },
+        "goal": {
+          "correct": 2,
+          "total": 8
+        },
+        "order": {
+          "correct": 5,
+          "total": 8
+        }
+      }
+    }
+  },
+  "lock_sha256": "d93a72c6d4fe9783f7b1996e530a3d2294b307dfcb1b7ed388e5f190104d712f",
+  "model_forwards": 69,
+  "grammar_review": {
+    "status": "human_explicitly_waived",
+    "human_review_completed": false,
+    "annotation_method": "AI-only review by Codex; no independent human annotation",
+    "direct_user_response": "use ai only annotation",
+    "date": "2026-10-18",
+    "review_sha256": "017e62952e35133f6adf88442e162e83593e4f0142e92a006723967fc9ffc71c",
+    "user_authorized_bounded_pilot": true,
+    "limitation": "Single AI annotator and deterministic consistency checks; coordination readings and question naturalness are not independently human-validated."
+  },
+  "self_check": {
+    "additive_zero": true,
+    "known_interaction": true,
+    "rotation_invariant_norm": true,
+    "undefined_not_zero": true
+  },
+  "gram_labels": [
+    "P_within",
+    "P_across",
+    "K_original",
+    "K_swap",
+    "interaction"
+  ],
+  "units": "Four lexical families, two held-out names per model; layers/tokens/answers not independent replications."
+}

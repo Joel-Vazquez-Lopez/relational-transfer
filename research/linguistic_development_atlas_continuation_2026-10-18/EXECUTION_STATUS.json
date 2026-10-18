@@ -1,0 +1,22 @@
+{
+  "status": "CLOSED_DEVELOPMENT_COMPETENCE_NO_GO",
+  "implementation_repair_and_integration_tests": "passed",
+  "numerical_controls": "passed for both models; exact zeros on wrapper/repeat/prefix discrepancies",
+  "prior_failed_attempt_calls": 2,
+  "continuation_new_calls": 67,
+  "cumulative_model_calls": 69,
+  "global_limit": 132,
+  "unique_main_answer_rows": 64,
+  "held_out_calls": 0,
+  "paid_calls": 0,
+  "downloads": 0,
+  "annotation": "AI-only, explicitly accepted by user",
+  "fully_competent_development_families": {
+    "qwen7b": 0,
+    "llama3b": 0
+  },
+  "families_per_model": 2,
+  "research_conclusion": "No held-out validation; no unique semantic-mechanism or novelty claim. Descriptive development maps saved for every exposed case.",
+  "additional_adaptive_experiments": false,
+  "run_closed": true
+}

@@ -1,5 +1,9 @@
 # Atlas pilot: authorized technical continuation
 
+**CLOSED: repair/integration/numerical checks passed; development competence gate failed in both models. 69/132 cumulative calls, zero held-out calls. See [REPORT.md](REPORT.md) and [ANSWER_LEDGER.csv](ANSWER_LEDGER.csv).**
+
+The remaining sections document the procedure frozen before additional inference; they do not authorize rerunning the completed phases.
+
 The user explicitly requested “fix it and test it then no?” after the documented serialization failure. The original attempt and its frozen sources remain intact in the sibling `linguistic_development_atlas_pilot_2026-10-18` directory and commit `878b715`.
 
 ## Amendment before additional inference

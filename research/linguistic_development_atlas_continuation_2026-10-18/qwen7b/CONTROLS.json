@@ -1,0 +1,353 @@
+{
+  "wrapped_logit_max_absolute_error": 0.0,
+  "repeat_logit_max_absolute_error": 0.0,
+  "repeat_state_max_relative_error": 0.0,
+  "development": {
+    "prefix_pass": true,
+    "components_pass": true,
+    "max_precue_relative_interaction": 0.0,
+    "max_question_prefix_relative_discrepancy": 0.0,
+    "max_embedding_relative_interaction": 0.0,
+    "max_native_reconstruction_relative_error": 0.0005584466575055334,
+    "precue": [
+      {
+        "family": "a01",
+        "question": "agent",
+        "part": "residual",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a01",
+        "question": "agent",
+        "part": "attention",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a01",
+        "question": "agent",
+        "part": "mlp",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a01",
+        "question": "theme",
+        "part": "residual",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a01",
+        "question": "theme",
+        "part": "attention",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a01",
+        "question": "theme",
+        "part": "mlp",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a01",
+        "question": "goal",
+        "part": "residual",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a01",
+        "question": "goal",
+        "part": "attention",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a01",
+        "question": "goal",
+        "part": "mlp",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a01",
+        "question": "order",
+        "part": "residual",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a01",
+        "question": "order",
+        "part": "attention",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a01",
+        "question": "order",
+        "part": "mlp",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a02",
+        "question": "agent",
+        "part": "residual",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a02",
+        "question": "agent",
+        "part": "attention",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a02",
+        "question": "agent",
+        "part": "mlp",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a02",
+        "question": "theme",
+        "part": "residual",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a02",
+        "question": "theme",
+        "part": "attention",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a02",
+        "question": "theme",
+        "part": "mlp",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a02",
+        "question": "goal",
+        "part": "residual",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a02",
+        "question": "goal",
+        "part": "attention",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a02",
+        "question": "goal",
+        "part": "mlp",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a02",
+        "question": "order",
+        "part": "residual",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a02",
+        "question": "order",
+        "part": "attention",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      },
+      {
+        "family": "a02",
+        "question": "order",
+        "part": "mlp",
+        "cue_position": 52,
+        "relative_interaction": 0.0
+      }
+    ],
+    "question_prefix": [
+      {
+        "family": "a01",
+        "frame": "within",
+        "swap": 0,
+        "part": "residual",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a01",
+        "frame": "within",
+        "swap": 0,
+        "part": "attention",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a01",
+        "frame": "within",
+        "swap": 0,
+        "part": "mlp",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a01",
+        "frame": "within",
+        "swap": 1,
+        "part": "residual",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a01",
+        "frame": "within",
+        "swap": 1,
+        "part": "attention",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a01",
+        "frame": "within",
+        "swap": 1,
+        "part": "mlp",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a01",
+        "frame": "across",
+        "swap": 0,
+        "part": "residual",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a01",
+        "frame": "across",
+        "swap": 0,
+        "part": "attention",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a01",
+        "frame": "across",
+        "swap": 0,
+        "part": "mlp",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a01",
+        "frame": "across",
+        "swap": 1,
+        "part": "residual",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a01",
+        "frame": "across",
+        "swap": 1,
+        "part": "attention",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a01",
+        "frame": "across",
+        "swap": 1,
+        "part": "mlp",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a02",
+        "frame": "within",
+        "swap": 0,
+        "part": "residual",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a02",
+        "frame": "within",
+        "swap": 0,
+        "part": "attention",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a02",
+        "frame": "within",
+        "swap": 0,
+        "part": "mlp",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a02",
+        "frame": "within",
+        "swap": 1,
+        "part": "residual",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a02",
+        "frame": "within",
+        "swap": 1,
+        "part": "attention",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a02",
+        "frame": "within",
+        "swap": 1,
+        "part": "mlp",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a02",
+        "frame": "across",
+        "swap": 0,
+        "part": "residual",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a02",
+        "frame": "across",
+        "swap": 0,
+        "part": "attention",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a02",
+        "frame": "across",
+        "swap": 0,
+        "part": "mlp",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a02",
+        "frame": "across",
+        "swap": 1,
+        "part": "residual",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a02",
+        "frame": "across",
+        "swap": 1,
+        "part": "attention",
+        "relative_discrepancy": 0.0
+      },
+      {
+        "family": "a02",
+        "frame": "across",
+        "swap": 1,
+        "part": "mlp",
+        "relative_discrepancy": 0.0
+      }
+    ]
+  }
+}

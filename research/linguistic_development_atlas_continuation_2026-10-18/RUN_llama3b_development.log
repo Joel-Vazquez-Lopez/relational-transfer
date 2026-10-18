@@ -1,0 +1,35 @@
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+MAIN llama3b a01_within_0_agent 'Yes' Yes 9.01561 True
+MAIN llama3b a01_within_0_theme 'Yes' Yes 5.43749 True
+MAIN llama3b a01_within_0_goal 'Yes' No -5.18749 False
+MAIN llama3b a01_within_0_order 'Yes' Yes 1.3438 True
+MAIN llama3b a01_within_1_agent 'Yes' Yes 9.15624 True
+MAIN llama3b a01_within_1_theme 'Yes' Yes 5.65624 True
+MAIN llama3b a01_within_1_goal 'Yes' No -3.07813 False
+MAIN llama3b a01_within_1_order 'Yes' No -0.26568 False
+MAIN llama3b a01_across_0_agent 'Yes' Yes 9.2031 True
+MAIN llama3b a01_across_0_theme 'Yes' Yes 8.71874 True
+MAIN llama3b a01_across_0_goal 'Yes' No -7.65622 False
+MAIN llama3b a01_across_0_order 'Yes' Yes 2.03129 True
+MAIN llama3b a01_across_1_agent 'Yes' Yes 8.99998 True
+MAIN llama3b a01_across_1_theme 'Yes' No -4.79686 False
+MAIN llama3b a01_across_1_goal 'Yes' Yes 7.73436 True
+MAIN llama3b a01_across_1_order 'Yes' No -0.3438 False
+MAIN llama3b a02_within_0_agent 'No' No 0.43748 True
+MAIN llama3b a02_within_0_theme 'Yes' Yes 4.67182 True
+MAIN llama3b a02_within_0_goal 'Yes' No -2.73437 False
+MAIN llama3b a02_within_0_order 'Yes' Yes 0.73441 True
+MAIN llama3b a02_within_1_agent 'No' No 0.71873 True
+MAIN llama3b a02_within_1_theme 'Yes' Yes 3.6406 True
+MAIN llama3b a02_within_1_goal 'Yes' No -2.14063 False
+MAIN llama3b a02_within_1_order 'No' No 0.85933 True
+MAIN llama3b a02_across_0_agent 'No' No 1.74997 True
+MAIN llama3b a02_across_0_theme 'Yes' Yes 6.71869 True
+MAIN llama3b a02_across_0_goal 'Yes' No -4.37499 False
+MAIN llama3b a02_across_0_order 'Yes' Yes 0.90628 True
+MAIN llama3b a02_across_1_agent 'No' No 1.95309 True
+MAIN llama3b a02_across_1_theme 'No' No 1.23435 True
+MAIN llama3b a02_across_1_goal 'Yes' Yes 4.32811 True
+MAIN llama3b a02_across_1_order 'Yes' No -0.15629 False
+DEVELOPMENT_DECISION llama3b False []
+COMPLETE llama3b 34
