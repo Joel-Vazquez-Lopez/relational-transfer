@@ -1,0 +1,73 @@
+{
+  "methods": {
+    "depth": {
+      "dev_max_same": 0.08333333333333333,
+      "dev_min_different": 0.0,
+      "threshold": 0.041666666666666664,
+      "separable": false,
+      "held_correct": null,
+      "held_n": 42,
+      "held_dose_rmse_mean": 0.12606507600481098,
+      "held_same_dose_rmse_max": 0.2499999999999999
+    },
+    "cka": {
+      "dev_max_same": NaN,
+      "dev_min_different": 0.0,
+      "threshold": NaN,
+      "separable": false,
+      "held_correct": null,
+      "held_n": 42,
+      "held_dose_rmse_mean": 0.09035079029052528,
+      "held_same_dose_rmse_max": 6.061452490147749e-16
+    },
+    "whole": {
+      "dev_max_same": 1.790180836524724e-16,
+      "dev_min_different": 0.0,
+      "threshold": 8.95090418262362e-17,
+      "separable": false,
+      "held_correct": null,
+      "held_n": 42,
+      "held_dose_rmse_mean": 0.15220974770369947,
+      "held_same_dose_rmse_max": 0.4330127018922192
+    },
+    "targeted_full": {
+      "dev_max_same": 3.6126117919434455e-16,
+      "dev_min_different": 8.123742944460347e-17,
+      "threshold": 2.2124930431947403e-16,
+      "separable": false,
+      "held_correct": null,
+      "held_n": 42,
+      "held_dose_rmse_mean": 0.05453152582262848,
+      "held_same_dose_rmse_max": 6.061452490147749e-16
+    },
+    "graded": {
+      "dev_max_same": 3.201669392264387e-16,
+      "dev_min_different": 0.07905694150420946,
+      "threshold": 0.03952847075210489,
+      "separable": true,
+      "held_correct": 42,
+      "held_n": 42,
+      "held_dose_rmse_mean": 0.05453152582262848,
+      "held_same_dose_rmse_max": 6.061452490147749e-16
+    }
+  },
+  "elapsed_seconds": 14.70472502708435,
+  "seeds": [
+    11,
+    23,
+    37,
+    41,
+    53,
+    67,
+    79,
+    97
+  ],
+  "program_instances": 80,
+  "cases_per_instance_split": 64,
+  "normal_outputs_correct": 5120,
+  "normal_outputs_n": 5120,
+  "DSA_error_count": 0,
+  "DSA_comparisons": 64,
+  "all_sham_max": 0.0,
+  "all_nuisance_max": 4.2188474935755286e-15
+}

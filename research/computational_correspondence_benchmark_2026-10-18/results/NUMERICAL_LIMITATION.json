@@ -1,0 +1,6 @@
+{
+  "CKA_nonfinite_distances": 8,
+  "example_s11_cross_stage_cost_min": -4.440892098500626e-16,
+  "cause": "Floating-point CKA slightly exceeds 1; frozen sqrt(mean(1-CKA)) returns NaN. No corrected rerun.",
+  "impact": "CKA distance calibration invalid; finite alignment paths and prediction errors remain descriptive only."
+}
