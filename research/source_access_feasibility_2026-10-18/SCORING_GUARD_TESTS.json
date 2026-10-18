@@ -1,0 +1,46 @@
+{
+  "status": "OFFLINE_GUARD_FIX_VERIFIED",
+  "target_model_calls": 0,
+  "frozen_results_changed": false,
+  "adversarial_multitoken_fixture_pass": true,
+  "original_manifest_rejected_before_inference": true,
+  "unsupported_realizations": [
+    {
+      "model": "qwen7b",
+      "name": "Nina",
+      "valid": false,
+      "missing": [],
+      "unsupported": [
+        "Nina"
+      ]
+    },
+    {
+      "model": "qwen7b",
+      "name": "Helen",
+      "valid": false,
+      "missing": [],
+      "unsupported": [
+        "Helen"
+      ]
+    },
+    {
+      "model": "llama3b",
+      "name": "Nina",
+      "valid": false,
+      "missing": [],
+      "unsupported": [
+        "Nina"
+      ]
+    },
+    {
+      "model": "llama3b",
+      "name": "Helen",
+      "valid": false,
+      "missing": [],
+      "unsupported": [
+        "Helen"
+      ]
+    }
+  ],
+  "scope": "Prevents reuse of the faulty single-token design; does not implement a full-name sequence scorer or authorize a new run"
+}

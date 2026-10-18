@@ -1,0 +1,6 @@
+model,call,split,family,id,query,orientation,voice,condition,expected,argmax_token,actual,correct,margin,reconstruction_relative_error,prefix_relative_error,before_cut_max_absolute_error
+qwen7b,1,development,d1,d1_0_agent,agent,0,active,native_validation,Nina,N,,False,-2.9687703038983777,,,
+qwen7b,2,development,d1,d1_0_agent,agent,0,active,wrapped_native_validation,Nina,N,,False,-2.9687703038983777,0.0004517021768925053,,
+qwen7b,3,development,d1,d1_0_agent,agent,0,active,baseline,Nina,N,,False,-2.9687703038983777,0.0004517021768925053,,
+qwen7b,4,development,d1,d1_0_first,first,0,active,baseline,Nina,N,,False,-9.343780242415832,0.0005202923615779044,,
+qwen7b,11,development,d1,d1_0_agent,agent,0,active,dense_repeat_validation,Nina,N,,False,-2.9687703038983777,0.0004517021768925053,0.0,

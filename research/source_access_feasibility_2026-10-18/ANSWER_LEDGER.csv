@@ -1,0 +1,12 @@
+model,call,split,family,id,query,orientation,voice,condition,expected,argmax_token,actual,correct,margin,reconstruction_relative_error,prefix_relative_error,before_cut_max_absolute_error
+qwen7b,1,development,d1,d1_0_agent,agent,0,active,native_validation,Nina,N,,False,-2.9687703038983777,,,
+qwen7b,2,development,d1,d1_0_agent,agent,0,active,wrapped_native_validation,Nina,N,,False,-2.9687703038983777,0.0004517021768925053,,
+qwen7b,3,development,d1,d1_0_agent,agent,0,active,baseline,Nina,N,,False,-2.9687703038983777,0.0004517021768925053,,
+qwen7b,4,development,d1,d1_0_first,first,0,active,baseline,Nina,N,,False,-9.343780242415832,0.0005202923615779044,,
+qwen7b,5,development,d1,d1_1_agent,agent,1,active,baseline,Luke,Luke,Luke,True,26.281283737793878,0.0004228565455881631,,
+qwen7b,6,development,d1,d1_1_first,first,1,active,baseline,Luke,Luke,Luke,True,27.58597819540595,0.00048530308941459847,,
+qwen7b,7,development,d2,d2_0_agent,agent,0,active,baseline,Emma,Emma,Emma,True,12.312535303545737,0.000493690341648089,,
+qwen7b,8,development,d2,d2_0_first,first,0,active,baseline,Emma,Emma,Emma,True,8.656301369975598,0.0004476709378947091,,
+qwen7b,9,development,d2,d2_1_agent,agent,1,active,baseline,Jack,Jack,Jack,True,8.749938072176096,0.0004987631042096586,,
+qwen7b,10,development,d2,d2_1_first,first,1,active,baseline,Jack,Jack,Jack,True,9.374898878315165,0.0004409713217750946,,
+qwen7b,11,development,d1,d1_0_agent,agent,0,active,dense_repeat_validation,Nina,N,,False,-2.9687703038983777,0.0004517021768925053,0.0,

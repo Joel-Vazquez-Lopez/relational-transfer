@@ -1,0 +1,13 @@
+{
+  "frozen_decision": "STOP_DEVELOPMENT_COMPETENCE",
+  "interpretation": "Scoring-design failure, not demonstrated linguistic incompetence",
+  "baseline_frozen_endpoint_correct": 6,
+  "baseline_total": 8,
+  "d1_complete_frozen_endpoint": false,
+  "d2_complete_frozen_endpoint": true,
+  "issue": "Nina has a multi-token no-leading-space form [45,2210], but only the leading-space single token [63888] was accepted. Both failing baselines emitted token 45 (N).",
+  "full_generated_answers_observed": false,
+  "full_sequence_probabilities_observed": false,
+  "credit_for_Nina_inferred": false,
+  "causal_hypothesis_tested": false
+}

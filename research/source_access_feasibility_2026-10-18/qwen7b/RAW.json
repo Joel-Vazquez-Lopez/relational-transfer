@@ -1,0 +1,1501 @@
+{
+  "model": "qwen7b",
+  "rows": [
+    {
+      "call": 1,
+      "model": "qwen7b",
+      "id": "d1_0_agent",
+      "condition": "native_validation",
+      "wrapped": false,
+      "native": true,
+      "expected": "Nina",
+      "argmax_id": 45,
+      "argmax_token": "N",
+      "actual": null,
+      "margin": -2.9687703038983777,
+      "correct": false,
+      "alias_logits": {
+        "Nina": 21.21875,
+        "Luke": 24.187520303898378
+      },
+      "top20": [
+        {
+          "id": 45,
+          "token": "N",
+          "logit": 38.4375
+        },
+        {
+          "id": 58347,
+          "token": "Luke",
+          "logit": 24.1875
+        },
+        {
+          "id": 63888,
+          "token": " Nina",
+          "logit": 21.21875
+        },
+        {
+          "id": 55019,
+          "token": "aN",
+          "logit": 18.71875
+        },
+        {
+          "id": 43,
+          "token": "L",
+          "logit": 18.40625
+        },
+        {
+          "id": 44,
+          "token": "M",
+          "logit": 18.09375
+        },
+        {
+          "id": 76180,
+          "token": "NK",
+          "logit": 17.71875
+        },
+        {
+          "id": 38,
+          "token": "G",
+          "logit": 17.703125
+        },
+        {
+          "id": 18317,
+          "token": "\tN",
+          "logit": 17.203125
+        },
+        {
+          "id": 65214,
+          "token": "Nat",
+          "logit": 16.90625
+        },
+        {
+          "id": 36,
+          "token": "E",
+          "logit": 16.75
+        },
+        {
+          "id": 102227,
+          "token": "\u5a1c",
+          "logit": 16.59375
+        },
+        {
+          "id": 20195,
+          "token": "\u041d",
+          "logit": 16.5625
+        },
+        {
+          "id": 37484,
+          "token": "-NLS",
+          "logit": 16.453125
+        },
+        {
+          "id": 60335,
+          "token": "Nu",
+          "logit": 16.34375
+        },
+        {
+          "id": 42,
+          "token": "K",
+          "logit": 16.3125
+        },
+        {
+          "id": 138309,
+          "token": "\uff2e",
+          "logit": 16.3125
+        },
+        {
+          "id": 30010,
+          "token": ">N",
+          "logit": 15.96875
+        },
+        {
+          "id": 72749,
+          "token": "Lisa",
+          "logit": 15.890625
+        },
+        {
+          "id": 30356,
+          "token": "Nick",
+          "logit": 15.890625
+        }
+      ],
+      "split": "development",
+      "family": "d1",
+      "query": "agent",
+      "orientation": 0,
+      "voice": "active",
+      "source_span": [
+        41,
+        47
+      ],
+      "irrelevant_span": [
+        35,
+        41
+      ],
+      "suffix_start": 47,
+      "prompt_end": 55
+    },
+    {
+      "call": 2,
+      "model": "qwen7b",
+      "id": "d1_0_agent",
+      "condition": "wrapped_native_validation",
+      "wrapped": true,
+      "native": true,
+      "expected": "Nina",
+      "argmax_id": 45,
+      "argmax_token": "N",
+      "actual": null,
+      "margin": -2.9687703038983777,
+      "correct": false,
+      "alias_logits": {
+        "Nina": 21.21875,
+        "Luke": 24.187520303898378
+      },
+      "top20": [
+        {
+          "id": 45,
+          "token": "N",
+          "logit": 38.4375
+        },
+        {
+          "id": 58347,
+          "token": "Luke",
+          "logit": 24.1875
+        },
+        {
+          "id": 63888,
+          "token": " Nina",
+          "logit": 21.21875
+        },
+        {
+          "id": 55019,
+          "token": "aN",
+          "logit": 18.71875
+        },
+        {
+          "id": 43,
+          "token": "L",
+          "logit": 18.40625
+        },
+        {
+          "id": 44,
+          "token": "M",
+          "logit": 18.09375
+        },
+        {
+          "id": 76180,
+          "token": "NK",
+          "logit": 17.71875
+        },
+        {
+          "id": 38,
+          "token": "G",
+          "logit": 17.703125
+        },
+        {
+          "id": 18317,
+          "token": "\tN",
+          "logit": 17.203125
+        },
+        {
+          "id": 65214,
+          "token": "Nat",
+          "logit": 16.90625
+        },
+        {
+          "id": 36,
+          "token": "E",
+          "logit": 16.75
+        },
+        {
+          "id": 102227,
+          "token": "\u5a1c",
+          "logit": 16.59375
+        },
+        {
+          "id": 20195,
+          "token": "\u041d",
+          "logit": 16.5625
+        },
+        {
+          "id": 37484,
+          "token": "-NLS",
+          "logit": 16.453125
+        },
+        {
+          "id": 60335,
+          "token": "Nu",
+          "logit": 16.34375
+        },
+        {
+          "id": 42,
+          "token": "K",
+          "logit": 16.3125
+        },
+        {
+          "id": 138309,
+          "token": "\uff2e",
+          "logit": 16.3125
+        },
+        {
+          "id": 30010,
+          "token": ">N",
+          "logit": 15.96875
+        },
+        {
+          "id": 72749,
+          "token": "Lisa",
+          "logit": 15.890625
+        },
+        {
+          "id": 30356,
+          "token": "Nick",
+          "logit": 15.890625
+        }
+      ],
+      "split": "development",
+      "family": "d1",
+      "query": "agent",
+      "orientation": 0,
+      "voice": "active",
+      "source_span": [
+        41,
+        47
+      ],
+      "irrelevant_span": [
+        35,
+        41
+      ],
+      "suffix_start": 47,
+      "prompt_end": 55,
+      "reconstruction_relative_error": 0.0004517021768925053
+    },
+    {
+      "call": 3,
+      "model": "qwen7b",
+      "id": "d1_0_agent",
+      "condition": "baseline",
+      "wrapped": true,
+      "native": false,
+      "expected": "Nina",
+      "argmax_id": 45,
+      "argmax_token": "N",
+      "actual": null,
+      "margin": -2.9687703038983777,
+      "correct": false,
+      "alias_logits": {
+        "Nina": 21.21875,
+        "Luke": 24.187520303898378
+      },
+      "top20": [
+        {
+          "id": 45,
+          "token": "N",
+          "logit": 38.4375
+        },
+        {
+          "id": 58347,
+          "token": "Luke",
+          "logit": 24.1875
+        },
+        {
+          "id": 63888,
+          "token": " Nina",
+          "logit": 21.21875
+        },
+        {
+          "id": 55019,
+          "token": "aN",
+          "logit": 18.71875
+        },
+        {
+          "id": 43,
+          "token": "L",
+          "logit": 18.40625
+        },
+        {
+          "id": 44,
+          "token": "M",
+          "logit": 18.09375
+        },
+        {
+          "id": 76180,
+          "token": "NK",
+          "logit": 17.71875
+        },
+        {
+          "id": 38,
+          "token": "G",
+          "logit": 17.703125
+        },
+        {
+          "id": 18317,
+          "token": "\tN",
+          "logit": 17.203125
+        },
+        {
+          "id": 65214,
+          "token": "Nat",
+          "logit": 16.90625
+        },
+        {
+          "id": 36,
+          "token": "E",
+          "logit": 16.75
+        },
+        {
+          "id": 102227,
+          "token": "\u5a1c",
+          "logit": 16.59375
+        },
+        {
+          "id": 20195,
+          "token": "\u041d",
+          "logit": 16.5625
+        },
+        {
+          "id": 37484,
+          "token": "-NLS",
+          "logit": 16.453125
+        },
+        {
+          "id": 60335,
+          "token": "Nu",
+          "logit": 16.34375
+        },
+        {
+          "id": 42,
+          "token": "K",
+          "logit": 16.3125
+        },
+        {
+          "id": 138309,
+          "token": "\uff2e",
+          "logit": 16.3125
+        },
+        {
+          "id": 30010,
+          "token": ">N",
+          "logit": 15.96875
+        },
+        {
+          "id": 72749,
+          "token": "Lisa",
+          "logit": 15.890625
+        },
+        {
+          "id": 30356,
+          "token": "Nick",
+          "logit": 15.890625
+        }
+      ],
+      "split": "development",
+      "family": "d1",
+      "query": "agent",
+      "orientation": 0,
+      "voice": "active",
+      "source_span": [
+        41,
+        47
+      ],
+      "irrelevant_span": [
+        35,
+        41
+      ],
+      "suffix_start": 47,
+      "prompt_end": 55,
+      "reconstruction_relative_error": 0.0004517021768925053
+    },
+    {
+      "call": 4,
+      "model": "qwen7b",
+      "id": "d1_0_first",
+      "condition": "baseline",
+      "wrapped": true,
+      "native": false,
+      "expected": "Nina",
+      "argmax_id": 45,
+      "argmax_token": "N",
+      "actual": null,
+      "margin": -9.343780242415832,
+      "correct": false,
+      "alias_logits": {
+        "Nina": 19.46875,
+        "Luke": 28.812530242415832
+      },
+      "top20": [
+        {
+          "id": 45,
+          "token": "N",
+          "logit": 36.71875
+        },
+        {
+          "id": 58347,
+          "token": "Luke",
+          "logit": 28.8125
+        },
+        {
+          "id": 63888,
+          "token": " Nina",
+          "logit": 19.46875
+        },
+        {
+          "id": 43,
+          "token": "L",
+          "logit": 19.234375
+        },
+        {
+          "id": 24453,
+          "token": " Luke",
+          "logit": 18.40625
+        },
+        {
+          "id": 49202,
+          "token": "Lu",
+          "logit": 18.0625
+        },
+        {
+          "id": 38,
+          "token": "G",
+          "logit": 17.8125
+        },
+        {
+          "id": 55019,
+          "token": "aN",
+          "logit": 17.578125
+        },
+        {
+          "id": 60335,
+          "token": "Nu",
+          "logit": 17.5625
+        },
+        {
+          "id": 76180,
+          "token": "NK",
+          "logit": 17.328125
+        },
+        {
+          "id": 30356,
+          "token": "Nick",
+          "logit": 17.265625
+        },
+        {
+          "id": 44,
+          "token": "M",
+          "logit": 17.203125
+        },
+        {
+          "id": 65214,
+          "token": "Nat",
+          "logit": 17.140625
+        },
+        {
+          "id": 40645,
+          "token": "Luc",
+          "logit": 17.125
+        },
+        {
+          "id": 18317,
+          "token": "\tN",
+          "logit": 17.046875
+        },
+        {
+          "id": 36,
+          "token": "E",
+          "logit": 17.03125
+        },
+        {
+          "id": 91844,
+          "token": "Nike",
+          "logit": 16.421875
+        },
+        {
+          "id": 42,
+          "token": "K",
+          "logit": 16.40625
+        },
+        {
+          "id": 81289,
+          "token": "Lake",
+          "logit": 16.171875
+        },
+        {
+          "id": 102227,
+          "token": "\u5a1c",
+          "logit": 16.171875
+        }
+      ],
+      "split": "development",
+      "family": "d1",
+      "query": "first",
+      "orientation": 0,
+      "voice": "active",
+      "source_span": [
+        41,
+        47
+      ],
+      "irrelevant_span": [
+        35,
+        41
+      ],
+      "suffix_start": 47,
+      "prompt_end": 59,
+      "reconstruction_relative_error": 0.0005202923615779044
+    },
+    {
+      "call": 5,
+      "model": "qwen7b",
+      "id": "d1_1_agent",
+      "condition": "baseline",
+      "wrapped": true,
+      "native": false,
+      "expected": "Luke",
+      "argmax_id": 58347,
+      "argmax_token": "Luke",
+      "actual": "Luke",
+      "margin": 26.281283737793878,
+      "correct": true,
+      "alias_logits": {
+        "Nina": 8.5,
+        "Luke": 34.78128373779388
+      },
+      "top20": [
+        {
+          "id": 58347,
+          "token": "Luke",
+          "logit": 34.78125
+        },
+        {
+          "id": 45,
+          "token": "N",
+          "logit": 26.359375
+        },
+        {
+          "id": 24453,
+          "token": " Luke",
+          "logit": 24.484375
+        },
+        {
+          "id": 40645,
+          "token": "Luc",
+          "logit": 19.859375
+        },
+        {
+          "id": 49202,
+          "token": "Lu",
+          "logit": 19.453125
+        },
+        {
+          "id": 81289,
+          "token": "Lake",
+          "logit": 19.078125
+        },
+        {
+          "id": 43,
+          "token": "L",
+          "logit": 18.40625
+        },
+        {
+          "id": 94236,
+          "token": "Jake",
+          "logit": 17.953125
+        },
+        {
+          "id": 23236,
+          "token": "LU",
+          "logit": 17.828125
+        },
+        {
+          "id": 92806,
+          "token": "Lou",
+          "logit": 17.15625
+        },
+        {
+          "id": 92963,
+          "token": "LK",
+          "logit": 17.15625
+        },
+        {
+          "id": 98498,
+          "token": "Lane",
+          "logit": 16.5
+        },
+        {
+          "id": 76460,
+          "token": "Laura",
+          "logit": 16.328125
+        },
+        {
+          "id": 77970,
+          "token": "Russ",
+          "logit": 16.1875
+        },
+        {
+          "id": 74950,
+          "token": " LU",
+          "logit": 15.7890625
+        },
+        {
+          "id": 91977,
+          "token": "Juan",
+          "logit": 15.5625
+        },
+        {
+          "id": 30356,
+          "token": "Nick",
+          "logit": 15.21875
+        },
+        {
+          "id": 47312,
+          "token": "Ly",
+          "logit": 15.1953125
+        },
+        {
+          "id": 65220,
+          "token": "Patrick",
+          "logit": 15.125
+        },
+        {
+          "id": 49888,
+          "token": "Matthew",
+          "logit": 15.1171875
+        }
+      ],
+      "split": "development",
+      "family": "d1",
+      "query": "agent",
+      "orientation": 1,
+      "voice": "active",
+      "source_span": [
+        41,
+        47
+      ],
+      "irrelevant_span": [
+        35,
+        41
+      ],
+      "suffix_start": 47,
+      "prompt_end": 55,
+      "reconstruction_relative_error": 0.0004228565455881631
+    },
+    {
+      "call": 6,
+      "model": "qwen7b",
+      "id": "d1_1_first",
+      "condition": "baseline",
+      "wrapped": true,
+      "native": false,
+      "expected": "Luke",
+      "argmax_id": 58347,
+      "argmax_token": "Luke",
+      "actual": "Luke",
+      "margin": 27.58597819540595,
+      "correct": true,
+      "alias_logits": {
+        "Nina": 7.7890625,
+        "Luke": 35.37504069540595
+      },
+      "top20": [
+        {
+          "id": 58347,
+          "token": "Luke",
+          "logit": 35.375
+        },
+        {
+          "id": 45,
+          "token": "N",
+          "logit": 26.859375
+        },
+        {
+          "id": 24453,
+          "token": " Luke",
+          "logit": 25.265625
+        },
+        {
+          "id": 40645,
+          "token": "Luc",
+          "logit": 20.796875
+        },
+        {
+          "id": 49202,
+          "token": "Lu",
+          "logit": 20.65625
+        },
+        {
+          "id": 81289,
+          "token": "Lake",
+          "logit": 19.421875
+        },
+        {
+          "id": 94236,
+          "token": "Jake",
+          "logit": 19.328125
+        },
+        {
+          "id": 23236,
+          "token": "LU",
+          "logit": 19.015625
+        },
+        {
+          "id": 43,
+          "token": "L",
+          "logit": 18.875
+        },
+        {
+          "id": 92806,
+          "token": "Lou",
+          "logit": 17.796875
+        },
+        {
+          "id": 92963,
+          "token": "LK",
+          "logit": 17.359375
+        },
+        {
+          "id": 77970,
+          "token": "Russ",
+          "logit": 17.0
+        },
+        {
+          "id": 76460,
+          "token": "Laura",
+          "logit": 16.75
+        },
+        {
+          "id": 98498,
+          "token": "Lane",
+          "logit": 16.5
+        },
+        {
+          "id": 66115,
+          "token": "Louis",
+          "logit": 16.25
+        },
+        {
+          "id": 74950,
+          "token": " LU",
+          "logit": 16.21875
+        },
+        {
+          "id": 49888,
+          "token": "Matthew",
+          "logit": 16.140625
+        },
+        {
+          "id": 91977,
+          "token": "Juan",
+          "logit": 16.078125
+        },
+        {
+          "id": 54657,
+          "token": " Luk",
+          "logit": 15.9921875
+        },
+        {
+          "id": 30356,
+          "token": "Nick",
+          "logit": 15.9609375
+        }
+      ],
+      "split": "development",
+      "family": "d1",
+      "query": "first",
+      "orientation": 1,
+      "voice": "active",
+      "source_span": [
+        41,
+        47
+      ],
+      "irrelevant_span": [
+        35,
+        41
+      ],
+      "suffix_start": 47,
+      "prompt_end": 59,
+      "reconstruction_relative_error": 0.00048530308941459847
+    },
+    {
+      "call": 7,
+      "model": "qwen7b",
+      "id": "d2_0_agent",
+      "condition": "baseline",
+      "wrapped": true,
+      "native": false,
+      "expected": "Emma",
+      "argmax_id": 89074,
+      "argmax_token": "Emma",
+      "actual": "Emma",
+      "margin": 12.312535303545737,
+      "correct": true,
+      "alias_logits": {
+        "Emma": 38.09378883186382,
+        "Jack": 25.781253528318082
+      },
+      "top20": [
+        {
+          "id": 89074,
+          "token": "Emma",
+          "logit": 38.09375
+        },
+        {
+          "id": 34935,
+          "token": " Emma",
+          "logit": 27.9375
+        },
+        {
+          "id": 32631,
+          "token": "Jack",
+          "logit": 25.78125
+        },
+        {
+          "id": 3332,
+          "token": "Module",
+          "logit": 24.234375
+        },
+        {
+          "id": 84048,
+          "token": "Emily",
+          "logit": 22.59375
+        },
+        {
+          "id": 100401,
+          "token": "\u5b97",
+          "logit": 21.625
+        },
+        {
+          "id": 2269,
+          "token": "Em",
+          "logit": 21.59375
+        },
+        {
+          "id": 106393,
+          "token": "\u6a21\u5757",
+          "logit": 20.375
+        },
+        {
+          "id": 96184,
+          "token": "Davis",
+          "logit": 20.15625
+        },
+        {
+          "id": 41484,
+          "token": "Mary",
+          "logit": 19.609375
+        },
+        {
+          "id": 4352,
+          "token": "module",
+          "logit": 18.84375
+        },
+        {
+          "id": 48185,
+          "token": "/module",
+          "logit": 18.703125
+        },
+        {
+          "id": 33793,
+          "token": "emma",
+          "logit": 18.6875
+        },
+        {
+          "id": 40374,
+          "token": " MODULE",
+          "logit": 18.546875
+        },
+        {
+          "id": 26958,
+          "token": ".Module",
+          "logit": 18.203125
+        },
+        {
+          "id": 36,
+          "token": "E",
+          "logit": 18.125
+        },
+        {
+          "id": 2716,
+          "token": "EM",
+          "logit": 18.03125
+        },
+        {
+          "id": 4688,
+          "token": " module",
+          "logit": 18.0
+        },
+        {
+          "id": 13711,
+          "token": " Module",
+          "logit": 18.0
+        },
+        {
+          "id": 75295,
+          "token": "(Module",
+          "logit": 17.875
+        }
+      ],
+      "split": "development",
+      "family": "d2",
+      "query": "agent",
+      "orientation": 0,
+      "voice": "active",
+      "source_span": [
+        41,
+        47
+      ],
+      "irrelevant_span": [
+        35,
+        41
+      ],
+      "suffix_start": 47,
+      "prompt_end": 55,
+      "reconstruction_relative_error": 0.000493690341648089
+    },
+    {
+      "call": 8,
+      "model": "qwen7b",
+      "id": "d2_0_first",
+      "condition": "baseline",
+      "wrapped": true,
+      "native": false,
+      "expected": "Emma",
+      "argmax_id": 89074,
+      "argmax_token": "Emma",
+      "actual": "Emma",
+      "margin": 8.656301369975598,
+      "correct": true,
+      "alias_logits": {
+        "Emma": 36.96881302957389,
+        "Jack": 28.31251165959829
+      },
+      "top20": [
+        {
+          "id": 89074,
+          "token": "Emma",
+          "logit": 36.96875
+        },
+        {
+          "id": 32631,
+          "token": "Jack",
+          "logit": 28.3125
+        },
+        {
+          "id": 34935,
+          "token": " Emma",
+          "logit": 27.296875
+        },
+        {
+          "id": 3332,
+          "token": "Module",
+          "logit": 23.96875
+        },
+        {
+          "id": 2269,
+          "token": "Em",
+          "logit": 22.46875
+        },
+        {
+          "id": 84048,
+          "token": "Emily",
+          "logit": 22.390625
+        },
+        {
+          "id": 100401,
+          "token": "\u5b97",
+          "logit": 20.640625
+        },
+        {
+          "id": 41484,
+          "token": "Mary",
+          "logit": 20.21875
+        },
+        {
+          "id": 106393,
+          "token": "\u6a21\u5757",
+          "logit": 19.828125
+        },
+        {
+          "id": 96184,
+          "token": "Davis",
+          "logit": 19.296875
+        },
+        {
+          "id": 2716,
+          "token": "EM",
+          "logit": 19.0
+        },
+        {
+          "id": 33793,
+          "token": "emma",
+          "logit": 18.78125
+        },
+        {
+          "id": 4352,
+          "token": "module",
+          "logit": 18.59375
+        },
+        {
+          "id": 62502,
+          "token": "Jane",
+          "logit": 18.59375
+        },
+        {
+          "id": 13711,
+          "token": " Module",
+          "logit": 18.28125
+        },
+        {
+          "id": 13079,
+          "token": "John",
+          "logit": 18.234375
+        },
+        {
+          "id": 48185,
+          "token": "/module",
+          "logit": 18.109375
+        },
+        {
+          "id": 26958,
+          "token": ".Module",
+          "logit": 17.96875
+        },
+        {
+          "id": 24732,
+          "token": "Tom",
+          "logit": 17.875
+        },
+        {
+          "id": 56756,
+          "token": "Anna",
+          "logit": 17.8125
+        }
+      ],
+      "split": "development",
+      "family": "d2",
+      "query": "first",
+      "orientation": 0,
+      "voice": "active",
+      "source_span": [
+        41,
+        47
+      ],
+      "irrelevant_span": [
+        35,
+        41
+      ],
+      "suffix_start": 47,
+      "prompt_end": 59,
+      "reconstruction_relative_error": 0.0004476709378947091
+    },
+    {
+      "call": 9,
+      "model": "qwen7b",
+      "id": "d2_1_agent",
+      "condition": "baseline",
+      "wrapped": true,
+      "native": false,
+      "expected": "Jack",
+      "argmax_id": 32631,
+      "argmax_token": "Jack",
+      "actual": "Jack",
+      "margin": 8.749938072176096,
+      "correct": true,
+      "alias_logits": {
+        "Emma": 29.875069224229986,
+        "Jack": 38.62500729640608
+      },
+      "top20": [
+        {
+          "id": 32631,
+          "token": "Jack",
+          "logit": 38.625
+        },
+        {
+          "id": 89074,
+          "token": "Emma",
+          "logit": 29.875
+        },
+        {
+          "id": 7607,
+          "token": " Jack",
+          "logit": 26.796875
+        },
+        {
+          "id": 94236,
+          "token": "Jake",
+          "logit": 22.75
+        },
+        {
+          "id": 61282,
+          "token": "Jackson",
+          "logit": 22.640625
+        },
+        {
+          "id": 27134,
+          "token": "jack",
+          "logit": 22.078125
+        },
+        {
+          "id": 91042,
+          "token": " JACK",
+          "logit": 21.71875
+        },
+        {
+          "id": 82829,
+          "token": "Jac",
+          "logit": 21.28125
+        },
+        {
+          "id": 25072,
+          "token": " jack",
+          "logit": 21.0625
+        },
+        {
+          "id": 3332,
+          "token": "Module",
+          "logit": 20.96875
+        },
+        {
+          "id": 13079,
+          "token": "John",
+          "logit": 20.890625
+        },
+        {
+          "id": 41,
+          "token": "J",
+          "logit": 20.6875
+        },
+        {
+          "id": 34935,
+          "token": " Emma",
+          "logit": 20.296875
+        },
+        {
+          "id": 62502,
+          "token": "Jane",
+          "logit": 20.140625
+        },
+        {
+          "id": 28084,
+          "token": "James",
+          "logit": 19.515625
+        },
+        {
+          "id": 96184,
+          "token": "Davis",
+          "logit": 19.34375
+        },
+        {
+          "id": 89272,
+          "token": "Jak",
+          "logit": 19.0625
+        },
+        {
+          "id": 24732,
+          "token": "Tom",
+          "logit": 19.046875
+        },
+        {
+          "id": 94167,
+          "token": "Jacob",
+          "logit": 18.96875
+        },
+        {
+          "id": 100401,
+          "token": "\u5b97",
+          "logit": 18.265625
+        }
+      ],
+      "split": "development",
+      "family": "d2",
+      "query": "agent",
+      "orientation": 1,
+      "voice": "active",
+      "source_span": [
+        41,
+        47
+      ],
+      "irrelevant_span": [
+        35,
+        41
+      ],
+      "suffix_start": 47,
+      "prompt_end": 55,
+      "reconstruction_relative_error": 0.0004987631042096586
+    },
+    {
+      "call": 10,
+      "model": "qwen7b",
+      "id": "d2_1_first",
+      "condition": "baseline",
+      "wrapped": true,
+      "native": false,
+      "expected": "Jack",
+      "argmax_id": 32631,
+      "argmax_token": "Jack",
+      "actual": "Jack",
+      "margin": 9.374898878315165,
+      "correct": true,
+      "alias_logits": {
+        "Emma": 28.9688641288979,
+        "Jack": 38.34376300721306
+      },
+      "top20": [
+        {
+          "id": 32631,
+          "token": "Jack",
+          "logit": 38.34375
+        },
+        {
+          "id": 89074,
+          "token": "Emma",
+          "logit": 28.96875
+        },
+        {
+          "id": 7607,
+          "token": " Jack",
+          "logit": 27.09375
+        },
+        {
+          "id": 94236,
+          "token": "Jake",
+          "logit": 23.03125
+        },
+        {
+          "id": 61282,
+          "token": "Jackson",
+          "logit": 22.921875
+        },
+        {
+          "id": 27134,
+          "token": "jack",
+          "logit": 22.59375
+        },
+        {
+          "id": 91042,
+          "token": " JACK",
+          "logit": 22.25
+        },
+        {
+          "id": 13079,
+          "token": "John",
+          "logit": 22.140625
+        },
+        {
+          "id": 41,
+          "token": "J",
+          "logit": 21.625
+        },
+        {
+          "id": 82829,
+          "token": "Jac",
+          "logit": 21.421875
+        },
+        {
+          "id": 62502,
+          "token": "Jane",
+          "logit": 21.34375
+        },
+        {
+          "id": 25072,
+          "token": " jack",
+          "logit": 21.0625
+        },
+        {
+          "id": 28084,
+          "token": "James",
+          "logit": 20.234375
+        },
+        {
+          "id": 3332,
+          "token": "Module",
+          "logit": 20.171875
+        },
+        {
+          "id": 34935,
+          "token": " Emma",
+          "logit": 19.890625
+        },
+        {
+          "id": 94167,
+          "token": "Jacob",
+          "logit": 19.65625
+        },
+        {
+          "id": 24732,
+          "token": "Tom",
+          "logit": 19.375
+        },
+        {
+          "id": 89272,
+          "token": "Jak",
+          "logit": 19.265625
+        },
+        {
+          "id": 36634,
+          "token": "Jim",
+          "logit": 19.109375
+        },
+        {
+          "id": 64141,
+          "token": "Jam",
+          "logit": 18.6875
+        }
+      ],
+      "split": "development",
+      "family": "d2",
+      "query": "first",
+      "orientation": 1,
+      "voice": "active",
+      "source_span": [
+        41,
+        47
+      ],
+      "irrelevant_span": [
+        35,
+        41
+      ],
+      "suffix_start": 47,
+      "prompt_end": 59,
+      "reconstruction_relative_error": 0.0004409713217750946
+    },
+    {
+      "call": 11,
+      "model": "qwen7b",
+      "id": "d1_0_agent",
+      "condition": "dense_repeat_validation",
+      "wrapped": true,
+      "native": false,
+      "expected": "Nina",
+      "argmax_id": 45,
+      "argmax_token": "N",
+      "actual": null,
+      "margin": -2.9687703038983777,
+      "correct": false,
+      "alias_logits": {
+        "Nina": 21.21875,
+        "Luke": 24.187520303898378
+      },
+      "top20": [
+        {
+          "id": 45,
+          "token": "N",
+          "logit": 38.4375
+        },
+        {
+          "id": 58347,
+          "token": "Luke",
+          "logit": 24.1875
+        },
+        {
+          "id": 63888,
+          "token": " Nina",
+          "logit": 21.21875
+        },
+        {
+          "id": 55019,
+          "token": "aN",
+          "logit": 18.71875
+        },
+        {
+          "id": 43,
+          "token": "L",
+          "logit": 18.40625
+        },
+        {
+          "id": 44,
+          "token": "M",
+          "logit": 18.09375
+        },
+        {
+          "id": 76180,
+          "token": "NK",
+          "logit": 17.71875
+        },
+        {
+          "id": 38,
+          "token": "G",
+          "logit": 17.703125
+        },
+        {
+          "id": 18317,
+          "token": "\tN",
+          "logit": 17.203125
+        },
+        {
+          "id": 65214,
+          "token": "Nat",
+          "logit": 16.90625
+        },
+        {
+          "id": 36,
+          "token": "E",
+          "logit": 16.75
+        },
+        {
+          "id": 102227,
+          "token": "\u5a1c",
+          "logit": 16.59375
+        },
+        {
+          "id": 20195,
+          "token": "\u041d",
+          "logit": 16.5625
+        },
+        {
+          "id": 37484,
+          "token": "-NLS",
+          "logit": 16.453125
+        },
+        {
+          "id": 60335,
+          "token": "Nu",
+          "logit": 16.34375
+        },
+        {
+          "id": 42,
+          "token": "K",
+          "logit": 16.3125
+        },
+        {
+          "id": 138309,
+          "token": "\uff2e",
+          "logit": 16.3125
+        },
+        {
+          "id": 30010,
+          "token": ">N",
+          "logit": 15.96875
+        },
+        {
+          "id": 72749,
+          "token": "Lisa",
+          "logit": 15.890625
+        },
+        {
+          "id": 30356,
+          "token": "Nick",
+          "logit": 15.890625
+        }
+      ],
+      "split": "development",
+      "family": "d1",
+      "query": "agent",
+      "orientation": 0,
+      "voice": "active",
+      "source_span": [
+        41,
+        47
+      ],
+      "irrelevant_span": [
+        35,
+        41
+      ],
+      "suffix_start": 47,
+      "prompt_end": 55,
+      "reconstruction_relative_error": 0.0004517021768925053,
+      "prefix_relative_error": 0.0
+    }
+  ]
+}
