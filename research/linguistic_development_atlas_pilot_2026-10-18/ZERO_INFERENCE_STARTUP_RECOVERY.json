@@ -1,0 +1,15 @@
+{
+  "status": "zero_inference_startup_recovery_before_first_model_load",
+  "date": "2026-10-18",
+  "failure": "ImportError: [metal::load_device] No Metal device available",
+  "location": "run.py line 122: import mlx.core as mx, before mlx_lm.load and before forward journal creation",
+  "preserved_original_marker": "qwen7b/STARTUP_BLOCKED_SANDBOX.json",
+  "preserved_marker_sha256": "f01e0cbf59ae8870e8a5b93681310653971f986860b4b05823dfd552539a624c",
+  "forward_journal_existed": false,
+  "model_weights_loaded": false,
+  "model_forwards_before_recovery": 0,
+  "gpu_check_outside_sandbox": "metal_available=True; no model loaded or forward executed",
+  "frozen_code_changed": false,
+  "scientific_inputs_sites_scoring_predictions_changed": false,
+  "operational_deviation": "The no-restart marker was preserved under a startup-failure filename to permit the first actual model run with required GPU access. This relaxes the engineering startup guard only before model initialization; it is not a rerun of observed outputs. No further automatic model-run recovery is permitted."
+}

@@ -1,8 +1,10 @@
 {
-  "status": "pending_human_confirmation_or_explicit_waiver",
+  "status": "human_explicitly_waived",
+  "human_review_completed": false,
+  "annotation_method": "AI-only review by Codex; no independent human annotation",
+  "direct_user_response": "use ai only annotation",
+  "date": "2026-10-18",
   "review_sha256": "017e62952e35133f6adf88442e162e83593e4f0142e92a006723967fc9ffc71c",
   "user_authorized_bounded_pilot": true,
-  "human_review_completed": false,
-  "requested_in_current_turn": true,
-  "new_model_forwards": 0
+  "limitation": "Single AI annotator and deterministic consistency checks; coordination readings and question naturalness are not independently human-validated."
 }

@@ -1,0 +1,11 @@
+This proposal is NOT APPLIED to the frozen runner. It changes dictionary assembly,
+not scoring, prompts, sites, hypotheses or model calls. Any future execution needs
+a separately recorded decision; this failed run remains closed.
+
+--- run.py (frozen)
++++ run.py (proposed mechanical repair)
+@@
+-        result=dict(**row,**score(logits,row,aliases,tok.decode),max_reconstruction_relative_error=recon)
++        scored = score(logits,row,aliases,tok.decode)
++        assert scored['expected'] == row['expected']
++        result = {**row, **scored, 'max_reconstruction_relative_error': recon}

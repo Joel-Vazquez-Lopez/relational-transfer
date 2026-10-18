@@ -1,0 +1,104 @@
+{
+  "status": "CLOSED_TECHNICAL_FAILURE_NO_GO",
+  "model_forwards": 2,
+  "held_out_forwards": 0,
+  "large_arrays": "Local only; no claim that every tensor/logit array is uploaded",
+  "files": {
+    "ANNOTATION_AUDIT.json": {
+      "bytes": 1735,
+      "sha256": "e3ef8f1b47cd169032a3cad839ba49fffccae3ab0448d8c12651ab06ad986ab3"
+    },
+    "ANNOTATION_DECISION.json": {
+      "bytes": 527,
+      "sha256": "b22c49cb507216b3cd22a4c3600b80b6810a419f6ea08117b644fe15bf1f4a22"
+    },
+    "ANNOTATION_REVIEW.md": {
+      "bytes": 2734,
+      "sha256": "017e62952e35133f6adf88442e162e83593e4f0142e92a006723967fc9ffc71c"
+    },
+    "EXECUTION_STATUS.json": {
+      "bytes": 1578,
+      "sha256": "65a4ace1797eaedeb00edc1532ef768374334f248ac977ea5540093b3d0f0151"
+    },
+    "LOCK.json": {
+      "bytes": 5570,
+      "sha256": "80fe03357fcb268939552a62920281667ea3b3b753de885b1071688b8a27e611"
+    },
+    "OFFLINE_REPAIR_CHECK.json": {
+      "bytes": 262,
+      "sha256": "38f4a7a498e1299137deab708dd34074d2f0c2ab33f074f4af3e420cbd262aef"
+    },
+    "PREFLIGHT_CHECKS.json": {
+      "bytes": 334,
+      "sha256": "7dcbeed6cae38dbfe8192393087b6495ca6e7fbf93685c5363936c123f59996d"
+    },
+    "PREPARATION_MANIFEST.json": {
+      "bytes": 1530,
+      "sha256": "f356b7d6c28e553f444e025a99a1bb494c2f89e21dbd3d154ae4d8aa23ca96ef"
+    },
+    "PROTOCOL.json": {
+      "bytes": 3477,
+      "sha256": "c15ce924d736dd9b7e3453699b9ec43655d03e1a404ec89446626f9e5ed7e893"
+    },
+    "README.md": {
+      "bytes": 2378,
+      "sha256": "dda3a178e03850a8ba805c20acf05ce361d499cf808d23b3f6cda4841f39f03a"
+    },
+    "REPORT.md": {
+      "bytes": 6511,
+      "sha256": "9e8b9425418666898743f54d52e94a872a2696e1dd3a406a3079e6203f2cf62c"
+    },
+    "RUN_qwen7b.log": {
+      "bytes": 853,
+      "sha256": "417168981508ebea7d86d0a896ed2f6cf9a72cdf40339a844e9196a7ecd4272a"
+    },
+    "SERIALIZATION_REPAIR_PROPOSAL.diff": {
+      "bytes": 590,
+      "sha256": "8b252b8fff7f7b71f2151b22fefbf6792f1c97e2c3e3e4ec6e4fb46b0d5305ea"
+    },
+    "ZERO_INFERENCE_STARTUP_RECOVERY.json": {
+      "bytes": 1081,
+      "sha256": "06fc069b026eb75013ea4a99b280e237d17b6d2df5dd47edf2e9be5fe1fec5fb"
+    },
+    "analyze.py": {
+      "bytes": 13873,
+      "sha256": "ada4598f9b0eea8455bd9f43ff2ebdac2608424392e2c84dfed51a1d9a3b989e"
+    },
+    "instrument.py": {
+      "bytes": 1457,
+      "sha256": "17663fa0871548e85144ff38de3ccbf6873186c19e26205591cc683409da6acf"
+    },
+    "qwen7b/FORWARD_JOURNAL.json": {
+      "bytes": 216,
+      "sha256": "658f963ff14795889b05e7412b3bae27177b86a905118320a7ff7f11ad4829b0"
+    },
+    "qwen7b/PARTIAL_OUTPUT.json": {
+      "bytes": 5196,
+      "sha256": "4cb9d0555dd3586c89a41ea9d73a5b7f571cbb63b487b14d36ce249440c6b572"
+    },
+    "qwen7b/STARTED.json": {
+      "bytes": 221,
+      "sha256": "799a4dd3440d93d79d57338b65f896198e1b5ee0a35194295344a14f0979c502"
+    },
+    "qwen7b/STARTUP_BLOCKED_SANDBOX.json": {
+      "bytes": 221,
+      "sha256": "f01e0cbf59ae8870e8a5b93681310653971f986860b4b05823dfd552539a624c"
+    },
+    "qwen7b/a01_within_0_agent.npz": {
+      "bytes": 17064016,
+      "sha256": "c4ad490a8fe929a7472d202cf7da969802a771568fe114f01779233179b80ed1"
+    },
+    "qwen7b/a01_within_0_agent_logits.npy": {
+      "bytes": 608384,
+      "sha256": "dfacc0a92220ee235e6270e4e7fdd4a238901c95f082495a01e30de96f4ae42f"
+    },
+    "recover_failure.py": {
+      "bytes": 4655,
+      "sha256": "018aa8b66e0d0dc277d855b2566761336a25f94b30142a32b119f163fb42dcda"
+    },
+    "run.py": {
+      "bytes": 11691,
+      "sha256": "2680684616c0bc38799402f1bc6fd2d1927588627a7b6f162bc5c0adbcc7370f"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "status": "CLOSED_TECHNICAL_FAILURE_NO_GO",
+  "conclusion": "NO-GO for this execution; linguistic hypotheses untested",
+  "cause": "run.py line 167: dict(**row, **score(...)) duplicates the expected keyword",
+  "responsibility": "Codex implementation defect; preflight did not cover merging a real-shaped row and score",
+  "total_model_forwards": 2,
+  "maximum_authorized": 132,
+  "main_capture_forwards": 1,
+  "unwrapped_validation_forwards": 1,
+  "wrapped_repeat_forwards": 0,
+  "unwrapped_validation_output": "Computed but not persisted before the process failed; unavailable for numerical comparison",
+  "qwen_saved_answer": {
+    "id": "a01_within_0_agent",
+    "expected": "Yes",
+    "argmax": "Yes",
+    "correct": true,
+    "gold_margin": 23.906251185803203
+  },
+  "qwen_family_competence": "Not evaluated; 0 complete 16-answer families",
+  "llama": "Not started: same known serialization defect; no inference spent reproducing it",
+  "held_out_forwards": 0,
+  "paid_calls": 0,
+  "downloads": 0,
+  "annotation_status": "human_explicitly_waived; AI-only annotation",
+  "native_single_capture_reconstruction_relative_error": 0.0005146823373110973,
+  "numerical_gate": "Incomplete; no wrapper/unwrapped comparison, no repeat or prefix checks",
+  "full_atlas_analysis": "Not run: no complete four-cell comparison exists",
+  "frozen_source_hashes_verified": true,
+  "no_post_output_code_changes": true,
+  "repair": "One-line mechanical fix proposed separately and checked offline; not applied to frozen code",
+  "further_inference_started": false,
+  "run_closed": true
+}

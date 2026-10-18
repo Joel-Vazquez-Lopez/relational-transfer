@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/linguistic_development_atlas_pilot_2026-10-18/run.py", line 211, in <module>
+    execute(a.model)
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/linguistic_development_atlas_pilot_2026-10-18/run.py", line 174, in execute
+    original,original_arrays=one(dev[0])
+                             ^^^^^^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/linguistic_development_atlas_pilot_2026-10-18/run.py", line 167, in one
+    result=dict(**row,**score(logits,row,aliases,tok.decode),max_reconstruction_relative_error=recon)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'expected'

@@ -1,0 +1,278 @@
+{
+  "status": "recovered_offline_from_saved_arrays_no_model_rerun",
+  "row": {
+    "id": "a01_within_0_agent",
+    "family": "a01",
+    "split": "development",
+    "frame": "within",
+    "swap": 0,
+    "question_key": "agent",
+    "sentence": "Ada recommended Boris and Clara to Neil.",
+    "question": "Did Ada recommend someone?",
+    "system": "Use only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.",
+    "expected": "Yes",
+    "annotations": {
+      "agent": "Ada",
+      "theme": [
+        "Boris",
+        "Clara"
+      ],
+      "goal": [
+        "Neil"
+      ]
+    },
+    "annotation_status": "constructed_gold_pending_independent_human_review"
+  },
+  "tokenization": {
+    "id": "a01_within_0_agent",
+    "model": "qwen7b",
+    "prompt": "<|im_start|>system\nUse only the provided sentence. For participant questions, report roles explicitly assigned by that sentence. For mention-order questions, use the order of names in the text. Reply with only Yes or No.<|im_end|>\n<|im_start|>user\nSentence: Ada recommended Boris and Clara to Neil.\nQuestion: Did Ada recommend someone?<|im_end|>\n<|im_start|>assistant\n",
+    "token_ids": [
+      151644,
+      8948,
+      198,
+      10253,
+      1172,
+      279,
+      3897,
+      11652,
+      13,
+      1752,
+      24880,
+      4755,
+      11,
+      1895,
+      12783,
+      20975,
+      12607,
+      553,
+      429,
+      11652,
+      13,
+      1752,
+      6286,
+      23810,
+      4755,
+      11,
+      990,
+      279,
+      1973,
+      315,
+      5036,
+      304,
+      279,
+      1467,
+      13,
+      17841,
+      448,
+      1172,
+      7414,
+      476,
+      2308,
+      13,
+      151645,
+      198,
+      151644,
+      872,
+      198,
+      84564,
+      25,
+      51149,
+      11102,
+      51671,
+      323,
+      50557,
+      311,
+      33121,
+      624,
+      14582,
+      25,
+      14568,
+      51149,
+      6934,
+      4325,
+      30,
+      151645,
+      198,
+      151644,
+      77091,
+      198
+    ],
+    "sentence_positions": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "question_positions": [
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "original_prompt_end": 68,
+    "pad_to": 128,
+    "retained_positions": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      59,
+      60,
+      61,
+      62,
+      63,
+      68
+    ]
+  },
+  "score": {
+    "expected": "Yes",
+    "argmax_id": 9454,
+    "argmax_token": "Yes",
+    "actual_class": "Yes",
+    "class_logit_logsumexp": {
+      "Yes": 43.71875123148106,
+      "No": 19.812500045677854
+    },
+    "class_probability": {
+      "Yes": 0.9999999459957692,
+      "No": 4.146169032190108e-11
+    },
+    "gold_margin": 23.906251185803203,
+    "pass_competence": true,
+    "top20": [
+      {
+        "id": 9454,
+        "token": "Yes",
+        "logit": 43.71875
+      },
+      {
+        "id": 7414,
+        "token": " Yes",
+        "logit": 30.09375
+      },
+      {
+        "id": 59744,
+        "token": "_yes",
+        "logit": 26.578125
+      },
+      {
+        "id": 9834,
+        "token": " yes",
+        "logit": 25.65625
+      },
+      {
+        "id": 14004,
+        "token": "YES",
+        "logit": 25.078125
+      },
+      {
+        "id": 40798,
+        "token": ".Yes",
+        "logit": 25.078125
+      },
+      {
+        "id": 9693,
+        "token": "yes",
+        "logit": 24.984375
+      },
+      {
+        "id": 57741,
+        "token": "\"Yes",
+        "logit": 22.5
+      },
+      {
+        "id": 97071,
+        "token": ",Yes",
+        "logit": 22.328125
+      },
+      {
+        "id": 76730,
+        "token": "_YES",
+        "logit": 21.890625
+      },
+      {
+        "id": 14080,
+        "token": " YES",
+        "logit": 21.796875
+      },
+      {
+        "id": 85408,
+        "token": "\u201cYes",
+        "logit": 20.5
+      },
+      {
+        "id": 96407,
+        "token": " oui",
+        "logit": 20.0625
+      },
+      {
+        "id": 2753,
+        "token": "No",
+        "logit": 19.8125
+      },
+      {
+        "id": 23336,
+        "token": "Yeah",
+        "logit": 19.015625
+      },
+      {
+        "id": 11233,
+        "token": "Bool",
+        "logit": 18.78125
+      },
+      {
+        "id": 84402,
+        "token": ".YES",
+        "logit": 17.328125
+      },
+      {
+        "id": 2514,
+        "token": "True",
+        "logit": 17.25
+      },
+      {
+        "id": 19566,
+        "token": ":YES",
+        "logit": 17.09375
+      },
+      {
+        "id": 86475,
+        "token": "Ye",
+        "logit": 16.859375
+      }
+    ]
+  },
+  "array_shapes": {
+    "residual": [
+      29,
+      14,
+      3584
+    ],
+    "attention": [
+      28,
+      14,
+      3584
+    ],
+    "mlp": [
+      28,
+      14,
+      3584
+    ],
+    "reconstruction_error_norm": [
+      28,
+      14
+    ]
+  },
+  "max_native_reconstruction_relative_error": 0.0005146823373110973,
+  "warning": "Single development cell only. Wrapper/repeat, causal-prefix and family competence gates were not completed. No valid linguistic comparison."
+}
