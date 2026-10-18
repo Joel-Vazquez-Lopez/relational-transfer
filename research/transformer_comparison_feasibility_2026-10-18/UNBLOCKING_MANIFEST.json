@@ -1,0 +1,11 @@
+{
+  "purpose": "Reviewable resource specification for a later published trained-bank reproduction; no request sent and no reconstruction started",
+  "upstream_commit": "0bdc4f6ff45c9e8319d2450bcd63b082b4e167e9",
+  "modified_interpbench_commit": "c1841ad7dd892e8b6b116d74d2b675d7519e1d74",
+  "all_component_tasks": [48,59,63,74,99,108,112,124,125],
+  "smallest_candidate_two_algorithm_subset": {"chains": [[59,112],[63,108]], "component_tasks": [59,63,108,112]},
+  "required_artifacts": ["Compatible trained ll_model_510.pth weights", "Matching ll_model_cfg_510.pkl configurations", "Matching hl_ll_corr.pkl correspondences", "Mapping from task, variant setting and seed to files", "admissible_tasks.pkl or exact reconstructible task specification", "benchmark_ds.pkl or exact clean/corrupted generation specification", "Any selection/evaluation maps used to choose competent models"],
+  "released_script_constraint": "algo.py selects five distinct available variants per component; a smaller bank needs an explicitly prospective reduced-protocol declaration",
+  "budget_note": "Released training data call requests up to120000 samples; script requests30epochs with early stopping. No measured rebuild cost is available.",
+  "scientific_note": "Receiving arbitrary public single checkpoints does not recreate the modified paper bank. Compiler references are a separate declared experiment."
+}

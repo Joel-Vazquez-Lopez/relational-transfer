@@ -1,0 +1,40 @@
+{
+  "status": "Exploratory post-outcome audit; original failure and frozen gate unchanged",
+  "source_commit": "037d708a23290b4cbb7af7d5e84a441c08aab8bf",
+  "raw_sha256": "9c0a29f9161abea0b5b2d6f423f40bab5bacde50cd01e9e86a546d54bf709afd",
+  "totals": [
+    {
+      "source": 11,
+      "target": 37,
+      "rmse": 0.05441912925081915,
+      "stage_rmse": [
+        0.05967531027416081,
+        0.06048901327444803,
+        0.040795361280645225
+      ],
+      "stage_squared_error_fraction": [
+        0.4008343574005084,
+        0.4118400412157523,
+        0.18732560138373947
+      ]
+    },
+    {
+      "source": 23,
+      "target": 37,
+      "rmse": 0.14698330207268434,
+      "stage_rmse": [
+        0.24835512428901066,
+        0.046002756693129025,
+        0.031870862564304145
+      ],
+      "stage_squared_error_fraction": [
+        0.9516757344527194,
+        0.032652050557283756,
+        0.015672214989996824
+      ]
+    }
+  ],
+  "groups": 48,
+  "individual_records": 1536,
+  "limitation": "These are supplied grammar features. Localization does not identify a semantic mechanism or distinguish intervention mismatch from genuine learned-computation differences."
+}

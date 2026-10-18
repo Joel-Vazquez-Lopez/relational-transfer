@@ -1,0 +1,117 @@
+{
+  "status": "Published trained-bank comparison NOT RUN: prerequisite not met in inspected public artifacts",
+  "repository": "cybershiptrooper/InterpBench",
+  "revision": "a1242a84f8a4d07d1be9a8f5ec710415198016b2",
+  "manifest_items": 436,
+  "pagination_complete": true,
+  "required_component_ids": [
+    48,
+    59,
+    63,
+    74,
+    99,
+    108,
+    112,
+    124,
+    125
+  ],
+  "available_component_ids": [
+    63,
+    124
+  ],
+  "complete_chains": 0,
+  "algorithms": [
+    {
+      "algorithm": 1,
+      "components": [
+        59,
+        112
+      ],
+      "available_component_ids": [],
+      "missing_component_ids": [
+        59,
+        112
+      ],
+      "complete": false
+    },
+    {
+      "algorithm": 2,
+      "components": [
+        59,
+        48,
+        124
+      ],
+      "available_component_ids": [
+        124
+      ],
+      "missing_component_ids": [
+        59,
+        48
+      ],
+      "complete": false
+    },
+    {
+      "algorithm": 3,
+      "components": [
+        59,
+        74,
+        99,
+        124
+      ],
+      "available_component_ids": [
+        124
+      ],
+      "missing_component_ids": [
+        59,
+        74,
+        99
+      ],
+      "complete": false
+    },
+    {
+      "algorithm": 4,
+      "components": [
+        59,
+        125
+      ],
+      "available_component_ids": [],
+      "missing_component_ids": [
+        59,
+        125
+      ],
+      "complete": false
+    },
+    {
+      "algorithm": 5,
+      "components": [
+        108,
+        99,
+        124
+      ],
+      "available_component_ids": [
+        124
+      ],
+      "missing_component_ids": [
+        108,
+        99
+      ],
+      "complete": false
+    },
+    {
+      "algorithm": 6,
+      "components": [
+        63,
+        108
+      ],
+      "available_component_ids": [
+        63
+      ],
+      "missing_component_ids": [
+        108
+      ],
+      "complete": false
+    }
+  ],
+  "scope": "Original public InterpBench bank is not the authors modified trained-variant/correspondence bank. Presence alone would not prove compatibility. Checked public releases/searches do not prove global nonavailability.",
+  "reference_fallback": "Separate compiled-reference protocol, declared restricted implementation sampler and unchanged practical released functions; not a trained-bank reproduction."
+}

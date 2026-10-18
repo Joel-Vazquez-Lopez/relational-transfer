@@ -1,0 +1,15 @@
+{
+  "status": "Post-run design-confound audit, not a new model experiment or preregistered method",
+  "depths": {
+    "sorting": 5,
+    "counting": 3
+  },
+  "native_widths": {
+    "sorting": 48,
+    "counting": 26
+  },
+  "same_layer_count_rule_matches_labels": 16,
+  "pair_records": 16,
+  "conclusion": "Algorithm label is completely confounded with architecture in this bank. Profile classification cannot establish algorithm identification beyond depth/width. Independent causal intervention predictions remain valid within the known circuits.",
+  "action": "Original outcomes and frozen source preserved; no adaptive architecture-balancing experiment run."
+}

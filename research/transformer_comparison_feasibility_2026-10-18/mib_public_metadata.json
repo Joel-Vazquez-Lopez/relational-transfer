@@ -1,0 +1,91 @@
+{
+  "url": "https://huggingface.co/api/models/mib-bench/interpbench/tree/main?recursive=true&expand=false&limit=1000",
+  "status": 200,
+  "link": null,
+  "data": [
+    {
+      "type": "directory",
+      "oid": "a1909cd1a6eee07f87c7c9d6973d663d4e7022bc",
+      "size": 0,
+      "path": "ioi_all_splits"
+    },
+    {
+      "type": "directory",
+      "oid": "d8c6273ae368eaecd7e4e80e0134230ce5b30d71",
+      "size": 0,
+      "path": "ioi_train_split"
+    },
+    {
+      "type": "file",
+      "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519,
+      "path": ".gitattributes"
+    },
+    {
+      "type": "file",
+      "oid": "7b95401dc46245ac339fc25059d4a56d90b4cde5",
+      "size": 31,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "d0c52f6e40d6bc9c4fab5ec022b569521352ab10",
+      "size": 2403,
+      "path": "convert_to_json.py"
+    },
+    {
+      "type": "file",
+      "oid": "fef1a099bb1f635055a4f12478e8f508dce6ee76",
+      "size": 322,
+      "lfs": {
+        "oid": "9781e9e02a127e968bf212f01d74de6cf9b74eeb2bcf8b28a3d5c499c44b7a66",
+        "size": 322,
+        "pointerSize": 128
+      },
+      "xetHash": "e499fcab2e7c0b62d48e064ab4fd7f944bb3df1c6bdb03501cfd779d0e7e1e36",
+      "path": "edges.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "4bfe8c140f0e33703fb56e917405028e3337f9bc",
+      "size": 58418,
+      "path": "interpbench_graph.json"
+    },
+    {
+      "type": "file",
+      "oid": "c5679cefddcfb68a6af37f0450dce84edc03826d",
+      "size": 42434142,
+      "lfs": {
+        "oid": "8cbf87b9f7e572742521ef539c0bf866002d48536b6f2f309552d42bab494b06",
+        "size": 42434142,
+        "pointerSize": 133
+      },
+      "xetHash": "51a6a0a990982b3aff0562fe5a4c3aee8d01fd5d8ba3b00a795562de435f5b4c",
+      "path": "ioi_all_splits/ll_model_100_100_80.pth"
+    },
+    {
+      "type": "file",
+      "oid": "a9ed818696cf3b956ec1c87e668b35cd5e30bdae",
+      "size": 42434142,
+      "lfs": {
+        "oid": "c6d71295e0877c385723b3ffac7bced2cd3aa198f44a48f7cc448e3db96f93e0",
+        "size": 42434142,
+        "pointerSize": 133
+      },
+      "xetHash": "8de8a7e664325e848a11df623cc760e660f0ca35aebe6c0139710d824b7a3136",
+      "path": "ioi_train_split/ll_model_100_100_40.pth"
+    },
+    {
+      "type": "file",
+      "oid": "81629ebb1e71800336f02f9591ed5d95059cc9f7",
+      "size": 1090,
+      "lfs": {
+        "oid": "66d06ba6c6545e4d08360fa539ad29463f043fc86b6d6d51846a3e326c209894",
+        "size": 1090,
+        "pointerSize": 129
+      },
+      "xetHash": "6b88e51b9fc6a16f3e0c54d637212c73e53d59a6aebf25e0c002dc8991bb2e9d",
+      "path": "ll_model_cfg.pkl"
+    }
+  ]
+}

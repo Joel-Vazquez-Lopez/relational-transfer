@@ -1,0 +1,43 @@
+{
+  "status": "NARROW: reference-only benchmark",
+  "normal_gate": [
+    {
+      "program": "sorting",
+      "all_normal_correct": 256,
+      "n": 256,
+      "upstream_layer_max_error": 2.220446049250313e-16,
+      "all_normal_margin_deviation": 0.0
+    },
+    {
+      "program": "counting",
+      "all_normal_correct": 256,
+      "n": 256,
+      "upstream_layer_max_error": 0.0,
+      "all_normal_margin_deviation": 0.0
+    }
+  ],
+  "sampler_controls_all_pass": true,
+  "semantic_predictions": {
+    "sorting": {
+      "dev": true,
+      "held": true
+    },
+    "counting": {
+      "dev": true,
+      "held": true
+    }
+  },
+  "profile": {
+    "calibrates": true,
+    "max_positive": 0.0,
+    "min_negative": 0.09677023361797839,
+    "threshold": 0.048385116808989194,
+    "held_classification_correct": 16,
+    "held_pairs": 16,
+    "same_algorithm_held_rmse_max": 0.0
+  },
+  "released_code_held_correct": 13,
+  "released_code_held_n": 16,
+  "baseline_scope": "Unchanged encoder_fit and point_test from released encoding.py; restricted custom nuisance-bank sampler, N4 compiled references, four straps. NOT published trained-model-bank reproduction or formal Algorithm1/G.1 theorem implementation.",
+  "elapsed_seconds": 5.404453754425049
+}
