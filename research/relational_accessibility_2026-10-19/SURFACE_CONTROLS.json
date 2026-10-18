@@ -1,0 +1,239 @@
+{
+  "probe_fits": 0,
+  "new_model_forwards": 0,
+  "scope": "Required predefined surface competitors; post-probe evaluation, not a new endpoint",
+  "groups": [
+    {
+      "model": "qwen7b",
+      "family": "a01",
+      "n": 4,
+      "parser_correct": 4,
+      "frame_only_correct": 3,
+      "frame_ce": 0.34657359027997264,
+      "rows": [
+        {
+          "id": "a01_within_0_agent",
+          "target": 0,
+          "parser": 0,
+          "frame_only": 0,
+          "frame_probability": [
+            1,
+            0,
+            0
+          ],
+          "gold_probability": 1
+        },
+        {
+          "id": "a01_within_1_agent",
+          "target": 0,
+          "parser": 0,
+          "frame_only": 0,
+          "frame_probability": [
+            1,
+            0,
+            0
+          ],
+          "gold_probability": 1
+        },
+        {
+          "id": "a01_across_0_agent",
+          "target": 1,
+          "parser": 1,
+          "frame_only": 1,
+          "frame_probability": [
+            0,
+            0.5,
+            0.5
+          ],
+          "gold_probability": 0.5
+        },
+        {
+          "id": "a01_across_1_agent",
+          "target": 2,
+          "parser": 2,
+          "frame_only": 1,
+          "frame_probability": [
+            0,
+            0.5,
+            0.5
+          ],
+          "gold_probability": 0.5
+        }
+      ]
+    },
+    {
+      "model": "qwen7b",
+      "family": "a02",
+      "n": 4,
+      "parser_correct": 4,
+      "frame_only_correct": 3,
+      "frame_ce": 0.34657359027997264,
+      "rows": [
+        {
+          "id": "a02_within_0_agent",
+          "target": 0,
+          "parser": 0,
+          "frame_only": 0,
+          "frame_probability": [
+            1,
+            0,
+            0
+          ],
+          "gold_probability": 1
+        },
+        {
+          "id": "a02_within_1_agent",
+          "target": 0,
+          "parser": 0,
+          "frame_only": 0,
+          "frame_probability": [
+            1,
+            0,
+            0
+          ],
+          "gold_probability": 1
+        },
+        {
+          "id": "a02_across_0_agent",
+          "target": 1,
+          "parser": 1,
+          "frame_only": 1,
+          "frame_probability": [
+            0,
+            0.5,
+            0.5
+          ],
+          "gold_probability": 0.5
+        },
+        {
+          "id": "a02_across_1_agent",
+          "target": 2,
+          "parser": 2,
+          "frame_only": 1,
+          "frame_probability": [
+            0,
+            0.5,
+            0.5
+          ],
+          "gold_probability": 0.5
+        }
+      ]
+    },
+    {
+      "model": "llama3b",
+      "family": "a01",
+      "n": 4,
+      "parser_correct": 4,
+      "frame_only_correct": 3,
+      "frame_ce": 0.34657359027997264,
+      "rows": [
+        {
+          "id": "a01_within_0_agent",
+          "target": 0,
+          "parser": 0,
+          "frame_only": 0,
+          "frame_probability": [
+            1,
+            0,
+            0
+          ],
+          "gold_probability": 1
+        },
+        {
+          "id": "a01_within_1_agent",
+          "target": 0,
+          "parser": 0,
+          "frame_only": 0,
+          "frame_probability": [
+            1,
+            0,
+            0
+          ],
+          "gold_probability": 1
+        },
+        {
+          "id": "a01_across_0_agent",
+          "target": 1,
+          "parser": 1,
+          "frame_only": 1,
+          "frame_probability": [
+            0,
+            0.5,
+            0.5
+          ],
+          "gold_probability": 0.5
+        },
+        {
+          "id": "a01_across_1_agent",
+          "target": 2,
+          "parser": 2,
+          "frame_only": 1,
+          "frame_probability": [
+            0,
+            0.5,
+            0.5
+          ],
+          "gold_probability": 0.5
+        }
+      ]
+    },
+    {
+      "model": "llama3b",
+      "family": "a02",
+      "n": 4,
+      "parser_correct": 4,
+      "frame_only_correct": 3,
+      "frame_ce": 0.34657359027997264,
+      "rows": [
+        {
+          "id": "a02_within_0_agent",
+          "target": 0,
+          "parser": 0,
+          "frame_only": 0,
+          "frame_probability": [
+            1,
+            0,
+            0
+          ],
+          "gold_probability": 1
+        },
+        {
+          "id": "a02_within_1_agent",
+          "target": 0,
+          "parser": 0,
+          "frame_only": 0,
+          "frame_probability": [
+            1,
+            0,
+            0
+          ],
+          "gold_probability": 1
+        },
+        {
+          "id": "a02_across_0_agent",
+          "target": 1,
+          "parser": 1,
+          "frame_only": 1,
+          "frame_probability": [
+            0,
+            0.5,
+            0.5
+          ],
+          "gold_probability": 0.5
+        },
+        {
+          "id": "a02_across_1_agent",
+          "target": 2,
+          "parser": 2,
+          "frame_only": 1,
+          "frame_probability": [
+            0,
+            0.5,
+            0.5
+          ],
+          "gold_probability": 0.5
+        }
+      ]
+    }
+  ]
+}

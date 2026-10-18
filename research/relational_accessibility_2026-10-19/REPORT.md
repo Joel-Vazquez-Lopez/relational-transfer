@@ -1,10 +1,10 @@
 # Saved-state accessibility: completed exploratory diagnostic
 
-19 October2026. Frozen local protocol/code before all probe fits, with source hashes in LOCK.json.3,708 small deterministic probe fits, including all12 training-label permutations per Atlas boundary/site/fold. **Zero Transformer forwards, no hyperparameter or layer search; zero convergence warnings.** Probabilities/losses for1,468 records replayed independently;96 graded baseline payload hashes verified. Plots visually inspected.
+19 October 2026. Frozen local protocol/code before all probe fits, with source hashes in LOCK.json.3,708 small deterministic probe fits, including all 12 training-label permutations per Atlas boundary/site/fold. **Zero Transformer forwards, no hyperparameter or layer search; zero convergence warnings.** Probabilities/losses for1,468 records replayed independently;96 graded baseline payload hashes verified. Plots visually inspected.
 
 ## Result
 
-**No robust portable linguistic decoder is established.** The saved Atlas period states often support positive cross-family log-score gain for complete unqueried Theme/Goal membership, while late answer-state transfer is poor and overconfident. These are two lexical families with four sentences each. Final-boundary period accuracy is2/4 in both Qwen transfer directions and4/4 versus1/4 in the two Llama directions. Final-boundary answer-state gain is negative in all four checkpoint/fold combinations. A single favorable fold is not a replication or a significant population finding.
+**No robust portable linguistic decoder is established.** The saved Atlas period states often support positive cross-family log-score gain for complete unqueried Theme/Goal membership, while late answer-state transfer is poor and overconfident. These are two lexical families with four sentences each. Final-boundary period accuracy is2/4 in both Qwen transfer directions and 4/4 versus1/4 in the two Llama directions. Final-boundary answer-state gain is negative in all four checkpoint/fold combinations. A single favorable fold is not a replication or a significant population finding.
 
 |Checkpoint|Site|Train→test|Final log-score gain (nats)|Correct/4|
 |---|---|---|---:|---:|
@@ -17,11 +17,13 @@
 |Llama|answer|a01→a02|−.5763|2|
 |Llama|answer|a02→a01|−.5323|2|
 
-Gain is improvement over the training prior (.5,.25,.25), not estimated internal uncertainty or exact mutual information. The prior has50% accuracy and1.03972nats cross-entropy on these balanced-structure test cells. The target is the complete membership class, preserving within-group permutation; it is not the native Yes/No answer.
+Gain is improvement over the training prior (.5,.25,.25), not estimated internal uncertainty or exact mutual information. The prior has 50% accuracy and 1.03972 nats cross-entropy on these balanced-structure test cells. The target is the complete membership class, preserving within-group permutation; it is not the native Yes/No answer.
 
 Both questions and correct/native Agent answers are fixed within a lexical family, but differ between families. Thus cross-family transfer also crosses a question/answer/context shift. The late failure cannot be interpreted as disappearance of the relationship, semantic erasure or evidence that late layers merely prepare output. Coordinate changes, confidence, decoder misspecification and the tiny training set all remain viable explanations. The surface syntax parser solves the synthetic labels perfectly, so a positive probe would not uniquely imply semantic computation either.
 
-The separate six-family binary panel gives weak, unstable fixed-linear R decoding and little cross-voice portability; all29 stages, sites and transfers remain in RESULTS.json. Its role label is deterministically recoverable from correct answer plus question, so it cannot separate a relational representation from prepared answers. It does not rescue the old trajectory mechanism claim.
+The prespecified surface competitors are now explicitly evaluated in SURFACE_CONTROLS.json: a frame-only rule gets3/4 with cross-entropy .34657 nats in every family; a marker-plus-name-order parser gets4/4. Every final-layer period probe has worse log loss than the frame-only comparator. These controls were evaluated after the probes, as disclosed, without changing probe endpoints or fitting parameters. Apparent gain over the unconditional prior is therefore weak evidence against these stronger competitors.
+
+The separate six-family binary panel gives weak, unstable fixed-linear R decoding and little cross-voice portability; all 29 stages, sites and transfers remain in RESULTS.json. Its role label is deterministically recoverable from correct answer plus question, so it cannot separate a relational representation from prepared answers. It does not rescue the old trajectory mechanism claim.
 
 ## What is useful
 

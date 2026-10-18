@@ -1,0 +1,56 @@
+{
+  "archive": "ALL_CALL_ARRAYS.tar.gz",
+  "bytes": 289491752,
+  "sha256": "bc9634f43f72474a562075a0af2463103ebb6ce5ee780645479bb40511c4e013",
+  "payloads": 323,
+  "all_payload_hashes_verified": true,
+  "shards": [
+    {
+      "path": "ALL_CALL_ARRAYS.part001",
+      "bytes": 33554432,
+      "sha256": "e3f0324dd1234477f1aa5738f51b3babb5e5349588a97a29f1bacbcd671f2211"
+    },
+    {
+      "path": "ALL_CALL_ARRAYS.part002",
+      "bytes": 33554432,
+      "sha256": "660803fb2a420b6b480b41f735773a2eb85881a6692479156aeb2dd04c2ec006"
+    },
+    {
+      "path": "ALL_CALL_ARRAYS.part003",
+      "bytes": 33554432,
+      "sha256": "a82c9fa9dd496790dcdf77250d270ba113f64187a5034fd410f829d4f476d394"
+    },
+    {
+      "path": "ALL_CALL_ARRAYS.part004",
+      "bytes": 33554432,
+      "sha256": "3d80aa302552d22f6f8fb265d9ba58800a796699048b35582c2e4f59ec8faa96"
+    },
+    {
+      "path": "ALL_CALL_ARRAYS.part005",
+      "bytes": 33554432,
+      "sha256": "f571d745fc60940b596eafb9498507da686d1eb78e94ea813af79c72c4697014"
+    },
+    {
+      "path": "ALL_CALL_ARRAYS.part006",
+      "bytes": 33554432,
+      "sha256": "23f730c5f129aa33b2e891fd3ad3dacb65e64b990c2290ac7cb890e5df12f8f6"
+    },
+    {
+      "path": "ALL_CALL_ARRAYS.part007",
+      "bytes": 33554432,
+      "sha256": "43afa33bb964409b55078d6fb4fa3b3f5471a86a2b185b2a8f83873d89ea64fa"
+    },
+    {
+      "path": "ALL_CALL_ARRAYS.part008",
+      "bytes": 33554432,
+      "sha256": "f873e76bc25f8e51f55cb118e7593b6caebb3ad2550929d67bf45374a14ee63e"
+    },
+    {
+      "path": "ALL_CALL_ARRAYS.part009",
+      "bytes": 21056296,
+      "sha256": "22bbe2ed0b9bbd8e12ecb4e8e42bdd0dff65b98f050df267fd809eb8263bf2ca"
+    }
+  ],
+  "reconstruct": "Concatenate ordered part001..partNNN into ALL_CALL_ARRAYS.tar.gz, verify archive SHA256, then extract. Archive contains qwen7b/CALL_*.npz only; no weights or credentials.",
+  "control_prefix_arrays_are_hashes_only": true
+}
