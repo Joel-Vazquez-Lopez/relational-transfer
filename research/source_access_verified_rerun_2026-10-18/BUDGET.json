@@ -1,0 +1,3901 @@
+[
+  {
+    "call": 1,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "native_validation",
+    "prefix_token_ids": [],
+    "wrapped": false,
+    "native": true,
+    "capture": false
+  },
+  {
+    "call": 2,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "wrapped_native_validation",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": true,
+    "capture": true
+  },
+  {
+    "call": 3,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 4,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 5,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 6,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 7,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 8,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 9,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 10,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 11,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 12,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 13,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 14,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 15,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 16,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 17,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 18,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 19,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 20,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 21,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 22,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 23,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "dense_repeat_validation",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 24,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 25,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 26,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 27,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 28,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 29,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      8706
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 30,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 31,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 32,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      8706
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 33,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 34,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 35,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      61686
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 36,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 37,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 38,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 39,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 40,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 41,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 42,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 43,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 44,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 45,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 46,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 47,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 48,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 49,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 50,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 51,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 52,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 53,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 54,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 55,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 56,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 57,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 58,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 59,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 60,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 61,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 62,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 63,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 64,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 65,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 66,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 67,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 68,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 69,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 70,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 71,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 72,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 73,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 74,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 75,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 76,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572,
+      9733
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 77,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 78,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 79,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 80,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 81,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 82,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 83,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 84,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 85,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 86,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 87,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 88,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 89,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 90,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 91,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 92,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 93,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 94,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 95,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 96,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 97,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 98,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 99,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 100,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 101,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 102,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 103,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 104,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 105,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 106,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 107,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      8706
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 108,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 109,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 110,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      8706
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 111,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 112,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 113,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 114,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      8110
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 115,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      8110,
+      4325
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 116,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 117,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 118,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 119,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 120,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 121,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 122,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 123,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 124,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 125,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 126,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 127,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 128,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 129,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 130,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 131,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 132,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 133,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 134,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 135,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 136,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 137,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 138,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 139,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 140,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 141,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 142,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 143,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 144,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 145,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 146,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 147,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 148,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 149,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 150,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 151,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 152,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 153,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 154,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 155,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 156,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572,
+      9733
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 157,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 158,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 159,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 160,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 161,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 162,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 163,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 164,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 165,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 166,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 167,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 168,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 169,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 170,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 171,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 172,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 173,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 174,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 175,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 176,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 177,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 178,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 179,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 180,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 181,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 182,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 183,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 184,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522,
+      10420
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 185,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522,
+      10420,
+      26215
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 186,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 187,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      3194
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 188,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      3194,
+      3054
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 189,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 190,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 191,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      3522,
+      10420
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 192,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 193,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 194,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      11994
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 195,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      11994,
+      4325
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 196,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 197,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 198,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 199,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 200,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 201,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 202,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 203,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 204,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 205,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 206,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 207,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 208,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522,
+      10420
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 209,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522,
+      10420,
+      26215
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 210,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 211,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 212,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      11652
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 213,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      11652,
+      1558
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 214,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 215,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 216,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 217,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 218,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 219,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 220,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 221,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 222,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 223,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 224,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 225,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 226,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 227,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 228,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 229,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572,
+      9733
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 230,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 231,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 232,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 233,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 234,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 235,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 236,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 237,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 238,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 239,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 240,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 241,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 242,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 243,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 244,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 245,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 246,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 247,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 248,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 249,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 250,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522,
+      10420
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 251,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522,
+      10420,
+      26215
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 252,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 253,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      3194
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 254,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      3194,
+      3054
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 255,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 256,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 257,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      3522,
+      10420
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 258,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 259,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 260,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      785,
+      11652
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 261,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      785,
+      11652,
+      1558
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 262,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 263,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 264,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 265,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 266,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 267,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 268,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 269,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 270,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 271,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 272,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 273,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 274,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522,
+      10420
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 275,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522,
+      10420,
+      26215
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 276,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 277,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 278,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      11652
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 279,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      11652,
+      1558
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 280,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 281,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 282,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 283,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 284,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 285,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 286,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 287,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 288,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 289,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 290,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 291,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 292,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 293,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 294,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 295,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572,
+      9733
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 296,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 297,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 298,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 299,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 300,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 301,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 302,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 303,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 304,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 305,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 306,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 307,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 308,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 309,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 310,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 311,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 312,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 313,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 314,
+    "model": "qwen7b",
+    "id": "e1_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 315,
+    "model": "qwen7b",
+    "id": "e1_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      39
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 316,
+    "model": "qwen7b",
+    "id": "e1_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      39,
+      8398
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 317,
+    "model": "qwen7b",
+    "id": "e1_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 318,
+    "model": "qwen7b",
+    "id": "e1_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      39
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 319,
+    "model": "qwen7b",
+    "id": "e1_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      49119
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 320,
+    "model": "qwen7b",
+    "id": "e1_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 321,
+    "model": "qwen7b",
+    "id": "e1_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      39
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 322,
+    "model": "qwen7b",
+    "id": "e1_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      49119
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 323,
+    "model": "qwen7b",
+    "id": "e1_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 324,
+    "model": "qwen7b",
+    "id": "e1_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      39
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 325,
+    "model": "qwen7b",
+    "id": "e1_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      39,
+      8398
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 326,
+    "model": "qwen7b",
+    "id": "e2_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 327,
+    "model": "qwen7b",
+    "id": "e2_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      53083
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 328,
+    "model": "qwen7b",
+    "id": "e2_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 329,
+    "model": "qwen7b",
+    "id": "e2_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      28084
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 330,
+    "model": "qwen7b",
+    "id": "e2_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 331,
+    "model": "qwen7b",
+    "id": "e2_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      28084
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  },
+  {
+    "call": 332,
+    "model": "qwen7b",
+    "id": "e2_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true
+  },
+  {
+    "call": 333,
+    "model": "qwen7b",
+    "id": "e2_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      28084
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false
+  }
+]

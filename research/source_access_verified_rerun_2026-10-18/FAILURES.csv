@@ -1,0 +1,51 @@
+model,call,split,family,id,query,orientation,voice,condition,expected,argmax_token,generated_text,terminated,greedy_correct,score_correct,actual,correct,margin,reconstruction_relative_error,prefix_relative_error,before_cut_max_absolute_error
+qwen7b,24,development,d1,d1_0_agent,agent,0,active,cut_0,Nina,Empty,Empty,True,False,True,,False,10.410899376111168,0.0004506459153580153,0.0,
+qwen7b,27,development,d1,d1_0_agent,agent,0,active,cut_7,Nina,Background,Background,True,False,True,,False,5.768916126565722,0.00037148989565020387,0.0,0.0
+qwen7b,30,development,d1,d1_0_agent,agent,0,active,cut_14,Nina,Background,Background,True,False,True,,False,8.963501264671125,0.0005383601186006696,0.0,0.0
+qwen7b,33,development,d1,d1_0_agent,agent,0,active,cut_21,Nina,Alice,Alice,True,False,True,,False,6.86796316435955,0.0005481265775396161,0.0,0.0
+qwen7b,51,development,d1,d1_0_agent,agent,0,active,restore_7_14,Nina,Empty,Empty,True,False,True,,False,10.006515805581781,0.0004441377826706155,0.0,
+qwen7b,54,development,d1,d1_0_agent,agent,0,active,restore_14_21,Nina,Who,Who,True,False,True,,False,4.123298886054796,0.0004506459153580153,0.0,
+qwen7b,57,development,d1,d1_0_first,first,0,active,cut_0,Nina,Wood,Wooden table,True,False,True,,False,2.0224754208834845,0.0004629468483929788,0.0,
+qwen7b,62,development,d1,d1_0_first,first,0,active,cut_7,Nina,Wood,Wooden table,True,False,True,,False,0.9813294176184222,0.00042720310617889486,0.0,0.0
+qwen7b,67,development,d1,d1_0_first,first,0,active,cut_14,Nina,The,The wooden table,True,False,True,,False,0.24417682336150293,0.0005202479871744302,0.0,0.0
+qwen7b,72,development,d1,d1_0_first,first,0,active,cut_21,Nina,Who,Who was mentioned first,False,False,True,,False,2.4567716629202963,0.0005598721151008593,0.0,0.0
+qwen7b,92,development,d1,d1_0_first,first,0,active,restore_7_14,Nina,The,The wooden table,True,False,True,,False,0.5885173878043091,0.0005186781351497676,0.0,
+qwen7b,97,development,d1,d1_0_first,first,0,active,restore_14_21,Nina,The,The wooden table,True,False,True,,False,1.3049657835818138,0.000507302328360647,0.0,
+qwen7b,102,development,d1,d1_1_agent,agent,1,active,cut_0,Luke,Empty,Empty,True,False,False,,False,-10.410899376111168,0.0004506459153580153,0.0,
+qwen7b,105,development,d1,d1_1_agent,agent,1,active,cut_7,Luke,Background,Background,True,False,False,,False,-5.439165041463978,0.00041864861335917533,0.0,0.0
+qwen7b,108,development,d1,d1_1_agent,agent,1,active,cut_14,Luke,Background,Background,True,False,False,,False,-8.907322154742547,0.0006354543751899746,0.0,0.0
+qwen7b,111,development,d1,d1_1_agent,agent,1,active,cut_21,Luke,Who,"Who followed someone?
+",False,False,False,,False,-2.653854371660927,0.0004228565455881631,0.0,0.0
+qwen7b,131,development,d1,d1_1_agent,agent,1,active,restore_7_14,Luke,Empty,Empty,True,False,False,,False,-9.369609327456182,0.0005645029383968498,0.0,
+qwen7b,134,development,d1,d1_1_agent,agent,1,active,restore_14_21,Luke,Who,Who,True,False,False,,False,-6.912655922933665,0.0004506459153580153,0.0,
+qwen7b,137,development,d1,d1_1_first,first,1,active,cut_0,Luke,Wood,Wooden table,True,False,False,,False,-2.0224754208834845,0.0004629468483929788,0.0,
+qwen7b,142,development,d1,d1_1_first,first,1,active,cut_7,Luke,Wood,Wooden table,True,False,False,,False,-0.2062870462873576,0.0005859305293623263,0.0,0.0
+qwen7b,147,development,d1,d1_1_first,first,1,active,cut_14,Luke,The,The wooden table,True,False,False,,False,-0.9890240495191058,0.0005187612633591306,0.0,0.0
+qwen7b,152,development,d1,d1_1_first,first,1,active,cut_21,Luke,Who,Who was mentioned first,False,False,False,,False,-2.1519357307631264,0.0005648581421759235,0.0,0.0
+qwen7b,172,development,d1,d1_1_first,first,1,active,restore_7_14,Luke,The,The wooden table,True,False,False,,False,-1.1798749987941193,0.00041204208993775044,0.0,
+qwen7b,177,development,d1,d1_1_first,first,1,active,restore_14_21,Luke,The,The wooden table,True,False,False,,False,-2.4232714417889003,0.0005423656436885237,0.0,
+qwen7b,182,development,d2,d2_0_agent,agent,0,active,cut_0,Emma,Empty,Empty Room Guest,True,False,True,,False,1.6038538785562828,0.0005590369772536089,0.0,
+qwen7b,186,development,d2,d2_0_agent,agent,0,active,cut_7,Emma,empty,empty room,True,False,True,,False,0.9352806650154797,0.0003798328740012872,0.0,0.0
+qwen7b,189,development,d2,d2_0_agent,agent,0,active,cut_14,Emma,Empty,Empty Room,True,False,True,,False,0.729121537343639,0.00045032045696025315,0.0,0.0
+qwen7b,192,development,d2,d2_0_agent,agent,0,active,cut_21,Emma,Who,Who visited someone?,False,False,False,,False,-0.9999501667294401,0.0005705892397307516,0.0,0.0
+qwen7b,206,development,d2,d2_0_agent,agent,0,active,restore_7_14,Emma,Empty,Empty Room Guest,True,False,True,,False,1.331742551569448,0.0005715953857340382,0.0,
+qwen7b,210,development,d2,d2_0_agent,agent,0,active,restore_14_21,Emma,The,The sentence does not,False,False,True,,False,1.5703666825918559,0.0003757991820613294,0.0,
+qwen7b,214,development,d2,d2_0_first,first,0,active,cut_0,Emma,Wood,Wooden table,True,False,True,,False,0.6475005371886944,0.0004629468483929788,0.0,
+qwen7b,218,development,d2,d2_0_first,first,0,active,cut_7,Emma,Wood,Wooden table,True,False,True,,False,1.343883555888496,0.00043491473983706466,0.0,0.0
+qwen7b,222,development,d2,d2_0_first,first,0,active,cut_14,Emma,The,The wooden table,True,False,True,,False,1.641538657463137,0.0005320661940506826,0.0,0.0
+qwen7b,226,development,d2,d2_0_first,first,0,active,cut_21,Emma,Who,Who was mentioned first,False,False,False,,False,-1.5077340506535055,0.0005501738096371561,0.0,0.0
+qwen7b,240,development,d2,d2_0_first,first,0,active,restore_7_14,Emma,The,The wooden table,True,False,True,,False,1.4711819810063087,0.0005479733546979648,0.0,
+qwen7b,244,development,d2,d2_0_first,first,0,active,restore_14_21,Emma,The,The wooden table,True,False,True,,False,0.07037797750839125,0.0003839047348454864,0.0,
+qwen7b,248,development,d2,d2_1_agent,agent,1,active,cut_0,Jack,Empty,Empty Room Guest,True,False,False,,False,-1.6038538785562828,0.0005590369772536089,0.0,
+qwen7b,252,development,d2,d2_1_agent,agent,1,active,cut_7,Jack,empty,empty room,True,False,False,,False,-0.8508936725684002,0.0005652550448322311,0.0,0.0
+qwen7b,255,development,d2,d2_1_agent,agent,1,active,cut_14,Jack,Empty,Empty Room,True,False,False,,False,-0.4095424902072118,0.00040128932905147225,0.0,0.0
+qwen7b,258,development,d2,d2_1_agent,agent,1,active,cut_21,Jack,The,The sentence does not,False,False,True,,False,3.2498936403346743,0.0004456003470754368,0.0,0.0
+qwen7b,272,development,d2,d2_1_agent,agent,1,active,restore_7_14,Jack,Empty,Empty Room Guest,True,False,False,,False,-1.1838575187385914,0.0005927707940799188,0.0,
+qwen7b,276,development,d2,d2_1_agent,agent,1,active,restore_14_21,Jack,The,The sentence does not,False,False,False,,False,-1.843864460797218,0.00035435467010292717,0.0,
+qwen7b,280,development,d2,d2_1_first,first,1,active,cut_0,Jack,Wood,Wooden table,True,False,False,,False,-0.6475005371886944,0.0004629468483929788,0.0,
+qwen7b,284,development,d2,d2_1_first,first,1,active,cut_7,Jack,Wood,Wooden table,True,False,False,,False,-1.3401853936995138,0.000548008347762362,0.0,0.0
+qwen7b,288,development,d2,d2_1_first,first,1,active,cut_14,Jack,The,The wooden table,True,False,False,,False,-1.575633222077915,0.0004409713217750946,0.0,0.0
+qwen7b,292,development,d2,d2_1_first,first,1,active,cut_21,Jack,Who,Who was mentioned first,False,False,True,,False,1.7577299454977169,0.0004409713217750946,0.0,0.0
+qwen7b,306,development,d2,d2_1_first,first,1,active,restore_7_14,Jack,The,The wooden table,True,False,False,,False,-1.3144500651568514,0.0005194814186597655,0.0,
+qwen7b,310,development,d2,d2_1_first,first,1,active,restore_14_21,Jack,The,The wooden table,True,False,True,,False,1.9295546095439224,0.00043575423612009364,0.0,
+qwen7b,332,evaluation,e2,e2_1_first,first,1,passive,baseline,Sarah,James,James,True,False,False,James,False,-0.9687326950738738,0.00045906353662071087,,

@@ -1,0 +1,126 @@
+{
+  "development_conditions": [
+    {
+      "condition": "baseline",
+      "correct": 8,
+      "total": 8,
+      "terminated_wrong": 0,
+      "truncated": 0,
+      "mean_two_name_prefix_probability": 0.999998224624124
+    },
+    {
+      "condition": "cut_0",
+      "correct": 0,
+      "total": 8,
+      "terminated_wrong": 8,
+      "truncated": 0,
+      "mean_two_name_prefix_probability": 0.0001066909432005369
+    },
+    {
+      "condition": "cut_7",
+      "correct": 0,
+      "total": 8,
+      "terminated_wrong": 8,
+      "truncated": 0,
+      "mean_two_name_prefix_probability": 1.0073696834220353e-06
+    },
+    {
+      "condition": "cut_14",
+      "correct": 0,
+      "total": 8,
+      "terminated_wrong": 8,
+      "truncated": 0,
+      "mean_two_name_prefix_probability": 2.657481066252337e-05
+    },
+    {
+      "condition": "cut_21",
+      "correct": 0,
+      "total": 8,
+      "terminated_wrong": 1,
+      "truncated": 7,
+      "mean_two_name_prefix_probability": 0.0017549205581002434
+    },
+    {
+      "condition": "cut_28",
+      "correct": 8,
+      "total": 8,
+      "terminated_wrong": 0,
+      "truncated": 0,
+      "mean_two_name_prefix_probability": 0.999998224624124
+    },
+    {
+      "condition": "irrelevant_7",
+      "correct": 8,
+      "total": 8,
+      "terminated_wrong": 0,
+      "truncated": 0,
+      "mean_two_name_prefix_probability": 0.9999978787337718
+    },
+    {
+      "condition": "irrelevant_14",
+      "correct": 8,
+      "total": 8,
+      "terminated_wrong": 0,
+      "truncated": 0,
+      "mean_two_name_prefix_probability": 0.9999975572011853
+    },
+    {
+      "condition": "irrelevant_21",
+      "correct": 8,
+      "total": 8,
+      "terminated_wrong": 0,
+      "truncated": 0,
+      "mean_two_name_prefix_probability": 0.9999982056706798
+    },
+    {
+      "condition": "restore_all",
+      "correct": 8,
+      "total": 8,
+      "terminated_wrong": 0,
+      "truncated": 0,
+      "mean_two_name_prefix_probability": 0.999998224624124
+    },
+    {
+      "condition": "restore_7_14",
+      "correct": 0,
+      "total": 8,
+      "terminated_wrong": 8,
+      "truncated": 0,
+      "mean_two_name_prefix_probability": 1.2479232634541e-05
+    },
+    {
+      "condition": "restore_14_21",
+      "correct": 0,
+      "total": 8,
+      "terminated_wrong": 6,
+      "truncated": 2,
+      "mean_two_name_prefix_probability": 0.0013888999320204362
+    }
+  ],
+  "exploratory_margin_decomposition": [
+    {
+      "cut": 7,
+      "baseline_question_difference": 2.320317656605477,
+      "irrelevant_question_difference": 2.8437567778347113,
+      "event_cut_question_difference": -0.09115061399280577,
+      "primary_difference": 2.934907391827517
+    },
+    {
+      "cut": 14,
+      "baseline_question_difference": 2.320317656605477,
+      "irrelevant_question_difference": 3.632820460792251,
+      "event_cut_question_difference": 0.26367498695934666,
+      "primary_difference": 3.3691454738329045
+    },
+    {
+      "cut": 21,
+      "baseline_question_difference": 2.320317656605477,
+      "irrelevant_question_difference": 2.375007253007947,
+      "event_cut_question_difference": 1.477305109825619,
+      "primary_difference": 0.8977021431823282
+    }
+  ],
+  "decomposition_is_post_outcome_not_confirmatory": true,
+  "primary_rule_unchanged": true,
+  "confirmed_cross_model_sequence": false
+}

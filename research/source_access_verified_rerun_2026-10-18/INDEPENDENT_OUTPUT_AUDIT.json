@@ -1,0 +1,41 @@
+{
+  "status": "PASS_INDEPENDENT_SAVED_OUTPUT_AUDIT",
+  "target_model_calls": 0,
+  "audited_scientific_records": 104,
+  "max_sequence_probability_error": 1.0681593977379666e-10,
+  "all_generated_tokens_and_observed_EOS_verified": true,
+  "all_payloads_present": true,
+  "frozen_rerun_files_unchanged": {
+    "SCIENTIFIC_INVARIANCE.json": true,
+    "scoring.py": true,
+    "engine.py": true,
+    "AMENDMENT.md": true,
+    "core.py": true,
+    "instrument.py": true,
+    "prepare.py": true,
+    "run.py": true,
+    "test_integration.py": true,
+    "analyze.py": true,
+    "PROTOCOL.md": true,
+    "ANNOTATION.md": true,
+    "PRIOR_WORK.md": true,
+    "INPUTS.json": true,
+    "TOKENIZER_AUDIT.json": true,
+    "TOY_CALIBRATION.json": true,
+    "INTEGRATION_TESTS.json": true
+  },
+  "original_frozen_attempt_unchanged": true,
+  "new_attempted_forwards": 333,
+  "prior_failed_attempt_forwards": 11,
+  "cumulative_source_access_attempts": 344,
+  "model_counts": {
+    "qwen7b": 333,
+    "llama3b": 0
+  },
+  "pre_evaluation_prediction_hashes": {
+    "qwen7b": {
+      "matches_development_only_raw": true,
+      "raw_sha256": "eb0fb26855d699599622f404a21b3abebf1c4c81922d6b6b6597bc1b70229a1d"
+    }
+  }
+}

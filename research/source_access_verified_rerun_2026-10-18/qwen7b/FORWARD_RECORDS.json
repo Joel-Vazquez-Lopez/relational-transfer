@@ -1,0 +1,4567 @@
+[
+  {
+    "call": 1,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "native_validation",
+    "prefix_token_ids": [],
+    "wrapped": false,
+    "native": true,
+    "capture": false,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 2,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "wrapped_native_validation",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": true,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 3,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 4,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 5,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 6,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 7,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 8,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 9,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 58347,
+    "argmax_token": "Luke"
+  },
+  {
+    "call": 10,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 11,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 12,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 58347,
+    "argmax_token": "Luke"
+  },
+  {
+    "call": 13,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 14,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 15,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 89074,
+    "argmax_token": "Emma"
+  },
+  {
+    "call": 16,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 17,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 89074,
+    "argmax_token": "Emma"
+  },
+  {
+    "call": 18,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 19,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 32631,
+    "argmax_token": "Jack"
+  },
+  {
+    "call": 20,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 21,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 32631,
+    "argmax_token": "Jack"
+  },
+  {
+    "call": 22,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 23,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "dense_repeat_validation",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 24,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 3522,
+    "argmax_token": "Empty"
+  },
+  {
+    "call": 25,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10360,
+    "argmax_token": "/A"
+  },
+  {
+    "call": 26,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 27,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 8706,
+    "argmax_token": "Background"
+  },
+  {
+    "call": 28,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 42340,
+    "argmax_token": "obody"
+  },
+  {
+    "call": 29,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      8706
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 30,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 8706,
+    "argmax_token": "Background"
+  },
+  {
+    "call": 31,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 42340,
+    "argmax_token": "obody"
+  },
+  {
+    "call": 32,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      8706
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 33,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 61686,
+    "argmax_token": "Alice"
+  },
+  {
+    "call": 34,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 35,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      61686
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 36,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 37,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 38,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 39,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 40,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 41,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 42,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 43,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 44,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 45,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 46,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 47,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 48,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 49,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 50,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 51,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 3522,
+    "argmax_token": "Empty"
+  },
+  {
+    "call": 52,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10360,
+    "argmax_token": "/A"
+  },
+  {
+    "call": 53,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 54,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 15191,
+    "argmax_token": "Who"
+  },
+  {
+    "call": 55,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 56,
+    "model": "qwen7b",
+    "id": "d1_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 57,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 48392,
+    "argmax_token": "Wood"
+  },
+  {
+    "call": 58,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10360,
+    "argmax_token": "/A"
+  },
+  {
+    "call": 59,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 268,
+    "argmax_token": "en"
+  },
+  {
+    "call": 60,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 61,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 62,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 48392,
+    "argmax_token": "Wood"
+  },
+  {
+    "call": 63,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10360,
+    "argmax_token": "/A"
+  },
+  {
+    "call": 64,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 268,
+    "argmax_token": "en"
+  },
+  {
+    "call": 65,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 66,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 67,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 68,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 69,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 70,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 71,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 72,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 15191,
+    "argmax_token": "Who"
+  },
+  {
+    "call": 73,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 74,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 572,
+    "argmax_token": " was"
+  },
+  {
+    "call": 75,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 9733,
+    "argmax_token": " mentioned"
+  },
+  {
+    "call": 76,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572,
+      9733
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1156,
+    "argmax_token": " first"
+  },
+  {
+    "call": 77,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 78,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 79,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 80,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 81,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 82,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 83,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 84,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 85,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 86,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 87,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 88,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 89,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 45,
+    "argmax_token": "N"
+  },
+  {
+    "call": 90,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 91,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      45,
+      2210
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 92,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 93,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10360,
+    "argmax_token": "/A"
+  },
+  {
+    "call": 94,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 95,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 96,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 97,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 98,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 99,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 100,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 101,
+    "model": "qwen7b",
+    "id": "d1_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 102,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 3522,
+    "argmax_token": "Empty"
+  },
+  {
+    "call": 103,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10360,
+    "argmax_token": "/A"
+  },
+  {
+    "call": 104,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 105,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 8706,
+    "argmax_token": "Background"
+  },
+  {
+    "call": 106,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10360,
+    "argmax_token": "/A"
+  },
+  {
+    "call": 107,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      8706
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 108,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 8706,
+    "argmax_token": "Background"
+  },
+  {
+    "call": 109,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 42340,
+    "argmax_token": "obody"
+  },
+  {
+    "call": 110,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      8706
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 111,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 15191,
+    "argmax_token": "Who"
+  },
+  {
+    "call": 112,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 4212,
+    "argmax_token": "atal"
+  },
+  {
+    "call": 113,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 8110,
+    "argmax_token": " followed"
+  },
+  {
+    "call": 114,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      8110
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 4325,
+    "argmax_token": " someone"
+  },
+  {
+    "call": 115,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      8110,
+      4325
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 5267,
+    "argmax_token": "?\n"
+  },
+  {
+    "call": 116,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 58347,
+    "argmax_token": "Luke"
+  },
+  {
+    "call": 117,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 118,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 119,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 58347,
+    "argmax_token": "Luke"
+  },
+  {
+    "call": 120,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 121,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 122,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 58347,
+    "argmax_token": "Luke"
+  },
+  {
+    "call": 123,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 124,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 125,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 58347,
+    "argmax_token": "Luke"
+  },
+  {
+    "call": 126,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 127,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 128,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 58347,
+    "argmax_token": "Luke"
+  },
+  {
+    "call": 129,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 130,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 131,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 3522,
+    "argmax_token": "Empty"
+  },
+  {
+    "call": 132,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10360,
+    "argmax_token": "/A"
+  },
+  {
+    "call": 133,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 134,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 15191,
+    "argmax_token": "Who"
+  },
+  {
+    "call": 135,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 136,
+    "model": "qwen7b",
+    "id": "d1_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 137,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 48392,
+    "argmax_token": "Wood"
+  },
+  {
+    "call": 138,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10360,
+    "argmax_token": "/A"
+  },
+  {
+    "call": 139,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 268,
+    "argmax_token": "en"
+  },
+  {
+    "call": 140,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 141,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 142,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 48392,
+    "argmax_token": "Wood"
+  },
+  {
+    "call": 143,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10360,
+    "argmax_token": "/A"
+  },
+  {
+    "call": 144,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 268,
+    "argmax_token": "en"
+  },
+  {
+    "call": 145,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 146,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 147,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 148,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 149,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 150,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 151,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 152,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 15191,
+    "argmax_token": "Who"
+  },
+  {
+    "call": 153,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 13981,
+    "argmax_token": "athan"
+  },
+  {
+    "call": 154,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 572,
+    "argmax_token": " was"
+  },
+  {
+    "call": 155,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 9733,
+    "argmax_token": " mentioned"
+  },
+  {
+    "call": 156,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572,
+      9733
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1156,
+    "argmax_token": " first"
+  },
+  {
+    "call": 157,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 58347,
+    "argmax_token": "Luke"
+  },
+  {
+    "call": 158,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 159,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 160,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 58347,
+    "argmax_token": "Luke"
+  },
+  {
+    "call": 161,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 162,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 163,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 58347,
+    "argmax_token": "Luke"
+  },
+  {
+    "call": 164,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 165,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 166,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 58347,
+    "argmax_token": "Luke"
+  },
+  {
+    "call": 167,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 168,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 169,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 58347,
+    "argmax_token": "Luke"
+  },
+  {
+    "call": 170,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 171,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      58347
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 172,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 173,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10360,
+    "argmax_token": "/A"
+  },
+  {
+    "call": 174,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 175,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 176,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 177,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 178,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      45
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 2210,
+    "argmax_token": "ina"
+  },
+  {
+    "call": 179,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 180,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 181,
+    "model": "qwen7b",
+    "id": "d1_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 182,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 3522,
+    "argmax_token": "Empty"
+  },
+  {
+    "call": 183,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10420,
+    "argmax_token": " Room"
+  },
+  {
+    "call": 184,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522,
+      10420
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 26215,
+    "argmax_token": " Guest"
+  },
+  {
+    "call": 185,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522,
+      10420,
+      26215
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 186,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 3194,
+    "argmax_token": "empty"
+  },
+  {
+    "call": 187,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      3194
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 3054,
+    "argmax_token": " room"
+  },
+  {
+    "call": 188,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      3194,
+      3054
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 189,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 3522,
+    "argmax_token": "Empty"
+  },
+  {
+    "call": 190,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10420,
+    "argmax_token": " Room"
+  },
+  {
+    "call": 191,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      3522,
+      10420
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 192,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 15191,
+    "argmax_token": "Who"
+  },
+  {
+    "call": 193,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 11994,
+    "argmax_token": " visited"
+  },
+  {
+    "call": 194,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      11994
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 4325,
+    "argmax_token": " someone"
+  },
+  {
+    "call": 195,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      11994,
+      4325
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 30,
+    "argmax_token": "?"
+  },
+  {
+    "call": 196,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 89074,
+    "argmax_token": "Emma"
+  },
+  {
+    "call": 197,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 198,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 89074,
+    "argmax_token": "Emma"
+  },
+  {
+    "call": 199,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 200,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 89074,
+    "argmax_token": "Emma"
+  },
+  {
+    "call": 201,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 202,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 89074,
+    "argmax_token": "Emma"
+  },
+  {
+    "call": 203,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 204,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 89074,
+    "argmax_token": "Emma"
+  },
+  {
+    "call": 205,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 206,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 3522,
+    "argmax_token": "Empty"
+  },
+  {
+    "call": 207,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10420,
+    "argmax_token": " Room"
+  },
+  {
+    "call": 208,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522,
+      10420
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 26215,
+    "argmax_token": " Guest"
+  },
+  {
+    "call": 209,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522,
+      10420,
+      26215
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 210,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 211,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 11652,
+    "argmax_token": " sentence"
+  },
+  {
+    "call": 212,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      11652
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1558,
+    "argmax_token": " does"
+  },
+  {
+    "call": 213,
+    "model": "qwen7b",
+    "id": "d2_0_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      11652,
+      1558
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 537,
+    "argmax_token": " not"
+  },
+  {
+    "call": 214,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 48392,
+    "argmax_token": "Wood"
+  },
+  {
+    "call": 215,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 268,
+    "argmax_token": "en"
+  },
+  {
+    "call": 216,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 217,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 218,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 48392,
+    "argmax_token": "Wood"
+  },
+  {
+    "call": 219,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 268,
+    "argmax_token": "en"
+  },
+  {
+    "call": 220,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 221,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 222,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 223,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 224,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 225,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 226,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 15191,
+    "argmax_token": "Who"
+  },
+  {
+    "call": 227,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 572,
+    "argmax_token": " was"
+  },
+  {
+    "call": 228,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 9733,
+    "argmax_token": " mentioned"
+  },
+  {
+    "call": 229,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572,
+      9733
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1156,
+    "argmax_token": " first"
+  },
+  {
+    "call": 230,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 89074,
+    "argmax_token": "Emma"
+  },
+  {
+    "call": 231,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 232,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 89074,
+    "argmax_token": "Emma"
+  },
+  {
+    "call": 233,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 234,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 89074,
+    "argmax_token": "Emma"
+  },
+  {
+    "call": 235,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 236,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 89074,
+    "argmax_token": "Emma"
+  },
+  {
+    "call": 237,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 238,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 89074,
+    "argmax_token": "Emma"
+  },
+  {
+    "call": 239,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      89074
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 240,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 241,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 242,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 243,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 244,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 245,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 246,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 247,
+    "model": "qwen7b",
+    "id": "d2_0_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 248,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 3522,
+    "argmax_token": "Empty"
+  },
+  {
+    "call": 249,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10420,
+    "argmax_token": " Room"
+  },
+  {
+    "call": 250,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522,
+      10420
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 26215,
+    "argmax_token": " Guest"
+  },
+  {
+    "call": 251,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      3522,
+      10420,
+      26215
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 252,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 3194,
+    "argmax_token": "empty"
+  },
+  {
+    "call": 253,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      3194
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 3054,
+    "argmax_token": " room"
+  },
+  {
+    "call": 254,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      3194,
+      3054
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 255,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 3522,
+    "argmax_token": "Empty"
+  },
+  {
+    "call": 256,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10420,
+    "argmax_token": " Room"
+  },
+  {
+    "call": 257,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      3522,
+      10420
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 258,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 259,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 11652,
+    "argmax_token": " sentence"
+  },
+  {
+    "call": 260,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      785,
+      11652
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1558,
+    "argmax_token": " does"
+  },
+  {
+    "call": 261,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      785,
+      11652,
+      1558
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 537,
+    "argmax_token": " not"
+  },
+  {
+    "call": 262,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 32631,
+    "argmax_token": "Jack"
+  },
+  {
+    "call": 263,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 264,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 32631,
+    "argmax_token": "Jack"
+  },
+  {
+    "call": 265,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 266,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 32631,
+    "argmax_token": "Jack"
+  },
+  {
+    "call": 267,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 268,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 32631,
+    "argmax_token": "Jack"
+  },
+  {
+    "call": 269,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 270,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 32631,
+    "argmax_token": "Jack"
+  },
+  {
+    "call": 271,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 272,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 3522,
+    "argmax_token": "Empty"
+  },
+  {
+    "call": 273,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 10420,
+    "argmax_token": " Room"
+  },
+  {
+    "call": 274,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522,
+      10420
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 26215,
+    "argmax_token": " Guest"
+  },
+  {
+    "call": 275,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      3522,
+      10420,
+      26215
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 276,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 277,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 11652,
+    "argmax_token": " sentence"
+  },
+  {
+    "call": 278,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      11652
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1558,
+    "argmax_token": " does"
+  },
+  {
+    "call": 279,
+    "model": "qwen7b",
+    "id": "d2_1_agent",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      11652,
+      1558
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 537,
+    "argmax_token": " not"
+  },
+  {
+    "call": 280,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 48392,
+    "argmax_token": "Wood"
+  },
+  {
+    "call": 281,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 268,
+    "argmax_token": "en"
+  },
+  {
+    "call": 282,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 283,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_0",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 284,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 48392,
+    "argmax_token": "Wood"
+  },
+  {
+    "call": 285,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 268,
+    "argmax_token": "en"
+  },
+  {
+    "call": 286,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 287,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_7",
+    "prefix_token_ids": [
+      48392,
+      268,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 288,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 289,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 290,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 291,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 292,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 15191,
+    "argmax_token": "Who"
+  },
+  {
+    "call": 293,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 572,
+    "argmax_token": " was"
+  },
+  {
+    "call": 294,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 9733,
+    "argmax_token": " mentioned"
+  },
+  {
+    "call": 295,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_21",
+    "prefix_token_ids": [
+      15191,
+      572,
+      9733
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1156,
+    "argmax_token": " first"
+  },
+  {
+    "call": 296,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 32631,
+    "argmax_token": "Jack"
+  },
+  {
+    "call": 297,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "cut_28",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 298,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 32631,
+    "argmax_token": "Jack"
+  },
+  {
+    "call": 299,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "irrelevant_7",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 300,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 32631,
+    "argmax_token": "Jack"
+  },
+  {
+    "call": 301,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "irrelevant_14",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 302,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 32631,
+    "argmax_token": "Jack"
+  },
+  {
+    "call": 303,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "irrelevant_21",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 304,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 32631,
+    "argmax_token": "Jack"
+  },
+  {
+    "call": 305,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_all",
+    "prefix_token_ids": [
+      32631
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 306,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 307,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 308,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 309,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_7_14",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 310,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 785,
+    "argmax_token": "The"
+  },
+  {
+    "call": 311,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 22360,
+    "argmax_token": " wooden"
+  },
+  {
+    "call": 312,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 1965,
+    "argmax_token": " table"
+  },
+  {
+    "call": 313,
+    "model": "qwen7b",
+    "id": "d2_1_first",
+    "condition": "restore_14_21",
+    "prefix_token_ids": [
+      785,
+      22360,
+      1965
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 314,
+    "model": "qwen7b",
+    "id": "e1_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 39,
+    "argmax_token": "H"
+  },
+  {
+    "call": 315,
+    "model": "qwen7b",
+    "id": "e1_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      39
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 8398,
+    "argmax_token": "elen"
+  },
+  {
+    "call": 316,
+    "model": "qwen7b",
+    "id": "e1_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      39,
+      8398
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 317,
+    "model": "qwen7b",
+    "id": "e1_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 49119,
+    "argmax_token": "Martin"
+  },
+  {
+    "call": 318,
+    "model": "qwen7b",
+    "id": "e1_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      39
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 8398,
+    "argmax_token": "elen"
+  },
+  {
+    "call": 319,
+    "model": "qwen7b",
+    "id": "e1_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      49119
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 320,
+    "model": "qwen7b",
+    "id": "e1_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 49119,
+    "argmax_token": "Martin"
+  },
+  {
+    "call": 321,
+    "model": "qwen7b",
+    "id": "e1_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      39
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 8398,
+    "argmax_token": "elen"
+  },
+  {
+    "call": 322,
+    "model": "qwen7b",
+    "id": "e1_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      49119
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 323,
+    "model": "qwen7b",
+    "id": "e1_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 39,
+    "argmax_token": "H"
+  },
+  {
+    "call": 324,
+    "model": "qwen7b",
+    "id": "e1_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      39
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 8398,
+    "argmax_token": "elen"
+  },
+  {
+    "call": 325,
+    "model": "qwen7b",
+    "id": "e1_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      39,
+      8398
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 326,
+    "model": "qwen7b",
+    "id": "e2_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 53083,
+    "argmax_token": "Sarah"
+  },
+  {
+    "call": 327,
+    "model": "qwen7b",
+    "id": "e2_0_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      53083
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 328,
+    "model": "qwen7b",
+    "id": "e2_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 28084,
+    "argmax_token": "James"
+  },
+  {
+    "call": 329,
+    "model": "qwen7b",
+    "id": "e2_0_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      28084
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 330,
+    "model": "qwen7b",
+    "id": "e2_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 28084,
+    "argmax_token": "James"
+  },
+  {
+    "call": 331,
+    "model": "qwen7b",
+    "id": "e2_1_agent",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      28084
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  },
+  {
+    "call": 332,
+    "model": "qwen7b",
+    "id": "e2_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [],
+    "wrapped": true,
+    "native": false,
+    "capture": true,
+    "argmax_id": 28084,
+    "argmax_token": "James"
+  },
+  {
+    "call": 333,
+    "model": "qwen7b",
+    "id": "e2_1_first",
+    "condition": "baseline",
+    "prefix_token_ids": [
+      28084
+    ],
+    "wrapped": true,
+    "native": false,
+    "capture": false,
+    "argmax_id": 151645,
+    "argmax_token": "<|im_end|>"
+  }
+]
