@@ -1,0 +1,30 @@
+{
+  "status": "prospective_bounded_protocol_before_outputs",
+  "design_commit": "b6f0847105c62813bba36eba622928f0d8220d15",
+  "models": ["qwen7b", "llama3b"],
+  "cells": ["within_0", "within_1", "across_0", "across_1"],
+  "questions": ["agent", "theme", "goal", "order"],
+  "development_families": ["a01", "a02"],
+  "held_out_families": ["a03", "a04"],
+  "max_forward_calls_per_model": 66,
+  "max_total_forward_calls": 132,
+  "validation": "One unwrapped first development cell, one wrapped repeat of its main capture. Both count against the bound.",
+  "shape": {"batch": 1, "total_tokens": 128, "padding": "local tokenization of literal x; fixed before outputs", "readout": "original prompt end; never after dummy suffix"},
+  "capture": "Embedding, all 28 outgoing residuals and all attention/MLP writes at every sentence/question token and original prompt-end position. Native sequential operations. Float32 copies of native captured values. Full-vocabulary logits retained.",
+  "technical_gates": {"wrapped_unwrapped_max_logit_error": 0.05, "repeat_relative_state_error": 0.000001, "causal_prefix_relative_error": 0.000001, "native_reconstruction_relative_error": 0.002},
+  "competence": "Full-vocabulary argmax belongs to gold Yes/No alias class AND deduplicated class logsumexp gold margin >0. All 16 checks required per family. No model-specific edits.",
+  "held_out_gate": "At least one fully competent development family, validation pass and causal-prefix pass. Component reconstruction failure suppresses component claims but does not alter valid residual observations. No held-out inference if gate fails.",
+  "annotation_gate": "Human pass on the 16-sentence review document, or explicit human waiver recorded as AI-only annotation limitation. Never inferred from silence.",
+  "primary_analysis": "Every layer/token interaction I=(across_swap-across_original)-(within_swap-within_original), raw response norms and direction relationships. Exact pre-cue null, question-prefix null, whole-map individual-family reporting. Undefined ratios/cosines are undefined, not zero.",
+  "descriptive_summaries": "Whole-block unweighted mean normalized interaction at sentence-period and original prompt-end, final interaction norm, all-layer labeled response Grams. No significance claim; two held-out name families per eligible model.",
+  "predictions": {
+    "restricted_additive_state": "I=0 across frames at all positions",
+    "fixed_answer_label_writer": "I=0 for Agent and Order, scalar coefficients -2 Theme/+2 Goal under Yes=+1/No=-1",
+    "constituent_sensitive_processing": "May exhibit post-cue I at unchanged sites; query may change its later development. Presence alone is weak and nonlinear coding suffices.",
+    "generic_schedule": "Cannot alone assign linguistic conditions; an input-conditioned depth schedule remains viable",
+    "strong_marker_position_copier": "64/64 draft gold labels; this pilot supplies no unique semantic-versus-copying discriminator"
+  },
+  "claims": "Descriptive frame-conditioned permutation geometry only. No unique semantic mechanism, causal use, family-level law, population inference or novelty claim.",
+  "stop": "One run per model, no resumed failed runs, no added prompts/models/patches, no post-output changes to code, thresholds, scoring, stimuli, sites or hypotheses. Report all exposed mistakes and missing held-out panels. Technical failures consume budget.",
+  "cost": {"paid_calls": 0, "downloads": 0, "training": 0}
+}
