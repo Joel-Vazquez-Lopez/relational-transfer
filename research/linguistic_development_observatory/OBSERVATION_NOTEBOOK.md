@@ -78,3 +78,28 @@ Name-axis removal retained impressive directional alignment, but an explicit cop
 5. Preserve our original linguistic north star. Codex can later receive a narrow independently specified test after our exploratory inspection, with no automatic experiment expansion.
 
 **Decision:** Add to observational evidence ledger. No claim of cross-model mechanism; no new model runs triggered by the archival update.
+
+
+## Entry 005 — Long-range role-contrast specificity surviving numerical-shape correction (18 October 2026)
+**Origin:** Codex [frozen benchmark findings at commit `f59a798`](https://github.com/Joel-Vazquez-Lopez/relational-transfer/blob/f59a798d2a2c76f6cf9ba4e73541cbf5b94fdf1a/research/trajectory_specificity_benchmark_2026-10-18/FINDINGS.md), [complete report](https://github.com/Joel-Vazquez-Lopez/relational-transfer/blob/f59a798d2a2c76f6cf9ba4e73541cbf5b94fdf1a/research/trajectory_specificity_benchmark_2026-10-18/REPORT.md), [draft technical note](https://github.com/Joel-Vazquez-Lopez/relational-transfer/blob/f59a798d2a2c76f6cf9ba4e73541cbf5b94fdf1a/research/trajectory_specificity_benchmark_2026-10-18/TECHNICAL_NOTE_DRAFT.md). **Evidence status:** prospectively bounded measurement benchmark (8 author-constructed lexical families, Qwen2.5-7B-Instruct/Llama3.2-3B-Instruct, 4-bit MLX; 176 forward passes, no answers scored, no causal interventions).
+
+**Question:** Are within-model role-reversal contrast trajectories more alike than broad unrelated contrasts once layer-adjacent Gram structure and runtime shape artifacts are controlled?
+
+**Prespecified long-range (step-lag ≥8), period-token, fixed-shape summary:**
+
+| Model | Role / role | Role / unrelated | Gap | Leave-one-family-out gap |
+|---|---:|---:|---:|---:|
+| Qwen 7B | 0.4477 | 0.3515 | +0.0961 | +0.0653 to +0.1301 |
+| Llama 3B | 0.2695 | 0.1171 | +0.1524 | +0.1154 to +0.1809 |
+
+**Interpretation:** A small descriptive *within-model* role-contrast specificity gap exists on this benchmark and its leave-one-family-out sensitivity checks. Leave-one-out ranges are **not** uncertainty intervals or independent replications; comparisons share source sentences, and model architectures share 28 blocks and the MLX runtime. Different prior benchmarks had different contrasts and comparisons; do not collapse them into a contradictory or confirmatory meta-result.
+
+**Technical null:** First-person active/passive states had mathematically identical causal prefixes. Native shape crossings (63 vs 65 token prompt lengths around an execution threshold) produced nonzero first-person contrasts in 8/8 Qwen families that vanished under fixed 128-token-shape capture; Llama was invariant. This revealed one false model-family difference. **At the sentence-period site, shape correction changed role-response angles at most 0.005417 for Qwen and 0 for Llama**, under the 0.05 prespecified materiality threshold. Long-range numerical-null step-Gram coherence was approximately 0.0036 Qwen / 0.0538 Llama. The period-site specificity gap survived.
+
+**Cross-model caution:** Direct long-range role-operation matching remained weak, ~0.167 active and 0.191 passive. Qwen-unrelated → Llama-role ~0.148, showing an operation-specific interpretation is not established. Both models having positive within-model gaps is *not* shared-algorithm evidence.
+
+**Crucial competing explanation:** The broad unrelated comparator changes names and usually verbs, while role reversal keeps a lexical bag fixed and permutes order. It is not a matched control for semantic-role computation. The next high-information contrast should **reorder participants without changing their roles**, using counterbalanced surface constructions and tokenization/length checks. Active/passive alone also alters syntax, so use multiple independent constructions and matched comparisons to avoid trading lexical-order aliasing for a voice/syntax alias. Compare prediction sets for semantic-role, permutation/position and answer-copying accounts **before** fresh inference.
+
+**Link to our original scope:** The result supports investigating developmental *structure* rather than a final hidden-state endpoint. Yet the reported Gram descriptor does not by itself tell us the cognitive stages, within-layer mechanism or multi-site sequence responsible. Our **Linguistic Development Atlas** remains the broader research program: linguistic factors × sites × full depth × within-layer processing × multiple models. A narrow role-preserving control is one discriminating experiment in that atlas, not its replacement.
+
+**Status / action:** Provenance recorded. No new benchmark or inference authorized. Preserve Codex's finished artifact and prospectively discuss any follow-up after reviewing its scientific design.
