@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-18",
+  "status": "fixed_before_benchmark_model_outputs",
+  "scope": "One prospective measurement benchmark on eight newly constructed lexical families and two existing local 4-bit MLX models. Earlier studies remain closed. No training, paid API, downloads or semantic patch experiment.",
+  "models": ["qwen7b", "llama3b"],
+  "families": [
+    {"id":"b01","a":"Ada","b":"Owen","verb":"praised"},
+    {"id":"b02","a":"Ruby","b":"Finn","verb":"helped"},
+    {"id":"b03","a":"Hazel","b":"Colin","verb":"touched"},
+    {"id":"b04","a":"Nora","b":"Felix","verb":"thanked"},
+    {"id":"b05","a":"Maya","b":"Lewis","verb":"greeted"},
+    {"id":"b06","a":"Zoe","b":"Caleb","verb":"followed"},
+    {"id":"b07","a":"Leah","b":"Hugo","verb":"photographed"},
+    {"id":"b08","a":"Vera","b":"Simon","verb":"pushed"}
+  ],
+  "source": "Constructed active/passive cells and Agent/normal-code prompt builder from component_reuse_pilot_2026-10-18/run.py. These exact benchmark prompts are new; names/verbs are not certified globally unused. No corpus annotation or answer-competence/generalization claim.",
+  "cells": ["active_a","active_b","passive_a","passive_b"],
+  "conditions": "Capture all four cells with original full-prompt lengths and right-padded to 128 total tokens. For active_a capture identical sentence prefix with dummy suffix to total lengths 64 and 65. If prefix exceeds 64, retain all other measurements and mark this null pair unavailable without substitution. Also capture active_a at 128 tokens with the other dummy suffix token as same-shape content control.",
+  "dummy_tokens": [" the"," a"],
+  "capture": "Embedding plus all 28 block outgoing residuals at the last subtokens of person A, person B, verb and sentence period. Float32 save. Prefix equality is checked using actual token IDs. Primary trajectory site is period; all sites retained. Right padding only measures earlier sites, never language answers.",
+  "contrasts": {"role_active":["active_a","active_b"],"role_passive":["passive_a","passive_b"],"voice_agent_a":["active_a","passive_a"],"voice_agent_b":["active_b","passive_b"],"unrelated":"active_a of next family in declared cyclic order minus current active_a","artifact":"same-prefix length-65 minus length-64"},
+  "descriptors": "For each contrast delta_l, use 28 block changes v_l=delta_l-delta_(l-1). Retain each norm and full step cosine Gram, adjacent-step cosines, top-five travel share and endpoint norm. Zero steps stay undefined; no epsilon-created direction. Compare Gram upper triangles at fixed minimum step-index lags 1 and 8 by Pearson correlation; speed vectors by Pearson. No alignment, smoothing, fitting, layer selection or metric tuning.",
+  "comparisons": "Report every within-model unordered case pair and every cross-model ordered pair for all contrast labels in both extraction modes. Artifact is a native numerical contrast only. Also report native-vs-fixed active/passive role-response cosine at every layer, all per-case absolute changes, and linear CKA of centered eight-family contrast matrices across models at each layer. CKA is descriptive with eight cases; high values do not establish shared algorithms.",
+  "primary_summaries": "At period, mean within-model role_active-to-role_active Gram similarity minus role_active-to-unrelated similarity; same minus role_active-to-artifact similarity. Repeat at lag 8. Report native/fixed gaps and all eight leave-one-family-out summaries (cyclic unrelated paths stay as originally defined). Case pairs and layers are not independent replications.",
+  "predictions": {"coherent_numerical_paths":"Artifact contrasts may show substantial within/cross-model normalized similarity despite identical mathematical prefix input; absolute scale must remain visible.","material_semantic_comparison_change":"Native-to-fixed extraction may change role-response angles by >0.05 in at least two families in each model, or reverse a primary specificity-gap sign. Report each criterion separately; no pooled rescue.","localized_artifact_only":"Identical-prefix channels can be entirely numerical while period-level linguistic comparisons remain below the materiality threshold. If so explicitly reject the claim that this artifact explains the main linguistic trajectory result.","generic_depth_schedule":"Unrelated or artifact controls may match/exceed same-role path similarity; this is not evidence for a shared linguistic mechanism."},
+  "technical_gate": "Same-shape different future suffix prefix states must have relative L2 discrepancy <=0.000001 at every captured vector. Overflow, nonfinite values or a failed null invalidate interpretation; preserve outputs and do not relax thresholds. Prefix-too-long nulls remain unavailable. No competency gate is used because no linguistic answer or semantic causal effect is inferred.",
+  "max_model_forwards_per_model": 100,
+  "stop": "Complete exactly these two model runs, analysis, prior-work comparison and preservation. No adaptive follow-up or new metric in this benchmark."
+}

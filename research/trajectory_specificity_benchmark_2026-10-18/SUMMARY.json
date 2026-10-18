@@ -1,0 +1,880 @@
+{
+  "decision": {
+    "technical_pass": true,
+    "angle_material_in_both_models": false,
+    "primary_gap_sign_reversal_any": false,
+    "answers_scored": 0,
+    "causal_patches": 0,
+    "population_or_mechanism_claim": false
+  },
+  "models": {
+    "qwen7b": {
+      "technical_pass": true,
+      "forwards": 88,
+      "primary": [
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": null,
+          "role_within": 0.8143093718394042,
+          "role_to_unrelated": 0.7563213584928699,
+          "role_to_artifact": 0.38355391948964007,
+          "specificity_over_unrelated": 0.05798801334653436,
+          "specificity_over_artifact": 0.43075545234976415
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b01",
+          "role_within": 0.8094741298699862,
+          "role_to_unrelated": 0.7607766968435379,
+          "role_to_artifact": 0.3788946305748521,
+          "specificity_over_unrelated": 0.048697433026448356,
+          "specificity_over_artifact": 0.4305794992951341
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b02",
+          "role_within": 0.8100562757496341,
+          "role_to_unrelated": 0.7491729963356206,
+          "role_to_artifact": 0.3914532416140592,
+          "specificity_over_unrelated": 0.0608832794140135,
+          "specificity_over_artifact": 0.4186030341355749
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b03",
+          "role_within": 0.812221462482528,
+          "role_to_unrelated": 0.7507920410636582,
+          "role_to_artifact": 0.3803411514172358,
+          "specificity_over_unrelated": 0.06142942141886987,
+          "specificity_over_artifact": 0.43188031106529223
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b04",
+          "role_within": 0.832034683041645,
+          "role_to_unrelated": 0.7690602437463318,
+          "role_to_artifact": 0.39972439833337525,
+          "specificity_over_unrelated": 0.06297443929531321,
+          "specificity_over_artifact": 0.4323102847082697
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b05",
+          "role_within": 0.8079131313333099,
+          "role_to_unrelated": 0.7568442273358125,
+          "role_to_artifact": 0.3756731513128946,
+          "specificity_over_unrelated": 0.05106890399749742,
+          "specificity_over_artifact": 0.4322399800204153
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b06",
+          "role_within": 0.8189279858326299,
+          "role_to_unrelated": 0.756139784045521,
+          "role_to_artifact": 0.40046432673519883,
+          "specificity_over_unrelated": 0.06278820178710898,
+          "specificity_over_artifact": 0.4184636590974311
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b07",
+          "role_within": 0.8158889019328968,
+          "role_to_unrelated": 0.7565977522850476,
+          "role_to_artifact": 0.37577958875175194,
+          "specificity_over_unrelated": 0.059291149647849206,
+          "specificity_over_artifact": 0.4401093131811448
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b08",
+          "role_within": 0.8079584044726034,
+          "role_to_unrelated": 0.7561428827024855,
+          "role_to_artifact": 0.36744688232886696,
+          "specificity_over_unrelated": 0.051815521770117834,
+          "specificity_over_artifact": 0.4405115221437364
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": null,
+          "role_within": 0.44767606450622666,
+          "role_to_unrelated": 0.3512971173964433,
+          "role_to_artifact": 0.009645293887161413,
+          "specificity_over_unrelated": 0.09637894710978334,
+          "specificity_over_artifact": 0.43803077061906526
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b01",
+          "role_within": 0.41198776376632534,
+          "role_to_unrelated": 0.3358195493378306,
+          "role_to_artifact": -0.001077980718586121,
+          "specificity_over_unrelated": 0.07616821442849475,
+          "specificity_over_artifact": 0.41306574448491146
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b02",
+          "role_within": 0.45272071162191285,
+          "role_to_unrelated": 0.35040781945478805,
+          "role_to_artifact": 0.03207394241831983,
+          "specificity_over_unrelated": 0.1023128921671248,
+          "specificity_over_artifact": 0.420646769203593
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b03",
+          "role_within": 0.431537975765352,
+          "role_to_unrelated": 0.3396516595626218,
+          "role_to_artifact": 0.018283300774490013,
+          "specificity_over_unrelated": 0.09188631620273024,
+          "specificity_over_artifact": 0.413254674990862
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b04",
+          "role_within": 0.4829723222661097,
+          "role_to_unrelated": 0.3587507367426885,
+          "role_to_artifact": 0.014743751901947176,
+          "specificity_over_unrelated": 0.12422158552342122,
+          "specificity_over_artifact": 0.46822857036416254
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b05",
+          "role_within": 0.4372145562502892,
+          "role_to_unrelated": 0.35850019464946126,
+          "role_to_artifact": 0.005828292192951381,
+          "specificity_over_unrelated": 0.07871436160082795,
+          "specificity_over_artifact": 0.4313862640573378
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b06",
+          "role_within": 0.4184365104136506,
+          "role_to_unrelated": 0.3527719009788526,
+          "role_to_artifact": 0.003747262846390047,
+          "specificity_over_unrelated": 0.06566460943479802,
+          "specificity_over_artifact": 0.41468924756726055
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b07",
+          "role_within": 0.5055739992857519,
+          "role_to_unrelated": 0.3750584224195747,
+          "role_to_artifact": -0.003810649494143934,
+          "specificity_over_unrelated": 0.13051557686617715,
+          "specificity_over_artifact": 0.5093846487798958
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b08",
+          "role_within": 0.44096467668042183,
+          "role_to_unrelated": 0.35017037877033763,
+          "role_to_artifact": 0.009265522470649053,
+          "specificity_over_unrelated": 0.0907942979100842,
+          "specificity_over_artifact": 0.4316991542097728
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": null,
+          "role_within": 0.8139054507082853,
+          "role_to_unrelated": 0.756201173298257,
+          "role_to_artifact": 0.3835574130549164,
+          "specificity_over_unrelated": 0.05770427741002837,
+          "specificity_over_artifact": 0.43034803765336893
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b01",
+          "role_within": 0.808999652006901,
+          "role_to_unrelated": 0.7605502835605711,
+          "role_to_artifact": 0.37893891752943076,
+          "specificity_over_unrelated": 0.048449368446329966,
+          "specificity_over_artifact": 0.4300607344774703
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b02",
+          "role_within": 0.8097574709207974,
+          "role_to_unrelated": 0.7489524063959268,
+          "role_to_artifact": 0.39147094992149134,
+          "specificity_over_unrelated": 0.06080506452487067,
+          "specificity_over_artifact": 0.4182865209993061
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b03",
+          "role_within": 0.8118353323252883,
+          "role_to_unrelated": 0.7506719387983376,
+          "role_to_artifact": 0.38039475319280386,
+          "specificity_over_unrelated": 0.06116339352695066,
+          "specificity_over_artifact": 0.4314405791324844
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b04",
+          "role_within": 0.8316263700394172,
+          "role_to_unrelated": 0.7689803509140967,
+          "role_to_artifact": 0.3997785381749466,
+          "specificity_over_unrelated": 0.06264601912532053,
+          "specificity_over_artifact": 0.4318478318644706
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b05",
+          "role_within": 0.8073058785027627,
+          "role_to_unrelated": 0.7566906810998599,
+          "role_to_artifact": 0.3756399491999974,
+          "specificity_over_unrelated": 0.05061519740290277,
+          "specificity_over_artifact": 0.4316659293027653
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b06",
+          "role_within": 0.8183897994989058,
+          "role_to_unrelated": 0.7560500823001929,
+          "role_to_artifact": 0.4004398347490006,
+          "specificity_over_unrelated": 0.062339717198712896,
+          "specificity_over_artifact": 0.4179499647499052
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b07",
+          "role_within": 0.8155033084021218,
+          "role_to_unrelated": 0.756600469135561,
+          "role_to_artifact": 0.37578285049023874,
+          "specificity_over_unrelated": 0.058902839266560814,
+          "specificity_over_artifact": 0.4397204579118831
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b08",
+          "role_within": 0.8078257939700899,
+          "role_to_unrelated": 0.7561017625865786,
+          "role_to_artifact": 0.3674637274651701,
+          "specificity_over_unrelated": 0.05172403138351134,
+          "specificity_over_artifact": 0.4403620665049198
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": null,
+          "role_within": 0.4476589149279607,
+          "role_to_unrelated": 0.35154780648352774,
+          "role_to_artifact": 0.010349170201568902,
+          "specificity_over_unrelated": 0.09611110844443299,
+          "specificity_over_artifact": 0.43730974472639184
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b01",
+          "role_within": 0.41188733395576865,
+          "role_to_unrelated": 0.3360843353472504,
+          "role_to_artifact": -0.00038809385448174507,
+          "specificity_over_unrelated": 0.07580299860851825,
+          "specificity_over_artifact": 0.4122754278102504
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b02",
+          "role_within": 0.4531441726123007,
+          "role_to_unrelated": 0.3505858953856147,
+          "role_to_artifact": 0.032923801065667606,
+          "specificity_over_unrelated": 0.10255827722668603,
+          "specificity_over_artifact": 0.4202203715466331
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b03",
+          "role_within": 0.4316112874444783,
+          "role_to_unrelated": 0.3395911066018224,
+          "role_to_artifact": 0.019123374619037917,
+          "specificity_over_unrelated": 0.0920201808426559,
+          "specificity_over_artifact": 0.4124879128254404
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b04",
+          "role_within": 0.4826513633582148,
+          "role_to_unrelated": 0.35880440759578647,
+          "role_to_artifact": 0.015602328337150782,
+          "specificity_over_unrelated": 0.12384695576242832,
+          "specificity_over_artifact": 0.467049035021064
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b05",
+          "role_within": 0.43656185101953693,
+          "role_to_unrelated": 0.3585828539073468,
+          "role_to_artifact": 0.006426568652316321,
+          "specificity_over_unrelated": 0.07797899711219014,
+          "specificity_over_artifact": 0.4301352823672206
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b06",
+          "role_within": 0.4183890017180143,
+          "role_to_unrelated": 0.35310993042607997,
+          "role_to_artifact": 0.0045428261370347904,
+          "specificity_over_unrelated": 0.06527907129193433,
+          "specificity_over_artifact": 0.4138461755809795
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b07",
+          "role_within": 0.5057299840804763,
+          "role_to_unrelated": 0.37567457267656773,
+          "role_to_artifact": -0.0032696668641216653,
+          "specificity_over_unrelated": 0.13005541140390858,
+          "specificity_over_artifact": 0.508999650944598
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b08",
+          "role_within": 0.4412963252348955,
+          "role_to_unrelated": 0.35078274827617656,
+          "role_to_artifact": 0.00988806940608947,
+          "specificity_over_unrelated": 0.09051357695871892,
+          "specificity_over_artifact": 0.431408255828806
+        }
+      ],
+      "case_angle_changes": [
+        {
+          "family": "b01",
+          "maximum_angle_change": 0.001335290778389342
+        },
+        {
+          "family": "b02",
+          "maximum_angle_change": 0.005417004874250175
+        },
+        {
+          "family": "b03",
+          "maximum_angle_change": 0.0017729699628931395
+        },
+        {
+          "family": "b04",
+          "maximum_angle_change": 0.0026953086871651655
+        },
+        {
+          "family": "b05",
+          "maximum_angle_change": 0.004523142415508441
+        },
+        {
+          "family": "b06",
+          "maximum_angle_change": 0.0039814236641985135
+        },
+        {
+          "family": "b07",
+          "maximum_angle_change": 0.0013223285143501573
+        },
+        {
+          "family": "b08",
+          "maximum_angle_change": 0.0018756213752442186
+        }
+      ],
+      "rank_reversals": [
+        {
+          "lag": 1,
+          "criterion": "specificity_over_unrelated",
+          "native": 0.05798801334653436,
+          "fixed": 0.05770427741002837,
+          "sign_reversed": false
+        },
+        {
+          "lag": 1,
+          "criterion": "specificity_over_artifact",
+          "native": 0.43075545234976415,
+          "fixed": 0.43034803765336893,
+          "sign_reversed": false
+        },
+        {
+          "lag": 8,
+          "criterion": "specificity_over_unrelated",
+          "native": 0.09637894710978334,
+          "fixed": 0.09611110844443299,
+          "sign_reversed": false
+        },
+        {
+          "lag": 8,
+          "criterion": "specificity_over_artifact",
+          "native": 0.43803077061906526,
+          "fixed": 0.43730974472639184,
+          "sign_reversed": false
+        }
+      ],
+      "families_angle_change_over_0_05": 0,
+      "artifact_within_gram_lag1": 0.31874806293155505,
+      "artifact_within_gram_lag8": 0.0035945656370866908
+    },
+    "llama3b": {
+      "technical_pass": true,
+      "forwards": 88,
+      "primary": [
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": null,
+          "role_within": 0.8938392210256512,
+          "role_to_unrelated": 0.8117809217953716,
+          "role_to_artifact": 0.6211737005331965,
+          "specificity_over_unrelated": 0.08205829923027952,
+          "specificity_over_artifact": 0.2726655204924546
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b01",
+          "role_within": 0.8927398884756392,
+          "role_to_unrelated": 0.807512451589856,
+          "role_to_artifact": 0.6160408816568573,
+          "specificity_over_unrelated": 0.08522743688578327,
+          "specificity_over_artifact": 0.2766990068187819
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b02",
+          "role_within": 0.8898765477179753,
+          "role_to_unrelated": 0.8092052935981476,
+          "role_to_artifact": 0.6305774493870092,
+          "specificity_over_unrelated": 0.08067125411982767,
+          "specificity_over_artifact": 0.2592990983309661
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b03",
+          "role_within": 0.8954939640104429,
+          "role_to_unrelated": 0.8108698751024629,
+          "role_to_artifact": 0.6226318657307526,
+          "specificity_over_unrelated": 0.08462408890798001,
+          "specificity_over_artifact": 0.2728620982796903
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b04",
+          "role_within": 0.8953922687950916,
+          "role_to_unrelated": 0.8134903116630529,
+          "role_to_artifact": 0.6264218385168588,
+          "specificity_over_unrelated": 0.08190195713203874,
+          "specificity_over_artifact": 0.26897043027823275
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b05",
+          "role_within": 0.8938098478168061,
+          "role_to_unrelated": 0.8080032613640126,
+          "role_to_artifact": 0.6136103805713913,
+          "specificity_over_unrelated": 0.08580658645279349,
+          "specificity_over_artifact": 0.2801994672454148
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b06",
+          "role_within": 0.8963287130140332,
+          "role_to_unrelated": 0.8148212670905801,
+          "role_to_artifact": 0.6235554287576882,
+          "specificity_over_unrelated": 0.08150744592345305,
+          "specificity_over_artifact": 0.27277328425634495
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b07",
+          "role_within": 0.8949248705604772,
+          "role_to_unrelated": 0.8184108979858996,
+          "role_to_artifact": 0.6197668619097009,
+          "specificity_over_unrelated": 0.0765139725745776,
+          "specificity_over_artifact": 0.27515800865077633
+        },
+        {
+          "mode": "native",
+          "lag": 1,
+          "leave_out": "b08",
+          "role_within": 0.8921476678147438,
+          "role_to_unrelated": 0.8154770879063423,
+          "role_to_artifact": 0.6176024966689333,
+          "specificity_over_unrelated": 0.07667057990840143,
+          "specificity_over_artifact": 0.27454517114581045
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": null,
+          "role_within": 0.2695097017215501,
+          "role_to_unrelated": 0.11711149541732344,
+          "role_to_artifact": 0.033268020366280654,
+          "specificity_over_unrelated": 0.15239820630422665,
+          "specificity_over_artifact": 0.23624168135526943
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b01",
+          "role_within": 0.2689196516610083,
+          "role_to_unrelated": 0.08802400921131377,
+          "role_to_artifact": 0.03225213192454669,
+          "specificity_over_unrelated": 0.18089564244969453,
+          "specificity_over_artifact": 0.2366675197364616
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b02",
+          "role_within": 0.2725210961896344,
+          "role_to_unrelated": 0.1068426106913573,
+          "role_to_artifact": 0.03208104600220579,
+          "specificity_over_unrelated": 0.16567848549827707,
+          "specificity_over_artifact": 0.2404400501874286
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b03",
+          "role_within": 0.2646024836537332,
+          "role_to_unrelated": 0.11230839015849879,
+          "role_to_artifact": 0.04076862836610104,
+          "specificity_over_unrelated": 0.15229409349523437,
+          "specificity_over_artifact": 0.22383385528763214
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b04",
+          "role_within": 0.25551063467951024,
+          "role_to_unrelated": 0.11656198660552496,
+          "role_to_artifact": 0.03293818836721342,
+          "specificity_over_unrelated": 0.13894864807398527,
+          "specificity_over_artifact": 0.22257244631229683
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b05",
+          "role_within": 0.2616300549083473,
+          "role_to_unrelated": 0.12209584924009687,
+          "role_to_artifact": 0.02943748435896811,
+          "specificity_over_unrelated": 0.13953420566825042,
+          "specificity_over_artifact": 0.23219257054937917
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b06",
+          "role_within": 0.24927520638772582,
+          "role_to_unrelated": 0.13385394666179343,
+          "role_to_artifact": 0.03589526636856235,
+          "specificity_over_unrelated": 0.1154212597259324,
+          "specificity_over_artifact": 0.21337994001916347
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b07",
+          "role_within": 0.2940766009364582,
+          "role_to_unrelated": 0.1571640082600191,
+          "role_to_artifact": 0.02868246689199482,
+          "specificity_over_unrelated": 0.1369125926764391,
+          "specificity_over_artifact": 0.2653941340444634
+        },
+        {
+          "mode": "native",
+          "lag": 8,
+          "leave_out": "b08",
+          "role_within": 0.289541885355983,
+          "role_to_unrelated": 0.11210993047582914,
+          "role_to_artifact": 0.037568941767015196,
+          "specificity_over_unrelated": 0.1774319548801539,
+          "specificity_over_artifact": 0.2519729435889678
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": null,
+          "role_within": 0.8938392210256512,
+          "role_to_unrelated": 0.8117809217953716,
+          "role_to_artifact": 0.6211737005331965,
+          "specificity_over_unrelated": 0.08205829923027952,
+          "specificity_over_artifact": 0.2726655204924546
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b01",
+          "role_within": 0.8927398884756392,
+          "role_to_unrelated": 0.807512451589856,
+          "role_to_artifact": 0.6160408816568573,
+          "specificity_over_unrelated": 0.08522743688578327,
+          "specificity_over_artifact": 0.2766990068187819
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b02",
+          "role_within": 0.8898765477179753,
+          "role_to_unrelated": 0.8092052935981476,
+          "role_to_artifact": 0.6305774493870092,
+          "specificity_over_unrelated": 0.08067125411982767,
+          "specificity_over_artifact": 0.2592990983309661
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b03",
+          "role_within": 0.8954939640104429,
+          "role_to_unrelated": 0.8108698751024629,
+          "role_to_artifact": 0.6226318657307526,
+          "specificity_over_unrelated": 0.08462408890798001,
+          "specificity_over_artifact": 0.2728620982796903
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b04",
+          "role_within": 0.8953922687950916,
+          "role_to_unrelated": 0.8134903116630529,
+          "role_to_artifact": 0.6264218385168588,
+          "specificity_over_unrelated": 0.08190195713203874,
+          "specificity_over_artifact": 0.26897043027823275
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b05",
+          "role_within": 0.8938098478168061,
+          "role_to_unrelated": 0.8080032613640126,
+          "role_to_artifact": 0.6136103805713913,
+          "specificity_over_unrelated": 0.08580658645279349,
+          "specificity_over_artifact": 0.2801994672454148
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b06",
+          "role_within": 0.8963287130140332,
+          "role_to_unrelated": 0.8148212670905801,
+          "role_to_artifact": 0.6235554287576882,
+          "specificity_over_unrelated": 0.08150744592345305,
+          "specificity_over_artifact": 0.27277328425634495
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b07",
+          "role_within": 0.8949248705604772,
+          "role_to_unrelated": 0.8184108979858996,
+          "role_to_artifact": 0.6197668619097009,
+          "specificity_over_unrelated": 0.0765139725745776,
+          "specificity_over_artifact": 0.27515800865077633
+        },
+        {
+          "mode": "fixed",
+          "lag": 1,
+          "leave_out": "b08",
+          "role_within": 0.8921476678147438,
+          "role_to_unrelated": 0.8154770879063423,
+          "role_to_artifact": 0.6176024966689333,
+          "specificity_over_unrelated": 0.07667057990840143,
+          "specificity_over_artifact": 0.27454517114581045
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": null,
+          "role_within": 0.2695097017215501,
+          "role_to_unrelated": 0.11711149541732344,
+          "role_to_artifact": 0.033268020366280654,
+          "specificity_over_unrelated": 0.15239820630422665,
+          "specificity_over_artifact": 0.23624168135526943
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b01",
+          "role_within": 0.2689196516610083,
+          "role_to_unrelated": 0.08802400921131377,
+          "role_to_artifact": 0.03225213192454669,
+          "specificity_over_unrelated": 0.18089564244969453,
+          "specificity_over_artifact": 0.2366675197364616
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b02",
+          "role_within": 0.2725210961896344,
+          "role_to_unrelated": 0.1068426106913573,
+          "role_to_artifact": 0.03208104600220579,
+          "specificity_over_unrelated": 0.16567848549827707,
+          "specificity_over_artifact": 0.2404400501874286
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b03",
+          "role_within": 0.2646024836537332,
+          "role_to_unrelated": 0.11230839015849879,
+          "role_to_artifact": 0.04076862836610104,
+          "specificity_over_unrelated": 0.15229409349523437,
+          "specificity_over_artifact": 0.22383385528763214
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b04",
+          "role_within": 0.25551063467951024,
+          "role_to_unrelated": 0.11656198660552496,
+          "role_to_artifact": 0.03293818836721342,
+          "specificity_over_unrelated": 0.13894864807398527,
+          "specificity_over_artifact": 0.22257244631229683
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b05",
+          "role_within": 0.2616300549083473,
+          "role_to_unrelated": 0.12209584924009687,
+          "role_to_artifact": 0.02943748435896811,
+          "specificity_over_unrelated": 0.13953420566825042,
+          "specificity_over_artifact": 0.23219257054937917
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b06",
+          "role_within": 0.24927520638772582,
+          "role_to_unrelated": 0.13385394666179343,
+          "role_to_artifact": 0.03589526636856235,
+          "specificity_over_unrelated": 0.1154212597259324,
+          "specificity_over_artifact": 0.21337994001916347
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b07",
+          "role_within": 0.2940766009364582,
+          "role_to_unrelated": 0.1571640082600191,
+          "role_to_artifact": 0.02868246689199482,
+          "specificity_over_unrelated": 0.1369125926764391,
+          "specificity_over_artifact": 0.2653941340444634
+        },
+        {
+          "mode": "fixed",
+          "lag": 8,
+          "leave_out": "b08",
+          "role_within": 0.289541885355983,
+          "role_to_unrelated": 0.11210993047582914,
+          "role_to_artifact": 0.037568941767015196,
+          "specificity_over_unrelated": 0.1774319548801539,
+          "specificity_over_artifact": 0.2519729435889678
+        }
+      ],
+      "case_angle_changes": [
+        {
+          "family": "b01",
+          "maximum_angle_change": 0.0
+        },
+        {
+          "family": "b02",
+          "maximum_angle_change": 0.0
+        },
+        {
+          "family": "b03",
+          "maximum_angle_change": 0.0
+        },
+        {
+          "family": "b04",
+          "maximum_angle_change": 0.0
+        },
+        {
+          "family": "b05",
+          "maximum_angle_change": 0.0
+        },
+        {
+          "family": "b06",
+          "maximum_angle_change": 0.0
+        },
+        {
+          "family": "b07",
+          "maximum_angle_change": 0.0
+        },
+        {
+          "family": "b08",
+          "maximum_angle_change": 0.0
+        }
+      ],
+      "rank_reversals": [
+        {
+          "lag": 1,
+          "criterion": "specificity_over_unrelated",
+          "native": 0.08205829923027952,
+          "fixed": 0.08205829923027952,
+          "sign_reversed": false
+        },
+        {
+          "lag": 1,
+          "criterion": "specificity_over_artifact",
+          "native": 0.2726655204924546,
+          "fixed": 0.2726655204924546,
+          "sign_reversed": false
+        },
+        {
+          "lag": 8,
+          "criterion": "specificity_over_unrelated",
+          "native": 0.15239820630422665,
+          "fixed": 0.15239820630422665,
+          "sign_reversed": false
+        },
+        {
+          "lag": 8,
+          "criterion": "specificity_over_artifact",
+          "native": 0.23624168135526943,
+          "fixed": 0.23624168135526943,
+          "sign_reversed": false
+        }
+      ],
+      "families_angle_change_over_0_05": 0,
+      "artifact_within_gram_lag1": 0.7453798091875175,
+      "artifact_within_gram_lag8": 0.05382123677357476
+    }
+  },
+  "case_count": 8,
+  "pairwise_rows": 12960
+}
