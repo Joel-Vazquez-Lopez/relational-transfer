@@ -1,0 +1,230 @@
+[
+  {
+    "model": "qwen7b",
+    "gate": "all",
+    "policy": "own_selected",
+    "mode": "frozen",
+    "cut": 14,
+    "n_units": 8,
+    "units": [
+      [
+        "g03",
+        "active"
+      ],
+      [
+        "g03",
+        "passive"
+      ],
+      [
+        "g04",
+        "active"
+      ],
+      [
+        "g04",
+        "passive"
+      ],
+      [
+        "g05",
+        "active"
+      ],
+      [
+        "g05",
+        "passive"
+      ],
+      [
+        "g06",
+        "active"
+      ],
+      [
+        "g06",
+        "passive"
+      ]
+    ],
+    "mean_retention": 0.7380252182833533,
+    "mean_raw_D": 8.18750050367138
+  },
+  {
+    "model": "qwen7b",
+    "gate": "native_complete",
+    "policy": "own_selected",
+    "mode": "frozen",
+    "cut": 14,
+    "n_units": 4,
+    "units": [
+      [
+        "g03",
+        "passive"
+      ],
+      [
+        "g04",
+        "passive"
+      ],
+      [
+        "g05",
+        "passive"
+      ],
+      [
+        "g06",
+        "passive"
+      ]
+    ],
+    "mean_retention": 0.5069005075299952,
+    "mean_raw_D": 9.76953224945639
+  },
+  {
+    "model": "qwen7b",
+    "gate": "calibrated_complete",
+    "policy": "own_selected",
+    "mode": "frozen",
+    "cut": 14,
+    "n_units": 8,
+    "units": [
+      [
+        "g03",
+        "active"
+      ],
+      [
+        "g03",
+        "passive"
+      ],
+      [
+        "g04",
+        "active"
+      ],
+      [
+        "g04",
+        "passive"
+      ],
+      [
+        "g05",
+        "active"
+      ],
+      [
+        "g05",
+        "passive"
+      ],
+      [
+        "g06",
+        "active"
+      ],
+      [
+        "g06",
+        "passive"
+      ]
+    ],
+    "mean_retention": 0.7380252182833533,
+    "mean_raw_D": 8.18750050367138
+  },
+  {
+    "model": "llama3b",
+    "gate": "all",
+    "policy": "own_selected",
+    "mode": "frozen",
+    "cut": 14,
+    "n_units": 8,
+    "units": [
+      [
+        "g03",
+        "active"
+      ],
+      [
+        "g03",
+        "passive"
+      ],
+      [
+        "g04",
+        "active"
+      ],
+      [
+        "g04",
+        "passive"
+      ],
+      [
+        "g05",
+        "active"
+      ],
+      [
+        "g05",
+        "passive"
+      ],
+      [
+        "g06",
+        "active"
+      ],
+      [
+        "g06",
+        "passive"
+      ]
+    ],
+    "mean_retention": 1.0210970688763665,
+    "mean_raw_D": 2.559081994275208
+  },
+  {
+    "model": "llama3b",
+    "gate": "native_complete",
+    "policy": "own_selected",
+    "mode": "frozen",
+    "cut": 14,
+    "n_units": 4,
+    "units": [
+      [
+        "g03",
+        "active"
+      ],
+      [
+        "g04",
+        "active"
+      ],
+      [
+        "g04",
+        "passive"
+      ],
+      [
+        "g06",
+        "passive"
+      ]
+    ],
+    "mean_retention": 1.038924182109351,
+    "mean_raw_D": 3.01660150740038
+  },
+  {
+    "model": "llama3b",
+    "gate": "calibrated_complete",
+    "policy": "own_selected",
+    "mode": "frozen",
+    "cut": 14,
+    "n_units": 7,
+    "units": [
+      [
+        "g03",
+        "active"
+      ],
+      [
+        "g04",
+        "active"
+      ],
+      [
+        "g04",
+        "passive"
+      ],
+      [
+        "g05",
+        "active"
+      ],
+      [
+        "g05",
+        "passive"
+      ],
+      [
+        "g06",
+        "active"
+      ],
+      [
+        "g06",
+        "passive"
+      ]
+    ],
+    "mean_retention": 1.0222162785069666,
+    "mean_raw_D": 2.7114954816415233
+  }
+]

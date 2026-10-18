@@ -30,9 +30,23 @@ The sharp active/passive split is **not a cross-model law**: Llama does not show
 
 A mechanistic study that keeps only fully correct examples could end up studying different constructions depending on its answer convention. Later differences in maps/circuits would then be conditional on that selected sample. That is a concrete empirical issue to measure, and a better research target than declaring every structured hidden-state difference a new semantic mechanism.
 
-This is **not** evidence that active and passive computations are identical, that all native errors are constant biases, that external calibration is native understanding, or that all competence filtering is invalid. No mechanistic-map distortion was causally demonstrated here. The calibration rule changes the classifier, not the model. Full generated responses were not collected. Agent/Patient labels and synthetic sentences have AI-only annotation.
+This is **not** evidence that active and passive computations are identical, that all native errors are constant biases, that external calibration is native understanding, or that all competence filtering is invalid. A sensitivity of the reported mean causal profile to filtering is measured below; no switch in a preregistered mechanistic conclusion is demonstrated. The calibration rule changes the classifier, not the model. Full generated responses were not collected. Agent/Patient labels and synthetic sentences have AI-only annotation.
 
 The six lexical families share narrow templates, two voices and a small verb/name inventory. They are not48 independent linguistic phenomena. The direction was recognized after outcomes; no p values were computed, and no statistically significant discovery is claimed. The test/family classifications of the original investigations remain unchanged. One quantized checkpoint from each family and this prompt cannot establish a family-level or general law.
+
+## Does selection change an actual reported causal profile?
+
+A further **post hoc arithmetic audit** used all fixed source-access profiles from the original matched four-family panel, without new forwards or changing scores. Every mode and cut, own-selected and common-selected subsets are retained in FILTER_PROFILE_RESULTS.json. The illustration below uses the period-source-isolated condition at cut 14, the site already fixed for this investigation.
+
+|Eligibility rule|Qwen mean retention|Llama mean retention|Llama minus Qwen|Selected units Qwen/Llama|
+|---|---:|---:|---:|---:|
+|All original units|.7380|1.0211|.2831|8/8|
+|All-four-native-correct|.5069|1.0389|.5320|4/4|
+|All-four-fixed-calibrated-correct|.7380|1.0222|.2842|8/7|
+
+The native gate makes this reported cross-checkpoint gap about 1.88 times its full-panel value, **without changing weights, examples' scores, interventions or the retention metric**. Only eligibility changes. Qwen loses every active unit, while Llama loses a different mixture of constructions and lexical families. This demonstrates a sensitivity of the conditional reported comparison to the analysis policy; it does not prove a change in the model's computation or isolate syntax as the only source of the shift. The means estimate different selected samples, so neither is automatically an incorrect conditional estimand. The error would be generalizing one of them to an unmatched/full population without accounting for selection.
+
+These data show a change in a descriptive causal-profile comparison. They do **not** demonstrate a reversal of any preregistered mechanistic conclusion, validate a universal filtering law, or repair the old failed gates. Ratio averaging and different native sensitivity magnitudes also require care; raw D means are retained alongside every ratio. No favorable layer was selected as a new hypothesis and no significance tests were added.
 
 ## Potential paper investigation, not a paper claim
 
