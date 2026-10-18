@@ -1,0 +1,19 @@
+{
+  "threshold": -19.507811598961112,
+  "source": "research/causal_carrier_isolation_2026-10-18/qwen7b/RAW.json",
+  "source_sha256": "72f2408a15c27052563905279edca86a58f9e02e0a31f31c6390e8b14591e6bc",
+  "yes_scores": [
+    -7.843748685158346,
+    -12.343749199734134,
+    -5.812498959874496,
+    -16.531249316250392
+  ],
+  "no_scores": [
+    -22.484373881671836,
+    -22.5312486302864,
+    -24.031248764312785,
+    -22.74999877713975
+  ],
+  "fitting_cases": 8,
+  "rule": "One constant midpoint threshold from prior exposed d1; never refit on fresh data"
+}

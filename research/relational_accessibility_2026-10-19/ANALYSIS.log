@@ -1,0 +1,89 @@
+{
+  "final_boundary": [
+    {
+      "model": "qwen7b",
+      "site": "period",
+      "training": "a01",
+      "test": "a02",
+      "gain": 0.025250674993485545,
+      "ce": 1.0144700958464323,
+      "correct": 2,
+      "n": 4
+    },
+    {
+      "model": "qwen7b",
+      "site": "period",
+      "training": "a02",
+      "test": "a01",
+      "gain": 0.22953166403230207,
+      "ce": 0.8101891068076158,
+      "correct": 2,
+      "n": 4
+    },
+    {
+      "model": "qwen7b",
+      "site": "answer",
+      "training": "a01",
+      "test": "a02",
+      "gain": -1.118971176787323,
+      "ce": 2.158691947627241,
+      "correct": 1,
+      "n": 4
+    },
+    {
+      "model": "qwen7b",
+      "site": "answer",
+      "training": "a02",
+      "test": "a01",
+      "gain": -1.367080476563291,
+      "ce": 2.4068012474032088,
+      "correct": 2,
+      "n": 4
+    },
+    {
+      "model": "llama3b",
+      "site": "period",
+      "training": "a01",
+      "test": "a02",
+      "gain": 0.21532800880836,
+      "ce": 0.8243927620315579,
+      "correct": 4,
+      "n": 4
+    },
+    {
+      "model": "llama3b",
+      "site": "period",
+      "training": "a02",
+      "test": "a01",
+      "gain": -0.03592276492414115,
+      "ce": 1.075643535764059,
+      "correct": 1,
+      "n": 4
+    },
+    {
+      "model": "llama3b",
+      "site": "answer",
+      "training": "a01",
+      "test": "a02",
+      "gain": -0.5762502633484361,
+      "ce": 1.615971034188354,
+      "correct": 2,
+      "n": 4
+    },
+    {
+      "model": "llama3b",
+      "site": "answer",
+      "training": "a02",
+      "test": "a01",
+      "gain": -0.5323413804765893,
+      "ce": 1.5720621513165072,
+      "correct": 2,
+      "n": 4
+    }
+  ],
+  "probability_replays": 1468,
+  "graded_baseline_payload_hashes": 96,
+  "all_passed": true,
+  "no_new_transformer_forwards": true,
+  "probe_warnings": []
+}

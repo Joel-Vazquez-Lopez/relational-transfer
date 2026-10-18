@@ -1,0 +1,16 @@
+{
+  "rehearsal": {
+    "production_controller_323_synthetic_calls": true,
+    "prediction_before_evaluation": true,
+    "not_empirical_model_calls": true
+  },
+  "tensor": {
+    "actual_hook_matches_native_tensor_sdpa": true,
+    "identity_exact": true,
+    "prefix_queries_unchanged": true,
+    "independent_value_port_replacement_exact": true,
+    "independent_key_and_joint_ports_exact": true,
+    "blocked_neighbor_null_and_open_neighbor_nonnull": true,
+    "not_llm_inference": true
+  }
+}

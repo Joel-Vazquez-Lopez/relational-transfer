@@ -1,0 +1,66 @@
+{
+  "status": "FROZEN_BEFORE_ALL_NEW_MODEL_OUTPUTS",
+  "authorization": "Joel: cook it run it, continue independent critical investigation,19 October2026",
+  "max_forwards": 323,
+  "model": {
+    "path": "research/stronger_model_development_2026-10-15/models/qwen7b",
+    "files": {
+      "research/stronger_model_development_2026-10-15/models/qwen7b/added_tokens.json": {
+        "bytes": 605,
+        "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/config.json": {
+        "bytes": 787,
+        "sha256": "1661a349986919d13820d3981623776138d50783d13e247cdc5b075a22b62698"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors": {
+        "bytes": 4284346255,
+        "sha256": "86110f368236b53cf4c2336f991a85703b17bcc60bb75f292b4002ec0219f071"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors.index.json": {
+        "bytes": 51711,
+        "sha256": "23cd562592dd96686d2e799eb02e4b578a4038b6045eaefe860d270cc060e24f"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/special_tokens_map.json": {
+        "bytes": 613,
+        "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer.json": {
+        "bytes": 7031673,
+        "sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer_config.json": {
+        "bytes": 7280,
+        "sha256": "4921d4cbae33349a9cb3b2ad3a7622efdea10a5d208c9f333c77b154aa714888"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/vocab.json": {
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      }
+    },
+    "pad": 87
+  },
+  "files": {
+    "research/period_message_interchange_2026-10-19/READOUT_CALIBRATION.json": "c1b880b1d87fb01a449180aea59edb6386f098f81270a38dc74dc71d366689bb",
+    "research/period_message_interchange_2026-10-19/run.py": "583fd373d28224d50ecd26dd520b4548d0c4ab8a6e362aa0914f40fe44e9b678",
+    "research/period_message_interchange_2026-10-19/PREFLIGHT.log": "fdb266e782477a83bd2f5b818ebaf6bc2529f8c9d54c728697781fe7961ea701",
+    "research/period_message_interchange_2026-10-19/ANNOTATION_TOKEN_AUDIT.json": "249468726a1b56d0c8e925a6caa46dec187d08d76970a4eb448535f9e4751163",
+    "research/period_message_interchange_2026-10-19/SOURCE_MANIFEST.json": "8d11f353cfd916b0454f010da0e8b3bd28d4f295a55f4065ef70eecf8d2ec246",
+    "research/period_message_interchange_2026-10-19/PREFLIGHT_TESTS.json": "b4dcf50d5e6bdae71a7d91a54b18be7e7d914ae179ef52e6289e8dd5c424b619",
+    "research/period_message_interchange_2026-10-19/core.py": "a690bd185fd1c7bf65d97ad19284bfc08f8fe6302fa00a6f9bcf2309e0b06a9b",
+    "research/period_message_interchange_2026-10-19/engine.py": "be2c4a23dea572a26d15787d7a9d083eda102ca2635e4823643b558d965dae1c",
+    "research/period_message_interchange_2026-10-19/INPUTS.json": "f97de03bfbd564a977f94864794e5ad4f19e8ddeeb2048971dafa3f9be48ac05",
+    "research/period_message_interchange_2026-10-19/PREPARE.log": "26848a44e9ac04bb211a7fd90292bba229c514622cb94425d2c3cd8560620019",
+    "research/period_message_interchange_2026-10-19/instrument.py": "df67617a040ee5466d50f70b27ef59ce26597745785e55f5599e361c2d336e6d",
+    "research/period_message_interchange_2026-10-19/test_pipeline.py": "c0849e435e97ab74ff552997323b1706e2ca2ef06fc77ecaec3e620855bd72e6",
+    "research/period_message_interchange_2026-10-19/prepare.py": "633604177da523734f4899b1f68bc0f1dd5da65dac35be01681dfadc5c927d00",
+    "research/period_message_interchange_2026-10-19/MODEL_MANIFEST.json": "ab88a60277b43c3fbb00d559f2f99ebcf924d5b25a2dfb7019be5cd2a6caeeab",
+    "research/period_message_interchange_2026-10-19/PROTOCOL.md": "0a425b7e61b1fe52a0bf49073b5113571325f96401b30c0012e1dd13afc5741e",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/qwen2.py": "937e0321ef06a34efbd66d2ce0ce1e715aab98da4acefa376c8cd29291a0bc83",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/base.py": "b782b2ac0f55ed8fa9c1afce1f36307d5d8714aad2c0991d63998047f7507174",
+    "research/period_message_interchange_2026-10-19/.gitignore": "4ea2061bf10f8ffa0476349fb990676637af7478ee987acb0b9b1586e7b49305"
+  },
+  "free_bytes": 4554366976,
+  "prior_design_amended_before_outputs": true,
+  "prior_failures_preserved": true
+}
