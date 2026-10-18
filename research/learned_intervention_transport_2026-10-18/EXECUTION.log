@@ -1,0 +1,98 @@
+seed=11 route=cached training complete
+seed=11 route=bypass training complete
+seed=23 route=cached training complete
+seed=23 route=bypass training complete
+seed=37 route=cached training complete
+seed=37 route=bypass training complete
+{
+  "decision": "NARROW",
+  "numerical_controls_pass": true,
+  "linear_blind_controls_pass": true,
+  "nonlinear_cached_held": [
+    {
+      "seed": 11,
+      "route": "cached",
+      "split": "held",
+      "coordinates": "nonlinear",
+      "native_oracle_max": 5.88418203051333e-14,
+      "native_blind_effect_rmse": 0.32894120686970674,
+      "native_blind_effect_max": 0.9428456517320434,
+      "normal_roundtrip_output_max": 3.552713678800501e-15,
+      "sham_logit_max": 3.552713678800501e-15,
+      "direction_norms": [
+        0.27889986142103973,
+        1.7976620578182276,
+        5.636989007220883
+      ]
+    },
+    {
+      "seed": 23,
+      "route": "cached",
+      "split": "held",
+      "coordinates": "nonlinear",
+      "native_oracle_max": 3.452793606584237e-14,
+      "native_blind_effect_rmse": 0.24556698709911573,
+      "native_blind_effect_max": 0.8452799967624218,
+      "normal_roundtrip_output_max": 1.7763568394002505e-15,
+      "sham_logit_max": 1.7763568394002505e-15,
+      "direction_norms": [
+        0.3624854849868631,
+        2.106246779073636,
+        5.609706628727019
+      ]
+    },
+    {
+      "seed": 37,
+      "route": "cached",
+      "split": "held",
+      "coordinates": "nonlinear",
+      "native_oracle_max": 2.531308496145357e-14,
+      "native_blind_effect_rmse": 0.33724446961152743,
+      "native_blind_effect_max": 0.9572939379619616,
+      "normal_roundtrip_output_max": 3.552713678800501e-15,
+      "sham_logit_max": 3.552713678800501e-15,
+      "direction_norms": [
+        0.22747277140125435,
+        1.898867107650741,
+        5.956249103853922
+      ]
+    }
+  ],
+  "methods": {
+    "depth": {
+      "calibration_positive": 0.08916967317734938,
+      "calibration_negative": 0.6261649524343498,
+      "separable": true,
+      "threshold": 0.35766731280584957,
+      "held_classification_correct": 4,
+      "held_n": 4,
+      "same_route_prediction_passes": 1,
+      "same_route_prediction_n": 2
+    },
+    "cka": {
+      "calibration_positive": 0.08916967317734938,
+      "calibration_negative": 0.6261649524343498,
+      "separable": true,
+      "threshold": 0.35766731280584957,
+      "held_classification_correct": 4,
+      "held_n": 4,
+      "same_route_prediction_passes": 1,
+      "same_route_prediction_n": 2
+    },
+    "causal": {
+      "calibration_positive": 0.08916967317734938,
+      "calibration_negative": 0.6261649524343498,
+      "separable": true,
+      "threshold": 0.35766731280584957,
+      "held_classification_correct": 4,
+      "held_n": 4,
+      "same_route_prediction_passes": 1,
+      "same_route_prediction_n": 2
+    }
+  },
+  "elapsed_seconds": 5.081547021865845,
+  "models": 6,
+  "seed_pairs": 3,
+  "interventions_run": true,
+  "qualification": "Same-route models share a constrained information route, not a proven identical algorithm. Grammar features are supplied, questions/labels routed algebraically."
+}

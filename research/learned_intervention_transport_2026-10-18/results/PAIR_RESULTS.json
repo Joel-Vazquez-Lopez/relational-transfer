@@ -1,0 +1,1676 @@
+[
+  {
+    "source_seed": 11,
+    "target_seed": 11,
+    "target_route": "cached",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.0,
+    "held_individual_rmse": 0.0,
+    "held_case_max_rmse": 0.0,
+    "held_stage_rmse": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": true
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 11,
+    "target_route": "cached",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.0,
+    "held_individual_rmse": 0.0,
+    "held_case_max_rmse": 0.0,
+    "held_stage_rmse": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": true
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 11,
+    "target_route": "cached",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.0,
+    "held_individual_rmse": 0.0,
+    "held_case_max_rmse": 0.0,
+    "held_stage_rmse": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": true
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 11,
+    "target_route": "bypass",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6261649524343498,
+    "held_individual_rmse": 0.592455263209677,
+    "held_case_max_rmse": 0.6147571042445904,
+    "held_stage_rmse": [
+      0.5209334454200217,
+      0.6292290985282114,
+      0.6210545899699501
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 11,
+    "target_route": "bypass",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6261649524343498,
+    "held_individual_rmse": 0.592455263209677,
+    "held_case_max_rmse": 0.6147571042445904,
+    "held_stage_rmse": [
+      0.5209334454200217,
+      0.6292290985282114,
+      0.6210545899699501
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 11,
+    "target_route": "bypass",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6261649524343498,
+    "held_individual_rmse": 0.592455263209677,
+    "held_case_max_rmse": 0.6147571042445904,
+    "held_stage_rmse": [
+      0.5209334454200217,
+      0.6292290985282114,
+      0.6210545899699501
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 23,
+    "target_route": "cached",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.08916967317734938,
+    "held_individual_rmse": 0.13134477076645906,
+    "held_case_max_rmse": 0.16811208328969438,
+    "held_stage_rmse": [
+      0.22150078561632486,
+      0.04408141878495612,
+      0.027360133631567366
+    ],
+    "calibration": true,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 23,
+    "target_route": "cached",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.08916967317734938,
+    "held_individual_rmse": 0.13134477076645906,
+    "held_case_max_rmse": 0.16811208328969438,
+    "held_stage_rmse": [
+      0.22150078561632486,
+      0.04408141878495612,
+      0.027360133631567366
+    ],
+    "calibration": true,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 23,
+    "target_route": "cached",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.08916967317734938,
+    "held_individual_rmse": 0.13134477076645906,
+    "held_case_max_rmse": 0.16811208328969438,
+    "held_stage_rmse": [
+      0.22150078561632486,
+      0.04408141878495612,
+      0.027360133631567366
+    ],
+    "calibration": true,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 23,
+    "target_route": "bypass",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6261649524343498,
+    "held_individual_rmse": 0.592455263209677,
+    "held_case_max_rmse": 0.6147571042445904,
+    "held_stage_rmse": [
+      0.5209334454200217,
+      0.6292290985282114,
+      0.6210545899699501
+    ],
+    "calibration": true,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 23,
+    "target_route": "bypass",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6261649524343498,
+    "held_individual_rmse": 0.592455263209677,
+    "held_case_max_rmse": 0.6147571042445904,
+    "held_stage_rmse": [
+      0.5209334454200217,
+      0.6292290985282114,
+      0.6210545899699501
+    ],
+    "calibration": true,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 23,
+    "target_route": "bypass",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6261649524343498,
+    "held_individual_rmse": 0.592455263209677,
+    "held_case_max_rmse": 0.6147571042445904,
+    "held_stage_rmse": [
+      0.5209334454200217,
+      0.6292290985282114,
+      0.6210545899699501
+    ],
+    "calibration": true,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 37,
+    "target_route": "cached",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.012532982698973329,
+    "held_individual_rmse": 0.05441912925081915,
+    "held_case_max_rmse": 0.09636409197324113,
+    "held_stage_rmse": [
+      0.05967531027416081,
+      0.06048901327444803,
+      0.040795361280645225
+    ],
+    "calibration": false,
+    "primary_held": true,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 37,
+    "target_route": "cached",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.012532982698973329,
+    "held_individual_rmse": 0.05441912925081915,
+    "held_case_max_rmse": 0.09636409197324113,
+    "held_stage_rmse": [
+      0.05967531027416081,
+      0.06048901327444803,
+      0.040795361280645225
+    ],
+    "calibration": false,
+    "primary_held": true,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 37,
+    "target_route": "cached",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.012532982698973329,
+    "held_individual_rmse": 0.05441912925081915,
+    "held_case_max_rmse": 0.09636409197324113,
+    "held_stage_rmse": [
+      0.05967531027416081,
+      0.06048901327444803,
+      0.040795361280645225
+    ],
+    "calibration": false,
+    "primary_held": true,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 37,
+    "target_route": "bypass",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6261649524343498,
+    "held_individual_rmse": 0.592455263209677,
+    "held_case_max_rmse": 0.6147571042445904,
+    "held_stage_rmse": [
+      0.5209334454200217,
+      0.6292290985282114,
+      0.6210545899699501
+    ],
+    "calibration": false,
+    "primary_held": true,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 37,
+    "target_route": "bypass",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6261649524343498,
+    "held_individual_rmse": 0.592455263209677,
+    "held_case_max_rmse": 0.6147571042445904,
+    "held_stage_rmse": [
+      0.5209334454200217,
+      0.6292290985282114,
+      0.6210545899699501
+    ],
+    "calibration": false,
+    "primary_held": true,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 11,
+    "target_seed": 37,
+    "target_route": "bypass",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6261649524343498,
+    "held_individual_rmse": 0.592455263209677,
+    "held_case_max_rmse": 0.6147571042445904,
+    "held_stage_rmse": [
+      0.5209334454200217,
+      0.6292290985282114,
+      0.6210545899699501
+    ],
+    "calibration": false,
+    "primary_held": true,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 11,
+    "target_route": "cached",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.08916967317734938,
+    "held_individual_rmse": 0.13134477076645906,
+    "held_case_max_rmse": 0.16811208328969438,
+    "held_stage_rmse": [
+      0.22150078561632486,
+      0.04408141878495612,
+      0.027360133631567366
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 11,
+    "target_route": "cached",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.08916967317734938,
+    "held_individual_rmse": 0.13134477076645906,
+    "held_case_max_rmse": 0.16811208328969438,
+    "held_stage_rmse": [
+      0.22150078561632486,
+      0.04408141878495612,
+      0.027360133631567366
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 11,
+    "target_route": "cached",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.08916967317734938,
+    "held_individual_rmse": 0.13134477076645906,
+    "held_case_max_rmse": 0.16811208328969438,
+    "held_stage_rmse": [
+      0.22150078561632486,
+      0.04408141878495612,
+      0.027360133631567366
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 11,
+    "target_route": "bypass",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.5866487249648401,
+    "held_individual_rmse": 0.544337259951677,
+    "held_case_max_rmse": 0.5761859879247416,
+    "held_stage_rmse": [
+      0.3256731500070215,
+      0.6303932950585247,
+      0.6208465596464706
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 11,
+    "target_route": "bypass",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.5866487249648401,
+    "held_individual_rmse": 0.544337259951677,
+    "held_case_max_rmse": 0.5761859879247416,
+    "held_stage_rmse": [
+      0.3256731500070215,
+      0.6303932950585247,
+      0.6208465596464706
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 11,
+    "target_route": "bypass",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.5866487249648401,
+    "held_individual_rmse": 0.544337259951677,
+    "held_case_max_rmse": 0.5761859879247416,
+    "held_stage_rmse": [
+      0.3256731500070215,
+      0.6303932950585247,
+      0.6208465596464706
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 23,
+    "target_route": "cached",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.0,
+    "held_individual_rmse": 0.0,
+    "held_case_max_rmse": 0.0,
+    "held_stage_rmse": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": true
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 23,
+    "target_route": "cached",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.0,
+    "held_individual_rmse": 0.0,
+    "held_case_max_rmse": 0.0,
+    "held_stage_rmse": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": true
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 23,
+    "target_route": "cached",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.0,
+    "held_individual_rmse": 0.0,
+    "held_case_max_rmse": 0.0,
+    "held_stage_rmse": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": true
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 23,
+    "target_route": "bypass",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.5866487249648401,
+    "held_individual_rmse": 0.544337259951677,
+    "held_case_max_rmse": 0.5761859879247416,
+    "held_stage_rmse": [
+      0.3256731500070215,
+      0.6303932950585247,
+      0.6208465596464706
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 23,
+    "target_route": "bypass",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.5866487249648401,
+    "held_individual_rmse": 0.544337259951677,
+    "held_case_max_rmse": 0.5761859879247416,
+    "held_stage_rmse": [
+      0.3256731500070215,
+      0.6303932950585247,
+      0.6208465596464706
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 23,
+    "target_route": "bypass",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.5866487249648401,
+    "held_individual_rmse": 0.544337259951677,
+    "held_case_max_rmse": 0.5761859879247416,
+    "held_stage_rmse": [
+      0.3256731500070215,
+      0.6303932950585247,
+      0.6208465596464706
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 37,
+    "target_route": "cached",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.10039908337130404,
+    "held_individual_rmse": 0.14698330207268434,
+    "held_case_max_rmse": 0.195833919691969,
+    "held_stage_rmse": [
+      0.24835512428901066,
+      0.046002756693129025,
+      0.031870862564304145
+    ],
+    "calibration": false,
+    "primary_held": true,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 37,
+    "target_route": "cached",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.10039908337130404,
+    "held_individual_rmse": 0.14698330207268434,
+    "held_case_max_rmse": 0.195833919691969,
+    "held_stage_rmse": [
+      0.24835512428901066,
+      0.046002756693129025,
+      0.031870862564304145
+    ],
+    "calibration": false,
+    "primary_held": true,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 37,
+    "target_route": "cached",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.10039908337130404,
+    "held_individual_rmse": 0.14698330207268434,
+    "held_case_max_rmse": 0.195833919691969,
+    "held_stage_rmse": [
+      0.24835512428901066,
+      0.046002756693129025,
+      0.031870862564304145
+    ],
+    "calibration": false,
+    "primary_held": true,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 37,
+    "target_route": "bypass",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.5866487249648401,
+    "held_individual_rmse": 0.544337259951677,
+    "held_case_max_rmse": 0.5761859879247416,
+    "held_stage_rmse": [
+      0.3256731500070215,
+      0.6303932950585247,
+      0.6208465596464706
+    ],
+    "calibration": false,
+    "primary_held": true,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 37,
+    "target_route": "bypass",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.5866487249648401,
+    "held_individual_rmse": 0.544337259951677,
+    "held_case_max_rmse": 0.5761859879247416,
+    "held_stage_rmse": [
+      0.3256731500070215,
+      0.6303932950585247,
+      0.6208465596464706
+    ],
+    "calibration": false,
+    "primary_held": true,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 23,
+    "target_seed": 37,
+    "target_route": "bypass",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.5866487249648401,
+    "held_individual_rmse": 0.544337259951677,
+    "held_case_max_rmse": 0.5761859879247416,
+    "held_stage_rmse": [
+      0.3256731500070215,
+      0.6303932950585247,
+      0.6208465596464706
+    ],
+    "calibration": false,
+    "primary_held": true,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 11,
+    "target_route": "cached",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.012532982698973329,
+    "held_individual_rmse": 0.05441912925081915,
+    "held_case_max_rmse": 0.09636409197324113,
+    "held_stage_rmse": [
+      0.05967531027416081,
+      0.06048901327444803,
+      0.040795361280645225
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 11,
+    "target_route": "cached",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.012532982698973329,
+    "held_individual_rmse": 0.05441912925081915,
+    "held_case_max_rmse": 0.09636409197324113,
+    "held_stage_rmse": [
+      0.05967531027416081,
+      0.06048901327444803,
+      0.040795361280645225
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 11,
+    "target_route": "cached",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.012532982698973329,
+    "held_individual_rmse": 0.05441912925081915,
+    "held_case_max_rmse": 0.09636409197324113,
+    "held_stage_rmse": [
+      0.05967531027416081,
+      0.06048901327444803,
+      0.040795361280645225
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 11,
+    "target_route": "bypass",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6305949262173219,
+    "held_individual_rmse": 0.6001275750731085,
+    "held_case_max_rmse": 0.6358969949572382,
+    "held_stage_rmse": [
+      0.5472622315290773,
+      0.6292985052625714,
+      0.6204407790478449
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 11,
+    "target_route": "bypass",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6305949262173219,
+    "held_individual_rmse": 0.6001275750731085,
+    "held_case_max_rmse": 0.6358969949572382,
+    "held_stage_rmse": [
+      0.5472622315290773,
+      0.6292985052625714,
+      0.6204407790478449
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 11,
+    "target_route": "bypass",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6305949262173219,
+    "held_individual_rmse": 0.6001275750731085,
+    "held_case_max_rmse": 0.6358969949572382,
+    "held_stage_rmse": [
+      0.5472622315290773,
+      0.6292985052625714,
+      0.6204407790478449
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 23,
+    "target_route": "cached",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.10039908337130404,
+    "held_individual_rmse": 0.14698330207268434,
+    "held_case_max_rmse": 0.195833919691969,
+    "held_stage_rmse": [
+      0.24835512428901066,
+      0.046002756693129025,
+      0.031870862564304145
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 23,
+    "target_route": "cached",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.10039908337130404,
+    "held_individual_rmse": 0.14698330207268434,
+    "held_case_max_rmse": 0.195833919691969,
+    "held_stage_rmse": [
+      0.24835512428901066,
+      0.046002756693129025,
+      0.031870862564304145
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 23,
+    "target_route": "cached",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.10039908337130404,
+    "held_individual_rmse": 0.14698330207268434,
+    "held_case_max_rmse": 0.195833919691969,
+    "held_stage_rmse": [
+      0.24835512428901066,
+      0.046002756693129025,
+      0.031870862564304145
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 23,
+    "target_route": "bypass",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6305949262173219,
+    "held_individual_rmse": 0.6001275750731085,
+    "held_case_max_rmse": 0.6358969949572382,
+    "held_stage_rmse": [
+      0.5472622315290773,
+      0.6292985052625714,
+      0.6204407790478449
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 23,
+    "target_route": "bypass",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6305949262173219,
+    "held_individual_rmse": 0.6001275750731085,
+    "held_case_max_rmse": 0.6358969949572382,
+    "held_stage_rmse": [
+      0.5472622315290773,
+      0.6292985052625714,
+      0.6204407790478449
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 23,
+    "target_route": "bypass",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6305949262173219,
+    "held_individual_rmse": 0.6001275750731085,
+    "held_case_max_rmse": 0.6358969949572382,
+    "held_stage_rmse": [
+      0.5472622315290773,
+      0.6292985052625714,
+      0.6204407790478449
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 37,
+    "target_route": "cached",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.0,
+    "held_individual_rmse": 0.0,
+    "held_case_max_rmse": 0.0,
+    "held_stage_rmse": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": true
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 37,
+    "target_route": "cached",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.0,
+    "held_individual_rmse": 0.0,
+    "held_case_max_rmse": 0.0,
+    "held_stage_rmse": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": true
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 37,
+    "target_route": "cached",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.0,
+    "held_individual_rmse": 0.0,
+    "held_case_max_rmse": 0.0,
+    "held_stage_rmse": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": true
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 37,
+    "target_route": "bypass",
+    "method": "depth",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6305949262173219,
+    "held_individual_rmse": 0.6001275750731085,
+    "held_case_max_rmse": 0.6358969949572382,
+    "held_stage_rmse": [
+      0.5472622315290773,
+      0.6292985052625714,
+      0.6204407790478449
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 37,
+    "target_route": "bypass",
+    "method": "cka",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6305949262173219,
+    "held_individual_rmse": 0.6001275750731085,
+    "held_case_max_rmse": 0.6358969949572382,
+    "held_stage_rmse": [
+      0.5472622315290773,
+      0.6292985052625714,
+      0.6204407790478449
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  },
+  {
+    "source_seed": 37,
+    "target_seed": 37,
+    "target_route": "bypass",
+    "method": "causal",
+    "path": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "development_causal_distance": 0.6305949262173219,
+    "held_individual_rmse": 0.6001275750731085,
+    "held_case_max_rmse": 0.6358969949572382,
+    "held_stage_rmse": [
+      0.5472622315290773,
+      0.6292985052625714,
+      0.6204407790478449
+    ],
+    "calibration": false,
+    "primary_held": false,
+    "same_seed_self": false
+  }
+]

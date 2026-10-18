@@ -1,0 +1,578 @@
+[
+  {
+    "seed": 11,
+    "route": "cached",
+    "split": "dev",
+    "coordinates": "identity",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.7062975987481761,
+      1.6480193690085276,
+      4.486655929527344
+    ]
+  },
+  {
+    "seed": 11,
+    "route": "cached",
+    "split": "dev",
+    "coordinates": "orthogonal",
+    "native_oracle_max": 4.263256414560601e-14,
+    "native_blind_effect_rmse": 3.110523589562429e-16,
+    "native_blind_effect_max": 2.1094237467877974e-15,
+    "normal_roundtrip_output_max": 3.552713678800501e-15,
+    "sham_logit_max": 3.552713678800501e-15,
+    "direction_norms": [
+      0.706297598748176,
+      1.6480193690085279,
+      4.486655929527344
+    ]
+  },
+  {
+    "seed": 11,
+    "route": "cached",
+    "split": "dev",
+    "coordinates": "nonlinear",
+    "native_oracle_max": 5.062616992290714e-14,
+    "native_blind_effect_rmse": 0.28681055138316147,
+    "native_blind_effect_max": 0.9434763081637725,
+    "normal_roundtrip_output_max": 3.552713678800501e-15,
+    "sham_logit_max": 3.552713678800501e-15,
+    "direction_norms": [
+      0.27889986142103973,
+      1.7976620578182276,
+      5.636989007220883
+    ]
+  },
+  {
+    "seed": 11,
+    "route": "cached",
+    "split": "held",
+    "coordinates": "identity",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.7062975987481761,
+      1.6480193690085276,
+      4.486655929527344
+    ]
+  },
+  {
+    "seed": 11,
+    "route": "cached",
+    "split": "held",
+    "coordinates": "orthogonal",
+    "native_oracle_max": 4.618527782440651e-14,
+    "native_blind_effect_rmse": 3.234066094166838e-16,
+    "native_blind_effect_max": 2.1094237467877974e-15,
+    "normal_roundtrip_output_max": 3.552713678800501e-15,
+    "sham_logit_max": 3.552713678800501e-15,
+    "direction_norms": [
+      0.706297598748176,
+      1.6480193690085279,
+      4.486655929527344
+    ]
+  },
+  {
+    "seed": 11,
+    "route": "cached",
+    "split": "held",
+    "coordinates": "nonlinear",
+    "native_oracle_max": 5.88418203051333e-14,
+    "native_blind_effect_rmse": 0.32894120686970674,
+    "native_blind_effect_max": 0.9428456517320434,
+    "normal_roundtrip_output_max": 3.552713678800501e-15,
+    "sham_logit_max": 3.552713678800501e-15,
+    "direction_norms": [
+      0.27889986142103973,
+      1.7976620578182276,
+      5.636989007220883
+    ]
+  },
+  {
+    "seed": 11,
+    "route": "bypass",
+    "split": "dev",
+    "coordinates": "identity",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.7062975987481761,
+      1.6480193690085276,
+      4.486655929527344
+    ]
+  },
+  {
+    "seed": 11,
+    "route": "bypass",
+    "split": "dev",
+    "coordinates": "orthogonal",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.706297598748176,
+      1.6480193690085279,
+      4.486655929527344
+    ]
+  },
+  {
+    "seed": 11,
+    "route": "bypass",
+    "split": "dev",
+    "coordinates": "nonlinear",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.27889986142103973,
+      1.7976620578182276,
+      5.636989007220883
+    ]
+  },
+  {
+    "seed": 11,
+    "route": "bypass",
+    "split": "held",
+    "coordinates": "identity",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.7062975987481761,
+      1.6480193690085276,
+      4.486655929527344
+    ]
+  },
+  {
+    "seed": 11,
+    "route": "bypass",
+    "split": "held",
+    "coordinates": "orthogonal",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.706297598748176,
+      1.6480193690085279,
+      4.486655929527344
+    ]
+  },
+  {
+    "seed": 11,
+    "route": "bypass",
+    "split": "held",
+    "coordinates": "nonlinear",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.27889986142103973,
+      1.7976620578182276,
+      5.636989007220883
+    ]
+  },
+  {
+    "seed": 23,
+    "route": "cached",
+    "split": "dev",
+    "coordinates": "identity",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.7335519672378783,
+      1.7177100765795619,
+      4.345441753904444
+    ]
+  },
+  {
+    "seed": 23,
+    "route": "cached",
+    "split": "dev",
+    "coordinates": "orthogonal",
+    "native_oracle_max": 1.509903313490213e-14,
+    "native_blind_effect_rmse": 1.6951149469487027e-16,
+    "native_blind_effect_max": 9.992007221626409e-16,
+    "normal_roundtrip_output_max": 3.552713678800501e-15,
+    "sham_logit_max": 3.552713678800501e-15,
+    "direction_norms": [
+      0.7335519672378783,
+      1.7177100765795617,
+      4.345441753904444
+    ]
+  },
+  {
+    "seed": 23,
+    "route": "cached",
+    "split": "dev",
+    "coordinates": "nonlinear",
+    "native_oracle_max": 3.8191672047105385e-14,
+    "native_blind_effect_rmse": 0.22820119271164,
+    "native_blind_effect_max": 0.8455468557869896,
+    "normal_roundtrip_output_max": 3.552713678800501e-15,
+    "sham_logit_max": 3.552713678800501e-15,
+    "direction_norms": [
+      0.3624854849868631,
+      2.106246779073636,
+      5.609706628727019
+    ]
+  },
+  {
+    "seed": 23,
+    "route": "cached",
+    "split": "held",
+    "coordinates": "identity",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.7335519672378783,
+      1.7177100765795619,
+      4.345441753904444
+    ]
+  },
+  {
+    "seed": 23,
+    "route": "cached",
+    "split": "held",
+    "coordinates": "orthogonal",
+    "native_oracle_max": 2.9753977059954195e-14,
+    "native_blind_effect_rmse": 1.9314381094089937e-16,
+    "native_blind_effect_max": 1.1102230246251565e-15,
+    "normal_roundtrip_output_max": 3.552713678800501e-15,
+    "sham_logit_max": 3.552713678800501e-15,
+    "direction_norms": [
+      0.7335519672378783,
+      1.7177100765795617,
+      4.345441753904444
+    ]
+  },
+  {
+    "seed": 23,
+    "route": "cached",
+    "split": "held",
+    "coordinates": "nonlinear",
+    "native_oracle_max": 3.452793606584237e-14,
+    "native_blind_effect_rmse": 0.24556698709911573,
+    "native_blind_effect_max": 0.8452799967624218,
+    "normal_roundtrip_output_max": 1.7763568394002505e-15,
+    "sham_logit_max": 1.7763568394002505e-15,
+    "direction_norms": [
+      0.3624854849868631,
+      2.106246779073636,
+      5.609706628727019
+    ]
+  },
+  {
+    "seed": 23,
+    "route": "bypass",
+    "split": "dev",
+    "coordinates": "identity",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.7335519672378783,
+      1.7177100765795619,
+      4.345441753904444
+    ]
+  },
+  {
+    "seed": 23,
+    "route": "bypass",
+    "split": "dev",
+    "coordinates": "orthogonal",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.7335519672378783,
+      1.7177100765795617,
+      4.345441753904444
+    ]
+  },
+  {
+    "seed": 23,
+    "route": "bypass",
+    "split": "dev",
+    "coordinates": "nonlinear",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.3624854849868631,
+      2.106246779073636,
+      5.609706628727019
+    ]
+  },
+  {
+    "seed": 23,
+    "route": "bypass",
+    "split": "held",
+    "coordinates": "identity",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.7335519672378783,
+      1.7177100765795619,
+      4.345441753904444
+    ]
+  },
+  {
+    "seed": 23,
+    "route": "bypass",
+    "split": "held",
+    "coordinates": "orthogonal",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.7335519672378783,
+      1.7177100765795617,
+      4.345441753904444
+    ]
+  },
+  {
+    "seed": 23,
+    "route": "bypass",
+    "split": "held",
+    "coordinates": "nonlinear",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.3624854849868631,
+      2.106246779073636,
+      5.609706628727019
+    ]
+  },
+  {
+    "seed": 37,
+    "route": "cached",
+    "split": "dev",
+    "coordinates": "identity",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.6639251767617272,
+      1.7176696271640275,
+      4.647261205175535
+    ]
+  },
+  {
+    "seed": 37,
+    "route": "cached",
+    "split": "dev",
+    "coordinates": "orthogonal",
+    "native_oracle_max": 2.0872192862952943e-14,
+    "native_blind_effect_rmse": 1.9202233312165573e-16,
+    "native_blind_effect_max": 1.1657341758564144e-15,
+    "normal_roundtrip_output_max": 1.7763568394002505e-15,
+    "sham_logit_max": 1.7763568394002505e-15,
+    "direction_norms": [
+      0.6639251767617274,
+      1.717669627164027,
+      4.6472612051755355
+    ]
+  },
+  {
+    "seed": 37,
+    "route": "cached",
+    "split": "dev",
+    "coordinates": "nonlinear",
+    "native_oracle_max": 2.842170943040401e-14,
+    "native_blind_effect_rmse": 0.291077658461967,
+    "native_blind_effect_max": 0.961676089704832,
+    "normal_roundtrip_output_max": 3.552713678800501e-15,
+    "sham_logit_max": 3.552713678800501e-15,
+    "direction_norms": [
+      0.22747277140125435,
+      1.898867107650741,
+      5.956249103853922
+    ]
+  },
+  {
+    "seed": 37,
+    "route": "cached",
+    "split": "held",
+    "coordinates": "identity",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.6639251767617272,
+      1.7176696271640275,
+      4.647261205175535
+    ]
+  },
+  {
+    "seed": 37,
+    "route": "cached",
+    "split": "held",
+    "coordinates": "orthogonal",
+    "native_oracle_max": 2.708944180085382e-14,
+    "native_blind_effect_rmse": 1.9734836186963995e-16,
+    "native_blind_effect_max": 1.3322676295501878e-15,
+    "normal_roundtrip_output_max": 3.552713678800501e-15,
+    "sham_logit_max": 3.552713678800501e-15,
+    "direction_norms": [
+      0.6639251767617274,
+      1.717669627164027,
+      4.6472612051755355
+    ]
+  },
+  {
+    "seed": 37,
+    "route": "cached",
+    "split": "held",
+    "coordinates": "nonlinear",
+    "native_oracle_max": 2.531308496145357e-14,
+    "native_blind_effect_rmse": 0.33724446961152743,
+    "native_blind_effect_max": 0.9572939379619616,
+    "normal_roundtrip_output_max": 3.552713678800501e-15,
+    "sham_logit_max": 3.552713678800501e-15,
+    "direction_norms": [
+      0.22747277140125435,
+      1.898867107650741,
+      5.956249103853922
+    ]
+  },
+  {
+    "seed": 37,
+    "route": "bypass",
+    "split": "dev",
+    "coordinates": "identity",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.6639251767617272,
+      1.7176696271640275,
+      4.647261205175535
+    ]
+  },
+  {
+    "seed": 37,
+    "route": "bypass",
+    "split": "dev",
+    "coordinates": "orthogonal",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.6639251767617274,
+      1.717669627164027,
+      4.6472612051755355
+    ]
+  },
+  {
+    "seed": 37,
+    "route": "bypass",
+    "split": "dev",
+    "coordinates": "nonlinear",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.22747277140125435,
+      1.898867107650741,
+      5.956249103853922
+    ]
+  },
+  {
+    "seed": 37,
+    "route": "bypass",
+    "split": "held",
+    "coordinates": "identity",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.6639251767617272,
+      1.7176696271640275,
+      4.647261205175535
+    ]
+  },
+  {
+    "seed": 37,
+    "route": "bypass",
+    "split": "held",
+    "coordinates": "orthogonal",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.6639251767617274,
+      1.717669627164027,
+      4.6472612051755355
+    ]
+  },
+  {
+    "seed": 37,
+    "route": "bypass",
+    "split": "held",
+    "coordinates": "nonlinear",
+    "native_oracle_max": 0.0,
+    "native_blind_effect_rmse": 0.0,
+    "native_blind_effect_max": 0.0,
+    "normal_roundtrip_output_max": 0.0,
+    "sham_logit_max": 0.0,
+    "direction_norms": [
+      0.22747277140125435,
+      1.898867107650741,
+      5.956249103853922
+    ]
+  }
+]

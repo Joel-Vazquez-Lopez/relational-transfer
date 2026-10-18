@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "dev_0000",
+    "sentence": "Today, by Leo, Iris was praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Iris",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0001",
+    "sentence": "By Maya, Jack was praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Jack",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0002",
+    "sentence": "Today, by Noah, Kira was praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Kira",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0003",
+    "sentence": "By Olivia, Leo was praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0004",
+    "sentence": "Today, by Leo, Iris was praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Iris",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0005",
+    "sentence": "By Maya, Jack was praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Jack",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0006",
+    "sentence": "Today, by Noah, Kira was praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Kira",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0007",
+    "sentence": "By Olivia, Leo was praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Leo",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0008",
+    "sentence": "Today, by Leo, Iris was praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0009",
+    "sentence": "By Maya, Jack was praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Maya",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0010",
+    "sentence": "Today, by Noah, Kira was praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Noah",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0011",
+    "sentence": "By Olivia, Leo was praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Olivia",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0012",
+    "sentence": "Today, by Leo, Iris was praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0013",
+    "sentence": "By Maya, Jack was praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Maya",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0014",
+    "sentence": "Today, by Noah, Kira was praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Noah",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0015",
+    "sentence": "By Olivia, Leo was praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Olivia",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0016",
+    "sentence": "Today, Iris was praised by Leo.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Iris",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0017",
+    "sentence": "Jack was praised by Maya yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Jack",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0018",
+    "sentence": "Today, Kira was praised by Noah.",
+    "question": "Who received the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Kira",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0019",
+    "sentence": "Leo was praised by Olivia yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0020",
+    "sentence": "Today, Iris was praised by Leo.",
+    "question": "Who received the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Iris",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0021",
+    "sentence": "Jack was praised by Maya yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Jack",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0022",
+    "sentence": "Today, Kira was praised by Noah.",
+    "question": "Who received the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Kira",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0023",
+    "sentence": "Leo was praised by Olivia yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Leo",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0024",
+    "sentence": "Today, Iris was praised by Leo.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0025",
+    "sentence": "Jack was praised by Maya yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Maya",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0026",
+    "sentence": "Today, Kira was praised by Noah.",
+    "question": "Who performed the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Noah",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0027",
+    "sentence": "Leo was praised by Olivia yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Olivia",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0028",
+    "sentence": "Today, Iris was praised by Leo.",
+    "question": "Who performed the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0029",
+    "sentence": "Jack was praised by Maya yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Maya",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0030",
+    "sentence": "Today, Kira was praised by Noah.",
+    "question": "Who performed the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Noah",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0031",
+    "sentence": "Leo was praised by Olivia yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Olivia",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      -1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0032",
+    "sentence": "Today, Leo praised Iris.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Iris",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0033",
+    "sentence": "Maya praised Jack yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Jack",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0034",
+    "sentence": "Today, Noah praised Kira.",
+    "question": "Who received the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Kira",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0035",
+    "sentence": "Olivia praised Leo yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0036",
+    "sentence": "Today, Leo praised Iris.",
+    "question": "Who received the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Iris",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0037",
+    "sentence": "Maya praised Jack yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Jack",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0038",
+    "sentence": "Today, Noah praised Kira.",
+    "question": "Who received the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Kira",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0039",
+    "sentence": "Olivia praised Leo yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Leo",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0040",
+    "sentence": "Today, Leo praised Iris.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0041",
+    "sentence": "Maya praised Jack yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Maya",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0042",
+    "sentence": "Today, Noah praised Kira.",
+    "question": "Who performed the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Noah",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0043",
+    "sentence": "Olivia praised Leo yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Olivia",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0044",
+    "sentence": "Today, Leo praised Iris.",
+    "question": "Who performed the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0045",
+    "sentence": "Maya praised Jack yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Maya",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0046",
+    "sentence": "Today, Noah praised Kira.",
+    "question": "Who performed the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Noah",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0047",
+    "sentence": "Olivia praised Leo yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Olivia",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0048",
+    "sentence": "Today, Iris was the person whom Leo praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Iris",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0049",
+    "sentence": "Jack was the person whom Maya praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Jack",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0050",
+    "sentence": "Today, Kira was the person whom Noah praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Kira",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0051",
+    "sentence": "Leo was the person whom Olivia praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0052",
+    "sentence": "Today, Iris was the person whom Leo praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Iris",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0053",
+    "sentence": "Jack was the person whom Maya praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Jack",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0054",
+    "sentence": "Today, Kira was the person whom Noah praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Kira",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0055",
+    "sentence": "Leo was the person whom Olivia praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Leo",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0056",
+    "sentence": "Today, Iris was the person whom Leo praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0057",
+    "sentence": "Jack was the person whom Maya praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Maya",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0058",
+    "sentence": "Today, Kira was the person whom Noah praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Noah",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0059",
+    "sentence": "Leo was the person whom Olivia praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Olivia",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0060",
+    "sentence": "Today, Iris was the person whom Leo praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Iris",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0061",
+    "sentence": "Jack was the person whom Maya praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Maya",
+    "agent": "Maya",
+    "patient": "Jack",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0062",
+    "sentence": "Today, Kira was the person whom Noah praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Noah",
+    "agent": "Noah",
+    "patient": "Kira",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0063",
+    "sentence": "Leo was the person whom Olivia praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Olivia",
+    "agent": "Olivia",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": -1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0064",
+    "sentence": "Today, Leo was praised by Iris.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Leo",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0065",
+    "sentence": "Maya was praised by Jack yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Maya",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0066",
+    "sentence": "Today, Noah was praised by Kira.",
+    "question": "Who received the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Noah",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0067",
+    "sentence": "Olivia was praised by Leo yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Olivia",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0068",
+    "sentence": "Today, Leo was praised by Iris.",
+    "question": "Who received the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0069",
+    "sentence": "Maya was praised by Jack yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Maya",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0070",
+    "sentence": "Today, Noah was praised by Kira.",
+    "question": "Who received the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Noah",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0071",
+    "sentence": "Olivia was praised by Leo yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Olivia",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0072",
+    "sentence": "Today, Leo was praised by Iris.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Iris",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0073",
+    "sentence": "Maya was praised by Jack yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Jack",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0074",
+    "sentence": "Today, Noah was praised by Kira.",
+    "question": "Who performed the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Kira",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0075",
+    "sentence": "Olivia was praised by Leo yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0076",
+    "sentence": "Today, Leo was praised by Iris.",
+    "question": "Who performed the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Iris",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0077",
+    "sentence": "Maya was praised by Jack yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Jack",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0078",
+    "sentence": "Today, Noah was praised by Kira.",
+    "question": "Who performed the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Kira",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0079",
+    "sentence": "Olivia was praised by Leo yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      -1.0,
+      -1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0080",
+    "sentence": "Today, by Iris, Leo was praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Leo",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0081",
+    "sentence": "By Jack, Maya was praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Maya",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0082",
+    "sentence": "Today, by Kira, Noah was praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Noah",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0083",
+    "sentence": "By Leo, Olivia was praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Olivia",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0084",
+    "sentence": "Today, by Iris, Leo was praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0085",
+    "sentence": "By Jack, Maya was praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Maya",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0086",
+    "sentence": "Today, by Kira, Noah was praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Noah",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0087",
+    "sentence": "By Leo, Olivia was praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Olivia",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0088",
+    "sentence": "Today, by Iris, Leo was praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Iris",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0089",
+    "sentence": "By Jack, Maya was praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Jack",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0090",
+    "sentence": "Today, by Kira, Noah was praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Kira",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0091",
+    "sentence": "By Leo, Olivia was praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0092",
+    "sentence": "Today, by Iris, Leo was praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Iris",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0093",
+    "sentence": "By Jack, Maya was praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Jack",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0094",
+    "sentence": "Today, by Kira, Noah was praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Kira",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0095",
+    "sentence": "By Leo, Olivia was praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      1.0,
+      -1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0096",
+    "sentence": "Today, Leo was the person whom Iris praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Leo",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0097",
+    "sentence": "Maya was the person whom Jack praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Maya",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0098",
+    "sentence": "Today, Noah was the person whom Kira praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Noah",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0099",
+    "sentence": "Olivia was the person whom Leo praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Olivia",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0100",
+    "sentence": "Today, Leo was the person whom Iris praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0101",
+    "sentence": "Maya was the person whom Jack praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Maya",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0102",
+    "sentence": "Today, Noah was the person whom Kira praised.",
+    "question": "Who received the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Noah",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0103",
+    "sentence": "Olivia was the person whom Leo praised yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Olivia",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0104",
+    "sentence": "Today, Leo was the person whom Iris praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Iris",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0105",
+    "sentence": "Maya was the person whom Jack praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Jack",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0106",
+    "sentence": "Today, Noah was the person whom Kira praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Kira",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0107",
+    "sentence": "Olivia was the person whom Leo praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0108",
+    "sentence": "Today, Leo was the person whom Iris praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Iris",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0109",
+    "sentence": "Maya was the person whom Jack praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Jack",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0110",
+    "sentence": "Today, Noah was the person whom Kira praised.",
+    "question": "Who performed the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Kira",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0111",
+    "sentence": "Olivia was the person whom Leo praised yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      -1.0,
+      1.0,
+      -1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0112",
+    "sentence": "Today, Iris praised Leo.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Leo",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0113",
+    "sentence": "Jack praised Maya yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Maya",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0114",
+    "sentence": "Today, Kira praised Noah.",
+    "question": "Who received the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Noah",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0115",
+    "sentence": "Leo praised Olivia yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Olivia",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": -1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0116",
+    "sentence": "Today, Iris praised Leo.",
+    "question": "Who received the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0117",
+    "sentence": "Jack praised Maya yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Maya",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0118",
+    "sentence": "Today, Kira praised Noah.",
+    "question": "Who received the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Noah",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0119",
+    "sentence": "Leo praised Olivia yesterday.",
+    "question": "Who received the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Olivia",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": -1.0,
+    "L": 1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0120",
+    "sentence": "Today, Iris praised Leo.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Iris"
+    ],
+    "answer": "Iris",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0121",
+    "sentence": "Jack praised Maya yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Maya",
+      "Jack"
+    ],
+    "answer": "Jack",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0122",
+    "sentence": "Today, Kira praised Noah.",
+    "question": "Who performed the action?",
+    "options": [
+      "Noah",
+      "Kira"
+    ],
+    "answer": "Kira",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0123",
+    "sentence": "Leo praised Olivia yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Olivia",
+      "Leo"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": -1.0,
+    "Y": -1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0124",
+    "sentence": "Today, Iris praised Leo.",
+    "question": "Who performed the action?",
+    "options": [
+      "Iris",
+      "Leo"
+    ],
+    "answer": "Iris",
+    "agent": "Iris",
+    "patient": "Leo",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      -0.05273257261205758,
+      -0.07076910413353915,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0125",
+    "sentence": "Jack praised Maya yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Jack",
+      "Maya"
+    ],
+    "answer": "Jack",
+    "agent": "Jack",
+    "patient": "Maya",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      0.10544597703391823,
+      -0.24390966375216602,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0126",
+    "sentence": "Today, Kira praised Noah.",
+    "question": "Who performed the action?",
+    "options": [
+      "Kira",
+      "Noah"
+    ],
+    "answer": "Kira",
+    "agent": "Kira",
+    "patient": "Noah",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      -0.13215311753613712,
+      -0.047836223220880186,
+      1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  },
+  {
+    "id": "dev_0127",
+    "sentence": "Leo praised Olivia yesterday.",
+    "question": "Who performed the action?",
+    "options": [
+      "Leo",
+      "Olivia"
+    ],
+    "answer": "Leo",
+    "agent": "Leo",
+    "patient": "Olivia",
+    "features": [
+      1.0,
+      1.0,
+      1.0,
+      -0.07076910413353915,
+      0.07722669882402444,
+      -1.0
+    ],
+    "R": 1.0,
+    "Q": 1.0,
+    "L": 1.0,
+    "Y": 1.0,
+    "annotation": "Deterministic AI-authored template grammar; no human annotation or external LLM call."
+  }
+]
