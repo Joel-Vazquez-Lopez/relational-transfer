@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "split": "train",
+      "checked": 256,
+      "all_pass": true
+    },
+    {
+      "split": "dev",
+      "checked": 128,
+      "all_pass": true
+    },
+    {
+      "split": "held",
+      "checked": 128,
+      "all_pass": true
+    }
+  ],
+  "method": "Independent template regex parser; AI-authored code, not human adjudication or an independent natural-language annotator."
+}

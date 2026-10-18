@@ -1,0 +1,59 @@
+{
+  "untrained_infrastructure_only": true,
+  "checks": [
+    {
+      "stage": 0,
+      "coordinates": "identity",
+      "roundtrip_max": 0.0,
+      "transport_output_max": 0.0
+    },
+    {
+      "stage": 0,
+      "coordinates": "orthogonal",
+      "roundtrip_max": 4.996003610813204e-16,
+      "transport_output_max": 5.551115123125783e-17
+    },
+    {
+      "stage": 0,
+      "coordinates": "nonlinear",
+      "roundtrip_max": 5.273559366969494e-16,
+      "transport_output_max": 2.7755575615628914e-17
+    },
+    {
+      "stage": 1,
+      "coordinates": "identity",
+      "roundtrip_max": 0.0,
+      "transport_output_max": 0.0
+    },
+    {
+      "stage": 1,
+      "coordinates": "orthogonal",
+      "roundtrip_max": 2.7755575615628914e-16,
+      "transport_output_max": 5.551115123125783e-17
+    },
+    {
+      "stage": 1,
+      "coordinates": "nonlinear",
+      "roundtrip_max": 2.498001805406602e-16,
+      "transport_output_max": 4.163336342344337e-17
+    },
+    {
+      "stage": 2,
+      "coordinates": "identity",
+      "roundtrip_max": 0.0,
+      "transport_output_max": 0.0
+    },
+    {
+      "stage": 2,
+      "coordinates": "orthogonal",
+      "roundtrip_max": 3.3306690738754696e-16,
+      "transport_output_max": 1.3877787807814457e-16
+    },
+    {
+      "stage": 2,
+      "coordinates": "nonlinear",
+      "roundtrip_max": 3.608224830031759e-16,
+      "transport_output_max": 1.3877787807814457e-16
+    }
+  ]
+}
