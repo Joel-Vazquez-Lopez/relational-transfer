@@ -1,3 +1,3 @@
-# Authorized resumption of the frozen factorial panel
+# Host restart — partial data preserved
 
-Scientific source files are byte-identical to the corrected 128-token freeze. RESTART_AMENDMENT.json records the user-authorized one-time restart, previous attempts and combined cap of 1120. The prior interrupted directory remains intact. PROTOCOL.md is the original scientific protocol; the restart amendment overrides only its operational no-retry/budget provisions. No outcomes have been collected here.
+249 attempts, 248 completed fresh outputs, zero held-out or causal outputs. No scientific decision or automatic retry. See REPORT.md, EXECUTION_STATUS.json and PARTIAL_ARCHIVAL_AUDIT.json. The scientific freeze remains unchanged.

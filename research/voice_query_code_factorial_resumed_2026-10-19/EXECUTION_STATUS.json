@@ -1,0 +1,32 @@
+{
+  "status": "TECHNICAL_STOP_HOST_RESTART",
+  "observed_utc": "2026-10-19T20:53:19.566675+00:00",
+  "restart_attempts": 249,
+  "completed_fresh_outputs": 248,
+  "completed_fresh_scientific_outputs": 246,
+  "completed_fresh_validation_outputs": 2,
+  "all_investigation_attempts": 252,
+  "all_investigation_completed_outputs": 250,
+  "earlier_attempts": 3,
+  "combined_cap": 1120,
+  "unspent_attempt_budget": 868,
+  "process_still_running": false,
+  "process_session_no_longer_available": true,
+  "python_error_record_present": false,
+  "held_out_outputs": 0,
+  "causal_intervention_outputs": 0,
+  "development_prediction_frozen": false,
+  "scientific_decision": null,
+  "boot_time_local": "2026-10-19 22:49:46 Europe/Stockholm",
+  "new_panic_report_timestamp": "2026-10-19 22:50:11 +0200",
+  "diagnostic_summary": {
+    "panic": "Kernel data abort",
+    "panicked_task": "com.apple.appkit.xpc.openAndSave",
+    "compressor_report": "25% of compressed pages limit (OK), 31% of segments limit (OK), 9 swapfiles and OK swap space"
+  },
+  "cause": "macOS kernel panic and host restart observed. Underlying cause and causal relation to inference or memory pressure are not established. The reported panicked task was an AppKit service, not Python.",
+  "disk_free_bytes_after_restart": 29719322624,
+  "subsequent_swap_observation": "0 swap files / 0 swap in use after restart",
+  "action": "No further model calls or automatic retries. Verify and archive partial payloads and uncommitted call 249 bytes.",
+  "system_diagnostic_privacy": "Only the minimal diagnostic summary is recorded. Full system panic report is not copied or published."
+}
