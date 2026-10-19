@@ -1,0 +1,6 @@
+{
+  "error": "Traceback (most recent call last):\n  File \"/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/voice_query_code_factorial_2026-10-19/run.py\", line 38, in execute\n    err=float(np.max(np.abs(a['logits']-b['logits'])));check('exposed128_192_logits',err<=.05,error=err)\n                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/voice_query_code_factorial_2026-10-19/run.py\", line 24, in check\n    x=dict(check=name,passed=bool(passed),**kw);checks.append(x);append(out/'CONTROLS.jsonl',x);assert passed,('Technical gate failed',x)\n                                                                                                       ^^^^^^\nAssertionError: ('Technical gate failed', {'check': 'exposed128_192_logits', 'passed': False, 'error': 0.0859375})\n",
+  "attempts": 2,
+  "completed": 2,
+  "no_model_retry": true
+}
