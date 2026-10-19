@@ -1,0 +1,56 @@
+{
+  "kind": "Descriptive summaries of frozen cells, not new confirmatory hypotheses",
+  "behavior_development_candidate": null,
+  "routing_development_candidate": null,
+  "behavior_prospectively_replicated": false,
+  "routing_prospectively_replicated": false,
+  "old_positive_gap_mean": 25.783853905442108,
+  "old_positive_gap_range": [
+    17.359374052242572,
+    38.46093749650361
+  ],
+  "old_gap_at_least4_families": 6,
+  "all_factorial_contrasts": 144,
+  "factorial_gap_range": [
+    -26.609374999995197,
+    22.898437500017177
+  ],
+  "contrasts_at_least4": 19,
+  "contrasts_at_most_minus4": 25,
+  "contrasts_within1": 35,
+  "pooled_contrasts_not_independent": true,
+  "native_cells": {
+    "old_reference_active": {
+      "correct": 14,
+      "answers": 24,
+      "complete_units": 0,
+      "units": 6
+    },
+    "factorial_active": {
+      "correct": 200,
+      "answers": 384,
+      "complete_units": 4,
+      "units": 96
+    },
+    "old_reference_passive": {
+      "correct": 24,
+      "answers": 24,
+      "complete_units": 6,
+      "units": 6
+    },
+    "factorial_passive": {
+      "correct": 201,
+      "answers": 384,
+      "complete_units": 1,
+      "units": 96
+    }
+  },
+  "families_passing_canonical_baseline_eligibility": 2,
+  "families_passing_entire_neutral_routing_gate": 0,
+  "wrong_unperturbed_first_token_decisions": 377,
+  "wrong_masked_first_token_decisions": 139,
+  "off_format_unperturbed_first_tokens": 20,
+  "off_format_masked_first_tokens": 0,
+  "no_new_model_calls": true,
+  "no_new_p_values_or_hypothesis_selection": true
+}

@@ -1,0 +1,38 @@
+{
+  "forwards": 1117,
+  "prediction": {
+    "behavior": {
+      "candidate": null,
+      "counts": {
+        "construction_consistent": 0,
+        "voice_match_penalty": 0,
+        "literal_label_linked": 0
+      },
+      "rule": "At least2/3 complete lexical families; no p values or population inference"
+    },
+    "routing": {
+      "candidate": null,
+      "counts": {
+        "source_voice_dependence": 0,
+        "query_match_dependence": 0
+      }
+    },
+    "raw_sha256": "23a4174a29c2060699309a6180b89332083a735f71fe6c9019b53dce7bd6daea",
+    "evaluation_outputs_seen": false
+  },
+  "held_behavior_count": null,
+  "held_behavior_replicated": false,
+  "held_behavior_counts": {
+    "construction_consistent": 0,
+    "voice_match_penalty": 0,
+    "literal_label_linked": 0
+  },
+  "held_routing_count": null,
+  "held_routing_replicated": false,
+  "held_routing_counts": {
+    "source_voice_dependence": 0,
+    "query_match_dependence": 0
+  },
+  "production_controls": 828,
+  "independent_checks": 8125
+}

@@ -1,0 +1,795 @@
+{
+  "scope": {
+    "status": "COMPLETE_AUDITED_FIXED_PANEL",
+    "utc": "2026-10-19T21:36:03.955151+00:00",
+    "logical_panel_outputs": 1117,
+    "reused_verified_outputs": 248,
+    "new_panel_forwards": 869,
+    "new_worker_control_forwards": 28,
+    "new_model_attempts": 897,
+    "prior_attempts": 252,
+    "total_attempts": 1149,
+    "combined_cap": 1149,
+    "total_completed_outputs_including_prior_exposed_preflights": 1147,
+    "production_technical_controls": 828,
+    "independent_logical_replay_checks": 8125,
+    "verified_payload_members": 1117,
+    "payload_bundles": 25,
+    "worker_equivalence_gates": 28,
+    "all_technical_audits_passed": true,
+    "scientific_decision": "NO-GO",
+    "clean_routing_scientific_control_passes": 0,
+    "clean_routing_scientific_control_families": 6,
+    "hypotheses_or_scoring_changed_after_outcomes": false,
+    "model_workers_closed": true,
+    "no_further_inference": true
+  },
+  "files": [
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/ANALYZE.log",
+      "bytes": 1011,
+      "sha256": "77b58caec24e0cb17887de22d943148790839a69c2c3494520954d560f3e2bdd"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/ANSWER_LEDGER.csv",
+      "bytes": 296765,
+      "sha256": "67a348486e5bb318d965ef496725f0c785af0530a6b1b811d1999e056cb48c42"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/AUDIT_CONTINUATION.log",
+      "bytes": 644,
+      "sha256": "728a6a1f9101c217da3b55fea8d9f19843affb9fcac24a7ed6704a94e804959a"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/BUDGET.jsonl",
+      "bytes": 233549,
+      "sha256": "d6c898bd29f98981652941874e051c682a994f7577d6cc0a49ebbedf72fd31cb"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/COMPLETE_FAMILY_OUTCOMES.json",
+      "bytes": 1557,
+      "sha256": "d4f1726101dcea7f3bcc6d74e4a9e4c6c6bd89c24e41d8374704e06e6da90dd4"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/CONTINUATION_AMENDMENT.json",
+      "bytes": 1769,
+      "sha256": "45447dcffdf410da513dd374d5bc5e3f475a746ecba4364d4980b07c6da26aac"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/CONTINUATION_AUDIT.json",
+      "bytes": 644,
+      "sha256": "728a6a1f9101c217da3b55fea8d9f19843affb9fcac24a7ed6704a94e804959a"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/CONTROL_INPUT.json",
+      "bytes": 4075,
+      "sha256": "e7737b39353e2d09eb86c81967a01bcd0cfccb8b7c5c8d351c857302ccd79041"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/CPU_CONTINUATION_PREFLIGHT.json",
+      "bytes": 300,
+      "sha256": "67226b32c0d972732a1b2db44bfcbf5a010132da5134a2e2348162df97083dfd"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/DESCRIPTIVE_SUMMARY.json",
+      "bytes": 1557,
+      "sha256": "567408d29f28fce7bdc6660537c3a32c18a80fbb4ff192465e9504014e777fbe"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/DISPATCHES.jsonl",
+      "bytes": 203360,
+      "sha256": "999c038e17184d0caf1a3e1e742f7871ae1013457edbe442ff65832a3fb4d5b7"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/EXECUTION_STATUS.json",
+      "bytes": 871,
+      "sha256": "3a5237fc6e7cb46b102c4a01556338221b7dd54abd62f464d5ae3a0eb5c1ceb2"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/EXPLAIN_RESULTS.log",
+      "bytes": 1557,
+      "sha256": "567408d29f28fce7bdc6660537c3a32c18a80fbb4ff192465e9504014e777fbe"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/FACTORIAL_GAPS.pdf",
+      "bytes": 34386,
+      "sha256": "22b6b9ae5f1861f29df74fe37c722e8615c8c748ed018e9e50624cb13fa62f13"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/FACTORIAL_GAPS.png",
+      "bytes": 168832,
+      "sha256": "f029e6573d6464bb4386bb122b28b1dddb4db6dbe995b845821fb6466e5d784a"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/FACTORIAL_GAPS.svg",
+      "bytes": 153092,
+      "sha256": "b5ae7fa34bba27d895a2f1ffb6db7d9be59d43d18d26127e49399e9002f383a3"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/FINISH_OUTPUTS.log",
+      "bytes": 214,
+      "sha256": "a81b4a1cf86041c17f052ac17ecb0566acbe45f74ed865e831cd910086cd96e7"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/FREEZE_RECEIPT.json",
+      "bytes": 280,
+      "sha256": "3f60d024daf04c21f82797baaa5a7f77d1fb684ddff377d76ed894a3b564b70c"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/INDEPENDENT_AUDIT.json",
+      "bytes": 733814,
+      "sha256": "9154e36ce1f19e2045aa3cc9d6a551c90baf8919e5fb90c7fa80def0e9aeccc6"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/INPUTS.json",
+      "bytes": 5606211,
+      "sha256": "c42e61c372db725401d97bdb29b1e4d79324880eff5a975576353d3befd29593"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/LOCK.json",
+      "bytes": 5323,
+      "sha256": "d43cf95c9c4dbb3843c13211adf86eb6d9d555520368b0f46e959c82fed0c6f0"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/NATIVE_CELL_TABLE.csv",
+      "bytes": 3144,
+      "sha256": "71e6a1033c60fdee36e0502168e0f03b62105f9db29bda7f65945fcfe8070af7"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PACKAGED_AUDIT.log",
+      "bytes": 59,
+      "sha256": "f21fb3387e006eafa56448416649acabeb08d8ffc98069a8a78f24ed47c09884"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PACKAGED_REPLAY_AUDIT.json",
+      "bytes": 115487,
+      "sha256": "41c6c58e3cf6c0ac692471cf1d2e3e2c8ce05ff19f203529bcc7f7886b532567"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PACKAGING_DEDUPLICATION.json",
+      "bytes": 10150,
+      "sha256": "4326006e934c8f6709d8aea623620e78245bdebd99043676e2af63b42903ee13"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_001.tar",
+      "bytes": 33075200,
+      "sha256": "8e0b975ad58a419a621c21e1ec070f3e22bba4b3aa003eef49d81cc32ba63b2c"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_002.tar",
+      "bytes": 32716800,
+      "sha256": "1fae526800ac7604a93cf633e2c2dc758ec2249a616e42cb7dbf49a51158ad6b"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_003.tar",
+      "bytes": 32778240,
+      "sha256": "152509c9a9bcb7c66330b9a2a4bb349e6cc9ef61c700a072021049128364cc39"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_004.tar",
+      "bytes": 32747520,
+      "sha256": "8f371245c2fedcd3b5150d4978df38695d3aae50edc7ba90292d6687f76d6081"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_005.tar",
+      "bytes": 33536000,
+      "sha256": "b942776fd0af5cb2fe5db3cd9e80cfeb6b057da88cb5c37811bb9d8706e3af1f"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_006.tar",
+      "bytes": 33505280,
+      "sha256": "52cfefeb43d1d25332c1ac6e0c16cea414360a8e7900e8adef9c6892de074ad9"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_007.tar",
+      "bytes": 33525760,
+      "sha256": "68641346445cb23fa717347d941af3756d160ae492f09a4a70b79bda31e66159"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_008.tar",
+      "bytes": 32747520,
+      "sha256": "d27a7c93aecb69cd9265680d58a8a79f8ac762c5937f3a3cdc47d1cb3fecbd5b"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_009.tar",
+      "bytes": 33536000,
+      "sha256": "ac2e57a384fd04146779cb8836caf4ff188354da0e8eb769b64e9b63a86b0753"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_010.tar",
+      "bytes": 32716800,
+      "sha256": "5e800af86031a0fd62e86e72942e44921da038e652dfb1fec5381f2bd622f112"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_011.tar",
+      "bytes": 33290240,
+      "sha256": "82579743c005fca7757ebcdb3323f0923716211bc7528ce16b59df323a2f03cf"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_012.tar",
+      "bytes": 33259520,
+      "sha256": "0318d2ebdeaa14623562fccf619f9d7e1c586270d973b4029fa62e4476abe632"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_013.tar",
+      "bytes": 33505280,
+      "sha256": "8c63d3a49ef4acc20862cedbe4be945227c098d7773450398d3de5f9adf849e4"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_014.tar",
+      "bytes": 32716800,
+      "sha256": "bff1a29817f5ef8e4110836e67c70e8a3424768adf41b9274d18c60d5606c82f"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_015.tar",
+      "bytes": 32716800,
+      "sha256": "5675f089eebb18818b7249bf38ae06a1e1a851018912d782f6205e989c752f1a"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_016.tar",
+      "bytes": 32778240,
+      "sha256": "d05a6a3a557dcf93dd14335a11c11678ff0ebb525078265cc57974b2f348c02b"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_017.tar",
+      "bytes": 32716800,
+      "sha256": "30a58139a6d6e7970736ad6511aec23ac7ca40adae0d6d0dbdc3ec17cebd7c0c"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_018.tar",
+      "bytes": 33536000,
+      "sha256": "abab9f2c0cf072670b2883ed90184942e71b59eee4aac3aca68a8a61f74be718"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_019.tar",
+      "bytes": 32747520,
+      "sha256": "d3786605d73057f3eecf39351ad96149bf9f9e596fe0905960d97c76599d8d8b"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_020.tar",
+      "bytes": 32706560,
+      "sha256": "4d570ac6b96f644ae8d16f26682f0cca94db125996edfc18e4642669cc4cf3c1"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_021.tar",
+      "bytes": 33505280,
+      "sha256": "40c6ea6bbfd33a475a61327bb9cea8ebab0e82c04fd1aa7fedade6a93154d78f"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_022.tar",
+      "bytes": 33515520,
+      "sha256": "cd084bf314a92b9c5fc55d7c90617206fe5ee84752d97a530b9d618c1d95f4ad"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_023.tar",
+      "bytes": 33402880,
+      "sha256": "23e224fa51ba1ec8a2fdc2b441aac3270e58c8385369bbf36e878aa17dc5af56"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_024.tar",
+      "bytes": 33290240,
+      "sha256": "c3305f0612379160f5af6081eb91bb961ed8de54a15d9224f51e74b3860b70ca"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOADS_025.tar",
+      "bytes": 1105920,
+      "sha256": "7497567a83b1ec788cb38511ffc799fe5bb81fc75b0596e5a20afaa5e5248242"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PAYLOAD_BUNDLES.json",
+      "bytes": 204566,
+      "sha256": "249aae76d548586d518d0d616a8280d835572ad27d847b7cb176d2fd946128f9"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PLOT.log",
+      "bytes": 1014,
+      "sha256": "e2f075912017e5d18322ca313c97440e80106ddc8ed092cd1de4ffa3143acdef"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PREFLIGHT_TESTS.json",
+      "bytes": 1431,
+      "sha256": "8877eb0ab877fb9f6f062f30ba9f56996ddaffeb13c1a58d9dec4b699fcc4509"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PREOUTPUT_AMENDMENT.json",
+      "bytes": 913,
+      "sha256": "70eb94af26612adc646f1cdd0365df206f93ab54276b5bb99766cde323a0097a"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/PROTOCOL.md",
+      "bytes": 10685,
+      "sha256": "0c5cbffa47fe268e343a7e06a6d2eef3ca1bb0fba4a2f563d56bf2cf8207b17a"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/README.md",
+      "bytes": 1396,
+      "sha256": "e95e8f75f2d00315cafed5d720d4100b01ffc926b061e7f4b194ff5935845935"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/REPORT.md",
+      "bytes": 12426,
+      "sha256": "f860088a3729d94372050c1fc5e243a9b27e7384428096b6837d2d6407eac62b"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/RESTART_AMENDMENT.json",
+      "bytes": 1149,
+      "sha256": "41e60cbcb4844435992d11ab8560f89bfbe889772d396374b9a653fe6222fcee"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/RESULTS.json",
+      "bytes": 267568,
+      "sha256": "5c117bb28e86ff76234951de16bfdd29b0230015f1d83f58713008b0d57519e2"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/RUN.log",
+      "bytes": 1371,
+      "sha256": "32880b1133b57d7ce5c29696035fd55b8188e9098286f625153e0e3ee3e818f8"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/RUN_OPERATIONAL_DIFF.patch",
+      "bytes": 4273,
+      "sha256": "62d0fdd40e75c0ef7ad6fc3c515b86aac1a7a0efc17a0245172e2b7b0ff2f73d"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/SCIENTIFIC_DECISION.json",
+      "bytes": 887,
+      "sha256": "ec80e635f461bcd044af776ba5d1634973c54ebaf40ce2b655182beb7c4282b7"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/SOURCE_MANIFEST.json",
+      "bytes": 4927,
+      "sha256": "03f7ffffe5b952bfc85ef22b743eaf1e9abb90ac2fe572af7327f9653bb47e36"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/STORAGE.log",
+      "bytes": 535,
+      "sha256": "ca74518ed9fb1612860f103968671cd06d6c57b88589f0d6d4f7ff19fe325436"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/STORAGE_BUDGET.json",
+      "bytes": 300,
+      "sha256": "a580a3cb4558985cbe4b85fc4434e2c53916fc9fe211f1156bc7586d83888eed"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/TOKENIZER_AUDIT.json",
+      "bytes": 1131,
+      "sha256": "2644bbdc04ab5cc24a9116ffbdcf2e8204bf8fcf476656f8f2fabaac764c180c"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/UNEXPECTED_ANSWERS.json",
+      "bytes": 3325868,
+      "sha256": "a705ea236c171e7ee035e48c6fbe7b7c8e9e6320ae5b6ec3e630a67a5e0e19eb"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0001.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0034.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0067.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0100.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0133.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0166.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0199.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0232.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0265.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0298.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0331.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0364.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0397.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0430.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0463.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0496.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0529.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0562.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0595.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0628.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0661.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0694.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0727.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0760.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0793.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0826.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0859.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/DISPATCH_0892.npz",
+      "bytes": 1855996,
+      "sha256": "5ea1d9ade669f3f74266011f54b6d70cd484d4e06b143628383ad8223d94cafc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_001.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_002.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_003.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_004.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_005.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_006.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_007.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_008.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_009.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_010.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_011.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_012.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_013.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_014.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_015.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_016.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_017.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_018.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_019.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_020.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_021.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_022.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_023.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_024.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_025.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_026.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_027.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKERS/WORKER_028.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKER_GATES.jsonl",
+      "bytes": 6235,
+      "sha256": "0a9ae4e24405c181532429e6fd5a30fa72a0a2838e4de7478d663f33429411b8"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WORKER_METRICS.jsonl",
+      "bytes": 278708,
+      "sha256": "3863b04658b3c5dea91371f222ba75ddf7568f83d6e80a6f22755ea47a102acb"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/WRITE_REPORT.log",
+      "bytes": 217,
+      "sha256": "ffb02f10ea116c3e98ddf1ad934d698ee1b2706fc205e66050eab05b6ec03648"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/analyze.py",
+      "bytes": 8978,
+      "sha256": "46ae5c37bee72f3410e49982a7ab32ec6a38a8e37185593e7129a1e2b194eaa7"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/audit_continuation.py",
+      "bytes": 3015,
+      "sha256": "dfdbe6060e4f578f5ad1ed0d9f67a4563f81f5fffb9338d93af6e6c2558a5612"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/checkpoint_runtime.py",
+      "bytes": 6081,
+      "sha256": "3888417bcdb26b828285d08549ff2edba4bb7553dda356bc9195f610fb6e2771"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/core.py",
+      "bytes": 5331,
+      "sha256": "9b6ba669ddbc05ff342ad5f20ae7764c203a85e4c172cb4759957a7d057caa78"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/engine.py",
+      "bytes": 2011,
+      "sha256": "e7c370c224130b5236eb0c66d4a289a965ace5951f3bf6212f994e67ae9703d6"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/explain_results.py",
+      "bytes": 4781,
+      "sha256": "667381cd49cc7b2b685fc85b1f054c8d213099247b9177dd04c2ba255e0aed1d"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/final_decision.py",
+      "bytes": 3212,
+      "sha256": "886a74707fb273f43454026354d6591dad7722fcb9d54b7f34eefc404630e602"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/finish_outputs.py",
+      "bytes": 2289,
+      "sha256": "043e42501c9fbb3c4e43b41911c68bade480e77fe3d1c50201eb9bf65faf6938"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/gpu_worker.py",
+      "bytes": 1310,
+      "sha256": "91398aa4801b78029cbd9014b6fe9223364d82220dd1d0f74e1f228c1a25c1fc"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/instrument.py",
+      "bytes": 1223,
+      "sha256": "ac0262d449ac5649e581b497e20b67adf227f7546328c02c007a523d19b98e90"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/original_run.py",
+      "bytes": 7361,
+      "sha256": "080870faaaa306005a74713e1cb6179316fb8fc6f9bda6e0467a55f6fcb15042"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/packaged_audit.py",
+      "bytes": 1529,
+      "sha256": "99e7dad1da4af022d05500f7408d456c63433afc77c23d7fe14bb09c1a18a28e"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/plot.py",
+      "bytes": 1530,
+      "sha256": "f6620e49eec7c0c2e527463cfb4f687719f21ec70b34160abda209c5670db223"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/prepare.py",
+      "bytes": 9728,
+      "sha256": "4413b91abda830841064016608e288225ffc9c682528158fa92db5515f5ee41a"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/qwen7b/CONTROLS.json",
+      "bytes": 100631,
+      "sha256": "d2fc49e3ca709eccb578e6b9f00462eaa375f68a8d629f9f427d60de5891fff9"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/qwen7b/CONTROLS.jsonl",
+      "bytes": 79072,
+      "sha256": "3af549724d58062a9dc4923b03bd63821b0761c4200d91a35a75405d06c95b2f"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/qwen7b/DECISION.json",
+      "bytes": 129,
+      "sha256": "0e2dfeb54409068ea2fe96e71c0154e888397a578a9de2d2cdf62095b9e68634"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/qwen7b/DEVELOPMENT_SUMMARY.json",
+      "bytes": 126986,
+      "sha256": "7959e301beb70023bc1d0eb7f70c9775018dfcdcf59c9cfb7bf8651fbb72730b"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/qwen7b/EVALUATION_SUMMARY.json",
+      "bytes": 127024,
+      "sha256": "d521612b3f32bb00d2f3f42c8dc9a544f286d74b37e99272f5a0f559931a6caf"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/qwen7b/EXECUTION_ACCOUNTING.json",
+      "bytes": 222,
+      "sha256": "a9d47cf96a05260e7de91b4fa00651b325767d9c72d2a88a5fe2178255b8d575"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/qwen7b/PREDICTION_BEFORE_EVALUATION.json",
+      "bytes": 514,
+      "sha256": "4f47386f580ac2bc510e004a468f30b44463f3b3e5c170bc9045797c63fc315f"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/qwen7b/RAW.jsonl",
+      "bytes": 5969248,
+      "sha256": "af44fa2b49468c963cbb08d272adedb2a7a75220f7a0a0ba64b1da07fb1a5ae3"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/qwen7b/STARTED.json",
+      "bytes": 121,
+      "sha256": "3bacab509ce14b72eb006770af1df364c1f33442fae65347a1d30eb42744ae32"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/run.py",
+      "bytes": 8236,
+      "sha256": "88fdbfbb79c2e164e1600478a0f9db14bba470158ad913752c2fcb12bccad5a0"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/storage.py",
+      "bytes": 2529,
+      "sha256": "8432863600aec559475b15082ce4c30a7e3af0ba50fbac2000a0399d22cf5ca2"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/test_pipeline.py",
+      "bytes": 2959,
+      "sha256": "6684052534ef38e56523b85c9f56aa9e705a6bd88a8bb3e511a4c730c8de13fb"
+    },
+    {
+      "path": "research/voice_query_code_factorial_checkpointed_2026-10-19/write_report.py",
+      "bytes": 11103,
+      "sha256": "ab2d50b7884394b287de67a3cece0f0560e66ed2315545fddeb07bd9c23a7111"
+    }
+  ],
+  "payload_expanded_copies": "Only removed after all original NPZ member bytes were verified in indexed tar bundles; full original payloads are recoverable."
+}
