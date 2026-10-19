@@ -1,0 +1,19 @@
+{
+  "stage": "PRE_FRESH_OUTPUT_AMENDMENT",
+  "original_freeze_commit": "c819994192a00229d712185da77dc0fbb70e5c49",
+  "original_directory": "research/voice_query_code_factorial_2026-10-19",
+  "original_real_calls": 2,
+  "original_only_ids": [
+    "exposed_c01"
+  ],
+  "original_failure": "128-versus192 maximum full-logit drift0.0859375 exceeded frozen0.05. Failure remains failed.",
+  "saved128_reproduction_error": 0.0,
+  "new_fixed_length": 128,
+  "all816_prompt_and_token_rows_byte_identical": true,
+  "all_hypothesis_functions_byte_identical": true,
+  "scientific_sites_and_metrics_unchanged": true,
+  "new_shape_sweep_calls": 0,
+  "new_panel_cap": 1117,
+  "total_cap_including_aborted_controls": 1119,
+  "reason": "Every new prompt is66..104tokens, so uniform validated128 shape fits all. The192 expansion was unnecessary. No tolerance was raised, no fresh outcome observed, and no condition was retried."
+}

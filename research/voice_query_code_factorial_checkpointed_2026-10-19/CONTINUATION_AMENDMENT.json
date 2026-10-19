@@ -1,0 +1,29 @@
+{
+  "status": "AUTHORIZED_CHECKPOINTED_CONTINUATION",
+  "utc": "2026-10-19T21:12:36.844626+00:00",
+  "user_request": "can you try again?",
+  "parent_commit": "32d3da2ca7979145d1bb4f34069aef46e9505f13",
+  "previous_attempts": 252,
+  "reused_complete_outputs": 248,
+  "previous_uncommitted_call_249": "Preserved only in parent; repeat this logical slot once.",
+  "remaining_panel_forwards": 869,
+  "worker_size": 32,
+  "workers": 28,
+  "worker_equivalence_forwards": 28,
+  "new_forward_cap": 897,
+  "combined_forward_cap": 1149,
+  "scientific_changes": null,
+  "execution_changes": [
+    "Disk-backed baseline reads instead of retaining all full output vectors and traces in RAM.",
+    "At most32 new panel calls per GPU process; no overlapping GPU workers.",
+    "Each worker first reproduces preserved scientific baseline call3; full-vector max error<=.05, trace error<=1e-6 and all prefix hashes exact. Stop on first mismatch.",
+    "Check disk>4GiB and global swap<2GiB before dispatch and during waits; stop on failure.",
+    "90-second worker response timeout; owned worker closed/terminated on error; no automatic failed-call retry.",
+    "MLX6GiB memory guideline, existing256MiB cache setting, post-call GC/cache release. This is not a hard OS memory guarantee."
+  ],
+  "claim_limit": "The prior kernel panic cause remains unknown. These are containment measures, not proof the system fault is fixed. No scientific hypothesis was changed using the partial outcomes.",
+  "failed_technical_gate_policy": "Stop and preserve on first failed gate. No tolerance changes or outcome-driven retry.",
+  "held_out_seen_before_continuation": false,
+  "model_path": "research/stronger_model_development_2026-10-15/models/qwen7b",
+  "no_paid_calls_downloads_training": true
+}

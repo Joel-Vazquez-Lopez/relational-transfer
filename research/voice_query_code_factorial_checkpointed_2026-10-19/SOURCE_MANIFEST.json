@@ -1,0 +1,113 @@
+{
+  "annotation": "AI-only authored and reviewed templates. Directed argument assignment, not a universal Agent/Patient ontology. Non-entailment is not asserted falsity.",
+  "families": [
+    {
+      "id": "j01",
+      "split": "development",
+      "names": [
+        "Bianca",
+        "Edmund"
+      ],
+      "past": "detained",
+      "base": "detain",
+      "intended_relation": "Asymmetric directed predicate under the stated clause. No intrinsic reciprocity intended.",
+      "uncertainty": "No human validation. Photographed/supervised objects are not uniformly thematic Patients. Pragmatic or extra unmentioned events are irrelevant under explicit entailment instruction."
+    },
+    {
+      "id": "j02",
+      "split": "development",
+      "names": [
+        "Gemma",
+        "Rafael"
+      ],
+      "past": "dismissed",
+      "base": "dismiss",
+      "intended_relation": "Asymmetric directed predicate under the stated clause. No intrinsic reciprocity intended.",
+      "uncertainty": "No human validation. Photographed/supervised objects are not uniformly thematic Patients. Pragmatic or extra unmentioned events are irrelevant under explicit entailment instruction."
+    },
+    {
+      "id": "j03",
+      "split": "development",
+      "names": [
+        "Aisha",
+        "Colin"
+      ],
+      "past": "photographed",
+      "base": "photograph",
+      "intended_relation": "Asymmetric directed predicate under the stated clause. No intrinsic reciprocity intended.",
+      "uncertainty": "No human validation. Photographed/supervised objects are not uniformly thematic Patients. Pragmatic or extra unmentioned events are irrelevant under explicit entailment instruction."
+    },
+    {
+      "id": "j04",
+      "split": "evaluation",
+      "names": [
+        "Ingrid",
+        "Stefan"
+      ],
+      "past": "vaccinated",
+      "base": "vaccinate",
+      "intended_relation": "Asymmetric directed predicate under the stated clause. No intrinsic reciprocity intended.",
+      "uncertainty": "No human validation. Photographed/supervised objects are not uniformly thematic Patients. Pragmatic or extra unmentioned events are irrelevant under explicit entailment instruction."
+    },
+    {
+      "id": "j05",
+      "split": "evaluation",
+      "names": [
+        "Yara",
+        "Rupert"
+      ],
+      "past": "supervised",
+      "base": "supervise",
+      "intended_relation": "Asymmetric directed predicate under the stated clause. No intrinsic reciprocity intended.",
+      "uncertainty": "No human validation. Photographed/supervised objects are not uniformly thematic Patients. Pragmatic or extra unmentioned events are irrelevant under explicit entailment instruction."
+    },
+    {
+      "id": "j06",
+      "split": "evaluation",
+      "names": [
+        "Selma",
+        "Damian"
+      ],
+      "past": "fined",
+      "base": "fine",
+      "intended_relation": "Asymmetric directed predicate under the stated clause. No intrinsic reciprocity intended.",
+      "uncertainty": "No human validation. Photographed/supervised objects are not uniformly thematic Patients. Pragmatic or extra unmentioned events are irrelevant under explicit entailment instruction."
+    }
+  ],
+  "earlier_manifests": [
+    {
+      "path": "research/causal_carrier_isolation_2026-10-18/INPUTS.json",
+      "sha256": "39702ce5115725c719edf4a1692aaf806b05a7c5befaab3b88326c4666be659a"
+    },
+    {
+      "path": "research/competence_selection_confirmation_2026-10-19/INPUTS.json",
+      "sha256": "f7d2196224c2f312cd866aecd2f092d053f04a8323ccbc762ce825b937f0a961"
+    },
+    {
+      "path": "research/graded_relational_routing_2026-10-18/INPUTS.json",
+      "sha256": "e7429780f7a1081a01392ebb3f18bda9bdee9832596014e1f5c5192f70977e71"
+    },
+    {
+      "path": "research/period_message_interchange_2026-10-19/INPUTS.json",
+      "sha256": "f97de03bfbd564a977f94864794e5ad4f19e8ddeeb2048971dafa3f9be48ac05"
+    },
+    {
+      "path": "research/reference_transformer_comparison_2026-10-18/results/INPUTS.json",
+      "sha256": "b3bcd37152e63073cd042f95ad1a5119c39568c39a2d103f50fe0dd34f153ab5"
+    },
+    {
+      "path": "research/source_access_feasibility_2026-10-18/INPUTS.json",
+      "sha256": "b69bb1ac6135ffb9c6f5ebd29d00e0dc15f276245c343b3cadddf7678f5e9cbd"
+    },
+    {
+      "path": "research/source_access_verified_rerun_2026-10-18/INPUTS.json",
+      "sha256": "da59495862c492a98b4bf8dcad11d8b4490d23fbfbfdfa2253e50e8bed6f3b07"
+    }
+  ],
+  "new_complete_sentences": true,
+  "position_note": "Record: adds two tokens. Active prefixed period/question/answer positions equal unprefixed passive for matched content; individual word positions/order remain different. Prefix is crossed in both voices and is not assumed inert.",
+  "prior_shape_control": {
+    "path": "research/competence_selection_confirmation_2026-10-19/qwen7b/CALL_0003.npz",
+    "sha256": "1264eccc40ebd8358911da0fe87f651bd0a9cf4ddf5d0d34271cb81c23f9d35a"
+  }
+}

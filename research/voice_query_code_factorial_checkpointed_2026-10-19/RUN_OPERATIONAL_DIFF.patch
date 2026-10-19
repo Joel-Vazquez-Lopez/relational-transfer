@@ -1,0 +1,51 @@
+--- preserved_run.py
++++ checkpointed_run.py
+@@ -3,7 +3,7 @@
+ from pathlib import Path
+ import numpy as np
+ from core import *
+-from engine import Engine
++from checkpoint_runtime import WorkerEngine as Engine, DiskBases, previous_records, replay
+ 
+ def append(p,x):
+  with Path(p).open('a') as f:f.write(json.dumps(x,allow_nan=False)+'\n');f.flush()
+@@ -19,12 +19,19 @@
+   assert (root/'FREEZE_RECEIPT.json').exists()
+  out=root/'qwen7b';out.mkdir(exist_ok=True);assert not (out/'STARTED.json').exists(),'No automatic retry/resume'
+  save(out/'STARTED.json',dict(utc=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),lock_sha256=sha(root/'LOCK.json')))
+- rows=json.loads((root/'INPUTS.json').read_text());controlrow=json.loads((root/'CONTROL_INPUT.json').read_text());engine=engine_factory(lock);raw=[];budget=[];checks=[];bases={}
++ rows=json.loads((root/'INPUTS.json').read_text());controlrow=json.loads((root/'CONTROL_INPUT.json').read_text());engine=engine_factory(lock);raw=[];budget=[];checks=[];bases=DiskBases(root);previous=previous_records() if validate else []
+  def check(name,passed,**kw):
+   x=dict(check=name,passed=bool(passed),**kw);checks.append(x);append(out/'CONTROLS.jsonl',x);assert passed,('Technical gate failed',x)
+  def forward(row,mode='baseline',cut=28,kind='scientific',wrapped=True,native=False,physical_length=LENGTH):
+   assert len(budget)<lock['max_forwards'];assert shutil.disk_usage(root).free>1024**3,'Below1GiB reserve'
+   entry=dict(call=len(budget)+1,id=row['id'],mode=mode,cut=cut,kind=kind,wrapped=wrapped,native=native,physical_length=physical_length,utc=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()))
++  if len(budget)<len(previous):
++   record=previous[len(budget)];loaded=replay(root,record,entry)
++   original_entry={k:record[k] for k in entry}
++   budget.append(original_entry);append(root/'BUDGET.jsonl',original_entry)
++   raw.append(record);append(out/'RAW.jsonl',record)
++   if len(raw)%32==0:print('REUSED',len(raw),'of248 verified outputs',flush=True)
++   return loaded
+   budget.append(entry);append(root/'BUDGET.jsonl',entry)
+   logits,arrays,hashes=engine.compute(row,mode,cut,wrapped,native,physical_length);trace=arrays['trace'];depths=list(range(29)) if mode=='baseline' else [0,7,14,21,28];saved=trace if mode=='baseline' or not trace.size else trace[depths]
+   payload=f'qwen7b/CALL_{entry["call"]:04d}.npz';path=root/payload;assert not path.exists();np.savez_compressed(path,logits=lossless(logits),trace=lossless(saved),depths=np.array(depths,dtype=np.int16))
+@@ -37,7 +44,7 @@
+   first=next(r for r in rows if r['panel']=='factorial' and r['lexicon']=='AB' and r['mapping']==0 and r['position']==0 and r['question_voice']=='active')
+   unwrapped=forward(first,kind='validation_unwrapped',wrapped=False);native=forward(first,kind='validation_wrapped_native',native=True)
+   for phase in ['development','evaluation']:
+-   rr=[r for r in rows if r['split']==phase];bases={}
++   rr=[r for r in rows if r['split']==phase];bases=DiskBases(root)
+    for row in rr:bases[row['id']]=forward(row)
+    if phase=='development':
+     repeat=forward(first,kind='validation_repeat');ref=bases[first['id']]
+@@ -68,6 +75,9 @@
+    save(out/(phase.upper()+'_SUMMARY.json'),dict(groups=groups,profiles=profiles,routing=routes))
+    if phase=='development':save(out/'PREDICTION_BEFORE_EVALUATION.json',dict(behavior=choose(profiles),routing=choose_routes(routes),raw_sha256=sha(out/'RAW.jsonl'),evaluation_outputs_seen=False))
+   assert len(raw)==1117 and len(budget)==1117
++  if validate:
++   engine.close();assert engine.done==869 and engine.dispatches==897 and engine.worker_id==28
++   save(out/'EXECUTION_ACCOUNTING.json',dict(reused_verified_outputs=248,new_logical_outputs=869,worker_equivalence_calls=28,new_model_attempts=engine.dispatches,previous_attempts=252,total_investigation_attempts=252+engine.dispatches,combined_cap=1149))
+   save(out/'DECISION.json',dict(status='COMPLETE_FIXED_PANEL',attempts=len(budget),payloads=len(raw),controls=len(checks),all_controls_passed=all(c['passed'] for c in checks)));print('COMPLETE1117',len(checks),'controls',flush=True)
+  except BaseException:
+   save(out/'ERROR.json',dict(error=traceback.format_exc(),attempts=len(budget),completed=len(raw),no_model_retry=True));raise
