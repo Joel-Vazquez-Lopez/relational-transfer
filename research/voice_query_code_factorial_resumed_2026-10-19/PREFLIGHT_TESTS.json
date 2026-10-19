@@ -1,0 +1,45 @@
+{
+  "kind": "SYNTHETIC_ONLY_NOT_EMPIRICAL",
+  "real_model_forwards": 0,
+  "disjoint_pattern_fixtures": {
+    "construction_consistent": {
+      "candidate": "construction_consistent",
+      "counts": {
+        "construction_consistent": 6,
+        "voice_match_penalty": 0,
+        "literal_label_linked": 0
+      },
+      "rule": "At least2/3 complete lexical families; no p values or population inference"
+    },
+    "voice_match_penalty": {
+      "candidate": "voice_match_penalty",
+      "counts": {
+        "construction_consistent": 0,
+        "voice_match_penalty": 6,
+        "literal_label_linked": 0
+      },
+      "rule": "At least2/3 complete lexical families; no p values or population inference"
+    },
+    "literal_label_linked": {
+      "candidate": "literal_label_linked",
+      "counts": {
+        "construction_consistent": 0,
+        "voice_match_penalty": 0,
+        "literal_label_linked": 6
+      },
+      "rule": "At least2/3 complete lexical families; no p values or population inference"
+    },
+    "null": {
+      "candidate": null,
+      "counts": {
+        "construction_consistent": 0,
+        "voice_match_penalty": 0,
+        "literal_label_linked": 0
+      },
+      "rule": "At least2/3 complete lexical families; no p values or population inference"
+    }
+  },
+  "controller_calls": 1117,
+  "independent_replay_checks": 8102,
+  "known_construction_profile_recovered_on3_of3_held_families": true
+}

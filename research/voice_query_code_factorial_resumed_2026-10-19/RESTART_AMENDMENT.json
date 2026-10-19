@@ -1,0 +1,17 @@
+{
+  "status": "AUTHORIZED_PREOUTPUT_RESTART",
+  "utc": "2026-10-19T20:39:43.342386+00:00",
+  "user_request": "so you can finish the experiment now?",
+  "parent_preservation_commit": "db13a0e34e26cce461dd9349a7871236147041f5",
+  "parent_directory": "research/voice_query_code_factorial_128_2026-10-19",
+  "previous_attempts": 3,
+  "previous_completed_exposed_outputs": 2,
+  "previous_completed_fresh_outputs": 0,
+  "restart_panel_calls": 1117,
+  "combined_attempt_cap": 1120,
+  "prior_cap": 1119,
+  "reason_for_one_additional_attempt": "Repeat the interrupted first unwrapped validation, which produced no payload or answer. User reauthorized completion after disk cleanup. All previous attempts remain archived.",
+  "changes": "New output directory and explicit one-time operational restart exception only; model, prompts, inputs, instrumentation, scores, thresholds, site and hypotheses unchanged. No further inference retry authorized by this amendment.",
+  "free_disk_bytes": 16802459648,
+  "preserved_no_retry_guard": "Original STARTED/DECISION/BUDGET remain untouched; this is a new explicitly authorized execution, not deletion of a guard."
+}
