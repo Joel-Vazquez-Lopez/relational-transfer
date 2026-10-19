@@ -1,0 +1,37 @@
+{
+  "scope": "Descriptive exact algebra of frozen unit offsets/D: E[s|Yes]=offset+D and E[s|No]=offset\u2212D on each balanced2\u00d72 unit. No new hypothesis test, inference or internal variable interpretation.",
+  "records": [
+    {
+      "model": "qwen7b",
+      "voice": "active",
+      "mean_yes_target_score": -7.163084464391273,
+      "mean_no_target_score": -21.179360780129556,
+      "mean_offset": -14.171222622260414,
+      "mean_RxQ": 7.008138157869141
+    },
+    {
+      "model": "qwen7b",
+      "voice": "passive",
+      "mean_yes_target_score": 12.40006623919712,
+      "mean_no_target_score": -21.175454264166707,
+      "mean_offset": -4.3876940124847925,
+      "mean_RxQ": 16.787760251681913
+    },
+    {
+      "model": "llama3b",
+      "voice": "active",
+      "mean_yes_target_score": -0.02278597276141614,
+      "mean_no_target_score": -5.202473519134367,
+      "mean_offset": -2.6126297459478915,
+      "mean_RxQ": 2.5898437731864754
+    },
+    {
+      "model": "llama3b",
+      "voice": "passive",
+      "mean_yes_target_score": 0.24479213232304953,
+      "mean_no_target_score": -4.221679222501413,
+      "mean_offset": -1.9884435450891818,
+      "mean_RxQ": 2.2332356774122313
+    }
+  ]
+}

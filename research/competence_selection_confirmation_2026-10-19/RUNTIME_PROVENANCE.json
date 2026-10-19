@@ -1,0 +1,28 @@
+{
+  "python": "3.11.15 | packaged by conda-forge | (main, Mar  5 2026, 16:59:26) [Clang 19.1.7 ]",
+  "packages": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.0",
+    "numpy": "2.4.4",
+    "transformers": "5.7.0",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9"
+  },
+  "upstream_identifiers_from_existing_local_provenance": {
+    "qwen7b": {
+      "hub_id": "mlx-community/Qwen2.5-7B-Instruct-4bit",
+      "revision": "c26a38f6a37d0a51b4e9a1eb3026530fa35d9fed"
+    },
+    "llama3b": {
+      "hub_id": "mlx-community/Llama-3.2-3B-Instruct-4bit",
+      "revision": "7f0dc925e0d0afb0322d96f9255cfddf2ba5636e"
+    }
+  },
+  "native_source_copies": {
+    "NATIVE_qwen2.py": "937e0321ef06a34efbd66d2ce0ce1e715aab98da4acefa376c8cd29291a0bc83",
+    "NATIVE_llama.py": "dfb656511e6740781cd0563f7994a78b3404c199b9aebaa2fbca28a19e280891",
+    "NATIVE_base.py": "b782b2ac0f55ed8fa9c1afce1f36307d5d8714aad2c0991d63998047f7507174"
+  },
+  "model_files": "Exact model/config/tokenizer file SHA256 and sizes are in frozen LOCK.json; all were rehashed before fresh inference.",
+  "note": "No model or package downloads. Source copies match the frozen native-source hashes; license retained."
+}

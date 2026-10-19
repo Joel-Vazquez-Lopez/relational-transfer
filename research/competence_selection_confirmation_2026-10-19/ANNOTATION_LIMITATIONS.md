@@ -1,0 +1,15 @@
+# Annotation clarification: directional arguments are not uniformly Agent/Patient
+
+Added during collection, without inspecting fresh answer outcomes or changing any frozen input, label, score, exclusion, hypothesis or intervention. The original AI-authored source manifest and its wording remain preserved in LOCK.json.
+
+The frozen templates use `agent` and `patient` as **operational argument-position names**: the subject and object of the corresponding active transitive clause. This is sufficient to generate the two opposing yes/no propositions and their truth-preserving passive counterparts. It does not establish a uniform lexical-semantic Agent/Patient analysis across all24 verbs. The manifest's `agent_patient_unambiguous_by_template` field is too strong if read as a claim about thematic roles.
+
+For example, *recognize* can assign Experiencer/Stimulus, *startle* and *distract* can assign Stimulus/Experiencer, *warn*, *instruct* and *remind* involve addressees or experiencers and can omit complement content, and *support* admits several senses. *Accuse* also leaves the accusation unspecified. These are not AI-verified evidence for one universal role ontology. Passive alternation preserves the directed proposition under the intended reading; it does not make every subject a volitional Agent or every object a Patient.
+
+All24 families and every answer remain in the fixed analysis. The precise tested relation is **who bears each argument of the stated directed predicate**, with active/passive realization and question orientation crossed. Claims about particular thematic roles, sense invariance in natural corpora, human acceptability, or all linguistic relationships exceed this study. No model-assisted relabeling or outcome-dependent annotation repair is performed.
+
+## Converse questions and a particular lexical risk
+
+No labels use a directed-event/closed-world reading: the reverse predicate is not licensed by the stated argument assignment. A sentence asserting one event does not logically rule out an additional unmentioned reciprocal event. In ordinary open-world discourse, some converse questions are therefore better described as **not entailed** than known false. The frozen Yes/No instruction does not explicitly explain this convention. This limits interpreting a model's disagreement as an unambiguous linguistic error.
+
+Family **c15, accompany**, warrants particular caution: accompanying can be construed as a reciprocal relation, although a companion/principal argument distinction is also possible. **c09, contact**, can invite reciprocal communication inferences. Greeting/saluting and social interactions can also have pragmatic reciprocation without entailing the converse assertion. These are annotation uncertainties, not outcome-based exclusions; all primary labels and all24 families remain unchanged. Any supplementary display separating entailed Yes cases from converse No cases is descriptive and does not replace the frozen test. No fresh outcomes were used to choose these flags.

@@ -1,0 +1,175 @@
+{
+  "scope": "Supplementary descriptive transparency only; not a replacement test or outcome-based exclusion. Semantic-risk flags documented during collection before fresh answer inspection. The primary24-family analysis remains intact.",
+  "native_definition_note": "Inherited scorer additionally requires positive aggregate alias margin. This audit checks whether that changes the native endpoint relative to the frozen prose definition (vocabulary-wide argmax). Any discrepancy must be disclosed, not silently repaired.",
+  "native_definition_conflicts": [],
+  "primary_native_definition_equivalent_on_observed_baselines": true,
+  "yes_no_partition": [
+    {
+      "model": "qwen7b",
+      "voice": "active",
+      "target": "Yes",
+      "n": 48,
+      "native_correct": 7,
+      "calibrated_correct": 46,
+      "interpretation": "Explicitly asserted directional proposition"
+    },
+    {
+      "model": "qwen7b",
+      "voice": "active",
+      "target": "No",
+      "n": 48,
+      "native_correct": 48,
+      "calibrated_correct": 43,
+      "interpretation": "Converse not entailed; assigned No by directed-event convention, not open-world disproof"
+    },
+    {
+      "model": "qwen7b",
+      "voice": "passive",
+      "target": "Yes",
+      "n": 48,
+      "native_correct": 47,
+      "calibrated_correct": 48,
+      "interpretation": "Explicitly asserted directional proposition"
+    },
+    {
+      "model": "qwen7b",
+      "voice": "passive",
+      "target": "No",
+      "n": 48,
+      "native_correct": 48,
+      "calibrated_correct": 39,
+      "interpretation": "Converse not entailed; assigned No by directed-event convention, not open-world disproof"
+    },
+    {
+      "model": "llama3b",
+      "voice": "active",
+      "target": "Yes",
+      "n": 48,
+      "native_correct": 21,
+      "calibrated_correct": 46,
+      "interpretation": "Explicitly asserted directional proposition"
+    },
+    {
+      "model": "llama3b",
+      "voice": "active",
+      "target": "No",
+      "n": 48,
+      "native_correct": 48,
+      "calibrated_correct": 45,
+      "interpretation": "Converse not entailed; assigned No by directed-event convention, not open-world disproof"
+    },
+    {
+      "model": "llama3b",
+      "voice": "passive",
+      "target": "Yes",
+      "n": 48,
+      "native_correct": 30,
+      "calibrated_correct": 47,
+      "interpretation": "Explicitly asserted directional proposition"
+    },
+    {
+      "model": "llama3b",
+      "voice": "passive",
+      "target": "No",
+      "n": 48,
+      "native_correct": 48,
+      "calibrated_correct": 39,
+      "interpretation": "Converse not entailed; assigned No by directed-event convention, not open-world disproof"
+    }
+  ],
+  "annotation_risk_descriptive_sensitivity": [
+    {
+      "excluded_annotation_risk_families": [],
+      "models": {
+        "qwen7b": {
+          "active": {
+            "n_units": 24,
+            "native_complete": 3,
+            "calibrated_complete": 19
+          },
+          "passive": {
+            "n_units": 24,
+            "native_complete": 23,
+            "calibrated_complete": 18
+          }
+        },
+        "llama3b": {
+          "active": {
+            "n_units": 24,
+            "native_complete": 7,
+            "calibrated_complete": 20
+          },
+          "passive": {
+            "n_units": 24,
+            "native_complete": 13,
+            "calibrated_complete": 17
+          }
+        }
+      }
+    },
+    {
+      "excluded_annotation_risk_families": [
+        "c15"
+      ],
+      "models": {
+        "qwen7b": {
+          "active": {
+            "n_units": 23,
+            "native_complete": 3,
+            "calibrated_complete": 19
+          },
+          "passive": {
+            "n_units": 23,
+            "native_complete": 22,
+            "calibrated_complete": 18
+          }
+        },
+        "llama3b": {
+          "active": {
+            "n_units": 23,
+            "native_complete": 7,
+            "calibrated_complete": 19
+          },
+          "passive": {
+            "n_units": 23,
+            "native_complete": 13,
+            "calibrated_complete": 17
+          }
+        }
+      }
+    },
+    {
+      "excluded_annotation_risk_families": [
+        "c09",
+        "c15"
+      ],
+      "models": {
+        "qwen7b": {
+          "active": {
+            "n_units": 22,
+            "native_complete": 3,
+            "calibrated_complete": 19
+          },
+          "passive": {
+            "n_units": 22,
+            "native_complete": 21,
+            "calibrated_complete": 17
+          }
+        },
+        "llama3b": {
+          "active": {
+            "n_units": 22,
+            "native_complete": 7,
+            "calibrated_complete": 19
+          },
+          "passive": {
+            "n_units": 22,
+            "native_complete": 13,
+            "calibrated_complete": 16
+          }
+        }
+      }
+    }
+  ],
+  "no_new_p_values": true
+}

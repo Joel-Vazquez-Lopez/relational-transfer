@@ -1,0 +1,92 @@
+{
+  "primary": {
+    "positive": 19,
+    "negative": 0,
+    "ties": 5,
+    "n_nonzero": 19,
+    "one_sided_p": 1.9073486328125e-06,
+    "assumption": "Independent/exchangeable family signs under sign-symmetry null; authored panel/shared templates limit inference",
+    "alpha": 0.05,
+    "supported": true,
+    "mean_d": 0.875
+  },
+  "totals": [
+    {
+      "model": "qwen7b",
+      "voice": "active",
+      "n_answers": 96,
+      "n_units": 24,
+      "native_correct": 55,
+      "calibrated_correct": 89,
+      "zero_threshold_correct": 55,
+      "off_label": 0,
+      "native_complete": 3,
+      "calibrated_complete": 19,
+      "separable": 23,
+      "all_ordinal_positive": 23,
+      "mean_D": 7.008138157869141,
+      "mean_offset": -14.171222622260414
+    },
+    {
+      "model": "qwen7b",
+      "voice": "passive",
+      "n_answers": 96,
+      "n_units": 24,
+      "native_correct": 95,
+      "calibrated_correct": 87,
+      "zero_threshold_correct": 95,
+      "off_label": 0,
+      "native_complete": 23,
+      "calibrated_complete": 18,
+      "separable": 24,
+      "all_ordinal_positive": 24,
+      "mean_D": 16.787760251681913,
+      "mean_offset": -4.3876940124847925
+    },
+    {
+      "model": "llama3b",
+      "voice": "active",
+      "n_answers": 96,
+      "n_units": 24,
+      "native_correct": 69,
+      "calibrated_correct": 91,
+      "zero_threshold_correct": 69,
+      "off_label": 0,
+      "native_complete": 7,
+      "calibrated_complete": 20,
+      "separable": 24,
+      "all_ordinal_positive": 24,
+      "mean_D": 2.5898437731864754,
+      "mean_offset": -2.6126297459478915
+    },
+    {
+      "model": "llama3b",
+      "voice": "passive",
+      "n_answers": 96,
+      "n_units": 24,
+      "native_correct": 78,
+      "calibrated_correct": 86,
+      "zero_threshold_correct": 78,
+      "off_label": 0,
+      "native_complete": 13,
+      "calibrated_complete": 17,
+      "separable": 23,
+      "all_ordinal_positive": 23,
+      "mean_D": 2.2332356774122313,
+      "mean_offset": -1.9884435450891818
+    }
+  ],
+  "secondary": {
+    "full_gap": 0.07177806768945305,
+    "native_gate_gap": 0.5860441225479458,
+    "calibrated_gate_gap": 0.04014856289561286,
+    "delta_gap": 0.5142660548584927,
+    "common_native_gap": 0.5847931015651194,
+    "common_delta_gap": 0.5130150338756664,
+    "descriptive_replication": true,
+    "matched_support_direction": true,
+    "no_secondary_significance_test": true
+  },
+  "forwards": 1562,
+  "audit_checks": 6752
+}

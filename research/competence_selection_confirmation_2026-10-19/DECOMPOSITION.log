@@ -1,0 +1,76 @@
+{
+  "mode": "frozen",
+  "gate": "native_complete",
+  "policy": "own_selected",
+  "models": {
+    "qwen7b": {
+      "defined": true,
+      "n_full": 48,
+      "n_selected": 26,
+      "change": -0.5118363324164825,
+      "construction_composition": -0.42054009437797,
+      "within_construction_selection": -0.09129623803851236,
+      "terms": [
+        {
+          "voice": "active",
+          "n_full": 24,
+          "n_selected": 3,
+          "weight_full": 0.5,
+          "weight_selected": 0.11538461538461539,
+          "mean_full": 1.50406386792438,
+          "mean_selected": 0.7513879777572692,
+          "construction_composition": -0.5784861030478384,
+          "within_construction_selection": -0.0868472180962051
+        },
+        {
+          "voice": "passive",
+          "n_full": 24,
+          "n_selected": 23,
+          "weight_full": 0.5,
+          "weight_selected": 0.8846153846153846,
+          "mean_full": 0.41065962254165783,
+          "mean_selected": 0.40563029565035397,
+          "construction_composition": 0.15794600866986838,
+          "within_construction_selection": -0.004449019942307265
+        }
+      ]
+    },
+    "llama3b": {
+      "defined": true,
+      "n_full": 47,
+      "n_selected": 20,
+      "change": 0.0024297224420102292,
+      "construction_composition": 0.003177135784880658,
+      "within_construction_selection": -0.0007474133428703067,
+      "terms": [
+        {
+          "voice": "active",
+          "n_full": 24,
+          "n_selected": 7,
+          "weight_full": 0.5106382978723404,
+          "weight_selected": 0.35,
+          "mean_full": 1.0194611211274713,
+          "mean_selected": 1.0220993017270328,
+          "construction_composition": -0.16376449924494485,
+          "within_construction_selection": 0.000923363209846506
+        },
+        {
+          "voice": "passive",
+          "n_full": 23,
+          "n_selected": 13,
+          "weight_full": 0.48936170212765956,
+          "weight_selected": 0.65,
+          "mean_full": 1.0392393174042116,
+          "mean_selected": 1.0366688919384934,
+          "construction_composition": 0.1669416350298255,
+          "within_construction_selection": -0.0016707765527168128
+        }
+      ]
+    }
+  },
+  "gap_change_decomposition": {
+    "change": 0.5142660548584927,
+    "construction_composition": 0.4237172301628507,
+    "within_construction_selection": 0.09054882469564206
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "native_definition_conflicts": [],
+  "counts": [
+    {
+      "model": "qwen7b",
+      "voice": "active",
+      "target": "Yes",
+      "n": 48,
+      "native_correct": 7,
+      "calibrated_correct": 46,
+      "interpretation": "Explicitly asserted directional proposition"
+    },
+    {
+      "model": "qwen7b",
+      "voice": "active",
+      "target": "No",
+      "n": 48,
+      "native_correct": 48,
+      "calibrated_correct": 43,
+      "interpretation": "Converse not entailed; assigned No by directed-event convention, not open-world disproof"
+    },
+    {
+      "model": "qwen7b",
+      "voice": "passive",
+      "target": "Yes",
+      "n": 48,
+      "native_correct": 47,
+      "calibrated_correct": 48,
+      "interpretation": "Explicitly asserted directional proposition"
+    },
+    {
+      "model": "qwen7b",
+      "voice": "passive",
+      "target": "No",
+      "n": 48,
+      "native_correct": 48,
+      "calibrated_correct": 39,
+      "interpretation": "Converse not entailed; assigned No by directed-event convention, not open-world disproof"
+    },
+    {
+      "model": "llama3b",
+      "voice": "active",
+      "target": "Yes",
+      "n": 48,
+      "native_correct": 21,
+      "calibrated_correct": 46,
+      "interpretation": "Explicitly asserted directional proposition"
+    },
+    {
+      "model": "llama3b",
+      "voice": "active",
+      "target": "No",
+      "n": 48,
+      "native_correct": 48,
+      "calibrated_correct": 45,
+      "interpretation": "Converse not entailed; assigned No by directed-event convention, not open-world disproof"
+    },
+    {
+      "model": "llama3b",
+      "voice": "passive",
+      "target": "Yes",
+      "n": 48,
+      "native_correct": 30,
+      "calibrated_correct": 47,
+      "interpretation": "Explicitly asserted directional proposition"
+    },
+    {
+      "model": "llama3b",
+      "voice": "passive",
+      "target": "No",
+      "n": 48,
+      "native_correct": 48,
+      "calibrated_correct": 39,
+      "interpretation": "Converse not entailed; assigned No by directed-event convention, not open-world disproof"
+    }
+  ]
+}
