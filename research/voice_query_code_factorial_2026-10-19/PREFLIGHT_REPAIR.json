@@ -1,0 +1,7 @@
+{
+  "stage": "Before freeze and any real model forwards",
+  "failure": "Synthetic independent replay initially reconstructed development hash without the two exposed shape-control records.",
+  "repair": "Hash reconstruction now includes the complete ordered pre-evaluation journal, matching the journal frozen by the controller.",
+  "real_model_forwards": 0,
+  "scientific_predictions_or_inputs_changed": false
+}

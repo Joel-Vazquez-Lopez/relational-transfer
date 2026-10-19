@@ -1,0 +1,79 @@
+{
+  "status": "FROZEN_BEFORE_FRESH_OUTCOMES",
+  "files": {
+    "core.py": "bbc52b3d21516dc20c128bb144ab06371312f0b9741746b8db37bcc184623e17",
+    "instrument.py": "ac0262d449ac5649e581b497e20b67adf227f7546328c02c007a523d19b98e90",
+    "engine.py": "e7c370c224130b5236eb0c66d4a289a965ace5951f3bf6212f994e67ae9703d6",
+    "prepare.py": "8505a012b307bcac5f6bd741ae8031d22fea2e313308b38712fed652b4521918",
+    "run.py": "90ac0db622bd2d9d762848873f21ecfe625c8d243f435a66060d2ce2cc07c2e7",
+    "analyze.py": "ea381b657554e190228d59379343c969a50973c811b7e369ac702a7e7aa012f6",
+    "test_pipeline.py": "1ec61d95ea0085c96fe8492efc1d93a865d1c38449143867ada139c39134e36a",
+    "storage.py": "785ffbfb03b8a5aa7c1a74a687bef34cb1330f20a029661dea4371fd90aeb3b0",
+    "PROTOCOL.md": "764ddb8ec00c028b7c0a75fe2acd9d0b958a19900480591d7ce9a459c86a8ea3",
+    "INPUTS.json": "c42e61c372db725401d97bdb29b1e4d79324880eff5a975576353d3befd29593",
+    "CONTROL_INPUT.json": "e7737b39353e2d09eb86c81967a01bcd0cfccb8b7c5c8d351c857302ccd79041",
+    "SOURCE_MANIFEST.json": "03f7ffffe5b952bfc85ef22b743eaf1e9abb90ac2fe572af7327f9653bb47e36",
+    "TOKENIZER_AUDIT.json": "2644bbdc04ab5cc24a9116ffbdcf2e8204bf8fcf476656f8f2fabaac764c180c",
+    "PREFLIGHT_TESTS.json": "dc9e26f589e46595181a718e7d49154add124f1edacac118b28666d6de0971dc",
+    "STORAGE_BUDGET.json": "4bd7966732234e51aa5c581a33f8b749912a277675c3a8b8b4112ea135acc51f"
+  },
+  "model": {
+    "path": "research/stronger_model_development_2026-10-15/models/qwen7b",
+    "files": {
+      "research/stronger_model_development_2026-10-15/models/qwen7b/added_tokens.json": {
+        "bytes": 605,
+        "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/config.json": {
+        "bytes": 787,
+        "sha256": "1661a349986919d13820d3981623776138d50783d13e247cdc5b075a22b62698"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors": {
+        "bytes": 4284346255,
+        "sha256": "86110f368236b53cf4c2336f991a85703b17bcc60bb75f292b4002ec0219f071"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors.index.json": {
+        "bytes": 51711,
+        "sha256": "23cd562592dd96686d2e799eb02e4b578a4038b6045eaefe860d270cc060e24f"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/special_tokens_map.json": {
+        "bytes": 613,
+        "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer.json": {
+        "bytes": 7031673,
+        "sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer_config.json": {
+        "bytes": 7280,
+        "sha256": "4921d4cbae33349a9cb3b2ad3a7622efdea10a5d208c9f333c77b154aa714888"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/vocab.json": {
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      }
+    },
+    "pad": 87
+  },
+  "native_sources": {
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/qwen2.py": "937e0321ef06a34efbd66d2ce0ce1e715aab98da4acefa376c8cd29291a0bc83",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/llama.py": "dfb656511e6740781cd0563f7994a78b3404c199b9aebaa2fbca28a19e280891",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/base.py": "b782b2ac0f55ed8fa9c1afce1f36307d5d8714aad2c0991d63998047f7507174"
+  },
+  "runtime": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.0",
+    "numpy": "2.4.4",
+    "transformers": "5.7.0"
+  },
+  "output_shapes": {
+    "vocab_size": 152064,
+    "hidden_size": 3584
+  },
+  "max_forwards": 1119,
+  "scientific": 1104,
+  "validation": 15,
+  "length": 192,
+  "parent_results_commit": "65719a7634222ae49f5eab4260180736f2905cfc",
+  "no_paid_calls_downloads_or_training": true
+}
