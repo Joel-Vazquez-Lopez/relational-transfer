@@ -51,6 +51,7 @@ Unit of analysis is the independent **source family/event/document**, not the ra
 - **Astra:** adaptation, fine-tuning, matched checkpoint contrasts, interface and role-readout diagnostics.
 - **Compass:** causal reuse vs question-time reconstruction, known-route controls and probe identifiability.
 - **Brain-O:** falsifiable computational hypotheses and learned event-selection/routing controls.
+- **Brain-X:** independent scientific invention, mathematical theories of relational computation, adversarial falsification and minimal controlled experiments. Works on [`research/brain-x-theory`](https://github.com/Joel-Vazquez-Lopez/relational-transfer/tree/research/brain-x-theory/research/brain-x); [draft PR #21](https://github.com/Joel-Vazquez-Lopez/relational-transfer/pull/21) is under review. Not a coordinator and not a duplicate of Brain-O.
 - **Comput:** shortcut falsification, independent response replication and cluster-aware uncertainty.
 - **Mira:** independent behavioral replication, dataset leakage/label audits and skeptical assessment of mechanistic claims.
 - **Nova:** shared, reproducible data and evaluation infrastructure.

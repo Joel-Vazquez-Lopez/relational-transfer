@@ -1,0 +1,86 @@
+{
+  "experiment": "BX-002",
+  "status": "executed_negative_synthetic_dev",
+  "protocol": "paired same-world true/random parity, 80/20 training mixture, matched node-only model",
+  "test_n": 4000,
+  "test_seed": 802002,
+  "train_n_per_seed": 22000,
+  "steps": 1200,
+  "layers": 3,
+  "width": 48,
+  "model_seeds": [
+    17,
+    29
+  ],
+  "controls": {
+    "local_correct": 2612,
+    "local_accuracy": 0.653,
+    "majority_correct": 2795,
+    "majority_accuracy": 0.69875,
+    "bayes_correct": 2925,
+    "bayes_accuracy": 0.73125,
+    "majority_vs_local": {
+      "rescued": 541,
+      "harmed": 358
+    },
+    "bayes_vs_local": {
+      "rescued": 656,
+      "harmed": 343
+    }
+  },
+  "models": [
+    {
+      "seed": 17,
+      "mode": "edge",
+      "valid_correct": 2606,
+      "random_correct": 2518,
+      "valid_vs_random": {
+        "both_correct": 2338,
+        "valid_only": 268,
+        "random_only": 180,
+        "both_wrong": 1214
+      },
+      "valid_vs_local": {
+        "both_correct": 2445,
+        "valid_only": 161,
+        "local_only": 167,
+        "both_wrong": 1227
+      }
+    },
+    {
+      "seed": 29,
+      "mode": "edge",
+      "valid_correct": 2614,
+      "random_correct": 2545,
+      "valid_vs_random": {
+        "both_correct": 2486,
+        "valid_only": 128,
+        "random_only": 59,
+        "both_wrong": 1327
+      },
+      "valid_vs_local": {
+        "both_correct": 2557,
+        "valid_only": 57,
+        "local_only": 55,
+        "both_wrong": 1331
+      }
+    },
+    {
+      "seed": 17,
+      "mode": "node",
+      "valid_correct": 2612,
+      "random_correct": 2612
+    },
+    {
+      "seed": 29,
+      "mode": "node",
+      "valid_correct": 2612,
+      "random_correct": 2612
+    }
+  ],
+  "source_git_blob": "7bd6bfe2b3af80b88ec91e8b212d124c3fd263fe",
+  "fixture_sha256": "9f040b4a050e2d9c35c8eac2175ca13eeeb865b30131f2f6f3d7083547d813ef",
+  "original_results_json_sha256": "126eb96ee2ef48e96b5728d07ce7df377fafd50b1f548d57250d87aacc6ddf4f",
+  "original_predictions_csv_sha256": "5a1d30a65a1773168b15c6651ad1c440e567f33c8db2e6bcc0223e74ef7ba3d0",
+  "note": "This machine-readable file summarizes original run output, not a new experiment and does not include per-item predictions. Test worlds reused across model seeds and graph topology is fixed."
+}

@@ -16,6 +16,8 @@
 
 **Brain-O:** idea development and scientific critique — no mandatory Git branch.
 
+**Brain-X:** `research/brain-x-theory` — independent scientific invention, mathematical/computational theories, adversarial hypothesis testing and principled training/architecture proposals. Distinct from Brain-O's causal routing investigations and from the GPT-6 coordinator. Own research notebook, controls, negative results and reproduction code: [`research/brain-x/`](brain-x/README.md). **Status:** exploratory; changes pending review through [draft PR #21](https://github.com/Joel-Vazquez-Lopez/relational-transfer/pull/21).
+
 ## Integration rules
 
 - This repository's branch names are organizational, **not access or security boundaries**.

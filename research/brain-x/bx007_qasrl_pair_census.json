@@ -1,0 +1,84 @@
+{
+  "experiment": "BX-007",
+  "date": "2026-10-16",
+  "status": "REAL_UPSTREAM_DEV_STATIC_CENSUS_PLUS_LOCALLY_TESTED_SELECTOR_NO_MODEL_INFERENCE",
+  "upstream": {
+    "repository": "plroit/qasrl-gs",
+    "commit": "f7c64ae9b6fe48ff3910c3e59850a12ec278bf83",
+    "splits": [
+      "wikinews.dev",
+      "wikipedia.dev"
+    ]
+  },
+  "criteria": [
+    "same qasrl_id and verb_idx",
+    "same original WH type (who or what) but different human question strings",
+    "two separate single answer spans, zero-based half-open valid ranges, match source tokens exactly",
+    "gold answer surfaces different and each occurs exactly once in same source sentence",
+    "nonoverlapping spans",
+    "no duplicated normalized questions within predicate group",
+    "no gold strings or source text exported"
+  ],
+  "census": {
+    "wikinews.dev": {
+      "eligible_pairs": 299,
+      "by_question_wh": {
+        "who": 92,
+        "what": 207
+      },
+      "distinct_sentence_ids": 223,
+      "sentence_ids_who": 79,
+      "sentence_ids_what": 161,
+      "same_worker_pairs": 299,
+      "same_assignment_pairs": 299
+    },
+    "wikipedia.dev": {
+      "eligible_pairs": 329,
+      "by_question_wh": {
+        "who": 28,
+        "what": 301
+      },
+      "distinct_sentence_ids": 220,
+      "sentence_ids_who": 23,
+      "sentence_ids_what": 200,
+      "same_worker_pairs": 329,
+      "same_assignment_pairs": 329
+    },
+    "total": {
+      "eligible_pairs": 628,
+      "distinct_sentence_ids": 443,
+      "who_pairs": 120,
+      "what_pairs": 508,
+      "same_worker_pairs": 628,
+      "same_assignment_pairs": 628,
+      "cross_worker_pairs": 0
+    }
+  },
+  "selection_plan": {
+    "quota_per_source_and_wh": 20,
+    "target_pairs": 80,
+    "source_strata": [
+      "wikinews.dev/who",
+      "wikinews.dev/what",
+      "wikipedia.dev/who",
+      "wikipedia.dev/what"
+    ],
+    "one_pair_per_source_sentence": true,
+    "selection_uses_sha256_ranking": true,
+    "selected_exact_ids": "PENDING_NATIVE_PYTHON_COLD_REPLAY_ON_OFFICIAL_DEV_CSVS",
+    "source_document_clusters": "UNKNOWN_SENTENCE_IDS_ARE_NOT_VERIFIED_ARTICLE_IDS"
+  },
+  "scientific_limits": [
+    "The two questions in a pair are from the same original human annotation worker/assignment, not two independent human raters.",
+    "Different gold token spans and strings do not guarantee that referring expressions denote different entities; preserve original QA-SRL span-task semantics.",
+    "Question-blind constant-answer policies cannot be fully correct on these strict distinct-string singleton pairs, but a competent question-conditioned syntax/lexical copier might.",
+    "Sentry PR #29 independently owns subject/object-slot pairing; this panel overlaps scientifically but targets strict same-wh answer-collapse and does not assert semantic directionality.",
+    "Actual full-corpus counts obtained with connected GitHub read-only JS CSV parse; Python scorer only passed synthetic fixture unit tests, not full cold replay."
+  ],
+  "next": [
+    "Nova review adapter compatibility, source-text processing permissions and two-distinct-family development pilot",
+    "Comput cross-check non-privileged syntax/lexical and question-insensitive baseline",
+    "Sentry compare structural-pair overlap before assigning model run",
+    "No user-run/payed inference or paper-level novelty claim"
+  ]
+}

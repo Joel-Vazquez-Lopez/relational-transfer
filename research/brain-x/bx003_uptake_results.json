@@ -1,0 +1,160 @@
+{
+  "experiment": "BX-003",
+  "mode": "post_hoc_synthetic_audit_no_new_model_inference",
+  "source_csv_sha256": "5a1d30a65a1773168b15c6651ad1c440e567f33c8db2e6bcc0223e74ef7ba3d0",
+  "source_csv_original_sha_matches": true,
+  "fixture_sha256": "9f040b4a050e2d9c35c8eac2175ca13eeeb865b30131f2f6f3d7083547d813ef",
+  "worlds": 4000,
+  "conflict_worlds": 899,
+  "training_mixture": {
+    "valid_world_fraction": 0.8,
+    "random_world_fraction": 0.2,
+    "known_parameters": "analytic reference only"
+  },
+  "valid_predictions": {
+    "local": {
+      "score": {
+        "correct": 2612,
+        "n": 4000,
+        "accuracy": 0.653
+      },
+      "versus_local": {
+        "rescues": 0,
+        "harms": 0,
+        "flips": 0
+      }
+    },
+    "three_vote": {
+      "score": {
+        "correct": 2795,
+        "n": 4000,
+        "accuracy": 0.69875
+      },
+      "versus_local": {
+        "rescues": 541,
+        "harms": 358,
+        "flips": 899
+      }
+    },
+    "mixture_bayes": {
+      "score": {
+        "correct": 2929,
+        "n": 4000,
+        "accuracy": 0.73225
+      },
+      "versus_local": {
+        "rescues": 580,
+        "harms": 263,
+        "flips": 843
+      }
+    },
+    "model17": {
+      "score": {
+        "correct": 2606,
+        "n": 4000,
+        "accuracy": 0.6515
+      },
+      "versus_local": {
+        "rescues": 161,
+        "harms": 167,
+        "flips": 328
+      }
+    },
+    "model29": {
+      "score": {
+        "correct": 2614,
+        "n": 4000,
+        "accuracy": 0.6535
+      },
+      "versus_local": {
+        "rescues": 57,
+        "harms": 55,
+        "flips": 112
+      }
+    }
+  },
+  "conflict_predictions": {
+    "local": {
+      "score": {
+        "correct": 358,
+        "n": 899,
+        "accuracy": 0.3982202447163515
+      },
+      "local_overrides": 0
+    },
+    "three_vote": {
+      "score": {
+        "correct": 541,
+        "n": 899,
+        "accuracy": 0.6017797552836485
+      },
+      "local_overrides": 899
+    },
+    "mixture_bayes": {
+      "score": {
+        "correct": 592,
+        "n": 899,
+        "accuracy": 0.6585094549499444
+      },
+      "local_overrides": 552
+    },
+    "model17": {
+      "score": {
+        "correct": 403,
+        "n": 899,
+        "accuracy": 0.4482758620689655
+      },
+      "local_overrides": 155
+    },
+    "model29": {
+      "score": {
+        "correct": 374,
+        "n": 899,
+        "accuracy": 0.41601779755283647
+      },
+      "local_overrides": 90
+    }
+  },
+  "model_pairing": {
+    "17": {
+      "valid_vs_random": {
+        "rescues": 268,
+        "harms": 180,
+        "flips": 448
+      },
+      "valid_accuracy": {
+        "correct": 2606,
+        "n": 4000,
+        "accuracy": 0.6515
+      },
+      "random_accuracy": {
+        "correct": 2518,
+        "n": 4000,
+        "accuracy": 0.6295
+      }
+    },
+    "29": {
+      "valid_vs_random": {
+        "rescues": 128,
+        "harms": 59,
+        "flips": 187
+      },
+      "valid_accuracy": {
+        "correct": 2614,
+        "n": 4000,
+        "accuracy": 0.6535
+      },
+      "random_accuracy": {
+        "correct": 2545,
+        "n": 4000,
+        "accuracy": 0.63625
+      }
+    }
+  },
+  "scope": "post hoc; same fixed 5-node ring, 2 seeds, no authentic language or identified mechanism",
+  "mixture_bayes_random_accuracy": {
+    "correct": 2382,
+    "n": 4000,
+    "accuracy": 0.5955
+  }
+}

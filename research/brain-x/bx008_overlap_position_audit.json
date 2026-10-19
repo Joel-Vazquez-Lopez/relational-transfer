@@ -1,0 +1,75 @@
+{
+  "experiment": "BX-008",
+  "status": "SOURCE_LEVEL_RETROSPECTIVE_ANALYSIS_NO_MODEL_RUN",
+  "date": "2026-10-16",
+  "upstream": {
+    "repository": "plroit/qasrl-gs",
+    "commit": "f7c64ae9b6fe48ff3910c3e59850a12ec278bf83",
+    "partitions": [
+      "wikinews.dev",
+      "wikipedia.dev"
+    ]
+  },
+  "comparison": {
+    "rule": "Exact same source qasrl_id + verb_idx + unordered pair of (normalized original human question, original answer_range). Sentry source structural slot screen read from its PR29 script; BX-007 same-wh single-span exact-source screen.",
+    "wikinews.dev": {
+      "brain_x_pairs": 299,
+      "sentry_pairs": 330,
+      "exact_intersection": 96,
+      "brain_x_only": 203,
+      "sentry_only": 234,
+      "brainx_lex_question_first_gold_early": 162,
+      "brainx_lex_question_first_gold_late": 137,
+      "who_early": 52,
+      "who_late": 40,
+      "what_early": 110,
+      "what_late": 97
+    },
+    "wikipedia.dev": {
+      "brain_x_pairs": 329,
+      "sentry_pairs": 290,
+      "exact_intersection": 121,
+      "brain_x_only": 208,
+      "sentry_only": 169,
+      "brainx_lex_question_first_gold_early": 186,
+      "brainx_lex_question_first_gold_late": 143,
+      "who_early": 13,
+      "who_late": 15,
+      "what_early": 173,
+      "what_late": 128
+    },
+    "total": {
+      "brain_x_pairs": 628,
+      "sentry_pairs": 620,
+      "exact_intersection": 217,
+      "brain_x_only": 411,
+      "sentry_only": 403,
+      "brainx_lex_question_first_gold_early": 348,
+      "brainx_lex_question_first_gold_late": 280,
+      "first_question_earlier_fraction": 0.554140127388535
+    },
+    "note": "Source-level original DEV CSV analysis independently implemented through connected GitHub JS parsing; full original-data Python cold replay of bx008_nonredundant_pairs.py is still OPEN."
+  },
+  "pilot_feasibility": {
+    "source_only_alternative_greedy_verified": "wikinews: who early10/late10, what early10/late10; wikipedia same",
+    "total_80_balanced_possible": true,
+    "expected_target": 80,
+    "one_pair_per_source_sentence": true,
+    "actual_SHA_selected_IDs": "PENDING_FULL_ORIGINAL_PYTHON_REPLAY",
+    "final_public_model_prompt_dataset": "NOT RELEASED",
+    "source_rights_and_model_processing": "UNAPPROVED",
+    "proposed_matcher": "Bipartite source-sentence matching by gold-span early/late within same-wh, WHO first, deterministically SHA-ranked, fail closed if any quota fails."
+  },
+  "quality": {
+    "both_panels_same_worker_pairs": "100% per earlier independent original source checks",
+    "document_article_clusters": "UNVERIFIED",
+    "gold_span_order": "PRIVILEGED coordinate analysis only; never supplied to model",
+    "novelty": "NO mechanism, no published task novelty",
+    "coordinator_preflight": "GitHub issue #31 submitted for read-only retrospective audit; no future LLM run approved"
+  },
+  "provenance": {
+    "prior_bx007_report": "research/brain-x/BX007_HUMAN_QA_CONTRAST_2026-10-16.md",
+    "sentry": "research/sentry_qasrl_pairs/qa_pair_eligibility.py on research/sentry-human-qa-pair-gate-2026-10-16",
+    "local_tests": "16 prior BX-007 + 12 new BX-008 = 28 passing tests, no full corpus Python replay"
+  }
+}
