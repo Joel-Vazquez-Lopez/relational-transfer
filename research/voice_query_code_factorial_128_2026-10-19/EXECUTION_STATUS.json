@@ -1,0 +1,24 @@
+{
+  "status": "TECHNICAL_STOP_NO_FRESH_OUTPUT",
+  "investigation_cap": 1119,
+  "total_attempts": 3,
+  "completed_exposed_outputs": 2,
+  "fresh_attempts": 1,
+  "completed_fresh_outputs": 0,
+  "remaining_call_budget": 1116,
+  "tool_observed_process_exit_code": 1,
+  "python_traceback_available": false,
+  "cause": "Not established. Process ended without a payload or Python exception report.",
+  "resource_observations": {
+    "observed_at_utc": "2026-10-19T20:25:11Z (near interruption)",
+    "disk_free": "approximately304MiB",
+    "encrypted_swap_total_MiB": 9216,
+    "encrypted_swap_used_MiB": 8022.19,
+    "required_inference_disk_reserve_MiB": 1024
+  },
+  "safety": "No further inference. No unrelated processes terminated; no unique research data deleted. Duplicate packaging cleanup retained all1885 prior original payloads and published archives.",
+  "scientific_outcome": "No empirical evaluation or hypothesis decision. No fresh answer was observed; this is neither support nor falsification of the proposed accounts.",
+  "next_prerequisite": "Restore free disk and memory sufficient for local Qwen. Any future attempt requires a documented restart preserving all prior attempts and the bounded budget.",
+  "budget_sha256": "36e7c1cc2a68524b54728a75e834a1a219bffc44151189c04a134e34d95def0e",
+  "frozen_source_unchanged": true
+}
