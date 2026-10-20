@@ -1,0 +1,1386 @@
+{
+  "repo": "kmeng01/rome",
+  "head": "0874014cd9837e4365f3e6f3c71400ef11509e04",
+  "default_branch": "main",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ce4218963a3b4b24b39fdf5cef92ab317b53b52",
+      "size": 27,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/2ce4218963a3b4b24b39fdf5cef92ab317b53b52"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a26cdb349a1936d6bb6a448221cf51284184d5f",
+      "size": 2288,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/1a26cdb349a1936d6bb6a448221cf51284184d5f"
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1907279e88c07032034e1767781080b23ae56da9",
+      "size": 453,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/1907279e88c07032034e1767781080b23ae56da9"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd11d6c92607103ee77a8151e98ff0492c03eb1c",
+      "size": 1067,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/cd11d6c92607103ee77a8151e98ff0492c03eb1c"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a94d98dc532b36fd291c9bcfd633a635dfddc7f",
+      "size": 6729,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/9a94d98dc532b36fd291c9bcfd633a635dfddc7f"
+    },
+    {
+      "path": "baselines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e092d8b9d49ef59ab587eeb9aaa8464cf4a16c6",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/5e092d8b9d49ef59ab587eeb9aaa8464cf4a16c6"
+    },
+    {
+      "path": "baselines/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85269db659889602045736853b6a43b33d09c083",
+      "size": 816,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/85269db659889602045736853b6a43b33d09c083"
+    },
+    {
+      "path": "baselines/efk",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b08a86a56a26393a990ecd7347514fc392b2cf6b",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/b08a86a56a26393a990ecd7347514fc392b2cf6b"
+    },
+    {
+      "path": "baselines/efk/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c56ef62247f98b54e607fed5f92c040ce53e2bd",
+      "size": 93,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/6c56ef62247f98b54e607fed5f92c040ce53e2bd"
+    },
+    {
+      "path": "baselines/ft",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a28ad07bf6ad877d358568cf0fcec299c214ae52",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/a28ad07bf6ad877d358568cf0fcec299c214ae52"
+    },
+    {
+      "path": "baselines/ft/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfb1a8e98b88e22f2c08947be4b5609ee7b03573",
+      "size": 66,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/cfb1a8e98b88e22f2c08947be4b5609ee7b03573"
+    },
+    {
+      "path": "baselines/ft/ft_hparams.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cedd5f09980597278056c83772922ea0294e69c5",
+      "size": 497,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/cedd5f09980597278056c83772922ea0294e69c5"
+    },
+    {
+      "path": "baselines/ft/ft_main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b701361412f4f35afbe5c6368b1cc85babccbede",
+      "size": 5549,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/b701361412f4f35afbe5c6368b1cc85babccbede"
+    },
+    {
+      "path": "baselines/kn",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1272c8cdc1bde03c5da694ff3da230634bef86a1",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/1272c8cdc1bde03c5da694ff3da230634bef86a1"
+    },
+    {
+      "path": "baselines/kn/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d331392052e3a8385105b62f5dc7743af12e90e7",
+      "size": 54,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/d331392052e3a8385105b62f5dc7743af12e90e7"
+    },
+    {
+      "path": "baselines/kn/kn_hparams.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5b4b884c36ac091b7d98ad08d587fefb6ea34e1",
+      "size": 270,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/f5b4b884c36ac091b7d98ad08d587fefb6ea34e1"
+    },
+    {
+      "path": "baselines/kn/kn_main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eecf8e9ff91509ecba9d3d53b3b7353e3e6cd336",
+      "size": 1439,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/eecf8e9ff91509ecba9d3d53b3b7353e3e6cd336"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65591a69e30e63473a2a2bd9175a79727c1be75e",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/65591a69e30e63473a2a2bd9175a79727c1be75e"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec85c58b56187feb7fa11e99397f5c11642ac68a",
+      "size": 1061,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/ec85c58b56187feb7fa11e99397f5c11642ac68a"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0f0ed886e49c89034c1caaa2a64c8a1cc305bff",
+      "size": 8165,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/c0f0ed886e49c89034c1caaa2a64c8a1cc305bff"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons/knowledge_neurons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81ba7c740713901b2d28588dda22b9bbdf1124ea",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/81ba7c740713901b2d28588dda22b9bbdf1124ea"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons/knowledge_neurons/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91301f1872d39079646dc2cead6d472b952d7c36",
+      "size": 1458,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/91301f1872d39079646dc2cead6d472b952d7c36"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons/knowledge_neurons/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9c7dec26d63dd51b3b2bdb886b64b1039b7dd78",
+      "size": 3194,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/c9c7dec26d63dd51b3b2bdb886b64b1039b7dd78"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons/knowledge_neurons/knowledge_neurons.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "029a7ed163479a11d07c58423cc058b0108d4950",
+      "size": 32835,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/029a7ed163479a11d07c58423cc058b0108d4950"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons/knowledge_neurons/patch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e8c52be03505b0c71891e8b95307e1a8f66694d",
+      "size": 8947,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/8e8c52be03505b0c71891e8b95307e1a8f66694d"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons/pararel_evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6f390f30f340c3957bedd5fa66eea402867d44c",
+      "size": 10119,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/a6f390f30f340c3957bedd5fa66eea402867d44c"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons/plot_pararel_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c6b7ae64838f1b275db6e4791da19aeb29e2256",
+      "size": 4245,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/0c6b7ae64838f1b275db6e4791da19aeb29e2256"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78126b2d36424a360b61fa7eea8fbcf5178d399d",
+      "size": 39,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/78126b2d36424a360b61fa7eea8fbcf5178d399d"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c9cf564ea89e8a9647d7d6a8dfe6a50885ad08b",
+      "size": 925,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/6c9cf564ea89e8a9647d7d6a8dfe6a50885ad08b"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c4154d4201482a030aedbe7be85d0d36907ac3a",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/0c4154d4201482a030aedbe7be85d0d36907ac3a"
+    },
+    {
+      "path": "baselines/kn/knowledge_neurons/tests/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e71c17a7dfe6916bf103f5cac2316dc1a8e0361d",
+      "size": 9085,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/e71c17a7dfe6916bf103f5cac2316dc1a8e0361d"
+    },
+    {
+      "path": "baselines/mend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee361734d3bc8448424269c7191bbd83bcc970cc",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/ee361734d3bc8448424269c7191bbd83bcc970cc"
+    },
+    {
+      "path": "baselines/mend/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "304dfea3ceb2fe66bdc1c603b1c392668789059e",
+      "size": 2438,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/304dfea3ceb2fe66bdc1c603b1c392668789059e"
+    },
+    {
+      "path": "baselines/mend/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cac33fe7f71dc23e04507bd1c16995a622f8eaf",
+      "size": 85,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/8cac33fe7f71dc23e04507bd1c16995a622f8eaf"
+    },
+    {
+      "path": "baselines/mend/algs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b350258538ac6eb5ffafc7d90d8a707806228e1e",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/b350258538ac6eb5ffafc7d90d8a707806228e1e"
+    },
+    {
+      "path": "baselines/mend/algs/efk.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27df0d4e94fcb0c01783e2309383e8ce2bd3b0e4",
+      "size": 11521,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/27df0d4e94fcb0c01783e2309383e8ce2bd3b0e4"
+    },
+    {
+      "path": "baselines/mend/algs/enn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71916d0c869d13e1d4c976c2439df2df9da48d62",
+      "size": 4017,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/71916d0c869d13e1d4c976c2439df2df9da48d62"
+    },
+    {
+      "path": "baselines/mend/algs/ft.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7774dcb762d7e947629bf6792343c4f71c629be",
+      "size": 5450,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/a7774dcb762d7e947629bf6792343c4f71c629be"
+    },
+    {
+      "path": "baselines/mend/algs/mend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e97985c8daf637afd5c99f253c490dc40a49a8",
+      "size": 16484,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/57e97985c8daf637afd5c99f253c490dc40a49a8"
+    },
+    {
+      "path": "baselines/mend/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa3f485ab6481ca5a7bba5d13f874f4db3ef06d2",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/fa3f485ab6481ca5a7bba5d13f874f4db3ef06d2"
+    },
+    {
+      "path": "baselines/mend/config/alg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf5bb8e520d82adc127b108e3db11598e59bded2",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/cf5bb8e520d82adc127b108e3db11598e59bded2"
+    },
+    {
+      "path": "baselines/mend/config/alg/efk.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e056a2c3435a7cd8f3e9a249e1259bb6e78c9f00",
+      "size": 57,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/e056a2c3435a7cd8f3e9a249e1259bb6e78c9f00"
+    },
+    {
+      "path": "baselines/mend/config/alg/enn.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba92df5098c04f7cbebda9849ba9db6fcea8b94d",
+      "size": 91,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/ba92df5098c04f7cbebda9849ba9db6fcea8b94d"
+    },
+    {
+      "path": "baselines/mend/config/alg/ft.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d53d1275b2be94dc212514c63fb19d50df8e9f4b",
+      "size": 250,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/d53d1275b2be94dc212514c63fb19d50df8e9f4b"
+    },
+    {
+      "path": "baselines/mend/config/alg/mend.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57a1603720da5d4ea589c5362fb8543bb6520563",
+      "size": 277,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/57a1603720da5d4ea589c5362fb8543bb6520563"
+    },
+    {
+      "path": "baselines/mend/config/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f63cdc2a063f7fdb3d542ad6b3be6a333aeaeb38",
+      "size": 944,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/f63cdc2a063f7fdb3d542ad6b3be6a333aeaeb38"
+    },
+    {
+      "path": "baselines/mend/config/experiment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9351c58a8a038d7846e67d4d4621463db481e1ed",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/9351c58a8a038d7846e67d4d4621463db481e1ed"
+    },
+    {
+      "path": "baselines/mend/config/experiment/fc.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3841c0d5c281436c6cc4c97e6e8fa3a2458e5781",
+      "size": 56,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/3841c0d5c281436c6cc4c97e6e8fa3a2458e5781"
+    },
+    {
+      "path": "baselines/mend/config/experiment/gen.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67db60fcf11e0e64b9dde2500252099d498b1379",
+      "size": 131,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/67db60fcf11e0e64b9dde2500252099d498b1379"
+    },
+    {
+      "path": "baselines/mend/config/experiment/qa.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a58f758b8a3b896f05aab12187a121026f132254",
+      "size": 55,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/a58f758b8a3b896f05aab12187a121026f132254"
+    },
+    {
+      "path": "baselines/mend/config/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d83eb2852a2b8b7716b8286f9f7129de877c8a76",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/d83eb2852a2b8b7716b8286f9f7129de877c8a76"
+    },
+    {
+      "path": "baselines/mend/config/model/bart-base.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12d2ae164b15c7179fcf204e8f9bb406de250005",
+      "size": 487,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/12d2ae164b15c7179fcf204e8f9bb406de250005"
+    },
+    {
+      "path": "baselines/mend/config/model/bert-base.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "477ac00ecde57484beea0b79a4e13a4b3517a27e",
+      "size": 470,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/477ac00ecde57484beea0b79a4e13a4b3517a27e"
+    },
+    {
+      "path": "baselines/mend/config/model/distilgpt2.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c2f0dce85f29dad11ea55e041cbf40f28ec5f14",
+      "size": 360,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/0c2f0dce85f29dad11ea55e041cbf40f28ec5f14"
+    },
+    {
+      "path": "baselines/mend/config/model/gpt2.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b324823bbf078f21a059e491c0077d297fa1a9f",
+      "size": 322,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/1b324823bbf078f21a059e491c0077d297fa1a9f"
+    },
+    {
+      "path": "baselines/mend/config/model/gpt2large.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7a2537dea3a701555fd6a1ea0cf3d95f358eaaa",
+      "size": 337,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/d7a2537dea3a701555fd6a1ea0cf3d95f358eaaa"
+    },
+    {
+      "path": "baselines/mend/config/model/gpt2medium.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "947d9e7e86279efba2119c2456a5a9fbf91c4f3b",
+      "size": 338,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/947d9e7e86279efba2119c2456a5a9fbf91c4f3b"
+    },
+    {
+      "path": "baselines/mend/config/model/gpt2xl.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4ff9811eb1ce4a136bc2f6a7d98c7618ea0bb82",
+      "size": 331,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/f4ff9811eb1ce4a136bc2f6a7d98c7618ea0bb82"
+    },
+    {
+      "path": "baselines/mend/config/model/gptj.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e5f869ad070d5fae92fe8315cfa7978b6bd4e90",
+      "size": 354,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/5e5f869ad070d5fae92fe8315cfa7978b6bd4e90"
+    },
+    {
+      "path": "baselines/mend/config/model/gptneo27.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64e3ee734bdb61237f7654c7be72d50ca42883c4",
+      "size": 365,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/64e3ee734bdb61237f7654c7be72d50ca42883c4"
+    },
+    {
+      "path": "baselines/mend/config/model/t5large.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c898cd946053f7aee0ea94319f1437820848f781",
+      "size": 572,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/c898cd946053f7aee0ea94319f1437820848f781"
+    },
+    {
+      "path": "baselines/mend/config/model/t5small.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "881a348fc637856d21657302b56ca7483274dd55",
+      "size": 572,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/881a348fc637856d21657302b56ca7483274dd55"
+    },
+    {
+      "path": "baselines/mend/config/model/t5xl.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11a2a98c18f2e8fbd2a038510527b51121cd4b0a",
+      "size": 574,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/11a2a98c18f2e8fbd2a038510527b51121cd4b0a"
+    },
+    {
+      "path": "baselines/mend/config/model/t5xxl.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a97671ddb6cd7e065b1570c518b8b2d07f51ed34",
+      "size": 576,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/a97671ddb6cd7e065b1570c518b8b2d07f51ed34"
+    },
+    {
+      "path": "baselines/mend/data_classes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aebd1295a7da299ae50fa3345f9b4a22cd4b1173",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/aebd1295a7da299ae50fa3345f9b4a22cd4b1173"
+    },
+    {
+      "path": "baselines/mend/data_classes/fever.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bfe958a9d17fb40479b3cf5ed13d387da98a099",
+      "size": 4399,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/1bfe958a9d17fb40479b3cf5ed13d387da98a099"
+    },
+    {
+      "path": "baselines/mend/data_classes/nq.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab27c6626e2a0cad0d412d32640048e0da380361",
+      "size": 2098,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/ab27c6626e2a0cad0d412d32640048e0da380361"
+    },
+    {
+      "path": "baselines/mend/data_classes/wiki.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2d99b406f00a53990c777a67363c9f29344388d",
+      "size": 4533,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/c2d99b406f00a53990c777a67363c9f29344388d"
+    },
+    {
+      "path": "baselines/mend/data_classes/zsre.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd157db8a00822b7b31a4e59151c94cf9c1e8666",
+      "size": 7502,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/cd157db8a00822b7b31a4e59151c94cf9c1e8666"
+    },
+    {
+      "path": "baselines/mend/editable_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c50c81735058f18b52306b970b1c673ac4b270c",
+      "size": 876,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/1c50c81735058f18b52306b970b1c673ac4b270c"
+    },
+    {
+      "path": "baselines/mend/efk_hparams.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "debe4527c8eb289f39437446ff631eb83d05a805",
+      "size": 213,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/debe4527c8eb289f39437446ff631eb83d05a805"
+    },
+    {
+      "path": "baselines/mend/efk_main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39457770237cc8d6e52630db38f2d32559039289",
+      "size": 4359,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/39457770237cc8d6e52630db38f2d32559039289"
+    },
+    {
+      "path": "baselines/mend/hooks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8938772c10ff366acc5fa503fb444ead77ce3a8c",
+      "size": 854,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/8938772c10ff366acc5fa503fb444ead77ce3a8c"
+    },
+    {
+      "path": "baselines/mend/losses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3e690b34e6870778195398ae4bdd4dc2a8dfbb3",
+      "size": 2859,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/e3e690b34e6870778195398ae4bdd4dc2a8dfbb3"
+    },
+    {
+      "path": "baselines/mend/mend_hparams.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97c1017af900bfd0f64285cfc364216367fc6235",
+      "size": 229,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/97c1017af900bfd0f64285cfc364216367fc6235"
+    },
+    {
+      "path": "baselines/mend/mend_main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da52fe40c752b9e792c9ba2acfae0c17c54b7ec3",
+      "size": 6157,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/da52fe40c752b9e792c9ba2acfae0c17c54b7ec3"
+    },
+    {
+      "path": "baselines/mend/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c79650a345fc4fd43b8edbdfb5f2e61aee535b93",
+      "size": 6628,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/c79650a345fc4fd43b8edbdfb5f2e61aee535b93"
+    },
+    {
+      "path": "baselines/mend/nn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3038e553070b26f228d7e572063cf7c781a0ef09",
+      "size": 6879,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/3038e553070b26f228d7e572063cf7c781a0ef09"
+    },
+    {
+      "path": "baselines/mend/oracle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f47360ceadc31e9acbc9ba706893b67041901ea",
+      "size": 3983,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/9f47360ceadc31e9acbc9ba706893b67041901ea"
+    },
+    {
+      "path": "baselines/mend/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56ca83597d820d43484c0b3580150d0831bf6ca2",
+      "size": 290,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/56ca83597d820d43484c0b3580150d0831bf6ca2"
+    },
+    {
+      "path": "baselines/mend/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e1a5af622e7aa36bddb7ec961ad7ea9d455a9fe",
+      "size": 3244,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/4e1a5af622e7aa36bddb7ec961ad7ea9d455a9fe"
+    },
+    {
+      "path": "baselines/mend/trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adcb59cdb32d90778032b26821a5530c97fc7d08",
+      "size": 15105,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/adcb59cdb32d90778032b26821a5530c97fc7d08"
+    },
+    {
+      "path": "baselines/mend/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e84a5827af1d35a89b426005e1d937bafe1cc609",
+      "size": 8198,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/e84a5827af1d35a89b426005e1d937bafe1cc609"
+    },
+    {
+      "path": "dsets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb680b7a8b19008686f2121d74a4e4bf6e970b57",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/cb680b7a8b19008686f2121d74a4e4bf6e970b57"
+    },
+    {
+      "path": "dsets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4ee7abec5cf501c61bd13b95427907b51af3d93",
+      "size": 201,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/e4ee7abec5cf501c61bd13b95427907b51af3d93"
+    },
+    {
+      "path": "dsets/attr_snippets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1b0c9188c828484dc717fb65ab26255dc5d0cae",
+      "size": 1327,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/a1b0c9188c828484dc717fb65ab26255dc5d0cae"
+    },
+    {
+      "path": "dsets/counterfact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5299c7ce5d5277185306753d15f8e8b981740f32",
+      "size": 968,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/5299c7ce5d5277185306753d15f8e8b981740f32"
+    },
+    {
+      "path": "dsets/knowns.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d50203731198717cea51f377334ce35cbe534550",
+      "size": 857,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/d50203731198717cea51f377334ce35cbe534550"
+    },
+    {
+      "path": "dsets/tfidf_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fe83bcd7ef8dcc6f0866ae6e34b4dcecf18e508",
+      "size": 2201,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/2fe83bcd7ef8dcc6f0866ae6e34b4dcecf18e508"
+    },
+    {
+      "path": "dsets/zsre.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46a81ad71bb26b69640334caf7e481539ddbcee8",
+      "size": 2219,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/46a81ad71bb26b69640334caf7e481539ddbcee8"
+    },
+    {
+      "path": "experiments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a4fa4a4c6e8fda528406721966f5f386b980f6da",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/a4fa4a4c6e8fda528406721966f5f386b980f6da"
+    },
+    {
+      "path": "experiments/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "experiments/causal_trace.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39efcb307a1ff47c0b9f6ec62968bc05c2ee0b63",
+      "size": 24920,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/39efcb307a1ff47c0b9f6ec62968bc05c2ee0b63"
+    },
+    {
+      "path": "experiments/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f53274ce80111ac20f3e48292f6892e99585d719",
+      "size": 7419,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/f53274ce80111ac20f3e48292f6892e99585d719"
+    },
+    {
+      "path": "experiments/py",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7902c4b248a23b3c7e4f6f94f49ae27e7f7c1d13",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/7902c4b248a23b3c7e4f6f94f49ae27e7f7c1d13"
+    },
+    {
+      "path": "experiments/py/demo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b44e4f42a92aef78d6abab542ac27475cd6791b2",
+      "size": 5183,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/b44e4f42a92aef78d6abab542ac27475cd6791b2"
+    },
+    {
+      "path": "experiments/py/eval_utils_counterfact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80bb6be2b47c61b3fd2613d626955ff549615690",
+      "size": 6501,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/80bb6be2b47c61b3fd2613d626955ff549615690"
+    },
+    {
+      "path": "experiments/py/eval_utils_zsre.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de879ebe97c870319b7e81278a739d68d8544b85",
+      "size": 3845,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/de879ebe97c870319b7e81278a739d68d8544b85"
+    },
+    {
+      "path": "experiments/summarize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b213e7fcf477e0722c3729d56a11abfac33ec4c1",
+      "size": 6634,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/b213e7fcf477e0722c3729d56a11abfac33ec4c1"
+    },
+    {
+      "path": "experiments/sweep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63a2d669e22c64550540b3f77b6d9a8daaf9e6f4",
+      "size": 2829,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/63a2d669e22c64550540b3f77b6d9a8daaf9e6f4"
+    },
+    {
+      "path": "globals.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f908e7e741d1660a699f9317f1794946cf09baa6",
+      "size": 216,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/f908e7e741d1660a699f9317f1794946cf09baa6"
+    },
+    {
+      "path": "hparams",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1aa5874308d8ec1f7b2abca9aae5fb35cc571711",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/1aa5874308d8ec1f7b2abca9aae5fb35cc571711"
+    },
+    {
+      "path": "hparams/FT",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7aa78d0267d9e10d492cb0de93eacb8445f16a59",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/7aa78d0267d9e10d492cb0de93eacb8445f16a59"
+    },
+    {
+      "path": "hparams/FT/EleutherAI_gpt-j-6B_constr.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "786aae0b21c50e9e8c39625abfc9d41d1cb432bc",
+      "size": 411,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/786aae0b21c50e9e8c39625abfc9d41d1cb432bc"
+    },
+    {
+      "path": "hparams/FT/EleutherAI_gpt-j-6B_unconstr.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfba8a6cb6b12d16f820cdff6f2e88445b11a7b8",
+      "size": 413,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/cfba8a6cb6b12d16f820cdff6f2e88445b11a7b8"
+    },
+    {
+      "path": "hparams/FT/gpt2-large_constr.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18659f28f4f7615ece0b4b11a48a8a1ac8bf2f68",
+      "size": 419,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/18659f28f4f7615ece0b4b11a48a8a1ac8bf2f68"
+    },
+    {
+      "path": "hparams/FT/gpt2-medium_constr.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e84bc4264036bfc840ad99b51509984ec841735b",
+      "size": 419,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/e84bc4264036bfc840ad99b51509984ec841735b"
+    },
+    {
+      "path": "hparams/FT/gpt2-xl_attn.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b769e25f885618c2573d0146a927fc1b6f496f8",
+      "size": 421,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/0b769e25f885618c2573d0146a927fc1b6f496f8"
+    },
+    {
+      "path": "hparams/FT/gpt2-xl_constr.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23ffa063eb88927c17a6c59080f0ab2b25fb1e73",
+      "size": 419,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/23ffa063eb88927c17a6c59080f0ab2b25fb1e73"
+    },
+    {
+      "path": "hparams/FT/gpt2-xl_unconstr.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1819ee5578f8d23300e08631701805837c7345d",
+      "size": 420,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/b1819ee5578f8d23300e08631701805837c7345d"
+    },
+    {
+      "path": "hparams/KE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aee4d92b2d4bd5c86e8ec71cd25bfb2eea103c0f",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/aee4d92b2d4bd5c86e8ec71cd25bfb2eea103c0f"
+    },
+    {
+      "path": "hparams/KE/gpt2-xl.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "242b668f70ca07b4c50d6af5d520e70745a8d62c",
+      "size": 114,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/242b668f70ca07b4c50d6af5d520e70745a8d62c"
+    },
+    {
+      "path": "hparams/KE/gpt2-xl_CF.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "073dc77a7692427195078cc90f021b0fd65358ad",
+      "size": 113,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/073dc77a7692427195078cc90f021b0fd65358ad"
+    },
+    {
+      "path": "hparams/KE/gpt2-xl_zsRE.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30ef981e857cd0db0f376ea249a071264ec8ff68",
+      "size": 113,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/30ef981e857cd0db0f376ea249a071264ec8ff68"
+    },
+    {
+      "path": "hparams/KN",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65d940db74233a593470f0fb02f981194bfc97d7",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/65d940db74233a593470f0fb02f981194bfc97d7"
+    },
+    {
+      "path": "hparams/KN/gpt2-xl.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "133c4d2674fd765211a7d20cc3dcedbbef7e5dda",
+      "size": 175,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/133c4d2674fd765211a7d20cc3dcedbbef7e5dda"
+    },
+    {
+      "path": "hparams/MEND",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd8fdcadb4dbe053692c8d333430bad31308924d",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/dd8fdcadb4dbe053692c8d333430bad31308924d"
+    },
+    {
+      "path": "hparams/MEND/EleutherAI_gpt-j-6B.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc022152e99203c5434b03d6b35cd37db03c6b4b",
+      "size": 146,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/dc022152e99203c5434b03d6b35cd37db03c6b4b"
+    },
+    {
+      "path": "hparams/MEND/EleutherAI_gpt-j-6B_CF.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9cec68aefc40e40566c0ff13ef2d53a5efb75be",
+      "size": 145,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/b9cec68aefc40e40566c0ff13ef2d53a5efb75be"
+    },
+    {
+      "path": "hparams/MEND/gpt2-xl.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f27333979cb043daccdf3042d85afd299250c3b0",
+      "size": 134,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/f27333979cb043daccdf3042d85afd299250c3b0"
+    },
+    {
+      "path": "hparams/MEND/gpt2-xl_CF.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbfe1c3d702080ca63fd82fde1402b252b5588d8",
+      "size": 132,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/fbfe1c3d702080ca63fd82fde1402b252b5588d8"
+    },
+    {
+      "path": "hparams/MEND/gpt2-xl_zsRE.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4463378bd15279eb823b0e9726e4950d825c2521",
+      "size": 132,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/4463378bd15279eb823b0e9726e4950d825c2521"
+    },
+    {
+      "path": "hparams/ROME",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b337a0e5629be39dbfaa74a12b999c6c485d72c",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/1b337a0e5629be39dbfaa74a12b999c6c485d72c"
+    },
+    {
+      "path": "hparams/ROME/EleutherAI_gpt-j-6B.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a54ce622607b22d7cb2a4f8b80a6f40ceb5535c5",
+      "size": 666,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/a54ce622607b22d7cb2a4f8b80a6f40ceb5535c5"
+    },
+    {
+      "path": "hparams/ROME/gpt2-large.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "596904adda28c3eec2f92411d06dbfa17842cded",
+      "size": 671,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/596904adda28c3eec2f92411d06dbfa17842cded"
+    },
+    {
+      "path": "hparams/ROME/gpt2-medium.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00ea6e8e4760611396da121afc16b6b2ce1da52a",
+      "size": 670,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/00ea6e8e4760611396da121afc16b6b2ce1da52a"
+    },
+    {
+      "path": "hparams/ROME/gpt2-xl.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "451604309afc0855557b1afa080832a67cf0ce71",
+      "size": 675,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/451604309afc0855557b1afa080832a67cf0ce71"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a8a4b0c58c85c17ee0dd3c5988c622299a6ee3a",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/5a8a4b0c58c85c17ee0dd3c5988c622299a6ee3a"
+    },
+    {
+      "path": "notebooks/average_causal_effects.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "800e2ac7980bdda805cdc0b95df2fc4777c9459f",
+      "size": 10947,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/800e2ac7980bdda805cdc0b95df2fc4777c9459f"
+    },
+    {
+      "path": "notebooks/baselines",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "f80bbb149dbfcbbacfb430bf609f6716a3c310af",
+      "size": 13,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/f80bbb149dbfcbbacfb430bf609f6716a3c310af"
+    },
+    {
+      "path": "notebooks/causal_trace.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b312212418153ccf207cd03d8b19b64e1a6ca18a",
+      "size": 16905,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/b312212418153ccf207cd03d8b19b64e1a6ca18a"
+    },
+    {
+      "path": "notebooks/causal_trace_frozen_mlp_attn.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2b6c969e85ce2a597df658eba48e4591709764e",
+      "size": 22610,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/a2b6c969e85ce2a597df658eba48e4591709764e"
+    },
+    {
+      "path": "notebooks/dsets",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "ad6bdcb5d1009f7c02b9966165776f4a20f91b88",
+      "size": 9,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/ad6bdcb5d1009f7c02b9966165776f4a20f91b88"
+    },
+    {
+      "path": "notebooks/experiments",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "e0bb8e6f3eb7ee732b4ba2b93f8417369769aefd",
+      "size": 15,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/e0bb8e6f3eb7ee732b4ba2b93f8417369769aefd"
+    },
+    {
+      "path": "notebooks/globals.yml",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "b47b9cbb4390095637a62ad4c7f366d599220cf6",
+      "size": 14,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/b47b9cbb4390095637a62ad4c7f366d599220cf6"
+    },
+    {
+      "path": "notebooks/hparams",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "ea2a8f46a3331deff1c303d0437a563c0e88cd99",
+      "size": 11,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/ea2a8f46a3331deff1c303d0437a563c0e88cd99"
+    },
+    {
+      "path": "notebooks/rome",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "17d336fdefa3cfb9f437aa3f91592e4a963d266c",
+      "size": 8,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/17d336fdefa3cfb9f437aa3f91592e4a963d266c"
+    },
+    {
+      "path": "notebooks/rome.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f11c04cce11ee96843d4aec0574c00d010f50e8d",
+      "size": 9772,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/f11c04cce11ee96843d4aec0574c00d010f50e8d"
+    },
+    {
+      "path": "notebooks/util",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "40c3fc5bdf8a05cbcfa702e1f7ca453c5d378b9c",
+      "size": 7,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/40c3fc5bdf8a05cbcfa702e1f7ca453c5d378b9c"
+    },
+    {
+      "path": "notebooks/vis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78030e0984d1eea1618f6727376e80d250dff808",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/78030e0984d1eea1618f6727376e80d250dff808"
+    },
+    {
+      "path": "notebooks/vis/experiments",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "f3dfc08d5c89d68010990df1a08808a95ad98a8c",
+      "size": 14,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/f3dfc08d5c89d68010990df1a08808a95ad98a8c"
+    },
+    {
+      "path": "notebooks/vis/globals.yml",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "b47b9cbb4390095637a62ad4c7f366d599220cf6",
+      "size": 14,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/b47b9cbb4390095637a62ad4c7f366d599220cf6"
+    },
+    {
+      "path": "notebooks/vis/table_population.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9160ebbca36c2eadecafcb0a780c574d4a3e8b9e",
+      "size": 7059,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/9160ebbca36c2eadecafcb0a780c574d4a3e8b9e"
+    },
+    {
+      "path": "notebooks/vis/table_population_zsre.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d102e6d465854f4b5e560f14ef041b2ab7e73b5b",
+      "size": 5539,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/d102e6d465854f4b5e560f14ef041b2ab7e73b5b"
+    },
+    {
+      "path": "notebooks/vis/util",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "40c3fc5bdf8a05cbcfa702e1f7ca453c5d378b9c",
+      "size": 7,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/40c3fc5bdf8a05cbcfa702e1f7ca453c5d378b9c"
+    },
+    {
+      "path": "notebooks/vis/visualize_sweeps.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eceb21f2a1feb24da5a43599ddf7bbc77aa575d4",
+      "size": 13168,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/eceb21f2a1feb24da5a43599ddf7bbc77aa575d4"
+    },
+    {
+      "path": "rome",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d366bc1776cfb88f3fd2043426e3ec3a1ad2607",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/0d366bc1776cfb88f3fd2043426e3ec3a1ad2607"
+    },
+    {
+      "path": "rome/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1fa2909b6c47f28e4c00e451d5141eac254e165",
+      "size": 861,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/d1fa2909b6c47f28e4c00e451d5141eac254e165"
+    },
+    {
+      "path": "rome/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da48b0b04baffe1a0fa470c8eaabd45fe09fdbf1",
+      "size": 74,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/da48b0b04baffe1a0fa470c8eaabd45fe09fdbf1"
+    },
+    {
+      "path": "rome/compute_u.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f4f90ba17ce32f977e015113f28ac7ba6b6c65e",
+      "size": 3520,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/2f4f90ba17ce32f977e015113f28ac7ba6b6c65e"
+    },
+    {
+      "path": "rome/compute_v.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bd8e22c8c8c576822d2850963181884620b0c2f",
+      "size": 8873,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/7bd8e22c8c8c576822d2850963181884620b0c2f"
+    },
+    {
+      "path": "rome/layer_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a07cec03a53db6af74ad133f7e9c813ecd7d461",
+      "size": 5711,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/8a07cec03a53db6af74ad133f7e9c813ecd7d461"
+    },
+    {
+      "path": "rome/repr_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de3a16ad46013d7afb8ff09a13c548a25441f948",
+      "size": 4937,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/de3a16ad46013d7afb8ff09a13c548a25441f948"
+    },
+    {
+      "path": "rome/rome_hparams.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17553b12f0de0b3ebb15c940a3f1abba51988741",
+      "size": 674,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/17553b12f0de0b3ebb15c940a3f1abba51988741"
+    },
+    {
+      "path": "rome/rome_main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bc8f3697b7f931bf6e69ce0cfe2bfbe2a252657",
+      "size": 5695,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/3bc8f3697b7f931bf6e69ce0cfe2bfbe2a252657"
+    },
+    {
+      "path": "rome/tok_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15d37cc7859ea130d2aff0914bd000d0830af0df",
+      "size": 3103,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/15d37cc7859ea130d2aff0914bd000d0830af0df"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "60e30ddce55c53dd9a5b9607c94d19e1c310bf87",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/60e30ddce55c53dd9a5b9607c94d19e1c310bf87"
+    },
+    {
+      "path": "scripts/causal_trace.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c1c877232f13cc7d8070ae3fe6c6ec33cc3a529d",
+      "size": 421,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/c1c877232f13cc7d8070ae3fe6c6ec33cc3a529d"
+    },
+    {
+      "path": "scripts/colab_reqs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b67adb1607598c3d21312948c279d584b363f98e",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/b67adb1607598c3d21312948c279d584b363f98e"
+    },
+    {
+      "path": "scripts/colab_reqs/additional.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d51e4de82ec170c3b4c5e852694b480ea127178",
+      "size": 61,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/7d51e4de82ec170c3b4c5e852694b480ea127178"
+    },
+    {
+      "path": "scripts/colab_reqs/rome.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f688882184094b47866561ee6c9474a9b1fdccd2",
+      "size": 105,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/f688882184094b47866561ee6c9474a9b1fdccd2"
+    },
+    {
+      "path": "scripts/collect_layer_stats.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0c116e2275d17de279f82056e802a486892c747f",
+      "size": 512,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/0c116e2275d17de279f82056e802a486892c747f"
+    },
+    {
+      "path": "scripts/ipynb_drop_output.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "eb00e23bfc472e532754aaebf648b98e2d9934f2",
+      "size": 2924,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/eb00e23bfc472e532754aaebf648b98e2d9934f2"
+    },
+    {
+      "path": "scripts/rome.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f5cd95887ab720c5ec64f9696df795e852ae84e",
+      "size": 4650,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/8f5cd95887ab720c5ec64f9696df795e852ae84e"
+    },
+    {
+      "path": "scripts/setup_clean_ipynb.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8f40c178b386f4088cb2d8119bfc7785a3c70eae",
+      "size": 308,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/8f40c178b386f4088cb2d8119bfc7785a3c70eae"
+    },
+    {
+      "path": "scripts/setup_conda.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2bfe48aa70acf970e4d23fb8cc0106757007abe2",
+      "size": 1894,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/2bfe48aa70acf970e4d23fb8cc0106757007abe2"
+    },
+    {
+      "path": "util",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94c25af540bf2c9b1857fb3d05b0de18b3b1937e",
+      "url": "https://api.github.com/repos/kmeng01/rome/git/trees/94c25af540bf2c9b1857fb3d05b0de18b3b1937e"
+    },
+    {
+      "path": "util/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "960ceeb235162556610fb881395beb3d19861041",
+      "size": 34,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/960ceeb235162556610fb881395beb3d19861041"
+    },
+    {
+      "path": "util/generate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "590d950c6c7ce7e46c5f6707650f725dbd372efb",
+      "size": 5446,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/590d950c6c7ce7e46c5f6707650f725dbd372efb"
+    },
+    {
+      "path": "util/globals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b05875305a0e87595cf453a461baa99905f17bf",
+      "size": 357,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/9b05875305a0e87595cf453a461baa99905f17bf"
+    },
+    {
+      "path": "util/hparams.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe674394e7e79e7dcc3053834819f44ced71c412",
+      "size": 319,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/fe674394e7e79e7dcc3053834819f44ced71c412"
+    },
+    {
+      "path": "util/logit_lens.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9214b6effb07b2551a053d978127a8e06e07bf9a",
+      "size": 2893,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/9214b6effb07b2551a053d978127a8e06e07bf9a"
+    },
+    {
+      "path": "util/nethook.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12177ca712671bde288d4bae7592b3c80257d4e8",
+      "size": 15506,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/12177ca712671bde288d4bae7592b3c80257d4e8"
+    },
+    {
+      "path": "util/perplexity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d4815015f2c48e11ac56d80e49460e4fb31db70",
+      "size": 758,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/5d4815015f2c48e11ac56d80e49460e4fb31db70"
+    },
+    {
+      "path": "util/runningstats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9c47c888ce5e8cbe8d72f86f6c8700632bf3f17",
+      "size": 65305,
+      "url": "https://api.github.com/repos/kmeng01/rome/git/blobs/c9c47c888ce5e8cbe8d72f86f6c8700632bf3f17"
+    }
+  ],
+  "releases": []
+}

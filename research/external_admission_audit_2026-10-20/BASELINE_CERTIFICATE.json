@@ -1,0 +1,514 @@
+{
+  "scope": "Posthoc static source audit and authored arithmetic examples, not an external LLM reanalysis. No downloaded code executed; no external outcome values inspected.",
+  "notebook_sha256": "4af0ada0695dd33ffd23bc2adebe812c313a565c005e676c160e01290627a06e",
+  "archive_sha256": "2c92ff0cba813a7fa71a66199b882e0b210f7af7018a44bc12217c181a647aef",
+  "source_cell_zero_based": 23,
+  "function": "resid_act_patch_pca_ld",
+  "source_cell_sha256": "fbab780e6046428d5764328bfb26855927b63d2123ce87589e56f7c6115d1f24",
+  "baseline_store_count": 1,
+  "baseline_load_count": 1,
+  "baseline_store_ancestry": [
+    {
+      "type": "If",
+      "test": "pi == 0"
+    },
+    {
+      "type": "For",
+      "target": "data",
+      "iterator": "tqdm(datas[:])"
+    },
+    {
+      "type": "For",
+      "target": "pi",
+      "iterator": "range(nb_pi)"
+    }
+  ],
+  "checks": [
+    {
+      "name": "zero_true_effect_is_zero_with_paired_baseline",
+      "passed": true
+    },
+    {
+      "name": "stale_baseline_reports_spurious_zero_effect",
+      "passed": true
+    },
+    {
+      "name": "stale_result_changes_with_example_order",
+      "passed": true
+    },
+    {
+      "name": "paired_result_invariant_to_example_order",
+      "passed": true
+    },
+    {
+      "name": "uniform_effect_recovered",
+      "passed": true
+    },
+    {
+      "name": "uniform_paired_effect_has_zero_std",
+      "passed": true
+    },
+    {
+      "name": "stale_std_can_be_nonzero_for_constant_effect",
+      "passed": true
+    },
+    {
+      "name": "between_nonzero_steps_mean_difference_preserved",
+      "passed": true
+    },
+    {
+      "name": "exact_bias_identity_zero_true_effect",
+      "passed": true
+    },
+    {
+      "name": "exact_bias_identity_same_zero_effect_reordered",
+      "passed": true
+    },
+    {
+      "name": "exact_bias_identity_uniform_true_effect",
+      "passed": true
+    },
+    {
+      "name": "exact_bias_identity_twice_uniform_true_effect",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "fixtures": [
+    {
+      "name": "zero_true_effect",
+      "synthetic": true,
+      "baseline": [
+        [
+          8.0,
+          0.0,
+          -1.0
+        ],
+        [
+          1.0,
+          9.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          10.0
+        ]
+      ],
+      "intervened": [
+        [
+          8.0,
+          0.0,
+          -1.0
+        ],
+        [
+          1.0,
+          9.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          10.0
+        ]
+      ],
+      "stale_differences": [
+        [
+          8.0,
+          -2.0,
+          -11.0
+        ],
+        [
+          1.0,
+          7.0,
+          -10.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "paired_differences": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "stale_mean": [
+        3.0,
+        1.6666666666666667,
+        -7.0
+      ],
+      "paired_mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predicted_mean_bias": [
+        3.0,
+        1.6666666666666665,
+        -7.0
+      ],
+      "measured_mean_bias": [
+        3.0,
+        1.6666666666666667,
+        -7.0
+      ],
+      "stale_std": [
+        3.559026084010437,
+        3.858612300930075,
+        4.96655480858378
+      ],
+      "paired_std": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predicted_labels": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "same_zero_effect_reordered",
+      "synthetic": true,
+      "baseline": [
+        [
+          0.0,
+          2.0,
+          10.0
+        ],
+        [
+          1.0,
+          9.0,
+          0.0
+        ],
+        [
+          8.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "intervened": [
+        [
+          0.0,
+          2.0,
+          10.0
+        ],
+        [
+          1.0,
+          9.0,
+          0.0
+        ],
+        [
+          8.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "stale_differences": [
+        [
+          -8.0,
+          2.0,
+          11.0
+        ],
+        [
+          -7.0,
+          9.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "paired_differences": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "stale_mean": [
+        -5.0,
+        3.6666666666666665,
+        4.0
+      ],
+      "paired_mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predicted_mean_bias": [
+        -5.0,
+        3.6666666666666665,
+        4.0
+      ],
+      "measured_mean_bias": [
+        -5.0,
+        3.6666666666666665,
+        4.0
+      ],
+      "stale_std": [
+        3.559026084010437,
+        3.858612300930075,
+        4.96655480858378
+      ],
+      "paired_std": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predicted_labels": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "uniform_true_effect",
+      "synthetic": true,
+      "baseline": [
+        [
+          8.0,
+          0.0,
+          -1.0
+        ],
+        [
+          1.0,
+          9.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          10.0
+        ]
+      ],
+      "intervened": [
+        [
+          9.0,
+          -2.0,
+          2.0
+        ],
+        [
+          2.0,
+          7.0,
+          3.0
+        ],
+        [
+          1.0,
+          0.0,
+          13.0
+        ]
+      ],
+      "stale_differences": [
+        [
+          9.0,
+          -4.0,
+          -8.0
+        ],
+        [
+          2.0,
+          5.0,
+          -7.0
+        ],
+        [
+          1.0,
+          -2.0,
+          3.0
+        ]
+      ],
+      "paired_differences": [
+        [
+          1.0,
+          -2.0,
+          3.0
+        ],
+        [
+          1.0,
+          -2.0,
+          3.0
+        ],
+        [
+          1.0,
+          -2.0,
+          3.0
+        ]
+      ],
+      "stale_mean": [
+        4.0,
+        -0.3333333333333333,
+        -4.0
+      ],
+      "paired_mean": [
+        1.0,
+        -2.0,
+        3.0
+      ],
+      "predicted_mean_bias": [
+        3.0,
+        1.6666666666666665,
+        -7.0
+      ],
+      "measured_mean_bias": [
+        3.0,
+        1.6666666666666667,
+        -7.0
+      ],
+      "stale_std": [
+        3.559026084010437,
+        3.858612300930075,
+        4.96655480858378
+      ],
+      "paired_std": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predicted_labels": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "twice_uniform_true_effect",
+      "synthetic": true,
+      "baseline": [
+        [
+          8.0,
+          0.0,
+          -1.0
+        ],
+        [
+          1.0,
+          9.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.0,
+          10.0
+        ]
+      ],
+      "intervened": [
+        [
+          10.0,
+          -4.0,
+          5.0
+        ],
+        [
+          3.0,
+          5.0,
+          6.0
+        ],
+        [
+          2.0,
+          -2.0,
+          16.0
+        ]
+      ],
+      "stale_differences": [
+        [
+          10.0,
+          -6.0,
+          -5.0
+        ],
+        [
+          3.0,
+          3.0,
+          -4.0
+        ],
+        [
+          2.0,
+          -4.0,
+          6.0
+        ]
+      ],
+      "paired_differences": [
+        [
+          2.0,
+          -4.0,
+          6.0
+        ],
+        [
+          2.0,
+          -4.0,
+          6.0
+        ],
+        [
+          2.0,
+          -4.0,
+          6.0
+        ]
+      ],
+      "stale_mean": [
+        5.0,
+        -2.3333333333333335,
+        -1.0
+      ],
+      "paired_mean": [
+        2.0,
+        -4.0,
+        6.0
+      ],
+      "predicted_mean_bias": [
+        3.0,
+        1.6666666666666665,
+        -7.0
+      ],
+      "measured_mean_bias": [
+        3.0,
+        1.6666666666666665,
+        -7.0
+      ],
+      "stale_std": [
+        3.559026084010437,
+        3.858612300930075,
+        4.96655480858378
+      ],
+      "paired_std": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predicted_labels": [
+        0,
+        2,
+        2
+      ]
+    }
+  ],
+  "limits": [
+    "Does not recover actual empirical distortion without per-example baseline/intervention logits.",
+    "Does not establish that this released notebook produced the final published figures.",
+    "Label proportions use argmax of intervened logits and do not depend on this subtraction.",
+    "Mean differences between two nonzero intervention steps cancel the constant reference error.",
+    "Other independent evidence for binding is not tested by this certificate."
+  ]
+}

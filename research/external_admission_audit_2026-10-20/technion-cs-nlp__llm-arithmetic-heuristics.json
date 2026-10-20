@@ -1,0 +1,356 @@
+{
+  "repo": "technion-cs-nlp/llm-arithmetic-heuristics",
+  "head": "accf6b2bca7e1145520e96d0ceb60beb6b769c05",
+  "default_branch": "main",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c09fa19e309cf37f1c5a33ec11514b0d47601ba2",
+      "size": 233,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/c09fa19e309cf37f1c5a33ec11514b0d47601ba2"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1c2950aa85b273ab667d7bf8fa40def9a2f72d2",
+      "size": 1072,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/d1c2950aa85b273ab667d7bf8fa40def9a2f72d2"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fffd71284930cbcc37a2e6ce9c003730f1e2a10",
+      "size": 1085,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/9fffd71284930cbcc37a2e6ce9c003730f1e2a10"
+    },
+    {
+      "path": "activation_patching.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b17acb78bda3298de46db8fe0e0ca9379ba4fbfe",
+      "size": 6630,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/b17acb78bda3298de46db8fe0e0ca9379ba4fbfe"
+    },
+    {
+      "path": "attention_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "becdde9b29e925811fd65c20962024a011d4710c",
+      "size": 3845,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/becdde9b29e925811fd65c20962024a011d4710c"
+    },
+    {
+      "path": "circuit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6caaa03fd95a78ce4d17392bc90cd8ec45ea6a1",
+      "size": 7163,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/c6caaa03fd95a78ce4d17392bc90cd8ec45ea6a1"
+    },
+    {
+      "path": "circuit_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d721a4a6751d7839d809743a67758857fe6fd8bf",
+      "size": 6412,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/d721a4a6751d7839d809743a67758857fe6fd8bf"
+    },
+    {
+      "path": "component.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd51500599fcebaafcaf3c83528b43142ffff5e4",
+      "size": 3369,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/fd51500599fcebaafcaf3c83528b43142ffff5e4"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ea1b65e02dca31eebd96422b33e694eaccf046e",
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/trees/5ea1b65e02dca31eebd96422b33e694eaccf046e"
+    },
+    {
+      "path": "docs/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47a296c3f533069529fd01728b4d4f239d3c07bc",
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/trees/47a296c3f533069529fd01728b4d4f239d3c07bc"
+    },
+    {
+      "path": "docs/img/arrow.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "827f86b590adbd2f8c3e52259d1fa1f6beb54705",
+      "size": 34327,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/827f86b590adbd2f8c3e52259d1fa1f6beb54705"
+    },
+    {
+      "path": "docs/img/heuristics_intersection_across_training.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "955de51b545f2bc64d3778895bc2d031af10f714",
+      "size": 17654,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/955de51b545f2bc64d3778895bc2d031af10f714"
+    },
+    {
+      "path": "docs/img/llama3-8b_localization.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23648f4251a04382b91610a7a5c7a16ae1fd1916",
+      "size": 25965,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/23648f4251a04382b91610a7a5c7a16ae1fd1916"
+    },
+    {
+      "path": "docs/img/llama3_8b_70b_prompt_knockout_per_layer.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acf72e06764375f195e563f40201fe89210dcaa2",
+      "size": 66686,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/acf72e06764375f195e563f40201fe89210dcaa2"
+    },
+    {
+      "path": "docs/img/opening_heuristics.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "810a445b8759c9e13af62f5c8677e29898bffae4",
+      "size": 494689,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/810a445b8759c9e13af62f5c8677e29898bffae4"
+    },
+    {
+      "path": "docs/img/probing_acc.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a717502097b606702d0e5368d1ed04817f2c2a2",
+      "size": 17434,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/1a717502097b606702d0e5368d1ed04817f2c2a2"
+    },
+    {
+      "path": "docs/img/prompt_knockout_across_training.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1104d047a22bacdd6c37fa6d2c9ebf0a1225ba07",
+      "size": 22940,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/1104d047a22bacdd6c37fa6d2c9ebf0a1225ba07"
+    },
+    {
+      "path": "docs/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ef80d9eda5bda3204a5276e26dd211feb652717",
+      "size": 13974,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/3ef80d9eda5bda3204a5276e26dd211feb652717"
+    },
+    {
+      "path": "docs/paper.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bae3cda325d123d860ae7ded11e723931dc1b4f1",
+      "size": 3463096,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/bae3cda325d123d860ae7ded11e723931dc1b4f1"
+    },
+    {
+      "path": "eap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8165d6024bdcca1e6cb023cf3b07a5641fd12553",
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/trees/8165d6024bdcca1e6cb023cf3b07a5641fd12553"
+    },
+    {
+      "path": "eap/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "eap/attr_patching.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ea2875bd25a99800ec8b872741b398e7dfe2e19",
+      "size": 7022,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/3ea2875bd25a99800ec8b872741b398e7dfe2e19"
+    },
+    {
+      "path": "eap/attr_patching_per_input_dim_per_neuron.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef703acf310f113df1b463f4c65b8d23aebdaa56",
+      "size": 6155,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/ef703acf310f113df1b463f4c65b8d23aebdaa56"
+    },
+    {
+      "path": "eap/eap_graph.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9058104e0573a73390a85e99a286ed6e219753df",
+      "size": 19431,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/9058104e0573a73390a85e99a286ed6e219753df"
+    },
+    {
+      "path": "eap/eap_wrapper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36bf52ea4659ba4f76d5f62fe42a6a24725eaee6",
+      "size": 6784,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/36bf52ea4659ba4f76d5f62fe42a6a24725eaee6"
+    },
+    {
+      "path": "evaluation_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b938fd22cbe3de7a4f5824a6a65c82468b1b925e",
+      "size": 26192,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/b938fd22cbe3de7a4f5824a6a65c82468b1b925e"
+    },
+    {
+      "path": "general_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee9b3ddd0dc7c927d5851095d3095b81cc2510c",
+      "size": 16154,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/3ee9b3ddd0dc7c927d5851095d3095b81cc2510c"
+    },
+    {
+      "path": "heuristics_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "818a5efe2ae716ca5622a15af71a37f76cd53500",
+      "size": 16554,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/818a5efe2ae716ca5622a15af71a37f76cd53500"
+    },
+    {
+      "path": "heuristics_classification.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b2ed2a0a75929df00ce918d3e88e93ec2041506",
+      "size": 22503,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/3b2ed2a0a75929df00ce918d3e88e93ec2041506"
+    },
+    {
+      "path": "linear_probing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fee509f0c1950c62e61dd3a18518f8513897eb72",
+      "size": 4482,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/fee509f0c1950c62e61dd3a18518f8513897eb72"
+    },
+    {
+      "path": "llm-arithmetic-analysis-main.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca08eab2ca7e65be32f74ecf0d27a363eed2fe39",
+      "size": 154072,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/ca08eab2ca7e65be32f74ecf0d27a363eed2fe39"
+    },
+    {
+      "path": "metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba062b61c23de44f8eb811d4c9b7d92a20b73bf2",
+      "size": 1450,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/ba062b61c23de44f8eb811d4c9b7d92a20b73bf2"
+    },
+    {
+      "path": "model_analysis_consts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74e7d8089d0c1f4fab9cac40a611e67064db695f",
+      "size": 1164,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/74e7d8089d0c1f4fab9cac40a611e67064db695f"
+    },
+    {
+      "path": "path_patching.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b67120197f7f5e56a749eb260d60fa0606569e6",
+      "size": 15437,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/9b67120197f7f5e56a749eb260d60fa0606569e6"
+    },
+    {
+      "path": "prompt_generation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b009f062af428a7b9c03b588f76a045f70641b38",
+      "size": 11227,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/b009f062af428a7b9c03b588f76a045f70641b38"
+    },
+    {
+      "path": "pythia-heuristics-analysis-notebook.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec03adb7fc12584bef58305cc7df478edf1dff12",
+      "size": 56615,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/ec03adb7fc12584bef58305cc7df478edf1dff12"
+    },
+    {
+      "path": "script_analyze_model_heuristics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a97199139339a9df0846e9434725abe6cb16cd48",
+      "size": 19815,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/a97199139339a9df0846e9434725abe6cb16cd48"
+    },
+    {
+      "path": "script_circuit_localization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5f06e3191855ff00b54cbd53b975e8fc5007613",
+      "size": 6868,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/b5f06e3191855ff00b54cbd53b975e8fc5007613"
+    },
+    {
+      "path": "script_eval_pythia_faithfulness_only_mutual_neurons.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "886ff55b7fea2da76480b797c3002de643b2f37c",
+      "size": 10134,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/886ff55b7fea2da76480b797c3002de643b2f37c"
+    },
+    {
+      "path": "script_linear_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc0bf06f4a2d55d299d41ccb812cb2d61f2e7e6d",
+      "size": 2416,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/bc0bf06f4a2d55d299d41ccb812cb2d61f2e7e6d"
+    },
+    {
+      "path": "script_per_neuron_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acb6dacf2171becfd5eef871d5a52724031e4936",
+      "size": 6998,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/acb6dacf2171becfd5eef871d5a52724031e4936"
+    },
+    {
+      "path": "script_topk_neuron_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c414923e3cf640f3aa232152efec03220c08933",
+      "size": 7994,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/9c414923e3cf640f3aa232152efec03220c08933"
+    },
+    {
+      "path": "visualization_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf49598cc9e4987654e2fe392949e2be084621f6",
+      "size": 4042,
+      "url": "https://api.github.com/repos/technion-cs-nlp/llm-arithmetic-heuristics/git/blobs/bf49598cc9e4987654e2fe392949e2be084621f6"
+    }
+  ],
+  "releases": []
+}

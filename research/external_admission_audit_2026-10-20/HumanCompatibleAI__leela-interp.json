@@ -1,0 +1,305 @@
+{
+  "repo": "HumanCompatibleAI/leela-interp",
+  "head": "da19a5905375570995dace848c94c794bef70347",
+  "default_branch": "main",
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+  },
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c08be41deb795b1b43c091322669710f055f630",
+      "size": 160,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/1c08be41deb795b1b43c091322669710f055f630"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e72bfddabc15be5718a7cc061ac10e47741d8219",
+      "size": 35148,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/e72bfddabc15be5718a7cc061ac10e47741d8219"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13109ae770822e51670116a923b8c4134f50497a",
+      "size": 4127,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/13109ae770822e51670116a923b8c4134f50497a"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0dbcd58503889da1956c9d232c8216a8747d53b",
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/trees/a0dbcd58503889da1956c9d232c8216a8747d53b"
+    },
+    {
+      "path": "notebooks/act_patching.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9bd8e3c7512a9915a361f67e759ce8e546eaa6d",
+      "size": 16008,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/c9bd8e3c7512a9915a361f67e759ce8e546eaa6d"
+    },
+    {
+      "path": "notebooks/demo.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd150bec96d9aa170a222a456113fe0d9808c595",
+      "size": 173300,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/dd150bec96d9aa170a222a456113fe0d9808c595"
+    },
+    {
+      "path": "notebooks/figure_1.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9f14d9e90030e28aeff46e1cc157026f225b5ad",
+      "size": 22720,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/f9f14d9e90030e28aeff46e1cc157026f225b5ad"
+    },
+    {
+      "path": "notebooks/other_figures.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dba52c579f9f3bc0cdf90f9e0bbbc17a8a516e0",
+      "size": 28372,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/5dba52c579f9f3bc0cdf90f9e0bbbc17a8a516e0"
+    },
+    {
+      "path": "notebooks/puzzle_example.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9367ccefcdf77a4ced4cf9ec56be6244ca14d153",
+      "size": 9720,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/9367ccefcdf77a4ced4cf9ec56be6244ca14d153"
+    },
+    {
+      "path": "notebooks/website.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1717086eeb56e096f802c2e39a0eee8bc390f17f",
+      "size": 37916168,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/1717086eeb56e096f802c2e39a0eee8bc390f17f"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ae54d4cfecd9333847b595ff4a7fe7bcc27e311",
+      "size": 660,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/1ae54d4cfecd9333847b595ff4a7fe7bcc27e311"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e23425e9cccbfadc9475a918c604a67102b3b66",
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/trees/2e23425e9cccbfadc9475a918c604a67102b3b66"
+    },
+    {
+      "path": "scripts/make_corruptions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d270c7c977f7d54600cdbc607ffeca77b934b20c",
+      "size": 9767,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/d270c7c977f7d54600cdbc607ffeca77b934b20c"
+    },
+    {
+      "path": "scripts/make_puzzles.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c5228d9ea278c1fb588c37fe81098713be1eebe",
+      "size": 4246,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/2c5228d9ea278c1fb588c37fe81098713be1eebe"
+    },
+    {
+      "path": "scripts/piece_movement_heads.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b483397f5c407ce459f21cc20c3f9254f912c7f4",
+      "size": 6698,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/b483397f5c407ce459f21cc20c3f9254f912c7f4"
+    },
+    {
+      "path": "scripts/probing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ed60bde95feb62da3bb56227c9d2d83196f56d5",
+      "size": 9729,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/6ed60bde95feb62da3bb56227c9d2d83196f56d5"
+    },
+    {
+      "path": "scripts/run_global_patching.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a8556de27b4a4f5834380b14458d27a8ebd6632",
+      "size": 2441,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/5a8556de27b4a4f5834380b14458d27a8ebd6632"
+    },
+    {
+      "path": "scripts/run_single_head.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6412281a3e6a767eb4f7faf092d089b729f8b03e",
+      "size": 6442,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/6412281a3e6a767eb4f7faf092d089b729f8b03e"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3e77a6b2796936501f56b7c321eb2f710d7b19e",
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/trees/f3e77a6b2796936501f56b7c321eb2f710d7b19e"
+    },
+    {
+      "path": "src/leela_interp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb6d10b6f23c946e963a8cfcc6b578518818af12",
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/trees/bb6d10b6f23c946e963a8cfcc6b578518818af12"
+    },
+    {
+      "path": "src/leela_interp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6075900524edcdfbdbd1b8ae6e1d497a56529b0d",
+      "size": 453,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/6075900524edcdfbdbd1b8ae6e1d497a56529b0d"
+    },
+    {
+      "path": "src/leela_interp/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc8cf91307c796a670522fcb852adedc9592ac36",
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/trees/bc8cf91307c796a670522fcb852adedc9592ac36"
+    },
+    {
+      "path": "src/leela_interp/core/forward_pass_implementation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3859fd138a2b03bb2ca634c7d42a105f7b9d45cd",
+      "size": 209554,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/3859fd138a2b03bb2ca634c7d42a105f7b9d45cd"
+    },
+    {
+      "path": "src/leela_interp/core/iceberg_board.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b9f8f56387d140d9421071b5cfa106e6b1fbafb",
+      "size": 7723,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/4b9f8f56387d140d9421071b5cfa106e6b1fbafb"
+    },
+    {
+      "path": "src/leela_interp/core/lc0.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a23ad2399ac2319f754a82e282c0c110a825834",
+      "size": 39895,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/3a23ad2399ac2319f754a82e282c0c110a825834"
+    },
+    {
+      "path": "src/leela_interp/core/leela_board.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29a6d24596d48b966823a75a7f9ac178193ab7bd",
+      "size": 17985,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/29a6d24596d48b966823a75a7f9ac178193ab7bd"
+    },
+    {
+      "path": "src/leela_interp/core/nnsight.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a171b2fde4e6b17aaa8277e0f0bdf1312a344280",
+      "size": 4521,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/a171b2fde4e6b17aaa8277e0f0bdf1312a344280"
+    },
+    {
+      "path": "src/leela_interp/core/uci_to_idx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e35adf2a217721a1a2787e8ddcb4cdc530659328",
+      "size": 24428,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/e35adf2a217721a1a2787e8ddcb4cdc530659328"
+    },
+    {
+      "path": "src/leela_interp/core/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a40f71c1c75b8e0fb77851fa7d46031d996e1d7d",
+      "size": 511,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/a40f71c1c75b8e0fb77851fa7d46031d996e1d7d"
+    },
+    {
+      "path": "src/leela_interp/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "221f8490fc120b0abed1b4fffe9fa2649bce706a",
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/trees/221f8490fc120b0abed1b4fffe9fa2649bce706a"
+    },
+    {
+      "path": "src/leela_interp/tools/activations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60227be7c7f33d511d9392415dd210a36a9f1db3",
+      "size": 5603,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/60227be7c7f33d511d9392415dd210a36a9f1db3"
+    },
+    {
+      "path": "src/leela_interp/tools/attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5b8f6978f1d88ee166c4e0ae54bfa321e72862c",
+      "size": 2569,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/f5b8f6978f1d88ee166c4e0ae54bfa321e72862c"
+    },
+    {
+      "path": "src/leela_interp/tools/figure_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd0b466c135011300e621f9320057aba53146d25",
+      "size": 20488,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/fd0b466c135011300e621f9320057aba53146d25"
+    },
+    {
+      "path": "src/leela_interp/tools/patching.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "333739fc1d0bab046da7fdfdf3e6af37de4c8326",
+      "size": 12792,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/333739fc1d0bab046da7fdfdf3e6af37de4c8326"
+    },
+    {
+      "path": "src/leela_interp/tools/piece_movement_heads.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02b48ddaa53574f432d1aeb4e16f748b71453c54",
+      "size": 1538,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/02b48ddaa53574f432d1aeb4e16f748b71453c54"
+    },
+    {
+      "path": "src/leela_interp/tools/play.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8e68855981db6dcad223edb7b396314945eb894",
+      "size": 3690,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/c8e68855981db6dcad223edb7b396314945eb894"
+    },
+    {
+      "path": "src/leela_interp/tools/probing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95ac204a9364322a8e91562ca6a7ca235bee6f56",
+      "size": 10774,
+      "url": "https://api.github.com/repos/HumanCompatibleAI/leela-interp/git/blobs/95ac204a9364322a8e91562ca6a7ca235bee6f56"
+    }
+  ],
+  "releases": []
+}

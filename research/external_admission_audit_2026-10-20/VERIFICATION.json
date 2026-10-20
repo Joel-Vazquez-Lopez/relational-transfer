@@ -1,0 +1,669 @@
+{
+  "passed": true,
+  "n_checks": 165,
+  "selected_source_bytes": 565086,
+  "selected_sources_plus_supplements_bytes": 3306127,
+  "checks": [
+    {
+      "name": "availability_lock_PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "name": "availability_lock_inventory.py",
+      "passed": true
+    },
+    {
+      "name": "six_pinned_repositories",
+      "passed": true
+    },
+    {
+      "name": "metadata_hash_cl-tohoku/OI-Subspace",
+      "passed": true
+    },
+    {
+      "name": "metadata_commit_cl-tohoku/OI-Subspace",
+      "passed": true
+    },
+    {
+      "name": "metadata_hash_redwoodresearch/Easy-Transformer",
+      "passed": true
+    },
+    {
+      "name": "metadata_commit_redwoodresearch/Easy-Transformer",
+      "passed": true
+    },
+    {
+      "name": "metadata_hash_constanzafierro/multilingual_factual_memorization",
+      "passed": true
+    },
+    {
+      "name": "metadata_commit_constanzafierro/multilingual_factual_memorization",
+      "passed": true
+    },
+    {
+      "name": "metadata_hash_technion-cs-nlp/llm-arithmetic-heuristics",
+      "passed": true
+    },
+    {
+      "name": "metadata_commit_technion-cs-nlp/llm-arithmetic-heuristics",
+      "passed": true
+    },
+    {
+      "name": "metadata_hash_HumanCompatibleAI/leela-interp",
+      "passed": true
+    },
+    {
+      "name": "metadata_commit_HumanCompatibleAI/leela-interp",
+      "passed": true
+    },
+    {
+      "name": "metadata_hash_kmeng01/rome",
+      "passed": true
+    },
+    {
+      "name": "metadata_commit_kmeng01/rome",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/cl-tohoku/OI-Subspace/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/cl-tohoku/OI-Subspace/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/cl-tohoku/OI-Subspace/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/cl-tohoku/OI-Subspace/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/redwoodresearch/Easy-Transformer/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/redwoodresearch/Easy-Transformer/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/redwoodresearch/Easy-Transformer/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/redwoodresearch/Easy-Transformer/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/redwoodresearch/Easy-Transformer/experiments.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/redwoodresearch/Easy-Transformer/experiments.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/redwoodresearch/Easy-Transformer/experiments.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/redwoodresearch/Easy-Transformer/experiments.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/redwoodresearch/Easy-Transformer/easy_transformer/ioi_dataset.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/redwoodresearch/Easy-Transformer/easy_transformer/ioi_dataset.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/redwoodresearch/Easy-Transformer/easy_transformer/ioi_dataset.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/redwoodresearch/Easy-Transformer/easy_transformer/ioi_dataset.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/redwoodresearch/Easy-Transformer/easy_transformer/ioi_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/redwoodresearch/Easy-Transformer/easy_transformer/ioi_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/redwoodresearch/Easy-Transformer/easy_transformer/ioi_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/redwoodresearch/Easy-Transformer/easy_transformer/ioi_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/constanzafierro/multilingual_factual_memorization/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/constanzafierro/multilingual_factual_memorization/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/constanzafierro/multilingual_factual_memorization/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/constanzafierro/multilingual_factual_memorization/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/constanzafierro/multilingual_factual_memorization/causal_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/constanzafierro/multilingual_factual_memorization/causal_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/constanzafierro/multilingual_factual_memorization/causal_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/constanzafierro/multilingual_factual_memorization/causal_analysis.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/constanzafierro/multilingual_factual_memorization/patching_experiments.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/constanzafierro/multilingual_factual_memorization/patching_experiments.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/constanzafierro/multilingual_factual_memorization/patching_experiments.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/constanzafierro/multilingual_factual_memorization/patching_experiments.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/constanzafierro/multilingual_factual_memorization/dataset/data_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/constanzafierro/multilingual_factual_memorization/dataset/data_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/constanzafierro/multilingual_factual_memorization/dataset/data_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/constanzafierro/multilingual_factual_memorization/dataset/data_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/constanzafierro/multilingual_factual_memorization/inference/run_evaluation.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/constanzafierro/multilingual_factual_memorization/inference/run_evaluation.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/constanzafierro/multilingual_factual_memorization/inference/run_evaluation.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/constanzafierro/multilingual_factual_memorization/inference/run_evaluation.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/constanzafierro/multilingual_factual_memorization/inference/run_inference.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/constanzafierro/multilingual_factual_memorization/inference/run_inference.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/constanzafierro/multilingual_factual_memorization/inference/run_inference.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/constanzafierro/multilingual_factual_memorization/inference/run_inference.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/constanzafierro/multilingual_factual_memorization/attention_knockout.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/constanzafierro/multilingual_factual_memorization/attention_knockout.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/constanzafierro/multilingual_factual_memorization/attention_knockout.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/constanzafierro/multilingual_factual_memorization/attention_knockout.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/technion-cs-nlp/llm-arithmetic-heuristics/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/technion-cs-nlp/llm-arithmetic-heuristics/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/technion-cs-nlp/llm-arithmetic-heuristics/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/technion-cs-nlp/llm-arithmetic-heuristics/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/technion-cs-nlp/llm-arithmetic-heuristics/.gitignore",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/technion-cs-nlp/llm-arithmetic-heuristics/.gitignore",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/technion-cs-nlp/llm-arithmetic-heuristics/.gitignore",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/technion-cs-nlp/llm-arithmetic-heuristics/.gitignore",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/technion-cs-nlp/llm-arithmetic-heuristics/prompt_generation.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/technion-cs-nlp/llm-arithmetic-heuristics/prompt_generation.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/technion-cs-nlp/llm-arithmetic-heuristics/prompt_generation.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/technion-cs-nlp/llm-arithmetic-heuristics/prompt_generation.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/technion-cs-nlp/llm-arithmetic-heuristics/evaluation_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/technion-cs-nlp/llm-arithmetic-heuristics/evaluation_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/technion-cs-nlp/llm-arithmetic-heuristics/evaluation_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/technion-cs-nlp/llm-arithmetic-heuristics/evaluation_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/technion-cs-nlp/llm-arithmetic-heuristics/activation_patching.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/technion-cs-nlp/llm-arithmetic-heuristics/activation_patching.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/technion-cs-nlp/llm-arithmetic-heuristics/activation_patching.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/technion-cs-nlp/llm-arithmetic-heuristics/activation_patching.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/technion-cs-nlp/llm-arithmetic-heuristics/script_circuit_localization.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/technion-cs-nlp/llm-arithmetic-heuristics/script_circuit_localization.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/technion-cs-nlp/llm-arithmetic-heuristics/script_circuit_localization.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/technion-cs-nlp/llm-arithmetic-heuristics/script_circuit_localization.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/technion-cs-nlp/llm-arithmetic-heuristics/llm-arithmetic-analysis-main.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/technion-cs-nlp/llm-arithmetic-heuristics/llm-arithmetic-analysis-main.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/technion-cs-nlp/llm-arithmetic-heuristics/llm-arithmetic-analysis-main.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/technion-cs-nlp/llm-arithmetic-heuristics/llm-arithmetic-analysis-main.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/technion-cs-nlp/llm-arithmetic-heuristics/pythia-heuristics-analysis-notebook.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/technion-cs-nlp/llm-arithmetic-heuristics/pythia-heuristics-analysis-notebook.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/technion-cs-nlp/llm-arithmetic-heuristics/pythia-heuristics-analysis-notebook.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/technion-cs-nlp/llm-arithmetic-heuristics/pythia-heuristics-analysis-notebook.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/HumanCompatibleAI/leela-interp/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/HumanCompatibleAI/leela-interp/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/HumanCompatibleAI/leela-interp/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/HumanCompatibleAI/leela-interp/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/HumanCompatibleAI/leela-interp/.gitignore",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/HumanCompatibleAI/leela-interp/.gitignore",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/HumanCompatibleAI/leela-interp/.gitignore",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/HumanCompatibleAI/leela-interp/.gitignore",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/HumanCompatibleAI/leela-interp/scripts/make_puzzles.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/HumanCompatibleAI/leela-interp/scripts/make_puzzles.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/HumanCompatibleAI/leela-interp/scripts/make_puzzles.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/HumanCompatibleAI/leela-interp/scripts/make_puzzles.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/HumanCompatibleAI/leela-interp/scripts/make_corruptions.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/HumanCompatibleAI/leela-interp/scripts/make_corruptions.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/HumanCompatibleAI/leela-interp/scripts/make_corruptions.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/HumanCompatibleAI/leela-interp/scripts/make_corruptions.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/HumanCompatibleAI/leela-interp/scripts/run_global_patching.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/HumanCompatibleAI/leela-interp/scripts/run_global_patching.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/HumanCompatibleAI/leela-interp/scripts/run_global_patching.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/HumanCompatibleAI/leela-interp/scripts/run_global_patching.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/HumanCompatibleAI/leela-interp/scripts/run_single_head.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/HumanCompatibleAI/leela-interp/scripts/run_single_head.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/HumanCompatibleAI/leela-interp/scripts/run_single_head.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/HumanCompatibleAI/leela-interp/scripts/run_single_head.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/HumanCompatibleAI/leela-interp/notebooks/other_figures.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/HumanCompatibleAI/leela-interp/notebooks/other_figures.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/HumanCompatibleAI/leela-interp/notebooks/other_figures.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/HumanCompatibleAI/leela-interp/notebooks/other_figures.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/HumanCompatibleAI/leela-interp/notebooks/act_patching.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/HumanCompatibleAI/leela-interp/notebooks/act_patching.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/HumanCompatibleAI/leela-interp/notebooks/act_patching.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/HumanCompatibleAI/leela-interp/notebooks/act_patching.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/kmeng01/rome/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/kmeng01/rome/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/kmeng01/rome/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/kmeng01/rome/README.md",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/kmeng01/rome/experiments/causal_trace.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/kmeng01/rome/experiments/causal_trace.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/kmeng01/rome/experiments/causal_trace.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/kmeng01/rome/experiments/causal_trace.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/kmeng01/rome/dsets/knowns.py",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/kmeng01/rome/dsets/knowns.py",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/kmeng01/rome/dsets/knowns.py",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/kmeng01/rome/dsets/knowns.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/kmeng01/rome/notebooks/average_causal_effects.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/kmeng01/rome/notebooks/average_causal_effects.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/kmeng01/rome/notebooks/average_causal_effects.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/kmeng01/rome/notebooks/average_causal_effects.ipynb",
+      "passed": true
+    },
+    {
+      "name": "source_sha256_sources/kmeng01/rome/globals.yml",
+      "passed": true
+    },
+    {
+      "name": "source_git_blob_sources/kmeng01/rome/globals.yml",
+      "passed": true
+    },
+    {
+      "name": "source_commit_sources/kmeng01/rome/globals.yml",
+      "passed": true
+    },
+    {
+      "name": "source_size_sources/kmeng01/rome/globals.yml",
+      "passed": true
+    },
+    {
+      "name": "source_total",
+      "passed": true
+    },
+    {
+      "name": "supplement_dai_software.zip",
+      "passed": true
+    },
+    {
+      "name": "supplement_figshare_share.html",
+      "passed": true
+    },
+    {
+      "name": "supplement_rome_data.html",
+      "passed": true
+    },
+    {
+      "name": "bounded_downloads",
+      "passed": true
+    },
+    {
+      "name": "figshare_unresolved_not_data_absence",
+      "passed": true
+    },
+    {
+      "name": "six_dai_input_datasets",
+      "passed": true
+    },
+    {
+      "name": "no_path_traversal_in_zip_manifest",
+      "passed": true
+    },
+    {
+      "name": "certificate_source_hash",
+      "passed": true
+    },
+    {
+      "name": "all_12_arithmetic_checks",
+      "passed": true
+    },
+    {
+      "name": "all_fixtures_labelled_synthetic",
+      "passed": true
+    },
+    {
+      "name": "no_retained_outputs_technion-cs-nlp/llm-arithmetic-heuristics/llm-arithmetic-analysis-main.ipynb",
+      "passed": true
+    },
+    {
+      "name": "no_retained_outputs_technion-cs-nlp/llm-arithmetic-heuristics/pythia-heuristics-analysis-notebook.ipynb",
+      "passed": true
+    },
+    {
+      "name": "no_retained_outputs_HumanCompatibleAI/leela-interp/notebooks/act_patching.ipynb",
+      "passed": true
+    },
+    {
+      "name": "no_retained_outputs_HumanCompatibleAI/leela-interp/notebooks/other_figures.ipynb",
+      "passed": true
+    },
+    {
+      "name": "no_retained_outputs_kmeng01/rome/notebooks/average_causal_effects.ipynb",
+      "passed": true
+    },
+    {
+      "name": "no_eligible_external_study",
+      "passed": true
+    },
+    {
+      "name": "no_external_empirical_claim",
+      "passed": true
+    }
+  ],
+  "scope": "Static provenance and arithmetic verification only; does not verify original model results or exhaustive global data availability."
+}

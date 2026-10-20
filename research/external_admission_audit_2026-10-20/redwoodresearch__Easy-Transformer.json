@@ -1,0 +1,396 @@
+{
+  "repo": "redwoodresearch/Easy-Transformer",
+  "head": "ea15315dd24481e9e2ac5c3ef335d82907a1dc34",
+  "default_branch": "main",
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6997c07a61c211d2f0758c4ae87298047951833",
+      "size": 25,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/c6997c07a61c211d2f0758c4ae87298047951833"
+    },
+    {
+      "path": ".gitconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9054574f90b84d27e89a016d7c76d5bdf7e479a4",
+      "size": 296,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/9054574f90b84d27e89a016d7c76d5bdf7e479a4"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "732991a46449e7a159270efba995881cb84c249c",
+      "size": 242,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/732991a46449e7a159270efba995881cb84c249c"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fea4badaa95243b85c1e569e1a5eeb83c5c8e576",
+      "size": 89,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/fea4badaa95243b85c1e569e1a5eeb83c5c8e576"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6be6f03be204f8f6861b87b69445f5691add5cd",
+      "size": 1069,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/a6be6f03be204f8f6861b87b69445f5691add5cd"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c448c6bba706903aa200e2d8a066863f913c708",
+      "size": 2425,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/2c448c6bba706903aa200e2d8a066863f913c708"
+    },
+    {
+      "path": "circuit_discovery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a134dc544341c9273fce2cf419ce7d2b7dd365d",
+      "size": 3935,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/1a134dc544341c9273fce2cf419ce7d2b7dd365d"
+    },
+    {
+      "path": "easy_transformer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "87176d4dc7185c9cda8655ef1903e7f1795a0908",
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/trees/87176d4dc7185c9cda8655ef1903e7f1795a0908"
+    },
+    {
+      "path": "easy_transformer/EasyTransformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b1331af482ae1ce0e0c086e8b36cc76d3c7ad0b",
+      "size": 55765,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/0b1331af482ae1ce0e0c086e8b36cc76d3c7ad0b"
+    },
+    {
+      "path": "easy_transformer/EasyTransformerConfig.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3006646ef9a5c16d7b56f34b7707d98f3b26fea8",
+      "size": 8929,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/3006646ef9a5c16d7b56f34b7707d98f3b26fea8"
+    },
+    {
+      "path": "easy_transformer/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd42b818755abf7578a1845bf67bc1f9cdc28e9c",
+      "size": 416,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/bd42b818755abf7578a1845bf67bc1f9cdc28e9c"
+    },
+    {
+      "path": "easy_transformer/activation_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e52e1492a3178bab78e720b0508e722d535c29b",
+      "size": 22724,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/4e52e1492a3178bab78e720b0508e722d535c29b"
+    },
+    {
+      "path": "easy_transformer/advex.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5857442f790d5e15f45877aba4c07a0942815498",
+      "size": 8395,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/5857442f790d5e15f45877aba4c07a0942815498"
+    },
+    {
+      "path": "easy_transformer/caching.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e921f93d2a331856751d015e329261be8406106e",
+      "size": 2338,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/e921f93d2a331856751d015e329261be8406106e"
+    },
+    {
+      "path": "easy_transformer/completeness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fe0b9ab3eebe4e243d84439bc7d85a62f7b5f61",
+      "size": 23143,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/9fe0b9ab3eebe4e243d84439bc7d85a62f7b5f61"
+    },
+    {
+      "path": "easy_transformer/components.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e27b1fd969e2f7bfde9042f25a422ce38671d94d",
+      "size": 29879,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/e27b1fd969e2f7bfde9042f25a422ce38671d94d"
+    },
+    {
+      "path": "easy_transformer/evals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8684e74837d5190c680b731b24cfffbae4d44dce",
+      "size": 5067,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/8684e74837d5190c680b731b24cfffbae4d44dce"
+    },
+    {
+      "path": "easy_transformer/experiments.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "573c825850c37d9d68d4c65e8ca4c9198bef0f37",
+      "size": 20696,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/573c825850c37d9d68d4c65e8ca4c9198bef0f37"
+    },
+    {
+      "path": "easy_transformer/further_comments.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dab152e7819ff83bec627bd5d4f39b675e404d2a",
+      "size": 6290,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/dab152e7819ff83bec627bd5d4f39b675e404d2a"
+    },
+    {
+      "path": "easy_transformer/hook_points.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2267a93ae168473b739e09a089d632e345df6ed9",
+      "size": 14608,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/2267a93ae168473b739e09a089d632e345df6ed9"
+    },
+    {
+      "path": "easy_transformer/ioi_circuit_extraction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e530f970bc230e61ce0c335267eb2b27be8f448",
+      "size": 10829,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/2e530f970bc230e61ce0c335267eb2b27be8f448"
+    },
+    {
+      "path": "easy_transformer/ioi_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8efefaa150ddaf145073de8df739c5a13d12e55",
+      "size": 31437,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/e8efefaa150ddaf145073de8df739c5a13d12e55"
+    },
+    {
+      "path": "easy_transformer/ioi_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4e0f3515875e78f8b734964cbe04617041e98e2",
+      "size": 34428,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/e4e0f3515875e78f8b734964cbe04617041e98e2"
+    },
+    {
+      "path": "easy_transformer/minimality.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80c7a8d1d51f3af0c1625ee239417a9f90cb6658",
+      "size": 9655,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/80c7a8d1d51f3af0c1625ee239417a9f90cb6658"
+    },
+    {
+      "path": "easy_transformer/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "900a5c68c4ec2d9d7b0fd895357514fbc8dbc6f4",
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/trees/900a5c68c4ec2d9d7b0fd895357514fbc8dbc6f4"
+    },
+    {
+      "path": "easy_transformer/tests/test_experiments.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebb7977648d89d2725717bc1ab54f918f146bf74",
+      "size": 4891,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/ebb7977648d89d2725717bc1ab54f918f146bf74"
+    },
+    {
+      "path": "easy_transformer/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2df93f1c88e22f43acfab144bb89eb914159db3",
+      "size": 5602,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/e2df93f1c88e22f43acfab144bb89eb914159db3"
+    },
+    {
+      "path": "easy_transformer/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f99f8a957fbf27e096501f24683b2fc64610d81a",
+      "size": 24713,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/f99f8a957fbf27e096501f24683b2fc64610d81a"
+    },
+    {
+      "path": "easy_transformer/utils_circuit_discovery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2321870532c7340e2ad6c381a8f13461673270b7",
+      "size": 40530,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/2321870532c7340e2ad6c381a8f13461673270b7"
+    },
+    {
+      "path": "easy_transformer/weight_conversion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cba16bea6b3c3817dd617432759a0c604deac852",
+      "size": 15508,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/cba16bea6b3c3817dd617432759a0c604deac852"
+    },
+    {
+      "path": "experiments.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c7ca1ab26eb4151e045fb31721073d8be0fb549",
+      "size": 19624,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/5c7ca1ab26eb4151e045fb31721073d8be0fb549"
+    },
+    {
+      "path": "pts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8aa42100b1ae3cabe106c1b1a4fe38fefe20d1c",
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/trees/b8aa42100b1ae3cabe106c1b1a4fe38fefe20d1c"
+    },
+    {
+      "path": "pts/complete_name.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68fc804591b63a3675281d674b1270042f04950c",
+      "size": 495,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/68fc804591b63a3675281d674b1270042f04950c"
+    },
+    {
+      "path": "pts/complete_perf_by_sets.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85ffe72c185612dad3c4da5ad6e17882e9cad90b",
+      "size": 10812,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/85ffe72c185612dad3c4da5ad6e17882e9cad90b"
+    },
+    {
+      "path": "pts/complete_random_xs.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a36f375e9826918c752e141848beb6c630ade916",
+      "size": 24313,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/a36f375e9826918c752e141848beb6c630ade916"
+    },
+    {
+      "path": "pts/complete_random_ys.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b43cdae56b9de13cee58caccaa5c1335fc7b305b",
+      "size": 24313,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/b43cdae56b9de13cee58caccaa5c1335fc7b305b"
+    },
+    {
+      "path": "pts/complete_xs.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c626bb71025b1e4bfb93e22c19a68349933805c3",
+      "size": 623,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/c626bb71025b1e4bfb93e22c19a68349933805c3"
+    },
+    {
+      "path": "pts/complete_ys.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3458f1bb2dc1c937532725933fd810416b38a8a",
+      "size": 623,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/a3458f1bb2dc1c937532725933fd810416b38a8a"
+    },
+    {
+      "path": "pts/full_perf_by_sets.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85ffe72c185612dad3c4da5ad6e17882e9cad90b",
+      "size": 10812,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/85ffe72c185612dad3c4da5ad6e17882e9cad90b"
+    },
+    {
+      "path": "pts/naive_name.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53707b672a4e74825ebfa116a54dec7ad4e25cf5",
+      "size": 495,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/53707b672a4e74825ebfa116a54dec7ad4e25cf5"
+    },
+    {
+      "path": "pts/naive_perf_by_sets.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36713b0e37dc284b467086277e015c89469ac4cb",
+      "size": 10812,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/36713b0e37dc284b467086277e015c89469ac4cb"
+    },
+    {
+      "path": "pts/naive_random_xs.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6c6d6927395529cb9655c88d19dc7992dc32d95",
+      "size": 24313,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/c6c6d6927395529cb9655c88d19dc7992dc32d95"
+    },
+    {
+      "path": "pts/naive_random_ys.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72729760a2c6eb26626c1fa104927d75786e542f",
+      "size": 24313,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/72729760a2c6eb26626c1fa104927d75786e542f"
+    },
+    {
+      "path": "pts/naive_random_ys2.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "812ccd7aa470cfe9f16269a9948d102a52105674",
+      "size": 1775,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/812ccd7aa470cfe9f16269a9948d102a52105674"
+    },
+    {
+      "path": "pts/naive_xs.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3448532dc7ba7b58c81cce3ca10a305a63fa2f34",
+      "size": 687,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/3448532dc7ba7b58c81cce3ca10a305a63fa2f34"
+    },
+    {
+      "path": "pts/naive_ys.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50580ca514f3dd21adc8f735c100e559faa3ef14",
+      "size": 687,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/50580ca514f3dd21adc8f735c100e559faa3ef14"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a96768f8bb3c4f3e6a7add2b4bd61ef80c88f3fd",
+      "size": 97,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/a96768f8bb3c4f3e6a7add2b4bd61ef80c88f3fd"
+    },
+    {
+      "path": "setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e1df5f2348ec3be9e065b8ee407cda3c6a7f858",
+      "size": 562,
+      "url": "https://api.github.com/repos/redwoodresearch/Easy-Transformer/git/blobs/7e1df5f2348ec3be9e065b8ee407cda3c6a7f858"
+    }
+  ],
+  "releases": []
+}
