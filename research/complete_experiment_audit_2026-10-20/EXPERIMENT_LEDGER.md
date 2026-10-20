@@ -420,7 +420,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Observed/withheld endpoint contrasts differed through the saved encoder stages.
+- **Result:** Observed versus withheld endpoint contrasts differed across saved stages; D01R aggregates the same12-model archive, not a new cohort.
 - **What it tells us:** The support-associated contrast was selective; stage curves alone do not identify its cause.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -446,7 +446,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Raw source-token identity separation persisted while CLS transfer differed by support.
+- **Result:** Source identity tokens remained separated even where their effect on CLS was suppressed; raw identity inputs had not simply collapsed.
 - **What it tells us:** Input information presence does not ensure it reaches the decision representation.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -459,7 +459,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Recomputed first-attention value, weight and interaction terms for discovery cases.
+- **Result:** A/B first-attention CLS contrast mean2.135 on observed/observed substitutions versus.321 on withheld/withheld; value and weight terms both contributed.
 - **What it tells us:** The support-associated write could be decomposed; accounting is not unique causal attribution.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -472,7 +472,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Aggregated D03 terms and cancellations within models.
+- **Result:** Observed value/weight/cross signed shares about.752/.267/−.018 versus withheld.861/.142/−.002; cancellation and model heterogeneity retained.
 - **What it tells us:** Do not count averaged term descriptions as a second causal discovery.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -485,7 +485,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Compared all15 identity pairs through pre-attention transforms in permitted models.
+- **Result:** Source value-projection gain was about1.136 on cross-clique pairs versus.442 on hole-clique pairs; raw symbol distances also differed.
 - **What it tells us:** Projection gain and direction matter beyond raw embedding distance.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -498,7 +498,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Summarized hole versus opposite-clique gains on D04.
+- **Result:** The projection-gain gap persisted after normalization: source token LayerNorm gains8.001 versus7.695, much closer than value-projection gains1.136 versus.442.
 - **What it tells us:** Same-checkpoint comparisons remain exploratory.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -511,7 +511,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Extended the gain description to non-A/B support structures.
+- **Result:** C/D included both weak false-twin and stronger distinguishable withheld pairs; the A/B hole description did not apply to every absent edge.
 - **What it tells us:** An A/B pattern should not be called a universal support law.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -524,7 +524,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Related learned contrasts to available graph-neighborhood distinctions.
+- **Result:** Within A–D, missing false twins had weak contrasts/transfer, but distinguishability was confounded with degree imbalance.
 - **What it tells us:** Contextual distinguishability was a candidate explanation, not a proven necessity.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -537,7 +537,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Examined whether simple degree explained the contrast pattern.
+- **Result:** Degree and neighborhood distinctions covaried in A–D; E was designed to preserve focal degree and triangle count while changing neighborhoods.
 - **What it tells us:** No single graph statistic was isolated by these descriptive comparisons.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -563,7 +563,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** E could preserve focal identity distinctions and held-out transfer where A compressed them.
+- **Result:** New E models learned strong focal contrasts and held transfer; across the four E starts withheld accuracy.973–.985 versus A.578–.582.
 - **What it tells us:** Changing comparison context can change acquisition; later tied-E counterexample limits necessity.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -576,7 +576,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** A/E learned contrasts and transfer differed.
+- **Result:** A versus E approximate final source contrast.039 versus.936 and target.059 versus1.034; changed training contexts remained a bundled cause.
 - **What it tells us:** The contrast identifies a graph-package effect, not its unique causal feature.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -589,7 +589,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Compared initial and final contrast geometry.
+- **Result:** False-twin source-query separation fell from about.47 to.036; observed-pair separation rose from about.49 to1.20 during training.
 - **What it tells us:** Final differences cannot simply be assumed to preexist learning; no general acquisition law follows.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -602,7 +602,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Enumerated the supervised/foil exposure differences between conditions.
+- **Result:** Exact schedules showed nearly matched focal identity/triangle appearance counts; higher-order contexts still differed.
 - **What it tells us:** Support comparisons require auditing actual episodes, not only graph names.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -615,7 +615,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Additional discovery seeds evaluated E's transfer behavior.
+- **Result:** All four exploratory E starts1701/2701/2702/2703 had high held transfer(.973–.985); later starts were chosen after the first result.
 - **What it tells us:** The initial E result was not the only observed initialization; still not protected confirmation.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -628,7 +628,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Tracked where the A/E contrast emerged across depth.
+- **Result:** E2701 source edit block0 CLS contrast.057 became final.840; target block0.658 became final.941. There was no single CLS entry stage for both roles.
 - **What it tells us:** Depth localization is descriptive without selective operation interventions.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -641,7 +641,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Identity-bearing token and CLS contrast profiles differed.
+- **Result:** For the source edit, changed-token information survived block0 despite weak CLS contrast; block1 then constructed the larger CLS difference.
 - **What it tells us:** A single readout token is not the full computational state.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -654,7 +654,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Compared permitted models on shared rendered scenes.
+- **Result:** On256 common rendered scenes/model, E source/target redirection was1 in each model; A source.555–.625 and target.047–.078.
 - **What it tells us:** Shared inputs reduce a rendering confound but not training-package confounds.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -667,7 +667,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Characterized context support associated with contrasting acquisition.
+- **Result:** Training-context TV distance was0 for A focal pair,.667 for E focal pair,.4 for other E missing pairs; within-model associations only moderate.
 - **What it tells us:** Context statistics are candidate predictors, not identified mechanisms.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -680,7 +680,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Added a matched-initialization E comparison.
+- **Result:** Matched A1701/E1701 initialization and index/epoch arrays: source/target redirection.625/.078 versus1/1; E familiar S/R.9985/.9999.
 - **What it tells us:** Initialization matching sharpens the training-condition contrast within this synthetic system.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -693,7 +693,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Intervened on the changed identity-bearing token path.
+- **Result:** E2701 changed-source-token-only block0 patch accounted for about.20 directed final contrast, while other message tokens accounted for about.83; single-token account failed.
 - **What it tells us:** Local causal influence can be tested; it need not imply a reusable symbolic operator.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -706,7 +706,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Examined unchanged tokens as routes carrying a changed identity effect.
+- **Result:** Across three E seeds, source/target/event/padding patches each affected source contrast; all non-CLS tokens about.97. Target edit CLS alone about.96 in E2701; fractions nonadditive.
 - **What it tells us:** Effects can propagate through tokens whose surface identity did not change.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -719,7 +719,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Extended the contrast description to candidate encoders.
+- **Result:** A candidate source/target contrast initial.539/.647→final.324/.429; E2701–2703 initial.628/.752→final.967/1.151. Main divergence occurred in candidate block1.
 - **What it tells us:** The query side alone cannot characterize compatibility decisions.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -732,7 +732,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Tightened matching of rendered scenes between models.
+- **Result:** Exact shared-scene matching retained A/E differences; E query/candidate alignment around.85–.91 source and.94–.97 target, A much weaker.
 - **What it tells us:** Controls improve attribution to learning conditions, not to a unique internal cause.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -745,7 +745,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Identities can co-occur as endpoint and distractor; the broad never-co-occur claim was false.
+- **Result:** Endpoint+distractor co-occurrence existed:409,606/4,096,000 A scenes versus409,594 E; never-co-occur claim corrected, simple raw co-occurrence poorly explained the gap.
 - **What it tells us:** Supervised relation withholding is not visual identity co-occurrence withholding.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
@@ -758,7 +758,7 @@ Each entry separates execution, result, lesson and limits. A frozen negative is 
 **Lineage:** Post-P3.2 adaptive synthetic discovery
 
 - **What ran:** Reported diagnostic/review in the post-P3.2 discovery programme; exact shared-model scope in linked source.
-- **Result:** Consolidated the accumulated A/E evidence across permitted starts.
+- **Result:** A discovery seeds held focal accuracy.578–.582 versus four E starts.973–.985; source/target contrasts and shared-scene redirection all differed. Adaptive not protected confirmation.
 - **What it tells us:** Summarizing shared models does not create independent confirmation.
 - **Limit:** Exploratory/adaptive lineage on permitted synthetic models, not independent confirmation or evidence about pretrained language models. Review, design and plotting entries are not additional experiments.
 
