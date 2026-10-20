@@ -1,0 +1,3 @@
+# Replay implementation note
+
+The first scalar replay stopped on exact floating-point equality for Qwen c02 active: recomputed D=7.617187916683927, original D=7.6171879166839265, difference 8.881784197001252e-16. All four reconstructed answer-score differences were exactly zero. The new audit uses absolute tolerance 1e-12 for scalar contrast/profile reconstruction; discrete counts remain exact. This is a numerical comparison fix in the new retrospective replay, not a change to any original experimental tolerance, scientific threshold, endpoint or outcome. Both the first stop and repair are disclosed here. No model call was made.
