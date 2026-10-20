@@ -1,0 +1,1458 @@
+[
+  {
+    "call": 3,
+    "id": "l02_r1_q1_m1_entailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:28:47Z",
+    "free_disk_bytes": 23148191744,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l02",
+    "role": 1,
+    "query": 1,
+    "mapping": 1,
+    "legend_order": "entailed_first",
+    "last_class": "not_entailed",
+    "last_symbol": "A",
+    "expected": "entailed",
+    "expected_symbol": "B",
+    "actual": "not_entailed",
+    "argmax_id": 32,
+    "argmax_token": "A",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -16.98437499999959,
+    "class_logits": {
+      "entailed": 26.890625000001297,
+      "not_entailed": 43.87500000000089
+    },
+    "top12": [
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 43.875
+      },
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 26.890625
+      },
+      {
+        "id": 22985,
+        "token": "\tA",
+        "logit": 21.59375
+      },
+      {
+        "id": 92480,
+        "token": "+A",
+        "logit": 20.65625
+      },
+      {
+        "id": 74721,
+        "token": "*A",
+        "logit": 20.59375
+      },
+      {
+        "id": 133054,
+        "token": "\uff21",
+        "logit": 20.0
+      },
+      {
+        "id": 52585,
+        "token": "%A",
+        "logit": 19.578125
+      },
+      {
+        "id": 36155,
+        "token": "\u0410",
+        "logit": 19.296875
+      },
+      {
+        "id": 64617,
+        "token": " Aires",
+        "logit": 18.890625
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 18.875
+      },
+      {
+        "id": 23465,
+        "token": ">A",
+        "logit": 18.1875
+      },
+      {
+        "id": 30192,
+        "token": "<A",
+        "logit": 18.140625
+      }
+    ],
+    "payload": "payloads/CALL_003.npz",
+    "payload_sha256": "d57d50e0457cc050d77100909f10478f5fc4520562fb5b3e7111a2ac2eba3e11"
+  },
+  {
+    "call": 6,
+    "id": "l01_r1_q1_m0_entailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:28:50Z",
+    "free_disk_bytes": 23147155456,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l01",
+    "role": 1,
+    "query": 1,
+    "mapping": 0,
+    "legend_order": "entailed_first",
+    "last_class": "not_entailed",
+    "last_symbol": "B",
+    "expected": "entailed",
+    "expected_symbol": "A",
+    "actual": "not_entailed",
+    "argmax_id": 33,
+    "argmax_token": "B",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -18.093749999993594,
+    "class_logits": {
+      "entailed": 24.87500000000794,
+      "not_entailed": 42.968750000001535
+    },
+    "top12": [
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 42.96875
+      },
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 24.875
+      },
+      {
+        "id": 81339,
+        "token": "*B",
+        "logit": 21.109375
+      },
+      {
+        "id": 139173,
+        "token": "\uff22",
+        "logit": 19.234375
+      },
+      {
+        "id": 60332,
+        "token": "\u0411",
+        "logit": 18.625
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 18.484375
+      },
+      {
+        "id": 85746,
+        "token": "\u2019B",
+        "logit": 18.234375
+      },
+      {
+        "id": 144946,
+        "token": "\u0392",
+        "logit": 17.265625
+      },
+      {
+        "id": 81268,
+        "token": ":B",
+        "logit": 17.15625
+      },
+      {
+        "id": 1668,
+        "token": "_B",
+        "logit": 17.03125
+      },
+      {
+        "id": 35,
+        "token": "D",
+        "logit": 17.015625
+      },
+      {
+        "id": 36721,
+        "token": ">B",
+        "logit": 16.640625
+      }
+    ],
+    "payload": "payloads/CALL_006.npz",
+    "payload_sha256": "aa356f7f9ce324a6349b9cff5219c3c86f12a3d385ac79b98a0d1e93e2a13366"
+  },
+  {
+    "call": 7,
+    "id": "l01_r1_q1_m0_nonentailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:28:51Z",
+    "free_disk_bytes": 23146803200,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l01",
+    "role": 1,
+    "query": 1,
+    "mapping": 0,
+    "legend_order": "nonentailed_first",
+    "last_class": "entailed",
+    "last_symbol": "A",
+    "expected": "entailed",
+    "expected_symbol": "A",
+    "actual": "not_entailed",
+    "argmax_id": 33,
+    "argmax_token": "B",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -12.453124999984823,
+    "class_logits": {
+      "entailed": 26.078125000027057,
+      "not_entailed": 38.53125000001188
+    },
+    "top12": [
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 38.53125
+      },
+      {
+        "id": 1921,
+        "token": "not",
+        "logit": 28.203125
+      },
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 26.078125
+      },
+      {
+        "id": 2623,
+        "token": "Not",
+        "logit": 22.734375
+      },
+      {
+        "id": 81339,
+        "token": "*B",
+        "logit": 19.578125
+      },
+      {
+        "id": 97266,
+        "token": "\tnot",
+        "logit": 19.125
+      },
+      {
+        "id": 29169,
+        "token": "-not",
+        "logit": 18.46875
+      },
+      {
+        "id": 67844,
+        "token": ":not",
+        "logit": 18.0625
+      },
+      {
+        "id": 144946,
+        "token": "\u0392",
+        "logit": 17.625
+      },
+      {
+        "id": 139173,
+        "token": "\uff22",
+        "logit": 17.609375
+      },
+      {
+        "id": 11971,
+        "token": ".not",
+        "logit": 17.5
+      },
+      {
+        "id": 537,
+        "token": " not",
+        "logit": 17.328125
+      }
+    ],
+    "payload": "payloads/CALL_007.npz",
+    "payload_sha256": "36f7ca0fa15b5d08a5358e30f3fa2406797506fe3d2bbb6d322b63832217f382"
+  },
+  {
+    "call": 8,
+    "id": "l01_r0_q0_m0_entailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:28:52Z",
+    "free_disk_bytes": 23146573824,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l01",
+    "role": 0,
+    "query": 0,
+    "mapping": 0,
+    "legend_order": "entailed_first",
+    "last_class": "not_entailed",
+    "last_symbol": "B",
+    "expected": "entailed",
+    "expected_symbol": "A",
+    "actual": "not_entailed",
+    "argmax_id": 33,
+    "argmax_token": "B",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -19.906249999996472,
+    "class_logits": {
+      "entailed": 23.593750000004388,
+      "not_entailed": 43.50000000000086
+    },
+    "top12": [
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 43.5
+      },
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 23.59375
+      },
+      {
+        "id": 81339,
+        "token": "*B",
+        "logit": 21.625
+      },
+      {
+        "id": 139173,
+        "token": "\uff22",
+        "logit": 19.828125
+      },
+      {
+        "id": 60332,
+        "token": "\u0411",
+        "logit": 19.265625
+      },
+      {
+        "id": 85746,
+        "token": "\u2019B",
+        "logit": 19.15625
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 18.453125
+      },
+      {
+        "id": 1668,
+        "token": "_B",
+        "logit": 17.59375
+      },
+      {
+        "id": 144946,
+        "token": "\u0392",
+        "logit": 17.5625
+      },
+      {
+        "id": 81268,
+        "token": ":B",
+        "logit": 17.421875
+      },
+      {
+        "id": 36721,
+        "token": ">B",
+        "logit": 17.0
+      },
+      {
+        "id": 35,
+        "token": "D",
+        "logit": 16.90625
+      }
+    ],
+    "payload": "payloads/CALL_008.npz",
+    "payload_sha256": "7e8e1d7127ee89db8ae9c1553101a300cb3b0f75c7d0b8d8a8f8fca9a196e8f3"
+  },
+  {
+    "call": 10,
+    "id": "l02_r0_q0_m1_entailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:28:54Z",
+    "free_disk_bytes": 23145816064,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l02",
+    "role": 0,
+    "query": 0,
+    "mapping": 1,
+    "legend_order": "entailed_first",
+    "last_class": "not_entailed",
+    "last_symbol": "A",
+    "expected": "entailed",
+    "expected_symbol": "B",
+    "actual": "not_entailed",
+    "argmax_id": 32,
+    "argmax_token": "A",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -13.5781249999992,
+    "class_logits": {
+      "entailed": 31.046875000002313,
+      "not_entailed": 44.62500000000151
+    },
+    "top12": [
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 44.625
+      },
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 31.046875
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 21.125
+      },
+      {
+        "id": 22985,
+        "token": "\tA",
+        "logit": 21.0
+      },
+      {
+        "id": 35,
+        "token": "D",
+        "logit": 19.5
+      },
+      {
+        "id": 45,
+        "token": "N",
+        "logit": 19.234375
+      },
+      {
+        "id": 36155,
+        "token": "\u0410",
+        "logit": 19.0625
+      },
+      {
+        "id": 92480,
+        "token": "+A",
+        "logit": 19.046875
+      },
+      {
+        "id": 74721,
+        "token": "*A",
+        "logit": 18.953125
+      },
+      {
+        "id": 133054,
+        "token": "\uff21",
+        "logit": 18.5
+      },
+      {
+        "id": 52585,
+        "token": "%A",
+        "logit": 17.546875
+      },
+      {
+        "id": 30192,
+        "token": "<A",
+        "logit": 17.5
+      }
+    ],
+    "payload": "payloads/CALL_010.npz",
+    "payload_sha256": "6e28acb71383f1f01deeee734a6f477bd2acb0e5aad8fdf5b85e762c3556772b"
+  },
+  {
+    "call": 12,
+    "id": "l01_r1_q1_m1_entailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:28:56Z",
+    "free_disk_bytes": 23145127936,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l01",
+    "role": 1,
+    "query": 1,
+    "mapping": 1,
+    "legend_order": "entailed_first",
+    "last_class": "not_entailed",
+    "last_symbol": "A",
+    "expected": "entailed",
+    "expected_symbol": "B",
+    "actual": "not_entailed",
+    "argmax_id": 32,
+    "argmax_token": "A",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -18.499999999999815,
+    "class_logits": {
+      "entailed": 25.937500000000746,
+      "not_entailed": 44.43750000000056
+    },
+    "top12": [
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 44.4375
+      },
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 25.9375
+      },
+      {
+        "id": 22985,
+        "token": "\tA",
+        "logit": 21.515625
+      },
+      {
+        "id": 92480,
+        "token": "+A",
+        "logit": 20.84375
+      },
+      {
+        "id": 74721,
+        "token": "*A",
+        "logit": 20.5625
+      },
+      {
+        "id": 133054,
+        "token": "\uff21",
+        "logit": 20.4375
+      },
+      {
+        "id": 36155,
+        "token": "\u0410",
+        "logit": 20.1875
+      },
+      {
+        "id": 52585,
+        "token": "%A",
+        "logit": 19.59375
+      },
+      {
+        "id": 64617,
+        "token": " Aires",
+        "logit": 19.234375
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 18.515625
+      },
+      {
+        "id": 23465,
+        "token": ">A",
+        "logit": 18.328125
+      },
+      {
+        "id": 144842,
+        "token": "\u0391",
+        "logit": 18.078125
+      }
+    ],
+    "payload": "payloads/CALL_012.npz",
+    "payload_sha256": "1839b67647c80ae5d57f09b502a3116a2462adbb745ab89104d1fd117db0afe2"
+  },
+  {
+    "call": 14,
+    "id": "l02_r0_q0_m1_nonentailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:28:58Z",
+    "free_disk_bytes": 23144411136,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l02",
+    "role": 0,
+    "query": 0,
+    "mapping": 1,
+    "legend_order": "nonentailed_first",
+    "last_class": "entailed",
+    "last_symbol": "B",
+    "expected": "entailed",
+    "expected_symbol": "B",
+    "actual": "not_entailed",
+    "argmax_id": 32,
+    "argmax_token": "A",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -12.921874999695234,
+    "class_logits": {
+      "entailed": 25.015625000504123,
+      "not_entailed": 37.93750000019936
+    },
+    "top12": [
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 37.9375
+      },
+      {
+        "id": 1921,
+        "token": "not",
+        "logit": 31.921875
+      },
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 25.015625
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 22.453125
+      },
+      {
+        "id": 2623,
+        "token": "Not",
+        "logit": 22.03125
+      },
+      {
+        "id": 537,
+        "token": " not",
+        "logit": 20.046875
+      },
+      {
+        "id": 11971,
+        "token": ".not",
+        "logit": 19.71875
+      },
+      {
+        "id": 24772,
+        "token": "(not",
+        "logit": 19.40625
+      },
+      {
+        "id": 29169,
+        "token": "-not",
+        "logit": 19.34375
+      },
+      {
+        "id": 14065,
+        "token": "NOT",
+        "logit": 18.890625
+      },
+      {
+        "id": 67844,
+        "token": ":not",
+        "logit": 18.796875
+      },
+      {
+        "id": 97266,
+        "token": "\tnot",
+        "logit": 18.71875
+      }
+    ],
+    "payload": "payloads/CALL_014.npz",
+    "payload_sha256": "8c1e6ec34a58526df8caaca2b07d755b8e38dd81a9e4d91613f0e71e90565879"
+  },
+  {
+    "call": 15,
+    "id": "l02_r0_q0_m0_nonentailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:28:59Z",
+    "free_disk_bytes": 23144067072,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l02",
+    "role": 0,
+    "query": 0,
+    "mapping": 0,
+    "legend_order": "nonentailed_first",
+    "last_class": "entailed",
+    "last_symbol": "A",
+    "expected": "entailed",
+    "expected_symbol": "A",
+    "actual": "not_entailed",
+    "argmax_id": 33,
+    "argmax_token": "B",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -10.54687499993204,
+    "class_logits": {
+      "entailed": 26.171875000125976,
+      "not_entailed": 36.718750000058016
+    },
+    "top12": [
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 36.71875
+      },
+      {
+        "id": 1921,
+        "token": "not",
+        "logit": 28.390625
+      },
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 26.171875
+      },
+      {
+        "id": 2623,
+        "token": "Not",
+        "logit": 22.171875
+      },
+      {
+        "id": 97266,
+        "token": "\tnot",
+        "logit": 18.578125
+      },
+      {
+        "id": 81339,
+        "token": "*B",
+        "logit": 18.515625
+      },
+      {
+        "id": 29169,
+        "token": "-not",
+        "logit": 17.5
+      },
+      {
+        "id": 537,
+        "token": " not",
+        "logit": 17.46875
+      },
+      {
+        "id": 67844,
+        "token": ":not",
+        "logit": 17.15625
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 17.109375
+      },
+      {
+        "id": 24772,
+        "token": "(not",
+        "logit": 17.0625
+      },
+      {
+        "id": 11971,
+        "token": ".not",
+        "logit": 16.953125
+      }
+    ],
+    "payload": "payloads/CALL_015.npz",
+    "payload_sha256": "7a97bc4b67b7a4ae0b5e26c4677fc9683c6b07f4795baf37e8838252050b6c6b"
+  },
+  {
+    "call": 16,
+    "id": "l01_r0_q0_m1_nonentailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:29:00Z",
+    "free_disk_bytes": 23143854080,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l01",
+    "role": 0,
+    "query": 0,
+    "mapping": 1,
+    "legend_order": "nonentailed_first",
+    "last_class": "entailed",
+    "last_symbol": "B",
+    "expected": "entailed",
+    "expected_symbol": "B",
+    "actual": "not_entailed",
+    "argmax_id": 32,
+    "argmax_token": "A",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -17.46874999996218,
+    "class_logits": {
+      "entailed": 22.593750000063967,
+      "not_entailed": 40.06250000002615
+    },
+    "top12": [
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 40.0625
+      },
+      {
+        "id": 1921,
+        "token": "not",
+        "logit": 30.734375
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 23.890625
+      },
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 22.59375
+      },
+      {
+        "id": 2623,
+        "token": "Not",
+        "logit": 21.828125
+      },
+      {
+        "id": 29169,
+        "token": "-not",
+        "logit": 20.0625
+      },
+      {
+        "id": 11971,
+        "token": ".not",
+        "logit": 19.59375
+      },
+      {
+        "id": 67844,
+        "token": ":not",
+        "logit": 19.3125
+      },
+      {
+        "id": 14065,
+        "token": "NOT",
+        "logit": 18.921875
+      },
+      {
+        "id": 97266,
+        "token": "\tnot",
+        "logit": 18.90625
+      },
+      {
+        "id": 24772,
+        "token": "(not",
+        "logit": 18.875
+      },
+      {
+        "id": 537,
+        "token": " not",
+        "logit": 18.859375
+      }
+    ],
+    "payload": "payloads/CALL_016.npz",
+    "payload_sha256": "10a76ba2ff6cdc5175c709766fb887fca30ba7426679ad6b4020776d93a4499b"
+  },
+  {
+    "call": 18,
+    "id": "l02_r1_q1_m0_entailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:29:02Z",
+    "free_disk_bytes": 23143149568,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l02",
+    "role": 1,
+    "query": 1,
+    "mapping": 0,
+    "legend_order": "entailed_first",
+    "last_class": "not_entailed",
+    "last_symbol": "B",
+    "expected": "entailed",
+    "expected_symbol": "A",
+    "actual": "not_entailed",
+    "argmax_id": 33,
+    "argmax_token": "B",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -20.062499999996284,
+    "class_logits": {
+      "entailed": 22.312500000005322,
+      "not_entailed": 42.375000000001606
+    },
+    "top12": [
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 42.375
+      },
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 22.3125
+      },
+      {
+        "id": 81339,
+        "token": "*B",
+        "logit": 20.828125
+      },
+      {
+        "id": 139173,
+        "token": "\uff22",
+        "logit": 19.234375
+      },
+      {
+        "id": 85746,
+        "token": "\u2019B",
+        "logit": 19.09375
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 18.6875
+      },
+      {
+        "id": 60332,
+        "token": "\u0411",
+        "logit": 18.5
+      },
+      {
+        "id": 81268,
+        "token": ":B",
+        "logit": 17.453125
+      },
+      {
+        "id": 35,
+        "token": "D",
+        "logit": 17.359375
+      },
+      {
+        "id": 144946,
+        "token": "\u0392",
+        "logit": 17.09375
+      },
+      {
+        "id": 1668,
+        "token": "_B",
+        "logit": 16.71875
+      },
+      {
+        "id": 36721,
+        "token": ">B",
+        "logit": 16.703125
+      }
+    ],
+    "payload": "payloads/CALL_018.npz",
+    "payload_sha256": "f0f88ba560610574916fa0d75929753a8738718653faffb4849aaacaa2c9f8c8"
+  },
+  {
+    "call": 19,
+    "id": "l02_r0_q0_m0_entailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:29:03Z",
+    "free_disk_bytes": 23142789120,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l02",
+    "role": 0,
+    "query": 0,
+    "mapping": 0,
+    "legend_order": "entailed_first",
+    "last_class": "not_entailed",
+    "last_symbol": "B",
+    "expected": "entailed",
+    "expected_symbol": "A",
+    "actual": "not_entailed",
+    "argmax_id": 33,
+    "argmax_token": "B",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -15.87499999998429,
+    "class_logits": {
+      "entailed": 26.437500000020364,
+      "not_entailed": 42.312500000004654
+    },
+    "top12": [
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 42.3125
+      },
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 26.4375
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 19.8125
+      },
+      {
+        "id": 81339,
+        "token": "*B",
+        "logit": 19.78125
+      },
+      {
+        "id": 35,
+        "token": "D",
+        "logit": 18.0
+      },
+      {
+        "id": 139173,
+        "token": "\uff22",
+        "logit": 17.71875
+      },
+      {
+        "id": 60332,
+        "token": "\u0411",
+        "logit": 17.59375
+      },
+      {
+        "id": 81268,
+        "token": ":B",
+        "logit": 16.3125
+      },
+      {
+        "id": 1668,
+        "token": "_B",
+        "logit": 16.296875
+      },
+      {
+        "id": 425,
+        "token": " B",
+        "logit": 16.21875
+      },
+      {
+        "id": 144946,
+        "token": "\u0392",
+        "logit": 16.203125
+      },
+      {
+        "id": 18673,
+        "token": "\u0435\u043d\u0442",
+        "logit": 16.0
+      }
+    ],
+    "payload": "payloads/CALL_019.npz",
+    "payload_sha256": "bb94dfee23f46d8e5dda8fb1ec0f5e9ed111183d7ec60d6e4711b7f930ae3496"
+  },
+  {
+    "call": 23,
+    "id": "l01_r0_q0_m1_entailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:29:08Z",
+    "free_disk_bytes": 23141367808,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l01",
+    "role": 0,
+    "query": 0,
+    "mapping": 1,
+    "legend_order": "entailed_first",
+    "last_class": "not_entailed",
+    "last_symbol": "A",
+    "expected": "entailed",
+    "expected_symbol": "B",
+    "actual": "not_entailed",
+    "argmax_id": 32,
+    "argmax_token": "A",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -19.45312499999993,
+    "class_logits": {
+      "entailed": 24.76562500000047,
+      "not_entailed": 44.2187500000004
+    },
+    "top12": [
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 44.21875
+      },
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 24.765625
+      },
+      {
+        "id": 22985,
+        "token": "\tA",
+        "logit": 21.828125
+      },
+      {
+        "id": 74721,
+        "token": "*A",
+        "logit": 20.921875
+      },
+      {
+        "id": 92480,
+        "token": "+A",
+        "logit": 20.828125
+      },
+      {
+        "id": 133054,
+        "token": "\uff21",
+        "logit": 20.703125
+      },
+      {
+        "id": 36155,
+        "token": "\u0410",
+        "logit": 20.171875
+      },
+      {
+        "id": 52585,
+        "token": "%A",
+        "logit": 20.0
+      },
+      {
+        "id": 64617,
+        "token": " Aires",
+        "logit": 19.8125
+      },
+      {
+        "id": 23465,
+        "token": ">A",
+        "logit": 18.59375
+      },
+      {
+        "id": 30192,
+        "token": "<A",
+        "logit": 18.5
+      },
+      {
+        "id": 144842,
+        "token": "\u0391",
+        "logit": 18.21875
+      }
+    ],
+    "payload": "payloads/CALL_023.npz",
+    "payload_sha256": "38d3deacaa29443df5b34b3a069c2fcc8093cd6b52b2cd14d4b9ab5cd2c2d2ab"
+  },
+  {
+    "call": 25,
+    "id": "l02_r1_q1_m1_nonentailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:29:10Z",
+    "free_disk_bytes": 23140667392,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l02",
+    "role": 1,
+    "query": 1,
+    "mapping": 1,
+    "legend_order": "nonentailed_first",
+    "last_class": "entailed",
+    "last_symbol": "B",
+    "expected": "entailed",
+    "expected_symbol": "B",
+    "actual": "not_entailed",
+    "argmax_id": 32,
+    "argmax_token": "A",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -15.70312499990943,
+    "class_logits": {
+      "entailed": 22.765625000135753,
+      "not_entailed": 38.46875000004518
+    },
+    "top12": [
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 38.46875
+      },
+      {
+        "id": 1921,
+        "token": "not",
+        "logit": 29.9375
+      },
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 22.765625
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 21.859375
+      },
+      {
+        "id": 2623,
+        "token": "Not",
+        "logit": 21.171875
+      },
+      {
+        "id": 29169,
+        "token": "-not",
+        "logit": 19.296875
+      },
+      {
+        "id": 67844,
+        "token": ":not",
+        "logit": 18.984375
+      },
+      {
+        "id": 11971,
+        "token": ".not",
+        "logit": 18.890625
+      },
+      {
+        "id": 14297,
+        "token": "notations",
+        "logit": 18.78125
+      },
+      {
+        "id": 14065,
+        "token": "NOT",
+        "logit": 18.765625
+      },
+      {
+        "id": 537,
+        "token": " not",
+        "logit": 18.71875
+      },
+      {
+        "id": 97266,
+        "token": "\tnot",
+        "logit": 18.71875
+      }
+    ],
+    "payload": "payloads/CALL_025.npz",
+    "payload_sha256": "1b4fbe776985b0b1fdb8b66129d180b22589d72381b7b452ef3bf528d34e3222"
+  },
+  {
+    "call": 26,
+    "id": "l01_r0_q0_m0_nonentailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:29:11Z",
+    "free_disk_bytes": 23140331520,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l01",
+    "role": 0,
+    "query": 0,
+    "mapping": 0,
+    "legend_order": "nonentailed_first",
+    "last_class": "entailed",
+    "last_symbol": "A",
+    "expected": "entailed",
+    "expected_symbol": "A",
+    "actual": "not_entailed",
+    "argmax_id": 33,
+    "argmax_token": "B",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -13.593749999989992,
+    "class_logits": {
+      "entailed": 25.843750000018044,
+      "not_entailed": 39.437500000008036
+    },
+    "top12": [
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 39.4375
+      },
+      {
+        "id": 1921,
+        "token": "not",
+        "logit": 27.78125
+      },
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 25.84375
+      },
+      {
+        "id": 2623,
+        "token": "Not",
+        "logit": 22.28125
+      },
+      {
+        "id": 81339,
+        "token": "*B",
+        "logit": 20.3125
+      },
+      {
+        "id": 97266,
+        "token": "\tnot",
+        "logit": 19.125
+      },
+      {
+        "id": 29169,
+        "token": "-not",
+        "logit": 18.25
+      },
+      {
+        "id": 139173,
+        "token": "\uff22",
+        "logit": 18.1875
+      },
+      {
+        "id": 144946,
+        "token": "\u0392",
+        "logit": 18.0625
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 17.640625
+      },
+      {
+        "id": 67844,
+        "token": ":not",
+        "logit": 17.640625
+      },
+      {
+        "id": 85746,
+        "token": "\u2019B",
+        "logit": 17.578125
+      }
+    ],
+    "payload": "payloads/CALL_026.npz",
+    "payload_sha256": "a84c92b8f7204790938a8809458e0b2c376751c101dfcd0ba7e55cbcdcd9840a"
+  },
+  {
+    "call": 27,
+    "id": "l01_r1_q1_m1_nonentailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:29:12Z",
+    "free_disk_bytes": 23140052992,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l01",
+    "role": 1,
+    "query": 1,
+    "mapping": 1,
+    "legend_order": "nonentailed_first",
+    "last_class": "entailed",
+    "last_symbol": "B",
+    "expected": "entailed",
+    "expected_symbol": "B",
+    "actual": "not_entailed",
+    "argmax_id": 32,
+    "argmax_token": "A",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -16.921874999921023,
+    "class_logits": {
+      "entailed": 22.671875000118852,
+      "not_entailed": 39.593750000039876
+    },
+    "top12": [
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 39.59375
+      },
+      {
+        "id": 1921,
+        "token": "not",
+        "logit": 30.96875
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 23.03125
+      },
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 22.671875
+      },
+      {
+        "id": 2623,
+        "token": "Not",
+        "logit": 22.046875
+      },
+      {
+        "id": 29169,
+        "token": "-not",
+        "logit": 20.046875
+      },
+      {
+        "id": 11971,
+        "token": ".not",
+        "logit": 19.71875
+      },
+      {
+        "id": 67844,
+        "token": ":not",
+        "logit": 19.46875
+      },
+      {
+        "id": 537,
+        "token": " not",
+        "logit": 19.171875
+      },
+      {
+        "id": 24772,
+        "token": "(not",
+        "logit": 19.046875
+      },
+      {
+        "id": 14065,
+        "token": "NOT",
+        "logit": 19.015625
+      },
+      {
+        "id": 97266,
+        "token": "\tnot",
+        "logit": 18.84375
+      }
+    ],
+    "payload": "payloads/CALL_027.npz",
+    "payload_sha256": "08c24b874a6f186045127fd4d9dba4a8bc543c89b671ca154a3406f2aec33e9b"
+  },
+  {
+    "call": 33,
+    "id": "l02_r1_q1_m0_nonentailed_first",
+    "kind": "scientific",
+    "utc": "2026-10-20T07:29:18Z",
+    "free_disk_bytes": 23136944128,
+    "swap_used_bytes": 1539372482.56,
+    "family": "l02",
+    "role": 1,
+    "query": 1,
+    "mapping": 0,
+    "legend_order": "nonentailed_first",
+    "last_class": "entailed",
+    "last_symbol": "A",
+    "expected": "entailed",
+    "expected_symbol": "A",
+    "actual": "not_entailed",
+    "argmax_id": 33,
+    "argmax_token": "B",
+    "native_correct": false,
+    "format_compliant": true,
+    "s_entail": -12.51562499998531,
+    "class_logits": {
+      "entailed": 24.765625000032944,
+      "not_entailed": 37.281250000018254
+    },
+    "top12": [
+      {
+        "id": 33,
+        "token": "B",
+        "logit": 37.28125
+      },
+      {
+        "id": 1921,
+        "token": "not",
+        "logit": 26.359375
+      },
+      {
+        "id": 32,
+        "token": "A",
+        "logit": 24.765625
+      },
+      {
+        "id": 2623,
+        "token": "Not",
+        "logit": 21.46875
+      },
+      {
+        "id": 81339,
+        "token": "*B",
+        "logit": 19.265625
+      },
+      {
+        "id": 97266,
+        "token": "\tnot",
+        "logit": 18.640625
+      },
+      {
+        "id": 29169,
+        "token": "-not",
+        "logit": 17.46875
+      },
+      {
+        "id": 139173,
+        "token": "\uff22",
+        "logit": 17.375
+      },
+      {
+        "id": 85746,
+        "token": "\u2019B",
+        "logit": 17.296875
+      },
+      {
+        "id": 144946,
+        "token": "\u0392",
+        "logit": 17.28125
+      },
+      {
+        "id": 67844,
+        "token": ":not",
+        "logit": 16.90625
+      },
+      {
+        "id": 14297,
+        "token": "notations",
+        "logit": 16.765625
+      }
+    ],
+    "payload": "payloads/CALL_033.npz",
+    "payload_sha256": "b03daa872f95101e82141ccf2e1f8c6aa7c4cf7f1a670ab1588d322c6204c3c7"
+  }
+]

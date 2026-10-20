@@ -1,0 +1,108 @@
+{
+  "candidate": "negative_category",
+  "counts": {
+    "negative_category": {
+      "matches": 32,
+      "n": 32,
+      "by_family": {
+        "l01": 16,
+        "l02": 16
+      },
+      "by_order": {
+        "entailed_first": 16,
+        "nonentailed_first": 16
+      },
+      "qualifies": true
+    },
+    "last_option": {
+      "matches": 16,
+      "n": 32,
+      "by_family": {
+        "l01": 8,
+        "l02": 8
+      },
+      "by_order": {
+        "entailed_first": 16,
+        "nonentailed_first": 0
+      },
+      "qualifies": false
+    },
+    "relational_answer": {
+      "matches": 16,
+      "n": 32,
+      "by_family": {
+        "l01": 8,
+        "l02": 8
+      },
+      "by_order": {
+        "entailed_first": 8,
+        "nonentailed_first": 8
+      },
+      "qualifies": false
+    }
+  },
+  "causal_task_ready": false,
+  "no_p_values": true,
+  "native_correct": 16,
+  "format_compliant": 32,
+  "model_forwards": 33,
+  "four_answer_units": [
+    {
+      "family": "l01",
+      "legend_order": "entailed_first",
+      "mapping": 0,
+      "native_correct": 2,
+      "complete": false
+    },
+    {
+      "family": "l01",
+      "legend_order": "entailed_first",
+      "mapping": 1,
+      "native_correct": 2,
+      "complete": false
+    },
+    {
+      "family": "l01",
+      "legend_order": "nonentailed_first",
+      "mapping": 0,
+      "native_correct": 2,
+      "complete": false
+    },
+    {
+      "family": "l01",
+      "legend_order": "nonentailed_first",
+      "mapping": 1,
+      "native_correct": 2,
+      "complete": false
+    },
+    {
+      "family": "l02",
+      "legend_order": "entailed_first",
+      "mapping": 0,
+      "native_correct": 2,
+      "complete": false
+    },
+    {
+      "family": "l02",
+      "legend_order": "entailed_first",
+      "mapping": 1,
+      "native_correct": 2,
+      "complete": false
+    },
+    {
+      "family": "l02",
+      "legend_order": "nonentailed_first",
+      "mapping": 0,
+      "native_correct": 2,
+      "complete": false
+    },
+    {
+      "family": "l02",
+      "legend_order": "nonentailed_first",
+      "mapping": 1,
+      "native_correct": 2,
+      "complete": false
+    }
+  ],
+  "complete_units": 0
+}

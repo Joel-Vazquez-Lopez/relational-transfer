@@ -1,0 +1,343 @@
+{
+  "scope": {
+    "status": "COMPLETE_AUDITED_FIXED_32",
+    "utc": "2026-10-20T07:31:58.246344+00:00",
+    "model_forwards": 33,
+    "scientific_forwards": 32,
+    "exposed_control_forwards": 1,
+    "numerical_control_max_error": 0.0,
+    "independently_verified_payloads": 33,
+    "qualifying_prediction": "negative_category",
+    "not_entailed_choices": 32,
+    "last_option_matches": 16,
+    "correct_first_token_decisions": 16,
+    "complete_four_answer_units": 0,
+    "causal_task_ready": false,
+    "max_peak_mlx_bytes": 4535365208,
+    "max_observed_pre_dispatch_swap_bytes": 1539372482.56,
+    "scientific_decision": "NARROW category-linked default; no internal mechanism identified",
+    "no_further_inference": true
+  },
+  "files": [
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/ANALYSIS.log",
+      "bytes": 2169,
+      "sha256": "bbc082b27beff7824d53e64c3257b1d77322f482caee429a5aa43ae273fff096"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/ANSWER_LEDGER.csv",
+      "bytes": 7148,
+      "sha256": "8e09e99af1f9414d9c808f765ef8a32491ecdfc151259a328b20f1706239c369"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/BUDGET.jsonl",
+      "bytes": 5648,
+      "sha256": "e04e7b5550dc6db46692c9712850f3b47e03ddebd715a36164488fa5166961ba"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/COLLECTION.json",
+      "bytes": 132,
+      "sha256": "70583fd6b946e0e7cc3257978861eb0d7df1d7ee61c249da219440b227f6807e"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/CONTROL_INPUT.json",
+      "bytes": 5728,
+      "sha256": "b666b391089b2bb2a1d7d2f524a3d3b8d9db213db9ce3ee048c662318bcf784b"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/CONTROL_RESULT.json",
+      "bytes": 73,
+      "sha256": "1dc7f2328d943372625f65532002d0f34bdbdc88bbac2eb78f2ab7839b1299ce"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/CPU_PREFLIGHT.json",
+      "bytes": 183,
+      "sha256": "e7f4abd16a2d278c92bfc183abfc9be9ae5b1ddbf6d265f90694405c83a8ae97"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/EXECUTION_STATUS.json",
+      "bytes": 683,
+      "sha256": "3867384b35b901ee137d774e9ade561d7bc3743c42a73baf521ad934871119f9"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/FREEZE_RECEIPT.json",
+      "bytes": 165,
+      "sha256": "394ece2f7fdcec98d9bc0ef8feb75c2c2535b0739181f4d30842a7a876201d92"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/INDEPENDENT_AUDIT.json",
+      "bytes": 3290,
+      "sha256": "f7ca902d3887b0627485a2438488435b559cd137b129ad79f61ae193c5121a03"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/INPUTS.json",
+      "bytes": 207811,
+      "sha256": "97515e60a2ef497703935b14dab91ed3f36d236530ffdb76b3e1221c7cb8f74f"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/LOCK.json",
+      "bytes": 3705,
+      "sha256": "c77a494f3276357300bd785e150102b91d5b2863daf81261e35435d4cd7f4f75"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/PROTOCOL.md",
+      "bytes": 4347,
+      "sha256": "6c5ff2d2e818c4c409fa337f519eabdc6ac560f3a4dd5d1da4012aa6917d3aa1"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/RAW.jsonl",
+      "bytes": 43325,
+      "sha256": "ba4b3e74e646820b85a4c05dcf54cbc8b146b14cd8f1a9f6b9f376aa8bbd2013"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/README.md",
+      "bytes": 947,
+      "sha256": "4a6b942aeb41808a2f93e76adaf9850019d2904c5eba87231f8e8dd640612d90"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/REFERENCE_CONTROL.npz",
+      "bytes": 276215,
+      "sha256": "531c72208b78489acc8292e9a0e0cd5b93cc216dfec49519d7d20743842de707"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/REPORT.md",
+      "bytes": 4602,
+      "sha256": "c466e0e34be9796aefe754f4e91af7037530a6a9e6c349fffa40748e9b567a09"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/RESOURCE_METRICS.jsonl",
+      "bytes": 3192,
+      "sha256": "e7a6cafcdd7d9897a4e3c448f339ef6439eb50bf05ce665958728dc48818f4d4"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/RESULTS.json",
+      "bytes": 2169,
+      "sha256": "bbc082b27beff7824d53e64c3257b1d77322f482caee429a5aa43ae273fff096"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/RUN.log",
+      "bytes": 833,
+      "sha256": "566c24e86b02d78bcbb4fa4b5f070d74889837bee18e8c16c77121b22bc65bd9"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/SCIENTIFIC_DECISION.json",
+      "bytes": 808,
+      "sha256": "b0decf8e86a5c3fe656eb130a9cf90b861ddbd7dfe4a6779c6d4dc5845fe3826"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/SOURCE_MANIFEST.json",
+      "bytes": 3269,
+      "sha256": "a99460d9ba7d210e9a91c3b932021e76709f13f2aefb7e642a231016d80d8262"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/STARTED.json",
+      "bytes": 121,
+      "sha256": "bbe86920e7d5471fb012aa8b23502a6d08ae29e6c7bacc0f702582788ab5e1f1"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/TOKENIZER_AUDIT.json",
+      "bytes": 5427,
+      "sha256": "3d0a066ab017977c8c43ba5208311f4990bd79e4842abb42af3d99bd74c20058"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/UNEXPECTED_ANSWERS.json",
+      "bytes": 30393,
+      "sha256": "6adb1d95ab372ba42b2798ea55f8ef85a9401e3a0b41d975f1d0182f53842ce8"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/analyze.py",
+      "bytes": 6869,
+      "sha256": "106466bc71007836dd8a11efca573bc08c02e4003b7af28373148024f33d0d57"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/core.py",
+      "bytes": 2514,
+      "sha256": "15e9c130a9e67ed5d5c2e385191c50a3190d8a465cd92c4b5632fcf93c38a5f5"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/interpret_result.py",
+      "bytes": 2707,
+      "sha256": "93607fb0171d9a1b8dad19180d1d26413612b3918262e7db7cf55877d335528c"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_001.npz",
+      "bytes": 350100,
+      "sha256": "9f696e04b6a4ca81d487554c1fca21edd64200ba6070328dad8a7b04977f2d19"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_002.npz",
+      "bytes": 334532,
+      "sha256": "e144cdb0d02814f7ad92152d69e251b896df5cb18546df9447bbe79132eeb5a8"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_003.npz",
+      "bytes": 333430,
+      "sha256": "d57d50e0457cc050d77100909f10478f5fc4520562fb5b3e7111a2ac2eba3e11"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_004.npz",
+      "bytes": 333640,
+      "sha256": "eda18babf797116ca48913fce174a6a0929b80b152f360c0a567dcd532a3dd24"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_005.npz",
+      "bytes": 333681,
+      "sha256": "5f6fa663c121dbd4e451a5bdc45595da574cad4373fe8dc25279aee2346a8983"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_006.npz",
+      "bytes": 347503,
+      "sha256": "aa356f7f9ce324a6349b9cff5219c3c86f12a3d385ac79b98a0d1e93e2a13366"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_007.npz",
+      "bytes": 336272,
+      "sha256": "36f7ca0fa15b5d08a5358e30f3fa2406797506fe3d2bbb6d322b63832217f382"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_008.npz",
+      "bytes": 346193,
+      "sha256": "7e8e1d7127ee89db8ae9c1553101a300cb3b0f75c7d0b8d8a8f8fca9a196e8f3"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_009.npz",
+      "bytes": 328127,
+      "sha256": "4fea29bca818688de5ebe9b861e2482b40e1329d6afb089024c895bd7b8de209"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_010.npz",
+      "bytes": 339927,
+      "sha256": "6e28acb71383f1f01deeee734a6f477bd2acb0e5aad8fdf5b85e762c3556772b"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_011.npz",
+      "bytes": 332366,
+      "sha256": "7c1817db81603727e74fb49615d9bf44c2efc1880a14c1700bc2bdf706589dcb"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_012.npz",
+      "bytes": 333977,
+      "sha256": "1839b67647c80ae5d57f09b502a3116a2462adbb745ab89104d1fd117db0afe2"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_013.npz",
+      "bytes": 345091,
+      "sha256": "402837cb415fbc9400fac6db7bef5e59f86c1464e8e3710f0e58ab808ed517e3"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_014.npz",
+      "bytes": 334820,
+      "sha256": "8c1e6ec34a58526df8caaca2b07d755b8e38dd81a9e4d91613f0e71e90565879"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_015.npz",
+      "bytes": 338470,
+      "sha256": "7a97bc4b67b7a4ae0b5e26c4677fc9683c6b07f4795baf37e8838252050b6c6b"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_016.npz",
+      "bytes": 332941,
+      "sha256": "10a76ba2ff6cdc5175c709766fb887fca30ba7426679ad6b4020776d93a4499b"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_017.npz",
+      "bytes": 334455,
+      "sha256": "594c51d6fa22970e115cf8c8ec571df54c1af7c6104b02d29ffbc53e71777ac6"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_018.npz",
+      "bytes": 345339,
+      "sha256": "f0f88ba560610574916fa0d75929753a8738718653faffb4849aaacaa2c9f8c8"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_019.npz",
+      "bytes": 351072,
+      "sha256": "bb94dfee23f46d8e5dda8fb1ec0f5e9ed111183d7ec60d6e4711b7f930ae3496"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_020.npz",
+      "bytes": 332431,
+      "sha256": "59966e93ecbe9114590bbbe7ec20b03636a12fbc398e4dfcbfec88ec5754f52d"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_021.npz",
+      "bytes": 341436,
+      "sha256": "c298324d64e91e073d24212e5af7e0e0c6c1dd98d21b37c5f280144e5c39ee02"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_022.npz",
+      "bytes": 341862,
+      "sha256": "14ca0fbe70c157f391e7ccb4ad26867e7082e91aaccf12dd58e5bc97af55d547"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_023.npz",
+      "bytes": 332095,
+      "sha256": "38d3deacaa29443df5b34b3a069c2fcc8093cd6b52b2cd14d4b9ab5cd2c2d2ab"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_024.npz",
+      "bytes": 333367,
+      "sha256": "4e8f8423f0f8543fdad7f4778ace591ebfc912b331e796d868b357c34c4b8b11"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_025.npz",
+      "bytes": 332232,
+      "sha256": "1b4fbe776985b0b1fdb8b66129d180b22589d72381b7b452ef3bf528d34e3222"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_026.npz",
+      "bytes": 335720,
+      "sha256": "a84c92b8f7204790938a8809458e0b2c376751c101dfcd0ba7e55cbcdcd9840a"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_027.npz",
+      "bytes": 333042,
+      "sha256": "08c24b874a6f186045127fd4d9dba4a8bc543c89b671ca154a3406f2aec33e9b"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_028.npz",
+      "bytes": 328560,
+      "sha256": "08d0f07b5702eb2e3b05af11ebaf99372b2e52bd54027e71fb472e7490d8358c"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_029.npz",
+      "bytes": 329164,
+      "sha256": "095a41a9b9cbfc3aefe0b184b2255e8500a959899aa615af6179aa990cd4afa6"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_030.npz",
+      "bytes": 328322,
+      "sha256": "1222e2b198eb99c952814308547550749457a1bf4e95408b512f868fd9ef7c34"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_031.npz",
+      "bytes": 342315,
+      "sha256": "9f2bbf6893891f4871a78701e0692f0b8a7f7bab806d915e39201902fe291769"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_032.npz",
+      "bytes": 333170,
+      "sha256": "7dd66a5cfc8afafa713a5ca09a248b67a5c07a02277395886e00be068b0a01c0"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/payloads/CALL_033.npz",
+      "bytes": 335820,
+      "sha256": "b03daa872f95101e82141ccf2e1f8c6aa7c4cf7f1a670ab1588d322c6204c3c7"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/prepare.py",
+      "bytes": 6326,
+      "sha256": "6286351db382abbee865962386d4670117863c41ff476254b7184663b42158a0"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/run.py",
+      "bytes": 3981,
+      "sha256": "246cfbcc8229cf0ade1273b4db78a4fbb47b06230b7ed2bf10214753282e7279"
+    },
+    {
+      "path": "research/legend_order_diagnostic_2026-10-20/test_design.py",
+      "bytes": 1018,
+      "sha256": "8e8a6a42c7340ba8518b6c654a66058ed0eb665120bb187dcd1170d6aa3d1db1"
+    }
+  ]
+}
