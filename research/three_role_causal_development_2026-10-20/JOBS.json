@@ -1,0 +1,2882 @@
+[
+  {
+    "id": "t01_sender_forward_sender_main",
+    "unit": "t01_sender",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t01_012_active_q0",
+    "donor_context": "t01|021|goal_fronted",
+    "donor_input_id": "t01_021_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_forward_sender_same_role_voice",
+    "unit": "t01_sender",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_012_active_q0",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_forward_sender_neighbor",
+    "unit": "t01_sender",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t01_012_active_q0",
+    "donor_context": "t01|021|goal_fronted",
+    "donor_input_id": "t01_021_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_forward_sender_cross_lexical",
+    "unit": "t01_sender",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_012_active_q0",
+    "donor_context": "t02|021|goal_fronted",
+    "donor_input_id": "t02_021_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Dorian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_forward_sent_person_main",
+    "unit": "t01_sender",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t01_012_active_q1",
+    "donor_context": "t01|021|goal_fronted",
+    "donor_input_id": "t01_021_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_forward_sent_person_same_role_voice",
+    "unit": "t01_sender",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_012_active_q1",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_forward_sent_person_neighbor",
+    "unit": "t01_sender",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t01_012_active_q1",
+    "donor_context": "t01|021|goal_fronted",
+    "donor_input_id": "t01_021_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_forward_sent_person_cross_lexical",
+    "unit": "t01_sender",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_012_active_q1",
+    "donor_context": "t02|021|goal_fronted",
+    "donor_input_id": "t02_021_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Dorian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_forward_destination_person_main",
+    "unit": "t01_sender",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t01_012_active_q2",
+    "donor_context": "t01|021|goal_fronted",
+    "donor_input_id": "t01_021_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_forward_destination_person_same_role_voice",
+    "unit": "t01_sender",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_012_active_q2",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_forward_destination_person_neighbor",
+    "unit": "t01_sender",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t01_012_active_q2",
+    "donor_context": "t01|021|goal_fronted",
+    "donor_input_id": "t01_021_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_forward_destination_person_cross_lexical",
+    "unit": "t01_sender",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_012_active_q2",
+    "donor_context": "t02|021|goal_fronted",
+    "donor_input_id": "t02_021_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Dorian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_reverse_sender_main",
+    "unit": "t01_sender",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t01_021_goal_fronted_q0",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_reverse_sender_same_role_voice",
+    "unit": "t01_sender",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_021_goal_fronted_q0",
+    "donor_context": "t01|021|active",
+    "donor_input_id": "t01_021_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_reverse_sender_neighbor",
+    "unit": "t01_sender",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t01_021_goal_fronted_q0",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_reverse_sender_cross_lexical",
+    "unit": "t01_sender",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_021_goal_fronted_q0",
+    "donor_context": "t02|012|active",
+    "donor_input_id": "t02_012_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Dorian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_reverse_sent_person_main",
+    "unit": "t01_sender",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t01_021_goal_fronted_q1",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_reverse_sent_person_same_role_voice",
+    "unit": "t01_sender",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_021_goal_fronted_q1",
+    "donor_context": "t01|021|active",
+    "donor_input_id": "t01_021_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_reverse_sent_person_neighbor",
+    "unit": "t01_sender",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t01_021_goal_fronted_q1",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_reverse_sent_person_cross_lexical",
+    "unit": "t01_sender",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_021_goal_fronted_q1",
+    "donor_context": "t02|012|active",
+    "donor_input_id": "t02_012_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Dorian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_reverse_destination_person_main",
+    "unit": "t01_sender",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t01_021_goal_fronted_q2",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_reverse_destination_person_same_role_voice",
+    "unit": "t01_sender",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_021_goal_fronted_q2",
+    "donor_context": "t01|021|active",
+    "donor_input_id": "t01_021_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": false
+  },
+  {
+    "id": "t01_sender_reverse_destination_person_neighbor",
+    "unit": "t01_sender",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t01_021_goal_fronted_q2",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Agnes",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sender_reverse_destination_person_cross_lexical",
+    "unit": "t01_sender",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_021_goal_fronted_q2",
+    "donor_context": "t02|012|active",
+    "donor_input_id": "t02_012_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Dorian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": false
+  },
+  {
+    "id": "t01_sent_person_forward_sender_main",
+    "unit": "t01_sent_person",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t01_012_active_q0",
+    "donor_context": "t01|210|goal_fronted",
+    "donor_input_id": "t01_210_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_forward_sender_same_role_voice",
+    "unit": "t01_sent_person",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_012_active_q0",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_forward_sender_neighbor",
+    "unit": "t01_sent_person",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t01_012_active_q0",
+    "donor_context": "t01|210|goal_fronted",
+    "donor_input_id": "t01_210_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_forward_sender_cross_lexical",
+    "unit": "t01_sent_person",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_012_active_q0",
+    "donor_context": "t02|210|goal_fronted",
+    "donor_input_id": "t02_210_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_forward_sent_person_main",
+    "unit": "t01_sent_person",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t01_012_active_q1",
+    "donor_context": "t01|210|goal_fronted",
+    "donor_input_id": "t01_210_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_forward_sent_person_same_role_voice",
+    "unit": "t01_sent_person",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_012_active_q1",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_forward_sent_person_neighbor",
+    "unit": "t01_sent_person",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t01_012_active_q1",
+    "donor_context": "t01|210|goal_fronted",
+    "donor_input_id": "t01_210_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_forward_sent_person_cross_lexical",
+    "unit": "t01_sent_person",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_012_active_q1",
+    "donor_context": "t02|210|goal_fronted",
+    "donor_input_id": "t02_210_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_forward_destination_person_main",
+    "unit": "t01_sent_person",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t01_012_active_q2",
+    "donor_context": "t01|210|goal_fronted",
+    "donor_input_id": "t01_210_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_forward_destination_person_same_role_voice",
+    "unit": "t01_sent_person",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_012_active_q2",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_forward_destination_person_neighbor",
+    "unit": "t01_sent_person",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t01_012_active_q2",
+    "donor_context": "t01|210|goal_fronted",
+    "donor_input_id": "t01_210_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_forward_destination_person_cross_lexical",
+    "unit": "t01_sent_person",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_012_active_q2",
+    "donor_context": "t02|210|goal_fronted",
+    "donor_input_id": "t02_210_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": false
+  },
+  {
+    "id": "t01_sent_person_reverse_sender_main",
+    "unit": "t01_sent_person",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t01_210_goal_fronted_q0",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_reverse_sender_same_role_voice",
+    "unit": "t01_sent_person",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_210_goal_fronted_q0",
+    "donor_context": "t01|210|active",
+    "donor_input_id": "t01_210_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_reverse_sender_neighbor",
+    "unit": "t01_sent_person",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t01_210_goal_fronted_q0",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_reverse_sender_cross_lexical",
+    "unit": "t01_sent_person",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_210_goal_fronted_q0",
+    "donor_context": "t02|012|active",
+    "donor_input_id": "t02_012_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_reverse_sent_person_main",
+    "unit": "t01_sent_person",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t01_210_goal_fronted_q1",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_reverse_sent_person_same_role_voice",
+    "unit": "t01_sent_person",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_210_goal_fronted_q1",
+    "donor_context": "t01|210|active",
+    "donor_input_id": "t01_210_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_reverse_sent_person_neighbor",
+    "unit": "t01_sent_person",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t01_210_goal_fronted_q1",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_reverse_sent_person_cross_lexical",
+    "unit": "t01_sent_person",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_210_goal_fronted_q1",
+    "donor_context": "t02|012|active",
+    "donor_input_id": "t02_012_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_reverse_destination_person_main",
+    "unit": "t01_sent_person",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t01_210_goal_fronted_q2",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_reverse_destination_person_same_role_voice",
+    "unit": "t01_sent_person",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_210_goal_fronted_q2",
+    "donor_context": "t01|210|active",
+    "donor_input_id": "t01_210_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_reverse_destination_person_neighbor",
+    "unit": "t01_sent_person",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t01_210_goal_fronted_q2",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_sent_person_reverse_destination_person_cross_lexical",
+    "unit": "t01_sent_person",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_210_goal_fronted_q2",
+    "donor_context": "t02|012|active",
+    "donor_input_id": "t02_012_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": false
+  },
+  {
+    "id": "t01_destination_person_forward_sender_main",
+    "unit": "t01_destination_person",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t01_012_goal_fronted_q0",
+    "donor_context": "t01|102|active",
+    "donor_input_id": "t01_102_active_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_forward_sender_same_role_voice",
+    "unit": "t01_destination_person",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_012_goal_fronted_q0",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_forward_sender_neighbor",
+    "unit": "t01_destination_person",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t01_012_goal_fronted_q0",
+    "donor_context": "t01|102|active",
+    "donor_input_id": "t01_102_active_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_forward_sender_cross_lexical",
+    "unit": "t01_destination_person",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_012_goal_fronted_q0",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_forward_sent_person_main",
+    "unit": "t01_destination_person",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t01_012_goal_fronted_q1",
+    "donor_context": "t01|102|active",
+    "donor_input_id": "t01_102_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_forward_sent_person_same_role_voice",
+    "unit": "t01_destination_person",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_012_goal_fronted_q1",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_forward_sent_person_neighbor",
+    "unit": "t01_destination_person",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t01_012_goal_fronted_q1",
+    "donor_context": "t01|102|active",
+    "donor_input_id": "t01_102_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_forward_sent_person_cross_lexical",
+    "unit": "t01_destination_person",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_012_goal_fronted_q1",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_forward_destination_person_main",
+    "unit": "t01_destination_person",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t01_012_goal_fronted_q2",
+    "donor_context": "t01|102|active",
+    "donor_input_id": "t01_102_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_forward_destination_person_same_role_voice",
+    "unit": "t01_destination_person",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_012_goal_fronted_q2",
+    "donor_context": "t01|012|active",
+    "donor_input_id": "t01_012_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_forward_destination_person_neighbor",
+    "unit": "t01_destination_person",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t01_012_goal_fronted_q2",
+    "donor_context": "t01|102|active",
+    "donor_input_id": "t01_102_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_forward_destination_person_cross_lexical",
+    "unit": "t01_destination_person",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_012_goal_fronted_q2",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_reverse_sender_main",
+    "unit": "t01_destination_person",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t01_102_active_q0",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_reverse_sender_same_role_voice",
+    "unit": "t01_destination_person",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_102_active_q0",
+    "donor_context": "t01|102|goal_fronted",
+    "donor_input_id": "t01_102_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_reverse_sender_neighbor",
+    "unit": "t01_destination_person",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t01_102_active_q0",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_reverse_sender_cross_lexical",
+    "unit": "t01_destination_person",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_102_active_q0",
+    "donor_context": "t02|012|goal_fronted",
+    "donor_input_id": "t02_012_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_reverse_sent_person_main",
+    "unit": "t01_destination_person",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t01_102_active_q1",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_reverse_sent_person_same_role_voice",
+    "unit": "t01_destination_person",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_102_active_q1",
+    "donor_context": "t01|102|goal_fronted",
+    "donor_input_id": "t01_102_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_reverse_sent_person_neighbor",
+    "unit": "t01_destination_person",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t01_102_active_q1",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_reverse_sent_person_cross_lexical",
+    "unit": "t01_destination_person",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_102_active_q1",
+    "donor_context": "t02|012|goal_fronted",
+    "donor_input_id": "t02_012_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_reverse_destination_person_main",
+    "unit": "t01_destination_person",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t01_102_active_q2",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_reverse_destination_person_same_role_voice",
+    "unit": "t01_destination_person",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t01_102_active_q2",
+    "donor_context": "t01|102|goal_fronted",
+    "donor_input_id": "t01_102_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": false
+  },
+  {
+    "id": "t01_destination_person_reverse_destination_person_neighbor",
+    "unit": "t01_destination_person",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t01_102_active_q2",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t01_destination_person_reverse_destination_person_cross_lexical",
+    "unit": "t01_destination_person",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t01_102_active_q2",
+    "donor_context": "t02|012|goal_fronted",
+    "donor_input_id": "t02_012_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_forward_sender_main",
+    "unit": "t02_sender",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t02_102_active_q0",
+    "donor_context": "t02|120|goal_fronted",
+    "donor_input_id": "t02_120_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_forward_sender_same_role_voice",
+    "unit": "t02_sender",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_102_active_q0",
+    "donor_context": "t02|102|goal_fronted",
+    "donor_input_id": "t02_102_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_forward_sender_neighbor",
+    "unit": "t02_sender",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t02_102_active_q0",
+    "donor_context": "t02|120|goal_fronted",
+    "donor_input_id": "t02_120_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_forward_sender_cross_lexical",
+    "unit": "t02_sender",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_102_active_q0",
+    "donor_context": "t01|120|goal_fronted",
+    "donor_input_id": "t01_120_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_forward_sent_person_main",
+    "unit": "t02_sender",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t02_102_active_q1",
+    "donor_context": "t02|120|goal_fronted",
+    "donor_input_id": "t02_120_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_forward_sent_person_same_role_voice",
+    "unit": "t02_sender",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_102_active_q1",
+    "donor_context": "t02|102|goal_fronted",
+    "donor_input_id": "t02_102_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_forward_sent_person_neighbor",
+    "unit": "t02_sender",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t02_102_active_q1",
+    "donor_context": "t02|120|goal_fronted",
+    "donor_input_id": "t02_120_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_forward_sent_person_cross_lexical",
+    "unit": "t02_sender",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_102_active_q1",
+    "donor_context": "t01|120|goal_fronted",
+    "donor_input_id": "t01_120_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_forward_destination_person_main",
+    "unit": "t02_sender",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t02_102_active_q2",
+    "donor_context": "t02|120|goal_fronted",
+    "donor_input_id": "t02_120_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_forward_destination_person_same_role_voice",
+    "unit": "t02_sender",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_102_active_q2",
+    "donor_context": "t02|102|goal_fronted",
+    "donor_input_id": "t02_102_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": false
+  },
+  {
+    "id": "t02_sender_forward_destination_person_neighbor",
+    "unit": "t02_sender",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t02_102_active_q2",
+    "donor_context": "t02|120|goal_fronted",
+    "donor_input_id": "t02_120_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_forward_destination_person_cross_lexical",
+    "unit": "t02_sender",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_102_active_q2",
+    "donor_context": "t01|120|goal_fronted",
+    "donor_input_id": "t01_120_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": false
+  },
+  {
+    "id": "t02_sender_reverse_sender_main",
+    "unit": "t02_sender",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t02_120_goal_fronted_q0",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_reverse_sender_same_role_voice",
+    "unit": "t02_sender",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_120_goal_fronted_q0",
+    "donor_context": "t02|120|active",
+    "donor_input_id": "t02_120_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_reverse_sender_neighbor",
+    "unit": "t02_sender",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t02_120_goal_fronted_q0",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_reverse_sender_cross_lexical",
+    "unit": "t02_sender",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_120_goal_fronted_q0",
+    "donor_context": "t01|102|active",
+    "donor_input_id": "t01_102_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_reverse_sent_person_main",
+    "unit": "t02_sender",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t02_120_goal_fronted_q1",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_reverse_sent_person_same_role_voice",
+    "unit": "t02_sender",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_120_goal_fronted_q1",
+    "donor_context": "t02|120|active",
+    "donor_input_id": "t02_120_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_reverse_sent_person_neighbor",
+    "unit": "t02_sender",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t02_120_goal_fronted_q1",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_reverse_sent_person_cross_lexical",
+    "unit": "t02_sender",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_120_goal_fronted_q1",
+    "donor_context": "t01|102|active",
+    "donor_input_id": "t01_102_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_reverse_destination_person_main",
+    "unit": "t02_sender",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t02_120_goal_fronted_q2",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_reverse_destination_person_same_role_voice",
+    "unit": "t02_sender",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_120_goal_fronted_q2",
+    "donor_context": "t02|120|active",
+    "donor_input_id": "t02_120_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_reverse_destination_person_neighbor",
+    "unit": "t02_sender",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t02_120_goal_fronted_q2",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Esther",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sender_reverse_destination_person_cross_lexical",
+    "unit": "t02_sender",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_120_goal_fronted_q2",
+    "donor_context": "t01|102|active",
+    "donor_input_id": "t01_102_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sender",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Basil",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_forward_sender_main",
+    "unit": "t02_sent_person",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t02_021_goal_fronted_q0",
+    "donor_context": "t02|120|active",
+    "donor_input_id": "t02_120_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_forward_sender_same_role_voice",
+    "unit": "t02_sent_person",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_021_goal_fronted_q0",
+    "donor_context": "t02|021|active",
+    "donor_input_id": "t02_021_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_forward_sender_neighbor",
+    "unit": "t02_sent_person",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t02_021_goal_fronted_q0",
+    "donor_context": "t02|120|active",
+    "donor_input_id": "t02_120_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_forward_sender_cross_lexical",
+    "unit": "t02_sent_person",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_021_goal_fronted_q0",
+    "donor_context": "t01|120|active",
+    "donor_input_id": "t01_120_active_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_forward_sent_person_main",
+    "unit": "t02_sent_person",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t02_021_goal_fronted_q1",
+    "donor_context": "t02|120|active",
+    "donor_input_id": "t02_120_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_forward_sent_person_same_role_voice",
+    "unit": "t02_sent_person",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_021_goal_fronted_q1",
+    "donor_context": "t02|021|active",
+    "donor_input_id": "t02_021_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_forward_sent_person_neighbor",
+    "unit": "t02_sent_person",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t02_021_goal_fronted_q1",
+    "donor_context": "t02|120|active",
+    "donor_input_id": "t02_120_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_forward_sent_person_cross_lexical",
+    "unit": "t02_sent_person",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_021_goal_fronted_q1",
+    "donor_context": "t01|120|active",
+    "donor_input_id": "t01_120_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_forward_destination_person_main",
+    "unit": "t02_sent_person",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t02_021_goal_fronted_q2",
+    "donor_context": "t02|120|active",
+    "donor_input_id": "t02_120_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_forward_destination_person_same_role_voice",
+    "unit": "t02_sent_person",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_021_goal_fronted_q2",
+    "donor_context": "t02|021|active",
+    "donor_input_id": "t02_021_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": false
+  },
+  {
+    "id": "t02_sent_person_forward_destination_person_neighbor",
+    "unit": "t02_sent_person",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t02_021_goal_fronted_q2",
+    "donor_context": "t02|120|active",
+    "donor_input_id": "t02_120_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_forward_destination_person_cross_lexical",
+    "unit": "t02_sent_person",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_021_goal_fronted_q2",
+    "donor_context": "t01|120|active",
+    "donor_input_id": "t01_120_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": false
+  },
+  {
+    "id": "t02_sent_person_reverse_sender_main",
+    "unit": "t02_sent_person",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t02_120_active_q0",
+    "donor_context": "t02|021|goal_fronted",
+    "donor_input_id": "t02_021_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_reverse_sender_same_role_voice",
+    "unit": "t02_sent_person",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_120_active_q0",
+    "donor_context": "t02|120|goal_fronted",
+    "donor_input_id": "t02_120_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_reverse_sender_neighbor",
+    "unit": "t02_sent_person",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t02_120_active_q0",
+    "donor_context": "t02|021|goal_fronted",
+    "donor_input_id": "t02_021_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_reverse_sender_cross_lexical",
+    "unit": "t02_sent_person",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_120_active_q0",
+    "donor_context": "t01|021|goal_fronted",
+    "donor_input_id": "t01_021_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_reverse_sent_person_main",
+    "unit": "t02_sent_person",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t02_120_active_q1",
+    "donor_context": "t02|021|goal_fronted",
+    "donor_input_id": "t02_021_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_reverse_sent_person_same_role_voice",
+    "unit": "t02_sent_person",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_120_active_q1",
+    "donor_context": "t02|120|goal_fronted",
+    "donor_input_id": "t02_120_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_reverse_sent_person_neighbor",
+    "unit": "t02_sent_person",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t02_120_active_q1",
+    "donor_context": "t02|021|goal_fronted",
+    "donor_input_id": "t02_021_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_reverse_sent_person_cross_lexical",
+    "unit": "t02_sent_person",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_120_active_q1",
+    "donor_context": "t01|021|goal_fronted",
+    "donor_input_id": "t01_021_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_reverse_destination_person_main",
+    "unit": "t02_sent_person",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t02_120_active_q2",
+    "donor_context": "t02|021|goal_fronted",
+    "donor_input_id": "t02_021_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_reverse_destination_person_same_role_voice",
+    "unit": "t02_sent_person",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_120_active_q2",
+    "donor_context": "t02|120|goal_fronted",
+    "donor_input_id": "t02_120_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_reverse_destination_person_neighbor",
+    "unit": "t02_sent_person",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t02_120_active_q2",
+    "donor_context": "t02|021|goal_fronted",
+    "donor_input_id": "t02_021_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_sent_person_reverse_destination_person_cross_lexical",
+    "unit": "t02_sent_person",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_120_active_q2",
+    "donor_context": "t01|021|goal_fronted",
+    "donor_input_id": "t01_021_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "sent_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_forward_sender_main",
+    "unit": "t02_destination_person",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t02_012_goal_fronted_q0",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_forward_sender_same_role_voice",
+    "unit": "t02_destination_person",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_012_goal_fronted_q0",
+    "donor_context": "t02|012|active",
+    "donor_input_id": "t02_012_active_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_forward_sender_neighbor",
+    "unit": "t02_destination_person",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t02_012_goal_fronted_q0",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_forward_sender_cross_lexical",
+    "unit": "t02_destination_person",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_012_goal_fronted_q0",
+    "donor_context": "t01|102|active",
+    "donor_input_id": "t01_102_active_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_forward_sent_person_main",
+    "unit": "t02_destination_person",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t02_012_goal_fronted_q1",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_forward_sent_person_same_role_voice",
+    "unit": "t02_destination_person",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_012_goal_fronted_q1",
+    "donor_context": "t02|012|active",
+    "donor_input_id": "t02_012_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_forward_sent_person_neighbor",
+    "unit": "t02_destination_person",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t02_012_goal_fronted_q1",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_forward_sent_person_cross_lexical",
+    "unit": "t02_destination_person",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_012_goal_fronted_q1",
+    "donor_context": "t01|102|active",
+    "donor_input_id": "t01_102_active_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_forward_destination_person_main",
+    "unit": "t02_destination_person",
+    "direction": "forward",
+    "condition": "main",
+    "recipient_id": "t02_012_goal_fronted_q2",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_forward_destination_person_same_role_voice",
+    "unit": "t02_destination_person",
+    "direction": "forward",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_012_goal_fronted_q2",
+    "donor_context": "t02|012|active",
+    "donor_input_id": "t02_012_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": false
+  },
+  {
+    "id": "t02_destination_person_forward_destination_person_neighbor",
+    "unit": "t02_destination_person",
+    "direction": "forward",
+    "condition": "neighbor",
+    "recipient_id": "t02_012_goal_fronted_q2",
+    "donor_context": "t02|102|active",
+    "donor_input_id": "t02_102_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_forward_destination_person_cross_lexical",
+    "unit": "t02_destination_person",
+    "direction": "forward",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_012_goal_fronted_q2",
+    "donor_context": "t01|102|active",
+    "donor_input_id": "t01_102_active_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_reverse_sender_main",
+    "unit": "t02_destination_person",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t02_102_active_q0",
+    "donor_context": "t02|012|goal_fronted",
+    "donor_input_id": "t02_012_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_reverse_sender_same_role_voice",
+    "unit": "t02_destination_person",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_102_active_q0",
+    "donor_context": "t02|102|goal_fronted",
+    "donor_input_id": "t02_102_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_reverse_sender_neighbor",
+    "unit": "t02_destination_person",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t02_102_active_q0",
+    "donor_context": "t02|012|goal_fronted",
+    "donor_input_id": "t02_012_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Florian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_reverse_sender_cross_lexical",
+    "unit": "t02_destination_person",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_102_active_q0",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q0",
+    "query_role": "sender",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Agnes",
+      "mention_order": "Celia",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Agnes",
+      "complete_future_answer_table": "Agnes"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_reverse_sent_person_main",
+    "unit": "t02_destination_person",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t02_102_active_q1",
+    "donor_context": "t02|012|goal_fronted",
+    "donor_input_id": "t02_012_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_reverse_sent_person_same_role_voice",
+    "unit": "t02_destination_person",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_102_active_q1",
+    "donor_context": "t02|102|goal_fronted",
+    "donor_input_id": "t02_102_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Dorian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Dorian",
+      "complete_future_answer_table": "Dorian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_reverse_sent_person_neighbor",
+    "unit": "t02_destination_person",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t02_102_active_q1",
+    "donor_context": "t02|012|goal_fronted",
+    "donor_input_id": "t02_012_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Esther",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Esther",
+      "complete_future_answer_table": "Esther"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_reverse_sent_person_cross_lexical",
+    "unit": "t02_destination_person",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_102_active_q1",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q1",
+    "query_role": "sent_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Basil",
+      "mention_order": "Agnes",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Basil",
+      "complete_future_answer_table": "Basil"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_reverse_destination_person_main",
+    "unit": "t02_destination_person",
+    "direction": "reverse",
+    "condition": "main",
+    "recipient_id": "t02_102_active_q2",
+    "donor_context": "t02|012|goal_fronted",
+    "donor_input_id": "t02_012_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_reverse_destination_person_same_role_voice",
+    "unit": "t02_destination_person",
+    "direction": "reverse",
+    "condition": "same_role_voice",
+    "recipient_id": "t02_102_active_q2",
+    "donor_context": "t02|102|goal_fronted",
+    "donor_input_id": "t02_102_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Dorian",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": false
+  },
+  {
+    "id": "t02_destination_person_reverse_destination_person_neighbor",
+    "unit": "t02_destination_person",
+    "direction": "reverse",
+    "condition": "neighbor",
+    "recipient_id": "t02_102_active_q2",
+    "donor_context": "t02|012|goal_fronted",
+    "donor_input_id": "t02_012_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Florian",
+      "mention_order": "Esther",
+      "fixed_one_answer": "Florian",
+      "syntax_aware_parser": "Florian",
+      "complete_future_answer_table": "Florian"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  },
+  {
+    "id": "t02_destination_person_reverse_destination_person_cross_lexical",
+    "unit": "t02_destination_person",
+    "direction": "reverse",
+    "condition": "cross_lexical",
+    "recipient_id": "t02_102_active_q2",
+    "donor_context": "t01|012|goal_fronted",
+    "donor_input_id": "t01_012_goal_fronted_q2",
+    "query_role": "destination_person",
+    "invariant_role": "destination_person",
+    "predictions": {
+      "role_table": "Celia",
+      "mention_order": "Basil",
+      "fixed_one_answer": "Celia",
+      "syntax_aware_parser": "Celia",
+      "complete_future_answer_table": "Celia"
+    },
+    "recipient_native_correct": true,
+    "donor_native_correct": true
+  }
+]

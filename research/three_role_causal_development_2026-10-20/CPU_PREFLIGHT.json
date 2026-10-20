@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    "exact_unsorted_three_site_replacement",
+    "identity_replacement",
+    "duplicate_sites_rejected",
+    "development_only",
+    "all_six_native_baselines_per_unit",
+    "role_vs_mention_predictions_disjoint",
+    "unexcluded_strong_rivals_explicit",
+    "neighbors_outside_every_name",
+    "balanced_conditions",
+    "query_independent_donor_context",
+    "same_role_expected_preservation"
+  ],
+  "n": 11,
+  "language_model_forwards": 0
+}

@@ -1,0 +1,82 @@
+{
+  "files": {
+    "core.py": "18eb4fd54a1d5f26e8eab841821427bfcd8b4ce7f541cd640bb0c3de081ce922",
+    "prepare.py": "2922f229bc66dfce1cb7d6bdb1a53727018885ccfe522a65494a092b859a15f1",
+    "replacement.py": "2b769a2265ef1b8588444b51cc3006a70cf7fdd60432aa90ab84bbd19a494640",
+    "worker.py": "dc3e0a3ece2ae14a2d93f90d9bf9b6c5175a6dfcbc60c2b4d877779a3cdc7818",
+    "runtime.py": "12645264a9e560d159105e2793f82740f6a4743f44c65264b78e0fc879a0f528",
+    "run.py": "ec142ed6e51d02970cacb6d923d827b62501e890a5a5a64031768c0f10304f93",
+    "analyze.py": "b4c514fa265088fae782ea9d1e8ace7cb6a8988c0666fa3173d995662199cbed",
+    "test_design.py": "e38f964364c4e393c6688fb659d11bed6690729930e51e2a109051167b9734af",
+    "PROTOCOL.md": "5f34c7e5932415ccbf741446454bdc9c50e1fe2d4f9c7e2591274417e1c86b8d",
+    "INPUTS.json": "e59c45a41270753591e0c617c50312a31908d2e76bc8ddcf1035eb2a14346507",
+    "JOBS.json": "58e71d83506697934d19ba2eb518cdc4de57064e431494ce5bdcc39f44ea2f87",
+    "UNITS.json": "b9ec869d34968d9505b8e82b983edee1b5070512104b0c880ed79239668108fe",
+    "CACHE_INPUTS.json": "5d6aa39eaf879727f51d041fdf03dd6999ee91737dc067524aefde8dc6c2ac2e",
+    "IDENTITY_INPUTS.json": "f2e89b94bd458c5d42e3361025802c9a41d6bcc5138c6b18bae3fd00b94132a4",
+    "TOKENIZER_AUDIT.json": "b9e9450af4692bf1029ac8fe2c69a4371c7b56a305bdf8c94bdbd29d6f618ab6",
+    "CPU_PREFLIGHT.json": "f491a65c92513a150d78f57fd7d2b39554f6359b9f2866c8b61f3b8d1e1a3824",
+    "SOURCE_MANIFEST.json": "c1466dc88874a4dccc31d95d661207b4da5b1fb6c3cf39d347fdf0fe078be5c6",
+    "CONTROL_INPUT.json": "b666b391089b2bb2a1d7d2f524a3d3b8d9db213db9ce3ee048c662318bcf784b",
+    "REFERENCE_CONTROL.npz": "531c72208b78489acc8292e9a0e0cd5b93cc216dfec49519d7d20743842de707",
+    "PREFLIGHT_NOTES.md": "27e7383cd4ba62c658c7efe5b863ee7f7c0aad5e4e21be84e1c4fde7fc1a85fb"
+  },
+  "native_sources": {
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/qwen2.py": "937e0321ef06a34efbd66d2ce0ce1e715aab98da4acefa376c8cd29291a0bc83",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/llama.py": "dfb656511e6740781cd0563f7994a78b3404c199b9aebaa2fbca28a19e280891",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/base.py": "b782b2ac0f55ed8fa9c1afce1f36307d5d8714aad2c0991d63998047f7507174"
+  },
+  "model": {
+    "path": "research/stronger_model_development_2026-10-15/models/qwen7b",
+    "files": {
+      "research/stronger_model_development_2026-10-15/models/qwen7b/added_tokens.json": {
+        "bytes": 605,
+        "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/config.json": {
+        "bytes": 787,
+        "sha256": "1661a349986919d13820d3981623776138d50783d13e247cdc5b075a22b62698"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors": {
+        "bytes": 4284346255,
+        "sha256": "86110f368236b53cf4c2336f991a85703b17bcc60bb75f292b4002ec0219f071"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors.index.json": {
+        "bytes": 51711,
+        "sha256": "23cd562592dd96686d2e799eb02e4b578a4038b6045eaefe860d270cc060e24f"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/special_tokens_map.json": {
+        "bytes": 613,
+        "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer.json": {
+        "bytes": 7031673,
+        "sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer_config.json": {
+        "bytes": 7280,
+        "sha256": "4921d4cbae33349a9cb3b2ad3a7622efdea10a5d208c9f333c77b154aa714888"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/vocab.json": {
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      }
+    },
+    "pad": 87
+  },
+  "runtime": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.0",
+    "numpy": "2.4.4",
+    "transformers": "5.7.0"
+  },
+  "max_model_forwards": 2075,
+  "max_nonrestart_forwards": 2010,
+  "development_only": true,
+  "first_causal_outcome_seen": false,
+  "block": 14,
+  "site": "joint_person_last_subtokens",
+  "technical_logit_tolerance": 0.05,
+  "technical_trace_tolerance": 1e-06,
+  "independent_probability_replay_tolerance": 1e-08
+}
