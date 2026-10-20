@@ -1,0 +1,124 @@
+{
+  "annotation": "AI-only authored and reviewed. No human validation. Two asymmetric directed-predicate clauses, both role orientations. Unsupported converse is not entailed, not asserted false. Names and predicate vary jointly across families; no population inference.",
+  "families": [
+    [
+      "l01",
+      "Clara",
+      "Mateo",
+      "arrested",
+      "arrest"
+    ],
+    [
+      "l02",
+      "Hector",
+      "Nadia",
+      "thanked",
+      "thank"
+    ]
+  ],
+  "new_complete_sentences": true,
+  "control": {
+    "parent_commit": "33cd9e4974e82a8545bcefac4bc7f3364b321c69",
+    "record": {
+      "call": 1,
+      "id": "j01_factorial_r0_active_q0_active_AB_m0_p0",
+      "mode": "baseline",
+      "cut": 28,
+      "kind": "validation_unwrapped",
+      "wrapped": false,
+      "native": false,
+      "physical_length": 128,
+      "utc": "2026-10-19T20:40:37Z",
+      "family": "j01",
+      "split": "development",
+      "panel": "factorial",
+      "role": 0,
+      "query": 0,
+      "voice": "active",
+      "question_voice": "active",
+      "lexicon": "AB",
+      "mapping": 0,
+      "position": 0,
+      "expected_symbol": "A",
+      "expected": "entailed",
+      "actual": "not_entailed",
+      "native_correct": false,
+      "format_compliant": true,
+      "argmax_id": 33,
+      "argmax_token": "B",
+      "class_logits": {
+        "entailed": 25.218750000011404,
+        "not_entailed": 43.3125000000023
+      },
+      "s_entail": -18.093749999990898,
+      "top12": [
+        {
+          "id": 33,
+          "token": "B",
+          "logit": 43.3125
+        },
+        {
+          "id": 32,
+          "token": "A",
+          "logit": 25.21875
+        },
+        {
+          "id": 81339,
+          "token": "*B",
+          "logit": 20.640625
+        },
+        {
+          "id": 34,
+          "token": "C",
+          "logit": 19.203125
+        },
+        {
+          "id": 139173,
+          "token": "\uff22",
+          "logit": 18.921875
+        },
+        {
+          "id": 60332,
+          "token": "\u0411",
+          "logit": 18.671875
+        },
+        {
+          "id": 35,
+          "token": "D",
+          "logit": 17.8125
+        },
+        {
+          "id": 85746,
+          "token": "\u2019B",
+          "logit": 17.421875
+        },
+        {
+          "id": 1668,
+          "token": "_B",
+          "logit": 17.265625
+        },
+        {
+          "id": 81268,
+          "token": ":B",
+          "logit": 17.15625
+        },
+        {
+          "id": 36721,
+          "token": ">B",
+          "logit": 17.125
+        },
+        {
+          "id": 144946,
+          "token": "\u0392",
+          "logit": 16.671875
+        }
+      ],
+      "payload": "qwen7b/CALL_0001.npz",
+      "payload_sha256": "531c72208b78489acc8292e9a0e0cd5b93cc216dfec49519d7d20743842de707",
+      "hashes": {},
+      "full_trace_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "payload_reference_sha256": "531c72208b78489acc8292e9a0e0cd5b93cc216dfec49519d7d20743842de707"
+  },
+  "limits": "Only active sentences/questions, A/B, two authored families, same instruction and background. Legend order also changes category recency and symbol position together; last-option following does not identify a literal copying circuit."
+}
