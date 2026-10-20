@@ -1,0 +1,16 @@
+{
+  "parent_directory": "research/three_role_llama_native_2026-10-20",
+  "parent_files": {
+    "LOCK.json": "39d484cbf4e110a7de6275ee4f97c9b5df6aa5a123be2328cc60769807565e26",
+    "INPUTS.json": "271db377241bff7fcb0f6ab1c63004e709cefae50eabfdd399d2d452dede95b1",
+    "ANSWERS.jsonl": "e1b065a37436681127ec9a6f7b523adc121e227d0d8b664aeb50412e77675046",
+    "PAIR_LEDGER.json": "623ea76808e65cdffb969349b3545cbcd3c0699f3bdba6e485d83f6be900fca9",
+    "RESULTS.json": "64a301a58d47d2915add11ec5c30e34e8c0c82687de4ba0d00dcc14b39088111",
+    "INDEPENDENT_AUDIT.json": "0a94715ce8c02640715806ab44d955ad54a285f30f39dce75ce7b22834c19e9a",
+    "FORWARDS.jsonl": "d48fcd7a96bd91250890cde054fe733ea1db122bbf6b5c82d9569862e34225fe"
+  },
+  "annotation": "AI-only template annotation; no human labels or corpus generalization.",
+  "selection": "Lexicographically first native-eligible cross-form pair for each family and invariant role, using (recipient assignment, donor assignment, recipient form literal string, donor form literal string).",
+  "candidate": "Prespecified depth profile at outgoing blocks 7,14,21, three person last subtokens in surface order. All depths reported; no adaptive additional site/depth.",
+  "no_heldout": true
+}

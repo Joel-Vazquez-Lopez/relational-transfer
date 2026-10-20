@@ -1,0 +1,629 @@
+[
+  {
+    "id": "t02_021_passive_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Florian was sent to Esther by Dorian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "generated_text": " Dorian",
+    "generated_tokens": [
+      423,
+      22865
+    ],
+    "eos_id": 128009,
+    "terminated": true,
+    "actual": "Dorian",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Florian",
+    "full_name_margin": -0.13953690030022514,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -0.9933739928527245,
+      "Esther": -1.6485358931529497,
+      "Florian": -1.1329108931529497
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            423,
+            22865
+          ],
+          "log_probability": -0.9933739928527245,
+          "terms": [
+            -0.9922858931529497,
+            -0.0010880996997748582
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            84738
+          ],
+          "log_probability": -1.6485358931529497,
+          "terms": [
+            -1.6485358931529497
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            97156
+          ],
+          "log_probability": -1.1329108931529497,
+          "terms": [
+            -1.1329108931529497
+          ]
+        }
+      ]
+    },
+    "base_call": 67,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 67
+      },
+      {
+        "prefix": [
+          423
+        ],
+        "call": 68
+      },
+      {
+        "prefix": [
+          423,
+          22865
+        ],
+        "call": 69
+      }
+    ],
+    "base_payload": "payloads/CALL_0067.npz",
+    "base_payload_sha256": "34db9c72c65920f6eed68c7bd31f78e6386638147140c68d0c8e1a732b0d982b"
+  },
+  {
+    "id": "t02_021_goal_fronted_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Esther, Dorian sent Florian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "generated_text": " Dorian",
+    "generated_tokens": [
+      423,
+      22865
+    ],
+    "eos_id": 128009,
+    "terminated": true,
+    "actual": "Dorian",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Florian",
+    "full_name_margin": -1.2184115870217234,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -0.7322356806803754,
+      "Esther": -1.6537722677020987,
+      "Florian": -1.9506472677020987
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            423,
+            22865
+          ],
+          "log_probability": -0.7322356806803754,
+          "terms": [
+            -0.7318972677020987,
+            -0.0003384129782766365
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            84738
+          ],
+          "log_probability": -1.6537722677020987,
+          "terms": [
+            -1.6537722677020987
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            97156
+          ],
+          "log_probability": -1.9506472677020987,
+          "terms": [
+            -1.9506472677020987
+          ]
+        }
+      ]
+    },
+    "base_call": 98,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 98
+      },
+      {
+        "prefix": [
+          423
+        ],
+        "call": 99
+      },
+      {
+        "prefix": [
+          423,
+          22865
+        ],
+        "call": 100
+      }
+    ],
+    "base_payload": "payloads/CALL_0098.npz",
+    "base_payload_sha256": "e39c338a25acdc636e2675d7a2ac54ab1bd7232aa6f94ee59ab9e4c2a2f03f78"
+  },
+  {
+    "id": "t02_120_goal_fronted_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Dorian, Esther sent Florian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "generated_text": " Esther",
+    "generated_tokens": [
+      84738
+    ],
+    "eos_id": 128009,
+    "terminated": true,
+    "actual": "Esther",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Florian",
+    "full_name_margin": -2.7109375,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -1.7249461737384877,
+      "Esther": -0.5049943444543743,
+      "Florian": -3.2159318444543743
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            423,
+            22865
+          ],
+          "log_probability": -1.7249461737384877,
+          "terms": [
+            -1.7237443444543743,
+            -0.001201829284113387
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            84738
+          ],
+          "log_probability": -0.5049943444543743,
+          "terms": [
+            -0.5049943444543743
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            97156
+          ],
+          "log_probability": -3.2159318444543743,
+          "terms": [
+            -3.2159318444543743
+          ]
+        }
+      ]
+    },
+    "base_call": 107,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 107
+      },
+      {
+        "prefix": [
+          423
+        ],
+        "call": 108
+      },
+      {
+        "prefix": [
+          84738
+        ],
+        "call": 109
+      }
+    ],
+    "base_payload": "payloads/CALL_0107.npz",
+    "base_payload_sha256": "4918a2140827fc4d627b77e56a8086b91d47aba4816a431949b6f0fd4aa93c45"
+  },
+  {
+    "id": "t02_012_goal_fronted_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Florian, Dorian sent Esther.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Esther",
+    "generated_tokens": [
+      84738
+    ],
+    "eos_id": 128009,
+    "terminated": true,
+    "actual": "Esther",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Florian",
+    "full_name_margin": -0.84375,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -1.6852349270098728,
+      "Esther": -0.8405633465011704,
+      "Florian": -1.6843133465011704
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            423,
+            22865
+          ],
+          "log_probability": -1.6852349270098728,
+          "terms": [
+            -1.6843133465011704,
+            -0.0009215805087023909
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            84738
+          ],
+          "log_probability": -0.8405633465011704,
+          "terms": [
+            -0.8405633465011704
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            97156
+          ],
+          "log_probability": -1.6843133465011704,
+          "terms": [
+            -1.6843133465011704
+          ]
+        }
+      ]
+    },
+    "base_call": 184,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 184
+      },
+      {
+        "prefix": [
+          423
+        ],
+        "call": 185
+      },
+      {
+        "prefix": [
+          84738
+        ],
+        "call": 186
+      }
+    ],
+    "base_payload": "payloads/CALL_0184.npz",
+    "base_payload_sha256": "051c9e02212633a912477ecabc97c2a273c86f891e55c92710a167b3ad0d863b"
+  },
+  {
+    "id": "t02_102_goal_fronted_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Florian, Esther sent Dorian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Esther",
+    "generated_tokens": [
+      84738
+    ],
+    "eos_id": 128009,
+    "terminated": true,
+    "actual": "Esther",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Florian",
+    "full_name_margin": -0.828125,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -1.622167107810185,
+      "Esther": -0.8846824084003515,
+      "Florian": -1.7128074084003515
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            423,
+            22865
+          ],
+          "log_probability": -1.622167107810185,
+          "terms": [
+            -1.6190574084003515,
+            -0.0031096994098334108
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            84738
+          ],
+          "log_probability": -0.8846824084003515,
+          "terms": [
+            -0.8846824084003515
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            97156
+          ],
+          "log_probability": -1.7128074084003515,
+          "terms": [
+            -1.7128074084003515
+          ]
+        }
+      ]
+    },
+    "base_call": 320,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 320
+      },
+      {
+        "prefix": [
+          423
+        ],
+        "call": 322
+      },
+      {
+        "prefix": [
+          84738
+        ],
+        "call": 323
+      }
+    ],
+    "base_payload": "payloads/CALL_0320.npz",
+    "base_payload_sha256": "31ca556abbbdd8062b8a67543354924974c1567183dbbb72c4e13ce6d91ab2f4"
+  },
+  {
+    "id": "t02_210_goal_fronted_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Dorian, Florian sent Esther.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Esther",
+    "generated_tokens": [
+      84738
+    ],
+    "eos_id": 128009,
+    "terminated": true,
+    "actual": "Esther",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Dorian",
+    "full_name_margin": -0.3443981967607499,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -1.0138200213857402,
+      "Esther": -0.6694218246249903,
+      "Florian": -4.35692182462499
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            423,
+            22865
+          ],
+          "log_probability": -1.0138200213857402,
+          "terms": [
+            -1.0131718246249903,
+            -0.0006481967607498973
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            84738
+          ],
+          "log_probability": -0.6694218246249903,
+          "terms": [
+            -0.6694218246249903
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            97156
+          ],
+          "log_probability": -4.35692182462499,
+          "terms": [
+            -4.35692182462499
+          ]
+        }
+      ]
+    },
+    "base_call": 339,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 339
+      },
+      {
+        "prefix": [
+          423
+        ],
+        "call": 340
+      },
+      {
+        "prefix": [
+          84738
+        ],
+        "call": 341
+      }
+    ],
+    "base_payload": "payloads/CALL_0339.npz",
+    "base_payload_sha256": "3fcc44492ca5bb94233eabaae8f4415bb8e229646cf1c8788c30230fde4528df"
+  },
+  {
+    "id": "t02_120_passive_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Florian was sent to Dorian by Esther.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "generated_text": " Esther",
+    "generated_tokens": [
+      84738
+    ],
+    "eos_id": 128009,
+    "terminated": true,
+    "actual": "Esther",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Florian",
+    "full_name_margin": -0.375,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -1.8923508004115348,
+      "Esther": -0.828600997586463,
+      "Florian": -1.203600997586463
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            423,
+            22865
+          ],
+          "log_probability": -1.8923508004115348,
+          "terms": [
+            -1.891100997586463,
+            -0.0012498028250718107
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            84738
+          ],
+          "log_probability": -0.828600997586463,
+          "terms": [
+            -0.828600997586463
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            97156
+          ],
+          "log_probability": -1.203600997586463,
+          "terms": [
+            -1.203600997586463
+          ]
+        }
+      ]
+    },
+    "base_call": 389,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 389
+      },
+      {
+        "prefix": [
+          423
+        ],
+        "call": 390
+      },
+      {
+        "prefix": [
+          84738
+        ],
+        "call": 391
+      }
+    ],
+    "base_payload": "payloads/CALL_0389.npz",
+    "base_payload_sha256": "4266b78af1c24d157b2a8f0691cffab8fcc6877cd942fb5cd66d74081fe7c28c"
+  }
+]

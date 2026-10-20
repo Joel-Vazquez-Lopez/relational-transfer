@@ -1,0 +1,7 @@
+# Distinct model continuation and resource policy
+
+Both Qwen aborts remain preserved. The three-depth Qwen attempt observed actual critical pressure during its first exposed reference and was stopped; no further Qwen load is attempted. The smaller existing1.807GB Llama checkpoint completed its separately frozen394-forward native screen with normal pressure and1.990GiB peak MLX use. Its scientific source strings match the exposed Qwen development inventory,with native model-specific chat template/tokenization. This is not fresh linguistic or cross-model causal replication.
+
+This distinct Llama causal stage is conditionally authorized by the latest user instruction and follows the native screen's prospective continuation rule. Preserve the same normal-pressure requirement(level1),8GiB disk reserve,absolute swap<4GiB and swap growth<1GiB from the first pre-load measurement. MLX3GiB guideline/active bound,cache256MiB,32 actual forwards per worker,90s per forward and45-minute dispatch window. All attempts count,including restart references. No automatic retry after a guard failure,no extra site/depth/model after a failed scientific profile. No app closure,unique-data deletion,paid API,model download or training.
+
+No numerical tolerance changes:full logits<=0.05,traces<=1e-6,prefix hashes exact,independent probability replay1e-8. All conditions and native failures stay in the public record. Any later evaluation requires a qualifying candidate and separately frozen exact predictions.

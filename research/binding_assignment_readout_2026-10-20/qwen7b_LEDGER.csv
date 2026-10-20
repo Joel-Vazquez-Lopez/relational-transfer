@@ -1,0 +1,37 @@
+family,form,source,gold_assignment,decoded_assignment,native_correct,native_complete,structured_correct,gold_assignment_margin,single_sent_person_row_best_ties
+t01,active,Agnes sent Basil to Celia.,"[0, 1, 2]","[0, 1, 2]",3,True,True,28.221432114313014,2
+t01,goal_fronted,"To Celia, Agnes sent Basil.","[0, 1, 2]","[0, 1, 2]",3,True,True,19.39068898890862,2
+t01,passive,Basil was sent to Celia by Agnes.,"[0, 1, 2]","[0, 1, 2]",3,True,True,26.312543781957597,2
+t01,active,Agnes sent Celia to Basil.,"[0, 2, 1]","[0, 2, 1]",2,False,True,11.742184349055464,2
+t01,goal_fronted,"To Basil, Agnes sent Celia.","[0, 2, 1]","[0, 2, 1]",3,True,True,22.64062877151123,2
+t01,passive,Celia was sent to Basil by Agnes.,"[0, 2, 1]","[0, 2, 1]",2,False,True,14.539230336009922,2
+t01,active,Basil sent Agnes to Celia.,"[1, 0, 2]","[1, 0, 2]",3,True,True,27.03131434409162,2
+t01,goal_fronted,"To Celia, Basil sent Agnes.","[1, 0, 2]","[1, 0, 2]",2,False,True,15.578150787152563,2
+t01,passive,Agnes was sent to Celia by Basil.,"[1, 0, 2]","[1, 0, 2]",2,False,True,31.542965370524783,2
+t01,active,Basil sent Celia to Agnes.,"[1, 2, 0]","[1, 2, 0]",2,False,True,15.164103077768836,2
+t01,goal_fronted,"To Agnes, Basil sent Celia.","[1, 2, 0]","[1, 2, 0]",2,False,True,5.203125064819041,2
+t01,passive,Celia was sent to Agnes by Basil.,"[1, 2, 0]","[1, 2, 0]",2,False,True,20.33598684076997,2
+t01,active,Celia sent Agnes to Basil.,"[2, 0, 1]","[2, 0, 1]",2,False,True,14.39063866050562,2
+t01,goal_fronted,"To Basil, Celia sent Agnes.","[2, 0, 1]","[2, 0, 1]",3,True,True,22.89063242020229,2
+t01,passive,Agnes was sent to Basil by Celia.,"[2, 0, 1]","[2, 0, 1]",2,False,True,23.30811253399224,2
+t01,active,Celia sent Basil to Agnes.,"[2, 1, 0]","[2, 1, 0]",3,True,True,28.98437830237999,2
+t01,goal_fronted,"To Agnes, Celia sent Basil.","[2, 1, 0]","[2, 1, 0]",3,True,True,17.546942260125803,2
+t01,passive,Basil was sent to Agnes by Celia.,"[2, 1, 0]","[2, 1, 0]",2,False,True,8.375398925462221,2
+t02,active,Dorian sent Esther to Florian.,"[0, 1, 2]","[0, 1, 2]",2,False,True,16.3359375,2
+t02,goal_fronted,"To Florian, Dorian sent Esther.","[0, 1, 2]","[0, 1, 2]",3,True,True,21.8046875,2
+t02,passive,Esther was sent to Florian by Dorian.,"[0, 1, 2]","[0, 1, 2]",1,False,True,19.531284214271984,2
+t02,active,Dorian sent Florian to Esther.,"[0, 2, 1]","[0, 2, 1]",2,False,True,21.328125,2
+t02,goal_fronted,"To Esther, Dorian sent Florian.","[0, 2, 1]","[0, 2, 1]",3,True,True,17.109385726292864,2
+t02,passive,Florian was sent to Esther by Dorian.,"[0, 2, 1]","[0, 2, 1]",2,False,True,24.062518381361176,2
+t02,active,Esther sent Dorian to Florian.,"[1, 0, 2]","[1, 0, 2]",3,True,True,21.445310206976643,2
+t02,goal_fronted,"To Florian, Esther sent Dorian.","[1, 0, 2]","[1, 0, 2]",2,False,True,10.640616181115334,2
+t02,passive,Dorian was sent to Florian by Esther.,"[1, 0, 2]","[1, 0, 2]",3,True,True,27.28906777500954,2
+t02,active,Esther sent Florian to Dorian.,"[1, 2, 0]","[1, 2, 0]",3,True,True,30.26564206194342,2
+t02,goal_fronted,"To Dorian, Esther sent Florian.","[1, 2, 0]","[1, 2, 0]",3,True,True,15.85157523009384,2
+t02,passive,Florian was sent to Dorian by Esther.,"[1, 2, 0]","[1, 2, 0]",2,False,True,19.140640080428486,2
+t02,active,Florian sent Dorian to Esther.,"[2, 0, 1]","[2, 0, 1]",2,False,True,18.460936208450445,2
+t02,goal_fronted,"To Esther, Florian sent Dorian.","[2, 0, 1]","[2, 0, 1]",2,False,True,16.710949071566187,2
+t02,passive,Dorian was sent to Esther by Florian.,"[2, 0, 1]","[2, 0, 1]",3,True,True,27.07031977482813,2
+t02,active,Florian sent Esther to Dorian.,"[2, 1, 0]","[2, 1, 0]",2,False,True,17.242270397810632,2
+t02,goal_fronted,"To Dorian, Florian sent Esther.","[2, 1, 0]","[2, 1, 0]",2,False,True,11.343808193468313,2
+t02,passive,Esther was sent to Dorian by Florian.,"[2, 1, 0]","[2, 1, 0]",2,False,True,14.05859375,2

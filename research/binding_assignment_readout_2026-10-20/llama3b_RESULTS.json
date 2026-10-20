@@ -1,0 +1,4173 @@
+{
+  "model": "llama3b",
+  "scope": "Exploratory analysis of exposed fixed development outputs, not preregistered confirmation or causal evidence. One-to-one role constraint is supplied by the authored task. Six assignment scores combine three separate question-conditioned runs.",
+  "n_source_units": 36,
+  "native_correct": 101,
+  "n_answers": 108,
+  "native_complete": 29,
+  "structured_complete": 36,
+  "ambiguous": 0,
+  "rescued": 7,
+  "lost": 0,
+  "max_bias_invariance_error": 9.237055564881302e-14,
+  "source_files": {
+    "research/three_role_llama_native_2026-10-20/INPUTS.json": "271db377241bff7fcb0f6ab1c63004e709cefae50eabfdd399d2d452dede95b1",
+    "research/three_role_llama_native_2026-10-20/ANSWERS.jsonl": "e1b065a37436681127ec9a6f7b523adc121e227d0d8b664aeb50412e77675046",
+    "research/three_role_llama_native_2026-10-20/RESULTS.json": "64a301a58d47d2915add11ec5c30e34e8c0c82687de4ba0d00dcc14b39088111"
+  },
+  "new_model_forwards": 0,
+  "unit_outcomes": [
+    {
+      "family": "t01",
+      "form": "active",
+      "gold_assignment": [
+        0,
+        1,
+        2
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "Agnes sent Basil to Celia.",
+      "answer_ids": [
+        "t01_012_active_q0",
+        "t01_012_active_q1",
+        "t01_012_active_q2"
+      ],
+      "generated": [
+        " Agnes",
+        " Basil",
+        " Celia"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -0.017618032939953565,
+          -7.697293005288934,
+          -8.081543226144937
+        ],
+        [
+          -3.1958729477137418,
+          -0.13334527297137555,
+          -3.5240270251625994
+        ],
+        [
+          -8.00869573183165,
+          -4.633394587939783,
+          -0.0240365163003311
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -0.17499982221166022
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -8.175039646042336
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -10.917202469303007
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -19.230015762283184
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -15.910810761798462
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -16.223584230947964
+        }
+      ],
+      "decoded_assignment": [
+        0,
+        1,
+        2
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 8.000039823830676,
+      "cycle_contrasts": [
+        [
+          16.048584408736303,
+          4.9936082924954555
+        ],
+        [
+          8.312813292980177,
+          8.000039823830676
+        ]
+      ],
+      "double_centered_interaction_energy": 80.2425238358719,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "goal_fronted",
+      "gold_assignment": [
+        0,
+        1,
+        2
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "To Celia, Agnes sent Basil.",
+      "answer_ids": [
+        "t01_012_goal_fronted_q0",
+        "t01_012_goal_fronted_q1",
+        "t01_012_goal_fronted_q2"
+      ],
+      "generated": [
+        " Agnes",
+        " Basil",
+        " Celia"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -0.13947996258008288,
+          -4.233215673534861,
+          -3.311400678303322
+        ],
+        [
+          -2.078920908308433,
+          -0.7039057516654381,
+          -1.7977169439067353
+        ],
+        [
+          -2.7315021096211254,
+          -4.106487581189274,
+          -0.2002514899980028
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -1.0436372042435238
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -6.043684487676092
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -6.512388071841297
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -8.762434727062722
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -9.496809167801029
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -6.746808539589885
+        }
+      ],
+      "decoded_assignment": [
+        0,
+        1,
+        2
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 5.000047283432568,
+      "cycle_contrasts": [
+        [
+          5.703171335346362,
+          2.984421095959732
+        ],
+        [
+          2.250046655221425,
+          5.000047283432568
+        ]
+      ],
+      "double_centered_interaction_energy": 14.704919633428066,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "passive",
+      "gold_assignment": [
+        0,
+        1,
+        2
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "Basil was sent to Celia by Agnes.",
+      "answer_ids": [
+        "t01_012_passive_q0",
+        "t01_012_passive_q1",
+        "t01_012_passive_q2"
+      ],
+      "generated": [
+        " Agnes",
+        " Basil",
+        " Celia"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -0.04531670441028979,
+          -5.014039496328625,
+          -7.233052266451093
+        ],
+        [
+          -3.707513491509392,
+          -0.09812279001658553,
+          -3.3481411279125446
+        ],
+        [
+          -5.4373190156837055,
+          -3.3120978377793975,
+          -0.062120855394251606
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -0.20556034982112692
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -6.705555670102232
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -8.783673843232268
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -13.799499639924875
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -14.252663595739882
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -12.768494072151384
+        }
+      ],
+      "decoded_assignment": [
+        0,
+        1,
+        2
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 6.499995320281105,
+      "cycle_contrasts": [
+        [
+          12.562933722330257,
+          5.468989752507614
+        ],
+        [
+          5.0158257966926065,
+          6.499995320281105
+        ]
+      ],
+      "double_centered_interaction_energy": 48.80869356230179,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "active",
+      "gold_assignment": [
+        0,
+        2,
+        1
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "Agnes sent Celia to Basil.",
+      "answer_ids": [
+        "t01_021_active_q0",
+        "t01_021_active_q1",
+        "t01_021_active_q2"
+      ],
+      "generated": [
+        " Agnes",
+        " Celia",
+        " Basil"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -0.02558366009921187,
+          -8.634947404046088,
+          -6.088125611828779
+        ],
+        [
+          -3.182625166220582,
+          -4.932610441233081,
+          -0.08887368798524165
+        ],
+        [
+          -7.111230748177494,
+          -0.048599402822922855,
+          -3.626803356492296
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -8.584997457824588
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -0.16305675090737637
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -15.444375926758966
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -15.835051840208823
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -9.319350180872284
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -18.131966801239354
+        }
+      ],
+      "decoded_assignment": [
+        0,
+        2,
+        1
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 8.421940706917212,
+      "cycle_contrasts": [
+        [
+          9.546969343414766,
+          -6.125025745886681
+        ],
+        [
+          0.39067591344985786,
+          -8.421940706917212
+        ]
+      ],
+      "double_centered_interaction_energy": 73.24227993806875,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "goal_fronted",
+      "gold_assignment": [
+        0,
+        2,
+        1
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "To Basil, Agnes sent Celia.",
+      "answer_ids": [
+        "t01_021_goal_fronted_q0",
+        "t01_021_goal_fronted_q1",
+        "t01_021_goal_fronted_q2"
+      ],
+      "generated": [
+        " Agnes",
+        " Celia",
+        " Basil"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -0.061613233266921696,
+          -5.131913573432332,
+          -5.272636076872594
+        ],
+        [
+          -3.129846423441421,
+          -3.6142013555635906,
+          -0.1767197077516478
+        ],
+        [
+          -3.06431119258729,
+          -0.3924204614613167,
+          -1.7049633455194808
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -5.380777934349993
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -0.6307534024798862
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -9.966723342393234
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -8.37294447377127
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -8.794902961775332
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -11.951148625023475
+        }
+      ],
+      "decoded_assignment": [
+        0,
+        2,
+        1
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 4.750024531870107,
+      "cycle_contrasts": [
+        [
+          6.570370690673482,
+          -1.171820380617902
+        ],
+        [
+          -1.593778868621964,
+          -4.750024531870107
+        ]
+      ],
+      "double_centered_interaction_energy": 26.67077618711317,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "passive",
+      "gold_assignment": [
+        0,
+        2,
+        1
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "Celia was sent to Basil by Agnes.",
+      "answer_ids": [
+        "t01_021_passive_q0",
+        "t01_021_passive_q1",
+        "t01_021_passive_q2"
+      ],
+      "generated": [
+        " Agnes",
+        " Celia",
+        " Basil"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -0.04028887121058844,
+          -6.368381507761537,
+          -5.071801216831293
+        ],
+        [
+          -3.2234252746611567,
+          -3.6921549322451597,
+          -0.09843918374488325
+        ],
+        [
+          -6.276222332019206,
+          -0.026078760635204645,
+          -5.0344988833585695
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -8.766942686814318
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -0.16480681559067634
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -14.626305665781263
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -12.743043023525626
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -8.321305252127654
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -15.040178481095658
+        }
+      ],
+      "decoded_assignment": [
+        0,
+        2,
+        1
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 8.156498436536978,
+      "cycle_contrasts": [
+        [
+          6.273235794281341,
+          -6.305000413653609
+        ],
+        [
+          -1.8832626422556373,
+          -8.602135871223641
+        ]
+      ],
+      "double_centered_interaction_energy": 51.79362815755842,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "active",
+      "gold_assignment": [
+        1,
+        0,
+        2
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "Basil sent Agnes to Celia.",
+      "answer_ids": [
+        "t01_102_active_q0",
+        "t01_102_active_q1",
+        "t01_102_active_q2"
+      ],
+      "generated": [
+        " Basil",
+        " Agnes",
+        " Celia"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -5.930130934089984,
+          -0.023790433903307928,
+          -7.461468530918278
+        ],
+        [
+          -0.16783567724507265,
+          -2.7928076785129363,
+          -3.9022075288532996
+        ],
+        [
+          -4.991848152818992,
+          -7.273063633193846,
+          -0.02307653731855197
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -8.746015149921472
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -17.10540209613713
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -0.21470264846693254
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -8.9178461155756
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -14.902367841357197
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -15.246124362250207
+        }
+      ],
+      "decoded_assignment": [
+        1,
+        0,
+        2
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 8.53131250145454,
+      "cycle_contrasts": [
+        [
+          6.500109212328734,
+          14.687665192890265
+        ],
+        [
+          8.703143467108667,
+          8.359386946215658
+        ]
+      ],
+      "double_centered_interaction_energy": 65.38233165436742,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "goal_fronted",
+      "gold_assignment": [
+        1,
+        0,
+        2
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "To Celia, Basil sent Agnes.",
+      "answer_ids": [
+        "t01_102_goal_fronted_q0",
+        "t01_102_goal_fronted_q1",
+        "t01_102_goal_fronted_q2"
+      ],
+      "generated": [
+        " Basil",
+        " Agnes",
+        " Celia"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -5.938013696493968,
+          -0.04716133513518628,
+          -4.656649439963594
+        ],
+        [
+          -0.3048515933658429,
+          -3.3204150418483778,
+          -2.7736160095530984
+        ],
+        [
+          -2.445587121248419,
+          -3.5705363169930706,
+          -0.24242625513333138
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -9.500854993475677
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -12.282166023040137
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -0.5944391836343605
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -5.266364465936704
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -8.532037350322508
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -10.422651603060391
+        }
+      ],
+      "decoded_assignment": [
+        1,
+        0,
+        2
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 4.671925282302343,
+      "cycle_contrasts": [
+        [
+          0.9217966095847139,
+          7.937598166688147
+        ],
+        [
+          4.671925282302343,
+          2.78131102956446
+        ]
+      ],
+      "double_centered_interaction_energy": 29.576516550372638,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "passive",
+      "gold_assignment": [
+        1,
+        0,
+        2
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "Agnes was sent to Celia by Basil.",
+      "answer_ids": [
+        "t01_102_passive_q0",
+        "t01_102_passive_q1",
+        "t01_102_passive_q2"
+      ],
+      "generated": [
+        " Basil",
+        " Agnes",
+        " Celia"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -4.566629034188196,
+          -0.035317475238702656,
+          -7.67637655602298
+        ],
+        [
+          -0.4094569986521073,
+          -2.550057205920087,
+          -1.8156937497540042
+        ],
+        [
+          -4.184508246360238,
+          -4.793848594430848,
+          -0.04386770985912136
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -7.1605539499674045
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -11.176171378373049
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -0.4886421837499313
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -6.035519471352945
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -12.879682149105935
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -14.410942008303305
+        }
+      ],
+      "decoded_assignment": [
+        1,
+        0,
+        2
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 5.546877287603014,
+      "cycle_contrasts": [
+        [
+          7.250388058335901,
+          12.391039965356004
+        ],
+        [
+          5.546877287603014,
+          4.015617428405644
+        ]
+      ],
+      "double_centered_interaction_energy": 44.370460712748844,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "active",
+      "gold_assignment": [
+        1,
+        2,
+        0
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "Basil sent Celia to Agnes.",
+      "answer_ids": [
+        "t01_120_active_q0",
+        "t01_120_active_q1",
+        "t01_120_active_q2"
+      ],
+      "generated": [
+        " Basil",
+        " Celia",
+        " Agnes"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -7.332148153706548,
+          -0.019256601397625417,
+          -6.340005923114923
+        ],
+        [
+          -4.619347775818788,
+          -2.5255611529498054,
+          -0.13496629641507596
+        ],
+        [
+          -0.04459211170987487,
+          -6.411752769567293,
+          -5.11493966393466
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -14.972648970591013
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -13.878867219688917
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -9.753544041151073
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -0.19881500952257625
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -17.371106468501004
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -8.910159187774603
+        }
+      ],
+      "decoded_assignment": [
+        1,
+        2,
+        0
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 8.711344178252027,
+      "cycle_contrasts": [
+        [
+          -6.06248978281641,
+          7.617562427349931
+        ],
+        [
+          -9.554729031628497,
+          -1.093781750902096
+        ]
+      ],
+      "double_centered_interaction_energy": 62.36933456392216,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "goal_fronted",
+      "gold_assignment": [
+        1,
+        2,
+        0
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "To Agnes, Basil sent Celia.",
+      "answer_ids": [
+        "t01_120_goal_fronted_q0",
+        "t01_120_goal_fronted_q1",
+        "t01_120_goal_fronted_q2"
+      ],
+      "generated": [
+        " Basil",
+        " Celia",
+        " Agnes"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -4.56415095607062,
+          -0.032852726657282005,
+          -6.478569960565611
+        ],
+        [
+          -3.542791094612717,
+          -3.3865047461129265,
+          -0.19903926502700742
+        ],
+        [
+          -0.8577771970265182,
+          -3.982754203677228,
+          -0.8890274007283203
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -8.839683102911867
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -8.745944424774855
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -4.464671221998319
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -1.0896691887108076
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -14.004115258855556
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -10.722851903705056
+        }
+      ],
+      "decoded_assignment": [
+        1,
+        2,
+        0
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 3.3750020332875117,
+      "cycle_contrasts": [
+        [
+          1.8831688007931895,
+          9.539444036857237
+        ],
+        [
+          -3.3750020332875117,
+          -0.09373867813701153
+        ]
+      ],
+      "double_centered_interaction_energy": 34.991031258253585,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "passive",
+      "gold_assignment": [
+        1,
+        2,
+        0
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "Celia was sent to Agnes by Basil.",
+      "answer_ids": [
+        "t01_120_passive_q0",
+        "t01_120_passive_q1",
+        "t01_120_passive_q2"
+      ],
+      "generated": [
+        " Basil",
+        " Celia",
+        " Agnes"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -8.733642257207542,
+          -0.02917703756854806,
+          -5.029565245098233
+        ],
+        [
+          -3.5465699815969742,
+          -3.1403029105502007,
+          -0.10908334179508117
+        ],
+        [
+          -0.05577703401987577,
+          -6.102630911536792,
+          -4.2903990642560395
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -16.164344232013782
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -14.945356510539415
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -7.866146083421562
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -0.194037413383505
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -14.678766138232
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -8.22564518966831
+        }
+      ],
+      "decoded_assignment": [
+        1,
+        2,
+        0
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 7.672108670038057,
+      "cycle_contrasts": [
+        [
+          -7.938699042345473,
+          6.812620054810438
+        ],
+        [
+          -7.672108670038057,
+          -1.2189877214743667
+        ]
+      ],
+      "double_centered_interaction_energy": 62.495998722334846,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "active",
+      "gold_assignment": [
+        2,
+        0,
+        1
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "Celia sent Agnes to Basil.",
+      "answer_ids": [
+        "t01_201_active_q0",
+        "t01_201_active_q1",
+        "t01_201_active_q2"
+      ],
+      "generated": [
+        " Celia",
+        " Agnes",
+        " Basil"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -5.48525084856038,
+          -8.266461210237981,
+          -0.0164939894135685
+        ],
+        [
+          -0.20354824168688168,
+          -4.25040080384866,
+          -2.4224087310161515
+        ],
+        [
+          -6.208975776748549,
+          -0.029246397749012942,
+          -8.697020288631759
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -18.432671941040798
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -7.936905977325544
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -17.16702974055662
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -16.89784571800268
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -0.24928862884946312
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -10.475870570010777
+        }
+      ],
+      "decoded_assignment": [
+        2,
+        0,
+        1
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 7.687617348476081,
+      "cycle_contrasts": [
+        [
+          -7.956801371030021,
+          -16.91774111170716
+        ],
+        [
+          -0.26918402255394014,
+          -10.495765963715254
+        ]
+      ],
+      "double_centered_interaction_energy": 82.95319003298333,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "goal_fronted",
+      "gold_assignment": [
+        2,
+        0,
+        1
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "To Basil, Celia sent Agnes.",
+      "answer_ids": [
+        "t01_201_goal_fronted_q0",
+        "t01_201_goal_fronted_q1",
+        "t01_201_goal_fronted_q2"
+      ],
+      "generated": [
+        " Celia",
+        " Agnes",
+        " Basil"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -5.845339927103101,
+          -4.884298990876406,
+          -0.04057465693257711
+        ],
+        [
+          -0.7027745749115653,
+          -2.890226768910548,
+          -1.4840170748598425
+        ],
+        [
+          -3.736336242808054,
+          -0.22062941091209254,
+          -2.3456495048385655
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -11.081216200852214
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -7.549986412875036
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -7.932723070626537
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -10.104652308544303
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -0.9639786427562349
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -6.667137668651179
+        }
+      ],
+      "decoded_assignment": [
+        2,
+        0,
+        1
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 5.703159025894944,
+      "cycle_contrasts": [
+        [
+          -4.414078532201035,
+          -6.968744427870302
+        ],
+        [
+          2.171929237917766,
+          -3.5312297879771783
+        ]
+      ],
+      "double_centered_interaction_energy": 21.043522619021836,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "passive",
+      "gold_assignment": [
+        2,
+        0,
+        1
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "Agnes was sent to Basil by Celia.",
+      "answer_ids": [
+        "t01_201_passive_q0",
+        "t01_201_passive_q1",
+        "t01_201_passive_q2"
+      ],
+      "generated": [
+        " Celia",
+        " Agnes",
+        " Basil"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -4.407977054805897,
+          -5.39227397964525,
+          -0.03293020167106775
+        ],
+        [
+          -0.36657462989205314,
+          -3.7884255480263462,
+          -1.554062820973673
+        ],
+        [
+          -5.785326911610468,
+          -0.0196555939164611,
+          -7.176030304782476
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -15.37243290761472
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -5.981695469696032
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -12.934878914319778
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -12.731663712229391
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -0.419160425479582
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -9.606682661307882
+        }
+      ],
+      "decoded_assignment": [
+        2,
+        0,
+        1
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 5.56253504421645,
+      "cycle_contrasts": [
+        [
+          -5.765750246306837,
+          -12.515718488840196
+        ],
+        [
+          -0.20321520209038724,
+          -9.390737437918688
+        ]
+      ],
+      "double_centered_interaction_energy": 50.52621550077811,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "active",
+      "gold_assignment": [
+        2,
+        1,
+        0
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "Celia sent Basil to Agnes.",
+      "answer_ids": [
+        "t01_210_active_q0",
+        "t01_210_active_q1",
+        "t01_210_active_q2"
+      ],
+      "generated": [
+        " Celia",
+        " Basil",
+        " Agnes"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -6.389570032871269,
+          -6.201880681799402,
+          -0.014408655143906657
+        ],
+        [
+          -3.37346756252197,
+          -0.18592133234310282,
+          -2.592275701154332
+        ],
+        [
+          -0.024003077024570274,
+          -7.461463723494791,
+          -8.253992637069505
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -14.829484002283877
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -16.443309457520392
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -17.829340881390877
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -8.818159459978304
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -10.849339941160668
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -0.22433306451157975
+        }
+      ],
+      "decoded_assignment": [
+        2,
+        1,
+        0
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 8.593826395466724,
+      "cycle_contrasts": [
+        [
+          -14.605150937772297,
+          -6.980000940230209
+        ],
+        [
+          -9.011181421412573,
+          1.6138254552365154
+        ]
+      ],
+      "double_centered_interaction_energy": 70.11287135829673,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "goal_fronted",
+      "gold_assignment": [
+        2,
+        1,
+        0
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "To Agnes, Celia sent Basil.",
+      "answer_ids": [
+        "t01_210_goal_fronted_q0",
+        "t01_210_goal_fronted_q1",
+        "t01_210_goal_fronted_q2"
+      ],
+      "generated": [
+        " Celia",
+        " Basil",
+        " Agnes"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -4.549567832895523,
+          -5.533858479088789,
+          -0.03388316548609893
+        ],
+        [
+          -2.7136839536925272,
+          -0.9011490445522945,
+          -1.0105541630074661
+        ],
+        [
+          -0.7493402051234384,
+          -3.5618167107354246,
+          -0.9212053317775357
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -6.371922209225353
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -9.121938706638414
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -9.168747764558852
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -7.293752847219693
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -6.309383829914051
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -1.6843724151618318
+        }
+      ],
+      "decoded_assignment": [
+        2,
+        1,
+        0
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 4.625011414752219,
+      "cycle_contrasts": [
+        [
+          -4.687549794063521,
+          -2.8593639346448008
+        ],
+        [
+          -1.8749949173391585,
+          2.7500164974130605
+        ]
+      ],
+      "double_centered_interaction_energy": 12.573124770548565,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t01",
+      "form": "passive",
+      "gold_assignment": [
+        2,
+        1,
+        0
+      ],
+      "names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "source": "Basil was sent to Agnes by Celia.",
+      "answer_ids": [
+        "t01_210_passive_q0",
+        "t01_210_passive_q1",
+        "t01_210_passive_q2"
+      ],
+      "generated": [
+        " Celia",
+        " Basil",
+        " Agnes"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -6.668793389835134,
+          -4.253514512002464,
+          -0.03479091841403914
+        ],
+        [
+          -4.216358850445928,
+          -0.12258196194946791,
+          -2.73196936833056
+        ],
+        [
+          -0.05972444123507259,
+          -3.8096857289824477,
+          -6.216006210568576
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -13.007381562353178
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -13.210448487148142
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -14.685879573016969
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -7.045208321568097
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -8.060835497842415
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -0.21709732159857964
+        }
+      ],
+      "decoded_assignment": [
+        2,
+        1,
+        0
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 6.8281109999695175,
+      "cycle_contrasts": [
+        [
+          -12.790284240754598,
+          -6.625044075174554
+        ],
+        [
+          -7.640671251448872,
+          0.2030669247949639
+        ]
+      ],
+      "double_centered_interaction_energy": 49.04411750244928,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "active",
+      "gold_assignment": [
+        0,
+        1,
+        2
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "Dorian sent Esther to Florian.",
+      "answer_ids": [
+        "t02_012_active_q0",
+        "t02_012_active_q1",
+        "t02_012_active_q2"
+      ],
+      "generated": [
+        " Dorian",
+        " Esther",
+        " Florian"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -0.02216420473124714,
+          -6.521731939715458,
+          -9.513919439715458
+        ],
+        [
+          -2.8861783771451783,
+          -0.10325611354282671,
+          -7.751693613542827
+        ],
+        [
+          -5.135343020204608,
+          -3.842406495079583,
+          -0.061156495079583095
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -0.18657681335365695
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -11.616264313353657
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -9.46906681194022
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -19.408768573462893
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -16.24250431194022
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -14.752518573462893
+        }
+      ],
+      "decoded_assignment": [
+        0,
+        1,
+        2
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 9.282489998586563,
+      "cycle_contrasts": [
+        [
+          14.565941760109236,
+          6.7734375
+        ],
+        [
+          9.939701761522674,
+          11.4296875
+        ]
+      ],
+      "double_centered_interaction_energy": 75.51912263183797,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "goal_fronted",
+      "gold_assignment": [
+        0,
+        1,
+        2
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "To Florian, Dorian sent Esther.",
+      "answer_ids": [
+        "t02_012_goal_fronted_q0",
+        "t02_012_goal_fronted_q1",
+        "t02_012_goal_fronted_q2"
+      ],
+      "generated": [
+        " Dorian",
+        " Esther",
+        " Esther"
+      ],
+      "native_correct": 2,
+      "native_complete": false,
+      "score_matrix": [
+        [
+          -0.046269212864224585,
+          -4.905200252576165,
+          -5.850512752576165
+        ],
+        [
+          -1.5405822842891936,
+          -0.36814297379416416,
+          -6.649392973794164
+        ],
+        [
+          -1.6852349270098728,
+          -0.8405633465011704,
+          -1.6843133465011704
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -2.098725533159559
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -7.536225533159559
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -8.130095883366529
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -13.239828153380202
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -8.231658383366529
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -7.903890653380202
+        }
+      ],
+      "decoded_assignment": [
+        0,
+        1,
+        2
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 5.4375,
+      "cycle_contrasts": [
+        [
+          5.805165120220643,
+          0.1015625
+        ],
+        [
+          5.109732270013673,
+          5.4375
+        ]
+      ],
+      "double_centered_interaction_energy": 20.817536202696537,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "passive",
+      "gold_assignment": [
+        0,
+        1,
+        2
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "Esther was sent to Florian by Dorian.",
+      "answer_ids": [
+        "t02_012_passive_q0",
+        "t02_012_passive_q1",
+        "t02_012_passive_q2"
+      ],
+      "generated": [
+        " Dorian",
+        " Esther",
+        " Florian"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -0.040591121191436486,
+          -4.804649893435833,
+          -8.867149893435833
+        ],
+        [
+          -2.0259617557695577,
+          -0.1813102319188289,
+          -7.564122731918829
+        ],
+        [
+          -3.6902218128781996,
+          -3.805855189785671,
+          -0.11054268978567094
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -0.3324440428959363
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -11.410569042895936
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -6.941154338991062
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -16.05899443823286
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -14.698966838991062
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -12.738681938232862
+        }
+      ],
+      "decoded_assignment": [
+        0,
+        1,
+        2
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 6.608710296095126,
+      "cycle_contrasts": [
+        [
+          12.406237895336925,
+          7.7578125
+        ],
+        [
+          9.1178400992418,
+          11.078125
+        ]
+      ],
+      "double_centered_interaction_energy": 56.76910195341155,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "active",
+      "gold_assignment": [
+        0,
+        2,
+        1
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "Dorian sent Florian to Esther.",
+      "answer_ids": [
+        "t02_021_active_q0",
+        "t02_021_active_q1",
+        "t02_021_active_q2"
+      ],
+      "generated": [
+        " Dorian",
+        " Florian",
+        " Esther"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -0.020013864132774728,
+          -6.816380132011638,
+          -8.972630132011638
+        ],
+        [
+          -1.412225489369682,
+          -1.6301419664361099,
+          -0.8020169664361099
+        ],
+        [
+          -8.152983811225994,
+          -0.015800287848122707,
+          -10.343925287848123
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -11.994081118417007
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -0.8378311184170073
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -18.572530909229442
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -15.771380909673741
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -10.400655909229442
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -18.75575590967374
+        }
+      ],
+      "decoded_assignment": [
+        0,
+        2,
+        1
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 9.562824790812435,
+      "cycle_contrasts": [
+        [
+          6.761674791256734,
+          -8.171875
+        ],
+        [
+          -2.801149999555701,
+          -11.15625
+        ]
+      ],
+      "double_centered_interaction_energy": 75.69520683742923,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "goal_fronted",
+      "gold_assignment": [
+        0,
+        2,
+        1
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "To Esther, Dorian sent Florian.",
+      "answer_ids": [
+        "t02_021_goal_fronted_q0",
+        "t02_021_goal_fronted_q1",
+        "t02_021_goal_fronted_q2"
+      ],
+      "generated": [
+        " Dorian",
+        " Dorian",
+        " Esther"
+      ],
+      "native_correct": 2,
+      "native_complete": false,
+      "score_matrix": [
+        [
+          -0.050238561995264774,
+          -4.315378431727201,
+          -7.252878431727201
+        ],
+        [
+          -0.7322356806803754,
+          -1.6537722677020987,
+          -1.9506472677020987
+        ],
+        [
+          -3.4208405553575822,
+          -0.09201180240816598,
+          -7.240449302408166
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -8.94446013210553
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -2.0928976321055295
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -12.288063414815742
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -9.686866254786882
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -8.077125914815742
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -12.327491254786882
+        }
+      ],
+      "decoded_assignment": [
+        0,
+        2,
+        1
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 5.9842282827102125,
+      "cycle_contrasts": [
+        [
+          3.383031122681352,
+          -4.2109375
+        ],
+        [
+          -2.6011971600288604,
+          -6.8515625
+        ]
+      ],
+      "double_centered_interaction_energy": 23.620507330060732,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "passive",
+      "gold_assignment": [
+        0,
+        2,
+        1
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "Florian was sent to Esther by Dorian.",
+      "answer_ids": [
+        "t02_021_passive_q0",
+        "t02_021_passive_q1",
+        "t02_021_passive_q2"
+      ],
+      "generated": [
+        " Dorian",
+        " Dorian",
+        " Esther"
+      ],
+      "native_correct": 2,
+      "native_complete": false,
+      "score_matrix": [
+        [
+          -0.023413977176385714,
+          -7.756161496885817,
+          -6.615536496885817
+        ],
+        [
+          -0.9933739928527245,
+          -1.6485358931529497,
+          -1.1329108931529497
+        ],
+        [
+          -5.324798960932398,
+          -0.021366415490934543,
+          -8.052616415490935
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -9.72456628582027
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -1.17769128582027
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -16.802151905229476
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -14.213871350971164
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -7.630276905229476
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -13.588871350971164
+        }
+      ],
+      "decoded_assignment": [
+        0,
+        2,
+        1
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 6.452585619409206,
+      "cycle_contrasts": [
+        [
+          3.8643050651508943,
+          -9.171875
+        ],
+        [
+          -2.5882805542583114,
+          -8.546875
+        ]
+      ],
+      "double_centered_interaction_energy": 52.92999510900981,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "active",
+      "gold_assignment": [
+        1,
+        0,
+        2
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "Esther sent Dorian to Florian.",
+      "answer_ids": [
+        "t02_102_active_q0",
+        "t02_102_active_q1",
+        "t02_102_active_q2"
+      ],
+      "generated": [
+        " Esther",
+        " Dorian",
+        " Florian"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -6.160129425301751,
+          -0.011631306649924511,
+          -13.628818806649925
+        ],
+        [
+          -0.09893769862248902,
+          -3.1922956313331348,
+          -5.911045631333135
+        ],
+        [
+          -4.517675600229936,
+          -8.930674542197902,
+          -0.032237042197902355
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -9.384662098832788
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -21.001849598832788
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -0.1428060474703159
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -10.440352538212995
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -22.658431047470316
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -21.338790038212995
+        }
+      ],
+      "decoded_assignment": [
+        1,
+        0,
+        2
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 9.241856051362472,
+      "cycle_contrasts": [
+        [
+          11.954127939380207,
+          22.515625
+        ],
+        [
+          10.297546490742679,
+          11.6171875
+        ]
+      ],
+      "double_centered_interaction_energy": 134.56353677079272,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "goal_fronted",
+      "gold_assignment": [
+        1,
+        0,
+        2
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "To Florian, Esther sent Dorian.",
+      "answer_ids": [
+        "t02_102_goal_fronted_q0",
+        "t02_102_goal_fronted_q1",
+        "t02_102_goal_fronted_q2"
+      ],
+      "generated": [
+        " Esther",
+        " Dorian",
+        " Esther"
+      ],
+      "native_correct": 2,
+      "native_complete": false,
+      "score_matrix": [
+        [
+          -7.60983743542554,
+          -0.018181453775714118,
+          -7.690056453775714
+        ],
+        [
+          -0.5217761484366967,
+          -1.3644914087562015,
+          -4.9582414087562015
+        ],
+        [
+          -1.622167107810185,
+          -0.8846824084003515,
+          -1.7128074084003515
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -10.687136252582093
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -13.452761252582093
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -2.2527650106127624
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -6.5985899703421005
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -9.096515010612762
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -10.6767149703421
+        }
+      ],
+      "decoded_assignment": [
+        1,
+        0,
+        2
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 4.345824959729338,
+      "cycle_contrasts": [
+        [
+          -0.01042128223999228,
+          6.84375
+        ],
+        [
+          4.345824959729338,
+          2.765625
+        ]
+      ],
+      "double_centered_interaction_energy": 25.510577538835914,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "passive",
+      "gold_assignment": [
+        1,
+        0,
+        2
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "Dorian was sent to Florian by Esther.",
+      "answer_ids": [
+        "t02_102_passive_q0",
+        "t02_102_passive_q1",
+        "t02_102_passive_q2"
+      ],
+      "generated": [
+        " Esther",
+        " Dorian",
+        " Florian"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -5.958344834129399,
+          -0.01411624973516723,
+          -12.420366249735167
+        ],
+        [
+          -0.4559019702373064,
+          -1.111686056887141,
+          -6.424186056887141
+        ],
+        [
+          -2.8525147750859148,
+          -3.5621224832769585,
+          -0.14805998327695846
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -7.218090874293498
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -15.944653374293498
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -0.6180782032494321
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -9.290817081708223
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -16.438390703249432
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -16.384567081708223
+        }
+      ],
+      "decoded_assignment": [
+        1,
+        0,
+        2
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 6.600012671044066,
+      "cycle_contrasts": [
+        [
+          9.166476207414725,
+          15.8203125
+        ],
+        [
+          8.67273887845879,
+          8.7265625
+        ]
+      ],
+      "double_centered_interaction_energy": 69.34194818225566,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "active",
+      "gold_assignment": [
+        1,
+        2,
+        0
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "Esther sent Florian to Dorian.",
+      "answer_ids": [
+        "t02_120_active_q0",
+        "t02_120_active_q1",
+        "t02_120_active_q2"
+      ],
+      "generated": [
+        " Esther",
+        " Florian",
+        " Dorian"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -9.286577355713739,
+          -0.010293050274011506,
+          -10.393105550274012
+        ],
+        [
+          -3.131759903660342,
+          -2.0018887431398937,
+          -0.40813874313989373
+        ],
+        [
+          -0.1342132796811768,
+          -6.125860802415904,
+          -2.907110802415904
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -14.195576901269536
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -15.820576901269536
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -6.049163756350257
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -0.552645073095082
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -19.650726256350257
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -12.529207573095082
+        }
+      ],
+      "decoded_assignment": [
+        1,
+        2,
+        0
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 5.496518683255175,
+      "cycle_contrasts": [
+        [
+          -1.6663693281744543,
+          13.6015625
+        ],
+        [
+          -5.496518683255175,
+          1.625
+        ]
+      ],
+      "double_centered_interaction_energy": 80.99217144519336,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "goal_fronted",
+      "gold_assignment": [
+        1,
+        2,
+        0
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "To Dorian, Esther sent Florian.",
+      "answer_ids": [
+        "t02_120_goal_fronted_q0",
+        "t02_120_goal_fronted_q1",
+        "t02_120_goal_fronted_q2"
+      ],
+      "generated": [
+        " Esther",
+        " Esther",
+        " Dorian"
+      ],
+      "native_correct": 2,
+      "native_complete": false,
+      "score_matrix": [
+        [
+          -5.994772587901398,
+          -0.018918282842953715,
+          -9.151730782842954
+        ],
+        [
+          -1.7249461737384877,
+          -0.5049943444543743,
+          -3.2159318444543743
+        ],
+        [
+          -0.5646744399078578,
+          -1.298492240363796,
+          -3.548492240363796
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -10.048259172719568
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -10.509196672719568
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -5.292356696945237
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -3.799524567205186
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -12.175169196945237
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -10.221399567205186
+        }
+      ],
+      "decoded_assignment": [
+        1,
+        2,
+        0
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 1.4928321297400515,
+      "cycle_contrasts": [
+        [
+          0.17314039448561758,
+          6.8828125
+        ],
+        [
+          -1.4928321297400515,
+          0.4609375
+        ]
+      ],
+      "double_centered_interaction_energy": 18.36839594540422,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "passive",
+      "gold_assignment": [
+        1,
+        2,
+        0
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "Florian was sent to Dorian by Esther.",
+      "answer_ids": [
+        "t02_120_passive_q0",
+        "t02_120_passive_q1",
+        "t02_120_passive_q2"
+      ],
+      "generated": [
+        " Esther",
+        " Esther",
+        " Dorian"
+      ],
+      "native_correct": 2,
+      "native_complete": false,
+      "score_matrix": [
+        [
+          -8.048425266470499,
+          -0.013144534596502666,
+          -10.106894534596503
+        ],
+        [
+          -1.8923508004115348,
+          -0.828600997586463,
+          -1.203600997586463
+        ],
+        [
+          -0.08847625860029495,
+          -3.351773309527257,
+          -4.992398309527257
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -13.869424573584219
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -12.603799573584219
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -6.897893644535294
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -1.3052217907832606
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -15.351018644535294
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -11.02397179078326
+        }
+      ],
+      "decoded_assignment": [
+        1,
+        2,
+        0
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 5.592671853752034,
+      "cycle_contrasts": [
+        [
+          -2.845452782800958,
+          8.453125
+        ],
+        [
+          -5.592671853752034,
+          -1.265625
+        ]
+      ],
+      "double_centered_interaction_energy": 45.49071788652241,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "active",
+      "gold_assignment": [
+        2,
+        0,
+        1
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "Florian sent Dorian to Esther.",
+      "answer_ids": [
+        "t02_201_active_q0",
+        "t02_201_active_q1",
+        "t02_201_active_q2"
+      ],
+      "generated": [
+        " Florian",
+        " Dorian",
+        " Esther"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -5.473253527187413,
+          -7.1272310126258915,
+          -0.04910601262589154
+        ],
+        [
+          -0.07934547740424946,
+          -3.5945903985941747,
+          -5.008652898594175
+        ],
+        [
+          -7.163247682950342,
+          -0.016649055052127437,
+          -12.626024055052127
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -21.693867980833716
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -10.498555480833716
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -19.83260054508227
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -19.299131594170408
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -0.14510054508226844
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -10.806944094170408
+        }
+      ],
+      "decoded_assignment": [
+        2,
+        0,
+        1
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 10.353454935751447,
+      "cycle_contrasts": [
+        [
+          -10.886923886663308,
+          -19.6875
+        ],
+        [
+          -0.5334689509118604,
+          -11.1953125
+        ]
+      ],
+      "double_centered_interaction_energy": 111.738113439921,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "goal_fronted",
+      "gold_assignment": [
+        2,
+        0,
+        1
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "To Esther, Florian sent Dorian.",
+      "answer_ids": [
+        "t02_201_goal_fronted_q0",
+        "t02_201_goal_fronted_q1",
+        "t02_201_goal_fronted_q2"
+      ],
+      "generated": [
+        " Florian",
+        " Dorian",
+        " Esther"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -7.194482437640964,
+          -5.781844687819095,
+          -0.03184468781909544
+        ],
+        [
+          -0.5106944841167262,
+          -1.8224779096528998,
+          -2.4943529096529
+        ],
+        [
+          -5.485301890708186,
+          -0.05875199073507886,
+          -5.441564490735079
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -14.458524838028943
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -9.747587338028943
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -11.7341036626709
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -13.761499488180181
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -0.6012911626709005
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -7.339624488180181
+        }
+      ],
+      "decoded_assignment": [
+        2,
+        0,
+        1
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 6.738333325509281,
+      "cycle_contrasts": [
+        [
+          -7.1189003498487615,
+          -11.1328125
+        ],
+        [
+          2.0273958255092808,
+          -4.7109375
+        ]
+      ],
+      "double_centered_interaction_energy": 43.861759116885096,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "passive",
+      "gold_assignment": [
+        2,
+        0,
+        1
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "Dorian was sent to Esther by Florian.",
+      "answer_ids": [
+        "t02_201_passive_q0",
+        "t02_201_passive_q1",
+        "t02_201_passive_q2"
+      ],
+      "generated": [
+        " Florian",
+        " Dorian",
+        " Esther"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -3.170203933265988,
+          -7.66094738320761,
+          -0.07500988320760982
+        ],
+        [
+          -0.31398929719942004,
+          -1.6414133611070199,
+          -3.81328836110702
+        ],
+        [
+          -4.517851123000213,
+          -0.029656242485117446,
+          -7.9359062424851174
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -12.747523536858125
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -7.013148536858125
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -15.910842922892147
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -15.992086867314843
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -0.4186554228921473
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -6.234274367314843
+        }
+      ],
+      "decoded_assignment": [
+        2,
+        0,
+        1
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 5.815618944422695,
+      "cycle_contrasts": [
+        [
+          -6.513249169543283,
+          -15.4921875
+        ],
+        [
+          0.08124394442269534,
+          -5.734375
+        ]
+      ],
+      "double_centered_interaction_energy": 64.27461516678616,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "active",
+      "gold_assignment": [
+        2,
+        1,
+        0
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "Florian sent Esther to Dorian.",
+      "answer_ids": [
+        "t02_210_active_q0",
+        "t02_210_active_q1",
+        "t02_210_active_q2"
+      ],
+      "generated": [
+        " Florian",
+        " Esther",
+        " Dorian"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -6.9336462154481175,
+          -8.309675140388617,
+          -0.044050140388616654
+        ],
+        [
+          -3.2813460746447056,
+          -0.13444899454957948,
+          -5.1813239945495795
+        ],
+        [
+          -0.05214236463798372,
+          -4.282405826003117,
+          -7.735530826003117
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -14.803626036000814
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -16.397376036000814
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -19.32655204103644
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -13.54314149957618
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -7.6078020410364395
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -0.23064149957617985
+        }
+      ],
+      "decoded_assignment": [
+        2,
+        1,
+        0
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 7.37716054146026,
+      "cycle_contrasts": [
+        [
+          -14.572984536424634,
+          -11.71875
+        ],
+        [
+          -5.78341054146026,
+          1.59375
+        ]
+      ],
+      "double_centered_interaction_energy": 80.35490397425824,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "goal_fronted",
+      "gold_assignment": [
+        2,
+        1,
+        0
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "To Dorian, Florian sent Esther.",
+      "answer_ids": [
+        "t02_210_goal_fronted_q0",
+        "t02_210_goal_fronted_q1",
+        "t02_210_goal_fronted_q2"
+      ],
+      "generated": [
+        " Florian",
+        " Esther",
+        " Esther"
+      ],
+      "native_correct": 2,
+      "native_complete": false,
+      "score_matrix": [
+        [
+          -5.073808993992497,
+          -6.142658083918004,
+          -0.05672058391800405
+        ],
+        [
+          -2.969734408129021,
+          -0.15509774344550564,
+          -4.741035243445506
+        ],
+        [
+          -1.0138200213857402,
+          -0.6694218246249903,
+          -4.35692182462499
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -9.585828562062993
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -10.484266062062993
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -13.469314316672016
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -11.89751334874925
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -3.6958768166720155
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -1.22563834874925
+        }
+      ],
+      "decoded_assignment": [
+        2,
+        1,
+        0
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 2.4702384679227656,
+      "cycle_contrasts": [
+        [
+          -8.360190213313743,
+          -9.7734375
+        ],
+        [
+          -1.5718009679227656,
+          0.8984375
+        ]
+      ],
+      "double_centered_interaction_energy": 39.09361792710109,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    },
+    {
+      "family": "t02",
+      "form": "passive",
+      "gold_assignment": [
+        2,
+        1,
+        0
+      ],
+      "names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "source": "Esther was sent to Dorian by Florian.",
+      "answer_ids": [
+        "t02_210_passive_q0",
+        "t02_210_passive_q1",
+        "t02_210_passive_q2"
+      ],
+      "generated": [
+        " Florian",
+        " Esther",
+        " Dorian"
+      ],
+      "native_correct": 3,
+      "native_complete": true,
+      "score_matrix": [
+        [
+          -6.426568165938175,
+          -2.8232079793776563,
+          -0.10445797937765633
+        ],
+        [
+          -2.2935935396216074,
+          -0.16726639326804005,
+          -5.32351639326804
+        ],
+        [
+          -0.07098703778502369,
+          -4.2563654227837056,
+          -5.2016779227837056
+        ]
+      ],
+      "permutation_scores": [
+        {
+          "assignment": [
+            0,
+            1,
+            2
+          ],
+          "score": -11.79551248198992
+        },
+        {
+          "assignment": [
+            0,
+            2,
+            1
+          ],
+          "score": -16.00644998198992
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            2
+          ],
+          "score": -10.31847944178297
+        },
+        {
+          "assignment": [
+            1,
+            2,
+            0
+          ],
+          "score": -8.21771141043072
+        },
+        {
+          "assignment": [
+            2,
+            0,
+            1
+          ],
+          "score": -6.654416941782969
+        },
+        {
+          "assignment": [
+            2,
+            1,
+            0
+          ],
+          "score": -0.34271141043072006
+        }
+      ],
+      "decoded_assignment": [
+        2,
+        1,
+        0
+      ],
+      "unique": true,
+      "structured_correct": true,
+      "gold_assignment_margin": 6.311705531352249,
+      "cycle_contrasts": [
+        [
+          -11.4528010715592,
+          -3.6640625
+        ],
+        [
+          -2.100768031352249,
+          4.2109375
+        ]
+      ],
+      "double_centered_interaction_energy": 46.54411957518376,
+      "single_sent_person_row_best_ties": 2,
+      "row_permutation_null_correct_count": 1
+    }
+  ],
+  "cpu_fixtures": {
+    "passed": true,
+    "n": 5,
+    "checks": [
+      "all_permutation_gaps_invariant",
+      "cycle_contrasts_invariant",
+      "pure_name_preference_has_no_binding_discrimination",
+      "native_collapses_while_assignment_recovers",
+      "single_role_does_not_identify_full_assignment"
+    ],
+    "model_forwards": 0
+  }
+}

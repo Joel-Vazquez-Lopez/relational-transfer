@@ -1,0 +1,75 @@
+{
+  "files": {
+    "core.py": "18eb4fd54a1d5f26e8eab841821427bfcd8b4ce7f541cd640bb0c3de081ce922",
+    "prepare.py": "0ca9d6f99637296f1727ba25ef56fdec4e3634ae4d73c6331b90f5086777d058",
+    "replacement.py": "2b769a2265ef1b8588444b51cc3006a70cf7fdd60432aa90ab84bbd19a494640",
+    "worker.py": "dd2ee609f6689f19cd6d6308b6bc76ee3d6d46b4ed7ede245ffb227580a38bb3",
+    "runtime.py": "bb0e67363114f6f81e1e8ef8d8eb467d5a57371d53f9fb54ee9f27cfd87a797d",
+    "run.py": "f7b344379e250d087d78dc09de974da0df8c2115f64b36aeb63e7261da7df292",
+    "analyze.py": "d3b018a2fe1c6889742977102f511e8131e432b61d135929e480cae0d6dfee1f",
+    "test_design.py": "43d8d2395a5724132edfe9951e2d7fb732f4211cf7e6047c913c890bef979347",
+    "PROTOCOL.md": "f224d962a3f0ced7c4c22a300889feb534c087ef7793abcec7c8449a4f490bbb",
+    "INPUTS.json": "1f3ee748d3b014cc881a31f047b6211fe6a751d12eb44d3fc62082df165f6be2",
+    "JOBS.json": "d50780ae313e3c3999e7b2d711a047225277cdef7fc4c80fcf3bb8e6fc1c78e9",
+    "UNITS.json": "52f2af6643b8651e2d473cbd35aaa116c9fe90cd1f3a48dbe59e801e4da4dcd8",
+    "CACHE_INPUTS.json": "5d6aa39eaf879727f51d041fdf03dd6999ee91737dc067524aefde8dc6c2ac2e",
+    "IDENTITY_INPUTS.json": "13ca63b1d70d7a41ef24f83f40f2a9883edbf37151a3280cad77143c238c775e",
+    "TOKENIZER_AUDIT.json": "f8ee19efc567719f5c8b94b6ae89f18534b9e3cbabc8f2e18f925e99a06ad50f",
+    "CPU_PREFLIGHT.json": "7ae5ba3c0adf727325b8d53d40918516d61068743182978a87f9c378775d2d62",
+    "SOURCE_MANIFEST.json": "52c0ca150fd3980eacdc59c9188ff504ccc4603cba95419b5675e0a5dc599b1b",
+    "RESEARCH_RATIONALE.md": "cde9402418a83ee0a2bb08eb0af5a08f913796e5c3adb3a1f077816f447890a2",
+    "RESTART_AMENDMENT.md": "c27f564c489ac7cf12ace1f8ab49e74a203bcc37bc6cdf91ca88a7acb9df1856",
+    "CONTROL_INPUT.json": "62b833bb0f37bf81ffbfedf53ad4ee1e4b17b32c1ad9a55787e8935d5d75aa1f",
+    "REFERENCE_CONTROL.npz": "7d56528da62bd4481016714f3b410ca370b8a3072498bf2baaf57ca6c2d5657e"
+  },
+  "native_sources": {
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/qwen2.py": "937e0321ef06a34efbd66d2ce0ce1e715aab98da4acefa376c8cd29291a0bc83",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/llama.py": "dfb656511e6740781cd0563f7994a78b3404c199b9aebaa2fbca28a19e280891",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/base.py": "b782b2ac0f55ed8fa9c1afce1f36307d5d8714aad2c0991d63998047f7507174"
+  },
+  "model": {
+    "path": "research/llama_gemma_cross_family_2026-10-15/model",
+    "files": {
+      "research/llama_gemma_cross_family_2026-10-15/model/config.json": {
+        "bytes": 1122,
+        "sha256": "c546925585e48f43890d9dc5150df4fec73dd3780d92961c5ace451934cc4cd6"
+      },
+      "research/llama_gemma_cross_family_2026-10-15/model/model.safetensors": {
+        "bytes": 1807496278,
+        "sha256": "d75e1ee0ea653cc5b76191ec934c7c0d568e94d4e47846619f1f4bc715b7b265"
+      },
+      "research/llama_gemma_cross_family_2026-10-15/model/special_tokens_map.json": {
+        "bytes": 296,
+        "sha256": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+      },
+      "research/llama_gemma_cross_family_2026-10-15/model/tokenizer.json": {
+        "bytes": 17209920,
+        "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+      },
+      "research/llama_gemma_cross_family_2026-10-15/model/tokenizer_config.json": {
+        "bytes": 54558,
+        "sha256": "022d5ae3df4737998ab97d8f31ac2bcb4c06dd8ebe5a8aba2b4aceef1e5ea7d3"
+      }
+    },
+    "pad": 87
+  },
+  "runtime": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.0",
+    "numpy": "2.4.4",
+    "transformers": "5.7.0"
+  },
+  "max_model_forwards": 6141,
+  "max_nonrestart_forwards": 5949,
+  "development_only": true,
+  "first_causal_outcome_seen": false,
+  "blocks": [
+    7,
+    14,
+    21
+  ],
+  "site": "joint_person_last_subtokens",
+  "technical_logit_tolerance": 0.05,
+  "technical_trace_tolerance": 1e-06,
+  "independent_probability_replay_tolerance": 1e-08
+}

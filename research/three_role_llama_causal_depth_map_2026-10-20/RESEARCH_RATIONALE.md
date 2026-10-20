@@ -1,0 +1,13 @@
+# Llama continuation of the three-role causal depth profile
+
+The matched native screen completed101/108 correct answers and29/36 complete source cases; both frozen eligibility gates passed. All394 native forwards passed466 production and2,760 independent replay checks. Its maximum observed MLX peak was1.990GiB and no resource guard failed. This is an independently frozen checkpoint-specific continuation, not completed Qwen causal replication.
+
+The causal question,depths7/14/21,source-bank replacement,conditions,literal rivals,selection rule and native qualification gates were specified in the native screen's CONTINUATION_RULES.md before its outputs. This implementation instantiates those rules; selected inputs and source hashes are fixed before causal outcomes.
+
+One source bank must support two changed role answers and one preserved answer across future questions. Main and same-role syntax conditions distinguish role-table from mention-order predictions; identity and neighboring-token replacements check implementation/locality. Cross-family donors diagnose content/addressing and are not inert controls. All selected pair native answers must be correct; failed unselected native cases remain in the admission ledger. Other-family and syntax-control donor errors are explicitly reported.
+
+A saved-score exploratory analysis found a fixed one-to-one external decoder recovers all36 full assignments in both checkpoints despite15/36 Qwen and29/36 Llama complete native cases. This motivates separating graded availability from native expression, but changes neither native eligibility nor the strict causal gate. It combines three question runs and a task constraint; it is not evidence that the model implements such a decoder.
+
+Prior work already covers binding-ID vectors(Feng and Steinhardt,2024),low-rank binding edits(Dai et al.,2024) and mixtures of positional/lexical/reflexive retrieval across layers(Mixing Mechanisms,2026 revision). Those are not our novelty claims. The unresolved local test concerns coherent multi-question transfer under grammatical-role/order dissociation. Even a positive result retains syntax-aware parser and complete future-answer-table equivalence. All three depths and failures will be reported,without a p-value or a universal process claim.
+
+Primary sources:https://aclanthology.org/2024.emnlp-main.967/ ; https://proceedings.iclr.cc/paper_files/paper/2024/hash/9d1b7fc578c0d2d6431fc26d736ecaf3-Abstract-Conference.html ; https://arxiv.org/html/2510.06182v2 ; https://arxiv.org/abs/2309.16042 . Detailed prior-work assessment is preserved in the separate Qwen depth-map RESEARCH_RATIONALE.md.

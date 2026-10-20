@@ -1,0 +1,11 @@
+# Matched Llama three-role native screen: complete
+
+Frozen before outcomes at016d458d1c0441704f2d3ee1541639c1062a425a. All108 native prompts completed:101/108 correct,29/36 complete three-question source cases. Active36/36,passive34/36,goal-fronted31/36. All108 outputs terminated and named a source participant. All seven errors are retained:five name the sender and two the sent person. This differs from the Qwen development observation(all22 errors sent-person substitutions); no shared error law or general model-strength ranking is established.
+
+Both minimal family gates pass:111/162 six-answer transposition pairs are eligible,with each family covering all invariant roles and all three source forms among eligible cross-form pairs. This permits preparing the prospectively specified causal depth profile; it is not itself causal evidence. The exact source strings were exposed in Qwen development,so this is a matched checkpoint study,not independent lexical generalization.
+
+394 actual forwards across13 bounded workers;466 production checks and2,760 independent full-vector replay checks pass. No scientific source,score,technical tolerance or gate changed after outcomes. All source prefixes remain invariant across future questions in the fixed128 shape. Peak observed MLX allocation1.990GiB; maximum predispatch swap3,252MiB. The pressure/growth/disk guards remained satisfied. No evaluation-family or intervention output was collected here;no paid call,download,training or unrelated app closure.
+
+All394 raw NPZ files are preserved losslessly in17 verified tar shards,with per-member and bundle SHA256 hashes in PAYLOAD_BUNDLES.json. ANSWER_LEDGER.csv,PAIR_LEDGER.json and UNEXPECTED_ANSWERS.json retain all answers,all162 pairs and every error. Full source/model/runtime locks,preflight checks and the earlier Qwen resource failures remain intact.
+
+An explicitly exploratory separate saved-output analysis recovers all36 full assignments with a fixed one-to-one external decoder,including all seven native-incomplete cases. This combines three question-conditioned score vectors and the supplied bijection constraint;it is not native competence or evidence of an internal assignment algorithm. It does not change this screen's native eligibility or the future causal gate. See research/binding_assignment_readout_2026-10-20/METHOD.md.
