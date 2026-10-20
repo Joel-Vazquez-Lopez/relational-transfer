@@ -1,0 +1,9 @@
+{"status": "FAIL", "comparisons": [{"id": "t01_102_passive_q0", "max_error": 0.103515625, "exact_equal": false, "argmax_equal": true}, {"id": "t01_102_passive_q1", "max_error": 0.0517578125, "exact_equal": false, "argmax_equal": true}, {"id": "t01_102_passive_q2", "max_error": 0.0390625, "exact_equal": false, "argmax_equal": true}, {"id": "t01_120_active_q0", "max_error": 0.037109375, "exact_equal": false, "argmax_equal": true}], "elapsed_seconds": 12.090205250002327, "peak_mlx_bytes": 465968136, "new_linguistic_test_prompts": 0}
+Traceback (most recent call last):
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/qwen_layer_streaming_2026-10-20/batch_check.py", line 38, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/qwen_layer_streaming_2026-10-20/batch_check.py", line 36, in main
+    print(json.dumps({k:v for k,v in result.items() if k!='observations'}));assert result['status']=='PASS'
+                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

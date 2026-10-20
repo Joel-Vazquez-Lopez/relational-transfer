@@ -1,0 +1,17 @@
+# Explicit model escalation after a failed native prerequisite
+
+The Llama role-versus-position study frozen at a608f7989a731d38b3474a3a6e5dafbf31a152a6 completed all360 native prompts. Its288 primary answers included166 correct; the native gate failed, so no causal measurement or model comparison was collected. Its source code, thresholds, failure and decision remain unchanged.
+
+The user subsequently authorized an independent reformulation and use of available local resources. Within that broad work request, this is a separate Qwen counterpart, chosen adaptively after observing the Llama native failure. It is not the originally frozen single-checkpoint study, an independent lexical replication or evidence from Llama supporting a role mechanism.
+
+The earlier Qwen memory-pressure stops prevented ordinary eager loading. A separate exposed-reference engineering check evaluates native layers sequentially and frees evaluated modules. It reproduces the saved full-vocabulary vector exactly with recorded peak MLX allocation347,053,576 bytes. This is not total process/OS memory, a novel offloading technique, or proof of equivalence on all prompts.
+
+A four-row optimization failed its predeclared0.05 singleton equivalence tolerance (maximum0.103515625), despite unchanged argmax. That failure is retained; this counterpart uses the serial route. No numerical tolerance is relaxed. Whole-vocabulary wrapper, restart, joint-donor and endpoint controls remain mandatory on the actual new execution route. Sequential evaluation can alter execution scheduling, so native source-prefix and complete-state identity controls are important.
+
+All passages, name quartets, semantic counterfactuals, question strings, three scientific cuts, score equations, held-out folds, predictors and scientific gates are inherited unchanged. Inputs are retokenized using Qwen's own chat template/tokenizer before any new Qwen outcome; all eight names remain single leading-space tokens and paired passage lengths match. The separate engineering prompts were already exposed; none is part of the new scientific panel. The worker frees previous modules by normal reference counting and cache release, with full Python garbage collection at the end of each forward rather than every layer; actual-route startup reference checks must pass before every worker's scientific requests.
+
+Resource amendment only: native and causal stages may each run for up to90min, serial model forwards remain≤90s, worker cap32 and total4054 forwards. Normal pressure, disk>8GiB, swap<4GiB and growth<1GiB, MLX3GiB guideline/cache256MiB remain. This implementation frees model blocks after evaluation; cache release does not change weights. No model download, training, paid API or additional checkpoint follows this counterpart. If its native gate fails, stop before causal collection. If a resource or numerical control fails, stop and retain partial records without retry. Report every result regardless of its relationship to the desired paper.
+
+## Estimand supersession before Qwen outcomes
+
+PROTOCOL_GRADED.md is authoritative. It replaces hard native answer admission with a validated direct-plus-query-relative role-response gate, preserving native accuracy separately. All three query vectors are now collected at every cut:1296 first-token measurements; max4650 forwards including references. All original Llama failures, V1 code/thresholds and failed batching remain preserved. No new Qwen scientific outcome was seen before this change.

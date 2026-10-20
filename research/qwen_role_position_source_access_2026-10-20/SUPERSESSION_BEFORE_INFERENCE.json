@@ -1,0 +1,7 @@
+{
+  "status": "Superseded before any new Qwen scientific output",
+  "reason": "Change the estimand to query-specific relational evidence, allowing study of information availability when native answer selection is wrong; keep native accuracy separately. Do not call this a repair of the failed Llama native gate.",
+  "original_design_archive": "SUPERSEDED_NATIVE_GATE_DESIGN.tar",
+  "source_discovery": "Llama native288 responses:166 correct; bias-cancelling interaction positive62/72, >=1 logit56/72. These discovery outcomes were exposed.",
+  "qwen_scientific_outputs_seen": 0
+}

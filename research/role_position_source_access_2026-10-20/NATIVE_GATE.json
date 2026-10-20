@@ -1,0 +1,269 @@
+{
+  "passed": false,
+  "correct": 166,
+  "total": 288,
+  "strata": [
+    {
+      "family": "p01",
+      "form": "active",
+      "correct": 46,
+      "total": 48,
+      "passed": true
+    },
+    {
+      "family": "p01",
+      "form": "passive",
+      "correct": 36,
+      "total": 48,
+      "passed": false
+    },
+    {
+      "family": "p01",
+      "form": "goal_fronted",
+      "correct": 29,
+      "total": 48,
+      "passed": false
+    },
+    {
+      "family": "p02",
+      "form": "active",
+      "correct": 19,
+      "total": 48,
+      "passed": false
+    },
+    {
+      "family": "p02",
+      "form": "passive",
+      "correct": 16,
+      "total": 48,
+      "passed": false
+    },
+    {
+      "family": "p02",
+      "form": "goal_fronted",
+      "correct": 20,
+      "total": 48,
+      "passed": false
+    }
+  ],
+  "cells": [
+    {
+      "family": "p01",
+      "form": "active",
+      "role_index": 0,
+      "eligible": 4,
+      "total": 4,
+      "passed": true
+    },
+    {
+      "family": "p01",
+      "form": "active",
+      "role_index": 1,
+      "eligible": 4,
+      "total": 4,
+      "passed": true
+    },
+    {
+      "family": "p01",
+      "form": "active",
+      "role_index": 2,
+      "eligible": 4,
+      "total": 4,
+      "passed": true
+    },
+    {
+      "family": "p01",
+      "form": "passive",
+      "role_index": 0,
+      "eligible": 4,
+      "total": 4,
+      "passed": true
+    },
+    {
+      "family": "p01",
+      "form": "passive",
+      "role_index": 1,
+      "eligible": 1,
+      "total": 4,
+      "passed": false
+    },
+    {
+      "family": "p01",
+      "form": "passive",
+      "role_index": 2,
+      "eligible": 3,
+      "total": 4,
+      "passed": true
+    },
+    {
+      "family": "p01",
+      "form": "goal_fronted",
+      "role_index": 0,
+      "eligible": 4,
+      "total": 4,
+      "passed": true
+    },
+    {
+      "family": "p01",
+      "form": "goal_fronted",
+      "role_index": 1,
+      "eligible": 1,
+      "total": 4,
+      "passed": false
+    },
+    {
+      "family": "p01",
+      "form": "goal_fronted",
+      "role_index": 2,
+      "eligible": 1,
+      "total": 4,
+      "passed": false
+    },
+    {
+      "family": "p02",
+      "form": "active",
+      "role_index": 0,
+      "eligible": 4,
+      "total": 4,
+      "passed": true
+    },
+    {
+      "family": "p02",
+      "form": "active",
+      "role_index": 1,
+      "eligible": 0,
+      "total": 4,
+      "passed": false
+    },
+    {
+      "family": "p02",
+      "form": "active",
+      "role_index": 2,
+      "eligible": 0,
+      "total": 4,
+      "passed": false
+    },
+    {
+      "family": "p02",
+      "form": "passive",
+      "role_index": 0,
+      "eligible": 4,
+      "total": 4,
+      "passed": true
+    },
+    {
+      "family": "p02",
+      "form": "passive",
+      "role_index": 1,
+      "eligible": 0,
+      "total": 4,
+      "passed": false
+    },
+    {
+      "family": "p02",
+      "form": "passive",
+      "role_index": 2,
+      "eligible": 0,
+      "total": 4,
+      "passed": false
+    },
+    {
+      "family": "p02",
+      "form": "goal_fronted",
+      "role_index": 0,
+      "eligible": 4,
+      "total": 4,
+      "passed": true
+    },
+    {
+      "family": "p02",
+      "form": "goal_fronted",
+      "role_index": 1,
+      "eligible": 0,
+      "total": 4,
+      "passed": false
+    },
+    {
+      "family": "p02",
+      "form": "goal_fronted",
+      "role_index": 2,
+      "eligible": 0,
+      "total": 4,
+      "passed": false
+    }
+  ],
+  "eligibility": {
+    "p01_r0_active_role0": true,
+    "p01_r0_active_role1": true,
+    "p01_r0_active_role2": true,
+    "p01_r0_passive_role0": true,
+    "p01_r0_passive_role1": true,
+    "p01_r0_passive_role2": true,
+    "p01_r0_goal_fronted_role0": true,
+    "p01_r0_goal_fronted_role1": true,
+    "p01_r0_goal_fronted_role2": true,
+    "p01_r1_active_role0": true,
+    "p01_r1_active_role1": true,
+    "p01_r1_active_role2": true,
+    "p01_r1_passive_role0": true,
+    "p01_r1_passive_role1": false,
+    "p01_r1_passive_role2": false,
+    "p01_r1_goal_fronted_role0": true,
+    "p01_r1_goal_fronted_role1": false,
+    "p01_r1_goal_fronted_role2": false,
+    "p01_r2_active_role0": true,
+    "p01_r2_active_role1": true,
+    "p01_r2_active_role2": true,
+    "p01_r2_passive_role0": true,
+    "p01_r2_passive_role1": false,
+    "p01_r2_passive_role2": true,
+    "p01_r2_goal_fronted_role0": true,
+    "p01_r2_goal_fronted_role1": false,
+    "p01_r2_goal_fronted_role2": false,
+    "p01_r3_active_role0": true,
+    "p01_r3_active_role1": true,
+    "p01_r3_active_role2": true,
+    "p01_r3_passive_role0": true,
+    "p01_r3_passive_role1": false,
+    "p01_r3_passive_role2": true,
+    "p01_r3_goal_fronted_role0": true,
+    "p01_r3_goal_fronted_role1": false,
+    "p01_r3_goal_fronted_role2": false,
+    "p02_r0_active_role0": true,
+    "p02_r0_active_role1": false,
+    "p02_r0_active_role2": false,
+    "p02_r0_passive_role0": true,
+    "p02_r0_passive_role1": false,
+    "p02_r0_passive_role2": false,
+    "p02_r0_goal_fronted_role0": true,
+    "p02_r0_goal_fronted_role1": false,
+    "p02_r0_goal_fronted_role2": false,
+    "p02_r1_active_role0": true,
+    "p02_r1_active_role1": false,
+    "p02_r1_active_role2": false,
+    "p02_r1_passive_role0": true,
+    "p02_r1_passive_role1": false,
+    "p02_r1_passive_role2": false,
+    "p02_r1_goal_fronted_role0": true,
+    "p02_r1_goal_fronted_role1": false,
+    "p02_r1_goal_fronted_role2": false,
+    "p02_r2_active_role0": true,
+    "p02_r2_active_role1": false,
+    "p02_r2_active_role2": false,
+    "p02_r2_passive_role0": true,
+    "p02_r2_passive_role1": false,
+    "p02_r2_passive_role2": false,
+    "p02_r2_goal_fronted_role0": true,
+    "p02_r2_goal_fronted_role1": false,
+    "p02_r2_goal_fronted_role2": false,
+    "p02_r3_active_role0": true,
+    "p02_r3_active_role1": false,
+    "p02_r3_active_role2": false,
+    "p02_r3_passive_role0": true,
+    "p02_r3_passive_role1": false,
+    "p02_r3_passive_role2": false,
+    "p02_r3_goal_fronted_role0": true,
+    "p02_r3_goal_fronted_role1": false,
+    "p02_r3_goal_fronted_role2": false
+  }
+}

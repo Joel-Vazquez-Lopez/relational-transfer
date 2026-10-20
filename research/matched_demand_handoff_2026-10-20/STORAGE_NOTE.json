@@ -1,0 +1,24 @@
+{
+  "folder": "matched_demand_handoff_2026-10-20",
+  "expanded_duplicates_removed": 189,
+  "reclaimed_bytes": 281878123,
+  "canonical_local_archives": [
+    "RAW_MEMBERS_001.tar",
+    "RAW_MEMBERS_002.tar",
+    "RAW_MEMBERS_003.tar",
+    "RAW_MEMBERS_004.tar",
+    "RAW_MEMBERS_005.tar",
+    "RAW_MEMBERS_006.tar",
+    "RAW_MEMBERS_007.tar",
+    "RAW_MEMBERS_008.tar",
+    "RAW_MEMBERS_009.tar",
+    "RAW_MEMBERS_010.tar",
+    "RAW_MEMBERS_011.tar",
+    "RAW_MEMBERS_012.tar",
+    "RAW_MEMBERS_013.tar",
+    "RAW_MEMBERS_014.tar",
+    "RAW_MEMBERS_015.tar"
+  ],
+  "verification": "Every original reconstructed byte-for-byte from retained local tar shards before removal. All archives were previously verified on GitHub. No unique raw data, model, script, source or report removed.",
+  "restore": "python3 research/matched_demand_handoff_2026-10-20/restore_payloads.py --destination research/matched_demand_handoff_2026-10-20"
+}

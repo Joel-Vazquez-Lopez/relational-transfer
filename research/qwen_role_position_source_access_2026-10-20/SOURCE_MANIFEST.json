@@ -1,0 +1,28 @@
+{
+  "annotation": "AI-only authored, independently regex-parsed; all arguments are people and task roles are sender/sent-person/destination. No human or corpus validation.",
+  "families": [
+    "p01",
+    "p02"
+  ],
+  "native_prompts": 360,
+  "primary_native_prompts": 288,
+  "sham_native_prompts": 72,
+  "role_isolated_edges": 72,
+  "held_out_prediction_rule": "Other lexical quartet, other two constructions; six fixed folds",
+  "names_balanced": "Each cyclic rotation places every name in each grammatical role and distractor status. Ordered pairs are not exhaustive.",
+  "question_paraphrase_scope": "One wording set per quartet; joint lexical/paraphrase transfer, not separately identifiable factors.",
+  "old_evaluation_families_not_used": [
+    "t03",
+    "t04"
+  ],
+  "previous_stopped_study_commit": "012658caccf8252383a528b126b75d586416a28c",
+  "model_escalation_after": "a608f7989a731d38b3474a3a6e5dafbf31a152a6 Llama native gate failed166/288; no causal responses",
+  "model_choice_adaptive": true,
+  "discovery_interaction_source": {
+    "path": "research/role_position_source_access_2026-10-20/EXPLORATORY_INTERACTIONS.json",
+    "sha256": "4a722aff7e905b93baec355267f8852d0a5b79210a2f733567e0364330583e80",
+    "prospective": false
+  },
+  "estimand": "Bias-cancelling multi-query role-response interaction; native correctness separately reported",
+  "new_qwen_scientific_outputs_seen": 0
+}
