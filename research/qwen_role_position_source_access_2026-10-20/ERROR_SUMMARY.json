@@ -1,0 +1,464 @@
+{
+  "scope": "Descriptive complete-primary error accounting, not a new hypothesis test",
+  "errors": 49,
+  "confusions": [
+    {
+      "requested_role": "destination_person",
+      "returned_role": "sent_person",
+      "count": 44
+    },
+    {
+      "requested_role": "sent_person",
+      "returned_role": "sender",
+      "count": 4
+    },
+    {
+      "requested_role": "destination_person",
+      "returned_role": "sender",
+      "count": 1
+    }
+  ],
+  "all_failures": [
+    {
+      "id": "p01_r0_active_base_q2",
+      "source": "Grace sent Helen to Jack. Kate waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Jack",
+      "actual": "Helen",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r0_active_swap0_q2",
+      "source": "Kate sent Helen to Jack. Grace waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Jack",
+      "actual": "Helen",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r0_active_swap1_q2",
+      "source": "Grace sent Kate to Jack. Helen waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Jack",
+      "actual": "Kate",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r0_active_swap2_q2",
+      "source": "Grace sent Helen to Kate. Jack waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Kate",
+      "actual": "Helen",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r0_goal_fronted_base_q2",
+      "source": "To Jack, Grace sent Helen. Kate waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Jack",
+      "actual": "Helen",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r0_goal_fronted_swap0_q2",
+      "source": "To Jack, Kate sent Helen. Grace waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Jack",
+      "actual": "Helen",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r0_goal_fronted_swap1_q2",
+      "source": "To Jack, Grace sent Kate. Helen waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Jack",
+      "actual": "Kate",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r1_active_base_q2",
+      "source": "Helen sent Jack to Kate. Grace waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Kate",
+      "actual": "Jack",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r1_active_swap0_q2",
+      "source": "Grace sent Jack to Kate. Helen waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Kate",
+      "actual": "Jack",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r1_active_swap1_q2",
+      "source": "Helen sent Grace to Kate. Jack waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Kate",
+      "actual": "Grace",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r1_active_swap2_q2",
+      "source": "Helen sent Jack to Grace. Kate waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Grace",
+      "actual": "Jack",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r2_active_base_q2",
+      "source": "Jack sent Kate to Grace. Helen waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Grace",
+      "actual": "Kate",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r2_active_swap0_q2",
+      "source": "Helen sent Kate to Grace. Jack waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Grace",
+      "actual": "Kate",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r2_active_swap1_q2",
+      "source": "Jack sent Helen to Grace. Kate waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Grace",
+      "actual": "Helen",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r2_active_swap2_q2",
+      "source": "Jack sent Kate to Helen. Grace waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Helen",
+      "actual": "Kate",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r3_active_base_q2",
+      "source": "Kate sent Grace to Helen. Jack waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Helen",
+      "actual": "Grace",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r3_active_swap0_q2",
+      "source": "Jack sent Grace to Helen. Kate waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Helen",
+      "actual": "Grace",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r3_active_swap1_q2",
+      "source": "Kate sent Jack to Helen. Grace waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Helen",
+      "actual": "Jack",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r3_active_swap2_q2",
+      "source": "Kate sent Grace to Jack. Helen waited nearby.",
+      "question": "Who was someone sent to?",
+      "gold": "Jack",
+      "actual": "Grace",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p01_r3_goal_fronted_swap0_q1",
+      "source": "To Helen, Jack sent Grace. Kate waited nearby.",
+      "question": "Who was sent to another person?",
+      "gold": "Grace",
+      "actual": "Jack",
+      "requested_role": "sent_person",
+      "returned_role": "sender"
+    },
+    {
+      "id": "p01_r3_goal_fronted_swap1_q1",
+      "source": "To Helen, Kate sent Jack. Grace waited nearby.",
+      "question": "Who was sent to another person?",
+      "gold": "Jack",
+      "actual": "Kate",
+      "requested_role": "sent_person",
+      "returned_role": "sender"
+    },
+    {
+      "id": "p02_r0_active_base_q2",
+      "source": "Nora sent Luke to Paul. Mark waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Paul",
+      "actual": "Luke",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r0_active_swap0_q2",
+      "source": "Mark sent Luke to Paul. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Paul",
+      "actual": "Luke",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r0_active_swap1_q2",
+      "source": "Nora sent Mark to Paul. Luke waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Paul",
+      "actual": "Mark",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r0_active_swap2_q2",
+      "source": "Nora sent Luke to Mark. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Mark",
+      "actual": "Luke",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r0_passive_base_q2",
+      "source": "Luke was sent to Paul by Nora. Mark waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Paul",
+      "actual": "Luke",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r0_passive_swap0_q2",
+      "source": "Luke was sent to Paul by Mark. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Paul",
+      "actual": "Luke",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r0_passive_swap1_q2",
+      "source": "Mark was sent to Paul by Nora. Luke waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Paul",
+      "actual": "Mark",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r0_passive_swap2_q2",
+      "source": "Luke was sent to Mark by Nora. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Mark",
+      "actual": "Luke",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r0_goal_fronted_swap0_q2",
+      "source": "To Paul, Mark sent Luke. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Paul",
+      "actual": "Mark",
+      "requested_role": "destination_person",
+      "returned_role": "sender"
+    },
+    {
+      "id": "p02_r1_active_base_q2",
+      "source": "Luke sent Paul to Mark. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Mark",
+      "actual": "Paul",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r1_active_swap0_q2",
+      "source": "Nora sent Paul to Mark. Luke waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Mark",
+      "actual": "Paul",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r1_active_swap1_q2",
+      "source": "Luke sent Nora to Mark. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Mark",
+      "actual": "Nora",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r1_active_swap2_q2",
+      "source": "Luke sent Paul to Nora. Mark waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Nora",
+      "actual": "Paul",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r1_passive_swap1_q2",
+      "source": "Nora was sent to Mark by Luke. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Mark",
+      "actual": "Nora",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r1_goal_fronted_swap1_q1",
+      "source": "To Mark, Luke sent Nora. Paul waited nearby.",
+      "question": "Which person was sent by someone?",
+      "gold": "Nora",
+      "actual": "Luke",
+      "requested_role": "sent_person",
+      "returned_role": "sender"
+    },
+    {
+      "id": "p02_r1_goal_fronted_swap2_q1",
+      "source": "To Nora, Luke sent Paul. Mark waited nearby.",
+      "question": "Which person was sent by someone?",
+      "gold": "Paul",
+      "actual": "Luke",
+      "requested_role": "sent_person",
+      "returned_role": "sender"
+    },
+    {
+      "id": "p02_r2_active_swap0_q2",
+      "source": "Luke sent Mark to Nora. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Nora",
+      "actual": "Mark",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r2_active_swap2_q2",
+      "source": "Paul sent Mark to Luke. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Luke",
+      "actual": "Mark",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r2_passive_swap0_q2",
+      "source": "Mark was sent to Nora by Luke. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Nora",
+      "actual": "Mark",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r2_passive_swap2_q2",
+      "source": "Mark was sent to Luke by Paul. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Luke",
+      "actual": "Mark",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r3_active_base_q2",
+      "source": "Mark sent Nora to Luke. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Luke",
+      "actual": "Nora",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r3_active_swap0_q2",
+      "source": "Paul sent Nora to Luke. Mark waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Luke",
+      "actual": "Nora",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r3_active_swap1_q2",
+      "source": "Mark sent Paul to Luke. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Luke",
+      "actual": "Paul",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r3_active_swap2_q2",
+      "source": "Mark sent Nora to Paul. Luke waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Paul",
+      "actual": "Nora",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r3_passive_base_q2",
+      "source": "Nora was sent to Luke by Mark. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Luke",
+      "actual": "Nora",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r3_passive_swap0_q2",
+      "source": "Nora was sent to Luke by Paul. Mark waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Luke",
+      "actual": "Nora",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r3_passive_swap1_q2",
+      "source": "Paul was sent to Luke by Mark. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Luke",
+      "actual": "Paul",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    },
+    {
+      "id": "p02_r3_passive_swap2_q2",
+      "source": "Nora was sent to Paul by Mark. Luke waited nearby.",
+      "question": "To which person was someone sent?",
+      "gold": "Paul",
+      "actual": "Nora",
+      "requested_role": "destination_person",
+      "returned_role": "sent_person"
+    }
+  ]
+}

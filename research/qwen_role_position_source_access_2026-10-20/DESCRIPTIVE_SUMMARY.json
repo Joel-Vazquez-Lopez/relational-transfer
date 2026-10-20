@@ -1,0 +1,43 @@
+{
+  "conditional_population": "Native-only eligibility; no new filtering or significance tests",
+  "cut_summaries": [
+    {
+      "cut": 7,
+      "eligible": 71,
+      "mean": 0.9960980641816766,
+      "median": 0.9969304976978732,
+      "minimum": 0.9475119291070211,
+      "maximum": 1.010738255033557
+    },
+    {
+      "cut": 14,
+      "eligible": 71,
+      "mean": 0.9710296962996869,
+      "median": 0.9927142857142857,
+      "minimum": 0.6225857759600091,
+      "maximum": 1.048255919031267
+    },
+    {
+      "cut": 21,
+      "eligible": 71,
+      "mean": 0.6131803320056173,
+      "median": 0.9378271866360802,
+      "minimum": -8.092251760963418,
+      "maximum": 1.1155477031802121
+    }
+  ],
+  "complete_native_edges": 32,
+  "coherent_hybrids_all": {
+    "correct": 69,
+    "total": 144
+  },
+  "coherent_hybrids_on_native_complete_edges": {
+    "correct": 59,
+    "total": 64
+  },
+  "secondary_next_token_measurements": 864,
+  "secondary_outside_name_candidates": [],
+  "one_excluded_edge": [
+    "p02_r3_goal_fronted_role0"
+  ]
+}

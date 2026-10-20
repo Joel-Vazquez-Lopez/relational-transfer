@@ -1,0 +1,1297 @@
+unit,family,rotation,form,target_role,position,query_index,changed,cut,hybrid,measurement,gold_a,gold_b,first_token,generated_text,terminated,actual,base_call
+p01_r0_active_role0,p01,0,active,0,0,0,True,7,BA,next_token_only,Grace,Kate,29201,,,,934
+p01_r0_active_role0,p01,0,active,0,0,0,True,7,AB,next_token_only,Grace,Kate,31071,,,,935
+p01_r0_active_role0,p01,0,active,0,0,1,False,7,BA,next_token_only,Helen,Helen,42781,,,,936
+p01_r0_active_role0,p01,0,active,0,0,1,False,7,AB,next_token_only,Helen,Helen,42781,,,,937
+p01_r0_active_role0,p01,0,active,0,0,2,False,7,BA,next_token_only,Jack,Jack,42781,,,,938
+p01_r0_active_role0,p01,0,active,0,0,2,False,7,AB,next_token_only,Jack,Jack,42781,,,,939
+p01_r0_active_role1,p01,0,active,1,1,0,False,7,BA,next_token_only,Grace,Grace,31071,,,,940
+p01_r0_active_role1,p01,0,active,1,1,0,False,7,AB,next_token_only,Grace,Grace,31071,,,,941
+p01_r0_active_role1,p01,0,active,1,1,1,True,7,BA,next_token_only,Helen,Kate,29201,,,,942
+p01_r0_active_role1,p01,0,active,1,1,1,True,7,AB,next_token_only,Helen,Kate,42781,,,,943
+p01_r0_active_role1,p01,0,active,1,1,2,False,7,BA,next_token_only,Jack,Jack,29201,,,,944
+p01_r0_active_role1,p01,0,active,1,1,2,False,7,AB,next_token_only,Jack,Jack,42781,,,,945
+p01_r0_active_role2,p01,0,active,2,2,0,False,7,BA,next_token_only,Grace,Grace,31071,,,,946
+p01_r0_active_role2,p01,0,active,2,2,0,False,7,AB,next_token_only,Grace,Grace,31071,,,,947
+p01_r0_active_role2,p01,0,active,2,2,1,False,7,BA,next_token_only,Helen,Helen,42781,,,,948
+p01_r0_active_role2,p01,0,active,2,2,1,False,7,AB,next_token_only,Helen,Helen,42781,,,,949
+p01_r0_active_role2,p01,0,active,2,2,2,True,7,BA,next_token_only,Jack,Kate,42781,,,,950
+p01_r0_active_role2,p01,0,active,2,2,2,True,7,AB,next_token_only,Jack,Kate,42781,,,,951
+p01_r0_passive_role0,p01,0,passive,0,2,0,True,7,BA,next_token_only,Grace,Kate,29201,,,,952
+p01_r0_passive_role0,p01,0,passive,0,2,0,True,7,AB,next_token_only,Grace,Kate,31071,,,,953
+p01_r0_passive_role0,p01,0,passive,0,2,1,False,7,BA,next_token_only,Helen,Helen,42781,,,,954
+p01_r0_passive_role0,p01,0,passive,0,2,1,False,7,AB,next_token_only,Helen,Helen,42781,,,,955
+p01_r0_passive_role0,p01,0,passive,0,2,2,False,7,BA,next_token_only,Jack,Jack,7607,,,,956
+p01_r0_passive_role0,p01,0,passive,0,2,2,False,7,AB,next_token_only,Jack,Jack,7607,,,,957
+p01_r0_passive_role1,p01,0,passive,1,0,0,False,7,BA,next_token_only,Grace,Grace,31071,,,,958
+p01_r0_passive_role1,p01,0,passive,1,0,0,False,7,AB,next_token_only,Grace,Grace,31071,,,,959
+p01_r0_passive_role1,p01,0,passive,1,0,1,True,7,BA,next_token_only,Helen,Kate,29201,,,,960
+p01_r0_passive_role1,p01,0,passive,1,0,1,True,7,AB,next_token_only,Helen,Kate,42781,,,,962
+p01_r0_passive_role1,p01,0,passive,1,0,2,False,7,BA,next_token_only,Jack,Jack,7607,,,,963
+p01_r0_passive_role1,p01,0,passive,1,0,2,False,7,AB,next_token_only,Jack,Jack,7607,,,,964
+p01_r0_passive_role2,p01,0,passive,2,1,0,False,7,BA,next_token_only,Grace,Grace,31071,,,,965
+p01_r0_passive_role2,p01,0,passive,2,1,0,False,7,AB,next_token_only,Grace,Grace,31071,,,,966
+p01_r0_passive_role2,p01,0,passive,2,1,1,False,7,BA,next_token_only,Helen,Helen,42781,,,,967
+p01_r0_passive_role2,p01,0,passive,2,1,1,False,7,AB,next_token_only,Helen,Helen,42781,,,,968
+p01_r0_passive_role2,p01,0,passive,2,1,2,True,7,BA,next_token_only,Jack,Kate,29201,,,,969
+p01_r0_passive_role2,p01,0,passive,2,1,2,True,7,AB,next_token_only,Jack,Kate,7607,,,,970
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,0,True,7,BA,next_token_only,Grace,Kate,29201,,,,971
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,0,True,7,AB,next_token_only,Grace,Kate,31071,,,,972
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,1,False,7,BA,next_token_only,Helen,Helen,42781,,,,973
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,1,False,7,AB,next_token_only,Helen,Helen,42781,,,,974
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,2,False,7,BA,next_token_only,Jack,Jack,7607,,,,975
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,2,False,7,AB,next_token_only,Jack,Jack,42781,,,,976
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,0,False,7,BA,next_token_only,Grace,Grace,31071,,,,977
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,0,False,7,AB,next_token_only,Grace,Grace,31071,,,,978
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,1,True,7,BA,next_token_only,Helen,Kate,29201,,,,979
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,1,True,7,AB,next_token_only,Helen,Kate,42781,,,,980
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,2,False,7,BA,next_token_only,Jack,Jack,29201,,,,981
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,2,False,7,AB,next_token_only,Jack,Jack,42781,,,,982
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,0,False,7,BA,next_token_only,Grace,Grace,31071,,,,983
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,0,False,7,AB,next_token_only,Grace,Grace,31071,,,,984
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,1,False,7,BA,next_token_only,Helen,Helen,42781,,,,985
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,1,False,7,AB,next_token_only,Helen,Helen,42781,,,,986
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,2,True,7,BA,next_token_only,Jack,Kate,29201,,,,987
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,2,True,7,AB,next_token_only,Jack,Kate,42781,,,,988
+p01_r1_active_role0,p01,1,active,0,0,0,True,7,BA,next_token_only,Helen,Grace,31071,,,,989
+p01_r1_active_role0,p01,1,active,0,0,0,True,7,AB,next_token_only,Helen,Grace,42781,,,,990
+p01_r1_active_role0,p01,1,active,0,0,1,False,7,BA,next_token_only,Jack,Jack,7607,,,,991
+p01_r1_active_role0,p01,1,active,0,0,1,False,7,AB,next_token_only,Jack,Jack,7607,,,,992
+p01_r1_active_role0,p01,1,active,0,0,2,False,7,BA,next_token_only,Kate,Kate,7607,,,,994
+p01_r1_active_role0,p01,1,active,0,0,2,False,7,AB,next_token_only,Kate,Kate,7607,,,,995
+p01_r1_active_role1,p01,1,active,1,1,0,False,7,BA,next_token_only,Helen,Helen,42781,,,,996
+p01_r1_active_role1,p01,1,active,1,1,0,False,7,AB,next_token_only,Helen,Helen,42781,,,,997
+p01_r1_active_role1,p01,1,active,1,1,1,True,7,BA,next_token_only,Jack,Grace,31071,,,,998
+p01_r1_active_role1,p01,1,active,1,1,1,True,7,AB,next_token_only,Jack,Grace,7607,,,,999
+p01_r1_active_role1,p01,1,active,1,1,2,False,7,BA,next_token_only,Kate,Kate,31071,,,,1000
+p01_r1_active_role1,p01,1,active,1,1,2,False,7,AB,next_token_only,Kate,Kate,7607,,,,1001
+p01_r1_active_role2,p01,1,active,2,2,0,False,7,BA,next_token_only,Helen,Helen,42781,,,,1002
+p01_r1_active_role2,p01,1,active,2,2,0,False,7,AB,next_token_only,Helen,Helen,42781,,,,1003
+p01_r1_active_role2,p01,1,active,2,2,1,False,7,BA,next_token_only,Jack,Jack,7607,,,,1004
+p01_r1_active_role2,p01,1,active,2,2,1,False,7,AB,next_token_only,Jack,Jack,7607,,,,1005
+p01_r1_active_role2,p01,1,active,2,2,2,True,7,BA,next_token_only,Kate,Grace,7607,,,,1006
+p01_r1_active_role2,p01,1,active,2,2,2,True,7,AB,next_token_only,Kate,Grace,7607,,,,1007
+p01_r1_passive_role0,p01,1,passive,0,2,0,True,7,BA,next_token_only,Helen,Grace,31071,,,,1008
+p01_r1_passive_role0,p01,1,passive,0,2,0,True,7,AB,next_token_only,Helen,Grace,42781,,,,1009
+p01_r1_passive_role0,p01,1,passive,0,2,1,False,7,BA,next_token_only,Jack,Jack,7607,,,,1010
+p01_r1_passive_role0,p01,1,passive,0,2,1,False,7,AB,next_token_only,Jack,Jack,7607,,,,1011
+p01_r1_passive_role0,p01,1,passive,0,2,2,False,7,BA,next_token_only,Kate,Kate,29201,,,,1012
+p01_r1_passive_role0,p01,1,passive,0,2,2,False,7,AB,next_token_only,Kate,Kate,29201,,,,1013
+p01_r1_passive_role1,p01,1,passive,1,0,0,False,7,BA,next_token_only,Helen,Helen,42781,,,,1014
+p01_r1_passive_role1,p01,1,passive,1,0,0,False,7,AB,next_token_only,Helen,Helen,42781,,,,1015
+p01_r1_passive_role1,p01,1,passive,1,0,1,True,7,BA,next_token_only,Jack,Grace,31071,,,,1016
+p01_r1_passive_role1,p01,1,passive,1,0,1,True,7,AB,next_token_only,Jack,Grace,7607,,,,1017
+p01_r1_passive_role1,p01,1,passive,1,0,2,False,7,BA,next_token_only,Kate,Kate,29201,,,,1018
+p01_r1_passive_role1,p01,1,passive,1,0,2,False,7,AB,next_token_only,Kate,Kate,29201,,,,1019
+p01_r1_passive_role2,p01,1,passive,2,1,0,False,7,BA,next_token_only,Helen,Helen,42781,,,,1020
+p01_r1_passive_role2,p01,1,passive,2,1,0,False,7,AB,next_token_only,Helen,Helen,42781,,,,1021
+p01_r1_passive_role2,p01,1,passive,2,1,1,False,7,BA,next_token_only,Jack,Jack,7607,,,,1022
+p01_r1_passive_role2,p01,1,passive,2,1,1,False,7,AB,next_token_only,Jack,Jack,7607,,,,1023
+p01_r1_passive_role2,p01,1,passive,2,1,2,True,7,BA,next_token_only,Kate,Grace,31071,,,,1024
+p01_r1_passive_role2,p01,1,passive,2,1,2,True,7,AB,next_token_only,Kate,Grace,29201,,,,1026
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,0,True,7,BA,next_token_only,Helen,Grace,31071,,,,1027
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,0,True,7,AB,next_token_only,Helen,Grace,42781,,,,1028
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,1,False,7,BA,next_token_only,Jack,Jack,7607,,,,1029
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,1,False,7,AB,next_token_only,Jack,Jack,7607,,,,1030
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,2,False,7,BA,next_token_only,Kate,Kate,29201,,,,1031
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,2,False,7,AB,next_token_only,Kate,Kate,29201,,,,1032
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,0,False,7,BA,next_token_only,Helen,Helen,42781,,,,1033
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,0,False,7,AB,next_token_only,Helen,Helen,42781,,,,1034
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,1,True,7,BA,next_token_only,Jack,Grace,31071,,,,1035
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,1,True,7,AB,next_token_only,Jack,Grace,7607,,,,1036
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,2,False,7,BA,next_token_only,Kate,Kate,29201,,,,1037
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,2,False,7,AB,next_token_only,Kate,Kate,29201,,,,1038
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,0,False,7,BA,next_token_only,Helen,Helen,42781,,,,1039
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,0,False,7,AB,next_token_only,Helen,Helen,42781,,,,1040
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,1,False,7,BA,next_token_only,Jack,Jack,7607,,,,1041
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,1,False,7,AB,next_token_only,Jack,Jack,7607,,,,1042
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,2,True,7,BA,next_token_only,Kate,Grace,31071,,,,1043
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,2,True,7,AB,next_token_only,Kate,Grace,29201,,,,1044
+p01_r2_active_role0,p01,2,active,0,0,0,True,7,BA,next_token_only,Jack,Helen,42781,,,,1045
+p01_r2_active_role0,p01,2,active,0,0,0,True,7,AB,next_token_only,Jack,Helen,7607,,,,1046
+p01_r2_active_role0,p01,2,active,0,0,1,False,7,BA,next_token_only,Kate,Kate,29201,,,,1047
+p01_r2_active_role0,p01,2,active,0,0,1,False,7,AB,next_token_only,Kate,Kate,29201,,,,1048
+p01_r2_active_role0,p01,2,active,0,0,2,False,7,BA,next_token_only,Grace,Grace,29201,,,,1049
+p01_r2_active_role0,p01,2,active,0,0,2,False,7,AB,next_token_only,Grace,Grace,29201,,,,1050
+p01_r2_active_role1,p01,2,active,1,1,0,False,7,BA,next_token_only,Jack,Jack,7607,,,,1051
+p01_r2_active_role1,p01,2,active,1,1,0,False,7,AB,next_token_only,Jack,Jack,7607,,,,1052
+p01_r2_active_role1,p01,2,active,1,1,1,True,7,BA,next_token_only,Kate,Helen,42781,,,,1053
+p01_r2_active_role1,p01,2,active,1,1,1,True,7,AB,next_token_only,Kate,Helen,29201,,,,1054
+p01_r2_active_role1,p01,2,active,1,1,2,False,7,BA,next_token_only,Grace,Grace,42781,,,,1055
+p01_r2_active_role1,p01,2,active,1,1,2,False,7,AB,next_token_only,Grace,Grace,29201,,,,1056
+p01_r2_active_role2,p01,2,active,2,2,0,False,7,BA,next_token_only,Jack,Jack,7607,,,,1058
+p01_r2_active_role2,p01,2,active,2,2,0,False,7,AB,next_token_only,Jack,Jack,7607,,,,1059
+p01_r2_active_role2,p01,2,active,2,2,1,False,7,BA,next_token_only,Kate,Kate,29201,,,,1060
+p01_r2_active_role2,p01,2,active,2,2,1,False,7,AB,next_token_only,Kate,Kate,29201,,,,1061
+p01_r2_active_role2,p01,2,active,2,2,2,True,7,BA,next_token_only,Grace,Helen,29201,,,,1062
+p01_r2_active_role2,p01,2,active,2,2,2,True,7,AB,next_token_only,Grace,Helen,29201,,,,1063
+p01_r2_passive_role0,p01,2,passive,0,2,0,True,7,BA,next_token_only,Jack,Helen,42781,,,,1064
+p01_r2_passive_role0,p01,2,passive,0,2,0,True,7,AB,next_token_only,Jack,Helen,7607,,,,1065
+p01_r2_passive_role0,p01,2,passive,0,2,1,False,7,BA,next_token_only,Kate,Kate,29201,,,,1066
+p01_r2_passive_role0,p01,2,passive,0,2,1,False,7,AB,next_token_only,Kate,Kate,29201,,,,1067
+p01_r2_passive_role0,p01,2,passive,0,2,2,False,7,BA,next_token_only,Grace,Grace,31071,,,,1068
+p01_r2_passive_role0,p01,2,passive,0,2,2,False,7,AB,next_token_only,Grace,Grace,31071,,,,1069
+p01_r2_passive_role1,p01,2,passive,1,0,0,False,7,BA,next_token_only,Jack,Jack,7607,,,,1070
+p01_r2_passive_role1,p01,2,passive,1,0,0,False,7,AB,next_token_only,Jack,Jack,7607,,,,1071
+p01_r2_passive_role1,p01,2,passive,1,0,1,True,7,BA,next_token_only,Kate,Helen,42781,,,,1072
+p01_r2_passive_role1,p01,2,passive,1,0,1,True,7,AB,next_token_only,Kate,Helen,29201,,,,1073
+p01_r2_passive_role1,p01,2,passive,1,0,2,False,7,BA,next_token_only,Grace,Grace,31071,,,,1074
+p01_r2_passive_role1,p01,2,passive,1,0,2,False,7,AB,next_token_only,Grace,Grace,31071,,,,1075
+p01_r2_passive_role2,p01,2,passive,2,1,0,False,7,BA,next_token_only,Jack,Jack,7607,,,,1076
+p01_r2_passive_role2,p01,2,passive,2,1,0,False,7,AB,next_token_only,Jack,Jack,7607,,,,1077
+p01_r2_passive_role2,p01,2,passive,2,1,1,False,7,BA,next_token_only,Kate,Kate,29201,,,,1078
+p01_r2_passive_role2,p01,2,passive,2,1,1,False,7,AB,next_token_only,Kate,Kate,29201,,,,1079
+p01_r2_passive_role2,p01,2,passive,2,1,2,True,7,BA,next_token_only,Grace,Helen,42781,,,,1080
+p01_r2_passive_role2,p01,2,passive,2,1,2,True,7,AB,next_token_only,Grace,Helen,31071,,,,1081
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,0,True,7,BA,next_token_only,Jack,Helen,42781,,,,1082
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,0,True,7,AB,next_token_only,Jack,Helen,7607,,,,1083
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,1,False,7,BA,next_token_only,Kate,Kate,29201,,,,1084
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,1,False,7,AB,next_token_only,Kate,Kate,29201,,,,1085
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,2,False,7,BA,next_token_only,Grace,Grace,31071,,,,1086
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,2,False,7,AB,next_token_only,Grace,Grace,31071,,,,1087
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,0,False,7,BA,next_token_only,Jack,Jack,7607,,,,1088
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,0,False,7,AB,next_token_only,Jack,Jack,7607,,,,1090
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,1,True,7,BA,next_token_only,Kate,Helen,42781,,,,1091
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,1,True,7,AB,next_token_only,Kate,Helen,29201,,,,1092
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,2,False,7,BA,next_token_only,Grace,Grace,31071,,,,1093
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,2,False,7,AB,next_token_only,Grace,Grace,31071,,,,1094
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,0,False,7,BA,next_token_only,Jack,Jack,7607,,,,1095
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,0,False,7,AB,next_token_only,Jack,Jack,7607,,,,1096
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,1,False,7,BA,next_token_only,Kate,Kate,29201,,,,1097
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,1,False,7,AB,next_token_only,Kate,Kate,29201,,,,1098
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,2,True,7,BA,next_token_only,Grace,Helen,42781,,,,1099
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,2,True,7,AB,next_token_only,Grace,Helen,31071,,,,1100
+p01_r3_active_role0,p01,3,active,0,0,0,True,7,BA,next_token_only,Kate,Jack,7607,,,,1101
+p01_r3_active_role0,p01,3,active,0,0,0,True,7,AB,next_token_only,Kate,Jack,29201,,,,1102
+p01_r3_active_role0,p01,3,active,0,0,1,False,7,BA,next_token_only,Grace,Grace,31071,,,,1103
+p01_r3_active_role0,p01,3,active,0,0,1,False,7,AB,next_token_only,Grace,Grace,31071,,,,1104
+p01_r3_active_role0,p01,3,active,0,0,2,False,7,BA,next_token_only,Helen,Helen,31071,,,,1105
+p01_r3_active_role0,p01,3,active,0,0,2,False,7,AB,next_token_only,Helen,Helen,31071,,,,1106
+p01_r3_active_role1,p01,3,active,1,1,0,False,7,BA,next_token_only,Kate,Kate,29201,,,,1107
+p01_r3_active_role1,p01,3,active,1,1,0,False,7,AB,next_token_only,Kate,Kate,29201,,,,1108
+p01_r3_active_role1,p01,3,active,1,1,1,True,7,BA,next_token_only,Grace,Jack,7607,,,,1109
+p01_r3_active_role1,p01,3,active,1,1,1,True,7,AB,next_token_only,Grace,Jack,31071,,,,1110
+p01_r3_active_role1,p01,3,active,1,1,2,False,7,BA,next_token_only,Helen,Helen,7607,,,,1111
+p01_r3_active_role1,p01,3,active,1,1,2,False,7,AB,next_token_only,Helen,Helen,31071,,,,1112
+p01_r3_active_role2,p01,3,active,2,2,0,False,7,BA,next_token_only,Kate,Kate,29201,,,,1113
+p01_r3_active_role2,p01,3,active,2,2,0,False,7,AB,next_token_only,Kate,Kate,29201,,,,1114
+p01_r3_active_role2,p01,3,active,2,2,1,False,7,BA,next_token_only,Grace,Grace,31071,,,,1115
+p01_r3_active_role2,p01,3,active,2,2,1,False,7,AB,next_token_only,Grace,Grace,31071,,,,1116
+p01_r3_active_role2,p01,3,active,2,2,2,True,7,BA,next_token_only,Helen,Jack,31071,,,,1117
+p01_r3_active_role2,p01,3,active,2,2,2,True,7,AB,next_token_only,Helen,Jack,31071,,,,1118
+p01_r3_passive_role0,p01,3,passive,0,2,0,True,7,BA,next_token_only,Kate,Jack,7607,,,,1119
+p01_r3_passive_role0,p01,3,passive,0,2,0,True,7,AB,next_token_only,Kate,Jack,29201,,,,1120
+p01_r3_passive_role0,p01,3,passive,0,2,1,False,7,BA,next_token_only,Grace,Grace,31071,,,,1122
+p01_r3_passive_role0,p01,3,passive,0,2,1,False,7,AB,next_token_only,Grace,Grace,31071,,,,1123
+p01_r3_passive_role0,p01,3,passive,0,2,2,False,7,BA,next_token_only,Helen,Helen,42781,,,,1124
+p01_r3_passive_role0,p01,3,passive,0,2,2,False,7,AB,next_token_only,Helen,Helen,42781,,,,1125
+p01_r3_passive_role1,p01,3,passive,1,0,0,False,7,BA,next_token_only,Kate,Kate,29201,,,,1126
+p01_r3_passive_role1,p01,3,passive,1,0,0,False,7,AB,next_token_only,Kate,Kate,29201,,,,1127
+p01_r3_passive_role1,p01,3,passive,1,0,1,True,7,BA,next_token_only,Grace,Jack,7607,,,,1128
+p01_r3_passive_role1,p01,3,passive,1,0,1,True,7,AB,next_token_only,Grace,Jack,31071,,,,1129
+p01_r3_passive_role1,p01,3,passive,1,0,2,False,7,BA,next_token_only,Helen,Helen,42781,,,,1130
+p01_r3_passive_role1,p01,3,passive,1,0,2,False,7,AB,next_token_only,Helen,Helen,42781,,,,1131
+p01_r3_passive_role2,p01,3,passive,2,1,0,False,7,BA,next_token_only,Kate,Kate,29201,,,,1132
+p01_r3_passive_role2,p01,3,passive,2,1,0,False,7,AB,next_token_only,Kate,Kate,29201,,,,1133
+p01_r3_passive_role2,p01,3,passive,2,1,1,False,7,BA,next_token_only,Grace,Grace,31071,,,,1134
+p01_r3_passive_role2,p01,3,passive,2,1,1,False,7,AB,next_token_only,Grace,Grace,31071,,,,1135
+p01_r3_passive_role2,p01,3,passive,2,1,2,True,7,BA,next_token_only,Helen,Jack,7607,,,,1136
+p01_r3_passive_role2,p01,3,passive,2,1,2,True,7,AB,next_token_only,Helen,Jack,42781,,,,1137
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,0,True,7,BA,next_token_only,Kate,Jack,7607,,,,1138
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,0,True,7,AB,next_token_only,Kate,Jack,29201,,,,1139
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,1,False,7,BA,next_token_only,Grace,Grace,7607,,,,1140
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,1,False,7,AB,next_token_only,Grace,Grace,31071,,,,1141
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,2,False,7,BA,next_token_only,Helen,Helen,42781,,,,1142
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,2,False,7,AB,next_token_only,Helen,Helen,42781,,,,1143
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,0,False,7,BA,next_token_only,Kate,Kate,29201,,,,1144
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,0,False,7,AB,next_token_only,Kate,Kate,29201,,,,1145
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,1,True,7,BA,next_token_only,Grace,Jack,29201,,,,1146
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,1,True,7,AB,next_token_only,Grace,Jack,31071,,,,1147
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,2,False,7,BA,next_token_only,Helen,Helen,42781,,,,1148
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,2,False,7,AB,next_token_only,Helen,Helen,42781,,,,1149
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,0,False,7,BA,next_token_only,Kate,Kate,29201,,,,1150
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,0,False,7,AB,next_token_only,Kate,Kate,29201,,,,1151
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,1,False,7,BA,next_token_only,Grace,Grace,31071,,,,1152
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,1,False,7,AB,next_token_only,Grace,Grace,31071,,,,1154
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,2,True,7,BA,next_token_only,Helen,Jack,7607,,,,1155
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,2,True,7,AB,next_token_only,Helen,Jack,42781,,,,1156
+p02_r0_active_role0,p02,0,active,0,0,0,True,7,BA,next_token_only,Nora,Mark,4389,,,,1157
+p02_r0_active_role0,p02,0,active,0,0,0,True,7,AB,next_token_only,Nora,Mark,72545,,,,1158
+p02_r0_active_role0,p02,0,active,0,0,1,False,7,BA,next_token_only,Luke,Luke,24453,,,,1159
+p02_r0_active_role0,p02,0,active,0,0,1,False,7,AB,next_token_only,Luke,Luke,24453,,,,1160
+p02_r0_active_role0,p02,0,active,0,0,2,False,7,BA,next_token_only,Paul,Paul,24453,,,,1161
+p02_r0_active_role0,p02,0,active,0,0,2,False,7,AB,next_token_only,Paul,Paul,24453,,,,1162
+p02_r0_active_role1,p02,0,active,1,1,0,False,7,BA,next_token_only,Nora,Nora,72545,,,,1163
+p02_r0_active_role1,p02,0,active,1,1,0,False,7,AB,next_token_only,Nora,Nora,72545,,,,1164
+p02_r0_active_role1,p02,0,active,1,1,1,True,7,BA,next_token_only,Luke,Mark,4389,,,,1165
+p02_r0_active_role1,p02,0,active,1,1,1,True,7,AB,next_token_only,Luke,Mark,24453,,,,1166
+p02_r0_active_role1,p02,0,active,1,1,2,False,7,BA,next_token_only,Paul,Paul,4389,,,,1167
+p02_r0_active_role1,p02,0,active,1,1,2,False,7,AB,next_token_only,Paul,Paul,24453,,,,1168
+p02_r0_active_role2,p02,0,active,2,2,0,False,7,BA,next_token_only,Nora,Nora,72545,,,,1169
+p02_r0_active_role2,p02,0,active,2,2,0,False,7,AB,next_token_only,Nora,Nora,72545,,,,1170
+p02_r0_active_role2,p02,0,active,2,2,1,False,7,BA,next_token_only,Luke,Luke,24453,,,,1171
+p02_r0_active_role2,p02,0,active,2,2,1,False,7,AB,next_token_only,Luke,Luke,24453,,,,1172
+p02_r0_active_role2,p02,0,active,2,2,2,True,7,BA,next_token_only,Paul,Mark,24453,,,,1173
+p02_r0_active_role2,p02,0,active,2,2,2,True,7,AB,next_token_only,Paul,Mark,24453,,,,1174
+p02_r0_passive_role0,p02,0,passive,0,2,0,True,7,BA,next_token_only,Nora,Mark,4389,,,,1175
+p02_r0_passive_role0,p02,0,passive,0,2,0,True,7,AB,next_token_only,Nora,Mark,72545,,,,1176
+p02_r0_passive_role0,p02,0,passive,0,2,1,False,7,BA,next_token_only,Luke,Luke,24453,,,,1177
+p02_r0_passive_role0,p02,0,passive,0,2,1,False,7,AB,next_token_only,Luke,Luke,24453,,,,1178
+p02_r0_passive_role0,p02,0,passive,0,2,2,False,7,BA,next_token_only,Paul,Paul,24453,,,,1179
+p02_r0_passive_role0,p02,0,passive,0,2,2,False,7,AB,next_token_only,Paul,Paul,24453,,,,1180
+p02_r0_passive_role1,p02,0,passive,1,0,0,False,7,BA,next_token_only,Nora,Nora,72545,,,,1181
+p02_r0_passive_role1,p02,0,passive,1,0,0,False,7,AB,next_token_only,Nora,Nora,72545,,,,1182
+p02_r0_passive_role1,p02,0,passive,1,0,1,True,7,BA,next_token_only,Luke,Mark,4389,,,,1183
+p02_r0_passive_role1,p02,0,passive,1,0,1,True,7,AB,next_token_only,Luke,Mark,24453,,,,1184
+p02_r0_passive_role1,p02,0,passive,1,0,2,False,7,BA,next_token_only,Paul,Paul,4389,,,,1186
+p02_r0_passive_role1,p02,0,passive,1,0,2,False,7,AB,next_token_only,Paul,Paul,24453,,,,1187
+p02_r0_passive_role2,p02,0,passive,2,1,0,False,7,BA,next_token_only,Nora,Nora,72545,,,,1188
+p02_r0_passive_role2,p02,0,passive,2,1,0,False,7,AB,next_token_only,Nora,Nora,72545,,,,1189
+p02_r0_passive_role2,p02,0,passive,2,1,1,False,7,BA,next_token_only,Luke,Luke,24453,,,,1190
+p02_r0_passive_role2,p02,0,passive,2,1,1,False,7,AB,next_token_only,Luke,Luke,24453,,,,1191
+p02_r0_passive_role2,p02,0,passive,2,1,2,True,7,BA,next_token_only,Paul,Mark,24453,,,,1192
+p02_r0_passive_role2,p02,0,passive,2,1,2,True,7,AB,next_token_only,Paul,Mark,24453,,,,1193
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,0,True,7,BA,next_token_only,Nora,Mark,4389,,,,1194
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,0,True,7,AB,next_token_only,Nora,Mark,72545,,,,1195
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,1,False,7,BA,next_token_only,Luke,Luke,24453,,,,1196
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,1,False,7,AB,next_token_only,Luke,Luke,24453,,,,1197
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,2,False,7,BA,next_token_only,Paul,Paul,4389,,,,1198
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,2,False,7,AB,next_token_only,Paul,Paul,6898,,,,1199
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,0,False,7,BA,next_token_only,Nora,Nora,72545,,,,1200
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,0,False,7,AB,next_token_only,Nora,Nora,72545,,,,1201
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,1,True,7,BA,next_token_only,Luke,Mark,4389,,,,1202
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,1,True,7,AB,next_token_only,Luke,Mark,24453,,,,1203
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,2,False,7,BA,next_token_only,Paul,Paul,6898,,,,1204
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,2,False,7,AB,next_token_only,Paul,Paul,6898,,,,1205
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,0,False,7,BA,next_token_only,Nora,Nora,72545,,,,1206
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,0,False,7,AB,next_token_only,Nora,Nora,72545,,,,1207
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,1,False,7,BA,next_token_only,Luke,Luke,24453,,,,1208
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,1,False,7,AB,next_token_only,Luke,Luke,24453,,,,1209
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,2,True,7,BA,next_token_only,Paul,Mark,4389,,,,1210
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,2,True,7,AB,next_token_only,Paul,Mark,6898,,,,1211
+p02_r1_active_role0,p02,1,active,0,0,0,True,7,BA,next_token_only,Luke,Nora,72545,,,,1212
+p02_r1_active_role0,p02,1,active,0,0,0,True,7,AB,next_token_only,Luke,Nora,24453,,,,1213
+p02_r1_active_role0,p02,1,active,0,0,1,False,7,BA,next_token_only,Paul,Paul,6898,,,,1214
+p02_r1_active_role0,p02,1,active,0,0,1,False,7,AB,next_token_only,Paul,Paul,6898,,,,1215
+p02_r1_active_role0,p02,1,active,0,0,2,False,7,BA,next_token_only,Mark,Mark,6898,,,,1216
+p02_r1_active_role0,p02,1,active,0,0,2,False,7,AB,next_token_only,Mark,Mark,6898,,,,1218
+p02_r1_active_role1,p02,1,active,1,1,0,False,7,BA,next_token_only,Luke,Luke,24453,,,,1219
+p02_r1_active_role1,p02,1,active,1,1,0,False,7,AB,next_token_only,Luke,Luke,24453,,,,1220
+p02_r1_active_role1,p02,1,active,1,1,1,True,7,BA,next_token_only,Paul,Nora,72545,,,,1221
+p02_r1_active_role1,p02,1,active,1,1,1,True,7,AB,next_token_only,Paul,Nora,6898,,,,1222
+p02_r1_active_role1,p02,1,active,1,1,2,False,7,BA,next_token_only,Mark,Mark,72545,,,,1223
+p02_r1_active_role1,p02,1,active,1,1,2,False,7,AB,next_token_only,Mark,Mark,6898,,,,1224
+p02_r1_active_role2,p02,1,active,2,2,0,False,7,BA,next_token_only,Luke,Luke,24453,,,,1225
+p02_r1_active_role2,p02,1,active,2,2,0,False,7,AB,next_token_only,Luke,Luke,24453,,,,1226
+p02_r1_active_role2,p02,1,active,2,2,1,False,7,BA,next_token_only,Paul,Paul,6898,,,,1227
+p02_r1_active_role2,p02,1,active,2,2,1,False,7,AB,next_token_only,Paul,Paul,6898,,,,1228
+p02_r1_active_role2,p02,1,active,2,2,2,True,7,BA,next_token_only,Mark,Nora,6898,,,,1229
+p02_r1_active_role2,p02,1,active,2,2,2,True,7,AB,next_token_only,Mark,Nora,6898,,,,1230
+p02_r1_passive_role0,p02,1,passive,0,2,0,True,7,BA,next_token_only,Luke,Nora,72545,,,,1231
+p02_r1_passive_role0,p02,1,passive,0,2,0,True,7,AB,next_token_only,Luke,Nora,24453,,,,1232
+p02_r1_passive_role0,p02,1,passive,0,2,1,False,7,BA,next_token_only,Paul,Paul,6898,,,,1233
+p02_r1_passive_role0,p02,1,passive,0,2,1,False,7,AB,next_token_only,Paul,Paul,6898,,,,1234
+p02_r1_passive_role0,p02,1,passive,0,2,2,False,7,BA,next_token_only,Mark,Mark,4389,,,,1235
+p02_r1_passive_role0,p02,1,passive,0,2,2,False,7,AB,next_token_only,Mark,Mark,4389,,,,1236
+p02_r1_passive_role1,p02,1,passive,1,0,0,False,7,BA,next_token_only,Luke,Luke,24453,,,,1237
+p02_r1_passive_role1,p02,1,passive,1,0,0,False,7,AB,next_token_only,Luke,Luke,24453,,,,1238
+p02_r1_passive_role1,p02,1,passive,1,0,1,True,7,BA,next_token_only,Paul,Nora,72545,,,,1239
+p02_r1_passive_role1,p02,1,passive,1,0,1,True,7,AB,next_token_only,Paul,Nora,6898,,,,1240
+p02_r1_passive_role1,p02,1,passive,1,0,2,False,7,BA,next_token_only,Mark,Mark,72545,,,,1241
+p02_r1_passive_role1,p02,1,passive,1,0,2,False,7,AB,next_token_only,Mark,Mark,4389,,,,1242
+p02_r1_passive_role2,p02,1,passive,2,1,0,False,7,BA,next_token_only,Luke,Luke,24453,,,,1243
+p02_r1_passive_role2,p02,1,passive,2,1,0,False,7,AB,next_token_only,Luke,Luke,24453,,,,1244
+p02_r1_passive_role2,p02,1,passive,2,1,1,False,7,BA,next_token_only,Paul,Paul,6898,,,,1245
+p02_r1_passive_role2,p02,1,passive,2,1,1,False,7,AB,next_token_only,Paul,Paul,6898,,,,1246
+p02_r1_passive_role2,p02,1,passive,2,1,2,True,7,BA,next_token_only,Mark,Nora,72545,,,,1247
+p02_r1_passive_role2,p02,1,passive,2,1,2,True,7,AB,next_token_only,Mark,Nora,4389,,,,1248
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,0,True,7,BA,next_token_only,Luke,Nora,72545,,,,1250
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,0,True,7,AB,next_token_only,Luke,Nora,24453,,,,1251
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,1,False,7,BA,next_token_only,Paul,Paul,6898,,,,1252
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,1,False,7,AB,next_token_only,Paul,Paul,6898,,,,1253
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,2,False,7,BA,next_token_only,Mark,Mark,4389,,,,1254
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,2,False,7,AB,next_token_only,Mark,Mark,4389,,,,1255
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,0,False,7,BA,next_token_only,Luke,Luke,24453,,,,1256
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,0,False,7,AB,next_token_only,Luke,Luke,24453,,,,1257
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,1,True,7,BA,next_token_only,Paul,Nora,24453,,,,1258
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,1,True,7,AB,next_token_only,Paul,Nora,6898,,,,1259
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,2,False,7,BA,next_token_only,Mark,Mark,4389,,,,1260
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,2,False,7,AB,next_token_only,Mark,Mark,4389,,,,1261
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,0,False,7,BA,next_token_only,Luke,Luke,24453,,,,1262
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,0,False,7,AB,next_token_only,Luke,Luke,24453,,,,1263
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,1,False,7,BA,next_token_only,Paul,Paul,24453,,,,1264
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,1,False,7,AB,next_token_only,Paul,Paul,6898,,,,1265
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,2,True,7,BA,next_token_only,Mark,Nora,72545,,,,1266
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,2,True,7,AB,next_token_only,Mark,Nora,4389,,,,1267
+p02_r2_active_role0,p02,2,active,0,0,0,True,7,BA,next_token_only,Paul,Luke,24453,,,,1268
+p02_r2_active_role0,p02,2,active,0,0,0,True,7,AB,next_token_only,Paul,Luke,6898,,,,1269
+p02_r2_active_role0,p02,2,active,0,0,1,False,7,BA,next_token_only,Mark,Mark,4389,,,,1270
+p02_r2_active_role0,p02,2,active,0,0,1,False,7,AB,next_token_only,Mark,Mark,4389,,,,1271
+p02_r2_active_role0,p02,2,active,0,0,2,False,7,BA,next_token_only,Nora,Nora,4389,,,,1272
+p02_r2_active_role0,p02,2,active,0,0,2,False,7,AB,next_token_only,Nora,Nora,72545,,,,1273
+p02_r2_active_role1,p02,2,active,1,1,0,False,7,BA,next_token_only,Paul,Paul,6898,,,,1274
+p02_r2_active_role1,p02,2,active,1,1,0,False,7,AB,next_token_only,Paul,Paul,6898,,,,1275
+p02_r2_active_role1,p02,2,active,1,1,1,True,7,BA,next_token_only,Mark,Luke,24453,,,,1276
+p02_r2_active_role1,p02,2,active,1,1,1,True,7,AB,next_token_only,Mark,Luke,4389,,,,1277
+p02_r2_active_role1,p02,2,active,1,1,2,False,7,BA,next_token_only,Nora,Nora,72545,,,,1278
+p02_r2_active_role1,p02,2,active,1,1,2,False,7,AB,next_token_only,Nora,Nora,72545,,,,1279
+p02_r2_active_role2,p02,2,active,2,2,0,False,7,BA,next_token_only,Paul,Paul,6898,,,,1280
+p02_r2_active_role2,p02,2,active,2,2,0,False,7,AB,next_token_only,Paul,Paul,6898,,,,1282
+p02_r2_active_role2,p02,2,active,2,2,1,False,7,BA,next_token_only,Mark,Mark,4389,,,,1283
+p02_r2_active_role2,p02,2,active,2,2,1,False,7,AB,next_token_only,Mark,Mark,4389,,,,1284
+p02_r2_active_role2,p02,2,active,2,2,2,True,7,BA,next_token_only,Nora,Luke,4389,,,,1285
+p02_r2_active_role2,p02,2,active,2,2,2,True,7,AB,next_token_only,Nora,Luke,4389,,,,1286
+p02_r2_passive_role0,p02,2,passive,0,2,0,True,7,BA,next_token_only,Paul,Luke,24453,,,,1287
+p02_r2_passive_role0,p02,2,passive,0,2,0,True,7,AB,next_token_only,Paul,Luke,6898,,,,1288
+p02_r2_passive_role0,p02,2,passive,0,2,1,False,7,BA,next_token_only,Mark,Mark,4389,,,,1289
+p02_r2_passive_role0,p02,2,passive,0,2,1,False,7,AB,next_token_only,Mark,Mark,4389,,,,1290
+p02_r2_passive_role0,p02,2,passive,0,2,2,False,7,BA,next_token_only,Nora,Nora,4389,,,,1291
+p02_r2_passive_role0,p02,2,passive,0,2,2,False,7,AB,next_token_only,Nora,Nora,72545,,,,1292
+p02_r2_passive_role1,p02,2,passive,1,0,0,False,7,BA,next_token_only,Paul,Paul,6898,,,,1293
+p02_r2_passive_role1,p02,2,passive,1,0,0,False,7,AB,next_token_only,Paul,Paul,6898,,,,1294
+p02_r2_passive_role1,p02,2,passive,1,0,1,True,7,BA,next_token_only,Mark,Luke,24453,,,,1295
+p02_r2_passive_role1,p02,2,passive,1,0,1,True,7,AB,next_token_only,Mark,Luke,4389,,,,1296
+p02_r2_passive_role1,p02,2,passive,1,0,2,False,7,BA,next_token_only,Nora,Nora,72545,,,,1297
+p02_r2_passive_role1,p02,2,passive,1,0,2,False,7,AB,next_token_only,Nora,Nora,72545,,,,1298
+p02_r2_passive_role2,p02,2,passive,2,1,0,False,7,BA,next_token_only,Paul,Paul,6898,,,,1299
+p02_r2_passive_role2,p02,2,passive,2,1,0,False,7,AB,next_token_only,Paul,Paul,6898,,,,1300
+p02_r2_passive_role2,p02,2,passive,2,1,1,False,7,BA,next_token_only,Mark,Mark,4389,,,,1301
+p02_r2_passive_role2,p02,2,passive,2,1,1,False,7,AB,next_token_only,Mark,Mark,4389,,,,1302
+p02_r2_passive_role2,p02,2,passive,2,1,2,True,7,BA,next_token_only,Nora,Luke,4389,,,,1303
+p02_r2_passive_role2,p02,2,passive,2,1,2,True,7,AB,next_token_only,Nora,Luke,72545,,,,1304
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,0,True,7,BA,next_token_only,Paul,Luke,24453,,,,1305
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,0,True,7,AB,next_token_only,Paul,Luke,6898,,,,1306
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,1,False,7,BA,next_token_only,Mark,Mark,4389,,,,1307
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,1,False,7,AB,next_token_only,Mark,Mark,4389,,,,1308
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,2,False,7,BA,next_token_only,Nora,Nora,72545,,,,1309
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,2,False,7,AB,next_token_only,Nora,Nora,72545,,,,1310
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,0,False,7,BA,next_token_only,Paul,Paul,6898,,,,1311
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,0,False,7,AB,next_token_only,Paul,Paul,6898,,,,1312
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,1,True,7,BA,next_token_only,Mark,Luke,24453,,,,1314
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,1,True,7,AB,next_token_only,Mark,Luke,4389,,,,1315
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,2,False,7,BA,next_token_only,Nora,Nora,72545,,,,1316
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,2,False,7,AB,next_token_only,Nora,Nora,72545,,,,1317
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,0,False,7,BA,next_token_only,Paul,Paul,6898,,,,1318
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,0,False,7,AB,next_token_only,Paul,Paul,6898,,,,1319
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,1,False,7,BA,next_token_only,Mark,Mark,4389,,,,1320
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,1,False,7,AB,next_token_only,Mark,Mark,4389,,,,1321
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,2,True,7,BA,next_token_only,Nora,Luke,24453,,,,1322
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,2,True,7,AB,next_token_only,Nora,Luke,72545,,,,1323
+p02_r3_active_role0,p02,3,active,0,0,0,True,7,BA,next_token_only,Mark,Paul,6898,,,,1324
+p02_r3_active_role0,p02,3,active,0,0,0,True,7,AB,next_token_only,Mark,Paul,4389,,,,1325
+p02_r3_active_role0,p02,3,active,0,0,1,False,7,BA,next_token_only,Nora,Nora,72545,,,,1326
+p02_r3_active_role0,p02,3,active,0,0,1,False,7,AB,next_token_only,Nora,Nora,72545,,,,1327
+p02_r3_active_role0,p02,3,active,0,0,2,False,7,BA,next_token_only,Luke,Luke,72545,,,,1328
+p02_r3_active_role0,p02,3,active,0,0,2,False,7,AB,next_token_only,Luke,Luke,72545,,,,1329
+p02_r3_active_role1,p02,3,active,1,1,0,False,7,BA,next_token_only,Mark,Mark,4389,,,,1330
+p02_r3_active_role1,p02,3,active,1,1,0,False,7,AB,next_token_only,Mark,Mark,4389,,,,1331
+p02_r3_active_role1,p02,3,active,1,1,1,True,7,BA,next_token_only,Nora,Paul,6898,,,,1332
+p02_r3_active_role1,p02,3,active,1,1,1,True,7,AB,next_token_only,Nora,Paul,72545,,,,1333
+p02_r3_active_role1,p02,3,active,1,1,2,False,7,BA,next_token_only,Luke,Luke,6898,,,,1334
+p02_r3_active_role1,p02,3,active,1,1,2,False,7,AB,next_token_only,Luke,Luke,72545,,,,1335
+p02_r3_active_role2,p02,3,active,2,2,0,False,7,BA,next_token_only,Mark,Mark,4389,,,,1336
+p02_r3_active_role2,p02,3,active,2,2,0,False,7,AB,next_token_only,Mark,Mark,4389,,,,1337
+p02_r3_active_role2,p02,3,active,2,2,1,False,7,BA,next_token_only,Nora,Nora,72545,,,,1338
+p02_r3_active_role2,p02,3,active,2,2,1,False,7,AB,next_token_only,Nora,Nora,72545,,,,1339
+p02_r3_active_role2,p02,3,active,2,2,2,True,7,BA,next_token_only,Luke,Paul,72545,,,,1340
+p02_r3_active_role2,p02,3,active,2,2,2,True,7,AB,next_token_only,Luke,Paul,72545,,,,1341
+p02_r3_passive_role0,p02,3,passive,0,2,0,True,7,BA,next_token_only,Mark,Paul,6898,,,,1342
+p02_r3_passive_role0,p02,3,passive,0,2,0,True,7,AB,next_token_only,Mark,Paul,4389,,,,1343
+p02_r3_passive_role0,p02,3,passive,0,2,1,False,7,BA,next_token_only,Nora,Nora,72545,,,,1344
+p02_r3_passive_role0,p02,3,passive,0,2,1,False,7,AB,next_token_only,Nora,Nora,72545,,,,1346
+p02_r3_passive_role0,p02,3,passive,0,2,2,False,7,BA,next_token_only,Luke,Luke,72545,,,,1347
+p02_r3_passive_role0,p02,3,passive,0,2,2,False,7,AB,next_token_only,Luke,Luke,72545,,,,1348
+p02_r3_passive_role1,p02,3,passive,1,0,0,False,7,BA,next_token_only,Mark,Mark,4389,,,,1349
+p02_r3_passive_role1,p02,3,passive,1,0,0,False,7,AB,next_token_only,Mark,Mark,4389,,,,1350
+p02_r3_passive_role1,p02,3,passive,1,0,1,True,7,BA,next_token_only,Nora,Paul,6898,,,,1351
+p02_r3_passive_role1,p02,3,passive,1,0,1,True,7,AB,next_token_only,Nora,Paul,72545,,,,1352
+p02_r3_passive_role1,p02,3,passive,1,0,2,False,7,BA,next_token_only,Luke,Luke,6898,,,,1353
+p02_r3_passive_role1,p02,3,passive,1,0,2,False,7,AB,next_token_only,Luke,Luke,72545,,,,1354
+p02_r3_passive_role2,p02,3,passive,2,1,0,False,7,BA,next_token_only,Mark,Mark,4389,,,,1355
+p02_r3_passive_role2,p02,3,passive,2,1,0,False,7,AB,next_token_only,Mark,Mark,4389,,,,1356
+p02_r3_passive_role2,p02,3,passive,2,1,1,False,7,BA,next_token_only,Nora,Nora,72545,,,,1357
+p02_r3_passive_role2,p02,3,passive,2,1,1,False,7,AB,next_token_only,Nora,Nora,72545,,,,1358
+p02_r3_passive_role2,p02,3,passive,2,1,2,True,7,BA,next_token_only,Luke,Paul,72545,,,,1359
+p02_r3_passive_role2,p02,3,passive,2,1,2,True,7,AB,next_token_only,Luke,Paul,72545,,,,1360
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,0,True,7,BA,next_token_only,Mark,Paul,6898,,,,1361
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,0,True,7,AB,next_token_only,Mark,Paul,4389,,,,1362
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,1,False,7,BA,next_token_only,Nora,Nora,72545,,,,1363
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,1,False,7,AB,next_token_only,Nora,Nora,72545,,,,1364
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,2,False,7,BA,next_token_only,Luke,Luke,24453,,,,1365
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,2,False,7,AB,next_token_only,Luke,Luke,24453,,,,1366
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,0,False,7,BA,next_token_only,Mark,Mark,4389,,,,1367
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,0,False,7,AB,next_token_only,Mark,Mark,4389,,,,1368
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,1,True,7,BA,next_token_only,Nora,Paul,6898,,,,1369
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,1,True,7,AB,next_token_only,Nora,Paul,72545,,,,1370
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,2,False,7,BA,next_token_only,Luke,Luke,24453,,,,1371
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,2,False,7,AB,next_token_only,Luke,Luke,24453,,,,1372
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,0,False,7,BA,next_token_only,Mark,Mark,4389,,,,1373
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,0,False,7,AB,next_token_only,Mark,Mark,4389,,,,1374
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,1,False,7,BA,next_token_only,Nora,Nora,72545,,,,1375
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,1,False,7,AB,next_token_only,Nora,Nora,72545,,,,1376
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,2,True,7,BA,next_token_only,Luke,Paul,6898,,,,1378
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,2,True,7,AB,next_token_only,Luke,Paul,24453,,,,1379
+p01_r0_active_role0,p01,0,active,0,0,0,True,14,BA,full_generation,Grace,Kate,29201, Kate,True,Kate,1380
+p01_r0_active_role0,p01,0,active,0,0,0,True,14,AB,full_generation,Grace,Kate,31071, Grace,True,Grace,1382
+p01_r0_active_role0,p01,0,active,0,0,1,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1384
+p01_r0_active_role0,p01,0,active,0,0,1,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1386
+p01_r0_active_role0,p01,0,active,0,0,2,False,14,BA,full_generation,Jack,Jack,42781, Helen,True,Helen,1388
+p01_r0_active_role0,p01,0,active,0,0,2,False,14,AB,full_generation,Jack,Jack,42781, Helen,True,Helen,1390
+p01_r0_active_role1,p01,0,active,1,1,0,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1392
+p01_r0_active_role1,p01,0,active,1,1,0,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1394
+p01_r0_active_role1,p01,0,active,1,1,1,True,14,BA,full_generation,Helen,Kate,29201, Kate,True,Kate,1396
+p01_r0_active_role1,p01,0,active,1,1,1,True,14,AB,full_generation,Helen,Kate,42781, Helen,True,Helen,1398
+p01_r0_active_role1,p01,0,active,1,1,2,False,14,BA,full_generation,Jack,Jack,29201, Kate,True,Kate,1400
+p01_r0_active_role1,p01,0,active,1,1,2,False,14,AB,full_generation,Jack,Jack,42781, Helen,True,Helen,1402
+p01_r0_active_role2,p01,0,active,2,2,0,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1404
+p01_r0_active_role2,p01,0,active,2,2,0,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1406
+p01_r0_active_role2,p01,0,active,2,2,1,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1408
+p01_r0_active_role2,p01,0,active,2,2,1,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1411
+p01_r0_active_role2,p01,0,active,2,2,2,True,14,BA,full_generation,Jack,Kate,42781, Helen,True,Helen,1413
+p01_r0_active_role2,p01,0,active,2,2,2,True,14,AB,full_generation,Jack,Kate,42781, Helen,True,Helen,1415
+p01_r0_passive_role0,p01,0,passive,0,2,0,True,14,BA,full_generation,Grace,Kate,29201, Kate,True,Kate,1417
+p01_r0_passive_role0,p01,0,passive,0,2,0,True,14,AB,full_generation,Grace,Kate,31071, Grace,True,Grace,1419
+p01_r0_passive_role0,p01,0,passive,0,2,1,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1421
+p01_r0_passive_role0,p01,0,passive,0,2,1,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1423
+p01_r0_passive_role0,p01,0,passive,0,2,2,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1425
+p01_r0_passive_role0,p01,0,passive,0,2,2,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1427
+p01_r0_passive_role1,p01,0,passive,1,0,0,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1429
+p01_r0_passive_role1,p01,0,passive,1,0,0,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1431
+p01_r0_passive_role1,p01,0,passive,1,0,1,True,14,BA,full_generation,Helen,Kate,29201, Kate,True,Kate,1433
+p01_r0_passive_role1,p01,0,passive,1,0,1,True,14,AB,full_generation,Helen,Kate,42781, Helen,True,Helen,1435
+p01_r0_passive_role1,p01,0,passive,1,0,2,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1437
+p01_r0_passive_role1,p01,0,passive,1,0,2,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1439
+p01_r0_passive_role2,p01,0,passive,2,1,0,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1442
+p01_r0_passive_role2,p01,0,passive,2,1,0,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1444
+p01_r0_passive_role2,p01,0,passive,2,1,1,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1446
+p01_r0_passive_role2,p01,0,passive,2,1,1,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1448
+p01_r0_passive_role2,p01,0,passive,2,1,2,True,14,BA,full_generation,Jack,Kate,29201, Kate,True,Kate,1450
+p01_r0_passive_role2,p01,0,passive,2,1,2,True,14,AB,full_generation,Jack,Kate,7607, Jack,True,Jack,1452
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,0,True,14,BA,full_generation,Grace,Kate,29201, Kate,True,Kate,1454
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,0,True,14,AB,full_generation,Grace,Kate,31071, Grace,True,Grace,1456
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,1,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1458
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,1,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1460
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,2,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1462
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,2,False,14,AB,full_generation,Jack,Jack,42781, Helen,True,Helen,1464
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,0,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1466
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,0,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1468
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,1,True,14,BA,full_generation,Helen,Kate,29201, Kate,True,Kate,1470
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,1,True,14,AB,full_generation,Helen,Kate,42781, Helen,True,Helen,1472
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,2,False,14,BA,full_generation,Jack,Jack,29201, Kate,True,Kate,1475
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,2,False,14,AB,full_generation,Jack,Jack,42781, Helen,True,Helen,1477
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,0,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1479
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,0,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1481
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,1,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1483
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,1,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1485
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,2,True,14,BA,full_generation,Jack,Kate,29201, Kate,True,Kate,1487
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,2,True,14,AB,full_generation,Jack,Kate,42781, Helen,True,Helen,1489
+p01_r1_active_role0,p01,1,active,0,0,0,True,14,BA,full_generation,Helen,Grace,31071, Grace,True,Grace,1491
+p01_r1_active_role0,p01,1,active,0,0,0,True,14,AB,full_generation,Helen,Grace,42781, Helen,True,Helen,1493
+p01_r1_active_role0,p01,1,active,0,0,1,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1495
+p01_r1_active_role0,p01,1,active,0,0,1,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1497
+p01_r1_active_role0,p01,1,active,0,0,2,False,14,BA,full_generation,Kate,Kate,7607, Jack,True,Jack,1499
+p01_r1_active_role0,p01,1,active,0,0,2,False,14,AB,full_generation,Kate,Kate,7607, Jack,True,Jack,1501
+p01_r1_active_role1,p01,1,active,1,1,0,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1503
+p01_r1_active_role1,p01,1,active,1,1,0,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1506
+p01_r1_active_role1,p01,1,active,1,1,1,True,14,BA,full_generation,Jack,Grace,31071, Grace,True,Grace,1508
+p01_r1_active_role1,p01,1,active,1,1,1,True,14,AB,full_generation,Jack,Grace,7607, Jack,True,Jack,1510
+p01_r1_active_role1,p01,1,active,1,1,2,False,14,BA,full_generation,Kate,Kate,31071, Grace,True,Grace,1512
+p01_r1_active_role1,p01,1,active,1,1,2,False,14,AB,full_generation,Kate,Kate,7607, Jack,True,Jack,1514
+p01_r1_active_role2,p01,1,active,2,2,0,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1516
+p01_r1_active_role2,p01,1,active,2,2,0,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1518
+p01_r1_active_role2,p01,1,active,2,2,1,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1520
+p01_r1_active_role2,p01,1,active,2,2,1,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1522
+p01_r1_active_role2,p01,1,active,2,2,2,True,14,BA,full_generation,Kate,Grace,7607, Jack,True,Jack,1524
+p01_r1_active_role2,p01,1,active,2,2,2,True,14,AB,full_generation,Kate,Grace,7607, Jack,True,Jack,1526
+p01_r1_passive_role0,p01,1,passive,0,2,0,True,14,BA,full_generation,Helen,Grace,31071, Grace,True,Grace,1528
+p01_r1_passive_role0,p01,1,passive,0,2,0,True,14,AB,full_generation,Helen,Grace,42781, Helen,True,Helen,1530
+p01_r1_passive_role0,p01,1,passive,0,2,1,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1532
+p01_r1_passive_role0,p01,1,passive,0,2,1,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1534
+p01_r1_passive_role0,p01,1,passive,0,2,2,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1536
+p01_r1_passive_role0,p01,1,passive,0,2,2,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1539
+p01_r1_passive_role1,p01,1,passive,1,0,0,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1541
+p01_r1_passive_role1,p01,1,passive,1,0,0,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1543
+p01_r1_passive_role1,p01,1,passive,1,0,1,True,14,BA,full_generation,Jack,Grace,31071, Grace,True,Grace,1545
+p01_r1_passive_role1,p01,1,passive,1,0,1,True,14,AB,full_generation,Jack,Grace,7607, Jack,True,Jack,1547
+p01_r1_passive_role1,p01,1,passive,1,0,2,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1549
+p01_r1_passive_role1,p01,1,passive,1,0,2,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1551
+p01_r1_passive_role2,p01,1,passive,2,1,0,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1553
+p01_r1_passive_role2,p01,1,passive,2,1,0,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1555
+p01_r1_passive_role2,p01,1,passive,2,1,1,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1557
+p01_r1_passive_role2,p01,1,passive,2,1,1,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1559
+p01_r1_passive_role2,p01,1,passive,2,1,2,True,14,BA,full_generation,Kate,Grace,31071, Grace,True,Grace,1561
+p01_r1_passive_role2,p01,1,passive,2,1,2,True,14,AB,full_generation,Kate,Grace,29201, Kate,True,Kate,1563
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,0,True,14,BA,full_generation,Helen,Grace,31071, Grace,True,Grace,1565
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,0,True,14,AB,full_generation,Helen,Grace,42781, Helen,True,Helen,1567
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,1,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1570
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,1,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1572
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,2,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1574
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,2,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1576
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,0,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1578
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,0,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1580
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,1,True,14,BA,full_generation,Jack,Grace,31071, Grace,True,Grace,1582
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,1,True,14,AB,full_generation,Jack,Grace,7607, Jack,True,Jack,1584
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,2,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1586
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,2,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1588
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,0,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1590
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,0,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1592
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,1,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1594
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,1,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1596
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,2,True,14,BA,full_generation,Kate,Grace,31071, Grace,True,Grace,1598
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,2,True,14,AB,full_generation,Kate,Grace,29201, Kate,True,Kate,1600
+p01_r2_active_role0,p01,2,active,0,0,0,True,14,BA,full_generation,Jack,Helen,42781, Helen,True,Helen,1603
+p01_r2_active_role0,p01,2,active,0,0,0,True,14,AB,full_generation,Jack,Helen,7607, Jack,True,Jack,1605
+p01_r2_active_role0,p01,2,active,0,0,1,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1607
+p01_r2_active_role0,p01,2,active,0,0,1,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1609
+p01_r2_active_role0,p01,2,active,0,0,2,False,14,BA,full_generation,Grace,Grace,29201, Kate,True,Kate,1611
+p01_r2_active_role0,p01,2,active,0,0,2,False,14,AB,full_generation,Grace,Grace,29201, Kate,True,Kate,1613
+p01_r2_active_role1,p01,2,active,1,1,0,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1615
+p01_r2_active_role1,p01,2,active,1,1,0,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1617
+p01_r2_active_role1,p01,2,active,1,1,1,True,14,BA,full_generation,Kate,Helen,42781, Helen,True,Helen,1619
+p01_r2_active_role1,p01,2,active,1,1,1,True,14,AB,full_generation,Kate,Helen,29201, Kate,True,Kate,1621
+p01_r2_active_role1,p01,2,active,1,1,2,False,14,BA,full_generation,Grace,Grace,42781, Helen,True,Helen,1623
+p01_r2_active_role1,p01,2,active,1,1,2,False,14,AB,full_generation,Grace,Grace,29201, Kate,True,Kate,1625
+p01_r2_active_role2,p01,2,active,2,2,0,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1627
+p01_r2_active_role2,p01,2,active,2,2,0,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1629
+p01_r2_active_role2,p01,2,active,2,2,1,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1631
+p01_r2_active_role2,p01,2,active,2,2,1,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1634
+p01_r2_active_role2,p01,2,active,2,2,2,True,14,BA,full_generation,Grace,Helen,29201, Kate,True,Kate,1636
+p01_r2_active_role2,p01,2,active,2,2,2,True,14,AB,full_generation,Grace,Helen,29201, Kate,True,Kate,1638
+p01_r2_passive_role0,p01,2,passive,0,2,0,True,14,BA,full_generation,Jack,Helen,42781, Helen,True,Helen,1640
+p01_r2_passive_role0,p01,2,passive,0,2,0,True,14,AB,full_generation,Jack,Helen,7607, Jack,True,Jack,1642
+p01_r2_passive_role0,p01,2,passive,0,2,1,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1644
+p01_r2_passive_role0,p01,2,passive,0,2,1,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1646
+p01_r2_passive_role0,p01,2,passive,0,2,2,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1648
+p01_r2_passive_role0,p01,2,passive,0,2,2,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1650
+p01_r2_passive_role1,p01,2,passive,1,0,0,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1652
+p01_r2_passive_role1,p01,2,passive,1,0,0,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1654
+p01_r2_passive_role1,p01,2,passive,1,0,1,True,14,BA,full_generation,Kate,Helen,42781, Helen,True,Helen,1656
+p01_r2_passive_role1,p01,2,passive,1,0,1,True,14,AB,full_generation,Kate,Helen,29201, Kate,True,Kate,1658
+p01_r2_passive_role1,p01,2,passive,1,0,2,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1660
+p01_r2_passive_role1,p01,2,passive,1,0,2,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1662
+p01_r2_passive_role2,p01,2,passive,2,1,0,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1664
+p01_r2_passive_role2,p01,2,passive,2,1,0,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1667
+p01_r2_passive_role2,p01,2,passive,2,1,1,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1669
+p01_r2_passive_role2,p01,2,passive,2,1,1,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1671
+p01_r2_passive_role2,p01,2,passive,2,1,2,True,14,BA,full_generation,Grace,Helen,42781, Helen,True,Helen,1673
+p01_r2_passive_role2,p01,2,passive,2,1,2,True,14,AB,full_generation,Grace,Helen,31071, Grace,True,Grace,1675
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,0,True,14,BA,full_generation,Jack,Helen,42781, Helen,True,Helen,1677
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,0,True,14,AB,full_generation,Jack,Helen,7607, Jack,True,Jack,1679
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,1,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1681
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,1,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1683
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,2,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1685
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,2,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1687
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,0,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1689
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,0,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1691
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,1,True,14,BA,full_generation,Kate,Helen,42781, Helen,True,Helen,1693
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,1,True,14,AB,full_generation,Kate,Helen,29201, Kate,True,Kate,1695
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,2,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1698
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,2,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1700
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,0,False,14,BA,full_generation,Jack,Jack,7607, Jack,True,Jack,1702
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,0,False,14,AB,full_generation,Jack,Jack,7607, Jack,True,Jack,1704
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,1,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1706
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,1,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1708
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,2,True,14,BA,full_generation,Grace,Helen,42781, Helen,True,Helen,1710
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,2,True,14,AB,full_generation,Grace,Helen,31071, Grace,True,Grace,1712
+p01_r3_active_role0,p01,3,active,0,0,0,True,14,BA,full_generation,Kate,Jack,7607, Jack,True,Jack,1714
+p01_r3_active_role0,p01,3,active,0,0,0,True,14,AB,full_generation,Kate,Jack,29201, Kate,True,Kate,1716
+p01_r3_active_role0,p01,3,active,0,0,1,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1718
+p01_r3_active_role0,p01,3,active,0,0,1,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1720
+p01_r3_active_role0,p01,3,active,0,0,2,False,14,BA,full_generation,Helen,Helen,31071, Grace,True,Grace,1722
+p01_r3_active_role0,p01,3,active,0,0,2,False,14,AB,full_generation,Helen,Helen,31071, Grace,True,Grace,1724
+p01_r3_active_role1,p01,3,active,1,1,0,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1726
+p01_r3_active_role1,p01,3,active,1,1,0,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1728
+p01_r3_active_role1,p01,3,active,1,1,1,True,14,BA,full_generation,Grace,Jack,7607, Jack,True,Jack,1731
+p01_r3_active_role1,p01,3,active,1,1,1,True,14,AB,full_generation,Grace,Jack,31071, Grace,True,Grace,1733
+p01_r3_active_role1,p01,3,active,1,1,2,False,14,BA,full_generation,Helen,Helen,7607, Jack,True,Jack,1735
+p01_r3_active_role1,p01,3,active,1,1,2,False,14,AB,full_generation,Helen,Helen,31071, Grace,True,Grace,1737
+p01_r3_active_role2,p01,3,active,2,2,0,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1739
+p01_r3_active_role2,p01,3,active,2,2,0,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1741
+p01_r3_active_role2,p01,3,active,2,2,1,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1743
+p01_r3_active_role2,p01,3,active,2,2,1,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1745
+p01_r3_active_role2,p01,3,active,2,2,2,True,14,BA,full_generation,Helen,Jack,31071, Grace,True,Grace,1747
+p01_r3_active_role2,p01,3,active,2,2,2,True,14,AB,full_generation,Helen,Jack,31071, Grace,True,Grace,1749
+p01_r3_passive_role0,p01,3,passive,0,2,0,True,14,BA,full_generation,Kate,Jack,7607, Jack,True,Jack,1751
+p01_r3_passive_role0,p01,3,passive,0,2,0,True,14,AB,full_generation,Kate,Jack,29201, Kate,True,Kate,1753
+p01_r3_passive_role0,p01,3,passive,0,2,1,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1755
+p01_r3_passive_role0,p01,3,passive,0,2,1,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1757
+p01_r3_passive_role0,p01,3,passive,0,2,2,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1759
+p01_r3_passive_role0,p01,3,passive,0,2,2,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1762
+p01_r3_passive_role1,p01,3,passive,1,0,0,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1764
+p01_r3_passive_role1,p01,3,passive,1,0,0,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1766
+p01_r3_passive_role1,p01,3,passive,1,0,1,True,14,BA,full_generation,Grace,Jack,7607, Jack,True,Jack,1768
+p01_r3_passive_role1,p01,3,passive,1,0,1,True,14,AB,full_generation,Grace,Jack,31071, Grace,True,Grace,1770
+p01_r3_passive_role1,p01,3,passive,1,0,2,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1772
+p01_r3_passive_role1,p01,3,passive,1,0,2,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1774
+p01_r3_passive_role2,p01,3,passive,2,1,0,False,14,BA,full_generation,Kate,Kate,31071, Grace,True,Grace,1776
+p01_r3_passive_role2,p01,3,passive,2,1,0,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1778
+p01_r3_passive_role2,p01,3,passive,2,1,1,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1780
+p01_r3_passive_role2,p01,3,passive,2,1,1,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1782
+p01_r3_passive_role2,p01,3,passive,2,1,2,True,14,BA,full_generation,Helen,Jack,7607, Jack,True,Jack,1784
+p01_r3_passive_role2,p01,3,passive,2,1,2,True,14,AB,full_generation,Helen,Jack,42781, Helen,True,Helen,1786
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,0,True,14,BA,full_generation,Kate,Jack,7607, Jack,True,Jack,1788
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,0,True,14,AB,full_generation,Kate,Jack,29201, Kate,True,Kate,1790
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,1,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1792
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,1,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1795
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,2,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1797
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,2,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1799
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,0,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1801
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,0,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1803
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,1,True,14,BA,full_generation,Grace,Jack,29201, Kate,True,Kate,1805
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,1,True,14,AB,full_generation,Grace,Jack,31071, Grace,True,Grace,1807
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,2,False,14,BA,full_generation,Helen,Helen,42781, Helen,True,Helen,1809
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,2,False,14,AB,full_generation,Helen,Helen,42781, Helen,True,Helen,1811
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,0,False,14,BA,full_generation,Kate,Kate,29201, Kate,True,Kate,1813
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,0,False,14,AB,full_generation,Kate,Kate,29201, Kate,True,Kate,1815
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,1,False,14,BA,full_generation,Grace,Grace,31071, Grace,True,Grace,1817
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,1,False,14,AB,full_generation,Grace,Grace,31071, Grace,True,Grace,1819
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,2,True,14,BA,full_generation,Helen,Jack,7607, Jack,True,Jack,1821
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,2,True,14,AB,full_generation,Helen,Jack,42781, Helen,True,Helen,1823
+p02_r0_active_role0,p02,0,active,0,0,0,True,14,BA,full_generation,Nora,Mark,4389, Mark,True,Mark,1826
+p02_r0_active_role0,p02,0,active,0,0,0,True,14,AB,full_generation,Nora,Mark,72545, Nora,True,Nora,1828
+p02_r0_active_role0,p02,0,active,0,0,1,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,1830
+p02_r0_active_role0,p02,0,active,0,0,1,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,1832
+p02_r0_active_role0,p02,0,active,0,0,2,False,14,BA,full_generation,Paul,Paul,24453, Luke,True,Luke,1834
+p02_r0_active_role0,p02,0,active,0,0,2,False,14,AB,full_generation,Paul,Paul,24453, Luke,True,Luke,1836
+p02_r0_active_role1,p02,0,active,1,1,0,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,1838
+p02_r0_active_role1,p02,0,active,1,1,0,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,1840
+p02_r0_active_role1,p02,0,active,1,1,1,True,14,BA,full_generation,Luke,Mark,4389, Mark,True,Mark,1842
+p02_r0_active_role1,p02,0,active,1,1,1,True,14,AB,full_generation,Luke,Mark,24453, Luke,True,Luke,1844
+p02_r0_active_role1,p02,0,active,1,1,2,False,14,BA,full_generation,Paul,Paul,4389, Mark,True,Mark,1846
+p02_r0_active_role1,p02,0,active,1,1,2,False,14,AB,full_generation,Paul,Paul,24453, Luke,True,Luke,1848
+p02_r0_active_role2,p02,0,active,2,2,0,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,1850
+p02_r0_active_role2,p02,0,active,2,2,0,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,1852
+p02_r0_active_role2,p02,0,active,2,2,1,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,1854
+p02_r0_active_role2,p02,0,active,2,2,1,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,1856
+p02_r0_active_role2,p02,0,active,2,2,2,True,14,BA,full_generation,Paul,Mark,24453, Luke,True,Luke,1859
+p02_r0_active_role2,p02,0,active,2,2,2,True,14,AB,full_generation,Paul,Mark,24453, Luke,True,Luke,1861
+p02_r0_passive_role0,p02,0,passive,0,2,0,True,14,BA,full_generation,Nora,Mark,4389, Mark,True,Mark,1863
+p02_r0_passive_role0,p02,0,passive,0,2,0,True,14,AB,full_generation,Nora,Mark,72545, Nora,True,Nora,1865
+p02_r0_passive_role0,p02,0,passive,0,2,1,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,1867
+p02_r0_passive_role0,p02,0,passive,0,2,1,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,1869
+p02_r0_passive_role0,p02,0,passive,0,2,2,False,14,BA,full_generation,Paul,Paul,24453, Luke,True,Luke,1871
+p02_r0_passive_role0,p02,0,passive,0,2,2,False,14,AB,full_generation,Paul,Paul,24453, Luke,True,Luke,1873
+p02_r0_passive_role1,p02,0,passive,1,0,0,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,1875
+p02_r0_passive_role1,p02,0,passive,1,0,0,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,1877
+p02_r0_passive_role1,p02,0,passive,1,0,1,True,14,BA,full_generation,Luke,Mark,4389, Mark,True,Mark,1879
+p02_r0_passive_role1,p02,0,passive,1,0,1,True,14,AB,full_generation,Luke,Mark,24453, Luke,True,Luke,1881
+p02_r0_passive_role1,p02,0,passive,1,0,2,False,14,BA,full_generation,Paul,Paul,4389, Mark,True,Mark,1883
+p02_r0_passive_role1,p02,0,passive,1,0,2,False,14,AB,full_generation,Paul,Paul,24453, Luke,True,Luke,1885
+p02_r0_passive_role2,p02,0,passive,2,1,0,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,1887
+p02_r0_passive_role2,p02,0,passive,2,1,0,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,1890
+p02_r0_passive_role2,p02,0,passive,2,1,1,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,1892
+p02_r0_passive_role2,p02,0,passive,2,1,1,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,1894
+p02_r0_passive_role2,p02,0,passive,2,1,2,True,14,BA,full_generation,Paul,Mark,24453, Luke,True,Luke,1896
+p02_r0_passive_role2,p02,0,passive,2,1,2,True,14,AB,full_generation,Paul,Mark,24453, Luke,True,Luke,1898
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,0,True,14,BA,full_generation,Nora,Mark,4389, Mark,True,Mark,1900
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,0,True,14,AB,full_generation,Nora,Mark,72545, Nora,True,Nora,1902
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,1,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,1904
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,1,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,1906
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,2,False,14,BA,full_generation,Paul,Paul,4389, Mark,True,Mark,1908
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,2,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,1910
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,0,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,1912
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,0,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,1914
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,1,True,14,BA,full_generation,Luke,Mark,4389, Mark,True,Mark,1916
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,1,True,14,AB,full_generation,Luke,Mark,24453, Luke,True,Luke,1918
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,2,False,14,BA,full_generation,Paul,Paul,6898, Paul,True,Paul,1920
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,2,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,1923
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,0,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,1925
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,0,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,1927
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,1,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,1929
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,1,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,1931
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,2,True,14,BA,full_generation,Paul,Mark,4389, Mark,True,Mark,1933
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,2,True,14,AB,full_generation,Paul,Mark,6898, Paul,True,Paul,1935
+p02_r1_active_role0,p02,1,active,0,0,0,True,14,BA,full_generation,Luke,Nora,72545, Nora,True,Nora,1937
+p02_r1_active_role0,p02,1,active,0,0,0,True,14,AB,full_generation,Luke,Nora,24453, Luke,True,Luke,1939
+p02_r1_active_role0,p02,1,active,0,0,1,False,14,BA,full_generation,Paul,Paul,6898, Paul,True,Paul,1941
+p02_r1_active_role0,p02,1,active,0,0,1,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,1943
+p02_r1_active_role0,p02,1,active,0,0,2,False,14,BA,full_generation,Mark,Mark,6898, Paul,True,Paul,1945
+p02_r1_active_role0,p02,1,active,0,0,2,False,14,AB,full_generation,Mark,Mark,6898, Paul,True,Paul,1947
+p02_r1_active_role1,p02,1,active,1,1,0,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,1949
+p02_r1_active_role1,p02,1,active,1,1,0,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,1951
+p02_r1_active_role1,p02,1,active,1,1,1,True,14,BA,full_generation,Paul,Nora,72545, Nora,True,Nora,1954
+p02_r1_active_role1,p02,1,active,1,1,1,True,14,AB,full_generation,Paul,Nora,6898, Paul,True,Paul,1956
+p02_r1_active_role1,p02,1,active,1,1,2,False,14,BA,full_generation,Mark,Mark,72545, Nora,True,Nora,1958
+p02_r1_active_role1,p02,1,active,1,1,2,False,14,AB,full_generation,Mark,Mark,6898, Paul,True,Paul,1960
+p02_r1_active_role2,p02,1,active,2,2,0,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,1962
+p02_r1_active_role2,p02,1,active,2,2,0,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,1964
+p02_r1_active_role2,p02,1,active,2,2,1,False,14,BA,full_generation,Paul,Paul,6898, Paul,True,Paul,1966
+p02_r1_active_role2,p02,1,active,2,2,1,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,1968
+p02_r1_active_role2,p02,1,active,2,2,2,True,14,BA,full_generation,Mark,Nora,6898, Paul,True,Paul,1970
+p02_r1_active_role2,p02,1,active,2,2,2,True,14,AB,full_generation,Mark,Nora,6898, Paul,True,Paul,1972
+p02_r1_passive_role0,p02,1,passive,0,2,0,True,14,BA,full_generation,Luke,Nora,72545, Nora,True,Nora,1974
+p02_r1_passive_role0,p02,1,passive,0,2,0,True,14,AB,full_generation,Luke,Nora,24453, Luke,True,Luke,1976
+p02_r1_passive_role0,p02,1,passive,0,2,1,False,14,BA,full_generation,Paul,Paul,6898, Paul,True,Paul,1978
+p02_r1_passive_role0,p02,1,passive,0,2,1,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,1980
+p02_r1_passive_role0,p02,1,passive,0,2,2,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,1982
+p02_r1_passive_role0,p02,1,passive,0,2,2,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,1984
+p02_r1_passive_role1,p02,1,passive,1,0,0,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,1987
+p02_r1_passive_role1,p02,1,passive,1,0,0,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,1989
+p02_r1_passive_role1,p02,1,passive,1,0,1,True,14,BA,full_generation,Paul,Nora,72545, Nora,True,Nora,1991
+p02_r1_passive_role1,p02,1,passive,1,0,1,True,14,AB,full_generation,Paul,Nora,6898, Paul,True,Paul,1993
+p02_r1_passive_role1,p02,1,passive,1,0,2,False,14,BA,full_generation,Mark,Mark,72545, Nora,True,Nora,1995
+p02_r1_passive_role1,p02,1,passive,1,0,2,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,1997
+p02_r1_passive_role2,p02,1,passive,2,1,0,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,1999
+p02_r1_passive_role2,p02,1,passive,2,1,0,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,2001
+p02_r1_passive_role2,p02,1,passive,2,1,1,False,14,BA,full_generation,Paul,Paul,6898, Paul,True,Paul,2003
+p02_r1_passive_role2,p02,1,passive,2,1,1,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,2005
+p02_r1_passive_role2,p02,1,passive,2,1,2,True,14,BA,full_generation,Mark,Nora,72545, Nora,True,Nora,2007
+p02_r1_passive_role2,p02,1,passive,2,1,2,True,14,AB,full_generation,Mark,Nora,4389, Mark,True,Mark,2009
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,0,True,14,BA,full_generation,Luke,Nora,72545, Nora,True,Nora,2011
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,0,True,14,AB,full_generation,Luke,Nora,24453, Luke,True,Luke,2013
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,1,False,14,BA,full_generation,Paul,Paul,6898, Paul,True,Paul,2015
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,1,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,2018
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,2,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2020
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,2,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2022
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,0,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,2024
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,0,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,2026
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,1,True,14,BA,full_generation,Paul,Nora,24453, Luke,True,Luke,2028
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,1,True,14,AB,full_generation,Paul,Nora,6898, Paul,True,Paul,2030
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,2,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2032
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,2,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2034
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,0,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,2036
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,0,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,2038
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,1,False,14,BA,full_generation,Paul,Paul,24453, Luke,True,Luke,2040
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,1,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,2042
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,2,True,14,BA,full_generation,Mark,Nora,72545, Nora,True,Nora,2044
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,2,True,14,AB,full_generation,Mark,Nora,4389, Mark,True,Mark,2046
+p02_r2_active_role0,p02,2,active,0,0,0,True,14,BA,full_generation,Paul,Luke,24453, Luke,True,Luke,2048
+p02_r2_active_role0,p02,2,active,0,0,0,True,14,AB,full_generation,Paul,Luke,6898, Paul,True,Paul,2051
+p02_r2_active_role0,p02,2,active,0,0,1,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2053
+p02_r2_active_role0,p02,2,active,0,0,1,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2055
+p02_r2_active_role0,p02,2,active,0,0,2,False,14,BA,full_generation,Nora,Nora,4389, Mark,True,Mark,2057
+p02_r2_active_role0,p02,2,active,0,0,2,False,14,AB,full_generation,Nora,Nora,4389, Mark,True,Mark,2059
+p02_r2_active_role1,p02,2,active,1,1,0,False,14,BA,full_generation,Paul,Paul,6898, Paul,True,Paul,2061
+p02_r2_active_role1,p02,2,active,1,1,0,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,2063
+p02_r2_active_role1,p02,2,active,1,1,1,True,14,BA,full_generation,Mark,Luke,24453, Luke,True,Luke,2065
+p02_r2_active_role1,p02,2,active,1,1,1,True,14,AB,full_generation,Mark,Luke,4389, Mark,True,Mark,2067
+p02_r2_active_role1,p02,2,active,1,1,2,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,2069
+p02_r2_active_role1,p02,2,active,1,1,2,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,2071
+p02_r2_active_role2,p02,2,active,2,2,0,False,14,BA,full_generation,Paul,Paul,6898, Paul,True,Paul,2073
+p02_r2_active_role2,p02,2,active,2,2,0,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,2075
+p02_r2_active_role2,p02,2,active,2,2,1,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2077
+p02_r2_active_role2,p02,2,active,2,2,1,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2079
+p02_r2_active_role2,p02,2,active,2,2,2,True,14,BA,full_generation,Nora,Luke,4389, Mark,True,Mark,2082
+p02_r2_active_role2,p02,2,active,2,2,2,True,14,AB,full_generation,Nora,Luke,4389, Mark,True,Mark,2084
+p02_r2_passive_role0,p02,2,passive,0,2,0,True,14,BA,full_generation,Paul,Luke,24453, Luke,True,Luke,2086
+p02_r2_passive_role0,p02,2,passive,0,2,0,True,14,AB,full_generation,Paul,Luke,6898, Paul,True,Paul,2088
+p02_r2_passive_role0,p02,2,passive,0,2,1,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2090
+p02_r2_passive_role0,p02,2,passive,0,2,1,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2092
+p02_r2_passive_role0,p02,2,passive,0,2,2,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,2094
+p02_r2_passive_role0,p02,2,passive,0,2,2,False,14,AB,full_generation,Nora,Nora,4389, Mark,True,Mark,2096
+p02_r2_passive_role1,p02,2,passive,1,0,0,False,14,BA,full_generation,Paul,Paul,6898, Paul,True,Paul,2098
+p02_r2_passive_role1,p02,2,passive,1,0,0,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,2100
+p02_r2_passive_role1,p02,2,passive,1,0,1,True,14,BA,full_generation,Mark,Luke,24453, Luke,True,Luke,2102
+p02_r2_passive_role1,p02,2,passive,1,0,1,True,14,AB,full_generation,Mark,Luke,4389, Mark,True,Mark,2104
+p02_r2_passive_role1,p02,2,passive,1,0,2,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,2106
+p02_r2_passive_role1,p02,2,passive,1,0,2,False,14,AB,full_generation,Nora,Nora,4389, Mark,True,Mark,2108
+p02_r2_passive_role2,p02,2,passive,2,1,0,False,14,BA,full_generation,Paul,Paul,6898, Paul,True,Paul,2110
+p02_r2_passive_role2,p02,2,passive,2,1,0,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,2112
+p02_r2_passive_role2,p02,2,passive,2,1,1,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2115
+p02_r2_passive_role2,p02,2,passive,2,1,1,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2117
+p02_r2_passive_role2,p02,2,passive,2,1,2,True,14,BA,full_generation,Nora,Luke,4389, Mark,True,Mark,2119
+p02_r2_passive_role2,p02,2,passive,2,1,2,True,14,AB,full_generation,Nora,Luke,4389, Mark,True,Mark,2121
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,0,True,14,BA,full_generation,Paul,Luke,24453, Luke,True,Luke,2123
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,0,True,14,AB,full_generation,Paul,Luke,6898, Paul,True,Paul,2125
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,1,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2127
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,1,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2129
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,2,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,2131
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,2,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,2133
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,0,False,14,BA,full_generation,Paul,Paul,6898, Paul,True,Paul,2135
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,0,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,2137
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,1,True,14,BA,full_generation,Mark,Luke,24453, Luke,True,Luke,2139
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,1,True,14,AB,full_generation,Mark,Luke,4389, Mark,True,Mark,2141
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,2,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,2143
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,2,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,2146
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,0,False,14,BA,full_generation,Paul,Paul,6898, Paul,True,Paul,2148
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,0,False,14,AB,full_generation,Paul,Paul,6898, Paul,True,Paul,2150
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,1,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2152
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,1,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2154
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,2,True,14,BA,full_generation,Nora,Luke,4389, Mark,True,Mark,2156
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,2,True,14,AB,full_generation,Nora,Luke,72545, Nora,True,Nora,2158
+p02_r3_active_role0,p02,3,active,0,0,0,True,14,BA,full_generation,Mark,Paul,6898, Paul,True,Paul,2160
+p02_r3_active_role0,p02,3,active,0,0,0,True,14,AB,full_generation,Mark,Paul,4389, Mark,True,Mark,2162
+p02_r3_active_role0,p02,3,active,0,0,1,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,2164
+p02_r3_active_role0,p02,3,active,0,0,1,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,2166
+p02_r3_active_role0,p02,3,active,0,0,2,False,14,BA,full_generation,Luke,Luke,72545, Nora,True,Nora,2168
+p02_r3_active_role0,p02,3,active,0,0,2,False,14,AB,full_generation,Luke,Luke,72545, Nora,True,Nora,2170
+p02_r3_active_role1,p02,3,active,1,1,0,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2172
+p02_r3_active_role1,p02,3,active,1,1,0,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2174
+p02_r3_active_role1,p02,3,active,1,1,1,True,14,BA,full_generation,Nora,Paul,6898, Paul,True,Paul,2176
+p02_r3_active_role1,p02,3,active,1,1,1,True,14,AB,full_generation,Nora,Paul,72545, Nora,True,Nora,2179
+p02_r3_active_role1,p02,3,active,1,1,2,False,14,BA,full_generation,Luke,Luke,6898, Paul,True,Paul,2181
+p02_r3_active_role1,p02,3,active,1,1,2,False,14,AB,full_generation,Luke,Luke,72545, Nora,True,Nora,2183
+p02_r3_active_role2,p02,3,active,2,2,0,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2185
+p02_r3_active_role2,p02,3,active,2,2,0,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2187
+p02_r3_active_role2,p02,3,active,2,2,1,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,2189
+p02_r3_active_role2,p02,3,active,2,2,1,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,2191
+p02_r3_active_role2,p02,3,active,2,2,2,True,14,BA,full_generation,Luke,Paul,72545, Nora,True,Nora,2193
+p02_r3_active_role2,p02,3,active,2,2,2,True,14,AB,full_generation,Luke,Paul,72545, Nora,True,Nora,2195
+p02_r3_passive_role0,p02,3,passive,0,2,0,True,14,BA,full_generation,Mark,Paul,6898, Paul,True,Paul,2197
+p02_r3_passive_role0,p02,3,passive,0,2,0,True,14,AB,full_generation,Mark,Paul,4389, Mark,True,Mark,2199
+p02_r3_passive_role0,p02,3,passive,0,2,1,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,2201
+p02_r3_passive_role0,p02,3,passive,0,2,1,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,2203
+p02_r3_passive_role0,p02,3,passive,0,2,2,False,14,BA,full_generation,Luke,Luke,72545, Nora,True,Nora,2205
+p02_r3_passive_role0,p02,3,passive,0,2,2,False,14,AB,full_generation,Luke,Luke,72545, Nora,True,Nora,2207
+p02_r3_passive_role1,p02,3,passive,1,0,0,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2210
+p02_r3_passive_role1,p02,3,passive,1,0,0,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2212
+p02_r3_passive_role1,p02,3,passive,1,0,1,True,14,BA,full_generation,Nora,Paul,6898, Paul,True,Paul,2214
+p02_r3_passive_role1,p02,3,passive,1,0,1,True,14,AB,full_generation,Nora,Paul,72545, Nora,True,Nora,2216
+p02_r3_passive_role1,p02,3,passive,1,0,2,False,14,BA,full_generation,Luke,Luke,6898, Paul,True,Paul,2218
+p02_r3_passive_role1,p02,3,passive,1,0,2,False,14,AB,full_generation,Luke,Luke,72545, Nora,True,Nora,2220
+p02_r3_passive_role2,p02,3,passive,2,1,0,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2222
+p02_r3_passive_role2,p02,3,passive,2,1,0,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2224
+p02_r3_passive_role2,p02,3,passive,2,1,1,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,2226
+p02_r3_passive_role2,p02,3,passive,2,1,1,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,2228
+p02_r3_passive_role2,p02,3,passive,2,1,2,True,14,BA,full_generation,Luke,Paul,72545, Nora,True,Nora,2230
+p02_r3_passive_role2,p02,3,passive,2,1,2,True,14,AB,full_generation,Luke,Paul,72545, Nora,True,Nora,2232
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,0,True,14,BA,full_generation,Mark,Paul,6898, Paul,True,Paul,2234
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,0,True,14,AB,full_generation,Mark,Paul,4389, Mark,True,Mark,2236
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,1,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,2238
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,1,False,14,AB,full_generation,Nora,Nora,4389, Mark,True,Mark,2240
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,2,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,2243
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,2,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,2245
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,0,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2247
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,0,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2249
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,1,True,14,BA,full_generation,Nora,Paul,6898, Paul,True,Paul,2251
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,1,True,14,AB,full_generation,Nora,Paul,4389, Mark,True,Mark,2253
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,2,False,14,BA,full_generation,Luke,Luke,24453, Luke,True,Luke,2255
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,2,False,14,AB,full_generation,Luke,Luke,24453, Luke,True,Luke,2257
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,0,False,14,BA,full_generation,Mark,Mark,4389, Mark,True,Mark,2259
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,0,False,14,AB,full_generation,Mark,Mark,4389, Mark,True,Mark,2261
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,1,False,14,BA,full_generation,Nora,Nora,72545, Nora,True,Nora,2263
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,1,False,14,AB,full_generation,Nora,Nora,72545, Nora,True,Nora,2265
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,2,True,14,BA,full_generation,Luke,Paul,6898, Paul,True,Paul,2267
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,2,True,14,AB,full_generation,Luke,Paul,24453, Luke,True,Luke,2269
+p01_r0_active_role0,p01,0,active,0,0,0,True,21,BA,next_token_only,Grace,Kate,29201,,,,2271
+p01_r0_active_role0,p01,0,active,0,0,0,True,21,AB,next_token_only,Grace,Kate,31071,,,,2272
+p01_r0_active_role0,p01,0,active,0,0,1,False,21,BA,next_token_only,Helen,Helen,42781,,,,2274
+p01_r0_active_role0,p01,0,active,0,0,1,False,21,AB,next_token_only,Helen,Helen,42781,,,,2275
+p01_r0_active_role0,p01,0,active,0,0,2,False,21,BA,next_token_only,Jack,Jack,42781,,,,2276
+p01_r0_active_role0,p01,0,active,0,0,2,False,21,AB,next_token_only,Jack,Jack,42781,,,,2277
+p01_r0_active_role1,p01,0,active,1,1,0,False,21,BA,next_token_only,Grace,Grace,31071,,,,2278
+p01_r0_active_role1,p01,0,active,1,1,0,False,21,AB,next_token_only,Grace,Grace,31071,,,,2279
+p01_r0_active_role1,p01,0,active,1,1,1,True,21,BA,next_token_only,Helen,Kate,29201,,,,2280
+p01_r0_active_role1,p01,0,active,1,1,1,True,21,AB,next_token_only,Helen,Kate,42781,,,,2281
+p01_r0_active_role1,p01,0,active,1,1,2,False,21,BA,next_token_only,Jack,Jack,29201,,,,2282
+p01_r0_active_role1,p01,0,active,1,1,2,False,21,AB,next_token_only,Jack,Jack,42781,,,,2283
+p01_r0_active_role2,p01,0,active,2,2,0,False,21,BA,next_token_only,Grace,Grace,31071,,,,2284
+p01_r0_active_role2,p01,0,active,2,2,0,False,21,AB,next_token_only,Grace,Grace,31071,,,,2285
+p01_r0_active_role2,p01,0,active,2,2,1,False,21,BA,next_token_only,Helen,Helen,42781,,,,2286
+p01_r0_active_role2,p01,0,active,2,2,1,False,21,AB,next_token_only,Helen,Helen,42781,,,,2287
+p01_r0_active_role2,p01,0,active,2,2,2,True,21,BA,next_token_only,Jack,Kate,42781,,,,2288
+p01_r0_active_role2,p01,0,active,2,2,2,True,21,AB,next_token_only,Jack,Kate,42781,,,,2289
+p01_r0_passive_role0,p01,0,passive,0,2,0,True,21,BA,next_token_only,Grace,Kate,29201,,,,2290
+p01_r0_passive_role0,p01,0,passive,0,2,0,True,21,AB,next_token_only,Grace,Kate,31071,,,,2291
+p01_r0_passive_role0,p01,0,passive,0,2,1,False,21,BA,next_token_only,Helen,Helen,42781,,,,2292
+p01_r0_passive_role0,p01,0,passive,0,2,1,False,21,AB,next_token_only,Helen,Helen,42781,,,,2293
+p01_r0_passive_role0,p01,0,passive,0,2,2,False,21,BA,next_token_only,Jack,Jack,7607,,,,2294
+p01_r0_passive_role0,p01,0,passive,0,2,2,False,21,AB,next_token_only,Jack,Jack,7607,,,,2295
+p01_r0_passive_role1,p01,0,passive,1,0,0,False,21,BA,next_token_only,Grace,Grace,31071,,,,2296
+p01_r0_passive_role1,p01,0,passive,1,0,0,False,21,AB,next_token_only,Grace,Grace,31071,,,,2297
+p01_r0_passive_role1,p01,0,passive,1,0,1,True,21,BA,next_token_only,Helen,Kate,29201,,,,2298
+p01_r0_passive_role1,p01,0,passive,1,0,1,True,21,AB,next_token_only,Helen,Kate,42781,,,,2299
+p01_r0_passive_role1,p01,0,passive,1,0,2,False,21,BA,next_token_only,Jack,Jack,7607,,,,2300
+p01_r0_passive_role1,p01,0,passive,1,0,2,False,21,AB,next_token_only,Jack,Jack,7607,,,,2301
+p01_r0_passive_role2,p01,0,passive,2,1,0,False,21,BA,next_token_only,Grace,Grace,31071,,,,2302
+p01_r0_passive_role2,p01,0,passive,2,1,0,False,21,AB,next_token_only,Grace,Grace,31071,,,,2303
+p01_r0_passive_role2,p01,0,passive,2,1,1,False,21,BA,next_token_only,Helen,Helen,42781,,,,2304
+p01_r0_passive_role2,p01,0,passive,2,1,1,False,21,AB,next_token_only,Helen,Helen,42781,,,,2306
+p01_r0_passive_role2,p01,0,passive,2,1,2,True,21,BA,next_token_only,Jack,Kate,42781,,,,2307
+p01_r0_passive_role2,p01,0,passive,2,1,2,True,21,AB,next_token_only,Jack,Kate,7607,,,,2308
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,0,True,21,BA,next_token_only,Grace,Kate,29201,,,,2309
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,0,True,21,AB,next_token_only,Grace,Kate,31071,,,,2310
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,1,False,21,BA,next_token_only,Helen,Helen,42781,,,,2311
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,1,False,21,AB,next_token_only,Helen,Helen,42781,,,,2312
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,2,False,21,BA,next_token_only,Jack,Jack,42781,,,,2313
+p01_r0_goal_fronted_role0,p01,0,goal_fronted,0,1,2,False,21,AB,next_token_only,Jack,Jack,42781,,,,2314
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,0,False,21,BA,next_token_only,Grace,Grace,31071,,,,2315
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,0,False,21,AB,next_token_only,Grace,Grace,31071,,,,2316
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,1,True,21,BA,next_token_only,Helen,Kate,29201,,,,2317
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,1,True,21,AB,next_token_only,Helen,Kate,42781,,,,2318
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,2,False,21,BA,next_token_only,Jack,Jack,29201,,,,2319
+p01_r0_goal_fronted_role1,p01,0,goal_fronted,1,2,2,False,21,AB,next_token_only,Jack,Jack,42781,,,,2320
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,0,False,21,BA,next_token_only,Grace,Grace,31071,,,,2321
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,0,False,21,AB,next_token_only,Grace,Grace,31071,,,,2322
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,1,False,21,BA,next_token_only,Helen,Helen,42781,,,,2323
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,1,False,21,AB,next_token_only,Helen,Helen,42781,,,,2324
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,2,True,21,BA,next_token_only,Jack,Kate,42781,,,,2325
+p01_r0_goal_fronted_role2,p01,0,goal_fronted,2,0,2,True,21,AB,next_token_only,Jack,Kate,31071,,,,2326
+p01_r1_active_role0,p01,1,active,0,0,0,True,21,BA,next_token_only,Helen,Grace,31071,,,,2327
+p01_r1_active_role0,p01,1,active,0,0,0,True,21,AB,next_token_only,Helen,Grace,42781,,,,2328
+p01_r1_active_role0,p01,1,active,0,0,1,False,21,BA,next_token_only,Jack,Jack,7607,,,,2329
+p01_r1_active_role0,p01,1,active,0,0,1,False,21,AB,next_token_only,Jack,Jack,7607,,,,2330
+p01_r1_active_role0,p01,1,active,0,0,2,False,21,BA,next_token_only,Kate,Kate,7607,,,,2331
+p01_r1_active_role0,p01,1,active,0,0,2,False,21,AB,next_token_only,Kate,Kate,7607,,,,2332
+p01_r1_active_role1,p01,1,active,1,1,0,False,21,BA,next_token_only,Helen,Helen,42781,,,,2333
+p01_r1_active_role1,p01,1,active,1,1,0,False,21,AB,next_token_only,Helen,Helen,42781,,,,2334
+p01_r1_active_role1,p01,1,active,1,1,1,True,21,BA,next_token_only,Jack,Grace,31071,,,,2335
+p01_r1_active_role1,p01,1,active,1,1,1,True,21,AB,next_token_only,Jack,Grace,7607,,,,2336
+p01_r1_active_role1,p01,1,active,1,1,2,False,21,BA,next_token_only,Kate,Kate,31071,,,,2338
+p01_r1_active_role1,p01,1,active,1,1,2,False,21,AB,next_token_only,Kate,Kate,29201,,,,2339
+p01_r1_active_role2,p01,1,active,2,2,0,False,21,BA,next_token_only,Helen,Helen,42781,,,,2340
+p01_r1_active_role2,p01,1,active,2,2,0,False,21,AB,next_token_only,Helen,Helen,42781,,,,2341
+p01_r1_active_role2,p01,1,active,2,2,1,False,21,BA,next_token_only,Jack,Jack,7607,,,,2342
+p01_r1_active_role2,p01,1,active,2,2,1,False,21,AB,next_token_only,Jack,Jack,7607,,,,2343
+p01_r1_active_role2,p01,1,active,2,2,2,True,21,BA,next_token_only,Kate,Grace,7607,,,,2344
+p01_r1_active_role2,p01,1,active,2,2,2,True,21,AB,next_token_only,Kate,Grace,7607,,,,2345
+p01_r1_passive_role0,p01,1,passive,0,2,0,True,21,BA,next_token_only,Helen,Grace,31071,,,,2346
+p01_r1_passive_role0,p01,1,passive,0,2,0,True,21,AB,next_token_only,Helen,Grace,42781,,,,2347
+p01_r1_passive_role0,p01,1,passive,0,2,1,False,21,BA,next_token_only,Jack,Jack,7607,,,,2348
+p01_r1_passive_role0,p01,1,passive,0,2,1,False,21,AB,next_token_only,Jack,Jack,7607,,,,2349
+p01_r1_passive_role0,p01,1,passive,0,2,2,False,21,BA,next_token_only,Kate,Kate,29201,,,,2350
+p01_r1_passive_role0,p01,1,passive,0,2,2,False,21,AB,next_token_only,Kate,Kate,29201,,,,2351
+p01_r1_passive_role1,p01,1,passive,1,0,0,False,21,BA,next_token_only,Helen,Helen,42781,,,,2352
+p01_r1_passive_role1,p01,1,passive,1,0,0,False,21,AB,next_token_only,Helen,Helen,42781,,,,2353
+p01_r1_passive_role1,p01,1,passive,1,0,1,True,21,BA,next_token_only,Jack,Grace,31071,,,,2354
+p01_r1_passive_role1,p01,1,passive,1,0,1,True,21,AB,next_token_only,Jack,Grace,7607,,,,2355
+p01_r1_passive_role1,p01,1,passive,1,0,2,False,21,BA,next_token_only,Kate,Kate,29201,,,,2356
+p01_r1_passive_role1,p01,1,passive,1,0,2,False,21,AB,next_token_only,Kate,Kate,29201,,,,2357
+p01_r1_passive_role2,p01,1,passive,2,1,0,False,21,BA,next_token_only,Helen,Helen,42781,,,,2358
+p01_r1_passive_role2,p01,1,passive,2,1,0,False,21,AB,next_token_only,Helen,Helen,42781,,,,2359
+p01_r1_passive_role2,p01,1,passive,2,1,1,False,21,BA,next_token_only,Jack,Jack,7607,,,,2360
+p01_r1_passive_role2,p01,1,passive,2,1,1,False,21,AB,next_token_only,Jack,Jack,7607,,,,2361
+p01_r1_passive_role2,p01,1,passive,2,1,2,True,21,BA,next_token_only,Kate,Grace,31071,,,,2362
+p01_r1_passive_role2,p01,1,passive,2,1,2,True,21,AB,next_token_only,Kate,Grace,29201,,,,2363
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,0,True,21,BA,next_token_only,Helen,Grace,31071,,,,2364
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,0,True,21,AB,next_token_only,Helen,Grace,42781,,,,2365
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,1,False,21,BA,next_token_only,Jack,Jack,7607,,,,2366
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,1,False,21,AB,next_token_only,Jack,Jack,7607,,,,2367
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,2,False,21,BA,next_token_only,Kate,Kate,29201,,,,2368
+p01_r1_goal_fronted_role0,p01,1,goal_fronted,0,1,2,False,21,AB,next_token_only,Kate,Kate,29201,,,,2370
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,0,False,21,BA,next_token_only,Helen,Helen,42781,,,,2371
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,0,False,21,AB,next_token_only,Helen,Helen,42781,,,,2372
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,1,True,21,BA,next_token_only,Jack,Grace,31071,,,,2373
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,1,True,21,AB,next_token_only,Jack,Grace,7607,,,,2374
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,2,False,21,BA,next_token_only,Kate,Kate,29201,,,,2375
+p01_r1_goal_fronted_role1,p01,1,goal_fronted,1,2,2,False,21,AB,next_token_only,Kate,Kate,29201,,,,2376
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,0,False,21,BA,next_token_only,Helen,Helen,42781,,,,2377
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,0,False,21,AB,next_token_only,Helen,Helen,42781,,,,2378
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,1,False,21,BA,next_token_only,Jack,Jack,7607,,,,2379
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,1,False,21,AB,next_token_only,Jack,Jack,7607,,,,2380
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,2,True,21,BA,next_token_only,Kate,Grace,31071,,,,2381
+p01_r1_goal_fronted_role2,p01,1,goal_fronted,2,0,2,True,21,AB,next_token_only,Kate,Grace,29201,,,,2382
+p01_r2_active_role0,p01,2,active,0,0,0,True,21,BA,next_token_only,Jack,Helen,42781,,,,2383
+p01_r2_active_role0,p01,2,active,0,0,0,True,21,AB,next_token_only,Jack,Helen,7607,,,,2384
+p01_r2_active_role0,p01,2,active,0,0,1,False,21,BA,next_token_only,Kate,Kate,29201,,,,2385
+p01_r2_active_role0,p01,2,active,0,0,1,False,21,AB,next_token_only,Kate,Kate,29201,,,,2386
+p01_r2_active_role0,p01,2,active,0,0,2,False,21,BA,next_token_only,Grace,Grace,29201,,,,2387
+p01_r2_active_role0,p01,2,active,0,0,2,False,21,AB,next_token_only,Grace,Grace,29201,,,,2388
+p01_r2_active_role1,p01,2,active,1,1,0,False,21,BA,next_token_only,Jack,Jack,7607,,,,2389
+p01_r2_active_role1,p01,2,active,1,1,0,False,21,AB,next_token_only,Jack,Jack,7607,,,,2390
+p01_r2_active_role1,p01,2,active,1,1,1,True,21,BA,next_token_only,Kate,Helen,42781,,,,2391
+p01_r2_active_role1,p01,2,active,1,1,1,True,21,AB,next_token_only,Kate,Helen,29201,,,,2392
+p01_r2_active_role1,p01,2,active,1,1,2,False,21,BA,next_token_only,Grace,Grace,42781,,,,2393
+p01_r2_active_role1,p01,2,active,1,1,2,False,21,AB,next_token_only,Grace,Grace,29201,,,,2394
+p01_r2_active_role2,p01,2,active,2,2,0,False,21,BA,next_token_only,Jack,Jack,7607,,,,2395
+p01_r2_active_role2,p01,2,active,2,2,0,False,21,AB,next_token_only,Jack,Jack,7607,,,,2396
+p01_r2_active_role2,p01,2,active,2,2,1,False,21,BA,next_token_only,Kate,Kate,29201,,,,2397
+p01_r2_active_role2,p01,2,active,2,2,1,False,21,AB,next_token_only,Kate,Kate,29201,,,,2398
+p01_r2_active_role2,p01,2,active,2,2,2,True,21,BA,next_token_only,Grace,Helen,29201,,,,2399
+p01_r2_active_role2,p01,2,active,2,2,2,True,21,AB,next_token_only,Grace,Helen,29201,,,,2400
+p01_r2_passive_role0,p01,2,passive,0,2,0,True,21,BA,next_token_only,Jack,Helen,42781,,,,2402
+p01_r2_passive_role0,p01,2,passive,0,2,0,True,21,AB,next_token_only,Jack,Helen,7607,,,,2403
+p01_r2_passive_role0,p01,2,passive,0,2,1,False,21,BA,next_token_only,Kate,Kate,29201,,,,2404
+p01_r2_passive_role0,p01,2,passive,0,2,1,False,21,AB,next_token_only,Kate,Kate,29201,,,,2405
+p01_r2_passive_role0,p01,2,passive,0,2,2,False,21,BA,next_token_only,Grace,Grace,31071,,,,2406
+p01_r2_passive_role0,p01,2,passive,0,2,2,False,21,AB,next_token_only,Grace,Grace,31071,,,,2407
+p01_r2_passive_role1,p01,2,passive,1,0,0,False,21,BA,next_token_only,Jack,Jack,7607,,,,2408
+p01_r2_passive_role1,p01,2,passive,1,0,0,False,21,AB,next_token_only,Jack,Jack,7607,,,,2409
+p01_r2_passive_role1,p01,2,passive,1,0,1,True,21,BA,next_token_only,Kate,Helen,42781,,,,2410
+p01_r2_passive_role1,p01,2,passive,1,0,1,True,21,AB,next_token_only,Kate,Helen,29201,,,,2411
+p01_r2_passive_role1,p01,2,passive,1,0,2,False,21,BA,next_token_only,Grace,Grace,31071,,,,2412
+p01_r2_passive_role1,p01,2,passive,1,0,2,False,21,AB,next_token_only,Grace,Grace,31071,,,,2413
+p01_r2_passive_role2,p01,2,passive,2,1,0,False,21,BA,next_token_only,Jack,Jack,7607,,,,2414
+p01_r2_passive_role2,p01,2,passive,2,1,0,False,21,AB,next_token_only,Jack,Jack,7607,,,,2415
+p01_r2_passive_role2,p01,2,passive,2,1,1,False,21,BA,next_token_only,Kate,Kate,29201,,,,2416
+p01_r2_passive_role2,p01,2,passive,2,1,1,False,21,AB,next_token_only,Kate,Kate,29201,,,,2417
+p01_r2_passive_role2,p01,2,passive,2,1,2,True,21,BA,next_token_only,Grace,Helen,42781,,,,2418
+p01_r2_passive_role2,p01,2,passive,2,1,2,True,21,AB,next_token_only,Grace,Helen,31071,,,,2419
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,0,True,21,BA,next_token_only,Jack,Helen,42781,,,,2420
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,0,True,21,AB,next_token_only,Jack,Helen,7607,,,,2421
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,1,False,21,BA,next_token_only,Kate,Kate,29201,,,,2422
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,1,False,21,AB,next_token_only,Kate,Kate,29201,,,,2423
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,2,False,21,BA,next_token_only,Grace,Grace,31071,,,,2424
+p01_r2_goal_fronted_role0,p01,2,goal_fronted,0,1,2,False,21,AB,next_token_only,Grace,Grace,31071,,,,2425
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,0,False,21,BA,next_token_only,Jack,Jack,7607,,,,2426
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,0,False,21,AB,next_token_only,Jack,Jack,7607,,,,2427
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,1,True,21,BA,next_token_only,Kate,Helen,42781,,,,2428
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,1,True,21,AB,next_token_only,Kate,Helen,29201,,,,2429
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,2,False,21,BA,next_token_only,Grace,Grace,31071,,,,2430
+p01_r2_goal_fronted_role1,p01,2,goal_fronted,1,2,2,False,21,AB,next_token_only,Grace,Grace,31071,,,,2431
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,0,False,21,BA,next_token_only,Jack,Jack,7607,,,,2432
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,0,False,21,AB,next_token_only,Jack,Jack,7607,,,,2434
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,1,False,21,BA,next_token_only,Kate,Kate,29201,,,,2435
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,1,False,21,AB,next_token_only,Kate,Kate,7607,,,,2436
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,2,True,21,BA,next_token_only,Grace,Helen,42781,,,,2437
+p01_r2_goal_fronted_role2,p01,2,goal_fronted,2,0,2,True,21,AB,next_token_only,Grace,Helen,31071,,,,2438
+p01_r3_active_role0,p01,3,active,0,0,0,True,21,BA,next_token_only,Kate,Jack,7607,,,,2439
+p01_r3_active_role0,p01,3,active,0,0,0,True,21,AB,next_token_only,Kate,Jack,29201,,,,2440
+p01_r3_active_role0,p01,3,active,0,0,1,False,21,BA,next_token_only,Grace,Grace,31071,,,,2441
+p01_r3_active_role0,p01,3,active,0,0,1,False,21,AB,next_token_only,Grace,Grace,31071,,,,2442
+p01_r3_active_role0,p01,3,active,0,0,2,False,21,BA,next_token_only,Helen,Helen,31071,,,,2443
+p01_r3_active_role0,p01,3,active,0,0,2,False,21,AB,next_token_only,Helen,Helen,31071,,,,2444
+p01_r3_active_role1,p01,3,active,1,1,0,False,21,BA,next_token_only,Kate,Kate,29201,,,,2445
+p01_r3_active_role1,p01,3,active,1,1,0,False,21,AB,next_token_only,Kate,Kate,29201,,,,2446
+p01_r3_active_role1,p01,3,active,1,1,1,True,21,BA,next_token_only,Grace,Jack,7607,,,,2447
+p01_r3_active_role1,p01,3,active,1,1,1,True,21,AB,next_token_only,Grace,Jack,31071,,,,2448
+p01_r3_active_role1,p01,3,active,1,1,2,False,21,BA,next_token_only,Helen,Helen,7607,,,,2449
+p01_r3_active_role1,p01,3,active,1,1,2,False,21,AB,next_token_only,Helen,Helen,31071,,,,2450
+p01_r3_active_role2,p01,3,active,2,2,0,False,21,BA,next_token_only,Kate,Kate,29201,,,,2451
+p01_r3_active_role2,p01,3,active,2,2,0,False,21,AB,next_token_only,Kate,Kate,29201,,,,2452
+p01_r3_active_role2,p01,3,active,2,2,1,False,21,BA,next_token_only,Grace,Grace,31071,,,,2453
+p01_r3_active_role2,p01,3,active,2,2,1,False,21,AB,next_token_only,Grace,Grace,31071,,,,2454
+p01_r3_active_role2,p01,3,active,2,2,2,True,21,BA,next_token_only,Helen,Jack,31071,,,,2455
+p01_r3_active_role2,p01,3,active,2,2,2,True,21,AB,next_token_only,Helen,Jack,31071,,,,2456
+p01_r3_passive_role0,p01,3,passive,0,2,0,True,21,BA,next_token_only,Kate,Jack,7607,,,,2457
+p01_r3_passive_role0,p01,3,passive,0,2,0,True,21,AB,next_token_only,Kate,Jack,31071,,,,2458
+p01_r3_passive_role0,p01,3,passive,0,2,1,False,21,BA,next_token_only,Grace,Grace,31071,,,,2459
+p01_r3_passive_role0,p01,3,passive,0,2,1,False,21,AB,next_token_only,Grace,Grace,31071,,,,2460
+p01_r3_passive_role0,p01,3,passive,0,2,2,False,21,BA,next_token_only,Helen,Helen,42781,,,,2461
+p01_r3_passive_role0,p01,3,passive,0,2,2,False,21,AB,next_token_only,Helen,Helen,42781,,,,2462
+p01_r3_passive_role1,p01,3,passive,1,0,0,False,21,BA,next_token_only,Kate,Kate,29201,,,,2463
+p01_r3_passive_role1,p01,3,passive,1,0,0,False,21,AB,next_token_only,Kate,Kate,29201,,,,2464
+p01_r3_passive_role1,p01,3,passive,1,0,1,True,21,BA,next_token_only,Grace,Jack,7607,,,,2466
+p01_r3_passive_role1,p01,3,passive,1,0,1,True,21,AB,next_token_only,Grace,Jack,31071,,,,2467
+p01_r3_passive_role1,p01,3,passive,1,0,2,False,21,BA,next_token_only,Helen,Helen,42781,,,,2468
+p01_r3_passive_role1,p01,3,passive,1,0,2,False,21,AB,next_token_only,Helen,Helen,42781,,,,2469
+p01_r3_passive_role2,p01,3,passive,2,1,0,False,21,BA,next_token_only,Kate,Kate,31071,,,,2470
+p01_r3_passive_role2,p01,3,passive,2,1,0,False,21,AB,next_token_only,Kate,Kate,31071,,,,2471
+p01_r3_passive_role2,p01,3,passive,2,1,1,False,21,BA,next_token_only,Grace,Grace,31071,,,,2472
+p01_r3_passive_role2,p01,3,passive,2,1,1,False,21,AB,next_token_only,Grace,Grace,31071,,,,2473
+p01_r3_passive_role2,p01,3,passive,2,1,2,True,21,BA,next_token_only,Helen,Jack,7607,,,,2474
+p01_r3_passive_role2,p01,3,passive,2,1,2,True,21,AB,next_token_only,Helen,Jack,31071,,,,2475
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,0,True,21,BA,next_token_only,Kate,Jack,7607,,,,2476
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,0,True,21,AB,next_token_only,Kate,Jack,7607,,,,2477
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,1,False,21,BA,next_token_only,Grace,Grace,31071,,,,2478
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,1,False,21,AB,next_token_only,Grace,Grace,31071,,,,2479
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,2,False,21,BA,next_token_only,Helen,Helen,42781,,,,2480
+p01_r3_goal_fronted_role0,p01,3,goal_fronted,0,1,2,False,21,AB,next_token_only,Helen,Helen,42781,,,,2481
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,0,False,21,BA,next_token_only,Kate,Kate,29201,,,,2482
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,0,False,21,AB,next_token_only,Kate,Kate,29201,,,,2483
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,1,True,21,BA,next_token_only,Grace,Jack,29201,,,,2484
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,1,True,21,AB,next_token_only,Grace,Jack,29201,,,,2485
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,2,False,21,BA,next_token_only,Helen,Helen,42781,,,,2486
+p01_r3_goal_fronted_role1,p01,3,goal_fronted,1,2,2,False,21,AB,next_token_only,Helen,Helen,42781,,,,2487
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,0,False,21,BA,next_token_only,Kate,Kate,29201,,,,2488
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,0,False,21,AB,next_token_only,Kate,Kate,29201,,,,2489
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,1,False,21,BA,next_token_only,Grace,Grace,31071,,,,2490
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,1,False,21,AB,next_token_only,Grace,Grace,31071,,,,2491
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,2,True,21,BA,next_token_only,Helen,Jack,7607,,,,2492
+p01_r3_goal_fronted_role2,p01,3,goal_fronted,2,0,2,True,21,AB,next_token_only,Helen,Jack,42781,,,,2493
+p02_r0_active_role0,p02,0,active,0,0,0,True,21,BA,next_token_only,Nora,Mark,4389,,,,2494
+p02_r0_active_role0,p02,0,active,0,0,0,True,21,AB,next_token_only,Nora,Mark,72545,,,,2495
+p02_r0_active_role0,p02,0,active,0,0,1,False,21,BA,next_token_only,Luke,Luke,24453,,,,2496
+p02_r0_active_role0,p02,0,active,0,0,1,False,21,AB,next_token_only,Luke,Luke,24453,,,,2498
+p02_r0_active_role0,p02,0,active,0,0,2,False,21,BA,next_token_only,Paul,Paul,24453,,,,2499
+p02_r0_active_role0,p02,0,active,0,0,2,False,21,AB,next_token_only,Paul,Paul,24453,,,,2500
+p02_r0_active_role1,p02,0,active,1,1,0,False,21,BA,next_token_only,Nora,Nora,72545,,,,2501
+p02_r0_active_role1,p02,0,active,1,1,0,False,21,AB,next_token_only,Nora,Nora,72545,,,,2502
+p02_r0_active_role1,p02,0,active,1,1,1,True,21,BA,next_token_only,Luke,Mark,4389,,,,2503
+p02_r0_active_role1,p02,0,active,1,1,1,True,21,AB,next_token_only,Luke,Mark,24453,,,,2504
+p02_r0_active_role1,p02,0,active,1,1,2,False,21,BA,next_token_only,Paul,Paul,4389,,,,2505
+p02_r0_active_role1,p02,0,active,1,1,2,False,21,AB,next_token_only,Paul,Paul,24453,,,,2506
+p02_r0_active_role2,p02,0,active,2,2,0,False,21,BA,next_token_only,Nora,Nora,72545,,,,2507
+p02_r0_active_role2,p02,0,active,2,2,0,False,21,AB,next_token_only,Nora,Nora,72545,,,,2508
+p02_r0_active_role2,p02,0,active,2,2,1,False,21,BA,next_token_only,Luke,Luke,24453,,,,2509
+p02_r0_active_role2,p02,0,active,2,2,1,False,21,AB,next_token_only,Luke,Luke,24453,,,,2510
+p02_r0_active_role2,p02,0,active,2,2,2,True,21,BA,next_token_only,Paul,Mark,24453,,,,2511
+p02_r0_active_role2,p02,0,active,2,2,2,True,21,AB,next_token_only,Paul,Mark,24453,,,,2512
+p02_r0_passive_role0,p02,0,passive,0,2,0,True,21,BA,next_token_only,Nora,Mark,4389,,,,2513
+p02_r0_passive_role0,p02,0,passive,0,2,0,True,21,AB,next_token_only,Nora,Mark,72545,,,,2514
+p02_r0_passive_role0,p02,0,passive,0,2,1,False,21,BA,next_token_only,Luke,Luke,24453,,,,2515
+p02_r0_passive_role0,p02,0,passive,0,2,1,False,21,AB,next_token_only,Luke,Luke,24453,,,,2516
+p02_r0_passive_role0,p02,0,passive,0,2,2,False,21,BA,next_token_only,Paul,Paul,24453,,,,2517
+p02_r0_passive_role0,p02,0,passive,0,2,2,False,21,AB,next_token_only,Paul,Paul,24453,,,,2518
+p02_r0_passive_role1,p02,0,passive,1,0,0,False,21,BA,next_token_only,Nora,Nora,72545,,,,2519
+p02_r0_passive_role1,p02,0,passive,1,0,0,False,21,AB,next_token_only,Nora,Nora,72545,,,,2520
+p02_r0_passive_role1,p02,0,passive,1,0,1,True,21,BA,next_token_only,Luke,Mark,4389,,,,2521
+p02_r0_passive_role1,p02,0,passive,1,0,1,True,21,AB,next_token_only,Luke,Mark,24453,,,,2522
+p02_r0_passive_role1,p02,0,passive,1,0,2,False,21,BA,next_token_only,Paul,Paul,4389,,,,2523
+p02_r0_passive_role1,p02,0,passive,1,0,2,False,21,AB,next_token_only,Paul,Paul,24453,,,,2524
+p02_r0_passive_role2,p02,0,passive,2,1,0,False,21,BA,next_token_only,Nora,Nora,72545,,,,2525
+p02_r0_passive_role2,p02,0,passive,2,1,0,False,21,AB,next_token_only,Nora,Nora,72545,,,,2526
+p02_r0_passive_role2,p02,0,passive,2,1,1,False,21,BA,next_token_only,Luke,Luke,24453,,,,2527
+p02_r0_passive_role2,p02,0,passive,2,1,1,False,21,AB,next_token_only,Luke,Luke,24453,,,,2528
+p02_r0_passive_role2,p02,0,passive,2,1,2,True,21,BA,next_token_only,Paul,Mark,24453,,,,2530
+p02_r0_passive_role2,p02,0,passive,2,1,2,True,21,AB,next_token_only,Paul,Mark,24453,,,,2531
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,0,True,21,BA,next_token_only,Nora,Mark,72545,,,,2532
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,0,True,21,AB,next_token_only,Nora,Mark,4389,,,,2533
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,1,False,21,BA,next_token_only,Luke,Luke,24453,,,,2534
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,1,False,21,AB,next_token_only,Luke,Luke,24453,,,,2535
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,2,False,21,BA,next_token_only,Paul,Paul,6898,,,,2536
+p02_r0_goal_fronted_role0,p02,0,goal_fronted,0,1,2,False,21,AB,next_token_only,Paul,Paul,6898,,,,2537
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,0,False,21,BA,next_token_only,Nora,Nora,72545,,,,2538
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,0,False,21,AB,next_token_only,Nora,Nora,72545,,,,2539
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,1,True,21,BA,next_token_only,Luke,Mark,72545,,,,2540
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,1,True,21,AB,next_token_only,Luke,Mark,24453,,,,2541
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,2,False,21,BA,next_token_only,Paul,Paul,6898,,,,2542
+p02_r0_goal_fronted_role1,p02,0,goal_fronted,1,2,2,False,21,AB,next_token_only,Paul,Paul,6898,,,,2543
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,0,False,21,BA,next_token_only,Nora,Nora,72545,,,,2544
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,0,False,21,AB,next_token_only,Nora,Nora,72545,,,,2545
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,1,False,21,BA,next_token_only,Luke,Luke,24453,,,,2546
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,1,False,21,AB,next_token_only,Luke,Luke,24453,,,,2547
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,2,True,21,BA,next_token_only,Paul,Mark,4389,,,,2548
+p02_r0_goal_fronted_role2,p02,0,goal_fronted,2,0,2,True,21,AB,next_token_only,Paul,Mark,6898,,,,2549
+p02_r1_active_role0,p02,1,active,0,0,0,True,21,BA,next_token_only,Luke,Nora,72545,,,,2550
+p02_r1_active_role0,p02,1,active,0,0,0,True,21,AB,next_token_only,Luke,Nora,24453,,,,2551
+p02_r1_active_role0,p02,1,active,0,0,1,False,21,BA,next_token_only,Paul,Paul,6898,,,,2552
+p02_r1_active_role0,p02,1,active,0,0,1,False,21,AB,next_token_only,Paul,Paul,6898,,,,2553
+p02_r1_active_role0,p02,1,active,0,0,2,False,21,BA,next_token_only,Mark,Mark,6898,,,,2554
+p02_r1_active_role0,p02,1,active,0,0,2,False,21,AB,next_token_only,Mark,Mark,6898,,,,2555
+p02_r1_active_role1,p02,1,active,1,1,0,False,21,BA,next_token_only,Luke,Luke,24453,,,,2556
+p02_r1_active_role1,p02,1,active,1,1,0,False,21,AB,next_token_only,Luke,Luke,24453,,,,2557
+p02_r1_active_role1,p02,1,active,1,1,1,True,21,BA,next_token_only,Paul,Nora,24453,,,,2558
+p02_r1_active_role1,p02,1,active,1,1,1,True,21,AB,next_token_only,Paul,Nora,6898,,,,2559
+p02_r1_active_role1,p02,1,active,1,1,2,False,21,BA,next_token_only,Mark,Mark,4389,,,,2560
+p02_r1_active_role1,p02,1,active,1,1,2,False,21,AB,next_token_only,Mark,Mark,6898,,,,2562
+p02_r1_active_role2,p02,1,active,2,2,0,False,21,BA,next_token_only,Luke,Luke,24453,,,,2563
+p02_r1_active_role2,p02,1,active,2,2,0,False,21,AB,next_token_only,Luke,Luke,24453,,,,2564
+p02_r1_active_role2,p02,1,active,2,2,1,False,21,BA,next_token_only,Paul,Paul,6898,,,,2565
+p02_r1_active_role2,p02,1,active,2,2,1,False,21,AB,next_token_only,Paul,Paul,6898,,,,2566
+p02_r1_active_role2,p02,1,active,2,2,2,True,21,BA,next_token_only,Mark,Nora,6898,,,,2567
+p02_r1_active_role2,p02,1,active,2,2,2,True,21,AB,next_token_only,Mark,Nora,6898,,,,2568
+p02_r1_passive_role0,p02,1,passive,0,2,0,True,21,BA,next_token_only,Luke,Nora,72545,,,,2569
+p02_r1_passive_role0,p02,1,passive,0,2,0,True,21,AB,next_token_only,Luke,Nora,24453,,,,2570
+p02_r1_passive_role0,p02,1,passive,0,2,1,False,21,BA,next_token_only,Paul,Paul,6898,,,,2571
+p02_r1_passive_role0,p02,1,passive,0,2,1,False,21,AB,next_token_only,Paul,Paul,6898,,,,2572
+p02_r1_passive_role0,p02,1,passive,0,2,2,False,21,BA,next_token_only,Mark,Mark,4389,,,,2573
+p02_r1_passive_role0,p02,1,passive,0,2,2,False,21,AB,next_token_only,Mark,Mark,4389,,,,2574
+p02_r1_passive_role1,p02,1,passive,1,0,0,False,21,BA,next_token_only,Luke,Luke,24453,,,,2575
+p02_r1_passive_role1,p02,1,passive,1,0,0,False,21,AB,next_token_only,Luke,Luke,24453,,,,2576
+p02_r1_passive_role1,p02,1,passive,1,0,1,True,21,BA,next_token_only,Paul,Nora,72545,,,,2577
+p02_r1_passive_role1,p02,1,passive,1,0,1,True,21,AB,next_token_only,Paul,Nora,6898,,,,2578
+p02_r1_passive_role1,p02,1,passive,1,0,2,False,21,BA,next_token_only,Mark,Mark,4389,,,,2579
+p02_r1_passive_role1,p02,1,passive,1,0,2,False,21,AB,next_token_only,Mark,Mark,6898,,,,2580
+p02_r1_passive_role2,p02,1,passive,2,1,0,False,21,BA,next_token_only,Luke,Luke,24453,,,,2581
+p02_r1_passive_role2,p02,1,passive,2,1,0,False,21,AB,next_token_only,Luke,Luke,24453,,,,2582
+p02_r1_passive_role2,p02,1,passive,2,1,1,False,21,BA,next_token_only,Paul,Paul,6898,,,,2583
+p02_r1_passive_role2,p02,1,passive,2,1,1,False,21,AB,next_token_only,Paul,Paul,6898,,,,2584
+p02_r1_passive_role2,p02,1,passive,2,1,2,True,21,BA,next_token_only,Mark,Nora,72545,,,,2585
+p02_r1_passive_role2,p02,1,passive,2,1,2,True,21,AB,next_token_only,Mark,Nora,4389,,,,2586
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,0,True,21,BA,next_token_only,Luke,Nora,72545,,,,2587
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,0,True,21,AB,next_token_only,Luke,Nora,24453,,,,2588
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,1,False,21,BA,next_token_only,Paul,Paul,6898,,,,2589
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,1,False,21,AB,next_token_only,Paul,Paul,6898,,,,2590
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,2,False,21,BA,next_token_only,Mark,Mark,4389,,,,2591
+p02_r1_goal_fronted_role0,p02,1,goal_fronted,0,1,2,False,21,AB,next_token_only,Mark,Mark,4389,,,,2592
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,0,False,21,BA,next_token_only,Luke,Luke,24453,,,,2594
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,0,False,21,AB,next_token_only,Luke,Luke,24453,,,,2595
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,1,True,21,BA,next_token_only,Paul,Nora,24453,,,,2596
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,1,True,21,AB,next_token_only,Paul,Nora,24453,,,,2597
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,2,False,21,BA,next_token_only,Mark,Mark,4389,,,,2598
+p02_r1_goal_fronted_role1,p02,1,goal_fronted,1,2,2,False,21,AB,next_token_only,Mark,Mark,4389,,,,2599
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,0,False,21,BA,next_token_only,Luke,Luke,24453,,,,2600
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,0,False,21,AB,next_token_only,Luke,Luke,4389,,,,2601
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,1,False,21,BA,next_token_only,Paul,Paul,24453,,,,2602
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,1,False,21,AB,next_token_only,Paul,Paul,6898,,,,2603
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,2,True,21,BA,next_token_only,Mark,Nora,24453,,,,2604
+p02_r1_goal_fronted_role2,p02,1,goal_fronted,2,0,2,True,21,AB,next_token_only,Mark,Nora,4389,,,,2605
+p02_r2_active_role0,p02,2,active,0,0,0,True,21,BA,next_token_only,Paul,Luke,24453,,,,2606
+p02_r2_active_role0,p02,2,active,0,0,0,True,21,AB,next_token_only,Paul,Luke,6898,,,,2607
+p02_r2_active_role0,p02,2,active,0,0,1,False,21,BA,next_token_only,Mark,Mark,4389,,,,2608
+p02_r2_active_role0,p02,2,active,0,0,1,False,21,AB,next_token_only,Mark,Mark,4389,,,,2609
+p02_r2_active_role0,p02,2,active,0,0,2,False,21,BA,next_token_only,Nora,Nora,72545,,,,2610
+p02_r2_active_role0,p02,2,active,0,0,2,False,21,AB,next_token_only,Nora,Nora,4389,,,,2611
+p02_r2_active_role1,p02,2,active,1,1,0,False,21,BA,next_token_only,Paul,Paul,6898,,,,2612
+p02_r2_active_role1,p02,2,active,1,1,0,False,21,AB,next_token_only,Paul,Paul,6898,,,,2613
+p02_r2_active_role1,p02,2,active,1,1,1,True,21,BA,next_token_only,Mark,Luke,24453,,,,2614
+p02_r2_active_role1,p02,2,active,1,1,1,True,21,AB,next_token_only,Mark,Luke,4389,,,,2615
+p02_r2_active_role1,p02,2,active,1,1,2,False,21,BA,next_token_only,Nora,Nora,72545,,,,2616
+p02_r2_active_role1,p02,2,active,1,1,2,False,21,AB,next_token_only,Nora,Nora,72545,,,,2617
+p02_r2_active_role2,p02,2,active,2,2,0,False,21,BA,next_token_only,Paul,Paul,6898,,,,2618
+p02_r2_active_role2,p02,2,active,2,2,0,False,21,AB,next_token_only,Paul,Paul,6898,,,,2619
+p02_r2_active_role2,p02,2,active,2,2,1,False,21,BA,next_token_only,Mark,Mark,4389,,,,2620
+p02_r2_active_role2,p02,2,active,2,2,1,False,21,AB,next_token_only,Mark,Mark,4389,,,,2621
+p02_r2_active_role2,p02,2,active,2,2,2,True,21,BA,next_token_only,Nora,Luke,4389,,,,2622
+p02_r2_active_role2,p02,2,active,2,2,2,True,21,AB,next_token_only,Nora,Luke,4389,,,,2623
+p02_r2_passive_role0,p02,2,passive,0,2,0,True,21,BA,next_token_only,Paul,Luke,24453,,,,2624
+p02_r2_passive_role0,p02,2,passive,0,2,0,True,21,AB,next_token_only,Paul,Luke,6898,,,,2626
+p02_r2_passive_role0,p02,2,passive,0,2,1,False,21,BA,next_token_only,Mark,Mark,4389,,,,2627
+p02_r2_passive_role0,p02,2,passive,0,2,1,False,21,AB,next_token_only,Mark,Mark,4389,,,,2628
+p02_r2_passive_role0,p02,2,passive,0,2,2,False,21,BA,next_token_only,Nora,Nora,72545,,,,2629
+p02_r2_passive_role0,p02,2,passive,0,2,2,False,21,AB,next_token_only,Nora,Nora,4389,,,,2630
+p02_r2_passive_role1,p02,2,passive,1,0,0,False,21,BA,next_token_only,Paul,Paul,6898,,,,2631
+p02_r2_passive_role1,p02,2,passive,1,0,0,False,21,AB,next_token_only,Paul,Paul,6898,,,,2632
+p02_r2_passive_role1,p02,2,passive,1,0,1,True,21,BA,next_token_only,Mark,Luke,24453,,,,2633
+p02_r2_passive_role1,p02,2,passive,1,0,1,True,21,AB,next_token_only,Mark,Luke,4389,,,,2634
+p02_r2_passive_role1,p02,2,passive,1,0,2,False,21,BA,next_token_only,Nora,Nora,24453,,,,2635
+p02_r2_passive_role1,p02,2,passive,1,0,2,False,21,AB,next_token_only,Nora,Nora,72545,,,,2636
+p02_r2_passive_role2,p02,2,passive,2,1,0,False,21,BA,next_token_only,Paul,Paul,6898,,,,2637
+p02_r2_passive_role2,p02,2,passive,2,1,0,False,21,AB,next_token_only,Paul,Paul,6898,,,,2638
+p02_r2_passive_role2,p02,2,passive,2,1,1,False,21,BA,next_token_only,Mark,Mark,4389,,,,2639
+p02_r2_passive_role2,p02,2,passive,2,1,1,False,21,AB,next_token_only,Mark,Mark,4389,,,,2640
+p02_r2_passive_role2,p02,2,passive,2,1,2,True,21,BA,next_token_only,Nora,Luke,4389,,,,2641
+p02_r2_passive_role2,p02,2,passive,2,1,2,True,21,AB,next_token_only,Nora,Luke,4389,,,,2642
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,0,True,21,BA,next_token_only,Paul,Luke,24453,,,,2643
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,0,True,21,AB,next_token_only,Paul,Luke,6898,,,,2644
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,1,False,21,BA,next_token_only,Mark,Mark,4389,,,,2645
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,1,False,21,AB,next_token_only,Mark,Mark,4389,,,,2646
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,2,False,21,BA,next_token_only,Nora,Nora,72545,,,,2647
+p02_r2_goal_fronted_role0,p02,2,goal_fronted,0,1,2,False,21,AB,next_token_only,Nora,Nora,72545,,,,2648
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,0,False,21,BA,next_token_only,Paul,Paul,6898,,,,2649
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,0,False,21,AB,next_token_only,Paul,Paul,6898,,,,2650
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,1,True,21,BA,next_token_only,Mark,Luke,24453,,,,2651
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,1,True,21,AB,next_token_only,Mark,Luke,4389,,,,2652
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,2,False,21,BA,next_token_only,Nora,Nora,72545,,,,2653
+p02_r2_goal_fronted_role1,p02,2,goal_fronted,1,2,2,False,21,AB,next_token_only,Nora,Nora,72545,,,,2654
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,0,False,21,BA,next_token_only,Paul,Paul,6898,,,,2655
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,0,False,21,AB,next_token_only,Paul,Paul,6898,,,,2656
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,1,False,21,BA,next_token_only,Mark,Mark,4389,,,,2658
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,1,False,21,AB,next_token_only,Mark,Mark,4389,,,,2659
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,2,True,21,BA,next_token_only,Nora,Luke,24453,,,,2660
+p02_r2_goal_fronted_role2,p02,2,goal_fronted,2,0,2,True,21,AB,next_token_only,Nora,Luke,6898,,,,2661
+p02_r3_active_role0,p02,3,active,0,0,0,True,21,BA,next_token_only,Mark,Paul,6898,,,,2662
+p02_r3_active_role0,p02,3,active,0,0,0,True,21,AB,next_token_only,Mark,Paul,4389,,,,2663
+p02_r3_active_role0,p02,3,active,0,0,1,False,21,BA,next_token_only,Nora,Nora,72545,,,,2664
+p02_r3_active_role0,p02,3,active,0,0,1,False,21,AB,next_token_only,Nora,Nora,72545,,,,2665
+p02_r3_active_role0,p02,3,active,0,0,2,False,21,BA,next_token_only,Luke,Luke,72545,,,,2666
+p02_r3_active_role0,p02,3,active,0,0,2,False,21,AB,next_token_only,Luke,Luke,72545,,,,2667
+p02_r3_active_role1,p02,3,active,1,1,0,False,21,BA,next_token_only,Mark,Mark,4389,,,,2668
+p02_r3_active_role1,p02,3,active,1,1,0,False,21,AB,next_token_only,Mark,Mark,4389,,,,2669
+p02_r3_active_role1,p02,3,active,1,1,1,True,21,BA,next_token_only,Nora,Paul,6898,,,,2670
+p02_r3_active_role1,p02,3,active,1,1,1,True,21,AB,next_token_only,Nora,Paul,72545,,,,2671
+p02_r3_active_role1,p02,3,active,1,1,2,False,21,BA,next_token_only,Luke,Luke,6898,,,,2672
+p02_r3_active_role1,p02,3,active,1,1,2,False,21,AB,next_token_only,Luke,Luke,24453,,,,2673
+p02_r3_active_role2,p02,3,active,2,2,0,False,21,BA,next_token_only,Mark,Mark,4389,,,,2674
+p02_r3_active_role2,p02,3,active,2,2,0,False,21,AB,next_token_only,Mark,Mark,4389,,,,2675
+p02_r3_active_role2,p02,3,active,2,2,1,False,21,BA,next_token_only,Nora,Nora,72545,,,,2676
+p02_r3_active_role2,p02,3,active,2,2,1,False,21,AB,next_token_only,Nora,Nora,72545,,,,2677
+p02_r3_active_role2,p02,3,active,2,2,2,True,21,BA,next_token_only,Luke,Paul,72545,,,,2678
+p02_r3_active_role2,p02,3,active,2,2,2,True,21,AB,next_token_only,Luke,Paul,72545,,,,2679
+p02_r3_passive_role0,p02,3,passive,0,2,0,True,21,BA,next_token_only,Mark,Paul,6898,,,,2680
+p02_r3_passive_role0,p02,3,passive,0,2,0,True,21,AB,next_token_only,Mark,Paul,4389,,,,2681
+p02_r3_passive_role0,p02,3,passive,0,2,1,False,21,BA,next_token_only,Nora,Nora,72545,,,,2682
+p02_r3_passive_role0,p02,3,passive,0,2,1,False,21,AB,next_token_only,Nora,Nora,72545,,,,2683
+p02_r3_passive_role0,p02,3,passive,0,2,2,False,21,BA,next_token_only,Luke,Luke,72545,,,,2684
+p02_r3_passive_role0,p02,3,passive,0,2,2,False,21,AB,next_token_only,Luke,Luke,72545,,,,2685
+p02_r3_passive_role1,p02,3,passive,1,0,0,False,21,BA,next_token_only,Mark,Mark,4389,,,,2686
+p02_r3_passive_role1,p02,3,passive,1,0,0,False,21,AB,next_token_only,Mark,Mark,4389,,,,2687
+p02_r3_passive_role1,p02,3,passive,1,0,1,True,21,BA,next_token_only,Nora,Paul,6898,,,,2688
+p02_r3_passive_role1,p02,3,passive,1,0,1,True,21,AB,next_token_only,Nora,Paul,72545,,,,2690
+p02_r3_passive_role1,p02,3,passive,1,0,2,False,21,BA,next_token_only,Luke,Luke,6898,,,,2691
+p02_r3_passive_role1,p02,3,passive,1,0,2,False,21,AB,next_token_only,Luke,Luke,24453,,,,2692
+p02_r3_passive_role2,p02,3,passive,2,1,0,False,21,BA,next_token_only,Mark,Mark,4389,,,,2693
+p02_r3_passive_role2,p02,3,passive,2,1,0,False,21,AB,next_token_only,Mark,Mark,4389,,,,2694
+p02_r3_passive_role2,p02,3,passive,2,1,1,False,21,BA,next_token_only,Nora,Nora,72545,,,,2695
+p02_r3_passive_role2,p02,3,passive,2,1,1,False,21,AB,next_token_only,Nora,Nora,72545,,,,2696
+p02_r3_passive_role2,p02,3,passive,2,1,2,True,21,BA,next_token_only,Luke,Paul,72545,,,,2697
+p02_r3_passive_role2,p02,3,passive,2,1,2,True,21,AB,next_token_only,Luke,Paul,72545,,,,2698
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,0,True,21,BA,next_token_only,Mark,Paul,6898,,,,2699
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,0,True,21,AB,next_token_only,Mark,Paul,4389,,,,2700
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,1,False,21,BA,next_token_only,Nora,Nora,72545,,,,2701
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,1,False,21,AB,next_token_only,Nora,Nora,72545,,,,2702
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,2,False,21,BA,next_token_only,Luke,Luke,24453,,,,2703
+p02_r3_goal_fronted_role0,p02,3,goal_fronted,0,1,2,False,21,AB,next_token_only,Luke,Luke,24453,,,,2704
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,0,False,21,BA,next_token_only,Mark,Mark,4389,,,,2705
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,0,False,21,AB,next_token_only,Mark,Mark,4389,,,,2706
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,1,True,21,BA,next_token_only,Nora,Paul,4389,,,,2707
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,1,True,21,AB,next_token_only,Nora,Paul,24453,,,,2708
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,2,False,21,BA,next_token_only,Luke,Luke,24453,,,,2709
+p02_r3_goal_fronted_role1,p02,3,goal_fronted,1,2,2,False,21,AB,next_token_only,Luke,Luke,24453,,,,2710
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,0,False,21,BA,next_token_only,Mark,Mark,4389,,,,2711
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,0,False,21,AB,next_token_only,Mark,Mark,4389,,,,2712
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,1,False,21,BA,next_token_only,Nora,Nora,72545,,,,2713
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,1,False,21,AB,next_token_only,Nora,Nora,72545,,,,2714
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,2,True,21,BA,next_token_only,Luke,Paul,6898,,,,2715
+p02_r3_goal_fronted_role2,p02,3,goal_fronted,2,0,2,True,21,AB,next_token_only,Luke,Paul,4389,,,,2716

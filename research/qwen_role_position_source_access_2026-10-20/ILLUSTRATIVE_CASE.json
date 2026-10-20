@@ -1,0 +1,151 @@
+{
+  "selection": "First chronological p01 active destination-swap edge; explanatory after outcomes, not a new confirmatory endpoint.",
+  "unit": {
+    "id": "p01_r0_active_role2",
+    "family": "p01",
+    "rotation": 0,
+    "form": "active",
+    "role_index": 2,
+    "position": 2,
+    "queries": [
+      {
+        "a": "p01_r0_active_base_q0",
+        "b": "p01_r0_active_swap2_q0",
+        "query_index": 0,
+        "changed": false
+      },
+      {
+        "a": "p01_r0_active_base_q1",
+        "b": "p01_r0_active_swap2_q1",
+        "query_index": 1,
+        "changed": false
+      },
+      {
+        "a": "p01_r0_active_base_q2",
+        "b": "p01_r0_active_swap2_q2",
+        "query_index": 2,
+        "changed": true
+      }
+    ]
+  },
+  "source_a": "Grace sent Helen to Jack. Kate waited nearby.",
+  "source_b": "Grace sent Helen to Kate. Jack waited nearby.",
+  "native_a": {
+    "generated_tokens": [
+      42781
+    ],
+    "generated_text": " Helen",
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Helen",
+    "native_correct": false,
+    "first_token": 42781,
+    "first_token_correct": false,
+    "name_logits": {
+      "Grace": 20.765625,
+      "Helen": 30.140625,
+      "Jack": 25.078125,
+      "Kate": 10.78125
+    },
+    "id": "p01_r0_active_base_q2",
+    "gold": "Jack",
+    "measurement": "full_generation",
+    "base_call": 9,
+    "base_payload": "payloads/CALL_0009.npz",
+    "base_payload_sha256": "08d223f33aed18592ac15bfe5272c696c7fb42e3774536626b01919aa2d0f777",
+    "calls": [
+      {
+        "prefix": [],
+        "call": 9
+      },
+      {
+        "prefix": [
+          42781
+        ],
+        "call": 10
+      }
+    ],
+    "prefix_hashes": [
+      "c383a74a4a98f747f5a6fd9712fc0671f7f5187ef874e345b51d9630ab538f23",
+      "8b2ccbc7cd2e9db662118e6c0fbe7484ecbec19b90f9e739f0be763c0af8db63",
+      "de263adedbce672c139bc0aa8a0ed3c91a214e8e3732ad59ef3aa10e0d608b8c",
+      "4b0924e490b45c123a8af82ccfae1bb4848d29b3897247633099d0fa9f10568d",
+      "db524858c430ea1b5a70d44aa29587990a3ebaa48d55b7c288910fdc8c4f283e"
+    ],
+    "family": "p01",
+    "rotation": 0,
+    "form": "active",
+    "variant": "base",
+    "assignment": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "query_index": 2,
+    "role_index": 2,
+    "source": "Grace sent Helen to Jack. Kate waited nearby.",
+    "question": "Who was someone sent to?",
+    "position": 2
+  },
+  "native_b": {
+    "generated_tokens": [
+      42781
+    ],
+    "generated_text": " Helen",
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Helen",
+    "native_correct": false,
+    "first_token": 42781,
+    "first_token_correct": false,
+    "name_logits": {
+      "Grace": 19.9375,
+      "Helen": 31.046875,
+      "Jack": 9.2421875,
+      "Kate": 20.65625
+    },
+    "id": "p01_r0_active_swap2_q2",
+    "gold": "Kate",
+    "measurement": "full_generation",
+    "base_call": 27,
+    "base_payload": "payloads/CALL_0027.npz",
+    "base_payload_sha256": "a2e114fd119ab289d0ce8be78bb59894766bf5698a8cbee6f012fe65ea8bfc36",
+    "calls": [
+      {
+        "prefix": [],
+        "call": 27
+      },
+      {
+        "prefix": [
+          42781
+        ],
+        "call": 28
+      }
+    ],
+    "prefix_hashes": [
+      "59789b9214188334b01d47928de857e4389ac7d1917144f26d66e6f0f4a17522",
+      "5126c4da2c0d06f8a3a7ae2824a023bfa3715c315405d673f71247ba59fdddb3",
+      "d171dfcc472043b8e5bca49dab1a03638cd85a1d6bf1daf5293e4a345c475365",
+      "967264b8c896ce60ca8e7856039383ec87e288044f017ce3eb791edaf212f684",
+      "f49694c88fd058309fb017da7ce3c868414f56c454ccd8361e3fa1de53c5dbfb"
+    ],
+    "family": "p01",
+    "rotation": 0,
+    "form": "active",
+    "variant": "swap2",
+    "assignment": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "query_index": 2,
+    "role_index": 2,
+    "source": "Grace sent Helen to Kate. Jack waited nearby.",
+    "question": "Who was someone sent to?",
+    "position": 2
+  },
+  "relative_new_old_a": -14.296875,
+  "relative_new_old_b": 11.4140625
+}

@@ -1,0 +1,4389 @@
+{
+  "primary_answers": 288,
+  "primary_correct": 239,
+  "primary_full_generation_correct": 239,
+  "primary_source_cases": 96,
+  "primary_complete_sources": 47,
+  "sham_native_answers": 72,
+  "sham_native_correct": 61,
+  "by_family_form_role": [
+    {
+      "family": "p01",
+      "form": "active",
+      "role_index": 0,
+      "total": 16,
+      "correct": 16
+    },
+    {
+      "family": "p01",
+      "form": "active",
+      "role_index": 1,
+      "total": 16,
+      "correct": 16
+    },
+    {
+      "family": "p01",
+      "form": "active",
+      "role_index": 2,
+      "total": 16,
+      "correct": 0
+    },
+    {
+      "family": "p01",
+      "form": "passive",
+      "role_index": 0,
+      "total": 16,
+      "correct": 16
+    },
+    {
+      "family": "p01",
+      "form": "passive",
+      "role_index": 1,
+      "total": 16,
+      "correct": 16
+    },
+    {
+      "family": "p01",
+      "form": "passive",
+      "role_index": 2,
+      "total": 16,
+      "correct": 16
+    },
+    {
+      "family": "p01",
+      "form": "goal_fronted",
+      "role_index": 0,
+      "total": 16,
+      "correct": 16
+    },
+    {
+      "family": "p01",
+      "form": "goal_fronted",
+      "role_index": 1,
+      "total": 16,
+      "correct": 14
+    },
+    {
+      "family": "p01",
+      "form": "goal_fronted",
+      "role_index": 2,
+      "total": 16,
+      "correct": 13
+    },
+    {
+      "family": "p02",
+      "form": "active",
+      "role_index": 0,
+      "total": 16,
+      "correct": 16
+    },
+    {
+      "family": "p02",
+      "form": "active",
+      "role_index": 1,
+      "total": 16,
+      "correct": 16
+    },
+    {
+      "family": "p02",
+      "form": "active",
+      "role_index": 2,
+      "total": 16,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "form": "passive",
+      "role_index": 0,
+      "total": 16,
+      "correct": 16
+    },
+    {
+      "family": "p02",
+      "form": "passive",
+      "role_index": 1,
+      "total": 16,
+      "correct": 16
+    },
+    {
+      "family": "p02",
+      "form": "passive",
+      "role_index": 2,
+      "total": 16,
+      "correct": 5
+    },
+    {
+      "family": "p02",
+      "form": "goal_fronted",
+      "role_index": 0,
+      "total": 16,
+      "correct": 16
+    },
+    {
+      "family": "p02",
+      "form": "goal_fronted",
+      "role_index": 1,
+      "total": 16,
+      "correct": 14
+    },
+    {
+      "family": "p02",
+      "form": "goal_fronted",
+      "role_index": 2,
+      "total": 16,
+      "correct": 15
+    }
+  ],
+  "source_cases": [
+    {
+      "family": "p01",
+      "rotation": 0,
+      "form": "active",
+      "variant": "base",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 0,
+      "form": "active",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 0,
+      "form": "active",
+      "variant": "swap1",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 0,
+      "form": "active",
+      "variant": "swap2",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 0,
+      "form": "goal_fronted",
+      "variant": "base",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 0,
+      "form": "goal_fronted",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 0,
+      "form": "goal_fronted",
+      "variant": "swap1",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 0,
+      "form": "goal_fronted",
+      "variant": "swap2",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 0,
+      "form": "passive",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 0,
+      "form": "passive",
+      "variant": "swap0",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 0,
+      "form": "passive",
+      "variant": "swap1",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 0,
+      "form": "passive",
+      "variant": "swap2",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 1,
+      "form": "active",
+      "variant": "base",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 1,
+      "form": "active",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 1,
+      "form": "active",
+      "variant": "swap1",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 1,
+      "form": "active",
+      "variant": "swap2",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 1,
+      "form": "goal_fronted",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 1,
+      "form": "goal_fronted",
+      "variant": "swap0",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 1,
+      "form": "goal_fronted",
+      "variant": "swap1",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 1,
+      "form": "goal_fronted",
+      "variant": "swap2",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 1,
+      "form": "passive",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 1,
+      "form": "passive",
+      "variant": "swap0",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 1,
+      "form": "passive",
+      "variant": "swap1",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 1,
+      "form": "passive",
+      "variant": "swap2",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 2,
+      "form": "active",
+      "variant": "base",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 2,
+      "form": "active",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 2,
+      "form": "active",
+      "variant": "swap1",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 2,
+      "form": "active",
+      "variant": "swap2",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 2,
+      "form": "goal_fronted",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 2,
+      "form": "goal_fronted",
+      "variant": "swap0",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 2,
+      "form": "goal_fronted",
+      "variant": "swap1",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 2,
+      "form": "goal_fronted",
+      "variant": "swap2",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 2,
+      "form": "passive",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 2,
+      "form": "passive",
+      "variant": "swap0",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 2,
+      "form": "passive",
+      "variant": "swap1",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 2,
+      "form": "passive",
+      "variant": "swap2",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 3,
+      "form": "active",
+      "variant": "base",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 3,
+      "form": "active",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 3,
+      "form": "active",
+      "variant": "swap1",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 3,
+      "form": "active",
+      "variant": "swap2",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 3,
+      "form": "goal_fronted",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 3,
+      "form": "goal_fronted",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 3,
+      "form": "goal_fronted",
+      "variant": "swap1",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p01",
+      "rotation": 3,
+      "form": "goal_fronted",
+      "variant": "swap2",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "swap0",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "swap1",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p01",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "swap2",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 0,
+      "form": "active",
+      "variant": "base",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 0,
+      "form": "active",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 0,
+      "form": "active",
+      "variant": "swap1",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 0,
+      "form": "active",
+      "variant": "swap2",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 0,
+      "form": "goal_fronted",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 0,
+      "form": "goal_fronted",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 0,
+      "form": "goal_fronted",
+      "variant": "swap1",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 0,
+      "form": "goal_fronted",
+      "variant": "swap2",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 0,
+      "form": "passive",
+      "variant": "base",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 0,
+      "form": "passive",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 0,
+      "form": "passive",
+      "variant": "swap1",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 0,
+      "form": "passive",
+      "variant": "swap2",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 1,
+      "form": "active",
+      "variant": "base",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 1,
+      "form": "active",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 1,
+      "form": "active",
+      "variant": "swap1",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 1,
+      "form": "active",
+      "variant": "swap2",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 1,
+      "form": "goal_fronted",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 1,
+      "form": "goal_fronted",
+      "variant": "swap0",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 1,
+      "form": "goal_fronted",
+      "variant": "swap1",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 1,
+      "form": "goal_fronted",
+      "variant": "swap2",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 1,
+      "form": "passive",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 1,
+      "form": "passive",
+      "variant": "swap0",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 1,
+      "form": "passive",
+      "variant": "swap1",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 1,
+      "form": "passive",
+      "variant": "swap2",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 2,
+      "form": "active",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 2,
+      "form": "active",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 2,
+      "form": "active",
+      "variant": "swap1",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 2,
+      "form": "active",
+      "variant": "swap2",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 2,
+      "form": "goal_fronted",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 2,
+      "form": "goal_fronted",
+      "variant": "swap0",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 2,
+      "form": "goal_fronted",
+      "variant": "swap1",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 2,
+      "form": "goal_fronted",
+      "variant": "swap2",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 2,
+      "form": "passive",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 2,
+      "form": "passive",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 2,
+      "form": "passive",
+      "variant": "swap1",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 2,
+      "form": "passive",
+      "variant": "swap2",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 3,
+      "form": "active",
+      "variant": "base",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 3,
+      "form": "active",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 3,
+      "form": "active",
+      "variant": "swap1",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 3,
+      "form": "active",
+      "variant": "swap2",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 3,
+      "form": "goal_fronted",
+      "variant": "base",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 3,
+      "form": "goal_fronted",
+      "variant": "swap0",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 3,
+      "form": "goal_fronted",
+      "variant": "swap1",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 3,
+      "form": "goal_fronted",
+      "variant": "swap2",
+      "complete_correct": true,
+      "correct": 3
+    },
+    {
+      "family": "p02",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "base",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "swap0",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "swap1",
+      "complete_correct": false,
+      "correct": 2
+    },
+    {
+      "family": "p02",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "swap2",
+      "complete_correct": false,
+      "correct": 2
+    }
+  ],
+  "failures": [
+    {
+      "generated_tokens": [
+        42781
+      ],
+      "generated_text": " Helen",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Helen",
+      "native_correct": false,
+      "first_token": 42781,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 20.765625,
+        "Helen": 30.140625,
+        "Jack": 25.078125,
+        "Kate": 10.78125
+      },
+      "id": "p01_r0_active_base_q2",
+      "gold": "Jack",
+      "measurement": "full_generation",
+      "base_call": 9,
+      "base_payload": "payloads/CALL_0009.npz",
+      "base_payload_sha256": "08d223f33aed18592ac15bfe5272c696c7fb42e3774536626b01919aa2d0f777",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 9
+        },
+        {
+          "prefix": [
+            42781
+          ],
+          "call": 10
+        }
+      ],
+      "prefix_hashes": [
+        "c383a74a4a98f747f5a6fd9712fc0671f7f5187ef874e345b51d9630ab538f23",
+        "8b2ccbc7cd2e9db662118e6c0fbe7484ecbec19b90f9e739f0be763c0af8db63",
+        "de263adedbce672c139bc0aa8a0ed3c91a214e8e3732ad59ef3aa10e0d608b8c",
+        "4b0924e490b45c123a8af82ccfae1bb4848d29b3897247633099d0fa9f10568d",
+        "db524858c430ea1b5a70d44aa29587990a3ebaa48d55b7c288910fdc8c4f283e"
+      ],
+      "family": "p01",
+      "rotation": 0,
+      "form": "active",
+      "variant": "base",
+      "assignment": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Grace sent Helen to Jack. Kate waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        42781
+      ],
+      "generated_text": " Helen",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Helen",
+      "native_correct": false,
+      "first_token": 42781,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 11.078125,
+        "Helen": 31.265625,
+        "Jack": 25.0,
+        "Kate": 19.515625
+      },
+      "id": "p01_r0_active_swap0_q2",
+      "gold": "Jack",
+      "measurement": "full_generation",
+      "base_call": 15,
+      "base_payload": "payloads/CALL_0015.npz",
+      "base_payload_sha256": "31dcc29d31dc0903b25987d7eb5db10241f6a023173cec5835044989bcf17e36",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 15
+        },
+        {
+          "prefix": [
+            42781
+          ],
+          "call": 16
+        }
+      ],
+      "prefix_hashes": [
+        "3f8d0f1f936bbf761842213288e86905d20be2cd041263bf356d28841209ea5b",
+        "45f5a34c9f226a27f97d6ca2e42856e11681011e7ca6b966eeec46414e34500b",
+        "0121617cf9f16e7eca149e035e76701e16aec435047cb3c234216cfa1607a0f1",
+        "ab20610d9b618628a9830f9dac3b16ddf07f26cc41daecddf576d0ae521ce444",
+        "5373a81cec759ef2e542c47c1693014ce02a34ce958a56b3d8e2c46e30a325b6"
+      ],
+      "family": "p01",
+      "rotation": 0,
+      "form": "active",
+      "variant": "swap0",
+      "assignment": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Kate sent Helen to Jack. Grace waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        29201
+      ],
+      "generated_text": " Kate",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Kate",
+      "native_correct": false,
+      "first_token": 29201,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 18.6875,
+        "Helen": 9.21875,
+        "Jack": 23.546875,
+        "Kate": 28.1875
+      },
+      "id": "p01_r0_active_swap1_q2",
+      "gold": "Jack",
+      "measurement": "full_generation",
+      "base_call": 21,
+      "base_payload": "payloads/CALL_0021.npz",
+      "base_payload_sha256": "7383090a2d03e40c8a14c5041d808b2349bab7c655040cae0f390ddaab845987",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 21
+        },
+        {
+          "prefix": [
+            29201
+          ],
+          "call": 22
+        }
+      ],
+      "prefix_hashes": [
+        "6681c6ae10eb3e6d4f975a9969409114a79935baade229e6138a5ef1d6409e44",
+        "e28325a7cad4df7cac7eb9350a2e5c528bba26405257b751baad7ef5f0fcc52b",
+        "fa834269050f29bfef96a52cc091630289ed1bf0f743ea2d25055350022c2542",
+        "92bae9ee08268b61e6f00c9f1b6e7d08b42ced15113b7434061ca5090eb7be07",
+        "1cd978204328c3583fc23154ef411eb1880a6192d1ae35ca70901df992254c0d"
+      ],
+      "family": "p01",
+      "rotation": 0,
+      "form": "active",
+      "variant": "swap1",
+      "assignment": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Grace sent Kate to Jack. Helen waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        42781
+      ],
+      "generated_text": " Helen",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Helen",
+      "native_correct": false,
+      "first_token": 42781,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 19.9375,
+        "Helen": 31.046875,
+        "Jack": 9.2421875,
+        "Kate": 20.65625
+      },
+      "id": "p01_r0_active_swap2_q2",
+      "gold": "Kate",
+      "measurement": "full_generation",
+      "base_call": 27,
+      "base_payload": "payloads/CALL_0027.npz",
+      "base_payload_sha256": "a2e114fd119ab289d0ce8be78bb59894766bf5698a8cbee6f012fe65ea8bfc36",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 27
+        },
+        {
+          "prefix": [
+            42781
+          ],
+          "call": 28
+        }
+      ],
+      "prefix_hashes": [
+        "59789b9214188334b01d47928de857e4389ac7d1917144f26d66e6f0f4a17522",
+        "5126c4da2c0d06f8a3a7ae2824a023bfa3715c315405d673f71247ba59fdddb3",
+        "d171dfcc472043b8e5bca49dab1a03638cd85a1d6bf1daf5293e4a345c475365",
+        "967264b8c896ce60ca8e7856039383ec87e288044f017ce3eb791edaf212f684",
+        "f49694c88fd058309fb017da7ce3c868414f56c454ccd8361e3fa1de53c5dbfb"
+      ],
+      "family": "p01",
+      "rotation": 0,
+      "form": "active",
+      "variant": "swap2",
+      "assignment": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Grace sent Helen to Kate. Jack waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        42781
+      ],
+      "generated_text": " Helen",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Helen",
+      "native_correct": false,
+      "first_token": 42781,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 20.796875,
+        "Helen": 30.265625,
+        "Jack": 22.6875,
+        "Kate": 10.7734375
+      },
+      "id": "p01_r0_active_sham_q2",
+      "gold": "Jack",
+      "measurement": "full_generation",
+      "base_call": 34,
+      "base_payload": "payloads/CALL_0034.npz",
+      "base_payload_sha256": "02de610061d95248fad132edaf2e043404b9df6af439b2d4d3eb4f4b691b1648",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 34
+        },
+        {
+          "prefix": [
+            42781
+          ],
+          "call": 35
+        }
+      ],
+      "prefix_hashes": [
+        "d9b1f81c963329a175b1009940d9779e1fe4b5df5f9273a3a892ff98c3fa0f15",
+        "5a2aff56fb50c9db93490b4514e126474c579d6825e51d91a50bf69b78e75b20",
+        "035ce0da2bd180943012b55e1b831f218a0b0626c18e3c7303636e8e648159f5",
+        "32acb5396c346309cc67b02444e3fe138ddfe05529c5b30c079a5e8611fe796c",
+        "0788b19958cd26cd6cb4be0ff03b10147acbb0e43a377004810d14aea8ef5b59"
+      ],
+      "family": "p01",
+      "rotation": 0,
+      "form": "active",
+      "variant": "sham",
+      "assignment": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Grace sent Helen to Jack. Kate stood nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        42781
+      ],
+      "generated_text": " Helen",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Helen",
+      "native_correct": false,
+      "first_token": 42781,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 24.515625,
+        "Helen": 29.484375,
+        "Jack": 22.734375,
+        "Kate": 10.71875
+      },
+      "id": "p01_r0_goal_fronted_base_q2",
+      "gold": "Jack",
+      "measurement": "full_generation",
+      "base_call": 71,
+      "base_payload": "payloads/CALL_0071.npz",
+      "base_payload_sha256": "61c3d67c70cf6533556185c443c7a796962b6ba5fdc49388c9f5463f0dc5104f",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 71
+        },
+        {
+          "prefix": [
+            42781
+          ],
+          "call": 72
+        }
+      ],
+      "prefix_hashes": [
+        "d85b7ebdad1fa7351b1ccf206074dafa7f349a4688112d6fbe93e93f133386ee",
+        "fdcddf638260e2635bc4b7bfe915bab0c82eef543073e33132a289bd31e00521",
+        "eb6e7a36d8d8a15f6acf4ffa668df2b08274cfe5a51a4ab941f8730136d38c8f",
+        "05275a3914dc12f908b487daa25bc66e8beca954f8e43d6d5e492a6d16f78118",
+        "5079355bd81321740d2b78769eec3f3231febeebabcb4d896f56d51eb56f3b46"
+      ],
+      "family": "p01",
+      "rotation": 0,
+      "form": "goal_fronted",
+      "variant": "base",
+      "assignment": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "To Jack, Grace sent Helen. Kate waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 0
+    },
+    {
+      "generated_tokens": [
+        42781
+      ],
+      "generated_text": " Helen",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Helen",
+      "native_correct": false,
+      "first_token": 42781,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 9.0703125,
+        "Helen": 26.734375,
+        "Jack": 26.578125,
+        "Kate": 25.265625
+      },
+      "id": "p01_r0_goal_fronted_swap0_q2",
+      "gold": "Jack",
+      "measurement": "full_generation",
+      "base_call": 77,
+      "base_payload": "payloads/CALL_0077.npz",
+      "base_payload_sha256": "91e2074de090a3014ba9dbf3de77de845b36227afa0dfed16bd0d961f9b17704",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 77
+        },
+        {
+          "prefix": [
+            42781
+          ],
+          "call": 78
+        }
+      ],
+      "prefix_hashes": [
+        "c2ee33c6228e7d3a1c7994fa6bb6391acb51cc3e4bccece0d8c8907867844f77",
+        "42ab2e46014500d12201d9ef0db596fefcf7b6fcccf5ed4afbdafedb7e8c6c53",
+        "25ccd57fd3893eff8c5cae9c51f8a33a45f5436a924150b176247f80e9a84f57",
+        "9b1b342f7eec0a09492a1eba09afe1cdac97e21a05d47e5633f2d445fd8f206b",
+        "dfe10a1158a576baa72cf66ffb8c68d4ae0cc18222f0cf81873dd19ae8e4c37b"
+      ],
+      "family": "p01",
+      "rotation": 0,
+      "form": "goal_fronted",
+      "variant": "swap0",
+      "assignment": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "To Jack, Kate sent Helen. Grace waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 0
+    },
+    {
+      "generated_tokens": [
+        29201
+      ],
+      "generated_text": " Kate",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Kate",
+      "native_correct": false,
+      "first_token": 29201,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 24.5625,
+        "Helen": 9.515625,
+        "Jack": 23.953125,
+        "Kate": 25.46875
+      },
+      "id": "p01_r0_goal_fronted_swap1_q2",
+      "gold": "Jack",
+      "measurement": "full_generation",
+      "base_call": 83,
+      "base_payload": "payloads/CALL_0083.npz",
+      "base_payload_sha256": "c8740ff3f0fe8fd706355a27d3abf83bff6e594363c28c69795800223e9ec427",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 83
+        },
+        {
+          "prefix": [
+            29201
+          ],
+          "call": 84
+        }
+      ],
+      "prefix_hashes": [
+        "ef13ecbc40d572ea9432bfa69d8b37b3caa4d4e75ad63f684a7a2e3584f74055",
+        "ec8590b9a8df4b63f1f3813e3ec2f588339e4924c0ad9f3caaa707aaa46855df",
+        "e36f702976bd020e1f6fdc272fe75f16f8f5eedeced386b7591d7986b5fdc8da",
+        "9d7d8d97647e7d0354e974ba1114f9f1b5d8384b4add1485616de4c849a712b4",
+        "94ecfbe88d0fb2377b9593bbbccbb4c9a00a97bd0e99a51f7796d3538725021e"
+      ],
+      "family": "p01",
+      "rotation": 0,
+      "form": "goal_fronted",
+      "variant": "swap1",
+      "assignment": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "To Jack, Grace sent Kate. Helen waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 0
+    },
+    {
+      "generated_tokens": [
+        42781
+      ],
+      "generated_text": " Helen",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Helen",
+      "native_correct": false,
+      "first_token": 42781,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 24.421875,
+        "Helen": 28.625,
+        "Jack": 21.953125,
+        "Kate": 10.78125
+      },
+      "id": "p01_r0_goal_fronted_sham_q2",
+      "gold": "Jack",
+      "measurement": "full_generation",
+      "base_call": 95,
+      "base_payload": "payloads/CALL_0095.npz",
+      "base_payload_sha256": "6988571180b9f648b56a76aea53762a32f6a0c325b528aae47ddf102f5538d8e",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 95
+        },
+        {
+          "prefix": [
+            42781
+          ],
+          "call": 96
+        }
+      ],
+      "prefix_hashes": [
+        "3cee7a3d7fd1ac17223cbdb5404fe3bea4393b6f26583b23494e34bdcf1c4913",
+        "3c0fab7c9e36268fd6ad53ba87371d3e476706b3afeb06eede47a83d1fcc1640",
+        "3549fd802fee62837914b6c2b3d9b79975465660da8959d4820dc48a4b3b25b0",
+        "9349f140b56d24760fd505a486ce98885a7f4794266eb7ae740097503f5fd8d8",
+        "e1966a0f1b824ffc7508de98f584335c02e41cb44b67a40b89222de10f90818d"
+      ],
+      "family": "p01",
+      "rotation": 0,
+      "form": "goal_fronted",
+      "variant": "sham",
+      "assignment": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "To Jack, Grace sent Helen. Kate stood nearby.",
+      "question": "Who was someone sent to?",
+      "position": 0
+    },
+    {
+      "generated_tokens": [
+        7607
+      ],
+      "generated_text": " Jack",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Jack",
+      "native_correct": false,
+      "first_token": 7607,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 10.2265625,
+        "Helen": 16.65625,
+        "Jack": 31.015625,
+        "Kate": 23.546875
+      },
+      "id": "p01_r1_active_base_q2",
+      "gold": "Kate",
+      "measurement": "full_generation",
+      "base_call": 102,
+      "base_payload": "payloads/CALL_0102.npz",
+      "base_payload_sha256": "12b8756ceb9caea731b4ab4a74dfc44e7df70152b17b3b9b5a9d393a50af8685",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 102
+        },
+        {
+          "prefix": [
+            7607
+          ],
+          "call": 103
+        }
+      ],
+      "prefix_hashes": [
+        "2f26b0930e8da59ce5cc1e6ffb1e8d05a69c8fac90b4d8624020b541328052b9",
+        "fbc89953643cfb490cfeced6a87d8d0ad0b56225212f3119ee39f3382c50d11e",
+        "2f606114b11af9753508d439df817f7ab4243dcc62985d1c07f1adaf58a476e2",
+        "e20502da1b3e0b6657d03d2b905d1fc67709cc3787f897db69b7bbdaa7a51664",
+        "0bbe7030e831b6935e1b4ba655b6ba70541c8a523878cd298648a457e5539089"
+      ],
+      "family": "p01",
+      "rotation": 1,
+      "form": "active",
+      "variant": "base",
+      "assignment": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Helen sent Jack to Kate. Grace waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        7607
+      ],
+      "generated_text": " Jack",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Jack",
+      "native_correct": false,
+      "first_token": 7607,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 18.4375,
+        "Helen": 9.171875,
+        "Jack": 27.921875,
+        "Kate": 24.4375
+      },
+      "id": "p01_r1_active_swap0_q2",
+      "gold": "Kate",
+      "measurement": "full_generation",
+      "base_call": 108,
+      "base_payload": "payloads/CALL_0108.npz",
+      "base_payload_sha256": "5a4d5b8141df40de8e15089d36548a109f29887b58e3e45f1f41c945bc307c42",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 108
+        },
+        {
+          "prefix": [
+            7607
+          ],
+          "call": 109
+        }
+      ],
+      "prefix_hashes": [
+        "5c7c2ec4ff4b55335485d7c9e533bda36e9f09aa0b4910639471cefab0f87af8",
+        "e5325c7698414b0242ce72ef283757882e732a0a19fe23069668dfb1f93b1231",
+        "eda10254d12948e1f607ae62b295880ba5fd364e2e1b44ddbcde1f9ea65ab8de",
+        "2186295e11ed6d59855f12ac9e65d4d40c530996838b2cdf2a9e5c58397ad67b",
+        "293727cd9b6bbd34a8b3fe15e1e162731c432c7ee766388b99b2eddc7f3b895b"
+      ],
+      "family": "p01",
+      "rotation": 1,
+      "form": "active",
+      "variant": "swap0",
+      "assignment": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Grace sent Jack to Kate. Helen waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        31071
+      ],
+      "generated_text": " Grace",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Grace",
+      "native_correct": false,
+      "first_token": 31071,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 31.984375,
+        "Helen": 14.9609375,
+        "Jack": 8.8828125,
+        "Kate": 20.078125
+      },
+      "id": "p01_r1_active_swap1_q2",
+      "gold": "Kate",
+      "measurement": "full_generation",
+      "base_call": 114,
+      "base_payload": "payloads/CALL_0114.npz",
+      "base_payload_sha256": "eb5d72d4be979c7e4844eb81788a11d9a462a27b22cf9f95b9debe2b91473b9f",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 114
+        },
+        {
+          "prefix": [
+            31071
+          ],
+          "call": 115
+        }
+      ],
+      "prefix_hashes": [
+        "212cf5f34f74610b5074347bb68ecd52d33320c8d4242d01d37c0ede70616849",
+        "678d7a1adb5089fe13e7a10c97ede299f5cebe51bb16c52bccfa59df68088efb",
+        "fee4c273faad0fe506f12dcf37c42de0e703a354de557d08f9570a20a2bea6af",
+        "68a531335e6b573684cd28212826b6097b041a26bced9b5a5428f2af6b59553b",
+        "1568c71771a81b88d2daafeab72e8c7e9a961a79bb3d6bd525fce9e3050b5adc"
+      ],
+      "family": "p01",
+      "rotation": 1,
+      "form": "active",
+      "variant": "swap1",
+      "assignment": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Helen sent Grace to Kate. Jack waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        7607
+      ],
+      "generated_text": " Jack",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Jack",
+      "native_correct": false,
+      "first_token": 7607,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 27.140625,
+        "Helen": 16.78125,
+        "Jack": 32.40625,
+        "Kate": 12.4921875
+      },
+      "id": "p01_r1_active_swap2_q2",
+      "gold": "Grace",
+      "measurement": "full_generation",
+      "base_call": 120,
+      "base_payload": "payloads/CALL_0120.npz",
+      "base_payload_sha256": "e563e146fe9d744e230023bd84838be2fc60fe05a2c78c3c11fb00372aa03f86",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 120
+        },
+        {
+          "prefix": [
+            7607
+          ],
+          "call": 121
+        }
+      ],
+      "prefix_hashes": [
+        "5b6c32b22edd01ba278d6d8eb4b1210383acda660f71aeb9824600c3fd1f0a99",
+        "fa4580e667263a96948d8ae010410d0c0ee485733bde136e2edbf3d84ccc8dac",
+        "1342c3974ee3c6d7d0dd62e1e003f09eca035472e4686dd39af16b84aec92e0e",
+        "858f55b24c85ae20228d643e45fb465e80106481d8cb4b8b2f50b35502188596",
+        "aeac32d0d47843511396b8b3e2fb9952294b5b77376de6784ef2e847793620e3"
+      ],
+      "family": "p01",
+      "rotation": 1,
+      "form": "active",
+      "variant": "swap2",
+      "assignment": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Helen sent Jack to Grace. Kate waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        7607
+      ],
+      "generated_text": " Jack",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Jack",
+      "native_correct": false,
+      "first_token": 7607,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 10.21875,
+        "Helen": 16.34375,
+        "Jack": 29.90625,
+        "Kate": 22.578125
+      },
+      "id": "p01_r1_active_sham_q2",
+      "gold": "Kate",
+      "measurement": "full_generation",
+      "base_call": 126,
+      "base_payload": "payloads/CALL_0126.npz",
+      "base_payload_sha256": "17eefc2bbfca402bf9a0c441b29b834cfa8c88d8b834647a9bb2ffdcbadadd4d",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 126
+        },
+        {
+          "prefix": [
+            7607
+          ],
+          "call": 127
+        }
+      ],
+      "prefix_hashes": [
+        "ee3ad89891fa0e6a9fc3845f3b4a4cf82f5586eef2c7ca5ff6cd7126b2879953",
+        "d91eafa23bd1fbee6b139c1ab830f6a2292adb8452fd6fd1a81001fa26b64b14",
+        "217e6c7707726eefc47fad4260db75d1bb3b6eb70cdc1947c4c8ed03bdcbe8d0",
+        "8943de23ce622a483cb0c5e5033dc8c006b16036e8c50835126724e43147238f",
+        "a053e52058a3acf41c673a5ae6f0a822b2a69a4a782dd4bc7a78d493141abdda"
+      ],
+      "family": "p01",
+      "rotation": 1,
+      "form": "active",
+      "variant": "sham",
+      "assignment": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Helen sent Jack to Kate. Grace stood nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        29201
+      ],
+      "generated_text": " Kate",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Kate",
+      "native_correct": false,
+      "first_token": 29201,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 25.0625,
+        "Helen": 10.0625,
+        "Jack": 18.765625,
+        "Kate": 30.828125
+      },
+      "id": "p01_r2_active_base_q2",
+      "gold": "Grace",
+      "measurement": "full_generation",
+      "base_call": 195,
+      "base_payload": "payloads/CALL_0195.npz",
+      "base_payload_sha256": "332f41d9c7276cb4c7e299eef31e1a1707a879a03ec458548d4951b45c729151",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 195
+        },
+        {
+          "prefix": [
+            29201
+          ],
+          "call": 196
+        }
+      ],
+      "prefix_hashes": [
+        "34011fa4ce83026b7886eda917b1987531ffeef5f55d9b64faf978c311bbf00b",
+        "e34a78240a7d921c3807372d8aa34827ef33fc06df94f7d3cbb2855d5904ce23",
+        "bb6bcdcc023fa3cdefe7f1badd5efe9253bcbac80a6b6642d992053e7009b9dc",
+        "56833d1204538cf75a692bbc1e18a72ccdc82aa75954f6347653fde94d77983e",
+        "29e64826256155636c419f22f6bb76581d548ab28ac7d38dfff3b8656fef77ca"
+      ],
+      "family": "p01",
+      "rotation": 2,
+      "form": "active",
+      "variant": "base",
+      "assignment": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Jack sent Kate to Grace. Helen waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        29201
+      ],
+      "generated_text": " Kate",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Kate",
+      "native_correct": false,
+      "first_token": 29201,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 26.25,
+        "Helen": 16.578125,
+        "Jack": 9.8359375,
+        "Kate": 30.640625
+      },
+      "id": "p01_r2_active_swap0_q2",
+      "gold": "Grace",
+      "measurement": "full_generation",
+      "base_call": 201,
+      "base_payload": "payloads/CALL_0201.npz",
+      "base_payload_sha256": "abca1f11e32661139950b249bbff3f4bd966b75dc4f37bfb91ea54b88859b953",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 201
+        },
+        {
+          "prefix": [
+            29201
+          ],
+          "call": 202
+        }
+      ],
+      "prefix_hashes": [
+        "965840cb14335835450fba76b9a29493e7cf3b8011146326bd39b4f36e187c8b",
+        "811cdffa9da9f677a7d7ccde671635d21070e35dd5b5613970b3be6ca01b2ec8",
+        "44b39256f88fcb3f8289987ab3ad4ba1544980ab5b0af91a46e8330d0d4a8573",
+        "856a5f4669892f8d2330ccd60ec873c09f691743d298fe217ef0a712d49a35ef",
+        "d9d50000981ec984da5f21bb6daaa349aa7d52d0ba8f03fbe04d0e6dd5a7ad00"
+      ],
+      "family": "p01",
+      "rotation": 2,
+      "form": "active",
+      "variant": "swap0",
+      "assignment": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Helen sent Kate to Grace. Jack waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        42781
+      ],
+      "generated_text": " Helen",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Helen",
+      "native_correct": false,
+      "first_token": 42781,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 28.96875,
+        "Helen": 30.625,
+        "Jack": 17.4375,
+        "Kate": 9.9453125
+      },
+      "id": "p01_r2_active_swap1_q2",
+      "gold": "Grace",
+      "measurement": "full_generation",
+      "base_call": 207,
+      "base_payload": "payloads/CALL_0207.npz",
+      "base_payload_sha256": "97467f7526c71411aca28a22295fedea104ad5ef4a779a5070b1329cc08c8c5a",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 207
+        },
+        {
+          "prefix": [
+            42781
+          ],
+          "call": 208
+        }
+      ],
+      "prefix_hashes": [
+        "67014163ad514b92f67970e83b113290004753f0e0010eabce2ad55573ca6879",
+        "8205bdce7d1391eac0fa0dc4f9354eff42113eea3ec7b047d97dfaf5eed35cfe",
+        "0b0d65a59154f6dfd0f44ead8c3adff97abaca9cbe1d7e17199ebf2c7f318b0b",
+        "def956e54a995c8ab9d031d2acabff8abde4f54f6356899dbdd28a73fa52ef40",
+        "fcb1101d7796c13b4926b7987a2c7ceb7991ceb282ba0e669dbf9ca4f2867542"
+      ],
+      "family": "p01",
+      "rotation": 2,
+      "form": "active",
+      "variant": "swap1",
+      "assignment": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Jack sent Helen to Grace. Kate waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        29201
+      ],
+      "generated_text": " Kate",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Kate",
+      "native_correct": false,
+      "first_token": 29201,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 10.5546875,
+        "Helen": 24.5,
+        "Jack": 18.4375,
+        "Kate": 30.421875
+      },
+      "id": "p01_r2_active_swap2_q2",
+      "gold": "Helen",
+      "measurement": "full_generation",
+      "base_call": 213,
+      "base_payload": "payloads/CALL_0213.npz",
+      "base_payload_sha256": "f4ca9cd595e2ad1d69cf9c4c3227fa224cb01cf773f112048e4b78ed11484f7f",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 213
+        },
+        {
+          "prefix": [
+            29201
+          ],
+          "call": 214
+        }
+      ],
+      "prefix_hashes": [
+        "21184fc1f339991facdd4cab4a075191fcb4c1fcba7ba6681b020c547c53b974",
+        "eb2a3e099506f8f174a483de5686d340d3d22889489535d12c2fd5b414dbfe6b",
+        "b7a2feaf0e8e715d8a08890d8eb55f032f0641f4e732f79bc73865b01f5989c8",
+        "bd658a2f8077f4abfe1b8d4a3137a6478ac89761a6e39b1f7917961f1a77ff3e",
+        "f3a04863405ea9ae5e745148b78e12bacb5e7744c717c89305fb35fb4dfb7697"
+      ],
+      "family": "p01",
+      "rotation": 2,
+      "form": "active",
+      "variant": "swap2",
+      "assignment": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Jack sent Kate to Helen. Grace waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        29201
+      ],
+      "generated_text": " Kate",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Kate",
+      "native_correct": false,
+      "first_token": 29201,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 22.78125,
+        "Helen": 10.1875,
+        "Jack": 18.375,
+        "Kate": 29.90625
+      },
+      "id": "p01_r2_active_sham_q2",
+      "gold": "Grace",
+      "measurement": "full_generation",
+      "base_call": 219,
+      "base_payload": "payloads/CALL_0219.npz",
+      "base_payload_sha256": "e7f3e4fd9dcbc9600f9b8ad3ad9c6432cdd2b63ee983117feaeef17146df0ceb",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 219
+        },
+        {
+          "prefix": [
+            29201
+          ],
+          "call": 220
+        }
+      ],
+      "prefix_hashes": [
+        "7bf04df11953e6bda0ec072c4191b888c38c1e45c705d96494189a6c00e5cb52",
+        "c7f48d76ee181406d574d34c84cd668e6b6c29bd4d4f4d998710c39d8fbf13ba",
+        "d0485b4727046c69d7b470bdc40d5add44308444d8e8bc3dbd73bc7b82277388",
+        "5598474edb8f78c45ca06ff31cc713bc9e5be0fc845f8a71e0adfe97bc2c5ad9",
+        "19becaf8cba31b775c9f724db923a6ea703b642f7444e981b38a37cc23260076"
+      ],
+      "family": "p01",
+      "rotation": 2,
+      "form": "active",
+      "variant": "sham",
+      "assignment": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Jack sent Kate to Grace. Helen stood nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        31071
+      ],
+      "generated_text": " Grace",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Grace",
+      "native_correct": false,
+      "first_token": 31071,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 31.25,
+        "Helen": 18.875,
+        "Jack": 9.09375,
+        "Kate": 19.390625
+      },
+      "id": "p01_r3_active_base_q2",
+      "gold": "Helen",
+      "measurement": "full_generation",
+      "base_call": 287,
+      "base_payload": "payloads/CALL_0287.npz",
+      "base_payload_sha256": "c1b7c49e828a4d056d3879b0134b2b328cf2cb6b493b32716ff29c7ed9cc8e19",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 287
+        },
+        {
+          "prefix": [
+            31071
+          ],
+          "call": 288
+        }
+      ],
+      "prefix_hashes": [
+        "41fe6cc460454d29a68afc3fc753c416231759fdee0770484d067fcebba5cb78",
+        "93a4be559d4bfa15cc32f45a2ed194a0b790c1c1051fa41d4da9c1bf6380b028",
+        "d0c08b5b63d658158fd878fbfa9907f7e40a856f0f7db1c414adc6939cff6758",
+        "8b2553cf648d6eef7a08d080e0b4ef7e7bf733b169d1258599f77e429b539f76",
+        "960068f18507b1ddd212d43524111a4142c00894f6968b09befdaa182f9a2326"
+      ],
+      "family": "p01",
+      "rotation": 3,
+      "form": "active",
+      "variant": "base",
+      "assignment": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Kate sent Grace to Helen. Jack waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        31071
+      ],
+      "generated_text": " Grace",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Grace",
+      "native_correct": false,
+      "first_token": 31071,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 32.09375,
+        "Helen": 23.109375,
+        "Jack": 18.234375,
+        "Kate": 10.6875
+      },
+      "id": "p01_r3_active_swap0_q2",
+      "gold": "Helen",
+      "measurement": "full_generation",
+      "base_call": 294,
+      "base_payload": "payloads/CALL_0294.npz",
+      "base_payload_sha256": "e6ac885961cbdde1e12c01cef153dea5cef0389bdb8c30383fdf66b182058aed",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 294
+        },
+        {
+          "prefix": [
+            31071
+          ],
+          "call": 295
+        }
+      ],
+      "prefix_hashes": [
+        "7ee00a8037b573ba135393c3f6c2faf85f9daf5cd0c4691206aeb10350795399",
+        "83f433bbd3ac261aadfb3009d9a09259d11607c25571efd9465227a793c395f9",
+        "9f2ea8bf147d4586ed812377db1a05d47e6297b45bfc20f5c2e8363fa13f2147",
+        "7465103b73c5e91d891b13dc0488dfe14601d6e02adf321ae17e7ebd23d7a76b",
+        "05e2bd1aabce5c219d17fa92a82df13f7d668df6a9aa476fd2f7f328f30d0fbb"
+      ],
+      "family": "p01",
+      "rotation": 3,
+      "form": "active",
+      "variant": "swap0",
+      "assignment": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Jack sent Grace to Helen. Kate waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        7607
+      ],
+      "generated_text": " Jack",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Jack",
+      "native_correct": false,
+      "first_token": 7607,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 10.5,
+        "Helen": 22.125,
+        "Jack": 31.0625,
+        "Kate": 21.390625
+      },
+      "id": "p01_r3_active_swap1_q2",
+      "gold": "Helen",
+      "measurement": "full_generation",
+      "base_call": 300,
+      "base_payload": "payloads/CALL_0300.npz",
+      "base_payload_sha256": "d9e29d705f83bca661d710eac646a1e08baf2cc5bb5dcaf8b52278e8962ed704",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 300
+        },
+        {
+          "prefix": [
+            7607
+          ],
+          "call": 301
+        }
+      ],
+      "prefix_hashes": [
+        "fda04ec9f2a3e1cb96aed2aed7761fd9a5983ee7a5b5c61b0fc42d331b66fce1",
+        "739b8352a87db24f275cb8ff0cf39fe5487e9de583d93d3673ee4ddc57060bbe",
+        "376d35333ef3de521a4ee490f905ad24d55356cf98121267734668ac4e71d59f",
+        "1e9eb0b8f9539dfcbcaa0d5f092d5389d2765e0dd0da1d0f1673c758834b22da",
+        "e2c2c0b86d1d483a94fba774d2114cf40e1ec4b4c538be821d41341bfc4dfbeb"
+      ],
+      "family": "p01",
+      "rotation": 3,
+      "form": "active",
+      "variant": "swap1",
+      "assignment": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Kate sent Jack to Helen. Grace waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        31071
+      ],
+      "generated_text": " Grace",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Grace",
+      "native_correct": false,
+      "first_token": 31071,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 31.265625,
+        "Helen": 7.68359375,
+        "Jack": 21.828125,
+        "Kate": 18.9375
+      },
+      "id": "p01_r3_active_swap2_q2",
+      "gold": "Jack",
+      "measurement": "full_generation",
+      "base_call": 306,
+      "base_payload": "payloads/CALL_0306.npz",
+      "base_payload_sha256": "460b3d57954a76f99a8349bcd12d1ade521632a3e15dda7da52fdd1ab31a8d79",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 306
+        },
+        {
+          "prefix": [
+            31071
+          ],
+          "call": 307
+        }
+      ],
+      "prefix_hashes": [
+        "565f87ef7338c1feb76bbbd9f75c956276b102f8e75598cd5d285588c3ea4663",
+        "c101bfe5fab1b9c9e02b22095e7fcaf3c169ac7c5726cbde33604bed737f2d44",
+        "bebbd1fadd3b53967dfa5d5b718355fb2853a97eedf3ed01114647ea31d9fd64",
+        "6bf2bda9487b7fb439e0a0e5be19ed13bf4fcc0be710b3c0fc84fe5fb5271789",
+        "15d2e008df9268f0ab4efcfa43d04fc262367cb9108aff048185f99db8bdf330"
+      ],
+      "family": "p01",
+      "rotation": 3,
+      "form": "active",
+      "variant": "swap2",
+      "assignment": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Kate sent Grace to Jack. Helen waited nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        31071
+      ],
+      "generated_text": " Grace",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Grace",
+      "native_correct": false,
+      "first_token": 31071,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 30.59375,
+        "Helen": 17.703125,
+        "Jack": 9.4453125,
+        "Kate": 18.6875
+      },
+      "id": "p01_r3_active_sham_q2",
+      "gold": "Helen",
+      "measurement": "full_generation",
+      "base_call": 312,
+      "base_payload": "payloads/CALL_0312.npz",
+      "base_payload_sha256": "ed593ffbb6eb61b8c532db96ce311a1613b19d48e95a019437cf3116edaa6a07",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 312
+        },
+        {
+          "prefix": [
+            31071
+          ],
+          "call": 313
+        }
+      ],
+      "prefix_hashes": [
+        "edd12435521dc4bebced01a587f6558d58c2b593258da4bf20e79922543a5dfa",
+        "d80cb7c42c1aa1b1923942475a1fdfdbc7b8e0916df3c54e48e9c11bfd075b99",
+        "22ea0f3fa81abcddf173f9c61fa5916cbf930d7fb73fbde0691859ee58f05cf5",
+        "26ba61ff77b8d8c1b9d1cc8e3b6f805d78925b055151a413827f00f734e7c750",
+        "bf55c3ca6c3fedcb80151bbbbca48bb28eaef7b2057c6f99f7b929817660d370"
+      ],
+      "family": "p01",
+      "rotation": 3,
+      "form": "active",
+      "variant": "sham",
+      "assignment": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Kate sent Grace to Helen. Jack stood nearby.",
+      "question": "Who was someone sent to?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        31071
+      ],
+      "generated_text": " Grace",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Grace",
+      "native_correct": false,
+      "first_token": 31071,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 31.046875,
+        "Helen": 16.9375,
+        "Jack": 12.8046875,
+        "Kate": 28.59375
+      },
+      "id": "p01_r3_passive_sham_q0",
+      "gold": "Kate",
+      "measurement": "full_generation",
+      "base_call": 339,
+      "base_payload": "payloads/CALL_0339.npz",
+      "base_payload_sha256": "59ed25775c2e9ed8954273d99628d50b2e84f53c5415150648c79e6b95f2f6bb",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 339
+        },
+        {
+          "prefix": [
+            31071
+          ],
+          "call": 340
+        }
+      ],
+      "prefix_hashes": [
+        "38ab566f836123a26c7f0f7411b5977c5ad02cf96ccb082aaee7f97a2090165a",
+        "c1927406c471597bab4a0785d1ff8376f82689e61eb2ec803366d04e3ccb5511",
+        "b5b7b1d010d74881d4b0c6ed20039cac7bf802303cd6e8f856e60a71df876226",
+        "d90bac2330f9b68e233d7edfb450e1e41277993f798165063a46db5cf67cbaf8",
+        "d66676b13528fe2cd7c7148bcbbc7219a5c250051c156d0a865b49ddcdb22b9f"
+      ],
+      "family": "p01",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "sham",
+      "assignment": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "query_index": 0,
+      "role_index": 0,
+      "source": "Grace was sent to Helen by Kate. Jack stood nearby.",
+      "question": "Who sent someone to another person?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        7607
+      ],
+      "generated_text": " Jack",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Jack",
+      "native_correct": false,
+      "first_token": 7607,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 27.953125,
+        "Helen": 18.625,
+        "Jack": 28.03125,
+        "Kate": 11.515625
+      },
+      "id": "p01_r3_goal_fronted_swap0_q1",
+      "gold": "Grace",
+      "measurement": "full_generation",
+      "base_call": 354,
+      "base_payload": "payloads/CALL_0354.npz",
+      "base_payload_sha256": "00a221949a9fdfe114bf4f61064d4ac0a2597348e255a5fcff64658ba0bc8d4b",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 354
+        },
+        {
+          "prefix": [
+            7607
+          ],
+          "call": 355
+        }
+      ],
+      "prefix_hashes": [
+        "fda98e62833ec6a465b7bae02b376eb1038fc1a574087048a89e025d1b9ac275",
+        "a5eb1b4a123a47e2964843fe1178fdaee69a1940db96b29164b39c9d4e26af7a",
+        "93946b2f875d978a430528db2ec4e13c4c0a55af78a36fabc197fa584f26c52d",
+        "49b83f1b03c3a00eb18d5002aaed1203809f3797cfdd0f5eccb6c0623adabdaf",
+        "0a8db7071d8916ff80aa2ffea7526ae53440da0f77281a0dbb2431f128e878c0"
+      ],
+      "family": "p01",
+      "rotation": 3,
+      "form": "goal_fronted",
+      "variant": "swap0",
+      "assignment": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "query_index": 1,
+      "role_index": 1,
+      "source": "To Helen, Jack sent Grace. Kate waited nearby.",
+      "question": "Who was sent to another person?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        29201
+      ],
+      "generated_text": " Kate",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Kate",
+      "native_correct": false,
+      "first_token": 29201,
+      "first_token_correct": false,
+      "name_logits": {
+        "Grace": 13.3671875,
+        "Helen": 25.03125,
+        "Jack": 22.09375,
+        "Kate": 27.046875
+      },
+      "id": "p01_r3_goal_fronted_swap1_q1",
+      "gold": "Jack",
+      "measurement": "full_generation",
+      "base_call": 360,
+      "base_payload": "payloads/CALL_0360.npz",
+      "base_payload_sha256": "cf5868de740a42bda26f1197181a275f97ce825713633395cfd2a332df63b8e7",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 360
+        },
+        {
+          "prefix": [
+            29201
+          ],
+          "call": 361
+        }
+      ],
+      "prefix_hashes": [
+        "8fc3ac471dd81d8049f504a4b621fda985888118ed47105ce82cc524d00a6153",
+        "3913e6e7489660f5c6478197d976f46119596401aecb811f1731cc986d08bfa8",
+        "a1d274719a816f09b57963c280e791818325284b391bf6be05b18194aa781b21",
+        "63c2f623a709cafd1e4a8c21b968ae2c61a2d4122abf8476205b23028cc65f64",
+        "9af90ca78dc2ebc9a07b4912bf15525e0963c3b30e8b27ec0723272df9b8fe81"
+      ],
+      "family": "p01",
+      "rotation": 3,
+      "form": "goal_fronted",
+      "variant": "swap1",
+      "assignment": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "query_index": 1,
+      "role_index": 1,
+      "source": "To Helen, Kate sent Jack. Grace waited nearby.",
+      "question": "Who was sent to another person?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        24453
+      ],
+      "generated_text": " Luke",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Luke",
+      "native_correct": false,
+      "first_token": 24453,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 16.71875,
+        "Luke": 29.234375,
+        "Paul": 15.9609375,
+        "Mark": 11.7578125
+      },
+      "id": "p02_r0_active_base_q2",
+      "gold": "Paul",
+      "measurement": "full_generation",
+      "base_call": 380,
+      "base_payload": "payloads/CALL_0380.npz",
+      "base_payload_sha256": "5741cd5223d2b0727eafb6354342d8c55c59b7801bddb8f1ef1dec25438f2508",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 380
+        },
+        {
+          "prefix": [
+            24453
+          ],
+          "call": 381
+        }
+      ],
+      "prefix_hashes": [
+        "8de05d592c7d0cd25075bbc013333a8f6c0bfd56356ec6eb18014848597c5862",
+        "69e0521f48ec4b6b054339367f91e1b9dad18cc9484ef6bac02aa4f242326fe4",
+        "e867e1d6fb8c5ae346d559c27daf3d0e76f6dec78734c113047ddeb24c5877f9",
+        "6cb794f41ae79d7655b5db8491975930b6d9c9e5f11cf23bfc34fece81c85b22",
+        "f03bec0c0b44ba31f1bb8cb46b8281016f0abfc6ee162c45167f5d94a9e07d01"
+      ],
+      "family": "p02",
+      "rotation": 0,
+      "form": "active",
+      "variant": "base",
+      "assignment": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Nora sent Luke to Paul. Mark waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        24453
+      ],
+      "generated_text": " Luke",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Luke",
+      "native_correct": false,
+      "first_token": 24453,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 4.16796875,
+        "Luke": 30.59375,
+        "Paul": 19.171875,
+        "Mark": 23.609375
+      },
+      "id": "p02_r0_active_swap0_q2",
+      "gold": "Paul",
+      "measurement": "full_generation",
+      "base_call": 387,
+      "base_payload": "payloads/CALL_0387.npz",
+      "base_payload_sha256": "e53358683525301919f438654dec1893e13486074aa91b6b2c4e7a3d1315d1fc",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 387
+        },
+        {
+          "prefix": [
+            24453
+          ],
+          "call": 388
+        }
+      ],
+      "prefix_hashes": [
+        "383cdad7b999e1a57fa6dce1ebd3f3fdcfcf5ac244bc7625940c98e416d50a9e",
+        "1d55b9f2283365ab946324d7a71949e750fe87f8e8040d2eb0607c54e737e6d9",
+        "2b34781195331e6824788bdf11a556fb2ca65116516571d74d13a2511b8ca9ad",
+        "d20522cd019a5a2d9ee178268c816dafbd548cc40db1f8a1ee9d599f076a4031",
+        "5a3db9f5fefd2867c838ae0beb821cd9a18941be1d51746394e702f8e6dd17eb"
+      ],
+      "family": "p02",
+      "rotation": 0,
+      "form": "active",
+      "variant": "swap0",
+      "assignment": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Mark sent Luke to Paul. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        4389
+      ],
+      "generated_text": " Mark",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Mark",
+      "native_correct": false,
+      "first_token": 4389,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 20.765625,
+        "Luke": 6.98046875,
+        "Paul": 14.796875,
+        "Mark": 29.453125
+      },
+      "id": "p02_r0_active_swap1_q2",
+      "gold": "Paul",
+      "measurement": "full_generation",
+      "base_call": 393,
+      "base_payload": "payloads/CALL_0393.npz",
+      "base_payload_sha256": "813f3addd1f148e977d71479d7fa72e2e3ecbb885f1164b17a95e5d71368f254",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 393
+        },
+        {
+          "prefix": [
+            4389
+          ],
+          "call": 394
+        }
+      ],
+      "prefix_hashes": [
+        "93d1db930ff53b3bbc81e87d1221c797bf4604ae930c94938696cd93582a37ed",
+        "1c4207ddcf4684d72f31c5549b500d389a93c7618b6144c47279718c14b1f6eb",
+        "7fcd6849f990b980c56b669591ae72b061bb9dd8b34b7f53bf7f104bd3df3719",
+        "5bd126bdb8b53342605d09953fca016f64515242f297c70e49c0b1a9eb208fd4",
+        "f00c33f36ad57da0f0d25a9e99a0da3bb29dc211c2f72497321637c2483dd096"
+      ],
+      "family": "p02",
+      "rotation": 0,
+      "form": "active",
+      "variant": "swap1",
+      "assignment": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Nora sent Mark to Paul. Luke waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        24453
+      ],
+      "generated_text": " Luke",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Luke",
+      "native_correct": false,
+      "first_token": 24453,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 17.484375,
+        "Luke": 28.546875,
+        "Paul": 10.0546875,
+        "Mark": 19.375
+      },
+      "id": "p02_r0_active_swap2_q2",
+      "gold": "Mark",
+      "measurement": "full_generation",
+      "base_call": 399,
+      "base_payload": "payloads/CALL_0399.npz",
+      "base_payload_sha256": "cb0477570666da13e6980cd86e567578a09c4a5666bf6af422ae0b2a1f0e8ad7",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 399
+        },
+        {
+          "prefix": [
+            24453
+          ],
+          "call": 400
+        }
+      ],
+      "prefix_hashes": [
+        "9f640d6f288899fb769c5507e7284442107b0b9853dd1e26b55c8eea4695ecba",
+        "8180ea8f44e795d8370c730a55ac8d9e87432a4b914838e1c7fa5212bb7e680c",
+        "ab38d505c3f8135d5f08ac936d981f71e3cefd61781a963b6e935d4582f8e486",
+        "83e039e597871efe2c70f1548b5182dffa9e38fa7a2fd4b66bf0f5f24a510421",
+        "2b35d4113b86993a9a59e4c17b68f26bed384e4b5fd04ed1de467a2392ba99ea"
+      ],
+      "family": "p02",
+      "rotation": 0,
+      "form": "active",
+      "variant": "swap2",
+      "assignment": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Nora sent Luke to Mark. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        24453
+      ],
+      "generated_text": " Luke",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Luke",
+      "native_correct": false,
+      "first_token": 24453,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 17.15625,
+        "Luke": 29.09375,
+        "Paul": 15.6953125,
+        "Mark": 11.9296875
+      },
+      "id": "p02_r0_active_sham_q2",
+      "gold": "Paul",
+      "measurement": "full_generation",
+      "base_call": 405,
+      "base_payload": "payloads/CALL_0405.npz",
+      "base_payload_sha256": "cd6d77a7edb594c129a787ad321dc20ce6c9c43eb7744c07effbb8553702bbb2",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 405
+        },
+        {
+          "prefix": [
+            24453
+          ],
+          "call": 406
+        }
+      ],
+      "prefix_hashes": [
+        "c4bc48bae2556241e2459ee37130ed03fa9891a25f5f447319ee34c4d6085de0",
+        "7a5e735f5732b182c7025934c17f77230901a48cb27d4b333fa7262c204db46a",
+        "645c2470d1e73d6440d1715cffdddb79bf7566b20195baeefa70a4b935984956",
+        "455137d9334189adbab9bd04c985734998310342dce67891367763747e42d763",
+        "afc74213589e039f9b1911cbde79b62421f146c6e501e6c41d9808a2dd92839c"
+      ],
+      "family": "p02",
+      "rotation": 0,
+      "form": "active",
+      "variant": "sham",
+      "assignment": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Nora sent Luke to Paul. Mark stood nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        24453
+      ],
+      "generated_text": " Luke",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Luke",
+      "native_correct": false,
+      "first_token": 24453,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 11.5078125,
+        "Luke": 34.21875,
+        "Paul": 26.765625,
+        "Mark": 14.625
+      },
+      "id": "p02_r0_passive_base_q2",
+      "gold": "Paul",
+      "measurement": "full_generation",
+      "base_call": 411,
+      "base_payload": "payloads/CALL_0411.npz",
+      "base_payload_sha256": "28fe7bd139f21c47c9ba3dd94aa83f84f86dc7a740d13ba4169e5a283ae49147",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 411
+        },
+        {
+          "prefix": [
+            24453
+          ],
+          "call": 412
+        }
+      ],
+      "prefix_hashes": [
+        "815c35bb1f6b4f40386fb911f4b0c1f588a46df016d73608d6b9df03439a3e8d",
+        "6e5f8055af8b15ad428d47090d07c32d9cd35fb4e92bad1b2806a0735891ed85",
+        "d524aa402a44cb121b97e1c2a3894a6c42d5e6ee48f514faf8ff53ae347f601d",
+        "45e3c276acee468012e94908ccedd311e4573110cd3fe8eebe9b5d0823991a75",
+        "bb2ca7ed1c1d2276da87e9e27439abd9b51d1f6300092aeef0e1d19d3de8f8a6"
+      ],
+      "family": "p02",
+      "rotation": 0,
+      "form": "passive",
+      "variant": "base",
+      "assignment": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Luke was sent to Paul by Nora. Mark waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 1
+    },
+    {
+      "generated_tokens": [
+        24453
+      ],
+      "generated_text": " Luke",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Luke",
+      "native_correct": false,
+      "first_token": 24453,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 6.22265625,
+        "Luke": 33.78125,
+        "Paul": 25.375,
+        "Mark": 20.8125
+      },
+      "id": "p02_r0_passive_swap0_q2",
+      "gold": "Paul",
+      "measurement": "full_generation",
+      "base_call": 418,
+      "base_payload": "payloads/CALL_0418.npz",
+      "base_payload_sha256": "616c5733b826e1a4fb194a6836141c0fa37416d8bdeca9814deea07fe64d21da",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 418
+        },
+        {
+          "prefix": [
+            24453
+          ],
+          "call": 419
+        }
+      ],
+      "prefix_hashes": [
+        "293c57c1a94558eabb8804dc8c21da48dc502bcf7d2aae322dc562c257029179",
+        "f8218309323070b77f2dac11cd6256c01331bf07fe3f8cebb56e6b7187872cbd",
+        "b5feef166fff2d12e3536a57f3b6cd29201748678e4422fb33c6b1d7fa98a8ad",
+        "44fd32ee65c5f1045b76707e4677862d5ddabe1b285e6f7c338bb2dded654ae6",
+        "040f1c90d19e038f445fd15c8c22cb080401d3e46593541837150b8c8a384205"
+      ],
+      "family": "p02",
+      "rotation": 0,
+      "form": "passive",
+      "variant": "swap0",
+      "assignment": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Luke was sent to Paul by Mark. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 1
+    },
+    {
+      "generated_tokens": [
+        4389
+      ],
+      "generated_text": " Mark",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Mark",
+      "native_correct": false,
+      "first_token": 4389,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 16.875,
+        "Luke": 9.859375,
+        "Paul": 27.828125,
+        "Mark": 34.4375
+      },
+      "id": "p02_r0_passive_swap1_q2",
+      "gold": "Paul",
+      "measurement": "full_generation",
+      "base_call": 424,
+      "base_payload": "payloads/CALL_0424.npz",
+      "base_payload_sha256": "19391e2ca72a17f810863c23cc5bdc876beea3944ee10ae8caa83f37bf1a7090",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 424
+        },
+        {
+          "prefix": [
+            4389
+          ],
+          "call": 425
+        }
+      ],
+      "prefix_hashes": [
+        "a7282ff2be15b24cd44e3ecaa1fc6069b2ee7fbe8cab61a7ab42cc8f25875a86",
+        "ac42bc2f7fa085af326857d836de9b64393b3baec49b9dd39603fa792dee0e13",
+        "4e704c68166049aaa75713bf5fb179e47f1fcb79d031c102536db409ccf38e9c",
+        "0c076d2c9fad822493d4e9c45fd26d92f0cc67acea63a8e6d9ca8ddca06e7583",
+        "d03f536ad911cf6007b4a2d754a91289b7df2185d8e71a45cdd75f8e2366080d"
+      ],
+      "family": "p02",
+      "rotation": 0,
+      "form": "passive",
+      "variant": "swap1",
+      "assignment": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Mark was sent to Paul by Nora. Luke waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 1
+    },
+    {
+      "generated_tokens": [
+        24453
+      ],
+      "generated_text": " Luke",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Luke",
+      "native_correct": false,
+      "first_token": 24453,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 14.21875,
+        "Luke": 32.875,
+        "Paul": 14.0078125,
+        "Mark": 32.03125
+      },
+      "id": "p02_r0_passive_swap2_q2",
+      "gold": "Mark",
+      "measurement": "full_generation",
+      "base_call": 430,
+      "base_payload": "payloads/CALL_0430.npz",
+      "base_payload_sha256": "de5403afdddb169f5c34fff5f60bb503f5bc0485956bf57925b1ed80738ccc69",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 430
+        },
+        {
+          "prefix": [
+            24453
+          ],
+          "call": 431
+        }
+      ],
+      "prefix_hashes": [
+        "53e1049bcf39bd84237d4fd13c226e1f81cb90e848ef3688f4d9b2df4c6a42ce",
+        "681b2878ac6a4f7594beb2eec3b9797396ba6129c676ed330efca8cd6b42d749",
+        "5e3457dd5778b37efa210e1cc91e540945e04f73c197d6d6f8e21ba4fac87d12",
+        "8aa4990c63507e2fd6f2105a880b7c166370fec7df81137dacc5b58864524772",
+        "07793db07d0e11cd0a7440dc644a8bc0fe960407486bd6255da7b648cfe76c6d"
+      ],
+      "family": "p02",
+      "rotation": 0,
+      "form": "passive",
+      "variant": "swap2",
+      "assignment": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Luke was sent to Mark by Nora. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 1
+    },
+    {
+      "generated_tokens": [
+        24453
+      ],
+      "generated_text": " Luke",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Luke",
+      "native_correct": false,
+      "first_token": 24453,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 11.5078125,
+        "Luke": 33.9375,
+        "Paul": 26.953125,
+        "Mark": 14.359375
+      },
+      "id": "p02_r0_passive_sham_q2",
+      "gold": "Paul",
+      "measurement": "full_generation",
+      "base_call": 436,
+      "base_payload": "payloads/CALL_0436.npz",
+      "base_payload_sha256": "866406b219701c4f799fd33a6f85dcb6dc962f04ebfda8c692cf801567e23849",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 436
+        },
+        {
+          "prefix": [
+            24453
+          ],
+          "call": 437
+        }
+      ],
+      "prefix_hashes": [
+        "be08b2a299b675c8c0ef251ed4ff2c5feeed5c0fb0d586d57c99cd385f84d8f2",
+        "43e7ee00aab19135ef508fd9bdc63576cc54626219616fb74e15291ea73a8839",
+        "0133ace56bbb42eb85962e547533dd8b75493a049ce646ddf3e3fa36349e9f18",
+        "30fd69fb2e60c8b1d4b8b27ee052ab88240cb21d6f4182ca22c4d726f9af2649",
+        "1094735f2c92f82f847e3e09c2a281a1f1316592077820014ada7d94b0fc599a"
+      ],
+      "family": "p02",
+      "rotation": 0,
+      "form": "passive",
+      "variant": "sham",
+      "assignment": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Luke was sent to Paul by Nora. Mark stood nearby.",
+      "question": "To which person was someone sent?",
+      "position": 1
+    },
+    {
+      "generated_tokens": [
+        4389
+      ],
+      "generated_text": " Mark",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Mark",
+      "native_correct": false,
+      "first_token": 4389,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 7.96875,
+        "Luke": 25.421875,
+        "Paul": 29.4375,
+        "Mark": 30.828125
+      },
+      "id": "p02_r0_goal_fronted_swap0_q2",
+      "gold": "Paul",
+      "measurement": "full_generation",
+      "base_call": 448,
+      "base_payload": "payloads/CALL_0448.npz",
+      "base_payload_sha256": "c2c73d0ef3cb5f65a92b0c0726cebaf112b7b567060bb9d7c37d243b433fd421",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 448
+        },
+        {
+          "prefix": [
+            4389
+          ],
+          "call": 450
+        }
+      ],
+      "prefix_hashes": [
+        "8a4aeb1ec88ec2aa6b96358d3a992f12175bd5e5e29ee1d397dcf50ea93eef70",
+        "fe68ecd00549d6174d86d0a8c193fcfa101583a16afbbd2336bf09246a8b5a73",
+        "fc20870ebc001af840224c255094a6f13403e1206204e95ade1203e24c51fff9",
+        "18a78546ca6ba636749d1f94b7467354147b1c9b8314c7ce6343152f9d9b6dec",
+        "3155ef2196dd62360ec1b4f62be8dad6aca8f2958bb150476721a56526d57666"
+      ],
+      "family": "p02",
+      "rotation": 0,
+      "form": "goal_fronted",
+      "variant": "swap0",
+      "assignment": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "To Paul, Mark sent Luke. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 0
+    },
+    {
+      "generated_tokens": [
+        6898
+      ],
+      "generated_text": " Paul",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Paul",
+      "native_correct": false,
+      "first_token": 6898,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 6.65625,
+        "Luke": 23.015625,
+        "Paul": 32.21875,
+        "Mark": 21.640625
+      },
+      "id": "p02_r1_active_base_q2",
+      "gold": "Mark",
+      "measurement": "full_generation",
+      "base_call": 473,
+      "base_payload": "payloads/CALL_0473.npz",
+      "base_payload_sha256": "e27c9df74a7c81647ed31fe233573c8567986541e82c80307dc5607a23918b41",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 473
+        },
+        {
+          "prefix": [
+            6898
+          ],
+          "call": 474
+        }
+      ],
+      "prefix_hashes": [
+        "5b154528519aa1ed741e0a8d8e2cd6e953370f65401eea49fe1691cb23566d1c",
+        "9035fda93d5f6133ff85f53bed0d53a44faa86aa72973910f62ba10beb9ff0e2",
+        "807cad1ec57a04b013cd9753adabc74b6762d1b03505c091e64f0c90b68a1b53",
+        "57a8ed4723931e2af3e1dc9925a33fbf85ac8848209d1a045af869335a74c5ac",
+        "6edfdac88b9d4be01d3a6e534fa3c3e04285dea16475320778989fb625618482"
+      ],
+      "family": "p02",
+      "rotation": 1,
+      "form": "active",
+      "variant": "base",
+      "assignment": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Luke sent Paul to Mark. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        6898
+      ],
+      "generated_text": " Paul",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Paul",
+      "native_correct": false,
+      "first_token": 6898,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 18.984375,
+        "Luke": 7.80859375,
+        "Paul": 29.390625,
+        "Mark": 16.265625
+      },
+      "id": "p02_r1_active_swap0_q2",
+      "gold": "Mark",
+      "measurement": "full_generation",
+      "base_call": 479,
+      "base_payload": "payloads/CALL_0479.npz",
+      "base_payload_sha256": "ec4fcc19c20fb8e2953eed4195ef678ab226afcde85537c7b67e71a88ff20cac",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 479
+        },
+        {
+          "prefix": [
+            6898
+          ],
+          "call": 480
+        }
+      ],
+      "prefix_hashes": [
+        "b62587f6ae0e4ca2dc47cae825f0574814b2014951b9e5ac1c8ef960292b672c",
+        "3feb171284c6d5e7f451d48ab965095cc43d9d385ea5755e5326cc531c14d192",
+        "94e7eb327d3c5c0f6151af798570314d524ba3513c2f6fae526d0fa7cc6c2be0",
+        "34ba785d50cb51c76f9f6acaddfb300cd1c2efa1d32ff3d138efb2c720a8087c",
+        "b6a1a0bfa60da239f0f9018006e8e34643426005612eebedb21fb89457b836a6"
+      ],
+      "family": "p02",
+      "rotation": 1,
+      "form": "active",
+      "variant": "swap0",
+      "assignment": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Nora sent Paul to Mark. Luke waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        72545
+      ],
+      "generated_text": " Nora",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Nora",
+      "native_correct": false,
+      "first_token": 72545,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 27.015625,
+        "Luke": 19.375,
+        "Paul": 9.78125,
+        "Mark": 23.265625
+      },
+      "id": "p02_r1_active_swap1_q2",
+      "gold": "Mark",
+      "measurement": "full_generation",
+      "base_call": 486,
+      "base_payload": "payloads/CALL_0486.npz",
+      "base_payload_sha256": "8e1972059854d428250381a27ed2a66d8bb736374a6c5387800e6769f6dbd6cc",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 486
+        },
+        {
+          "prefix": [
+            72545
+          ],
+          "call": 487
+        }
+      ],
+      "prefix_hashes": [
+        "ca644be3acbf0d2769232297976d724e0f9660b512093881ba088004161cdc00",
+        "1db85526ef273efe56a3ef4bcab5aa6491e09c294cceddc8c198c3d91dba80cf",
+        "88dd94cd60ab97d811368457ff68a5887bcabe24b8871538fc8dc45a4a94f671",
+        "8425a666e0e04b32ee38d0ad3b4d0fee5ee59f213b4a0c01b19263b6e149b494",
+        "aa6618d82d994003bc4ae49708ee917e8210c5a5323dc82c83c3b9dccd6cb7bf"
+      ],
+      "family": "p02",
+      "rotation": 1,
+      "form": "active",
+      "variant": "swap1",
+      "assignment": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Luke sent Nora to Mark. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        6898
+      ],
+      "generated_text": " Paul",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Paul",
+      "native_correct": false,
+      "first_token": 6898,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 27.453125,
+        "Luke": 12.8515625,
+        "Paul": 28.296875,
+        "Mark": 9.3203125
+      },
+      "id": "p02_r1_active_swap2_q2",
+      "gold": "Nora",
+      "measurement": "full_generation",
+      "base_call": 492,
+      "base_payload": "payloads/CALL_0492.npz",
+      "base_payload_sha256": "173376fbd256772af0c330c97ae60eb90eb72649336f5a790d638362827d7f31",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 492
+        },
+        {
+          "prefix": [
+            6898
+          ],
+          "call": 493
+        }
+      ],
+      "prefix_hashes": [
+        "e3e33ab808d171943d0b477d3f73d3984d8daf1172b649cff85490154907b283",
+        "83a2cffe41c4a02fd424e7863a9c02ba850e7cc76fbd580ab03f9fe2d205bba6",
+        "03b8dd7f0f72be4db2afe9941f5a70d5d5163ce76cf01c03520dcb6f1e6b8c43",
+        "a48a7a58580158ac4cee807cedd2ee8bf46bf723ab7adccc903aebc4455a65f2",
+        "eb9a730c8b1967984b87c4cd66d64c1d010d741636a0b4ff0347832568eee919"
+      ],
+      "family": "p02",
+      "rotation": 1,
+      "form": "active",
+      "variant": "swap2",
+      "assignment": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Luke sent Paul to Nora. Mark waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        6898
+      ],
+      "generated_text": " Paul",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Paul",
+      "native_correct": false,
+      "first_token": 6898,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 7.40234375,
+        "Luke": 22.46875,
+        "Paul": 32.65625,
+        "Mark": 22.90625
+      },
+      "id": "p02_r1_active_sham_q2",
+      "gold": "Mark",
+      "measurement": "full_generation",
+      "base_call": 498,
+      "base_payload": "payloads/CALL_0498.npz",
+      "base_payload_sha256": "95546d35be69f1953ef6c89edb38781181ffd95616817d80232c773ee222ceb8",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 498
+        },
+        {
+          "prefix": [
+            6898
+          ],
+          "call": 499
+        }
+      ],
+      "prefix_hashes": [
+        "707ab2772ef870528c6492937aa0b28f299044ad16205d481348d90a7daca949",
+        "85ec2f02e43d053c70d62b63f05c6659a1efd008c1ff074a3b93ca5901e7774f",
+        "53e048210d4b3730e0f1b4efed6d4a7e70129101b05c9696af1a8a78beb90d38",
+        "2840fbc11f21736f428f8cdff5eabd8267b1614488fd5314d6a4ea40d9577e76",
+        "419776e45fb289aa56efb8d2e0b9afd265845975e2889f879deb96b7a07b74de"
+      ],
+      "family": "p02",
+      "rotation": 1,
+      "form": "active",
+      "variant": "sham",
+      "assignment": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Luke sent Paul to Mark. Nora stood nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        72545
+      ],
+      "generated_text": " Nora",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Nora",
+      "native_correct": false,
+      "first_token": 72545,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 30.609375,
+        "Luke": 12.9140625,
+        "Paul": 11.640625,
+        "Mark": 30.109375
+      },
+      "id": "p02_r1_passive_swap1_q2",
+      "gold": "Mark",
+      "measurement": "full_generation",
+      "base_call": 517,
+      "base_payload": "payloads/CALL_0517.npz",
+      "base_payload_sha256": "f5d8bb5daa2ab646c6de897ada2a15451c90da83e584885d384e9e93c93e851c",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 517
+        },
+        {
+          "prefix": [
+            72545
+          ],
+          "call": 518
+        }
+      ],
+      "prefix_hashes": [
+        "41d5fe0d94dcb1e3ce234c62c80d2c466b01db74832f71703c731e85202b00bb",
+        "fdfbb90c829a4100599210e60123fba77f22bbc149528db226c6c8912f7ad579",
+        "7f6ae2450edb4b9a53d837530789c3e13f791b25bd33e7d2db7587df4c1bd72e",
+        "c1ccf0d1f77258b3701cabbfc732f5ffdf00c5e26147cad7706774cf52edd5ea",
+        "59f4f8b650a4a19a43573a26d1f605c42e9316f20a9ca96e16d09031aebb0595"
+      ],
+      "family": "p02",
+      "rotation": 1,
+      "form": "passive",
+      "variant": "swap1",
+      "assignment": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Nora was sent to Mark by Luke. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 1
+    },
+    {
+      "generated_tokens": [
+        24453
+      ],
+      "generated_text": " Luke",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Luke",
+      "native_correct": false,
+      "first_token": 24453,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 25.03125,
+        "Luke": 25.421875,
+        "Paul": 8.0546875,
+        "Mark": 19.5625
+      },
+      "id": "p02_r1_goal_fronted_swap1_q1",
+      "gold": "Nora",
+      "measurement": "full_generation",
+      "base_call": 546,
+      "base_payload": "payloads/CALL_0546.npz",
+      "base_payload_sha256": "21d87581537511a2343049fc03c719de40a39f8afeead8217b96ed4f03a5068d",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 546
+        },
+        {
+          "prefix": [
+            24453
+          ],
+          "call": 547
+        }
+      ],
+      "prefix_hashes": [
+        "43641c7c1f302eeeec01b777ef8a8604b6af82f319d252e3ca04cacb8de3869b",
+        "5f2b0fb3e59f66bee3e69ad737b527512591caaecbfc55e74d0cc83e87c562d0",
+        "cd67a7997a8622b6eabd692cb997363ab47051406cc4c208611bdc8cc77bd99c",
+        "026977a52339d6a3a5ff9ca5187a6d31c2d6e8a42deb057e776a67cff4bb1705",
+        "da408d4f446b7833789b175d0bd516fbd0f373f4824f0bda8927b2e71fe4d5a6"
+      ],
+      "family": "p02",
+      "rotation": 1,
+      "form": "goal_fronted",
+      "variant": "swap1",
+      "assignment": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "query_index": 1,
+      "role_index": 1,
+      "source": "To Mark, Luke sent Nora. Paul waited nearby.",
+      "question": "Which person was sent by someone?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        24453
+      ],
+      "generated_text": " Luke",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Luke",
+      "native_correct": false,
+      "first_token": 24453,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 18.21875,
+        "Luke": 26.4375,
+        "Paul": 24.734375,
+        "Mark": 10.2265625
+      },
+      "id": "p02_r1_goal_fronted_swap2_q1",
+      "gold": "Paul",
+      "measurement": "full_generation",
+      "base_call": 552,
+      "base_payload": "payloads/CALL_0552.npz",
+      "base_payload_sha256": "d9eb985350e69ccaec50bc93db88e80ac734d4b6cff2a07e417dcdb46473df0c",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 552
+        },
+        {
+          "prefix": [
+            24453
+          ],
+          "call": 553
+        }
+      ],
+      "prefix_hashes": [
+        "b03d26a773b692ec7dcccd5a5f6fa6925e8dacda597db721a531761f85b6deca",
+        "6c97a04d9259b0058910b0cec5535f019e9ff2afb0360968dff7359fb379eb90",
+        "4e745b8bd39f899a27357f4a27a3890f3985c573e109a6cb4ebf8b933707cdaf",
+        "e072b9d58e3fd00481c322566fb902b960b71a5f04cbaea02262d5ab3edb477a",
+        "0b8ca73d2e3c7cb1e2957273b3da199dad0ad6251fd677aed30f21c4ad41bfa6"
+      ],
+      "family": "p02",
+      "rotation": 1,
+      "form": "goal_fronted",
+      "variant": "swap2",
+      "assignment": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "query_index": 1,
+      "role_index": 1,
+      "source": "To Nora, Luke sent Paul. Mark waited nearby.",
+      "question": "Which person was sent by someone?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        4389
+      ],
+      "generated_text": " Mark",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Mark",
+      "native_correct": false,
+      "first_token": 4389,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 26.65625,
+        "Luke": 14.7734375,
+        "Paul": 9.9609375,
+        "Mark": 28.53125
+      },
+      "id": "p02_r2_active_swap0_q2",
+      "gold": "Nora",
+      "measurement": "full_generation",
+      "base_call": 572,
+      "base_payload": "payloads/CALL_0572.npz",
+      "base_payload_sha256": "2cae097672ee5c6bc4ea2e84524b56aee07586a0cc3e49bfa2e8f41181da7423",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 572
+        },
+        {
+          "prefix": [
+            4389
+          ],
+          "call": 573
+        }
+      ],
+      "prefix_hashes": [
+        "2120bdce27a72927df475fb85d812a7053be379f2bb0377be4d5d2ff9cd256f8",
+        "f6a6f959c9bed7a5a93a6ee587b038c583aaf3e20db8350a2aa176ec075224d1",
+        "a643335e53b32d6028216ad4b082d85433ee367f2919b3b441ae3d5fc564dfdd",
+        "1193d2b2c841b4536fa9b92e02d7e40681d482282b29c67c09efd5c44b3ef624",
+        "a6a3199de6bd7b2443811fd5e28e5291614baec1f3b934e1207561ffd15b170a"
+      ],
+      "family": "p02",
+      "rotation": 2,
+      "form": "active",
+      "variant": "swap0",
+      "assignment": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Luke sent Mark to Nora. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        4389
+      ],
+      "generated_text": " Mark",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Mark",
+      "native_correct": false,
+      "first_token": 4389,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 5.25390625,
+        "Luke": 26.296875,
+        "Paul": 22.5,
+        "Mark": 30.3125
+      },
+      "id": "p02_r2_active_swap2_q2",
+      "gold": "Luke",
+      "measurement": "full_generation",
+      "base_call": 585,
+      "base_payload": "payloads/CALL_0585.npz",
+      "base_payload_sha256": "e63c6fc110cb67f6fab3b9e4293cda2451ea7e87a52474ecf8f0d6ad077d02ac",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 585
+        },
+        {
+          "prefix": [
+            4389
+          ],
+          "call": 586
+        }
+      ],
+      "prefix_hashes": [
+        "b27b14f27fc8f6a774c55ae0fe841851ff8da45d8b2f9c3bbd4aca7b1bd58693",
+        "e6c8b646c4e6a46cb3ef4700c18d89a0a425af7264f7aeaa4826483c7f199bec",
+        "1e5df6f2e760d2628309ef3206cdf84fac781939db5024c2231bb5cac11b6849",
+        "2a18478da3fd1ac9b2a1497aa1fa256679f4d79e9306a521eb0c18253c606a7f",
+        "6d9a28e9ae2da84b2c6a5d8950957d85f23d9a74804a4454f26cada74c479213"
+      ],
+      "family": "p02",
+      "rotation": 2,
+      "form": "active",
+      "variant": "swap2",
+      "assignment": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Paul sent Mark to Luke. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        4389
+      ],
+      "generated_text": " Mark",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Mark",
+      "native_correct": false,
+      "first_token": 4389,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 28.84375,
+        "Luke": 10.28125,
+        "Paul": 9.59375,
+        "Mark": 29.953125
+      },
+      "id": "p02_r2_passive_swap0_q2",
+      "gold": "Nora",
+      "measurement": "full_generation",
+      "base_call": 603,
+      "base_payload": "payloads/CALL_0603.npz",
+      "base_payload_sha256": "2da3c7b46da77a7c6837210daf55452fa4f514a289859d8672ad884272956e41",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 603
+        },
+        {
+          "prefix": [
+            4389
+          ],
+          "call": 604
+        }
+      ],
+      "prefix_hashes": [
+        "24bbfcd9c34e5a238d976cd45c8610a771d72a74d8b07dc174ca27a022b0463a",
+        "91e4a02866b1b32fa69cd02d42710af7d70f582919ed5b50e7466edb89567694",
+        "e9930a429333b2e012721f605eece9d2fb8ee5c155e454e48124b823a8a75066",
+        "702f12e56766ebbea23bcbc6bda3de1724a0b9dc8cbaf2ea248f6f6b226a822e",
+        "2b59598098b15b5fd11caccad67d8a18df2e73c115c2bdce5cc990111508bb2e"
+      ],
+      "family": "p02",
+      "rotation": 2,
+      "form": "passive",
+      "variant": "swap0",
+      "assignment": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Mark was sent to Nora by Luke. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 1
+    },
+    {
+      "generated_tokens": [
+        4389
+      ],
+      "generated_text": " Mark",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Mark",
+      "native_correct": false,
+      "first_token": 4389,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 4.765625,
+        "Luke": 27.734375,
+        "Paul": 19.515625,
+        "Mark": 35.375
+      },
+      "id": "p02_r2_passive_swap2_q2",
+      "gold": "Luke",
+      "measurement": "full_generation",
+      "base_call": 616,
+      "base_payload": "payloads/CALL_0616.npz",
+      "base_payload_sha256": "4152431296054902f484ca722cb2800073e520fdf3b5085f1abe8f1c5893e36a",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 616
+        },
+        {
+          "prefix": [
+            4389
+          ],
+          "call": 617
+        }
+      ],
+      "prefix_hashes": [
+        "3228c9dd07d38681459736c777b6079de08adce7867cee5b415113fc2ae6bc8a",
+        "48f252927cc644124adc8f3fc3a6e70e739415de59a5f60e6bef0f86c8ee9d22",
+        "b9b8cc7f90c1f595c2d5a85a5de598d34e00b78dd86d324474ac79091a061ab2",
+        "09820955827653868ae922ac67a56b44ee65fcc9758ad3dd1fca0a1259aff3dd",
+        "31aaf4fbf04a72fa65ed6b73d2ae0b066e1fb3f0184b44fa8e2a9dd2eee60c40"
+      ],
+      "family": "p02",
+      "rotation": 2,
+      "form": "passive",
+      "variant": "swap2",
+      "assignment": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Mark was sent to Luke by Paul. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 1
+    },
+    {
+      "generated_tokens": [
+        72545
+      ],
+      "generated_text": " Nora",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Nora",
+      "native_correct": false,
+      "first_token": 72545,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 27.546875,
+        "Luke": 18.0,
+        "Paul": 8.75,
+        "Mark": 21.546875
+      },
+      "id": "p02_r3_active_base_q2",
+      "gold": "Luke",
+      "measurement": "full_generation",
+      "base_call": 659,
+      "base_payload": "payloads/CALL_0659.npz",
+      "base_payload_sha256": "890b1df596207de63673856ea517f700b49b3c3c6a54609a3b9e7f116c46561e",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 659
+        },
+        {
+          "prefix": [
+            72545
+          ],
+          "call": 660
+        }
+      ],
+      "prefix_hashes": [
+        "4704da64373793e612856f804b2d296c7cbf27b10a70265d0971b4c3bad26f7e",
+        "3063074f2595c001dea4a726414c3a3b1a7a1d4f2ab3dd2ca832ac138d3e6b7b",
+        "89661ba3a7a930f3dbe8ca2beb0e0fc00d40b917e84c70235c6502c7f223a0bc",
+        "d40ed0b78de12e718d1f0418fceed66fb75d5c6dc24e97c938160a36ab186185",
+        "373a6520ee4e2992bfb582a392edb7a198388c1320452224f95f358664ace4bf"
+      ],
+      "family": "p02",
+      "rotation": 3,
+      "form": "active",
+      "variant": "base",
+      "assignment": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Mark sent Nora to Luke. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        72545
+      ],
+      "generated_text": " Nora",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Nora",
+      "native_correct": false,
+      "first_token": 72545,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 26.546875,
+        "Luke": 21.6875,
+        "Paul": 19.75,
+        "Mark": 9.2421875
+      },
+      "id": "p02_r3_active_swap0_q2",
+      "gold": "Luke",
+      "measurement": "full_generation",
+      "base_call": 665,
+      "base_payload": "payloads/CALL_0665.npz",
+      "base_payload_sha256": "939f0b823c9d34c415fcf4dbd06fb26d43489021952d2010e970f49f2aeab0cd",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 665
+        },
+        {
+          "prefix": [
+            72545
+          ],
+          "call": 666
+        }
+      ],
+      "prefix_hashes": [
+        "fab48347dcd8b736fae92516268915df6def9448c9b6d0591eaae4fb08a40716",
+        "5978c024cbf8f81c272d654630bd0a955cd12992b64470094d5503f7861ca55c",
+        "846e1371131e8b855f2b3c3cf011cf1a702d22822b139f9f24e57a30cf1b7eac",
+        "1e130c609dae27eceeb49cd35c7dcdcba27c752cd67ae2597d8fdd721ead342b",
+        "c13075dcdd807bc29136a2c3d525dc1cb78ef9fbdd90eb6f46fd8dd74e2e8142"
+      ],
+      "family": "p02",
+      "rotation": 3,
+      "form": "active",
+      "variant": "swap0",
+      "assignment": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Paul sent Nora to Luke. Mark waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        6898
+      ],
+      "generated_text": " Paul",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Paul",
+      "native_correct": false,
+      "first_token": 6898,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 6.5703125,
+        "Luke": 21.140625,
+        "Paul": 30.9375,
+        "Mark": 22.65625
+      },
+      "id": "p02_r3_active_swap1_q2",
+      "gold": "Luke",
+      "measurement": "full_generation",
+      "base_call": 671,
+      "base_payload": "payloads/CALL_0671.npz",
+      "base_payload_sha256": "de95ba90dc28233145502a7c17c1266edc1d6b56889a3bda7cc5ac6948e6e79d",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 671
+        },
+        {
+          "prefix": [
+            6898
+          ],
+          "call": 672
+        }
+      ],
+      "prefix_hashes": [
+        "c5820fb75c4fea2023313654addaa33f7d93e8f987bae9df496b498fb26479b1",
+        "913dc6fd5f6c0e110a6e447ed15e68803ff8c4ad4fd3ced85889f5a8ba2586c8",
+        "15f32207cdf4503a4f5b1261b327934b4a6472b34e313e45635dc5758a2efa88",
+        "0788e6a2e214bddb95f96c6f8e82f63810acd4ac5637afc8da3cc0aa1bf7e704",
+        "558d6f138be88af1c9955a76597585355b5801dd4cafa1c6a1aa81464089cbd4"
+      ],
+      "family": "p02",
+      "rotation": 3,
+      "form": "active",
+      "variant": "swap1",
+      "assignment": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Mark sent Paul to Luke. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        72545
+      ],
+      "generated_text": " Nora",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Nora",
+      "native_correct": false,
+      "first_token": 72545,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 28.984375,
+        "Luke": 5.859375,
+        "Paul": 19.046875,
+        "Mark": 23.015625
+      },
+      "id": "p02_r3_active_swap2_q2",
+      "gold": "Paul",
+      "measurement": "full_generation",
+      "base_call": 678,
+      "base_payload": "payloads/CALL_0678.npz",
+      "base_payload_sha256": "576c53044ceafbd23826548b7014b15d41b79f8a435163cd71532e98c46a269c",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 678
+        },
+        {
+          "prefix": [
+            72545
+          ],
+          "call": 679
+        }
+      ],
+      "prefix_hashes": [
+        "57a510c916bc74ee57c45006f2e7f7d5827b71ee4f44288c8a451e507f711f03",
+        "596c620eb395676054037f7029bc936e47c7ad23a756fbafe8ffa414a27528a8",
+        "c70e1ba000c102c19b938ee6ebe9e3cc4aad1f3a08bf71a3617f9893ece760e9",
+        "9aedec9a2af456b2bcd1ac9d8e24c2e270790da9b4b4ba63cd8e96d95c36dede",
+        "8f2d9149143f1ee9e6e6d4d18ce8db52adbac6b847c93bc9a3ef6fee3b7da478"
+      ],
+      "family": "p02",
+      "rotation": 3,
+      "form": "active",
+      "variant": "swap2",
+      "assignment": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Mark sent Nora to Paul. Luke waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        72545
+      ],
+      "generated_text": " Nora",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Nora",
+      "native_correct": false,
+      "first_token": 72545,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 27.8125,
+        "Luke": 17.84375,
+        "Paul": 9.1796875,
+        "Mark": 21.734375
+      },
+      "id": "p02_r3_active_sham_q2",
+      "gold": "Luke",
+      "measurement": "full_generation",
+      "base_call": 684,
+      "base_payload": "payloads/CALL_0684.npz",
+      "base_payload_sha256": "974f25cb3e9c6b730193234eb7c8dde996f14fec85b64555568f71f88d899dba",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 684
+        },
+        {
+          "prefix": [
+            72545
+          ],
+          "call": 685
+        }
+      ],
+      "prefix_hashes": [
+        "9b4c63588c030510cc16c37f1a8120b616bda1c61d5dff53007e8d2e8e2b1233",
+        "edf11bb384bda20b7de62fadd4282d3ef0cdae7f236f0dd6a35974bccc904c45",
+        "96e2c98c242679058725e1ad5fa98797d8928239fe520cd56ac5b189712bb8f5",
+        "c7f8c3228dfec2fab8e0cd10573f35301136c51957c4db9f401cabf3b0812ef8",
+        "b7b9344076254f75de03aee3b5a20963e122c00bb19451609a0d8b307b735cc7"
+      ],
+      "family": "p02",
+      "rotation": 3,
+      "form": "active",
+      "variant": "sham",
+      "assignment": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Mark sent Nora to Luke. Paul stood nearby.",
+      "question": "To which person was someone sent?",
+      "position": 2
+    },
+    {
+      "generated_tokens": [
+        72545
+      ],
+      "generated_text": " Nora",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Nora",
+      "native_correct": false,
+      "first_token": 72545,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 29.296875,
+        "Luke": 23.671875,
+        "Paul": 9.3359375,
+        "Mark": 16.9375
+      },
+      "id": "p02_r3_passive_base_q2",
+      "gold": "Luke",
+      "measurement": "full_generation",
+      "base_call": 690,
+      "base_payload": "payloads/CALL_0690.npz",
+      "base_payload_sha256": "3124d09b100ce53e4d22d738afcc6882aac0d1d04a82f6ba120b157020c55875",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 690
+        },
+        {
+          "prefix": [
+            72545
+          ],
+          "call": 691
+        }
+      ],
+      "prefix_hashes": [
+        "870a472f94fdd6da79894bda1c738558405ae315d06f42487deb9ea1d456d0f8",
+        "54a75f8a7e4140156630da8c73d9ac152e0265dae5f0380c3ef9db3263e95291",
+        "06da5fc283932d1dc01db81e05707fefca0ecc85face08f6c3875c2f4d458062",
+        "49dc9f23d523f80da035a11efb1bfe1f718f0eb7cc906919f885e623c17f2e7b",
+        "36a27700489644450837a6b9217aa1730b51110036e6ef36c1007a1e44312e1d"
+      ],
+      "family": "p02",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "base",
+      "assignment": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Nora was sent to Luke by Mark. Paul waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 1
+    },
+    {
+      "generated_tokens": [
+        72545
+      ],
+      "generated_text": " Nora",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Nora",
+      "native_correct": false,
+      "first_token": 72545,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 29.640625,
+        "Luke": 23.9375,
+        "Paul": 14.0859375,
+        "Mark": 9.2734375
+      },
+      "id": "p02_r3_passive_swap0_q2",
+      "gold": "Luke",
+      "measurement": "full_generation",
+      "base_call": 696,
+      "base_payload": "payloads/CALL_0696.npz",
+      "base_payload_sha256": "467f5516182f8bb14456be21788e851a94ba4859cee0697c22d77153fda4e3ed",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 696
+        },
+        {
+          "prefix": [
+            72545
+          ],
+          "call": 697
+        }
+      ],
+      "prefix_hashes": [
+        "d07e50888480c7b53b3e948df6a7eff66585ae2179976923b774494c62f452a1",
+        "ab772bc4b3b34c3bb2ef404e52cb4ff4dec45459fdfa5ae7cabe1bd91fff0095",
+        "9c4102cb6536f3b9c3fe18154a828138fee965ce437f0a7a9c457b652ad99180",
+        "15071fa729b76fcda24cf5b0dfe7246b996a3fd9cf556d24e953333966b5958a",
+        "a6877c2671f8e80ff37a86cd36f5b5f0da7e5b71d84afde76d27b51e0480b86d"
+      ],
+      "family": "p02",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "swap0",
+      "assignment": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Nora was sent to Luke by Paul. Mark waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 1
+    },
+    {
+      "generated_tokens": [
+        6898
+      ],
+      "generated_text": " Paul",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Paul",
+      "native_correct": false,
+      "first_token": 6898,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 8.1015625,
+        "Luke": 26.453125,
+        "Paul": 34.59375,
+        "Mark": 22.5625
+      },
+      "id": "p02_r3_passive_swap1_q2",
+      "gold": "Luke",
+      "measurement": "full_generation",
+      "base_call": 702,
+      "base_payload": "payloads/CALL_0702.npz",
+      "base_payload_sha256": "09f82665d9eebd806377bd0fcd09e03512950aa2aef23118eecfa1ef886be192",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 702
+        },
+        {
+          "prefix": [
+            6898
+          ],
+          "call": 703
+        }
+      ],
+      "prefix_hashes": [
+        "7eaf4a17056ae5defabf43df6b3f5afd1e9b4945ec89fd193a1053fad8c1fbd8",
+        "76bf7309f979d3c13efb0e6ed0cfae65e4d59a3fc2fcdbe19f59340f2a44fe93",
+        "7292a5e28f8d28d2cea554b3830c70563be5ebe8dc80996742c27ac05d16565c",
+        "b9d2a510d601ef9c695abd402a40cd43980d0021d5fac2841a6f292cbc7af724",
+        "2d3b5e04eea66ad159e81a054c6f87c3fb73ab7922e96e1a4449f852a620244d"
+      ],
+      "family": "p02",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "swap1",
+      "assignment": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Paul was sent to Luke by Mark. Nora waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 1
+    },
+    {
+      "generated_tokens": [
+        72545
+      ],
+      "generated_text": " Nora",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Nora",
+      "native_correct": false,
+      "first_token": 72545,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 30.515625,
+        "Luke": 7.453125,
+        "Paul": 26.078125,
+        "Mark": 18.953125
+      },
+      "id": "p02_r3_passive_swap2_q2",
+      "gold": "Paul",
+      "measurement": "full_generation",
+      "base_call": 709,
+      "base_payload": "payloads/CALL_0709.npz",
+      "base_payload_sha256": "7eb45e9b6807b1ea48653751d592e1e7b8f15adf40ad35b0d0761d4419fe2d16",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 709
+        },
+        {
+          "prefix": [
+            72545
+          ],
+          "call": 710
+        }
+      ],
+      "prefix_hashes": [
+        "a2655e1be565780308b7faa95bf8ccc75ad2347e03322ac834c2400464d5dca3",
+        "347cf17b2db3c8200f660257176d5a25371d6cf3965e37044cf0ea9961172f49",
+        "fcbf486d1a0cd437a60a3b32d01f2591d4684569321bafb04aa48bc0161d1d15",
+        "cfe461ef9c72c59a82789b010bb96a0f8b2ce8b8c694feb45c2a976bdadb3dab",
+        "dabd12107793ec107075bbce1ae5c73bbe386fb875e6c3b63093495c44dcd332"
+      ],
+      "family": "p02",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "swap2",
+      "assignment": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Nora was sent to Paul by Mark. Luke waited nearby.",
+      "question": "To which person was someone sent?",
+      "position": 1
+    },
+    {
+      "generated_tokens": [
+        72545
+      ],
+      "generated_text": " Nora",
+      "eos_id": 151645,
+      "terminated": true,
+      "actual": "Nora",
+      "native_correct": false,
+      "first_token": 72545,
+      "first_token_correct": false,
+      "name_logits": {
+        "Nora": 29.234375,
+        "Luke": 23.8125,
+        "Paul": 9.453125,
+        "Mark": 16.78125
+      },
+      "id": "p02_r3_passive_sham_q2",
+      "gold": "Luke",
+      "measurement": "full_generation",
+      "base_call": 715,
+      "base_payload": "payloads/CALL_0715.npz",
+      "base_payload_sha256": "e90e8057bf06638699160d8d3dcd872432c5a56acb2664a94044b471a37c8e6d",
+      "calls": [
+        {
+          "prefix": [],
+          "call": 715
+        },
+        {
+          "prefix": [
+            72545
+          ],
+          "call": 716
+        }
+      ],
+      "prefix_hashes": [
+        "85890693f5b6a01f311a79b82a1cb8c8bbaa7e517376484999f1286bfa8781c2",
+        "e78930604e02b9f368e02686bcc6d38680b4412dca300706a5b09fa0b1d79090",
+        "8b9493402d830ae93d5c48232893239f20e6500e9851d4054890c5e311418941",
+        "b6b2cc9291e2e6cf9cfaaa97149926445890b40c64db17a283b798d763f70f49",
+        "3dcac0606b0e010d7caa4c97d0d4b6b042468cd94e90e4e22c8c9938f428e663"
+      ],
+      "family": "p02",
+      "rotation": 3,
+      "form": "passive",
+      "variant": "sham",
+      "assignment": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "query_index": 2,
+      "role_index": 2,
+      "source": "Nora was sent to Luke by Mark. Paul stood nearby.",
+      "question": "To which person was someone sent?",
+      "position": 1
+    }
+  ]
+}
