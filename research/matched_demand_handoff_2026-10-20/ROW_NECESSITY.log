@@ -1,0 +1,56 @@
+{
+  "old": {
+    "qwen7b": {
+      "by_removed_role": [
+        {
+          "removed": "sender",
+          "complete_correct": 36
+        },
+        {
+          "removed": "sent_person",
+          "complete_correct": 15
+        },
+        {
+          "removed": "destination_person",
+          "complete_correct": 35
+        }
+      ],
+      "every_row_removal_still_correct": 15
+    },
+    "llama3b": {
+      "by_removed_role": [
+        {
+          "removed": "sender",
+          "complete_correct": 31
+        },
+        {
+          "removed": "sent_person",
+          "complete_correct": 33
+        },
+        {
+          "removed": "destination_person",
+          "complete_correct": 34
+        }
+      ],
+      "every_row_removal_still_correct": 29
+    }
+  },
+  "new_observed_summary": [
+    {
+      "demand": "role",
+      "source_cases": 15,
+      "answers": 45,
+      "native_correct": 31,
+      "centered_correct": 41,
+      "assignment_complete": 15
+    },
+    {
+      "demand": "ordinal",
+      "source_cases": 15,
+      "answers": 45,
+      "native_correct": 44,
+      "centered_correct": 45,
+      "assignment_complete": 15
+    }
+  ]
+}

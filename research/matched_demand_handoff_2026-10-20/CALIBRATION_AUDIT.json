@@ -1,0 +1,348 @@
+{
+  "passed": true,
+  "checks": 1154,
+  "model_forwards": 0,
+  "details": {
+    "qwen7b": {
+      "raw_independent": {
+        "rescued_answers": 0,
+        "damaged_answers": 0,
+        "by_family_form": [
+          {
+            "family": "t01",
+            "form": "active",
+            "answers": 15,
+            "complete_sources": 3
+          },
+          {
+            "family": "t01",
+            "form": "passive",
+            "answers": 13,
+            "complete_sources": 1
+          },
+          {
+            "family": "t01",
+            "form": "goal_fronted",
+            "answers": 16,
+            "complete_sources": 4
+          },
+          {
+            "family": "t02",
+            "form": "active",
+            "answers": 14,
+            "complete_sources": 2
+          },
+          {
+            "family": "t02",
+            "form": "passive",
+            "answers": 13,
+            "complete_sources": 2
+          },
+          {
+            "family": "t02",
+            "form": "goal_fronted",
+            "answers": 15,
+            "complete_sources": 3
+          }
+        ]
+      },
+      "other_form_lexical_prior": {
+        "rescued_answers": 2,
+        "damaged_answers": 2,
+        "by_family_form": [
+          {
+            "family": "t01",
+            "form": "active",
+            "answers": 15,
+            "complete_sources": 3
+          },
+          {
+            "family": "t01",
+            "form": "passive",
+            "answers": 15,
+            "complete_sources": 3
+          },
+          {
+            "family": "t01",
+            "form": "goal_fronted",
+            "answers": 16,
+            "complete_sources": 4
+          },
+          {
+            "family": "t02",
+            "form": "active",
+            "answers": 14,
+            "complete_sources": 2
+          },
+          {
+            "family": "t02",
+            "form": "passive",
+            "answers": 13,
+            "complete_sources": 2
+          },
+          {
+            "family": "t02",
+            "form": "goal_fronted",
+            "answers": 13,
+            "complete_sources": 1
+          }
+        ]
+      },
+      "other_family_surface_prior": {
+        "rescued_answers": 17,
+        "damaged_answers": 0,
+        "by_family_form": [
+          {
+            "family": "t01",
+            "form": "active",
+            "answers": 16,
+            "complete_sources": 4
+          },
+          {
+            "family": "t01",
+            "form": "passive",
+            "answers": 17,
+            "complete_sources": 5
+          },
+          {
+            "family": "t01",
+            "form": "goal_fronted",
+            "answers": 17,
+            "complete_sources": 5
+          },
+          {
+            "family": "t02",
+            "form": "active",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t02",
+            "form": "passive",
+            "answers": 17,
+            "complete_sources": 5
+          },
+          {
+            "family": "t02",
+            "form": "goal_fronted",
+            "answers": 18,
+            "complete_sources": 6
+          }
+        ]
+      },
+      "within_source_three_question_column_centering": {
+        "rescued_answers": 20,
+        "damaged_answers": 0,
+        "by_family_form": [
+          {
+            "family": "t01",
+            "form": "active",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t01",
+            "form": "passive",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t01",
+            "form": "goal_fronted",
+            "answers": 17,
+            "complete_sources": 5
+          },
+          {
+            "family": "t02",
+            "form": "active",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t02",
+            "form": "passive",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t02",
+            "form": "goal_fronted",
+            "answers": 17,
+            "complete_sources": 5
+          }
+        ]
+      }
+    },
+    "llama3b": {
+      "raw_independent": {
+        "rescued_answers": 0,
+        "damaged_answers": 0,
+        "by_family_form": [
+          {
+            "family": "t01",
+            "form": "active",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t01",
+            "form": "passive",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t01",
+            "form": "goal_fronted",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t02",
+            "form": "active",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t02",
+            "form": "passive",
+            "answers": 16,
+            "complete_sources": 4
+          },
+          {
+            "family": "t02",
+            "form": "goal_fronted",
+            "answers": 13,
+            "complete_sources": 1
+          }
+        ]
+      },
+      "other_form_lexical_prior": {
+        "rescued_answers": 5,
+        "damaged_answers": 1,
+        "by_family_form": [
+          {
+            "family": "t01",
+            "form": "active",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t01",
+            "form": "passive",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t01",
+            "form": "goal_fronted",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t02",
+            "form": "active",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t02",
+            "form": "passive",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t02",
+            "form": "goal_fronted",
+            "answers": 15,
+            "complete_sources": 3
+          }
+        ]
+      },
+      "other_family_surface_prior": {
+        "rescued_answers": 1,
+        "damaged_answers": 1,
+        "by_family_form": [
+          {
+            "family": "t01",
+            "form": "active",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t01",
+            "form": "passive",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t01",
+            "form": "goal_fronted",
+            "answers": 17,
+            "complete_sources": 5
+          },
+          {
+            "family": "t02",
+            "form": "active",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t02",
+            "form": "passive",
+            "answers": 17,
+            "complete_sources": 5
+          },
+          {
+            "family": "t02",
+            "form": "goal_fronted",
+            "answers": 13,
+            "complete_sources": 1
+          }
+        ]
+      },
+      "within_source_three_question_column_centering": {
+        "rescued_answers": 7,
+        "damaged_answers": 0,
+        "by_family_form": [
+          {
+            "family": "t01",
+            "form": "active",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t01",
+            "form": "passive",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t01",
+            "form": "goal_fronted",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t02",
+            "form": "active",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t02",
+            "form": "passive",
+            "answers": 18,
+            "complete_sources": 6
+          },
+          {
+            "family": "t02",
+            "form": "goal_fronted",
+            "answers": 18,
+            "complete_sources": 6
+          }
+        ]
+      }
+    }
+  },
+  "limitations": "All underlying outcomes exposed before this exploratory analysis. Column correction preserves assignment gaps algebraically; this is not independent confirmation of assignment decoding or a causal attribution of neural error."
+}

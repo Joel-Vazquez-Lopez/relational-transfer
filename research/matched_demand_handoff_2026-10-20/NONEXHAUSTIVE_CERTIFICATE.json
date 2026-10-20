@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "model_forwards": 0,
+  "three_candidate_zero_information_row_winners": [
+    [
+      0,
+      1,
+      2
+    ]
+  ],
+  "four_candidate_zero_information_row_winners": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      1,
+      2
+    ]
+  ],
+  "random_zero_row_checks": 300,
+  "proof": "For k queried roles and n>k candidates, fix any maximizing assignment of the other k\u22121 rows after setting one row to zero. At least n\u2212k+1\u22652 names remain available for the zero row. All such extensions have identical scores. Thus no unique complete assignment can be inferred without that row. For n=k, only one name remains, so a zero-information query can be filled in by elimination. This is a property of this external assignment objective, not a neural mechanism.",
+  "limitation": "Row necessity is insufficient to prove positive knowledge of a relation. Candidate exclusion, shared salience, syntax-aware copying and external constraints remain competitors. A role-isolated counterfactual must change its target while the other queried answers stay fixed."
+}

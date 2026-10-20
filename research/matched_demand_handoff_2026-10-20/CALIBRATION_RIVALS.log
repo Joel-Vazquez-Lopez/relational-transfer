@@ -1,0 +1,48 @@
+{
+  "qwen7b": {
+    "native_correct": 86,
+    "native_complete": 15,
+    "assignment_correct": 36,
+    "methods": {
+      "raw_independent": {
+        "correct_answers": 86,
+        "complete_sources": 15
+      },
+      "other_form_lexical_prior": {
+        "correct_answers": 86,
+        "complete_sources": 15
+      },
+      "other_family_surface_prior": {
+        "correct_answers": 103,
+        "complete_sources": 31
+      },
+      "within_source_three_question_column_centering": {
+        "correct_answers": 106,
+        "complete_sources": 34
+      }
+    }
+  },
+  "llama3b": {
+    "native_correct": 101,
+    "native_complete": 29,
+    "assignment_correct": 36,
+    "methods": {
+      "raw_independent": {
+        "correct_answers": 101,
+        "complete_sources": 29
+      },
+      "other_form_lexical_prior": {
+        "correct_answers": 105,
+        "complete_sources": 33
+      },
+      "other_family_surface_prior": {
+        "correct_answers": 101,
+        "complete_sources": 29
+      },
+      "within_source_three_question_column_centering": {
+        "correct_answers": 108,
+        "complete_sources": 36
+      }
+    }
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "decision": "INCONCLUSIVE_COMPETENCE",
+  "schedule": "EARLY_PREREQUISITE_STOP",
+  "checks": 1524,
+  "checks_passed": true,
+  "frozen_files_unchanged": true,
+  "native_completed": 89,
+  "native_correct": 74,
+  "first_token_failures": 15,
+  "maximum_possible_correct_out_of_144": 129,
+  "first_token_required_at_least": 137,
+  "full_response_required_at_least": 130,
+  "maximum_possible_correct_fraction": 0.8958333333333334,
+  "primary_contrasts": null,
+  "interventions": 0,
+  "controller_journaled_forwards": 188,
+  "completed_raw_payloads": 189,
+  "recovered_unjournaled_forwards": 1,
+  "recovered_complete_response_separate": {
+    "call": 189,
+    "id": "u02_active_102_ordinal2",
+    "payload": "payloads/CALL_0189.npz",
+    "payload_sha256": "fed987ba12d662b8fb7a9c1aa3f4eb4eb4f9b56f7f92ac10486f49d46a9469d1",
+    "original_prompt_full_vocab_error": 0.0,
+    "eos_id": 128009,
+    "generated_tokens": [
+      9454
+    ],
+    "actual": "Frank",
+    "gold": "Frank",
+    "native_correct": true,
+    "status": "Worker completed and saved raw NPZ while SIGINT interrupted controller read. Not appended to the original forward/native journals. Metrics unavailable.",
+    "parent_call": 188
+  },
+  "workers": 6,
+  "max_mlx_peak_bytes": 2137814696,
+  "max_swap_bytes": 2654868602.88,
+  "min_free_disk_bytes": 12105261056,
+  "production_controls": 171,
+  "production_controls_failed": 0,
+  "by_question": [
+    {
+      "demand": "role",
+      "query_index": 0,
+      "total": 15,
+      "correct": 15
+    },
+    {
+      "demand": "role",
+      "query_index": 1,
+      "total": 15,
+      "correct": 14
+    },
+    {
+      "demand": "role",
+      "query_index": 2,
+      "total": 15,
+      "correct": 2
+    },
+    {
+      "demand": "ordinal",
+      "query_index": 0,
+      "total": 15,
+      "correct": 15
+    },
+    {
+      "demand": "ordinal",
+      "query_index": 1,
+      "total": 15,
+      "correct": 15
+    },
+    {
+      "demand": "ordinal",
+      "query_index": 2,
+      "total": 14,
+      "correct": 13
+    }
+  ],
+  "source_cases": [
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        0,
+        1,
+        2
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": false
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": false
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        1,
+        0,
+        2
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": false
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        1,
+        2,
+        0
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": false
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        2,
+        0,
+        1
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": false
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": false
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        0,
+        1,
+        2
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": false
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        1,
+        0,
+        2
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        1,
+        2,
+        0
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": false
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        2,
+        0,
+        1
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": false
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": false
+    },
+    {
+      "family": "u02",
+      "form": "active",
+      "assignment": [
+        0,
+        1,
+        2
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": false
+    },
+    {
+      "family": "u02",
+      "form": "active",
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "observed_questions": 6,
+      "fully_observed": true,
+      "complete_correct": false
+    },
+    {
+      "family": "u02",
+      "form": "active",
+      "assignment": [
+        1,
+        0,
+        2
+      ],
+      "observed_questions": 5,
+      "fully_observed": false,
+      "complete_correct": false
+    }
+  ],
+  "failures": [
+    {
+      "id": "u01_active_012_role2",
+      "family": "u01",
+      "form": "active",
+      "source": "Alice sent Bob to Carol.",
+      "question": "Who is the recipient?",
+      "demand": "role",
+      "query_index": 2,
+      "gold": "Carol",
+      "actual": "Bob",
+      "generated_text": " Bob",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 9,
+      "observed_gold_role": "sent_person"
+    },
+    {
+      "id": "u01_active_021_role2",
+      "family": "u01",
+      "form": "active",
+      "source": "Alice sent Carol to Bob.",
+      "question": "Who is the recipient?",
+      "demand": "role",
+      "query_index": 2,
+      "gold": "Bob",
+      "actual": "Carol",
+      "generated_text": " Carol",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 21,
+      "observed_gold_role": "sent_person"
+    },
+    {
+      "id": "u01_active_102_role2",
+      "family": "u01",
+      "form": "active",
+      "source": "Bob sent Alice to Carol.",
+      "question": "Who is the recipient?",
+      "demand": "role",
+      "query_index": 2,
+      "gold": "Carol",
+      "actual": "Alice",
+      "generated_text": " Alice",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 34,
+      "observed_gold_role": "sent_person"
+    },
+    {
+      "id": "u01_active_120_role2",
+      "family": "u01",
+      "form": "active",
+      "source": "Bob sent Carol to Alice.",
+      "question": "Who is the recipient?",
+      "demand": "role",
+      "query_index": 2,
+      "gold": "Alice",
+      "actual": "Carol",
+      "generated_text": " Carol",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 46,
+      "observed_gold_role": "sent_person"
+    },
+    {
+      "id": "u01_active_201_role2",
+      "family": "u01",
+      "form": "active",
+      "source": "Carol sent Alice to Bob.",
+      "question": "Who is the recipient?",
+      "demand": "role",
+      "query_index": 2,
+      "gold": "Bob",
+      "actual": "Alice",
+      "generated_text": " Alice",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 58,
+      "observed_gold_role": "sent_person"
+    },
+    {
+      "id": "u01_active_210_role2",
+      "family": "u01",
+      "form": "active",
+      "source": "Carol sent Bob to Alice.",
+      "question": "Who is the recipient?",
+      "demand": "role",
+      "query_index": 2,
+      "gold": "Alice",
+      "actual": "Bob",
+      "generated_text": " Bob",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 71,
+      "observed_gold_role": "sent_person"
+    },
+    {
+      "id": "u01_goal_fronted_021_role2",
+      "family": "u01",
+      "form": "goal_fronted",
+      "source": "To Bob, Alice sent Carol.",
+      "question": "Who is the recipient?",
+      "demand": "role",
+      "query_index": 2,
+      "gold": "Bob",
+      "actual": "Carol",
+      "generated_text": " Carol",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 95,
+      "observed_gold_role": "sent_person"
+    },
+    {
+      "id": "u01_goal_fronted_120_role2",
+      "family": "u01",
+      "form": "goal_fronted",
+      "source": "To Alice, Bob sent Carol.",
+      "question": "Who is the recipient?",
+      "demand": "role",
+      "query_index": 2,
+      "gold": "Alice",
+      "actual": "Carol",
+      "generated_text": " Carol",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 120,
+      "observed_gold_role": "sent_person"
+    },
+    {
+      "id": "u01_goal_fronted_201_role2",
+      "family": "u01",
+      "form": "goal_fronted",
+      "source": "To Bob, Carol sent Alice.",
+      "question": "Who is the recipient?",
+      "demand": "role",
+      "query_index": 2,
+      "gold": "Bob",
+      "actual": "Carol",
+      "generated_text": " Carol",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 133,
+      "observed_gold_role": "sender"
+    },
+    {
+      "id": "u01_goal_fronted_210_role1",
+      "family": "u01",
+      "form": "goal_fronted",
+      "source": "To Alice, Carol sent Bob.",
+      "question": "Who is being sent?",
+      "demand": "role",
+      "query_index": 1,
+      "gold": "Bob",
+      "actual": "Carol",
+      "generated_text": " Carol",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 143,
+      "observed_gold_role": "sender"
+    },
+    {
+      "id": "u01_goal_fronted_210_role2",
+      "family": "u01",
+      "form": "goal_fronted",
+      "source": "To Alice, Carol sent Bob.",
+      "question": "Who is the recipient?",
+      "demand": "role",
+      "query_index": 2,
+      "gold": "Alice",
+      "actual": "Carol",
+      "generated_text": " Carol",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 145,
+      "observed_gold_role": "sender"
+    },
+    {
+      "id": "u01_goal_fronted_210_ordinal2",
+      "family": "u01",
+      "form": "goal_fronted",
+      "source": "To Alice, Carol sent Bob.",
+      "question": "Who is mentioned third?",
+      "demand": "ordinal",
+      "query_index": 2,
+      "gold": "Bob",
+      "actual": "Carol",
+      "generated_text": " Carol",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 151,
+      "observed_gold_role": "sender"
+    },
+    {
+      "id": "u02_active_012_role2",
+      "family": "u02",
+      "form": "active",
+      "source": "Dave sent Erin to Frank.",
+      "question": "Who is the recipient?",
+      "demand": "role",
+      "query_index": 2,
+      "gold": "Frank",
+      "actual": "Erin",
+      "generated_text": " Erin",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 157,
+      "observed_gold_role": "sent_person"
+    },
+    {
+      "id": "u02_active_021_role2",
+      "family": "u02",
+      "form": "active",
+      "source": "Dave sent Frank to Erin.",
+      "question": "Who is the recipient?",
+      "demand": "role",
+      "query_index": 2,
+      "gold": "Erin",
+      "actual": "Frank",
+      "generated_text": " Frank",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 170,
+      "observed_gold_role": "sent_person"
+    },
+    {
+      "id": "u02_active_102_role2",
+      "family": "u02",
+      "form": "active",
+      "source": "Erin sent Dave to Frank.",
+      "question": "Who is the recipient?",
+      "demand": "role",
+      "query_index": 2,
+      "gold": "Frank",
+      "actual": "Dave",
+      "generated_text": " Dave",
+      "native_correct": false,
+      "first_token_correct": false,
+      "base_call": 182,
+      "observed_gold_role": "sent_person"
+    }
+  ],
+  "limitation": "Incomplete fixed-order native panel, not an unbiased accuracy estimate or a primary causal result. Early scheduling stop documented after outcomes; no frozen code, threshold, source, prompt, score, site or hypothesis changed. No automatic retry.",
+  "all_observed_including_separate_recovery": {
+    "answers": 90,
+    "correct": 75,
+    "unexecuted_prompts": 54,
+    "fully_observed_source_cases": 15,
+    "complete_correct_source_cases": 2,
+    "by_demand": [
+      {
+        "demand": "role",
+        "total": 45,
+        "correct": 31
+      },
+      {
+        "demand": "ordinal",
+        "total": 45,
+        "correct": 44
+      }
+    ]
+  }
+}

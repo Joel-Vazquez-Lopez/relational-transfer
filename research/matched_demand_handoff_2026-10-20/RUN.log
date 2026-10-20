@@ -1,0 +1,113 @@
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+NATIVE 1 /144 u01_active_012_role0 ' Alice' True
+NATIVE 2 /144 u01_active_012_role1 ' Bob' True
+NATIVE 3 /144 u01_active_012_role2 ' Bob' False
+NATIVE 4 /144 u01_active_012_ordinal0 ' Alice' True
+NATIVE 5 /144 u01_active_012_ordinal1 ' Bob' True
+NATIVE 6 /144 u01_active_012_ordinal2 ' Carol' True
+NATIVE 7 /144 u01_active_021_role0 ' Alice' True
+NATIVE 8 /144 u01_active_021_role1 ' Carol' True
+NATIVE 9 /144 u01_active_021_role2 ' Carol' False
+NATIVE 10 /144 u01_active_021_ordinal0 ' Alice' True
+NATIVE 11 /144 u01_active_021_ordinal1 ' Carol' True
+NATIVE 12 /144 u01_active_021_ordinal2 ' Bob' True
+NATIVE 13 /144 u01_active_102_role0 ' Bob' True
+NATIVE 14 /144 u01_active_102_role1 ' Alice' True
+NATIVE 15 /144 u01_active_102_role2 ' Alice' False
+NATIVE 16 /144 u01_active_102_ordinal0 ' Bob' True
+NATIVE 17 /144 u01_active_102_ordinal1 ' Alice' True
+NATIVE 18 /144 u01_active_102_ordinal2 ' Carol' True
+NATIVE 19 /144 u01_active_120_role0 ' Bob' True
+NATIVE 20 /144 u01_active_120_role1 ' Carol' True
+NATIVE 21 /144 u01_active_120_role2 ' Carol' False
+NATIVE 22 /144 u01_active_120_ordinal0 ' Bob' True
+NATIVE 23 /144 u01_active_120_ordinal1 ' Carol' True
+NATIVE 24 /144 u01_active_120_ordinal2 ' Alice' True
+NATIVE 25 /144 u01_active_201_role0 ' Carol' True
+NATIVE 26 /144 u01_active_201_role1 ' Alice' True
+NATIVE 27 /144 u01_active_201_role2 ' Alice' False
+NATIVE 28 /144 u01_active_201_ordinal0 ' Carol' True
+NATIVE 29 /144 u01_active_201_ordinal1 ' Alice' True
+NATIVE 30 /144 u01_active_201_ordinal2 ' Bob' True
+NATIVE 31 /144 u01_active_210_role0 ' Carol' True
+NATIVE 32 /144 u01_active_210_role1 ' Bob' True
+NATIVE 33 /144 u01_active_210_role2 ' Bob' False
+NATIVE 34 /144 u01_active_210_ordinal0 ' Carol' True
+NATIVE 35 /144 u01_active_210_ordinal1 ' Bob' True
+NATIVE 36 /144 u01_active_210_ordinal2 ' Alice' True
+NATIVE 37 /144 u01_goal_fronted_012_role0 ' Alice' True
+NATIVE 38 /144 u01_goal_fronted_012_role1 ' Bob' True
+NATIVE 39 /144 u01_goal_fronted_012_role2 ' Carol' True
+NATIVE 40 /144 u01_goal_fronted_012_ordinal0 ' Carol' True
+NATIVE 41 /144 u01_goal_fronted_012_ordinal1 ' Alice' True
+NATIVE 42 /144 u01_goal_fronted_012_ordinal2 ' Bob' True
+NATIVE 43 /144 u01_goal_fronted_021_role0 ' Alice' True
+NATIVE 44 /144 u01_goal_fronted_021_role1 ' Carol' True
+NATIVE 45 /144 u01_goal_fronted_021_role2 ' Carol' False
+NATIVE 46 /144 u01_goal_fronted_021_ordinal0 ' Bob' True
+NATIVE 47 /144 u01_goal_fronted_021_ordinal1 ' Alice' True
+NATIVE 48 /144 u01_goal_fronted_021_ordinal2 ' Carol' True
+NATIVE 49 /144 u01_goal_fronted_102_role0 ' Bob' True
+NATIVE 50 /144 u01_goal_fronted_102_role1 ' Alice' True
+NATIVE 51 /144 u01_goal_fronted_102_role2 ' Carol' True
+NATIVE 52 /144 u01_goal_fronted_102_ordinal0 ' Carol' True
+NATIVE 53 /144 u01_goal_fronted_102_ordinal1 ' Bob' True
+NATIVE 54 /144 u01_goal_fronted_102_ordinal2 ' Alice' True
+NATIVE 55 /144 u01_goal_fronted_120_role0 ' Bob' True
+NATIVE 56 /144 u01_goal_fronted_120_role1 ' Carol' True
+NATIVE 57 /144 u01_goal_fronted_120_role2 ' Carol' False
+NATIVE 58 /144 u01_goal_fronted_120_ordinal0 ' Alice' True
+NATIVE 59 /144 u01_goal_fronted_120_ordinal1 ' Bob' True
+NATIVE 60 /144 u01_goal_fronted_120_ordinal2 ' Carol' True
+NATIVE 61 /144 u01_goal_fronted_201_role0 ' Carol' True
+NATIVE 62 /144 u01_goal_fronted_201_role1 ' Alice' True
+NATIVE 63 /144 u01_goal_fronted_201_role2 ' Carol' False
+NATIVE 64 /144 u01_goal_fronted_201_ordinal0 ' Bob' True
+NATIVE 65 /144 u01_goal_fronted_201_ordinal1 ' Carol' True
+NATIVE 66 /144 u01_goal_fronted_201_ordinal2 ' Alice' True
+NATIVE 67 /144 u01_goal_fronted_210_role0 ' Carol' True
+NATIVE 68 /144 u01_goal_fronted_210_role1 ' Carol' False
+NATIVE 69 /144 u01_goal_fronted_210_role2 ' Carol' False
+NATIVE 70 /144 u01_goal_fronted_210_ordinal0 ' Alice' True
+NATIVE 71 /144 u01_goal_fronted_210_ordinal1 ' Carol' True
+NATIVE 72 /144 u01_goal_fronted_210_ordinal2 ' Carol' False
+NATIVE 73 /144 u02_active_012_role0 ' Dave' True
+NATIVE 74 /144 u02_active_012_role1 ' Erin' True
+NATIVE 75 /144 u02_active_012_role2 ' Erin' False
+NATIVE 76 /144 u02_active_012_ordinal0 ' Dave' True
+NATIVE 77 /144 u02_active_012_ordinal1 ' Erin' True
+NATIVE 78 /144 u02_active_012_ordinal2 ' Frank' True
+NATIVE 79 /144 u02_active_021_role0 ' Dave' True
+NATIVE 80 /144 u02_active_021_role1 ' Frank' True
+NATIVE 81 /144 u02_active_021_role2 ' Frank' False
+NATIVE 82 /144 u02_active_021_ordinal0 ' Dave' True
+NATIVE 83 /144 u02_active_021_ordinal1 ' Frank' True
+NATIVE 84 /144 u02_active_021_ordinal2 ' Erin' True
+NATIVE 85 /144 u02_active_102_role0 ' Erin' True
+NATIVE 86 /144 u02_active_102_role1 ' Dave' True
+NATIVE 87 /144 u02_active_102_role2 ' Dave' False
+NATIVE 88 /144 u02_active_102_ordinal0 ' Erin' True
+NATIVE 89 /144 u02_active_102_ordinal1 ' Dave' True
+Traceback (most recent call last):
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/matched_demand_handoff_2026-10-20/run.py", line 109, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/matched_demand_handoff_2026-10-20/run.py", line 62, in main
+    result=generate(row,'native',True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/matched_demand_handoff_2026-10-20/run.py", line 48, in generate
+    result=score_generation(row,get,tok.decode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/matched_demand_handoff_2026-10-20/core.py", line 50, in score_generation
+    t = int(np.argmax(get(tuple(tokens))))
+                      ^^^^^^^^^^^^^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/matched_demand_handoff_2026-10-20/run.py", line 43, in get
+    z,rec=dispatch(row,prefix,False,kind+'_continuation')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/matched_demand_handoff_2026-10-20/run.py", line 28, in dispatch
+    data,entry=engine.dispatch(row,prefix,capture,kind)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/matched_demand_handoff_2026-10-20/runtime.py", line 76, in dispatch
+    while not select.select([self.process.stdout],[],[],.5)[0]:
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,3124 @@
+{
+  "status": "EXPLORATORY_SAVED_DATA_ONLY",
+  "model_forwards": 0,
+  "threshold": 1e-08,
+  "old_panels": {
+    "qwen7b": {
+      "input_sha256": "e02698c47c58c3f0b89c48b64f565a1a0454c28f29e74fea09c9f27482b49fc3",
+      "sources": 36,
+      "by_removed_role": [
+        {
+          "removed": "sender",
+          "complete_correct": 36
+        },
+        {
+          "removed": "sent_person",
+          "complete_correct": 15
+        },
+        {
+          "removed": "destination_person",
+          "complete_correct": 35
+        }
+      ],
+      "every_row_removal_still_correct": 15,
+      "groups": [
+        {
+          "family": "t01",
+          "form": "active",
+          "source": "Agnes sent Basil to Celia.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 14.515846690271072,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 7.078119427849948,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 21.143312686463066,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "active",
+          "source": "Agnes sent Celia to Basil.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 4.093855893990696,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 8.906242879887621,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 20.648427228943085,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "active",
+          "source": "Basil sent Agnes to Celia.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 18.640618348739356,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 4.078144234390763,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 22.953170109700856,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "active",
+          "source": "Basil sent Celia to Agnes.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 7.484370274007979,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 3.8281233137060298,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 18.992226391474865,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "active",
+          "source": "Celia sent Agnes to Basil.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 1.3907774421452892,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 14.687476902761002,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 21.351541181516644,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "active",
+          "source": "Celia sent Basil to Agnes.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 14.422114340044246,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 7.609373975025953,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 14.04763536056113,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "goal_fronted",
+          "source": "To Agnes, Basil sent Celia.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 2.0624781589316683,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 7.375017173785764,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 12.578142238604805,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "goal_fronted",
+          "source": "To Agnes, Celia sent Basil.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 5.218754195436013,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 7.7343617246276715,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 10.265631211822281,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "goal_fronted",
+          "source": "To Basil, Agnes sent Celia.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 2.531260200361615,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 1.2343865239591132,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 21.406242247552118,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "goal_fronted",
+          "source": "To Basil, Celia sent Agnes.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 4.734388081309529,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 3.8437532636602967,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 18.156244338892762,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "goal_fronted",
+          "source": "To Celia, Agnes sent Basil.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 4.296885199508441,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 5.859369001796271,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 13.53131998711235,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "goal_fronted",
+          "source": "To Celia, Basil sent Agnes.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 8.734370887050375,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 3.2031283126334102,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 18.781279099785973,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "passive",
+          "source": "Agnes was sent to Basil by Celia.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 21.422078818797367,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 5.625008515688403,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 8.374983857649394,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "passive",
+          "source": "Agnes was sent to Celia by Basil.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 23.007808675765467,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 1.21874464901002,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 17.130285897329202,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "passive",
+          "source": "Basil was sent to Agnes by Celia.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 23.890658349417073,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 16.015646229330628,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": false,
+              "margin": 0.3905565336478034,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "passive",
+          "source": "Basil was sent to Celia by Agnes.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 14.406265841357524,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 5.624994387817008,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 22.23614747142203,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "passive",
+          "source": "Celia was sent to Agnes by Basil.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 22.19529306337815,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 1.8593062226081791,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 13.765718117530149,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "passive",
+          "source": "Celia was sent to Basil by Agnes.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 19.078140416382542,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 6.20307236335357,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 4.937495612692999,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "active",
+          "source": "Dorian sent Esther to Florian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 11.562518929218918,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 3.171875,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 18.8124974074218,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "active",
+          "source": "Dorian sent Florian to Esther.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 9.109380227571545,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 2.171875,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 23.5,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "active",
+          "source": "Esther sent Dorian to Florian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 13.31249498869009,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 3.7343777182865523,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 17.71093248869009,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "active",
+          "source": "Esther sent Florian to Dorian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 14.21875,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 9.468748955504147,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 20.796893106439274,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "active",
+          "source": "Florian sent Dorian to Esther.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 12.062498708450445,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 2.671870899911024,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 21.13280710836147,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "active",
+          "source": "Florian sent Esther to Dorian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 17.242270397810632,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 2.1093773023726,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 19.351647700183232,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "goal_fronted",
+          "source": "To Dorian, Esther sent Florian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 7.937497914308828,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 0.8437479143088282,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 15.007827315785011,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "goal_fronted",
+          "source": "To Dorian, Florian sent Esther.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 2.4531196636394625,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 4.5000053363605375,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 12.703127317364721,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "goal_fronted",
+          "source": "To Esther, Dorian sent Florian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 2.375020722455538,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 0.09375,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 17.109385726292864,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "goal_fronted",
+          "source": "To Esther, Florian sent Dorian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 3.921886571566187,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 2.031230328162021,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 18.742179399728208,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "goal_fronted",
+          "source": "To Florian, Dorian sent Esther.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 4.843774990320071,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 3.65625,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 18.1484375,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "goal_fronted",
+          "source": "To Florian, Esther sent Dorian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 5.609366181115334,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 1.0468723320544342,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 11.687488513169768,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "passive",
+          "source": "Dorian was sent to Esther by Florian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 19.9609375,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 4.062512550353034,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 21.0078125,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "passive",
+          "source": "Dorian was sent to Florian by Esther.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 24.62109375,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 6.21875915640182,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 14.640625,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "passive",
+          "source": "Esther was sent to Dorian by Florian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 21.999997069416693,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 15.046875,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 3.515789005659773,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "passive",
+          "source": "Esther was sent to Florian by Dorian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 16.304697488804095,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 1.7343798997144262,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 13.414057600285574,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "passive",
+          "source": "Florian was sent to Dorian by Esther.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 19.140640080428486,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 5.5937520045808,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 16.11009886269005,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "passive",
+          "source": "Florian was sent to Esther by Dorian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 19.55471087812927,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 1.0156271679537099,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 19.73437283204629,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "llama3b": {
+      "input_sha256": "e1b065a37436681127ec9a6f7b523adc121e227d0d8b664aeb50412e77675046",
+      "sources": 36,
+      "by_removed_role": [
+        {
+          "removed": "sender",
+          "complete_correct": 31
+        },
+        {
+          "removed": "sent_person",
+          "complete_correct": 33
+        },
+        {
+          "removed": "destination_person",
+          "complete_correct": 34
+        }
+      ],
+      "every_row_removal_still_correct": 29,
+      "groups": [
+        {
+          "family": "t01",
+          "form": "active",
+          "source": "Agnes sent Basil to Celia.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 3.062527674742366,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 4.609358071639452,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 3.390681752191224,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "active",
+          "source": "Agnes sent Celia to Basil.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 3.0937514782353404,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 3.578203953669373,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 4.843736753247839,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "active",
+          "source": "Basil sent Agnes to Celia.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 2.6249720012678637,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 4.96877161550044,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 3.734371851608227,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "active",
+          "source": "Basil sent Celia to Agnes.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 2.3905948565347295,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 5.070347552224785,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 4.484381479403712,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "active",
+          "source": "Celia sent Agnes to Basil.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 2.21886048932927,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 5.468756859146811,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 4.046852562161778,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "active",
+          "source": "Celia sent Basil to Agnes.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 2.406354368811229,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 6.187472026655495,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 3.1875462301788673,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "goal_fronted",
+          "source": "To Agnes, Basil sent Celia.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 3.1249770066507097,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 0.03125020370180209,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 3.3437518295857096,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "goal_fronted",
+          "source": "To Agnes, Celia sent Basil.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 0.10940511845517165,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 2.8124765056119863,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 1.8125349091402327,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "goal_fronted",
+          "source": "To Basil, Agnes sent Celia.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 2.6718907311259734,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 1.312542884058164,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 3.4374816478119428,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "goal_fronted",
+          "source": "To Basil, Celia sent Agnes.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 0.7812424999482772,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 3.5157068318959617,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 2.1874521939989826,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "goal_fronted",
+          "source": "To Celia, Agnes sent Basil.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 1.375015156642995,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 3.9062360911912712,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 1.0938111922412972,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "goal_fronted",
+          "source": "To Celia, Basil sent Agnes.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 3.015563448482535,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 2.2031608661150877,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 2.4687644161872555,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "passive",
+          "source": "Agnes was sent to Basil by Celia.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 1.18748819108162,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 4.37504685313483,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 3.421850918134293,
+              "prediction": [
+                "Celia",
+                "Agnes",
+                "Basil"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "passive",
+          "source": "Agnes was sent to Celia by Basil.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 2.1406002072679797,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 4.140640536501117,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 1.406236751101897,
+              "prediction": [
+                "Basil",
+                "Agnes",
+                "Celia"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "passive",
+          "source": "Basil was sent to Agnes by Celia.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 2.6093874063810922,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 3.749961287747375,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 4.0937768884964605,
+              "prediction": [
+                "Celia",
+                "Basil",
+                "Agnes"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "passive",
+          "source": "Basil was sent to Celia by Agnes.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 3.6093907014928064,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 3.249976982385146,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 3.250018337895959,
+              "prediction": [
+                "Agnes",
+                "Basil",
+                "Celia"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "passive",
+          "source": "Celia was sent to Agnes by Basil.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 3.0312195687551196,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 4.234622030236164,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 3.437486639801893,
+              "prediction": [
+                "Basil",
+                "Celia",
+                "Agnes"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t01",
+          "form": "passive",
+          "source": "Celia was sent to Basil by Agnes.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 3.1249860909162734,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 5.008420122723365,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 3.5937157485002764,
+              "prediction": [
+                "Agnes",
+                "Celia",
+                "Basil"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "active",
+          "source": "Dorian sent Esther to Florian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 2.7829222636023516,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 3.78125,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 7.6484375,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "active",
+          "source": "Dorian sent Florian to Esther.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 0.6102085229335721,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 8.952616267878863,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 0.828125,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "active",
+          "source": "Esther sent Dorian to Florian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 3.0933579327106457,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 4.485438558032033,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 5.812107932710646,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "active",
+          "source": "Esther sent Florian to Dorian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 1.59375,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 2.772897522734727,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 2.723621160520448,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "active",
+          "source": "Florian sent Dorian to Esther.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 4.929307421189925,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 5.424147514561522,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 3.5152449211899253,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "active",
+          "source": "Florian sent Esther to Dorian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 5.046875,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 4.2302634613651335,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 3.146897080095126,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "goal_fronted",
+          "source": "To Dorian, Esther sent Florian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": false,
+              "margin": 1.9537696297400515,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 2.983817800455938,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": false,
+              "margin": 1.4909856707158866,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "goal_fronted",
+          "source": "To Dorian, Florian sent Esther.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 2.4702384679227656,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 0.3443981967607499,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 2.8146366646835155,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "goal_fronted",
+          "source": "To Esther, Dorian sent Florian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": false,
+              "margin": 1.2184115870217234,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 7.1484375,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": false,
+              "margin": 0.296875,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "goal_fronted",
+          "source": "To Esther, Florian sent Dorian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 1.9836584255361736,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 5.426549899973107,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 1.3117834255361736,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "goal_fronted",
+          "source": "To Florian, Dorian sent Esther.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 0.0009215805087023909,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 0.84375,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 5.8042435397119405,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "goal_fronted",
+          "source": "To Florian, Esther sent Dorian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": false,
+              "margin": 0.828125,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": false,
+              "margin": 0.09064030059016659,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 4.436465260319505,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "passive",
+          "source": "Dorian was sent to Esther by Florian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 3.4992990639076,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 3.095194050058378,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 1.3274240639075998,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "passive",
+          "source": "Dorian was sent to Florian by Esther.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 0.6557840866498346,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 2.7044547918089563,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 5.968284086649835,
+              "prediction": [
+                "Esther",
+                "Dorian",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "passive",
+          "source": "Esther was sent to Dorian by Florian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 5.130690884998682,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 2.71875,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 2.1263271463535673,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "passive",
+          "source": "Esther was sent to Florian by Dorian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": true,
+              "margin": 1.8446515238507288,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 3.6953125,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 6.608710296095126,
+              "prediction": [
+                "Dorian",
+                "Esther",
+                "Florian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "passive",
+          "source": "Florian was sent to Dorian by Esther.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": false,
+              "margin": 0.375,
+              "prediction": [
+                "Florian",
+                "Esther",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 4.903922050926962,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 0.6887498028250718,
+              "prediction": [
+                "Esther",
+                "Florian",
+                "Dorian"
+              ]
+            }
+          ]
+        },
+        {
+          "family": "t02",
+          "form": "passive",
+          "source": "Florian was sent to Esther by Dorian.",
+          "outcomes": [
+            {
+              "removed": "sender",
+              "correct": false,
+              "margin": 0.13953690030022514,
+              "prediction": [
+                "Florian",
+                "Dorian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "sent_person",
+              "correct": true,
+              "margin": 6.592122519709431,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            },
+            {
+              "removed": "destination_person",
+              "correct": true,
+              "margin": 0.515625,
+              "prediction": [
+                "Dorian",
+                "Florian",
+                "Esther"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "new_observed_summary": [
+    {
+      "demand": "role",
+      "source_cases": 15,
+      "answers": 45,
+      "native_correct": 31,
+      "centered_correct": 41,
+      "assignment_complete": 15
+    },
+    {
+      "demand": "ordinal",
+      "source_cases": 15,
+      "answers": 45,
+      "native_correct": 44,
+      "centered_correct": 45,
+      "assignment_complete": 15
+    }
+  ],
+  "new_observed_cases": [
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        0,
+        1,
+        2
+      ],
+      "demand": "role",
+      "native_correct": 2,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        0,
+        1,
+        2
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "demand": "role",
+      "native_correct": 2,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        1,
+        0,
+        2
+      ],
+      "demand": "role",
+      "native_correct": 2,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        1,
+        0,
+        2
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        1,
+        2,
+        0
+      ],
+      "demand": "role",
+      "native_correct": 2,
+      "centered_correct": 2,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        1,
+        2,
+        0
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        2,
+        0,
+        1
+      ],
+      "demand": "role",
+      "native_correct": 2,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        2,
+        0,
+        1
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "demand": "role",
+      "native_correct": 2,
+      "centered_correct": 2,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "active",
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        0,
+        1,
+        2
+      ],
+      "demand": "role",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        0,
+        1,
+        2
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "demand": "role",
+      "native_correct": 2,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        1,
+        0,
+        2
+      ],
+      "demand": "role",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        1,
+        0,
+        2
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        1,
+        2,
+        0
+      ],
+      "demand": "role",
+      "native_correct": 2,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        1,
+        2,
+        0
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        2,
+        0,
+        1
+      ],
+      "demand": "role",
+      "native_correct": 2,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        2,
+        0,
+        1
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "demand": "role",
+      "native_correct": 1,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u01",
+      "form": "goal_fronted",
+      "assignment": [
+        2,
+        1,
+        0
+      ],
+      "demand": "ordinal",
+      "native_correct": 2,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u02",
+      "form": "active",
+      "assignment": [
+        0,
+        1,
+        2
+      ],
+      "demand": "role",
+      "native_correct": 2,
+      "centered_correct": 2,
+      "assignment_complete": true
+    },
+    {
+      "family": "u02",
+      "form": "active",
+      "assignment": [
+        0,
+        1,
+        2
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u02",
+      "form": "active",
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "demand": "role",
+      "native_correct": 2,
+      "centered_correct": 2,
+      "assignment_complete": true
+    },
+    {
+      "family": "u02",
+      "form": "active",
+      "assignment": [
+        0,
+        2,
+        1
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u02",
+      "form": "active",
+      "assignment": [
+        1,
+        0,
+        2
+      ],
+      "demand": "role",
+      "native_correct": 2,
+      "centered_correct": 3,
+      "assignment_complete": true
+    },
+    {
+      "family": "u02",
+      "form": "active",
+      "assignment": [
+        1,
+        0,
+        2
+      ],
+      "demand": "ordinal",
+      "native_correct": 3,
+      "centered_correct": 3,
+      "assignment_complete": true
+    }
+  ],
+  "interpretation": "A correct composite assignment can be inferred by elimination without a separately correct third-role answer. Lesioning a question removes its score row, not a model component. New-panel recalibration is explicitly post hoc and does not repair its failed frozen native gate."
+}
