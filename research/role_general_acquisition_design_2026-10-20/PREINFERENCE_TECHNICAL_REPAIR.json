@@ -1,0 +1,8 @@
+{
+  "stage": "PRETRAINING_NO_MODEL_INITIALIZED",
+  "problem": "NumPy2 removed ndarray.ptp; symbolic and full-input gates had passed, summary validation stopped.",
+  "repair": "Use np.ptp(array), same numerical criterion.",
+  "scientific_design_changed": false,
+  "model_initializations": 0,
+  "model_forwards": 0
+}

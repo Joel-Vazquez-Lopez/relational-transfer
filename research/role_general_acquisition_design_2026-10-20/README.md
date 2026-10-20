@@ -1,6 +1,6 @@
 # Role-general acquisition: design and archive-only measurement check
 
-Start with [DESIGN.md](DESIGN.md). This is a candidate investigation, not a frozen protocol or a completed new training study.
+Start with [DESIGN.md](DESIGN.md) for the original proposal. The authorized execution is specified in [FACTORIAL_PROTOCOL.md](FACTORIAL_PROTOCOL.md), with the generator checks in [PREFLIGHT.json](PREFLIGHT.json), pre-output hashes in FROZEN_LOCK.json, and collection/decision records produced by the bounded runner. The proposal itself is not an experimental result.
 
 Reproduce today's saved-data calculation from the project root:
 

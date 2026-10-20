@@ -1,0 +1,52 @@
+{
+  "batch_size": 128,
+  "checkpoints": [
+    0,
+    100,
+    500,
+    1500,
+    3000
+  ],
+  "confirmation_seeds": [
+    7284201,
+    7284202,
+    7284203,
+    7284204,
+    7284205,
+    7284206,
+    7284207,
+    7284208
+  ],
+  "development_seed": 7284101,
+  "frozen_files": {
+    "ANALYTICAL_PREFLIGHT_REVISION.json": "305a1a0ec0f8f62624361c87356dc6a05461f9af86c2d90f825b76d3314029d0",
+    "FACTORIAL_PROTOCOL.md": "a482a59546c40c40f6f7f0dce5e9bba86b95a1b3b54e6868a061212c60309f76",
+    "PREFLIGHT.json": "4e80902f6b92b02017ccbb4ab2f50b65c3ad70d0718fc126965807effe60a81a",
+    "PREINFERENCE_TECHNICAL_REPAIR.json": "14365342649d35fa646a37a957db1e62b09edc84598344ded6efb2b0a52b8d6a",
+    "REUSED_CODE.json": "075cab668714f8f639a60edf0c786a4e9d8ac3c7bb7ad89a32f40761ae71162d",
+    "analyze_factorial.py": "f18cd0da123d7f422df496146d22ae2a13192848fd3d01dd3fa1bfab6e569dec",
+    "factorial_data.py": "c4929e224f0ee980c5127d4f0148df2c1870fd30a0855eede24e6e4a04d34346",
+    "freeze_factorial.py": "8bbba67a2312007ffdd2324c1eed6e33e8144b7f16bbf9e4857f8c7200446b13",
+    "legacy_model.py": "7423f1459333be707745ec3c81b0ff38945d8bbff50650ed2ffafc3edbdb343a",
+    "legacy_renderer.py": "9fd858c94bd9188bc33a1e346b5d4102e6bb09365fce886087a6c9a9e81c7f9a",
+    "preflight.py": "4e6f5b282d2e2505be199faef33e5d881ca2286252df1ffe35202523d4c1eed9",
+    "run_factorial.py": "3707fd661fdef7a5989ef4aa10ffba13c52630beb6312d0e6f5be9b135891cdf"
+  },
+  "large_model_downloads": 0,
+  "numpy": "2.4.4",
+  "paid_api_calls": 0,
+  "preflight_status": "PASS_PRETRAINING_DESIGN",
+  "python": "3.11.15 | packaged by conda-forge | (main, Mar  5 2026, 16:59:26) [Clang 19.1.7 ]",
+  "resources": {
+    "artifact_bytes": 1073741824,
+    "disk_reserve_bytes": 5368709120,
+    "peak_rss_bytes": 1610612736,
+    "wall_seconds": 5400
+  },
+  "status": "FROZEN_BEFORE_MODEL_INITIALIZATION",
+  "technical_seed": 7283999,
+  "torch": "2.11.0",
+  "training_models_maximum": 54,
+  "updates": 3000,
+  "utc": "2026-10-20T21:18:27.610810+00:00"
+}
