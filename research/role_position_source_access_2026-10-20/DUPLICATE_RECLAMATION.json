@@ -1,0 +1,22 @@
+{
+  "action": "Removed only generated duplicate packaging chunks; exact original NPZs and all verified public tar archives retained",
+  "records": [
+    {
+      "folder": "three_role_llama_causal_depth_map_2026-10-20",
+      "duplicate_chunk_files": 1976,
+      "reclaimed_bytes": 950167540,
+      "retained_original_payloads": 1733,
+      "retained_archive_shards": 58,
+      "verification": "Each duplicate chunk hash, archive bundle hash and bundled chunk hash verified; every original payload retained."
+    },
+    {
+      "folder": "matched_demand_handoff_2026-10-20",
+      "duplicate_chunk_files": 271,
+      "reclaimed_bytes": 231738471,
+      "retained_original_payloads": 189,
+      "retained_archive_shards": 15,
+      "verification": "Each duplicate chunk hash, archive bundle hash and bundled chunk hash verified; every original payload retained."
+    }
+  ],
+  "total_reclaimed_bytes": 1181906011
+}

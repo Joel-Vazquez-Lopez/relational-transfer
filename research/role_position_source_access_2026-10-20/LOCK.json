@@ -1,0 +1,65 @@
+{
+  "files": {
+    "core.py": "ca5d65f9fb59d679d444ef67f399a508251daf40a0c380d110293fa39d94d88e",
+    "predictors.py": "88a7600688f3e80d89f2d4d259a37f46c771dc139465febf59c3815ec5f6aeb9",
+    "prepare.py": "9e97d90a2068df1dba4857a19fca8ac55e54c75220f11cfc2c0d0b2a598595b4",
+    "worker.py": "08104748f0d08612cbf0d380a3fddbf22bdec6bd5e8f8adfbebd8e95532cfbee",
+    "runtime.py": "bb0e67363114f6f81e1e8ef8d8eb467d5a57371d53f9fb54ee9f27cfd87a797d",
+    "run.py": "f6ba6f3660843204c0a111ef5c6c61ca3799bf3841f2e46a3f062f90a16df0c8",
+    "analyze.py": "5594419e3561aeac61566ceed2b2fa75be2b4a286288a43925245bd7f314dc4f",
+    "test_design.py": "ede2b0bcb923cc596299c39adc34efdbf22ea04c0e28a7b848870c642fd9c4dc",
+    "PROTOCOL.md": "feda79bbf59e16ac7ec3923eba5ded58882aed98d58567746ea306f5344b59a1",
+    "LITERATURE_SCOPE.md": "2cf452a033a366f4328c62189228e42ee2e946b73e0780b888a3b820cd6c9620",
+    "INPUTS.json": "e0b69036d359f23541056d7b5b69db9890e12eb1da42e386badd520d2ca5e026",
+    "UNITS.json": "d39f24ce4666621f3cb5988e4002bd26eafe4100fc513f7cb7c952a4e3f9c193",
+    "SHAMS.json": "8ef1882bcf58974c3c11c69f8c0712480b60c0a6ae28ca53e1d6c41a2323028d",
+    "TOKENIZER_AUDIT.json": "86b51bc768b8a0150051ce9648440a7ab2894208ff3b9f04b5be3820f802c51a",
+    "CPU_PREFLIGHT.json": "49cf746797846a254177647eb334091c52aa03110af9ccd1a7223917f744ef08",
+    "SOURCE_MANIFEST.json": "c73f40b9978c04f84cc61f4bf83b3ace7ddde512b34656e6c30fc99408abb043",
+    "CONTROL_INPUT.json": "62b833bb0f37bf81ffbfedf53ad4ee1e4b17b32c1ad9a55787e8935d5d75aa1f",
+    "REFERENCE_CONTROL.npz": "7d56528da62bd4481016714f3b410ca370b8a3072498bf2baaf57ca6c2d5657e"
+  },
+  "native_sources": {
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/qwen2.py": "937e0321ef06a34efbd66d2ce0ce1e715aab98da4acefa376c8cd29291a0bc83",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/llama.py": "dfb656511e6740781cd0563f7994a78b3404c199b9aebaa2fbca28a19e280891",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/base.py": "b782b2ac0f55ed8fa9c1afce1f36307d5d8714aad2c0991d63998047f7507174"
+  },
+  "model": {
+    "path": "research/llama_gemma_cross_family_2026-10-15/model",
+    "files": {
+      "research/llama_gemma_cross_family_2026-10-15/model/config.json": {
+        "bytes": 1122,
+        "sha256": "c546925585e48f43890d9dc5150df4fec73dd3780d92961c5ace451934cc4cd6"
+      },
+      "research/llama_gemma_cross_family_2026-10-15/model/model.safetensors": {
+        "bytes": 1807496278,
+        "sha256": "d75e1ee0ea653cc5b76191ec934c7c0d568e94d4e47846619f1f4bc715b7b265"
+      },
+      "research/llama_gemma_cross_family_2026-10-15/model/special_tokens_map.json": {
+        "bytes": 296,
+        "sha256": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+      },
+      "research/llama_gemma_cross_family_2026-10-15/model/tokenizer.json": {
+        "bytes": 17209920,
+        "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+      },
+      "research/llama_gemma_cross_family_2026-10-15/model/tokenizer_config.json": {
+        "bytes": 54558,
+        "sha256": "022d5ae3df4737998ab97d8f31ac2bcb4c06dd8ebe5a8aba2b4aceef1e5ea7d3"
+      }
+    },
+    "pad": 87
+  },
+  "max_model_forwards": 4054,
+  "max_nonrestart_forwards": 3927,
+  "physical_length": 128,
+  "max_new_tokens": 4,
+  "primary_measurement": "Cross-fitted causal source-authority prediction",
+  "runtime": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.0",
+    "numpy": "2.4.4",
+    "transformers": "5.7.0"
+  },
+  "outcomes_seen": false
+}
