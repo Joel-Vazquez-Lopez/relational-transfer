@@ -1,0 +1,3674 @@
+[
+  {
+    "id": "t01_012_active_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "active",
+    "source": "Agnes sent Basil to Celia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_012_active_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "active",
+    "source": "Agnes sent Basil to Celia.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_012_active_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "active",
+    "source": "Agnes sent Basil to Celia.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_012_passive_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Basil was sent to Celia by Agnes.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_012_passive_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Basil was sent to Celia by Agnes.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_012_passive_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Basil was sent to Celia by Agnes.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_012_goal_fronted_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Celia, Agnes sent Basil.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_012_goal_fronted_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Celia, Agnes sent Basil.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_012_goal_fronted_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Celia, Agnes sent Basil.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_021_active_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Agnes sent Celia to Basil.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_021_active_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Agnes sent Celia to Basil.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_021_active_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Agnes sent Celia to Basil.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_021_passive_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Celia was sent to Basil by Agnes.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_021_passive_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Celia was sent to Basil by Agnes.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_021_passive_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Celia was sent to Basil by Agnes.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_021_goal_fronted_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Basil, Agnes sent Celia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_021_goal_fronted_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Basil, Agnes sent Celia.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_021_goal_fronted_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Basil, Agnes sent Celia.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_102_active_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "active",
+    "source": "Basil sent Agnes to Celia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_102_active_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "active",
+    "source": "Basil sent Agnes to Celia.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_102_active_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "active",
+    "source": "Basil sent Agnes to Celia.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_102_passive_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "passive",
+    "source": "Agnes was sent to Celia by Basil.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_102_passive_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "passive",
+    "source": "Agnes was sent to Celia by Basil.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_102_passive_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "passive",
+    "source": "Agnes was sent to Celia by Basil.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_102_goal_fronted_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Celia, Basil sent Agnes.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_102_goal_fronted_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Celia, Basil sent Agnes.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_102_goal_fronted_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Celia, Basil sent Agnes.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_120_active_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "active",
+    "source": "Basil sent Celia to Agnes.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_120_active_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "active",
+    "source": "Basil sent Celia to Agnes.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_120_active_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "active",
+    "source": "Basil sent Celia to Agnes.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_120_passive_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Celia was sent to Agnes by Basil.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_120_passive_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Celia was sent to Agnes by Basil.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_120_passive_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Celia was sent to Agnes by Basil.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_120_goal_fronted_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Agnes, Basil sent Celia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_120_goal_fronted_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Agnes, Basil sent Celia.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_120_goal_fronted_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Agnes, Basil sent Celia.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_201_active_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Celia sent Agnes to Basil.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_201_active_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Celia sent Agnes to Basil.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_201_active_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Celia sent Agnes to Basil.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_201_passive_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "passive",
+    "source": "Agnes was sent to Basil by Celia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_201_passive_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "passive",
+    "source": "Agnes was sent to Basil by Celia.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_201_passive_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "passive",
+    "source": "Agnes was sent to Basil by Celia.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_201_goal_fronted_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Basil, Celia sent Agnes.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_201_goal_fronted_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Basil, Celia sent Agnes.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_201_goal_fronted_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Basil, Celia sent Agnes.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_210_active_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "active",
+    "source": "Celia sent Basil to Agnes.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_210_active_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "active",
+    "source": "Celia sent Basil to Agnes.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_210_active_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "active",
+    "source": "Celia sent Basil to Agnes.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_210_passive_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Basil was sent to Agnes by Celia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_210_passive_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Basil was sent to Agnes by Celia.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_210_passive_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Basil was sent to Agnes by Celia.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_210_goal_fronted_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Agnes, Celia sent Basil.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Celia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_210_goal_fronted_q1",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Agnes, Celia sent Basil.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Basil",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t01_210_goal_fronted_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Agnes, Celia sent Basil.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Agnes",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_012_active_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "active",
+    "source": "Dorian sent Esther to Florian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_012_active_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "active",
+    "source": "Dorian sent Esther to Florian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_012_active_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "active",
+    "source": "Dorian sent Esther to Florian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_012_passive_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Esther was sent to Florian by Dorian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_012_passive_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Esther was sent to Florian by Dorian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_012_passive_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Esther was sent to Florian by Dorian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_012_goal_fronted_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Florian, Dorian sent Esther.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_012_goal_fronted_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Florian, Dorian sent Esther.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_012_goal_fronted_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Florian, Dorian sent Esther.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_021_active_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Dorian sent Florian to Esther.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_021_active_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Dorian sent Florian to Esther.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_021_active_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Dorian sent Florian to Esther.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_021_passive_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Florian was sent to Esther by Dorian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_021_passive_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Florian was sent to Esther by Dorian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_021_passive_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Florian was sent to Esther by Dorian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_021_goal_fronted_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Esther, Dorian sent Florian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_021_goal_fronted_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Esther, Dorian sent Florian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_021_goal_fronted_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Esther, Dorian sent Florian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_102_active_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "active",
+    "source": "Esther sent Dorian to Florian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_102_active_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "active",
+    "source": "Esther sent Dorian to Florian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_102_active_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "active",
+    "source": "Esther sent Dorian to Florian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_102_passive_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "passive",
+    "source": "Dorian was sent to Florian by Esther.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_102_passive_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "passive",
+    "source": "Dorian was sent to Florian by Esther.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_102_passive_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "passive",
+    "source": "Dorian was sent to Florian by Esther.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_102_goal_fronted_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Florian, Esther sent Dorian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_102_goal_fronted_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Florian, Esther sent Dorian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_102_goal_fronted_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Florian, Esther sent Dorian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_120_active_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "active",
+    "source": "Esther sent Florian to Dorian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_120_active_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "active",
+    "source": "Esther sent Florian to Dorian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_120_active_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "active",
+    "source": "Esther sent Florian to Dorian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_120_passive_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Florian was sent to Dorian by Esther.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_120_passive_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Florian was sent to Dorian by Esther.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_120_passive_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Florian was sent to Dorian by Esther.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_120_goal_fronted_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Dorian, Esther sent Florian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_120_goal_fronted_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Dorian, Esther sent Florian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_120_goal_fronted_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Dorian, Esther sent Florian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_201_active_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Florian sent Dorian to Esther.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_201_active_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Florian sent Dorian to Esther.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_201_active_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Florian sent Dorian to Esther.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_201_passive_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "passive",
+    "source": "Dorian was sent to Esther by Florian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_201_passive_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "passive",
+    "source": "Dorian was sent to Esther by Florian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_201_passive_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "passive",
+    "source": "Dorian was sent to Esther by Florian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_201_goal_fronted_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Esther, Florian sent Dorian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_201_goal_fronted_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Esther, Florian sent Dorian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_201_goal_fronted_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Esther, Florian sent Dorian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_210_active_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "active",
+    "source": "Florian sent Esther to Dorian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_210_active_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "active",
+    "source": "Florian sent Esther to Dorian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_210_active_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "active",
+    "source": "Florian sent Esther to Dorian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_210_passive_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Esther was sent to Dorian by Florian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_210_passive_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Esther was sent to Dorian by Florian.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_210_passive_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Esther was sent to Dorian by Florian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_210_goal_fronted_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Dorian, Florian sent Esther.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Florian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_210_goal_fronted_q1",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Dorian, Florian sent Esther.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Esther",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t02_210_goal_fronted_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Dorian, Florian sent Esther.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Dorian",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_012_active_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "active",
+    "source": "Greta sent Hugo to Imogen.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_012_active_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "active",
+    "source": "Greta sent Hugo to Imogen.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_012_active_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "active",
+    "source": "Greta sent Hugo to Imogen.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_012_passive_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Hugo was sent to Imogen by Greta.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_012_passive_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Hugo was sent to Imogen by Greta.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_012_passive_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Hugo was sent to Imogen by Greta.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_012_goal_fronted_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Imogen, Greta sent Hugo.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_012_goal_fronted_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Imogen, Greta sent Hugo.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_012_goal_fronted_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Imogen, Greta sent Hugo.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_021_active_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Greta sent Imogen to Hugo.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_021_active_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Greta sent Imogen to Hugo.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_021_active_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Greta sent Imogen to Hugo.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_021_passive_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Imogen was sent to Hugo by Greta.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_021_passive_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Imogen was sent to Hugo by Greta.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_021_passive_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Imogen was sent to Hugo by Greta.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_021_goal_fronted_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Hugo, Greta sent Imogen.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_021_goal_fronted_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Hugo, Greta sent Imogen.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_021_goal_fronted_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Hugo, Greta sent Imogen.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_102_active_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "active",
+    "source": "Hugo sent Greta to Imogen.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_102_active_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "active",
+    "source": "Hugo sent Greta to Imogen.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_102_active_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "active",
+    "source": "Hugo sent Greta to Imogen.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_102_passive_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "passive",
+    "source": "Greta was sent to Imogen by Hugo.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_102_passive_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "passive",
+    "source": "Greta was sent to Imogen by Hugo.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_102_passive_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "passive",
+    "source": "Greta was sent to Imogen by Hugo.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_102_goal_fronted_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Imogen, Hugo sent Greta.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_102_goal_fronted_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Imogen, Hugo sent Greta.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_102_goal_fronted_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Imogen, Hugo sent Greta.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_120_active_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "active",
+    "source": "Hugo sent Imogen to Greta.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_120_active_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "active",
+    "source": "Hugo sent Imogen to Greta.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_120_active_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "active",
+    "source": "Hugo sent Imogen to Greta.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_120_passive_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Imogen was sent to Greta by Hugo.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_120_passive_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Imogen was sent to Greta by Hugo.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_120_passive_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Imogen was sent to Greta by Hugo.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_120_goal_fronted_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Greta, Hugo sent Imogen.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_120_goal_fronted_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Greta, Hugo sent Imogen.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_120_goal_fronted_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Greta, Hugo sent Imogen.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_201_active_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Imogen sent Greta to Hugo.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_201_active_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Imogen sent Greta to Hugo.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_201_active_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Imogen sent Greta to Hugo.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_201_passive_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "passive",
+    "source": "Greta was sent to Hugo by Imogen.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_201_passive_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "passive",
+    "source": "Greta was sent to Hugo by Imogen.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_201_passive_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "passive",
+    "source": "Greta was sent to Hugo by Imogen.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_201_goal_fronted_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Hugo, Imogen sent Greta.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_201_goal_fronted_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Hugo, Imogen sent Greta.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_201_goal_fronted_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Hugo, Imogen sent Greta.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_210_active_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "active",
+    "source": "Imogen sent Hugo to Greta.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_210_active_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "active",
+    "source": "Imogen sent Hugo to Greta.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_210_active_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "active",
+    "source": "Imogen sent Hugo to Greta.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_210_passive_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Hugo was sent to Greta by Imogen.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_210_passive_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Hugo was sent to Greta by Imogen.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_210_passive_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Hugo was sent to Greta by Imogen.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_210_goal_fronted_q0",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Greta, Imogen sent Hugo.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Imogen",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_210_goal_fronted_q1",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Greta, Imogen sent Hugo.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Hugo",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t03_210_goal_fronted_q2",
+    "family": "t03",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Greta, Imogen sent Hugo.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Greta",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_012_active_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "active",
+    "source": "Jonah sent Kezia to Laurence.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_012_active_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "active",
+    "source": "Jonah sent Kezia to Laurence.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_012_active_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "active",
+    "source": "Jonah sent Kezia to Laurence.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_012_passive_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Kezia was sent to Laurence by Jonah.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_012_passive_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Kezia was sent to Laurence by Jonah.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_012_passive_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Kezia was sent to Laurence by Jonah.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_012_goal_fronted_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Laurence, Jonah sent Kezia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_012_goal_fronted_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Laurence, Jonah sent Kezia.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_012_goal_fronted_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Laurence, Jonah sent Kezia.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_021_active_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Jonah sent Laurence to Kezia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_021_active_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Jonah sent Laurence to Kezia.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_021_active_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Jonah sent Laurence to Kezia.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_021_passive_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Laurence was sent to Kezia by Jonah.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_021_passive_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Laurence was sent to Kezia by Jonah.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_021_passive_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Laurence was sent to Kezia by Jonah.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_021_goal_fronted_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Kezia, Jonah sent Laurence.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_021_goal_fronted_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Kezia, Jonah sent Laurence.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_021_goal_fronted_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Kezia, Jonah sent Laurence.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_102_active_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "active",
+    "source": "Kezia sent Jonah to Laurence.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_102_active_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "active",
+    "source": "Kezia sent Jonah to Laurence.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_102_active_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "active",
+    "source": "Kezia sent Jonah to Laurence.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_102_passive_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "passive",
+    "source": "Jonah was sent to Laurence by Kezia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_102_passive_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "passive",
+    "source": "Jonah was sent to Laurence by Kezia.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_102_passive_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "passive",
+    "source": "Jonah was sent to Laurence by Kezia.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_102_goal_fronted_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Laurence, Kezia sent Jonah.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_102_goal_fronted_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Laurence, Kezia sent Jonah.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_102_goal_fronted_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Laurence, Kezia sent Jonah.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_120_active_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "active",
+    "source": "Kezia sent Laurence to Jonah.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_120_active_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "active",
+    "source": "Kezia sent Laurence to Jonah.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_120_active_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "active",
+    "source": "Kezia sent Laurence to Jonah.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_120_passive_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Laurence was sent to Jonah by Kezia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_120_passive_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Laurence was sent to Jonah by Kezia.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_120_passive_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Laurence was sent to Jonah by Kezia.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_120_goal_fronted_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Jonah, Kezia sent Laurence.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_120_goal_fronted_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Jonah, Kezia sent Laurence.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_120_goal_fronted_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Jonah, Kezia sent Laurence.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_201_active_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Laurence sent Jonah to Kezia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_201_active_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Laurence sent Jonah to Kezia.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_201_active_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Laurence sent Jonah to Kezia.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_201_passive_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "passive",
+    "source": "Jonah was sent to Kezia by Laurence.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_201_passive_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "passive",
+    "source": "Jonah was sent to Kezia by Laurence.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_201_passive_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "passive",
+    "source": "Jonah was sent to Kezia by Laurence.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_201_goal_fronted_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Kezia, Laurence sent Jonah.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_201_goal_fronted_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Kezia, Laurence sent Jonah.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_201_goal_fronted_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Kezia, Laurence sent Jonah.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_210_active_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "active",
+    "source": "Laurence sent Kezia to Jonah.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_210_active_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "active",
+    "source": "Laurence sent Kezia to Jonah.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_210_active_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "active",
+    "source": "Laurence sent Kezia to Jonah.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_210_passive_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Kezia was sent to Jonah by Laurence.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_210_passive_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Kezia was sent to Jonah by Laurence.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_210_passive_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Kezia was sent to Jonah by Laurence.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_210_goal_fronted_q0",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Jonah, Laurence sent Kezia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "gold": "Laurence",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_210_goal_fronted_q1",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Jonah, Laurence sent Kezia.",
+    "question": "Who was sent to another person?",
+    "query_role": "sent_person",
+    "gold": "Kezia",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  },
+  {
+    "id": "t04_210_goal_fronted_q2",
+    "family": "t04",
+    "split": "evaluation",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Jonah, Laurence sent Kezia.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "gold": "Jonah",
+    "system": "Read the sentence and answer the question about that event. Return only the person's name, copied exactly from the sentence. Do not explain.",
+    "annotation": "AI-authored exact template; grammatical sender/theme/destination labels, not human-validated thematic-role judgments; hypothetical future evaluation, no LLM outcomes collected"
+  }
+]

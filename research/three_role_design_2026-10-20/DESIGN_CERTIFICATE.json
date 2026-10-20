@@ -1,0 +1,568 @@
+{
+  "scope": "Finite design audit and symbolic rival predictions only; no model observations, no estimated internal entropy, no significance test or model inference.",
+  "passed": true,
+  "n_checks": 15,
+  "checks": [
+    {
+      "name": "binary_identified_by_answer_plus_query",
+      "passed": true
+    },
+    {
+      "name": "fixed_object_only_ambiguous_on_object_question",
+      "passed": true
+    },
+    {
+      "name": "cyclic_three_role_design_still_answer_identified",
+      "passed": true
+    },
+    {
+      "name": "full_three_role_design_ambiguous_for_every_query_answer",
+      "passed": true
+    },
+    {
+      "name": "one_bit_of_unqueried_assignment_in_design",
+      "passed": true
+    },
+    {
+      "name": "486_symbolic_prediction_rows",
+      "passed": true
+    },
+    {
+      "name": "role_vs_mention_order_separates_only_cross_form",
+      "passed": true
+    },
+    {
+      "name": "role_table_vs_fixed_one_answer_324_disagreements",
+      "passed": true
+    },
+    {
+      "name": "strong_parser_remains_equivalent",
+      "passed": true
+    },
+    {
+      "name": "complete_future_answer_table_remains_equivalent",
+      "passed": true
+    },
+    {
+      "name": "162_three_query_units",
+      "passed": true
+    },
+    {
+      "name": "two_changed_one_unchanged_in_every_unit",
+      "passed": true
+    },
+    {
+      "name": "216_candidate_prompts_72_sources",
+      "passed": true
+    },
+    {
+      "name": "unique_candidate_ids",
+      "passed": true
+    },
+    {
+      "name": "balanced_query_answer_identity",
+      "passed": true
+    }
+  ],
+  "ambiguity_audits": [
+    {
+      "design": "binary_people",
+      "n_assignments": 2,
+      "n_queries": 2,
+      "conditioning": "question role and its correct answer; fixed lexical set and surface template; uniform enumerated assignments/questions",
+      "compatible_assignment_count_histogram": {
+        "1": 4
+      },
+      "H_assignment_given_question_answer_bits": 0.0,
+      "buckets": [
+        {
+          "query": 0,
+          "answer": 0,
+          "compatible_assignments": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "query": 0,
+          "answer": 1,
+          "compatible_assignments": [
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "query": 1,
+          "answer": 0,
+          "compatible_assignments": [
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "query": 1,
+          "answer": 1,
+          "compatible_assignments": [
+            [
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "design": "two_people_fixed_object",
+      "n_assignments": 2,
+      "n_queries": 3,
+      "conditioning": "question role and its correct answer; fixed lexical set and surface template; uniform enumerated assignments/questions",
+      "compatible_assignment_count_histogram": {
+        "1": 4,
+        "2": 1
+      },
+      "H_assignment_given_question_answer_bits": 0.3333333333333333,
+      "buckets": [
+        {
+          "query": 0,
+          "answer": 0,
+          "compatible_assignments": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "query": 0,
+          "answer": 1,
+          "compatible_assignments": [
+            [
+              1,
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "query": 1,
+          "answer": 0,
+          "compatible_assignments": [
+            [
+              1,
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "query": 1,
+          "answer": 1,
+          "compatible_assignments": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "query": 2,
+          "answer": 2,
+          "compatible_assignments": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "design": "three_people_cyclic_only",
+      "n_assignments": 3,
+      "n_queries": 3,
+      "conditioning": "question role and its correct answer; fixed lexical set and surface template; uniform enumerated assignments/questions",
+      "compatible_assignment_count_histogram": {
+        "1": 9
+      },
+      "H_assignment_given_question_answer_bits": 0.0,
+      "buckets": [
+        {
+          "query": 0,
+          "answer": 0,
+          "compatible_assignments": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "query": 0,
+          "answer": 1,
+          "compatible_assignments": [
+            [
+              1,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "query": 0,
+          "answer": 2,
+          "compatible_assignments": [
+            [
+              2,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "query": 1,
+          "answer": 0,
+          "compatible_assignments": [
+            [
+              2,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "query": 1,
+          "answer": 1,
+          "compatible_assignments": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "query": 1,
+          "answer": 2,
+          "compatible_assignments": [
+            [
+              1,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "query": 2,
+          "answer": 0,
+          "compatible_assignments": [
+            [
+              1,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "query": 2,
+          "answer": 1,
+          "compatible_assignments": [
+            [
+              2,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "query": 2,
+          "answer": 2,
+          "compatible_assignments": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "design": "three_people_full_permutation",
+      "n_assignments": 6,
+      "n_queries": 3,
+      "conditioning": "question role and its correct answer; fixed lexical set and surface template; uniform enumerated assignments/questions",
+      "compatible_assignment_count_histogram": {
+        "2": 9
+      },
+      "H_assignment_given_question_answer_bits": 1.0,
+      "buckets": [
+        {
+          "query": 0,
+          "answer": 0,
+          "compatible_assignments": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "query": 0,
+          "answer": 1,
+          "compatible_assignments": [
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "query": 0,
+          "answer": 2,
+          "compatible_assignments": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "query": 1,
+          "answer": 0,
+          "compatible_assignments": [
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              2,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "query": 1,
+          "answer": 1,
+          "compatible_assignments": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "query": 1,
+          "answer": 2,
+          "compatible_assignments": [
+            [
+              0,
+              2,
+              1
+            ],
+            [
+              1,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "query": 2,
+          "answer": 0,
+          "compatible_assignments": [
+            [
+              1,
+              2,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "query": 2,
+          "answer": 1,
+          "compatible_assignments": [
+            [
+              0,
+              2,
+              1
+            ],
+            [
+              2,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "query": 2,
+          "answer": 2,
+          "compatible_assignments": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              2
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "pairwise_predictions": [
+    {
+      "a": "reusable_role_table",
+      "b": "mention_order_table",
+      "n": 486,
+      "disagreements": 324,
+      "same_form_n": 162,
+      "same_form_disagreements": 0,
+      "cross_form_n": 324,
+      "cross_form_disagreements": 324
+    },
+    {
+      "a": "reusable_role_table",
+      "b": "fixed_one_answer",
+      "n": 486,
+      "disagreements": 324,
+      "same_form_n": 162,
+      "same_form_disagreements": 108,
+      "cross_form_n": 324,
+      "cross_form_disagreements": 216
+    },
+    {
+      "a": "reusable_role_table",
+      "b": "syntax_aware_role_parser",
+      "n": 486,
+      "disagreements": 0,
+      "same_form_n": 162,
+      "same_form_disagreements": 0,
+      "cross_form_n": 324,
+      "cross_form_disagreements": 0
+    },
+    {
+      "a": "reusable_role_table",
+      "b": "complete_future_answer_table",
+      "n": 486,
+      "disagreements": 0,
+      "same_form_n": 162,
+      "same_form_disagreements": 0,
+      "cross_form_n": 324,
+      "cross_form_disagreements": 0
+    },
+    {
+      "a": "mention_order_table",
+      "b": "fixed_one_answer",
+      "n": 486,
+      "disagreements": 324,
+      "same_form_n": 162,
+      "same_form_disagreements": 108,
+      "cross_form_n": 324,
+      "cross_form_disagreements": 216
+    },
+    {
+      "a": "mention_order_table",
+      "b": "syntax_aware_role_parser",
+      "n": 486,
+      "disagreements": 324,
+      "same_form_n": 162,
+      "same_form_disagreements": 0,
+      "cross_form_n": 324,
+      "cross_form_disagreements": 324
+    },
+    {
+      "a": "mention_order_table",
+      "b": "complete_future_answer_table",
+      "n": 486,
+      "disagreements": 324,
+      "same_form_n": 162,
+      "same_form_disagreements": 0,
+      "cross_form_n": 324,
+      "cross_form_disagreements": 324
+    },
+    {
+      "a": "fixed_one_answer",
+      "b": "syntax_aware_role_parser",
+      "n": 486,
+      "disagreements": 324,
+      "same_form_n": 162,
+      "same_form_disagreements": 108,
+      "cross_form_n": 324,
+      "cross_form_disagreements": 216
+    },
+    {
+      "a": "fixed_one_answer",
+      "b": "complete_future_answer_table",
+      "n": 486,
+      "disagreements": 324,
+      "same_form_n": 162,
+      "same_form_disagreements": 108,
+      "cross_form_n": 324,
+      "cross_form_disagreements": 216
+    },
+    {
+      "a": "syntax_aware_role_parser",
+      "b": "complete_future_answer_table",
+      "n": 486,
+      "disagreements": 0,
+      "same_form_n": 162,
+      "same_form_disagreements": 0,
+      "cross_form_n": 324,
+      "cross_form_disagreements": 0
+    }
+  ],
+  "independent_lexical_families": 4,
+  "candidate_prompts": 216,
+  "family_level_power": "Exploratory only; four authored lexical families do not support a broad population/family claim.",
+  "strong_claim_gate": "NO-GO for uniquely semantic/algorithmic interpretation: role table, syntax-aware parser and complete future-answer table have identical predictions.",
+  "operational_claim_gate": "Logical witnesses exist against the declared fixed one-answer and recipient-grammar mention-order accounts; native competence, valid interventions and generalization remain untested."
+}
