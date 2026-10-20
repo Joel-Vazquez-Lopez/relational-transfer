@@ -1,0 +1,188 @@
+[
+  {
+    "unit": "t01_sender",
+    "family": "t01",
+    "recipient": [
+      0,
+      1,
+      2
+    ],
+    "donor": [
+      0,
+      2,
+      1
+    ],
+    "recipient_form": "active",
+    "donor_form": "goal_fronted",
+    "swapped_roles": [
+      "sent_person",
+      "destination_person"
+    ],
+    "invariant_role": "sender",
+    "answer_ids": [
+      "t01_012_active_q0",
+      "t01_012_active_q1",
+      "t01_012_active_q2",
+      "t01_021_goal_fronted_q0",
+      "t01_021_goal_fronted_q1",
+      "t01_021_goal_fronted_q2"
+    ],
+    "native_correct": 6,
+    "eligible": true
+  },
+  {
+    "unit": "t01_sent_person",
+    "family": "t01",
+    "recipient": [
+      0,
+      1,
+      2
+    ],
+    "donor": [
+      2,
+      1,
+      0
+    ],
+    "recipient_form": "active",
+    "donor_form": "goal_fronted",
+    "swapped_roles": [
+      "sender",
+      "destination_person"
+    ],
+    "invariant_role": "sent_person",
+    "answer_ids": [
+      "t01_012_active_q0",
+      "t01_012_active_q1",
+      "t01_012_active_q2",
+      "t01_210_goal_fronted_q0",
+      "t01_210_goal_fronted_q1",
+      "t01_210_goal_fronted_q2"
+    ],
+    "native_correct": 6,
+    "eligible": true
+  },
+  {
+    "unit": "t01_destination_person",
+    "family": "t01",
+    "recipient": [
+      0,
+      1,
+      2
+    ],
+    "donor": [
+      1,
+      0,
+      2
+    ],
+    "recipient_form": "goal_fronted",
+    "donor_form": "active",
+    "swapped_roles": [
+      "sender",
+      "sent_person"
+    ],
+    "invariant_role": "destination_person",
+    "answer_ids": [
+      "t01_012_goal_fronted_q0",
+      "t01_012_goal_fronted_q1",
+      "t01_012_goal_fronted_q2",
+      "t01_102_active_q0",
+      "t01_102_active_q1",
+      "t01_102_active_q2"
+    ],
+    "native_correct": 6,
+    "eligible": true
+  },
+  {
+    "unit": "t02_sender",
+    "family": "t02",
+    "recipient": [
+      1,
+      0,
+      2
+    ],
+    "donor": [
+      1,
+      2,
+      0
+    ],
+    "recipient_form": "active",
+    "donor_form": "goal_fronted",
+    "swapped_roles": [
+      "sent_person",
+      "destination_person"
+    ],
+    "invariant_role": "sender",
+    "answer_ids": [
+      "t02_102_active_q0",
+      "t02_102_active_q1",
+      "t02_102_active_q2",
+      "t02_120_goal_fronted_q0",
+      "t02_120_goal_fronted_q1",
+      "t02_120_goal_fronted_q2"
+    ],
+    "native_correct": 6,
+    "eligible": true
+  },
+  {
+    "unit": "t02_sent_person",
+    "family": "t02",
+    "recipient": [
+      0,
+      2,
+      1
+    ],
+    "donor": [
+      1,
+      2,
+      0
+    ],
+    "recipient_form": "goal_fronted",
+    "donor_form": "active",
+    "swapped_roles": [
+      "sender",
+      "destination_person"
+    ],
+    "invariant_role": "sent_person",
+    "answer_ids": [
+      "t02_021_goal_fronted_q0",
+      "t02_021_goal_fronted_q1",
+      "t02_021_goal_fronted_q2",
+      "t02_120_active_q0",
+      "t02_120_active_q1",
+      "t02_120_active_q2"
+    ],
+    "native_correct": 6,
+    "eligible": true
+  },
+  {
+    "unit": "t02_destination_person",
+    "family": "t02",
+    "recipient": [
+      0,
+      1,
+      2
+    ],
+    "donor": [
+      1,
+      0,
+      2
+    ],
+    "recipient_form": "goal_fronted",
+    "donor_form": "active",
+    "swapped_roles": [
+      "sender",
+      "sent_person"
+    ],
+    "invariant_role": "destination_person",
+    "answer_ids": [
+      "t02_012_goal_fronted_q0",
+      "t02_012_goal_fronted_q1",
+      "t02_012_goal_fronted_q2",
+      "t02_102_active_q0",
+      "t02_102_active_q1",
+      "t02_102_active_q2"
+    ],
+    "native_correct": 6,
+    "eligible": true
+  }
+]

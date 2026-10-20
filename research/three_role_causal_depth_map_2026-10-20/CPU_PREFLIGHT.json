@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checks": [
+    "exact_unsorted_three_site_replacement",
+    "identity_replacement",
+    "duplicate_sites_rejected",
+    "development_only",
+    "all_six_native_baselines_per_unit",
+    "role_vs_mention_predictions_disjoint",
+    "unexcluded_strong_rivals_explicit",
+    "neighbors_outside_every_name",
+    "balanced_conditions",
+    "query_independent_donor_context",
+    "fixed_depth_panel",
+    "same_role_expected_preservation",
+    "synthetic_role_gate",
+    "synthetic_mention_gate",
+    "one_failed_answer_prevents_that_depth",
+    "technical_failure_prevents_qualification"
+  ],
+  "n": 16,
+  "language_model_forwards": 0
+}

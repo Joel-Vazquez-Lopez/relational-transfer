@@ -1,0 +1,87 @@
+{
+  "files": {
+    "core.py": "18eb4fd54a1d5f26e8eab841821427bfcd8b4ce7f541cd640bb0c3de081ce922",
+    "prepare.py": "62644ef1cf316135077c28e55fc10bf58e9dac3a69ea2d1443baab38633c5fbe",
+    "replacement.py": "2b769a2265ef1b8588444b51cc3006a70cf7fdd60432aa90ab84bbd19a494640",
+    "worker.py": "abc55b88d6c43aad84270bfc221f165fd3836d849ad56ca9f9e7e15820155c24",
+    "runtime.py": "bb0e67363114f6f81e1e8ef8d8eb467d5a57371d53f9fb54ee9f27cfd87a797d",
+    "run.py": "dada118c354921958ae3c034c3b27fd056af85cacb77b8a2cde6b6323ec01712",
+    "analyze.py": "d3b018a2fe1c6889742977102f511e8131e432b61d135929e480cae0d6dfee1f",
+    "test_design.py": "c73375448500ebd99812f0c54dedf40c638db8a6f737dc455621856362ec13c0",
+    "PROTOCOL.md": "b9e77f1b3d837dd01b9eedc5f5a71e0f001fee0b0111dfde17feddd9fe98e141",
+    "INPUTS.json": "e59c45a41270753591e0c617c50312a31908d2e76bc8ddcf1035eb2a14346507",
+    "JOBS.json": "e39c555076bd3a1469ae324c503576e4455d4dfcdca713e454a8907a9e635bfc",
+    "UNITS.json": "b9ec869d34968d9505b8e82b983edee1b5070512104b0c880ed79239668108fe",
+    "CACHE_INPUTS.json": "5d6aa39eaf879727f51d041fdf03dd6999ee91737dc067524aefde8dc6c2ac2e",
+    "IDENTITY_INPUTS.json": "8c80f5f5359ec56b5fa1e8d714323cf8d5d19fcd386b95467d9ae85bcb0dcbfc",
+    "TOKENIZER_AUDIT.json": "b9e9450af4692bf1029ac8fe2c69a4371c7b56a305bdf8c94bdbd29d6f618ab6",
+    "CPU_PREFLIGHT.json": "945bf1588f1d118405f9c67896fe581903ce7ef892d1a7edb929f3d52e9f479d",
+    "SOURCE_MANIFEST.json": "3ebc9a0a9a0f4adb69bd6d9e668e68289853768ceb89d72f86f24926f9eb05db",
+    "RESEARCH_RATIONALE.md": "e16e3bd3a5e94df5418e68e921e0ff295ca312fdbeba5e997f3b222340534cbb",
+    "RESTART_AMENDMENT.md": "00c35e28ebb186650740cbb21f7a83334e1ec0e237d86e2d1ea55645343e05da",
+    "CONTROL_INPUT.json": "b666b391089b2bb2a1d7d2f524a3d3b8d9db213db9ce3ee048c662318bcf784b",
+    "REFERENCE_CONTROL.npz": "531c72208b78489acc8292e9a0e0cd5b93cc216dfec49519d7d20743842de707"
+  },
+  "native_sources": {
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/qwen2.py": "937e0321ef06a34efbd66d2ce0ce1e715aab98da4acefa376c8cd29291a0bc83",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/llama.py": "dfb656511e6740781cd0563f7994a78b3404c199b9aebaa2fbca28a19e280891",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/base.py": "b782b2ac0f55ed8fa9c1afce1f36307d5d8714aad2c0991d63998047f7507174"
+  },
+  "model": {
+    "path": "research/stronger_model_development_2026-10-15/models/qwen7b",
+    "files": {
+      "research/stronger_model_development_2026-10-15/models/qwen7b/added_tokens.json": {
+        "bytes": 605,
+        "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/config.json": {
+        "bytes": 787,
+        "sha256": "1661a349986919d13820d3981623776138d50783d13e247cdc5b075a22b62698"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors": {
+        "bytes": 4284346255,
+        "sha256": "86110f368236b53cf4c2336f991a85703b17bcc60bb75f292b4002ec0219f071"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/model.safetensors.index.json": {
+        "bytes": 51711,
+        "sha256": "23cd562592dd96686d2e799eb02e4b578a4038b6045eaefe860d270cc060e24f"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/special_tokens_map.json": {
+        "bytes": 613,
+        "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer.json": {
+        "bytes": 7031673,
+        "sha256": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/tokenizer_config.json": {
+        "bytes": 7280,
+        "sha256": "4921d4cbae33349a9cb3b2ad3a7622efdea10a5d208c9f333c77b154aa714888"
+      },
+      "research/stronger_model_development_2026-10-15/models/qwen7b/vocab.json": {
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      }
+    },
+    "pad": 87
+  },
+  "runtime": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.0",
+    "numpy": "2.4.4",
+    "transformers": "5.7.0"
+  },
+  "max_model_forwards": 6151,
+  "max_nonrestart_forwards": 5958,
+  "development_only": true,
+  "first_causal_outcome_seen": false,
+  "blocks": [
+    7,
+    14,
+    21
+  ],
+  "site": "joint_person_last_subtokens",
+  "technical_logit_tolerance": 0.05,
+  "technical_trace_tolerance": 1e-06,
+  "independent_probability_replay_tolerance": 1e-08
+}
