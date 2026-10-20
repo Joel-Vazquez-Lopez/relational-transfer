@@ -1,0 +1,31 @@
+{
+  "annotation": "AI-only authored, regex-parsed and tokenizer-checked. No human validation.",
+  "families": [
+    "u01",
+    "u02"
+  ],
+  "names": [
+    [
+      "Alice",
+      "Bob",
+      "Carol"
+    ],
+    [
+      "Dave",
+      "Erin",
+      "Frank"
+    ]
+  ],
+  "native_prompts": 144,
+  "source_cases": 24,
+  "edges": 12,
+  "scientific_generations": 432,
+  "exact_question_length": 5,
+  "unused_old_evaluation_families": [
+    "t03",
+    "t04"
+  ],
+  "reference_origin": "research/three_role_llama_native_2026-10-20/REFERENCE_CONTROL.npz",
+  "previous_failure_commit": "97e53a21ea2780b6510c808a51accbe37de4e77d",
+  "freshness": "New authored combinations and question demands; common names may have appeared elsewhere. No model outputs on this frozen factorial were inspected. Not a new corpus sample."
+}

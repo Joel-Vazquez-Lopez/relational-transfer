@@ -1,0 +1,794 @@
+[
+  {
+    "id": "u01_active_e0",
+    "family": "u01",
+    "form": "active",
+    "edge": 0,
+    "assignment_a": [
+      0,
+      1,
+      2
+    ],
+    "assignment_b": [
+      0,
+      2,
+      1
+    ],
+    "queries": [
+      {
+        "a": "u01_active_012_role0",
+        "b": "u01_active_021_role0",
+        "demand": "role",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": false
+      },
+      {
+        "a": "u01_active_012_role1",
+        "b": "u01_active_021_role1",
+        "demand": "role",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": true
+      },
+      {
+        "a": "u01_active_012_role2",
+        "b": "u01_active_021_role2",
+        "demand": "role",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": true
+      },
+      {
+        "a": "u01_active_012_ordinal0",
+        "b": "u01_active_021_ordinal0",
+        "demand": "ordinal",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": false
+      },
+      {
+        "a": "u01_active_012_ordinal1",
+        "b": "u01_active_021_ordinal1",
+        "demand": "ordinal",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": true
+      },
+      {
+        "a": "u01_active_012_ordinal2",
+        "b": "u01_active_021_ordinal2",
+        "demand": "ordinal",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": true
+      }
+    ]
+  },
+  {
+    "id": "u01_active_e1",
+    "family": "u01",
+    "form": "active",
+    "edge": 1,
+    "assignment_a": [
+      0,
+      1,
+      2
+    ],
+    "assignment_b": [
+      1,
+      0,
+      2
+    ],
+    "queries": [
+      {
+        "a": "u01_active_012_role0",
+        "b": "u01_active_102_role0",
+        "demand": "role",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u01_active_012_role1",
+        "b": "u01_active_102_role1",
+        "demand": "role",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": true
+      },
+      {
+        "a": "u01_active_012_role2",
+        "b": "u01_active_102_role2",
+        "demand": "role",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": false
+      },
+      {
+        "a": "u01_active_012_ordinal0",
+        "b": "u01_active_102_ordinal0",
+        "demand": "ordinal",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u01_active_012_ordinal1",
+        "b": "u01_active_102_ordinal1",
+        "demand": "ordinal",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": true
+      },
+      {
+        "a": "u01_active_012_ordinal2",
+        "b": "u01_active_102_ordinal2",
+        "demand": "ordinal",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": false
+      }
+    ]
+  },
+  {
+    "id": "u01_active_e2",
+    "family": "u01",
+    "form": "active",
+    "edge": 2,
+    "assignment_a": [
+      0,
+      1,
+      2
+    ],
+    "assignment_b": [
+      2,
+      1,
+      0
+    ],
+    "queries": [
+      {
+        "a": "u01_active_012_role0",
+        "b": "u01_active_210_role0",
+        "demand": "role",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u01_active_012_role1",
+        "b": "u01_active_210_role1",
+        "demand": "role",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": false
+      },
+      {
+        "a": "u01_active_012_role2",
+        "b": "u01_active_210_role2",
+        "demand": "role",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": true
+      },
+      {
+        "a": "u01_active_012_ordinal0",
+        "b": "u01_active_210_ordinal0",
+        "demand": "ordinal",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u01_active_012_ordinal1",
+        "b": "u01_active_210_ordinal1",
+        "demand": "ordinal",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": false
+      },
+      {
+        "a": "u01_active_012_ordinal2",
+        "b": "u01_active_210_ordinal2",
+        "demand": "ordinal",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": true
+      }
+    ]
+  },
+  {
+    "id": "u01_goal_fronted_e0",
+    "family": "u01",
+    "form": "goal_fronted",
+    "edge": 0,
+    "assignment_a": [
+      0,
+      1,
+      2
+    ],
+    "assignment_b": [
+      0,
+      2,
+      1
+    ],
+    "queries": [
+      {
+        "a": "u01_goal_fronted_012_role0",
+        "b": "u01_goal_fronted_021_role0",
+        "demand": "role",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": false
+      },
+      {
+        "a": "u01_goal_fronted_012_role1",
+        "b": "u01_goal_fronted_021_role1",
+        "demand": "role",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": true
+      },
+      {
+        "a": "u01_goal_fronted_012_role2",
+        "b": "u01_goal_fronted_021_role2",
+        "demand": "role",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": true
+      },
+      {
+        "a": "u01_goal_fronted_012_ordinal0",
+        "b": "u01_goal_fronted_021_ordinal0",
+        "demand": "ordinal",
+        "query_index": 0,
+        "role_index": 2,
+        "changed": true
+      },
+      {
+        "a": "u01_goal_fronted_012_ordinal1",
+        "b": "u01_goal_fronted_021_ordinal1",
+        "demand": "ordinal",
+        "query_index": 1,
+        "role_index": 0,
+        "changed": false
+      },
+      {
+        "a": "u01_goal_fronted_012_ordinal2",
+        "b": "u01_goal_fronted_021_ordinal2",
+        "demand": "ordinal",
+        "query_index": 2,
+        "role_index": 1,
+        "changed": true
+      }
+    ]
+  },
+  {
+    "id": "u01_goal_fronted_e1",
+    "family": "u01",
+    "form": "goal_fronted",
+    "edge": 1,
+    "assignment_a": [
+      0,
+      1,
+      2
+    ],
+    "assignment_b": [
+      1,
+      0,
+      2
+    ],
+    "queries": [
+      {
+        "a": "u01_goal_fronted_012_role0",
+        "b": "u01_goal_fronted_102_role0",
+        "demand": "role",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u01_goal_fronted_012_role1",
+        "b": "u01_goal_fronted_102_role1",
+        "demand": "role",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": true
+      },
+      {
+        "a": "u01_goal_fronted_012_role2",
+        "b": "u01_goal_fronted_102_role2",
+        "demand": "role",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": false
+      },
+      {
+        "a": "u01_goal_fronted_012_ordinal0",
+        "b": "u01_goal_fronted_102_ordinal0",
+        "demand": "ordinal",
+        "query_index": 0,
+        "role_index": 2,
+        "changed": false
+      },
+      {
+        "a": "u01_goal_fronted_012_ordinal1",
+        "b": "u01_goal_fronted_102_ordinal1",
+        "demand": "ordinal",
+        "query_index": 1,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u01_goal_fronted_012_ordinal2",
+        "b": "u01_goal_fronted_102_ordinal2",
+        "demand": "ordinal",
+        "query_index": 2,
+        "role_index": 1,
+        "changed": true
+      }
+    ]
+  },
+  {
+    "id": "u01_goal_fronted_e2",
+    "family": "u01",
+    "form": "goal_fronted",
+    "edge": 2,
+    "assignment_a": [
+      0,
+      1,
+      2
+    ],
+    "assignment_b": [
+      2,
+      1,
+      0
+    ],
+    "queries": [
+      {
+        "a": "u01_goal_fronted_012_role0",
+        "b": "u01_goal_fronted_210_role0",
+        "demand": "role",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u01_goal_fronted_012_role1",
+        "b": "u01_goal_fronted_210_role1",
+        "demand": "role",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": false
+      },
+      {
+        "a": "u01_goal_fronted_012_role2",
+        "b": "u01_goal_fronted_210_role2",
+        "demand": "role",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": true
+      },
+      {
+        "a": "u01_goal_fronted_012_ordinal0",
+        "b": "u01_goal_fronted_210_ordinal0",
+        "demand": "ordinal",
+        "query_index": 0,
+        "role_index": 2,
+        "changed": true
+      },
+      {
+        "a": "u01_goal_fronted_012_ordinal1",
+        "b": "u01_goal_fronted_210_ordinal1",
+        "demand": "ordinal",
+        "query_index": 1,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u01_goal_fronted_012_ordinal2",
+        "b": "u01_goal_fronted_210_ordinal2",
+        "demand": "ordinal",
+        "query_index": 2,
+        "role_index": 1,
+        "changed": false
+      }
+    ]
+  },
+  {
+    "id": "u02_active_e0",
+    "family": "u02",
+    "form": "active",
+    "edge": 0,
+    "assignment_a": [
+      0,
+      1,
+      2
+    ],
+    "assignment_b": [
+      0,
+      2,
+      1
+    ],
+    "queries": [
+      {
+        "a": "u02_active_012_role0",
+        "b": "u02_active_021_role0",
+        "demand": "role",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": false
+      },
+      {
+        "a": "u02_active_012_role1",
+        "b": "u02_active_021_role1",
+        "demand": "role",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": true
+      },
+      {
+        "a": "u02_active_012_role2",
+        "b": "u02_active_021_role2",
+        "demand": "role",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": true
+      },
+      {
+        "a": "u02_active_012_ordinal0",
+        "b": "u02_active_021_ordinal0",
+        "demand": "ordinal",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": false
+      },
+      {
+        "a": "u02_active_012_ordinal1",
+        "b": "u02_active_021_ordinal1",
+        "demand": "ordinal",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": true
+      },
+      {
+        "a": "u02_active_012_ordinal2",
+        "b": "u02_active_021_ordinal2",
+        "demand": "ordinal",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": true
+      }
+    ]
+  },
+  {
+    "id": "u02_active_e1",
+    "family": "u02",
+    "form": "active",
+    "edge": 1,
+    "assignment_a": [
+      0,
+      1,
+      2
+    ],
+    "assignment_b": [
+      1,
+      0,
+      2
+    ],
+    "queries": [
+      {
+        "a": "u02_active_012_role0",
+        "b": "u02_active_102_role0",
+        "demand": "role",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u02_active_012_role1",
+        "b": "u02_active_102_role1",
+        "demand": "role",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": true
+      },
+      {
+        "a": "u02_active_012_role2",
+        "b": "u02_active_102_role2",
+        "demand": "role",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": false
+      },
+      {
+        "a": "u02_active_012_ordinal0",
+        "b": "u02_active_102_ordinal0",
+        "demand": "ordinal",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u02_active_012_ordinal1",
+        "b": "u02_active_102_ordinal1",
+        "demand": "ordinal",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": true
+      },
+      {
+        "a": "u02_active_012_ordinal2",
+        "b": "u02_active_102_ordinal2",
+        "demand": "ordinal",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": false
+      }
+    ]
+  },
+  {
+    "id": "u02_active_e2",
+    "family": "u02",
+    "form": "active",
+    "edge": 2,
+    "assignment_a": [
+      0,
+      1,
+      2
+    ],
+    "assignment_b": [
+      2,
+      1,
+      0
+    ],
+    "queries": [
+      {
+        "a": "u02_active_012_role0",
+        "b": "u02_active_210_role0",
+        "demand": "role",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u02_active_012_role1",
+        "b": "u02_active_210_role1",
+        "demand": "role",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": false
+      },
+      {
+        "a": "u02_active_012_role2",
+        "b": "u02_active_210_role2",
+        "demand": "role",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": true
+      },
+      {
+        "a": "u02_active_012_ordinal0",
+        "b": "u02_active_210_ordinal0",
+        "demand": "ordinal",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u02_active_012_ordinal1",
+        "b": "u02_active_210_ordinal1",
+        "demand": "ordinal",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": false
+      },
+      {
+        "a": "u02_active_012_ordinal2",
+        "b": "u02_active_210_ordinal2",
+        "demand": "ordinal",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": true
+      }
+    ]
+  },
+  {
+    "id": "u02_goal_fronted_e0",
+    "family": "u02",
+    "form": "goal_fronted",
+    "edge": 0,
+    "assignment_a": [
+      0,
+      1,
+      2
+    ],
+    "assignment_b": [
+      0,
+      2,
+      1
+    ],
+    "queries": [
+      {
+        "a": "u02_goal_fronted_012_role0",
+        "b": "u02_goal_fronted_021_role0",
+        "demand": "role",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": false
+      },
+      {
+        "a": "u02_goal_fronted_012_role1",
+        "b": "u02_goal_fronted_021_role1",
+        "demand": "role",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": true
+      },
+      {
+        "a": "u02_goal_fronted_012_role2",
+        "b": "u02_goal_fronted_021_role2",
+        "demand": "role",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": true
+      },
+      {
+        "a": "u02_goal_fronted_012_ordinal0",
+        "b": "u02_goal_fronted_021_ordinal0",
+        "demand": "ordinal",
+        "query_index": 0,
+        "role_index": 2,
+        "changed": true
+      },
+      {
+        "a": "u02_goal_fronted_012_ordinal1",
+        "b": "u02_goal_fronted_021_ordinal1",
+        "demand": "ordinal",
+        "query_index": 1,
+        "role_index": 0,
+        "changed": false
+      },
+      {
+        "a": "u02_goal_fronted_012_ordinal2",
+        "b": "u02_goal_fronted_021_ordinal2",
+        "demand": "ordinal",
+        "query_index": 2,
+        "role_index": 1,
+        "changed": true
+      }
+    ]
+  },
+  {
+    "id": "u02_goal_fronted_e1",
+    "family": "u02",
+    "form": "goal_fronted",
+    "edge": 1,
+    "assignment_a": [
+      0,
+      1,
+      2
+    ],
+    "assignment_b": [
+      1,
+      0,
+      2
+    ],
+    "queries": [
+      {
+        "a": "u02_goal_fronted_012_role0",
+        "b": "u02_goal_fronted_102_role0",
+        "demand": "role",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u02_goal_fronted_012_role1",
+        "b": "u02_goal_fronted_102_role1",
+        "demand": "role",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": true
+      },
+      {
+        "a": "u02_goal_fronted_012_role2",
+        "b": "u02_goal_fronted_102_role2",
+        "demand": "role",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": false
+      },
+      {
+        "a": "u02_goal_fronted_012_ordinal0",
+        "b": "u02_goal_fronted_102_ordinal0",
+        "demand": "ordinal",
+        "query_index": 0,
+        "role_index": 2,
+        "changed": false
+      },
+      {
+        "a": "u02_goal_fronted_012_ordinal1",
+        "b": "u02_goal_fronted_102_ordinal1",
+        "demand": "ordinal",
+        "query_index": 1,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u02_goal_fronted_012_ordinal2",
+        "b": "u02_goal_fronted_102_ordinal2",
+        "demand": "ordinal",
+        "query_index": 2,
+        "role_index": 1,
+        "changed": true
+      }
+    ]
+  },
+  {
+    "id": "u02_goal_fronted_e2",
+    "family": "u02",
+    "form": "goal_fronted",
+    "edge": 2,
+    "assignment_a": [
+      0,
+      1,
+      2
+    ],
+    "assignment_b": [
+      2,
+      1,
+      0
+    ],
+    "queries": [
+      {
+        "a": "u02_goal_fronted_012_role0",
+        "b": "u02_goal_fronted_210_role0",
+        "demand": "role",
+        "query_index": 0,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u02_goal_fronted_012_role1",
+        "b": "u02_goal_fronted_210_role1",
+        "demand": "role",
+        "query_index": 1,
+        "role_index": 1,
+        "changed": false
+      },
+      {
+        "a": "u02_goal_fronted_012_role2",
+        "b": "u02_goal_fronted_210_role2",
+        "demand": "role",
+        "query_index": 2,
+        "role_index": 2,
+        "changed": true
+      },
+      {
+        "a": "u02_goal_fronted_012_ordinal0",
+        "b": "u02_goal_fronted_210_ordinal0",
+        "demand": "ordinal",
+        "query_index": 0,
+        "role_index": 2,
+        "changed": true
+      },
+      {
+        "a": "u02_goal_fronted_012_ordinal1",
+        "b": "u02_goal_fronted_210_ordinal1",
+        "demand": "ordinal",
+        "query_index": 1,
+        "role_index": 0,
+        "changed": true
+      },
+      {
+        "a": "u02_goal_fronted_012_ordinal2",
+        "b": "u02_goal_fronted_210_ordinal2",
+        "demand": "ordinal",
+        "query_index": 2,
+        "role_index": 1,
+        "changed": false
+      }
+    ]
+  }
+]
