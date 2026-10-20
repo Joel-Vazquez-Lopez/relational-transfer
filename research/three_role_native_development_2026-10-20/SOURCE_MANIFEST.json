@@ -1,0 +1,19 @@
+{
+  "parent_design_commit": "5979355249416f967d447a02bff7040a2993f57e",
+  "proposal_sha256": "9c502cf0e801cf145ef13ae8d6ea357fbbac40745ad2592b9996a42a6c9f7094",
+  "scientific_families": [
+    "t01",
+    "t02"
+  ],
+  "scientific_prompts": 108,
+  "held_out_families_not_executed": [
+    "t03",
+    "t04"
+  ],
+  "annotation": "AI-only authored and independently template-parsed; sender/sent-person/destination are grammatical task roles. Not human-validated or a corpus sample.",
+  "freshness": "No exact development source sentence in inspected prior research/**/INPUTS.json files; proposal itself was already exposed. This is not a global corpus/train contamination claim.",
+  "control": {
+    "source": "research/legend_order_diagnostic_2026-10-20",
+    "reference_sha256": "531c72208b78489acc8292e9a0e0cd5b93cc216dfec49519d7d20743842de707"
+  }
+}

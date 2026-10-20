@@ -1,0 +1,3 @@
+# Pre-inference preparation correction
+
+The first CPU-only preparation stopped because tokenizing `Answer:` plus bare `Basil` does not preserve the canonical prompt-token boundary. No model had been loaded and no scientific output was observed. The primary unconstrained generation is unchanged. Before freezing the run, the secondary probability endpoint was restricted to the same boundary-verified leading-space name path for every candidate, excluding bare/other tokenization paths. This avoids summing different alias conventions across names and is explicitly documented in PROTOCOL.md. The final lock contains the corrected preparation/scoring definitions. This was a preflight repair, not an outcome-driven prompt or scoring change.
