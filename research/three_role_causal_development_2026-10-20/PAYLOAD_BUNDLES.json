@@ -1,0 +1,19 @@
+{
+  "scope": "Exact original NPZ bytes, including every validation/control/continuation; tar shards are uncompressed because NPZ members already are compressed. Expanded originals retained locally.",
+  "verified": true,
+  "member_checks": 1,
+  "bundles": [
+    {
+      "path": "PAYLOADS_001.tar",
+      "bytes": 563200,
+      "sha256": "ffc176c8cc73bf08bf4b49c5fe421583e01fa5909b8a735838be34c21227db5c"
+    }
+  ],
+  "members": {
+    "payloads/CALL_0001.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    }
+  }
+}

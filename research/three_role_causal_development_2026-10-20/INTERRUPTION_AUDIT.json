@@ -1,0 +1,161 @@
+{
+  "passed": true,
+  "n_checks": 32,
+  "checks": [
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "core.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "prepare.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "replacement.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "worker.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "runtime.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "run.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "analyze.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "test_design.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "PROTOCOL.md"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "INPUTS.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "JOBS.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "UNITS.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "CACHE_INPUTS.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "IDENTITY_INPUTS.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "TOKENIZER_AUDIT.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "CPU_PREFLIGHT.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "SOURCE_MANIFEST.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "CONTROL_INPUT.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "REFERENCE_CONTROL.npz"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "PREFLIGHT_NOTES.md"
+    },
+    {
+      "check": "one_attempt_one_completion",
+      "passed": true
+    },
+    {
+      "check": "reference_only",
+      "passed": true
+    },
+    {
+      "check": "journal",
+      "passed": true
+    },
+    {
+      "check": "raw_hash",
+      "passed": true
+    },
+    {
+      "check": "full_vector_reference",
+      "passed": true
+    },
+    {
+      "check": "no_scientific_trace",
+      "passed": true
+    },
+    {
+      "check": "no_scientific_answers",
+      "passed": true
+    },
+    {
+      "check": "no_source_recapture",
+      "passed": true
+    },
+    {
+      "check": "no_causal_conclusion",
+      "passed": true
+    },
+    {
+      "check": "guard_reason",
+      "passed": true
+    },
+    {
+      "check": "no_retry",
+      "passed": true
+    },
+    {
+      "check": "frozen_before_start",
+      "passed": true
+    }
+  ],
+  "actual_model_forwards": 1,
+  "scientific_answers": 0,
+  "interventions": 0,
+  "heldout_forwards": 0,
+  "llama_forwards": 0,
+  "status": "INCONCLUSIVE_RESOURCE_STOP",
+  "scope": "Audits preservation and reference equivalence only. Not an audit of completed scientific results."
+}

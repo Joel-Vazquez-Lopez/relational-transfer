@@ -1,0 +1,6 @@
+{
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/three_role_causal_development_2026-10-20/run.py\", line 32, in main\n    data,rec=engine.dispatch(row,(),True,'donor_source_recapture')\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/three_role_causal_development_2026-10-20/runtime.py\", line 62, in dispatch\n    limits=resources();self.calls+=1;self.worker_calls+=1\n           ^^^^^^^^^^^\n  File \"/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/three_role_causal_development_2026-10-20/runtime.py\", line 21, in resources\n    assert swap < 2*1024**3,('Swap reserve',swap)\n           ^^^^^^^^^^^^^^^^\nAssertionError: ('Swap reserve', 2608206970.88)\n",
+  "completed_answers": 0,
+  "attempts": 1,
+  "no_automatic_retry": true
+}

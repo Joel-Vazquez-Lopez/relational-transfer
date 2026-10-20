@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/three_role_causal_development_2026-10-20/run.py", line 91, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/three_role_causal_development_2026-10-20/run.py", line 32, in main
+    data,rec=engine.dispatch(row,(),True,'donor_source_recapture')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/three_role_causal_development_2026-10-20/runtime.py", line 62, in dispatch
+    limits=resources();self.calls+=1;self.worker_calls+=1
+           ^^^^^^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/three_role_causal_development_2026-10-20/runtime.py", line 21, in resources
+    assert swap < 2*1024**3,('Swap reserve',swap)
+           ^^^^^^^^^^^^^^^^
+AssertionError: ('Swap reserve', 2608206970.88)
