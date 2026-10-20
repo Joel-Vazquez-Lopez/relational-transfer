@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-20",
+  "studies": {
+    "three_role_native_development_2026-10-20": {
+      "REPORT.md": "159cc57794f830d569cea1e8732c86c5c407aa4ef55ef15dd5adc25f30e4ab9e",
+      "RESULTS.json": "b992487d52aa4147dae1a633e92fa88b699f271a3307128e9975ee3e7cd91b19",
+      "INDEPENDENT_AUDIT.json": "26eef5d304f09137646d594e29085bcadca32f3e433d94e53221691bf67cfd8f"
+    },
+    "three_role_llama_native_2026-10-20": {
+      "REPORT.md": "9e9b4e8320be06ef04472866ed413a417997bea4aa6296b67fc7712cb9995b06",
+      "RESULTS.json": "64a301a58d47d2915add11ec5c30e34e8c0c82687de4ba0d00dcc14b39088111",
+      "INDEPENDENT_AUDIT.json": "0a94715ce8c02640715806ab44d955ad54a285f30f39dce75ce7b22834c19e9a"
+    },
+    "three_role_llama_causal_depth_map_2026-10-20": {
+      "METADATA_CORRECTION.json": "e0732ea1d793922b0080f7a09cae4365643c122731dc7158137989a480feaeef",
+      "REPORT.md": "830f75785bec14985eac2ac353624534428cf5bb6814d37eea62049161d6485e",
+      "RESULTS.json": "626904bbfcc356d79f450f51ef544afe67ec2bb2f73a4d3344cd9bfd02c6ab2b",
+      "RAW_ARCHIVE_MANIFEST.json": "234107bb8a1ac4e8adb71f5bbd0184ef07b4eb454b8a2c41de7f1b764005fe4a",
+      "INDEPENDENT_AUDIT.json": "6346aeb3b37b3c86678ad4204bb3c0ccef563a40510edd9b5baf991086c275ce"
+    },
+    "binding_assignment_readout_2026-10-20": {
+      "llama3b_RESULTS.json": "ab14eb3223fd2808ec3d7bb353e301b6588c0835b0117339039043c1a8f513b3",
+      "REPORT.md": "4109134f4534aa8cace44b79f6ccf67793138cf8cc0ed1657e7b4f1b0239f040",
+      "CYCLE_CERTIFICATE.json": "bd1589671853870c6392454ca7e08e22253d74e05430054c42018494a5e4bd00",
+      "qwen7b_RESULTS.json": "fa0496f90382d1c1862572d5172b6e9e5e0e61d5feeaf7ec90a073415e85f8d8"
+    }
+  },
+  "primary_causal_decision": "NO_GO_FIXED_DEPTH_PROFILE",
+  "new_completed_llama_forwards": 2127,
+  "new_qwen_scientific_forwards": 0,
+  "evaluation_families_untouched": [
+    "t03",
+    "t04"
+  ]
+}

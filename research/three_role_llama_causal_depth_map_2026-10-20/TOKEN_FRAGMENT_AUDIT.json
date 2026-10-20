@@ -1,0 +1,433 @@
+{
+  "scope": "Posthoc token-fragment provenance compatibility,not a causal explanation or a new success gate. Enumerates every recipient-name prefix excluding its last subtoken concatenated with every donor-name last subtoken. Candidate paths are the already fixed leading-space paths. Exact matches do not prove a literal splicing algorithm;the full-state patch changes contextual features too.",
+  "unexpected_outputs": 29,
+  "exact_splice_outputs": 16,
+  "surface_aligned_exact": 11,
+  "nonterminated_splice_prefixes": 2,
+  "ledger": [
+    {
+      "id": "b07_t01_sender_forward_sender_same_role_voice",
+      "block": 7,
+      "condition": "same_role_voice",
+      "generated_text": " Agelia",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Agnes",
+          "donor_name": "Celia",
+          "recipient_prefix": " Ag",
+          "donor_last_subtoken": "elia",
+          "splice": "Agelia",
+          "surface_aligned": true
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t01_sender_forward_sender_cross_lexical",
+      "block": 7,
+      "condition": "cross_lexical",
+      "generated_text": " Ag Esther",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Agnes",
+          "donor_name": "Esther",
+          "recipient_prefix": " Ag",
+          "donor_last_subtoken": " Esther",
+          "splice": "Ag Esther",
+          "surface_aligned": true
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t01_sender_reverse_sender_main",
+      "block": 7,
+      "condition": "main",
+      "generated_text": " Ag Basil",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Agnes",
+          "donor_name": "Basil",
+          "recipient_prefix": " Ag",
+          "donor_last_subtoken": " Basil",
+          "splice": "Ag Basil",
+          "surface_aligned": true
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t01_sender_reverse_sender_same_role_voice",
+      "block": 7,
+      "condition": "same_role_voice",
+      "generated_text": " Agelia",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Agnes",
+          "donor_name": "Celia",
+          "recipient_prefix": " Ag",
+          "donor_last_subtoken": "elia",
+          "splice": "Agelia",
+          "surface_aligned": true
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t01_sender_reverse_destination_person_main",
+      "block": 7,
+      "condition": "main",
+      "generated_text": " To Celia",
+      "terminated": true,
+      "exact_splice_matches": [],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t01_sent_person_forward_sender_same_role_voice",
+      "block": 7,
+      "condition": "same_role_voice",
+      "generated_text": " Agelia",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Agnes",
+          "donor_name": "Celia",
+          "recipient_prefix": " Ag",
+          "donor_last_subtoken": "elia",
+          "splice": "Agelia",
+          "surface_aligned": true
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t01_sent_person_forward_sender_cross_lexical",
+      "block": 7,
+      "condition": "cross_lexical",
+      "generated_text": " Agorian is not present, however Agorian is not present",
+      "terminated": false,
+      "exact_splice_matches": [],
+      "nonterminated_splice_prefixes": [
+        {
+          "recipient_name": "Agnes",
+          "donor_name": "Dorian",
+          "recipient_prefix": " Ag",
+          "donor_last_subtoken": "orian",
+          "splice": "Agorian",
+          "surface_aligned": true
+        }
+      ]
+    },
+    {
+      "id": "b07_t01_destination_person_forward_sender_main",
+      "block": 7,
+      "condition": "main",
+      "generated_text": " Agelia is not present in the sentence, however, Ag",
+      "terminated": false,
+      "exact_splice_matches": [],
+      "nonterminated_splice_prefixes": [
+        {
+          "recipient_name": "Agnes",
+          "donor_name": "Celia",
+          "recipient_prefix": " Ag",
+          "donor_last_subtoken": "elia",
+          "splice": "Agelia",
+          "surface_aligned": true
+        }
+      ]
+    },
+    {
+      "id": "b07_t01_destination_person_forward_sender_same_role_voice",
+      "block": 7,
+      "condition": "same_role_voice",
+      "generated_text": " Agelia",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Agnes",
+          "donor_name": "Celia",
+          "recipient_prefix": " Ag",
+          "donor_last_subtoken": "elia",
+          "splice": "Agelia",
+          "surface_aligned": true
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t01_destination_person_forward_sender_cross_lexical",
+      "block": 7,
+      "condition": "cross_lexical",
+      "generated_text": " Ag Florian",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Agnes",
+          "donor_name": "Florian",
+          "recipient_prefix": " Ag",
+          "donor_last_subtoken": " Florian",
+          "splice": "Ag Florian",
+          "surface_aligned": true
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t01_destination_person_forward_destination_person_main",
+      "block": 7,
+      "condition": "main",
+      "generated_text": " Cnes",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Celia",
+          "donor_name": "Agnes",
+          "recipient_prefix": " C",
+          "donor_last_subtoken": "nes",
+          "splice": "Cnes",
+          "surface_aligned": true
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t01_destination_person_forward_destination_person_cross_lexical",
+      "block": 7,
+      "condition": "cross_lexical",
+      "generated_text": " Cadian is not present, however, C is present.",
+      "terminated": false,
+      "exact_splice_matches": [],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t01_destination_person_reverse_sent_person_main",
+      "block": 7,
+      "condition": "main",
+      "generated_text": " Agelia",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Agnes",
+          "donor_name": "Celia",
+          "recipient_prefix": " Ag",
+          "donor_last_subtoken": "elia",
+          "splice": "Agelia",
+          "surface_aligned": true
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t01_destination_person_reverse_sent_person_same_role_voice",
+      "block": 7,
+      "condition": "same_role_voice",
+      "generated_text": " Agelia",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Agnes",
+          "donor_name": "Celia",
+          "recipient_prefix": " Ag",
+          "donor_last_subtoken": "elia",
+          "splice": "Agelia",
+          "surface_aligned": true
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t02_sender_forward_sender_main",
+      "block": 7,
+      "condition": "main",
+      "generated_text": " D Esther",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Dorian",
+          "donor_name": "Esther",
+          "recipient_prefix": " D",
+          "donor_last_subtoken": " Esther",
+          "splice": "D Esther",
+          "surface_aligned": true
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t02_destination_person_forward_sender_cross_lexical",
+      "block": 7,
+      "condition": "cross_lexical",
+      "generated_text": " D",
+      "terminated": true,
+      "exact_splice_matches": [],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b07_t02_destination_person_reverse_sent_person_cross_lexical",
+      "block": 7,
+      "condition": "cross_lexical",
+      "generated_text": " Dagnes",
+      "terminated": true,
+      "exact_splice_matches": [],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b14_t01_sender_forward_destination_person_cross_lexical",
+      "block": 14,
+      "condition": "cross_lexical",
+      "generated_text": " Cian",
+      "terminated": true,
+      "exact_splice_matches": [],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b14_t01_destination_person_forward_destination_person_cross_lexical",
+      "block": 14,
+      "condition": "cross_lexical",
+      "generated_text": " Ciaran",
+      "terminated": true,
+      "exact_splice_matches": [],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b14_t02_sender_forward_sender_cross_lexical",
+      "block": 14,
+      "condition": "cross_lexical",
+      "generated_text": " Delia",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Dorian",
+          "donor_name": "Celia",
+          "recipient_prefix": " D",
+          "donor_last_subtoken": "elia",
+          "splice": "Delia",
+          "surface_aligned": false
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b14_t02_sender_forward_sent_person_cross_lexical",
+      "block": 14,
+      "condition": "cross_lexical",
+      "generated_text": " Delia",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Dorian",
+          "donor_name": "Celia",
+          "recipient_prefix": " D",
+          "donor_last_subtoken": "elia",
+          "splice": "Delia",
+          "surface_aligned": false
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b14_t02_destination_person_forward_sender_cross_lexical",
+      "block": 14,
+      "condition": "cross_lexical",
+      "generated_text": " D",
+      "terminated": true,
+      "exact_splice_matches": [],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b14_t02_destination_person_reverse_sender_cross_lexical",
+      "block": 14,
+      "condition": "cross_lexical",
+      "generated_text": " D.",
+      "terminated": true,
+      "exact_splice_matches": [],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b14_t02_destination_person_reverse_sent_person_cross_lexical",
+      "block": 14,
+      "condition": "cross_lexical",
+      "generated_text": " Dagny",
+      "terminated": true,
+      "exact_splice_matches": [],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b21_t02_sender_forward_sender_cross_lexical",
+      "block": 21,
+      "condition": "cross_lexical",
+      "generated_text": " Delia",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Dorian",
+          "donor_name": "Celia",
+          "recipient_prefix": " D",
+          "donor_last_subtoken": "elia",
+          "splice": "Delia",
+          "surface_aligned": false
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b21_t02_sender_forward_sent_person_cross_lexical",
+      "block": 21,
+      "condition": "cross_lexical",
+      "generated_text": " Delia",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Dorian",
+          "donor_name": "Celia",
+          "recipient_prefix": " D",
+          "donor_last_subtoken": "elia",
+          "splice": "Delia",
+          "surface_aligned": false
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b21_t02_sender_reverse_sender_cross_lexical",
+      "block": 21,
+      "condition": "cross_lexical",
+      "generated_text": " D",
+      "terminated": true,
+      "exact_splice_matches": [],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b21_t02_sent_person_forward_sender_cross_lexical",
+      "block": 21,
+      "condition": "cross_lexical",
+      "generated_text": " Delia",
+      "terminated": true,
+      "exact_splice_matches": [
+        {
+          "recipient_name": "Dorian",
+          "donor_name": "Celia",
+          "recipient_prefix": " D",
+          "donor_last_subtoken": "elia",
+          "splice": "Delia",
+          "surface_aligned": false
+        }
+      ],
+      "nonterminated_splice_prefixes": []
+    },
+    {
+      "id": "b21_t02_destination_person_forward_sender_cross_lexical",
+      "block": 21,
+      "condition": "cross_lexical",
+      "generated_text": " Darius",
+      "terminated": true,
+      "exact_splice_matches": [],
+      "nonterminated_splice_prefixes": []
+    }
+  ],
+  "model_forwards": 0
+}

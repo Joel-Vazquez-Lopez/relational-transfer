@@ -1,0 +1,15 @@
+{
+  "scope": "Postcollection metadata correction only;frozen controller,original collection record,raw values,scoring and scientific decisions remain unchanged.",
+  "original_file": "COLLECTION.json",
+  "original_sha256": "a95a107a2ace89922a353f545971eb04df4d0f9ccfeeb7e09f5b7db327abf511",
+  "incorrect_field": {
+    "llama_forwards": 0
+  },
+  "correct_counts": {
+    "llama_model_forwards": 1733,
+    "qwen_model_forwards": 0,
+    "additional_checkpoint_forwards": 0,
+    "held_out_forwards": 0
+  },
+  "reason": "The Qwen-stage controller was ported to Llama but retained its historical zero counter for additional Llama forwards. Every worker loads the Llama path in LOCK.json;all completed full vectors have vocabulary128256. The actual_model_forwards field was already correct. No model identity or outcome is inferred from the erroneous field."
+}

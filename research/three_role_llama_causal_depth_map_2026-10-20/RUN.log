@@ -1,0 +1,759 @@
+CACHE 1 of36 t01_012_active_q0
+CACHE 2 of36 t01_012_goal_fronted_q0
+CACHE 3 of36 t01_012_passive_q0
+CACHE 4 of36 t01_021_active_q0
+CACHE 5 of36 t01_021_goal_fronted_q0
+CACHE 6 of36 t01_021_passive_q0
+CACHE 7 of36 t01_102_active_q0
+CACHE 8 of36 t01_102_goal_fronted_q0
+CACHE 9 of36 t01_102_passive_q0
+CACHE 10 of36 t01_120_active_q0
+CACHE 11 of36 t01_120_goal_fronted_q0
+CACHE 12 of36 t01_120_passive_q0
+CACHE 13 of36 t01_201_active_q0
+CACHE 14 of36 t01_201_goal_fronted_q0
+CACHE 15 of36 t01_201_passive_q0
+CACHE 16 of36 t01_210_active_q0
+CACHE 17 of36 t01_210_goal_fronted_q0
+CACHE 18 of36 t01_210_passive_q0
+CACHE 19 of36 t02_012_active_q0
+CACHE 20 of36 t02_012_goal_fronted_q0
+CACHE 21 of36 t02_012_passive_q0
+CACHE 22 of36 t02_021_active_q0
+CACHE 23 of36 t02_021_goal_fronted_q0
+CACHE 24 of36 t02_021_passive_q0
+CACHE 25 of36 t02_102_active_q0
+CACHE 26 of36 t02_102_goal_fronted_q0
+CACHE 27 of36 t02_102_passive_q0
+CACHE 28 of36 t02_120_active_q0
+CACHE 29 of36 t02_120_goal_fronted_q0
+CACHE 30 of36 t02_120_passive_q0
+CACHE 31 of36 t02_201_active_q0
+CACHE 32 of36 t02_201_goal_fronted_q0
+CACHE 33 of36 t02_201_passive_q0
+CACHE 34 of36 t02_210_active_q0
+CACHE 35 of36 t02_210_goal_fronted_q0
+CACHE 36 of36 t02_210_passive_q0
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+ANSWER 1 of432 b07_t01_sender_forward_sender_main ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 2 of432 b07_t01_sender_forward_sender_same_role_voice ' Agelia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 3 of432 b07_t01_sender_forward_sender_neighbor ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 4 of432 b07_t01_sender_forward_sender_cross_lexical ' Ag Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 5 of432 b07_t01_sender_forward_sent_person_main ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 6 of432 b07_t01_sender_forward_sent_person_same_role_voice ' Agnes' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 7 of432 b07_t01_sender_forward_sent_person_neighbor ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 8 of432 b07_t01_sender_forward_sent_person_cross_lexical ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 9 of432 b07_t01_sender_forward_destination_person_main ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 10 of432 b07_t01_sender_forward_destination_person_same_role_voice ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 11 of432 b07_t01_sender_forward_destination_person_neighbor ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 12 of432 b07_t01_sender_forward_destination_person_cross_lexical ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 13 of432 b07_t01_sender_reverse_sender_main ' Ag Basil' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 14 of432 b07_t01_sender_reverse_sender_same_role_voice ' Agelia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 15 of432 b07_t01_sender_reverse_sender_neighbor ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 16 of432 b07_t01_sender_reverse_sender_cross_lexical ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 17 of432 b07_t01_sender_reverse_sent_person_main ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 18 of432 b07_t01_sender_reverse_sent_person_same_role_voice ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 19 of432 b07_t01_sender_reverse_sent_person_neighbor ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 20 of432 b07_t01_sender_reverse_sent_person_cross_lexical ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 21 of432 b07_t01_sender_reverse_destination_person_main ' To Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 22 of432 b07_t01_sender_reverse_destination_person_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 23 of432 b07_t01_sender_reverse_destination_person_neighbor ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 24 of432 b07_t01_sender_reverse_destination_person_cross_lexical ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 25 of432 b07_t01_sent_person_forward_sender_main ' Agnes' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 26 of432 b07_t01_sent_person_forward_sender_same_role_voice ' Agelia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 27 of432 b07_t01_sent_person_forward_sender_neighbor ' Basil' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 28 of432 b07_t01_sent_person_forward_sender_cross_lexical ' Agorian is not present, however Agorian is not present' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 29 of432 b07_t01_sent_person_forward_sent_person_main ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 30 of432 b07_t01_sent_person_forward_sent_person_same_role_voice ' Agnes' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 31 of432 b07_t01_sent_person_forward_sent_person_neighbor ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 32 of432 b07_t01_sent_person_forward_sent_person_cross_lexical ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 33 of432 b07_t01_sent_person_forward_destination_person_main ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 34 of432 b07_t01_sent_person_forward_destination_person_same_role_voice ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 35 of432 b07_t01_sent_person_forward_destination_person_neighbor ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 36 of432 b07_t01_sent_person_forward_destination_person_cross_lexical ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 37 of432 b07_t01_sent_person_reverse_sender_main ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 38 of432 b07_t01_sent_person_reverse_sender_same_role_voice ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 39 of432 b07_t01_sent_person_reverse_sender_neighbor ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 40 of432 b07_t01_sent_person_reverse_sender_cross_lexical ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 41 of432 b07_t01_sent_person_reverse_sent_person_main ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 42 of432 b07_t01_sent_person_reverse_sent_person_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 43 of432 b07_t01_sent_person_reverse_sent_person_neighbor ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 44 of432 b07_t01_sent_person_reverse_sent_person_cross_lexical ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 45 of432 b07_t01_sent_person_reverse_destination_person_main ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 46 of432 b07_t01_sent_person_reverse_destination_person_same_role_voice ' Basil' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 47 of432 b07_t01_sent_person_reverse_destination_person_neighbor ' Basil' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 48 of432 b07_t01_sent_person_reverse_destination_person_cross_lexical ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 49 of432 b07_t01_destination_person_forward_sender_main ' Agelia is not present in the sentence, however, Ag' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 50 of432 b07_t01_destination_person_forward_sender_same_role_voice ' Agelia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 51 of432 b07_t01_destination_person_forward_sender_neighbor ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 52 of432 b07_t01_destination_person_forward_sender_cross_lexical ' Ag Florian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 53 of432 b07_t01_destination_person_forward_sent_person_main ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 54 of432 b07_t01_destination_person_forward_sent_person_same_role_voice ' Agnes' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 55 of432 b07_t01_destination_person_forward_sent_person_neighbor ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 56 of432 b07_t01_destination_person_forward_sent_person_cross_lexical ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 57 of432 b07_t01_destination_person_forward_destination_person_main ' Cnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 58 of432 b07_t01_destination_person_forward_destination_person_same_role_voice ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 59 of432 b07_t01_destination_person_forward_destination_person_neighbor ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 60 of432 b07_t01_destination_person_forward_destination_person_cross_lexical ' Cadian is not present, however, C is present.' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 61 of432 b07_t01_destination_person_reverse_sender_main ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 62 of432 b07_t01_destination_person_reverse_sender_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 63 of432 b07_t01_destination_person_reverse_sender_neighbor ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 64 of432 b07_t01_destination_person_reverse_sender_cross_lexical ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 65 of432 b07_t01_destination_person_reverse_sent_person_main ' Agelia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 66 of432 b07_t01_destination_person_reverse_sent_person_same_role_voice ' Agelia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 67 of432 b07_t01_destination_person_reverse_sent_person_neighbor ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 68 of432 b07_t01_destination_person_reverse_sent_person_cross_lexical ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 69 of432 b07_t01_destination_person_reverse_destination_person_main ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 70 of432 b07_t01_destination_person_reverse_destination_person_same_role_voice ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 71 of432 b07_t01_destination_person_reverse_destination_person_neighbor ' Agnes' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 72 of432 b07_t01_destination_person_reverse_destination_person_cross_lexical ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 73 of432 b07_t02_sender_forward_sender_main ' D Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 74 of432 b07_t02_sender_forward_sender_same_role_voice ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 75 of432 b07_t02_sender_forward_sender_neighbor ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 76 of432 b07_t02_sender_forward_sender_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 77 of432 b07_t02_sender_forward_sent_person_main ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 78 of432 b07_t02_sender_forward_sent_person_same_role_voice ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 79 of432 b07_t02_sender_forward_sent_person_neighbor ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 80 of432 b07_t02_sender_forward_sent_person_cross_lexical ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 81 of432 b07_t02_sender_forward_destination_person_main ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 82 of432 b07_t02_sender_forward_destination_person_same_role_voice ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 83 of432 b07_t02_sender_forward_destination_person_neighbor ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 84 of432 b07_t02_sender_forward_destination_person_cross_lexical ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 85 of432 b07_t02_sender_reverse_sender_main ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 86 of432 b07_t02_sender_reverse_sender_same_role_voice ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 87 of432 b07_t02_sender_reverse_sender_neighbor ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 88 of432 b07_t02_sender_reverse_sender_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 89 of432 b07_t02_sender_reverse_sent_person_main ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 90 of432 b07_t02_sender_reverse_sent_person_same_role_voice ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 91 of432 b07_t02_sender_reverse_sent_person_neighbor ' Dorian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 92 of432 b07_t02_sender_reverse_sent_person_cross_lexical ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 93 of432 b07_t02_sender_reverse_destination_person_main ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 94 of432 b07_t02_sender_reverse_destination_person_same_role_voice ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 95 of432 b07_t02_sender_reverse_destination_person_neighbor ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 96 of432 b07_t02_sender_reverse_destination_person_cross_lexical ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 97 of432 b07_t02_sent_person_forward_sender_main ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 98 of432 b07_t02_sent_person_forward_sender_same_role_voice ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 99 of432 b07_t02_sent_person_forward_sender_neighbor ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 100 of432 b07_t02_sent_person_forward_sender_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 101 of432 b07_t02_sent_person_forward_sent_person_main ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 102 of432 b07_t02_sent_person_forward_sent_person_same_role_voice ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 103 of432 b07_t02_sent_person_forward_sent_person_neighbor ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 104 of432 b07_t02_sent_person_forward_sent_person_cross_lexical ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 105 of432 b07_t02_sent_person_forward_destination_person_main ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 106 of432 b07_t02_sent_person_forward_destination_person_same_role_voice ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 107 of432 b07_t02_sent_person_forward_destination_person_neighbor ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 108 of432 b07_t02_sent_person_forward_destination_person_cross_lexical ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 109 of432 b07_t02_sent_person_reverse_sender_main ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 110 of432 b07_t02_sent_person_reverse_sender_same_role_voice ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 111 of432 b07_t02_sent_person_reverse_sender_neighbor ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 112 of432 b07_t02_sent_person_reverse_sender_cross_lexical ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 113 of432 b07_t02_sent_person_reverse_sent_person_main ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 114 of432 b07_t02_sent_person_reverse_sent_person_same_role_voice ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 115 of432 b07_t02_sent_person_reverse_sent_person_neighbor ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 116 of432 b07_t02_sent_person_reverse_sent_person_cross_lexical ' Agnes' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 117 of432 b07_t02_sent_person_reverse_destination_person_main ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 118 of432 b07_t02_sent_person_reverse_destination_person_same_role_voice ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 119 of432 b07_t02_sent_person_reverse_destination_person_neighbor ' Dorian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 120 of432 b07_t02_sent_person_reverse_destination_person_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 121 of432 b07_t02_destination_person_forward_sender_main ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 122 of432 b07_t02_destination_person_forward_sender_same_role_voice ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 123 of432 b07_t02_destination_person_forward_sender_neighbor ' Florian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 124 of432 b07_t02_destination_person_forward_sender_cross_lexical ' D' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 125 of432 b07_t02_destination_person_forward_sent_person_main ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 126 of432 b07_t02_destination_person_forward_sent_person_same_role_voice ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 127 of432 b07_t02_destination_person_forward_sent_person_neighbor ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 128 of432 b07_t02_destination_person_forward_sent_person_cross_lexical ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 129 of432 b07_t02_destination_person_forward_destination_person_main ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 130 of432 b07_t02_destination_person_forward_destination_person_same_role_voice ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 131 of432 b07_t02_destination_person_forward_destination_person_neighbor ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 132 of432 b07_t02_destination_person_forward_destination_person_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 133 of432 b07_t02_destination_person_reverse_sender_main ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 134 of432 b07_t02_destination_person_reverse_sender_same_role_voice ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 135 of432 b07_t02_destination_person_reverse_sender_neighbor ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 136 of432 b07_t02_destination_person_reverse_sender_cross_lexical ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 137 of432 b07_t02_destination_person_reverse_sent_person_main ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 138 of432 b07_t02_destination_person_reverse_sent_person_same_role_voice ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 139 of432 b07_t02_destination_person_reverse_sent_person_neighbor ' Florian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 140 of432 b07_t02_destination_person_reverse_sent_person_cross_lexical ' Dagnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 141 of432 b07_t02_destination_person_reverse_destination_person_main ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 142 of432 b07_t02_destination_person_reverse_destination_person_same_role_voice ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 143 of432 b07_t02_destination_person_reverse_destination_person_neighbor ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 144 of432 b07_t02_destination_person_reverse_destination_person_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 145 of432 b14_t01_sender_forward_sender_main ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 146 of432 b14_t01_sender_forward_sender_same_role_voice ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 147 of432 b14_t01_sender_forward_sender_neighbor ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 148 of432 b14_t01_sender_forward_sender_cross_lexical ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 149 of432 b14_t01_sender_forward_sent_person_main ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 150 of432 b14_t01_sender_forward_sent_person_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 151 of432 b14_t01_sender_forward_sent_person_neighbor ' Basil' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 152 of432 b14_t01_sender_forward_sent_person_cross_lexical ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 153 of432 b14_t01_sender_forward_destination_person_main ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 154 of432 b14_t01_sender_forward_destination_person_same_role_voice ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 155 of432 b14_t01_sender_forward_destination_person_neighbor ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 156 of432 b14_t01_sender_forward_destination_person_cross_lexical ' Cian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 157 of432 b14_t01_sender_reverse_sender_main ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 158 of432 b14_t01_sender_reverse_sender_same_role_voice ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 159 of432 b14_t01_sender_reverse_sender_neighbor ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 160 of432 b14_t01_sender_reverse_sender_cross_lexical ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 161 of432 b14_t01_sender_reverse_sent_person_main ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 162 of432 b14_t01_sender_reverse_sent_person_same_role_voice ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 163 of432 b14_t01_sender_reverse_sent_person_neighbor ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 164 of432 b14_t01_sender_reverse_sent_person_cross_lexical ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 165 of432 b14_t01_sender_reverse_destination_person_main ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 166 of432 b14_t01_sender_reverse_destination_person_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 167 of432 b14_t01_sender_reverse_destination_person_neighbor ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 168 of432 b14_t01_sender_reverse_destination_person_cross_lexical ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 169 of432 b14_t01_sent_person_forward_sender_main ' Agnes' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 170 of432 b14_t01_sent_person_forward_sender_same_role_voice ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 171 of432 b14_t01_sent_person_forward_sender_neighbor ' Agnes' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 172 of432 b14_t01_sent_person_forward_sender_cross_lexical ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 173 of432 b14_t01_sent_person_forward_sent_person_main ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 174 of432 b14_t01_sent_person_forward_sent_person_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 175 of432 b14_t01_sent_person_forward_sent_person_neighbor ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 176 of432 b14_t01_sent_person_forward_sent_person_cross_lexical ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 177 of432 b14_t01_sent_person_forward_destination_person_main ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 178 of432 b14_t01_sent_person_forward_destination_person_same_role_voice ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 179 of432 b14_t01_sent_person_forward_destination_person_neighbor ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 180 of432 b14_t01_sent_person_forward_destination_person_cross_lexical ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 181 of432 b14_t01_sent_person_reverse_sender_main ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 182 of432 b14_t01_sent_person_reverse_sender_same_role_voice ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 183 of432 b14_t01_sent_person_reverse_sender_neighbor ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 184 of432 b14_t01_sent_person_reverse_sender_cross_lexical ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 185 of432 b14_t01_sent_person_reverse_sent_person_main ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 186 of432 b14_t01_sent_person_reverse_sent_person_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 187 of432 b14_t01_sent_person_reverse_sent_person_neighbor ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 188 of432 b14_t01_sent_person_reverse_sent_person_cross_lexical ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 189 of432 b14_t01_sent_person_reverse_destination_person_main ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 190 of432 b14_t01_sent_person_reverse_destination_person_same_role_voice ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 191 of432 b14_t01_sent_person_reverse_destination_person_neighbor ' Agnes' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 192 of432 b14_t01_sent_person_reverse_destination_person_cross_lexical ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 193 of432 b14_t01_destination_person_forward_sender_main ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 194 of432 b14_t01_destination_person_forward_sender_same_role_voice ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 195 of432 b14_t01_destination_person_forward_sender_neighbor ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 196 of432 b14_t01_destination_person_forward_sender_cross_lexical ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 197 of432 b14_t01_destination_person_forward_sent_person_main ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 198 of432 b14_t01_destination_person_forward_sent_person_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 199 of432 b14_t01_destination_person_forward_sent_person_neighbor ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 200 of432 b14_t01_destination_person_forward_sent_person_cross_lexical ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 201 of432 b14_t01_destination_person_forward_destination_person_main ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 202 of432 b14_t01_destination_person_forward_destination_person_same_role_voice ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 203 of432 b14_t01_destination_person_forward_destination_person_neighbor ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 204 of432 b14_t01_destination_person_forward_destination_person_cross_lexical ' Ciaran' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 205 of432 b14_t01_destination_person_reverse_sender_main ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 206 of432 b14_t01_destination_person_reverse_sender_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 207 of432 b14_t01_destination_person_reverse_sender_neighbor ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 208 of432 b14_t01_destination_person_reverse_sender_cross_lexical ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 209 of432 b14_t01_destination_person_reverse_sent_person_main ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 210 of432 b14_t01_destination_person_reverse_sent_person_same_role_voice ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 211 of432 b14_t01_destination_person_reverse_sent_person_neighbor ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 212 of432 b14_t01_destination_person_reverse_sent_person_cross_lexical ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 213 of432 b14_t01_destination_person_reverse_destination_person_main ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 214 of432 b14_t01_destination_person_reverse_destination_person_same_role_voice ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 215 of432 b14_t01_destination_person_reverse_destination_person_neighbor ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 216 of432 b14_t01_destination_person_reverse_destination_person_cross_lexical ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 217 of432 b14_t02_sender_forward_sender_main ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 218 of432 b14_t02_sender_forward_sender_same_role_voice ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 219 of432 b14_t02_sender_forward_sender_neighbor ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 220 of432 b14_t02_sender_forward_sender_cross_lexical ' Delia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 221 of432 b14_t02_sender_forward_sent_person_main ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 222 of432 b14_t02_sender_forward_sent_person_same_role_voice ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 223 of432 b14_t02_sender_forward_sent_person_neighbor ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 224 of432 b14_t02_sender_forward_sent_person_cross_lexical ' Delia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 225 of432 b14_t02_sender_forward_destination_person_main ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 226 of432 b14_t02_sender_forward_destination_person_same_role_voice ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 227 of432 b14_t02_sender_forward_destination_person_neighbor ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 228 of432 b14_t02_sender_forward_destination_person_cross_lexical ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 229 of432 b14_t02_sender_reverse_sender_main ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 230 of432 b14_t02_sender_reverse_sender_same_role_voice ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 231 of432 b14_t02_sender_reverse_sender_neighbor ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 232 of432 b14_t02_sender_reverse_sender_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 233 of432 b14_t02_sender_reverse_sent_person_main ' Dorian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 234 of432 b14_t02_sender_reverse_sent_person_same_role_voice ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 235 of432 b14_t02_sender_reverse_sent_person_neighbor ' Dorian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 236 of432 b14_t02_sender_reverse_sent_person_cross_lexical ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 237 of432 b14_t02_sender_reverse_destination_person_main ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 238 of432 b14_t02_sender_reverse_destination_person_same_role_voice ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 239 of432 b14_t02_sender_reverse_destination_person_neighbor ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 240 of432 b14_t02_sender_reverse_destination_person_cross_lexical ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 241 of432 b14_t02_sent_person_forward_sender_main ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 242 of432 b14_t02_sent_person_forward_sender_same_role_voice ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 243 of432 b14_t02_sent_person_forward_sender_neighbor ' Dorian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 244 of432 b14_t02_sent_person_forward_sender_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 245 of432 b14_t02_sent_person_forward_sent_person_main ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 246 of432 b14_t02_sent_person_forward_sent_person_same_role_voice ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 247 of432 b14_t02_sent_person_forward_sent_person_neighbor ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 248 of432 b14_t02_sent_person_forward_sent_person_cross_lexical ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 249 of432 b14_t02_sent_person_forward_destination_person_main ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 250 of432 b14_t02_sent_person_forward_destination_person_same_role_voice ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 251 of432 b14_t02_sent_person_forward_destination_person_neighbor ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 252 of432 b14_t02_sent_person_forward_destination_person_cross_lexical ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 253 of432 b14_t02_sent_person_reverse_sender_main ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 254 of432 b14_t02_sent_person_reverse_sender_same_role_voice ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 255 of432 b14_t02_sent_person_reverse_sender_neighbor ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 256 of432 b14_t02_sent_person_reverse_sender_cross_lexical ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 257 of432 b14_t02_sent_person_reverse_sent_person_main ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 258 of432 b14_t02_sent_person_reverse_sent_person_same_role_voice ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 259 of432 b14_t02_sent_person_reverse_sent_person_neighbor ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 260 of432 b14_t02_sent_person_reverse_sent_person_cross_lexical ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 261 of432 b14_t02_sent_person_reverse_destination_person_main ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 262 of432 b14_t02_sent_person_reverse_destination_person_same_role_voice ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 263 of432 b14_t02_sent_person_reverse_destination_person_neighbor ' Dorian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 264 of432 b14_t02_sent_person_reverse_destination_person_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 265 of432 b14_t02_destination_person_forward_sender_main ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 266 of432 b14_t02_destination_person_forward_sender_same_role_voice ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 267 of432 b14_t02_destination_person_forward_sender_neighbor ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 268 of432 b14_t02_destination_person_forward_sender_cross_lexical ' D' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 269 of432 b14_t02_destination_person_forward_sent_person_main ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 270 of432 b14_t02_destination_person_forward_sent_person_same_role_voice ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 271 of432 b14_t02_destination_person_forward_sent_person_neighbor ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 272 of432 b14_t02_destination_person_forward_sent_person_cross_lexical ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 273 of432 b14_t02_destination_person_forward_destination_person_main ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 274 of432 b14_t02_destination_person_forward_destination_person_same_role_voice ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 275 of432 b14_t02_destination_person_forward_destination_person_neighbor ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 276 of432 b14_t02_destination_person_forward_destination_person_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 277 of432 b14_t02_destination_person_reverse_sender_main ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 278 of432 b14_t02_destination_person_reverse_sender_same_role_voice ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 279 of432 b14_t02_destination_person_reverse_sender_neighbor ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 280 of432 b14_t02_destination_person_reverse_sender_cross_lexical ' D.' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 281 of432 b14_t02_destination_person_reverse_sent_person_main ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 282 of432 b14_t02_destination_person_reverse_sent_person_same_role_voice ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 283 of432 b14_t02_destination_person_reverse_sent_person_neighbor ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 284 of432 b14_t02_destination_person_reverse_sent_person_cross_lexical ' Dagny' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 285 of432 b14_t02_destination_person_reverse_destination_person_main ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 286 of432 b14_t02_destination_person_reverse_destination_person_same_role_voice ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 287 of432 b14_t02_destination_person_reverse_destination_person_neighbor ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 288 of432 b14_t02_destination_person_reverse_destination_person_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 289 of432 b21_t01_sender_forward_sender_main ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 290 of432 b21_t01_sender_forward_sender_same_role_voice ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 291 of432 b21_t01_sender_forward_sender_neighbor ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 292 of432 b21_t01_sender_forward_sender_cross_lexical ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 293 of432 b21_t01_sender_forward_sent_person_main ' Basil' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 294 of432 b21_t01_sender_forward_sent_person_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 295 of432 b21_t01_sender_forward_sent_person_neighbor ' Basil' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 296 of432 b21_t01_sender_forward_sent_person_cross_lexical ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 297 of432 b21_t01_sender_forward_destination_person_main ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 298 of432 b21_t01_sender_forward_destination_person_same_role_voice ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 299 of432 b21_t01_sender_forward_destination_person_neighbor ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 300 of432 b21_t01_sender_forward_destination_person_cross_lexical ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 301 of432 b21_t01_sender_reverse_sender_main ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 302 of432 b21_t01_sender_reverse_sender_same_role_voice ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 303 of432 b21_t01_sender_reverse_sender_neighbor ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 304 of432 b21_t01_sender_reverse_sender_cross_lexical ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 305 of432 b21_t01_sender_reverse_sent_person_main ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 306 of432 b21_t01_sender_reverse_sent_person_same_role_voice ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 307 of432 b21_t01_sender_reverse_sent_person_neighbor ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 308 of432 b21_t01_sender_reverse_sent_person_cross_lexical ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 309 of432 b21_t01_sender_reverse_destination_person_main ' Basil' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 310 of432 b21_t01_sender_reverse_destination_person_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 311 of432 b21_t01_sender_reverse_destination_person_neighbor ' Basil' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 312 of432 b21_t01_sender_reverse_destination_person_cross_lexical ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 313 of432 b21_t01_sent_person_forward_sender_main ' Agnes' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 314 of432 b21_t01_sent_person_forward_sender_same_role_voice ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 315 of432 b21_t01_sent_person_forward_sender_neighbor ' Agnes' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 316 of432 b21_t01_sent_person_forward_sender_cross_lexical ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 317 of432 b21_t01_sent_person_forward_sent_person_main ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 318 of432 b21_t01_sent_person_forward_sent_person_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 319 of432 b21_t01_sent_person_forward_sent_person_neighbor ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 320 of432 b21_t01_sent_person_forward_sent_person_cross_lexical ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 321 of432 b21_t01_sent_person_forward_destination_person_main ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 322 of432 b21_t01_sent_person_forward_destination_person_same_role_voice ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 323 of432 b21_t01_sent_person_forward_destination_person_neighbor ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 324 of432 b21_t01_sent_person_forward_destination_person_cross_lexical ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 325 of432 b21_t01_sent_person_reverse_sender_main ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 326 of432 b21_t01_sent_person_reverse_sender_same_role_voice ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 327 of432 b21_t01_sent_person_reverse_sender_neighbor ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 328 of432 b21_t01_sent_person_reverse_sender_cross_lexical ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 329 of432 b21_t01_sent_person_reverse_sent_person_main ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 330 of432 b21_t01_sent_person_reverse_sent_person_same_role_voice ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 331 of432 b21_t01_sent_person_reverse_sent_person_neighbor ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 332 of432 b21_t01_sent_person_reverse_sent_person_cross_lexical ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 333 of432 b21_t01_sent_person_reverse_destination_person_main ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 334 of432 b21_t01_sent_person_reverse_destination_person_same_role_voice ' Celia' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 335 of432 b21_t01_sent_person_reverse_destination_person_neighbor ' Agnes' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 336 of432 b21_t01_sent_person_reverse_destination_person_cross_lexical ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 337 of432 b21_t01_destination_person_forward_sender_main ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 338 of432 b21_t01_destination_person_forward_sender_same_role_voice ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 339 of432 b21_t01_destination_person_forward_sender_neighbor ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 340 of432 b21_t01_destination_person_forward_sender_cross_lexical ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 341 of432 b21_t01_destination_person_forward_sent_person_main ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 342 of432 b21_t01_destination_person_forward_sent_person_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 343 of432 b21_t01_destination_person_forward_sent_person_neighbor ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 344 of432 b21_t01_destination_person_forward_sent_person_cross_lexical ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 345 of432 b21_t01_destination_person_forward_destination_person_main ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 346 of432 b21_t01_destination_person_forward_destination_person_same_role_voice ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 347 of432 b21_t01_destination_person_forward_destination_person_neighbor ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 348 of432 b21_t01_destination_person_forward_destination_person_cross_lexical ' Celia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 349 of432 b21_t01_destination_person_reverse_sender_main ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 350 of432 b21_t01_destination_person_reverse_sender_same_role_voice ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 351 of432 b21_t01_destination_person_reverse_sender_neighbor ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 352 of432 b21_t01_destination_person_reverse_sender_cross_lexical ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 353 of432 b21_t01_destination_person_reverse_sent_person_main ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 354 of432 b21_t01_destination_person_reverse_sent_person_same_role_voice ' Agnes' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 355 of432 b21_t01_destination_person_reverse_sent_person_neighbor ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 356 of432 b21_t01_destination_person_reverse_sent_person_cross_lexical ' Agnes' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 357 of432 b21_t01_destination_person_reverse_destination_person_main ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 358 of432 b21_t01_destination_person_reverse_destination_person_same_role_voice ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 359 of432 b21_t01_destination_person_reverse_destination_person_neighbor ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 360 of432 b21_t01_destination_person_reverse_destination_person_cross_lexical ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 361 of432 b21_t02_sender_forward_sender_main ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 362 of432 b21_t02_sender_forward_sender_same_role_voice ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 363 of432 b21_t02_sender_forward_sender_neighbor ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 364 of432 b21_t02_sender_forward_sender_cross_lexical ' Delia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 365 of432 b21_t02_sender_forward_sent_person_main ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 366 of432 b21_t02_sender_forward_sent_person_same_role_voice ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 367 of432 b21_t02_sender_forward_sent_person_neighbor ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 368 of432 b21_t02_sender_forward_sent_person_cross_lexical ' Delia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 369 of432 b21_t02_sender_forward_destination_person_main ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 370 of432 b21_t02_sender_forward_destination_person_same_role_voice ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 371 of432 b21_t02_sender_forward_destination_person_neighbor ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 372 of432 b21_t02_sender_forward_destination_person_cross_lexical ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 373 of432 b21_t02_sender_reverse_sender_main ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 374 of432 b21_t02_sender_reverse_sender_same_role_voice ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 375 of432 b21_t02_sender_reverse_sender_neighbor ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 376 of432 b21_t02_sender_reverse_sender_cross_lexical ' D' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 377 of432 b21_t02_sender_reverse_sent_person_main ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 378 of432 b21_t02_sender_reverse_sent_person_same_role_voice ' Esther' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 379 of432 b21_t02_sender_reverse_sent_person_neighbor ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 380 of432 b21_t02_sender_reverse_sent_person_cross_lexical ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 381 of432 b21_t02_sender_reverse_destination_person_main ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 382 of432 b21_t02_sender_reverse_destination_person_same_role_voice ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 383 of432 b21_t02_sender_reverse_destination_person_neighbor ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 384 of432 b21_t02_sender_reverse_destination_person_cross_lexical ' Celia' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 385 of432 b21_t02_sent_person_forward_sender_main ' Dorian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 386 of432 b21_t02_sent_person_forward_sender_same_role_voice ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 387 of432 b21_t02_sent_person_forward_sender_neighbor ' Dorian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 388 of432 b21_t02_sent_person_forward_sender_cross_lexical ' Delia' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 389 of432 b21_t02_sent_person_forward_sent_person_main ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 390 of432 b21_t02_sent_person_forward_sent_person_same_role_voice ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 391 of432 b21_t02_sent_person_forward_sent_person_neighbor ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 392 of432 b21_t02_sent_person_forward_sent_person_cross_lexical ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 393 of432 b21_t02_sent_person_forward_destination_person_main ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 394 of432 b21_t02_sent_person_forward_destination_person_same_role_voice ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 395 of432 b21_t02_sent_person_forward_destination_person_neighbor ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 396 of432 b21_t02_sent_person_forward_destination_person_cross_lexical ' Basil' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 397 of432 b21_t02_sent_person_reverse_sender_main ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 398 of432 b21_t02_sent_person_reverse_sender_same_role_voice ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 399 of432 b21_t02_sent_person_reverse_sender_neighbor ' Florian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 400 of432 b21_t02_sent_person_reverse_sender_cross_lexical ' Basil' {'role_table': False, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 401 of432 b21_t02_sent_person_reverse_sent_person_main ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 402 of432 b21_t02_sent_person_reverse_sent_person_same_role_voice ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 403 of432 b21_t02_sent_person_reverse_sent_person_neighbor ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 404 of432 b21_t02_sent_person_reverse_sent_person_cross_lexical ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 405 of432 b21_t02_sent_person_reverse_destination_person_main ' Dorian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 406 of432 b21_t02_sent_person_reverse_destination_person_same_role_voice ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 407 of432 b21_t02_sent_person_reverse_destination_person_neighbor ' Dorian' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 408 of432 b21_t02_sent_person_reverse_destination_person_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': True, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 409 of432 b21_t02_destination_person_forward_sender_main ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 410 of432 b21_t02_destination_person_forward_sender_same_role_voice ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 411 of432 b21_t02_destination_person_forward_sender_neighbor ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 412 of432 b21_t02_destination_person_forward_sender_cross_lexical ' Darius' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 413 of432 b21_t02_destination_person_forward_sent_person_main ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 414 of432 b21_t02_destination_person_forward_sent_person_same_role_voice ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 415 of432 b21_t02_destination_person_forward_sent_person_neighbor ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 416 of432 b21_t02_destination_person_forward_sent_person_cross_lexical ' Basil' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 417 of432 b21_t02_destination_person_forward_destination_person_main ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 418 of432 b21_t02_destination_person_forward_destination_person_same_role_voice ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 419 of432 b21_t02_destination_person_forward_destination_person_neighbor ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 420 of432 b21_t02_destination_person_forward_destination_person_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 421 of432 b21_t02_destination_person_reverse_sender_main ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 422 of432 b21_t02_destination_person_reverse_sender_same_role_voice ' Esther' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 423 of432 b21_t02_destination_person_reverse_sender_neighbor ' Esther' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 424 of432 b21_t02_destination_person_reverse_sender_cross_lexical ' Basil' {'role_table': False, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 425 of432 b21_t02_destination_person_reverse_sent_person_main ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 426 of432 b21_t02_destination_person_reverse_sent_person_same_role_voice ' Dorian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 427 of432 b21_t02_destination_person_reverse_sent_person_neighbor ' Dorian' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+ANSWER 428 of432 b21_t02_destination_person_reverse_sent_person_cross_lexical ' Basil' {'role_table': True, 'mention_order': False, 'fixed_one_answer': False, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 429 of432 b21_t02_destination_person_reverse_destination_person_main ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 430 of432 b21_t02_destination_person_reverse_destination_person_same_role_voice ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 431 of432 b21_t02_destination_person_reverse_destination_person_neighbor ' Florian' {'role_table': True, 'mention_order': False, 'fixed_one_answer': True, 'syntax_aware_parser': True, 'complete_future_answer_table': True}
+ANSWER 432 of432 b21_t02_destination_person_reverse_destination_person_cross_lexical ' Basil' {'role_table': False, 'mention_order': True, 'fixed_one_answer': False, 'syntax_aware_parser': False, 'complete_future_answer_table': False}
+{
+  "decision": "NO_GO_FIXED_DEPTH_PROFILE",
+  "depth_gates": [
+    {
+      "block": 7,
+      "joint_72_answer_accounts": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "neighbor_complete_bidirectional_units": 0,
+      "role_candidate_qualified": false,
+      "mention_account_qualified": false
+    },
+    {
+      "block": 14,
+      "joint_72_answer_accounts": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "neighbor_complete_bidirectional_units": 0,
+      "role_candidate_qualified": false,
+      "mention_account_qualified": false
+    },
+    {
+      "block": 21,
+      "joint_72_answer_accounts": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "neighbor_complete_bidirectional_units": 0,
+      "role_candidate_qualified": false,
+      "mention_account_qualified": false
+    }
+  ],
+  "qualifying_blocks": [],
+  "selected_block": null,
+  "technical_pass": true,
+  "technical_checks": 2499,
+  "summary": [
+    {
+      "block": 7,
+      "condition": "main",
+      "n": 36,
+      "terminated": 35,
+      "recipient_name_compliant": 30,
+      "donor_name_compliant": 30,
+      "preserves_recipient_answer": 11,
+      "role_match_switched": 4,
+      "n_switched": 24,
+      "role_match_invariant": 1,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": -2.255392082040723,
+      "n_margin": 36,
+      "role_table": 5,
+      "mention_order": 25,
+      "fixed_one_answer": 8,
+      "syntax_aware_parser": 5,
+      "complete_future_answer_table": 5
+    },
+    {
+      "block": 7,
+      "condition": "same_role_voice",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 31,
+      "donor_name_compliant": 31,
+      "preserves_recipient_answer": 8,
+      "role_match_switched": 5,
+      "n_switched": 24,
+      "role_match_invariant": 3,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": -1.2412738491484532,
+      "n_margin": 36,
+      "role_table": 8,
+      "mention_order": 22,
+      "fixed_one_answer": 12,
+      "syntax_aware_parser": 8,
+      "complete_future_answer_table": 8
+    },
+    {
+      "block": 7,
+      "condition": "neighbor",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 9,
+      "role_match_switched": 8,
+      "n_switched": 24,
+      "role_match_invariant": 3,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": 0.11846814294984112,
+      "n_margin": 36,
+      "role_table": 11,
+      "mention_order": 11,
+      "fixed_one_answer": 13,
+      "syntax_aware_parser": 11,
+      "complete_future_answer_table": 11
+    },
+    {
+      "block": 7,
+      "condition": "cross_lexical",
+      "n": 36,
+      "terminated": 34,
+      "recipient_name_compliant": 0,
+      "donor_name_compliant": 30,
+      "preserves_recipient_answer": 0,
+      "role_match_switched": 5,
+      "n_switched": 24,
+      "role_match_invariant": 1,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": null,
+      "n_margin": 0,
+      "role_table": 6,
+      "mention_order": 21,
+      "fixed_one_answer": 9,
+      "syntax_aware_parser": 6,
+      "complete_future_answer_table": 6
+    },
+    {
+      "block": 14,
+      "condition": "main",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 21,
+      "role_match_switched": 8,
+      "n_switched": 24,
+      "role_match_invariant": 9,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": -0.10168762124847586,
+      "n_margin": 36,
+      "role_table": 17,
+      "mention_order": 13,
+      "fixed_one_answer": 13,
+      "syntax_aware_parser": 17,
+      "complete_future_answer_table": 17
+    },
+    {
+      "block": 14,
+      "condition": "same_role_voice",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 29,
+      "role_match_switched": 18,
+      "n_switched": 24,
+      "role_match_invariant": 11,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": 1.4630283423395893,
+      "n_margin": 36,
+      "role_table": 29,
+      "mention_order": 7,
+      "fixed_one_answer": 14,
+      "syntax_aware_parser": 29,
+      "complete_future_answer_table": 29
+    },
+    {
+      "block": 14,
+      "condition": "neighbor",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 29,
+      "role_match_switched": 2,
+      "n_switched": 24,
+      "role_match_invariant": 10,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": 0.14601105674637901,
+      "n_margin": 36,
+      "role_table": 12,
+      "mention_order": 11,
+      "fixed_one_answer": 13,
+      "syntax_aware_parser": 12,
+      "complete_future_answer_table": 12
+    },
+    {
+      "block": 14,
+      "condition": "cross_lexical",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 3,
+      "donor_name_compliant": 26,
+      "preserves_recipient_answer": 3,
+      "role_match_switched": 7,
+      "n_switched": 24,
+      "role_match_invariant": 4,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": null,
+      "n_margin": 0,
+      "role_table": 11,
+      "mention_order": 13,
+      "fixed_one_answer": 11,
+      "syntax_aware_parser": 11,
+      "complete_future_answer_table": 11
+    },
+    {
+      "block": 21,
+      "condition": "main",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 33,
+      "role_match_switched": 2,
+      "n_switched": 24,
+      "role_match_invariant": 12,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": 0.09200769248254383,
+      "n_margin": 36,
+      "role_table": 14,
+      "mention_order": 11,
+      "fixed_one_answer": 13,
+      "syntax_aware_parser": 14,
+      "complete_future_answer_table": 14
+    },
+    {
+      "block": 21,
+      "condition": "same_role_voice",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 33,
+      "role_match_switched": 22,
+      "n_switched": 24,
+      "role_match_invariant": 11,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": 3.4310388829036835,
+      "n_margin": 36,
+      "role_table": 33,
+      "mention_order": 2,
+      "fixed_one_answer": 11,
+      "syntax_aware_parser": 33,
+      "complete_future_answer_table": 33
+    },
+    {
+      "block": 21,
+      "condition": "neighbor",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 35,
+      "role_match_switched": 0,
+      "n_switched": 24,
+      "role_match_invariant": 11,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": 0.011041738112842777,
+      "n_margin": 36,
+      "role_table": 11,
+      "mention_order": 13,
+      "fixed_one_answer": 11,
+      "syntax_aware_parser": 11,
+      "complete_future_answer_table": 11
+    },
+    {
+      "block": 21,
+      "condition": "cross_lexical",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 10,
+      "donor_name_compliant": 21,
+      "preserves_recipient_answer": 10,
+      "role_match_switched": 6,
+      "n_switched": 24,
+      "role_match_invariant": 4,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": null,
+      "n_margin": 0,
+      "role_table": 10,
+      "mention_order": 4,
+      "fixed_one_answer": 9,
+      "syntax_aware_parser": 10,
+      "complete_future_answer_table": 10
+    }
+  ]
+}

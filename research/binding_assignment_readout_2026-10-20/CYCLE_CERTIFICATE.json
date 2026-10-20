@@ -1,0 +1,1376 @@
+{
+  "passed": true,
+  "n_checks": 224,
+  "sources": 72,
+  "scope": "Source-text parsing and five algebraic rival margins independently verify the complete-assignment claim from already native-audited probability inputs. Not new inference, independent data or a significance test.",
+  "ledger": [
+    {
+      "model": "qwen7b",
+      "source": "Agnes sent Basil to Celia.",
+      "independently_parsed_role_names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "two_role_swap_margins": [
+        42.633029151313934,
+        42.1960109443013,
+        28.221432114313014
+      ],
+      "three_role_cycle_margins": [
+        65.58864315333601,
+        47.46182905659224
+      ],
+      "minimum_margin": 28.221432114313014
+    },
+    {
+      "model": "qwen7b",
+      "source": "Agnes sent Celia to Basil.",
+      "independently_parsed_role_names": [
+        "Agnes",
+        "Celia",
+        "Basil"
+      ],
+      "two_role_swap_margins": [
+        33.23451225013699,
+        36.67974656464192,
+        11.742184349055464
+      ],
+      "three_role_cycle_margins": [
+        46.63290505670068,
+        35.0235381071337
+      ],
+      "minimum_margin": 11.742184349055464
+    },
+    {
+      "model": "qwen7b",
+      "source": "Agnes was sent to Basil by Celia.",
+      "independently_parsed_role_names": [
+        "Celia",
+        "Agnes",
+        "Basil"
+      ],
+      "two_role_swap_margins": [
+        23.30811253399224,
+        29.79706267644676,
+        35.35158228683671
+      ],
+      "three_role_cycle_margins": [
+        45.867374326937096,
+        42.58938317033862
+      ],
+      "minimum_margin": 23.30811253399224
+    },
+    {
+      "model": "qwen7b",
+      "source": "Agnes was sent to Celia by Basil.",
+      "independently_parsed_role_names": [
+        "Basil",
+        "Agnes",
+        "Celia"
+      ],
+      "two_role_swap_margins": [
+        31.54296537052478,
+        40.13809457309467,
+        33.09616156546076
+      ],
+      "three_role_cycle_margins": [
+        47.27583475891626,
+        57.501386750163945
+      ],
+      "minimum_margin": 31.54296537052478
+    },
+    {
+      "model": "qwen7b",
+      "source": "Basil sent Agnes to Celia.",
+      "independently_parsed_role_names": [
+        "Basil",
+        "Agnes",
+        "Celia"
+      ],
+      "two_role_swap_margins": [
+        35.53125139616536,
+        43.120324030299955,
+        27.03131434409162
+      ],
+      "three_role_cycle_margins": [
+        56.765678322148695,
+        48.91721144840823
+      ],
+      "minimum_margin": 27.03131434409162
+    },
+    {
+      "model": "qwen7b",
+      "source": "Basil sent Celia to Agnes.",
+      "independently_parsed_role_names": [
+        "Basil",
+        "Celia",
+        "Agnes"
+      ],
+      "two_role_swap_margins": [
+        30.352493122877284,
+        37.617347627221676,
+        15.164103077768836
+      ],
+      "three_role_cycle_margins": [
+        53.40722319433455,
+        29.726720633533258
+      ],
+      "minimum_margin": 15.164103077768836
+    },
+    {
+      "model": "qwen7b",
+      "source": "Basil was sent to Agnes by Celia.",
+      "independently_parsed_role_names": [
+        "Celia",
+        "Basil",
+        "Agnes"
+      ],
+      "two_role_swap_margins": [
+        8.375398925462221,
+        23.50010181576927,
+        35.04703143056594
+      ],
+      "three_role_cycle_margins": [
+        28.42204549443101,
+        38.50048667736642
+      ],
+      "minimum_margin": 8.375398925462221
+    },
+    {
+      "model": "qwen7b",
+      "source": "Basil was sent to Celia by Agnes.",
+      "independently_parsed_role_names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "two_role_swap_margins": [
+        26.312543781957597,
+        36.64241331277955,
+        30.743150597408953
+      ],
+      "three_role_cycle_margins": [
+        42.79004108806233,
+        50.90806660408378
+      ],
+      "minimum_margin": 26.312543781957597
+    },
+    {
+      "model": "qwen7b",
+      "source": "Celia sent Agnes to Basil.",
+      "independently_parsed_role_names": [
+        "Celia",
+        "Agnes",
+        "Basil"
+      ],
+      "two_role_swap_margins": [
+        25.234505652138214,
+        24.795176751514575,
+        14.39063866050562
+      ],
+      "three_role_cycle_margins": [
+        41.67800244049647,
+        22.74231862366193
+      ],
+      "minimum_margin": 14.39063866050562
+    },
+    {
+      "model": "qwen7b",
+      "source": "Celia sent Basil to Agnes.",
+      "independently_parsed_role_names": [
+        "Celia",
+        "Basil",
+        "Agnes"
+      ],
+      "two_role_swap_margins": [
+        30.890844258864757,
+        33.49634047499504,
+        28.98437830237999
+      ],
+      "three_role_cycle_margins": [
+        57.292439360608455,
+        36.07912367563132
+      ],
+      "minimum_margin": 28.98437830237999
+    },
+    {
+      "model": "qwen7b",
+      "source": "Celia was sent to Agnes by Basil.",
+      "independently_parsed_role_names": [
+        "Basil",
+        "Celia",
+        "Agnes"
+      ],
+      "two_role_swap_margins": [
+        20.33598684076997,
+        42.961029092522715,
+        31.60965435499426
+      ],
+      "three_role_cycle_margins": [
+        43.773742344205004,
+        51.13292794408194
+      ],
+      "minimum_margin": 20.33598684076997
+    },
+    {
+      "model": "qwen7b",
+      "source": "Celia was sent to Basil by Agnes.",
+      "independently_parsed_role_names": [
+        "Agnes",
+        "Celia",
+        "Basil"
+      ],
+      "two_role_swap_margins": [
+        14.539230336009922,
+        24.01563602907554,
+        27.5705602482982
+      ],
+      "three_role_cycle_margins": [
+        31.820360227868715,
+        34.30506638551495
+      ],
+      "minimum_margin": 14.539230336009922
+    },
+    {
+      "model": "qwen7b",
+      "source": "Dorian sent Esther to Florian.",
+      "independently_parsed_role_names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "two_role_swap_margins": [
+        30.32814133664072,
+        30.37504199495109,
+        16.3359375
+      ],
+      "three_role_cycle_margins": [
+        46.66410449495109,
+        30.37501633664072
+      ],
+      "minimum_margin": 16.3359375
+    },
+    {
+      "model": "qwen7b",
+      "source": "Dorian sent Florian to Esther.",
+      "independently_parsed_role_names": [
+        "Dorian",
+        "Florian",
+        "Esther"
+      ],
+      "two_role_swap_margins": [
+        30.140628486932858,
+        37.5703852819233,
+        21.328125
+      ],
+      "three_role_cycle_margins": [
+        56.3360102819233,
+        32.703128486932854
+      ],
+      "minimum_margin": 21.328125
+    },
+    {
+      "model": "qwen7b",
+      "source": "Dorian was sent to Esther by Florian.",
+      "independently_parsed_role_names": [
+        "Florian",
+        "Dorian",
+        "Esther"
+      ],
+      "two_role_swap_margins": [
+        27.07031977482813,
+        40.96875,
+        37.57817150499852
+      ],
+      "three_role_cycle_margins": [
+        46.46094477482812,
+        59.15629650499852
+      ],
+      "minimum_margin": 27.07031977482813
+    },
+    {
+      "model": "qwen7b",
+      "source": "Dorian was sent to Florian by Esther.",
+      "independently_parsed_role_names": [
+        "Esther",
+        "Dorian",
+        "Florian"
+      ],
+      "two_role_swap_margins": [
+        34.85552995928491,
+        39.26171875,
+        27.28906777500954
+      ],
+      "three_role_cycle_margins": [
+        53.2227174592849,
+        48.183599025009535
+      ],
+      "minimum_margin": 27.28906777500954
+    },
+    {
+      "model": "qwen7b",
+      "source": "Esther sent Dorian to Florian.",
+      "independently_parsed_role_names": [
+        "Esther",
+        "Dorian",
+        "Florian"
+      ],
+      "two_role_swap_margins": [
+        31.671886120346517,
+        47.19140625,
+        21.445310206976643
+      ],
+      "three_role_cycle_margins": [
+        56.296886120346514,
+        44.01171645697664
+      ],
+      "minimum_margin": 21.445310206976643
+    },
+    {
+      "model": "qwen7b",
+      "source": "Esther sent Florian to Dorian.",
+      "independently_parsed_role_names": [
+        "Esther",
+        "Florian",
+        "Dorian"
+      ],
+      "two_role_swap_margins": [
+        43.1015625,
+        46.57065688736702,
+        30.26564206194342
+      ],
+      "three_role_cycle_margins": [
+        71.19532956194341,
+        48.74253188736703
+      ],
+      "minimum_margin": 30.26564206194342
+    },
+    {
+      "model": "qwen7b",
+      "source": "Esther was sent to Dorian by Florian.",
+      "independently_parsed_role_names": [
+        "Florian",
+        "Esther",
+        "Dorian"
+      ],
+      "two_role_swap_margins": [
+        14.05859375,
+        25.515786075076466,
+        23.43754836271155
+      ],
+      "three_role_cycle_margins": [
+        28.828173362711546,
+        34.18375482507647
+      ],
+      "minimum_margin": 14.05859375
+    },
+    {
+      "model": "qwen7b",
+      "source": "Esther was sent to Florian by Dorian.",
+      "independently_parsed_role_names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "two_role_swap_margins": [
+        19.531284214271984,
+        29.71875508908967,
+        24.5703125
+      ],
+      "three_role_cycle_margins": [
+        39.14063008908967,
+        34.67972171427199
+      ],
+      "minimum_margin": 19.531284214271984
+    },
+    {
+      "model": "qwen7b",
+      "source": "Florian sent Dorian to Esther.",
+      "independently_parsed_role_names": [
+        "Florian",
+        "Dorian",
+        "Esther"
+      ],
+      "two_role_swap_margins": [
+        32.57032541149546,
+        44.87890625,
+        18.460936208450445
+      ],
+      "three_role_cycle_margins": [
+        57.50782541149546,
+        38.40234245845045
+      ],
+      "minimum_margin": 18.460936208450445
+    },
+    {
+      "model": "qwen7b",
+      "source": "Florian sent Esther to Dorian.",
+      "independently_parsed_role_names": [
+        "Florian",
+        "Esther",
+        "Dorian"
+      ],
+      "two_role_swap_margins": [
+        39.71875,
+        43.859429904342015,
+        17.242270397810632
+      ],
+      "three_role_cycle_margins": [
+        60.33602039781063,
+        40.48442990434201
+      ],
+      "minimum_margin": 17.242270397810632
+    },
+    {
+      "model": "qwen7b",
+      "source": "Florian was sent to Dorian by Esther.",
+      "independently_parsed_role_names": [
+        "Esther",
+        "Florian",
+        "Dorian"
+      ],
+      "two_role_swap_margins": [
+        34.3046875,
+        39.15306560810925,
+        19.140640080428486
+      ],
+      "three_role_cycle_margins": [
+        52.02735883042849,
+        40.57103435810925
+      ],
+      "minimum_margin": 19.140640080428486
+    },
+    {
+      "model": "qwen7b",
+      "source": "Florian was sent to Esther by Dorian.",
+      "independently_parsed_role_names": [
+        "Dorian",
+        "Florian",
+        "Esther"
+      ],
+      "two_role_swap_margins": [
+        24.062518381361176,
+        39.28908371017556,
+        42.703125
+      ],
+      "three_role_cycle_margins": [
+        46.17970871017556,
+        59.87501838136117
+      ],
+      "minimum_margin": 24.062518381361176
+    },
+    {
+      "model": "qwen7b",
+      "source": "To Agnes, Basil sent Celia.",
+      "independently_parsed_role_names": [
+        "Basil",
+        "Celia",
+        "Agnes"
+      ],
+      "two_role_swap_margins": [
+        29.56310663742271,
+        16.71097305340116,
+        5.203125064819041
+      ],
+      "three_role_cycle_margins": [
+        34.203735006975236,
+        17.273469748667672
+      ],
+      "minimum_margin": 5.203125064819041
+    },
+    {
+      "model": "qwen7b",
+      "source": "To Agnes, Celia sent Basil.",
+      "independently_parsed_role_names": [
+        "Celia",
+        "Basil",
+        "Agnes"
+      ],
+      "two_role_swap_margins": [
+        28.914093293714558,
+        17.546942260125803,
+        17.999992936449953
+      ],
+      "three_role_cycle_margins": [
+        33.96093839596607,
+        30.500090094324246
+      ],
+      "minimum_margin": 17.546942260125803
+    },
+    {
+      "model": "qwen7b",
+      "source": "To Basil, Agnes sent Celia.",
+      "independently_parsed_role_names": [
+        "Agnes",
+        "Celia",
+        "Basil"
+      ],
+      "two_role_swap_margins": [
+        28.015658144881645,
+        33.164070578451934,
+        22.64062877151123
+      ],
+      "three_role_cycle_margins": [
+        47.0000384737981,
+        36.820319021046714
+      ],
+      "minimum_margin": 22.64062877151123
+    },
+    {
+      "model": "qwen7b",
+      "source": "To Basil, Celia sent Agnes.",
+      "independently_parsed_role_names": [
+        "Celia",
+        "Agnes",
+        "Basil"
+      ],
+      "two_role_swap_margins": [
+        24.078126084816844,
+        22.89063242020229,
+        25.53906447988677
+      ],
+      "three_role_cycle_margins": [
+        42.16407131692891,
+        30.343751667976996
+      ],
+      "minimum_margin": 22.89063242020229
+    },
+    {
+      "model": "qwen7b",
+      "source": "To Celia, Agnes sent Basil.",
+      "independently_parsed_role_names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "two_role_swap_margins": [
+        33.09373868653071,
+        23.829540042903247,
+        19.39068898890862
+      ],
+      "three_role_cycle_margins": [
+        44.39069003440525,
+        31.92327768393734
+      ],
+      "minimum_margin": 19.39068898890862
+    },
+    {
+      "model": "qwen7b",
+      "source": "To Celia, Basil sent Agnes.",
+      "independently_parsed_role_names": [
+        "Basil",
+        "Agnes",
+        "Celia"
+      ],
+      "two_role_swap_margins": [
+        31.968801155861204,
+        28.26032706055737,
+        15.578150787152563
+      ],
+      "three_role_cycle_margins": [
+        48.09382599281389,
+        27.713453010757238
+      ],
+      "minimum_margin": 15.578150787152563
+    },
+    {
+      "model": "qwen7b",
+      "source": "To Dorian, Esther sent Florian.",
+      "independently_parsed_role_names": [
+        "Esther",
+        "Florian",
+        "Dorian"
+      ],
+      "two_role_swap_margins": [
+        40.9921875,
+        26.125021712717956,
+        15.85157523009384
+      ],
+      "three_role_cycle_margins": [
+        48.41407523009384,
+        34.55470921271795
+      ],
+      "minimum_margin": 15.85157523009384
+    },
+    {
+      "model": "qwen7b",
+      "source": "To Dorian, Florian sent Esther.",
+      "independently_parsed_role_names": [
+        "Florian",
+        "Esther",
+        "Dorian"
+      ],
+      "two_role_swap_margins": [
+        30.46875,
+        15.156246981004184,
+        11.343808193468313
+      ],
+      "three_role_cycle_margins": [
+        41.21880819346832,
+        15.749996981004184
+      ],
+      "minimum_margin": 11.343808193468313
+    },
+    {
+      "model": "qwen7b",
+      "source": "To Esther, Dorian sent Florian.",
+      "independently_parsed_role_names": [
+        "Dorian",
+        "Florian",
+        "Esther"
+      ],
+      "two_role_swap_margins": [
+        17.109385726292864,
+        22.460956928540007,
+        18.859375
+      ],
+      "three_role_cycle_margins": [
+        32.28126942854001,
+        26.148448226292864
+      ],
+      "minimum_margin": 17.109385726292864
+    },
+    {
+      "model": "qwen7b",
+      "source": "To Esther, Florian sent Dorian.",
+      "independently_parsed_role_names": [
+        "Florian",
+        "Dorian",
+        "Esther"
+      ],
+      "two_role_swap_margins": [
+        27.89843493309054,
+        33.125,
+        16.710949071566187
+      ],
+      "three_role_cycle_margins": [
+        50.40624743309054,
+        27.328136571566187
+      ],
+      "minimum_margin": 16.710949071566187
+    },
+    {
+      "model": "qwen7b",
+      "source": "To Florian, Dorian sent Esther.",
+      "independently_parsed_role_names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "two_role_swap_margins": [
+        23.20330853193808,
+        24.046895645841804,
+        21.8046875
+      ],
+      "three_role_cycle_margins": [
+        37.1953331458418,
+        31.85955853193808
+      ],
+      "minimum_margin": 21.8046875
+    },
+    {
+      "model": "qwen7b",
+      "source": "To Florian, Esther sent Dorian.",
+      "independently_parsed_role_names": [
+        "Esther",
+        "Dorian",
+        "Florian"
+      ],
+      "two_role_swap_margins": [
+        29.672036619247677,
+        33.125,
+        10.640616181115334
+      ],
+      "three_role_cycle_margins": [
+        43.70328661924768,
+        29.734366181115334
+      ],
+      "minimum_margin": 10.640616181115334
+    },
+    {
+      "model": "llama3b",
+      "source": "Agnes sent Basil to Celia.",
+      "independently_parsed_role_names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "two_role_swap_margins": [
+        10.742202647091347,
+        16.048584408736303,
+        8.000039823830676
+      ],
+      "three_role_cycle_margins": [
+        19.055015940071524,
+        15.735810939586802
+      ],
+      "minimum_margin": 8.000039823830676
+    },
+    {
+      "model": "llama3b",
+      "source": "Agnes sent Celia to Basil.",
+      "independently_parsed_role_names": [
+        "Agnes",
+        "Celia",
+        "Basil"
+      ],
+      "two_role_swap_margins": [
+        9.156293429964908,
+        15.671995089301447,
+        8.421940706917212
+      ],
+      "three_role_cycle_margins": [
+        17.968910050331978,
+        15.28131917585159
+      ],
+      "minimum_margin": 8.421940706917212
+    },
+    {
+      "model": "llama3b",
+      "source": "Agnes was sent to Basil by Celia.",
+      "independently_parsed_role_names": [
+        "Celia",
+        "Agnes",
+        "Basil"
+      ],
+      "two_role_swap_margins": [
+        5.56253504421645,
+        12.515718488840196,
+        9.1875222358283
+      ],
+      "three_role_cycle_margins": [
+        14.953272482135137,
+        12.31250328674981
+      ],
+      "minimum_margin": 5.56253504421645
+    },
+    {
+      "model": "llama3b",
+      "source": "Agnes was sent to Celia by Basil.",
+      "independently_parsed_role_names": [
+        "Basil",
+        "Agnes",
+        "Celia"
+      ],
+      "two_role_swap_margins": [
+        6.671911766217473,
+        12.391039965356004,
+        5.546877287603014
+      ],
+      "three_role_cycle_margins": [
+        10.687529194623117,
+        13.922299824553374
+      ],
+      "minimum_margin": 5.546877287603014
+    },
+    {
+      "model": "llama3b",
+      "source": "Basil sent Agnes to Celia.",
+      "independently_parsed_role_names": [
+        "Basil",
+        "Agnes",
+        "Celia"
+      ],
+      "two_role_swap_margins": [
+        8.53131250145454,
+        14.687665192890265,
+        8.703143467108667
+      ],
+      "three_role_cycle_margins": [
+        16.890699447670197,
+        15.031421713783274
+      ],
+      "minimum_margin": 8.53131250145454
+    },
+    {
+      "model": "llama3b",
+      "source": "Basil sent Celia to Agnes.",
+      "independently_parsed_role_names": [
+        "Basil",
+        "Celia",
+        "Agnes"
+      ],
+      "two_role_swap_margins": [
+        8.711344178252027,
+        13.680052210166341,
+        9.554729031628497
+      ],
+      "three_role_cycle_margins": [
+        17.172291458978428,
+        14.773833961068437
+      ],
+      "minimum_margin": 8.711344178252027
+    },
+    {
+      "model": "llama3b",
+      "source": "Basil was sent to Agnes by Celia.",
+      "independently_parsed_role_names": [
+        "Celia",
+        "Basil",
+        "Agnes"
+      ],
+      "two_role_swap_margins": [
+        6.8281109999695175,
+        12.790284240754598,
+        7.843738176243836
+      ],
+      "three_role_cycle_margins": [
+        14.46878225141839,
+        12.993351165549562
+      ],
+      "minimum_margin": 6.8281109999695175
+    },
+    {
+      "model": "llama3b",
+      "source": "Basil was sent to Celia by Agnes.",
+      "independently_parsed_role_names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "two_role_swap_margins": [
+        8.578113493411141,
+        12.562933722330257,
+        6.499995320281105
+      ],
+      "three_role_cycle_margins": [
+        13.593939290103748,
+        14.047103245918755
+      ],
+      "minimum_margin": 6.499995320281105
+    },
+    {
+      "model": "llama3b",
+      "source": "Celia sent Agnes to Basil.",
+      "independently_parsed_role_names": [
+        "Celia",
+        "Agnes",
+        "Basil"
+      ],
+      "two_role_swap_margins": [
+        7.687617348476081,
+        16.91774111170716,
+        10.226581941161314
+      ],
+      "three_role_cycle_margins": [
+        18.183383312191335,
+        16.64855708915322
+      ],
+      "minimum_margin": 7.687617348476081
+    },
+    {
+      "model": "llama3b",
+      "source": "Celia sent Basil to Agnes.",
+      "independently_parsed_role_names": [
+        "Celia",
+        "Basil",
+        "Agnes"
+      ],
+      "two_role_swap_margins": [
+        8.593826395466724,
+        14.605150937772297,
+        10.625006876649088
+      ],
+      "three_role_cycle_margins": [
+        17.605007816879297,
+        16.218976393008813
+      ],
+      "minimum_margin": 8.593826395466724
+    },
+    {
+      "model": "llama3b",
+      "source": "Celia was sent to Agnes by Basil.",
+      "independently_parsed_role_names": [
+        "Basil",
+        "Celia",
+        "Agnes"
+      ],
+      "two_role_swap_margins": [
+        8.031607776284805,
+        14.75131909715591,
+        7.672108670038057
+      ],
+      "three_role_cycle_margins": [
+        14.484728724848495,
+        15.970306818630277
+      ],
+      "minimum_margin": 7.672108670038057
+    },
+    {
+      "model": "llama3b",
+      "source": "Celia was sent to Basil by Agnes.",
+      "independently_parsed_role_names": [
+        "Agnes",
+        "Celia",
+        "Basil"
+      ],
+      "two_role_swap_margins": [
+        8.156498436536978,
+        12.57823620793495,
+        8.602135871223641
+      ],
+      "three_role_cycle_margins": [
+        14.875371665504982,
+        14.461498850190587
+      ],
+      "minimum_margin": 8.156498436536978
+    },
+    {
+      "model": "llama3b",
+      "source": "Dorian sent Esther to Florian.",
+      "independently_parsed_role_names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "two_role_swap_margins": [
+        9.282489998586563,
+        14.565941760109236,
+        11.4296875
+      ],
+      "three_role_cycle_margins": [
+        19.222191760109236,
+        16.055927498586563
+      ],
+      "minimum_margin": 9.282489998586563
+    },
+    {
+      "model": "llama3b",
+      "source": "Dorian sent Florian to Esther.",
+      "independently_parsed_role_names": [
+        "Dorian",
+        "Florian",
+        "Esther"
+      ],
+      "two_role_swap_margins": [
+        9.562824790812435,
+        14.933549791256734,
+        11.15625
+      ],
+      "three_role_cycle_margins": [
+        17.917924791256734,
+        17.734699790812435
+      ],
+      "minimum_margin": 9.562824790812435
+    },
+    {
+      "model": "llama3b",
+      "source": "Dorian was sent to Esther by Florian.",
+      "independently_parsed_role_names": [
+        "Florian",
+        "Dorian",
+        "Esther"
+      ],
+      "two_role_swap_margins": [
+        6.594493113965978,
+        15.4921875,
+        5.815618944422695
+      ],
+      "three_role_cycle_margins": [
+        12.328868113965978,
+        15.573431444422695
+      ],
+      "minimum_margin": 5.815618944422695
+    },
+    {
+      "model": "llama3b",
+      "source": "Dorian was sent to Florian by Esther.",
+      "independently_parsed_role_names": [
+        "Esther",
+        "Dorian",
+        "Florian"
+      ],
+      "two_role_swap_margins": [
+        6.600012671044066,
+        15.8203125,
+        8.67273887845879
+      ],
+      "three_role_cycle_margins": [
+        15.326575171044066,
+        15.76648887845879
+      ],
+      "minimum_margin": 6.600012671044066
+    },
+    {
+      "model": "llama3b",
+      "source": "Esther sent Dorian to Florian.",
+      "independently_parsed_role_names": [
+        "Esther",
+        "Dorian",
+        "Florian"
+      ],
+      "two_role_swap_margins": [
+        9.241856051362472,
+        22.515625,
+        10.297546490742679
+      ],
+      "three_role_cycle_margins": [
+        20.859043551362472,
+        21.19598399074268
+      ],
+      "minimum_margin": 9.241856051362472
+    },
+    {
+      "model": "llama3b",
+      "source": "Esther sent Florian to Dorian.",
+      "independently_parsed_role_names": [
+        "Esther",
+        "Florian",
+        "Dorian"
+      ],
+      "two_role_swap_margins": [
+        11.9765625,
+        15.267931828174454,
+        5.496518683255175
+      ],
+      "three_role_cycle_margins": [
+        19.098081183255175,
+        13.642931828174454
+      ],
+      "minimum_margin": 5.496518683255175
+    },
+    {
+      "model": "llama3b",
+      "source": "Esther was sent to Dorian by Florian.",
+      "independently_parsed_role_names": [
+        "Florian",
+        "Esther",
+        "Dorian"
+      ],
+      "two_role_swap_margins": [
+        7.875,
+        11.4528010715592,
+        6.311705531352249
+      ],
+      "three_role_cycle_margins": [
+        9.97576803135225,
+        15.6637385715592
+      ],
+      "minimum_margin": 6.311705531352249
+    },
+    {
+      "model": "llama3b",
+      "source": "Esther was sent to Florian by Dorian.",
+      "independently_parsed_role_names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "two_role_swap_margins": [
+        6.608710296095126,
+        12.406237895336925,
+        11.078125
+      ],
+      "three_role_cycle_margins": [
+        15.726550395336925,
+        14.366522796095126
+      ],
+      "minimum_margin": 6.608710296095126
+    },
+    {
+      "model": "llama3b",
+      "source": "Florian sent Dorian to Esther.",
+      "independently_parsed_role_names": [
+        "Florian",
+        "Dorian",
+        "Esther"
+      ],
+      "two_role_swap_margins": [
+        10.353454935751447,
+        19.6875,
+        10.66184354908814
+      ],
+      "three_role_cycle_margins": [
+        21.548767435751447,
+        19.15403104908814
+      ],
+      "minimum_margin": 10.353454935751447
+    },
+    {
+      "model": "llama3b",
+      "source": "Florian sent Esther to Dorian.",
+      "independently_parsed_role_names": [
+        "Florian",
+        "Esther",
+        "Dorian"
+      ],
+      "two_role_swap_margins": [
+        13.3125,
+        14.572984536424634,
+        7.37716054146026
+      ],
+      "three_role_cycle_margins": [
+        19.09591054146026,
+        16.166734536424634
+      ],
+      "minimum_margin": 7.37716054146026
+    },
+    {
+      "model": "llama3b",
+      "source": "Florian was sent to Dorian by Esther.",
+      "independently_parsed_role_names": [
+        "Esther",
+        "Florian",
+        "Dorian"
+      ],
+      "two_role_swap_margins": [
+        9.71875,
+        11.298577782800958,
+        5.592671853752034
+      ],
+      "three_role_cycle_margins": [
+        14.045796853752034,
+        12.564202782800958
+      ],
+      "minimum_margin": 5.592671853752034
+    },
+    {
+      "model": "llama3b",
+      "source": "Florian was sent to Esther by Dorian.",
+      "independently_parsed_role_names": [
+        "Dorian",
+        "Florian",
+        "Esther"
+      ],
+      "two_role_swap_margins": [
+        6.452585619409206,
+        13.036180065150894,
+        8.546875
+      ],
+      "three_role_cycle_margins": [
+        12.411180065150894,
+        15.624460619409206
+      ],
+      "minimum_margin": 6.452585619409206
+    },
+    {
+      "model": "llama3b",
+      "source": "To Agnes, Basil sent Celia.",
+      "independently_parsed_role_names": [
+        "Basil",
+        "Celia",
+        "Agnes"
+      ],
+      "two_role_swap_margins": [
+        9.633182714994248,
+        7.656275236064047,
+        3.3750020332875117
+      ],
+      "three_role_cycle_margins": [
+        12.914446070144749,
+        7.750013914201059
+      ],
+      "minimum_margin": 3.3750020332875117
+    },
+    {
+      "model": "llama3b",
+      "source": "To Agnes, Celia sent Basil.",
+      "independently_parsed_role_names": [
+        "Celia",
+        "Basil",
+        "Agnes"
+      ],
+      "two_role_swap_margins": [
+        5.609380432057861,
+        4.687549794063521,
+        4.625011414752219
+      ],
+      "three_role_cycle_margins": [
+        7.48437534939702,
+        7.437566291476582
+      ],
+      "minimum_margin": 4.625011414752219
+    },
+    {
+      "model": "llama3b",
+      "source": "To Basil, Agnes sent Celia.",
+      "independently_parsed_role_names": [
+        "Agnes",
+        "Celia",
+        "Basil"
+      ],
+      "two_role_swap_margins": [
+        8.164149559295446,
+        7.7421910712913835,
+        4.750024531870107
+      ],
+      "three_role_cycle_margins": [
+        11.320395222543588,
+        9.335969939913348
+      ],
+      "minimum_margin": 4.750024531870107
+    },
+    {
+      "model": "llama3b",
+      "source": "To Basil, Celia sent Agnes.",
+      "independently_parsed_role_names": [
+        "Celia",
+        "Agnes",
+        "Basil"
+      ],
+      "two_role_swap_margins": [
+        6.586007770118801,
+        6.968744427870302,
+        5.703159025894944
+      ],
+      "three_role_cycle_margins": [
+        10.11723755809598,
+        9.140673665788068
+      ],
+      "minimum_margin": 5.703159025894944
+    },
+    {
+      "model": "llama3b",
+      "source": "To Celia, Agnes sent Basil.",
+      "independently_parsed_role_names": [
+        "Agnes",
+        "Basil",
+        "Celia"
+      ],
+      "two_role_swap_margins": [
+        5.468750867597773,
+        5.703171335346362,
+        5.000047283432568
+      ],
+      "three_role_cycle_margins": [
+        7.718797522819198,
+        8.453171963557505
+      ],
+      "minimum_margin": 5.000047283432568
+    },
+    {
+      "model": "llama3b",
+      "source": "To Celia, Basil sent Agnes.",
+      "independently_parsed_role_names": [
+        "Basil",
+        "Agnes",
+        "Celia"
+      ],
+      "two_role_swap_margins": [
+        8.906415809841317,
+        7.937598166688147,
+        4.671925282302343
+      ],
+      "three_role_cycle_margins": [
+        11.687726839405777,
+        9.82821241942603
+      ],
+      "minimum_margin": 4.671925282302343
+    },
+    {
+      "model": "llama3b",
+      "source": "To Dorian, Esther sent Florian.",
+      "independently_parsed_role_names": [
+        "Esther",
+        "Florian",
+        "Dorian"
+      ],
+      "two_role_swap_margins": [
+        6.421875,
+        6.709672105514382,
+        1.4928321297400515
+      ],
+      "three_role_cycle_margins": [
+        8.375644629740052,
+        6.248734605514382
+      ],
+      "minimum_margin": 1.4928321297400515
+    },
+    {
+      "model": "llama3b",
+      "source": "To Dorian, Florian sent Esther.",
+      "independently_parsed_role_names": [
+        "Florian",
+        "Esther",
+        "Dorian"
+      ],
+      "two_role_swap_margins": [
+        10.671875,
+        8.360190213313743,
+        2.4702384679227656
+      ],
+      "three_role_cycle_margins": [
+        12.243675967922766,
+        9.258627713313743
+      ],
+      "minimum_margin": 2.4702384679227656
+    },
+    {
+      "model": "llama3b",
+      "source": "To Esther, Dorian sent Florian.",
+      "independently_parsed_role_names": [
+        "Dorian",
+        "Florian",
+        "Esther"
+      ],
+      "two_role_swap_margins": [
+        5.9842282827102125,
+        7.593968622681352,
+        6.8515625
+      ],
+      "three_role_cycle_margins": [
+        10.234593622681352,
+        10.195165782710212
+      ],
+      "minimum_margin": 5.9842282827102125
+    },
+    {
+      "model": "llama3b",
+      "source": "To Esther, Florian sent Dorian.",
+      "independently_parsed_role_names": [
+        "Florian",
+        "Dorian",
+        "Esther"
+      ],
+      "two_role_swap_margins": [
+        9.146296175358042,
+        11.1328125,
+        6.738333325509281
+      ],
+      "three_role_cycle_margins": [
+        13.857233675358042,
+        13.16020832550928
+      ],
+      "minimum_margin": 6.738333325509281
+    },
+    {
+      "model": "llama3b",
+      "source": "To Florian, Dorian sent Esther.",
+      "independently_parsed_role_names": [
+        "Dorian",
+        "Esther",
+        "Florian"
+      ],
+      "two_role_swap_margins": [
+        6.03137035020697,
+        5.805165120220643,
+        5.4375
+      ],
+      "three_role_cycle_margins": [
+        11.141102620220643,
+        6.13293285020697
+      ],
+      "minimum_margin": 5.4375
+    },
+    {
+      "model": "llama3b",
+      "source": "To Florian, Esther sent Dorian.",
+      "independently_parsed_role_names": [
+        "Esther",
+        "Dorian",
+        "Florian"
+      ],
+      "two_role_swap_margins": [
+        8.43437124196933,
+        6.84375,
+        4.345824959729338
+      ],
+      "three_role_cycle_margins": [
+        11.19999624196933,
+        8.423949959729338
+      ],
+      "minimum_margin": 4.345824959729338
+    }
+  ]
+}

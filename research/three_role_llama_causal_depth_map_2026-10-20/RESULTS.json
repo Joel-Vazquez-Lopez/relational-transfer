@@ -1,0 +1,5699 @@
+{
+  "decision": "NO_GO_FIXED_DEPTH_PROFILE",
+  "depth_gates": [
+    {
+      "block": 7,
+      "joint_72_answer_accounts": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "neighbor_complete_bidirectional_units": 0,
+      "role_candidate_qualified": false,
+      "mention_account_qualified": false
+    },
+    {
+      "block": 14,
+      "joint_72_answer_accounts": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "neighbor_complete_bidirectional_units": 0,
+      "role_candidate_qualified": false,
+      "mention_account_qualified": false
+    },
+    {
+      "block": 21,
+      "joint_72_answer_accounts": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "neighbor_complete_bidirectional_units": 0,
+      "role_candidate_qualified": false,
+      "mention_account_qualified": false
+    }
+  ],
+  "qualifying_blocks": [],
+  "selected_block": null,
+  "technical_pass": true,
+  "technical_checks": 2499,
+  "summary": [
+    {
+      "block": 7,
+      "condition": "main",
+      "n": 36,
+      "terminated": 35,
+      "recipient_name_compliant": 30,
+      "donor_name_compliant": 30,
+      "preserves_recipient_answer": 11,
+      "role_match_switched": 4,
+      "n_switched": 24,
+      "role_match_invariant": 1,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": -2.255392082040723,
+      "n_margin": 36,
+      "role_table": 5,
+      "mention_order": 25,
+      "fixed_one_answer": 8,
+      "syntax_aware_parser": 5,
+      "complete_future_answer_table": 5
+    },
+    {
+      "block": 7,
+      "condition": "same_role_voice",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 31,
+      "donor_name_compliant": 31,
+      "preserves_recipient_answer": 8,
+      "role_match_switched": 5,
+      "n_switched": 24,
+      "role_match_invariant": 3,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": -1.2412738491484532,
+      "n_margin": 36,
+      "role_table": 8,
+      "mention_order": 22,
+      "fixed_one_answer": 12,
+      "syntax_aware_parser": 8,
+      "complete_future_answer_table": 8
+    },
+    {
+      "block": 7,
+      "condition": "neighbor",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 9,
+      "role_match_switched": 8,
+      "n_switched": 24,
+      "role_match_invariant": 3,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": 0.11846814294984112,
+      "n_margin": 36,
+      "role_table": 11,
+      "mention_order": 11,
+      "fixed_one_answer": 13,
+      "syntax_aware_parser": 11,
+      "complete_future_answer_table": 11
+    },
+    {
+      "block": 7,
+      "condition": "cross_lexical",
+      "n": 36,
+      "terminated": 34,
+      "recipient_name_compliant": 0,
+      "donor_name_compliant": 30,
+      "preserves_recipient_answer": 0,
+      "role_match_switched": 5,
+      "n_switched": 24,
+      "role_match_invariant": 1,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": null,
+      "n_margin": 0,
+      "role_table": 6,
+      "mention_order": 21,
+      "fixed_one_answer": 9,
+      "syntax_aware_parser": 6,
+      "complete_future_answer_table": 6
+    },
+    {
+      "block": 14,
+      "condition": "main",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 21,
+      "role_match_switched": 8,
+      "n_switched": 24,
+      "role_match_invariant": 9,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": -0.10168762124847586,
+      "n_margin": 36,
+      "role_table": 17,
+      "mention_order": 13,
+      "fixed_one_answer": 13,
+      "syntax_aware_parser": 17,
+      "complete_future_answer_table": 17
+    },
+    {
+      "block": 14,
+      "condition": "same_role_voice",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 29,
+      "role_match_switched": 18,
+      "n_switched": 24,
+      "role_match_invariant": 11,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": 1.4630283423395893,
+      "n_margin": 36,
+      "role_table": 29,
+      "mention_order": 7,
+      "fixed_one_answer": 14,
+      "syntax_aware_parser": 29,
+      "complete_future_answer_table": 29
+    },
+    {
+      "block": 14,
+      "condition": "neighbor",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 29,
+      "role_match_switched": 2,
+      "n_switched": 24,
+      "role_match_invariant": 10,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": 0.14601105674637901,
+      "n_margin": 36,
+      "role_table": 12,
+      "mention_order": 11,
+      "fixed_one_answer": 13,
+      "syntax_aware_parser": 12,
+      "complete_future_answer_table": 12
+    },
+    {
+      "block": 14,
+      "condition": "cross_lexical",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 3,
+      "donor_name_compliant": 26,
+      "preserves_recipient_answer": 3,
+      "role_match_switched": 7,
+      "n_switched": 24,
+      "role_match_invariant": 4,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": null,
+      "n_margin": 0,
+      "role_table": 11,
+      "mention_order": 13,
+      "fixed_one_answer": 11,
+      "syntax_aware_parser": 11,
+      "complete_future_answer_table": 11
+    },
+    {
+      "block": 21,
+      "condition": "main",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 33,
+      "role_match_switched": 2,
+      "n_switched": 24,
+      "role_match_invariant": 12,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": 0.09200769248254383,
+      "n_margin": 36,
+      "role_table": 14,
+      "mention_order": 11,
+      "fixed_one_answer": 13,
+      "syntax_aware_parser": 14,
+      "complete_future_answer_table": 14
+    },
+    {
+      "block": 21,
+      "condition": "same_role_voice",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 33,
+      "role_match_switched": 22,
+      "n_switched": 24,
+      "role_match_invariant": 11,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": 3.4310388829036835,
+      "n_margin": 36,
+      "role_table": 33,
+      "mention_order": 2,
+      "fixed_one_answer": 11,
+      "syntax_aware_parser": 33,
+      "complete_future_answer_table": 33
+    },
+    {
+      "block": 21,
+      "condition": "neighbor",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 36,
+      "donor_name_compliant": 36,
+      "preserves_recipient_answer": 35,
+      "role_match_switched": 0,
+      "n_switched": 24,
+      "role_match_invariant": 11,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": 0.011041738112842777,
+      "n_margin": 36,
+      "role_table": 11,
+      "mention_order": 13,
+      "fixed_one_answer": 11,
+      "syntax_aware_parser": 11,
+      "complete_future_answer_table": 11
+    },
+    {
+      "block": 21,
+      "condition": "cross_lexical",
+      "n": 36,
+      "terminated": 36,
+      "recipient_name_compliant": 10,
+      "donor_name_compliant": 21,
+      "preserves_recipient_answer": 10,
+      "role_match_switched": 6,
+      "n_switched": 24,
+      "role_match_invariant": 4,
+      "n_invariant": 12,
+      "mean_role_minus_mention_logprob": null,
+      "n_margin": 0,
+      "role_table": 10,
+      "mention_order": 4,
+      "fixed_one_answer": 9,
+      "syntax_aware_parser": 10,
+      "complete_future_answer_table": 10
+    }
+  ],
+  "units": [
+    {
+      "block": 7,
+      "unit": "t01_sender",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t01_sender_forward_sender_main",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_sender_forward_destination_person_main",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t01_sender_reverse_sender_main",
+          "text": " Ag Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_sender_reverse_sent_person_main",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t01_sender_reverse_destination_person_main",
+          "text": " To Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t01_sent_person",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": true,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t01_sent_person_forward_sender_main",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_forward_sent_person_main",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_forward_destination_person_main",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_reverse_sender_main",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_reverse_sent_person_main",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t01_destination_person",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t01_destination_person_forward_sender_main",
+          "text": " Agelia is not present in the sentence, however, Ag",
+          "terminated": false,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_forward_sent_person_main",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_forward_destination_person_main",
+          "text": " Cnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_reverse_sender_main",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_reverse_sent_person_main",
+          "text": " Agelia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t02_sender",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t02_sender_forward_sender_main",
+          "text": " D Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t02_sender_forward_sent_person_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b07_t02_sender_forward_destination_person_main",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_sender_reverse_sender_main",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t02_sender_reverse_sent_person_main",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t02_sent_person",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": true,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t02_sent_person_forward_sender_main",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_forward_sent_person_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_reverse_sender_main",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_reverse_sent_person_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_reverse_destination_person_main",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t02_destination_person",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": true,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": true,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": true,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t02_destination_person_forward_sender_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_forward_sent_person_main",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_forward_destination_person_main",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_reverse_sender_main",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_reverse_sent_person_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_reverse_destination_person_main",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t01_sender",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t01_sender_forward_sender_same_role_voice",
+          "text": " Agelia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_sender_forward_sent_person_same_role_voice",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t01_sender_forward_destination_person_same_role_voice",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b07_t01_sender_reverse_sender_same_role_voice",
+          "text": " Agelia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t01_sent_person",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": true,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t01_sent_person_forward_sender_same_role_voice",
+          "text": " Agelia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_forward_sent_person_same_role_voice",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_forward_destination_person_same_role_voice",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_reverse_sender_same_role_voice",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_reverse_destination_person_same_role_voice",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t01_destination_person",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t01_destination_person_forward_sender_same_role_voice",
+          "text": " Agelia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_forward_sent_person_same_role_voice",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_forward_destination_person_same_role_voice",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_reverse_sent_person_same_role_voice",
+          "text": " Agelia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_reverse_destination_person_same_role_voice",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t02_sender",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t02_sender_forward_sent_person_same_role_voice",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_sender_forward_destination_person_same_role_voice",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b07_t02_sender_reverse_sender_same_role_voice",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t02_sender_reverse_sent_person_same_role_voice",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t02_sent_person",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": true,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t02_sent_person_forward_sender_same_role_voice",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_forward_sent_person_same_role_voice",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_reverse_sender_same_role_voice",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_reverse_sent_person_same_role_voice",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_reverse_destination_person_same_role_voice",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t02_destination_person",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": true,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t02_destination_person_forward_sender_same_role_voice",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_forward_sent_person_same_role_voice",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_reverse_sender_same_role_voice",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_reverse_sent_person_same_role_voice",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_reverse_destination_person_same_role_voice",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t01_sender",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t01_sender_forward_sender_neighbor",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_sender_forward_destination_person_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t01_sender_reverse_sender_neighbor",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_sender_reverse_sent_person_neighbor",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t01_sent_person",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t01_sent_person_forward_sender_neighbor",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_forward_sent_person_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_forward_destination_person_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_reverse_sent_person_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_reverse_destination_person_neighbor",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t01_destination_person",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t01_destination_person_forward_sent_person_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_reverse_sender_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_reverse_destination_person_neighbor",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t02_sender",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t02_sender_forward_sender_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t02_sender_forward_sent_person_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b07_t02_sender_forward_destination_person_neighbor",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_sender_reverse_sender_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t02_sender_reverse_sent_person_neighbor",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_sender_reverse_destination_person_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t02_sent_person",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t02_sent_person_forward_sent_person_neighbor",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_forward_destination_person_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_reverse_sender_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_reverse_sent_person_neighbor",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_reverse_destination_person_neighbor",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t02_destination_person",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t02_destination_person_forward_sender_neighbor",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_reverse_sent_person_neighbor",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t01_sender",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t01_sender_forward_sender_cross_lexical",
+          "text": " Ag Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t01_sender_forward_sent_person_cross_lexical",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b07_t01_sender_forward_destination_person_cross_lexical",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t01_sender_reverse_sender_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t01_sent_person",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": true,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t01_sent_person_forward_sender_cross_lexical",
+          "text": " Agorian is not present, however Agorian is not present",
+          "terminated": false,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_forward_sent_person_cross_lexical",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_forward_destination_person_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_reverse_sender_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t01_sent_person_reverse_destination_person_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t01_destination_person",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t01_destination_person_forward_sender_cross_lexical",
+          "text": " Ag Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_forward_sent_person_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_forward_destination_person_cross_lexical",
+          "text": " Cadian is not present, however, C is present.",
+          "terminated": false,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_reverse_sender_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b07_t01_destination_person_reverse_destination_person_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t02_sender",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t02_sender_forward_sender_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t02_sender_forward_destination_person_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t02_sender_reverse_sender_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t02_sender_reverse_sent_person_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t02_sent_person",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": true,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t02_sent_person_forward_sender_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_forward_sent_person_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_forward_destination_person_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_reverse_sender_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_reverse_sent_person_cross_lexical",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t02_sent_person_reverse_destination_person_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 7,
+      "unit": "t02_destination_person",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b07_t02_destination_person_forward_sender_cross_lexical",
+          "text": " D",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_forward_sent_person_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_forward_destination_person_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_reverse_sender_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_reverse_sent_person_cross_lexical",
+          "text": " Dagnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b07_t02_destination_person_reverse_destination_person_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t01_sender",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t01_sender_forward_sender_main",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b14_t01_sender_forward_destination_person_main",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b14_t01_sender_reverse_sent_person_main",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t01_sent_person",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t01_sent_person_forward_sender_main",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b14_t01_sent_person_forward_destination_person_main",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b14_t01_sent_person_reverse_sender_main",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t01_destination_person",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t01_destination_person_forward_sender_main",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b14_t01_destination_person_forward_sent_person_main",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b14_t01_destination_person_reverse_sender_main",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b14_t01_destination_person_reverse_sent_person_main",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t02_sender",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t02_sender_forward_sent_person_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b14_t02_sender_reverse_sender_main",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b14_t02_sender_reverse_sent_person_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b14_t02_sender_reverse_destination_person_main",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t02_sent_person",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t02_sent_person_forward_sender_main",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b14_t02_sent_person_reverse_sent_person_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t02_destination_person",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t02_destination_person_forward_sender_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b14_t02_destination_person_forward_sent_person_main",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b14_t02_destination_person_reverse_sent_person_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t01_sender",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": true,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": true,
+        "complete_future_answer_table": true
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        },
+        "reverse": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        }
+      },
+      "unexpected": []
+    },
+    {
+      "block": 14,
+      "unit": "t01_sent_person",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t01_sent_person_reverse_sender_same_role_voice",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t01_destination_person",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": true,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": true,
+        "complete_future_answer_table": true
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        },
+        "reverse": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        }
+      },
+      "unexpected": []
+    },
+    {
+      "block": 14,
+      "unit": "t02_sender",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t02_sender_forward_sent_person_same_role_voice",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b14_t02_sender_reverse_sender_same_role_voice",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b14_t02_sender_reverse_sent_person_same_role_voice",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t02_sent_person",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t02_sent_person_forward_sender_same_role_voice",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t02_destination_person",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t02_destination_person_forward_sender_same_role_voice",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b14_t02_destination_person_reverse_sent_person_same_role_voice",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t01_sender",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t01_sender_forward_sent_person_neighbor",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b14_t01_sender_forward_destination_person_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b14_t01_sender_reverse_sender_neighbor",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b14_t01_sender_reverse_sent_person_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t01_sent_person",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t01_sent_person_forward_sender_neighbor",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b14_t01_sent_person_forward_destination_person_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b14_t01_sent_person_reverse_sent_person_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b14_t01_sent_person_reverse_destination_person_neighbor",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t01_destination_person",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t01_destination_person_forward_sender_neighbor",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b14_t01_destination_person_forward_sent_person_neighbor",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b14_t01_destination_person_reverse_sender_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b14_t01_destination_person_reverse_sent_person_neighbor",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t02_sender",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t02_sender_forward_sent_person_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b14_t02_sender_forward_destination_person_neighbor",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b14_t02_sender_reverse_sent_person_neighbor",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b14_t02_sender_reverse_destination_person_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t02_sent_person",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t02_sent_person_forward_sender_neighbor",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b14_t02_sent_person_forward_destination_person_neighbor",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b14_t02_sent_person_reverse_sender_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b14_t02_sent_person_reverse_destination_person_neighbor",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t02_destination_person",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t02_destination_person_forward_sender_neighbor",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b14_t02_destination_person_forward_sent_person_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b14_t02_destination_person_reverse_sender_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b14_t02_destination_person_reverse_sent_person_neighbor",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t01_sender",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t01_sender_forward_sender_cross_lexical",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b14_t01_sender_forward_sent_person_cross_lexical",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b14_t01_sender_forward_destination_person_cross_lexical",
+          "text": " Cian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b14_t01_sender_reverse_sender_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t01_sent_person",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": true,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t01_sent_person_forward_sender_cross_lexical",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b14_t01_sent_person_forward_destination_person_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b14_t01_sent_person_reverse_sender_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b14_t01_sent_person_reverse_destination_person_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t01_destination_person",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t01_destination_person_forward_sender_cross_lexical",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b14_t01_destination_person_forward_sent_person_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b14_t01_destination_person_forward_destination_person_cross_lexical",
+          "text": " Ciaran",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b14_t01_destination_person_reverse_sender_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b14_t01_destination_person_reverse_destination_person_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t02_sender",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t02_sender_forward_sender_cross_lexical",
+          "text": " Delia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b14_t02_sender_forward_sent_person_cross_lexical",
+          "text": " Delia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b14_t02_sender_reverse_sender_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t02_sent_person",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t02_sent_person_forward_sender_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b14_t02_sent_person_forward_destination_person_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b14_t02_sent_person_reverse_destination_person_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 14,
+      "unit": "t02_destination_person",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b14_t02_destination_person_forward_sender_cross_lexical",
+          "text": " D",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b14_t02_destination_person_forward_sent_person_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b14_t02_destination_person_forward_destination_person_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b14_t02_destination_person_reverse_sender_cross_lexical",
+          "text": " D.",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b14_t02_destination_person_reverse_sent_person_cross_lexical",
+          "text": " Dagny",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b14_t02_destination_person_reverse_destination_person_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t01_sender",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t01_sender_forward_sent_person_main",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b21_t01_sender_forward_destination_person_main",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b21_t01_sender_reverse_sent_person_main",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b21_t01_sender_reverse_destination_person_main",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t01_sent_person",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t01_sent_person_forward_sender_main",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b21_t01_sent_person_forward_destination_person_main",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b21_t01_sent_person_reverse_sender_main",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t01_destination_person",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t01_destination_person_forward_sender_main",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b21_t01_destination_person_forward_sent_person_main",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b21_t01_destination_person_reverse_sender_main",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b21_t01_destination_person_reverse_sent_person_main",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t02_sender",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t02_sender_forward_sent_person_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b21_t02_sender_forward_destination_person_main",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b21_t02_sender_reverse_destination_person_main",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t02_sent_person",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t02_sent_person_forward_sender_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b21_t02_sent_person_forward_destination_person_main",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b21_t02_sent_person_reverse_sender_main",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b21_t02_sent_person_reverse_destination_person_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t02_destination_person",
+      "condition": "main",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t02_destination_person_forward_sender_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b21_t02_destination_person_forward_sent_person_main",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b21_t02_destination_person_reverse_sender_main",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b21_t02_destination_person_reverse_sent_person_main",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t01_sender",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": true,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": true,
+        "complete_future_answer_table": true
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        },
+        "reverse": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        }
+      },
+      "unexpected": []
+    },
+    {
+      "block": 21,
+      "unit": "t01_sent_person",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t01_sent_person_reverse_sent_person_same_role_voice",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b21_t01_sent_person_reverse_destination_person_same_role_voice",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t01_destination_person",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": true,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": true,
+        "complete_future_answer_table": true
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        },
+        "reverse": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        }
+      },
+      "unexpected": []
+    },
+    {
+      "block": 21,
+      "unit": "t02_sender",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t02_sender_reverse_sent_person_same_role_voice",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t02_sent_person",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": true,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": true,
+        "complete_future_answer_table": true
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        },
+        "reverse": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        }
+      },
+      "unexpected": []
+    },
+    {
+      "block": 21,
+      "unit": "t02_destination_person",
+      "condition": "same_role_voice",
+      "n": 6,
+      "complete_account": {
+        "role_table": true,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": true,
+        "complete_future_answer_table": true
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        },
+        "reverse": {
+          "role_table": true,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": true,
+          "complete_future_answer_table": true
+        }
+      },
+      "unexpected": []
+    },
+    {
+      "block": 21,
+      "unit": "t01_sender",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t01_sender_forward_sent_person_neighbor",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b21_t01_sender_forward_destination_person_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b21_t01_sender_reverse_sent_person_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b21_t01_sender_reverse_destination_person_neighbor",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t01_sent_person",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t01_sent_person_forward_sender_neighbor",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b21_t01_sent_person_forward_destination_person_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b21_t01_sent_person_reverse_sender_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b21_t01_sent_person_reverse_sent_person_neighbor",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b21_t01_sent_person_reverse_destination_person_neighbor",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t01_destination_person",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t01_destination_person_forward_sender_neighbor",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b21_t01_destination_person_forward_sent_person_neighbor",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b21_t01_destination_person_reverse_sender_neighbor",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b21_t01_destination_person_reverse_sent_person_neighbor",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t02_sender",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t02_sender_forward_sent_person_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b21_t02_sender_forward_destination_person_neighbor",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b21_t02_sender_reverse_sent_person_neighbor",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b21_t02_sender_reverse_destination_person_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t02_sent_person",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t02_sent_person_forward_sender_neighbor",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b21_t02_sent_person_forward_destination_person_neighbor",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b21_t02_sent_person_reverse_sender_neighbor",
+          "text": " Florian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b21_t02_sent_person_reverse_destination_person_neighbor",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t02_destination_person",
+      "condition": "neighbor",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t02_destination_person_forward_sender_neighbor",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b21_t02_destination_person_forward_sent_person_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b21_t02_destination_person_reverse_sender_neighbor",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b21_t02_destination_person_reverse_sent_person_neighbor",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t01_sender",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t01_sender_forward_sender_cross_lexical",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b21_t01_sender_forward_sent_person_cross_lexical",
+          "text": " Dorian",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b21_t01_sender_forward_destination_person_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b21_t01_sender_reverse_sender_cross_lexical",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b21_t01_sender_reverse_sent_person_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b21_t01_sender_reverse_destination_person_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Dorian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t01_sent_person",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t01_sent_person_forward_sender_cross_lexical",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b21_t01_sent_person_forward_destination_person_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b21_t01_sent_person_reverse_sender_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Dorian",
+            "mention_order": "Esther",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Dorian",
+            "complete_future_answer_table": "Dorian"
+          }
+        },
+        {
+          "id": "b21_t01_sent_person_reverse_destination_person_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Esther",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t01_destination_person",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t01_destination_person_forward_sender_cross_lexical",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b21_t01_destination_person_forward_destination_person_cross_lexical",
+          "text": " Celia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        },
+        {
+          "id": "b21_t01_destination_person_reverse_sent_person_cross_lexical",
+          "text": " Agnes",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Esther",
+            "mention_order": "Florian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Esther",
+            "complete_future_answer_table": "Esther"
+          }
+        },
+        {
+          "id": "b21_t01_destination_person_reverse_destination_person_cross_lexical",
+          "text": " Esther",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Florian",
+            "mention_order": "Dorian",
+            "fixed_one_answer": "Florian",
+            "syntax_aware_parser": "Florian",
+            "complete_future_answer_table": "Florian"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t02_sender",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t02_sender_forward_sender_cross_lexical",
+          "text": " Delia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b21_t02_sender_forward_sent_person_cross_lexical",
+          "text": " Delia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b21_t02_sender_reverse_sender_cross_lexical",
+          "text": " D",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Agnes",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t02_sent_person",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": true,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t02_sent_person_forward_sender_cross_lexical",
+          "text": " Delia",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b21_t02_sent_person_forward_destination_person_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b21_t02_sent_person_reverse_sender_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b21_t02_sent_person_reverse_destination_person_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Basil",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    },
+    {
+      "block": 21,
+      "unit": "t02_destination_person",
+      "condition": "cross_lexical",
+      "n": 6,
+      "complete_account": {
+        "role_table": false,
+        "mention_order": false,
+        "fixed_one_answer": false,
+        "syntax_aware_parser": false,
+        "complete_future_answer_table": false
+      },
+      "direction_complete": {
+        "forward": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        },
+        "reverse": {
+          "role_table": false,
+          "mention_order": false,
+          "fixed_one_answer": false,
+          "syntax_aware_parser": false,
+          "complete_future_answer_table": false
+        }
+      },
+      "unexpected": [
+        {
+          "id": "b21_t02_destination_person_forward_sender_cross_lexical",
+          "text": " Darius",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Basil",
+            "mention_order": "Agnes",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Basil",
+            "complete_future_answer_table": "Basil"
+          }
+        },
+        {
+          "id": "b21_t02_destination_person_forward_sent_person_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b21_t02_destination_person_forward_destination_person_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        },
+        {
+          "id": "b21_t02_destination_person_reverse_sender_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Agnes",
+            "mention_order": "Celia",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Agnes",
+            "complete_future_answer_table": "Agnes"
+          }
+        },
+        {
+          "id": "b21_t02_destination_person_reverse_destination_person_cross_lexical",
+          "text": " Basil",
+          "terminated": true,
+          "predictions": {
+            "role_table": "Celia",
+            "mention_order": "Basil",
+            "fixed_one_answer": "Celia",
+            "syntax_aware_parser": "Celia",
+            "complete_future_answer_table": "Celia"
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Three prospectively fixed depths, six dependent development units in two AI-only template families. No statistical significance or unique semantic algorithm. Syntax-aware parser and complete future-answer table remain equivalent. No adaptive site search."
+}
