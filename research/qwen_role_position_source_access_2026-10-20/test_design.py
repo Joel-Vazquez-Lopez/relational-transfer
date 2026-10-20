@@ -6,6 +6,11 @@ from predictors import crossfit,native_gate,query_contrast
 def main():
     rows=json.loads((HERE/'INPUTS.json').read_text());units=json.loads((HERE/'UNITS.json').read_text())
     assert len(rows)==360 and len(units)==72
+    for r in rows:
+        assert isinstance(r['eos_ids'],list) and r['eos_ids'] and all(isinstance(t,int) for t in r['eos_ids'])
+        name=r['gold'];token=r['candidate_ids'][name];base=np.zeros(152064);base[token]=1;end=np.zeros(152064);end[r['eos_ids'][0]]=1
+        result=score_generation(r,lambda prefix:end if prefix else base,lambda tokens:' '+name if tokens else '')
+        assert result['terminated'] and result['actual']==name and result['generated_tokens']==[token]
     assert len({r['id'] for r in rows})==360
     index={r['id']:r for r in rows}
     for u in units:

@@ -2,26 +2,27 @@
   "files": {
     "core.py": "ca5d65f9fb59d679d444ef67f399a508251daf40a0c380d110293fa39d94d88e",
     "predictors.py": "c6cbb72bd754a4497fe579f8adfdf1894a913f6395e8659d49088a8e9a34b8aa",
-    "prepare.py": "946b93b912c92b382526d1541fe100a80f625e7962d4d716d542ad5531c5271c",
+    "prepare.py": "15086145f6c5497c20daa48aabafbb2533d0433658b410c8921874bf312a9234",
     "worker.py": "375f47983eefb801ad51af76ae00c08e3c6ac754e80fac37ee61b7820838662d",
     "runtime.py": "12b96f5527ee9568d5ad01d29e967816d61994224d619110f96c74fb4d44c365",
     "run.py": "cbe0e98974328aa47b95088cfe296de6758a50047b0f07f04bbac2441f5cb1b4",
     "analyze.py": "0ab3857abcc8850772b811c7149f5c8d1d95f893256d55a5d52ab187a59ad37c",
-    "test_design.py": "118a66fe8d20551ac17f76b9f0c933537e45e7755dff11b3e4152dd94b554907",
+    "test_design.py": "da3105bdccd5bbb242f42d43afc53204b9c415719c0fcff43fde0d6cdfc7401b",
     "PROTOCOL.md": "829da433ac9bed7a0cbb16119e743dfb9e6e1c53c2ab1386c7f8b0bb2fd59657",
     "PROTOCOL_GRADED.md": "c0b08d4de227e015c4a7dbcd65bba8087f2938e4e36614de644b69eef913d0ba",
     "SUPERSESSION_BEFORE_INFERENCE.json": "7db5e32efb9a4650ce88bdf56905e71264aadcda8ebfd39a547487327ef41190",
     "LITERATURE_SCOPE.md": "d08699f0b49067adde76a9d4c70ddf926ab0289eec81bd9e7261cfdf6ab8e919",
     "MODEL_ESCALATION.md": "de310d2b2cfcc0ef16348861b72c9992bf900c4e87b555b4f12252d7502249b4",
     "stream.py": "ceef68a6eab3979be9ba813794fb243c51f5d1aa211ac4e8f230e3f35f9e6058",
-    "INPUTS.json": "77e25002799af3e9c9f662d6d7d8edb4d4989ab9b7a8d208f5e625569037aaa1",
+    "INPUTS.json": "cb79b1c340378defc970c7f629e9e972009b8484caf6cc6c067c9f3e98e2ade2",
     "UNITS.json": "d39f24ce4666621f3cb5988e4002bd26eafe4100fc513f7cb7c952a4e3f9c193",
     "SHAMS.json": "8ef1882bcf58974c3c11c69f8c0712480b60c0a6ae28ca53e1d6c41a2323028d",
     "TOKENIZER_AUDIT.json": "3f70c1911500366b04986dc3264705ad5fc1472e7e92b948fb4032a90acefb91",
     "CPU_PREFLIGHT.json": "0657ba68c053a021595aa52d7f2912733669f27acc789131de9bbf10dd6927ca",
     "SOURCE_MANIFEST.json": "fed4e450ff262a61c05cf979e720619f9363d4ede2269e2cba6d554a53f653be",
     "CONTROL_INPUT.json": "b666b391089b2bb2a1d7d2f524a3d3b8d9db213db9ce3ee048c662318bcf784b",
-    "REFERENCE_CONTROL.npz": "531c72208b78489acc8292e9a0e0cd5b93cc216dfec49519d7d20743842de707"
+    "REFERENCE_CONTROL.npz": "531c72208b78489acc8292e9a0e0cd5b93cc216dfec49519d7d20743842de707",
+    "TECHNICAL_AMENDMENT.json": "67ca86c9da30382174534ca6b7ea40948f26dd523ae9bd8371bb77bf62a65f0f"
   },
   "native_sources": {
     "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/qwen2.py": "937e0321ef06a34efbd66d2ce0ce1e715aab98da4acefa376c8cd29291a0bc83",
@@ -67,7 +68,7 @@
     },
     "pad": 87
   },
-  "max_model_forwards": 4650,
+  "max_model_forwards": 4645,
   "max_nonrestart_forwards": 4503,
   "physical_length": 128,
   "max_new_tokens": 4,
@@ -78,6 +79,7 @@
     "numpy": "2.4.4",
     "transformers": "5.7.0"
   },
-  "outcomes_seen": false,
-  "model_selection_after_llama_failure": true
+  "outcomes_seen": "One new scientific first-token vector saved but uninspected; zero completed native answers; mechanical EOS repair recorded.",
+  "model_selection_after_llama_failure": true,
+  "prior_technical_attempt_forwards": 5
 }

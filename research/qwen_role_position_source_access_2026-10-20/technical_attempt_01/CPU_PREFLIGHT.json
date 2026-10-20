@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "native_prompts": 360,
+  "isolated_edges": 72,
+  "balanced_four_name_rotations": true,
+  "role_position_latin_square": true,
+  "role_fixture_pooled_mse": {
+    "role": 0.0,
+    "position": 0.2908333333333334,
+    "generic": 0.12925925925925927,
+    "nuisance": 0.287086728999644
+  },
+  "position_fixture_pooled_mse": {
+    "role": 0.2908333333333334,
+    "position": 0.0,
+    "generic": 0.12925925925925924,
+    "nuisance": 7.427253307735836e-05
+  },
+  "predictor_does_not_automatically_favor_roles": true,
+  "graded_gate_passes_known_relations_despite_biased_wrong_answers": true,
+  "graded_gate_rejects_query_independent_copier": true,
+  "interaction_nuisance_invariance_fixtures": 100,
+  "new_model_forwards": 0
+}

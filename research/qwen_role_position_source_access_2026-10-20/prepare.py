@@ -11,7 +11,7 @@ def main():
     prior=ROOT/'research/three_role_native_development_2026-10-20';previous=json.loads((prior/'LOCK.json').read_text())
     model=previous['model'];tok=AutoTokenizer.from_pretrained(str(ROOT/model['path']),local_files_only=True,trust_remote_code=False)
     questions=[['Who sent someone to another person?','Who was sent to another person?','Who was someone sent to?'],['Which person did the sending?','Which person was sent by someone?','To which person was someone sent?']]
-    eos=json.loads((ROOT/model['path']/'config.json').read_text())['eos_token_id'];rows=[];checks=[]
+    eos=json.loads((ROOT/model['path']/'config.json').read_text())['eos_token_id'];eos=[eos] if isinstance(eos,int) else eos;rows=[];checks=[]
     system="Read the passage and answer the question about the sending event. Return only the person's name, copied exactly from the passage. Do not explain."
     for fi,(family,names) in enumerate([('p01',['Grace','Helen','Jack','Kate']),('p02',['Nora','Luke','Paul','Mark'])]):
         candidate_ids={n:tok.encode(' '+n,add_special_tokens=False)[0] for n in names}

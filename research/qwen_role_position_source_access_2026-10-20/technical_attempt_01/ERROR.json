@@ -1,0 +1,8 @@
+{
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/qwen_role_position_source_access_2026-10-20/run.py\", line 57, in main\n    result=measure(row,'native',capture=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/qwen_role_position_source_access_2026-10-20/run.py\", line 42, in measure\n    if full:result=score_generation(row,get,tok.decode)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/qwen_role_position_source_access_2026-10-20/core.py\", line 51, in score_generation\n    if t in row['eos_ids']:\n       ^^^^^^^^^^^^^^^^^^^\nTypeError: argument of type 'int' is not iterable\n",
+  "native_responses": 0,
+  "hybrid_measurements": 0,
+  "sham_responses": 0,
+  "actual_model_forwards": 5,
+  "no_automatic_retry": true
+}

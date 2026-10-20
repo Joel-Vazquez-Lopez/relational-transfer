@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/qwen_role_position_source_access_2026-10-20/run.py", line 118, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/qwen_role_position_source_access_2026-10-20/run.py", line 57, in main
+    result=measure(row,'native',capture=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/qwen_role_position_source_access_2026-10-20/run.py", line 42, in measure
+    if full:result=score_generation(row,get,tok.decode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/qwen_role_position_source_access_2026-10-20/core.py", line 51, in score_generation
+    if t in row['eos_ids']:
+       ^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'int' is not iterable
