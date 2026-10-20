@@ -1,0 +1,19 @@
+{
+  "parent_design_commit": "5979355249416f967d447a02bff7040a2993f57e",
+  "proposal_sha256": "9c502cf0e801cf145ef13ae8d6ea357fbbac40745ad2592b9996a42a6c9f7094",
+  "scientific_families": [
+    "t01",
+    "t02"
+  ],
+  "scientific_prompts": 108,
+  "held_out_families_not_executed": [
+    "t03",
+    "t04"
+  ],
+  "annotation": "AI-only authored and independently template-parsed; sender/sent-person/destination are grammatical task roles. Not human-validated or a corpus sample.",
+  "freshness": "Identical to exposed Qwen development sources by design. No Llama outputs on these prompts inspected before freeze. Not a fresh lexical or corpus replication.",
+  "control": {
+    "source": "research/competence_selection_confirmation_2026-10-19/llama3b/CALL_0782.npz",
+    "reference_sha256": "7d56528da62bd4481016714f3b410ca370b8a3072498bf2baaf57ca6c2d5657e"
+  }
+}

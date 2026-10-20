@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "n_checks": 9,
+  "checks": [
+    {
+      "check": "shared_first_token_does_not_make_wrong_full_name_correct",
+      "passed": true
+    },
+    {
+      "check": "duplicate_token_path_counted_once",
+      "passed": true
+    },
+    {
+      "check": "independent_full_name_probability_sum",
+      "passed": true
+    },
+    {
+      "check": "complete_correct_name_and_eos_pass",
+      "passed": true
+    },
+    {
+      "check": "text_match_without_termination_is_failure",
+      "passed": true
+    },
+    {
+      "check": "offformat_answer_retained_as_failure",
+      "passed": true
+    },
+    {
+      "check": "162_six_answer_pairs",
+      "passed": true
+    },
+    {
+      "check": "single_answer_failure_disqualifies_all_nine_affected_pairs",
+      "passed": true
+    },
+    {
+      "check": "held_out_inputs_absent",
+      "passed": true
+    }
+  ],
+  "scope": "Synthetic scoring/controller fixtures only; zero model forwards."
+}

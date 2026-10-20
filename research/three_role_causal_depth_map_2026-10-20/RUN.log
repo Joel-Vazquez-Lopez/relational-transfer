@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/three_role_causal_depth_map_2026-10-20/run.py", line 93, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/three_role_causal_depth_map_2026-10-20/run.py", line 32, in main
+    data,rec=engine.dispatch(row,(),True,'donor_source_recapture')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/three_role_causal_depth_map_2026-10-20/runtime.py", line 67, in dispatch
+    self.start()
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/three_role_causal_depth_map_2026-10-20/runtime.py", line 58, in start
+    data,record = self.dispatch(self.control,(),False,'exposed_restart_control',start=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/three_role_causal_depth_map_2026-10-20/runtime.py", line 78, in dispatch
+    resources();lastcheck=time.monotonic()
+    ^^^^^^^^^^^
+  File "/Users/joelvazquezlopez/Documents/ChatGPT/project null/research/three_role_causal_depth_map_2026-10-20/runtime.py", line 25, in resources
+    assert pressure == 1,('Memory pressure',pressure)
+           ^^^^^^^^^^^^^
+AssertionError: ('Memory pressure', 4)

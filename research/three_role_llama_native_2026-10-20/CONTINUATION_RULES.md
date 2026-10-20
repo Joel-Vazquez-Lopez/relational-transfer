@@ -1,0 +1,13 @@
+# Prospective Llama causal continuation (not native inference)
+
+Only if the native gate passes, select the lexicographically first eligible cross-form transposition pair for each family and invariant role:sort by recipient assignment,donor assignment,recipient-form literal string,donor-form literal string. Six units,both directions,all three future questions. Record overlap with Qwen-selected pairs; different admitted supports are not direct model comparisons.
+
+Use exactly the already designed Qwen three-depth test at outgoing blocks7,14,21,person-last-subtoken bank in surface order. Four conditions:opposite-role/opposite-form main donor;same-role/other-form donor;nearest preceding non-person neighbor bank;other-family same-assignment/form lexical donor. Recapture36 source contexts once under sender question with8 anchors and verify all shared states/logits against this native screen. Reuse each donor source bank unchanged across all future questions. Ninety identity replacements(30 unique recipient prompts x3 depths, or the actual unique-prompt count if selection differs) precede intervention outcomes. Each depth has144 generations,432 total.
+
+Literal predictions:role_table returns donor requested-role name;mention_order returns donor surface-mention name at recipient requested role's surface slot;fixed_one_answer repeats donor invariant-role name. Syntax-aware parser and complete future-answer table predict exactly role_table and remain unexcluded. No possible positive result establishes a unique semantic algorithm.
+
+At each depth, role account requires all36 main+all36 same-role native answers,all technical/identity gates,and at most2/6 full bidirectional neighbor-role transfers. All depths and outcomes reported. Earliest qualifying depth is chosen only for a separately frozen evaluation. Mention-order account requires all72 joint predictions and technical controls. No qualifying depth ends inference in this direction; do not add sites,change prompts,fit thresholds or switch models again in pursuit of a positive.
+
+A same-role control's native errors are retained and are not taken as proof its source lacks information. Cross-lexical outputs are diagnostic,not qualification criteria; source-absent foreign names remain reported. All answer outcomes,three-answer directions,six-answer pairs and native admission failures remain separate.
+
+The scientific question,depth grid and conditional selection rule are fixed before seeing Llama's native outputs. The concrete causal implementation and input selection will be hash-locked and committed before any causal result. No evaluation or further model run is automatically inferred from passing development; the exact evaluation prediction must be separately frozen first.

@@ -1,0 +1,63 @@
+{
+  "files": {
+    "core.py": "18eb4fd54a1d5f26e8eab841821427bfcd8b4ce7f541cd640bb0c3de081ce922",
+    "prepare.py": "beb0249e40ee8ba1918711139e17020b1ade2c2dade398ffe816b1866d3ea828",
+    "worker.py": "7d1f00b985fe2dbc9ef1fc171c7b5255bfcead09d461ff1b266233a7e000898f",
+    "runtime.py": "bb0e67363114f6f81e1e8ef8d8eb467d5a57371d53f9fb54ee9f27cfd87a797d",
+    "run.py": "7fc3f44ee9f83fa470e002c071d1fc957d2dde5b8a456fb70648a4f70e7a7b7c",
+    "analyze.py": "1d545d5191dfb4ff0ad0bc16a068029829d89891c14de86f54212e66f08a786c",
+    "test_scoring.py": "2451741f3a188320e7dc7a6209055e6129560b8a41b341f7d546985e482d5655",
+    "PROTOCOL.md": "af6ce61ce91a3ef48c4252eefe6462963218125f08f19c46511de91afb85f8fc",
+    "INPUTS.json": "271db377241bff7fcb0f6ab1c63004e709cefae50eabfdd399d2d452dede95b1",
+    "TOKENIZER_AUDIT.json": "1b6cb306d2258933f97802bb616832b4fee0ab4ae5d6ab5c575c7ebf8a926b8f",
+    "CPU_PREFLIGHT.json": "b287d256729c2d41cdc261ea516816ee9fe698ec334472115838ca6ee3e67e4d",
+    "SOURCE_MANIFEST.json": "52ba320a69c2c30c46445ba9482b7222b76a7b7a14114f2c246ac8cff333cd77",
+    "CONTINUATION_RULES.md": "1962ee4def72ea1ab05d6d4ff9559149b6ba4c588793aa83770f2c8cd1d49b03",
+    "CONTROL_INPUT.json": "62b833bb0f37bf81ffbfedf53ad4ee1e4b17b32c1ad9a55787e8935d5d75aa1f",
+    "REFERENCE_CONTROL.npz": "7d56528da62bd4481016714f3b410ca370b8a3072498bf2baaf57ca6c2d5657e"
+  },
+  "native_sources": {
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/qwen2.py": "937e0321ef06a34efbd66d2ce0ce1e715aab98da4acefa376c8cd29291a0bc83",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/llama.py": "dfb656511e6740781cd0563f7994a78b3404c199b9aebaa2fbca28a19e280891",
+    "research/stronger_model_development_2026-10-15/.venv/lib/python3.11/site-packages/mlx_lm/models/base.py": "b782b2ac0f55ed8fa9c1afce1f36307d5d8714aad2c0991d63998047f7507174"
+  },
+  "model": {
+    "path": "research/llama_gemma_cross_family_2026-10-15/model",
+    "files": {
+      "research/llama_gemma_cross_family_2026-10-15/model/config.json": {
+        "bytes": 1122,
+        "sha256": "c546925585e48f43890d9dc5150df4fec73dd3780d92961c5ace451934cc4cd6"
+      },
+      "research/llama_gemma_cross_family_2026-10-15/model/model.safetensors": {
+        "bytes": 1807496278,
+        "sha256": "d75e1ee0ea653cc5b76191ec934c7c0d568e94d4e47846619f1f4bc715b7b265"
+      },
+      "research/llama_gemma_cross_family_2026-10-15/model/special_tokens_map.json": {
+        "bytes": 296,
+        "sha256": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+      },
+      "research/llama_gemma_cross_family_2026-10-15/model/tokenizer.json": {
+        "bytes": 17209920,
+        "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+      },
+      "research/llama_gemma_cross_family_2026-10-15/model/tokenizer_config.json": {
+        "bytes": 54558,
+        "sha256": "022d5ae3df4737998ab97d8f31ac2bcb4c06dd8ebe5a8aba2b4aceef1e5ea7d3"
+      }
+    },
+    "pad": 87
+  },
+  "max_model_forwards": 1509,
+  "max_nonrestart_forwards": 1461,
+  "max_worker_forwards": 32,
+  "physical_length": 128,
+  "max_new_tokens": 12,
+  "runtime": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.0",
+    "numpy": "2.4.4",
+    "transformers": "5.7.0"
+  },
+  "development_only": true,
+  "first_new_model_outcome_seen": false
+}

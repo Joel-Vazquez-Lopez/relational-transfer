@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "n_checks": 27,
+  "checks": [
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "core.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "prepare.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "replacement.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "worker.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "runtime.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "run.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "analyze.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "test_design.py"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "PROTOCOL.md"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "INPUTS.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "JOBS.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "UNITS.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "CACHE_INPUTS.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "IDENTITY_INPUTS.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "TOKENIZER_AUDIT.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "CPU_PREFLIGHT.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "SOURCE_MANIFEST.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "RESEARCH_RATIONALE.md"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "RESTART_AMENDMENT.md"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "CONTROL_INPUT.json"
+    },
+    {
+      "check": "frozen_source",
+      "passed": true,
+      "file": "REFERENCE_CONTROL.npz"
+    },
+    {
+      "check": "one_exposed_attempt",
+      "passed": true
+    },
+    {
+      "check": "critical_pressure_stop",
+      "passed": true
+    },
+    {
+      "check": "no_scientific_collection",
+      "passed": true
+    },
+    {
+      "check": "no_controller_completion",
+      "passed": true
+    },
+    {
+      "check": "recovered_reference_payload",
+      "passed": true,
+      "file": "CALL_0001.npz",
+      "error": 0.0
+    },
+    {
+      "check": "no_retry",
+      "passed": true
+    }
+  ],
+  "attempted_model_forwards": 1,
+  "controller_completed_forwards": 0,
+  "recovered_payloads": [
+    {
+      "path": "payloads/CALL_0001.npz",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a",
+      "recovered_after_controller_stop": true,
+      "logit_reference_error": 0.0
+    }
+  ],
+  "scientific_answers": 0,
+  "interventions": 0,
+  "status": "INCONCLUSIVE_CRITICAL_MEMORY_PRESSURE_STOP"
+}

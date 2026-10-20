@@ -1,0 +1,19 @@
+# Matched Llama native three-role competence screen
+
+## Reason and boundaries
+The Qwen three-depth attempt was stopped by observed critical host memory pressure before any completed scientific forward. The original Qwen block-14 attempt and the newer three-depth abort remain intact. Under the user's renewed authorization, use the existing1.807GB4-bit Llama3.2-3B-Instruct checkpoint as a resource-feasible alternative. This is a new checkpoint-specific study, not a successful Qwen replication. No additional Qwen load in this stretch. No paid call, model download, new training, unrelated app closure or data deletion.
+
+Exactly the same108 AI-only development sentence/question strings as the Qwen screen:two name triples,all six role permutations,three forms,three role questions. The model's own chat template and EOS vocabulary differ; tokenization/control details are preserved. These source sentences are already exposed development material, not fresh linguistic holdouts. Never collect t03/t04 before a separately frozen causal candidate qualifies. No native-correctness exclusions during collection.
+
+## Scoring and technical controls
+Unconstrained vocabulary-wide greedy generation for at most12 decisions. Correct means EOS observed and stripped complete output exactly matches the grammatical-role gold name. Wrong names, unexpected answers, extra text and truncations remain errors. Secondary endpoint:log probability of the single leading-space full-name token path for each recipient name, excluding EOS and alternate whitespace; not calibrated posterior mass. No score threshold fitting or scoring change after outcomes.
+
+Physical batch1 x128, literal x padding after real prompt end; inspect actual positions. Baselines save29 residual stages at three person-last-subtoken anchors, period and assistant end. All28 source prefixes are hashed across future question variants. Every continuation must preserve its original-end full logits within0.05. New exposed fixture:the earlier Llama128-shape c01_r0_active_q0 unwrapped vector from the24-family confirmation; every worker must match it within0.05. First new input checks unwrapped/wrapped/repeat full logits and traces; all source prefixes across future questions must match exactly. Stop on any numerical or resource failure, no automatic retry.
+
+## Resources
+Only one model loaded at a time. Existing Llama weights are less than half the Qwen archive size; that does not guarantee successful execution. Require normal pressure(level1) before dispatch and every5s,8GiB free disk,swap<4GiB AND swap growth<1GiB from pre-load baseline. MLX3GiB memory guideline/active-allocation bound,256MiB cache,32 actual forwards per worker,90s per forward,45-minute dispatch-start window. Journal every attempt before dispatch; save full raw payload before scoring. All old guard failures stay failed.
+
+## Decision and prospective continuation
+Report all108 answers,36 complete three-question source units and162 six-answer transposition pairs. Eligibility requires all six native answers correct, without substituted external classification. Each family must have at least one eligible cross-form pair for each invariant role and coverage of all three source forms among eligible cross-form pairs; all technical controls must pass. Otherwise stop this model direction. No claim that passing this minimal conditional gate establishes universal competence.
+
+CONTINUATION_RULES.md fixes the possible subsequent three-depth design and literal prediction functions before these native outcomes. Passing the gate permits preparing and committing its exact selected inputs/code before any intervention. No hypothesis, source sentence, scoring or native gate may be changed after seeing this screen. Probability replay tolerance1e-8; no p-values from these dependent development observations.
