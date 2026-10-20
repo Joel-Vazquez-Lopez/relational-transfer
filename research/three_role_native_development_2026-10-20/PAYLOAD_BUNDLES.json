@@ -1,0 +1,2079 @@
+{
+  "scope": "Exact original NPZ bytes, including every validation/control/continuation; tar shards are uncompressed because NPZ members already are compressed. Expanded originals retained locally.",
+  "verified": true,
+  "member_checks": 394,
+  "bundles": [
+    {
+      "path": "PAYLOADS_001.tar",
+      "bytes": 16322560,
+      "sha256": "0c7468ef5d371edc5c674d781b5686e0a3491e077108ec0d6c9b0e53d3315e27"
+    },
+    {
+      "path": "PAYLOADS_002.tar",
+      "bytes": 16445440,
+      "sha256": "4c93f52ada19ad1d78b2b7392b80c33cb34f39fecc184bee051a0c12104b6e12"
+    },
+    {
+      "path": "PAYLOADS_003.tar",
+      "bytes": 15319040,
+      "sha256": "5f1e23b6cd8771c1f331259d3a46c629252e819f1f7eda575673c37de81a0a18"
+    },
+    {
+      "path": "PAYLOADS_004.tar",
+      "bytes": 16261120,
+      "sha256": "af290af957f8b893606fd1803cccf1a50d1a0fed586cf4c86f12282d2e42b936"
+    },
+    {
+      "path": "PAYLOADS_005.tar",
+      "bytes": 16773120,
+      "sha256": "c3451611e5c345b648f3e0ce6feb0b29f4f421dd63ada03a041aa80630970f81"
+    },
+    {
+      "path": "PAYLOADS_006.tar",
+      "bytes": 16783360,
+      "sha256": "a23ca6de597b0f6b26d72bad9fa83a7b250358ff41b8452b3f689a19123be654"
+    },
+    {
+      "path": "PAYLOADS_007.tar",
+      "bytes": 15329280,
+      "sha256": "2f273aa68401f7c4f50eeb242cf796245c6dc21ef22a384d854fe1866f0f3355"
+    },
+    {
+      "path": "PAYLOADS_008.tar",
+      "bytes": 16814080,
+      "sha256": "59e965d22916be23fbf5195e7294ef728cd1c8ab9be214d1a6fb89f27742d3a9"
+    },
+    {
+      "path": "PAYLOADS_009.tar",
+      "bytes": 15851520,
+      "sha256": "a89e9dc2b9c520c757241070f8610a9853968cac62d52616c6b0c64630c54cf3"
+    },
+    {
+      "path": "PAYLOADS_010.tar",
+      "bytes": 16240640,
+      "sha256": "112d415216d6f35ff1f1de0296e9ffe53edc35db18cfaf7ef3d4d3a01050a025"
+    },
+    {
+      "path": "PAYLOADS_011.tar",
+      "bytes": 16261120,
+      "sha256": "ba4b1cec19626714a4746eebef843a7f161cc2134485c4cdac5e861e8eabde38"
+    },
+    {
+      "path": "PAYLOADS_012.tar",
+      "bytes": 15861760,
+      "sha256": "d68b3d05599fa5cfcc42464cffb5bea9ef4e994b268f00d4ac84502a2bc6634c"
+    },
+    {
+      "path": "PAYLOADS_013.tar",
+      "bytes": 15912960,
+      "sha256": "3d7c5d3903e0737d00f63eefc98a4759cfd29c4ac57bda7508e340f9a4654e7d"
+    },
+    {
+      "path": "PAYLOADS_014.tar",
+      "bytes": 16476160,
+      "sha256": "f15d78e50d63d1210d88c3e1f1b30e80eac5b069891da983b5a25d91627b0b08"
+    },
+    {
+      "path": "PAYLOADS_015.tar",
+      "bytes": 16476160,
+      "sha256": "05d6f8d5b3baae502e080102a58123d8f114298bcb65c169dfae6aa7862bd57b"
+    },
+    {
+      "path": "PAYLOADS_016.tar",
+      "bytes": 15308800,
+      "sha256": "6d15e3b7debcdd26fa9741b95fdc8b9c56142519ee617d5cb6968a027c670edc"
+    },
+    {
+      "path": "PAYLOADS_017.tar",
+      "bytes": 16281600,
+      "sha256": "452c53c40d8a0fd7dc32463bf1f524a426b2cd7601574f4783d54a6d76a0248d"
+    },
+    {
+      "path": "PAYLOADS_018.tar",
+      "bytes": 16814080,
+      "sha256": "818fed411c90953e2b0b6aa27c091688a8238ace5990feb9e2b3e54e1f0cc043"
+    },
+    {
+      "path": "PAYLOADS_019.tar",
+      "bytes": 15923200,
+      "sha256": "d39747e8270b857a284202e7bb98b554fee2cf06b14c3219ba100406b5f5a3f8"
+    },
+    {
+      "path": "PAYLOADS_020.tar",
+      "bytes": 16230400,
+      "sha256": "5170659d03727b0793d885bba85a5ed7455e5d30fac954bdec25035b36dfe9fa"
+    }
+  ],
+  "members": {
+    "payloads/CALL_0001.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    },
+    "payloads/CALL_0002.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 557214,
+      "sha256": "80bb5a4b26a6423811ced316a72f6f072067f8fb9129a41eb22cba518c89c74d"
+    },
+    "payloads/CALL_0003.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 1506946,
+      "sha256": "3b6db68f14455e94b67c37170623ef5f6c42e6ac130e14bad6371cec219fbee1"
+    },
+    "payloads/CALL_0004.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 1506946,
+      "sha256": "3b6db68f14455e94b67c37170623ef5f6c42e6ac130e14bad6371cec219fbee1"
+    },
+    "payloads/CALL_0005.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 1506946,
+      "sha256": "3b6db68f14455e94b67c37170623ef5f6c42e6ac130e14bad6371cec219fbee1"
+    },
+    "payloads/CALL_0006.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 557854,
+      "sha256": "e32d3fcab05bfc29b618aa47d9ebd4655bf8ba79c2f05cd61ed40437d757d92b"
+    },
+    "payloads/CALL_0007.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 558110,
+      "sha256": "ce7520c6aaf8dda8e05d15deaa11c31cbb70fc0253e4ec9767e754c1f41a54fc"
+    },
+    "payloads/CALL_0008.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 557031,
+      "sha256": "7f022db6529ea2b7e3e37a9c6df6cafd43a9b3b2d023303bc19d43b55fc31008"
+    },
+    "payloads/CALL_0009.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 1504578,
+      "sha256": "9f97515c04ba11e97beda2c56616f7206b53bab9536e4e680917ff19d1433833"
+    },
+    "payloads/CALL_0010.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 557183,
+      "sha256": "7a23d337cb3100791e2782bdb13a1713d561ce90d900d8df27655b1896212489"
+    },
+    "payloads/CALL_0011.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 555537,
+      "sha256": "c308d13f7803eb6c78d03538625db8362f655933e47dfd12da7142a526d8cc29"
+    },
+    "payloads/CALL_0012.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 555675,
+      "sha256": "316be4a074432a50f0ea81ff8168df4ab5d42296bbb371b6de3f425d923948a4"
+    },
+    "payloads/CALL_0013.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 1509133,
+      "sha256": "a64b7dddee975ba80d8205213a785d013a821fa7b2c4cf85352e491803abf413"
+    },
+    "payloads/CALL_0014.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 558021,
+      "sha256": "c6872c8c61a10869935254b521b9f732eb101ba510b1e05cbcf463ed3bed1358"
+    },
+    "payloads/CALL_0015.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 559306,
+      "sha256": "6628df615e2cc5b2d872da9525b1b6e7bbd614615f702290681f25de9ff0d956"
+    },
+    "payloads/CALL_0016.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 557937,
+      "sha256": "4d7dca22ef0c6db7f9d61c3497c28e5d012c9bb6fb6a10dae40fb713853235a3"
+    },
+    "payloads/CALL_0017.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 1505357,
+      "sha256": "e89528150a7a2a493e80957dd5f92d74ddf167dcb550c3785fce0a4c65c1b09b"
+    },
+    "payloads/CALL_0018.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 554135,
+      "sha256": "e875d8f3aab3c568e72af1448f68c81ba86c756b05153386056e505ab5f480ef"
+    },
+    "payloads/CALL_0019.npz": {
+      "bundle": "PAYLOADS_001.tar",
+      "bytes": 557701,
+      "sha256": "232ab319ccaa7d8ecf519faced489b6989b27c2758338ffc584df234e59284d5"
+    },
+    "payloads/CALL_0020.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 556625,
+      "sha256": "17771db1f245efcab746a2b45634ed43f8759a10f5310aacebb477194399b2f2"
+    },
+    "payloads/CALL_0021.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 1507879,
+      "sha256": "2f466007256a9c1cd30c0a0d98181286b7582f42c8018e6ff7db58d338325797"
+    },
+    "payloads/CALL_0022.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 554229,
+      "sha256": "d13d75adb84fa2884e8d11e2a498a2e8956c403a3fb9b56afcc0774fd2a58db5"
+    },
+    "payloads/CALL_0023.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 558936,
+      "sha256": "70daa2453f2abe515f104c8a1d659359fba6f52a241fb4b28885225ab5b929be"
+    },
+    "payloads/CALL_0024.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 557675,
+      "sha256": "bce3189c8eb44a951468e2035f63971a7bf9f75a20a574db81f4e601a2d650a3"
+    },
+    "payloads/CALL_0025.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 1508291,
+      "sha256": "79e696fc0f9d15f93a0261d7eb0a940366bbb6d686132bfdfe720dfc81c2fcac"
+    },
+    "payloads/CALL_0026.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 558104,
+      "sha256": "8c4ddd5c34da2156bf99b01314946eaae801605785ac0e7609b5b30d8984a8dd"
+    },
+    "payloads/CALL_0027.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 559346,
+      "sha256": "52fee21b0e467d47bb3034197d3204fbc3e51fdb6af1468e139f37b2bea6c97d"
+    },
+    "payloads/CALL_0028.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 557810,
+      "sha256": "c94053a7f35a50cb30df97e2c0f568450db76dd508cc3cfae430eb7b38f3e9d1"
+    },
+    "payloads/CALL_0029.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 1494495,
+      "sha256": "fd59ec25b5a7db250ece7e5ed04301c4de6d0d78e4df80a22124c407dd2406a9"
+    },
+    "payloads/CALL_0030.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 550178,
+      "sha256": "fef5ad7af5e626214cf82247ebaa4898ff101bbb8967cc42e7f3d327518ba25d"
+    },
+    "payloads/CALL_0031.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 552079,
+      "sha256": "32701666974a1bb1091d1769fd41d5d8d14d3dc253257dfc6f6658be17910788"
+    },
+    "payloads/CALL_0032.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 550917,
+      "sha256": "4dc9b8e83313c7f2cabdeab89b7021c1fc94c4e10991226c2f6b1051a30329f5"
+    },
+    "payloads/CALL_0033.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    },
+    "payloads/CALL_0034.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 1505287,
+      "sha256": "33033c717f6a40b766aa556400138673a55f723321f90d1645f5c355c16e0ce7"
+    },
+    "payloads/CALL_0035.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 554436,
+      "sha256": "fe8e68a50278c470cef01c01b7be50a471bc170e8ed50794bf90f70a864bf72c"
+    },
+    "payloads/CALL_0036.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 557577,
+      "sha256": "1fc078ae3be93d1e633cfab24e34965120a2aeff6b15069393033dcacec822d3"
+    },
+    "payloads/CALL_0037.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 556379,
+      "sha256": "fbdb03ed4beef6c068d63193230d6e8f0fb016cb56daa3414d0873dde292a1ff"
+    },
+    "payloads/CALL_0038.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 1500435,
+      "sha256": "331da58ce71f935f80a1c100362538ba6b9fd0affe69c2ce18e972f0a99a2dc7"
+    },
+    "payloads/CALL_0039.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 551526,
+      "sha256": "9559f059875d84f34d8a378581157e962e5007738814f970c81d9fea04e22fd1"
+    },
+    "payloads/CALL_0040.npz": {
+      "bundle": "PAYLOADS_002.tar",
+      "bytes": 553712,
+      "sha256": "416c1acd771e912a741a3195059c058e7a7e75732561b189786c35f4e1a60236"
+    },
+    "payloads/CALL_0041.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 553849,
+      "sha256": "461ba0a37603bf9c2f47ae906ac8bfa88dfa9a204d480c92de1c9b62a2a3aa4d"
+    },
+    "payloads/CALL_0042.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 1505262,
+      "sha256": "ba66f591ff56f7b0e412f2d2b4425450a39cd88364a810c2be888259fd2b201f"
+    },
+    "payloads/CALL_0043.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 553191,
+      "sha256": "5f20e863a649cd3b83489f9ba65aded9862028ce312730f6345d9f1e68978a42"
+    },
+    "payloads/CALL_0044.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 557920,
+      "sha256": "854addbe3ba861d2643884fe4e66df40539b67748e777f86023a6ed9d24a25d1"
+    },
+    "payloads/CALL_0045.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 556407,
+      "sha256": "37ca30161d262284b78778611c01fd5aa26c96e48097b8d7fe4aa404f07ce281"
+    },
+    "payloads/CALL_0046.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 1498672,
+      "sha256": "2b7ce1f43ae913c6ffab26478e05df966fb57a53bae284fb0efa3ea013990e2e"
+    },
+    "payloads/CALL_0047.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 551326,
+      "sha256": "9b4eac7c636a34b06b845f16040d146721cf646ee8f83cefcbba35750f825e26"
+    },
+    "payloads/CALL_0048.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 553612,
+      "sha256": "c11ce68ecd8d5048fee02152a8125c8e7a1de34d7d6c0678caa76e5008a3c8ce"
+    },
+    "payloads/CALL_0049.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 552994,
+      "sha256": "b26aea193f2cdd34f6cce08453ae2f709a60635d5d817e43477096af7f2b00fe"
+    },
+    "payloads/CALL_0050.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 1497586,
+      "sha256": "9d0843c2ae1a1acbabeddd5acfe404c7f8b845622d328d3f09f4181912c68048"
+    },
+    "payloads/CALL_0051.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 550545,
+      "sha256": "dbc5f12ad00b7caa3aef1eefa2810c6ebe7d9d7b451d612448111295f048b459"
+    },
+    "payloads/CALL_0052.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 553923,
+      "sha256": "1c79c0e9f640cd3e17cac03fe1dd2632da9528afe3dc05d27f23053d9c3e1311"
+    },
+    "payloads/CALL_0053.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 552098,
+      "sha256": "56280d4620d42e5d0cf5b8e8c91f8ab54664b3e3e8ac7742dc6541be927eebc3"
+    },
+    "payloads/CALL_0054.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 1503365,
+      "sha256": "467eb85ffd0982e5c2a1e6ff427c0ab7a974d9cf9ca91369a5e1bfe9a6150512"
+    },
+    "payloads/CALL_0055.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 556871,
+      "sha256": "6ebbe92706e4720d48b9f9f83a986b62534b6b6286401d481700c9b02f535526"
+    },
+    "payloads/CALL_0056.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 555549,
+      "sha256": "f282745b0819926ee4fce426e23844abf5e273b2d33e75df001f45f606bf5ecb"
+    },
+    "payloads/CALL_0057.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 1508753,
+      "sha256": "f706c5ce8057fe0b51d83ba056de385a8f6c2fdd3d825e5667f46a238d1f37de"
+    },
+    "payloads/CALL_0058.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 559370,
+      "sha256": "4c46dd1975fc059ec6d96036abccbcd8c35ca5481330af954b107300d9427026"
+    },
+    "payloads/CALL_0059.npz": {
+      "bundle": "PAYLOADS_003.tar",
+      "bytes": 558109,
+      "sha256": "89415dba54e3b5d12a37feee9d6085f3bd3e921d812faca6b03274a88e29c229"
+    },
+    "payloads/CALL_0060.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 1497827,
+      "sha256": "0ee34189a8a6699e6b20d3bfa1ce8578436b83cad8ae3314e1c00ba704accf2b"
+    },
+    "payloads/CALL_0061.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 552849,
+      "sha256": "5607ec47b8ef072baa5b48d5f65f400207568dfa51f79ae9940981cde1af9da1"
+    },
+    "payloads/CALL_0062.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 552842,
+      "sha256": "ac6638268e00c240c98225672492daecc9478334e65f0242fa7bfecb4b04cd05"
+    },
+    "payloads/CALL_0063.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 1508129,
+      "sha256": "3006fa31c83413e86b5c90dcebe8c064923aa55661d5c01f387ffd975ac5e216"
+    },
+    "payloads/CALL_0064.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 558567,
+      "sha256": "e9c9724d73dab16ba904cff454787e5e8504bc6e7ae36cacbc637c063e4b1ba1"
+    },
+    "payloads/CALL_0065.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    },
+    "payloads/CALL_0066.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 558013,
+      "sha256": "305990ba492108fa77b0db43df3a08305cd9d1c8b5bf50c479a74698c7edc9e2"
+    },
+    "payloads/CALL_0067.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 1506544,
+      "sha256": "fd8c01326b249175bd4c9d3af3c54d33b84cb64865add249f8cc9622ce5ae408"
+    },
+    "payloads/CALL_0068.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 558151,
+      "sha256": "d6a76debdf51c16088a0aa99f510c3b19bf3282c304742e38ab32726f2669203"
+    },
+    "payloads/CALL_0069.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 557002,
+      "sha256": "722d896ef1f29521a9a3a14c5e9795fd6481dd8958618279921aa0c034fb61e3"
+    },
+    "payloads/CALL_0070.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 1484585,
+      "sha256": "9cba13a22a3ddeae84fdaf57bb6ee594e3afcd23624f3f8d5f32c120bbbab4f5"
+    },
+    "payloads/CALL_0071.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 545664,
+      "sha256": "d60868ab62c5feb8d51b59802b0e5a422c98f9d0357e855a257056f1ce685e0c"
+    },
+    "payloads/CALL_0072.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 546048,
+      "sha256": "03ac16fc407247427995d2535f5495c0f6deafd7b26518a466f95cfc243ed637"
+    },
+    "payloads/CALL_0073.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 1508679,
+      "sha256": "e0fac8dac44c40bbdc253bd7a29a52f78dd7a50a2c373985b87201a88aa6ec3b"
+    },
+    "payloads/CALL_0074.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 557033,
+      "sha256": "9ce9e0baecfda9ec3e165c9761ac79fc4e6a1083eb117a23f3e3b8eb893c7a30"
+    },
+    "payloads/CALL_0075.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 559163,
+      "sha256": "ff242613129b63f745c863a4636088f6d4ee5ddd0a7f381cf4e63e932443734a"
+    },
+    "payloads/CALL_0076.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 557938,
+      "sha256": "2fc1063773d2052ba9299fffdb514b0da1b66c851eafec4d84d8bffd6dfb0873"
+    },
+    "payloads/CALL_0077.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 1506961,
+      "sha256": "b3c37bfe72c4ce6feeef16cf8658eb86cd9917e21b4d5507ec1b11bcc6746e2a"
+    },
+    "payloads/CALL_0078.npz": {
+      "bundle": "PAYLOADS_004.tar",
+      "bytes": 554242,
+      "sha256": "af826670ca802a12b90ef8bb581a8a1bdca7952c93525ac9bedbab13076ab099"
+    },
+    "payloads/CALL_0079.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 558291,
+      "sha256": "e000f380c7762498f77770efeb5ac86394e019e771d001c6e39f659bc6670ad5"
+    },
+    "payloads/CALL_0080.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 557172,
+      "sha256": "171bbe15952cd8267bacb54428953671b94f14ba4e7614051bd3daba0b2cfc33"
+    },
+    "payloads/CALL_0081.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 1489366,
+      "sha256": "17ddb45ecfc5fe87c6ac63b944b0bf6307354f2bc5bc5ba0fc67389da64a7d85"
+    },
+    "payloads/CALL_0082.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 546783,
+      "sha256": "bc2caa52baf909b8daeff1274fa1ab9e99655ddb938e07a9dc9a6c127af19ce8"
+    },
+    "payloads/CALL_0083.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 547220,
+      "sha256": "9427dd158085b348cb7090936108bae5ae40e4f34a1d2339fa0df4667e594ff8"
+    },
+    "payloads/CALL_0084.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 547883,
+      "sha256": "7bff6cc40ae2dbea1be283460585f56fe4f7201bab847b67fddc96a13a031b52"
+    },
+    "payloads/CALL_0085.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 1496936,
+      "sha256": "5c195ef808183a660d794102bdced680abeab586ef10505d18a10e2f406ce616"
+    },
+    "payloads/CALL_0086.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 553301,
+      "sha256": "093a11bed62d454ce42e68801f2e0def8a12b0dc3c557a50c71ec684988bd273"
+    },
+    "payloads/CALL_0087.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 552399,
+      "sha256": "4d1950e0f422fce4daac6af5a87bb779e7e8fbce895b96a0e5e98313a2e183d7"
+    },
+    "payloads/CALL_0088.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 1495697,
+      "sha256": "6cde78cf26540af0a27ac35931e8a5d30ffcc8868d6a15e45fc8a47146101973"
+    },
+    "payloads/CALL_0089.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 550939,
+      "sha256": "efbe8804791f04716182dada81bc4bdcbd2adf0acc70bcf06e5240f44620f9a2"
+    },
+    "payloads/CALL_0090.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 551695,
+      "sha256": "4c0cb71ba2193c3194109eac3f91552444d28698f34007f1c41b70348a5869cc"
+    },
+    "payloads/CALL_0091.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 1503371,
+      "sha256": "335e9170678ad3da4c0ab0ef787cd7860c78db9bd9a10a1e9f864c566afc10ca"
+    },
+    "payloads/CALL_0092.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 556574,
+      "sha256": "1785c834c9f8e09936460ca29119b1ebb1013d67a38d42e9b45d8b39cd265e07"
+    },
+    "payloads/CALL_0093.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 555575,
+      "sha256": "788efd4972e038d1651f081729064eb324035b340347bfcafb49a03676221f14"
+    },
+    "payloads/CALL_0094.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 1506152,
+      "sha256": "13af4b4e80d1469f336b9469276c3c5d38e903a59bce84627fdb9176875c987f"
+    },
+    "payloads/CALL_0095.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 558169,
+      "sha256": "6df6ec8399900db90b713e2f6f36d9345c6744deaa93472e30547ec05da13cd9"
+    },
+    "payloads/CALL_0096.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 556916,
+      "sha256": "abe958a7718ab1dcd712d077edbbd212f9adbbc3ef5b284fab7620c9f37ee8df"
+    },
+    "payloads/CALL_0097.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    },
+    "payloads/CALL_0098.npz": {
+      "bundle": "PAYLOADS_005.tar",
+      "bytes": 1498843,
+      "sha256": "65af2c2054a8a9d05bea7ad746af7477e2987a4e9d951b57fc3e035c28719698"
+    },
+    "payloads/CALL_0099.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 553659,
+      "sha256": "384c5b6f3e31cb22ff10f26eef48a7bd6319639a4d0727a28114edfa7fe98882"
+    },
+    "payloads/CALL_0100.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 553075,
+      "sha256": "b67dc33ff27c916fed8f5aeb8c1236a04ed1969f41a2139672ceee8cc45798df"
+    },
+    "payloads/CALL_0101.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 1496901,
+      "sha256": "5971cc46a227cb2d49166bdab78a2afdcf22acf10703016009a2cf9288001cb8"
+    },
+    "payloads/CALL_0102.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 552727,
+      "sha256": "7625a8d16a273997002e07233ab9cce1824f2738816ecfc3f3735a8715008c85"
+    },
+    "payloads/CALL_0103.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 551644,
+      "sha256": "34593f8d1a97f3cab789ac217acb4759e43490f7d9252777042cf29dc3e67d68"
+    },
+    "payloads/CALL_0104.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 1494185,
+      "sha256": "244c0c9c20faf7a386c50b34244db1d7ef418aa1bc8b563c333bb4c29e11e8ef"
+    },
+    "payloads/CALL_0105.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 551564,
+      "sha256": "770fefd41207be60bf76bdc5720118e6e8e913ef2e93476168204eb3305404ca"
+    },
+    "payloads/CALL_0106.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 550492,
+      "sha256": "5f4f84b1b5462cf37fbcd4e58cbe16906807923f8093d6487c32bc6f7d0de029"
+    },
+    "payloads/CALL_0107.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 1499324,
+      "sha256": "1431490a778dab3e821352265f8f483bf11a6ee28099902d28b24b09248fb001"
+    },
+    "payloads/CALL_0108.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 553023,
+      "sha256": "8c839f98a50064e8fea621486ad9d2597483a04884b2079327d936d1251a47f4"
+    },
+    "payloads/CALL_0109.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 553176,
+      "sha256": "bac9100ac7ef1b85e921176e948459c818ba835328f4f220ff32190eaebe81f6"
+    },
+    "payloads/CALL_0110.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 1500681,
+      "sha256": "9a9d83f5cba68f339058f694df715dc8af75cabb9049ef6d393c8351df570b56"
+    },
+    "payloads/CALL_0111.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 555408,
+      "sha256": "178fcc63624052ce6e5879015329059375f58c238f3318e12bf587e23e9877cf"
+    },
+    "payloads/CALL_0112.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 553911,
+      "sha256": "e92bbe09782d35fd28bf294e947f80fa969f69a7b3e1a2175b113ab1e64875a4"
+    },
+    "payloads/CALL_0113.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 1493368,
+      "sha256": "bf1a8f1cc95ca6eafbc551a36b93ea653065ded493b27f895c500c2352497bd4"
+    },
+    "payloads/CALL_0114.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 551484,
+      "sha256": "1b45dcc86f714c243a1413ca473895a5e006018c6a5203d8443ca7f5d5ae4639"
+    },
+    "payloads/CALL_0115.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 550554,
+      "sha256": "6f871528c49887c87fa9245df26718d64dde64bba3bee7ceb36441afc14f99f2"
+    },
+    "payloads/CALL_0116.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 1506989,
+      "sha256": "4dacfb3c1ce7b71981a43e15af3d9715302d78674b119d3e3bab2eeb3ce18c97"
+    },
+    "payloads/CALL_0117.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 558593,
+      "sha256": "f86bac80b9cd9276be373c74e3a2c4b27188f93e7ce8c24998e0b0bb2dcd7b29"
+    },
+    "payloads/CALL_0118.npz": {
+      "bundle": "PAYLOADS_006.tar",
+      "bytes": 557439,
+      "sha256": "a180ad6fceccc156b02b1bc87d9a6508383348fea04d95a21f9f2f17ac51a40a"
+    },
+    "payloads/CALL_0119.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 1498759,
+      "sha256": "00c888593423f71a95760c848810c97dfac38b3b22b6dba17b9baf57edcf96f3"
+    },
+    "payloads/CALL_0120.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 554553,
+      "sha256": "72f44bd1721462d3b1a058c82aae115ceefeb1967decb4fc647185bab7c31d71"
+    },
+    "payloads/CALL_0121.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 553386,
+      "sha256": "27a40dcea623a60019c34d6cc15962d939dcdb8796d70df182194127d1c37196"
+    },
+    "payloads/CALL_0122.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 1505138,
+      "sha256": "832e705924dae7a216bb48687fb3f58cb71e5ca4a2f9e3af53dc15c0cb62df57"
+    },
+    "payloads/CALL_0123.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 556718,
+      "sha256": "417f5b7e9451e6b450df78bbfc87d5a7bbf5f556a64be24894f6694be8b7ad66"
+    },
+    "payloads/CALL_0124.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 557857,
+      "sha256": "40d528c44b9d59060f3a7fc1fa219da454ce8b9b2c13451b73a610c6c3bbd029"
+    },
+    "payloads/CALL_0125.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 556335,
+      "sha256": "d321525e11bc38be41332b220943d7466b9fe5945ed58af8a82ff98cd169adf1"
+    },
+    "payloads/CALL_0126.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 1506463,
+      "sha256": "1fb63c9ea30977b167ec94b78d457084f5f596abf689994804de7162eec59716"
+    },
+    "payloads/CALL_0127.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 558187,
+      "sha256": "e4f56b234e1fb9fd74323e1742a4b4eb67b22a952f6a1b4052a98bec6b708e50"
+    },
+    "payloads/CALL_0128.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 557964,
+      "sha256": "aaae417b19add87dec2992e20963b45ec063a0b163b74f518393ccf70e957708"
+    },
+    "payloads/CALL_0129.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    },
+    "payloads/CALL_0130.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 556769,
+      "sha256": "74fe871dcd4323a6cbc91a571f2a1eb51192c5a62f56f354f1f1ebf27e23eab9"
+    },
+    "payloads/CALL_0131.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 1500125,
+      "sha256": "ad28ff3ea73503ab2ea18c560d0d62182f60cc0414ebfd0a147b78f8087621a7"
+    },
+    "payloads/CALL_0132.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 553249,
+      "sha256": "3eeadc0b6d50aada5c96ba231badc38a3d910c63d86a23ce8026f6105d6adf54"
+    },
+    "payloads/CALL_0133.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 552352,
+      "sha256": "e76b148f976089469f0d35f1e5749c3b4f4ebb585bfa06f4de11caa1a46362b6"
+    },
+    "payloads/CALL_0134.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 553642,
+      "sha256": "ef8c19f318a06d17e1fd5c1fbce2ae53e22f44b2d0fa97c4ca3bd7dd1549d6ea"
+    },
+    "payloads/CALL_0135.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 1506432,
+      "sha256": "122b4a795b247a7ab94192a649d3b47f3c74d4a385d9fe80ac3619b937aa4a4a"
+    },
+    "payloads/CALL_0136.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 557721,
+      "sha256": "240faa4b9fb6a83b47bd663050d7e0a15d8c129a0c4644b5681974012b08c02e"
+    },
+    "payloads/CALL_0137.npz": {
+      "bundle": "PAYLOADS_007.tar",
+      "bytes": 556911,
+      "sha256": "5361a769d6f54496aff14d8640b1d6d9c15b1771fcae05a40bb5967244619bfa"
+    },
+    "payloads/CALL_0138.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 1494099,
+      "sha256": "339d6c8016307bb48c0d41a972e6d30db7769ebc639eb89eba2adf38da079961"
+    },
+    "payloads/CALL_0139.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 551617,
+      "sha256": "2f8facff918fcddc96fffdd506154858382886afbcf02e0c6d3147af9f120583"
+    },
+    "payloads/CALL_0140.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 550535,
+      "sha256": "cecf24e0ab3906e7eff408b1a5b9d6b062325bf7e70c8b4902dae542ac61ebd6"
+    },
+    "payloads/CALL_0141.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 1495029,
+      "sha256": "90441610fd6b5d011f74d02d94026a48ba018337c4895125376fd204c55e29ec"
+    },
+    "payloads/CALL_0142.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 552338,
+      "sha256": "28334a63536c77a02de1991ca868c3410fc96fa7cb4ddd6a548c865f04296f1f"
+    },
+    "payloads/CALL_0143.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 550716,
+      "sha256": "ded5c79b9e2c9fa7bdd91f658b2a6542599312aa6a4a9c7b9cf965f2475f8cdd"
+    },
+    "payloads/CALL_0144.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 1505220,
+      "sha256": "1bc3be87ea922eceb8d82b7e1e823484a8c79d67503f1b370e40564e5a39525a"
+    },
+    "payloads/CALL_0145.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 557177,
+      "sha256": "6b03b5bced0dc7b43c9ee972dce802777fc96cbc54a6c0d484a48f0ff9d2d88d"
+    },
+    "payloads/CALL_0146.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 556782,
+      "sha256": "cc5367fb8b41c56ad530ff024ff1fc3b4954ef0961931a1458bdc573c9445f23"
+    },
+    "payloads/CALL_0147.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 556181,
+      "sha256": "571cecb0527444ea39d0021bcb1c52bf371c7e286522d0b140193d84c3aaa7c7"
+    },
+    "payloads/CALL_0148.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 1503620,
+      "sha256": "274420d22d8d4cb11cb187ecf6ae026e21e20531cacd1933a88a366e220c6608"
+    },
+    "payloads/CALL_0149.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 553516,
+      "sha256": "99a1802ba38abdb47ca1b85c811dda432382674ab31355852d9628c9a416a49c"
+    },
+    "payloads/CALL_0150.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 551865,
+      "sha256": "824e4864817b453d986c489911b23c06688b5041b69287e3eb27c5c498a5024e"
+    },
+    "payloads/CALL_0151.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 555526,
+      "sha256": "41a2445218e70d4e7e43d029873849162e97582d727db4626df89d601221adc0"
+    },
+    "payloads/CALL_0152.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 1508327,
+      "sha256": "11a71b314a905dd852ee40b3fdd01d6cdb38cef3e3038df4c0862ccf93032f56"
+    },
+    "payloads/CALL_0153.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 556542,
+      "sha256": "afe736bfb3b47d555a142f7ff2bbd7a72db4b38a2c2fcf90d65cfd28748da94c"
+    },
+    "payloads/CALL_0154.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 559051,
+      "sha256": "edbc0aee3f748fcbe7248dc97bc7932b7c76b59ee3fa39e6431aeff26824dd2f"
+    },
+    "payloads/CALL_0155.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 557821,
+      "sha256": "75e772a4494d1eaf7688d54bebe64c6e9bbea46e2f3b0713eecf6b536a293a2a"
+    },
+    "payloads/CALL_0156.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 1505855,
+      "sha256": "54d45e690599110958420ffcc621e084dad4599d70c3d3c5ba717ebb97009795"
+    },
+    "payloads/CALL_0157.npz": {
+      "bundle": "PAYLOADS_008.tar",
+      "bytes": 555050,
+      "sha256": "a529da943129dd71d1dd0d86ff3a0c3c4053ed7b6b84642f213ffdc6a0b8c83c"
+    },
+    "payloads/CALL_0158.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 558103,
+      "sha256": "18cf89bd35b806f8dda10df59544867e881e598bf3b7ea57142ae8fffdb458a3"
+    },
+    "payloads/CALL_0159.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 556903,
+      "sha256": "a1a9fa09928a759f2b2b5b368cb36da80d579acb4b3b46ba775a0981c1ade7cb"
+    },
+    "payloads/CALL_0160.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 1506075,
+      "sha256": "9744162da043858475b19e5195a61b1033608a91bcdafbea44b28ae33b3a73bd"
+    },
+    "payloads/CALL_0161.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    },
+    "payloads/CALL_0162.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 554136,
+      "sha256": "1499d527f3902d60445f71f35385183a76d1801fc126398ba1f0b6cb5798d15d"
+    },
+    "payloads/CALL_0163.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 555025,
+      "sha256": "423927a542e8bb2fd159955b69543d000b2bd457e8764c59225367dd505a6f89"
+    },
+    "payloads/CALL_0164.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 556984,
+      "sha256": "1d17a200c5f8d705b0237dad21a13a5c975ca73e6039158afbb275a0d3db2c83"
+    },
+    "payloads/CALL_0165.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 1496220,
+      "sha256": "cf402cbba73e3a7bcc1b1a4a914fd60f6189cb1c395e8da8bf1d02a101696c20"
+    },
+    "payloads/CALL_0166.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 551480,
+      "sha256": "fbd18644a66fcb70a5e9e1d4e68583e18f5e1844648bc2089928ec0cc74007d7"
+    },
+    "payloads/CALL_0167.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 550747,
+      "sha256": "0d9b78ef4ad1d062a83cbfdef14a746d6919fbf0c4ab6f4452428c53b8ef759b"
+    },
+    "payloads/CALL_0168.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 551921,
+      "sha256": "1dfd3a23247d717c70fb2c560b7bb1c6f80f7863e72f68d7b9f1c15e321145a8"
+    },
+    "payloads/CALL_0169.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 1501934,
+      "sha256": "d8bddf31d99001cf55d3df1b7ec64bad69168e404fb058f33e55a16edaddda80"
+    },
+    "payloads/CALL_0170.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 555552,
+      "sha256": "e518528c020e02636f51c06bbc1c54d23c8fba36c89cd0bd68577db43658d136"
+    },
+    "payloads/CALL_0171.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 554674,
+      "sha256": "f826b6bcbd8dc962f4b7455e43b8c2a3891462fbaf7ff4e1b803030d60d0e97c"
+    },
+    "payloads/CALL_0172.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 1501427,
+      "sha256": "beeeb36aedfaf7cdfa55e858cacaf528204dbde4fe16524225b0fa88ddf7bb1f"
+    },
+    "payloads/CALL_0173.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 555601,
+      "sha256": "76e4970a9120cf2ba5a1e923e7dd7d80d114c8469198ff95309227a9cd8009a2"
+    },
+    "payloads/CALL_0174.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 554407,
+      "sha256": "97a6cbe69cef3112b71d874b96b382efd7466db8be68414daf8dc950e6614d43"
+    },
+    "payloads/CALL_0175.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 1495652,
+      "sha256": "23d211bd6eca33aa017bfebb0ae98908fdd6f39501405b8db1ea0c99380db483"
+    },
+    "payloads/CALL_0176.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 552630,
+      "sha256": "bab5b0055485c370929d1d69b65ab71d85420c38ed2e3f4ee985bd56444cd2ec"
+    },
+    "payloads/CALL_0177.npz": {
+      "bundle": "PAYLOADS_009.tar",
+      "bytes": 551267,
+      "sha256": "c41dcd760d57b63e8779ac60a37842f3c2a6161107a143819dd16ca4932bea31"
+    },
+    "payloads/CALL_0178.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 1507821,
+      "sha256": "8af8a7ed8241294ba7dc12941c5f33b211c93bd025121ec7382d2fc064af022b"
+    },
+    "payloads/CALL_0179.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 559247,
+      "sha256": "011c6e378a1d3fe6e6f4bc7780dc82d3b4bbc681a707cfa494796b280fee1509"
+    },
+    "payloads/CALL_0180.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 557825,
+      "sha256": "a5e9b4f91089d46d487173145580c683867c8c0e7d856c184711529cda2f6783"
+    },
+    "payloads/CALL_0181.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 1492147,
+      "sha256": "bed4c731f49adfb10bec1619153ad2d7a98b83e19e7f97b1d71f6625f660da2b"
+    },
+    "payloads/CALL_0182.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 549710,
+      "sha256": "1928da8d3be06399c61d5b3ac3bf1d85a4382fca0d48cd1ef7cf30d139aa8e16"
+    },
+    "payloads/CALL_0183.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 549970,
+      "sha256": "a0164b981ea9922402d9b91fbe357232cc883822eea1bad3afbb883593951597"
+    },
+    "payloads/CALL_0184.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 1499348,
+      "sha256": "f719219042c06f01a5b563ae5b1dfeb838f9f13b41dc4f0eaef89269a869c152"
+    },
+    "payloads/CALL_0185.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 554599,
+      "sha256": "d07032a535b599f7eb8f41d3ffde1c290e8f75798b014298ef96c86a063d1d04"
+    },
+    "payloads/CALL_0186.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 553646,
+      "sha256": "b41969fc04beda525cd4bbfc865408750d536d81e6076c66b2b64e7f5d932c3d"
+    },
+    "payloads/CALL_0187.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 1505777,
+      "sha256": "0dff4b451f39fefb6a2ccec063eb69af679ac73b513626f23848db6606fe3042"
+    },
+    "payloads/CALL_0188.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 556489,
+      "sha256": "b095eadf64148d9c61a415a5b468ddc7bb3bf788647d400ac3484e55108f045c"
+    },
+    "payloads/CALL_0189.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 556723,
+      "sha256": "398d2e7647204c517d5b568921b1deafbedc0e28e522d4093c1008ab4917b52f"
+    },
+    "payloads/CALL_0190.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 1506808,
+      "sha256": "decc0aea82d14c2dc0a5525d16af448a327a3a2c67959223d455d01a02bffedd"
+    },
+    "payloads/CALL_0191.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 557523,
+      "sha256": "4451ceebd8eb434c20a0a6b6dce4e22ccf8955cc240ba29161c36681e9cca149"
+    },
+    "payloads/CALL_0192.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 556982,
+      "sha256": "2cf7adde0c941cfd9199f5510a0dd021b0d8b46b8ca4f79bb3a7f317a0beb4ca"
+    },
+    "payloads/CALL_0193.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    },
+    "payloads/CALL_0194.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 1488125,
+      "sha256": "2365244d7a9aea7d4a084d93b52d14a6b0c10150819a207c0214997eb1ad4e0f"
+    },
+    "payloads/CALL_0195.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 548667,
+      "sha256": "2e4ff02b16b768ba00ae1fa8bcd6e2fa3b22ea003b7461c6023d413755c3161e"
+    },
+    "payloads/CALL_0196.npz": {
+      "bundle": "PAYLOADS_010.tar",
+      "bytes": 547289,
+      "sha256": "d9df13fa50c5a5afb9bde6ba6035b89ac0a07c78cd20f0af726a4ef37c4c7b5b"
+    },
+    "payloads/CALL_0197.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 1505564,
+      "sha256": "81841f9e6de97dafc3667bb9b640b27bfba381d67e6aaeff4089cf71b33986c3"
+    },
+    "payloads/CALL_0198.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 558080,
+      "sha256": "65fea39aa651527b6415d82159a137da9b4e45781556615dcd83b1c5403f875c"
+    },
+    "payloads/CALL_0199.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 556570,
+      "sha256": "d53d03e34ca2bb94b83b58edeb0c3e995e343e8e430319806c3c211d5bba6358"
+    },
+    "payloads/CALL_0200.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 1493442,
+      "sha256": "a8f1c2cf6f8aa0286bc4667496dd2c30c9879e8e7b9ffb56963f7cbfaedfdd4c"
+    },
+    "payloads/CALL_0201.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 550187,
+      "sha256": "03efe02818c7ca64d3409bfd765527d2da404fec70888876b40fc7d91c7c44d1"
+    },
+    "payloads/CALL_0202.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 550495,
+      "sha256": "bccc162c7034eb4ebd979fa3dfc283cf0f65ebe978d36fd2668292b1e4579ba0"
+    },
+    "payloads/CALL_0203.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 1498292,
+      "sha256": "9d06491ff0f3a4b3ee6526360ad25e2cc98e37a577ec740f7265f77dedbca1d0"
+    },
+    "payloads/CALL_0204.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 553719,
+      "sha256": "8f13a8a45f70569f49964a95933b8f979f8cab824ea8f04d371abe2cb0ba877a"
+    },
+    "payloads/CALL_0205.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 552780,
+      "sha256": "8c73830d6fd1d691c1062a02288938dd066573f3e22e13c486e2c31ec89f1db6"
+    },
+    "payloads/CALL_0206.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 1506644,
+      "sha256": "1330c9d51d88d4e836993b64b1bda2ac5155c05a2831aeba255b29e139a5b3de"
+    },
+    "payloads/CALL_0207.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 553594,
+      "sha256": "a005cd3ecfff5a70b7c554d0d4d5de4069bee107f36cd028523e2ecb6bb48d72"
+    },
+    "payloads/CALL_0208.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 558311,
+      "sha256": "5ed1a32758619e59967af848f28b740e42a4043ab42488372fddff2340b29fcf"
+    },
+    "payloads/CALL_0209.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 557180,
+      "sha256": "a569764ace179ba71c5e0ef27b052b5537025e45084627a5da14f792f57d803e"
+    },
+    "payloads/CALL_0210.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 1502370,
+      "sha256": "16a62cd86bf80569127f7c0dc0d06ea9e825dfb5e0b80ee5d13d45dc26f82d57"
+    },
+    "payloads/CALL_0211.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 553273,
+      "sha256": "307729e6b0b7f7e66a95d8c2ef5480165d6e8e4167d0e41186e72eba73bb9508"
+    },
+    "payloads/CALL_0212.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 553613,
+      "sha256": "31f45bd37a1566252b5ce7c5e1d15f784d79818c817a48362203889a4663b2c8"
+    },
+    "payloads/CALL_0213.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 554532,
+      "sha256": "4c217d4e31642c525c1f56d0b57f08ee4e6e25b5a3fbde4ac7acea34321db37d"
+    },
+    "payloads/CALL_0214.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 1505603,
+      "sha256": "7d8e5222b3bc5d992f6500ed801acb14bf5499cd1c79f94b9aa6bee6c7e5c38c"
+    },
+    "payloads/CALL_0215.npz": {
+      "bundle": "PAYLOADS_011.tar",
+      "bytes": 556138,
+      "sha256": "4d6df280e3f6de6f3029cb2f8158e06e3241394a8cf82c3ed96c62c491467be4"
+    },
+    "payloads/CALL_0216.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 557505,
+      "sha256": "68e2341ecb14689e8651e349c7493bdb02d43a655d68b9075c5d007161b423d7"
+    },
+    "payloads/CALL_0217.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 556252,
+      "sha256": "7bf829ebf15f82e9906cebb5df2de1869e92f430a07222925b4c4eb782ec75bc"
+    },
+    "payloads/CALL_0218.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 1494951,
+      "sha256": "7358bdf5e626d457358f3d8a28b6cc7d2025a61e50bfb5bb40b0a8b75dcd93a1"
+    },
+    "payloads/CALL_0219.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 552036,
+      "sha256": "5d764a08495555dc1b4b88f2e7da8efc3b24360807c0f0914310e718b2bf0ff7"
+    },
+    "payloads/CALL_0220.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 551043,
+      "sha256": "ecdafc704423df07f09db7549e1a17971b901352bc9b8679313523b310be0430"
+    },
+    "payloads/CALL_0221.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 1507892,
+      "sha256": "025183a8bb5bb24b82539a82e34aef4083f79c87d739e20ecd5c7cd47f40fcc0"
+    },
+    "payloads/CALL_0222.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 558135,
+      "sha256": "2a0d99fc91761369989510d82a02a594b1c34154829cb4bfa24661c3a8ac979a"
+    },
+    "payloads/CALL_0223.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 557618,
+      "sha256": "54c49ff91206724d5c0845e9b8b1306cae3a7b6eba6bc7103ef112d464cceb54"
+    },
+    "payloads/CALL_0224.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 1495085,
+      "sha256": "8015e4c98e8e0f21f7c14dfd254c7394595d485776ed47927244a9c76a453cc8"
+    },
+    "payloads/CALL_0225.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    },
+    "payloads/CALL_0226.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 552429,
+      "sha256": "f0603bb7f3cd87d40187d5c12dcbefb315b6a7b3b31da85ab4cb8c46962eb569"
+    },
+    "payloads/CALL_0227.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 551068,
+      "sha256": "a75bd93df81768d8a994a4b9173b42840810ad090c454b13e0576b6424334edd"
+    },
+    "payloads/CALL_0228.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 1503945,
+      "sha256": "d9f93f16a8c2ce48dabb4500ebd2ea23f780e351faf0d7144adff2c6ae5ede29"
+    },
+    "payloads/CALL_0229.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 555843,
+      "sha256": "6594c9b4c19acf8fe0f2b9d970dda3b85ef70818726781a03626a31937d937d6"
+    },
+    "payloads/CALL_0230.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 554216,
+      "sha256": "45b702e25ef526559576d6c59bdbbfc32d2a06ed096c8aa495ec44840e39f85b"
+    },
+    "payloads/CALL_0231.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 556060,
+      "sha256": "e47d65c1e403c98db5a8e4f9a2f0b5cf49789e886ee238dd832af4afdba4f24e"
+    },
+    "payloads/CALL_0232.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 1502869,
+      "sha256": "095a86a26f9ac929914b714fabe4ee57f4cbb7da936e0b0058ceed126df00be4"
+    },
+    "payloads/CALL_0233.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 554747,
+      "sha256": "9c3422379f06ca8d2c3661c7e37f1af820d57a10a2a824d144f96aa9ae0b5003"
+    },
+    "payloads/CALL_0234.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 551947,
+      "sha256": "0063747aa51da25d702d95242cd64e5a50c07c22b768bfc6d4b7fb4f7f720aa1"
+    },
+    "payloads/CALL_0235.npz": {
+      "bundle": "PAYLOADS_012.tar",
+      "bytes": 555253,
+      "sha256": "aacba8f2ba745b4b7842cc3a8e8f2a7e4c54cd27b906693c3a86c96b177141c8"
+    },
+    "payloads/CALL_0236.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 1506654,
+      "sha256": "2ca6e20ba99c382d20612aa22232e8283348439ce9076a24195686f926b30d35"
+    },
+    "payloads/CALL_0237.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 555767,
+      "sha256": "d3ae0eef060dfd929cd03794abd8477503340ff4525b429589c6c4002d450520"
+    },
+    "payloads/CALL_0238.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 558681,
+      "sha256": "8eaed409ed0675bb0f026ffd60b3374528e5ee85b303c19043184ec4758a6c7a"
+    },
+    "payloads/CALL_0239.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 557012,
+      "sha256": "fc3e3236cc1491adc84a9129505a536a487987ec827d3c1a936f5fb1ee188d9c"
+    },
+    "payloads/CALL_0240.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 1508031,
+      "sha256": "734125130c2c30d433eebc92df52a428fd2c2d39e762888a0304e4b88227d4d3"
+    },
+    "payloads/CALL_0241.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 557914,
+      "sha256": "926b803e4a9f271a2355e7bc2382498649aac719d02db0ff3437ecd324b88d66"
+    },
+    "payloads/CALL_0242.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 558909,
+      "sha256": "1583e1ee76652d82e5bbf722a6fc92facccd1f7f5b5e5f020c19fd2ff8fc84e7"
+    },
+    "payloads/CALL_0243.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 557561,
+      "sha256": "787cedc3e6131dd2f2e34586069a7bc8d42686694c5df04be632db82d89d20b2"
+    },
+    "payloads/CALL_0244.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 1501735,
+      "sha256": "9f335a5f5d7996d8973e106b37acb086576c671102adb902dbdc2af11f385003"
+    },
+    "payloads/CALL_0245.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 554211,
+      "sha256": "79dd8a64074900a22f7e5a8db86a63278268b7e9384bec93debf53d7466e3cff"
+    },
+    "payloads/CALL_0246.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 552772,
+      "sha256": "9d1d647df1f2bcb5adb2c0185a5d7d6b7b170ade87886887bab3b67a0e1c6d64"
+    },
+    "payloads/CALL_0247.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 554749,
+      "sha256": "fc843621ceaace7a502b508572aa0ff6469ea429cf125007bfe882d2cd23cf43"
+    },
+    "payloads/CALL_0248.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 1502252,
+      "sha256": "2c4db46fe213af4447289e535b6ad565975510b6adb79d526c694834af7b3a7f"
+    },
+    "payloads/CALL_0249.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 555918,
+      "sha256": "34497100c075d9c8633c192ed13b19c635b005a1634f4faac4c32210c99d4876"
+    },
+    "payloads/CALL_0250.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 556186,
+      "sha256": "de639640934a6d1d65a19e78a6e4b9d25babed486741a012a8489fe1a1155761"
+    },
+    "payloads/CALL_0251.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 554430,
+      "sha256": "3e75cfe60ce403255f35355d482605611be86f933caa34028c5583b4fab47059"
+    },
+    "payloads/CALL_0252.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 1505863,
+      "sha256": "fc89a64bb0c07a451f7c298c4c8beec2320ad19e09af76e222cdaaef01cc27a2"
+    },
+    "payloads/CALL_0253.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 557622,
+      "sha256": "2a31aff0be650244f96fe87f9da20675ddc14ec37d8e569ca462c6ff62552dd2"
+    },
+    "payloads/CALL_0254.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 557229,
+      "sha256": "e0ca89b106f217086ca900b62e3a1086fa529432bcfa0acfe2a23cff970a6026"
+    },
+    "payloads/CALL_0255.npz": {
+      "bundle": "PAYLOADS_013.tar",
+      "bytes": 556870,
+      "sha256": "5f1fc48436a0f4d59858710c95980e59cbf5af962f0a4d2a43e00bd91d94a66a"
+    },
+    "payloads/CALL_0256.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 1507736,
+      "sha256": "2d1780f30f45687e6af6ffa4b4e7e812502f4e9c6d0132567152b15d70d1777a"
+    },
+    "payloads/CALL_0257.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    },
+    "payloads/CALL_0258.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 557384,
+      "sha256": "0b37967ebc22be80f20b05f1ff08d318e54e286d358adc15144c4fd9cec72dc4"
+    },
+    "payloads/CALL_0259.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 559092,
+      "sha256": "7240d6b3950d31b46f74fb5d52d079fcc1648f9b8e7ba7e35e5f89597b154630"
+    },
+    "payloads/CALL_0260.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 557807,
+      "sha256": "1f0c8b18481af6b79b3680fbba065f5f107759a454c4569ebc1a6fbd59145b47"
+    },
+    "payloads/CALL_0261.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 1507696,
+      "sha256": "441c5ee3223bd47d85f91573371a423694bf1e1fc6410b9ee9e7f98d7d324da0"
+    },
+    "payloads/CALL_0262.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 557816,
+      "sha256": "e945d63a7556569a01f786ce02de5b008ecfed7eb473e4fb104b583d0c7a5ca9"
+    },
+    "payloads/CALL_0263.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 559135,
+      "sha256": "04717d12283f97cb099bfdb8e0048dd7f2cad94f411b55f9134a2b97ad2bcf9a"
+    },
+    "payloads/CALL_0264.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 557750,
+      "sha256": "d177d739dc5226d9f0a2425de4022021514996de776ff6bcc5f83ce1bd8606a1"
+    },
+    "payloads/CALL_0265.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 1503229,
+      "sha256": "a5e985e62f3763c64e4f5e81fc6b41b42acc937c8e1713378934bfcd897244f9"
+    },
+    "payloads/CALL_0266.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 556331,
+      "sha256": "7dda236a07fdab7f2246d613eeeddcd83fe088070c4fe21c9e07e186b3b79b07"
+    },
+    "payloads/CALL_0267.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 556622,
+      "sha256": "8f05fdf60eaf5a206ae4f40d742ea544993cc5f89778d1d09ffe8957a4cdf439"
+    },
+    "payloads/CALL_0268.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 555184,
+      "sha256": "aab18b1d82df090bd7eb229e8cd5c70abf1d5bcca72c3800c66b101b773f0466"
+    },
+    "payloads/CALL_0269.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 1499862,
+      "sha256": "2949c182d51e923a4fe82d2893941e1356d3d3cf2a3c3bb78920d040fd1c7f87"
+    },
+    "payloads/CALL_0270.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 552560,
+      "sha256": "1b96ae011af573358d9b784d70d19309faf1648e03ed1113246e6257e42fc9ee"
+    },
+    "payloads/CALL_0271.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 551776,
+      "sha256": "926bd215a0b246fd6f2ed33ac151fd771d3001d8986320422c3c81d3b87b8db0"
+    },
+    "payloads/CALL_0272.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 553797,
+      "sha256": "609a4b81654dedc13f0daefa77c47dbedfee55a2f05a2f69ae5b7c3721bf7fd9"
+    },
+    "payloads/CALL_0273.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 1508032,
+      "sha256": "051c686c75e9efdad2fb33740d7ff74bee5b2c925077a1ccf57e1de38128cd44"
+    },
+    "payloads/CALL_0274.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 557379,
+      "sha256": "d391e055fae72a1d89b54b428dd8a66c4a959660a255fe7b5cbacff89ca1663a"
+    },
+    "payloads/CALL_0275.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 559235,
+      "sha256": "662ab86150e1f6a3e4a315f58268a063cc75a2cd9a406d73d954ff20087c2bc6"
+    },
+    "payloads/CALL_0276.npz": {
+      "bundle": "PAYLOADS_014.tar",
+      "bytes": 557858,
+      "sha256": "83d0235939de38d77d52a72706cd8c880cc745c2355de6deabdc30eb52045ed1"
+    },
+    "payloads/CALL_0277.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 1502371,
+      "sha256": "7b3d38e6753bc64c0a8206ba861cdef4b081208c575bb36085d31af40949a6ef"
+    },
+    "payloads/CALL_0278.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 555286,
+      "sha256": "bef08bbb37c2efb0aef8955b3666e7e63b6d823d8718d769cd847be0d7b79a41"
+    },
+    "payloads/CALL_0279.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 553955,
+      "sha256": "816a647b628fbaf1553f60d7cf43a059a89efa98a537ff166fa05e9fc21cd62a"
+    },
+    "payloads/CALL_0280.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 554311,
+      "sha256": "872251a79b9fc4e5dedd4a55710ccf6449832d705088c3973387dc3d38214d26"
+    },
+    "payloads/CALL_0281.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 1506729,
+      "sha256": "c553203fad3e8a89d8ef6e59718bf1d9ca018cadeae1800f8c8827d3e4aaa3ff"
+    },
+    "payloads/CALL_0282.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 555950,
+      "sha256": "4b9002fef282b3a1edf149cd7706c18ec55b24db744c709415ecf1cad8f31bb5"
+    },
+    "payloads/CALL_0283.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 558216,
+      "sha256": "d345b5c7bf062efebe29aabcde85b1b5f27d4051aebb1bfef8807cc0cea4f8ca"
+    },
+    "payloads/CALL_0284.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 556833,
+      "sha256": "b91607941de258fdd22cb8776922c0b099172845ccd79b4b7eb4e95319aa65af"
+    },
+    "payloads/CALL_0285.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 1507484,
+      "sha256": "984bca7765e69b0f2ba985dca954ea941f5be02843d03347dd721ada908313f4"
+    },
+    "payloads/CALL_0286.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 557081,
+      "sha256": "1a43e35c0a53e49713af252308962b3b46689786863e205871ad009bdbdd969e"
+    },
+    "payloads/CALL_0287.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 558632,
+      "sha256": "69c6ba6bedcadf78d5924912b7cb380575fb1595845caafcc59d72bfa3ada070"
+    },
+    "payloads/CALL_0288.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 557578,
+      "sha256": "ea577f107a9d5664543f20413b670105bcd6040b74b8c3d11a304b38693ab46c"
+    },
+    "payloads/CALL_0289.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    },
+    "payloads/CALL_0290.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 1508519,
+      "sha256": "457fc4b8f94cd4e811fb4abe3b465dd7db313e0b34acb3422fc5e0f903b63c51"
+    },
+    "payloads/CALL_0291.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 559025,
+      "sha256": "964d8d050cda3554b81dee03dfcb76ed4b3dfd5a11b45e9be49a76b819f1d614"
+    },
+    "payloads/CALL_0292.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 555488,
+      "sha256": "22a6437627e1eb8382ac17b39f321cbcd2da081149b083fc6f75b4ce9e643377"
+    },
+    "payloads/CALL_0293.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 557745,
+      "sha256": "7c112dd998e58c82965745d4350022953a36011365dc1cbf8c9c86d0e9f45a4b"
+    },
+    "payloads/CALL_0294.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 1507589,
+      "sha256": "903ac515ded9b9a77d17279eeffb226fed728276fe541460ee363627fb1dc205"
+    },
+    "payloads/CALL_0295.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 557460,
+      "sha256": "7d23d581077a5cfd32cbdfa0e267e4adb10d556146486aeb8d65a87f1c5bc5d5"
+    },
+    "payloads/CALL_0296.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 558023,
+      "sha256": "6b741599118f785a33d98f03579f3fd451309ca79f1c02f2efab20cfbc65e020"
+    },
+    "payloads/CALL_0297.npz": {
+      "bundle": "PAYLOADS_015.tar",
+      "bytes": 557542,
+      "sha256": "f0caaf3b58b7b686c83dd688e999ecdb61c4d080f9d8947aa53904a2492dc68f"
+    },
+    "payloads/CALL_0298.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 1509501,
+      "sha256": "1f4aeb62a805da4466b72c44a85ae29e252fde7236569bdee845fe9aeda1e92a"
+    },
+    "payloads/CALL_0299.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 557787,
+      "sha256": "a15e2a019e3f3c666d8de8f05e8faddf5ec7062b8cff04870b101b11f733318c"
+    },
+    "payloads/CALL_0300.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 559922,
+      "sha256": "b9904f8b926d500602ff68b30edcb6e9c1c0775a3d9a6cc04d894f09418794f1"
+    },
+    "payloads/CALL_0301.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 558338,
+      "sha256": "403ebdd97da772dac69dbee6b9485ebc749a8c055a4ee1097426676688ebd05c"
+    },
+    "payloads/CALL_0302.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 1506958,
+      "sha256": "8431db65a8ca23fd3fee03b151a02ae64df91a159cab32a19e250ec10751b956"
+    },
+    "payloads/CALL_0303.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 553007,
+      "sha256": "9957ade6ff7cf309c47923785067488c99b72b175041c524ec218cec081b26df"
+    },
+    "payloads/CALL_0304.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 558334,
+      "sha256": "012ff6469fa3ae94a0b7091035465494c10e6c7ede17500124cef8ab2707a41c"
+    },
+    "payloads/CALL_0305.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 557170,
+      "sha256": "bda228fccb18e2423990913b46d5a937c10cfab8dd75ce18c01dde60461470df"
+    },
+    "payloads/CALL_0306.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 1504229,
+      "sha256": "d80159e0a56f2325755f1604e252e9005056d6dc203263c1141db78769470798"
+    },
+    "payloads/CALL_0307.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 550361,
+      "sha256": "50ae742625a745594fcdf6317db9e8620896df1d50f9a0e4695844ef730b970f"
+    },
+    "payloads/CALL_0308.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 556351,
+      "sha256": "544057ea3301982b3a13a02436e0e9620bd0c9f30bdf742942a58458cec6c683"
+    },
+    "payloads/CALL_0309.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 555916,
+      "sha256": "6132794ab157a9849d36a41edfd63d1701c0741f3aff7f7430e5e5c7409747c9"
+    },
+    "payloads/CALL_0310.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 1493886,
+      "sha256": "f8488025dc07cee754ebaf275177755ed45bd26da83725cf40fabd87dcdec42e"
+    },
+    "payloads/CALL_0311.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 550085,
+      "sha256": "4b56c6b57cdd86accaff8fe74a7645aa0b459d85be9859c50694e277171bd62e"
+    },
+    "payloads/CALL_0312.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 551645,
+      "sha256": "8e2ceb88b02012c97f67553be12982e9bcef6a6cccfd692f17bf47ca1ad93af1"
+    },
+    "payloads/CALL_0313.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 550345,
+      "sha256": "c9c302cbe190b8bc286b2c79a9633b0f653da939d54c01b81f9760fa44b72940"
+    },
+    "payloads/CALL_0314.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 1495489,
+      "sha256": "aa4851bfbc522a0fe8c539317cb1839c35fa48dd9eccaea1d6e973e33a2f70d7"
+    },
+    "payloads/CALL_0315.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 552299,
+      "sha256": "5310886397edca64030a43e0faa176da21689f916ae7b91224daa77c7b05e62d"
+    },
+    "payloads/CALL_0316.npz": {
+      "bundle": "PAYLOADS_016.tar",
+      "bytes": 551535,
+      "sha256": "fb0492a44d0cc4ba5e35161314525d7aada4bd17dacbe7fdb8c3d51623b5a2f6"
+    },
+    "payloads/CALL_0317.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 1508435,
+      "sha256": "41600300b3e67236140a23bfc6e4d099b1732707a0b6d7bcbfc8bbfcd6f8f5d0"
+    },
+    "payloads/CALL_0318.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 559388,
+      "sha256": "78919f17c79480a9f1a8ed43f352976060a5a5b811e29aa7c7ef642cee9f5a54"
+    },
+    "payloads/CALL_0319.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 557938,
+      "sha256": "63cf2722eb1b32a6bedf866532bc9221ad49f07f9fd3e752eed66bac8271edd6"
+    },
+    "payloads/CALL_0320.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 1504484,
+      "sha256": "7fe626d454c3419a072078d8ee2e1b5c948da59224af0bf1635772c7c2b60fab"
+    },
+    "payloads/CALL_0321.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    },
+    "payloads/CALL_0322.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 556377,
+      "sha256": "a387553039a8f52f846e7ef3ed6e93dc61a9ef8e196ee96f3653cc0e40064600"
+    },
+    "payloads/CALL_0323.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 556229,
+      "sha256": "723e593f9d48641e644b98861e347d871dc9428dc9c5f379d2222c04e1651966"
+    },
+    "payloads/CALL_0324.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 1495760,
+      "sha256": "126fd9200b5168d7f1b34528d3636d04f199fcda79d11ba196fd6bc42c6d4696"
+    },
+    "payloads/CALL_0325.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 548965,
+      "sha256": "d40388dcab3b610969aa905f74cb8f742903285d73f820f8ddf32871f7911515"
+    },
+    "payloads/CALL_0326.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 551685,
+      "sha256": "c03699f1d7ffed0a9b0b23016fd942526d8bdb5e5a64fbe03692a16b8fb8a881"
+    },
+    "payloads/CALL_0327.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 1500465,
+      "sha256": "07013120767760fac1abb738783ff364c9b59b54aae396737054358c8fe7d547"
+    },
+    "payloads/CALL_0328.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 553755,
+      "sha256": "6aa3bc83386860d447b12f5020e3346875b89cb5eb1bd59b4ff4004aa828ad73"
+    },
+    "payloads/CALL_0329.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 554092,
+      "sha256": "864aa19b77ba00054acab29d3197ac5887e9f5e5086126b8bac1f2ef7c237a32"
+    },
+    "payloads/CALL_0330.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 1508381,
+      "sha256": "ae27be2535ff701045683a01f11fefeeb631273b9773c418680c2bd813614597"
+    },
+    "payloads/CALL_0331.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 558825,
+      "sha256": "b3c855b6f9c6e5c7af5b6a0fe69f02789324194b7a0ff0044df827d573a4a056"
+    },
+    "payloads/CALL_0332.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 558501,
+      "sha256": "8b36be9b9f4d43e98b7ab7b73eee9932a29c01d1493011538e9d6362973ff0d2"
+    },
+    "payloads/CALL_0333.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 1505295,
+      "sha256": "26d1e88f62baffcea6134b191569b909b19c7b40a46edd742c5d58a927c87aed"
+    },
+    "payloads/CALL_0334.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 557641,
+      "sha256": "ec5b4110f2dedebe7a9ecf12de5feb7d95e8ef83d599693570a3772f992f4801"
+    },
+    "payloads/CALL_0335.npz": {
+      "bundle": "PAYLOADS_017.tar",
+      "bytes": 556418,
+      "sha256": "5875918c55590907d86cfc2e5a81a894dcf7c26c8e891e45072a1ca31b9825fe"
+    },
+    "payloads/CALL_0336.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 1489878,
+      "sha256": "cbf820a7cea4197fc8452ab70b56674ba65a16f1bbfd957de1c6c9c2f5aab0b2"
+    },
+    "payloads/CALL_0337.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 548617,
+      "sha256": "bf11c3ba1bb114a318b3cdf6b4c5fc78481ae34f72f99aacaf696a9d1bb11f16"
+    },
+    "payloads/CALL_0338.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 548608,
+      "sha256": "e18f1a45d73fae30cd0755243a91aac3dec0b3352878c1b57c4a02c0794a486e"
+    },
+    "payloads/CALL_0339.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 1492661,
+      "sha256": "9c718742836d861a2154c7b32b2f6e60c6132d926507d8137d0eab093cdeffc5"
+    },
+    "payloads/CALL_0340.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 551555,
+      "sha256": "ba7c53150fae364c70b7dd42e46925c2ce8c17bba1e38f997294db101f3168d9"
+    },
+    "payloads/CALL_0341.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 549663,
+      "sha256": "7f9261ccd220c0f76c2b30ed7c1d93495847271fb3ce73277b84c2e83c369a15"
+    },
+    "payloads/CALL_0342.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 1506188,
+      "sha256": "6d8f6615e0b4d2a2895e8fb4bc4b4384caaca58eb1a5ddca1a12802d1be63062"
+    },
+    "payloads/CALL_0343.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 557519,
+      "sha256": "613a07c033ff11ec92a49c87367c76043069e2d66a38aea312914ace288b65f5"
+    },
+    "payloads/CALL_0344.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 556466,
+      "sha256": "be711c5c39db292ed5b2febce7514b3a36d55a50dc749e4d39820e22c7c6c025"
+    },
+    "payloads/CALL_0345.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 556619,
+      "sha256": "e3561394c541750beb8bc06303d30349ec19a7b7008431e3beff42524abbea0e"
+    },
+    "payloads/CALL_0346.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 1507259,
+      "sha256": "38a89ffcbccf6dce4b5d7ab9a9d19f89283f5ac1fdd980cc9ef9da14132d8e66"
+    },
+    "payloads/CALL_0347.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 555952,
+      "sha256": "9230297e561122eac17c2f4b64efd323982ae9c6aba1cb4bb5a9c7355ee81400"
+    },
+    "payloads/CALL_0348.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 559041,
+      "sha256": "4acc27d10bcfe5f0eaf4403c9b9c44c5f8361be96af894384e575f87e43b3acf"
+    },
+    "payloads/CALL_0349.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 557377,
+      "sha256": "bc7e100385331c460ff77d5f9355487847a9d76fd10c73c79e2255448103922f"
+    },
+    "payloads/CALL_0350.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 1507420,
+      "sha256": "66c2de7051361a18f6de47b132e7b9ce2731a4f5b016f2a5bda53005383daf00"
+    },
+    "payloads/CALL_0351.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 555926,
+      "sha256": "8065973fa5ab9d269eeb3bd5fa27734f48fb0902267705cde98d3b72329a2fc4"
+    },
+    "payloads/CALL_0352.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 559013,
+      "sha256": "e6e1d28ad3779fdc3d52f6157b5e4c9d0d89cac85b5832612c4a51bb433afb3c"
+    },
+    "payloads/CALL_0353.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    },
+    "payloads/CALL_0354.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 557562,
+      "sha256": "08e43578dcc0fef862488242d09b5015800fe6dd72a98514c37d7e2a3f08834b"
+    },
+    "payloads/CALL_0355.npz": {
+      "bundle": "PAYLOADS_018.tar",
+      "bytes": 1506814,
+      "sha256": "2b2d95bf4d380fc8eaf0389af90daa52224f908a8de965222abcf3016aa3e1c1"
+    },
+    "payloads/CALL_0356.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 556807,
+      "sha256": "b819b6181522a9900e849b627b12bf7f6e029b3d44f6e7a11af3e0aaa28914aa"
+    },
+    "payloads/CALL_0357.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 557378,
+      "sha256": "7825a7277f6b52ecc52223f9eeefcae2104ef3787982802f866b6cececc897a3"
+    },
+    "payloads/CALL_0358.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 1507130,
+      "sha256": "e44223b2d444f6d5dff42e00feffd7f3300a97aca99ddc8c5b6078109ea6b022"
+    },
+    "payloads/CALL_0359.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 559165,
+      "sha256": "7a312f267858af97e3b2d5890334e1329d2467a0a993aa80f6555c5a01375daf"
+    },
+    "payloads/CALL_0360.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 557504,
+      "sha256": "f5259a002abdc08066edfd9ca81bb35c4f73a2dd40dea7803f45453d42222338"
+    },
+    "payloads/CALL_0361.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 1501945,
+      "sha256": "a6298e899b174ba398276c5f8e65d7fb36f07e142d1ca2c884da8622d1cfa416"
+    },
+    "payloads/CALL_0362.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 556410,
+      "sha256": "72d0928b24f2ebece34a213c751890bc3de76c142be135e3f6bf407883a78414"
+    },
+    "payloads/CALL_0363.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 554321,
+      "sha256": "d02c6a47ac4dbef4b99c7266421f28c4544b099362bdcc8a9f73b838ecace9e4"
+    },
+    "payloads/CALL_0364.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 1507610,
+      "sha256": "45050993f3a6159f99eb7e9d417b914639f039c9f5495d21b749e6e0a89acd17"
+    },
+    "payloads/CALL_0365.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 554345,
+      "sha256": "fa703b5fe9a20d413c37e97191f49cf439c37011fdee0d17b13b560fdbe16e8e"
+    },
+    "payloads/CALL_0366.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 558793,
+      "sha256": "07fce98ceb358a6c8be8e27d8c17476d72d639312d40dc380cfd282b1e52dc0d"
+    },
+    "payloads/CALL_0367.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 557147,
+      "sha256": "14fa95b4db41e20ba2e4097ffd41df39284e761d133a64b31f5b21e83f5f2ac8"
+    },
+    "payloads/CALL_0368.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 1508785,
+      "sha256": "58cf0aa71197a2d1b95b3624ec7b15df49d6d3df31a67d1d6793aed8604d22e1"
+    },
+    "payloads/CALL_0369.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 557576,
+      "sha256": "7236d2152e6d5297084613dcdc0a8d7702ca631a01030f111560a1799bebe583"
+    },
+    "payloads/CALL_0370.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 556629,
+      "sha256": "2c16a0a385db6497c166576d63686a19b844074a55855ee68f91c44368fe76d1"
+    },
+    "payloads/CALL_0371.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 557842,
+      "sha256": "8a0842f59018657f474004143a26c989133235b808871141048dc535edb5ccab"
+    },
+    "payloads/CALL_0372.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 1505672,
+      "sha256": "be82e93f8c061749a4054c4dfe4159c6d63e278dd21ea7b94c9cf9a59e91df7a"
+    },
+    "payloads/CALL_0373.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 556896,
+      "sha256": "a7dab967ab76d67e0a77e6a367d5bcd21ab394cef64c9f8eb24ca23400d6de18"
+    },
+    "payloads/CALL_0374.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 557366,
+      "sha256": "dcd44550ad84cdcb6d42c29ad96ebc2af86bbbbe5598f6cf83fc16294e93d86a"
+    },
+    "payloads/CALL_0375.npz": {
+      "bundle": "PAYLOADS_019.tar",
+      "bytes": 556514,
+      "sha256": "a97b6399bed075ab981a48db8cd56ae8997705df1016b54561c1758ffcfe4bc1"
+    },
+    "payloads/CALL_0376.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 1504540,
+      "sha256": "244410a96a277c450c0d67dcdb56c1d3b3bf07ef16f5ee712d79232bd8071caa"
+    },
+    "payloads/CALL_0377.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 556785,
+      "sha256": "c659d735264cd73535b8829ce0770fb8635d2c44bad7b39c10cf7d3b4fb4849d"
+    },
+    "payloads/CALL_0378.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 556020,
+      "sha256": "a2d5813ef437b65af69c498c729f466109dbb1fa891ddbdf898d740014d526a3"
+    },
+    "payloads/CALL_0379.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 1495683,
+      "sha256": "f6c7271cae2cccf6122d612367da1faff2f227eb1e6a449457a21e5af53f2059"
+    },
+    "payloads/CALL_0380.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 552199,
+      "sha256": "73f11ed0e05d1cc51a76a2eb4eb815afead740f4e4309bd67385915178446a58"
+    },
+    "payloads/CALL_0381.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 551748,
+      "sha256": "238e32caf31cdfb48571f6da89066145b42879191e8c10656acc09337ea4c944"
+    },
+    "payloads/CALL_0382.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 1489718,
+      "sha256": "5572bea9479e4d3aee66c273c9cb7597b54688e09cd6ba21a84d4ed278007cc0"
+    },
+    "payloads/CALL_0383.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 548654,
+      "sha256": "6f6b9fbf4feec4dbc3241f299bf9f33d2e440dd67aeaf7f5199e1a80a3b3d808"
+    },
+    "payloads/CALL_0384.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 548494,
+      "sha256": "6a0d68957c3f00ea22b9ad92df9401d1b31dd2c74a38f6919f57067c979674e1"
+    },
+    "payloads/CALL_0385.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 551760,
+      "sha256": "ef674c3e83058c1d7777a9a14f8e748a92a3ff7bfb95aeaee96d5ccb2dda827a"
+    },
+    "payloads/CALL_0386.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 1494984,
+      "sha256": "c0134b3e3e5bda178609d9fea0cd9e108c70b60db673d7906e5e4487a3ff5270"
+    },
+    "payloads/CALL_0387.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 552569,
+      "sha256": "5ab455dd7c3e0ef0d0f339cd4d33cc4ccbb1eee50d00d1eb3644ebc5e646d9d9"
+    },
+    "payloads/CALL_0388.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 551343,
+      "sha256": "5a399499933fe480080bd4738c4e8150c087c3eec669f612baf4c85071fbfb22"
+    },
+    "payloads/CALL_0389.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 1507017,
+      "sha256": "1cbcbf2a87b3670260ac3ada174f7d1fba1d32ef3473238f4cb241c6073d6cbf"
+    },
+    "payloads/CALL_0390.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 558265,
+      "sha256": "a5df1433bb7de5c76e298711b2781645ebb826c4a457a283e181606e83b0ab90"
+    },
+    "payloads/CALL_0391.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 557170,
+      "sha256": "c129b515e591696942feb6da6179d9d07110f0829a22753a2c56e4d104bffbe8"
+    },
+    "payloads/CALL_0392.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 1503336,
+      "sha256": "833c4c35621bd9079df32389498647730e39cbc529d70a42e2ce4dbb515a313d"
+    },
+    "payloads/CALL_0393.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 556681,
+      "sha256": "f321e233fa64c15371f73263f31942c1f5403fa1eb92c65208296ab881fc6d4a"
+    },
+    "payloads/CALL_0394.npz": {
+      "bundle": "PAYLOADS_020.tar",
+      "bytes": 555535,
+      "sha256": "6d6795af3172a2615dcce00f0ad5dcffb08d63e2a1d977087865134bcfb94c28"
+    }
+  }
+}

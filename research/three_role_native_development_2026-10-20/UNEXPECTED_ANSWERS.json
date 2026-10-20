@@ -1,0 +1,2064 @@
+[
+  {
+    "id": "t01_102_passive_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "passive",
+    "source": "Agnes was sent to Celia by Basil.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "generated_text": " Agnes",
+    "generated_tokens": [
+      4598,
+      4873
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Agnes",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Basil",
+    "full_name_margin": -1.21874464901002,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Agnes": -0.25899217991738865,
+      "Basil": -1.4777368289274087,
+      "Celia": -18.60802272625661
+    },
+    "candidate_paths": {
+      "Agnes": [
+        {
+          "tokens": [
+            4598,
+            4873
+          ],
+          "log_probability": -0.25899217991738865,
+          "terms": [
+            -0.25898682892740865,
+            -5.350989980001941e-06
+          ]
+        }
+      ],
+      "Basil": [
+        {
+          "tokens": [
+            65970
+          ],
+          "log_probability": -1.4777368289274087,
+          "terms": [
+            -1.4777368289274087
+          ]
+        }
+      ],
+      "Celia": [
+        {
+          "tokens": [
+            356,
+            35929
+          ],
+          "log_probability": -18.60802272625661,
+          "terms": [
+            -18.40742432892741,
+            -0.20059839732920182
+          ]
+        }
+      ]
+    },
+    "base_call": 5,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 5
+      },
+      {
+        "prefix": [
+          356
+        ],
+        "call": 7
+      },
+      {
+        "prefix": [
+          4598
+        ],
+        "call": 6
+      },
+      {
+        "prefix": [
+          4598,
+          4873
+        ],
+        "call": 8
+      }
+    ],
+    "base_payload": "payloads/CALL_0005.npz",
+    "base_payload_sha256": "3b6db68f14455e94b67c37170623ef5f6c42e6ac130e14bad6371cec219fbee1"
+  },
+  {
+    "id": "t01_120_active_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "active",
+    "source": "Basil sent Celia to Agnes.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Celia",
+    "generated_tokens": [
+      356,
+      35929
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Celia",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Agnes",
+    "full_name_margin": -3.8281233137060298,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Agnes": -3.8496452991374,
+      "Basil": -19.2246425668338,
+      "Celia": -0.021521985431370183
+    },
+    "candidate_paths": {
+      "Agnes": [
+        {
+          "tokens": [
+            4598,
+            4873
+          ],
+          "log_probability": -3.8496452991374,
+          "terms": [
+            -3.8496425668338006,
+            -2.7323035993731537e-06
+          ]
+        }
+      ],
+      "Basil": [
+        {
+          "tokens": [
+            65970
+          ],
+          "log_probability": -19.2246425668338,
+          "terms": [
+            -19.2246425668338
+          ]
+        }
+      ],
+      "Celia": [
+        {
+          "tokens": [
+            356,
+            35929
+          ],
+          "log_probability": -0.021521985431370183,
+          "terms": [
+            -0.021517566833800572,
+            -4.418597569610938e-06
+          ]
+        }
+      ]
+    },
+    "base_call": 25,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 25
+      },
+      {
+        "prefix": [
+          356
+        ],
+        "call": 27
+      },
+      {
+        "prefix": [
+          356,
+          35929
+        ],
+        "call": 28
+      },
+      {
+        "prefix": [
+          4598
+        ],
+        "call": 26
+      }
+    ],
+    "base_payload": "payloads/CALL_0025.npz",
+    "base_payload_sha256": "79e696fc0f9d15f93a0261d7eb0a940366bbb6d686132bfdfe720dfc81c2fcac"
+  },
+  {
+    "id": "t01_021_passive_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Celia was sent to Basil by Agnes.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "generated_text": " Celia",
+    "generated_tokens": [
+      356,
+      35929
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Celia",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Agnes",
+    "full_name_margin": -6.20307236335357,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Agnes": -6.205165759369073,
+      "Basil": -11.142661372062072,
+      "Celia": -0.0020933960155034015
+    },
+    "candidate_paths": {
+      "Agnes": [
+        {
+          "tokens": [
+            4598,
+            4873
+          ],
+          "log_probability": -6.205165759369073,
+          "terms": [
+            -6.205161372062072,
+            -4.3873070012523385e-06
+          ]
+        }
+      ],
+      "Basil": [
+        {
+          "tokens": [
+            65970
+          ],
+          "log_probability": -11.142661372062072,
+          "terms": [
+            -11.142661372062072
+          ]
+        }
+      ],
+      "Celia": [
+        {
+          "tokens": [
+            356,
+            35929
+          ],
+          "log_probability": -0.0020933960155034015,
+          "terms": [
+            -0.0020363720620721892,
+            -5.702395343121225e-05
+          ]
+        }
+      ]
+    },
+    "base_call": 29,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 29
+      },
+      {
+        "prefix": [
+          356
+        ],
+        "call": 31
+      },
+      {
+        "prefix": [
+          356,
+          35929
+        ],
+        "call": 32
+      },
+      {
+        "prefix": [
+          4598
+        ],
+        "call": 30
+      }
+    ],
+    "base_payload": "payloads/CALL_0029.npz",
+    "base_payload_sha256": "fd59ec25b5a7db250ece7e5ed04301c4de6d0d78e4df80a22124c407dd2406a9"
+  },
+  {
+    "id": "t01_201_active_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Celia sent Agnes to Basil.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Agnes",
+    "generated_tokens": [
+      4598,
+      4873
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Agnes",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Basil",
+    "full_name_margin": -14.687476902761002,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Agnes": -2.4875270224100632e-05,
+      "Basil": -14.687501778031226,
+      "Celia": -18.131137348029156
+    },
+    "candidate_paths": {
+      "Agnes": [
+        {
+          "tokens": [
+            4598,
+            4873
+          ],
+          "log_probability": -2.4875270224100632e-05,
+          "terms": [
+            -1.7780312262516418e-06,
+            -2.309723899784899e-05
+          ]
+        }
+      ],
+      "Basil": [
+        {
+          "tokens": [
+            65970
+          ],
+          "log_probability": -14.687501778031226,
+          "terms": [
+            -14.687501778031226
+          ]
+        }
+      ],
+      "Celia": [
+        {
+          "tokens": [
+            356,
+            35929
+          ],
+          "log_probability": -18.131137348029156,
+          "terms": [
+            -18.125001778031226,
+            -0.00613556999793019
+          ]
+        }
+      ]
+    },
+    "base_call": 50,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 50
+      },
+      {
+        "prefix": [
+          356
+        ],
+        "call": 52
+      },
+      {
+        "prefix": [
+          4598
+        ],
+        "call": 51
+      },
+      {
+        "prefix": [
+          4598,
+          4873
+        ],
+        "call": 53
+      }
+    ],
+    "base_payload": "payloads/CALL_0050.npz",
+    "base_payload_sha256": "9d0843c2ae1a1acbabeddd5acfe404c7f8b845622d328d3f09f4181912c68048"
+  },
+  {
+    "id": "t02_201_goal_fronted_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "goal_fronted",
+    "source": "To Esther, Florian sent Dorian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Dorian",
+    "generated_tokens": [
+      422,
+      22090
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Dorian",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Esther",
+    "full_name_margin": -2.031230328162021,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -0.12337374573457183,
+      "Esther": -2.154604073896593,
+      "Florian": -11.873354073896593
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            422,
+            22090
+          ],
+          "log_probability": -0.12337374573457183,
+          "terms": [
+            -0.12335407389659281,
+            -1.9671837979018392e-05
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            83638
+          ],
+          "log_probability": -2.154604073896593,
+          "terms": [
+            -2.154604073896593
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            96056
+          ],
+          "log_probability": -11.873354073896593,
+          "terms": [
+            -11.873354073896593
+          ]
+        }
+      ]
+    },
+    "base_call": 60,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 60
+      },
+      {
+        "prefix": [
+          422
+        ],
+        "call": 61
+      },
+      {
+        "prefix": [
+          422,
+          22090
+        ],
+        "call": 62
+      }
+    ],
+    "base_payload": "payloads/CALL_0060.npz",
+    "base_payload_sha256": "0ee34189a8a6699e6b20d3bfa1ce8578436b83cad8ae3314e1c00ba704accf2b"
+  },
+  {
+    "id": "t02_021_passive_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "passive",
+    "source": "Florian was sent to Esther by Dorian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "generated_text": " Florian",
+    "generated_tokens": [
+      96056
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Florian",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Dorian",
+    "full_name_margin": -1.0156271679537099,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -1.324761787946919,
+      "Esther": -21.05913461999321,
+      "Florian": -0.309134619993209
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            422,
+            22090
+          ],
+          "log_probability": -1.324761787946919,
+          "terms": [
+            -1.324759619993209,
+            -2.1679537098862056e-06
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            83638
+          ],
+          "log_probability": -21.05913461999321,
+          "terms": [
+            -21.05913461999321
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            96056
+          ],
+          "log_probability": -0.309134619993209,
+          "terms": [
+            -0.309134619993209
+          ]
+        }
+      ]
+    },
+    "base_call": 63,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 63
+      },
+      {
+        "prefix": [
+          422
+        ],
+        "call": 64
+      },
+      {
+        "prefix": [
+          96056
+        ],
+        "call": 66
+      }
+    ],
+    "base_payload": "payloads/CALL_0063.npz",
+    "base_payload_sha256": "3006fa31c83413e86b5c90dcebe8c064923aa55661d5c01f387ffd975ac5e216"
+  },
+  {
+    "id": "t01_120_passive_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Celia was sent to Agnes by Basil.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "generated_text": " Celia",
+    "generated_tokens": [
+      356,
+      35929
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Celia",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Basil",
+    "full_name_margin": -1.8593062226081791,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Agnes": -15.769873022429643,
+      "Basil": -2.0041549048994938,
+      "Celia": -0.14484868229131465
+    },
+    "candidate_paths": {
+      "Agnes": [
+        {
+          "tokens": [
+            4598,
+            4873
+          ],
+          "log_probability": -15.769873022429643,
+          "terms": [
+            -15.769779904899494,
+            -9.311753014884516e-05
+          ]
+        }
+      ],
+      "Basil": [
+        {
+          "tokens": [
+            65970
+          ],
+          "log_probability": -2.0041549048994938,
+          "terms": [
+            -2.0041549048994938
+          ]
+        }
+      ],
+      "Celia": [
+        {
+          "tokens": [
+            356,
+            35929
+          ],
+          "log_probability": -0.14484868229131465,
+          "terms": [
+            -0.14477990489949377,
+            -6.877739182087339e-05
+          ]
+        }
+      ]
+    },
+    "base_call": 73,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 73
+      },
+      {
+        "prefix": [
+          356
+        ],
+        "call": 75
+      },
+      {
+        "prefix": [
+          356,
+          35929
+        ],
+        "call": 76
+      },
+      {
+        "prefix": [
+          4598
+        ],
+        "call": 74
+      }
+    ],
+    "base_payload": "payloads/CALL_0073.npz",
+    "base_payload_sha256": "e0fac8dac44c40bbdc253bd7a29a52f78dd7a50a2c373985b87201a88aa6ec3b"
+  },
+  {
+    "id": "t02_210_passive_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Esther was sent to Dorian by Florian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "generated_text": " Esther",
+    "generated_tokens": [
+      83638
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Esther",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Florian",
+    "full_name_margin": -15.046875,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -18.562665237438676,
+      "Esther": -1.2317789028770676e-06,
+      "Florian": -15.046876231778903
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            422,
+            22090
+          ],
+          "log_probability": -18.562665237438676,
+          "terms": [
+            -18.562501231778903,
+            -0.00016400565977292558
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            83638
+          ],
+          "log_probability": -1.2317789028770676e-06,
+          "terms": [
+            -1.2317789028770676e-06
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            96056
+          ],
+          "log_probability": -15.046876231778903,
+          "terms": [
+            -15.046876231778903
+          ]
+        }
+      ]
+    },
+    "base_call": 85,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 85
+      },
+      {
+        "prefix": [
+          422
+        ],
+        "call": 86
+      },
+      {
+        "prefix": [
+          83638
+        ],
+        "call": 87
+      }
+    ],
+    "base_payload": "payloads/CALL_0085.npz",
+    "base_payload_sha256": "5c195ef808183a660d794102bdced680abeab586ef10505d18a10e2f406ce616"
+  },
+  {
+    "id": "t01_201_passive_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "passive",
+    "source": "Agnes was sent to Basil by Celia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "generated_text": " Agnes",
+    "generated_tokens": [
+      4598,
+      4873
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Agnes",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Celia",
+    "full_name_margin": -5.625008515688403,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Agnes": -0.0036095878592590225,
+      "Basil": -14.003601961197056,
+      "Celia": -5.628618103547662
+    },
+    "candidate_paths": {
+      "Agnes": [
+        {
+          "tokens": [
+            4598,
+            4873
+          ],
+          "log_probability": -0.0036095878592590225,
+          "terms": [
+            -0.003601961197055914,
+            -7.626662203108481e-06
+          ]
+        }
+      ],
+      "Basil": [
+        {
+          "tokens": [
+            65970
+          ],
+          "log_probability": -14.003601961197056,
+          "terms": [
+            -14.003601961197056
+          ]
+        }
+      ],
+      "Celia": [
+        {
+          "tokens": [
+            356,
+            35929
+          ],
+          "log_probability": -5.628618103547662,
+          "terms": [
+            -5.628601961197056,
+            -1.6142350606429545e-05
+          ]
+        }
+      ]
+    },
+    "base_call": 122,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 122
+      },
+      {
+        "prefix": [
+          356
+        ],
+        "call": 124
+      },
+      {
+        "prefix": [
+          4598
+        ],
+        "call": 123
+      },
+      {
+        "prefix": [
+          4598,
+          4873
+        ],
+        "call": 125
+      }
+    ],
+    "base_payload": "payloads/CALL_0122.npz",
+    "base_payload_sha256": "832e705924dae7a216bb48687fb3f58cb71e5ca4a2f9e3af53dc15c0cb62df57"
+  },
+  {
+    "id": "t02_012_active_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "active",
+    "source": "Dorian sent Esther to Florian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Esther",
+    "generated_tokens": [
+      83638
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Esther",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Florian",
+    "full_name_margin": -3.171875,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -14.77566422933009,
+      "Esther": -0.041244641800801674,
+      "Florian": -3.2131196418008017
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            422,
+            22090
+          ],
+          "log_probability": -14.77566422933009,
+          "terms": [
+            -14.775619641800802,
+            -4.4587529288264705e-05
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            83638
+          ],
+          "log_probability": -0.041244641800801674,
+          "terms": [
+            -0.041244641800801674
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            96056
+          ],
+          "log_probability": -3.2131196418008017,
+          "terms": [
+            -3.2131196418008017
+          ]
+        }
+      ]
+    },
+    "base_call": 141,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 141
+      },
+      {
+        "prefix": [
+          422
+        ],
+        "call": 142
+      },
+      {
+        "prefix": [
+          83638
+        ],
+        "call": 143
+      }
+    ],
+    "base_payload": "payloads/CALL_0141.npz",
+    "base_payload_sha256": "90441610fd6b5d011f74d02d94026a48ba018337c4895125376fd204c55e29ec"
+  },
+  {
+    "id": "t01_210_passive_q0",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "passive",
+    "source": "Basil was sent to Agnes by Celia.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "generated_text": " Basil",
+    "generated_tokens": [
+      65970
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Basil",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Celia",
+    "full_name_margin": -16.015646229330628,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Agnes": -15.625092344148726,
+      "Basil": -2.6484659017000922e-06,
+      "Celia": -16.01564887779653
+    },
+    "candidate_paths": {
+      "Agnes": [
+        {
+          "tokens": [
+            4598,
+            4873
+          ],
+          "log_probability": -15.625092344148726,
+          "terms": [
+            -15.625002648465902,
+            -8.969568282424234e-05
+          ]
+        }
+      ],
+      "Basil": [
+        {
+          "tokens": [
+            65970
+          ],
+          "log_probability": -2.6484659017000922e-06,
+          "terms": [
+            -2.6484659017000922e-06
+          ]
+        }
+      ],
+      "Celia": [
+        {
+          "tokens": [
+            356,
+            35929
+          ],
+          "log_probability": -16.01564887779653,
+          "terms": [
+            -16.0156276484659,
+            -2.122933062764787e-05
+          ]
+        }
+      ]
+    },
+    "base_call": 156,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 156
+      },
+      {
+        "prefix": [
+          356
+        ],
+        "call": 158
+      },
+      {
+        "prefix": [
+          4598
+        ],
+        "call": 157
+      },
+      {
+        "prefix": [
+          65970
+        ],
+        "call": 159
+      }
+    ],
+    "base_payload": "payloads/CALL_0156.npz",
+    "base_payload_sha256": "54d45e690599110958420ffcc621e084dad4599d70c3d3c5ba717ebb97009795"
+  },
+  {
+    "id": "t02_021_active_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Dorian sent Florian to Esther.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Florian",
+    "generated_tokens": [
+      96056
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Florian",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Esther",
+    "full_name_margin": -2.171875,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -16.25646987128961,
+      "Esther": -2.2798328487276223,
+      "Florian": -0.10795784872762226
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            422,
+            22090
+          ],
+          "log_probability": -16.25646987128961,
+          "terms": [
+            -16.256395348727622,
+            -7.452256198803298e-05
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            83638
+          ],
+          "log_probability": -2.2798328487276223,
+          "terms": [
+            -2.2798328487276223
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            96056
+          ],
+          "log_probability": -0.10795784872762226,
+          "terms": [
+            -0.10795784872762226
+          ]
+        }
+      ]
+    },
+    "base_call": 175,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 175
+      },
+      {
+        "prefix": [
+          422
+        ],
+        "call": 176
+      },
+      {
+        "prefix": [
+          96056
+        ],
+        "call": 177
+      }
+    ],
+    "base_payload": "payloads/CALL_0175.npz",
+    "base_payload_sha256": "23d211bd6eca33aa017bfebb0ae98908fdd6f39501405b8db1ea0c99380db483"
+  },
+  {
+    "id": "t02_210_active_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "active",
+    "source": "Florian sent Esther to Dorian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Esther",
+    "generated_tokens": [
+      83638
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Esther",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Dorian",
+    "full_name_margin": -2.1093773023726,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -2.2239474106972175,
+      "Esther": -0.11457010832461734,
+      "Florian": -22.927070108324617
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            422,
+            22090
+          ],
+          "log_probability": -2.2239474106972175,
+          "terms": [
+            -2.2239451083246173,
+            -2.3023726001270006e-06
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            83638
+          ],
+          "log_probability": -0.11457010832461734,
+          "terms": [
+            -0.11457010832461734
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            96056
+          ],
+          "log_probability": -22.927070108324617,
+          "terms": [
+            -22.927070108324617
+          ]
+        }
+      ]
+    },
+    "base_call": 203,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 203
+      },
+      {
+        "prefix": [
+          422
+        ],
+        "call": 204
+      },
+      {
+        "prefix": [
+          83638
+        ],
+        "call": 205
+      }
+    ],
+    "base_payload": "payloads/CALL_0203.npz",
+    "base_payload_sha256": "9d06491ff0f3a4b3ee6526360ad25e2cc98e37a577ec740f7265f77dedbca1d0"
+  },
+  {
+    "id": "t01_102_goal_fronted_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Celia, Basil sent Agnes.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Agnes",
+    "generated_tokens": [
+      4598,
+      4873
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Agnes",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Celia",
+    "full_name_margin": -3.2031283126334102,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Agnes": -0.03984002971826328,
+      "Basil": -12.52421327920218,
+      "Celia": -3.2429683423516735
+    },
+    "candidate_paths": {
+      "Agnes": [
+        {
+          "tokens": [
+            4598,
+            4873
+          ],
+          "log_probability": -0.03984002971826328,
+          "terms": [
+            -0.039838279202179194,
+            -1.7505160840869394e-06
+          ]
+        }
+      ],
+      "Basil": [
+        {
+          "tokens": [
+            65970
+          ],
+          "log_probability": -12.52421327920218,
+          "terms": [
+            -12.52421327920218
+          ]
+        }
+      ],
+      "Celia": [
+        {
+          "tokens": [
+            356,
+            35929
+          ],
+          "log_probability": -3.2429683423516735,
+          "terms": [
+            -3.242963279202179,
+            -5.0631494943331745e-06
+          ]
+        }
+      ]
+    },
+    "base_call": 214,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 214
+      },
+      {
+        "prefix": [
+          356
+        ],
+        "call": 216
+      },
+      {
+        "prefix": [
+          4598
+        ],
+        "call": 215
+      },
+      {
+        "prefix": [
+          4598,
+          4873
+        ],
+        "call": 217
+      }
+    ],
+    "base_payload": "payloads/CALL_0214.npz",
+    "base_payload_sha256": "7d8e5222b3bc5d992f6500ed801acb14bf5499cd1c79f94b9aa6bee6c7e5c38c"
+  },
+  {
+    "id": "t01_120_goal_fronted_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Agnes, Basil sent Celia.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Celia",
+    "generated_tokens": [
+      356,
+      35929
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Celia",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Agnes",
+    "full_name_margin": -7.375017173785764,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Agnes": -7.375731483615109,
+      "Basil": -9.438209642546777,
+      "Celia": -0.0007143098293447281
+    },
+    "candidate_paths": {
+      "Agnes": [
+        {
+          "tokens": [
+            4598,
+            4873
+          ],
+          "log_probability": -7.375731483615109,
+          "terms": [
+            -7.375709642546777,
+            -2.184106833169608e-05
+          ]
+        }
+      ],
+      "Basil": [
+        {
+          "tokens": [
+            65970
+          ],
+          "log_probability": -9.438209642546777,
+          "terms": [
+            -9.438209642546777
+          ]
+        }
+      ],
+      "Celia": [
+        {
+          "tokens": [
+            356,
+            35929
+          ],
+          "log_probability": -0.0007143098293447281,
+          "terms": [
+            -0.0007096425467771894,
+            -4.6672825675386775e-06
+          ]
+        }
+      ]
+    },
+    "base_call": 261,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 261
+      },
+      {
+        "prefix": [
+          356
+        ],
+        "call": 263
+      },
+      {
+        "prefix": [
+          356,
+          35929
+        ],
+        "call": 264
+      },
+      {
+        "prefix": [
+          4598
+        ],
+        "call": 262
+      }
+    ],
+    "base_payload": "payloads/CALL_0261.npz",
+    "base_payload_sha256": "441c5ee3223bd47d85f91573371a423694bf1e1fc6410b9ee9e7f98d7d324da0"
+  },
+  {
+    "id": "t02_102_goal_fronted_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      0,
+      2
+    ],
+    "form": "goal_fronted",
+    "source": "To Florian, Esther sent Dorian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Dorian",
+    "generated_tokens": [
+      422,
+      22090
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Dorian",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Florian",
+    "full_name_margin": -1.0468723320544342,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -0.3009423848483266,
+      "Esther": -10.34781471690276,
+      "Florian": -1.3478147169027608
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            422,
+            22090
+          ],
+          "log_probability": -0.3009423848483266,
+          "terms": [
+            -0.3009397169027608,
+            -2.667945565804075e-06
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            83638
+          ],
+          "log_probability": -10.34781471690276,
+          "terms": [
+            -10.34781471690276
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            96056
+          ],
+          "log_probability": -1.3478147169027608,
+          "terms": [
+            -1.3478147169027608
+          ]
+        }
+      ]
+    },
+    "base_call": 320,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 320
+      },
+      {
+        "prefix": [
+          422
+        ],
+        "call": 322
+      },
+      {
+        "prefix": [
+          422,
+          22090
+        ],
+        "call": 323
+      }
+    ],
+    "base_payload": "payloads/CALL_0320.npz",
+    "base_payload_sha256": "7fe626d454c3419a072078d8ee2e1b5c948da59224af0bf1635772c7c2b60fab"
+  },
+  {
+    "id": "t02_210_goal_fronted_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      1,
+      0
+    ],
+    "form": "goal_fronted",
+    "source": "To Dorian, Florian sent Esther.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Esther",
+    "generated_tokens": [
+      83638
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Esther",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Dorian",
+    "full_name_margin": -4.5000053363605375,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -4.512038732369803,
+      "Esther": -0.012033396009265118,
+      "Florian": -6.965158396009265
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            422,
+            22090
+          ],
+          "log_probability": -4.512038732369803,
+          "terms": [
+            -4.512033396009265,
+            -5.3363605374556755e-06
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            83638
+          ],
+          "log_probability": -0.012033396009265118,
+          "terms": [
+            -0.012033396009265118
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            96056
+          ],
+          "log_probability": -6.965158396009265,
+          "terms": [
+            -6.965158396009265
+          ]
+        }
+      ]
+    },
+    "base_call": 339,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 339
+      },
+      {
+        "prefix": [
+          422
+        ],
+        "call": 340
+      },
+      {
+        "prefix": [
+          83638
+        ],
+        "call": 341
+      }
+    ],
+    "base_payload": "payloads/CALL_0339.npz",
+    "base_payload_sha256": "9c718742836d861a2154c7b32b2f6e60c6132d926507d8137d0eab093cdeffc5"
+  },
+  {
+    "id": "t01_021_active_q2",
+    "family": "t01",
+    "split": "development",
+    "assignment": [
+      0,
+      2,
+      1
+    ],
+    "form": "active",
+    "source": "Agnes sent Celia to Basil.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Celia",
+    "generated_tokens": [
+      356,
+      35929
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Celia",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Basil",
+    "full_name_margin": -8.906242879887621,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Agnes": -14.656451427315684,
+      "Basil": -8.90638707581677,
+      "Celia": -0.0001441959291490491
+    },
+    "candidate_paths": {
+      "Agnes": [
+        {
+          "tokens": [
+            4598,
+            4873
+          ],
+          "log_probability": -14.656451427315684,
+          "terms": [
+            -14.65638707581677,
+            -6.435149891359515e-05
+          ]
+        }
+      ],
+      "Basil": [
+        {
+          "tokens": [
+            65970
+          ],
+          "log_probability": -8.90638707581677,
+          "terms": [
+            -8.90638707581677
+          ]
+        }
+      ],
+      "Celia": [
+        {
+          "tokens": [
+            356,
+            35929
+          ],
+          "log_probability": -0.0001441959291490491,
+          "terms": [
+            -0.00013707581677024905,
+            -7.120112378800059e-06
+          ]
+        }
+      ]
+    },
+    "base_call": 350,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 350
+      },
+      {
+        "prefix": [
+          356
+        ],
+        "call": 352
+      },
+      {
+        "prefix": [
+          356,
+          35929
+        ],
+        "call": 354
+      },
+      {
+        "prefix": [
+          4598
+        ],
+        "call": 351
+      }
+    ],
+    "base_payload": "payloads/CALL_0350.npz",
+    "base_payload_sha256": "66c2de7051361a18f6de47b132e7b9ce2731a4f5b016f2a5bda53005383daf00"
+  },
+  {
+    "id": "t02_201_active_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      2,
+      0,
+      1
+    ],
+    "form": "active",
+    "source": "Florian sent Dorian to Esther.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Dorian",
+    "generated_tokens": [
+      422,
+      22090
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Dorian",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Esther",
+    "full_name_margin": -2.671870899911024,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -0.0668685197483967,
+      "Esther": -2.738739419659421,
+      "Florian": -21.27780191965942
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            422,
+            22090
+          ],
+          "log_probability": -0.0668685197483967,
+          "terms": [
+            -0.0668644196594208,
+            -4.1000889758890935e-06
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            83638
+          ],
+          "log_probability": -2.738739419659421,
+          "terms": [
+            -2.738739419659421
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            96056
+          ],
+          "log_probability": -21.27780191965942,
+          "terms": [
+            -21.27780191965942
+          ]
+        }
+      ]
+    },
+    "base_call": 361,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 361
+      },
+      {
+        "prefix": [
+          422
+        ],
+        "call": 362
+      },
+      {
+        "prefix": [
+          422,
+          22090
+        ],
+        "call": 363
+      }
+    ],
+    "base_payload": "payloads/CALL_0361.npz",
+    "base_payload_sha256": "a6298e899b174ba398276c5f8e65d7fb36f07e142d1ca2c884da8622d1cfa416"
+  },
+  {
+    "id": "t02_012_passive_q0",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Esther was sent to Florian by Dorian.",
+    "question": "Who sent someone to another person?",
+    "query_role": "sender",
+    "generated_text": " Esther",
+    "generated_tokens": [
+      83638
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Esther",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Dorian",
+    "full_name_margin": -3.578129899714426,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -3.605696877611628,
+      "Esther": -0.02756697789720164,
+      "Florian": -17.0197544778972
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            422,
+            22090
+          ],
+          "log_probability": -3.605696877611628,
+          "terms": [
+            -3.6056919778972016,
+            -4.899714426187529e-06
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            83638
+          ],
+          "log_probability": -0.02756697789720164,
+          "terms": [
+            -0.02756697789720164
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            96056
+          ],
+          "log_probability": -17.0197544778972,
+          "terms": [
+            -17.0197544778972
+          ]
+        }
+      ]
+    },
+    "base_call": 376,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 376
+      },
+      {
+        "prefix": [
+          422
+        ],
+        "call": 377
+      },
+      {
+        "prefix": [
+          83638
+        ],
+        "call": 378
+      }
+    ],
+    "base_payload": "payloads/CALL_0376.npz",
+    "base_payload_sha256": "244410a96a277c450c0d67dcdb56c1d3b3bf07ef16f5ee712d79232bd8071caa"
+  },
+  {
+    "id": "t02_012_passive_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      0,
+      1,
+      2
+    ],
+    "form": "passive",
+    "source": "Esther was sent to Florian by Dorian.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Esther",
+    "generated_tokens": [
+      83638
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Esther",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Florian",
+    "full_name_margin": -1.84375,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -18.295386669417393,
+      "Esther": -0.14693918061329825,
+      "Florian": -1.9906891806132982
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            422,
+            22090
+          ],
+          "log_probability": -18.295386669417393,
+          "terms": [
+            -18.2953766806133,
+            -9.988804094973602e-06
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            83638
+          ],
+          "log_probability": -0.14693918061329825,
+          "terms": [
+            -0.14693918061329825
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            96056
+          ],
+          "log_probability": -1.9906891806132982,
+          "terms": [
+            -1.9906891806132982
+          ]
+        }
+      ]
+    },
+    "base_call": 382,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 382
+      },
+      {
+        "prefix": [
+          422
+        ],
+        "call": 383
+      },
+      {
+        "prefix": [
+          83638
+        ],
+        "call": 384
+      }
+    ],
+    "base_payload": "payloads/CALL_0382.npz",
+    "base_payload_sha256": "5572bea9479e4d3aee66c273c9cb7597b54688e09cd6ba21a84d4ed278007cc0"
+  },
+  {
+    "id": "t02_120_passive_q2",
+    "family": "t02",
+    "split": "development",
+    "assignment": [
+      1,
+      2,
+      0
+    ],
+    "form": "passive",
+    "source": "Florian was sent to Dorian by Esther.",
+    "question": "Who was someone sent to?",
+    "query_role": "destination_person",
+    "generated_text": " Florian",
+    "generated_tokens": [
+      96056
+    ],
+    "eos_id": 151645,
+    "terminated": true,
+    "actual": "Florian",
+    "native_correct": false,
+    "format_compliant": true,
+    "gold": "Dorian",
+    "full_name_margin": -5.5937520045808,
+    "score_correct": false,
+    "candidate_log_probabilities": {
+      "Dorian": -5.597482018661587,
+      "Esther": -28.640448764080787,
+      "Florian": -0.003730014080787214
+    },
+    "candidate_paths": {
+      "Dorian": [
+        {
+          "tokens": [
+            422,
+            22090
+          ],
+          "log_probability": -5.597482018661587,
+          "terms": [
+            -5.597480014080787,
+            -2.0045808000190846e-06
+          ]
+        }
+      ],
+      "Esther": [
+        {
+          "tokens": [
+            83638
+          ],
+          "log_probability": -28.640448764080787,
+          "terms": [
+            -28.640448764080787
+          ]
+        }
+      ],
+      "Florian": [
+        {
+          "tokens": [
+            96056
+          ],
+          "log_probability": -0.003730014080787214,
+          "terms": [
+            -0.003730014080787214
+          ]
+        }
+      ]
+    },
+    "base_call": 392,
+    "logit_prefix_calls": [
+      {
+        "prefix": [],
+        "call": 392
+      },
+      {
+        "prefix": [
+          422
+        ],
+        "call": 393
+      },
+      {
+        "prefix": [
+          96056
+        ],
+        "call": 394
+      }
+    ],
+    "base_payload": "payloads/CALL_0392.npz",
+    "base_payload_sha256": "833c4c35621bd9079df32389498647730e39cbc529d70a42e2ce4dbb515a313d"
+  }
+]

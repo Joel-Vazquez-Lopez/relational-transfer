@@ -1,0 +1,146 @@
+{
+  "scope": "108 fixed development prompts, two AI-authored name families, one local quantized Qwen checkpoint. Eligibility only; not causal or population evidence.",
+  "native_correct": 86,
+  "n": 108,
+  "complete_three_question_units": 15,
+  "n_three_question_units": 36,
+  "summary": [
+    {
+      "family": "t01",
+      "form": "active",
+      "answers": 18,
+      "native_correct": 15,
+      "score_correct": 15,
+      "format_compliant": 18,
+      "three_question_complete": 3,
+      "three_question_units": 6
+    },
+    {
+      "family": "t01",
+      "form": "passive",
+      "answers": 18,
+      "native_correct": 13,
+      "score_correct": 13,
+      "format_compliant": 18,
+      "three_question_complete": 1,
+      "three_question_units": 6
+    },
+    {
+      "family": "t01",
+      "form": "goal_fronted",
+      "answers": 18,
+      "native_correct": 16,
+      "score_correct": 16,
+      "format_compliant": 18,
+      "three_question_complete": 4,
+      "three_question_units": 6
+    },
+    {
+      "family": "t02",
+      "form": "active",
+      "answers": 18,
+      "native_correct": 14,
+      "score_correct": 14,
+      "format_compliant": 18,
+      "three_question_complete": 2,
+      "three_question_units": 6
+    },
+    {
+      "family": "t02",
+      "form": "passive",
+      "answers": 18,
+      "native_correct": 13,
+      "score_correct": 13,
+      "format_compliant": 18,
+      "three_question_complete": 2,
+      "three_question_units": 6
+    },
+    {
+      "family": "t02",
+      "form": "goal_fronted",
+      "answers": 18,
+      "native_correct": 15,
+      "score_correct": 15,
+      "format_compliant": 18,
+      "three_question_complete": 3,
+      "three_question_units": 6
+    }
+  ],
+  "pair_summary": [
+    {
+      "family": "t01",
+      "invariant_role": "sender",
+      "cross_form_pairs": 18,
+      "eligible": 3
+    },
+    {
+      "family": "t01",
+      "invariant_role": "sent_person",
+      "cross_form_pairs": 18,
+      "eligible": 5
+    },
+    {
+      "family": "t01",
+      "invariant_role": "destination_person",
+      "cross_form_pairs": 18,
+      "eligible": 2
+    },
+    {
+      "family": "t02",
+      "invariant_role": "sender",
+      "cross_form_pairs": 18,
+      "eligible": 3
+    },
+    {
+      "family": "t02",
+      "invariant_role": "sent_person",
+      "cross_form_pairs": 18,
+      "eligible": 2
+    },
+    {
+      "family": "t02",
+      "invariant_role": "destination_person",
+      "cross_form_pairs": 18,
+      "eligible": 3
+    }
+  ],
+  "family_gates": [
+    {
+      "family": "t01",
+      "forms_covered": {
+        "active": true,
+        "passive": true,
+        "goal_fronted": true
+      },
+      "invariant_roles_covered": {
+        "sender": true,
+        "sent_person": true,
+        "destination_person": true
+      },
+      "passed": true
+    },
+    {
+      "family": "t02",
+      "forms_covered": {
+        "active": true,
+        "passive": true,
+        "goal_fronted": true
+      },
+      "invariant_roles_covered": {
+        "sender": true,
+        "sent_person": true,
+        "destination_person": true
+      },
+      "passed": true
+    }
+  ],
+  "eligible_pairs": 28,
+  "n_pairs": 162,
+  "baseline_ready_for_causal_protocol": true,
+  "decision": "BASELINE_READY_FOR_CAUSAL_PROTOCOL",
+  "scientific_interventions": 0,
+  "held_out_answers": 0,
+  "new_p_values": 0,
+  "technical_checks": 466,
+  "technical_checks_passed": true
+}
