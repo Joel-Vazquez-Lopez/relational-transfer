@@ -1,0 +1,324 @@
+{
+  "status": "discovery_only",
+  "selected_after": "D04_A_B",
+  "conditions": {
+    "C_degree_balanced_matching_holes": {
+      "per_model": {
+        "1701": {
+          "withheld": {
+            "n": 3,
+            "symbol_delta": 0.7337408065795898,
+            "value_projection_gain": 0.4467377691812642,
+            "key_projection_gain": 0.4868771615793975,
+            "full_value_gain": 3.6577150407490127
+          },
+          "observed": {
+            "n": 12,
+            "symbol_delta": 1.047253891825676,
+            "value_projection_gain": 0.9422414285288464,
+            "key_projection_gain": 0.5901269833175208,
+            "full_value_gain": 8.077143263121823
+          }
+        },
+        "1702": {
+          "withheld": {
+            "n": 3,
+            "symbol_delta": 0.757799764474233,
+            "value_projection_gain": 0.3722614597455609,
+            "key_projection_gain": 0.43807116309673955,
+            "full_value_gain": 2.8244370176541125
+          },
+          "observed": {
+            "n": 12,
+            "symbol_delta": 1.131260484457016,
+            "value_projection_gain": 1.028051650514254,
+            "key_projection_gain": 0.48380294194288265,
+            "full_value_gain": 8.019240783120463
+          }
+        },
+        "1703": {
+          "withheld": {
+            "n": 3,
+            "symbol_delta": 0.7075393994649252,
+            "value_projection_gain": 0.437104410871596,
+            "key_projection_gain": 0.43370616540904655,
+            "full_value_gain": 3.317169619863044
+          },
+          "observed": {
+            "n": 12,
+            "symbol_delta": 1.1268754303455353,
+            "value_projection_gain": 0.9978988680121659,
+            "key_projection_gain": 0.5180364866380075,
+            "full_value_gain": 7.765031532323501
+          }
+        }
+      },
+      "edges": {
+        "0-1": {
+          "support": "withheld",
+          "symbol_delta": 0.8348225553830465,
+          "value_projection_gain": 0.41330286233195473,
+          "key_projection_gain": 0.4827123023583398,
+          "full_value_gain": 3.1475217081552667
+        },
+        "0-2": {
+          "support": "observed",
+          "symbol_delta": 1.107483983039856,
+          "value_projection_gain": 0.9243142536605772,
+          "key_projection_gain": 0.5532418059411118,
+          "full_value_gain": 7.509377227455676
+        },
+        "0-3": {
+          "support": "observed",
+          "symbol_delta": 1.1485942602157593,
+          "value_projection_gain": 0.9275228223823538,
+          "key_projection_gain": 0.5636795485306619,
+          "full_value_gain": 7.342519331349217
+        },
+        "0-4": {
+          "support": "observed",
+          "symbol_delta": 1.1252998113632202,
+          "value_projection_gain": 0.9226779676224987,
+          "key_projection_gain": 0.6010384688642064,
+          "full_value_gain": 7.274561117393039
+        },
+        "0-5": {
+          "support": "observed",
+          "symbol_delta": 1.0940490166346233,
+          "value_projection_gain": 0.9534782237432663,
+          "key_projection_gain": 0.5922239228449899,
+          "full_value_gain": 7.809433636157755
+        },
+        "1-2": {
+          "support": "observed",
+          "symbol_delta": 1.0861621697743733,
+          "value_projection_gain": 0.942277011732601,
+          "key_projection_gain": 0.5040651034123199,
+          "full_value_gain": 7.478890055687356
+        },
+        "1-3": {
+          "support": "observed",
+          "symbol_delta": 1.1369818449020386,
+          "value_projection_gain": 0.939177630736704,
+          "key_projection_gain": 0.5240079598813442,
+          "full_value_gain": 7.256028175227008
+        },
+        "1-4": {
+          "support": "observed",
+          "symbol_delta": 1.134038766225179,
+          "value_projection_gain": 0.9679859761307569,
+          "key_projection_gain": 0.5499652428171542,
+          "full_value_gain": 7.553796159820677
+        },
+        "1-5": {
+          "support": "observed",
+          "symbol_delta": 1.0934329827626545,
+          "value_projection_gain": 1.00772304259598,
+          "key_projection_gain": 0.5445029354845704,
+          "full_value_gain": 8.135905323074242
+        },
+        "2-3": {
+          "support": "withheld",
+          "symbol_delta": 0.6734864115715027,
+          "value_projection_gain": 0.4318374303667733,
+          "key_projection_gain": 0.38814461512943205,
+          "full_value_gain": 3.4091563085535666
+        },
+        "2-4": {
+          "support": "observed",
+          "symbol_delta": 1.0789182980855305,
+          "value_projection_gain": 1.068083235086827,
+          "key_projection_gain": 0.46830598392913075,
+          "full_value_gain": 8.643559845818894
+        },
+        "2-5": {
+          "support": "observed",
+          "symbol_delta": 1.0348681410153706,
+          "value_projection_gain": 1.091781580914681,
+          "key_projection_gain": 0.4743723390890932,
+          "full_value_gain": 9.221205632005777
+        },
+        "3-4": {
+          "support": "observed",
+          "symbol_delta": 1.1228719353675842,
+          "value_projection_gain": 1.0387153646104539,
+          "key_projection_gain": 0.48687496951018233,
+          "full_value_gain": 8.273396041488802
+        },
+        "3-5": {
+          "support": "observed",
+          "symbol_delta": 1.0588580171267192,
+          "value_projection_gain": 1.089030679004366,
+          "key_projection_gain": 0.5055873672888783,
+          "full_value_gain": 8.946989768784706
+        },
+        "4-5": {
+          "support": "withheld",
+          "symbol_delta": 0.6907710035641988,
+          "value_projection_gain": 0.410963347099693,
+          "key_projection_gain": 0.4877975725974118,
+          "full_value_gain": 3.2426436615573357
+        }
+      }
+    },
+    "D_path_connectivity_swap": {
+      "per_model": {
+        "1701": {
+          "withheld": {
+            "n": 3,
+            "symbol_delta": 0.8196741342544556,
+            "value_projection_gain": 0.7411644349316274,
+            "key_projection_gain": 0.5910428606807637,
+            "full_value_gain": 6.317979177247131
+          },
+          "observed": {
+            "n": 12,
+            "symbol_delta": 1.10556627313296,
+            "value_projection_gain": 1.100730001023883,
+            "key_projection_gain": 0.6523536686863439,
+            "full_value_gain": 9.54790471311154
+          }
+        },
+        "1702": {
+          "withheld": {
+            "n": 3,
+            "symbol_delta": 0.8628397385279337,
+            "value_projection_gain": 0.8023901002826767,
+            "key_projection_gain": 0.5737010149255147,
+            "full_value_gain": 6.399463778835892
+          },
+          "observed": {
+            "n": 12,
+            "symbol_delta": 1.1536912322044373,
+            "value_projection_gain": 1.1981628340811359,
+            "key_projection_gain": 0.747563876483841,
+            "full_value_gain": 10.005258438774552
+          }
+        },
+        "1703": {
+          "withheld": {
+            "n": 3,
+            "symbol_delta": 0.8872116605440775,
+            "value_projection_gain": 0.7728638066626785,
+            "key_projection_gain": 0.4667748415429487,
+            "full_value_gain": 5.818448694743856
+          },
+          "observed": {
+            "n": 12,
+            "symbol_delta": 1.1616944173971813,
+            "value_projection_gain": 1.1309735236082126,
+            "key_projection_gain": 0.5374492254576908,
+            "full_value_gain": 8.771812424791001
+          }
+        }
+      },
+      "edges": {
+        "0-1": {
+          "support": "observed",
+          "symbol_delta": 1.1125468015670776,
+          "value_projection_gain": 1.1285841010507773,
+          "key_projection_gain": 0.7107493400396079,
+          "full_value_gain": 9.389929255962805
+        },
+        "0-2": {
+          "support": "withheld",
+          "symbol_delta": 0.740287701288859,
+          "value_projection_gain": 0.3979281095180567,
+          "key_projection_gain": 0.5000288541491504,
+          "full_value_gain": 3.2557596098976824
+        },
+        "0-3": {
+          "support": "observed",
+          "symbol_delta": 1.191637436548869,
+          "value_projection_gain": 1.1083807643218382,
+          "key_projection_gain": 0.6078689119213135,
+          "full_value_gain": 8.88479357811305
+        },
+        "0-4": {
+          "support": "observed",
+          "symbol_delta": 1.220617413520813,
+          "value_projection_gain": 1.1724680555548659,
+          "key_projection_gain": 0.6002006438341839,
+          "full_value_gain": 9.392889464208451
+        },
+        "0-5": {
+          "support": "observed",
+          "symbol_delta": 1.140727122624715,
+          "value_projection_gain": 1.1606749366931075,
+          "key_projection_gain": 0.6270560432171274,
+          "full_value_gain": 9.792606771321175
+        },
+        "1-2": {
+          "support": "observed",
+          "symbol_delta": 1.0882149934768677,
+          "value_projection_gain": 1.1365898452043959,
+          "key_projection_gain": 0.653149310919631,
+          "full_value_gain": 9.606981111066574
+        },
+        "1-3": {
+          "support": "observed",
+          "symbol_delta": 1.1024301449457805,
+          "value_projection_gain": 1.1029815899100857,
+          "key_projection_gain": 0.8227315242153203,
+          "full_value_gain": 8.934548741246267
+        },
+        "1-4": {
+          "support": "observed",
+          "symbol_delta": 1.201078176498413,
+          "value_projection_gain": 1.1569361712838724,
+          "key_projection_gain": 0.7444431240654437,
+          "full_value_gain": 9.430917848252541
+        },
+        "1-5": {
+          "support": "observed",
+          "symbol_delta": 1.028206507364909,
+          "value_projection_gain": 1.1382228361683797,
+          "key_projection_gain": 0.6554220302963788,
+          "full_value_gain": 9.726751737707962
+        },
+        "2-3": {
+          "support": "observed",
+          "symbol_delta": 1.152001937230428,
+          "value_projection_gain": 1.109985139440742,
+          "key_projection_gain": 0.5882830776053858,
+          "full_value_gain": 9.028783389085582
+        },
+        "2-4": {
+          "support": "observed",
+          "symbol_delta": 1.1941234270731609,
+          "value_projection_gain": 1.1573718529886718,
+          "key_projection_gain": 0.5925056746741219,
+          "full_value_gain": 9.403112992082646
+        },
+        "2-5": {
+          "support": "observed",
+          "symbol_delta": 1.086957852045695,
+          "value_projection_gain": 1.1732075000481172,
+          "key_projection_gain": 0.5730938455720027,
+          "full_value_gain": 10.015173839237521
+        },
+        "3-4": {
+          "support": "withheld",
+          "symbol_delta": 0.9262116948763529,
+          "value_projection_gain": 0.9269266413366934,
+          "key_projection_gain": 0.5088492103471274,
+          "full_value_gain": 7.252831447966443
+        },
+        "3-5": {
+          "support": "observed",
+          "symbol_delta": 1.1652658780415852,
+          "value_projection_gain": 1.1740626421880729,
+          "key_projection_gain": 0.5739635561509865,
+          "full_value_gain": 9.693413578423803
+        },
+        "4-5": {
+          "support": "withheld",
+          "symbol_delta": 0.9032261371612549,
+          "value_projection_gain": 0.9915635910222323,
+          "key_projection_gain": 0.6226406526529492,
+          "full_value_gain": 8.027300592962753
+        }
+      }
+    }
+  }
+}

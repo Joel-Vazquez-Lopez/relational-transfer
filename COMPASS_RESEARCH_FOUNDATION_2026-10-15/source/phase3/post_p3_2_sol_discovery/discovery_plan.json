@@ -1,0 +1,713 @@
+{
+  "status": "discovery_only",
+  "canonical_endpoint": "P3.2-E",
+  "source_root": "/Users/joelvazquezlopez/Documents/Codex/2026-09-08/files-pasted-by-the-user-you",
+  "protected_boundary": "Never open, load, evaluate, or scientifically hash seeds 1704-1706 or marked protected artifacts.",
+  "permitted_models": ["A_original_clique_hole", "B_relocated_clique_hole", "C_degree_balanced_matching_holes", "D_path_connectivity_swap"],
+  "permitted_seeds": [1701, 1702, 1703],
+  "diagnostics": [
+    {
+      "id": "D01",
+      "status": "planned_before_results",
+      "hypotheses": [
+        "Training support changes the formation or amplification of query endpoint contrasts across encoder stages.",
+        "A boring alternative is that any support effect is already present in input/embedding geometry or is only a global output scale.",
+        "Another alternative is that endpoint contrasts remain large but are poorly aligned with candidate distinctions at the scorer."
+      ],
+      "inputs": ["configs/d5_graphs.json", "phase3/p3_0_r/response_index.csv", "phase3/p3_0_r/shards/{A,B,C,D}_seed_{1701,1702,1703}.npz"],
+      "script": "diagnostic_01.py",
+      "planned_outputs": ["d01_rows.csv", "d01_summary.csv", "d01_manifest.json"],
+      "adaptive": false,
+      "analysis_scope": "Archived I and E interventions; individual model is the replication unit; all findings exploratory."
+    },
+    {
+      "id": "D01R",
+      "status": "selected_after_D01_rows",
+      "hypotheses": ["The stage at which observed versus withheld endpoint differences diverge can distinguish embedding, block, and final-normalization accounts."],
+      "inputs": ["d01_summary.csv"],
+      "script": "diagnostic_01_review.py",
+      "planned_outputs": ["d01_review.json"],
+      "adaptive": true,
+      "selection_note": "Chosen after confirming the archived atlas contains I transitions in observed-observed and withheld-withheld strata for A/B."
+    },
+    {
+      "id": "D02",
+      "status": "planned_after_D01_before_D02_results",
+      "hypotheses": [
+        "The D01 block-0 CLS suppression could be inherited from collapsed learned input symbol embeddings for source identity pairs.",
+        "Alternatively, raw source-token distances may be comparable while block 0 selectively suppresses their transfer to CLS depending on query context or support topology."
+      ],
+      "inputs": ["configs/d5_graphs.json", "phase3/p3_0_r/response_index.csv", "phase3/p3_0_r/shards/{A,B,C,D}_seed_{1701,1702,1703}.npz"],
+      "script": "diagnostic_02.py",
+      "planned_outputs": ["d02_rows.csv", "d02_summary.csv", "d02_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Archived I interventions only; compare stage-0 changed source token, post-block CLS, and final query by source-pair support; report model-level means."
+    },
+    {
+      "id": "D03",
+      "status": "planned_after_D02_before_D03_results",
+      "hypotheses": [
+        "A support-dependent first attention write could arise predominantly from changed value vectors, attention weights, or their interaction.",
+        "If value geometry alone explains the hole, base-attention-weighted value changes should retain the observed/withheld gap; if attention routing matters, weight-change terms or their cancellation should differ."
+      ],
+      "inputs": ["phase3/p3_0_r/response_index.csv", "phase3/p3_0_r/shards/{A,B,C,D}_seed_{1701,1702,1703}.npz", "results/d5_topology/runs/{A,B,C,D}/seed_{1701,1702,1703}/checkpoint.pt"],
+      "script": "diagnostic_03.py",
+      "planned_outputs": ["d03_rows.csv", "d03_summary.csv", "d03_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Exact block-0 CLS attention recomputation for archived I branches, with equality checks against archived post-block state; per-model summaries, discovery only."
+    },
+    {
+      "id": "D03R",
+      "status": "selected_after_D03_results",
+      "hypotheses": ["Model-level averages of exact block-0 terms can reveal whether the support gap is dominated by value geometry, attention-weight routing, or cancellations."],
+      "inputs": ["d03_summary.csv"],
+      "script": "diagnostic_03_review.py",
+      "planned_outputs": ["d03_review.json"],
+      "adaptive": true
+    },
+    {
+      "id": "D04",
+      "status": "planned_after_D03_before_D04_results",
+      "hypotheses": [
+        "The first attention-write suppression may be carried by the learned symbol table itself, token LayerNorm, or the learned key/value projections.",
+        "A support-dependent low-gain direction after controlling input distance would be stronger than the embedding-distance explanation alone."
+      ],
+      "inputs": ["configs/d5_graphs.json", "results/d5_topology/runs/{A,B,C,D}/seed_{1701,1702,1703}/checkpoint.pt"],
+      "script": "diagnostic_04.py",
+      "planned_outputs": ["d04_pairs.csv", "d04_summary.csv", "d04_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "All 15 identity pairs per permitted checkpoint, both source and target token positions; exact pre-attention transforms; no outcomes or fitted model."
+    },
+    {
+      "id": "D04R",
+      "status": "selected_after_D04_results",
+      "hypotheses": ["A/B model-level hole versus opposite-clique comparisons can localize which exact transform contributes most to the gain gap."],
+      "inputs": ["d04_summary.csv"],
+      "script": "diagnostic_04_review.py",
+      "planned_outputs": ["d04_review.json"],
+      "adaptive": true
+    },
+    {
+      "id": "D04C",
+      "status": "selected_after_D04_A_B_results",
+      "hypotheses": ["If low value-projection gain is a general direct-support property rather than a clique-specific artifact, C/D withheld edges should also show lower gain than their observed edges within model."],
+      "inputs": ["d04_pairs.csv"],
+      "script": "diagnostic_04_cd_review.py",
+      "planned_outputs": ["d04_cd_review.json"],
+      "adaptive": true
+    },
+    {
+      "id": "D05",
+      "status": "planned_after_D04C_before_D05_results",
+      "hypotheses": [
+        "Unsupported identity pairs with identical observed-neighbor sets (false twins) may be the true low-sensitivity class, while unsupported pairs with a distinguishing third identity may retain useful separation.",
+        "Directly observed pairs should remain separated even when their other-neighbor sets match, because the pair can co-occur in training scenes.",
+        "The graph class should relate not only to block-0 value gain but to D5 final query displacement and relation accuracy."
+      ],
+      "inputs": ["configs/d5_graphs.json", "d04_pairs.csv", "results/d5_topology/runs/{A,B,C,D}/seed_{1701,1702,1703}/query_displacement_consistency.csv", "results/d5_topology/runs/{A,B,C,D}/seed_{1701,1702,1703}/edge_event_family_cells.csv"],
+      "script": "diagnostic_05.py",
+      "planned_outputs": ["d05_pair_model.csv", "d05_category_model.csv", "d05_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Graph classes fixed by training-support specification; category summaries use models, with pair rows descriptive; discovery only."
+    },
+    {
+      "id": "D06",
+      "status": "planned_after_D05_before_D06_results",
+      "hypotheses": [
+        "The D05 graph class may be perfectly confounded with endpoint degree imbalance in the available support graphs.",
+        "Same-identity cross-condition contrasts can show whether the graph-class pattern survives fixed labels, while exposing which acquisition variables remain inseparable."
+      ],
+      "inputs": ["configs/d5_graphs.json", "d05_pair_model.csv"],
+      "script": "diagnostic_06.py",
+      "planned_outputs": ["d06_graph_features.csv", "d06_paired_contrasts.csv", "d06_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Structural audit and three-seed descriptive paired contrasts; no inferential p-values."
+    },
+    {
+      "id": "D07",
+      "status": "planned_after_D06_before_D07_results",
+      "hypotheses": ["A path-of-three missing-edge topology can hold the withheld pair 1-2 equal in endpoint degree and training-triangle count while giving the two endpoints distinct observed neighbors."],
+      "inputs": ["configs/d5_graphs.json"],
+      "script": "diagnostic_07_graph_design.py",
+      "planned_outputs": ["d07_graph_design.json", "d07_manifest.json"],
+      "adaptive": true
+    },
+    {
+      "id": "D08",
+      "status": "planned_after_D06_before_D07_results",
+      "hypotheses": [
+        "If asymmetric training neighborhoods are sufficient to prevent the collapse seen for A's false-twin 1-2 pair, a new E model should learn a larger block-0 value gain, final query contrast, and unsupported relation performance for 1-2.",
+        "If direct pair co-occurrence is the dominant constraint, E's still-withheld 1-2 pair may remain compressed despite asymmetric neighborhoods."
+      ],
+      "inputs": ["src/d5_topology.py", "src/pilot.py", "configs/pilot.json", "configs/d5_preregistered.json", "d07_graph_design.json"],
+      "script": "exploratory_e_train.py",
+      "planned_outputs": ["exploratory_E/", "d08_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "One new, explicitly exploratory E topology model at seed 2701, 8000 updates, canonical architecture/training code copied by import but outputs redirected; no canonical model retrained."
+    },
+    {
+      "id": "D09",
+      "status": "planned_before_E_model_result",
+      "hypotheses": ["E 1-2 has equal degree and training-triangle exposure to A 1-2, but distinct neighbors. Compare its symbol distance, block-0 value gain, final query displacement, and withheld relation accuracy with the archived A distribution; require familiar reliability before interpretation."],
+      "inputs": ["exploratory_E/runs/E_path3_missing_exploratory/seed_2701/checkpoint.pt", "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/query_displacement_consistency.csv", "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/edge_event_family_cells.csv", "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/metrics.json", "d05_pair_model.csv"],
+      "script": "diagnostic_09_e_compare.py",
+      "planned_outputs": ["d09_e_comparison.json", "d09_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "One E seed versus three A discovery seeds, descriptive only; no inferential test or confirmatory interpretation."
+    },
+    {
+      "id": "D10",
+      "status": "planned_after_D06_before_D10_results_and_before_E_result",
+      "hypotheses": [
+        "The final false-twin low sensitivity may be active suppression during training, or failure to amplify from initialization.",
+        "Exact seeded initialization and frozen speaker weights allow a defensible before/after comparison for permitted discovery models."
+      ],
+      "inputs": ["src/pilot.py", "configs/pilot.json", "results/d5_topology/runs/{A,B,C,D}/seed_{1701,1702,1703}/checkpoint.pt", "d05_pair_model.csv"],
+      "script": "diagnostic_10_initial_vs_final.py",
+      "planned_outputs": ["d10_initial_vs_final.csv", "d10_category_model.csv", "d10_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Exact seed reconstruction validated on frozen speaker weights; all 15 pairs; model-level summaries; no new training or protected seeds."
+    },
+    {
+      "id": "D11",
+      "status": "planned_after_D09_before_D11_results",
+      "hypotheses": ["E 1-2's gain could be explained by unequal marginal training exposure rather than different context identities. Compare the exact finite A/E schedules, triangle counts, oracle source/target exposures, and candidate endpoint exposures."],
+      "inputs": ["d07_graph_design.json", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz", "exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_2701.npz", "src/d5_topology.py"],
+      "script": "diagnostic_11_exposure_audit.py",
+      "planned_outputs": ["d11_exposure_audit.json", "d11_manifest.json"],
+      "adaptive": true
+    },
+    {
+      "id": "D12",
+      "status": "planned_after_D09_before_D12_results",
+      "hypotheses": ["E's 1-2 result might be seed-specific; repeat the same explicitly exploratory topology and unchanged training budget with seeds 2702 and 2703. These are adaptive discovery replications, not independent confirmation."],
+      "inputs": ["d07_graph_design.json", "src/d5_topology.py", "src/pilot.py", "configs/pilot.json", "configs/d5_preregistered.json"],
+      "script": "exploratory_e_replicate.py",
+      "planned_outputs": ["exploratory_E/runs/E_path3_missing_exploratory/seed_2702/", "exploratory_E/runs/E_path3_missing_exploratory/seed_2703/", "d12_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Two additional new exploratory models in dedicated discovery directory, sequential, same graph and budget."
+    },
+    {
+      "id": "D13",
+      "status": "planned_after_D10_and_D09_before_D12_results",
+      "hypotheses": [
+        "The active final-query collapse of false-twin pairs may arise immediately at block 0, only after block 1, or at final normalization.",
+        "The E 1-2 model may follow the observed-pair amplification trajectory or a distinct partial-generalization trajectory."
+      ],
+      "inputs": ["configs/pilot.json", "results/d5_topology/runs/{A,B,C,D}/seed_{1701,1702,1703}/checkpoint.pt", "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/checkpoint.pt", "d05_pair_model.csv", "d07_graph_design.json"],
+      "script": "diagnostic_13_stage_learning.py",
+      "planned_outputs": ["d13_pair_model.csv", "d13_category_model.csv", "d13_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Exact 60 oracle meanings per model at initial and final states, three internal stages; no training or protected seeds."
+    },
+    {
+      "id": "D14",
+      "status": "planned_after_D13_before_D14_results_and_before_D12_results",
+      "hypotheses": [
+        "E 1-2 may retain a large changed-token distinction after block 0 while its CLS remains compressed, allowing block 1 to construct a late decision-useful distinction.",
+        "A 1-2 may also retain token information but fail to write it into CLS at block 1; comparing exact block-1 attention and MLP updates tests this."
+      ],
+      "inputs": ["configs/pilot.json", "results/d5_topology/runs/{A,B,C,D}/seed_{1701,1702,1703}/checkpoint.pt", "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/checkpoint.pt", "configs/d5_graphs.json", "d07_graph_design.json"],
+      "script": "diagnostic_14_block1_route.py",
+      "planned_outputs": ["d14_pair_model.csv", "d14_category_model.csv", "d14_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Exact block-1 attention/MLP reconstruction, fixed 60 oracle meanings, 13 discovery models; no causal mediation claim."
+    },
+    {
+      "id": "D15",
+      "status": "planned_after_D09_before_D12_results",
+      "hypotheses": [
+        "E 1-2 success may survive a newly constructed, exactly shared candidate-scene redirection test where both query alternatives have observed edges to a common third identity.",
+        "A boring explanation is that E's readout is helped by unequal candidate sets or target selection in archived evaluations; same scenes and balanced positions should challenge that.",
+        "Query change, candidate contrast, and their alignment are accounting descriptors, not causal mediators."
+      ],
+      "inputs": ["src/d5_topology.py", "src/pilot.py", "configs/pilot.json", "results/d5_topology/runs/A_original_clique_hole/seed_{1701,1702,1703}/checkpoint.pt", "exploratory_E/runs/E_path3_missing_exploratory/seed_{2701,2702,2703}/checkpoint.pt"],
+      "script": "diagnostic_15_shared_scene_redirection.py",
+      "planned_outputs": ["d15_scene_rows.csv", "d15_model_summary.csv", "d15_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "New shared discovery-only scenes for pair1-2, common observed targets 4/5, two events, source/target redirection, 32 deterministic repetitions/cell; all candidate positions balanced."
+    },
+    {
+      "id": "D16",
+      "status": "planned_after_D09_before_D12_results",
+      "hypotheses": [
+        "The graph-neighbor criterion may be a proxy for a more general training-context signature: the distribution of other-identity pairs in eligible training triangles for each identity.",
+        "Total-variation distance between these signatures may grade learned pair sensitivity, including directly observed pairs and E's three distinct missing edges."
+      ],
+      "inputs": ["configs/d5_graphs.json", "d07_graph_design.json", "d05_pair_model.csv", "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/checkpoint.pt", "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/query_displacement_consistency.csv", "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/edge_event_family_cells.csv"],
+      "script": "diagnostic_16_context_signature.py",
+      "planned_outputs": ["d16_pairs.csv", "d16_model_association.csv", "d16_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Descriptive graph-level context-signature metric and within-model rank associations; no fitted predictive law or independent test."
+    },
+    {
+      "id": "D17",
+      "status": "planned_after_D16_before_D12_results",
+      "hypotheses": [
+        "E's advantage over A on the identical unobserved pair 1-2 may survive matching the model initialization and randomized training schedule to canonical A seed 1701.",
+        "If it does not, prior E results may reflect initialization or schedule variation rather than training context."
+      ],
+      "inputs": ["d07_graph_design.json", "src/d5_topology.py", "src/pilot.py", "configs/pilot.json", "configs/d5_preregistered.json", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz", "results/d5_topology/runs/A_original_clique_hole/seed_1701/checkpoint.pt"],
+      "script": "exploratory_e_matched_seed.py",
+      "planned_outputs": ["exploratory_E/runs/E_path3_missing_exploratory/seed_1701/", "exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_1701.npz", "d17_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "One new discovery-only E model seed 1701; compare to the permitted canonical A seed 1701 without retraining it. Assert schedule index and epoch arrays match exactly and initial state matches by construction."
+    },
+    {
+      "id": "D18",
+      "status": "planned_after_D14_before_D12_results",
+      "hypotheses": [
+        "The changed identity token after block 0 may causally carry E's large final query distinction through block 1, despite small block-0 CLS contrast.",
+        "If other unchanged tokens or CLS account equally well for the distinction, the changed-token route is incomplete."
+      ],
+      "inputs": ["src/d5_topology.py", "src/pilot.py", "configs/pilot.json", "results/d5_topology/runs/A_original_clique_hole/seed_{1701,1702,1703}/checkpoint.pt", "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/checkpoint.pt"],
+      "script": "diagnostic_18_token_patch.py",
+      "planned_outputs": ["d18_patch_rows.csv", "d18_model_summary.csv", "d18_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Patch each block-0 token from the alternative oracle message into the base message before block 1 for pair1-2, targets/sources4/5, both events; compare with full contrast and all-token patch. This is an exploratory hybrid activation intervention."
+    },
+    {
+      "id": "D19",
+      "status": "planned_after_D18_and_D12_results",
+      "hypotheses": [
+        "E source information may be relayed into a specific unchanged message token during block 0, rather than residing in its source token.",
+        "Single-token patches may fail to reconstruct the full contrast if information is distributed or interactions are nonlinear."
+      ],
+      "inputs": ["src/d5_topology.py", "src/pilot.py", "configs/pilot.json", "results/d5_topology/runs/A_original_clique_hole/seed_{1701,1702,1703}/checkpoint.pt", "exploratory_E/runs/E_path3_missing_exploratory/seed_{2701,2702,2703}/checkpoint.pt"],
+      "script": "diagnostic_19_relay_tokens.py",
+      "planned_outputs": ["d19_patch_rows.csv", "d19_model_summary.csv", "d19_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Disaggregate the D18 source patch across source, target, event, padding and CLS tokens, E and A three seeds, two observed common targets and two events."
+    },
+    {
+      "id": "D20",
+      "status": "planned_after_D15_and_D19_before_D17_results",
+      "hypotheses": [
+        "E's superior redirection may involve learned candidate-side separation as well as message-query separation.",
+        "The candidate difference may already be present at initialization or early layers, which would weaken an acquisition-side interpretation."
+      ],
+      "inputs": ["src/d5_topology.py", "src/pilot.py", "configs/pilot.json", "results/d5_topology/runs/A_original_clique_hole/seed_{1701,1702,1703}/checkpoint.pt", "exploratory_E/runs/E_path3_missing_exploratory/seed_{2701,2702,2703}/checkpoint.pt"],
+      "script": "diagnostic_20_candidate_learning.py",
+      "planned_outputs": ["d20_candidate_rows.csv", "d20_model_summary.csv", "d20_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Recreate D15 shared candidate scenes exactly, compare initial and trained candidate encoder contrasts at input projection, block0 CLS, block1 CLS, final normalized CLS; no causal attribution across query/candidate arms."
+    },
+    {
+      "id": "D21",
+      "status": "planned_after_D17_results",
+      "hypotheses": [
+        "The focal A/E difference should survive identical model initialization seed and exact same training schedule index/epoch arrays.",
+        "On D15's exact shared scenes, E1701 may still have larger query/candidate contrast and accurate redirection than A1701."
+      ],
+      "inputs": ["d15_scene_rows.csv", "d17_manifest.json", "src/d5_topology.py", "src/pilot.py", "results/d5_topology/runs/A_original_clique_hole/seed_1701/checkpoint.pt", "exploratory_E/runs/E_path3_missing_exploratory/seed_1701/checkpoint.pt"],
+      "script": "diagnostic_21_matched_readout.py",
+      "planned_outputs": ["d21_scene_rows.csv", "d21_model_summary.csv", "d21_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "A1701 versus new E1701 on exactly D15 shared scenes, query and candidate contrasts, alignment, margins, accuracy."
+    },
+    {
+      "id": "D22",
+      "status": "planned_after_D21_result",
+      "hypotheses": [
+        "The prior phrase 'never cooccur in training' was too broad: identities 1 and 2 can share a rendered scene as endpoint and distractor even when 1-2 is never a queried relation.",
+        "A/E differences in this raw visual co-occurrence could provide a mundane alternative to the training-context account."
+      ],
+      "inputs": ["src/d5_topology.py", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz", "exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_1701.npz", "d07_graph_design.json"],
+      "script": "diagnostic_22_distractor_exposure.py",
+      "planned_outputs": ["d22_exposure.json", "d22_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Exact finite matched A/E schedules; count all candidate scenes with 1 and 2 among source/target/distractor object identities, and individual distractor appearances."
+    },
+    {
+      "id": "D23",
+      "status": "planned_after_D22_result",
+      "hypotheses": [
+        "The E pair1-2 advantage over A should be consistent across all exploratory E seeds on the archive's common withheld evaluation and on D15/D21 shared scenes.",
+        "A model-level table will expose any weak E seed or mismatch between query geometry and behavior."
+      ],
+      "inputs": ["d05_pair_model.csv", "d15_model_summary.csv", "d21_model_summary.csv", "exploratory_E/runs/E_path3_missing_exploratory/seed_{1701,2701,2702,2703}/checkpoint.pt", "exploratory_E/runs/E_path3_missing_exploratory/seed_{1701,2701,2702,2703}/query_displacement_consistency.csv", "exploratory_E/runs/E_path3_missing_exploratory/seed_{1701,2701,2702,2703}/edge_event_family_cells.csv"],
+      "script": "diagnostic_23_focal_synthesis.py",
+      "planned_outputs": ["d23_focal_models.csv", "d23_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Descriptive model-level synthesis for focal missing pair1-2; A three discovery seeds and four E exploratory seeds, with matched A/E seed1701 flagged. No statistical confirmation claim."
+    },
+    {
+      "id": "D24",
+      "status": "planned_before_new_training_this_turn",
+      "hypotheses": [
+        "Under the D5 six-identity, three-missing-edge, 10-triangle and focal 1-2 matched degree/triangle-count constraints, there may be few independent graph interventions beyond A and E.",
+        "A graph edge that never enters an eligible training triangle cannot affect learning through the D5 pool, even though it changes the nominal adjacency graph."
+      ],
+      "inputs": ["src/d5_topology.py", "configs/d5_graphs.json", "d07_graph_design.json"],
+      "script": "diagnostic_24_graph_space.py",
+      "planned_outputs": ["d24_graph_space.csv", "d24_summary.json", "d24_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Enumerate all 455 three-edge missing sets; filter focal missing 1-2, degree and triangle-count matching, total 10 eligible triangles; classify under label permutations fixing focal identities. No model runs."
+    },
+    {
+      "id": "D25",
+      "status": "planned_after_D24_before_modified_task_training",
+      "hypotheses": [
+        "The A graph's false-twin 1-2 collapse may be a property of its four-way comparison generator, not graph adjacency alone.",
+        "Replacing an S-family source or target foil with the observed-relation counterpart that swaps 1 and 2 will create direct task comparisons between them while preserving the queried-edge support graph and avoiding 1-2 relation leakage."
+      ],
+      "inputs": ["src/d5_topology.py", "configs/d5_graphs.json", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz"],
+      "script": "diagnostic_25_comparison_design.py",
+      "planned_outputs": ["d25_comparison_design.json", "d25_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Audit the new F direct-crossfoil task before training: graph unchanged, no withheld semantic query, total pool and schedule unchanged, modified comparison counts and source/target marginal exposures."
+    },
+    {
+      "id": "D26",
+      "status": "planned_after_D25_before_F_outcome",
+      "hypotheses": [
+        "If graph adjacency or false-twin structure alone drives 1-2 collapse, F should remain A-like despite new foil comparisons.",
+        "If task-relevant direct comparisons can prevent collapse, F should separate 1 and 2 despite the unchanged A support graph.",
+        "Early developmental checkpoints may reveal when separation or collapse arises."
+      ],
+      "inputs": ["diagnostic_25_comparison_design.py", "d25_comparison_design.json", "src/d5_topology.py", "src/pilot.py", "configs/pilot.json", "configs/d5_preregistered.json", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz"],
+      "script": "exploratory_f_crossfoil_train.py",
+      "planned_outputs": ["exploratory_F_direct_crossfoil/seed_1701/", "d26_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "New discovery-only A-topology F model seed1701, exact canonical A1701 initialization and schedule, altered S-family foils, snapshots at updates 0,100,500,1000,2000,4000,8000, canonical evaluation at final."
+    },
+    {
+      "id": "D27",
+      "status": "planned_after_D25_before_F_or_G_outcomes",
+      "hypotheses": [
+        "F's direct crossfoils increase focal identity frequency by about one eighth; frequency alone may rescue 1-2 contrast.",
+        "A symmetric frequency-upsampled A schedule can match F's focal source/target/candidate exposures while retaining zero direct 1-2 comparisons."
+      ],
+      "inputs": ["src/d5_topology.py", "d25_comparison_design.json", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz"],
+      "script": "diagnostic_27_frequency_design.py",
+      "planned_outputs": ["exploratory_G_frequency_upsampled_A/schedule_seed_1701.npz", "d27_frequency_design.json", "d27_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Symmetrically remap approximately one eighth each of 0-triangle examples to corresponding 1- and 2-triangle pool entries; retain canonical A qset and 1-2 comparison absence; audit exact marginal exposures."
+    },
+    {
+      "id": "D28",
+      "status": "planned_after_D27_before_F_or_G_outcomes",
+      "hypotheses": [
+        "If higher marginal exposure alone rescues the focal pair, G should develop F-like query/candidate contrast and redirection.",
+        "If direct comparative task structure matters, G should remain A-like despite nearly F-matched 1/2 frequencies."
+      ],
+      "inputs": ["d27_frequency_design.json", "exploratory_G_frequency_upsampled_A/schedule_seed_1701.npz", "src/d5_topology.py", "src/pilot.py", "configs/pilot.json", "configs/d5_preregistered.json"],
+      "script": "exploratory_g_frequency_train.py",
+      "planned_outputs": ["exploratory_G_frequency_upsampled_A/seed_1701/", "d28_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "New discovery-only A-topology model seed1701, canonical A qset, modified symmetric frequency schedule, same 8000 updates and developmental snapshots as F; canonical evaluation."
+    },
+    {
+      "id": "D29",
+      "status": "planned_before_D26_D28_outcomes",
+      "hypotheses": [
+        "F and G should start with exactly identical query/candidate geometry, then diverge if task comparisons rather than marginal exposure govern learning.",
+        "The divergence may emerge gradually or at a distinct training stage; query and candidate arms may change at different times."
+      ],
+      "inputs": ["exploratory_F_direct_crossfoil/seed_1701/checkpoint_step_*.pt", "exploratory_G_frequency_upsampled_A/seed_1701/checkpoint_step_*.pt", "src/d5_topology.py", "src/pilot.py", "d15_scene_rows.csv"],
+      "script": "diagnostic_29_developmental_readout.py",
+      "planned_outputs": ["d29_developmental.csv", "d29_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Fixed D15 shared scene recipe at updates 0,100,500,1000,2000,4000,8000; pair1-2 source/target query delta, candidate contrast, alignment, redirection; no post-outcome measure selection."
+    },
+    {
+      "id": "D30",
+      "status": "planned_before_D26_D28_outcomes",
+      "hypotheses": [
+        "The graph of directly compared source/target identity alternatives is a closer description of supervision than the observed-relation graph.",
+        "Simple comparison-graph connectivity or effective resistance may still fail: A and E can both have indirect paths between 1 and 2 while learning very different distinctions."
+      ],
+      "inputs": ["src/d5_topology.py", "comparison_f.py", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz", "exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_1701.npz", "exploratory_G_frequency_upsampled_A/schedule_seed_1701.npz"],
+      "script": "diagnostic_30_comparison_graphs.py",
+      "planned_outputs": ["d30_comparison_edges.csv", "d30_summary.json", "d30_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Exact finite A/E/F/G schedules and qsets, identity alternative comparison matrices for source and target at fixed other endpoint/event, normalized exposure, effective resistance. No model outcomes used."
+    },
+    {
+      "id": "D31",
+      "status": "planned_after_F_before_G_outcome",
+      "hypotheses": [
+        "F's separated solution may also solve the original A training task. If so, A's collapse is an optimizer-selected solution, not a necessary consequence of A's training constraints.",
+        "A's collapsed solution should fail the F direct-crossfoil task if those comparisons genuinely require pair1-2 separation."
+      ],
+      "inputs": ["src/d5_topology.py", "src/pilot.py", "comparison_f.py", "results/d5_topology/runs/A_original_clique_hole/seed_1701/checkpoint.pt", "exploratory_F_direct_crossfoil/seed_1701/checkpoint_step_08000.pt", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz"],
+      "script": "diagnostic_31_cross_task_loss.py",
+      "planned_outputs": ["d31_cross_task_loss.csv", "d31_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "No training. Deterministic 8192 schedule indices across complete 1,024,000 A schedule; render/evaluate both A and F task generators with both trained models, same candidate scenes per task."
+    },
+    {
+      "id": "D32",
+      "status": "planned_after_D29_D31_before_switch_outcomes",
+      "hypotheses": [
+        "If original A training actively favors collapse, a separated F solution may lose 1-2 contrast when continued on A, despite already fitting A well.",
+        "If A training merely underdetermines contrast, F→A may retain separation, revealing hysteresis/path dependence.",
+        "A→F should acquire separation if direct comparative gradients can rescue a collapsed solution; same-task A→A and F→F continuations control optimizer reset and extra training."
+      ],
+      "inputs": ["results/d5_topology/runs/A_original_clique_hole/seed_1701/checkpoint.pt", "exploratory_F_direct_crossfoil/seed_1701/checkpoint_step_08000.pt", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz", "src/d5_topology.py", "src/pilot.py", "comparison_f.py"],
+      "script": "exploratory_32_task_switch.py",
+      "planned_outputs": ["exploratory_task_switch/{A_to_A,A_to_F,F_to_A,F_to_F}/", "d32_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Four discovery-only 2000-update continuations from A/F final states, reset AdamW in each, identical A schedule, A or F qset; snapshots at updates 0,100,500,1000,2000; canonical A evaluation at end."
+    },
+    {
+      "id": "D33",
+      "status": "planned_before_D32_switch_outcomes",
+      "hypotheses": [
+        "F→A versus F→F isolates whether ongoing A task pressure erodes already learned separation or whether separation persists by hysteresis.",
+        "A→F versus A→A tests whether direct comparisons reopen a collapsed distinction under the same optimizer reset and training schedule."
+      ],
+      "inputs": ["exploratory_task_switch/{A_to_A,A_to_F,F_to_A,F_to_F}/checkpoint_step_*.pt", "src/d5_topology.py", "src/pilot.py", "d15_scene_rows.csv"],
+      "script": "diagnostic_33_switch_readout.py",
+      "planned_outputs": ["d33_switch_developmental.csv", "d33_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Fixed D15 shared scene recipe and same metrics as D29 at continuation updates 0,100,500,1000,2000 for all four branches."
+    },
+    {
+      "id": "D34",
+      "status": "planned_after_D31_before_D32_outcomes",
+      "hypotheses": [
+        "The A and F trained solutions may be connected by a low-A-loss interpolation path if 1-2 contrast is an approximately unconstrained direction of A's objective.",
+        "A high interpolation barrier would instead show that both solutions fit A but occupy distinct nonlinear basins; F-task loss should rise toward A regardless."
+      ],
+      "inputs": ["src/d5_topology.py", "src/pilot.py", "comparison_f.py", "results/d5_topology/runs/A_original_clique_hole/seed_1701/checkpoint.pt", "exploratory_F_direct_crossfoil/seed_1701/checkpoint_step_08000.pt", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz"],
+      "script": "diagnostic_34_loss_bridge.py",
+      "planned_outputs": ["d34_loss_bridge.csv", "d34_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Linearly interpolate aligned A1701 and F1701 checkpoint tensors at 0,.1,.25,.5,.75,.9,1; evaluate fixed 4096 canonical A/F training scenes, no updates. Interpolation is descriptive, not proof of a low-loss continuous path."
+    },
+    {
+      "id": "D35",
+      "status": "planned_after_D34_before_D32_outcomes",
+      "hypotheses": [
+        "Unsupported pair1-2 behavior may vary sharply along a parameter path where A-task training loss stays near zero.",
+        "If behavior changes only where A loss rises, the apparent underdetermination from D31/D34 is narrower than it looked."
+      ],
+      "inputs": ["results/d5_topology/runs/A_original_clique_hole/seed_1701/checkpoint.pt", "exploratory_F_direct_crossfoil/seed_1701/checkpoint_step_08000.pt", "src/d5_topology.py", "src/pilot.py", "d15_scene_rows.csv", "d34_loss_bridge.csv"],
+      "script": "diagnostic_35_interpolation_behavior.py",
+      "planned_outputs": ["d35_interpolation_behavior.csv", "d35_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Exactly D34 interpolation weights on the fixed D15 source/target redirection scenes; query contrast, candidate contrast, alignment, redirection, after margin; no training."
+    },
+    {
+      "id": "D36",
+      "status": "planned_after_D35_before_D32_outcomes",
+      "hypotheses": [
+        "If different training comparison contexts make 1 and 2 functionally necessary to distinguish, merging their message symbols and candidate identity-input columns should raise the model's own training loss.",
+        "If E's separated solution survives a complete 1/2 input merger on E training scenes, contextual distinguishability is influencing optimization without being a hard task constraint.",
+        "A and G may be relatively insensitive to the merger; F direct-crossfoil training should be sensitive."
+      ],
+      "inputs": ["src/d5_topology.py", "src/pilot.py", "comparison_f.py", "d07_graph_design.json", "results/d5_topology/runs/A_original_clique_hole/seed_1701/checkpoint.pt", "exploratory_E/runs/E_path3_missing_exploratory/seed_1701/checkpoint.pt", "exploratory_F_direct_crossfoil/seed_1701/checkpoint_step_08000.pt", "exploratory_G_frequency_upsampled_A/seed_1701/checkpoint_step_08000.pt"],
+      "script": "diagnostic_36_identity_merger_loss.py",
+      "planned_outputs": ["d36_merger_loss.csv", "d36_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Fixed 4096 training-scene sample per model's own task/schedule; merge input representations of identities1/2 in message symbol table, candidate encoder identity-input columns, separately and jointly at strengths0,.5,1; evaluate loss/accuracy only."
+    },
+    {
+      "id": "D37",
+      "status": "planned_after_D33_outcome",
+      "hypotheses": [
+        "F→A's partial erosion after 2000 updates may continue to A-like collapse under prolonged A optimization.",
+        "Alternatively, a learned separated solution may remain stable or plateau under A because the task admits it, revealing long-lived acquisition hysteresis."
+      ],
+      "inputs": ["exploratory_F_direct_crossfoil/seed_1701/checkpoint_step_08000.pt", "exploratory_task_switch/F_to_A/checkpoint_step_02000.pt", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz", "src/d5_topology.py", "src/pilot.py"],
+      "script": "exploratory_37_long_withdrawal.py",
+      "planned_outputs": ["exploratory_F_to_A_long/seed_1701/", "d37_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "New discovery-only F-final→A continuation for 8000 updates with one uninterrupted new AdamW optimizer; save at0,100,500,1000,2000,4000,8000; assert 2000-update state matches D32 F→A exactly; canonical A evaluation at final."
+    },
+    {
+      "id": "D38",
+      "status": "planned_after_D33_before_D37_outcome",
+      "hypotheses": [
+        "Prolonged A optimization may reduce F-derived source/target query and candidate contrasts, alignment, and unsupported redirection in different orders.",
+        "A plateau above the original A state would support path dependence even after an equal-length A continuation."
+      ],
+      "inputs": ["exploratory_F_to_A_long/seed_1701/checkpoint_step_*.pt", "src/d5_topology.py", "src/pilot.py", "d15_scene_rows.csv"],
+      "script": "diagnostic_38_long_withdrawal_readout.py",
+      "planned_outputs": ["d38_long_withdrawal.csv", "d38_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Fixed D15 shared-scene recipe and D29 metrics at 0,100,500,1000,2000,4000,8000 continued updates; no post-outcome metric selection."
+    },
+    {
+      "id": "D39",
+      "status": "planned_after_D36_before_tied_model_outcome",
+      "hypotheses": [
+        "D36's E loss increase after merging may reflect reliance of a particular learned solution rather than a hard requirement of E's task.",
+        "If an E model with exact 1/2 input ties throughout learning still reaches near-ceiling familiar performance, E task context asymmetry permits a collapsed solution; optimizer inductive bias selects separation.",
+        "If familiar performance remains materially impaired, E comparisons impose a stronger architectural task constraint than A/G."
+      ],
+      "inputs": ["d07_graph_design.json", "src/d5_topology.py", "src/pilot.py", "configs/pilot.json", "configs/d5_preregistered.json", "exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_1701.npz"],
+      "script": "exploratory_39_e_tied_train.py",
+      "planned_outputs": ["exploratory_E_tied_1_2/seed_1701/", "d39_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "New discovery-only E model seed1701, exact E schedule/budget, hard project message symbol rows1/2 and candidate encoder identity-input columns1/2 to equality after every optimizer step; verify ties exactly at snapshots and final; evaluate canonical E task."
+    },
+    {
+      "id": "D40",
+      "status": "planned_before_D39_tied_outcome",
+      "hypotheses": [
+        "A tied E model may fit familiar S/R nearly as well as untied E while necessarily failing to redirect the fully merged 1-2 pair.",
+        "If familiar accuracy degrades materially, the E task may require identity-specific input functions despite no direct 1-2 alternative comparison."
+      ],
+      "inputs": ["exploratory_E/runs/E_path3_missing_exploratory/seed_1701/metrics.json", "exploratory_E_tied_1_2/seed_1701/metrics.json", "exploratory_E_tied_1_2/seed_1701/checkpoint_step_08000.pt", "d23_focal_models.csv"],
+      "script": "diagnostic_40_tied_e_compare.py",
+      "planned_outputs": ["d40_tied_e_comparison.json", "d40_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Descriptive same-graph, same-seed, same-schedule comparison of tied versus untied E familiar/withheld family outcomes; assert exact identity input ties and zero oracle query difference for pair1-2."
+    },
+    {
+      "id": "D41",
+      "status": "planned_after_D29_before_H_training",
+      "hypotheses": [
+        "The G frequency control matched overall 1/2 exposure but not its S-versus-R allocation; F's rescue could be caused by more S-family identity exposure.",
+        "An A-qset schedule that transfers one quarter each of H0 S examples to H1/H2 should nearly match F's source/target/candidate exposures within S while leaving R exactly A and retaining zero direct 1-2 comparisons."
+      ],
+      "inputs": ["d25_comparison_design.json", "src/d5_topology.py", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz"],
+      "script": "diagnostic_41_s_family_frequency_design.py",
+      "planned_outputs": ["exploratory_H_s_frequency_A/schedule_seed_1701.npz", "d41_s_frequency_design.json", "d41_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Symmetric one-quarter remap of 0-triangle S examples to corresponding 1/2 examples; R unchanged; audit family-specific oracle/candidate exposure against F and direct-comparison absence."
+    },
+    {
+      "id": "D42",
+      "status": "planned_after_D41_before_H_outcome",
+      "hypotheses": [
+        "If S-family frequency is the real driver of F's rescue, H should preserve 1-2 contrasts and unsupported redirection despite A's original comparisons.",
+        "If comparison structure matters, H should remain A/G-like under closely matched S-family exposure."
+      ],
+      "inputs": ["d41_s_frequency_design.json", "exploratory_H_s_frequency_A/schedule_seed_1701.npz", "src/d5_topology.py", "src/pilot.py", "configs/pilot.json", "configs/d5_preregistered.json"],
+      "script": "exploratory_42_h_s_frequency_train.py",
+      "planned_outputs": ["exploratory_H_s_frequency_A/seed_1701/", "d42_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "New discovery-only A-task H model seed1701, S-family frequency matched to F, unchanged A qset, same 8000 updates and developmental snapshots."
+    },
+    {
+      "id": "D43",
+      "status": "planned_before_D42_outcome",
+      "hypotheses": [
+        "H's developmental query/candidate contrasts may follow G's suppression trajectory despite S-family exposure matching F.",
+        "An intermediate trajectory would reveal a quantitative exposure component rather than a clean comparison-only effect."
+      ],
+      "inputs": ["exploratory_H_s_frequency_A/seed_1701/checkpoint_step_*.pt", "src/d5_topology.py", "src/pilot.py", "d15_scene_rows.csv"],
+      "script": "diagnostic_43_h_developmental.py",
+      "planned_outputs": ["d43_h_developmental.csv", "d43_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Fixed D15 scenes and D29 metrics at updates 0,100,500,1000,2000,4000,8000 for H."
+    },
+    {
+      "id": "D39E",
+      "status": "recovery_after_D39_evaluation_failure",
+      "hypotheses": ["No new scientific selection: evaluate the already trained tied E checkpoint under the registered E condition without repeating training."],
+      "inputs": ["exploratory_E_tied_1_2/seed_1701/checkpoint_step_08000.pt", "exploratory_39_e_tied_train.py", "d07_graph_design.json", "src/d5_topology.py", "src/pilot.py"],
+      "script": "exploratory_39_e_tied_eval.py",
+      "planned_outputs": ["exploratory_E_tied_1_2/seed_1701/metrics.json", "d39_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Recovery only: add E to evaluator CONDITIONS, load saved final tied checkpoint, run canonical E evaluation, hash all existing D39 outputs. The training trace was not written before the original evaluation failure."
+    },
+    {
+      "id": "D44",
+      "status": "planned_after_D40_before_release_outcome",
+      "hypotheses": [
+        "If E's asymmetric task contexts exert an ongoing symmetry-breaking gradient, releasing the exact 1/2 ties of a fully trained tied E model should create a distinction and improve unsupported pair behavior without a large familiar-performance gain.",
+        "If E's distinction is an early path-dependent choice, a tied high-performing solution may remain collapsed after release; retaining ties controls optimizer reset and extra E training."
+      ],
+      "inputs": ["exploratory_E_tied_1_2/seed_1701/checkpoint_step_08000.pt", "exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_1701.npz", "d07_graph_design.json", "src/d5_topology.py", "src/pilot.py"],
+      "script": "exploratory_44_tie_release.py",
+      "planned_outputs": ["exploratory_E_tie_release/{release,retain}/", "d44_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Two discovery-only 2000-update E continuations from same exactly tied final model, reset AdamW, same E schedule; one releases identity ties and one projects ties after each step; checkpoints at0,10,50,100,250,500,1000,2000; canonical E evaluation at end."
+    },
+    {
+      "id": "D45",
+      "status": "planned_before_D44_release_outcome",
+      "hypotheses": [
+        "Any new 1-2 distinction after release may first appear in message symbols/candidate input columns, then query/candidate outputs and redirection.",
+        "No growth despite nonzero raw parameter difference would point to downstream suppression or a stable collapsed basin."
+      ],
+      "inputs": ["exploratory_E_tie_release/{release,retain}/checkpoint_step_*.pt", "src/d5_topology.py", "src/pilot.py", "d15_scene_rows.csv"],
+      "script": "diagnostic_45_release_readout.py",
+      "planned_outputs": ["d45_release_developmental.csv", "d45_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Fixed D15 shared-scene recipe at all D44 checkpoints; raw symbol/identity-input differences, query and candidate contrast, alignment, redirection, familiar performance at end."
+    },
+    {
+      "id": "D46",
+      "status": "planned_after_D40_before_D44_release_outcome",
+      "hypotheses": [
+        "Tied and untied E can have identical familiar accuracy while differing in cross-entropy margin; E context asymmetry may softly prefer separation even when it is not needed for correct choices.",
+        "A tiny loss gap would instead suggest that E's separated solution is predominantly an optimizer path choice with little task advantage."
+      ],
+      "inputs": ["exploratory_E/runs/E_path3_missing_exploratory/seed_1701/checkpoint.pt", "exploratory_E_tied_1_2/seed_1701/checkpoint_step_08000.pt", "exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_1701.npz", "d07_graph_design.json", "src/d5_topology.py", "src/pilot.py"],
+      "script": "diagnostic_46_tied_untied_loss.py",
+      "planned_outputs": ["d46_tied_untied_loss.csv", "d46_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Exact same deterministic 8192 E training examples rendered from E1701 finite schedule; compare tied/untied final cross entropy, accuracy and score margin by S/R and focal identity involvement. No updates."
+    },
+    {
+      "id": "D47",
+      "status": "planned_after_D44_D45",
+      "hypotheses": [
+        "E has an ongoing but weak antisymmetric loss gradient at its tied solution, explaining gradual separation after tie release despite near-equal task performance.",
+        "If E's antisymmetric gradient is comparable to finite-schedule noise under A, separation may instead reflect stochastic instability or other parameter movement."
+      ],
+      "inputs": ["exploratory_E_tied_1_2/seed_1701/checkpoint_step_08000.pt", "exploratory_E_tie_release/release/checkpoint_step_00010.pt", "exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_1701.npz", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz", "d07_graph_design.json", "src/d5_topology.py", "src/pilot.py"],
+      "script": "diagnostic_47_tied_gradient.py",
+      "planned_outputs": ["d47_tied_gradient.csv", "d47_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "At exactly tied E final checkpoint, measure antisymmetric full-batch gradient over fixed E and A schedule samples, by task family and focal involvement; compare gradient descent direction to early released parameter split. No model updates."
+    },
+    {
+      "id": "D48",
+      "status": "planned_after_D47",
+      "hypotheses": [
+        "If continuing the tied E model on A also separates 1/2, the D44 release result is not evidence that E's asymmetric contexts exert a uniquely continuing separation force.",
+        "If only E continuation separates, continuing task structure matters even from the same tied state."
+      ],
+      "inputs": ["exploratory_E_tied_1_2/seed_1701/checkpoint_step_08000.pt", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz", "exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_1701.npz", "src/d5_topology.py", "src/pilot.py"],
+      "script": "exploratory_48_tied_e_to_a.py",
+      "planned_outputs": ["exploratory_E_tied_to_A/seed_1701/", "d48_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Continue same tied E parent for 2000 A-task updates using fresh AdamW and same indexed finite schedule as D44 E release; save developmental checkpoints and evaluate A/E. No canonical model modifications."
+    },
+    {
+      "id": "D49",
+      "status": "planned_after_D47_before_D48_outcome",
+      "hypotheses": [
+        "A continuation may split parameters without behaviorally useful query/candidate alignment; compare both sides and redirection on fixed scenes.",
+        "A continuation may recapitulate D44 E release, showing a latent distinction can emerge from either task after tied E training."
+      ],
+      "inputs": ["exploratory_E_tied_to_A/seed_1701/checkpoint_step_{0,10,50,100,250,500,1000,2000}.pt", "d15_scene_rows.csv", "src/d5_topology.py", "src/pilot.py"],
+      "script": "diagnostic_49_tied_e_to_a_readout.py",
+      "planned_outputs": ["d49_tied_e_to_a_developmental.csv", "d49_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Same D45 frozen scenes, representation and redirection measures for A continuation from tied E parent."
+    },
+    {
+      "id": "D50",
+      "status": "planned_after_D48_D49",
+      "hypotheses": [
+        "E's task loss reinforces the emerging 1/2 split while A's task loss damps it, possibly explaining divergent trajectories despite a misleading initial gradient-norm comparison.",
+        "If local radial gradient signs do not track divergence, optimizer preconditioning, minibatch noise, and coupled network changes matter beyond a simple loss-gradient account."
+      ],
+      "inputs": ["exploratory_E_tie_release/release/checkpoint_step_{50,500,2000}.pt", "exploratory_E_tied_to_A/seed_1701/checkpoint_step_{50,500,2000}.pt", "exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_1701.npz", "results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz", "d07_graph_design.json", "src/d5_topology.py", "src/pilot.py"],
+      "script": "diagnostic_50_radial_gradient.py",
+      "planned_outputs": ["d50_radial_gradient.csv", "d50_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "At E-release and A-release checkpoints, compute full-batch antisymmetric gradient projections against each model's current input-identity split under both E and A task examples, fixed 4096 schedule positions. No updates."
+    },
+    {
+      "id": "D51",
+      "status": "planned_after_decision_run_cross_pair_check",
+      "hypotheses": [
+        "F's direct 1/2 foils selectively rescue pair 1/2, supporting a pair-local comparison account.",
+        "F rescues all missing H/H pairs, implying a broader learned computation or global symmetry-breaking effect and ruling out a pair-local account."
+      ],
+      "inputs": ["exploratory_F_direct_crossfoil/seed_1701/edge_event_family_cells.csv", "exploratory_F_direct_crossfoil/seed_1701/query_displacements.csv", "exploratory_G_frequency_upsampled_A/seed_1701/edge_event_family_cells.csv", "exploratory_H_s_frequency_A/seed_1701/edge_event_family_cells.csv", "results/d5_topology/runs/A_original_clique_hole/seed_1701/edge_event_family_cells.csv"],
+      "script": "diagnostic_51_cross_pair_scope.py",
+      "planned_outputs": ["d51_cross_pair_scope.csv", "d51_manifest.json"],
+      "adaptive": true,
+      "analysis_scope": "Existing files only: compare withheld H/H pair accuracy and source/target query contrast on common observed other-identity contexts across A/F/G/H. No model execution or new data."
+    }
+  ]
+}

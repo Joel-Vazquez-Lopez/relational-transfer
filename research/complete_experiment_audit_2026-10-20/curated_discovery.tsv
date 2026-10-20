@@ -1,0 +1,71 @@
+id	kind	status	title	result	lesson
+D01	reanalysis	SELECTIVE_CONTRAST	Stage endpoint contrasts	Observed/withheld endpoint contrasts differed through the saved encoder stages.	The support-associated contrast was selective; stage curves alone do not identify its cause.
+D01R	reanalysis	REVIEW_ONLY	Stage-contrast review	Located changes across embedding, blocks and final normalization in the same archive.	A review of D01 is not an independent replication.
+D02	reanalysis	LOCAL_INFORMATION_RETAINED	Changed token versus CLS	Raw source-token identity separation persisted while CLS transfer differed by support.	Input information presence does not ensure it reaches the decision representation.
+D03	empirical	VALUE_PATH_DIAGNOSTIC	Exact first-attention decomposition	Recomputed first-attention value, weight and interaction terms for discovery cases.	The support-associated write could be decomposed; accounting is not unique causal attribution.
+D03R	reanalysis	REVIEW_ONLY	Attention-term review	Aggregated D03 terms and cancellations within models.	Do not count averaged term descriptions as a second causal discovery.
+D04	empirical	PROJECTION_GAIN_DIAGNOSTIC	Symbol/normalization/projection separation	Compared all15 identity pairs through pre-attention transforms in permitted models.	Projection gain and direction matter beyond raw embedding distance.
+D04R	reanalysis	REVIEW_ONLY	A/B projection review	Summarized hole versus opposite-clique gains on D04.	Same-checkpoint comparisons remain exploratory.
+D04C	reanalysis	COUNTERCHECK	C/D projection countercheck	Extended the gain description to non-A/B support structures.	An A/B pattern should not be called a universal support law.
+D05	reanalysis	SUPPORT_DESCRIPTION	False-twin versus distinguishing neighborhoods	Related learned contrasts to available graph-neighborhood distinctions.	Contextual distinguishability was a candidate explanation, not a proven necessity.
+D06	reanalysis	DEGREE_CONFOUND_CHECK	Degree explanation audit	Examined whether simple degree explained the contrast pattern.	No single graph statistic was isolated by these descriptive comparisons.
+D07	design	DESIGN_ONLY	Asymmetric graph E	Defined a graph adding contextual identity distinctions.	A graph design can create a separating training comparison but is not a result.
+D08	empirical	ASYMMETRIC_SUPPORT_SIGNAL	Train graph E	E could preserve focal identity distinctions and held-out transfer where A compressed them.	Changing comparison context can change acquisition; later tied-E counterexample limits necessity.
+D09	reanalysis	A_E_DIFFERENCE	A versus E comparison	A/E learned contrasts and transfer differed.	The contrast identifies a graph-package effect, not its unique causal feature.
+D10	reanalysis	DEVELOPMENTAL_CHANGE	Initialization versus final state	Compared initial and final contrast geometry.	Final differences cannot simply be assumed to preexist learning; no general acquisition law follows.
+D11	audit	EXPOSURE_AUDIT	Exact training exposure	Enumerated the supervised/foil exposure differences between conditions.	Support comparisons require auditing actual episodes, not only graph names.
+D12	empirical	ADDITIONAL_SEEDS	Graph E seed extension	Additional discovery seeds evaluated E's transfer behavior.	The initial E result was not the only observed initialization; still not protected confirmation.
+D13	reanalysis	DEPTH_DESCRIPTION	Depth of contrast development	Tracked where the A/E contrast emerged across depth.	Depth localization is descriptive without selective operation interventions.
+D14	reanalysis	TOKEN_CLS_DISSOCIATION	Changed token and CLS	Identity-bearing token and CLS contrast profiles differed.	A single readout token is not the full computational state.
+D15	empirical	MATCHED_SCENE_CHECK	Shared-scene support comparison	Compared permitted models on shared rendered scenes.	Shared inputs reduce a rendering confound but not training-package confounds.
+D16	audit	CONTEXT_AUDIT	Training-context signature	Characterized context support associated with contrasting acquisition.	Context statistics are candidate predictors, not identified mechanisms.
+D17	empirical	MATCHED_SEED_EXTENSION	Matched E seed1701	Added a matched-initialization E comparison.	Initialization matching sharpens the training-condition contrast within this synthetic system.
+D18	empirical	TOKEN_PATCH_DIAGNOSTIC	Changed-token patches	Intervened on the changed identity-bearing token path.	Local causal influence can be tested; it need not imply a reusable symbolic operator.
+D19	empirical	RELAY_DIAGNOSTIC	Unchanged-token relays	Examined unchanged tokens as routes carrying a changed identity effect.	Effects can propagate through tokens whose surface identity did not change.
+D20	reanalysis	CANDIDATE_CONTRAST	Candidate-side contrasts	Extended the contrast description to candidate encoders.	The query side alone cannot characterize compatibility decisions.
+D21	empirical	EXACT_SCENE_MATCHING	Exact shared-scene comparison	Tightened matching of rendered scenes between models.	Controls improve attribution to learning conditions, not to a unique internal cause.
+D22	audit	OVERSTATEMENT_CORRECTED	Visual co-occurrence audit	Identities can co-occur as endpoint and distractor; the broad never-co-occur claim was false.	Supervised relation withholding is not visual identity co-occurrence withholding.
+D23	reanalysis	SEED_SUMMARY	Discovery seed summary	Consolidated the accumulated A/E evidence across permitted starts.	Summarizing shared models does not create independent confirmation.
+D24	audit	DESIGN_SPACE_LIMIT	Enumerate constrained six-vertex graphs	455 omit-three-edge graphs left only two focal classes under the constraints.	The proposed rich factorial was unavailable in that tiny graph space.
+D25	design	DESIGN_ONLY	Comparison-rich F	Designed choice-foil modifications intended to preserve distinctions.	Later exposure audit was necessary: F also changed positive frequencies.
+D26	empirical	F_RESCUE	Train comparison-rich F	F gave strong held-out transfer across the focal identities.	A changed training comparison package can rescue synthetic transfer.
+D27	design	DESIGN_ONLY	Frequency control G	Designed an overall-frequency comparator for F.	Frequency matching needs be explicit rather than assumed.
+D28	empirical	FREQUENCY_NOT_SUFFICIENT	Train frequency control G	G held-out about.587 versus F.982.	The tested frequency change did not reproduce F's rescue.
+D29	reanalysis	DIFFERENT_DYNAMICS	F/G developmental contrasts	F amplified identity separation while G compressed it from a shared initialization.	The training condition altered acquisition dynamics; a curve is not a general law.
+D30	reanalysis	GRAPH_SCALAR_INSUFFICIENT	Comparison connectivity/resistance	Effective resistance/connectivity did not predict the A/E difference reliably.	A plausible graph scalar failed as a sufficient explanatory law.
+D31	empirical	UNDERDETERMINED_SOLUTION	Cross-task fitted solutions	Separated F solution fit A; collapsed A solution failed F.	A's loss permitted separated solutions; collapse was not mathematically forced by support.
+D32	empirical	TASK_SWITCH	A/F training task switch	Changed the ongoing training task between A and F.	Training history and current comparisons can be causally separated in this model.
+D33	reanalysis	HYSTERESIS	Task-switch developmental review	A→F restored contrast; F→A only partly eroded it.	Acquisition exhibited path dependence rather than a unique endpoint from support alone.
+D34	empirical	LOW_LOSS_PATH	A-loss parameter interpolation	Constructed interpolation paths with low A task loss.	Very different transfer behavior can coexist with similar familiar loss.
+D35	reanalysis	TRANSFER_UNDERDETERMINED	Redirection along interpolation	Unsupported-role redirection changed along the low-loss path.	Familiar task fit alone does not identify the transfer computation.
+D36	empirical	MERGER_COST_DIFFERENCE	Identity merger across tasks	Merger raised F loss about.006→.091, with little A/G cost and small E cost.	F made the tested distinction more behaviorally consequential.
+D37	empirical	LONG_WITHDRAWAL	Extended F→A training	Continued A training after F acquisition.	A task switch can test whether the acquired distinction is rapidly lost.
+D38	reanalysis	PERSISTENCE	Long withdrawal readout	After8k A updates source/target readout.955/.721 and redirection1/.922 persisted.	Strong path dependence survives extended withdrawal in this selected system.
+D39	empirical	TIED_SOLUTION_CONTROL	Train identity-tied E	E could fit familiar data with tied focal identities.	Distinct contextual neighborhoods did not force separate identity representations.
+D39E	reanalysis	INTERMEDIATE_EVALUATION	Tied-E training readout	Intermediate evaluation of the same tied-E acquisition.	Not an additional training experiment or independent confirmation.
+D40	reanalysis	NECESSITY_COUNTEREXAMPLE	Tied versus untied E	Familiar S/R near1 for both; held tied.651 versus untied.975.	Familiar success and asymmetric context do not imply transferable separation.
+D41	design	DESIGN_ONLY	Source-frequency H	Defined a source-frequency-matched control.	A marginal-frequency hypothesis can be tested separately from the full comparison package.
+D42	empirical	SOURCE_FREQUENCY_INSUFFICIENT	Train H	Held-out about.573, below the comparison-rich rescue.	Matching the tested source-family frequency did not reproduce F.
+D43	reanalysis	H_COMPRESSION	H developmental analysis	H contrasts compressed during training.	Source-frequency exposure alone did not preserve the tested distinction.
+D44	empirical	RELEASE_INTERVENTION	Tied-E release versus retention	Continued matched training with identity tying released or retained.	Releasing a constraint allows a direct acquisition comparison.
+D45	reanalysis	RELEASE_RECOVERY	Release developmental readout	Released contrasts.655/.809, held.914; retained contrasts zero, held.671.	Acquiring identity separation improved transfer under E, without proving a universal mediator.
+D46	reanalysis	SMALL_LOSS_DIFFERENCE	Tied/untied E loss	Losses.00518 versus.00683 were both small.	The distinction had a soft preference rather than being necessary for familiar success.
+D47	empirical	SIMPLE_GRADIENT_PREDICTOR_FAILED	One-step identity gradient	A gradient norm.00662 exceeded E.00310 despite poorer later A transfer.	A scalar initial gradient norm was not a sufficient developmental predictor.
+D48	empirical	CURRENT_TASK_EFFECT	Tied-E continuation under A	Released tied-E states continued under A rather than E.	Matched starting states permit testing current training demands.
+D49	reanalysis	CURRENT_TASK_LIMIT	E→A release readout	A continuation contrasts.028/.045, held.662 versus E release.914.	Ongoing task differences mattered, not merely capacity to untie parameters.
+D50	reanalysis	GRADIENT_LAW_NOT_FOUND	Radial-gradient analysis	Gradient-direction summaries were mixed.	No reliable one-scalar acquisition law emerged from this diagnostic.
+D51	reanalysis	PAIR_LOCAL_ACCOUNT_REFUTED	All focal pairs under F	F held pairs.961/.979/.982 versus A around.58 and H around.56.	The effect was not restricted to one privileged focal pair.
+D52	audit	F_CONFOUND_CORRECTED	Exact F positive audit	F changed51,200/1,024,000 positive rows,5%.	The earlier claim that F changed only foils was incorrect and withdrawn.
+D53	empirical	FOIL_PACKAGE_SUFFICIENT	Foil-only versus positive-only F	Foil-only held R.963, positive-only.453, fullF.989, A.487.	Positive-frequency shift was not necessary or sufficient under this construction; distractor repairs remain bundled.
+D54	empirical	ALIGNED_COMPARISON_NOT_NECESSARY	Hardness/context control M	M held R.811 without the focal aligned hard comparisons; initial scalar loss/margin approximately matched.	Direct aligned comparisons were not necessary for any rescue; scalar hardness is not gradient matching.
+D55	reanalysis	DYNAMIC_CONTRASTS	Foil/positive/M trajectories	Foil-only amplified.956, positive-only compressed.052, M late partial.652.	Different learning paths accompanied similar scalar starting difficulty.
+D56	reanalysis	COLLISION_COST	Quotient-collision audit	51,214 collision rows,5%; merger raised F loss.00682→.0525 mostly on those rows.	The tested merger conflicts with part of the task; not a formal finite-render lower bound.
+D57	empirical	COLLISION_SPLIT_SEED1	K collision versus L noncollision	Seed1701 held R K.975 versus L.795.	Collision-bearing examples were more effective in this comparison.
+D58	empirical	COLLISION_SPLIT_SEED2	K/L second seed	Seed1702 held R K.925 versus L.558.	The direction survived a second discovery seed.
+D59	reanalysis	DYNAMICS_HETEROGENEOUS	K/L acquisition trajectories	K consistently amplified earlier; L late behavior varied substantially.	The treatment effect did not identify a single necessary learning trajectory.
+D60	technical	FIGURE_ONLY	Acquisition figures	Rendered existing evidence into plots.	Visualization is a deliverable, not another scientific experiment.
+D61	audit	INTEGRITY_ONLY	Acquisition archive integrity	Verified archived file integrity/provenance.	Checks increase reproducibility, not replication count.
+D62	empirical	PREDICTOR_FAILED	Merge/release assay	256-update post hoc assay failed known L seed fork; K1702 weak, L gap.049<.10.	A superficially plausible acquisition predictor failed its own diagnostic cases.
+D63	empirical	ASSAY_HISTORY_FAILED	Tied-start release with optimizer control	Train tiedL2k then release1k retained/reset moments; familiar gate passed but predicted seed fork failed.	Changing history can erase the phenomenon an assay claims to predict.
+D64	empirical	PROSPECTIVE_WITHIN_PROGRAMME	K/L fresh seed1703	All six frozen thresholds passed; K/L held R.866/.503 at2k, .932/.606 at8k; familiar near.999.	A bounded comparison-demand prediction succeeded on a new initialization.
+D65	reanalysis	HISTORY_DEPENDENCE_UNRESOLVED	Original L fork review	L1701 readout.372/.426/.875 at2/4/8k versus L1702.283/.268/.212; both distinguished earlier.	Late acquisition differences depend on history; the later fork's cause remained unresolved.

@@ -1,0 +1,19 @@
+{
+  "status": "discovery_only",
+  "total_three_missing_edge_graphs": 455,
+  "focal_missing_1_2_graphs": 91,
+  "matched_focal_graphs": 16,
+  "matched_focal_classes": {
+    "0-1;0-2;1-2": 4,
+    "0-1;1-2;2-3": 12
+  },
+  "matched_context_tv_values": [
+    0.0,
+    0.6666666666666666
+  ],
+  "matched_neighbor_equal_counts": {
+    "1": 4,
+    "0": 12
+  },
+  "note": "Nominal observed edges affect training only through the eligible triangle pool in the canonical D5 generator."
+}

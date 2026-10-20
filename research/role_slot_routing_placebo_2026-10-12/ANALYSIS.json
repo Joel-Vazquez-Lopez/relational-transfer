@@ -1,0 +1,76 @@
+{
+  "protocol_sha256": "5288194e037abfe2951788be40f0b4cddf6837c37f8e1e008fa65fbf6a60aae3",
+  "base_protocol_sha256": "c3725a19885f0aea2ba2278ea1801069bc8b5dfb40dafd352d8718d447f73410",
+  "starts": {
+    "fresh1": {
+      "forms": {
+        "active": {
+          "crossed_joint": 21,
+          "novel_joint": 20
+        },
+        "passive": {
+          "crossed_joint": 21,
+          "novel_joint": 24
+        },
+        "subject_cleft": {
+          "crossed_joint": 21,
+          "novel_joint": 19
+        },
+        "object_cleft": {
+          "crossed_joint": 6,
+          "novel_joint": 18
+        }
+      },
+      "crossed_joint": 48,
+      "novel_joint": 81,
+      "valid_answers": 720,
+      "candidate_list_correct": 720,
+      "target_tokens": 8640,
+      "original_arms": {
+        "answer_first": {
+          "crossed_direct": 28,
+          "crossed_routed_from_generated_slots": 75
+        },
+        "slot_first": {
+          "crossed_direct": 77,
+          "crossed_routed_from_generated_slots": 91
+        }
+      }
+    },
+    "fresh3": {
+      "forms": {
+        "active": {
+          "crossed_joint": 22,
+          "novel_joint": 17
+        },
+        "passive": {
+          "crossed_joint": 6,
+          "novel_joint": 12
+        },
+        "subject_cleft": {
+          "crossed_joint": 18,
+          "novel_joint": 17
+        },
+        "object_cleft": {
+          "crossed_joint": 17,
+          "novel_joint": 21
+        }
+      },
+      "crossed_joint": 41,
+      "novel_joint": 67,
+      "valid_answers": 720,
+      "candidate_list_correct": 720,
+      "target_tokens": 8640,
+      "original_arms": {
+        "answer_first": {
+          "crossed_direct": 31,
+          "crossed_routed_from_generated_slots": 71
+        },
+        "slot_first": {
+          "crossed_direct": 72,
+          "crossed_routed_from_generated_slots": 90
+        }
+      }
+    }
+  }
+}

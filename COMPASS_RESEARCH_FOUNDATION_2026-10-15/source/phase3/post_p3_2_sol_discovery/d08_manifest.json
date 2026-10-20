@@ -1,0 +1,31 @@
+{
+  "diagnostic": "D08",
+  "status": "discovery_only",
+  "model_condition": "E_path3_missing_exploratory",
+  "model_seed": 2701,
+  "canonical_models_retrained": false,
+  "protected_seeds_accessed": false,
+  "input_hashes_sha256": {
+    "src/d5_topology.py": "4173ccbeba759f76448590e75cbf9f0008a3d1821ad6feec648cdf8eaba2059a",
+    "src/pilot.py": "f829c2700ff94d179e6d5a92a1a39f59c92b2a9ac4a6e42db1de315df717d78f",
+    "configs/pilot.json": "924106bf3c45dd6292e0537723df2af65819da8c97e4e9a5cf8ff772e34f69e4",
+    "configs/d5_preregistered.json": "e54ccaa041db36b1f3dd27e4dcf79663fc115271cc8f0eeeea5a7559cdfb72e5",
+    "d07_graph_design.json": "4d68eb84f2eaa52880d7b6565424655ffd4ff3be1db50c80838144d20b14aeb4"
+  },
+  "script_sha256": "9b655ec136a21b184f08eb7d1b0b7d22de6e726691a5bc3fe94d69da45b4983b",
+  "output_hashes_sha256": {
+    "exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_2701.npz": "08694472e42f2eb7d0293edce956bc6162a71c95cd709cd782f4b98833bf7954",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/candidate_blocks.csv": "37d9d8b8036e452e33bfee4aaf1305c0683e1cc259981aca47a190dfc63f508b",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/checkpoint.pt": "66d4d0ad3b6ff5423b1decab3134350897ab59053eb829694113069d945b3f97",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/edge_event_family_cells.csv": "9859c8b2ed755cb653814c569cfc7e4294b7b2243514c247ec241ad8ede5b988",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/metrics.json": "0d2a6252e1305e031ee837f7bcaf8260ac5aa002614b7004ea11d76eafa67b06",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/query_displacement_consistency.csv": "462108b5988c4e431a7219eed6375e5834e1c6c51fb9fe4ab2218c12a5209205",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/query_displacements.csv": "e37f8d358163212d54c7c0ca9dcd7a3682a253664dfa660a54da03391a0bd915",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/query_vectors.npz": "0081a5838d2e0b4b73600d0c2da8e5264a14cb9a9e82e757c2a953631d5a739d",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/raw_predictions.csv": "5a551a10c8cc6c8665098b2b2edbfa0d90bf9f5a294cfdd8e909b4d545b52294",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/redirection_focal_A.csv": "c1d0fdc07f2a14d9c10f4fa2455adc166852f1ffaa33b5c3098e6a86321a6e6a",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/redirection_focal_B.csv": "24672a4ee8bf4a597be33a9a5ed3ce0a7d3ecd90c9eb212b4b13e93402988b12",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/status.json": "04adec7641a441742d3b3d30fd9f089405dfecb768e009cbfd9bdb859250195f",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/training_trace.csv": "563a05f99ff202e43419d965cb2c514ee2fca8c081b487af203da5d4bab2054c"
+  }
+}

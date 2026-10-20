@@ -1,0 +1,47 @@
+{
+  "diagnostic": "D12",
+  "status": "discovery_only",
+  "selected_after": "D09 seed2701 result",
+  "seeds": [
+    2702,
+    2703
+  ],
+  "canonical_models_retrained": false,
+  "protected_seeds_accessed": false,
+  "input_hashes_sha256": {
+    "src/d5_topology.py": "4173ccbeba759f76448590e75cbf9f0008a3d1821ad6feec648cdf8eaba2059a",
+    "src/pilot.py": "f829c2700ff94d179e6d5a92a1a39f59c92b2a9ac4a6e42db1de315df717d78f",
+    "configs/pilot.json": "924106bf3c45dd6292e0537723df2af65819da8c97e4e9a5cf8ff772e34f69e4",
+    "configs/d5_preregistered.json": "e54ccaa041db36b1f3dd27e4dcf79663fc115271cc8f0eeeea5a7559cdfb72e5",
+    "d07_graph_design.json": "4d68eb84f2eaa52880d7b6565424655ffd4ff3be1db50c80838144d20b14aeb4"
+  },
+  "script_sha256": "3fd3c4cec752363c3b1195d2a290f27ddcc44e0494595355100a2b83f1b8c80a",
+  "output_hashes_sha256": {
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2702/candidate_blocks.csv": "37d9d8b8036e452e33bfee4aaf1305c0683e1cc259981aca47a190dfc63f508b",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2702/checkpoint.pt": "41a8ced8796e6532058a1cbb404cefa8d948d79282d05ad45ed11fae15a5f313",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2702/edge_event_family_cells.csv": "6fe18db4b04c775704e49408443bfe99341b103e6f6f8e59f01c59b2f8debf2e",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2702/metrics.json": "7fcde628dbe9345b610bd050d44b8dd8471b66f80983ab1da475bb3c694c8c44",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2702/query_displacement_consistency.csv": "31097cf644d447ee7b60423892b0c1ce1e87d96133b035b1b1792aa526cafea2",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2702/query_displacements.csv": "9e3818bc42a7dc55af75e88661da30d97fd70e405e804552e0916406f9fc042c",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2702/query_vectors.npz": "a751e634ecc82cba09adad75ffd54ddec32e6c7fe96bf07f385fcc2043389928",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2702/raw_predictions.csv": "b1f6cc9af6faf7d1b2c1d8d3f7b7e3e8e0728175b4085d3a22b4edf9e97c2db0",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2702/redirection_focal_A.csv": "6bbd3ef4814a507601c7bcdb67dba6957db13db2f9f4454114d3317a2dba2910",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2702/redirection_focal_B.csv": "ff6c102c6d2904b1f4ddb6571b2c40f311abc59167b46fde58d339294f70b250",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2702/status.json": "0dbb5ba5cf05af34292a80b2aa493d0992868f3acf2aa86b54c7b106a566894b",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2702/training_trace.csv": "e8ab520952dd62d23b02738acfe9dbd6c470903a18df7b9c1abc9491d5b712d7",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2703/candidate_blocks.csv": "37d9d8b8036e452e33bfee4aaf1305c0683e1cc259981aca47a190dfc63f508b",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2703/checkpoint.pt": "0c7daf6257d61b0f344329bc8d73c7cd0d2006cbff3193b969a3c75f737b8019",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2703/edge_event_family_cells.csv": "1f5e3ed2c33fd89533777ce236d84ac0858318ed3cebbed76b00e7e06ac0055d",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2703/metrics.json": "6dae1c832dfe1a659a6af3dc5a5e8e55ca56a60c8980c6e9549205d0d9d79542",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2703/query_displacement_consistency.csv": "83056948eba94f83e326ec3e5cb8ebfebde8a7a3c57417d9629d7ec7cfd9cb6b",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2703/query_displacements.csv": "c9cff64560ac35df22e9a1ba57e03883aeb59870ffa4bc49d6b9e4861bf5fcad",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2703/query_vectors.npz": "aee1267d24911d0dbba47535dcfb971530bd9bf5ff72ca08c84857c954f6193a",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2703/raw_predictions.csv": "0642f5e7cc177ed20be077d51cf8941c825ce968b522452ac0aeef26dd1558c7",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2703/redirection_focal_A.csv": "c6d7af6544e04ff769fb38f47aa9e47395fb1565986fd33a27bba56168c1b653",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2703/redirection_focal_B.csv": "60e4e2f83e818dd54fa63cec824ad3252825e4f6932ce72463eb8aba43c61bff",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2703/status.json": "f79c0371abb78f1a177dcd4b494b819f6d58b6e71e23dfae622947e9b09c4e26",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2703/training_trace.csv": "6af7aacb37ace4895e9ea20412a9781df21a84140896e70385f3c20b4822221a",
+    "exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_2702.npz": "1d0313d7305a3f29817a1c29c0e108035a2e8785a717facd43b97e837ba95c7b",
+    "exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_2703.npz": "3531d194c3300a1b11fd0741c86de81cb4324c022efe2eb08c5c759187f5b062"
+  }
+}

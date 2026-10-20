@@ -1,0 +1,54 @@
+{
+  "canonical_mutation": false,
+  "canonical_retraining": false,
+  "metrics": {
+    "all_noncls_patch_flip_rate": 0.9416666666666667,
+    "block0_target_value_into_source_flip_rate": 0.03833333333333333,
+    "block1_source_value_flip_rate": 0.0033333333333333335,
+    "direct_flip_rate": 0.9866666666666667,
+    "paired_alt_event_accuracy": 0.9883333333333333,
+    "paired_base_event_accuracy": 0.9983333333333333,
+    "paired_n": 600,
+    "prospective_boundary_pass": true,
+    "seed": 3702,
+    "source_patch_flip_rate": 0.015,
+    "target_patch_flip_rate": 0.9133333333333333,
+    "test_accuracy": 0.9995833333333334,
+    "training_trace": [
+      {
+        "batch_accuracy": 0.9765625,
+        "loss": 0.0761297196149826,
+        "step": 500
+      },
+      {
+        "batch_accuracy": 1.0,
+        "loss": 0.003369718324393034,
+        "step": 1000
+      },
+      {
+        "batch_accuracy": 1.0,
+        "loss": 0.0007548534777015448,
+        "step": 1500
+      },
+      {
+        "batch_accuracy": 1.0,
+        "loss": 0.00028505022055469453,
+        "step": 2000
+      },
+      {
+        "batch_accuracy": 1.0,
+        "loss": 0.0001518257922725752,
+        "step": 2500
+      },
+      {
+        "batch_accuracy": 1.0,
+        "loss": 0.00013205991126596928,
+        "step": 3000
+      }
+    ],
+    "updates": 3000,
+    "wall_seconds": 40.38833498954773
+  },
+  "protected_seeds_accessed": false,
+  "status": "DISCOVERY_ONLY_SEED_TRANSPORT"
+}

@@ -1,0 +1,40 @@
+{
+  "diagnostic": "D37",
+  "status": "discovery_only",
+  "selection": "after D33 before long-withdrawal outcome",
+  "model": "F_final_to_A_long",
+  "seed": 1701,
+  "reproduces_D32_first_2000_updates_exactly": true,
+  "optimizer_reset_at_start_only": true,
+  "canonical_models_retrained": false,
+  "protected_seeds_accessed": false,
+  "input_hashes_sha256": {
+    "/Users/joelvazquezlopez/Documents/ChatGPT/project null/phase3/post_p3_2_sol_discovery/exploratory_37_long_withdrawal.py": "49584c35a69c9af4fb4ae9d8ea61bca50efc1bd2c361143f7d2d93e5c2396317",
+    "/Users/joelvazquezlopez/Documents/ChatGPT/project null/phase3/post_p3_2_sol_discovery/exploratory_F_direct_crossfoil/seed_1701/checkpoint_step_08000.pt": "c77600e17c24cb7e5238c9ecf7b53052fdab8d9e971f9dabedeec6bdb156fc7e",
+    "/Users/joelvazquezlopez/Documents/ChatGPT/project null/phase3/post_p3_2_sol_discovery/exploratory_task_switch/F_to_A/checkpoint_step_02000.pt": "fd55263d435602d689ff8d9ad62c8e9c87b34134d7b58cdb02ff9a8631b06e8a",
+    "/Users/joelvazquezlopez/Documents/Codex/2026-09-08/files-pasted-by-the-user-you/src/d5_topology.py": "4173ccbeba759f76448590e75cbf9f0008a3d1821ad6feec648cdf8eaba2059a",
+    "/Users/joelvazquezlopez/Documents/Codex/2026-09-08/files-pasted-by-the-user-you/src/pilot.py": "f829c2700ff94d179e6d5a92a1a39f59c92b2a9ac4a6e42db1de315df717d78f",
+    "/Users/joelvazquezlopez/Documents/Codex/2026-09-08/files-pasted-by-the-user-you/configs/pilot.json": "924106bf3c45dd6292e0537723df2af65819da8c97e4e9a5cf8ff772e34f69e4",
+    "/Users/joelvazquezlopez/Documents/Codex/2026-09-08/files-pasted-by-the-user-you/configs/d5_preregistered.json": "e54ccaa041db36b1f3dd27e4dcf79663fc115271cc8f0eeeea5a7559cdfb72e5",
+    "/Users/joelvazquezlopez/Documents/Codex/2026-09-08/files-pasted-by-the-user-you/results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz": "35bed21c2345113efe825b5cf4f568c6bdaca1ae0157bb942afccdfd4f600de0"
+  },
+  "output_hashes_sha256": {
+    "exploratory_F_to_A_long/seed_1701/candidate_blocks.csv": "0f2f0578087b4b8f19e027aebecbf8f99cad6f4a627cae4eb851d273a83ae315",
+    "exploratory_F_to_A_long/seed_1701/checkpoint_step_00000.pt": "8fc342e5202bf50fbaf91e586fc85054ef7f9f532c5a35dfe7589a959cc960b8",
+    "exploratory_F_to_A_long/seed_1701/checkpoint_step_00100.pt": "90b73413d42ea59572ad98c789e0b30dc50a43b271da59397f507ae4b87b2092",
+    "exploratory_F_to_A_long/seed_1701/checkpoint_step_00500.pt": "819f5fb5b0e8aaed4c25ba821ce37e69aace555b86423e8dfa5af0077a4af135",
+    "exploratory_F_to_A_long/seed_1701/checkpoint_step_01000.pt": "de52e8159b941410e9e2ee03d4d5ab9a5b28bf0a8baf278df1878a3b7d3a9451",
+    "exploratory_F_to_A_long/seed_1701/checkpoint_step_02000.pt": "5286cc04f14719c76db82f397d9189e6398c5bcd3d935e677b05b09d7bf95dac",
+    "exploratory_F_to_A_long/seed_1701/checkpoint_step_04000.pt": "85e76c2cc851570f9fea4d1472b8d9615939424e5cbefd039c572d15a872e036",
+    "exploratory_F_to_A_long/seed_1701/checkpoint_step_08000.pt": "4aee89002e74645d396d736a0c4305762cf5f7865aaf88471d5cb17afc48528b",
+    "exploratory_F_to_A_long/seed_1701/edge_event_family_cells.csv": "d390c264fb4c8517c6890afc2b2de0d5f5d3289af8d090bbb5722713e27db1b6",
+    "exploratory_F_to_A_long/seed_1701/metrics.json": "663f441354c4e7ae212248e3860ea5a11dc3720ce3f827c3e808d1814db76799",
+    "exploratory_F_to_A_long/seed_1701/query_displacement_consistency.csv": "1748545a2fcb5ae99db1dc2d18569e854c22073dd1b29ef5f4aa7fe9e8c82be4",
+    "exploratory_F_to_A_long/seed_1701/query_displacements.csv": "60911263db7f75c77422e39a844802cbcadde4b0665d4a7eb5a2ccd3a59e3ec3",
+    "exploratory_F_to_A_long/seed_1701/query_vectors.npz": "2bb5cbd5656dc327c35cbc47feebd6dd0bb6c1c211a2a7c48af65e03102f24b1",
+    "exploratory_F_to_A_long/seed_1701/raw_predictions.csv": "394e868452e0cf49cbe484d4fb16117191af7297c6a917f8e8c870fd4d3293eb",
+    "exploratory_F_to_A_long/seed_1701/redirection_focal_A.csv": "3eef23cc4110175ee50a58de2d809d912b8311eb8698329e9b47fb99d3bde3f0",
+    "exploratory_F_to_A_long/seed_1701/redirection_focal_B.csv": "2bbb685dcf129ae0b87e44e983a77959a22fd57c4ec7a9fc309bbf5ce7fc3c17",
+    "exploratory_F_to_A_long/seed_1701/training_trace.csv": "ef952866636c9956e8d388065f1fd36992606bfd88bc1569c942540462eece35"
+  }
+}

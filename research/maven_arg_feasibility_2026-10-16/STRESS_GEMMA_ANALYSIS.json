@@ -1,0 +1,2506 @@
+{
+  "raw_sha256": "8e55b964192bb02d1341c123be714d13a03e68abc9dbfefe36b58fe8a4271664",
+  "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+  "counts": {
+    "local_exact": 70,
+    "unmatched_or_ambiguous": 1,
+    "wrong_event_wrong_role": 1
+  },
+  "by_condition": {
+    "plain": {
+      "local_exact": 22,
+      "unmatched_or_ambiguous": 1,
+      "wrong_event_wrong_role": 1
+    },
+    "abc": {
+      "local_exact": 24
+    },
+    "cba": {
+      "local_exact": 24
+    }
+  },
+  "both_roles_correct_events": {
+    "plain": 11,
+    "abc": 12,
+    "cba": 12
+  },
+  "abc_cba_same_correctness": 24,
+  "abc_cba_same_normalized_answer": 24,
+  "details": [
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Agent",
+      "question": "For the first defeat described in the passage, who defeated the opponent?",
+      "response": "Triple H",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 107,
+        "completion_tokens": 3,
+        "total_tokens": 110,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00002825",
+      "response_id": "10d9c8473f154406a474a9715b87c2f0",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:40.332813+00:00",
+      "gold_local": "Triple H",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Patient",
+      "question": "For the first defeat described in the passage, who was defeated?",
+      "response": "Kevin Nash",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 106,
+        "completion_tokens": 3,
+        "total_tokens": 109,
+        "prompt_tokens_details": {
+          "cached_tokens": 80
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000028",
+      "response_id": "d494723a946a4449a4d20d5b04c4f425",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:40.532383+00:00",
+      "gold_local": "Kevin Nash",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Agent",
+      "question": "For the second defeat described in the passage, who defeated the opponent?",
+      "response": "Ric Flair",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 107,
+        "completion_tokens": 3,
+        "total_tokens": 110,
+        "prompt_tokens_details": {
+          "cached_tokens": 80
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00002825",
+      "response_id": "83a3e19a981c4adea35ebb87ec421073",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:40.855258+00:00",
+      "gold_local": "Ric Flair",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Patient",
+      "question": "For the second defeat described in the passage, who was defeated?",
+      "response": "Shawn Michaels",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 106,
+        "completion_tokens": 3,
+        "total_tokens": 109,
+        "prompt_tokens_details": {
+          "cached_tokens": 80
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0763
+      },
+      "estimated_eur": "0.000028",
+      "response_id": "a9b42a0027a64557b5e76d060d138f25",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:41.057384+00:00",
+      "gold_local": "Shawn Michaels",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Agent",
+      "question": "For the third defeat described in the passage, who defeated the opponent?",
+      "response": "Goldberg",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 107,
+        "completion_tokens": 3,
+        "total_tokens": 110,
+        "prompt_tokens_details": {
+          "cached_tokens": 80
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.077
+      },
+      "estimated_eur": "0.00002825",
+      "response_id": "0439f6a965d24382b6a213c3921af4e3",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:41.339052+00:00",
+      "gold_local": "Goldberg",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Patient",
+      "question": "For the third defeat described in the passage, who was defeated?",
+      "response": "Chris Jericho",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 106,
+        "completion_tokens": 3,
+        "total_tokens": 109,
+        "prompt_tokens_details": {
+          "cached_tokens": 80
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0763
+      },
+      "estimated_eur": "0.000028",
+      "response_id": "75f94740a2c344ea8223280824692bcc",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:41.607490+00:00",
+      "gold_local": "Chris Jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "Triple H",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 117,
+        "completion_tokens": 3,
+        "total_tokens": 120,
+        "prompt_tokens_details": {
+          "cached_tokens": 32
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.084
+      },
+      "estimated_eur": "0.00003075",
+      "response_id": "e1eef10bd5794cadba8b2703c9b0cd4d",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:41.858051+00:00",
+      "gold_local": "Triple H",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "Kevin Nash",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 3,
+        "total_tokens": 119,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000305",
+      "response_id": "15cea8afa12645fe92f522b4917bb3cb",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:42.062275+00:00",
+      "gold_local": "Kevin Nash",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "Ric Flair",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 117,
+        "completion_tokens": 3,
+        "total_tokens": 120,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003075",
+      "response_id": "5139555cb20647ba9d9612f7c81f8f72",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:42.360653+00:00",
+      "gold_local": "Ric Flair",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "Shawn Michaels",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 3,
+        "total_tokens": 119,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0833
+      },
+      "estimated_eur": "0.0000305",
+      "response_id": "cce6e7c6df7340fbb458d9ecddebfab8",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:42.558132+00:00",
+      "gold_local": "Shawn Michaels",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "Goldberg",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 117,
+        "completion_tokens": 3,
+        "total_tokens": 120,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003075",
+      "response_id": "a99b66ae65da472693ca11f6151fd38a",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:42.758651+00:00",
+      "gold_local": "Goldberg",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "Chris Jericho",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 3,
+        "total_tokens": 119,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0833
+      },
+      "estimated_eur": "0.0000305",
+      "response_id": "1e25184dbdf34bd18a4ac4fba5a284fb",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:42.955699+00:00",
+      "gold_local": "Chris Jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "Triple H",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 117,
+        "completion_tokens": 3,
+        "total_tokens": 120,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.084
+      },
+      "estimated_eur": "0.00003075",
+      "response_id": "af421e98831346d8a5735857e5774ebe",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:43.154669+00:00",
+      "gold_local": "Triple H",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "Kevin Nash",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 3,
+        "total_tokens": 119,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000305",
+      "response_id": "27a12f661a2d4ef28e165d0b93a81039",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:43.354804+00:00",
+      "gold_local": "Kevin Nash",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "Ric Flair",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 117,
+        "completion_tokens": 3,
+        "total_tokens": 120,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.084
+      },
+      "estimated_eur": "0.00003075",
+      "response_id": "31d441ccbff64ca29d28f41c5c81245e",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:43.556997+00:00",
+      "gold_local": "Ric Flair",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "Shawn Michaels",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 3,
+        "total_tokens": 119,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000305",
+      "response_id": "183dc43e84ec49379c1c5af7ca8d3668",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:43.750289+00:00",
+      "gold_local": "Shawn Michaels",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "Goldberg",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 117,
+        "completion_tokens": 3,
+        "total_tokens": 120,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003075",
+      "response_id": "fd9e6800b70e497db41f81acfd1e8525",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:44.125157+00:00",
+      "gold_local": "Goldberg",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "Chris Jericho",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 3,
+        "total_tokens": 119,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0833
+      },
+      "estimated_eur": "0.0000305",
+      "response_id": "4ef55f59eeb24d91b3911bc070c689d5",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:44.427508+00:00",
+      "gold_local": "Chris Jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Agent",
+      "question": "For the first defeat described in the passage, who defeated the opponent?",
+      "response": "John Cena",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 127,
+        "completion_tokens": 3,
+        "total_tokens": 130,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0,
+        "co2_grams": 0.091
+      },
+      "estimated_eur": "0.00003325",
+      "response_id": "4a75a135384d4a91b6c7e57b1d7dbd06",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:44.699313+00:00",
+      "gold_local": "John Cena",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Patient",
+      "question": "For the first defeat described in the passage, who was defeated?",
+      "response": "Brock Lesnar",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 126,
+        "completion_tokens": 4,
+        "total_tokens": 130,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.091
+      },
+      "estimated_eur": "0.0000335",
+      "response_id": "2da1676e99334803a75cf6e72a5fbfb5",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:44.902689+00:00",
+      "gold_local": "Brock Lesnar",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Agent",
+      "question": "For the second defeat described in the passage, who defeated the opponent?",
+      "response": "CM Punk",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 127,
+        "completion_tokens": 3,
+        "total_tokens": 130,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003325",
+      "response_id": "ca4cac8dac924ad7beffb7f42da12a6a",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:45.490810+00:00",
+      "gold_local": "CM Punk",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Patient",
+      "question": "For the second defeat described in the passage, who was defeated?",
+      "response": "Chris Jericho",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 126,
+        "completion_tokens": 3,
+        "total_tokens": 129,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0903
+      },
+      "estimated_eur": "0.000033",
+      "response_id": "60c11dc536e14387a5d1ca8c22189400",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:45.698747+00:00",
+      "gold_local": "Chris Jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Agent",
+      "question": "For the third defeat described in the passage, who defeated the opponent?",
+      "response": "Sheamus",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 127,
+        "completion_tokens": 3,
+        "total_tokens": 130,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003325",
+      "response_id": "cc2c787e3d3a4ad19c93e18065520b2c",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:45.907993+00:00",
+      "gold_local": "Sheamus",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Patient",
+      "question": "For the third defeat described in the passage, who was defeated?",
+      "response": "Daniel Bryan",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 126,
+        "completion_tokens": 3,
+        "total_tokens": 129,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000033",
+      "response_id": "d5b6bcf15e5a4fdf85ce863407afe81b",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:46.120835+00:00",
+      "gold_local": "Daniel Bryan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "John Cena",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 137,
+        "completion_tokens": 3,
+        "total_tokens": 140,
+        "prompt_tokens_details": {
+          "cached_tokens": 32
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003575",
+      "response_id": "1ed0404b409749bc8578fbe710447f66",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:46.313380+00:00",
+      "gold_local": "John Cena",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "Brock Lesnar",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 4,
+        "total_tokens": 140,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000036",
+      "response_id": "431aeae9ef4449799a58f63f01dfaa20",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:46.503727+00:00",
+      "gold_local": "Brock Lesnar",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "CM Punk",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 137,
+        "completion_tokens": 3,
+        "total_tokens": 140,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003575",
+      "response_id": "29aa7ceaefc1452cb74a42f28a34ced2",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:46.688668+00:00",
+      "gold_local": "CM Punk",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "Chris Jericho",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 3,
+        "total_tokens": 139,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0973
+      },
+      "estimated_eur": "0.0000355",
+      "response_id": "4574a4af71b14d91aa7f6fcf34e05ae8",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:46.874916+00:00",
+      "gold_local": "Chris Jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "Sheamus",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 137,
+        "completion_tokens": 3,
+        "total_tokens": 140,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003575",
+      "response_id": "f954c40425814d5186e0d7bd506686d7",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:47.062717+00:00",
+      "gold_local": "Sheamus",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "Daniel Bryan",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 3,
+        "total_tokens": 139,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0973
+      },
+      "estimated_eur": "0.0000355",
+      "response_id": "719c7bc80da145ceb35dc05dd6239891",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:47.250340+00:00",
+      "gold_local": "Daniel Bryan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "John Cena",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 137,
+        "completion_tokens": 3,
+        "total_tokens": 140,
+        "prompt_tokens_details": {
+          "cached_tokens": 32
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.098
+      },
+      "estimated_eur": "0.00003575",
+      "response_id": "6e146b3293134288b7c3ed2b9f8bf351",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:47.436296+00:00",
+      "gold_local": "John Cena",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "Brock Lesnar",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 4,
+        "total_tokens": 140,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000036",
+      "response_id": "0fb3b2851667427eac89c1004325cf11",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:47.627937+00:00",
+      "gold_local": "Brock Lesnar",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "CM Punk",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 137,
+        "completion_tokens": 3,
+        "total_tokens": 140,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.098
+      },
+      "estimated_eur": "0.00003575",
+      "response_id": "9889aadd5a7c4e6f8ffa9fb142109bd3",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:47.815021+00:00",
+      "gold_local": "CM Punk",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "Chris Jericho",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 3,
+        "total_tokens": 139,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000355",
+      "response_id": "4a3d460dc6ca4c6fabd0e8f324e257a5",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:48.000430+00:00",
+      "gold_local": "Chris Jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "Sheamus",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 137,
+        "completion_tokens": 3,
+        "total_tokens": 140,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003575",
+      "response_id": "12e88c41fc1b446e956f4ae9796759a3",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:48.190173+00:00",
+      "gold_local": "Sheamus",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "Daniel Bryan",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 136,
+        "completion_tokens": 3,
+        "total_tokens": 139,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0973
+      },
+      "estimated_eur": "0.0000355",
+      "response_id": "d34bdfcc8fc04331bee373e8e05a5ef9",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:48.376331+00:00",
+      "gold_local": "Daniel Bryan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Agent",
+      "question": "For the first defeat described in the passage, who defeated the opponent?",
+      "response": "triple h",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 111,
+        "completion_tokens": 3,
+        "total_tokens": 114,
+        "prompt_tokens_details": {
+          "cached_tokens": 32
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00002925",
+      "response_id": "4248fd0d41164bfe86bf60d5a998fe7c",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:48.566745+00:00",
+      "gold_local": "triple h",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Patient",
+      "question": "For the first defeat described in the passage, who was defeated?",
+      "response": "chris jericho",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 110,
+        "completion_tokens": 4,
+        "total_tokens": 114,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000295",
+      "response_id": "76f823c4a0ad4aae8b6e1b07a98a38de",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:48.770823+00:00",
+      "gold_local": "chris jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Agent",
+      "question": "For the second defeat described in the passage, who defeated the opponent?",
+      "response": "eddie guerrero",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 111,
+        "completion_tokens": 5,
+        "total_tokens": 116,
+        "prompt_tokens_details": {
+          "cached_tokens": 80
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0812
+      },
+      "estimated_eur": "0.00003025",
+      "response_id": "e8419e32fe98472c8d8af1fe4761b083",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:49.046716+00:00",
+      "gold_local": "eddie guerrero",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Patient",
+      "question": "For the second defeat described in the passage, who was defeated?",
+      "response": "rob van dam",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 110,
+        "completion_tokens": 4,
+        "total_tokens": 114,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000295",
+      "response_id": "65fe3b437ec74b4aa94f776d20ac2fcd",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:49.228144+00:00",
+      "gold_local": "rob van dam",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Agent",
+      "question": "For the third defeat described in the passage, who defeated the opponent?",
+      "response": "edge",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 111,
+        "completion_tokens": 2,
+        "total_tokens": 113,
+        "prompt_tokens_details": {
+          "cached_tokens": 80
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0791
+      },
+      "estimated_eur": "0.00002875",
+      "response_id": "0fc0d657b36742b4befb2bffbf069508",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:49.410027+00:00",
+      "gold_local": "edge",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Patient",
+      "question": "For the third defeat described in the passage, who was defeated?",
+      "response": "kurt angle",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 110,
+        "completion_tokens": 4,
+        "total_tokens": 114,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000295",
+      "response_id": "f26cd7229e114636ba25ad7a6102fb9a",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:49.903454+00:00",
+      "gold_local": "kurt angle",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "triple h",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 121,
+        "completion_tokens": 3,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 32
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0868
+      },
+      "estimated_eur": "0.00003175",
+      "response_id": "38196a7d4c1546439d875280f4d0db46",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:50.896939+00:00",
+      "gold_local": "triple h",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "chris jericho",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 120,
+        "completion_tokens": 4,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000032",
+      "response_id": "6158df1ad0be433c925e8fe5746483d2",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:52.597213+00:00",
+      "gold_local": "chris jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "eddie guerrero",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 121,
+        "completion_tokens": 5,
+        "total_tokens": 126,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0882
+      },
+      "estimated_eur": "0.00003275",
+      "response_id": "5a73b4833c3b42bb9bc8c2860c08287a",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:53.026443+00:00",
+      "gold_local": "eddie guerrero",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "rob van dam",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 120,
+        "completion_tokens": 4,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0868
+      },
+      "estimated_eur": "0.000032",
+      "response_id": "967ced4ab28e4ec48663b941d5232ca9",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:53.722178+00:00",
+      "gold_local": "rob van dam",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "edge",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 121,
+        "completion_tokens": 2,
+        "total_tokens": 123,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0861
+      },
+      "estimated_eur": "0.00003125",
+      "response_id": "ad951316c16a46159d401db6c0b844d5",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:53.911171+00:00",
+      "gold_local": "edge",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "kurt angle",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 120,
+        "completion_tokens": 4,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0868
+      },
+      "estimated_eur": "0.000032",
+      "response_id": "0419215d08c64868981fa01a427d4329",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:54.085833+00:00",
+      "gold_local": "kurt angle",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "triple h",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 121,
+        "completion_tokens": 3,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 32
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003175",
+      "response_id": "00d87be984e34fc6bec844c852d6de4f",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:55.061565+00:00",
+      "gold_local": "triple h",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "chris jericho",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 120,
+        "completion_tokens": 4,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000032",
+      "response_id": "a9a8f571fed34ec181d8ec2dd66d9083",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:55.776454+00:00",
+      "gold_local": "chris jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "eddie guerrero",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 121,
+        "completion_tokens": 5,
+        "total_tokens": 126,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0882
+      },
+      "estimated_eur": "0.00003275",
+      "response_id": "ae3ac17402e34faca7a25c4f7d747a76",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:55.980895+00:00",
+      "gold_local": "eddie guerrero",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "rob van dam",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 120,
+        "completion_tokens": 4,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000032",
+      "response_id": "affdba6a3b524e61abdd6d36441874ab",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:56.179794+00:00",
+      "gold_local": "rob van dam",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "edge",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 121,
+        "completion_tokens": 2,
+        "total_tokens": 123,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0861
+      },
+      "estimated_eur": "0.00003125",
+      "response_id": "e89d84c06a7945e690acee68e9b48ee0",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:56.378320+00:00",
+      "gold_local": "edge",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "kurt angle",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 120,
+        "completion_tokens": 4,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000032",
+      "response_id": "fee8172f609e432596f3d68d90ecab1f",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:56.577038+00:00",
+      "gold_local": "kurt angle",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Agent",
+      "question": "For the first defeat described in the passage, who defeated the opponent?",
+      "response": "Daniel Bryan",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 150,
+        "completion_tokens": 3,
+        "total_tokens": 153,
+        "prompt_tokens_details": {
+          "cached_tokens": 32
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1071
+      },
+      "estimated_eur": "0.000039",
+      "response_id": "1fd927b57680481f876f86553df0b803",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:56.805459+00:00",
+      "gold_local": "Daniel Bryan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Patient",
+      "question": "For the first defeat described in the passage, who was defeated?",
+      "response": "John Cena",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 149,
+        "completion_tokens": 3,
+        "total_tokens": 152,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1064
+      },
+      "estimated_eur": "0.00003875",
+      "response_id": "3050747221ae456ead7a226ed4eabc40",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:57.122628+00:00",
+      "gold_local": "John Cena",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Agent",
+      "question": "For the second defeat described in the passage, who defeated the opponent?",
+      "response": "Randy Orton",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 150,
+        "completion_tokens": 3,
+        "total_tokens": 153,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1071
+      },
+      "estimated_eur": "0.000039",
+      "response_id": "45c3c804c7574d3590e7645f2351f660",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:57.691012+00:00",
+      "gold_local": "Alberto Del Rio",
+      "category": "unmatched_or_ambiguous",
+      "alias_hits": []
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Patient",
+      "question": "For the second defeat described in the passage, who was defeated?",
+      "response": "Daniel Bryan",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 149,
+        "completion_tokens": 3,
+        "total_tokens": 152,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003875",
+      "response_id": "f870552216d940ac9246dc2e284d9937",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:58.063323+00:00",
+      "gold_local": "Christian",
+      "category": "wrong_event_wrong_role",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Agent",
+      "question": "For the third defeat described in the passage, who defeated the opponent?",
+      "response": "Brock Lesnar",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 150,
+        "completion_tokens": 4,
+        "total_tokens": 154,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000395",
+      "response_id": "d0bdf03c4fd241099b03aee6fa898d81",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:58.491935+00:00",
+      "gold_local": "Brock Lesnar",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Patient",
+      "question": "For the third defeat described in the passage, who was defeated?",
+      "response": "CM Punk",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 149,
+        "completion_tokens": 3,
+        "total_tokens": 152,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1064
+      },
+      "estimated_eur": "0.00003875",
+      "response_id": "070e575c1b53414dad7fb3b050ae7118",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:58.730650+00:00",
+      "gold_local": "CM Punk",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "Daniel Bryan",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 160,
+        "completion_tokens": 3,
+        "total_tokens": 163,
+        "prompt_tokens_details": {
+          "cached_tokens": 32
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1141
+      },
+      "estimated_eur": "0.0000415",
+      "response_id": "92cdb67b4464421a9b103f074cd97d49",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:58.928367+00:00",
+      "gold_local": "Daniel Bryan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "John Cena",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 3,
+        "total_tokens": 162,
+        "prompt_tokens_details": {
+          "cached_tokens": 144
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004125",
+      "response_id": "8e2e39b4886a46e98e4ac791d7f1bf2d",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:59.129895+00:00",
+      "gold_local": "John Cena",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "Alberto Del Rio",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 160,
+        "completion_tokens": 4,
+        "total_tokens": 164,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000042",
+      "response_id": "af73f34b3e2b407c83ac13d7cf037e1e",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:59.701105+00:00",
+      "gold_local": "Alberto Del Rio",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "Christian",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 2,
+        "total_tokens": 161,
+        "prompt_tokens_details": {
+          "cached_tokens": 144
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004075",
+      "response_id": "b1e5f680993644f5aec958896d7959b3",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:19:59.972901+00:00",
+      "gold_local": "Christian",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "Brock Lesnar",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 160,
+        "completion_tokens": 4,
+        "total_tokens": 164,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000042",
+      "response_id": "0785bfda853e4517919d68c1ecbf9788",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:20:00.241365+00:00",
+      "gold_local": "Brock Lesnar",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "CM Punk",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 3,
+        "total_tokens": 162,
+        "prompt_tokens_details": {
+          "cached_tokens": 144
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1134
+      },
+      "estimated_eur": "0.00004125",
+      "response_id": "e1adeaf58569426ab9c237975c1bb0ff",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:20:00.440098+00:00",
+      "gold_local": "CM Punk",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "Daniel Bryan",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 160,
+        "completion_tokens": 3,
+        "total_tokens": 163,
+        "prompt_tokens_details": {
+          "cached_tokens": 32
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1141
+      },
+      "estimated_eur": "0.0000415",
+      "response_id": "36d42933c17f47238511d964241dbc89",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:20:00.637902+00:00",
+      "gold_local": "Daniel Bryan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "John Cena",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 3,
+        "total_tokens": 162,
+        "prompt_tokens_details": {
+          "cached_tokens": 144
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004125",
+      "response_id": "b39dc6bfe241466b8e2f17b5f1b44db1",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:20:01.002473+00:00",
+      "gold_local": "John Cena",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "Alberto Del Rio",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 160,
+        "completion_tokens": 4,
+        "total_tokens": 164,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1148
+      },
+      "estimated_eur": "0.000042",
+      "response_id": "f3db1ed73c134445a1de9c444786a283",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:20:02.053884+00:00",
+      "gold_local": "Alberto Del Rio",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "Christian",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 2,
+        "total_tokens": 161,
+        "prompt_tokens_details": {
+          "cached_tokens": 144
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1127
+      },
+      "estimated_eur": "0.00004075",
+      "response_id": "076f21ce0669412995abb8e8f24ad407",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:20:02.256144+00:00",
+      "gold_local": "Christian",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "Brock Lesnar",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 160,
+        "completion_tokens": 4,
+        "total_tokens": 164,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1148
+      },
+      "estimated_eur": "0.000042",
+      "response_id": "5a165a0018c149c18a4bfd71e70736e9",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:20:02.459942+00:00",
+      "gold_local": "Brock Lesnar",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "CM Punk",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 3,
+        "total_tokens": 162,
+        "prompt_tokens_details": {
+          "cached_tokens": 144
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004125",
+      "response_id": "4f02151e129b42ef886d2f77346cd9af",
+      "system_fingerprint": null,
+      "received_utc": "2026-10-16T18:20:02.685166+00:00",
+      "gold_local": "CM Punk",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    }
+  ]
+}

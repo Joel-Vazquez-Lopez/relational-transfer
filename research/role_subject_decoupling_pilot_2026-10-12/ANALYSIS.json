@@ -1,0 +1,619 @@
+{
+  "status": "analysis_of_frozen_exploratory_pilot",
+  "protocol_sha256": "fc560750c3c7f6dc6937da78e1f4af83e87009086c7977f61eb5bbd607d715a8",
+  "summaries": {
+    "fresh1_source": {
+      "all_prompt_correct": 255,
+      "valid_outputs": 432,
+      "all_six_forms_joint_events": 0,
+      "by_form": {
+        "active": {
+          "actor_correct": 35,
+          "patient_correct": 10,
+          "joint_events": 9,
+          "subject_answers": 61,
+          "first_mention_answers": 61,
+          "by_pair_joint": [
+            2,
+            2,
+            0,
+            2,
+            1,
+            2
+          ]
+        },
+        "passive": {
+          "actor_correct": 14,
+          "patient_correct": 20,
+          "joint_events": 2,
+          "subject_answers": 42,
+          "first_mention_answers": 42,
+          "by_pair_joint": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        },
+        "subject_cleft": {
+          "actor_correct": 36,
+          "patient_correct": 16,
+          "joint_events": 16,
+          "subject_answers": 56,
+          "first_mention_answers": 56,
+          "by_pair_joint": [
+            3,
+            3,
+            2,
+            3,
+            3,
+            2
+          ]
+        },
+        "object_cleft": {
+          "actor_correct": 21,
+          "patient_correct": 14,
+          "joint_events": 5,
+          "subject_answers": 43,
+          "first_mention_answers": 29,
+          "by_pair_joint": [
+            0,
+            1,
+            2,
+            0,
+            1,
+            1
+          ]
+        },
+        "relative_actor": {
+          "actor_correct": 34,
+          "patient_correct": 9,
+          "joint_events": 8,
+          "subject_answers": 61,
+          "first_mention_answers": 11,
+          "by_pair_joint": [
+            2,
+            2,
+            0,
+            2,
+            0,
+            2
+          ]
+        },
+        "relative_patient": {
+          "actor_correct": 18,
+          "patient_correct": 28,
+          "joint_events": 10,
+          "subject_answers": 46,
+          "first_mention_answers": 26,
+          "by_pair_joint": [
+            0,
+            1,
+            2,
+            2,
+            4,
+            1
+          ]
+        }
+      }
+    },
+    "fresh1_aligned": {
+      "all_prompt_correct": 341,
+      "valid_outputs": 430,
+      "all_six_forms_joint_events": 2,
+      "by_form": {
+        "active": {
+          "actor_correct": 29,
+          "patient_correct": 31,
+          "joint_events": 25,
+          "subject_answers": 34,
+          "first_mention_answers": 34,
+          "by_pair_joint": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            5
+          ]
+        },
+        "passive": {
+          "actor_correct": 29,
+          "patient_correct": 22,
+          "joint_events": 15,
+          "subject_answers": 29,
+          "first_mention_answers": 29,
+          "by_pair_joint": [
+            0,
+            2,
+            4,
+            3,
+            2,
+            4
+          ]
+        },
+        "subject_cleft": {
+          "actor_correct": 35,
+          "patient_correct": 29,
+          "joint_events": 28,
+          "subject_answers": 42,
+          "first_mention_answers": 42,
+          "by_pair_joint": [
+            3,
+            5,
+            4,
+            5,
+            6,
+            5
+          ]
+        },
+        "object_cleft": {
+          "actor_correct": 27,
+          "patient_correct": 19,
+          "joint_events": 10,
+          "subject_answers": 44,
+          "first_mention_answers": 28,
+          "by_pair_joint": [
+            0,
+            1,
+            2,
+            1,
+            3,
+            3
+          ]
+        },
+        "relative_actor": {
+          "actor_correct": 34,
+          "patient_correct": 29,
+          "joint_events": 27,
+          "subject_answers": 40,
+          "first_mention_answers": 31,
+          "by_pair_joint": [
+            4,
+            4,
+            4,
+            5,
+            5,
+            5
+          ]
+        },
+        "relative_patient": {
+          "actor_correct": 28,
+          "patient_correct": 29,
+          "joint_events": 21,
+          "subject_answers": 37,
+          "first_mention_answers": 34,
+          "by_pair_joint": [
+            3,
+            5,
+            0,
+            5,
+            3,
+            5
+          ]
+        }
+      }
+    },
+    "fresh1_decoupled": {
+      "all_prompt_correct": 348,
+      "valid_outputs": 428,
+      "all_six_forms_joint_events": 6,
+      "by_form": {
+        "active": {
+          "actor_correct": 28,
+          "patient_correct": 24,
+          "joint_events": 22,
+          "subject_answers": 40,
+          "first_mention_answers": 40,
+          "by_pair_joint": [
+            3,
+            4,
+            4,
+            3,
+            4,
+            4
+          ]
+        },
+        "passive": {
+          "actor_correct": 31,
+          "patient_correct": 35,
+          "joint_events": 30,
+          "subject_answers": 40,
+          "first_mention_answers": 40,
+          "by_pair_joint": [
+            2,
+            5,
+            5,
+            6,
+            6,
+            6
+          ]
+        },
+        "subject_cleft": {
+          "actor_correct": 33,
+          "patient_correct": 23,
+          "joint_events": 22,
+          "subject_answers": 46,
+          "first_mention_answers": 46,
+          "by_pair_joint": [
+            2,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        "object_cleft": {
+          "actor_correct": 29,
+          "patient_correct": 23,
+          "joint_events": 16,
+          "subject_answers": 42,
+          "first_mention_answers": 30,
+          "by_pair_joint": [
+            0,
+            3,
+            3,
+            2,
+            4,
+            4
+          ]
+        },
+        "relative_actor": {
+          "actor_correct": 34,
+          "patient_correct": 27,
+          "joint_events": 25,
+          "subject_answers": 40,
+          "first_mention_answers": 29,
+          "by_pair_joint": [
+            4,
+            4,
+            4,
+            5,
+            4,
+            4
+          ]
+        },
+        "relative_patient": {
+          "actor_correct": 28,
+          "patient_correct": 33,
+          "joint_events": 25,
+          "subject_answers": 41,
+          "first_mention_answers": 30,
+          "by_pair_joint": [
+            4,
+            4,
+            1,
+            6,
+            5,
+            5
+          ]
+        }
+      }
+    },
+    "fresh3_source": {
+      "all_prompt_correct": 251,
+      "valid_outputs": 432,
+      "all_six_forms_joint_events": 0,
+      "by_form": {
+        "active": {
+          "actor_correct": 35,
+          "patient_correct": 13,
+          "joint_events": 13,
+          "subject_answers": 58,
+          "first_mention_answers": 58,
+          "by_pair_joint": [
+            3,
+            4,
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        "passive": {
+          "actor_correct": 16,
+          "patient_correct": 22,
+          "joint_events": 5,
+          "subject_answers": 42,
+          "first_mention_answers": 42,
+          "by_pair_joint": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            0
+          ]
+        },
+        "subject_cleft": {
+          "actor_correct": 36,
+          "patient_correct": 14,
+          "joint_events": 14,
+          "subject_answers": 58,
+          "first_mention_answers": 58,
+          "by_pair_joint": [
+            3,
+            3,
+            0,
+            3,
+            3,
+            2
+          ]
+        },
+        "object_cleft": {
+          "actor_correct": 12,
+          "patient_correct": 11,
+          "joint_events": 3,
+          "subject_answers": 37,
+          "first_mention_answers": 35,
+          "by_pair_joint": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            1
+          ]
+        },
+        "relative_actor": {
+          "actor_correct": 31,
+          "patient_correct": 13,
+          "joint_events": 11,
+          "subject_answers": 54,
+          "first_mention_answers": 18,
+          "by_pair_joint": [
+            3,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "relative_patient": {
+          "actor_correct": 23,
+          "patient_correct": 25,
+          "joint_events": 13,
+          "subject_answers": 38,
+          "first_mention_answers": 34,
+          "by_pair_joint": [
+            3,
+            3,
+            0,
+            2,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    "fresh3_aligned": {
+      "all_prompt_correct": 319,
+      "valid_outputs": 422,
+      "all_six_forms_joint_events": 0,
+      "by_form": {
+        "active": {
+          "actor_correct": 30,
+          "patient_correct": 32,
+          "joint_events": 26,
+          "subject_answers": 34,
+          "first_mention_answers": 34,
+          "by_pair_joint": [
+            4,
+            5,
+            3,
+            4,
+            5,
+            5
+          ]
+        },
+        "passive": {
+          "actor_correct": 29,
+          "patient_correct": 11,
+          "joint_events": 4,
+          "subject_answers": 18,
+          "first_mention_answers": 18,
+          "by_pair_joint": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        "subject_cleft": {
+          "actor_correct": 35,
+          "patient_correct": 30,
+          "joint_events": 29,
+          "subject_answers": 41,
+          "first_mention_answers": 41,
+          "by_pair_joint": [
+            5,
+            5,
+            4,
+            5,
+            5,
+            5
+          ]
+        },
+        "object_cleft": {
+          "actor_correct": 29,
+          "patient_correct": 18,
+          "joint_events": 11,
+          "subject_answers": 47,
+          "first_mention_answers": 25,
+          "by_pair_joint": [
+            0,
+            2,
+            0,
+            1,
+            3,
+            5
+          ]
+        },
+        "relative_actor": {
+          "actor_correct": 30,
+          "patient_correct": 30,
+          "joint_events": 24,
+          "subject_answers": 34,
+          "first_mention_answers": 36,
+          "by_pair_joint": [
+            4,
+            4,
+            2,
+            4,
+            5,
+            5
+          ]
+        },
+        "relative_patient": {
+          "actor_correct": 30,
+          "patient_correct": 15,
+          "joint_events": 12,
+          "subject_answers": 21,
+          "first_mention_answers": 43,
+          "by_pair_joint": [
+            3,
+            1,
+            0,
+            3,
+            3,
+            2
+          ]
+        }
+      }
+    },
+    "fresh3_decoupled": {
+      "all_prompt_correct": 328,
+      "valid_outputs": 415,
+      "all_six_forms_joint_events": 2,
+      "by_form": {
+        "active": {
+          "actor_correct": 22,
+          "patient_correct": 25,
+          "joint_events": 17,
+          "subject_answers": 33,
+          "first_mention_answers": 33,
+          "by_pair_joint": [
+            4,
+            4,
+            0,
+            3,
+            2,
+            4
+          ]
+        },
+        "passive": {
+          "actor_correct": 32,
+          "patient_correct": 36,
+          "joint_events": 32,
+          "subject_answers": 40,
+          "first_mention_answers": 40,
+          "by_pair_joint": [
+            4,
+            6,
+            4,
+            6,
+            6,
+            6
+          ]
+        },
+        "subject_cleft": {
+          "actor_correct": 34,
+          "patient_correct": 24,
+          "joint_events": 24,
+          "subject_answers": 46,
+          "first_mention_answers": 46,
+          "by_pair_joint": [
+            3,
+            5,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        "object_cleft": {
+          "actor_correct": 30,
+          "patient_correct": 19,
+          "joint_events": 13,
+          "subject_answers": 47,
+          "first_mention_answers": 25,
+          "by_pair_joint": [
+            0,
+            2,
+            0,
+            2,
+            4,
+            5
+          ]
+        },
+        "relative_actor": {
+          "actor_correct": 30,
+          "patient_correct": 27,
+          "joint_events": 22,
+          "subject_answers": 34,
+          "first_mention_answers": 33,
+          "by_pair_joint": [
+            4,
+            4,
+            2,
+            4,
+            4,
+            4
+          ]
+        },
+        "relative_patient": {
+          "actor_correct": 30,
+          "patient_correct": 19,
+          "joint_events": 16,
+          "subject_answers": 25,
+          "first_mention_answers": 35,
+          "by_pair_joint": [
+            6,
+            2,
+            0,
+            3,
+            2,
+            3
+          ]
+        }
+      }
+    }
+  },
+  "matched_changes": {
+    "fresh1": {
+      "relative_patient_joint_gain": 4,
+      "relative_actor_joint_loss": 2,
+      "active_question_accuracy_pp_change": -11.11111111111111,
+      "primary_by_pair_joint_deltas": [
+        1,
+        -1,
+        1,
+        1,
+        2,
+        0
+      ],
+      "passes_positive_screen": false
+    },
+    "fresh3": {
+      "relative_patient_joint_gain": 4,
+      "relative_actor_joint_loss": 2,
+      "active_question_accuracy_pp_change": -20.833333333333332,
+      "primary_by_pair_joint_deltas": [
+        3,
+        1,
+        0,
+        0,
+        -1,
+        1
+      ],
+      "passes_positive_screen": false
+    }
+  },
+  "positive_screen_both_starts": false
+}

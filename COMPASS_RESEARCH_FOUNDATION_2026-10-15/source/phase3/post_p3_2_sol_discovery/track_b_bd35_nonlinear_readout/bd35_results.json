@@ -1,0 +1,272 @@
+{
+  "canonical_mutation": false,
+  "canonical_retraining": false,
+  "protected_seeds_accessed": false,
+  "rows": [
+    {
+      "C": 1.0,
+      "arm": "cue",
+      "fit_accuracy": 0.5859375,
+      "frozen": null,
+      "gamma": 0.4607327404438114,
+      "held_accuracy": 0.55,
+      "seed": 3801,
+      "step": 1000,
+      "support_vectors": 1889
+    },
+    {
+      "C": 10.0,
+      "arm": "cue",
+      "fit_accuracy": 0.6807291666666667,
+      "frozen": null,
+      "gamma": 0.4607327404438114,
+      "held_accuracy": 0.5916666666666667,
+      "seed": 3801,
+      "step": 1000,
+      "support_vectors": 1729
+    },
+    {
+      "C": 1.0,
+      "arm": "cue",
+      "fit_accuracy": 0.5734375,
+      "frozen": null,
+      "gamma": 0.4476463555540092,
+      "held_accuracy": 0.5208333333333334,
+      "seed": 3801,
+      "step": 3000,
+      "support_vectors": 1890
+    },
+    {
+      "C": 10.0,
+      "arm": "cue",
+      "fit_accuracy": 0.69375,
+      "frozen": null,
+      "gamma": 0.4476463555540092,
+      "held_accuracy": 0.6145833333333334,
+      "seed": 3801,
+      "step": 3000,
+      "support_vectors": 1719
+    },
+    {
+      "C": 1.0,
+      "arm": "p95",
+      "fit_accuracy": 0.9052083333333333,
+      "frozen": null,
+      "gamma": 0.48220589182079887,
+      "held_accuracy": 0.8458333333333333,
+      "seed": 3801,
+      "step": 3000,
+      "support_vectors": 644
+    },
+    {
+      "C": 10.0,
+      "arm": "p95",
+      "fit_accuracy": 0.9609375,
+      "frozen": null,
+      "gamma": 0.48220589182079887,
+      "held_accuracy": 0.85,
+      "seed": 3801,
+      "step": 3000,
+      "support_vectors": 538
+    },
+    {
+      "C": 1.0,
+      "arm": "nocue",
+      "fit_accuracy": 0.9854166666666667,
+      "frozen": null,
+      "gamma": 0.4490151554647789,
+      "held_accuracy": 0.9791666666666666,
+      "seed": 3801,
+      "step": 3000,
+      "support_vectors": 163
+    },
+    {
+      "C": 10.0,
+      "arm": "nocue",
+      "fit_accuracy": 0.9963541666666667,
+      "frozen": null,
+      "gamma": 0.4490151554647789,
+      "held_accuracy": 0.9645833333333333,
+      "seed": 3801,
+      "step": 3000,
+      "support_vectors": 124
+    },
+    {
+      "C": 1.0,
+      "arm": "cue_to_p95",
+      "fit_accuracy": 0.9078125,
+      "frozen": "query",
+      "gamma": 0.4851724284717505,
+      "held_accuracy": 0.88125,
+      "seed": 3801,
+      "step": 3000,
+      "support_vectors": 648
+    },
+    {
+      "C": 10.0,
+      "arm": "cue_to_p95",
+      "fit_accuracy": 0.9489583333333333,
+      "frozen": "query",
+      "gamma": 0.4851724284717505,
+      "held_accuracy": 0.8729166666666667,
+      "seed": 3801,
+      "step": 3000,
+      "support_vectors": 561
+    },
+    {
+      "C": 1.0,
+      "arm": "cue_to_p95",
+      "fit_accuracy": 0.5859375,
+      "frozen": "candidate",
+      "gamma": 0.4607327404438114,
+      "held_accuracy": 0.55,
+      "seed": 3801,
+      "step": 3000,
+      "support_vectors": 1889
+    },
+    {
+      "C": 10.0,
+      "arm": "cue_to_p95",
+      "fit_accuracy": 0.6807291666666667,
+      "frozen": "candidate",
+      "gamma": 0.4607327404438114,
+      "held_accuracy": 0.5916666666666667,
+      "seed": 3801,
+      "step": 3000,
+      "support_vectors": 1729
+    },
+    {
+      "C": 1.0,
+      "arm": "cue",
+      "fit_accuracy": 0.5796875,
+      "frozen": null,
+      "gamma": 0.45103709505848,
+      "held_accuracy": 0.5708333333333333,
+      "seed": 3802,
+      "step": 1000,
+      "support_vectors": 1900
+    },
+    {
+      "C": 10.0,
+      "arm": "cue",
+      "fit_accuracy": 0.6807291666666667,
+      "frozen": null,
+      "gamma": 0.45103709505848,
+      "held_accuracy": 0.5854166666666667,
+      "seed": 3802,
+      "step": 1000,
+      "support_vectors": 1734
+    },
+    {
+      "C": 1.0,
+      "arm": "cue",
+      "fit_accuracy": 0.5916666666666667,
+      "frozen": null,
+      "gamma": 0.4484723960333706,
+      "held_accuracy": 0.5854166666666667,
+      "seed": 3802,
+      "step": 3000,
+      "support_vectors": 1893
+    },
+    {
+      "C": 10.0,
+      "arm": "cue",
+      "fit_accuracy": 0.6817708333333333,
+      "frozen": null,
+      "gamma": 0.4484723960333706,
+      "held_accuracy": 0.6083333333333333,
+      "seed": 3802,
+      "step": 3000,
+      "support_vectors": 1733
+    },
+    {
+      "C": 1.0,
+      "arm": "p95",
+      "fit_accuracy": 0.9005208333333333,
+      "frozen": null,
+      "gamma": 0.4813359835113635,
+      "held_accuracy": 0.8854166666666666,
+      "seed": 3802,
+      "step": 3000,
+      "support_vectors": 614
+    },
+    {
+      "C": 10.0,
+      "arm": "p95",
+      "fit_accuracy": 0.9494791666666667,
+      "frozen": null,
+      "gamma": 0.4813359835113635,
+      "held_accuracy": 0.8708333333333333,
+      "seed": 3802,
+      "step": 3000,
+      "support_vectors": 554
+    },
+    {
+      "C": 1.0,
+      "arm": "nocue",
+      "fit_accuracy": 0.9744791666666667,
+      "frozen": null,
+      "gamma": 0.46613560251050395,
+      "held_accuracy": 0.9541666666666667,
+      "seed": 3802,
+      "step": 3000,
+      "support_vectors": 239
+    },
+    {
+      "C": 10.0,
+      "arm": "nocue",
+      "fit_accuracy": 0.9932291666666667,
+      "frozen": null,
+      "gamma": 0.46613560251050395,
+      "held_accuracy": 0.9125,
+      "seed": 3802,
+      "step": 3000,
+      "support_vectors": 197
+    },
+    {
+      "C": 1.0,
+      "arm": "cue_to_p95",
+      "fit_accuracy": 0.8744791666666667,
+      "frozen": "query",
+      "gamma": 0.4896441464973544,
+      "held_accuracy": 0.8229166666666666,
+      "seed": 3802,
+      "step": 3000,
+      "support_vectors": 831
+    },
+    {
+      "C": 10.0,
+      "arm": "cue_to_p95",
+      "fit_accuracy": 0.9380208333333333,
+      "frozen": "query",
+      "gamma": 0.4896441464973544,
+      "held_accuracy": 0.8145833333333333,
+      "seed": 3802,
+      "step": 3000,
+      "support_vectors": 684
+    },
+    {
+      "C": 1.0,
+      "arm": "cue_to_p95",
+      "fit_accuracy": 0.5796875,
+      "frozen": "candidate",
+      "gamma": 0.45103709505848,
+      "held_accuracy": 0.5708333333333333,
+      "seed": 3802,
+      "step": 3000,
+      "support_vectors": 1900
+    },
+    {
+      "C": 10.0,
+      "arm": "cue_to_p95",
+      "fit_accuracy": 0.6807291666666667,
+      "frozen": "candidate",
+      "gamma": 0.45103709505848,
+      "held_accuracy": 0.5854166666666667,
+      "seed": 3802,
+      "step": 3000,
+      "support_vectors": 1734
+    }
+  ],
+  "status": "DISCOVERY_ONLY_NONLINEAR_CANDIDATE_READOUT"
+}

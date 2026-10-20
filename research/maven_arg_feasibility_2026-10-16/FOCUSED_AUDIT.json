@@ -1,0 +1,204 @@
+{
+  "source_hashes": {
+    "maven_zip": "d535cee2ea29293e5f20339a851be021328197a1b3148dc771510324f7ec53f1",
+    "wikievents_train.jsonl": "c422502da583b1c9294077644c78a647d41ff133fb8c522cbdcc085e9dc081e4",
+    "wikievents_dev.jsonl": "74a6cbef44c44f1add6882e54f0a966f0f1a35cc260f3079de1fe4312eabe285",
+    "wikievents_train_coref.jsonlines": "1ad5199722eb7e41310a2c421c9af6e16a30152de31e57411b233a2d630e45f9",
+    "wikievents_dev_coref.jsonlines": "e2ae3005f3cb717fc23e08c41c01ed4cfb395e79e547d5760cf1752a0022e472"
+  },
+  "maven_arg": {
+    "train": {
+      "pairs": {
+        "agent_patient_near_distinct_pairs": 250,
+        "all_arguments_within_100_chars": 88,
+        "all_arguments_within_200_chars": 139,
+        "all_arguments_within_50_chars": 52,
+        "conquering_near_500_pairs": 38
+      },
+      "documents": {
+        "agent_patient_near_distinct": 121,
+        "local_100": 56,
+        "local_200": 80,
+        "local_50": 37,
+        "conquering_near_500": 27
+      },
+      "local_validation_candidates": []
+    },
+    "valid": {
+      "pairs": {
+        "agent_patient_near_distinct_pairs": 39,
+        "all_arguments_within_200_chars": 25,
+        "all_arguments_within_100_chars": 12,
+        "conquering_near_500_pairs": 7,
+        "all_arguments_within_50_chars": 5
+      },
+      "documents": {
+        "agent_patient_near_distinct": 23,
+        "local_200": 16,
+        "local_100": 10,
+        "conquering_near_500": 5,
+        "local_50": 3
+      },
+      "local_validation_candidates": [
+        {
+          "doc_id": "16613ed8c8ab859e528665ca6a5ec4aa",
+          "title": "2014 Men's Hockey World Cup",
+          "type": "Conquering",
+          "event_ids": [
+            "EVENT_3f407c17008f5887942450a788149054",
+            "EVENT_9fa8dd6a2da97edf8f1c138be43fc038"
+          ],
+          "trigger_separation_chars": 84,
+          "max_argument_to_trigger_chars": 54
+        },
+        {
+          "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+          "title": "Extreme Rules (2012)",
+          "type": "Conquering",
+          "event_ids": [
+            "EVENT_901fa112f795d5d93bff39adde08c516",
+            "EVENT_e9ef16f7b86fbadf9c1e0aec674e2df3"
+          ],
+          "trigger_separation_chars": 82,
+          "max_argument_to_trigger_chars": 10
+        },
+        {
+          "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+          "title": "Extreme Rules (2012)",
+          "type": "Conquering",
+          "event_ids": [
+            "EVENT_901fa112f795d5d93bff39adde08c516",
+            "EVENT_079801409b6f1656ec8f6f312cce91a0"
+          ],
+          "trigger_separation_chars": 176,
+          "max_argument_to_trigger_chars": 10
+        },
+        {
+          "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+          "title": "Extreme Rules (2012)",
+          "type": "Conquering",
+          "event_ids": [
+            "EVENT_e9ef16f7b86fbadf9c1e0aec674e2df3",
+            "EVENT_079801409b6f1656ec8f6f312cce91a0"
+          ],
+          "trigger_separation_chars": 94,
+          "max_argument_to_trigger_chars": 9
+        },
+        {
+          "doc_id": "bdcefdba83f4e892963c60e1a0b77c06",
+          "title": "Action of 18 September 1810",
+          "type": "Military_operation",
+          "event_ids": [
+            "EVENT_35cb90b3c72e0fc8da13da575e01eb29",
+            "EVENT_2fbdec2d3c73afd37925f4048ae49dcf"
+          ],
+          "trigger_separation_chars": 997,
+          "max_argument_to_trigger_chars": 88
+        },
+        {
+          "doc_id": "b10f421c0cc40013059af7362887758c",
+          "title": "Brabant Revolution",
+          "type": "Supporting",
+          "event_ids": [
+            "EVENT_cc75acf14987d28f58158aeda6583f7d",
+            "EVENT_cef0d6d8dcd9e3477bf5fdfc05a620e4"
+          ],
+          "trigger_separation_chars": 357,
+          "max_argument_to_trigger_chars": 37
+        },
+        {
+          "doc_id": "221564dc4bde4dafc250755cec7fb628",
+          "title": "Jin–Song Wars",
+          "type": "Earnings_and_losses",
+          "event_ids": [
+            "EVENT_93c42266976a47576377bd8fcc875b83",
+            "EVENT_941612bdee2826b6602ffd64ff6c56c8"
+          ],
+          "trigger_separation_chars": 311,
+          "max_argument_to_trigger_chars": 98
+        },
+        {
+          "doc_id": "36f022acee96ba0a96ed6ccac5834e47",
+          "title": "Battle of Rastatt (1796)",
+          "type": "Military_operation",
+          "event_ids": [
+            "EVENT_6393e76e05e6b4b49d464343a16baa97",
+            "EVENT_0a788365cd653b406e9343069db8009e"
+          ],
+          "trigger_separation_chars": 952,
+          "max_argument_to_trigger_chars": 54
+        },
+        {
+          "doc_id": "d51c2b7f8d15903cf1f0729b63a180c4",
+          "title": "2010 IAAF World Cross Country Championships",
+          "type": "Bringing",
+          "event_ids": [
+            "EVENT_70324ef7cf028a50bbaa2cacb06d9548",
+            "EVENT_0dd827f98b0605bd685ed70549e68611"
+          ],
+          "trigger_separation_chars": 505,
+          "max_argument_to_trigger_chars": 57
+        },
+        {
+          "doc_id": "61f8ad6c0b8c0fc044c32f37c593caa2",
+          "title": "2013 World Junior Ice Hockey Championships",
+          "type": "Getting",
+          "event_ids": [
+            "EVENT_2744cce12fe847470f7bca73d6428c99",
+            "EVENT_e045aeee74fa3538c3afbba7cf025527"
+          ],
+          "trigger_separation_chars": 157,
+          "max_argument_to_trigger_chars": 56
+        },
+        {
+          "doc_id": "8375b6741c45d1b56481bf615c8ac131",
+          "title": "2009 Men's Asia Pacific Floorball Championships",
+          "type": "Conquering",
+          "event_ids": [
+            "EVENT_ed72edcf4c0ce1da6d18b7e12b8e3d25",
+            "EVENT_20179c05c3648a7779578560811e5d0d"
+          ],
+          "trigger_separation_chars": 101,
+          "max_argument_to_trigger_chars": 9
+        },
+        {
+          "doc_id": "b605e179adce15c07a0945bddd52645e",
+          "title": "First Battle of the Isonzo",
+          "type": "Control",
+          "event_ids": [
+            "EVENT_8b181390f8e4b403137337edfe0218b2",
+            "EVENT_03bb3a580b8c5efef745046e232d7a3d"
+          ],
+          "trigger_separation_chars": 60,
+          "max_argument_to_trigger_chars": 73
+        }
+      ]
+    }
+  },
+  "wikievents": {
+    "train": {
+      "pairs": {
+        "same_type_two_roles_four_distinct_coref_pairs": 496,
+        "trigger_distance_le_100_tokens": 104,
+        "trigger_distance_le_200_tokens": 186
+      },
+      "documents": {
+        "four_distinct_coref": 66,
+        "near_100": 36,
+        "near_200": 50
+      }
+    },
+    "dev": {
+      "pairs": {
+        "same_type_two_roles_four_distinct_coref_pairs": 11,
+        "trigger_distance_le_100_tokens": 1,
+        "trigger_distance_le_200_tokens": 4
+      },
+      "documents": {
+        "four_distinct_coref": 6,
+        "near_100": 1,
+        "near_200": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,1217 @@
+{
+  "counts": {
+    "local_exact": 49,
+    "target_alias_contained": 9,
+    "unmatched_or_ambiguous": 4,
+    "same_event_wrong_role": 6
+  },
+  "document_scores": {
+    "ec96724393e4ca365148ccf7097f5839": [
+      4,
+      4
+    ],
+    "be3fdcdd9bae44e5e77ba32ddca4d202": [
+      4,
+      4
+    ],
+    "937027ec71f828b3205e4934653a24ea": [
+      4,
+      4
+    ],
+    "7f222ee7194066de5213f332c25fd5d0": [
+      4,
+      4
+    ],
+    "a558c8f9a30c86aadc0f44eaef3d37d8": [
+      3,
+      4
+    ],
+    "77dde58b3073c390e84c6860b32f5029": [
+      4,
+      4
+    ],
+    "13e35d0964c9bc4f2dfd68be607afdd6": [
+      4,
+      4
+    ],
+    "1a0a7c7b496ad1d984ee02d240f1d5f8": [
+      4,
+      4
+    ],
+    "fb8365079fb1c96e0fa2193168567a4d": [
+      3,
+      4
+    ],
+    "b06020d331acbcd9a5c3bd228c576848": [
+      4,
+      4
+    ],
+    "0468fa6f43ced528e51523b49ff07aca": [
+      3,
+      4
+    ],
+    "307d35d310c0d50ca295008c5d515445": [
+      2,
+      4
+    ],
+    "788284156c4a486090216897f75e6df6": [
+      2,
+      4
+    ],
+    "1dcb37c7c6b4c970a66b2ee6eabf884b": [
+      3,
+      4
+    ],
+    "d0a67a937ece48f92da547b553d9572d": [
+      2,
+      4
+    ],
+    "c6beafb9b0e28235bdcf26c687f3d7b5": [
+      4,
+      4
+    ],
+    "a47c31c471e535181209b87c29e9acb2": [
+      4,
+      4
+    ]
+  },
+  "identical_agent_patient_pairs": 6,
+  "details": [
+    {
+      "doc_id": "ec96724393e4ca365148ccf7097f5839",
+      "title": "1998 ICC KnockOut Trophy",
+      "event": "A",
+      "role": "Agent",
+      "response": "New Zealand",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "New Zealand",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "ec96724393e4ca365148ccf7097f5839",
+      "title": "1998 ICC KnockOut Trophy",
+      "event": "A",
+      "role": "Patient",
+      "response": "Zimbabwe",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Zimbabwe",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "ec96724393e4ca365148ccf7097f5839",
+      "title": "1998 ICC KnockOut Trophy",
+      "event": "B",
+      "role": "Agent",
+      "response": "South Africa",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "South Africa",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "ec96724393e4ca365148ccf7097f5839",
+      "title": "1998 ICC KnockOut Trophy",
+      "event": "B",
+      "role": "Patient",
+      "response": "the West Indies",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "West Indies",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "be3fdcdd9bae44e5e77ba32ddca4d202",
+      "title": "2006 AFC Youth Championship",
+      "event": "A",
+      "role": "Agent",
+      "response": "North Korea",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "North Korea",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "be3fdcdd9bae44e5e77ba32ddca4d202",
+      "title": "2006 AFC Youth Championship",
+      "event": "A",
+      "role": "Patient",
+      "response": "Japan",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Japan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "be3fdcdd9bae44e5e77ba32ddca4d202",
+      "title": "2006 AFC Youth Championship",
+      "event": "B",
+      "role": "Agent",
+      "response": "South Korea",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "South Korea",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "be3fdcdd9bae44e5e77ba32ddca4d202",
+      "title": "2006 AFC Youth Championship",
+      "event": "B",
+      "role": "Patient",
+      "response": "Jordan",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Jordan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "937027ec71f828b3205e4934653a24ea",
+      "title": "2012–13 Big Bash League season",
+      "event": "A",
+      "role": "Agent",
+      "response": "Brisbane Heat",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Brisbane Heat",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "937027ec71f828b3205e4934653a24ea",
+      "title": "2012–13 Big Bash League season",
+      "event": "A",
+      "role": "Patient",
+      "response": "Melbourne Renegades",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Melbourne Renegades",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "937027ec71f828b3205e4934653a24ea",
+      "title": "2012–13 Big Bash League season",
+      "event": "B",
+      "role": "Agent",
+      "response": "Perth Scorchers",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Perth Scorchers",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "937027ec71f828b3205e4934653a24ea",
+      "title": "2012–13 Big Bash League season",
+      "event": "B",
+      "role": "Patient",
+      "response": "Melbourne Stars",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Melbourne Stars",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "7f222ee7194066de5213f332c25fd5d0",
+      "title": "2013 ICC World Cricket League Division Three",
+      "event": "A",
+      "role": "Agent",
+      "response": "USA",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "USA",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "7f222ee7194066de5213f332c25fd5d0",
+      "title": "2013 ICC World Cricket League Division Three",
+      "event": "A",
+      "role": "Patient",
+      "response": "Bermuda",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Bermuda",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "7f222ee7194066de5213f332c25fd5d0",
+      "title": "2013 ICC World Cricket League Division Three",
+      "event": "B",
+      "role": "Agent",
+      "response": "Nepal",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Nepal",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "7f222ee7194066de5213f332c25fd5d0",
+      "title": "2013 ICC World Cricket League Division Three",
+      "event": "B",
+      "role": "Patient",
+      "response": "Italy",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Italy",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a558c8f9a30c86aadc0f44eaef3d37d8",
+      "title": "2014 Women's Hockey World Cup",
+      "event": "A",
+      "role": "Agent",
+      "response": "defeating",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Netherlands",
+      "category": "unmatched_or_ambiguous",
+      "alias_hits": []
+    },
+    {
+      "doc_id": "a558c8f9a30c86aadc0f44eaef3d37d8",
+      "title": "2014 Women's Hockey World Cup",
+      "event": "A",
+      "role": "Patient",
+      "response": "Australia",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Australia",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a558c8f9a30c86aadc0f44eaef3d37d8",
+      "title": "2014 Women's Hockey World Cup",
+      "event": "B",
+      "role": "Agent",
+      "response": "defending champions Argentina",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Argentina",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a558c8f9a30c86aadc0f44eaef3d37d8",
+      "title": "2014 Women's Hockey World Cup",
+      "event": "B",
+      "role": "Patient",
+      "response": "the United States",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "the United States",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "77dde58b3073c390e84c6860b32f5029",
+      "title": "2015 Australian Open",
+      "event": "A",
+      "role": "Agent",
+      "response": "Novak Djokovic",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Novak Djokovic",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "77dde58b3073c390e84c6860b32f5029",
+      "title": "2015 Australian Open",
+      "event": "A",
+      "role": "Patient",
+      "response": "Andy Murray",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Andy Murray",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "77dde58b3073c390e84c6860b32f5029",
+      "title": "2015 Australian Open",
+      "event": "B",
+      "role": "Agent",
+      "response": "Serena Williams",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Serena Williams",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "77dde58b3073c390e84c6860b32f5029",
+      "title": "2015 Australian Open",
+      "event": "B",
+      "role": "Patient",
+      "response": "Maria Sharapova",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Maria Sharapova",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "13e35d0964c9bc4f2dfd68be607afdd6",
+      "title": "Against All Odds (2005)",
+      "event": "A",
+      "role": "Agent",
+      "response": "Styles",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Styles",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "13e35d0964c9bc4f2dfd68be607afdd6",
+      "title": "Against All Odds (2005)",
+      "event": "A",
+      "role": "Patient",
+      "response": "Christopher Daniels",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Christopher Daniels",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "13e35d0964c9bc4f2dfd68be607afdd6",
+      "title": "Against All Odds (2005)",
+      "event": "B",
+      "role": "Agent",
+      "response": "Abyss",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Abyss",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "13e35d0964c9bc4f2dfd68be607afdd6",
+      "title": "Against All Odds (2005)",
+      "event": "B",
+      "role": "Patient",
+      "response": "Jeff Hardy",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Jeff Hardy",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "event": "A",
+      "role": "Agent",
+      "response": "Ric Flair",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Ric Flair",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "event": "A",
+      "role": "Patient",
+      "response": "Shawn Michaels",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Shawn Michaels",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "event": "B",
+      "role": "Agent",
+      "response": "Goldberg",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Goldberg",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "event": "B",
+      "role": "Patient",
+      "response": "Chris Jericho",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Chris Jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "fb8365079fb1c96e0fa2193168567a4d",
+      "title": "Battle of Bucharest",
+      "event": "A",
+      "role": "Agent",
+      "response": "General Erich von Falkenhayn",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Erich von Falkenhayn",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "fb8365079fb1c96e0fa2193168567a4d",
+      "title": "Battle of Bucharest",
+      "event": "A",
+      "role": "Patient",
+      "response": "General Erich von Falkenhayn",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Central Powers",
+      "category": "same_event_wrong_role",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "fb8365079fb1c96e0fa2193168567a4d",
+      "title": "Battle of Bucharest",
+      "event": "B",
+      "role": "Agent",
+      "response": "General Constantin Prezan",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Constantin Prezan",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "fb8365079fb1c96e0fa2193168567a4d",
+      "title": "Battle of Bucharest",
+      "event": "B",
+      "role": "Patient",
+      "response": "Romanian Army",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Romanian Army",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "b06020d331acbcd9a5c3bd228c576848",
+      "title": "Battle of Cepeda (1820)",
+      "event": "A",
+      "role": "Agent",
+      "response": "José de San Martín",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "José de San Martín",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "b06020d331acbcd9a5c3bd228c576848",
+      "title": "Battle of Cepeda (1820)",
+      "event": "A",
+      "role": "Patient",
+      "response": "Army of the Andes",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Army of the Andes",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "b06020d331acbcd9a5c3bd228c576848",
+      "title": "Battle of Cepeda (1820)",
+      "event": "B",
+      "role": "Agent",
+      "response": "Manuel Belgrano",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Manuel Belgrano",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "b06020d331acbcd9a5c3bd228c576848",
+      "title": "Battle of Cepeda (1820)",
+      "event": "B",
+      "role": "Patient",
+      "response": "Army of the North",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Army of the North",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "0468fa6f43ced528e51523b49ff07aca",
+      "title": "Battle of Ostrach",
+      "event": "A",
+      "role": "Agent",
+      "response": "Archduke Charles",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Archduke Charles",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "0468fa6f43ced528e51523b49ff07aca",
+      "title": "Battle of Ostrach",
+      "event": "A",
+      "role": "Patient",
+      "response": "Archduke Charles",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Austrian forces",
+      "category": "same_event_wrong_role",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "0468fa6f43ced528e51523b49ff07aca",
+      "title": "Battle of Ostrach",
+      "event": "B",
+      "role": "Agent",
+      "response": "Jean-Baptiste Jourdan",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Jean-Baptiste Jourdan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "0468fa6f43ced528e51523b49ff07aca",
+      "title": "Battle of Ostrach",
+      "event": "B",
+      "role": "Patient",
+      "response": "French forces",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "French forces",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "307d35d310c0d50ca295008c5d515445",
+      "title": "Battle of Ruona",
+      "event": "A",
+      "role": "Agent",
+      "response": "Carl Johan Adlercreutz",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Carl Johan Adlercreutz",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "307d35d310c0d50ca295008c5d515445",
+      "title": "Battle of Ruona",
+      "event": "A",
+      "role": "Patient",
+      "response": "Carl Johan Adlercreutz",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Swedish army",
+      "category": "same_event_wrong_role",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "307d35d310c0d50ca295008c5d515445",
+      "title": "Battle of Ruona",
+      "event": "B",
+      "role": "Agent",
+      "response": "Nikolay Kamensky",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Nikolay Kamensky",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "307d35d310c0d50ca295008c5d515445",
+      "title": "Battle of Ruona",
+      "event": "B",
+      "role": "Patient",
+      "response": "Nikolay Kamensky",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Russian army",
+      "category": "same_event_wrong_role",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "788284156c4a486090216897f75e6df6",
+      "title": "Capture of USS Chesapeake",
+      "event": "A",
+      "role": "Agent",
+      "response": "Captain James Lawrence",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "James Lawrence",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "788284156c4a486090216897f75e6df6",
+      "title": "Capture of USS Chesapeake",
+      "event": "A",
+      "role": "Patient",
+      "response": "command",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Chesapeake",
+      "category": "unmatched_or_ambiguous",
+      "alias_hits": []
+    },
+    {
+      "doc_id": "788284156c4a486090216897f75e6df6",
+      "title": "Capture of USS Chesapeake",
+      "event": "B",
+      "role": "Agent",
+      "response": "HMS \"Shannon\"",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Philip Broke",
+      "category": "same_event_wrong_role",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "788284156c4a486090216897f75e6df6",
+      "title": "Capture of USS Chesapeake",
+      "event": "B",
+      "role": "Patient",
+      "response": "HMS \"Shannon\"",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Shannon",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1dcb37c7c6b4c970a66b2ee6eabf884b",
+      "title": "Fall of Saigon",
+      "event": "A",
+      "role": "Agent",
+      "response": "General Văn Tiến Dũng",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Văn Tiến Dũng",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1dcb37c7c6b4c970a66b2ee6eabf884b",
+      "title": "Fall of Saigon",
+      "event": "A",
+      "role": "Patient",
+      "response": "General Văn Tiến Dũng",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "PAVN",
+      "category": "same_event_wrong_role",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1dcb37c7c6b4c970a66b2ee6eabf884b",
+      "title": "Fall of Saigon",
+      "event": "B",
+      "role": "Agent",
+      "response": "General Nguyễn Văn Toàn",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Nguyễn Văn Toàn",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1dcb37c7c6b4c970a66b2ee6eabf884b",
+      "title": "Fall of Saigon",
+      "event": "B",
+      "role": "Patient",
+      "response": "ARVN forces",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "ARVN",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "d0a67a937ece48f92da547b553d9572d",
+      "title": "Mongol conquest of the Qara Khitai",
+      "event": "A",
+      "role": "Agent",
+      "response": "Mongol Empire",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "The Mongol Empire",
+      "category": "unmatched_or_ambiguous",
+      "alias_hits": []
+    },
+    {
+      "doc_id": "d0a67a937ece48f92da547b553d9572d",
+      "title": "Mongol conquest of the Qara Khitai",
+      "event": "A",
+      "role": "Patient",
+      "response": "Qara Khitai",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "the Qara Khitai",
+      "category": "unmatched_or_ambiguous",
+      "alias_hits": []
+    },
+    {
+      "doc_id": "d0a67a937ece48f92da547b553d9572d",
+      "title": "Mongol conquest of the Qara Khitai",
+      "event": "B",
+      "role": "Agent",
+      "response": "Jebe",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Jebe",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "d0a67a937ece48f92da547b553d9572d",
+      "title": "Mongol conquest of the Qara Khitai",
+      "event": "B",
+      "role": "Patient",
+      "response": "Kuchlug",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Kuchlug",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "c6beafb9b0e28235bdcf26c687f3d7b5",
+      "title": "No Mercy (1999)",
+      "event": "A",
+      "role": "Agent",
+      "response": "Chyna",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Chyna",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "c6beafb9b0e28235bdcf26c687f3d7b5",
+      "title": "No Mercy (1999)",
+      "event": "A",
+      "role": "Patient",
+      "response": "Jeff Jarrett",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Jeff Jarrett",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "c6beafb9b0e28235bdcf26c687f3d7b5",
+      "title": "No Mercy (1999)",
+      "event": "B",
+      "role": "Agent",
+      "response": "Triple H",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Triple H",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "c6beafb9b0e28235bdcf26c687f3d7b5",
+      "title": "No Mercy (1999)",
+      "event": "B",
+      "role": "Patient",
+      "response": "Stone Cold Steve Austin",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Stone Cold Steve Austin",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "event": "A",
+      "role": "Agent",
+      "response": "Alberto Del Rio",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Alberto Del Rio",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "event": "A",
+      "role": "Patient",
+      "response": "Christian",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Christian",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "event": "B",
+      "role": "Agent",
+      "response": "Brock Lesnar",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "Brock Lesnar",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "event": "B",
+      "role": "Patient",
+      "response": "CM Punk",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "34f3c75ac7b62c3b79b37c77ec173f173e45d3afe573c13d4f750048bc0d0471",
+      "gold_local": "CM Punk",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    }
+  ]
+}

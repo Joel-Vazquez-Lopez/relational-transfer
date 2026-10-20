@@ -1,0 +1,66 @@
+{
+  "train": {
+    "n": 4000,
+    "patterns": {
+      "FF": 2000,
+      "RR": 2000
+    },
+    "answer_in_question": 0,
+    "answer_is_start": 0,
+    "first_fact_first_name": 431,
+    "first_fact_second_name": 525,
+    "last_fact_last_name": 467,
+    "answer_name_top_frequency": [
+      "n5",
+      274
+    ]
+  },
+  "development": {
+    "n": 400,
+    "patterns": {
+      "FF": 200,
+      "RR": 200
+    },
+    "answer_in_question": 0,
+    "answer_is_start": 0,
+    "first_fact_first_name": 50,
+    "first_fact_second_name": 51,
+    "last_fact_last_name": 53,
+    "answer_name_top_frequency": [
+      "n12",
+      38
+    ]
+  },
+  "in_domain_test": {
+    "n": 400,
+    "patterns": {
+      "FF": 200,
+      "RR": 200
+    },
+    "answer_in_question": 0,
+    "answer_is_start": 0,
+    "first_fact_first_name": 52,
+    "first_fact_second_name": 50,
+    "last_fact_last_name": 48,
+    "answer_name_top_frequency": [
+      "n13",
+      34
+    ]
+  },
+  "heldout_mixed": {
+    "n": 400,
+    "patterns": {
+      "FR": 200,
+      "RF": 200
+    },
+    "answer_in_question": 0,
+    "answer_is_start": 0,
+    "first_fact_first_name": 45,
+    "first_fact_second_name": 52,
+    "last_fact_last_name": 51,
+    "answer_name_top_frequency": [
+      "n14",
+      39
+    ]
+  }
+}

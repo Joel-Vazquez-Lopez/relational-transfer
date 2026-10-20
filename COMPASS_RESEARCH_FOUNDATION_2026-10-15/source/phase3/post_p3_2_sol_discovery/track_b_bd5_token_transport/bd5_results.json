@@ -1,0 +1,121 @@
+{
+  "canonical_mutation": false,
+  "decision": "token_transport_fails",
+  "gates": {
+    "global": {
+      "per_seed_ratios": {
+        "1701": {
+          "score_rmse": {
+            "embedding": 0.12643551579096526,
+            "identity": 0.0494381384231413,
+            "nearest": 1.384067782702825
+          },
+          "subsets": {
+            "held_third": 0.07341174254141176,
+            "source": 0.04280421655536862,
+            "target": 0.05679695734179325
+          },
+          "vector_rmse": {
+            "embedding": 0.19679272735322983,
+            "identity": 0.12173314339065833,
+            "nearest": 1.336542146103932
+          }
+        },
+        "1702": {
+          "score_rmse": {
+            "embedding": 0.08479437157921738,
+            "identity": 0.04570821046305116,
+            "nearest": 1.1996798725333329
+          },
+          "subsets": {
+            "held_third": 0.08172903126166818,
+            "source": 0.03971721833590451,
+            "target": 0.04978120670126326
+          },
+          "vector_rmse": {
+            "embedding": 0.1690950702555543,
+            "identity": 0.12120194543376496,
+            "nearest": 1.2876639576687643
+          }
+        },
+        "1703": {
+          "score_rmse": {
+            "embedding": 0.1299955678858957,
+            "identity": 0.06159946235328319,
+            "nearest": 1.133731275026154
+          },
+          "subsets": {
+            "held_third": 0.09531350828084291,
+            "source": 0.04196090405650473,
+            "target": 0.07559646937275072
+          },
+          "vector_rmse": {
+            "embedding": 0.20179784873888032,
+            "identity": 0.1316861599605159,
+            "nearest": 1.243853626441999
+          }
+        }
+      },
+      "survives": false
+    },
+    "role": {
+      "per_seed_ratios": {
+        "1701": {
+          "score_rmse": {
+            "embedding": 0.12425312214115336,
+            "identity": 0.04858479054317089,
+            "nearest": 1.360177495855941
+          },
+          "subsets": {
+            "held_third": 0.07074091891253255,
+            "source": 0.041121044680864194,
+            "target": 0.056708465418145
+          },
+          "vector_rmse": {
+            "embedding": 0.1751303079424505,
+            "identity": 0.10833308311511938,
+            "nearest": 1.189419145582077
+          }
+        },
+        "1702": {
+          "score_rmse": {
+            "embedding": 0.07247918808019267,
+            "identity": 0.03906973919684649,
+            "nearest": 1.0254433342445621
+          },
+          "subsets": {
+            "held_third": 0.07055358620015773,
+            "source": 0.03421320654445042,
+            "target": 0.04238997825404305
+          },
+          "vector_rmse": {
+            "embedding": 0.15230396940375118,
+            "identity": 0.10916662065382073,
+            "nearest": 1.1597992284145537
+          }
+        },
+        "1703": {
+          "score_rmse": {
+            "embedding": 0.13421621261839162,
+            "identity": 0.06359944935694914,
+            "nearest": 1.1705408140883253
+          },
+          "subsets": {
+            "held_third": 0.09895158981567398,
+            "source": 0.04189000226070948,
+            "target": 0.07878619000927735
+          },
+          "vector_rmse": {
+            "embedding": 0.1857290684049642,
+            "identity": 0.12120024055827017,
+            "nearest": 1.1448079189889715
+          }
+        }
+      },
+      "survives": false
+    }
+  },
+  "new_training": false,
+  "protected_seeds_accessed": false,
+  "status": "DISCOVERY_ONLY"
+}

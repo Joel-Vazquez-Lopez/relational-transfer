@@ -1,0 +1,2279 @@
+{
+  "counts": {
+    "local_exact": 46,
+    "target_alias_contained": 17,
+    "same_event_wrong_role": 3,
+    "unmatched_or_ambiguous": 2
+  },
+  "document_scores": {
+    "ec96724393e4ca365148ccf7097f5839": [
+      4,
+      4
+    ],
+    "be3fdcdd9bae44e5e77ba32ddca4d202": [
+      4,
+      4
+    ],
+    "937027ec71f828b3205e4934653a24ea": [
+      4,
+      4
+    ],
+    "7f222ee7194066de5213f332c25fd5d0": [
+      4,
+      4
+    ],
+    "a558c8f9a30c86aadc0f44eaef3d37d8": [
+      4,
+      4
+    ],
+    "77dde58b3073c390e84c6860b32f5029": [
+      4,
+      4
+    ],
+    "13e35d0964c9bc4f2dfd68be607afdd6": [
+      4,
+      4
+    ],
+    "1a0a7c7b496ad1d984ee02d240f1d5f8": [
+      4,
+      4
+    ],
+    "fb8365079fb1c96e0fa2193168567a4d": [
+      4,
+      4
+    ],
+    "b06020d331acbcd9a5c3bd228c576848": [
+      4,
+      4
+    ],
+    "0468fa6f43ced528e51523b49ff07aca": [
+      3,
+      4
+    ],
+    "307d35d310c0d50ca295008c5d515445": [
+      2,
+      4
+    ],
+    "788284156c4a486090216897f75e6df6": [
+      4,
+      4
+    ],
+    "1dcb37c7c6b4c970a66b2ee6eabf884b": [
+      3,
+      4
+    ],
+    "d0a67a937ece48f92da547b553d9572d": [
+      3,
+      4
+    ],
+    "c6beafb9b0e28235bdcf26c687f3d7b5": [
+      4,
+      4
+    ],
+    "a47c31c471e535181209b87c29e9acb2": [
+      4,
+      4
+    ]
+  },
+  "identical_agent_patient_pairs": 3,
+  "scoring_rule": "Normalize punctuation/case/whitespace. Accept a response containing a whole-token gold entity alias only if it matches exactly one of the four event-role candidate entities; otherwise classify wrong event/role or unmatched. This is a string sensitivity rule, not human referent adjudication.",
+  "details": [
+    {
+      "doc_id": "ec96724393e4ca365148ccf7097f5839",
+      "title": "1998 ICC KnockOut Trophy",
+      "event": "A",
+      "role": "Agent",
+      "response": "New Zealand",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 133,
+        "completion_tokens": 3,
+        "total_tokens": 136,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0952
+      },
+      "estimated_eur": "0.00003475",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "31af2cfb307f47a1b07b8922f81e7266",
+      "received_utc": "2026-10-16T18:03:54.383242+00:00",
+      "gold_local": "New Zealand",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "ec96724393e4ca365148ccf7097f5839",
+      "title": "1998 ICC KnockOut Trophy",
+      "event": "A",
+      "role": "Patient",
+      "response": "Zimbabwe",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 137,
+        "completion_tokens": 2,
+        "total_tokens": 139,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0973
+      },
+      "estimated_eur": "0.00003525",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "16acb682d8c84eb99854485506630ea9",
+      "received_utc": "2026-10-16T18:03:54.678281+00:00",
+      "gold_local": "Zimbabwe",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "ec96724393e4ca365148ccf7097f5839",
+      "title": "1998 ICC KnockOut Trophy",
+      "event": "B",
+      "role": "Agent",
+      "response": "South Africa",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 133,
+        "completion_tokens": 3,
+        "total_tokens": 136,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0952
+      },
+      "estimated_eur": "0.00003475",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "881edda9c62946209ec42bbeab001898",
+      "received_utc": "2026-10-16T18:03:54.862642+00:00",
+      "gold_local": "South Africa",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "ec96724393e4ca365148ccf7097f5839",
+      "title": "1998 ICC KnockOut Trophy",
+      "event": "B",
+      "role": "Patient",
+      "response": "the West Indies",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 137,
+        "completion_tokens": 4,
+        "total_tokens": 141,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0987
+      },
+      "estimated_eur": "0.00003625",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "be8a9551c66646bb80af73517fa5b933",
+      "received_utc": "2026-10-16T18:03:55.046710+00:00",
+      "gold_local": "West Indies",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "be3fdcdd9bae44e5e77ba32ddca4d202",
+      "title": "2006 AFC Youth Championship",
+      "event": "A",
+      "role": "Agent",
+      "response": "North Korea",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 144,
+        "completion_tokens": 3,
+        "total_tokens": 147,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1029
+      },
+      "estimated_eur": "0.0000375",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "c90a254ec5b54ee0879e6be1692db462",
+      "received_utc": "2026-10-16T18:03:55.230871+00:00",
+      "gold_local": "North Korea",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "be3fdcdd9bae44e5e77ba32ddca4d202",
+      "title": "2006 AFC Youth Championship",
+      "event": "A",
+      "role": "Patient",
+      "response": "Japan",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 148,
+        "completion_tokens": 2,
+        "total_tokens": 150,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000038",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "a9a65678a89b4c279cc5ac56da916a20",
+      "received_utc": "2026-10-16T18:03:55.420915+00:00",
+      "gold_local": "Japan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "be3fdcdd9bae44e5e77ba32ddca4d202",
+      "title": "2006 AFC Youth Championship",
+      "event": "B",
+      "role": "Agent",
+      "response": "South Korea",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 144,
+        "completion_tokens": 3,
+        "total_tokens": 147,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1029
+      },
+      "estimated_eur": "0.0000375",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "97d3c55f8d0c4524b8e63efbf65c8c66",
+      "received_utc": "2026-10-16T18:03:55.733167+00:00",
+      "gold_local": "South Korea",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "be3fdcdd9bae44e5e77ba32ddca4d202",
+      "title": "2006 AFC Youth Championship",
+      "event": "B",
+      "role": "Patient",
+      "response": "Jordan",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 148,
+        "completion_tokens": 2,
+        "total_tokens": 150,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000038",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "f04ed22868b0446cbc92cca585af9bb9",
+      "received_utc": "2026-10-16T18:03:55.994939+00:00",
+      "gold_local": "Jordan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "937027ec71f828b3205e4934653a24ea",
+      "title": "2012–13 Big Bash League season",
+      "event": "A",
+      "role": "Agent",
+      "response": "Brisbane Heat",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 157,
+        "completion_tokens": 4,
+        "total_tokens": 161,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004125",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "1556f66c19554b0d9800a7357642bdd9",
+      "received_utc": "2026-10-16T18:03:56.301257+00:00",
+      "gold_local": "Brisbane Heat",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "937027ec71f828b3205e4934653a24ea",
+      "title": "2012–13 Big Bash League season",
+      "event": "A",
+      "role": "Patient",
+      "response": "Melbourne Renegades",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 161,
+        "completion_tokens": 4,
+        "total_tokens": 165,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1155
+      },
+      "estimated_eur": "0.00004225",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "e7c674467cde4efeb332be09659ead22",
+      "received_utc": "2026-10-16T18:03:56.617717+00:00",
+      "gold_local": "Melbourne Renegades",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "937027ec71f828b3205e4934653a24ea",
+      "title": "2012–13 Big Bash League season",
+      "event": "B",
+      "role": "Agent",
+      "response": "Perth Scorchers",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 157,
+        "completion_tokens": 6,
+        "total_tokens": 163,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004225",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "90f546cbf43b45b08e6247b835f7f90d",
+      "received_utc": "2026-10-16T18:03:57.019894+00:00",
+      "gold_local": "Perth Scorchers",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "937027ec71f828b3205e4934653a24ea",
+      "title": "2012–13 Big Bash League season",
+      "event": "B",
+      "role": "Patient",
+      "response": "Melbourne Stars",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 161,
+        "completion_tokens": 3,
+        "total_tokens": 164,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004175",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "965b2a5a8224470dbebfd5057ce1b5e7",
+      "received_utc": "2026-10-16T18:03:57.258063+00:00",
+      "gold_local": "Melbourne Stars",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "7f222ee7194066de5213f332c25fd5d0",
+      "title": "2013 ICC World Cricket League Division Three",
+      "event": "A",
+      "role": "Agent",
+      "response": "USA",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 122,
+        "completion_tokens": 2,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000315",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "3b41af6dcab1491d97c3e81785b9fda1",
+      "received_utc": "2026-10-16T18:03:57.441914+00:00",
+      "gold_local": "USA",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "7f222ee7194066de5213f332c25fd5d0",
+      "title": "2013 ICC World Cricket League Division Three",
+      "event": "A",
+      "role": "Patient",
+      "response": "the hosts Bermuda",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 126,
+        "completion_tokens": 4,
+        "total_tokens": 130,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.091
+      },
+      "estimated_eur": "0.0000335",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "99fb227d1b464762a47451c30f578776",
+      "received_utc": "2026-10-16T18:03:57.626332+00:00",
+      "gold_local": "Bermuda",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "7f222ee7194066de5213f332c25fd5d0",
+      "title": "2013 ICC World Cricket League Division Three",
+      "event": "B",
+      "role": "Agent",
+      "response": "Nepal",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 122,
+        "completion_tokens": 2,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0868
+      },
+      "estimated_eur": "0.0000315",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "f332841b184b41c4a9b07ba10ca7a18d",
+      "received_utc": "2026-10-16T18:03:57.812545+00:00",
+      "gold_local": "Nepal",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "7f222ee7194066de5213f332c25fd5d0",
+      "title": "2013 ICC World Cricket League Division Three",
+      "event": "B",
+      "role": "Patient",
+      "response": "Italy",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 126,
+        "completion_tokens": 2,
+        "total_tokens": 128,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000325",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "f956edd6c38a4a30aca11ce5183adb54",
+      "received_utc": "2026-10-16T18:03:57.995953+00:00",
+      "gold_local": "Italy",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a558c8f9a30c86aadc0f44eaef3d37d8",
+      "title": "2014 Women's Hockey World Cup",
+      "event": "A",
+      "role": "Agent",
+      "response": "The Netherlands",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 125,
+        "completion_tokens": 3,
+        "total_tokens": 128,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003275",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "711af9359ec6439f90a761deb7402310",
+      "received_utc": "2026-10-16T18:03:58.182974+00:00",
+      "gold_local": "Netherlands",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a558c8f9a30c86aadc0f44eaef3d37d8",
+      "title": "2014 Women's Hockey World Cup",
+      "event": "A",
+      "role": "Patient",
+      "response": "Australia",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 129,
+        "completion_tokens": 2,
+        "total_tokens": 131,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003325",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "6fae058ac0224ccbba7084fc52d9882b",
+      "received_utc": "2026-10-16T18:03:58.371999+00:00",
+      "gold_local": "Australia",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a558c8f9a30c86aadc0f44eaef3d37d8",
+      "title": "2014 Women's Hockey World Cup",
+      "event": "B",
+      "role": "Agent",
+      "response": "Argentina",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 125,
+        "completion_tokens": 2,
+        "total_tokens": 127,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0889
+      },
+      "estimated_eur": "0.00003225",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "e8346de3c80d44e4bfa8f5b9b5fb4a5e",
+      "received_utc": "2026-10-16T18:03:58.560101+00:00",
+      "gold_local": "Argentina",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a558c8f9a30c86aadc0f44eaef3d37d8",
+      "title": "2014 Women's Hockey World Cup",
+      "event": "B",
+      "role": "Patient",
+      "response": "the United States",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 129,
+        "completion_tokens": 4,
+        "total_tokens": 133,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0931
+      },
+      "estimated_eur": "0.00003425",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "9bb520e813124385aa8f674016952591",
+      "received_utc": "2026-10-16T18:03:58.966326+00:00",
+      "gold_local": "the United States",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "77dde58b3073c390e84c6860b32f5029",
+      "title": "2015 Australian Open",
+      "event": "A",
+      "role": "Agent",
+      "response": "Novak Djokovic",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 4,
+        "total_tokens": 163,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004175",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "e718c10feef141a08f009f725c9bbbf7",
+      "received_utc": "2026-10-16T18:03:59.214985+00:00",
+      "gold_local": "Novak Djokovic",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "77dde58b3073c390e84c6860b32f5029",
+      "title": "2015 Australian Open",
+      "event": "A",
+      "role": "Patient",
+      "response": "Andy Murray",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 163,
+        "completion_tokens": 3,
+        "total_tokens": 166,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004225",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "d9a165ac46604c8bb81940a2bbce8643",
+      "received_utc": "2026-10-16T18:03:59.401184+00:00",
+      "gold_local": "Andy Murray",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "77dde58b3073c390e84c6860b32f5029",
+      "title": "2015 Australian Open",
+      "event": "B",
+      "role": "Agent",
+      "response": "Serena Williams",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 4,
+        "total_tokens": 163,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004175",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "29150e2fdd604ee2a631fe225a0c2a0d",
+      "received_utc": "2026-10-16T18:03:59.665616+00:00",
+      "gold_local": "Serena Williams",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "77dde58b3073c390e84c6860b32f5029",
+      "title": "2015 Australian Open",
+      "event": "B",
+      "role": "Patient",
+      "response": "Maria Sharapova",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 163,
+        "completion_tokens": 5,
+        "total_tokens": 168,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004325",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "84c648bfe47c4ae5b863bcffcd39f32b",
+      "received_utc": "2026-10-16T18:03:59.921768+00:00",
+      "gold_local": "Maria Sharapova",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "13e35d0964c9bc4f2dfd68be607afdd6",
+      "title": "Against All Odds (2005)",
+      "event": "A",
+      "role": "Agent",
+      "response": "Styles",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 158,
+        "completion_tokens": 2,
+        "total_tokens": 160,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000405",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "54a31166d6e445ac89ab9d53de638622",
+      "received_utc": "2026-10-16T18:04:01.731807+00:00",
+      "gold_local": "Styles",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "13e35d0964c9bc4f2dfd68be607afdd6",
+      "title": "Against All Odds (2005)",
+      "event": "A",
+      "role": "Patient",
+      "response": "the challenger , Christopher Daniels",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 6,
+        "total_tokens": 168,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000435",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "368aa33ce7574cdd8b9e6deaa97edd2b",
+      "received_utc": "2026-10-16T18:04:02.143740+00:00",
+      "gold_local": "Christopher Daniels",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "13e35d0964c9bc4f2dfd68be607afdd6",
+      "title": "Against All Odds (2005)",
+      "event": "B",
+      "role": "Agent",
+      "response": "Abyss",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 158,
+        "completion_tokens": 3,
+        "total_tokens": 161,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1127
+      },
+      "estimated_eur": "0.000041",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "abbeede45da641f19e52c50292cabf28",
+      "received_utc": "2026-10-16T18:04:02.556872+00:00",
+      "gold_local": "Abyss",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "13e35d0964c9bc4f2dfd68be607afdd6",
+      "title": "Against All Odds (2005)",
+      "event": "B",
+      "role": "Patient",
+      "response": "Jeff Hardy",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 3,
+        "total_tokens": 165,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1155
+      },
+      "estimated_eur": "0.000042",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "9e3843561f244c02ae889af6cfddfc22",
+      "received_utc": "2026-10-16T18:04:02.855356+00:00",
+      "gold_local": "Jeff Hardy",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "event": "A",
+      "role": "Agent",
+      "response": "Ric Flair",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 112,
+        "completion_tokens": 3,
+        "total_tokens": 115,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000295",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "e38907beac404f1186a37129647e47c7",
+      "received_utc": "2026-10-16T18:04:03.126720+00:00",
+      "gold_local": "Ric Flair",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "event": "A",
+      "role": "Patient",
+      "response": "Shawn Michaels",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 3,
+        "total_tokens": 119,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0833
+      },
+      "estimated_eur": "0.0000305",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "aea37559ab7f4ee48edfbebabc56f05a",
+      "received_utc": "2026-10-16T18:04:03.474501+00:00",
+      "gold_local": "Shawn Michaels",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "event": "B",
+      "role": "Agent",
+      "response": "Goldberg",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 112,
+        "completion_tokens": 3,
+        "total_tokens": 115,
+        "prompt_tokens_details": {
+          "cached_tokens": 80
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0805
+      },
+      "estimated_eur": "0.0000295",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "fa6825186d3d4279b5d1cf484e2e6851",
+      "received_utc": "2026-10-16T18:04:03.864484+00:00",
+      "gold_local": "Goldberg",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "event": "B",
+      "role": "Patient",
+      "response": "Chris Jericho",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 3,
+        "total_tokens": 119,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000305",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "829946b1c74a4e5b858d37d96a8ea0e8",
+      "received_utc": "2026-10-16T18:04:04.049496+00:00",
+      "gold_local": "Chris Jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "fb8365079fb1c96e0fa2193168567a4d",
+      "title": "Battle of Bucharest",
+      "event": "A",
+      "role": "Agent",
+      "response": "General Erich von Falkenhayn",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 228,
+        "completion_tokens": 7,
+        "total_tokens": 235,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1645
+      },
+      "estimated_eur": "0.0000605",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "8f4fc8106d6d4b5c824d5da4169c9d5a",
+      "received_utc": "2026-10-16T18:04:04.292886+00:00",
+      "gold_local": "Erich von Falkenhayn",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "fb8365079fb1c96e0fa2193168567a4d",
+      "title": "Battle of Bucharest",
+      "event": "A",
+      "role": "Patient",
+      "response": "the Central Powers ' combatants",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 232,
+        "completion_tokens": 7,
+        "total_tokens": 239,
+        "prompt_tokens_details": {
+          "cached_tokens": 208
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1673
+      },
+      "estimated_eur": "0.0000615",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "7ba2c6ab3b88497188857ad7ce0a2830",
+      "received_utc": "2026-10-16T18:04:04.702602+00:00",
+      "gold_local": "Central Powers",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "fb8365079fb1c96e0fa2193168567a4d",
+      "title": "Battle of Bucharest",
+      "event": "B",
+      "role": "Agent",
+      "response": "General Constantin Prezan",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 228,
+        "completion_tokens": 5,
+        "total_tokens": 233,
+        "prompt_tokens_details": {
+          "cached_tokens": 192
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1631
+      },
+      "estimated_eur": "0.0000595",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "15b0978711b2466da3688ff43182d89c",
+      "received_utc": "2026-10-16T18:04:05.120982+00:00",
+      "gold_local": "Constantin Prezan",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "fb8365079fb1c96e0fa2193168567a4d",
+      "title": "Battle of Bucharest",
+      "event": "B",
+      "role": "Patient",
+      "response": "The Romanian Army",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 232,
+        "completion_tokens": 4,
+        "total_tokens": 236,
+        "prompt_tokens_details": {
+          "cached_tokens": 208
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00006",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "ab1826c378e2481b8cb13fd30d2fb109",
+      "received_utc": "2026-10-16T18:04:05.432369+00:00",
+      "gold_local": "Romanian Army",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "b06020d331acbcd9a5c3bd228c576848",
+      "title": "Battle of Cepeda (1820)",
+      "event": "A",
+      "role": "Agent",
+      "response": "José de San Martín",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 163,
+        "completion_tokens": 5,
+        "total_tokens": 168,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004325",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "850b6ad252194956a8e13e094e637e78",
+      "received_utc": "2026-10-16T18:04:05.615717+00:00",
+      "gold_local": "José de San Martín",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "b06020d331acbcd9a5c3bd228c576848",
+      "title": "Battle of Cepeda (1820)",
+      "event": "A",
+      "role": "Patient",
+      "response": "The Army of the Andes",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 167,
+        "completion_tokens": 6,
+        "total_tokens": 173,
+        "prompt_tokens_details": {
+          "cached_tokens": 144
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004475",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "9e79e46fd8cf4ea7a190ea3858ef00b9",
+      "received_utc": "2026-10-16T18:04:05.860658+00:00",
+      "gold_local": "Army of the Andes",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "b06020d331acbcd9a5c3bd228c576848",
+      "title": "Battle of Cepeda (1820)",
+      "event": "B",
+      "role": "Agent",
+      "response": "Manuel Belgrano",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 163,
+        "completion_tokens": 5,
+        "total_tokens": 168,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004325",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "a9f35ad9ee7e494392fb32891ee72bef",
+      "received_utc": "2026-10-16T18:04:06.104530+00:00",
+      "gold_local": "Manuel Belgrano",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "b06020d331acbcd9a5c3bd228c576848",
+      "title": "Battle of Cepeda (1820)",
+      "event": "B",
+      "role": "Patient",
+      "response": "The Army of the North",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 167,
+        "completion_tokens": 6,
+        "total_tokens": 173,
+        "prompt_tokens_details": {
+          "cached_tokens": 144
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004475",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "3f67826e526e4b6da5eb49b6afbd679b",
+      "received_utc": "2026-10-16T18:04:06.955712+00:00",
+      "gold_local": "Army of the North",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "0468fa6f43ced528e51523b49ff07aca",
+      "title": "Battle of Ostrach",
+      "event": "A",
+      "role": "Agent",
+      "response": "Archduke Charles",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 118,
+        "completion_tokens": 4,
+        "total_tokens": 122,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0854
+      },
+      "estimated_eur": "0.0000315",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "f648ecb4f2ba419cb24962dd40bd6671",
+      "received_utc": "2026-10-16T18:04:07.181171+00:00",
+      "gold_local": "Archduke Charles",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "0468fa6f43ced528e51523b49ff07aca",
+      "title": "Battle of Ostrach",
+      "event": "A",
+      "role": "Patient",
+      "response": "Archduke Charles",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 122,
+        "completion_tokens": 4,
+        "total_tokens": 126,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000325",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "d32d8b1618f3439c82e48207aa168173",
+      "received_utc": "2026-10-16T18:04:07.348082+00:00",
+      "gold_local": "Austrian forces",
+      "category": "same_event_wrong_role",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "0468fa6f43ced528e51523b49ff07aca",
+      "title": "Battle of Ostrach",
+      "event": "B",
+      "role": "Agent",
+      "response": "Jean-Baptiste Jourdan",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 118,
+        "completion_tokens": 6,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0868
+      },
+      "estimated_eur": "0.0000325",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "ba076a3d898a499fbae114e36a0072ed",
+      "received_utc": "2026-10-16T18:04:07.611253+00:00",
+      "gold_local": "Jean-Baptiste Jourdan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "0468fa6f43ced528e51523b49ff07aca",
+      "title": "Battle of Ostrach",
+      "event": "B",
+      "role": "Patient",
+      "response": "the French forces",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 122,
+        "completion_tokens": 4,
+        "total_tokens": 126,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000325",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "2ae5cca3e6414cb5a44e0b14a86f4781",
+      "received_utc": "2026-10-16T18:04:08.090363+00:00",
+      "gold_local": "French forces",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "307d35d310c0d50ca295008c5d515445",
+      "title": "Battle of Ruona",
+      "event": "A",
+      "role": "Agent",
+      "response": "Carl Johan Adlercreutz",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 129,
+        "completion_tokens": 6,
+        "total_tokens": 135,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003525",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "c7a8e1eb13654779bf4174e680a7b813",
+      "received_utc": "2026-10-16T18:04:08.693727+00:00",
+      "gold_local": "Carl Johan Adlercreutz",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "307d35d310c0d50ca295008c5d515445",
+      "title": "Battle of Ruona",
+      "event": "A",
+      "role": "Patient",
+      "response": "5,000 men",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 133,
+        "completion_tokens": 7,
+        "total_tokens": 140,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003675",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "05507ed7054f46eda849802d8e7b47f9",
+      "received_utc": "2026-10-16T18:04:09.203922+00:00",
+      "gold_local": "Swedish army",
+      "category": "unmatched_or_ambiguous",
+      "alias_hits": []
+    },
+    {
+      "doc_id": "307d35d310c0d50ca295008c5d515445",
+      "title": "Battle of Ruona",
+      "event": "B",
+      "role": "Agent",
+      "response": "Nikolay Kamensky",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 129,
+        "completion_tokens": 6,
+        "total_tokens": 135,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0945
+      },
+      "estimated_eur": "0.00003525",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "0ae17bd29a3640c9989440ed1bdc2b82",
+      "received_utc": "2026-10-16T18:04:09.495186+00:00",
+      "gold_local": "Nikolay Kamensky",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "307d35d310c0d50ca295008c5d515445",
+      "title": "Battle of Ruona",
+      "event": "B",
+      "role": "Patient",
+      "response": "Nikolay Kamensky",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 133,
+        "completion_tokens": 6,
+        "total_tokens": 139,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003625",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "a488ef9e24df43e589ca0c4bd585955d",
+      "received_utc": "2026-10-16T18:04:09.736241+00:00",
+      "gold_local": "Russian army",
+      "category": "same_event_wrong_role",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "788284156c4a486090216897f75e6df6",
+      "title": "Capture of USS Chesapeake",
+      "event": "A",
+      "role": "Agent",
+      "response": "Captain James Lawrence",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 149,
+        "completion_tokens": 4,
+        "total_tokens": 153,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1071
+      },
+      "estimated_eur": "0.00003925",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "c53215ec98ea4431b3f132b957201844",
+      "received_utc": "2026-10-16T18:04:09.935942+00:00",
+      "gold_local": "James Lawrence",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "788284156c4a486090216897f75e6df6",
+      "title": "Capture of USS Chesapeake",
+      "event": "A",
+      "role": "Patient",
+      "response": "`` Chesapeake ''",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 4,
+        "total_tokens": 157,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1099
+      },
+      "estimated_eur": "0.00004025",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "05873d3c8f5046e19fa64e5ded35df08",
+      "received_utc": "2026-10-16T18:04:10.330336+00:00",
+      "gold_local": "Chesapeake",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "788284156c4a486090216897f75e6df6",
+      "title": "Capture of USS Chesapeake",
+      "event": "B",
+      "role": "Agent",
+      "response": "Captain Philip Broke",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 149,
+        "completion_tokens": 5,
+        "total_tokens": 154,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1078
+      },
+      "estimated_eur": "0.00003975",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "f4039508418e484087a8b7de285d016c",
+      "received_utc": "2026-10-16T18:04:10.857358+00:00",
+      "gold_local": "Philip Broke",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "788284156c4a486090216897f75e6df6",
+      "title": "Capture of USS Chesapeake",
+      "event": "B",
+      "role": "Patient",
+      "response": "HMS `` Shannon ''",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 5,
+        "total_tokens": 158,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004075",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "00584ea208994b34a6b768961374506e",
+      "received_utc": "2026-10-16T18:04:11.357692+00:00",
+      "gold_local": "Shannon",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1dcb37c7c6b4c970a66b2ee6eabf884b",
+      "title": "Fall of Saigon",
+      "event": "A",
+      "role": "Agent",
+      "response": "General Văn Tiến Dũng",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 144,
+        "completion_tokens": 6,
+        "total_tokens": 150,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000039",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "abd809021ad54cf6970f2098c5154e3c",
+      "received_utc": "2026-10-16T18:04:11.868809+00:00",
+      "gold_local": "Văn Tiến Dũng",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1dcb37c7c6b4c970a66b2ee6eabf884b",
+      "title": "Fall of Saigon",
+      "event": "A",
+      "role": "Patient",
+      "response": "General Văn Tiến Dũng",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 148,
+        "completion_tokens": 6,
+        "total_tokens": 154,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "ff8eac71988c4739828f07e84d2a0126",
+      "received_utc": "2026-10-16T18:04:12.278266+00:00",
+      "gold_local": "PAVN",
+      "category": "same_event_wrong_role",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1dcb37c7c6b4c970a66b2ee6eabf884b",
+      "title": "Fall of Saigon",
+      "event": "B",
+      "role": "Agent",
+      "response": "General Nguyễn Văn Toàn",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 144,
+        "completion_tokens": 6,
+        "total_tokens": 150,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.105
+      },
+      "estimated_eur": "0.000039",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "0ee585e6af164ab98986f39eedb7cd10",
+      "received_utc": "2026-10-16T18:04:12.527092+00:00",
+      "gold_local": "Nguyễn Văn Toàn",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1dcb37c7c6b4c970a66b2ee6eabf884b",
+      "title": "Fall of Saigon",
+      "event": "B",
+      "role": "Patient",
+      "response": "Army of the Republic of Vietnam ( ARVN ) forces",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 148,
+        "completion_tokens": 12,
+        "total_tokens": 160,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.000043",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "b891f8756e9d4d76aa2a45437a8257b0",
+      "received_utc": "2026-10-16T18:04:12.993621+00:00",
+      "gold_local": "ARVN",
+      "category": "target_alias_contained",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "d0a67a937ece48f92da547b553d9572d",
+      "title": "Mongol conquest of the Qara Khitai",
+      "event": "A",
+      "role": "Agent",
+      "response": "The Mongol Empire",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 4,
+        "total_tokens": 245,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00006225",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "f447edf17818424cafef701fcccedd07",
+      "received_utc": "2026-10-16T18:04:13.204286+00:00",
+      "gold_local": "The Mongol Empire",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "d0a67a937ece48f92da547b553d9572d",
+      "title": "Mongol conquest of the Qara Khitai",
+      "event": "A",
+      "role": "Patient",
+      "response": "the Qara Khitai",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 245,
+        "completion_tokens": 7,
+        "total_tokens": 252,
+        "prompt_tokens_details": {
+          "cached_tokens": 224
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1764
+      },
+      "estimated_eur": "0.00006475",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "43a74ef4f97642879bb459f554e0c630",
+      "received_utc": "2026-10-16T18:04:13.764123+00:00",
+      "gold_local": "the Qara Khitai",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "d0a67a937ece48f92da547b553d9572d",
+      "title": "Mongol conquest of the Qara Khitai",
+      "event": "B",
+      "role": "Agent",
+      "response": "Jebe",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 3,
+        "total_tokens": 244,
+        "prompt_tokens_details": {
+          "cached_tokens": 208
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1708
+      },
+      "estimated_eur": "0.00006175",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "cb2825499341491c9154522ddd132ca7",
+      "received_utc": "2026-10-16T18:04:13.958212+00:00",
+      "gold_local": "Jebe",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "d0a67a937ece48f92da547b553d9572d",
+      "title": "Mongol conquest of the Qara Khitai",
+      "event": "B",
+      "role": "Patient",
+      "response": "his force of 30,000",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 245,
+        "completion_tokens": 11,
+        "total_tokens": 256,
+        "prompt_tokens_details": {
+          "cached_tokens": 224
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00006675",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "953485cdce3d43cbb5cf881b05e6fb06",
+      "received_utc": "2026-10-16T18:04:14.326152+00:00",
+      "gold_local": "Kuchlug",
+      "category": "unmatched_or_ambiguous",
+      "alias_hits": []
+    },
+    {
+      "doc_id": "c6beafb9b0e28235bdcf26c687f3d7b5",
+      "title": "No Mercy (1999)",
+      "event": "A",
+      "role": "Agent",
+      "response": "Chyna",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 129,
+        "completion_tokens": 3,
+        "total_tokens": 132,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0924
+      },
+      "estimated_eur": "0.00003375",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "30483f4cd8584bebb551586885df21a1",
+      "received_utc": "2026-10-16T18:04:14.735901+00:00",
+      "gold_local": "Chyna",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "c6beafb9b0e28235bdcf26c687f3d7b5",
+      "title": "No Mercy (1999)",
+      "event": "A",
+      "role": "Patient",
+      "response": "Jeff Jarrett",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 133,
+        "completion_tokens": 3,
+        "total_tokens": 136,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0952
+      },
+      "estimated_eur": "0.00003475",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "0a014522fe5041009e554e1786e28e0a",
+      "received_utc": "2026-10-16T18:04:15.250293+00:00",
+      "gold_local": "Jeff Jarrett",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "c6beafb9b0e28235bdcf26c687f3d7b5",
+      "title": "No Mercy (1999)",
+      "event": "B",
+      "role": "Agent",
+      "response": "Triple H",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 129,
+        "completion_tokens": 3,
+        "total_tokens": 132,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003375",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "556d437292794f4c9cedcaa362df0cb7",
+      "received_utc": "2026-10-16T18:04:15.581631+00:00",
+      "gold_local": "Triple H",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "c6beafb9b0e28235bdcf26c687f3d7b5",
+      "title": "No Mercy (1999)",
+      "event": "B",
+      "role": "Patient",
+      "response": "Stone Cold Steve Austin",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 133,
+        "completion_tokens": 5,
+        "total_tokens": 138,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003575",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "838ef0786d9046e2a3d3a5480d2c282e",
+      "received_utc": "2026-10-16T18:04:15.962835+00:00",
+      "gold_local": "Stone Cold Steve Austin",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "event": "A",
+      "role": "Agent",
+      "response": "Alberto Del Rio",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 120,
+        "completion_tokens": 4,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0868
+      },
+      "estimated_eur": "0.000032",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "73290699d45c465c9963b65142b9af0c",
+      "received_utc": "2026-10-16T18:04:16.371861+00:00",
+      "gold_local": "Alberto Del Rio",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "event": "A",
+      "role": "Patient",
+      "response": "Christian",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 124,
+        "completion_tokens": 2,
+        "total_tokens": 126,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0882
+      },
+      "estimated_eur": "0.000032",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "e009c30e4f0b42a4af4938605501e8dd",
+      "received_utc": "2026-10-16T18:04:16.654930+00:00",
+      "gold_local": "Christian",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "A",
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "event": "B",
+      "role": "Agent",
+      "response": "Brock Lesnar",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 120,
+        "completion_tokens": 4,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0868
+      },
+      "estimated_eur": "0.000032",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "069006ebd1b44e8984bf88cc2967921d",
+      "received_utc": "2026-10-16T18:04:16.937907+00:00",
+      "gold_local": "Brock Lesnar",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "event": "B",
+      "role": "Patient",
+      "response": "CM Punk",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "e4ecf529a111637418d31761adb547bd86858e4a26fc04c3226aabc02d547f0d",
+      "usage": {
+        "prompt_tokens": 124,
+        "completion_tokens": 3,
+        "total_tokens": 127,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0889
+      },
+      "estimated_eur": "0.0000325",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "c90ee86184ed4908a5981298149588f7",
+      "received_utc": "2026-10-16T18:04:17.164344+00:00",
+      "gold_local": "CM Punk",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          "B",
+          "Patient"
+        ]
+      ]
+    }
+  ]
+}

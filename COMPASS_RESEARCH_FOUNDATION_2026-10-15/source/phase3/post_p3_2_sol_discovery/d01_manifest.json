@@ -1,0 +1,31 @@
+{
+  "diagnostic": "D01",
+  "status": "discovery_only",
+  "selected_before_results": true,
+  "input_hashes_sha256": {
+    "configs/d5_graphs.json": "f34d6c86a218f21ac510d835675e8cd05fee5437b619df1cb60c76bc8e28e931",
+    "phase3/p3_0_r/response_index.csv": "a9aa4b4bd43ac0c6e2a5ae36cef712ee579f70f0ae3cd8c7076f13cf7be4c514",
+    "phase3/p3_0_r/shards/A_original_clique_hole_seed_1701.npz": "437537f2186e7405f0a52614c875f70e3d502fce37dc0dab1f8ee62121579d7d",
+    "phase3/p3_0_r/shards/A_original_clique_hole_seed_1702.npz": "b9692c1b087e53aa0450efe499afbd611edd245dedf00828cc38607ed2a3750f",
+    "phase3/p3_0_r/shards/A_original_clique_hole_seed_1703.npz": "8021f8001b54ceab62727f4e2fe8d19c5e54b782d7251e349cbea1ede63b8e6e",
+    "phase3/p3_0_r/shards/B_relocated_clique_hole_seed_1701.npz": "4a419062be8d29485a856079a9b974af0ad44ec14ab2e42a666e691d2d3bccc8",
+    "phase3/p3_0_r/shards/B_relocated_clique_hole_seed_1702.npz": "07b270b25d23768b29e08cd0ca25423c04cc7c1628aaf6a398ac473350cea6da",
+    "phase3/p3_0_r/shards/B_relocated_clique_hole_seed_1703.npz": "1e7a78d87ac084e17ab7bcb9e0a673bdeab65293134a906160ec18c0ab55548f",
+    "phase3/p3_0_r/shards/C_degree_balanced_matching_holes_seed_1701.npz": "8afba29bc61f59a59d4f11746f6708ef703faea1df76e5de3d2bfb4bda4d154b",
+    "phase3/p3_0_r/shards/C_degree_balanced_matching_holes_seed_1702.npz": "8cdd6136f16c8178b2d7d9b33106abb6f03f71ad45dbc4d6082d4e7f9f8b4ea6",
+    "phase3/p3_0_r/shards/C_degree_balanced_matching_holes_seed_1703.npz": "4ab8b45b9640769a73da89b48344a45ff43adb158eda24e5cde7c7ce4c1e4457",
+    "phase3/p3_0_r/shards/D_path_connectivity_swap_seed_1701.npz": "6efcb849eda82544df4e6f37f411f28e84ed4d6f6a8e16859899ae5ca7a6ff13",
+    "phase3/p3_0_r/shards/D_path_connectivity_swap_seed_1702.npz": "f861839e6eba21ba047e0611bd56a1a7db006cde803ccdfdfe8fe06944dd009c",
+    "phase3/p3_0_r/shards/D_path_connectivity_swap_seed_1703.npz": "7b0436044c0ce16c310eabb775f08e5d58b650ceadbc6575d57f38859db8fa55"
+  },
+  "script_sha256": "8c2bc278015e7877558db48139dcd401756aed9194b6f6c40433351469c9736a",
+  "output_hashes_sha256": {
+    "d01_rows.csv": "a0b31881853bb74d7b6b743f3cb6b73361381c92f5ee3b7c20541406e01e4aac",
+    "d01_summary.csv": "35e2c67203fdae1b91103c1f88a9397810a3062246fcdcebfd703b4ba3fbf56c",
+    "d01_review.json": "4fe8883df88163371f5d195a1fd0392a95743d1d0afb7db08cb9d6091f22b100"
+  },
+  "row_count": 3072,
+  "summary_count": 63,
+  "protected_seeds_accessed": false,
+  "posthoc_review_script_sha256": "a9a6eca8bbd0cb345a6d8985638f6728267d0860a058b9d2191717d1f2f4b692"
+}

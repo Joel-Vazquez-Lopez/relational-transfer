@@ -1,0 +1,266 @@
+{
+  "canonical_mutation": false,
+  "canonical_retraining": false,
+  "protected_seeds_accessed": false,
+  "rows": [
+    {
+      "arm": "A",
+      "block1_premlp_directed_fraction": {
+        "attention_weights": 0.48517370223999023,
+        "residual_cls": 0.1272381693124771,
+        "values": 0.38758811354637146
+      },
+      "direct_flip_rate": 0.4270833333333333,
+      "hybrids": {
+        "all_value": {
+          "flip_rate": 0.10416666666666667,
+          "score_delta_abs": 3.2820770740509033,
+          "score_error_to_alt": 6.053890705108643
+        },
+        "all_value_plus_attention": {
+          "flip_rate": 0.4166666666666667,
+          "score_delta_abs": 8.715193748474121,
+          "score_error_to_alt": 0.7290787696838379
+        },
+        "attention_weights": {
+          "flip_rate": 0.16666666666666666,
+          "score_delta_abs": 4.54866361618042,
+          "score_error_to_alt": 4.709293842315674
+        },
+        "target_token": {
+          "flip_rate": 0.0,
+          "score_delta_abs": 0.27042168378829956,
+          "score_error_to_alt": 9.127140045166016
+        },
+        "target_value": {
+          "flip_rate": 0.0,
+          "score_delta_abs": 0.25291910767555237,
+          "score_error_to_alt": 9.163551330566406
+        },
+        "target_value_plus_attention": {
+          "flip_rate": 0.1875,
+          "score_delta_abs": 4.741419792175293,
+          "score_error_to_alt": 4.525639057159424
+        }
+      },
+      "n": 96,
+      "seed": 1701
+    },
+    {
+      "arm": "K",
+      "block1_premlp_directed_fraction": {
+        "attention_weights": 0.5420791506767273,
+        "residual_cls": 0.20628590881824493,
+        "values": 0.25163498520851135
+      },
+      "direct_flip_rate": 0.17708333333333334,
+      "hybrids": {
+        "all_value": {
+          "flip_rate": 0.020833333333333332,
+          "score_delta_abs": 1.3475157022476196,
+          "score_error_to_alt": 3.4075253009796143
+        },
+        "all_value_plus_attention": {
+          "flip_rate": 0.17708333333333334,
+          "score_delta_abs": 4.144186496734619,
+          "score_error_to_alt": 0.6262386441230774
+        },
+        "attention_weights": {
+          "flip_rate": 0.0625,
+          "score_delta_abs": 2.677264451980591,
+          "score_error_to_alt": 2.0354349613189697
+        },
+        "target_token": {
+          "flip_rate": 0.0,
+          "score_delta_abs": 0.3269139230251312,
+          "score_error_to_alt": 4.455962657928467
+        },
+        "target_value": {
+          "flip_rate": 0.0,
+          "score_delta_abs": 0.32139185070991516,
+          "score_error_to_alt": 4.4819722175598145
+        },
+        "target_value_plus_attention": {
+          "flip_rate": 0.07291666666666667,
+          "score_delta_abs": 2.8631274700164795,
+          "score_error_to_alt": 1.815636157989502
+        }
+      },
+      "n": 96,
+      "seed": 1701
+    },
+    {
+      "arm": "A",
+      "block1_premlp_directed_fraction": {
+        "attention_weights": 0.5506489872932434,
+        "residual_cls": 0.08008595556020737,
+        "values": 0.369265079498291
+      },
+      "direct_flip_rate": 0.5,
+      "hybrids": {
+        "all_value": {
+          "flip_rate": 0.10416666666666667,
+          "score_delta_abs": 4.041440010070801,
+          "score_error_to_alt": 7.191453456878662
+        },
+        "all_value_plus_attention": {
+          "flip_rate": 0.4895833333333333,
+          "score_delta_abs": 10.877047538757324,
+          "score_error_to_alt": 0.4670984745025635
+        },
+        "attention_weights": {
+          "flip_rate": 0.16666666666666666,
+          "score_delta_abs": 5.073127269744873,
+          "score_error_to_alt": 6.219017028808594
+        },
+        "target_token": {
+          "flip_rate": 0.010416666666666666,
+          "score_delta_abs": 0.586726188659668,
+          "score_error_to_alt": 10.6549654006958
+        },
+        "target_value": {
+          "flip_rate": 0.010416666666666666,
+          "score_delta_abs": 0.5884917378425598,
+          "score_error_to_alt": 10.664093971252441
+        },
+        "target_value_plus_attention": {
+          "flip_rate": 0.20833333333333334,
+          "score_delta_abs": 6.050363063812256,
+          "score_error_to_alt": 5.294392108917236
+        }
+      },
+      "n": 96,
+      "seed": 1702
+    },
+    {
+      "arm": "K",
+      "block1_premlp_directed_fraction": {
+        "attention_weights": 0.5910000801086426,
+        "residual_cls": 0.057033609598875046,
+        "values": 0.3519662916660309
+      },
+      "direct_flip_rate": 0.4895833333333333,
+      "hybrids": {
+        "all_value": {
+          "flip_rate": 0.03125,
+          "score_delta_abs": 2.095489978790283,
+          "score_error_to_alt": 7.34205961227417
+        },
+        "all_value_plus_attention": {
+          "flip_rate": 0.46875,
+          "score_delta_abs": 9.104584693908691,
+          "score_error_to_alt": 0.4118553400039673
+        },
+        "attention_weights": {
+          "flip_rate": 0.2604166666666667,
+          "score_delta_abs": 5.663230895996094,
+          "score_error_to_alt": 3.8153297901153564
+        },
+        "target_token": {
+          "flip_rate": 0.010416666666666666,
+          "score_delta_abs": 0.39443644881248474,
+          "score_error_to_alt": 9.171438217163086
+        },
+        "target_value": {
+          "flip_rate": 0.0,
+          "score_delta_abs": 0.3573627769947052,
+          "score_error_to_alt": 9.17027759552002
+        },
+        "target_value_plus_attention": {
+          "flip_rate": 0.2916666666666667,
+          "score_delta_abs": 6.239034175872803,
+          "score_error_to_alt": 3.240398645401001
+        }
+      },
+      "n": 96,
+      "seed": 1702
+    },
+    {
+      "arm": "A",
+      "block1_premlp_directed_fraction": {
+        "attention_weights": 0.40440258383750916,
+        "residual_cls": 0.09662240743637085,
+        "values": 0.49897500872612
+      },
+      "direct_flip_rate": 0.4791666666666667,
+      "hybrids": {
+        "all_value": {
+          "flip_rate": 0.14583333333333334,
+          "score_delta_abs": 4.083831310272217,
+          "score_error_to_alt": 5.161296367645264
+        },
+        "all_value_plus_attention": {
+          "flip_rate": 0.46875,
+          "score_delta_abs": 8.713196754455566,
+          "score_error_to_alt": 0.5872410535812378
+        },
+        "attention_weights": {
+          "flip_rate": 0.07291666666666667,
+          "score_delta_abs": 2.6638357639312744,
+          "score_error_to_alt": 7.063185214996338
+        },
+        "target_token": {
+          "flip_rate": 0.0,
+          "score_delta_abs": 0.62518709897995,
+          "score_error_to_alt": 8.635539054870605
+        },
+        "target_value": {
+          "flip_rate": 0.0,
+          "score_delta_abs": 0.6791440844535828,
+          "score_error_to_alt": 8.503897666931152
+        },
+        "target_value_plus_attention": {
+          "flip_rate": 0.11458333333333333,
+          "score_delta_abs": 3.321762800216675,
+          "score_error_to_alt": 6.229576110839844
+        }
+      },
+      "n": 96,
+      "seed": 1703
+    },
+    {
+      "arm": "K",
+      "block1_premlp_directed_fraction": {
+        "attention_weights": 0.549980878829956,
+        "residual_cls": 0.14689317345619202,
+        "values": 0.30312594771385193
+      },
+      "direct_flip_rate": 0.34375,
+      "hybrids": {
+        "all_value": {
+          "flip_rate": 0.03125,
+          "score_delta_abs": 1.572221279144287,
+          "score_error_to_alt": 5.478159427642822
+        },
+        "all_value_plus_attention": {
+          "flip_rate": 0.34375,
+          "score_delta_abs": 6.6384758949279785,
+          "score_error_to_alt": 0.5664916634559631
+        },
+        "attention_weights": {
+          "flip_rate": 0.16666666666666666,
+          "score_delta_abs": 4.051065921783447,
+          "score_error_to_alt": 3.004063367843628
+        },
+        "target_token": {
+          "flip_rate": 0.010416666666666666,
+          "score_delta_abs": 0.44687309861183167,
+          "score_error_to_alt": 6.673562526702881
+        },
+        "target_value": {
+          "flip_rate": 0.010416666666666666,
+          "score_delta_abs": 0.47155991196632385,
+          "score_error_to_alt": 6.6191558837890625
+        },
+        "target_value_plus_attention": {
+          "flip_rate": 0.20833333333333334,
+          "score_delta_abs": 4.638650894165039,
+          "score_error_to_alt": 2.3807010650634766
+        }
+      },
+      "n": 96,
+      "seed": 1703
+    }
+  ],
+  "status": "DISCOVERY_ONLY_ORIGINAL_EVENT_PATH"
+}

@@ -1,0 +1,426 @@
+{
+  "status": "post_hoc_descriptive_synthesis_of_two_prospective_exploratory_tests",
+  "warning": "The same two source starts recur across tests and form-events share events; panel counts must not be treated as independent training replications.",
+  "panels": {
+    "test_1": {
+      "fresh1": {
+        "active": {
+          "aligned_joint": 25,
+          "decoupled_joint": 22,
+          "gained": 0,
+          "lost": 3,
+          "net": -3,
+          "by_pair_net": [
+            -1,
+            0,
+            0,
+            -1,
+            0,
+            -1
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "passive": {
+          "aligned_joint": 15,
+          "decoupled_joint": 30,
+          "gained": 15,
+          "lost": 0,
+          "net": 15,
+          "by_pair_net": [
+            2,
+            3,
+            1,
+            3,
+            4,
+            2
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "subject_cleft": {
+          "aligned_joint": 28,
+          "decoupled_joint": 22,
+          "gained": 0,
+          "lost": 6,
+          "net": -6,
+          "by_pair_net": [
+            -1,
+            -1,
+            0,
+            -1,
+            -2,
+            -1
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "object_cleft": {
+          "aligned_joint": 10,
+          "decoupled_joint": 16,
+          "gained": 6,
+          "lost": 0,
+          "net": 6,
+          "by_pair_net": [
+            0,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "relative_actor": {
+          "aligned_joint": 27,
+          "decoupled_joint": 25,
+          "gained": 0,
+          "lost": 2,
+          "net": -2,
+          "by_pair_net": [
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1
+          ],
+          "invalid_first_tokens_aligned": 1,
+          "invalid_first_tokens_decoupled": 3
+        },
+        "relative_patient": {
+          "aligned_joint": 21,
+          "decoupled_joint": 25,
+          "gained": 5,
+          "lost": 1,
+          "net": 4,
+          "by_pair_net": [
+            1,
+            -1,
+            1,
+            1,
+            2,
+            0
+          ],
+          "invalid_first_tokens_aligned": 1,
+          "invalid_first_tokens_decoupled": 1
+        }
+      },
+      "fresh3": {
+        "active": {
+          "aligned_joint": 26,
+          "decoupled_joint": 17,
+          "gained": 0,
+          "lost": 9,
+          "net": -9,
+          "by_pair_net": [
+            0,
+            -1,
+            -3,
+            -1,
+            -3,
+            -1
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "passive": {
+          "aligned_joint": 4,
+          "decoupled_joint": 32,
+          "gained": 28,
+          "lost": 0,
+          "net": 28,
+          "by_pair_net": [
+            3,
+            6,
+            4,
+            5,
+            5,
+            5
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "subject_cleft": {
+          "aligned_joint": 29,
+          "decoupled_joint": 24,
+          "gained": 0,
+          "lost": 5,
+          "net": -5,
+          "by_pair_net": [
+            -2,
+            0,
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "object_cleft": {
+          "aligned_joint": 11,
+          "decoupled_joint": 13,
+          "gained": 3,
+          "lost": 1,
+          "net": 2,
+          "by_pair_net": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "relative_actor": {
+          "aligned_joint": 24,
+          "decoupled_joint": 22,
+          "gained": 0,
+          "lost": 2,
+          "net": -2,
+          "by_pair_net": [
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1
+          ],
+          "invalid_first_tokens_aligned": 2,
+          "invalid_first_tokens_decoupled": 5
+        },
+        "relative_patient": {
+          "aligned_joint": 12,
+          "decoupled_joint": 16,
+          "gained": 7,
+          "lost": 3,
+          "net": 4,
+          "by_pair_net": [
+            3,
+            1,
+            0,
+            0,
+            -1,
+            1
+          ],
+          "invalid_first_tokens_aligned": 8,
+          "invalid_first_tokens_decoupled": 12
+        }
+      }
+    },
+    "test_2": {
+      "fresh1": {
+        "active": {
+          "aligned_joint": 31,
+          "decoupled_joint": 26,
+          "gained": 0,
+          "lost": 5,
+          "net": -5,
+          "by_pair_net": [
+            0,
+            -2,
+            -1,
+            -2,
+            0,
+            0
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "passive": {
+          "aligned_joint": 17,
+          "decoupled_joint": 32,
+          "gained": 15,
+          "lost": 0,
+          "net": 15,
+          "by_pair_net": [
+            3,
+            2,
+            1,
+            2,
+            4,
+            3
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "subject_cleft": {
+          "aligned_joint": 31,
+          "decoupled_joint": 26,
+          "gained": 0,
+          "lost": 5,
+          "net": -5,
+          "by_pair_net": [
+            -1,
+            -1,
+            -1,
+            -2,
+            0,
+            0
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "object_cleft": {
+          "aligned_joint": 15,
+          "decoupled_joint": 18,
+          "gained": 3,
+          "lost": 0,
+          "net": 3,
+          "by_pair_net": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "relative_actor": {
+          "aligned_joint": 34,
+          "decoupled_joint": 36,
+          "gained": 2,
+          "lost": 0,
+          "net": 2,
+          "by_pair_net": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "relative_patient": {
+          "aligned_joint": 21,
+          "decoupled_joint": 27,
+          "gained": 6,
+          "lost": 0,
+          "net": 6,
+          "by_pair_net": [
+            1,
+            0,
+            1,
+            1,
+            2,
+            1
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        }
+      },
+      "fresh3": {
+        "active": {
+          "aligned_joint": 33,
+          "decoupled_joint": 28,
+          "gained": 0,
+          "lost": 5,
+          "net": -5,
+          "by_pair_net": [
+            0,
+            0,
+            -1,
+            -2,
+            -1,
+            -1
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "passive": {
+          "aligned_joint": 14,
+          "decoupled_joint": 32,
+          "gained": 18,
+          "lost": 0,
+          "net": 18,
+          "by_pair_net": [
+            3,
+            3,
+            3,
+            3,
+            2,
+            4
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "subject_cleft": {
+          "aligned_joint": 34,
+          "decoupled_joint": 29,
+          "gained": 1,
+          "lost": 6,
+          "net": -5,
+          "by_pair_net": [
+            0,
+            -1,
+            -1,
+            -2,
+            -1,
+            0
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "object_cleft": {
+          "aligned_joint": 19,
+          "decoupled_joint": 22,
+          "gained": 3,
+          "lost": 0,
+          "net": 3,
+          "by_pair_net": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "relative_actor": {
+          "aligned_joint": 31,
+          "decoupled_joint": 36,
+          "gained": 5,
+          "lost": 0,
+          "net": 5,
+          "by_pair_net": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        },
+        "relative_patient": {
+          "aligned_joint": 16,
+          "decoupled_joint": 23,
+          "gained": 7,
+          "lost": 0,
+          "net": 7,
+          "by_pair_net": [
+            1,
+            1,
+            0,
+            2,
+            2,
+            1
+          ],
+          "invalid_first_tokens_aligned": 0,
+          "invalid_first_tokens_decoupled": 0
+        }
+      }
+    }
+  }
+}

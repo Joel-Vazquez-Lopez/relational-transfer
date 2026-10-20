@@ -1,0 +1,324 @@
+{
+  "canonical_mutation": false,
+  "canonical_retraining": false,
+  "protected_seeds_accessed": false,
+  "rows": [
+    {
+      "alt_event_accuracy": 0.45666666666666667,
+      "alt_margin_mean": -0.007474791258573532,
+      "base_event_accuracy": 0.53,
+      "base_margin_mean": -0.010947758331894875,
+      "direct_flip_rate": 0.12666666666666668,
+      "direct_score_change_abs": 0.14286454021930695,
+      "n": 600,
+      "patches": {
+        "all_noncls": {
+          "alt_event_accuracy": 0.47,
+          "event_preference_flip_rate": 0.11666666666666667,
+          "score_delta_abs": 0.12971070408821106,
+          "score_error_to_alt": 0.078228659927845
+        },
+        "block0_attention_weights": {
+          "alt_event_accuracy": 0.4766666666666667,
+          "event_preference_flip_rate": 0.006666666666666667,
+          "score_delta_abs": 0.0067068543285131454,
+          "score_error_to_alt": 0.14399811625480652
+        },
+        "block0_target_value": {
+          "alt_event_accuracy": 0.4683333333333333,
+          "event_preference_flip_rate": 0.018333333333333333,
+          "score_delta_abs": 0.018361896276474,
+          "score_error_to_alt": 0.14144329726696014
+        },
+        "block1_all_value": {
+          "alt_event_accuracy": 0.4666666666666667,
+          "event_preference_flip_rate": 0.12333333333333334,
+          "score_delta_abs": 0.1360088288784027,
+          "score_error_to_alt": 0.08543723076581955
+        },
+        "block1_attention_weights": {
+          "alt_event_accuracy": 0.475,
+          "event_preference_flip_rate": 0.005,
+          "score_delta_abs": 0.01532425545156002,
+          "score_error_to_alt": 0.14717696607112885
+        },
+        "block1_source_value": {
+          "alt_event_accuracy": 0.4666666666666667,
+          "event_preference_flip_rate": 0.02,
+          "score_delta_abs": 0.018498362973332405,
+          "score_error_to_alt": 0.14272582530975342
+        },
+        "block1_target_value": {
+          "alt_event_accuracy": 0.4866666666666667,
+          "event_preference_flip_rate": 0.11,
+          "score_delta_abs": 0.12012692540884018,
+          "score_error_to_alt": 0.0750117227435112
+        },
+        "cls": {
+          "alt_event_accuracy": 0.4633333333333333,
+          "event_preference_flip_rate": 0.06666666666666667,
+          "score_delta_abs": 0.07703224569559097,
+          "score_error_to_alt": 0.12883831560611725
+        },
+        "distractor": {
+          "alt_event_accuracy": 0.4716666666666667,
+          "event_preference_flip_rate": 0.005,
+          "score_delta_abs": 0.016397031024098396,
+          "score_error_to_alt": 0.1418682038784027
+        },
+        "source": {
+          "alt_event_accuracy": 0.47,
+          "event_preference_flip_rate": 0.016666666666666666,
+          "score_delta_abs": 0.018040364608168602,
+          "score_error_to_alt": 0.14093837141990662
+        },
+        "target": {
+          "alt_event_accuracy": 0.48,
+          "event_preference_flip_rate": 0.11,
+          "score_delta_abs": 0.1185273602604866,
+          "score_error_to_alt": 0.0741289034485817
+        }
+      },
+      "query_event_contrast": 0.380664199590683,
+      "stage": 0
+    },
+    {
+      "alt_event_accuracy": 0.9616666666666667,
+      "alt_margin_mean": 7.785260200500488,
+      "base_event_accuracy": 0.9,
+      "base_margin_mean": 5.957551956176758,
+      "direct_flip_rate": 0.865,
+      "direct_score_change_abs": 13.767223358154297,
+      "n": 600,
+      "patches": {
+        "all_noncls": {
+          "alt_event_accuracy": 0.72,
+          "event_preference_flip_rate": 0.6233333333333333,
+          "score_delta_abs": 9.419536590576172,
+          "score_error_to_alt": 4.401468276977539
+        },
+        "block0_attention_weights": {
+          "alt_event_accuracy": 0.18166666666666667,
+          "event_preference_flip_rate": 0.08166666666666667,
+          "score_delta_abs": 1.2067791223526,
+          "score_error_to_alt": 12.71627140045166
+        },
+        "block0_target_value": {
+          "alt_event_accuracy": 0.26,
+          "event_preference_flip_rate": 0.16,
+          "score_delta_abs": 2.5614521503448486,
+          "score_error_to_alt": 11.322468757629395
+        },
+        "block1_all_value": {
+          "alt_event_accuracy": 0.37833333333333335,
+          "event_preference_flip_rate": 0.285,
+          "score_delta_abs": 4.7791266441345215,
+          "score_error_to_alt": 9.140144348144531
+        },
+        "block1_attention_weights": {
+          "alt_event_accuracy": 0.058333333333333334,
+          "event_preference_flip_rate": 0.07833333333333334,
+          "score_delta_abs": 1.5957741737365723,
+          "score_error_to_alt": 13.824642181396484
+        },
+        "block1_source_value": {
+          "alt_event_accuracy": 0.22833333333333333,
+          "event_preference_flip_rate": 0.13166666666666665,
+          "score_delta_abs": 1.9513858556747437,
+          "score_error_to_alt": 12.00073528289795
+        },
+        "block1_target_value": {
+          "alt_event_accuracy": 0.23166666666666666,
+          "event_preference_flip_rate": 0.15833333333333333,
+          "score_delta_abs": 2.584953784942627,
+          "score_error_to_alt": 11.568321228027344
+        },
+        "cls": {
+          "alt_event_accuracy": 0.32666666666666666,
+          "event_preference_flip_rate": 0.23333333333333334,
+          "score_delta_abs": 3.835764169692993,
+          "score_error_to_alt": 9.999547958374023
+        },
+        "distractor": {
+          "alt_event_accuracy": 0.09333333333333334,
+          "event_preference_flip_rate": 0.07333333333333333,
+          "score_delta_abs": 1.1071557998657227,
+          "score_error_to_alt": 13.557727813720703
+        },
+        "source": {
+          "alt_event_accuracy": 0.285,
+          "event_preference_flip_rate": 0.185,
+          "score_delta_abs": 2.746349334716797,
+          "score_error_to_alt": 11.103018760681152
+        },
+        "target": {
+          "alt_event_accuracy": 0.42333333333333334,
+          "event_preference_flip_rate": 0.3333333333333333,
+          "score_delta_abs": 5.121374607086182,
+          "score_error_to_alt": 8.757909774780273
+        }
+      },
+      "query_event_contrast": 1.4291003942489624,
+      "stage": 1000
+    },
+    {
+      "alt_event_accuracy": 0.9916666666666667,
+      "alt_margin_mean": 10.390846252441406,
+      "base_event_accuracy": 0.9833333333333333,
+      "base_margin_mean": 8.531441688537598,
+      "direct_flip_rate": 0.9783333333333334,
+      "direct_score_change_abs": 18.936111450195312,
+      "n": 600,
+      "patches": {
+        "all_noncls": {
+          "alt_event_accuracy": 0.825,
+          "event_preference_flip_rate": 0.8083333333333333,
+          "score_delta_abs": 14.369111061096191,
+          "score_error_to_alt": 4.632809638977051
+        },
+        "block0_attention_weights": {
+          "alt_event_accuracy": 0.075,
+          "event_preference_flip_rate": 0.058333333333333334,
+          "score_delta_abs": 1.3478648662567139,
+          "score_error_to_alt": 17.66803550720215
+        },
+        "block0_target_value": {
+          "alt_event_accuracy": 0.18,
+          "event_preference_flip_rate": 0.16333333333333333,
+          "score_delta_abs": 3.193509578704834,
+          "score_error_to_alt": 15.843950271606445
+        },
+        "block1_all_value": {
+          "alt_event_accuracy": 0.19,
+          "event_preference_flip_rate": 0.17333333333333334,
+          "score_delta_abs": 3.6686019897460938,
+          "score_error_to_alt": 15.444869995117188
+        },
+        "block1_attention_weights": {
+          "alt_event_accuracy": 0.08333333333333333,
+          "event_preference_flip_rate": 0.09333333333333334,
+          "score_delta_abs": 3.8959248065948486,
+          "score_error_to_alt": 15.294557571411133
+        },
+        "block1_source_value": {
+          "alt_event_accuracy": 0.10333333333333333,
+          "event_preference_flip_rate": 0.08666666666666667,
+          "score_delta_abs": 1.9471890926361084,
+          "score_error_to_alt": 17.162704467773438
+        },
+        "block1_target_value": {
+          "alt_event_accuracy": 0.08,
+          "event_preference_flip_rate": 0.07,
+          "score_delta_abs": 1.6997982263565063,
+          "score_error_to_alt": 17.47861671447754
+        },
+        "cls": {
+          "alt_event_accuracy": 0.185,
+          "event_preference_flip_rate": 0.16833333333333333,
+          "score_delta_abs": 3.383004665374756,
+          "score_error_to_alt": 15.67089557647705
+        },
+        "distractor": {
+          "alt_event_accuracy": 0.006666666666666667,
+          "event_preference_flip_rate": 0.013333333333333334,
+          "score_delta_abs": 0.889727771282196,
+          "score_error_to_alt": 18.993518829345703
+        },
+        "source": {
+          "alt_event_accuracy": 0.18,
+          "event_preference_flip_rate": 0.16333333333333333,
+          "score_delta_abs": 3.462238073348999,
+          "score_error_to_alt": 15.542128562927246
+        },
+        "target": {
+          "alt_event_accuracy": 0.44666666666666666,
+          "event_preference_flip_rate": 0.43,
+          "score_delta_abs": 8.179268836975098,
+          "score_error_to_alt": 10.785772323608398
+        }
+      },
+      "query_event_contrast": 1.5840126276016235,
+      "stage": 2000
+    },
+    {
+      "alt_event_accuracy": 0.9933333333333333,
+      "alt_margin_mean": 10.788360595703125,
+      "base_event_accuracy": 0.995,
+      "base_margin_mean": 9.228939056396484,
+      "direct_flip_rate": 0.9916666666666667,
+      "direct_score_change_abs": 20.04502296447754,
+      "n": 600,
+      "patches": {
+        "all_noncls": {
+          "alt_event_accuracy": 0.8183333333333334,
+          "event_preference_flip_rate": 0.8133333333333334,
+          "score_delta_abs": 15.315185546875,
+          "score_error_to_alt": 4.810222625732422
+        },
+        "block0_attention_weights": {
+          "alt_event_accuracy": 0.058333333333333334,
+          "event_preference_flip_rate": 0.05333333333333334,
+          "score_delta_abs": 1.4260257482528687,
+          "score_error_to_alt": 18.685039520263672
+        },
+        "block0_target_value": {
+          "alt_event_accuracy": 0.17666666666666667,
+          "event_preference_flip_rate": 0.17166666666666666,
+          "score_delta_abs": 3.351513385772705,
+          "score_error_to_alt": 16.81663703918457
+        },
+        "block1_all_value": {
+          "alt_event_accuracy": 0.15333333333333332,
+          "event_preference_flip_rate": 0.14833333333333334,
+          "score_delta_abs": 3.593071222305298,
+          "score_error_to_alt": 16.65431785583496
+        },
+        "block1_attention_weights": {
+          "alt_event_accuracy": 0.09166666666666666,
+          "event_preference_flip_rate": 0.09666666666666666,
+          "score_delta_abs": 4.540764808654785,
+          "score_error_to_alt": 15.664758682250977
+        },
+        "block1_source_value": {
+          "alt_event_accuracy": 0.09833333333333333,
+          "event_preference_flip_rate": 0.09333333333333334,
+          "score_delta_abs": 2.013932943344116,
+          "score_error_to_alt": 18.243946075439453
+        },
+        "block1_target_value": {
+          "alt_event_accuracy": 0.056666666666666664,
+          "event_preference_flip_rate": 0.051666666666666666,
+          "score_delta_abs": 1.6034992933273315,
+          "score_error_to_alt": 18.638259887695312
+        },
+        "cls": {
+          "alt_event_accuracy": 0.16833333333333333,
+          "event_preference_flip_rate": 0.16333333333333333,
+          "score_delta_abs": 3.2833902835845947,
+          "score_error_to_alt": 16.899742126464844
+        },
+        "distractor": {
+          "alt_event_accuracy": 0.0,
+          "event_preference_flip_rate": 0.005,
+          "score_delta_abs": 0.856051504611969,
+          "score_error_to_alt": 20.208112716674805
+        },
+        "source": {
+          "alt_event_accuracy": 0.17333333333333334,
+          "event_preference_flip_rate": 0.16833333333333333,
+          "score_delta_abs": 3.4937362670898438,
+          "score_error_to_alt": 16.637454986572266
+        },
+        "target": {
+          "alt_event_accuracy": 0.42,
+          "event_preference_flip_rate": 0.415,
+          "score_delta_abs": 8.783095359802246,
+          "score_error_to_alt": 11.296842575073242
+        }
+      },
+      "query_event_contrast": 1.5899051427841187,
+      "stage": 3000
+    }
+  ],
+  "status": "DISCOVERY_ONLY_BALANCED_MECHANISM"
+}

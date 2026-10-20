@@ -1,0 +1,108 @@
+{
+  "protocol_sha256": "96e1dcc8880d57c4df5550113fca1cef51c75bda352f4250d3ed867ade99ad46",
+  "matched": {
+    "fresh1": {
+      "goal_first": {
+        "training": {
+          "updates": 160,
+          "target_tokens": 11676
+        },
+        "splits": {
+          "fresh": {
+            "items": 40,
+            "prompts": 160,
+            "all_four_answer_correct": 2,
+            "exact_answer": 83,
+            "parsed": 160,
+            "need_correct": 94,
+            "actor_correct": 135,
+            "patient_correct": 140,
+            "both_fields_correct": 134,
+            "routed_correct": 137,
+            "answer_matches_field": 98
+          }
+        }
+      },
+      "goal_after_roles": {
+        "training": {
+          "updates": 160,
+          "target_tokens": 11676
+        },
+        "splits": {
+          "fresh": {
+            "items": 40,
+            "prompts": 160,
+            "all_four_answer_correct": 6,
+            "exact_answer": 93,
+            "parsed": 159,
+            "need_correct": 106,
+            "actor_correct": 134,
+            "patient_correct": 137,
+            "both_fields_correct": 131,
+            "routed_correct": 137,
+            "answer_matches_field": 100
+          }
+        }
+      }
+    },
+    "fresh3": {
+      "goal_first": {
+        "training": {
+          "updates": 160,
+          "target_tokens": 11676
+        },
+        "splits": {
+          "fresh": {
+            "items": 40,
+            "prompts": 160,
+            "all_four_answer_correct": 2,
+            "exact_answer": 82,
+            "parsed": 160,
+            "need_correct": 88,
+            "actor_correct": 136,
+            "patient_correct": 142,
+            "both_fields_correct": 135,
+            "routed_correct": 140,
+            "answer_matches_field": 89
+          }
+        }
+      },
+      "goal_after_roles": {
+        "training": {
+          "updates": 160,
+          "target_tokens": 11676
+        },
+        "splits": {
+          "fresh": {
+            "items": 40,
+            "prompts": 160,
+            "all_four_answer_correct": 6,
+            "exact_answer": 91,
+            "parsed": 157,
+            "need_correct": 103,
+            "actor_correct": 125,
+            "patient_correct": 129,
+            "both_fields_correct": 122,
+            "routed_correct": 127,
+            "answer_matches_field": 100
+          }
+        }
+      }
+    }
+  },
+  "screens": {
+    "fresh1": {
+      "all_four_gain": -4,
+      "exact_answer_gain": -10,
+      "field_joint_difference": 3,
+      "pass": false
+    },
+    "fresh3": {
+      "all_four_gain": -4,
+      "exact_answer_gain": -9,
+      "field_joint_difference": 13,
+      "pass": false
+    }
+  },
+  "screen_pass": false
+}

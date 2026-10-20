@@ -1,0 +1,92 @@
+{
+  "canonical_mutation": false,
+  "canonical_retraining": false,
+  "protected_seeds_accessed": false,
+  "rows": [
+    {
+      "arm": "nocue",
+      "cue_sign": {
+        "held_R2": 0.48219637739640253,
+        "held_accuracy": 0.8229166666666666,
+        "held_mean_signed_margin": 0.45937045640950985
+      },
+      "relative_event": {
+        "held_R2": 0.6581302066150417,
+        "held_accuracy": 0.8979166666666667,
+        "held_mean_signed_margin": 0.6549402349358235
+      },
+      "seed": 3801
+    },
+    {
+      "arm": "cue",
+      "cue_sign": {
+        "held_R2": 0.9513697360043497,
+        "held_accuracy": 0.99375,
+        "held_mean_signed_margin": 0.9527590938406245
+      },
+      "relative_event": {
+        "held_R2": 0.0022660541216174,
+        "held_accuracy": 0.5166666666666667,
+        "held_mean_signed_margin": 0.0046525829573457935
+      },
+      "seed": 3801
+    },
+    {
+      "arm": "p95",
+      "cue_sign": {
+        "held_R2": 0.8429928557768622,
+        "held_accuracy": 0.99375,
+        "held_mean_signed_margin": 0.7779993105324893
+      },
+      "relative_event": {
+        "held_R2": 0.5387889946637068,
+        "held_accuracy": 0.8541666666666666,
+        "held_mean_signed_margin": 0.5489464927561107
+      },
+      "seed": 3801
+    },
+    {
+      "arm": "nocue",
+      "cue_sign": {
+        "held_R2": 0.5102675924755888,
+        "held_accuracy": 0.8645833333333334,
+        "held_mean_signed_margin": 0.4436944648282169
+      },
+      "relative_event": {
+        "held_R2": 0.6577350364020706,
+        "held_accuracy": 0.9041666666666667,
+        "held_mean_signed_margin": 0.6616292588123038
+      },
+      "seed": 3802
+    },
+    {
+      "arm": "cue",
+      "cue_sign": {
+        "held_R2": 0.9429352263565303,
+        "held_accuracy": 0.9958333333333333,
+        "held_mean_signed_margin": 0.9582431213017002
+      },
+      "relative_event": {
+        "held_R2": 0.011579762619959855,
+        "held_accuracy": 0.5395833333333333,
+        "held_mean_signed_margin": 0.007833885089084338
+      },
+      "seed": 3802
+    },
+    {
+      "arm": "p95",
+      "cue_sign": {
+        "held_R2": 0.8384322851354332,
+        "held_accuracy": 0.975,
+        "held_mean_signed_margin": 0.7825822274402535
+      },
+      "relative_event": {
+        "held_R2": 0.34756188448327663,
+        "held_accuracy": 0.7729166666666667,
+        "held_mean_signed_margin": 0.34099002965379455
+      },
+      "seed": 3802
+    }
+  ],
+  "status": "DISCOVERY_ONLY_DEEPSETS_PROBE"
+}

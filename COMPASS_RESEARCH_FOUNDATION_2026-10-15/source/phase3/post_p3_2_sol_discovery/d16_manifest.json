@@ -1,0 +1,19 @@
+{
+  "diagnostic": "D16",
+  "status": "discovery_only",
+  "selected_after": "D09_before_D12",
+  "input_hashes_sha256": {
+    "configs/d5_graphs.json": "f34d6c86a218f21ac510d835675e8cd05fee5437b619df1cb60c76bc8e28e931",
+    "d07_graph_design.json": "4d68eb84f2eaa52880d7b6565424655ffd4ff3be1db50c80838144d20b14aeb4",
+    "d05_pair_model.csv": "bdace4242d52fbd3a646eb51da94493ad93e32fb30e988ec09e7157e8b67e348",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/checkpoint.pt": "66d4d0ad3b6ff5423b1decab3134350897ab59053eb829694113069d945b3f97",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/query_displacement_consistency.csv": "462108b5988c4e431a7219eed6375e5834e1c6c51fb9fe4ab2218c12a5209205",
+    "exploratory_E/runs/E_path3_missing_exploratory/seed_2701/edge_event_family_cells.csv": "9859c8b2ed755cb653814c569cfc7e4294b7b2243514c247ec241ad8ede5b988"
+  },
+  "script_sha256": "70c60343a371b0223153bf2250fbff7c17de5c8d935eb5e804ace1d9a6e219bf",
+  "output_hashes_sha256": {
+    "d16_pairs.csv": "64a10ae101675bebae8c9ddc3f6851e874f656c37871b3b084abbb6d1dae4e62",
+    "d16_model_association.csv": "03a6da2c42838d7dbc10c67804b00d57664d4495c4c5358d9fd4821d627ccd16"
+  },
+  "protected_seeds_accessed": false
+}

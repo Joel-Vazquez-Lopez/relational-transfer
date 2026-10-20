@@ -1,0 +1,138 @@
+{
+  "protocol_sha256": "f57a13e17e726afbb56d16bac504198732990b1dde2b38a5411e4b9a3527db83",
+  "paired": {
+    "fresh1": {
+      "typed_goal": {
+        "training": {
+          "updates": 160,
+          "target_tokens": 8476
+        },
+        "test": {
+          "items": 40,
+          "prompts": 160,
+          "all_four": 24,
+          "exact": 128,
+          "parsed": 160,
+          "tag_correct_prompts": 160,
+          "both_fields_correct": 126,
+          "routed_exact": 129,
+          "answer_matches_field": 153,
+          "by_role_order": {
+            "actor_0": 31,
+            "actor_1": 28,
+            "patient_0": 37,
+            "patient_1": 32
+          }
+        }
+      },
+      "constant_tag": {
+        "training": {
+          "updates": 160,
+          "target_tokens": 8476
+        },
+        "test": {
+          "items": 40,
+          "prompts": 160,
+          "all_four": 2,
+          "exact": 84,
+          "parsed": 160,
+          "tag_correct_prompts": 160,
+          "both_fields_correct": 121,
+          "routed_exact": 123,
+          "answer_matches_field": 88,
+          "by_role_order": {
+            "actor_0": 15,
+            "actor_1": 27,
+            "patient_0": 27,
+            "patient_1": 15
+          }
+        }
+      }
+    },
+    "fresh3": {
+      "typed_goal": {
+        "training": {
+          "updates": 160,
+          "target_tokens": 8476
+        },
+        "test": {
+          "items": 40,
+          "prompts": 160,
+          "all_four": 23,
+          "exact": 125,
+          "parsed": 160,
+          "tag_correct_prompts": 160,
+          "both_fields_correct": 125,
+          "routed_exact": 128,
+          "answer_matches_field": 151,
+          "by_role_order": {
+            "actor_0": 32,
+            "actor_1": 29,
+            "patient_0": 35,
+            "patient_1": 29
+          }
+        }
+      },
+      "constant_tag": {
+        "training": {
+          "updates": 160,
+          "target_tokens": 8476
+        },
+        "test": {
+          "items": 40,
+          "prompts": 160,
+          "all_four": 3,
+          "exact": 86,
+          "parsed": 160,
+          "tag_correct_prompts": 160,
+          "both_fields_correct": 123,
+          "routed_exact": 126,
+          "answer_matches_field": 89,
+          "by_role_order": {
+            "actor_0": 16,
+            "actor_1": 26,
+            "patient_0": 28,
+            "patient_1": 16
+          }
+        }
+      }
+    }
+  },
+  "screens": {
+    "fresh1": {
+      "all_four_gain": 22,
+      "exact_gain": 44,
+      "both_fields_difference": 5,
+      "pass": true,
+      "paired_bootstrap": {
+        "exact_difference_95pct": [
+          0.18125,
+          0.3625
+        ],
+        "all_four_difference_95pct": [
+          0.4,
+          0.7
+        ],
+        "method": "10000 paired bootstrap resamples of 40 sentence-level items, seed 20261013; descriptive only"
+      }
+    },
+    "fresh3": {
+      "all_four_gain": 20,
+      "exact_gain": 39,
+      "both_fields_difference": 2,
+      "pass": true,
+      "paired_bootstrap": {
+        "exact_difference_95pct": [
+          0.15625,
+          0.33125
+        ],
+        "all_four_difference_95pct": [
+          0.35,
+          0.65
+        ],
+        "method": "10000 paired bootstrap resamples of 40 sentence-level items, seed 20261013; descriptive only"
+      }
+    }
+  },
+  "screen_pass": true
+}

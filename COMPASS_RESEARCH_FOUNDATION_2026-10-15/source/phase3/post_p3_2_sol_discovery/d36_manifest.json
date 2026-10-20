@@ -1,0 +1,24 @@
+{
+  "diagnostic": "D36",
+  "status": "discovery_only",
+  "selected_after": "D35 before D32 outcomes",
+  "input_hashes_sha256": {
+    "src/d5_topology.py": "4173ccbeba759f76448590e75cbf9f0008a3d1821ad6feec648cdf8eaba2059a",
+    "src/pilot.py": "f829c2700ff94d179e6d5a92a1a39f59c92b2a9ac4a6e42db1de315df717d78f",
+    "comparison_f.py": "7f6926dfec828fbf5b454ae35b104f33a898ff8a96407f985711979aaf412407",
+    "d07_graph_design.json": "4d68eb84f2eaa52880d7b6565424655ffd4ff3be1db50c80838144d20b14aeb4",
+    "/Users/joelvazquezlopez/Documents/Codex/2026-09-08/files-pasted-by-the-user-you/results/d5_topology/pretraining_audit/schedule_A_original_clique_hole_seed_1701.npz": "35bed21c2345113efe825b5cf4f568c6bdaca1ae0157bb942afccdfd4f600de0",
+    "/Users/joelvazquezlopez/Documents/Codex/2026-09-08/files-pasted-by-the-user-you/results/d5_topology/runs/A_original_clique_hole/seed_1701/checkpoint.pt": "76cdd75799ee44ead9163d0e675784720b9dee9aaacba1cecc2e1ed1eb4d7dde",
+    "/Users/joelvazquezlopez/Documents/ChatGPT/project null/phase3/post_p3_2_sol_discovery/exploratory_E/pretraining_audit/schedule_E_path3_missing_exploratory_seed_1701.npz": "35bed21c2345113efe825b5cf4f568c6bdaca1ae0157bb942afccdfd4f600de0",
+    "/Users/joelvazquezlopez/Documents/ChatGPT/project null/phase3/post_p3_2_sol_discovery/exploratory_E/runs/E_path3_missing_exploratory/seed_1701/checkpoint.pt": "00a8ca8eb094aee57126dbfa3426ca6585fa8c3d0d1edd1bc065bb91e6026c5f",
+    "/Users/joelvazquezlopez/Documents/ChatGPT/project null/phase3/post_p3_2_sol_discovery/exploratory_F_direct_crossfoil/seed_1701/checkpoint_step_08000.pt": "c77600e17c24cb7e5238c9ecf7b53052fdab8d9e971f9dabedeec6bdb156fc7e",
+    "/Users/joelvazquezlopez/Documents/ChatGPT/project null/phase3/post_p3_2_sol_discovery/exploratory_G_frequency_upsampled_A/schedule_seed_1701.npz": "9bf45783d1ea72de313ecbdc3bca10e21914f9d552e2f42bc89ede4d565758bd",
+    "/Users/joelvazquezlopez/Documents/ChatGPT/project null/phase3/post_p3_2_sol_discovery/exploratory_G_frequency_upsampled_A/seed_1701/checkpoint_step_08000.pt": "5f5c0beeb892cdaca9e76b4b0c6ab23972e2a45cbecca13bd8ec7f73a1fdecad"
+  },
+  "script_sha256": "4f4dcea13deeb28b72d593b6495a6dd6fa7a5f7701cde5e3ebff8bda1c3988b0",
+  "output_hashes_sha256": {
+    "d36_merger_loss.csv": "e913abdd7a1b6ac7c82db243292eaf712d554e657119a307590b3c01d4cf3d5f"
+  },
+  "scenes_per_model": 4096,
+  "protected_seeds_accessed": false
+}

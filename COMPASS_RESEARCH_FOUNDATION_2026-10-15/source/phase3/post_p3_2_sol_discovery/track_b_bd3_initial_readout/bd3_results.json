@@ -1,0 +1,68 @@
+{
+  "canonical_mutation": false,
+  "models": [
+    {
+      "bottom_singular": 8.42111801752614e-08,
+      "effective_rank": 1.8218973256876811,
+      "numerical_rank": 47,
+      "seed": 1701,
+      "stable_rank": 1.372973528817626,
+      "top_singular": 6.610655742508674,
+      "topk": {
+        "16": {
+          "base_score_rmse": 0.0463328365336493,
+          "v2y_delta_energy_fraction": 0.4071319301988789,
+          "v2y_score_rmse": 0.04925581221143865
+        },
+        "24": {
+          "base_score_rmse": 0.021779162113823525,
+          "v2y_delta_energy_fraction": 0.542594012148465,
+          "v2y_score_rmse": 0.023045694835920602
+        },
+        "4": {
+          "base_score_rmse": 0.28534256088096716,
+          "v2y_delta_energy_fraction": 0.11046720823617504,
+          "v2y_score_rmse": 0.3111947078849324
+        },
+        "8": {
+          "base_score_rmse": 0.15239746320014588,
+          "v2y_delta_energy_fraction": 0.18878783655341833,
+          "v2y_score_rmse": 0.14642632348739681
+        }
+      }
+    },
+    {
+      "bottom_singular": 6.111082174765586e-08,
+      "effective_rank": 1.4848191712951317,
+      "numerical_rank": 47,
+      "seed": 1703,
+      "stable_rank": 1.2255873857785518,
+      "top_singular": 6.996864834184638,
+      "topk": {
+        "16": {
+          "base_score_rmse": 0.023130937589489732,
+          "v2y_delta_energy_fraction": 0.3264523300388305,
+          "v2y_score_rmse": 0.023421912068754845
+        },
+        "24": {
+          "base_score_rmse": 0.008508031429909562,
+          "v2y_delta_energy_fraction": 0.43397197423657835,
+          "v2y_score_rmse": 0.008430949717207627
+        },
+        "4": {
+          "base_score_rmse": 0.42569501519282954,
+          "v2y_delta_energy_fraction": 0.08442644076898755,
+          "v2y_score_rmse": 0.43478250881370917
+        },
+        "8": {
+          "base_score_rmse": 0.08754766289418074,
+          "v2y_delta_energy_fraction": 0.16012965866487913,
+          "v2y_score_rmse": 0.08573237759319322
+        }
+      }
+    }
+  ],
+  "new_training": false,
+  "protected_seeds_accessed": false,
+  "status": "DISCOVERY_ONLY_INITIALIZATION_CONTROL"
+}

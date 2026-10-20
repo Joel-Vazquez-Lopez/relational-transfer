@@ -1,0 +1,41 @@
+{
+  "diagnostic": "D05",
+  "status": "discovery_only",
+  "selected_after": "D04C",
+  "input_hashes_sha256": {
+    "configs/d5_graphs.json": "f34d6c86a218f21ac510d835675e8cd05fee5437b619df1cb60c76bc8e28e931",
+    "d04_pairs.csv": "c64bf45d85614561e8d310472cab1d5bd34448d0b968d0b2330c3565565fb285",
+    "results/d5_topology/runs/A_original_clique_hole/seed_1701/query_displacement_consistency.csv": "60c316760902dedd8120d2b78bc393028ae9d5ea22365b0378e3557891e0c340",
+    "results/d5_topology/runs/A_original_clique_hole/seed_1701/edge_event_family_cells.csv": "6cdc91c2fe518010fa3adf5c80c81ee2421f416e4866b5225b2e24ba8246ec7b",
+    "results/d5_topology/runs/A_original_clique_hole/seed_1702/query_displacement_consistency.csv": "c6ac70756c688517705db70dd72affe64fe0825985116aa59566d6060b7ee28e",
+    "results/d5_topology/runs/A_original_clique_hole/seed_1702/edge_event_family_cells.csv": "ce51c099acd67058024f824bc3c6eae8a523a5ebd7cdf860003bce5242ca9c5f",
+    "results/d5_topology/runs/A_original_clique_hole/seed_1703/query_displacement_consistency.csv": "9275ec9c98626d982649655c4a07e12e439d403800fa9f3c2553bd5ef8d3afd3",
+    "results/d5_topology/runs/A_original_clique_hole/seed_1703/edge_event_family_cells.csv": "1dae091867003d8bbe22e699f9c050ecdf5d7a3a8e8d11c6978fab61379e16e1",
+    "results/d5_topology/runs/B_relocated_clique_hole/seed_1701/query_displacement_consistency.csv": "e8ca12aede40b1063e30cd1b55f95df3d4a741acd9f9fee29e271cd1991ab46d",
+    "results/d5_topology/runs/B_relocated_clique_hole/seed_1701/edge_event_family_cells.csv": "6f2e03777914bba3478af7e6f6ff57b73de017909e6a387ed25d03e4ffbc0b29",
+    "results/d5_topology/runs/B_relocated_clique_hole/seed_1702/query_displacement_consistency.csv": "20edb51a269a6d03d4874794af843c041b2e41faec704c35b30975ab3feda24e",
+    "results/d5_topology/runs/B_relocated_clique_hole/seed_1702/edge_event_family_cells.csv": "044731e8e7681671953613b4b91e606e2923353be54fa68189f3867aabc1ff54",
+    "results/d5_topology/runs/B_relocated_clique_hole/seed_1703/query_displacement_consistency.csv": "06409764e4935a087c1891250a3eac89d078072675431eef9239e45c85df14be",
+    "results/d5_topology/runs/B_relocated_clique_hole/seed_1703/edge_event_family_cells.csv": "1bec1420a0601eca89532390094ff535a48ec7ba092db125d7188f7beaf66013",
+    "results/d5_topology/runs/C_degree_balanced_matching_holes/seed_1701/query_displacement_consistency.csv": "ed22f56dd14be5bd808a9a4dae980e672efccf72b41b8877414b1f39ee52b142",
+    "results/d5_topology/runs/C_degree_balanced_matching_holes/seed_1701/edge_event_family_cells.csv": "57b35d60e5caa511ad4332bf7c97131df29566adfbbeed6c641aaa499adab9f4",
+    "results/d5_topology/runs/C_degree_balanced_matching_holes/seed_1702/query_displacement_consistency.csv": "87ad4fc56176b84d072cb12dedc985d7dc96247e279e2339f0f32db9db586d87",
+    "results/d5_topology/runs/C_degree_balanced_matching_holes/seed_1702/edge_event_family_cells.csv": "4c1f9a884d1da55a18848a58474136d2e1d7fed53f68ee32ca2a03ce686d40c7",
+    "results/d5_topology/runs/C_degree_balanced_matching_holes/seed_1703/query_displacement_consistency.csv": "b0d0725fb7c893430753decbe18ab4bf91881021089b95680cadce0d5beb12f2",
+    "results/d5_topology/runs/C_degree_balanced_matching_holes/seed_1703/edge_event_family_cells.csv": "d2ede96e11bbaefb170d907563414d0a583d31d7469f6e352b0f0201fdf94862",
+    "results/d5_topology/runs/D_path_connectivity_swap/seed_1701/query_displacement_consistency.csv": "c3908f322d2746fc60245c934c1ea4ece24b5f3a27ae743c406e2f3618568133",
+    "results/d5_topology/runs/D_path_connectivity_swap/seed_1701/edge_event_family_cells.csv": "75a431ef20dc1907914f8b788bec197f06c1acc1a76fa4d330f2952987de8ca8",
+    "results/d5_topology/runs/D_path_connectivity_swap/seed_1702/query_displacement_consistency.csv": "d4c5eff87ba3e361bf978f6af0080e32b5fb1505a28d80e23c2113f34391b313",
+    "results/d5_topology/runs/D_path_connectivity_swap/seed_1702/edge_event_family_cells.csv": "1d801ac2cd2ca7720691730a4e90f5a4d6f39caddef71b8485f65077e260ceca",
+    "results/d5_topology/runs/D_path_connectivity_swap/seed_1703/query_displacement_consistency.csv": "492538dd5589868d43a359776073cfaba9fd442a08dfb7cbe3f212acc110da35",
+    "results/d5_topology/runs/D_path_connectivity_swap/seed_1703/edge_event_family_cells.csv": "c4530bc09d598bf036bb9834b69c64555535c8649aa1c660943af92f694628d9"
+  },
+  "script_sha256": "21b1fb38289d2186ef245773493727cd6701ae7a809f83d4f7f47a5bb7ee8f10",
+  "output_hashes_sha256": {
+    "d05_pair_model.csv": "bdace4242d52fbd3a646eb51da94493ad93e32fb30e988ec09e7157e8b67e348",
+    "d05_category_model.csv": "e4e16d2913af8b707beac8a26193efe1a60c5c29fe257ecb4b5fde752e64c493"
+  },
+  "row_count": 180,
+  "summary_count": 27,
+  "protected_seeds_accessed": false
+}

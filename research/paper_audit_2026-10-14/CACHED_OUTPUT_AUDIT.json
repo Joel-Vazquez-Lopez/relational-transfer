@@ -1,0 +1,220 @@
+{
+  "status": "post_hoc_reanalysis_of_existing_development_outputs",
+  "limitations": "Question comparisons change the requested role and wording, and in typed arms the inferred cue. This is an output-level association, not isolated causal query interference. Units share sentence IDs, source distribution and pretrained family. No hidden state or new confirmation data is used.",
+  "records": [
+    {
+      "source": "research/candidate_free_role_binding_2026-10-14/EVAL_fresh1_neutral.json",
+      "sha256": "7dbc86345dd4a4b38c636d3059840b95447b6950eae4589517096d014ad13059",
+      "counts": {
+        "field_1_answer_1": 79,
+        "both_fields_correct": 79,
+        "answer_correct": 88,
+        "parsed": 199,
+        "rows": 200,
+        "field_0_answer_0": 73,
+        "field_1_answer_0": 39,
+        "field_0_answer_1": 9,
+        "question_pairs": 100,
+        "question_pairs_with_both_role_outputs": 99,
+        "role_fields_change_with_question": 28,
+        "both_answers_correct": 11
+      }
+    },
+    {
+      "source": "research/candidate_free_role_binding_2026-10-14/EVAL_fresh1_typed.json",
+      "sha256": "b46e05b96a921265dbd5788223615c6a0ef1eb8e3a3f9d76b8b6fe2f04d7699a",
+      "counts": {
+        "field_1_answer_1": 106,
+        "both_fields_correct": 82,
+        "answer_correct": 111,
+        "parsed": 196,
+        "rows": 200,
+        "field_0_answer_0": 76,
+        "field_0_answer_1": 5,
+        "field_1_answer_0": 13,
+        "question_pairs": 100,
+        "question_pairs_with_both_role_outputs": 97,
+        "role_fields_change_with_question": 42,
+        "both_answers_correct": 31
+      }
+    },
+    {
+      "source": "research/candidate_free_role_binding_2026-10-14/EVAL_fresh3_neutral.json",
+      "sha256": "f6b47f7373599feae1e3f20105468e75283b496ac23882bb66ca1e1fd84f9d81",
+      "counts": {
+        "field_1_answer_1": 74,
+        "both_fields_correct": 81,
+        "answer_correct": 88,
+        "parsed": 198,
+        "rows": 200,
+        "field_0_answer_0": 68,
+        "field_0_answer_1": 14,
+        "field_1_answer_0": 44,
+        "question_pairs": 100,
+        "question_pairs_with_both_role_outputs": 99,
+        "role_fields_change_with_question": 24,
+        "both_answers_correct": 13
+      }
+    },
+    {
+      "source": "research/candidate_free_role_binding_2026-10-14/EVAL_fresh3_typed.json",
+      "sha256": "079eeadea67810207ea4bd1355ddb775df37ec2fca7c6c10e307a894bfcdb6b2",
+      "counts": {
+        "field_1_answer_1": 89,
+        "both_fields_correct": 69,
+        "answer_correct": 93,
+        "parsed": 191,
+        "rows": 200,
+        "field_0_answer_0": 91,
+        "field_1_answer_0": 16,
+        "field_0_answer_1": 4,
+        "question_pairs": 100,
+        "question_pairs_with_both_role_outputs": 92,
+        "role_fields_change_with_question": 48,
+        "both_answers_correct": 21
+      }
+    },
+    {
+      "source": "research/typed_goal_token_control_2026-10-13/EVAL_fresh1_null_two_token_fresh3.json",
+      "sha256": "7d79ad2eba44b165156f4e453ac3ce2f09503e9e08800fd688ab98ae32ab9c10",
+      "counts": {
+        "field_1_answer_0": 32,
+        "both_fields_correct": 69,
+        "answer_correct": 43,
+        "parsed": 80,
+        "rows": 80,
+        "field_1_answer_1": 38,
+        "field_0_answer_0": 5,
+        "field_0_answer_1": 5,
+        "question_pairs": 40,
+        "question_pairs_with_both_role_outputs": 40,
+        "role_fields_change_with_question": 3,
+        "both_answers_correct": 3
+      }
+    },
+    {
+      "source": "research/typed_goal_token_control_2026-10-13/EVAL_fresh1_typed_goal_fresh3.json",
+      "sha256": "cdab32079590dbf8bb37f6cadb7dc7a5ec6b39bf924eb201d00f676fecf862c6",
+      "counts": {
+        "field_1_answer_1": 73,
+        "both_fields_correct": 73,
+        "answer_correct": 73,
+        "parsed": 80,
+        "rows": 80,
+        "field_0_answer_0": 6,
+        "field_1_answer_0": 1,
+        "question_pairs": 40,
+        "question_pairs_with_both_role_outputs": 40,
+        "role_fields_change_with_question": 5,
+        "both_answers_correct": 34
+      }
+    },
+    {
+      "source": "research/typed_goal_token_control_2026-10-13/EVAL_fresh3_null_two_token_fresh3.json",
+      "sha256": "b41ff08277068cd2ed594437c5245f248743ba138e98afb1eca8a7eeb7cf85a3",
+      "counts": {
+        "field_1_answer_0": 29,
+        "both_fields_correct": 66,
+        "answer_correct": 44,
+        "parsed": 80,
+        "rows": 80,
+        "field_1_answer_1": 39,
+        "field_0_answer_0": 7,
+        "field_0_answer_1": 5,
+        "question_pairs": 40,
+        "question_pairs_with_both_role_outputs": 40,
+        "role_fields_change_with_question": 2,
+        "both_answers_correct": 5
+      }
+    },
+    {
+      "source": "research/typed_goal_token_control_2026-10-13/EVAL_fresh3_typed_goal_fresh3.json",
+      "sha256": "c01bf5ee93285d51918c525cef463259196b7b9acef0fa91be3d143ad348b159",
+      "counts": {
+        "field_1_answer_1": 67,
+        "both_fields_correct": 65,
+        "answer_correct": 70,
+        "parsed": 80,
+        "rows": 80,
+        "field_0_answer_0": 10,
+        "field_0_answer_1": 3,
+        "question_pairs": 40,
+        "question_pairs_with_both_role_outputs": 40,
+        "role_fields_change_with_question": 3,
+        "both_answers_correct": 32
+      }
+    },
+    {
+      "source": "research/natural_role_verifier_development_2026-10-13/EVAL_fresh1_role_first_development_normal.json",
+      "sha256": "12d44a4979ee4bdfee1dc50a06e4d8633b10782c34fd02223f4ff12d9f15ef68",
+      "counts": {
+        "field_0_answer_1": 20,
+        "both_fields_correct": 116,
+        "answer_correct": 87,
+        "parsed": 160,
+        "rows": 160,
+        "field_0_answer_0": 21,
+        "field_1_answer_0": 52,
+        "field_1_answer_1": 67,
+        "question_pairs": 80,
+        "question_pairs_with_both_role_outputs": 80,
+        "role_fields_change_with_question": 2,
+        "both_answers_correct": 9
+      }
+    },
+    {
+      "source": "research/natural_role_verifier_development_2026-10-13/EVAL_fresh3_role_first_development_normal.json",
+      "sha256": "4c06e8afcbc45363c0c34a0660bf52f2e8ac334d74f5d24b6c1aad799477545c",
+      "counts": {
+        "field_0_answer_1": 22,
+        "both_fields_correct": 119,
+        "answer_correct": 85,
+        "parsed": 160,
+        "rows": 160,
+        "field_1_answer_1": 63,
+        "field_1_answer_0": 58,
+        "field_0_answer_0": 17,
+        "question_pairs": 80,
+        "question_pairs_with_both_role_outputs": 80,
+        "role_fields_change_with_question": 2,
+        "both_answers_correct": 9
+      }
+    },
+    {
+      "source": "research/natural_role_verifier_development_2026-10-13/EVAL_fresh1_verifier_noisy_development_swapped.json",
+      "sha256": "c0cbce549b08a44d5cd9650e7f3d632392a81f9672919f4a6133702495edff3d",
+      "counts": {
+        "field_0_answer_1": 17,
+        "both_fields_correct": 114,
+        "answer_correct": 75,
+        "parsed": 160,
+        "rows": 160,
+        "field_0_answer_0": 26,
+        "field_1_answer_1": 58,
+        "field_1_answer_0": 59,
+        "question_pairs": 80,
+        "question_pairs_with_both_role_outputs": 80,
+        "role_fields_change_with_question": 3,
+        "both_answers_correct": 3
+      }
+    },
+    {
+      "source": "research/natural_role_verifier_development_2026-10-13/EVAL_fresh3_verifier_noisy_development_swapped.json",
+      "sha256": "96656967ef804dcf58b517677536bb6852cb0d3a4b968e5bf6caf482a7e07c64",
+      "counts": {
+        "field_1_answer_0": 60,
+        "both_fields_correct": 119,
+        "answer_correct": 76,
+        "parsed": 160,
+        "rows": 160,
+        "field_0_answer_0": 24,
+        "field_1_answer_1": 62,
+        "field_0_answer_1": 14,
+        "question_pairs": 80,
+        "question_pairs_with_both_role_outputs": 80,
+        "role_fields_change_with_question": 6,
+        "both_answers_correct": 2
+      }
+    }
+  ]
+}

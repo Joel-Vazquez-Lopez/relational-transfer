@@ -1,0 +1,39 @@
+{
+  "diagnostic": "D28",
+  "status": "discovery_only",
+  "selection": "after D27 before F/G results",
+  "model": "G_frequency_upsampled_A",
+  "seed": 1701,
+  "initialization_seed_matches_A1701_and_F1701": true,
+  "schedule_focal_exposures_match_F_within_one_percent": true,
+  "canonical_models_retrained": false,
+  "protected_seeds_accessed": false,
+  "input_hashes_sha256": {
+    "/Users/joelvazquezlopez/Documents/ChatGPT/project null/phase3/post_p3_2_sol_discovery/exploratory_g_frequency_train.py": "48afb378f13a09685ee921ad178d80d9f2993e9584f03f7b6aa5460abfb5b39f",
+    "/Users/joelvazquezlopez/Documents/ChatGPT/project null/phase3/post_p3_2_sol_discovery/d27_frequency_design.json": "35aadcb5524f7013815235c9a478b4a0c08aa17a26dbfa28ebf76660f04ddf08",
+    "/Users/joelvazquezlopez/Documents/Codex/2026-09-08/files-pasted-by-the-user-you/src/d5_topology.py": "4173ccbeba759f76448590e75cbf9f0008a3d1821ad6feec648cdf8eaba2059a",
+    "/Users/joelvazquezlopez/Documents/Codex/2026-09-08/files-pasted-by-the-user-you/src/pilot.py": "f829c2700ff94d179e6d5a92a1a39f59c92b2a9ac4a6e42db1de315df717d78f",
+    "/Users/joelvazquezlopez/Documents/Codex/2026-09-08/files-pasted-by-the-user-you/configs/pilot.json": "924106bf3c45dd6292e0537723df2af65819da8c97e4e9a5cf8ff772e34f69e4",
+    "/Users/joelvazquezlopez/Documents/Codex/2026-09-08/files-pasted-by-the-user-you/configs/d5_preregistered.json": "e54ccaa041db36b1f3dd27e4dcf79663fc115271cc8f0eeeea5a7559cdfb72e5",
+    "/Users/joelvazquezlopez/Documents/ChatGPT/project null/phase3/post_p3_2_sol_discovery/exploratory_G_frequency_upsampled_A/schedule_seed_1701.npz": "9bf45783d1ea72de313ecbdc3bca10e21914f9d552e2f42bc89ede4d565758bd"
+  },
+  "output_hashes_sha256": {
+    "exploratory_G_frequency_upsampled_A/seed_1701/candidate_blocks.csv": "0f2f0578087b4b8f19e027aebecbf8f99cad6f4a627cae4eb851d273a83ae315",
+    "exploratory_G_frequency_upsampled_A/seed_1701/checkpoint_step_00000.pt": "f82dcaad45131f71432ed3d59112b5d769544e20e1d20903e4f729b5e8f2f341",
+    "exploratory_G_frequency_upsampled_A/seed_1701/checkpoint_step_00100.pt": "ae38a98ca4e9e82b35dfb0bad55020d74fd7fc02423364609af55883ef14b67e",
+    "exploratory_G_frequency_upsampled_A/seed_1701/checkpoint_step_00500.pt": "476aa256aded43b1bf0fd02f2ccd8ca29becff213f955694b4b2acbf2710385c",
+    "exploratory_G_frequency_upsampled_A/seed_1701/checkpoint_step_01000.pt": "3ba04b8f5511a4541e14ec3bb22f3fa45316741b755841615346e93be04ebc63",
+    "exploratory_G_frequency_upsampled_A/seed_1701/checkpoint_step_02000.pt": "27dd4230e3c0cecbf503fec4998a3875043507c568a88c64fd453d915770c3c1",
+    "exploratory_G_frequency_upsampled_A/seed_1701/checkpoint_step_04000.pt": "1a6b1205e579551da6f7e9b33bc063f55b410374b28322253e7c27ecf4307dee",
+    "exploratory_G_frequency_upsampled_A/seed_1701/checkpoint_step_08000.pt": "5f5c0beeb892cdaca9e76b4b0c6ab23972e2a45cbecca13bd8ec7f73a1fdecad",
+    "exploratory_G_frequency_upsampled_A/seed_1701/edge_event_family_cells.csv": "90d630855e0b60ae897dedc3fb2561f66300af3648fa56ee5daec375263125ef",
+    "exploratory_G_frequency_upsampled_A/seed_1701/metrics.json": "c54d89058fda7659c24ec2c9378abab34a9a6fbb5d68b7965ac96c72cd89c71c",
+    "exploratory_G_frequency_upsampled_A/seed_1701/query_displacement_consistency.csv": "b50ba8afe9c8df503a4b38da43dc4774fbc35c03b231e1fec48afd6710eeb02d",
+    "exploratory_G_frequency_upsampled_A/seed_1701/query_displacements.csv": "010d0f84597af4ae5d36f039924ecccc15707ae10b4fff9b54dff9ce3f2e0c29",
+    "exploratory_G_frequency_upsampled_A/seed_1701/query_vectors.npz": "1e1e9a2a0ef1b133bf3f709f913b0cd371f122d149eda1e08f3464f89fba50b0",
+    "exploratory_G_frequency_upsampled_A/seed_1701/raw_predictions.csv": "9031ed309e2658e8350b91049011fe641a30acecf76881978f568829c2cca088",
+    "exploratory_G_frequency_upsampled_A/seed_1701/redirection_focal_A.csv": "1504670d296e4b65f5c3f199e38a13202747e8d862ac906b8ece6342adbcab2d",
+    "exploratory_G_frequency_upsampled_A/seed_1701/redirection_focal_B.csv": "964643bb1d21f731485581e89dfdebbf9808541dad219b7868fd2b9eb290120f",
+    "exploratory_G_frequency_upsampled_A/seed_1701/training_trace.csv": "b50b66b07ba97f200b71c0ad766ce7621c61ea4f9014d2de805dca29acf02fb2"
+  }
+}

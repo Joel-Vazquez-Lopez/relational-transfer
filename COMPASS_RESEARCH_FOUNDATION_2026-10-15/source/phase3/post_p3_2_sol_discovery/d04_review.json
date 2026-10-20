@@ -1,0 +1,132 @@
+{
+  "status": "discovery_only",
+  "selected_after": "D04",
+  "cells": {
+    "cross_clique|source": {
+      "models": 6,
+      "pairs_per_model": 9,
+      "symbol_delta": 1.15904646008103,
+      "normed_token_delta": 9.252804208684852,
+      "value_delta": 10.56192140226011,
+      "key_delta": 5.782428785606666,
+      "layernorm_gain": 8.001125555234582,
+      "value_projection_gain": 1.1363419679638478,
+      "key_projection_gain": 0.6270126139142292,
+      "full_value_gain": 9.136988645399375,
+      "full_key_gain": 5.033779151615049,
+      "full_value_gain_by_model": [
+        12.246782992211848,
+        8.661721046651298,
+        8.430932537954597,
+        8.898748332115876,
+        8.610224913819614,
+        7.973522049643025
+      ]
+    },
+    "cross_clique|target": {
+      "models": 6,
+      "pairs_per_model": 9,
+      "symbol_delta": 1.159046455665871,
+      "normed_token_delta": 9.574940398887351,
+      "value_delta": 10.925607628292509,
+      "key_delta": 6.029225905736287,
+      "layernorm_gain": 8.277608933816134,
+      "value_projection_gain": 1.1379546190294954,
+      "key_projection_gain": 0.6302891038060962,
+      "full_value_gain": 9.448773286871855,
+      "full_key_gain": 5.247322285469647,
+      "full_value_gain_by_model": [
+        12.174032665744118,
+        8.716620305925241,
+        8.908840226496853,
+        9.37797238638121,
+        8.878092801712757,
+        8.63708133497095
+      ]
+    },
+    "hole_clique|source": {
+      "models": 6,
+      "pairs_per_model": 3,
+      "symbol_delta": 0.7689432667361366,
+      "normed_token_delta": 5.89880977736579,
+      "value_delta": 2.599958108531104,
+      "key_delta": 2.897231645054287,
+      "layernorm_gain": 7.695289361069722,
+      "value_projection_gain": 0.44161901200978826,
+      "key_projection_gain": 0.4908394277464085,
+      "full_value_gain": 3.393109906965986,
+      "full_key_gain": 3.77873979536956,
+      "full_value_gain_by_model": [
+        3.7424630851939003,
+        3.40718633646255,
+        3.3627300741682746,
+        3.277508098424692,
+        3.2477060263028648,
+        3.321065821243634
+      ]
+    },
+    "hole_clique|target": {
+      "models": 6,
+      "pairs_per_model": 3,
+      "symbol_delta": 0.7689432667361366,
+      "normed_token_delta": 6.028488715489705,
+      "value_delta": 2.692771779166328,
+      "key_delta": 2.9866868389977346,
+      "layernorm_gain": 7.865104937828118,
+      "value_projection_gain": 0.44783832093861387,
+      "key_projection_gain": 0.49538918825675365,
+      "full_value_gain": 3.517495013837992,
+      "full_key_gain": 3.8942172539666697,
+      "full_value_gain_by_model": [
+        3.8860846443212806,
+        3.5300243906508606,
+        3.4318326886203816,
+        3.4599555716343535,
+        3.3107696837708196,
+        3.4863031040302555
+      ]
+    },
+    "opposite_clique|source": {
+      "models": 6,
+      "pairs_per_model": 3,
+      "symbol_delta": 1.1024853189786274,
+      "normed_token_delta": 8.920708550347221,
+      "value_delta": 10.204054938422308,
+      "key_delta": 5.208480146196154,
+      "layernorm_gain": 8.10900849385275,
+      "value_projection_gain": 1.1378045907540049,
+      "key_projection_gain": 0.5847745523165427,
+      "full_value_gain": 9.299652684261234,
+      "full_key_gain": 4.74289384911352,
+      "full_value_gain_by_model": [
+        13.237072082429092,
+        8.711558513303222,
+        8.159992212794622,
+        9.270562089576218,
+        8.369934164811887,
+        8.04879704265237
+      ]
+    },
+    "opposite_clique|target": {
+      "models": 6,
+      "pairs_per_model": 3,
+      "symbol_delta": 1.1024853189786274,
+      "normed_token_delta": 9.387943691677517,
+      "value_delta": 10.697258048587374,
+      "key_delta": 5.560494621594747,
+      "layernorm_gain": 8.532398991740152,
+      "value_projection_gain": 1.1379219840712995,
+      "key_projection_gain": 0.5920155291092993,
+      "full_value_gain": 9.746055284645065,
+      "full_key_gain": 5.061060683511227,
+      "full_value_gain_by_model": [
+        13.053612354899245,
+        8.631458623925388,
+        8.93852987576686,
+        9.863207247163894,
+        8.803920872182099,
+        9.1856027339329
+      ]
+    }
+  }
+}

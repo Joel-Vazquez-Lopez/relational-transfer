@@ -1,0 +1,31 @@
+{
+  "diagnostic": "D10",
+  "status": "discovery_only",
+  "selected_after": "D06_before_E_result",
+  "input_hashes_sha256": {
+    "configs/pilot.json": "924106bf3c45dd6292e0537723df2af65819da8c97e4e9a5cf8ff772e34f69e4",
+    "src/pilot.py": "f829c2700ff94d179e6d5a92a1a39f59c92b2a9ac4a6e42db1de315df717d78f",
+    "d05_pair_model.csv": "bdace4242d52fbd3a646eb51da94493ad93e32fb30e988ec09e7157e8b67e348",
+    "results/d5_topology/runs/A_original_clique_hole/seed_1701/checkpoint.pt": "76cdd75799ee44ead9163d0e675784720b9dee9aaacba1cecc2e1ed1eb4d7dde",
+    "results/d5_topology/runs/B_relocated_clique_hole/seed_1701/checkpoint.pt": "76528ff791b808219153752b4af5025341915782baeef8f0991e461ecc85892b",
+    "results/d5_topology/runs/C_degree_balanced_matching_holes/seed_1701/checkpoint.pt": "acb35f36cd593846334e1211fa4769d91760da2ca1a0d7b7c62bd5c36a2bb614",
+    "results/d5_topology/runs/D_path_connectivity_swap/seed_1701/checkpoint.pt": "248a9850b06223a61393e88d02522630c744d814ed1a5ccda8bbfac165e09144",
+    "results/d5_topology/runs/A_original_clique_hole/seed_1702/checkpoint.pt": "2c383932471aa4e036ddcc156e03c27cc9383bcdc40ffa5a709660d75c47b5ab",
+    "results/d5_topology/runs/B_relocated_clique_hole/seed_1702/checkpoint.pt": "fa334d26813357b5cd57e51d9af338e28a233fa7d83c1c34e86b57f0ed0ef6c8",
+    "results/d5_topology/runs/C_degree_balanced_matching_holes/seed_1702/checkpoint.pt": "d206146a2438f465a95a26cfe9b3b303234d385a442af47f843297768ecd83b1",
+    "results/d5_topology/runs/D_path_connectivity_swap/seed_1702/checkpoint.pt": "d73e78b592fc396978492da7dcf8fba6c205fb66f1bf877d694189c1481cf8e2",
+    "results/d5_topology/runs/A_original_clique_hole/seed_1703/checkpoint.pt": "c679a9aabd4717f58fd79ddbce9482f1531016243867266cd8d074c73a0d091c",
+    "results/d5_topology/runs/B_relocated_clique_hole/seed_1703/checkpoint.pt": "55583175d540db4283c54ac96cea35a68daad97b4875e1062a4c17233a2bba7a",
+    "results/d5_topology/runs/C_degree_balanced_matching_holes/seed_1703/checkpoint.pt": "f7fb70678bc6b28deaac8619d40c689e1afc345c3d3a12d80e1cdad601a4ee31",
+    "results/d5_topology/runs/D_path_connectivity_swap/seed_1703/checkpoint.pt": "50f1815a900fa308c7ab5274f91baf3272bf691da84586973d1c740c31fd06eb"
+  },
+  "script_sha256": "54274afad79811fa8eed5033e57859b639b11e2a69b858bfd2c4da95e7e35eb8",
+  "output_hashes_sha256": {
+    "d10_initial_vs_final.csv": "2eb7f934af00d60f1b2838a189c9db6f6f2d5a802f7dd67c725f6ecaa69b10fd",
+    "d10_category_model.csv": "f88a1dca47f312083be52eec3299ddc71af08bcb843156afc4a5f6c53de7324f"
+  },
+  "exact_initialization_speaker_emit_max_abs_diff": 0,
+  "row_count": 180,
+  "summary_count": 27,
+  "protected_seeds_accessed": false
+}

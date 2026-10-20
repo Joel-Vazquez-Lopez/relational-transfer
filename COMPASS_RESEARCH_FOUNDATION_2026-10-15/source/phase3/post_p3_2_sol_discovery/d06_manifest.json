@@ -1,0 +1,16 @@
+{
+  "diagnostic": "D06",
+  "status": "discovery_only",
+  "selected_after": "D05",
+  "input_hashes_sha256": {
+    "configs/d5_graphs.json": "f34d6c86a218f21ac510d835675e8cd05fee5437b619df1cb60c76bc8e28e931",
+    "d05_pair_model.csv": "bdace4242d52fbd3a646eb51da94493ad93e32fb30e988ec09e7157e8b67e348"
+  },
+  "script_sha256": "f882aec48dc61ff4817be2f7cd5a093a5724e23003b84fe0b871782baef0f519",
+  "output_hashes_sha256": {
+    "d06_graph_features.csv": "63421f91905e22f6b9f5736330e293ac603ef42f8290df5a995395dfb6339563",
+    "d06_paired_contrasts.csv": "d622e98c8d31051594dc0b39b2a53619f0aebae792eaede3a0d2d130640b257b"
+  },
+  "all_withheld_pairs_degree_gap_confounded_with_neighborhood_separation": true,
+  "protected_seeds_accessed": false
+}

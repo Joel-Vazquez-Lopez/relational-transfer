@@ -1,0 +1,70 @@
+{
+  "protocol_sha256": "6fd13fd116fe553a73d0faac8eca4a6fef2b006ae13f1a078497cd0d8a8c9ddd",
+  "raw_sha256": "2f3601e818f4eef6d04151cad7e2e08f0b2a15eed274aff3ba1ac2c6d8da79f0",
+  "n_documents": 3,
+  "n_role_cells": 6,
+  "strict_document_successes": 0,
+  "patched_second_exact": 4,
+  "by_document": [
+    {
+      "title": "1995 Rugby World Cup Final",
+      "roles": {
+        "Agent": {
+          "unpatched_first": true,
+          "direct_second": true,
+          "patched_second": true,
+          "event_control_first": true,
+          "identity_control_first": true
+        },
+        "Patient": {
+          "unpatched_first": false,
+          "direct_second": false,
+          "patched_second": false,
+          "event_control_first": false,
+          "identity_control_first": false
+        }
+      },
+      "strict_success": false
+    },
+    {
+      "title": "2012 Football League Cup Final",
+      "roles": {
+        "Agent": {
+          "unpatched_first": true,
+          "direct_second": true,
+          "patched_second": true,
+          "event_control_first": true,
+          "identity_control_first": true
+        },
+        "Patient": {
+          "unpatched_first": false,
+          "direct_second": false,
+          "patched_second": true,
+          "event_control_first": false,
+          "identity_control_first": false
+        }
+      },
+      "strict_success": false
+    },
+    {
+      "title": "Ajax 5–1 Liverpool (1966)",
+      "roles": {
+        "Agent": {
+          "unpatched_first": true,
+          "direct_second": true,
+          "patched_second": true,
+          "event_control_first": true,
+          "identity_control_first": true
+        },
+        "Patient": {
+          "unpatched_first": false,
+          "direct_second": false,
+          "patched_second": false,
+          "event_control_first": false,
+          "identity_control_first": false
+        }
+      },
+      "strict_success": false
+    }
+  ]
+}

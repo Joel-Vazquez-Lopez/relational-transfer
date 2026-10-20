@@ -1,0 +1,3080 @@
+{
+  "status": "exploratory_output_order_development",
+  "protocol_sha256": "95db44902dcbe169a2b6c29846ae2aeb2d849e208f23c6a19413c9085fc99d6b",
+  "source_sha256": "75f64aa86200fd4be19cec6239fe50759415001c14853004bc78e1d4405585f3",
+  "units": {
+    "fresh1_0_pretrained": {
+      "n": 96,
+      "ap": {
+        "valid": 96,
+        "exact_format": 77,
+        "requested_order_compliant": 96,
+        "actor_correct": 58,
+        "patient_correct": 58,
+        "both_correct": 58,
+        "mapping": {
+          "F": 26,
+          "L": 70
+        },
+        "first_emitted_position": {
+          "first_mentioned": 26,
+          "last_mentioned": 70
+        },
+        "generated_tokens": 787
+      },
+      "pa": {
+        "valid": 18,
+        "exact_format": 18,
+        "requested_order_compliant": 18,
+        "actor_correct": 8,
+        "patient_correct": 8,
+        "both_correct": 8,
+        "mapping": {
+          "invalid": 78,
+          "F": 16,
+          "L": 2
+        },
+        "first_emitted_position": {
+          "last_mentioned": 16,
+          "first_mentioned": 2
+        },
+        "generated_tokens": 456
+      },
+      "qa_actor": {
+        "valid": 77,
+        "exact_format": 74,
+        "requested_order_compliant": null,
+        "actor_correct": 48,
+        "patient_correct": 0,
+        "both_correct": null,
+        "mapping": {},
+        "first_emitted_position": {},
+        "generated_tokens": 252
+      },
+      "qa_patient": {
+        "valid": 69,
+        "exact_format": 68,
+        "requested_order_compliant": null,
+        "actor_correct": 0,
+        "patient_correct": 40,
+        "both_correct": null,
+        "mapping": {},
+        "first_emitted_position": {},
+        "generated_tokens": 300
+      },
+      "pa_vs_ap_actor": {
+        "newly_correct": 6,
+        "newly_incorrect": 56
+      },
+      "pa_vs_ap_patient": {
+        "newly_correct": 6,
+        "newly_incorrect": 56
+      },
+      "pa_vs_ap_both": {
+        "newly_correct": 6,
+        "newly_incorrect": 56
+      },
+      "order_transition": {
+        "F->invalid": 18,
+        "L->invalid": 60,
+        "L->F": 10,
+        "F->F": 6,
+        "F->L": 2
+      },
+      "same_emitted_name_sequence": 12,
+      "invariant_label_assignment": 6
+    },
+    "fresh1_830211_ordinary": {
+      "n": 96,
+      "ap": {
+        "valid": 96,
+        "exact_format": 82,
+        "requested_order_compliant": 96,
+        "actor_correct": 67,
+        "patient_correct": 67,
+        "both_correct": 67,
+        "mapping": {
+          "F": 27,
+          "L": 69
+        },
+        "first_emitted_position": {
+          "first_mentioned": 27,
+          "last_mentioned": 69
+        },
+        "generated_tokens": 782
+      },
+      "pa": {
+        "valid": 58,
+        "exact_format": 22,
+        "requested_order_compliant": 22,
+        "actor_correct": 34,
+        "patient_correct": 34,
+        "both_correct": 34,
+        "mapping": {
+          "invalid": 38,
+          "L": 34,
+          "F": 24
+        },
+        "first_emitted_position": {
+          "last_mentioned": 48,
+          "first_mentioned": 10
+        },
+        "generated_tokens": 616
+      },
+      "qa_actor": {
+        "valid": 96,
+        "exact_format": 96,
+        "requested_order_compliant": null,
+        "actor_correct": 76,
+        "patient_correct": 0,
+        "both_correct": null,
+        "mapping": {},
+        "first_emitted_position": {},
+        "generated_tokens": 192
+      },
+      "qa_patient": {
+        "valid": 96,
+        "exact_format": 96,
+        "requested_order_compliant": null,
+        "actor_correct": 0,
+        "patient_correct": 33,
+        "both_correct": null,
+        "mapping": {},
+        "first_emitted_position": {},
+        "generated_tokens": 192
+      },
+      "pa_vs_ap_actor": {
+        "newly_correct": 7,
+        "newly_incorrect": 40
+      },
+      "pa_vs_ap_patient": {
+        "newly_correct": 7,
+        "newly_incorrect": 40
+      },
+      "pa_vs_ap_both": {
+        "newly_correct": 7,
+        "newly_incorrect": 40
+      },
+      "order_transition": {
+        "F->invalid": 6,
+        "L->L": 27,
+        "L->invalid": 32,
+        "F->F": 14,
+        "F->L": 7,
+        "L->F": 10
+      },
+      "same_emitted_name_sequence": 43,
+      "invariant_label_assignment": 41
+    },
+    "fresh2_0_pretrained": {
+      "n": 96,
+      "ap": {
+        "valid": 94,
+        "exact_format": 81,
+        "requested_order_compliant": 94,
+        "actor_correct": 63,
+        "patient_correct": 63,
+        "both_correct": 63,
+        "mapping": {
+          "L": 77,
+          "F": 17,
+          "invalid": 2
+        },
+        "first_emitted_position": {
+          "last_mentioned": 77,
+          "first_mentioned": 17
+        },
+        "generated_tokens": 773
+      },
+      "pa": {
+        "valid": 9,
+        "exact_format": 9,
+        "requested_order_compliant": 9,
+        "actor_correct": 4,
+        "patient_correct": 4,
+        "both_correct": 4,
+        "mapping": {
+          "invalid": 87,
+          "L": 2,
+          "F": 7
+        },
+        "first_emitted_position": {
+          "first_mentioned": 2,
+          "last_mentioned": 7
+        },
+        "generated_tokens": 420
+      },
+      "qa_actor": {
+        "valid": 85,
+        "exact_format": 82,
+        "requested_order_compliant": null,
+        "actor_correct": 53,
+        "patient_correct": 0,
+        "both_correct": null,
+        "mapping": {},
+        "first_emitted_position": {},
+        "generated_tokens": 228
+      },
+      "qa_patient": {
+        "valid": 77,
+        "exact_format": 75,
+        "requested_order_compliant": null,
+        "actor_correct": 0,
+        "patient_correct": 41,
+        "both_correct": null,
+        "mapping": {},
+        "first_emitted_position": {},
+        "generated_tokens": 257
+      },
+      "pa_vs_ap_actor": {
+        "newly_correct": 3,
+        "newly_incorrect": 62
+      },
+      "pa_vs_ap_patient": {
+        "newly_correct": 3,
+        "newly_incorrect": 62
+      },
+      "pa_vs_ap_both": {
+        "newly_correct": 3,
+        "newly_incorrect": 62
+      },
+      "order_transition": {
+        "L->invalid": 72,
+        "F->invalid": 13,
+        "invalid->invalid": 2,
+        "F->L": 2,
+        "F->F": 2,
+        "L->F": 5
+      },
+      "same_emitted_name_sequence": 7,
+      "invariant_label_assignment": 2
+    },
+    "fresh2_830211_ordinary": {
+      "n": 96,
+      "ap": {
+        "valid": 96,
+        "exact_format": 84,
+        "requested_order_compliant": 96,
+        "actor_correct": 72,
+        "patient_correct": 72,
+        "both_correct": 72,
+        "mapping": {
+          "L": 70,
+          "F": 26
+        },
+        "first_emitted_position": {
+          "last_mentioned": 70,
+          "first_mentioned": 26
+        },
+        "generated_tokens": 780
+      },
+      "pa": {
+        "valid": 10,
+        "exact_format": 10,
+        "requested_order_compliant": 10,
+        "actor_correct": 5,
+        "patient_correct": 5,
+        "both_correct": 5,
+        "mapping": {
+          "invalid": 86,
+          "L": 1,
+          "F": 9
+        },
+        "first_emitted_position": {
+          "first_mentioned": 1,
+          "last_mentioned": 9
+        },
+        "generated_tokens": 420
+      },
+      "qa_actor": {
+        "valid": 95,
+        "exact_format": 95,
+        "requested_order_compliant": null,
+        "actor_correct": 87,
+        "patient_correct": 0,
+        "both_correct": null,
+        "mapping": {},
+        "first_emitted_position": {},
+        "generated_tokens": 195
+      },
+      "qa_patient": {
+        "valid": 92,
+        "exact_format": 92,
+        "requested_order_compliant": null,
+        "actor_correct": 0,
+        "patient_correct": 36,
+        "both_correct": null,
+        "mapping": {},
+        "first_emitted_position": {},
+        "generated_tokens": 204
+      },
+      "pa_vs_ap_actor": {
+        "newly_correct": 2,
+        "newly_incorrect": 69
+      },
+      "pa_vs_ap_patient": {
+        "newly_correct": 2,
+        "newly_incorrect": 69
+      },
+      "pa_vs_ap_both": {
+        "newly_correct": 2,
+        "newly_incorrect": 69
+      },
+      "order_transition": {
+        "L->invalid": 65,
+        "F->invalid": 21,
+        "F->L": 1,
+        "F->F": 4,
+        "L->F": 5
+      },
+      "same_emitted_name_sequence": 6,
+      "invariant_label_assignment": 4
+    },
+    "fresh3_0_pretrained": {
+      "n": 96,
+      "ap": {
+        "valid": 91,
+        "exact_format": 84,
+        "requested_order_compliant": 91,
+        "actor_correct": 56,
+        "patient_correct": 56,
+        "both_correct": 56,
+        "mapping": {
+          "L": 80,
+          "F": 11,
+          "invalid": 5
+        },
+        "first_emitted_position": {
+          "last_mentioned": 80,
+          "first_mentioned": 11
+        },
+        "generated_tokens": 755
+      },
+      "pa": {
+        "valid": 26,
+        "exact_format": 24,
+        "requested_order_compliant": 24,
+        "actor_correct": 7,
+        "patient_correct": 7,
+        "both_correct": 7,
+        "mapping": {
+          "F": 22,
+          "invalid": 70,
+          "L": 4
+        },
+        "first_emitted_position": {
+          "last_mentioned": 24,
+          "first_mentioned": 2
+        },
+        "generated_tokens": 488
+      },
+      "qa_actor": {
+        "valid": 84,
+        "exact_format": 79,
+        "requested_order_compliant": null,
+        "actor_correct": 56,
+        "patient_correct": 0,
+        "both_correct": null,
+        "mapping": {},
+        "first_emitted_position": {},
+        "generated_tokens": 233
+      },
+      "qa_patient": {
+        "valid": 70,
+        "exact_format": 69,
+        "requested_order_compliant": null,
+        "actor_correct": 0,
+        "patient_correct": 35,
+        "both_correct": null,
+        "mapping": {},
+        "first_emitted_position": {},
+        "generated_tokens": 275
+      },
+      "pa_vs_ap_actor": {
+        "newly_correct": 5,
+        "newly_incorrect": 54
+      },
+      "pa_vs_ap_patient": {
+        "newly_correct": 5,
+        "newly_incorrect": 54
+      },
+      "pa_vs_ap_both": {
+        "newly_correct": 5,
+        "newly_incorrect": 54
+      },
+      "order_transition": {
+        "L->F": 21,
+        "F->invalid": 10,
+        "L->invalid": 55,
+        "L->L": 4,
+        "F->F": 1,
+        "invalid->invalid": 5
+      },
+      "same_emitted_name_sequence": 23,
+      "invariant_label_assignment": 5
+    },
+    "fresh3_830211_ordinary": {
+      "n": 96,
+      "ap": {
+        "valid": 96,
+        "exact_format": 85,
+        "requested_order_compliant": 96,
+        "actor_correct": 76,
+        "patient_correct": 76,
+        "both_correct": 76,
+        "mapping": {
+          "L": 74,
+          "F": 22
+        },
+        "first_emitted_position": {
+          "last_mentioned": 74,
+          "first_mentioned": 22
+        },
+        "generated_tokens": 779
+      },
+      "pa": {
+        "valid": 40,
+        "exact_format": 25,
+        "requested_order_compliant": 25,
+        "actor_correct": 16,
+        "patient_correct": 16,
+        "both_correct": 16,
+        "mapping": {
+          "L": 15,
+          "invalid": 56,
+          "F": 25
+        },
+        "first_emitted_position": {
+          "last_mentioned": 38,
+          "first_mentioned": 2
+        },
+        "generated_tokens": 544
+      },
+      "qa_actor": {
+        "valid": 96,
+        "exact_format": 96,
+        "requested_order_compliant": null,
+        "actor_correct": 90,
+        "patient_correct": 0,
+        "both_correct": null,
+        "mapping": {},
+        "first_emitted_position": {},
+        "generated_tokens": 192
+      },
+      "qa_patient": {
+        "valid": 95,
+        "exact_format": 95,
+        "requested_order_compliant": null,
+        "actor_correct": 0,
+        "patient_correct": 30,
+        "both_correct": null,
+        "mapping": {},
+        "first_emitted_position": {},
+        "generated_tokens": 195
+      },
+      "pa_vs_ap_actor": {
+        "newly_correct": 5,
+        "newly_incorrect": 65
+      },
+      "pa_vs_ap_patient": {
+        "newly_correct": 5,
+        "newly_incorrect": 65
+      },
+      "pa_vs_ap_both": {
+        "newly_correct": 5,
+        "newly_incorrect": 65
+      },
+      "order_transition": {
+        "L->L": 11,
+        "L->invalid": 43,
+        "F->invalid": 13,
+        "L->F": 20,
+        "F->L": 4,
+        "F->F": 5
+      },
+      "same_emitted_name_sequence": 31,
+      "invariant_label_assignment": 16
+    }
+  },
+  "by_form": {
+    "fresh1_0_pretrained": {
+      "active": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 22,
+          "requested_order_compliant": 32,
+          "actor_correct": 10,
+          "patient_correct": 10,
+          "both_correct": 10,
+          "mapping": {
+            "F": 10,
+            "L": 22
+          },
+          "first_emitted_position": {
+            "first_mentioned": 10,
+            "last_mentioned": 22
+          },
+          "generated_tokens": 266
+        },
+        "pa": {
+          "valid": 6,
+          "exact_format": 6,
+          "requested_order_compliant": 6,
+          "actor_correct": 6,
+          "patient_correct": 6,
+          "both_correct": 6,
+          "mapping": {
+            "invalid": 26,
+            "F": 6
+          },
+          "first_emitted_position": {
+            "last_mentioned": 6
+          },
+          "generated_tokens": 152
+        },
+        "qa_actor": {
+          "valid": 15,
+          "exact_format": 13,
+          "requested_order_compliant": null,
+          "actor_correct": 6,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 117
+        },
+        "qa_patient": {
+          "valid": 20,
+          "exact_format": 19,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 18,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 101
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 4,
+          "newly_incorrect": 8
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 4,
+          "newly_incorrect": 8
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 4,
+          "newly_incorrect": 8
+        },
+        "order_transition": {
+          "F->invalid": 8,
+          "L->invalid": 18,
+          "F->F": 2,
+          "L->F": 4
+        },
+        "same_emitted_name_sequence": 4,
+        "invariant_label_assignment": 2
+      },
+      "passive": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 23,
+          "requested_order_compliant": 32,
+          "actor_correct": 20,
+          "patient_correct": 20,
+          "both_correct": 20,
+          "mapping": {
+            "L": 20,
+            "F": 12
+          },
+          "first_emitted_position": {
+            "last_mentioned": 20,
+            "first_mentioned": 12
+          },
+          "generated_tokens": 265
+        },
+        "pa": {
+          "valid": 8,
+          "exact_format": 8,
+          "requested_order_compliant": 8,
+          "actor_correct": 2,
+          "patient_correct": 2,
+          "both_correct": 2,
+          "mapping": {
+            "invalid": 24,
+            "F": 6,
+            "L": 2
+          },
+          "first_emitted_position": {
+            "last_mentioned": 6,
+            "first_mentioned": 2
+          },
+          "generated_tokens": 160
+        },
+        "qa_actor": {
+          "valid": 30,
+          "exact_format": 29,
+          "requested_order_compliant": null,
+          "actor_correct": 17,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 71
+        },
+        "qa_patient": {
+          "valid": 17,
+          "exact_format": 17,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 16,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 135
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 2,
+          "newly_incorrect": 20
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 2,
+          "newly_incorrect": 20
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 2,
+          "newly_incorrect": 20
+        },
+        "order_transition": {
+          "L->invalid": 16,
+          "F->invalid": 8,
+          "L->F": 4,
+          "F->F": 2,
+          "F->L": 2
+        },
+        "same_emitted_name_sequence": 6,
+        "invariant_label_assignment": 2
+      },
+      "patient_cleft": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": 32,
+          "actor_correct": 28,
+          "patient_correct": 28,
+          "both_correct": 28,
+          "mapping": {
+            "L": 28,
+            "F": 4
+          },
+          "first_emitted_position": {
+            "last_mentioned": 28,
+            "first_mentioned": 4
+          },
+          "generated_tokens": 256
+        },
+        "pa": {
+          "valid": 4,
+          "exact_format": 4,
+          "requested_order_compliant": 4,
+          "actor_correct": 0,
+          "patient_correct": 0,
+          "both_correct": 0,
+          "mapping": {
+            "invalid": 28,
+            "F": 4
+          },
+          "first_emitted_position": {
+            "last_mentioned": 4
+          },
+          "generated_tokens": 144
+        },
+        "qa_actor": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 25,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "qa_patient": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 6,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 0,
+          "newly_incorrect": 28
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 0,
+          "newly_incorrect": 28
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 0,
+          "newly_incorrect": 28
+        },
+        "order_transition": {
+          "L->invalid": 26,
+          "F->F": 2,
+          "L->F": 2,
+          "F->invalid": 2
+        },
+        "same_emitted_name_sequence": 2,
+        "invariant_label_assignment": 2
+      }
+    },
+    "fresh1_830211_ordinary": {
+      "active": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 21,
+          "requested_order_compliant": 32,
+          "actor_correct": 15,
+          "patient_correct": 15,
+          "both_correct": 15,
+          "mapping": {
+            "F": 15,
+            "L": 17
+          },
+          "first_emitted_position": {
+            "first_mentioned": 15,
+            "last_mentioned": 17
+          },
+          "generated_tokens": 267
+        },
+        "pa": {
+          "valid": 24,
+          "exact_format": 6,
+          "requested_order_compliant": 6,
+          "actor_correct": 12,
+          "patient_correct": 12,
+          "both_correct": 12,
+          "mapping": {
+            "invalid": 8,
+            "F": 12,
+            "L": 12
+          },
+          "first_emitted_position": {
+            "first_mentioned": 6,
+            "last_mentioned": 18
+          },
+          "generated_tokens": 224
+        },
+        "qa_actor": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 32,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "qa_patient": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 1,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 4,
+          "newly_incorrect": 7
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 4,
+          "newly_incorrect": 7
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 4,
+          "newly_incorrect": 7
+        },
+        "order_transition": {
+          "F->invalid": 3,
+          "F->F": 8,
+          "L->invalid": 5,
+          "L->L": 8,
+          "F->L": 4,
+          "L->F": 4
+        },
+        "same_emitted_name_sequence": 18,
+        "invariant_label_assignment": 16
+      },
+      "passive": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 29,
+          "requested_order_compliant": 32,
+          "actor_correct": 26,
+          "patient_correct": 26,
+          "both_correct": 26,
+          "mapping": {
+            "L": 26,
+            "F": 6
+          },
+          "first_emitted_position": {
+            "last_mentioned": 26,
+            "first_mentioned": 6
+          },
+          "generated_tokens": 259
+        },
+        "pa": {
+          "valid": 23,
+          "exact_format": 10,
+          "requested_order_compliant": 10,
+          "actor_correct": 17,
+          "patient_correct": 17,
+          "both_correct": 17,
+          "mapping": {
+            "L": 17,
+            "invalid": 9,
+            "F": 6
+          },
+          "first_emitted_position": {
+            "last_mentioned": 19,
+            "first_mentioned": 4
+          },
+          "generated_tokens": 220
+        },
+        "qa_actor": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 28,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "qa_patient": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 19,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 3,
+          "newly_incorrect": 12
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 3,
+          "newly_incorrect": 12
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 3,
+          "newly_incorrect": 12
+        },
+        "order_transition": {
+          "L->L": 14,
+          "L->invalid": 8,
+          "F->invalid": 1,
+          "F->L": 3,
+          "L->F": 4,
+          "F->F": 2
+        },
+        "same_emitted_name_sequence": 18,
+        "invariant_label_assignment": 16
+      },
+      "patient_cleft": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": 32,
+          "actor_correct": 26,
+          "patient_correct": 26,
+          "both_correct": 26,
+          "mapping": {
+            "L": 26,
+            "F": 6
+          },
+          "first_emitted_position": {
+            "last_mentioned": 26,
+            "first_mentioned": 6
+          },
+          "generated_tokens": 256
+        },
+        "pa": {
+          "valid": 11,
+          "exact_format": 6,
+          "requested_order_compliant": 6,
+          "actor_correct": 5,
+          "patient_correct": 5,
+          "both_correct": 5,
+          "mapping": {
+            "invalid": 21,
+            "L": 5,
+            "F": 6
+          },
+          "first_emitted_position": {
+            "last_mentioned": 11
+          },
+          "generated_tokens": 172
+        },
+        "qa_actor": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 16,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "qa_patient": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 13,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 0,
+          "newly_incorrect": 21
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 0,
+          "newly_incorrect": 21
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 0,
+          "newly_incorrect": 21
+        },
+        "order_transition": {
+          "L->invalid": 19,
+          "L->L": 5,
+          "L->F": 2,
+          "F->F": 4,
+          "F->invalid": 2
+        },
+        "same_emitted_name_sequence": 7,
+        "invariant_label_assignment": 9
+      }
+    },
+    "fresh2_0_pretrained": {
+      "active": {
+        "n": 32,
+        "ap": {
+          "valid": 30,
+          "exact_format": 22,
+          "requested_order_compliant": 30,
+          "actor_correct": 8,
+          "patient_correct": 8,
+          "both_correct": 8,
+          "mapping": {
+            "L": 22,
+            "F": 8,
+            "invalid": 2
+          },
+          "first_emitted_position": {
+            "last_mentioned": 22,
+            "first_mentioned": 8
+          },
+          "generated_tokens": 256
+        },
+        "pa": {
+          "valid": 2,
+          "exact_format": 2,
+          "requested_order_compliant": 2,
+          "actor_correct": 2,
+          "patient_correct": 2,
+          "both_correct": 2,
+          "mapping": {
+            "invalid": 30,
+            "F": 2
+          },
+          "first_emitted_position": {
+            "last_mentioned": 2
+          },
+          "generated_tokens": 136
+        },
+        "qa_actor": {
+          "valid": 22,
+          "exact_format": 19,
+          "requested_order_compliant": null,
+          "actor_correct": 6,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 97
+        },
+        "qa_patient": {
+          "valid": 24,
+          "exact_format": 22,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 18,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 90
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 1,
+          "newly_incorrect": 7
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 1,
+          "newly_incorrect": 7
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 1,
+          "newly_incorrect": 7
+        },
+        "order_transition": {
+          "L->invalid": 21,
+          "F->invalid": 7,
+          "invalid->invalid": 2,
+          "F->F": 1,
+          "L->F": 1
+        },
+        "same_emitted_name_sequence": 1,
+        "invariant_label_assignment": 1
+      },
+      "passive": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 27,
+          "requested_order_compliant": 32,
+          "actor_correct": 24,
+          "patient_correct": 24,
+          "both_correct": 24,
+          "mapping": {
+            "F": 8,
+            "L": 24
+          },
+          "first_emitted_position": {
+            "first_mentioned": 8,
+            "last_mentioned": 24
+          },
+          "generated_tokens": 261
+        },
+        "pa": {
+          "valid": 5,
+          "exact_format": 5,
+          "requested_order_compliant": 5,
+          "actor_correct": 2,
+          "patient_correct": 2,
+          "both_correct": 2,
+          "mapping": {
+            "invalid": 27,
+            "L": 2,
+            "F": 3
+          },
+          "first_emitted_position": {
+            "first_mentioned": 2,
+            "last_mentioned": 3
+          },
+          "generated_tokens": 148
+        },
+        "qa_actor": {
+          "valid": 31,
+          "exact_format": 31,
+          "requested_order_compliant": null,
+          "actor_correct": 20,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 67
+        },
+        "qa_patient": {
+          "valid": 22,
+          "exact_format": 22,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 18,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 100
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 2,
+          "newly_incorrect": 24
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 2,
+          "newly_incorrect": 24
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 2,
+          "newly_incorrect": 24
+        },
+        "order_transition": {
+          "F->invalid": 5,
+          "L->invalid": 22,
+          "F->L": 2,
+          "F->F": 1,
+          "L->F": 2
+        },
+        "same_emitted_name_sequence": 4,
+        "invariant_label_assignment": 1
+      },
+      "patient_cleft": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": 32,
+          "actor_correct": 31,
+          "patient_correct": 31,
+          "both_correct": 31,
+          "mapping": {
+            "F": 1,
+            "L": 31
+          },
+          "first_emitted_position": {
+            "first_mentioned": 1,
+            "last_mentioned": 31
+          },
+          "generated_tokens": 256
+        },
+        "pa": {
+          "valid": 2,
+          "exact_format": 2,
+          "requested_order_compliant": 2,
+          "actor_correct": 0,
+          "patient_correct": 0,
+          "both_correct": 0,
+          "mapping": {
+            "invalid": 30,
+            "F": 2
+          },
+          "first_emitted_position": {
+            "last_mentioned": 2
+          },
+          "generated_tokens": 136
+        },
+        "qa_actor": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 27,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "qa_patient": {
+          "valid": 31,
+          "exact_format": 31,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 5,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 67
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 0,
+          "newly_incorrect": 31
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 0,
+          "newly_incorrect": 31
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 0,
+          "newly_incorrect": 31
+        },
+        "order_transition": {
+          "F->invalid": 1,
+          "L->invalid": 29,
+          "L->F": 2
+        },
+        "same_emitted_name_sequence": 2,
+        "invariant_label_assignment": 0
+      }
+    },
+    "fresh2_830211_ordinary": {
+      "active": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 22,
+          "requested_order_compliant": 32,
+          "actor_correct": 17,
+          "patient_correct": 17,
+          "both_correct": 17,
+          "mapping": {
+            "L": 15,
+            "F": 17
+          },
+          "first_emitted_position": {
+            "last_mentioned": 15,
+            "first_mentioned": 17
+          },
+          "generated_tokens": 266
+        },
+        "pa": {
+          "valid": 4,
+          "exact_format": 4,
+          "requested_order_compliant": 4,
+          "actor_correct": 4,
+          "patient_correct": 4,
+          "both_correct": 4,
+          "mapping": {
+            "invalid": 28,
+            "F": 4
+          },
+          "first_emitted_position": {
+            "last_mentioned": 4
+          },
+          "generated_tokens": 144
+        },
+        "qa_actor": {
+          "valid": 31,
+          "exact_format": 31,
+          "requested_order_compliant": null,
+          "actor_correct": 31,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 67
+        },
+        "qa_patient": {
+          "valid": 28,
+          "exact_format": 28,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 12,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 76
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 1,
+          "newly_incorrect": 14
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 1,
+          "newly_incorrect": 14
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 1,
+          "newly_incorrect": 14
+        },
+        "order_transition": {
+          "L->invalid": 14,
+          "F->invalid": 14,
+          "F->F": 3,
+          "L->F": 1
+        },
+        "same_emitted_name_sequence": 1,
+        "invariant_label_assignment": 3
+      },
+      "passive": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 30,
+          "requested_order_compliant": 32,
+          "actor_correct": 27,
+          "patient_correct": 27,
+          "both_correct": 27,
+          "mapping": {
+            "F": 5,
+            "L": 27
+          },
+          "first_emitted_position": {
+            "first_mentioned": 5,
+            "last_mentioned": 27
+          },
+          "generated_tokens": 258
+        },
+        "pa": {
+          "valid": 4,
+          "exact_format": 4,
+          "requested_order_compliant": 4,
+          "actor_correct": 1,
+          "patient_correct": 1,
+          "both_correct": 1,
+          "mapping": {
+            "invalid": 28,
+            "L": 1,
+            "F": 3
+          },
+          "first_emitted_position": {
+            "first_mentioned": 1,
+            "last_mentioned": 3
+          },
+          "generated_tokens": 144
+        },
+        "qa_actor": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 32,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "qa_patient": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 17,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 1,
+          "newly_incorrect": 27
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 1,
+          "newly_incorrect": 27
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 1,
+          "newly_incorrect": 27
+        },
+        "order_transition": {
+          "F->invalid": 3,
+          "L->invalid": 25,
+          "F->L": 1,
+          "F->F": 1,
+          "L->F": 2
+        },
+        "same_emitted_name_sequence": 3,
+        "invariant_label_assignment": 1
+      },
+      "patient_cleft": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": 32,
+          "actor_correct": 28,
+          "patient_correct": 28,
+          "both_correct": 28,
+          "mapping": {
+            "F": 4,
+            "L": 28
+          },
+          "first_emitted_position": {
+            "first_mentioned": 4,
+            "last_mentioned": 28
+          },
+          "generated_tokens": 256
+        },
+        "pa": {
+          "valid": 2,
+          "exact_format": 2,
+          "requested_order_compliant": 2,
+          "actor_correct": 0,
+          "patient_correct": 0,
+          "both_correct": 0,
+          "mapping": {
+            "invalid": 30,
+            "F": 2
+          },
+          "first_emitted_position": {
+            "last_mentioned": 2
+          },
+          "generated_tokens": 132
+        },
+        "qa_actor": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 24,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "qa_patient": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 7,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 0,
+          "newly_incorrect": 28
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 0,
+          "newly_incorrect": 28
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 0,
+          "newly_incorrect": 28
+        },
+        "order_transition": {
+          "F->invalid": 4,
+          "L->invalid": 26,
+          "L->F": 2
+        },
+        "same_emitted_name_sequence": 2,
+        "invariant_label_assignment": 0
+      }
+    },
+    "fresh3_0_pretrained": {
+      "active": {
+        "n": 32,
+        "ap": {
+          "valid": 30,
+          "exact_format": 27,
+          "requested_order_compliant": 30,
+          "actor_correct": 3,
+          "patient_correct": 3,
+          "both_correct": 3,
+          "mapping": {
+            "L": 27,
+            "F": 3,
+            "invalid": 2
+          },
+          "first_emitted_position": {
+            "last_mentioned": 27,
+            "first_mentioned": 3
+          },
+          "generated_tokens": 251
+        },
+        "pa": {
+          "valid": 7,
+          "exact_format": 5,
+          "requested_order_compliant": 5,
+          "actor_correct": 5,
+          "patient_correct": 5,
+          "both_correct": 5,
+          "mapping": {
+            "F": 5,
+            "invalid": 25,
+            "L": 2
+          },
+          "first_emitted_position": {
+            "last_mentioned": 7
+          },
+          "generated_tokens": 156
+        },
+        "qa_actor": {
+          "valid": 22,
+          "exact_format": 17,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 99
+        },
+        "qa_patient": {
+          "valid": 23,
+          "exact_format": 22,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 23,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 92
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 5,
+          "newly_incorrect": 3
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 5,
+          "newly_incorrect": 3
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 5,
+          "newly_incorrect": 3
+        },
+        "order_transition": {
+          "L->F": 5,
+          "L->invalid": 20,
+          "F->invalid": 3,
+          "L->L": 2,
+          "invalid->invalid": 2
+        },
+        "same_emitted_name_sequence": 7,
+        "invariant_label_assignment": 2
+      },
+      "passive": {
+        "n": 32,
+        "ap": {
+          "valid": 31,
+          "exact_format": 27,
+          "requested_order_compliant": 31,
+          "actor_correct": 25,
+          "patient_correct": 25,
+          "both_correct": 25,
+          "mapping": {
+            "F": 6,
+            "L": 25,
+            "invalid": 1
+          },
+          "first_emitted_position": {
+            "first_mentioned": 6,
+            "last_mentioned": 25
+          },
+          "generated_tokens": 256
+        },
+        "pa": {
+          "valid": 10,
+          "exact_format": 10,
+          "requested_order_compliant": 10,
+          "actor_correct": 2,
+          "patient_correct": 2,
+          "both_correct": 2,
+          "mapping": {
+            "invalid": 22,
+            "F": 8,
+            "L": 2
+          },
+          "first_emitted_position": {
+            "last_mentioned": 8,
+            "first_mentioned": 2
+          },
+          "generated_tokens": 168
+        },
+        "qa_actor": {
+          "valid": 30,
+          "exact_format": 30,
+          "requested_order_compliant": null,
+          "actor_correct": 25,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 70
+        },
+        "qa_patient": {
+          "valid": 15,
+          "exact_format": 15,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 10,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 119
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 0,
+          "newly_incorrect": 23
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 0,
+          "newly_incorrect": 23
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 0,
+          "newly_incorrect": 23
+        },
+        "order_transition": {
+          "F->invalid": 5,
+          "L->invalid": 16,
+          "L->F": 7,
+          "L->L": 2,
+          "F->F": 1,
+          "invalid->invalid": 1
+        },
+        "same_emitted_name_sequence": 7,
+        "invariant_label_assignment": 3
+      },
+      "patient_cleft": {
+        "n": 32,
+        "ap": {
+          "valid": 30,
+          "exact_format": 30,
+          "requested_order_compliant": 30,
+          "actor_correct": 28,
+          "patient_correct": 28,
+          "both_correct": 28,
+          "mapping": {
+            "L": 28,
+            "F": 2,
+            "invalid": 2
+          },
+          "first_emitted_position": {
+            "last_mentioned": 28,
+            "first_mentioned": 2
+          },
+          "generated_tokens": 248
+        },
+        "pa": {
+          "valid": 9,
+          "exact_format": 9,
+          "requested_order_compliant": 9,
+          "actor_correct": 0,
+          "patient_correct": 0,
+          "both_correct": 0,
+          "mapping": {
+            "invalid": 23,
+            "F": 9
+          },
+          "first_emitted_position": {
+            "last_mentioned": 9
+          },
+          "generated_tokens": 164
+        },
+        "qa_actor": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 31,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "qa_patient": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 2,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 0,
+          "newly_incorrect": 28
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 0,
+          "newly_incorrect": 28
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 0,
+          "newly_incorrect": 28
+        },
+        "order_transition": {
+          "L->invalid": 19,
+          "L->F": 9,
+          "F->invalid": 2,
+          "invalid->invalid": 2
+        },
+        "same_emitted_name_sequence": 9,
+        "invariant_label_assignment": 0
+      }
+    },
+    "fresh3_830211_ordinary": {
+      "active": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 22,
+          "requested_order_compliant": 32,
+          "actor_correct": 17,
+          "patient_correct": 17,
+          "both_correct": 17,
+          "mapping": {
+            "L": 15,
+            "F": 17
+          },
+          "first_emitted_position": {
+            "last_mentioned": 15,
+            "first_mentioned": 17
+          },
+          "generated_tokens": 266
+        },
+        "pa": {
+          "valid": 15,
+          "exact_format": 7,
+          "requested_order_compliant": 7,
+          "actor_correct": 8,
+          "patient_correct": 8,
+          "both_correct": 8,
+          "mapping": {
+            "L": 7,
+            "invalid": 17,
+            "F": 8
+          },
+          "first_emitted_position": {
+            "last_mentioned": 14,
+            "first_mentioned": 1
+          },
+          "generated_tokens": 188
+        },
+        "qa_actor": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 32,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "qa_patient": {
+          "valid": 31,
+          "exact_format": 31,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 12,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 67
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 5,
+          "newly_incorrect": 14
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 5,
+          "newly_incorrect": 14
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 5,
+          "newly_incorrect": 14
+        },
+        "order_transition": {
+          "L->L": 3,
+          "F->invalid": 10,
+          "F->L": 4,
+          "F->F": 3,
+          "L->F": 5,
+          "L->invalid": 7
+        },
+        "same_emitted_name_sequence": 9,
+        "invariant_label_assignment": 6
+      },
+      "passive": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 31,
+          "requested_order_compliant": 32,
+          "actor_correct": 31,
+          "patient_correct": 31,
+          "both_correct": 31,
+          "mapping": {
+            "L": 31,
+            "F": 1
+          },
+          "first_emitted_position": {
+            "last_mentioned": 31,
+            "first_mentioned": 1
+          },
+          "generated_tokens": 257
+        },
+        "pa": {
+          "valid": 14,
+          "exact_format": 9,
+          "requested_order_compliant": 9,
+          "actor_correct": 6,
+          "patient_correct": 6,
+          "both_correct": 6,
+          "mapping": {
+            "invalid": 18,
+            "F": 8,
+            "L": 6
+          },
+          "first_emitted_position": {
+            "last_mentioned": 13,
+            "first_mentioned": 1
+          },
+          "generated_tokens": 184
+        },
+        "qa_actor": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 31,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "qa_patient": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 17,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 0,
+          "newly_incorrect": 25
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 0,
+          "newly_incorrect": 25
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 0,
+          "newly_incorrect": 25
+        },
+        "order_transition": {
+          "L->invalid": 18,
+          "L->F": 7,
+          "L->L": 6,
+          "F->F": 1
+        },
+        "same_emitted_name_sequence": 12,
+        "invariant_label_assignment": 7
+      },
+      "patient_cleft": {
+        "n": 32,
+        "ap": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": 32,
+          "actor_correct": 28,
+          "patient_correct": 28,
+          "both_correct": 28,
+          "mapping": {
+            "L": 28,
+            "F": 4
+          },
+          "first_emitted_position": {
+            "last_mentioned": 28,
+            "first_mentioned": 4
+          },
+          "generated_tokens": 256
+        },
+        "pa": {
+          "valid": 11,
+          "exact_format": 9,
+          "requested_order_compliant": 9,
+          "actor_correct": 2,
+          "patient_correct": 2,
+          "both_correct": 2,
+          "mapping": {
+            "invalid": 21,
+            "F": 9,
+            "L": 2
+          },
+          "first_emitted_position": {
+            "last_mentioned": 11
+          },
+          "generated_tokens": 172
+        },
+        "qa_actor": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 27,
+          "patient_correct": 0,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "qa_patient": {
+          "valid": 32,
+          "exact_format": 32,
+          "requested_order_compliant": null,
+          "actor_correct": 0,
+          "patient_correct": 1,
+          "both_correct": null,
+          "mapping": {},
+          "first_emitted_position": {},
+          "generated_tokens": 64
+        },
+        "pa_vs_ap_actor": {
+          "newly_correct": 0,
+          "newly_incorrect": 26
+        },
+        "pa_vs_ap_patient": {
+          "newly_correct": 0,
+          "newly_incorrect": 26
+        },
+        "pa_vs_ap_both": {
+          "newly_correct": 0,
+          "newly_incorrect": 26
+        },
+        "order_transition": {
+          "L->invalid": 18,
+          "L->F": 8,
+          "F->F": 1,
+          "F->invalid": 3,
+          "L->L": 2
+        },
+        "same_emitted_name_sequence": 10,
+        "invariant_label_assignment": 3
+      }
+    }
+  },
+  "events": {
+    "fresh1_0_pretrained": {
+      "n_events": 32,
+      "vectors": {
+        "ap": {
+          "FLL": 10,
+          "LFL": 9,
+          "LLL": 9,
+          "LFF": 3,
+          "LLF": 1
+        },
+        "pa": {
+          "invalidinvalidinvalid": 22,
+          "invalidFinvalid": 2,
+          "FFinvalid": 2,
+          "FLF": 2,
+          "invalidFF": 2,
+          "Finvalidinvalid": 2
+        }
+      },
+      "all_forms_correct_both_orders": 0,
+      "per_event": {
+        "((0, 1), 0, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 1), 0, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 1), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 1), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 0, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 0, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 5, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 5, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 0, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 0, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 6, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 6, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 7, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 7, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 0, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 0, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 9, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 9, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 2, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 2, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 1, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 4, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 4, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 1, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 5, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 5, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        }
+      }
+    },
+    "fresh1_830211_ordinary": {
+      "n_events": 32,
+      "vectors": {
+        "ap": {
+          "FLL": 15,
+          "LFL": 3,
+          "LLL": 8,
+          "LFF": 3,
+          "LLF": 3
+        },
+        "pa": {
+          "invalidLinvalid": 2,
+          "Finvalidinvalid": 3,
+          "invalidinvalidinvalid": 2,
+          "Linvalidinvalid": 3,
+          "FLL": 2,
+          "LLL": 2,
+          "LLinvalid": 7,
+          "FLinvalid": 2,
+          "invalidFinvalid": 1,
+          "FFinvalid": 1,
+          "FFF": 2,
+          "FLF": 2,
+          "invalidFF": 2,
+          "invalidinvalidL": 1
+        }
+      },
+      "all_forms_correct_both_orders": 2,
+      "per_event": {
+        "((0, 1), 0, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 1), 0, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 1), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 1), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 0, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": true
+        },
+        "((0, 5), 0, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": true
+        },
+        "((0, 5), 5, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 5, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 0, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 0, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 6, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 6, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 0, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 7, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 7, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 0, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 0, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 9, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 9, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 2, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 2, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 1, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 1, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 4, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 4, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 1, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 1, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 5, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 5, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        }
+      }
+    },
+    "fresh2_0_pretrained": {
+      "n_events": 32,
+      "vectors": {
+        "ap": {
+          "LFF": 1,
+          "LLL": 14,
+          "FLL": 8,
+          "invalidLL": 2,
+          "LFL": 7
+        },
+        "pa": {
+          "invalidinvalidinvalid": 25,
+          "invalidLinvalid": 2,
+          "Finvalidinvalid": 2,
+          "invalidFinvalid": 1,
+          "invalidFF": 2
+        }
+      },
+      "all_forms_correct_both_orders": 0,
+      "per_event": {
+        "((0, 3), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 3), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 3), 3, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 3), 3, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 5, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 5, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 7, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 7, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 8, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 8, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 9, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 9, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 3), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 3), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 3), 3, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 3), 3, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 4, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 4, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 5, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 5, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        }
+      }
+    },
+    "fresh2_830211_ordinary": {
+      "n_events": 32,
+      "vectors": {
+        "ap": {
+          "LFF": 2,
+          "LLF": 2,
+          "FLL": 17,
+          "LFL": 3,
+          "LLL": 8
+        },
+        "pa": {
+          "invalidinvalidinvalid": 25,
+          "invalidLinvalid": 1,
+          "Finvalidinvalid": 3,
+          "invalidFinvalid": 1,
+          "FFF": 1,
+          "invalidFF": 1
+        }
+      },
+      "all_forms_correct_both_orders": 0,
+      "per_event": {
+        "((0, 3), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 3), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 3), 3, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 3), 3, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 5, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 5, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 7, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 7), 7, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 8, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 8, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 0, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 9, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 9, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 3), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 3), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 3), 3, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 3), 3, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 4, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 4, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 5, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 5), 5, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        }
+      }
+    },
+    "fresh3_0_pretrained": {
+      "n_events": 32,
+      "vectors": {
+        "ap": {
+          "LFL": 4,
+          "LLL": 19,
+          "FLL": 3,
+          "LFF": 2,
+          "Linvalidinvalid": 1,
+          "LLinvalid": 1,
+          "invalidLL": 2
+        },
+        "pa": {
+          "Finvalidinvalid": 2,
+          "invalidinvalidinvalid": 17,
+          "invalidFF": 6,
+          "invalidLF": 2,
+          "FFinvalid": 2,
+          "Linvalidinvalid": 2,
+          "FinvalidF": 1
+        }
+      },
+      "all_forms_correct_both_orders": 0,
+      "per_event": {
+        "((0, 4), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 4), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 4), 4, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 4), 4, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 5, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 5, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 6, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 6, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 8, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 8, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 9, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 9, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 1, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 1, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 2, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 2, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 4, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 4, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 7), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 7), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 7), 7, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 7), 7, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        }
+      }
+    },
+    "fresh3_830211_ordinary": {
+      "n_events": 32,
+      "vectors": {
+        "ap": {
+          "LLL": 11,
+          "FLL": 17,
+          "LFF": 1,
+          "LLF": 3
+        },
+        "pa": {
+          "Linvalidinvalid": 2,
+          "invalidFF": 2,
+          "LLF": 1,
+          "FFF": 5,
+          "FFinvalid": 1,
+          "invalidinvalidinvalid": 14,
+          "LLinvalid": 2,
+          "LLL": 2,
+          "invalidLinvalid": 1,
+          "Finvalidinvalid": 1,
+          "FinvalidF": 1
+        }
+      },
+      "all_forms_correct_both_orders": 0,
+      "per_event": {
+        "((0, 4), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 4), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 4), 4, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 4), 4, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 0, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 0, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 5, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 5), 5, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 0, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 6, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 6), 6, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 0, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 8, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 8), 8, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 0, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 0, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 9, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((0, 9), 9, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 1, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 1, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 2, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 2), 2, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 1, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 1, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 4, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 4), 4, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 7), 1, 'praised')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 7), 1, 'criticized')": {
+          "ap_correct_all_forms": true,
+          "pa_correct_all_forms": false
+        },
+        "((1, 7), 7, 'praised')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        },
+        "((1, 7), 7, 'criticized')": {
+          "ap_correct_all_forms": false,
+          "pa_correct_all_forms": false
+        }
+      }
+    }
+  },
+  "ordinary_vs_one_world_base": {
+    "fresh1": {
+      "ap_active": {
+        "n": 32,
+        "ordinary_gain": 5,
+        "ordinary_loss": 0
+      },
+      "ap_passive": {
+        "n": 32,
+        "ordinary_gain": 6,
+        "ordinary_loss": 0
+      },
+      "ap_patient_cleft": {
+        "n": 32,
+        "ordinary_gain": 0,
+        "ordinary_loss": 2
+      },
+      "pa_active": {
+        "n": 32,
+        "ordinary_gain": 8,
+        "ordinary_loss": 2
+      },
+      "pa_passive": {
+        "n": 32,
+        "ordinary_gain": 15,
+        "ordinary_loss": 0
+      },
+      "pa_patient_cleft": {
+        "n": 32,
+        "ordinary_gain": 5,
+        "ordinary_loss": 0
+      },
+      "qa_actor_active": {
+        "n": 32,
+        "ordinary_gain": 26,
+        "ordinary_loss": 0
+      },
+      "qa_actor_passive": {
+        "n": 32,
+        "ordinary_gain": 11,
+        "ordinary_loss": 0
+      },
+      "qa_actor_patient_cleft": {
+        "n": 32,
+        "ordinary_gain": 0,
+        "ordinary_loss": 9
+      },
+      "qa_patient_active": {
+        "n": 32,
+        "ordinary_gain": 0,
+        "ordinary_loss": 17
+      },
+      "qa_patient_passive": {
+        "n": 32,
+        "ordinary_gain": 7,
+        "ordinary_loss": 4
+      },
+      "qa_patient_patient_cleft": {
+        "n": 32,
+        "ordinary_gain": 8,
+        "ordinary_loss": 1
+      },
+      "all_forms_both_orders": {
+        "n": 32,
+        "ordinary_gain": 2,
+        "ordinary_loss": 0
+      }
+    },
+    "fresh2": {
+      "ap_active": {
+        "n": 32,
+        "ordinary_gain": 9,
+        "ordinary_loss": 0
+      },
+      "ap_passive": {
+        "n": 32,
+        "ordinary_gain": 3,
+        "ordinary_loss": 0
+      },
+      "ap_patient_cleft": {
+        "n": 32,
+        "ordinary_gain": 0,
+        "ordinary_loss": 3
+      },
+      "pa_active": {
+        "n": 32,
+        "ordinary_gain": 2,
+        "ordinary_loss": 0
+      },
+      "pa_passive": {
+        "n": 32,
+        "ordinary_gain": 0,
+        "ordinary_loss": 1
+      },
+      "pa_patient_cleft": {
+        "n": 32,
+        "ordinary_gain": 0,
+        "ordinary_loss": 0
+      },
+      "qa_actor_active": {
+        "n": 32,
+        "ordinary_gain": 25,
+        "ordinary_loss": 0
+      },
+      "qa_actor_passive": {
+        "n": 32,
+        "ordinary_gain": 12,
+        "ordinary_loss": 0
+      },
+      "qa_actor_patient_cleft": {
+        "n": 32,
+        "ordinary_gain": 1,
+        "ordinary_loss": 4
+      },
+      "qa_patient_active": {
+        "n": 32,
+        "ordinary_gain": 1,
+        "ordinary_loss": 7
+      },
+      "qa_patient_passive": {
+        "n": 32,
+        "ordinary_gain": 7,
+        "ordinary_loss": 8
+      },
+      "qa_patient_patient_cleft": {
+        "n": 32,
+        "ordinary_gain": 4,
+        "ordinary_loss": 2
+      },
+      "all_forms_both_orders": {
+        "n": 32,
+        "ordinary_gain": 0,
+        "ordinary_loss": 0
+      }
+    },
+    "fresh3": {
+      "ap_active": {
+        "n": 32,
+        "ordinary_gain": 14,
+        "ordinary_loss": 0
+      },
+      "ap_passive": {
+        "n": 32,
+        "ordinary_gain": 6,
+        "ordinary_loss": 0
+      },
+      "ap_patient_cleft": {
+        "n": 32,
+        "ordinary_gain": 2,
+        "ordinary_loss": 2
+      },
+      "pa_active": {
+        "n": 32,
+        "ordinary_gain": 4,
+        "ordinary_loss": 1
+      },
+      "pa_passive": {
+        "n": 32,
+        "ordinary_gain": 4,
+        "ordinary_loss": 0
+      },
+      "pa_patient_cleft": {
+        "n": 32,
+        "ordinary_gain": 2,
+        "ordinary_loss": 0
+      },
+      "qa_actor_active": {
+        "n": 32,
+        "ordinary_gain": 32,
+        "ordinary_loss": 0
+      },
+      "qa_actor_passive": {
+        "n": 32,
+        "ordinary_gain": 6,
+        "ordinary_loss": 0
+      },
+      "qa_actor_patient_cleft": {
+        "n": 32,
+        "ordinary_gain": 0,
+        "ordinary_loss": 4
+      },
+      "qa_patient_active": {
+        "n": 32,
+        "ordinary_gain": 1,
+        "ordinary_loss": 12
+      },
+      "qa_patient_passive": {
+        "n": 32,
+        "ordinary_gain": 10,
+        "ordinary_loss": 3
+      },
+      "qa_patient_patient_cleft": {
+        "n": 32,
+        "ordinary_gain": 0,
+        "ordinary_loss": 1
+      },
+      "all_forms_both_orders": {
+        "n": 32,
+        "ordinary_gain": 0,
+        "ordinary_loss": 0
+      }
+    }
+  },
+  "dependence": "Same 96 sentences per world/arm across interfaces; 32 events per world/arm each with 3 forms; base once per world. Descriptive, not independent-prompt inference.",
+  "limits": "Construction and gold actor mention position linked; field order crossed within sentence. Distinguishes behavioral output-order dependence, not internal mechanism. QA two calls versus extraction one call are not compute-matched."
+}

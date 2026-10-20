@@ -1,0 +1,5 @@
+# B-D31 frozen discovery protocol: origin of additive query code
+
+Status: **discovery only**. Selected after B-D30 showed held-pair event-query differences are accurately predicted by additive source and target factors across four trained worlds.
+
+For each matched seed3801/3802, instantiate the exact architecture at initialization with the same training seed, then load frozen NO_CUE, CUE, P95, P99 checkpoints at steps1000,2000,3000. No training. On the same 24 fit and six held ordered identity pairs, fit the B-D30 source+target least-squares description separately at each stage. Record held cosine, held R2, query norm, mean pairwise event-difference cosine, and effective rank. Also compute held query displacement cosine from initialization by arm/stage. If additive structure is already strong at initialization, B-D30 is largely architecture/input-code prior; if it develops, characterize when and whether it tracks the candidate-side cue/relation divergence. Frozen analysis code and inputs before any results.

@@ -1,0 +1,423 @@
+{
+  "status": "post hoc exploratory reanalysis, no new inference; no independent confirmation",
+  "source_hashes": {
+    "research/frozen_query_diagnostic_2026-10-15/ITEMS.json": "89bae4be3aadd2c65cc4463e3428e19887a863b31ac50e3bbca6a33ea83baef7",
+    "research/frozen_query_diagnostic_2026-10-15/PREDICTIONS_0.5b.jsonl": "eeacad742a939056f07dc9205fb4dcb29464b850d554128c38dcff39e127fdd0",
+    "research/frozen_query_diagnostic_2026-10-15/FIELD_ONLY_0.5b.jsonl": "f15f9b4177cfa532a2131407c3148e865fb8ff3b75e8f3aa71dc3b71d68a6a44",
+    "research/frozen_query_diagnostic_2026-10-15/PREDICTIONS_1.5b.jsonl": "994419bf508665efc8bc6e86d50392ef5520f87237b78c33880d29cfb79b763c",
+    "research/frozen_query_diagnostic_2026-10-15/FIELD_ONLY_1.5b.jsonl": "a2edbe2aa5df07ac46abb7e2d5be681d85aa7c86d2655b4530fab9becaa4c6b3",
+    "llm_role_internal_v2/RESULT.json": "653a33a0a56f34a84c5c39649dda7bdb100990462daea0390cfcb2fcb8d7ea27",
+    "research/natural_role_verifier_development_2026-10-13/EVAL_fresh1_verifier_clean_development_normal.json": "e85e5d78a740b77119ea53d3cc70ef7f77fa56f6f6fdb90ea1bcc4554f789382",
+    "research/natural_role_verifier_development_2026-10-13/EVAL_fresh1_verifier_clean_development_swapped.json": "3dbd32322ca524439cf2eb475986edb9a843621c5fb280ef0df86f424295e77c",
+    "research/natural_role_verifier_development_2026-10-13/EVAL_fresh1_verifier_noisy_development_normal.json": "ef36821e64f20485aca13cb7186ba18dbef09c34173ccf54debe2e023651d32a",
+    "research/natural_role_verifier_development_2026-10-13/EVAL_fresh1_verifier_noisy_development_swapped.json": "c0cbce549b08a44d5cd9650e7f3d632392a81f9672919f4a6133702495edff3d",
+    "research/natural_role_verifier_development_2026-10-13/EVAL_fresh3_verifier_clean_development_normal.json": "401f4e1ebc7b3c73140faa9da2b7f01b393ae3c0d368e895aab327f96f61aff0",
+    "research/natural_role_verifier_development_2026-10-13/EVAL_fresh3_verifier_clean_development_swapped.json": "245f9665c40c88cbb435da52e5fbb974a8a350a1dbaded4e6eaddb3f5c1c14d5",
+    "research/natural_role_verifier_development_2026-10-13/EVAL_fresh3_verifier_noisy_development_normal.json": "9068caafedad9a9307d38cfc75bf4fa97a0ae07cc0353dfc9e0c473a6dfd6baa",
+    "research/natural_role_verifier_development_2026-10-13/EVAL_fresh3_verifier_noisy_development_swapped.json": "96656967ef804dcf58b517677536bb6852cb0d3a4b968e5bf6caf482a7e07c64"
+  },
+  "direct_error_types": {
+    "0.5b": {
+      "subject": {
+        "counts": {
+          "contains_opposite_only": 12,
+          "n": 24,
+          "contains_correct_only": 3,
+          "exact_correct": 5,
+          "contains_both": 1,
+          "contains_neither": 3
+        },
+        "examples": [
+          {
+            "id": "dev:Wiki1k:wikipedia:3391396:15:5:2",
+            "question": "Who invited someone?",
+            "raw": "He invited someone.",
+            "accepted": [
+              "He"
+            ],
+            "category": "contains_correct_only"
+          },
+          {
+            "id": "dev:Wiki1k:wikinews:1235103:3:5:4",
+            "question": "Who will call someone?",
+            "raw": "She will call someone.",
+            "accepted": [
+              "She"
+            ],
+            "category": "contains_correct_only"
+          },
+          {
+            "id": "dev:Wiki1k:wikinews:2171912:1:0:2",
+            "question": "Who had seen someone?",
+            "raw": "Witnesses had seen 17-year-old Hayley walking and hitchhiking in the Badgingarra area on July 29, 1999.",
+            "accepted": [
+              "Witnesses"
+            ],
+            "category": "contains_both"
+          },
+          {
+            "id": "dev:Wiki1k:wikinews:523166:0:3:5",
+            "question": "Who will meet someone?",
+            "raw": "The USA team will meet someone who lost in that match.",
+            "accepted": [
+              "The USA team"
+            ],
+            "category": "contains_correct_only"
+          }
+        ]
+      },
+      "object": {
+        "counts": {
+          "exact_correct": 12,
+          "n": 24,
+          "contains_opposite_only": 7,
+          "contains_neither": 3,
+          "contains_both": 1,
+          "contains_correct_only": 1
+        },
+        "examples": [
+          {
+            "id": "dev:Wiki1k:wikinews:1910371:0:0:1",
+            "question": "Who did someone detain?",
+            "raw": "A nine-year-old was detained by the police.",
+            "accepted": [
+              "a nine-year-old"
+            ],
+            "category": "contains_both"
+          },
+          {
+            "id": "dev:Wiki1k:wikinews:1491471:0:1:5",
+            "question": "Who did someone accuse?",
+            "raw": "The person accused is the opposite side.",
+            "accepted": [
+              "the opposite side"
+            ],
+            "category": "contains_correct_only"
+          }
+        ]
+      }
+    },
+    "1.5b": {
+      "subject": {
+        "counts": {
+          "exact_correct": 4,
+          "n": 24,
+          "contains_opposite_only": 7,
+          "contains_correct_only": 5,
+          "contains_both": 3,
+          "contains_neither": 5
+        },
+        "examples": [
+          {
+            "id": "dev:Wiki1k:wikinews:1235103:2:2:1",
+            "question": "Who interviewed someone?",
+            "raw": "Police interviewed someone.",
+            "accepted": [
+              "Police"
+            ],
+            "category": "contains_correct_only"
+          },
+          {
+            "id": "dev:Wiki1k:wikinews:1538518:1:0:4",
+            "question": "Who defeated someone?",
+            "raw": "Sunshine Beach Noosa defeated someone.",
+            "accepted": [
+              "Noosa"
+            ],
+            "category": "contains_correct_only"
+          },
+          {
+            "id": "dev:Wiki1k:wikinews:1910371:0:0:1",
+            "question": "Who detained someone?",
+            "raw": "Police detained a nine-year-old",
+            "accepted": [
+              "Police"
+            ],
+            "category": "contains_both"
+          },
+          {
+            "id": "dev:Wiki1k:wikinews:1823406:5:3:5",
+            "question": "Who contacted someone?",
+            "raw": "Australian Prime Minister Tony Abbott contacted Indonesian President Joko Widodo",
+            "accepted": [
+              "Australian Prime Minister Tony Abbott"
+            ],
+            "category": "contains_both"
+          },
+          {
+            "id": "dev:Wiki1k:wikinews:2171912:1:0:2",
+            "question": "Who had seen someone?",
+            "raw": "Witnesses had seen someone.",
+            "accepted": [
+              "Witnesses"
+            ],
+            "category": "contains_correct_only"
+          },
+          {
+            "id": "dev:Wiki1k:wikinews:2067610:2:1:2",
+            "question": "Who assured someone?",
+            "raw": "Landrum assured someone.",
+            "accepted": [
+              "Landrum"
+            ],
+            "category": "contains_correct_only"
+          },
+          {
+            "id": "dev:Wiki1k:wikipedia:22954:16:0:2",
+            "question": "Who influenced someone?",
+            "raw": "Socrates influenced Plato",
+            "accepted": [
+              "Socrates"
+            ],
+            "category": "contains_both"
+          },
+          {
+            "id": "dev:Wiki1k:wikinews:523166:0:3:5",
+            "question": "Who will meet someone?",
+            "raw": "The USA team will meet someone.",
+            "accepted": [
+              "The USA team"
+            ],
+            "category": "contains_correct_only"
+          }
+        ]
+      },
+      "object": {
+        "counts": {
+          "exact_correct": 15,
+          "n": 24,
+          "contains_opposite_only": 5,
+          "contains_neither": 4
+        },
+        "examples": []
+      }
+    }
+  },
+  "field_only_by_question": {
+    "0.5b": {
+      "subject": {
+        "subject": 5,
+        "object": 3
+      },
+      "object": {
+        "subject": 3,
+        "object": 7
+      }
+    },
+    "1.5b": {
+      "subject": {
+        "subject": 15,
+        "object": 16
+      },
+      "object": {
+        "subject": 12,
+        "object": 11
+      }
+    }
+  },
+  "old_patch_panel": {
+    "n": 384,
+    "last_mention_by_condition": {
+      "generic_actor": {
+        "n": 128,
+        "last_mention": 128
+      },
+      "performed_actor": {
+        "n": 128,
+        "last_mention": 80
+      },
+      "verb_patient": {
+        "n": 128,
+        "last_mention": 128
+      }
+    },
+    "observed_correct_by_verb": {
+      "generic_actor/admired": {
+        "n": 16,
+        "correct": 0
+      },
+      "generic_actor/assisted": {
+        "n": 16,
+        "correct": 0
+      },
+      "generic_actor/greeted": {
+        "n": 16,
+        "correct": 0
+      },
+      "generic_actor/warned": {
+        "n": 16,
+        "correct": 0
+      },
+      "performed_actor/admired": {
+        "n": 16,
+        "correct": 3
+      },
+      "performed_actor/assisted": {
+        "n": 16,
+        "correct": 13
+      },
+      "performed_actor/greeted": {
+        "n": 16,
+        "correct": 16
+      },
+      "performed_actor/warned": {
+        "n": 16,
+        "correct": 16
+      },
+      "verb_patient/admired": {
+        "n": 16,
+        "correct": 16
+      },
+      "verb_patient/assisted": {
+        "n": 16,
+        "correct": 16
+      },
+      "verb_patient/greeted": {
+        "n": 16,
+        "correct": 16
+      },
+      "verb_patient/warned": {
+        "n": 16,
+        "correct": 16
+      }
+    },
+    "leave_one_pair_index_out_behavior_prediction": {
+      "correct": 368,
+      "n": 384,
+      "features": "question type and voice; chooses first/last mentioned participant",
+      "limit": "retrospective model class, not independent prospective validation"
+    },
+    "leave_one_verb_out_behavior_prediction": {
+      "correct": 368,
+      "n": 384,
+      "features": "question type and voice; chooses first/last mentioned participant",
+      "limit": "retrospective model class, not independent prospective validation"
+    }
+  },
+  "natural_verifier": [
+    {
+      "start": "fresh1",
+      "arm": "verifier_clean",
+      "draft_swap": {
+        "n": 160,
+        "same_fields": 2,
+        "answer_changed": 62,
+        "same_fields_answer_changed": 0,
+        "same_correct_fields": 0,
+        "same_correct_fields_answer_changed": 0,
+        "distinct_events_with_same_fields_answer_change": 0
+      },
+      "requested_role_swap": {
+        "normal": {
+          "pairs": 80,
+          "same_fields": 78,
+          "same_fields_answer_changed": 33,
+          "same_correct_fields": 57,
+          "same_correct_fields_answer_changed": 26,
+          "both_answers_correct_given_same_correct_fields": 26
+        },
+        "swapped": {
+          "pairs": 80,
+          "same_fields": 78,
+          "same_fields_answer_changed": 20,
+          "same_correct_fields": 16,
+          "same_correct_fields_answer_changed": 5,
+          "both_answers_correct_given_same_correct_fields": 5
+        }
+      }
+    },
+    {
+      "start": "fresh1",
+      "arm": "verifier_noisy",
+      "draft_swap": {
+        "n": 160,
+        "same_fields": 124,
+        "answer_changed": 34,
+        "same_fields_answer_changed": 16,
+        "same_correct_fields": 98,
+        "same_correct_fields_answer_changed": 13,
+        "distinct_events_with_same_fields_answer_change": 13
+      },
+      "requested_role_swap": {
+        "normal": {
+          "pairs": 80,
+          "same_fields": 74,
+          "same_fields_answer_changed": 16,
+          "same_correct_fields": 55,
+          "same_correct_fields_answer_changed": 12,
+          "both_answers_correct_given_same_correct_fields": 10
+        },
+        "swapped": {
+          "pairs": 80,
+          "same_fields": 77,
+          "same_fields_answer_changed": 7,
+          "same_correct_fields": 56,
+          "same_correct_fields_answer_changed": 4,
+          "both_answers_correct_given_same_correct_fields": 2
+        }
+      }
+    },
+    {
+      "start": "fresh3",
+      "arm": "verifier_clean",
+      "draft_swap": {
+        "n": 160,
+        "same_fields": 1,
+        "answer_changed": 61,
+        "same_fields_answer_changed": 0,
+        "same_correct_fields": 0,
+        "same_correct_fields_answer_changed": 0,
+        "distinct_events_with_same_fields_answer_change": 0
+      },
+      "requested_role_swap": {
+        "normal": {
+          "pairs": 80,
+          "same_fields": 78,
+          "same_fields_answer_changed": 24,
+          "same_correct_fields": 59,
+          "same_correct_fields_answer_changed": 17,
+          "both_answers_correct_given_same_correct_fields": 17
+        },
+        "swapped": {
+          "pairs": 80,
+          "same_fields": 77,
+          "same_fields_answer_changed": 19,
+          "same_correct_fields": 14,
+          "same_correct_fields_answer_changed": 7,
+          "both_answers_correct_given_same_correct_fields": 7
+        }
+      }
+    },
+    {
+      "start": "fresh3",
+      "arm": "verifier_noisy",
+      "draft_swap": {
+        "n": 160,
+        "same_fields": 133,
+        "answer_changed": 38,
+        "same_fields_answer_changed": 25,
+        "same_correct_fields": 104,
+        "same_correct_fields_answer_changed": 18,
+        "distinct_events_with_same_fields_answer_change": 15
+      },
+      "requested_role_swap": {
+        "normal": {
+          "pairs": 80,
+          "same_fields": 77,
+          "same_fields_answer_changed": 15,
+          "same_correct_fields": 55,
+          "same_correct_fields_answer_changed": 9,
+          "both_answers_correct_given_same_correct_fields": 8
+        },
+        "swapped": {
+          "pairs": 80,
+          "same_fields": 74,
+          "same_fields_answer_changed": 5,
+          "same_correct_fields": 58,
+          "same_correct_fields_answer_changed": 4,
+          "both_answers_correct_given_same_correct_fields": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "status": "exploratory_followup_same_development_items",
+  "protocol_sha256": "cd163fbf884c8eac8a249e0b0d9938b6ee56ee28b9b0490856fa18699fdd538e",
+  "models": {
+    "0.5b": {
+      "question_visible_fields_only": {
+        "requested_correct": 12,
+        "both_correct": 3,
+        "missing_requested_fields": 6,
+        "role_tuple_changes": 8,
+        "both_tuples_parse": 14
+      },
+      "question_blind": {
+        "requested_correct": 8,
+        "both_correct": 2
+      },
+      "answer_total": 48,
+      "event_total": 24,
+      "blind_minus_visible_both_pp": -4.166666666666667,
+      "paired_event_bootstrap_95_pp": [
+        -16.666666666666664,
+        8.333333333333332
+      ],
+      "blind_gains": 1,
+      "blind_losses": 2
+    },
+    "1.5b": {
+      "question_visible_fields_only": {
+        "requested_correct": 26,
+        "both_correct": 9,
+        "missing_requested_fields": 2,
+        "role_tuple_changes": 8,
+        "both_tuples_parse": 22
+      },
+      "question_blind": {
+        "requested_correct": 31,
+        "both_correct": 11
+      },
+      "answer_total": 48,
+      "event_total": 24,
+      "blind_minus_visible_both_pp": 8.333333333333334,
+      "paired_event_bootstrap_95_pp": [
+        -8.333333333333332,
+        25.0
+      ],
+      "blind_gains": 3,
+      "blind_losses": 1
+    }
+  },
+  "limits": "Output schema and system instruction match; query presence, requested role, wording and input length differ. One family, active subject-first events, grammatical role labels. Printed output differences do not establish hidden representations or a new training principle."
+}

@@ -1,0 +1,1466 @@
+{
+  "raw_sha256": "254bbd743d08c9837eef88c2ee4b859495f7e5f3ccc77f01cadffd4337434837",
+  "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+  "counts": {
+    "local_exact": 63,
+    "wrong_event_same_role": 4,
+    "wrong_event_wrong_role": 1,
+    "same_event_wrong_role": 2,
+    "unmatched_or_ambiguous": 2
+  },
+  "by_condition": {
+    "plain": {
+      "local_exact": 16,
+      "wrong_event_same_role": 4,
+      "wrong_event_wrong_role": 1,
+      "same_event_wrong_role": 1,
+      "unmatched_or_ambiguous": 2
+    },
+    "abc": {
+      "local_exact": 24
+    },
+    "cba": {
+      "local_exact": 23,
+      "same_event_wrong_role": 1
+    }
+  },
+  "both_roles_correct_events": {
+    "plain": 7,
+    "abc": 12,
+    "cba": 11
+  },
+  "abc_cba_same_correctness": 23,
+  "abc_cba_same_normalized_answer": 23,
+  "details": [
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Agent",
+      "question": "For the first defeat described in the passage, who defeated the opponent?",
+      "response": "Triple H",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Triple H",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Patient",
+      "question": "For the first defeat described in the passage, who was defeated?",
+      "response": "Kevin Nash",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Kevin Nash",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Agent",
+      "question": "For the second defeat described in the passage, who defeated the opponent?",
+      "response": "Goldberg",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Ric Flair",
+      "category": "wrong_event_same_role",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Patient",
+      "question": "For the second defeat described in the passage, who was defeated?",
+      "response": "Goldberg",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Shawn Michaels",
+      "category": "wrong_event_wrong_role",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Agent",
+      "question": "For the third defeat described in the passage, who defeated the opponent?",
+      "response": "Goldberg",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Goldberg",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Patient",
+      "question": "For the third defeat described in the passage, who was defeated?",
+      "response": "Chris Jericho",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Chris Jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "Triple H",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Triple H",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "Kevin Nash",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Kevin Nash",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "Ric Flair",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Ric Flair",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "Shawn Michaels",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Shawn Michaels",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "Goldberg",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Goldberg",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "Chris Jericho",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Chris Jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "Triple H",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Triple H",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "Kevin Nash",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Kevin Nash",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "Ric Flair",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Ric Flair",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "Shawn Michaels",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Shawn Michaels",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "Goldberg",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Goldberg",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "1a0a7c7b496ad1d984ee02d240f1d5f8",
+      "title": "Bad Blood (2003)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "Chris Jericho",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Chris Jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Agent",
+      "question": "For the first defeat described in the passage, who defeated the opponent?",
+      "response": "John Cena",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "John Cena",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Patient",
+      "question": "For the first defeat described in the passage, who was defeated?",
+      "response": "John Cena",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Brock Lesnar",
+      "category": "same_event_wrong_role",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Agent",
+      "question": "For the second defeat described in the passage, who defeated the opponent?",
+      "response": "Sheamus",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "CM Punk",
+      "category": "wrong_event_same_role",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Patient",
+      "question": "For the second defeat described in the passage, who was defeated?",
+      "response": "Daniel Bryan",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Chris Jericho",
+      "category": "wrong_event_same_role",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Agent",
+      "question": "For the third defeat described in the passage, who defeated the opponent?",
+      "response": "Sheamus",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Sheamus",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Patient",
+      "question": "For the third defeat described in the passage, who was defeated?",
+      "response": "Daniel Bryan",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Daniel Bryan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "John Cena",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "John Cena",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "Brock Lesnar",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Brock Lesnar",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "CM Punk",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "CM Punk",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "Chris Jericho",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Chris Jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "Sheamus",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Sheamus",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "Daniel Bryan",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Daniel Bryan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "John Cena",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "John Cena",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "Brock Lesnar",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Brock Lesnar",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "CM Punk",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "CM Punk",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "Chris Jericho",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Chris Jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "Sheamus",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Sheamus",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "Daniel Bryan",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Daniel Bryan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Agent",
+      "question": "For the first defeat described in the passage, who defeated the opponent?",
+      "response": "Triple H",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "triple h",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Patient",
+      "question": "For the first defeat described in the passage, who was defeated?",
+      "response": "Chris Jericho",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "chris jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Agent",
+      "question": "For the second defeat described in the passage, who defeated the opponent?",
+      "response": "Eddie Guerrero",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "eddie guerrero",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Patient",
+      "question": "For the second defeat described in the passage, who was defeated?",
+      "response": "rob van dam",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "rob van dam",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Agent",
+      "question": "For the third defeat described in the passage, who defeated the opponent?",
+      "response": "edge",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "edge",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Patient",
+      "question": "For the third defeat described in the passage, who was defeated?",
+      "response": "kurt angle",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "kurt angle",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "Triple H",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "triple h",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "chris jericho",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "chris jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "eddie guerrero",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "eddie guerrero",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "rob van dam",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "rob van dam",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "edge",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "edge",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "kurt angle",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "kurt angle",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "Triple H",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "triple h",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "chris jericho",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "chris jericho",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "eddie guerrero",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "eddie guerrero",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "rob van dam",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "rob van dam",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "edge",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "edge",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "15214a813a8e818577cbac2532429aba",
+      "title": "Judgment Day (2002)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "kurt angle",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "kurt angle",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Agent",
+      "question": "For the first defeat described in the passage, who defeated the opponent?",
+      "response": "Daniel Bryan",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Daniel Bryan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "plain",
+      "ordinal": 0,
+      "label": null,
+      "role": "Patient",
+      "question": "For the first defeat described in the passage, who was defeated?",
+      "response": "John Cena",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "John Cena",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Agent",
+      "question": "For the second defeat described in the passage, who defeated the opponent?",
+      "response": "Randy Orton",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Alberto Del Rio",
+      "category": "unmatched_or_ambiguous",
+      "alias_hits": []
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "plain",
+      "ordinal": 1,
+      "label": null,
+      "role": "Patient",
+      "question": "For the second defeat described in the passage, who was defeated?",
+      "response": "CM Punk",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Christian",
+      "category": "wrong_event_same_role",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Agent",
+      "question": "For the third defeat described in the passage, who defeated the opponent?",
+      "response": "Randy Orton",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Brock Lesnar",
+      "category": "unmatched_or_ambiguous",
+      "alias_hits": []
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "plain",
+      "ordinal": 2,
+      "label": null,
+      "role": "Patient",
+      "question": "For the third defeat described in the passage, who was defeated?",
+      "response": "CM Punk",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "CM Punk",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "Daniel Bryan",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Daniel Bryan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "abc",
+      "ordinal": 0,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "John Cena",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "John Cena",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "Alberto Del Rio",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Alberto Del Rio",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "abc",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "Christian",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Christian",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "Brock Lesnar",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Brock Lesnar",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "abc",
+      "ordinal": 2,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "CM Punk",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "CM Punk",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Agent",
+      "question": "For EVENT C, who defeated the opponent?",
+      "response": "Daniel Bryan",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Daniel Bryan",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "cba",
+      "ordinal": 0,
+      "label": "C",
+      "role": "Patient",
+      "question": "For EVENT C, who was defeated?",
+      "response": "Daniel Bryan",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "John Cena",
+      "category": "same_event_wrong_role",
+      "alias_hits": [
+        [
+          0,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Agent",
+      "question": "For EVENT B, who defeated the opponent?",
+      "response": "Alberto Del Rio",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Alberto Del Rio",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "cba",
+      "ordinal": 1,
+      "label": "B",
+      "role": "Patient",
+      "question": "For EVENT B, who was defeated?",
+      "response": "Christian",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Christian",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          1,
+          "Patient"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Agent",
+      "question": "For EVENT A, who defeated the opponent?",
+      "response": "Brock Lesnar",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "Brock Lesnar",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Agent"
+        ]
+      ]
+    },
+    {
+      "doc_id": "a47c31c471e535181209b87c29e9acb2",
+      "title": "SummerSlam (2013)",
+      "condition": "cba",
+      "ordinal": 2,
+      "label": "A",
+      "role": "Patient",
+      "question": "For EVENT A, who was defeated?",
+      "response": "CM Punk",
+      "model": "qwen7b-mlx-4bit",
+      "protocol_sha256": "b3fa5b50e08f0c937a8d236501aacb568017a62602b29ab8c5610f6f4e143530",
+      "gold_local": "CM Punk",
+      "category": "local_exact",
+      "alias_hits": [
+        [
+          2,
+          "Patient"
+        ]
+      ]
+    }
+  ]
+}

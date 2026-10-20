@@ -1,0 +1,57 @@
+{
+  "canonical_mutation": false,
+  "new_training": false,
+  "protected_seeds_accessed": false,
+  "status": "DISCOVERY_ONLY",
+  "target_role_gates": {
+    "1701": {
+      "score_rmse": {
+        "embedding": 0.13051081100934592,
+        "full_additive": 2.2023750749743263,
+        "identity": 0.053336136424221844,
+        "random": 0.0643594675640824,
+        "wrong_token": 0.05306058058731729
+      },
+      "vector_rmse": {
+        "embedding": 0.15350079491184526,
+        "full_additive": 1.9691327528677232,
+        "identity": 0.1045350827517114,
+        "random": 0.12015659484056378,
+        "wrong_token": 0.10029347904376089
+      }
+    },
+    "1702": {
+      "score_rmse": {
+        "embedding": 0.06555886690534354,
+        "full_additive": 1.2090994709481528,
+        "identity": 0.03925356765890505,
+        "random": 0.04710331226339911,
+        "wrong_token": 0.03908737700771218
+      },
+      "vector_rmse": {
+        "embedding": 0.13995189948489456,
+        "full_additive": 1.5530235757339192,
+        "identity": 0.1091556051977003,
+        "random": 0.1253818621803906,
+        "wrong_token": 0.10541735429584216
+      }
+    },
+    "1703": {
+      "score_rmse": {
+        "embedding": 0.06672734158248743,
+        "full_additive": 1.0333215299594807,
+        "identity": 0.03920360138672233,
+        "random": 0.04558070113663869,
+        "wrong_token": 0.03733090903731416
+      },
+      "vector_rmse": {
+        "embedding": 0.17996510026995277,
+        "full_additive": 1.4427633363090613,
+        "identity": 0.13355079880069357,
+        "random": 0.14552105042016808,
+        "wrong_token": 0.12802304685251323
+      }
+    }
+  },
+  "target_role_token_composition_survives": false
+}

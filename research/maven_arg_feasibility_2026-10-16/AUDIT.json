@@ -1,0 +1,854 @@
+{
+  "archive_sha256": "d535cee2ea29293e5f20339a851be021328197a1b3148dc771510324f7ec53f1",
+  "splits": {
+    "train": {
+      "counts": {
+        "documents": 2913,
+        "documents_entity_only": 326,
+        "documents_four_distinct": 2020,
+        "documents_near": 1980,
+        "documents_near_entity_only": 298,
+        "documents_same_type": 2741,
+        "documents_two_common": 2663,
+        "documents_with_two_events": 2913,
+        "entity_only_pairs": 955,
+        "events": 64923,
+        "four_distinct_single_filler_pairs": 13981,
+        "near_entity_only_pairs": 691,
+        "same_type_pairs": 43263,
+        "trigger_distance_le_1000_pairs": 10369,
+        "trigger_distance_le_2000_pairs": 13090,
+        "trigger_distance_le_500_pairs": 6715,
+        "two_common_filled_roles_pairs": 34379
+      },
+      "top_role_pairs": [
+        {
+          "type": "Causation",
+          "roles": [
+            "Cause",
+            "Result"
+          ],
+          "entity_only": false,
+          "pairs": 1003
+        },
+        {
+          "type": "Attack",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 805
+        },
+        {
+          "type": "Military_operation",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 756
+        },
+        {
+          "type": "Attack",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "entity_only": false,
+          "pairs": 553
+        },
+        {
+          "type": "Military_operation",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "entity_only": false,
+          "pairs": 527
+        },
+        {
+          "type": "Process_start",
+          "roles": [
+            "Location",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 459
+        },
+        {
+          "type": "Motion",
+          "roles": [
+            "Agent",
+            "Location_final"
+          ],
+          "entity_only": false,
+          "pairs": 451
+        },
+        {
+          "type": "Military_operation",
+          "roles": [
+            "Location",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 426
+        },
+        {
+          "type": "Statement",
+          "roles": [
+            "Message",
+            "Speaker"
+          ],
+          "entity_only": false,
+          "pairs": 422
+        },
+        {
+          "type": "Killing",
+          "roles": [
+            "Location",
+            "Victim"
+          ],
+          "entity_only": false,
+          "pairs": 422
+        },
+        {
+          "type": "Process_start",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 365
+        },
+        {
+          "type": "Attack",
+          "roles": [
+            "Location",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 325
+        },
+        {
+          "type": "Conquering",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "entity_only": false,
+          "pairs": 244
+        },
+        {
+          "type": "Damaging",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "entity_only": false,
+          "pairs": 230
+        },
+        {
+          "type": "Conquering",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 226
+        },
+        {
+          "type": "Arriving",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "entity_only": false,
+          "pairs": 223
+        },
+        {
+          "type": "Killing",
+          "roles": [
+            "Killer",
+            "Victim"
+          ],
+          "entity_only": false,
+          "pairs": 222
+        },
+        {
+          "type": "Damaging",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 208
+        },
+        {
+          "type": "Control",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 206
+        },
+        {
+          "type": "Destroying",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 197
+        }
+      ],
+      "validation_sample": []
+    },
+    "valid": {
+      "counts": {
+        "documents": 710,
+        "documents_entity_only": 81,
+        "documents_four_distinct": 485,
+        "documents_near": 476,
+        "documents_near_entity_only": 72,
+        "documents_same_type": 673,
+        "documents_two_common": 652,
+        "documents_with_two_events": 709,
+        "entity_only_pairs": 241,
+        "events": 15556,
+        "four_distinct_single_filler_pairs": 3564,
+        "near_entity_only_pairs": 173,
+        "same_type_pairs": 11473,
+        "trigger_distance_le_1000_pairs": 2494,
+        "trigger_distance_le_2000_pairs": 3224,
+        "trigger_distance_le_500_pairs": 1610,
+        "two_common_filled_roles_pairs": 9332
+      },
+      "top_role_pairs": [
+        {
+          "type": "Military_operation",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 333
+        },
+        {
+          "type": "Causation",
+          "roles": [
+            "Cause",
+            "Result"
+          ],
+          "entity_only": false,
+          "pairs": 248
+        },
+        {
+          "type": "Military_operation",
+          "roles": [
+            "Location",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 222
+        },
+        {
+          "type": "Military_operation",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "entity_only": false,
+          "pairs": 151
+        },
+        {
+          "type": "Attack",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 137
+        },
+        {
+          "type": "Process_start",
+          "roles": [
+            "Location",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 124
+        },
+        {
+          "type": "Killing",
+          "roles": [
+            "Location",
+            "Victim"
+          ],
+          "entity_only": false,
+          "pairs": 115
+        },
+        {
+          "type": "Motion",
+          "roles": [
+            "Agent",
+            "Location_final"
+          ],
+          "entity_only": false,
+          "pairs": 115
+        },
+        {
+          "type": "Attack",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "entity_only": false,
+          "pairs": 105
+        },
+        {
+          "type": "Killing",
+          "roles": [
+            "Killer",
+            "Victim"
+          ],
+          "entity_only": false,
+          "pairs": 101
+        },
+        {
+          "type": "Process_start",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 94
+        },
+        {
+          "type": "Motion",
+          "roles": [
+            "Agent",
+            "Location_original"
+          ],
+          "entity_only": false,
+          "pairs": 79
+        },
+        {
+          "type": "Damaging",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "entity_only": false,
+          "pairs": 73
+        },
+        {
+          "type": "Statement",
+          "roles": [
+            "Message",
+            "Speaker"
+          ],
+          "entity_only": false,
+          "pairs": 72
+        },
+        {
+          "type": "Getting",
+          "roles": [
+            "Agent",
+            "Content"
+          ],
+          "entity_only": false,
+          "pairs": 70
+        },
+        {
+          "type": "Killing",
+          "roles": [
+            "Killer",
+            "Location"
+          ],
+          "entity_only": false,
+          "pairs": 69
+        },
+        {
+          "type": "Attack",
+          "roles": [
+            "Location",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 67
+        },
+        {
+          "type": "Damaging",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 64
+        },
+        {
+          "type": "Control",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "entity_only": false,
+          "pairs": 58
+        },
+        {
+          "type": "Coming_to_be",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "entity_only": false,
+          "pairs": 54
+        }
+      ],
+      "validation_sample": [
+        {
+          "doc_id": "bdd67d7f0c104bae12a816b29fe35568",
+          "title": "Battle of Chaeronea (338 BC)",
+          "event_ids": [
+            "EVENT_6031554585394399c2a92d3b10a607ec",
+            "EVENT_7631f97c3483769f376d04074bfe5618"
+          ],
+          "event_type": "Military_operation",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "argument_keys": [
+            "entity:ENTITY_052d56f886e6df31432e4665ca92eb9a",
+            "text:an alliance of a few southern greek states",
+            "entity:ENTITY_8292ed9dc3714268a1fe1b724c48e6a6",
+            "entity:ENTITY_bcd1ac3499af1ed1a0bab74f74c37904"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 693,
+          "doc_chars": 2574
+        },
+        {
+          "doc_id": "d7a7321dfa01cbaac04c021965d473a7",
+          "title": "Shahin's invasion of Asia Minor (615)",
+          "event_ids": [
+            "EVENT_2c659bf3133792a2cfc9a9fe7b79efd4",
+            "EVENT_9935e110d4a08e264962d15619309231"
+          ],
+          "event_type": "Motion",
+          "roles": [
+            "Location_final",
+            "Location_original"
+          ],
+          "argument_keys": [
+            "entity:ENTITY_a2ddb2470bc0d3fbe3001b068c7e34dd",
+            "entity:ENTITY_1d2439f0cb8f3d17a18db5d8609f082a",
+            "entity:ENTITY_2e0bff46fd79323225b3ccdb62e3ebac",
+            "entity:ENTITY_25dbfcb4dca881000c41bcaae0e8e521"
+          ],
+          "all_entity": true,
+          "trigger_distance_chars": 287,
+          "doc_chars": 1538
+        },
+        {
+          "doc_id": "d2d13817a5d46dba79897f4da6fe9886",
+          "title": "Cold wave of January 1977",
+          "event_ids": [
+            "EVENT_c72be8ab60e73d67ae5fdfd0ea66f8dd",
+            "EVENT_aba74814f678a9946c0a7ada1ae8c686"
+          ],
+          "event_type": "Presence",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "argument_keys": [
+            "text:the cold wave",
+            "entity:ENTITY_b0924082204adb74a3838d76c9e9e80a",
+            "text:one fatality",
+            "entity:ENTITY_0df127d8789c1e24f87445da9207caef"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 749,
+          "doc_chars": 1069
+        },
+        {
+          "doc_id": "738906544571e28339dc65d770584cc5",
+          "title": "Battle of Chosin Reservoir",
+          "event_ids": [
+            "EVENT_b3a32c57ed99d314154837a87fd4e1f8",
+            "EVENT_828c08903f13e0d5c970bedb0c77929f"
+          ],
+          "event_type": "Military_operation",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "argument_keys": [
+            "text:chinese force",
+            "text:ch'ongch'on river",
+            "entity:ENTITY_60b3481b5f23a5cfce95f43dcd72e022",
+            "entity:ENTITY_75f32118e0c7613c717e9009969f2cb5"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 120,
+          "doc_chars": 1846
+        },
+        {
+          "doc_id": "03fac55faf990d71322e748843cd24f1",
+          "title": "2012 Northern Italy earthquakes",
+          "event_ids": [
+            "EVENT_e3d59f310c7805a4935f437ceb1f28b6",
+            "EVENT_d6321d7fc820e037545cf40595aeb37d"
+          ],
+          "event_type": "Death",
+          "roles": [
+            "Agent",
+            "Cause"
+          ],
+          "argument_keys": [
+            "text:27 deaths",
+            "text:2012 emilia earthquakes",
+            "text:twenty deaths",
+            "text:a magnitude 5.8 earthquake"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 631,
+          "doc_chars": 879
+        },
+        {
+          "doc_id": "110bbb25008e53e825d6f3962a97f75f",
+          "title": "Belfast City Hall flag protests",
+          "event_ids": [
+            "EVENT_2dd3d11e94784ae4dc706b4ea4eacdb1",
+            "EVENT_776597903d126befdc643ba3cb721963"
+          ],
+          "event_type": "Attack",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "argument_keys": [
+            "text:protesters",
+            "entity:ENTITY_17cb5a89e9eb737cbf3ebbf5543ec09e",
+            "text:rioters",
+            "entity:ENTITY_cb691aea3a2fb1430a6d6f06da78f4d6"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 271,
+          "doc_chars": 1735
+        },
+        {
+          "doc_id": "c5448bfe1dbfbda9cfd56f14a6e4e351",
+          "title": "Northern Mali conflict",
+          "event_ids": [
+            "EVENT_fd579559af9a4bbd084c2c810285e678",
+            "EVENT_ad21d3c5febd4923eb74345ebcc36b6f"
+          ],
+          "event_type": "Process_start",
+          "roles": [
+            "Location",
+            "Patient"
+          ],
+          "argument_keys": [
+            "text:mali",
+            "text:a presidential election",
+            "entity:ENTITY_d5e6c4cb6b3698e6fe12b11af5ac9c12",
+            "text:imposing strict sharia law"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 785,
+          "doc_chars": 3048
+        },
+        {
+          "doc_id": "287fea65f45f53e20332e9d31137f5c4",
+          "title": "Operation Goodwood (naval)",
+          "event_ids": [
+            "EVENT_d2071fea80e2844f11371fd481a887fc",
+            "EVENT_2099e163b8964ef24e9c18f7c669fb2d"
+          ],
+          "event_type": "Attack",
+          "roles": [
+            "Agent",
+            "Consequence"
+          ],
+          "argument_keys": [
+            "entity:ENTITY_5b6d9f8e0926a4e7e27740b4618fa38e",
+            "text:`` tirpitz '' had been hit by two bombs during the raid on 24 august , but neither caused significant damage",
+            "entity:ENTITY_42869831a0bd9417d350d3b3aa48117f",
+            "text:the battleship was first crippled and then sunk"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 403,
+          "doc_chars": 1613
+        },
+        {
+          "doc_id": "bdcefdba83f4e892963c60e1a0b77c06",
+          "title": "Action of 18 September 1810",
+          "event_ids": [
+            "EVENT_7b0c55aa7b5f252593124431809a65cf",
+            "EVENT_86fce567604744ff8eb9c0889818466d"
+          ],
+          "event_type": "Military_operation",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "argument_keys": [
+            "entity:ENTITY_d42bdfd2989b24829e5df747a8fad31d",
+            "entity:ENTITY_cb929e99d39377ceb1f0de59d33d639c",
+            "entity:ENTITY_5a4527ee23598667c061af2b93b27ddf",
+            "entity:ENTITY_3ba545744d6a443dfb76a925e2acd066"
+          ],
+          "all_entity": true,
+          "trigger_distance_chars": 364,
+          "doc_chars": 2007
+        },
+        {
+          "doc_id": "4f7eafff8fcc1d85715427307371346b",
+          "title": "First Liberian Civil War",
+          "event_ids": [
+            "EVENT_15c02d0c425d2b0585870fceef8c8e12",
+            "EVENT_d5c7c9ba6787baf73ca0526328fc9f3d"
+          ],
+          "event_type": "Change_of_leadership",
+          "roles": [
+            "New_leader",
+            "Old_Occupation"
+          ],
+          "argument_keys": [
+            "entity:ENTITY_4259af1d39de63bb1bcda98f0315eaf0",
+            "text:the elected government",
+            "entity:ENTITY_64695c2ce5232682de4fe9e185c7fb9f",
+            "text:the doe government"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 261,
+          "doc_chars": 1252
+        },
+        {
+          "doc_id": "84f3838bbab0c02534a118e5e9142aaf",
+          "title": "Hurricane Dora",
+          "event_ids": [
+            "EVENT_ab429941846adea962b4f648965de6d2",
+            "EVENT_bb995bb716baa19896f9fea880fd3028"
+          ],
+          "event_type": "Destroying",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "argument_keys": [
+            "text:heavy rainfall",
+            "entity:ENTITY_28419e327be703cd2e3aa1c2e22bca06",
+            "text:hurricane dora",
+            "text:florida"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 313,
+          "doc_chars": 3252
+        },
+        {
+          "doc_id": "14db824727a97831dfcf062ed212d167",
+          "title": "Battle of Harlaw",
+          "event_ids": [
+            "EVENT_dfcb3aba117897751f7edbb745de24b8",
+            "EVENT_c9b09b608b115f833dfcf0b7b5efb849"
+          ],
+          "event_type": "Military_operation",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "argument_keys": [
+            "text:barons of northeast scotland",
+            "text:aberdeenshire",
+            "entity:ENTITY_f3aa9a3ab7a33a727658aa29ea8e9c2f",
+            "entity:ENTITY_666e4f5a342b8faa085ab6f7b433cd64"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 817,
+          "doc_chars": 1637
+        },
+        {
+          "doc_id": "e52bdbc8020e2168af4309a301a5fe4c",
+          "title": "Irish War of Independence",
+          "event_ids": [
+            "EVENT_a5efed417945a9630ef3e7127e5fde79",
+            "EVENT_27c9b31cac6dba5ec4aa542f55528d2a"
+          ],
+          "event_type": "Military_operation",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "argument_keys": [
+            "entity:ENTITY_a4fcc5b11b843dd95180a326ce63a44d",
+            "text:british forces",
+            "text:irish republicans",
+            "text:british rule"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 167,
+          "doc_chars": 4358
+        },
+        {
+          "doc_id": "fe7de48b5bbb4c884e2c360ae40ef5b0",
+          "title": "2014 Indian Federation Cup Final",
+          "event_ids": [
+            "EVENT_65e54e8f055cc6d43a61f47318a5135a",
+            "EVENT_e797f8f28cebf1654bdcbc93ef52919f"
+          ],
+          "event_type": "Competition",
+          "roles": [
+            "Name",
+            "Score"
+          ],
+          "argument_keys": [
+            "text:2014 indian federation cup final",
+            "text:3–1",
+            "text:the 2013–14 season",
+            "text:3–2"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 16,
+          "doc_chars": 1039
+        },
+        {
+          "doc_id": "4813e330fff9090ee5bb57823095637a",
+          "title": "Byzantine–Seljuq wars",
+          "event_ids": [
+            "EVENT_d013b8bde711ce9dff496fd5e669c341",
+            "EVENT_faa308f3103940926301b47f46517000"
+          ],
+          "event_type": "Conquering",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "argument_keys": [
+            "text:turks",
+            "text:byzantine",
+            "text:the seljuq",
+            "text:the muslims"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 567,
+          "doc_chars": 1975
+        },
+        {
+          "doc_id": "a2389d1c76d21f445aa3f28d42821d4e",
+          "title": "Herrin massacre",
+          "event_ids": [
+            "EVENT_47f2b778fbf80da8af3c80645d7b36d2",
+            "EVENT_cf460b618569860441f3453fb2b9dd2c"
+          ],
+          "event_type": "Motion",
+          "roles": [
+            "Agent",
+            "Location_final"
+          ],
+          "argument_keys": [
+            "text:the price of coal",
+            "text:up",
+            "text:strikebreakers",
+            "entity:ENTITY_959c9b7bdcdaee6bd599b0605deebd86"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 376,
+          "doc_chars": 1098
+        },
+        {
+          "doc_id": "88b358abc168c0eaf222d414076685eb",
+          "title": "Spanish American wars of independence",
+          "event_ids": [
+            "EVENT_9b866abc241aaf3e7edc843254ee44e0",
+            "EVENT_24ef2cac88e84ff47c4cc25f617ce5ea"
+          ],
+          "event_type": "Military_operation",
+          "roles": [
+            "Agent",
+            "Location"
+          ],
+          "argument_keys": [
+            "entity:ENTITY_3efa850915975e7ef8566d432cbb7674",
+            "text:spanish america",
+            "text:conservatives",
+            "text:the new republics"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 839,
+          "doc_chars": 3867
+        },
+        {
+          "doc_id": "f605a54c6bdcacdb90cd4bcd09d04087",
+          "title": "Battle of the Chesapeake",
+          "event_ids": [
+            "EVENT_8af354693d7b3b0f4b0d2bf3862f76fe",
+            "EVENT_c267faea397a890e609c3e79299f4b78"
+          ],
+          "event_type": "Military_operation",
+          "roles": [
+            "Agent",
+            "Patient"
+          ],
+          "argument_keys": [
+            "text:british fleet",
+            "text:a french fleet",
+            "entity:ENTITY_56c12db9fdcbf4049d63f8b012b2c005",
+            "entity:ENTITY_5730af04ef30c1169f5e01ff5cfb29ef"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 162,
+          "doc_chars": 2445
+        },
+        {
+          "doc_id": "17342759c70f2ef0265e84aa3c61929c",
+          "title": "Gulf War",
+          "event_ids": [
+            "EVENT_162d9b712d8ecd36d5dd8593f8f94af3",
+            "EVENT_548725d26baa7a36f330b83029b46eb7"
+          ],
+          "event_type": "Process_start",
+          "roles": [
+            "Location",
+            "Patient"
+          ],
+          "argument_keys": [
+            "text:iraqi",
+            "text:the ground campaign",
+            "entity:ENTITY_cea2e403dc00d204fb92ed0d64057b29",
+            "text:the gulf war"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 353,
+          "doc_chars": 2427
+        },
+        {
+          "doc_id": "84f3838bbab0c02534a118e5e9142aaf",
+          "title": "Hurricane Dora",
+          "event_ids": [
+            "EVENT_320776636ab55cec16b37f7141bac9b4",
+            "EVENT_0bf310bc9da4423760e006b461cf3a0b"
+          ],
+          "event_type": "Motion_directional",
+          "roles": [
+            "Agent",
+            "Orientation"
+          ],
+          "argument_keys": [
+            "text:tropical storm dora",
+            "text:northeastward",
+            "text:hurricane dora",
+            "text:westward"
+          ],
+          "all_entity": false,
+          "trigger_distance_chars": 494,
+          "doc_chars": 3252
+        }
+      ]
+    }
+  }
+}

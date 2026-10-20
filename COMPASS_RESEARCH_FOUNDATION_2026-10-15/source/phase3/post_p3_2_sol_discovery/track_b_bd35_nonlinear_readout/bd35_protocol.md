@@ -1,0 +1,7 @@
+# B-D35 frozen discovery protocol: nonlinear access to candidate relation
+
+Status: **discovery only**. Selected after B-D34 found poor held-identity *linear* relation decoding from CUE candidate vectors but much better decoding after contradiction-bearing training.
+
+Use the same B-D34 24 fit and six held ordered identity pairs, all four relation×cue cells per scene, and frozen final normalized candidate vectors. Evaluate CUE step1000/3000, P95 step3000, NO_CUE step3000, and B-D33 CUE→P95 query-frozen and candidate-frozen step3000, both seeds. Fit an RBF support-vector classifier to the relative-event label only, with `gamma = 1 / median squared pairwise distance` estimated from 1024 deterministic sampled fit-vector pairs (NumPy seed 202635, same pair indices for every condition) and **C=1 and C=10** as separately reported fixed capacities. Center features using fit mean; center has no effect on RBF distance. No hyperparameter selection by held outcomes. Report held accuracy, support-vector count, and training accuracy for both capacities. Linear B-D34 readout is the lower-capacity reference.
+
+If CUE nonlinear accuracy is high, relational information may be present but not accessible to the linear scorer; candidate learning could be a geometry/linearization change. If even the nonlinear decoder fails, this still does not prove information is absent. SVC capacity and held-identity transport limit the diagnostic. No protected/confirmation data or canonical mutation.

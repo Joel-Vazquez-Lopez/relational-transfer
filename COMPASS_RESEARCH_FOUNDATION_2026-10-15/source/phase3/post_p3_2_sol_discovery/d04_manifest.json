@@ -1,0 +1,32 @@
+{
+  "diagnostic": "D04",
+  "status": "discovery_only",
+  "selected_after": "D03",
+  "input_hashes_sha256": {
+    "configs/d5_graphs.json": "f34d6c86a218f21ac510d835675e8cd05fee5437b619df1cb60c76bc8e28e931",
+    "results/d5_topology/runs/A_original_clique_hole/seed_1701/checkpoint.pt": "76cdd75799ee44ead9163d0e675784720b9dee9aaacba1cecc2e1ed1eb4d7dde",
+    "results/d5_topology/runs/A_original_clique_hole/seed_1702/checkpoint.pt": "2c383932471aa4e036ddcc156e03c27cc9383bcdc40ffa5a709660d75c47b5ab",
+    "results/d5_topology/runs/A_original_clique_hole/seed_1703/checkpoint.pt": "c679a9aabd4717f58fd79ddbce9482f1531016243867266cd8d074c73a0d091c",
+    "results/d5_topology/runs/B_relocated_clique_hole/seed_1701/checkpoint.pt": "76528ff791b808219153752b4af5025341915782baeef8f0991e461ecc85892b",
+    "results/d5_topology/runs/B_relocated_clique_hole/seed_1702/checkpoint.pt": "fa334d26813357b5cd57e51d9af338e28a233fa7d83c1c34e86b57f0ed0ef6c8",
+    "results/d5_topology/runs/B_relocated_clique_hole/seed_1703/checkpoint.pt": "55583175d540db4283c54ac96cea35a68daad97b4875e1062a4c17233a2bba7a",
+    "results/d5_topology/runs/C_degree_balanced_matching_holes/seed_1701/checkpoint.pt": "acb35f36cd593846334e1211fa4769d91760da2ca1a0d7b7c62bd5c36a2bb614",
+    "results/d5_topology/runs/C_degree_balanced_matching_holes/seed_1702/checkpoint.pt": "d206146a2438f465a95a26cfe9b3b303234d385a442af47f843297768ecd83b1",
+    "results/d5_topology/runs/C_degree_balanced_matching_holes/seed_1703/checkpoint.pt": "f7fb70678bc6b28deaac8619d40c689e1afc345c3d3a12d80e1cdad601a4ee31",
+    "results/d5_topology/runs/D_path_connectivity_swap/seed_1701/checkpoint.pt": "248a9850b06223a61393e88d02522630c744d814ed1a5ccda8bbfac165e09144",
+    "results/d5_topology/runs/D_path_connectivity_swap/seed_1702/checkpoint.pt": "d73e78b592fc396978492da7dcf8fba6c205fb66f1bf877d694189c1481cf8e2",
+    "results/d5_topology/runs/D_path_connectivity_swap/seed_1703/checkpoint.pt": "50f1815a900fa308c7ab5274f91baf3272bf691da84586973d1c740c31fd06eb"
+  },
+  "script_sha256": "dc5c4be76b0cbd36d971bba859a77a806bd830d191cda0439ee4ed29e1ab1e9a",
+  "output_hashes_sha256": {
+    "d04_pairs.csv": "c64bf45d85614561e8d310472cab1d5bd34448d0b968d0b2330c3565565fb285",
+    "d04_summary.csv": "115af18de4509e76a9f0672cdece29af3533deaf3da4b0e950fe280d3ef7075a",
+    "d04_review.json": "09eff8f914cc1253ad9093618e0b7f9b30a42121f0fa44d9b03f833188c067d6",
+    "d04_cd_review.json": "7a778de223b7abaf198b97cfc74c0958eba1591d1e4012cf18bec03e40d5c936"
+  },
+  "row_count": 360,
+  "summary_count": 60,
+  "protected_seeds_accessed": false,
+  "posthoc_review_script_sha256": "de9fa18783a5ea72dcc2ab3e3444df344a8da2885c8f7edfdbaf40f3d83643c0",
+  "cd_review_script_sha256": "eb486f808eeb00a5c1531cb317cfd6eb8f8e74f816d49a4515ca666efd63b868"
+}

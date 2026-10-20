@@ -1,0 +1,110 @@
+{
+  "protocol_sha256": "8dfb1ce31331cc1b337dfa72bccbd718281d815a9e25c9a121daeca8060cf9b1",
+  "raw_sha256": "04f6fb370d5c20caafd4fee2efe05a5b7e7ba5a2d355e4cb3aecfe552e9cd95b",
+  "n_documents": 5,
+  "n_role_cells": 10,
+  "strict_document_successes": 4,
+  "patched_second_exact": 9,
+  "by_document": [
+    {
+      "title": "Bad Blood (2004)",
+      "roles": {
+        "Agent": {
+          "unpatched_first": true,
+          "direct_second": true,
+          "patched_second": true,
+          "event_control_first": true,
+          "identity_control_first": true
+        },
+        "Patient": {
+          "unpatched_first": true,
+          "direct_second": true,
+          "patched_second": false,
+          "event_control_first": true,
+          "identity_control_first": true
+        }
+      },
+      "strict_success": false
+    },
+    {
+      "title": "Genesis (2005)",
+      "roles": {
+        "Agent": {
+          "unpatched_first": true,
+          "direct_second": true,
+          "patched_second": true,
+          "event_control_first": true,
+          "identity_control_first": true
+        },
+        "Patient": {
+          "unpatched_first": true,
+          "direct_second": true,
+          "patched_second": true,
+          "event_control_first": true,
+          "identity_control_first": true
+        }
+      },
+      "strict_success": true
+    },
+    {
+      "title": "Turning Point (2005 wrestling)",
+      "roles": {
+        "Agent": {
+          "unpatched_first": true,
+          "direct_second": true,
+          "patched_second": true,
+          "event_control_first": true,
+          "identity_control_first": true
+        },
+        "Patient": {
+          "unpatched_first": true,
+          "direct_second": true,
+          "patched_second": true,
+          "event_control_first": true,
+          "identity_control_first": true
+        }
+      },
+      "strict_success": true
+    },
+    {
+      "title": "WrestleMania 29",
+      "roles": {
+        "Agent": {
+          "unpatched_first": true,
+          "direct_second": true,
+          "patched_second": true,
+          "event_control_first": true,
+          "identity_control_first": true
+        },
+        "Patient": {
+          "unpatched_first": true,
+          "direct_second": true,
+          "patched_second": true,
+          "event_control_first": true,
+          "identity_control_first": true
+        }
+      },
+      "strict_success": true
+    },
+    {
+      "title": "WrestleMania 32",
+      "roles": {
+        "Agent": {
+          "unpatched_first": true,
+          "direct_second": true,
+          "patched_second": true,
+          "event_control_first": true,
+          "identity_control_first": true
+        },
+        "Patient": {
+          "unpatched_first": true,
+          "direct_second": true,
+          "patched_second": true,
+          "event_control_first": true,
+          "identity_control_first": true
+        }
+      },
+      "strict_success": true
+    }
+  ]
+}

@@ -1,0 +1,775 @@
+{
+  "status": "source_only_exact_id_join_not_human_gold",
+  "split": "valid",
+  "fact_sha256": "396fcf0779b67f0229f2cdaad4df0771682d9238a94b082d61659059b8dc7cff",
+  "maven_arg_zip_sha256": "d535cee2ea29293e5f20339a851be021328197a1b3148dc771510324f7ec53f1",
+  "fact_documents": 710,
+  "arg_documents": 710,
+  "document_id_overlap": 710,
+  "exact_text_matches": 710,
+  "fact_event_chains_in_joined_docs": 16301,
+  "exact_event_id_overlaps": 15405,
+  "fact_mentions_in_overlapping_event_chains": 16838,
+  "exact_mention_id_overlaps": 16811,
+  "mention_factuality_codes": {
+    "CT-": 368,
+    "PS+": 418,
+    "CT+": 15986,
+    "Uu": 16,
+    "PS-": 50
+  },
+  "event_chains_containing_code": {
+    "CT-": 362,
+    "PS+": 414,
+    "CT+": 14582,
+    "Uu": 16,
+    "PS-": 49
+  },
+  "two_role_event_chains_containing_code": {
+    "CT-": 22,
+    "CT+": 746,
+    "PS-": 6,
+    "PS+": 18,
+    "Uu": 1
+  },
+  "mixed_factuality_chains": [
+    {
+      "doc_id": "a2ef12d399e30291e070dd0d5944c8dd",
+      "title": "Irish Rebellion of 1641",
+      "event_id": "EVENT_8c1edd7ea1706de457f6e4887a95a2eb",
+      "event_type": "Control",
+      "codes": [
+        "CT-",
+        "PS+"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "1f6a36ba1e4954b33f19a53c34b02205",
+          "trigger": "control",
+          "code": "PS+",
+          "evidence": [
+            "tried"
+          ]
+        },
+        {
+          "id": "7db3727fda80f6fb9073695aa0e831bf",
+          "trigger": "control",
+          "code": "CT-",
+          "evidence": [
+            "free",
+            "from"
+          ]
+        }
+      ]
+    },
+    {
+      "doc_id": "9587001ed813d62160a6aaeff573f5a8",
+      "title": "Battle of Sudoměř",
+      "event_id": "EVENT_f833a581d7cd5abdfcd558b50141c88c",
+      "event_type": "Escaping",
+      "codes": [
+        "CT+",
+        "PS+"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "0419cfd2d7241b0043861d3d67dd19c1",
+          "trigger": "escape",
+          "code": "PS+",
+          "evidence": [
+            "were",
+            "able",
+            "to"
+          ]
+        },
+        {
+          "id": "247af99e973b066796d823d0f8ef31b8",
+          "trigger": "escape",
+          "code": "CT+",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "765e6da580c1927afe85e5a7d5a821a6",
+      "title": "1969 Gujarat riots",
+      "event_id": "EVENT_9d99e71ba2ae0847a7ab093ba2ccf246",
+      "event_type": "Attack",
+      "codes": [
+        "CT+",
+        "CT-"
+      ],
+      "two_role": true,
+      "mentions": [
+        {
+          "id": "815f384f7da2f0818342520349074f21",
+          "trigger": "violence",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "651b32cb02d309c3a2120f81a2632c2d",
+          "trigger": "violence",
+          "code": "CT-",
+          "evidence": null
+        },
+        {
+          "id": "33eb1649e2f77dfa6954b5b61187a3f3",
+          "trigger": "violence",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "081998fda7139623ac79dcf07d56bf88",
+          "trigger": "riots",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "b5dd87817a596e6ff013d361971890ce",
+          "trigger": "violence",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "b61eef64849447d87a5750950922528b",
+          "trigger": "violence",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "c16495230a67d8f19514876946e65e99",
+          "trigger": "violence",
+          "code": "CT+",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "368aeb46a2a41a773d995ddc68dd2772",
+      "title": "Minnesota State Fair",
+      "event_id": "EVENT_8878824fd6b8651589373300c1184dd2",
+      "event_type": "Social_event",
+      "codes": [
+        "CT+",
+        "CT-"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "6ab49377131061df21e9a09be1a2666f",
+          "trigger": "Fair",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "4d25d67b27417af1edc58a32cb2405a1",
+          "trigger": "fair",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "6b17c888e7e27a353759496458e5db84",
+          "trigger": "fair",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "ed56a382885d1ee3842df6cee9f0f58b",
+          "trigger": "fair",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "60835c63eaa1c0c5da3359ce85949526",
+          "trigger": "Fair",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "2e3e10a15ca8a1a13d2aab5de48bb617",
+          "trigger": "fair",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "1f30ed130451ea6b8b5114a325b73cac",
+          "trigger": "fair",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "a02fddbb5a5c2b1f8405665c57fadd6b",
+          "trigger": "Fair",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "afb272cd34851ffd67360aec943cad27",
+          "trigger": "Fair",
+          "code": "CT-",
+          "evidence": null
+        },
+        {
+          "id": "c72d0aed547ab949ac036519e14ead45",
+          "trigger": "Fair",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "be86359bee1b675f8a1f614db6cebafc",
+          "trigger": "fair",
+          "code": "CT+",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "4d8a833211986d60ef0f5fad426569d1",
+      "title": "1997 Men's World Ice Hockey Championships",
+      "event_id": "EVENT_be8733d7d4e4ceb2de45e087bfcdda24",
+      "event_type": "Competition",
+      "codes": [
+        "CT+",
+        "PS+"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "dffb07c08c0f31bb3f77d49dab1faef9",
+          "trigger": "competition",
+          "code": "PS+",
+          "evidence": null
+        },
+        {
+          "id": "b4308c8ff924f21e390485558715cd86",
+          "trigger": "competition",
+          "code": "CT+",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "6accf21378acd7ed56a5861092f99fc8",
+      "title": "Fountain Valley massacre",
+      "event_id": "EVENT_4cbca00c47119dff6e76a85198fbd03b",
+      "event_type": "Robbery",
+      "codes": [
+        "CT+",
+        "CT-"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "00a0d4aca85461f6db1c290beca11037",
+          "trigger": "robbery",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "569b612919bda571a97f25e10ff81611",
+          "trigger": "robbery",
+          "code": "CT-",
+          "evidence": null
+        },
+        {
+          "id": "5993d80af3ca34cf0eeeda5d35922258",
+          "trigger": "robbery",
+          "code": "CT+",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "7c633ba4e7385d20300625dae21777ba",
+      "title": "1940 Louisiana hurricane",
+      "event_id": "EVENT_d4622adc7945385f065f64bd902890b1",
+      "event_type": "Catastrophe",
+      "codes": [
+        "CT+",
+        "PS+"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "e42088c6c73ddb9e20b61d591069be64",
+          "trigger": "hurricane",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "a9369d20a556715d7f7a646e1e64570d",
+          "trigger": "storm",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "80c6a5e59b442827b10e3ad8f2ebeb26",
+          "trigger": "storm",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "b378e77a3b6382cad3830318c55de04a",
+          "trigger": "storm",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "cff4ba68c28e23f006626609b94b38c8",
+          "trigger": "hurricane",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "2f0b9bdde23ba075a6e5a484a3c533f9",
+          "trigger": "storm",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "f1ecdb44daf9de36dbaa7c68ba83da62",
+          "trigger": "storm",
+          "code": "PS+",
+          "evidence": [
+            "prior"
+          ]
+        },
+        {
+          "id": "9078de44ec0ad7b894ba003c5213e8ba",
+          "trigger": "hurricane",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "b8473f218989710a2f28cb8479142e9b",
+          "trigger": "hurricane",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "8f6dd31dfe49f47b1550fe9b33302ae1",
+          "trigger": "storm",
+          "code": "CT+",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "aa15eccc543ca7f1bdca16efb7e880ea",
+      "title": "Air France Flight 1611",
+      "event_id": "EVENT_c0274e05a83f9442231d03c3099f68fb",
+      "event_type": "Destroying",
+      "codes": [
+        "CT-",
+        "PS+"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "42e1fecb02e6301f427f5224d62f0b1d",
+          "trigger": "strike",
+          "code": "PS+",
+          "evidence": [
+            "theory"
+          ]
+        },
+        {
+          "id": "fb6da2e3fd6585b4bc58ff53374caeac",
+          "trigger": "strike",
+          "code": "CT-",
+          "evidence": [
+            "rejected"
+          ]
+        }
+      ]
+    },
+    {
+      "doc_id": "96e86414e1ba12dc2b1ca71d855ffdb5",
+      "title": "Defence of the Reich",
+      "event_id": "EVENT_57bc7a9e8decdfe0eb68577847fa6b9e",
+      "event_type": "Attack",
+      "codes": [
+        "CT+",
+        "PS+"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "9b304eabd5c0145d74f9c1d5b6299ad5",
+          "trigger": "attacks",
+          "code": "PS+",
+          "evidence": [
+            "enabled",
+            "mount"
+          ]
+        },
+        {
+          "id": "80e94a87861502f3e9eccb27cb8d024a",
+          "trigger": "attacks",
+          "code": "CT+",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "d7a7321dfa01cbaac04c021965d473a7",
+      "title": "Shahin's invasion of Asia Minor (615)",
+      "event_id": "EVENT_fd5d7f6905aaf2f0b2ce1f18666ff9f6",
+      "event_type": "Choosing",
+      "codes": [
+        "PS+",
+        "PS-"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "e7ff7aa66c2c6d1c2985f66158d12f97",
+          "trigger": "choose",
+          "code": "PS-",
+          "evidence": [
+            "allow"
+          ]
+        },
+        {
+          "id": "0304f3cc9ee3616612acd1825eb0cff4",
+          "trigger": "choose",
+          "code": "PS+",
+          "evidence": [
+            "allow"
+          ]
+        }
+      ]
+    },
+    {
+      "doc_id": "a38a7e9f2d3cda18f1faaa816a19172e",
+      "title": "2012 Kentucky Derby",
+      "event_id": "EVENT_591cab7d6d2a65bd2c6abd757c89fc10",
+      "event_type": "Competition",
+      "codes": [
+        "CT+",
+        "CT-"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "d4ae3a04d56cac58013cb75ece681b3f",
+          "trigger": "race",
+          "code": "CT-",
+          "evidence": null
+        },
+        {
+          "id": "4718073fad40fc6d969252bef3f60be2",
+          "trigger": "race",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "8a7c74fa2ca4456c86b578146241f919",
+          "trigger": "race",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "7d68fc090e7df0752347dd559fdc1139",
+          "trigger": "race",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "e2dfa0823fc6cf599e7acf70dd235f52",
+          "trigger": "race",
+          "code": "CT+",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "28bd77edc71c639978716e6c58f7b691",
+      "title": "1919 Polish coup d'état attempt in Lithuania",
+      "event_id": "EVENT_ce6a3a66687cf4db8aa2b924600146f8",
+      "event_type": "Change_of_leadership",
+      "codes": [
+        "CT+",
+        "PS+"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "df78801c881a1b78e517388bb4124059",
+          "trigger": "coup",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "670c7233b3479ab15febe7c86c8c6cdf",
+          "trigger": "coup",
+          "code": "PS+",
+          "evidence": null
+        },
+        {
+          "id": "d7f6a89ca817253d0a94cf073f9cbb13",
+          "trigger": "coup",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "a11b10a439b8be6214aacf5ed8d7d174",
+          "trigger": "coup",
+          "code": "CT+",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "cddcdadb2cb27bd6f70473dba1ac1e71",
+      "title": "White House Farm murders",
+      "event_id": "EVENT_d2061951f6a8af226dce44f83bd284b2",
+      "event_type": "Warning",
+      "codes": [
+        "CT+",
+        "PS+"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "0150487f348ef73c1d456abc93771a62",
+          "trigger": "alerted",
+          "code": "PS+",
+          "evidence": [
+            "said"
+          ]
+        },
+        {
+          "id": "77608917d160a18c8afc56c897d7d0cb",
+          "trigger": "alerted",
+          "code": "CT+",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "39c32614a569907f4cf8875676b2fc97",
+      "title": "Khojaly Massacre",
+      "event_id": "EVENT_7685ac7c9d3033c96e57773e8f08e08a",
+      "event_type": "Killing",
+      "codes": [
+        "CT+",
+        "CT-"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "bb649c1e6eb7b714f5ddb3886160c1a3",
+          "trigger": "Massacre",
+          "code": "CT-",
+          "evidence": null
+        },
+        {
+          "id": "0ba2e9d06cd22198562b2fb81fa701a8",
+          "trigger": "tragedy",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "4a6acb23d4c9c26a790dd08a9425e658",
+          "trigger": "killing",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "eab0b2a6973512983fb9a9a99119f432",
+          "trigger": "massacre",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "d46fdc2af1a9b43852d10825e6a60724",
+          "trigger": "massacre",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "b18b7fcfbb267b24619b28cf4c8b5856",
+          "trigger": "massacre",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "12aea3153d2549dc40e79e947304e989",
+          "trigger": "tragedy",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "012ffc8a65ac744d9f4ce8f5169c796c",
+          "trigger": "Battle",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "87ff60592f91f4c3b3affd471014c6aa",
+          "trigger": "massacre",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "f9478a1a7b7170e534d1d1a6e13071f3",
+          "trigger": "genocide",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "41b4312e9463e9758c724231f4d2786a",
+          "trigger": "tragedy",
+          "code": "CT+",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "8ec1843d29c3c0684ce2b29060ee424e",
+      "title": "Operation Market Garden",
+      "event_id": "EVENT_aaab3ec017aca4a6ca31aabc5c948d2f",
+      "event_type": "Cause_change_of_strength",
+      "codes": [
+        "CT+",
+        "PS+"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "02532fac1e88cbc6b0c6b23df611d041",
+          "trigger": "consolidate",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "87575e3d375175d571c8d8a1fef2b832",
+          "trigger": "consolidate",
+          "code": "PS+",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "8ec1843d29c3c0684ce2b29060ee424e",
+      "title": "Operation Market Garden",
+      "event_id": "EVENT_a4ccefaa4735fbfdb75900dd62f15e48",
+      "event_type": "Creating",
+      "codes": [
+        "CT+",
+        "CT-"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "69c00ed28f03bfb9f847efece20eaef1",
+          "trigger": "create",
+          "code": "CT-",
+          "evidence": [
+            "failed"
+          ]
+        },
+        {
+          "id": "68fb2a602377bc407b2119b559a37844",
+          "trigger": "creating",
+          "code": "CT+",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "b74e4f1be7100b35ce348dd2bd34ad5c",
+      "title": "Gunfight at the O.K. Corral",
+      "event_id": "EVENT_40245e5ccaa54f98d3fbfdd2d910ac0a",
+      "event_type": "Hostile_encounter",
+      "codes": [
+        "CT+",
+        "CT-"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "fae01a1df79483fce25b0f2fd6e26be9",
+          "trigger": "conflict",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "bb2a4faafe2c60d7f51aed78dbc6b52d",
+          "trigger": "conflict",
+          "code": "CT-",
+          "evidence": null
+        }
+      ]
+    },
+    {
+      "doc_id": "98510cc5ce1776095d131caf027de33f",
+      "title": "2009 Bronx terrorism plot",
+      "event_id": "EVENT_a62b3e2364372d9cccb8b4bffacbb76c",
+      "event_type": "Change",
+      "codes": [
+        "CT+",
+        "CT-"
+      ],
+      "two_role": false,
+      "mentions": [
+        {
+          "id": "99f168e84acc37bf9932d31f065b9eab",
+          "trigger": "overturn",
+          "code": "CT+",
+          "evidence": null
+        },
+        {
+          "id": "0f4bd87641237b1e9789c6638e2c3688",
+          "trigger": "overturned",
+          "code": "CT-",
+          "evidence": [
+            "rejected"
+          ]
+        }
+      ]
+    }
+  ],
+  "same_type_four_distinct_role_pair_codes": {
+    "CT+ | CT+": 55,
+    "CT+ | PS+": 2
+  },
+  "same_type_four_distinct_role_pair_document_counts": {
+    "CT+ | CT+": 27,
+    "CT+ | PS+": 2
+  },
+  "non_CT_plus_pair_examples": [
+    {
+      "doc_id": "36f022acee96ba0a96ed6ccac5834e47",
+      "title": "Battle of Rastatt (1796)",
+      "event_type": "Military_operation",
+      "codes": "CT+ | PS+",
+      "event_ids": [
+        "EVENT_0a788365cd653b406e9343069db8009e",
+        "EVENT_55ff286494dba0f4526123b6dc98956e"
+      ],
+      "triggers": [
+        "invasion",
+        "Battle"
+      ]
+    },
+    {
+      "doc_id": "4d79690291c4ab2f22e4c05077ffa68c",
+      "title": "German invasion of Belgium",
+      "event_type": "Attack",
+      "codes": "CT+ | PS+",
+      "event_ids": [
+        "EVENT_c9bf7422d8266466918d90d403ea453f",
+        "EVENT_9a4fc5aac6ef4551af61b36539d66273"
+      ],
+      "triggers": [
+        "attacked",
+        "invade"
+      ]
+    }
+  ]
+}

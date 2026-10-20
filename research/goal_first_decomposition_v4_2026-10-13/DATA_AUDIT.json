@@ -1,0 +1,45 @@
+{
+  "old_signatures_excluded": 19600,
+  "splits": {
+    "train": {
+      "n": 6000,
+      "patterns": {
+        "FF": 3000,
+        "RR": 3000
+      },
+      "answer_in_question": 0,
+      "first_fact_actor_correct": 744,
+      "first_fact_patient_correct": 763
+    },
+    "development": {
+      "n": 400,
+      "patterns": {
+        "FF": 200,
+        "RR": 200
+      },
+      "answer_in_question": 0,
+      "first_fact_actor_correct": 62,
+      "first_fact_patient_correct": 57
+    },
+    "in_domain_test": {
+      "n": 400,
+      "patterns": {
+        "FF": 200,
+        "RR": 200
+      },
+      "answer_in_question": 0,
+      "first_fact_actor_correct": 53,
+      "first_fact_patient_correct": 50
+    },
+    "mixed_test": {
+      "n": 400,
+      "patterns": {
+        "FR": 200,
+        "RF": 200
+      },
+      "answer_in_question": 0,
+      "first_fact_actor_correct": 57,
+      "first_fact_patient_correct": 61
+    }
+  }
+}

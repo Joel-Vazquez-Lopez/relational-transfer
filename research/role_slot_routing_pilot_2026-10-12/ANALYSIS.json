@@ -1,0 +1,212 @@
+{
+  "protocol_sha256": "c3725a19885f0aea2ba2278ea1801069bc8b5dfb40dafd352d8718d447f73410",
+  "summary": {
+    "fresh1_answer_first": {
+      "forms": {
+        "active": {
+          "crossed_joint": 19,
+          "novel_joint": 15,
+          "all_five": 14,
+          "actor_did": 32,
+          "patient_verb": 23,
+          "actor_carried": 27,
+          "patient_which": 24
+        },
+        "passive": {
+          "crossed_joint": 0,
+          "novel_joint": 0,
+          "all_five": 0,
+          "actor_did": 34,
+          "patient_verb": 1,
+          "actor_carried": 36,
+          "patient_which": 0
+        },
+        "subject_cleft": {
+          "crossed_joint": 22,
+          "novel_joint": 17,
+          "all_five": 17,
+          "actor_did": 35,
+          "patient_verb": 23,
+          "actor_carried": 35,
+          "patient_which": 18
+        },
+        "object_cleft": {
+          "crossed_joint": 6,
+          "novel_joint": 5,
+          "all_five": 3,
+          "actor_did": 27,
+          "patient_verb": 14,
+          "actor_carried": 21,
+          "patient_which": 17
+        }
+      },
+      "primary_crossed_joint": 28,
+      "novel_joint": 37,
+      "all_five": 34,
+      "valid_answers": 720,
+      "slot_joint_predictions": 599,
+      "answer_consistent_with_slots": 598,
+      "target_tokens": 8640,
+      "elapsed_seconds": 173.625103458995
+    },
+    "fresh1_slot_first": {
+      "forms": {
+        "active": {
+          "crossed_joint": 33,
+          "novel_joint": 30,
+          "all_five": 30,
+          "actor_did": 34,
+          "patient_verb": 34,
+          "actor_carried": 32,
+          "patient_which": 32
+        },
+        "passive": {
+          "crossed_joint": 14,
+          "novel_joint": 16,
+          "all_five": 12,
+          "actor_did": 35,
+          "patient_verb": 15,
+          "actor_carried": 36,
+          "patient_which": 16
+        },
+        "subject_cleft": {
+          "crossed_joint": 33,
+          "novel_joint": 29,
+          "all_five": 29,
+          "actor_did": 35,
+          "patient_verb": 33,
+          "actor_carried": 35,
+          "patient_which": 29
+        },
+        "object_cleft": {
+          "crossed_joint": 30,
+          "novel_joint": 31,
+          "all_five": 29,
+          "actor_did": 30,
+          "patient_verb": 35,
+          "actor_carried": 31,
+          "patient_which": 35
+        }
+      },
+      "primary_crossed_joint": 77,
+      "novel_joint": 106,
+      "all_five": 100,
+      "valid_answers": 720,
+      "slot_joint_predictions": 666,
+      "answer_consistent_with_slots": 673,
+      "target_tokens": 8640,
+      "elapsed_seconds": 163.7650346669834
+    },
+    "fresh3_answer_first": {
+      "forms": {
+        "active": {
+          "crossed_joint": 19,
+          "novel_joint": 16,
+          "all_five": 13,
+          "actor_did": 26,
+          "patient_verb": 28,
+          "actor_carried": 23,
+          "patient_which": 28
+        },
+        "passive": {
+          "crossed_joint": 1,
+          "novel_joint": 1,
+          "all_five": 0,
+          "actor_did": 34,
+          "patient_verb": 2,
+          "actor_carried": 36,
+          "patient_which": 1
+        },
+        "subject_cleft": {
+          "crossed_joint": 21,
+          "novel_joint": 16,
+          "all_five": 15,
+          "actor_did": 34,
+          "patient_verb": 23,
+          "actor_carried": 35,
+          "patient_which": 17
+        },
+        "object_cleft": {
+          "crossed_joint": 9,
+          "novel_joint": 2,
+          "all_five": 1,
+          "actor_did": 28,
+          "patient_verb": 15,
+          "actor_carried": 20,
+          "patient_which": 16
+        }
+      },
+      "primary_crossed_joint": 31,
+      "novel_joint": 35,
+      "all_five": 29,
+      "valid_answers": 720,
+      "slot_joint_predictions": 569,
+      "answer_consistent_with_slots": 595,
+      "target_tokens": 8640,
+      "elapsed_seconds": 164.80953133408912
+    },
+    "fresh3_slot_first": {
+      "forms": {
+        "active": {
+          "crossed_joint": 32,
+          "novel_joint": 30,
+          "all_five": 29,
+          "actor_did": 32,
+          "patient_verb": 33,
+          "actor_carried": 31,
+          "patient_which": 31
+        },
+        "passive": {
+          "crossed_joint": 14,
+          "novel_joint": 13,
+          "all_five": 10,
+          "actor_did": 33,
+          "patient_verb": 15,
+          "actor_carried": 36,
+          "patient_which": 13
+        },
+        "subject_cleft": {
+          "crossed_joint": 31,
+          "novel_joint": 28,
+          "all_five": 28,
+          "actor_did": 35,
+          "patient_verb": 31,
+          "actor_carried": 35,
+          "patient_which": 28
+        },
+        "object_cleft": {
+          "crossed_joint": 27,
+          "novel_joint": 30,
+          "all_five": 26,
+          "actor_did": 28,
+          "patient_verb": 32,
+          "actor_carried": 30,
+          "patient_which": 34
+        }
+      },
+      "primary_crossed_joint": 72,
+      "novel_joint": 101,
+      "all_five": 93,
+      "valid_answers": 719,
+      "slot_joint_predictions": 652,
+      "answer_consistent_with_slots": 665,
+      "target_tokens": 8640,
+      "elapsed_seconds": 167.35419850004837
+    }
+  },
+  "screen": {
+    "fresh1": {
+      "crossed_joint_gain": 49,
+      "active_joint_gain": 14,
+      "object_cleft_joint_gain": 24,
+      "pass": true
+    },
+    "fresh3": {
+      "crossed_joint_gain": 41,
+      "active_joint_gain": 13,
+      "object_cleft_joint_gain": 18,
+      "pass": true
+    }
+  },
+  "positive_pilot": true
+}

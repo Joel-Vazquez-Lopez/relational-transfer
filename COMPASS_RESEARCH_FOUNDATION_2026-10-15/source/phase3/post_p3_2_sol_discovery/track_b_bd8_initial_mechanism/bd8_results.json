@@ -1,0 +1,134 @@
+{
+  "canonical_mutation": false,
+  "models": [
+    {
+      "b4": {
+        "source": {
+          "alt_query_score_effect_mean": 0.01292435172945261,
+          "attention_only_directed_fraction": -0.007277354598045349,
+          "block0_changed_token_contrast_mean": 1.9698649644851685,
+          "changed_token_patch_directed_fraction": 0.2613109350204468,
+          "final_vector_contrast_mean": 0.23631589114665985,
+          "value_only_directed_fraction": 0.3868483603000641
+        },
+        "target": {
+          "alt_query_score_effect_mean": -0.0029372747521847486,
+          "attention_only_directed_fraction": -0.008131086826324463,
+          "block0_changed_token_contrast_mean": 2.0704314708709717,
+          "changed_token_patch_directed_fraction": 0.24026376008987427,
+          "final_vector_contrast_mean": 0.29187026619911194,
+          "value_only_directed_fraction": 0.3564913272857666
+        }
+      },
+      "b7": {
+        "source": {
+          "actual_score_shift_mean": 0.01587775908410549,
+          "full_additive_score_rmse": 0.06733644753694534,
+          "full_additive_vector_rmse": 0.04719848185777664,
+          "identity_score_rmse": 0.14587518572807312,
+          "identity_vector_rmse": 0.2334732562303543,
+          "token_score_rmse": 0.16092902421951294,
+          "token_vector_rmse": 0.1968364417552948
+        },
+        "target": {
+          "actual_score_shift_mean": -0.03335198387503624,
+          "full_additive_score_rmse": 0.03664742410182953,
+          "full_additive_vector_rmse": 0.023160681128501892,
+          "identity_score_rmse": 0.21971923112869263,
+          "identity_vector_rmse": 0.30741164088249207,
+          "token_score_rmse": 0.25391533970832825,
+          "token_vector_rmse": 0.2660314738750458
+        }
+      },
+      "input_embedding_delta_norm": 1.5805330276489258,
+      "seed": 1701
+    },
+    {
+      "b4": {
+        "source": {
+          "alt_query_score_effect_mean": -0.402876615524292,
+          "attention_only_directed_fraction": 0.03358471021056175,
+          "block0_changed_token_contrast_mean": 1.6664127111434937,
+          "changed_token_patch_directed_fraction": 0.2163664847612381,
+          "final_vector_contrast_mean": 0.2381669282913208,
+          "value_only_directed_fraction": 0.3983815610408783
+        },
+        "target": {
+          "alt_query_score_effect_mean": -0.4596937596797943,
+          "attention_only_directed_fraction": 0.02503223903477192,
+          "block0_changed_token_contrast_mean": 1.73191499710083,
+          "changed_token_patch_directed_fraction": 0.1707891821861267,
+          "final_vector_contrast_mean": 0.3034297227859497,
+          "value_only_directed_fraction": 0.35652148723602295
+        }
+      },
+      "b7": {
+        "source": {
+          "actual_score_shift_mean": -0.2570849359035492,
+          "full_additive_score_rmse": 0.13922293484210968,
+          "full_additive_vector_rmse": 0.07511166483163834,
+          "identity_score_rmse": 0.3697868883609772,
+          "identity_vector_rmse": 0.21601572632789612,
+          "token_score_rmse": 0.239349365234375,
+          "token_vector_rmse": 0.19066114723682404
+        },
+        "target": {
+          "actual_score_shift_mean": -0.30493879318237305,
+          "full_additive_score_rmse": 0.03831598907709122,
+          "full_additive_vector_rmse": 0.04382555931806564,
+          "identity_score_rmse": 0.4488702118396759,
+          "identity_vector_rmse": 0.3137153685092926,
+          "token_score_rmse": 0.3297722339630127,
+          "token_vector_rmse": 0.2866719961166382
+        }
+      },
+      "input_embedding_delta_norm": 1.4931408166885376,
+      "seed": 1702
+    },
+    {
+      "b4": {
+        "source": {
+          "alt_query_score_effect_mean": 0.03632355481386185,
+          "attention_only_directed_fraction": 0.0037420548032969236,
+          "block0_changed_token_contrast_mean": 1.6643253564834595,
+          "changed_token_patch_directed_fraction": 0.2671627104282379,
+          "final_vector_contrast_mean": 0.19609831273555756,
+          "value_only_directed_fraction": 0.35958895087242126
+        },
+        "target": {
+          "alt_query_score_effect_mean": 0.04269154742360115,
+          "attention_only_directed_fraction": 0.012976250611245632,
+          "block0_changed_token_contrast_mean": 1.7152646780014038,
+          "changed_token_patch_directed_fraction": 0.23305851221084595,
+          "final_vector_contrast_mean": 0.24256686866283417,
+          "value_only_directed_fraction": 0.32382845878601074
+        }
+      },
+      "b7": {
+        "source": {
+          "actual_score_shift_mean": 0.011143713258206844,
+          "full_additive_score_rmse": 0.030615484341979027,
+          "full_additive_vector_rmse": 0.04362848028540611,
+          "identity_score_rmse": 0.10027343034744263,
+          "identity_vector_rmse": 0.18749184906482697,
+          "token_score_rmse": 0.12417887896299362,
+          "token_vector_rmse": 0.1618499457836151
+        },
+        "target": {
+          "actual_score_shift_mean": -0.0036681846249848604,
+          "full_additive_score_rmse": 0.019103901460766792,
+          "full_additive_vector_rmse": 0.020607415586709976,
+          "identity_score_rmse": 0.12557415664196014,
+          "identity_vector_rmse": 0.24301812052726746,
+          "token_score_rmse": 0.1631307154893875,
+          "token_vector_rmse": 0.21450281143188477
+        }
+      },
+      "input_embedding_delta_norm": 1.4635639190673828,
+      "seed": 1703
+    }
+  ],
+  "new_training": false,
+  "protected_seeds_accessed": false,
+  "status": "DISCOVERY_ONLY_RANDOM_INITIALIZATION_CONTROL"
+}

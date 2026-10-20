@@ -1,0 +1,641 @@
+{
+  "counts": {
+    "local_correct": 17,
+    "unmatched_or_ambiguous": 7
+  },
+  "identical_agent_patient_pairs": 0,
+  "details": [
+    {
+      "doc_id": "8375b6741c45d1b56481bf615c8ac131",
+      "title": "2009 Men's Asia Pacific Floorball Championships",
+      "event": "A",
+      "role": "Agent",
+      "response": "Japan",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 147,
+        "completion_tokens": 2,
+        "total_tokens": 149,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003775",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "eab8b3d2da804da7a7c30ee52f8ae2d7",
+      "received_utc": "2026-10-16T18:00:15.324311+00:00",
+      "gold_local": "Japan",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "8375b6741c45d1b56481bf615c8ac131",
+      "title": "2009 Men's Asia Pacific Floorball Championships",
+      "event": "A",
+      "role": "Patient",
+      "response": "India",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 151,
+        "completion_tokens": 2,
+        "total_tokens": 153,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00003875",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "23c56c8c42a947a7af9c74124b878272",
+      "received_utc": "2026-10-16T18:00:17.089637+00:00",
+      "gold_local": "India",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "8375b6741c45d1b56481bf615c8ac131",
+      "title": "2009 Men's Asia Pacific Floorball Championships",
+      "event": "B",
+      "role": "Agent",
+      "response": "Poland",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 147,
+        "completion_tokens": 2,
+        "total_tokens": 149,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1043
+      },
+      "estimated_eur": "0.00003775",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "ee389cc77cdb4b29bf4ba3bb5668801d",
+      "received_utc": "2026-10-16T18:00:17.473850+00:00",
+      "gold_local": "Poland",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "8375b6741c45d1b56481bf615c8ac131",
+      "title": "2009 Men's Asia Pacific Floorball Championships",
+      "event": "B",
+      "role": "Patient",
+      "response": "Ukraine",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 151,
+        "completion_tokens": 2,
+        "total_tokens": 153,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1071
+      },
+      "estimated_eur": "0.00003875",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "e46cdf1cfdc04db587e58129ae8e7aa4",
+      "received_utc": "2026-10-16T18:00:17.695833+00:00",
+      "gold_local": "Ukraine",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "d51c2b7f8d15903cf1f0729b63a180c4",
+      "title": "2010 IAAF World Cross Country Championships",
+      "event": "A",
+      "role": "Agent",
+      "response": "Gebregziabher Gebremariam",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 9,
+        "total_tokens": 229,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000595",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "2c3511e8245b41f9bf80c9f0ddfb85d9",
+      "received_utc": "2026-10-16T18:00:18.001611+00:00",
+      "gold_local": "Gebregziabher Gebremariam",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "d51c2b7f8d15903cf1f0729b63a180c4",
+      "title": "2010 IAAF World Cross Country Championships",
+      "event": "A",
+      "role": "Patient",
+      "response": "Ethiopia",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 224,
+        "completion_tokens": 3,
+        "total_tokens": 227,
+        "prompt_tokens_details": {
+          "cached_tokens": 192
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000575",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "ee8aaeec44d44057aa8859617a2ad42a",
+      "received_utc": "2026-10-16T18:00:18.255643+00:00",
+      "gold_local": "Ethiopia",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "d51c2b7f8d15903cf1f0729b63a180c4",
+      "title": "2010 IAAF World Cross Country Championships",
+      "event": "B",
+      "role": "Agent",
+      "response": "Shalane Flanagan",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 220,
+        "completion_tokens": 5,
+        "total_tokens": 225,
+        "prompt_tokens_details": {
+          "cached_tokens": 192
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000575",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "11b685d18d374e8abe502aa95a423e5f",
+      "received_utc": "2026-10-16T18:00:18.594494+00:00",
+      "gold_local": "Shalane Flanagan",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "d51c2b7f8d15903cf1f0729b63a180c4",
+      "title": "2010 IAAF World Cross Country Championships",
+      "event": "B",
+      "role": "Patient",
+      "response": "the United States women 's team",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 224,
+        "completion_tokens": 8,
+        "total_tokens": 232,
+        "prompt_tokens_details": {
+          "cached_tokens": 192
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00006",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "c0474d9105b64d95954b161bee854078",
+      "received_utc": "2026-10-16T18:00:18.907382+00:00",
+      "gold_local": "the United States",
+      "category": "unmatched_or_ambiguous"
+    },
+    {
+      "doc_id": "16613ed8c8ab859e528665ca6a5ec4aa",
+      "title": "2014 Men's Hockey World Cup",
+      "event": "A",
+      "role": "Agent",
+      "response": "Australia",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 131,
+        "completion_tokens": 2,
+        "total_tokens": 133,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0931
+      },
+      "estimated_eur": "0.00003375",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "8273b52dc899420f89a27d3061bda2db",
+      "received_utc": "2026-10-16T18:00:19.418003+00:00",
+      "gold_local": "Australia",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "16613ed8c8ab859e528665ca6a5ec4aa",
+      "title": "2014 Men's Hockey World Cup",
+      "event": "A",
+      "role": "Patient",
+      "response": "the Netherlands",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 135,
+        "completion_tokens": 3,
+        "total_tokens": 138,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0966
+      },
+      "estimated_eur": "0.00003525",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "bd324ae28ebd4a32b86c0ca1e6f0ba23",
+      "received_utc": "2026-10-16T18:00:19.584599+00:00",
+      "gold_local": "Netherlands",
+      "category": "unmatched_or_ambiguous"
+    },
+    {
+      "doc_id": "16613ed8c8ab859e528665ca6a5ec4aa",
+      "title": "2014 Men's Hockey World Cup",
+      "event": "B",
+      "role": "Agent",
+      "response": "Argentina",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 131,
+        "completion_tokens": 2,
+        "total_tokens": 133,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0931
+      },
+      "estimated_eur": "0.00003375",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "c1067d82e81442b2828a223f5f86545a",
+      "received_utc": "2026-10-16T18:00:19.792692+00:00",
+      "gold_local": "Argentina",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "16613ed8c8ab859e528665ca6a5ec4aa",
+      "title": "2014 Men's Hockey World Cup",
+      "event": "B",
+      "role": "Patient",
+      "response": "England",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 135,
+        "completion_tokens": 2,
+        "total_tokens": 137,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0959
+      },
+      "estimated_eur": "0.00003475",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "b32232ba685046329ef8215424cf82fe",
+      "received_utc": "2026-10-16T18:00:19.972859+00:00",
+      "gold_local": "England",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "b10f421c0cc40013059af7362887758c",
+      "title": "Brabant Revolution",
+      "event": "A",
+      "role": "Agent",
+      "response": "Prussia",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 187,
+        "completion_tokens": 3,
+        "total_tokens": 190,
+        "prompt_tokens_details": null,
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004825",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "efb326b7bc2843778b54b1b035c8a80e",
+      "received_utc": "2026-10-16T18:00:20.173759+00:00",
+      "gold_local": "Prussia",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "b10f421c0cc40013059af7362887758c",
+      "title": "Brabant Revolution",
+      "event": "A",
+      "role": "Patient",
+      "response": "the independent United Belgian States",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 191,
+        "completion_tokens": 6,
+        "total_tokens": 197,
+        "prompt_tokens_details": {
+          "cached_tokens": 160
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00005075",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "de986ea3fb5246219eb6c4dcb85d6d0b",
+      "received_utc": "2026-10-16T18:00:20.544438+00:00",
+      "gold_local": "United Belgian States",
+      "category": "unmatched_or_ambiguous"
+    },
+    {
+      "doc_id": "b10f421c0cc40013059af7362887758c",
+      "title": "Brabant Revolution",
+      "event": "B",
+      "role": "Agent",
+      "response": "the Church",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 187,
+        "completion_tokens": 3,
+        "total_tokens": 190,
+        "prompt_tokens_details": {
+          "cached_tokens": 160
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.133
+      },
+      "estimated_eur": "0.00004825",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "6a87e920b084459aac67416858e1f9d3",
+      "received_utc": "2026-10-16T18:00:20.737774+00:00",
+      "gold_local": "Church",
+      "category": "unmatched_or_ambiguous"
+    },
+    {
+      "doc_id": "b10f421c0cc40013059af7362887758c",
+      "title": "Brabant Revolution",
+      "event": "B",
+      "role": "Patient",
+      "response": "the Statists",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 191,
+        "completion_tokens": 4,
+        "total_tokens": 195,
+        "prompt_tokens_details": {
+          "cached_tokens": 160
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1365
+      },
+      "estimated_eur": "0.00004975",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "a493fb5eca0b4d6e8383c4474565b108",
+      "received_utc": "2026-10-16T18:00:20.941046+00:00",
+      "gold_local": "Statists",
+      "category": "unmatched_or_ambiguous"
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "event": "A",
+      "role": "Agent",
+      "response": "John Cena",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 150,
+        "completion_tokens": 3,
+        "total_tokens": 153,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1071
+      },
+      "estimated_eur": "0.000039",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "fd6a13af813e459e820b602408f60c60",
+      "received_utc": "2026-10-16T18:00:21.155738+00:00",
+      "gold_local": "John Cena",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "event": "A",
+      "role": "Patient",
+      "response": "Brock Lesnar",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 154,
+        "completion_tokens": 4,
+        "total_tokens": 158,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.0000405",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "0939e82878ec48329be30a9ac87e7621",
+      "received_utc": "2026-10-16T18:00:21.360412+00:00",
+      "gold_local": "Brock Lesnar",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "event": "B",
+      "role": "Agent",
+      "response": "CM Punk",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 150,
+        "completion_tokens": 3,
+        "total_tokens": 153,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1071
+      },
+      "estimated_eur": "0.000039",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "64dde0ddc9cd48d99af6f30f1929390d",
+      "received_utc": "2026-10-16T18:00:21.561296+00:00",
+      "gold_local": "CM Punk",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+      "title": "Extreme Rules (2012)",
+      "event": "B",
+      "role": "Patient",
+      "response": "Chris Jericho",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 154,
+        "completion_tokens": 3,
+        "total_tokens": 157,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1099
+      },
+      "estimated_eur": "0.00004",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "6896b49bde044f94b0cd60fa6f06c28e",
+      "received_utc": "2026-10-16T18:00:21.763164+00:00",
+      "gold_local": "Chris Jericho",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "b605e179adce15c07a0945bddd52645e",
+      "title": "First Battle of the Isonzo",
+      "event": "A",
+      "role": "Agent",
+      "response": "Major General Géza Lukachich von Somorja",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 149,
+        "completion_tokens": 12,
+        "total_tokens": 161,
+        "prompt_tokens_details": {
+          "cached_tokens": 48
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004325",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "169ea4f79d2e4229bb04bd11cab018f4",
+      "received_utc": "2026-10-16T18:00:22.018100+00:00",
+      "gold_local": "Géza Lukachich von Somorja",
+      "category": "unmatched_or_ambiguous"
+    },
+    {
+      "doc_id": "b605e179adce15c07a0945bddd52645e",
+      "title": "First Battle of the Isonzo",
+      "event": "A",
+      "role": "Patient",
+      "response": "Redipuglia",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 5,
+        "total_tokens": 158,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1106
+      },
+      "estimated_eur": "0.00004075",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "4729a3496ef54aa2850b2458a6e9d1a9",
+      "received_utc": "2026-10-16T18:00:22.263786+00:00",
+      "gold_local": "Redipuglia",
+      "category": "local_correct"
+    },
+    {
+      "doc_id": "b605e179adce15c07a0945bddd52645e",
+      "title": "First Battle of the Isonzo",
+      "event": "B",
+      "role": "Agent",
+      "response": "Major General Novak von Arienti",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 149,
+        "completion_tokens": 7,
+        "total_tokens": 156,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004075",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "cf8fba10fc004b54a7665b5e1073b145",
+      "received_utc": "2026-10-16T18:00:22.511829+00:00",
+      "gold_local": "Novak von Arienti",
+      "category": "unmatched_or_ambiguous"
+    },
+    {
+      "doc_id": "b605e179adce15c07a0945bddd52645e",
+      "title": "First Battle of the Isonzo",
+      "event": "B",
+      "role": "Patient",
+      "response": "Hill 383",
+      "model": "google/gemma-4-31B-it",
+      "protocol_sha256": "cef9e85d1b6c85151ebcc7c61f9493dbd75ef2312a71972d623fbea9854a0d5e",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 6,
+        "total_tokens": 159,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "estimated_eur": "0.00004125",
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "dc4ca5283e874beebd02262a39b9169b",
+      "received_utc": "2026-10-16T18:00:22.800953+00:00",
+      "gold_local": "Hill 383",
+      "category": "local_correct"
+    }
+  ]
+}

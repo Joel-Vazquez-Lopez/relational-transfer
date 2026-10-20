@@ -1,0 +1,661 @@
+{
+  "status": "source_only_exploratory_feasibility_audit",
+  "candidate_census_sha256": "533ec9c8d9fce06e836e05be6a6f61925d2352420c6f8731fa1a4134bf8f9fb5",
+  "source_archive_sha256": "d535cee2ea29293e5f20339a851be021328197a1b3148dc771510324f7ec53f1",
+  "selection": "Exclude five prior panels; sep<=350; dist<=180; seed=3317; max two distinct documents per event type, in sorted type order.",
+  "eligible_pairs": 35,
+  "eligible_documents": 24,
+  "sample_count": 12,
+  "reviewer_count": 1,
+  "items": [
+    {
+      "doc_id": "e5ccadc5741e2a6f95ebd53e03699781",
+      "title": "Operation Retribution (1941)",
+      "event_type": "Attack",
+      "sep": 190,
+      "dist": 32,
+      "passage": "Operation Retribution ( ) , also known as Operation Punishment , was the April 1941 German [EVENT A: bombing] of Belgrade , the capital of the Kingdom of Yugoslavia , in retaliation for the coup d'état that overthrew the government that had signed the Tripartite Pact . The bombing occurred in the first days of the German-led Axis invasion of Yugoslavia during World War II . the royal yugoslav army air force ( unk ) had only 77 modern fighter aircraft available to defend belgrade against the hundreds of german fighters and bombers that struck in the first wave early on 6 april . Three days prior , VVKJ Major Vladimir Kren had defected to the Germans , disclosing the locations of multiple military assets , as well as elucidating the VVKJ 's codes . Three more waves of bombers attacked Belgrade on 6 April , and more attacks followed in subsequent days . The attacks resulted in the paralysis of Yugoslav civilian and military command and control , the widespread destruction of Belgrade 's infrastructure , and many civilian casualties . The bombing of Belgrade was preceded by the commencement of the ground invasion a few hours earlier , and coincided with air attacks on VVKJ airfields and other strategic targets across Yugoslavia . Among the non-military targets struck during the bombing were the National Library of Serbia , which burned to the ground with the loss of hundreds of thousands of books and manuscripts , and the Belgrade Zoo . the royal air force carried out two [EVENT B: bombing] raids on sofia , the capital of bulgaria , in retaliation for the attacks on yugoslavia , which ultimately surrendered on 17 april .",
+      "gold": {
+        "A": {
+          "event_id": "EVENT_b55d52c679a842fbc11c1787dfd35835",
+          "trigger": "bombing",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_f55c56699c23e26641cbbc69c971e4b5",
+              "local_mention": "German",
+              "aliases": [
+                "German"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_51b42df87d9e1ed9646de82b99eba520",
+              "local_mention": "Belgrade",
+              "aliases": [
+                "Belgrade",
+                "belgrade"
+              ]
+            }
+          }
+        },
+        "B": {
+          "event_id": "EVENT_847ad7dada3a48bf16c0d7b2ca328e39",
+          "trigger": "bombing",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_a70c48962a866790e57733cb44573b65",
+              "local_mention": "royal air force",
+              "aliases": [
+                "royal air force"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_5367f961bb9c6c95b61fa6d7e4be7809",
+              "local_mention": "sofia",
+              "aliases": [
+                "sofia"
+              ]
+            }
+          }
+        }
+      },
+      "judgment": "conditional",
+      "reason": "Two bombings are distinct, but intervening attacks and a long passage create extra-event confounds."
+    },
+    {
+      "doc_id": "6bd0131ef0131ba3537776f3ca3a3862",
+      "title": "Attack on Mers-el-Kébir",
+      "event_type": "Attack",
+      "sep": 66,
+      "dist": 85,
+      "passage": "The Attack on Mers-el-Kébir ( 3 July 1940 ) also known as the Battle of Mers-el-Kébir , was part of Operation Catapult , a British naval attack on French Navy ships at the naval base at Mers El Kébir on the coast of French Algeria . The [EVENT A: bombardment] killed 1,297 French servicemen , sank a battleship and damaged five ships , for a British loss of five aircraft shot down and two crewmen killed . The attack by air-and-sea was conducted by the Royal Navy after France had signed armistices with Germany and Italy that came into effect on 25 June . Of particular significance to the British were the five battleships of the `` Bretagne '' and `` Richelieu '' classes , and the two fast battleships of the Dunkerque class , the second largest force of capital ships in Europe after the Royal Navy . The British War Cabinet feared that France would hand the ships to the German Navy ( `` Kriegsmarine '' ) , giving the Axis assistance in the Battle of the Atlantic or Battle of the Mediterranean . Admiral François Darlan , commander of the French Navy , promised the British that the fleet would remain under French control but Winston Churchill and the War Cabinet judged that the fleet was too powerful to risk an Axis take-over . After the attack at Mers-el-Kébir and the Battle of Dakar , French aircraft [EVENT B: raided] Gibraltar in retaliation and Marshal Philippe Pétain , who had become the prime minister of France on 16 June , severed diplomatic relations with the United Kingdom .",
+      "gold": {
+        "A": {
+          "event_id": "EVENT_46d0d58625b6592b2e83f127cc601493",
+          "trigger": "bombardment",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_f72b0f744a4fedec00a46761f31ec7b8",
+              "local_mention": "Royal Navy",
+              "aliases": [
+                "Royal Navy"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_0adeb19cb9f3da940b6c5f50c54d0c90",
+              "local_mention": "French Navy",
+              "aliases": [
+                "French Navy",
+                "French navy"
+              ]
+            }
+          }
+        },
+        "B": {
+          "event_id": "EVENT_a01a84a12683ac841e34b155d62b8afa",
+          "trigger": "raided",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_66c23ceb0aed6c9f5581041c83e757e2",
+              "local_mention": "French",
+              "aliases": [
+                "France",
+                "French",
+                "they"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_68b6b9b62b205cbee20c2aa898227ef2",
+              "local_mention": "Gibraltar",
+              "aliases": [
+                "Gibraltar"
+              ]
+            }
+          }
+        }
+      },
+      "judgment": "reject",
+      "reason": "First bombardment roles rely on a distant description; many intervening attacks and entities."
+    },
+    {
+      "doc_id": "1414e27c4dd61d5ea0b1814880bdd734",
+      "title": "Yokozuna Memorial Show",
+      "event_type": "Bodily_harm",
+      "sep": 346,
+      "dist": 56,
+      "passage": "in the semi-main event , the brothers of destruction ( kane and the undertaker ) [EVENT A: wrestled] the acolytes protection agency ( bradshaw and faarooq ) . Another featured match was Shannon Moore versus Jamie Noble , in a revival of sorts of the feud between World Championship Wrestling rivals 3 Count and The Jung Dragons , which Moore won . A second former WCW star , and graduate of the Wild Samoan Training Center , Billy Kidman [EVENT B: beat] Low Ki , and The Tonga Kid and The Hungarian Barbarian defeated The Twin Tackles ( Gene Snisky and Robb Harper ) , accompanied by Bill Alfonso , in a non-title match for the WXW Tag Team Championship .",
+      "gold": {
+        "A": {
+          "event_id": "EVENT_02ba779227d9903d1b62b7f2efed6996",
+          "trigger": "wrestled",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_178a757648cf6ac8b420dec3149efeef",
+              "local_mention": "the brothers of destruction",
+              "aliases": [
+                "the brothers of destruction"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_b494aac9612bad08fa36d6dff964abd3",
+              "local_mention": "acolytes protection agency",
+              "aliases": [
+                "acolytes protection agency"
+              ]
+            }
+          }
+        },
+        "B": {
+          "event_id": "EVENT_f597628fd4066b844aaf5572bdeefe59",
+          "trigger": "beat",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_1760cfeb4065c7cc69b48d582854b47b",
+              "local_mention": "Billy Kidman",
+              "aliases": [
+                "Billy Kidman"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_2057982b8a4a9abd82c7bc836a77cb6e",
+              "local_mention": "Low Ki",
+              "aliases": [
+                "Low Ki"
+              ]
+            }
+          }
+        }
+      },
+      "judgment": "reject",
+      "reason": "Wrestled is symmetric but beat is directional; Agent/Patient are not comparable across the two triggers."
+    },
+    {
+      "doc_id": "539173c66c9308b127106d6a8f47b210",
+      "title": "Wisconsin gubernatorial recall election",
+      "event_type": "Conquering",
+      "sep": 208,
+      "dist": 19,
+      "passage": "She won her race , [EVENT A: defeating] Democrat Mahlon Mitchell , making her the first lieutenant governor to run in and survive a recall . The Democratic primaries took place on May 8 . The recall elections were held June 5 with Walker [EVENT B: defeating] Barrett .",
+      "gold": {
+        "A": {
+          "event_id": "EVENT_e5a365c5a5446e1159f008f4f401cba4",
+          "trigger": "defeating",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_f759a1aea60316ebf07e35c81daaa793",
+              "local_mention": "She",
+              "aliases": [
+                "Rebecca Kleefisch",
+                "She",
+                "her"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_e6941f6318f8a3dd328ed3293a3d9cce",
+              "local_mention": "Mahlon Mitchell",
+              "aliases": [
+                "Mahlon Mitchell"
+              ]
+            }
+          }
+        },
+        "B": {
+          "event_id": "EVENT_a23370d2ac3d5e63d258b9bb51c7d26e",
+          "trigger": "defeating",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_05647330ce97e453f5e25e233f228e4a",
+              "local_mention": "Walker",
+              "aliases": [
+                "Scott Walker",
+                "Walker",
+                "he"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_a19d434b7d9849656526e68ce757f768",
+              "local_mention": "Barrett",
+              "aliases": [
+                "Barrett",
+                "Tom Barrett"
+              ]
+            }
+          }
+        }
+      },
+      "judgment": "reject",
+      "reason": "First Agent is the unresolved pronoun She in the excerpt."
+    },
+    {
+      "doc_id": "5dc152a0c244476c63efbb2b14848d75",
+      "title": "Bloodymania IV",
+      "event_type": "Conquering",
+      "sep": 66,
+      "dist": 17,
+      "passage": "Featured matches on the undercard included a singles match where The Weedman [EVENT A: defeated] Officer Colt Cabana , a singles match which saw Booker T [EVENT B: defeat] `` Southern '' Tracy Smothers , a tag team Deathmatch where Balls Mahoney and Hollywood Chuck Hogan defeated the team of Mad Man Pondo and Necro Butcher , and a Fatal 4 way tag team match for the JCW Tag Team Championship in which The Kings of Wrestling defeated the champions The Haters and the Briscoe Brothers and Ring Rydas .",
+      "gold": {
+        "A": {
+          "event_id": "EVENT_b7de55a41c8a93912fcf6d202adbd8ec",
+          "trigger": "defeated",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_1981a3cb52b1453c2ec70d0e55d3096b",
+              "local_mention": "Weedman",
+              "aliases": [
+                "Weedman"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_5574443016a1e62d2184c85fdc44d570",
+              "local_mention": "Colt Cabana",
+              "aliases": [
+                "Colt Cabana"
+              ]
+            }
+          }
+        },
+        "B": {
+          "event_id": "EVENT_f384e299ab5c9018ec22f426081ff8bc",
+          "trigger": "defeat",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_6852f43b2d7ec56e3ceb8b72f9a91060",
+              "local_mention": "Booker T",
+              "aliases": [
+                "Booker T"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_2e8af0a32958a5894fd1723904c2ec38",
+              "local_mention": "`` Southern '' Tracy Smothers",
+              "aliases": [
+                "`` Southern '' Tracy Smothers"
+              ]
+            }
+          }
+        }
+      },
+      "judgment": "conditional",
+      "reason": "Both selected defeats have explicit participants, but the same passage includes further unmarked defeats."
+    },
+    {
+      "doc_id": "268c4763208c87ed7ebf55565c274d23",
+      "title": "Siege of Pondicherry (1793)",
+      "event_type": "Control",
+      "sep": 58,
+      "dist": 83,
+      "passage": "British India was centred on the principal ports of Bombay , Madras and Calcutta , [EVENT A: administered] by the East India Company . French India was [EVENT B: governed] from Pondicherry ( modern Puducherry ) on the Coromandel Coast .",
+      "gold": {
+        "A": {
+          "event_id": "EVENT_d73a9cf66499cbdde3364755d5ec3456",
+          "trigger": "administered",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_d377d74255514b0ffa6bf807155798ea",
+              "local_mention": "East India Company",
+              "aliases": [
+                "East India Company"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_ffe0b71a4f6e1622051cb818736be109",
+              "local_mention": "British India",
+              "aliases": [
+                "British India"
+              ]
+            }
+          }
+        },
+        "B": {
+          "event_id": "EVENT_c75d0d0749bbba95e930898fc6c374d2",
+          "trigger": "governed",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_9dc5ee04af15a65a9226b62452336f6e",
+              "local_mention": "Pondicherry",
+              "aliases": [
+                "Pondicherry",
+                "Puducherry"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_6976e7be1cae9a28c4871440411b0fc3",
+              "local_mention": "French India",
+              "aliases": [
+                "French India"
+              ]
+            }
+          }
+        }
+      },
+      "judgment": "reject",
+      "reason": "Governed from Pondicherry does not support Pondicherry as the governing Agent."
+    },
+    {
+      "doc_id": "65eec54859cf4e63c13d76de9531dd0a",
+      "title": "1986 Men's Hockey World Cup",
+      "event_type": "Earnings_and_losses",
+      "sep": 312,
+      "dist": 50,
+      "passage": "West Germany finished third after [EVENT A: defeating] the Soviet Union . England , as hosts - and also as Olympic bronze medallists - were viewed as having quite a tough group , containing Olympic champions Pakistan , and a highly fancied Dutch side , with the Soviet Union seen as potential dark-horse outsiders . But in the event Pakistan failed badly , [EVENT B: winning] only a single group match against minnows New Zealand - blaming their poor play on failure to adjust to the Astroturf surface , used in a major hockey tournament for the first time instead of grass .",
+      "gold": {
+        "A": {
+          "event_id": "EVENT_432afd298fc5a6aa66bbf982036b71c5",
+          "trigger": "defeating",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_a7faaa18158c0cba651fb2930ebd6501",
+              "local_mention": "West Germany",
+              "aliases": [
+                "West Germany"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_4dbdffa1a2b8eb010f639b544fa76e8a",
+              "local_mention": "Soviet Union",
+              "aliases": [
+                "Aussies",
+                "Australia",
+                "Australian",
+                "Australians",
+                "Soviet Union",
+                "Soviets",
+                "USSR"
+              ]
+            }
+          }
+        },
+        "B": {
+          "event_id": "EVENT_8cc82cf8553666d329f8db8758c4a29a",
+          "trigger": "winning",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_2c405f7b39573a597ca7a3fea5207807",
+              "local_mention": "Pakistan",
+              "aliases": [
+                "Pakistan"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_469a2a12f2b06cb276c51ab1dd026485",
+              "local_mention": "New Zealand",
+              "aliases": [
+                "New Zealand"
+              ]
+            }
+          }
+        }
+      },
+      "judgment": "conditional",
+      "reason": "Two outcomes and opponents are recoverable; second winning event is phrased indirectly and needs independent review."
+    },
+    {
+      "doc_id": "f50d10fd90b1f84682de7bbb3501dd72",
+      "title": "2015 World Men's Handball Championship",
+      "event_type": "Getting",
+      "sep": 78,
+      "dist": 43,
+      "passage": "Poland [EVENT A: captured] the bronze medal by defeating Spain 29–28 after extra time . Denmark [EVENT B: secured] the fifth place by winning against Croatia which finished sixth and thus had the worst result in the past 13 years of international handball competing .",
+      "gold": {
+        "A": {
+          "event_id": "EVENT_d29a987989ba895987231afde6bcef1c",
+          "trigger": "captured",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_ef349213ab61c3ce57c9836bedbcebbd",
+              "local_mention": "Poland",
+              "aliases": [
+                "Poland"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_be064f17a40ca38b0fc7adc870c72154",
+              "local_mention": "Spain",
+              "aliases": [
+                "Spain"
+              ]
+            }
+          }
+        },
+        "B": {
+          "event_id": "EVENT_70125a5fffab8ea79b3ac8ba2101a9b4",
+          "trigger": "secured",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_9aa81873d87a4ff1f0dd6003b8db1292",
+              "local_mention": "Denmark",
+              "aliases": [
+                "Denmark"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_84ecb45f3648843a33986b505b0dd90b",
+              "local_mention": "Croatia",
+              "aliases": [
+                "Croatia"
+              ]
+            }
+          }
+        }
+      },
+      "judgment": "reject",
+      "reason": "Spain is the defeated opponent, not the Patient of captured the bronze medal as a Getting event."
+    },
+    {
+      "doc_id": "396605dcb49748cf32d44095261df202",
+      "title": "Byzantine–Bulgarian war of 894–896",
+      "event_type": "Getting",
+      "sep": 298,
+      "dist": 97,
+      "passage": "Following the defeat of the Byzantine army in the initial stages of the war in 894 Leo VI [EVENT A: sought] aid from the Magyars who at the time inhabited the steppes to the north-east of Bulgaria . Aided by the Byzantine navy , in 895 the Magyars invaded Dobrudzha and defeated the Bulgarian troops . Simeon I called for truce and deliberately protracted the negotiations with the Byzantines until [EVENT B: securing] the assistance of the Pechenegs .",
+      "gold": {
+        "A": {
+          "event_id": "EVENT_90e66edc1a2a11f86d5227f9ed30d907",
+          "trigger": "sought",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_a0af35c00d150902f2983f32e19317da",
+              "local_mention": "Leo VI",
+              "aliases": [
+                "Leo VI"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_3d73f7c62065bb35e15450d3cc12f120",
+              "local_mention": "Magyars",
+              "aliases": [
+                "Magyar",
+                "Magyars"
+              ]
+            }
+          }
+        },
+        "B": {
+          "event_id": "EVENT_edb434444f9f8d2eb79902a6e7098ca7",
+          "trigger": "securing",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_f3db81b7bfe6945bc2d0c4add8f17d65",
+              "local_mention": "Simeon I",
+              "aliases": [
+                "Simeon",
+                "Simeon I"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_ce367b67d841b4021ed5169235f4df78",
+              "local_mention": "Pechenegs",
+              "aliases": [
+                "Pechanegs",
+                "Pechenegs"
+              ]
+            }
+          }
+        }
+      },
+      "judgment": "reject",
+      "reason": "Sought aid versus secured assistance differ in factual status; first event may not have occurred."
+    },
+    {
+      "doc_id": "e26307319efdc74d218198054d08e6e7",
+      "title": "Dardanelles Operation (1807)",
+      "event_type": "Military_operation",
+      "sep": 343,
+      "dist": 86,
+      "passage": "The Dardanelles [EVENT A: Operation] was the Royal Navy 's unsuccessful attempt to impose British demands on the Ottoman Empire as part of the Anglo-Turkish War ( 1807-1809 ) . In 1806 , the French envoy Sebastiani had been dispatched to Constantinople with orders to bring about Turkey 's re-entry into the Napoleonic Wars . Sultan Selim III set about preparations for [EVENT B: war] with Russia after positively receiving Sebastiani .",
+      "gold": {
+        "A": {
+          "event_id": "EVENT_bbf4597d94a4762a3392a85bd654f464",
+          "trigger": "Operation",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_d18211562d3ebbf8d9aab0140b48010a",
+              "local_mention": "British",
+              "aliases": [
+                "British"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_a58b5b0c8232c2eb9dfe2c291b06993f",
+              "local_mention": "Ottoman Empire",
+              "aliases": [
+                "Ottoman Empire",
+                "Ottomans"
+              ]
+            }
+          }
+        },
+        "B": {
+          "event_id": "EVENT_572dc26c84580b3ff3aaf2943af98a01",
+          "trigger": "war",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_e3c9ce7b066d810455feb8262b8971cf",
+              "local_mention": "Turkey",
+              "aliases": [
+                "Turkey"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_aa66582dc55e2e80edd6f3b949ab037a",
+              "local_mention": "Russia",
+              "aliases": [
+                "Russia"
+              ]
+            }
+          }
+        }
+      },
+      "judgment": "reject",
+      "reason": "A failed operation and a separate war differ in scale; the second Agent/Patient pair is not locally explicit at the trigger."
+    },
+    {
+      "doc_id": "46f76e18204141da683dbd6e8def25ed",
+      "title": "Tuareg rebellion (2012)",
+      "event_type": "Military_operation",
+      "sep": 29,
+      "dist": 91,
+      "passage": "The Tuareg Rebellion of 2012 was an early stage of the Northern Mali [EVENT A: conflict] ; from January to April 2012 , a war was waged against the Malian government by rebels with the goal of attaining independence for the northern region of Mali , known as Azawad . It was led by the National Movement for the Liberation of Azawad ( MNLA ) and was part of a series of insurgencies by traditionally nomadic Tuaregs which date back at least to 1916 . The MNLA was formed by former insurgents and a significant number of heavily armed Tuaregs who fought in the Libyan Civil War . On 22 March , President Amadou Toumani Touré was ousted in a coup d'état over his handling of the crisis , a month before a presidential election was to have taken place . Mutineering soldiers , under the banner of the National Committee for the Restoration of Democracy and State , ( CNRDR ) suspended the constitution of Mali , although this move was reversed on 1 April . The Islamist group Ansar Dine , too , began fighting the government in later stages of the conflict , claiming control of vast swathes of territory , albeit disputed by the MNLA . As a consequence of the instability following the coup , Northern Mali 's three largest cities—Kidal , Gao and Timbuktu—were overrun by the rebels on three consecutive days . On 5 April , after the capture of Douentza , the MNLA said that it had accomplished its goals and called off its offensive . The following day , it proclaimed Azawad 's independence from Mali . After the end of hostilities with the Malian Army , however , Tuareg nationalists and Islamists [EVENT B: struggled] to reconcile their conflicting visions for the intended new state . On 27 June , Islamists from the Movement for Oneness and Jihad in West Africa ( MOJWA ) clashed with the MNLA in the Battle of Gao , wounding MNLA secretary-general Bilal Ag Acherif and taking control of the city .",
+      "gold": {
+        "A": {
+          "event_id": "EVENT_a755eeec317893890466fe7cff09cd96",
+          "trigger": "conflict",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_fb496c04ca1d139a9fb5f77ab48b367b",
+              "local_mention": "National Movement for the Liberation of Azawad",
+              "aliases": [
+                "MNLA",
+                "National Movement for the Liberation of Azawad"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_a3b07780b584b0e290037861d9b20f17",
+              "local_mention": "Malian government",
+              "aliases": [
+                "Malian government"
+              ]
+            }
+          }
+        },
+        "B": {
+          "event_id": "EVENT_600ea3d53984cbc5beba66924d283524",
+          "trigger": "struggled",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_c53ce737b0a45339972c16dea01c9676",
+              "local_mention": "Tuareg nationalists",
+              "aliases": [
+                "Tuareg nationalists"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_8ee26dd72fdfb70d2446682f5da0da6f",
+              "local_mention": "Islamists",
+              "aliases": [
+                "Islamists"
+              ]
+            }
+          }
+        }
+      },
+      "judgment": "reject",
+      "reason": "Struggled to reconcile versus clashed are not matching military operations with stable participant roles."
+    },
+    {
+      "doc_id": "54995af8da07c1b490d9a5ccd5df9d73",
+      "title": "Air engagements of the Gulf War",
+      "event_type": "Preventing_or_letting",
+      "sep": 90,
+      "dist": 47,
+      "passage": "An F-15C on the same flight , piloted by Robert Graeter , went after the Mirage to [EVENT A: protect] the EF-111 . The Mirage launched a missile , spotted by Brandon , which the Raven [EVENT B: avoided] by turning and launching chaff . Denton decided to head for the deck to try to evade his pursuer .",
+      "gold": {
+        "A": {
+          "event_id": "EVENT_fbcb05692257563acfafd0b88136fae5",
+          "trigger": "protect",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_bead4cda9d2ae527b805e138f33ac12f",
+              "local_mention": "Robert Graeter",
+              "aliases": [
+                "Graeter",
+                "Robert Graeter"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_bbcf9c57716d1d182e6b2c36ce24fadf",
+              "local_mention": "Mirage",
+              "aliases": [
+                "Mirage"
+              ]
+            }
+          }
+        },
+        "B": {
+          "event_id": "EVENT_52561654c250df6845d2ec927320e51c",
+          "trigger": "avoided",
+          "roles": {
+            "Agent": {
+              "entity_id": "ENTITY_d990f6f6b7218c7beebf5e4faf5f1519",
+              "local_mention": "Denton",
+              "aliases": [
+                "Denton",
+                "James Denton",
+                "he",
+                "him"
+              ]
+            },
+            "Patient": {
+              "entity_id": "ENTITY_36c2121cad056264ac1afe278673a2b3",
+              "local_mention": "missile",
+              "aliases": [
+                "missile"
+              ]
+            }
+          }
+        }
+      },
+      "judgment": "reject",
+      "reason": "The first annotated Patient Mirage conflicts with the text: the EF-111 is what Robert Graeter protects."
+    }
+  ]
+}

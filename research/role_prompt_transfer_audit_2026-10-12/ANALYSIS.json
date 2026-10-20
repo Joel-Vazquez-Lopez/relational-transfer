@@ -1,0 +1,627 @@
+{
+  "fresh1_source": {
+    "valid": 720,
+    "total": 720,
+    "forms": {
+      "active": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 34,
+          "actor_did": 36,
+          "actor_carried": 33,
+          "patient_verb": 6,
+          "patient_which": 7
+        },
+        "actor_answer_contradictions_of_36": 3,
+        "actor_all_three_correct_of_36": 33,
+        "patient_both_correct_of_36": 5,
+        "all_five_correct_of_36": 5,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_1_performed_0": 2,
+          "did_1_performed_1": 34
+        }
+      },
+      "passive": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 20,
+          "actor_did": 8,
+          "actor_carried": 29,
+          "patient_verb": 27,
+          "patient_which": 29
+        },
+        "actor_answer_contradictions_of_36": 21,
+        "actor_all_three_correct_of_36": 8,
+        "patient_both_correct_of_36": 27,
+        "all_five_correct_of_36": 4,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 16,
+          "did_0_performed_1": 12,
+          "did_1_performed_1": 8
+        }
+      },
+      "subject_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 35,
+          "actor_did": 35,
+          "actor_carried": 36,
+          "patient_verb": 19,
+          "patient_which": 11
+        },
+        "actor_answer_contradictions_of_36": 1,
+        "actor_all_three_correct_of_36": 35,
+        "patient_both_correct_of_36": 11,
+        "all_five_correct_of_36": 11,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 1,
+          "did_1_performed_1": 35
+        }
+      },
+      "object_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 22,
+          "actor_did": 22,
+          "actor_carried": 24,
+          "patient_verb": 16,
+          "patient_which": 16
+        },
+        "actor_answer_contradictions_of_36": 7,
+        "actor_all_three_correct_of_36": 19,
+        "patient_both_correct_of_36": 15,
+        "all_five_correct_of_36": 7,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 12,
+          "did_0_performed_1": 2,
+          "did_1_performed_0": 2,
+          "did_1_performed_1": 20
+        }
+      }
+    }
+  },
+  "fresh1_aligned": {
+    "valid": 720,
+    "total": 720,
+    "forms": {
+      "active": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 34,
+          "actor_did": 23,
+          "actor_carried": 28,
+          "patient_verb": 36,
+          "patient_which": 34
+        },
+        "actor_answer_contradictions_of_36": 11,
+        "actor_all_three_correct_of_36": 23,
+        "patient_both_correct_of_36": 34,
+        "all_five_correct_of_36": 21,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 2,
+          "did_0_performed_1": 11,
+          "did_1_performed_1": 23
+        }
+      },
+      "passive": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 33,
+          "actor_did": 18,
+          "actor_carried": 31,
+          "patient_verb": 24,
+          "patient_which": 26
+        },
+        "actor_answer_contradictions_of_36": 15,
+        "actor_all_three_correct_of_36": 18,
+        "patient_both_correct_of_36": 23,
+        "all_five_correct_of_36": 8,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 3,
+          "did_0_performed_1": 15,
+          "did_1_performed_1": 18
+        }
+      },
+      "subject_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 36,
+          "actor_did": 26,
+          "actor_carried": 32,
+          "patient_verb": 36,
+          "patient_which": 34
+        },
+        "actor_answer_contradictions_of_36": 10,
+        "actor_all_three_correct_of_36": 26,
+        "patient_both_correct_of_36": 34,
+        "all_five_correct_of_36": 24,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_1": 10,
+          "did_1_performed_1": 26
+        }
+      },
+      "object_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 19,
+          "actor_did": 18,
+          "actor_carried": 21,
+          "patient_verb": 23,
+          "patient_which": 20
+        },
+        "actor_answer_contradictions_of_36": 10,
+        "actor_all_three_correct_of_36": 15,
+        "patient_both_correct_of_36": 20,
+        "all_five_correct_of_36": 9,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 14,
+          "did_0_performed_1": 4,
+          "did_1_performed_0": 3,
+          "did_1_performed_1": 15
+        }
+      }
+    }
+  },
+  "fresh1_decoupled": {
+    "valid": 720,
+    "total": 720,
+    "forms": {
+      "active": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 32,
+          "actor_did": 23,
+          "actor_carried": 27,
+          "patient_verb": 34,
+          "patient_which": 26
+        },
+        "actor_answer_contradictions_of_36": 9,
+        "actor_all_three_correct_of_36": 23,
+        "patient_both_correct_of_36": 26,
+        "all_five_correct_of_36": 13,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 4,
+          "did_0_performed_1": 9,
+          "did_1_performed_1": 23
+        }
+      },
+      "passive": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 33,
+          "actor_did": 14,
+          "actor_carried": 31,
+          "patient_verb": 34,
+          "patient_which": 34
+        },
+        "actor_answer_contradictions_of_36": 19,
+        "actor_all_three_correct_of_36": 14,
+        "patient_both_correct_of_36": 33,
+        "all_five_correct_of_36": 11,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 3,
+          "did_0_performed_1": 19,
+          "did_1_performed_1": 14
+        }
+      },
+      "subject_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 32,
+          "actor_did": 27,
+          "actor_carried": 31,
+          "patient_verb": 32,
+          "patient_which": 29
+        },
+        "actor_answer_contradictions_of_36": 5,
+        "actor_all_three_correct_of_36": 27,
+        "patient_both_correct_of_36": 29,
+        "all_five_correct_of_36": 20,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 4,
+          "did_0_performed_1": 5,
+          "did_1_performed_1": 27
+        }
+      },
+      "object_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 20,
+          "actor_did": 16,
+          "actor_carried": 21,
+          "patient_verb": 26,
+          "patient_which": 22
+        },
+        "actor_answer_contradictions_of_36": 6,
+        "actor_all_three_correct_of_36": 15,
+        "patient_both_correct_of_36": 22,
+        "all_five_correct_of_36": 8,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 15,
+          "did_0_performed_1": 5,
+          "did_1_performed_0": 1,
+          "did_1_performed_1": 15
+        }
+      }
+    }
+  },
+  "fresh1_mixed": {
+    "valid": 720,
+    "total": 720,
+    "forms": {
+      "active": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 33,
+          "actor_did": 23,
+          "actor_carried": 30,
+          "patient_verb": 35,
+          "patient_which": 31
+        },
+        "actor_answer_contradictions_of_36": 10,
+        "actor_all_three_correct_of_36": 23,
+        "patient_both_correct_of_36": 31,
+        "all_five_correct_of_36": 18,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 3,
+          "did_0_performed_1": 10,
+          "did_1_performed_1": 23
+        }
+      },
+      "passive": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 33,
+          "actor_did": 11,
+          "actor_carried": 30,
+          "patient_verb": 35,
+          "patient_which": 34
+        },
+        "actor_answer_contradictions_of_36": 22,
+        "actor_all_three_correct_of_36": 11,
+        "patient_both_correct_of_36": 33,
+        "all_five_correct_of_36": 8,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 3,
+          "did_0_performed_1": 22,
+          "did_1_performed_1": 11
+        }
+      },
+      "subject_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 35,
+          "actor_did": 27,
+          "actor_carried": 32,
+          "patient_verb": 36,
+          "patient_which": 33
+        },
+        "actor_answer_contradictions_of_36": 8,
+        "actor_all_three_correct_of_36": 27,
+        "patient_both_correct_of_36": 33,
+        "all_five_correct_of_36": 24,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 1,
+          "did_0_performed_1": 8,
+          "did_1_performed_1": 27
+        }
+      },
+      "object_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 20,
+          "actor_did": 16,
+          "actor_carried": 21,
+          "patient_verb": 18,
+          "patient_which": 18
+        },
+        "actor_answer_contradictions_of_36": 6,
+        "actor_all_three_correct_of_36": 15,
+        "patient_both_correct_of_36": 17,
+        "all_five_correct_of_36": 8,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 15,
+          "did_0_performed_1": 5,
+          "did_1_performed_0": 1,
+          "did_1_performed_1": 15
+        }
+      }
+    }
+  },
+  "fresh3_source": {
+    "valid": 720,
+    "total": 720,
+    "forms": {
+      "active": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 36,
+          "actor_did": 36,
+          "actor_carried": 35,
+          "patient_verb": 20,
+          "patient_which": 11
+        },
+        "actor_answer_contradictions_of_36": 1,
+        "actor_all_three_correct_of_36": 35,
+        "patient_both_correct_of_36": 9,
+        "all_five_correct_of_36": 8,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_1_performed_1": 36
+        }
+      },
+      "passive": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 16,
+          "actor_did": 10,
+          "actor_carried": 24,
+          "patient_verb": 25,
+          "patient_which": 27
+        },
+        "actor_answer_contradictions_of_36": 14,
+        "actor_all_three_correct_of_36": 10,
+        "patient_both_correct_of_36": 25,
+        "all_five_correct_of_36": 3,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 20,
+          "did_0_performed_1": 6,
+          "did_1_performed_1": 10
+        }
+      },
+      "subject_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 36,
+          "actor_did": 36,
+          "actor_carried": 36,
+          "patient_verb": 23,
+          "patient_which": 16
+        },
+        "actor_answer_contradictions_of_36": 0,
+        "actor_all_three_correct_of_36": 36,
+        "patient_both_correct_of_36": 16,
+        "all_five_correct_of_36": 16,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_1_performed_1": 36
+        }
+      },
+      "object_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 14,
+          "actor_did": 16,
+          "actor_carried": 17,
+          "patient_verb": 13,
+          "patient_which": 15
+        },
+        "actor_answer_contradictions_of_36": 8,
+        "actor_all_three_correct_of_36": 11,
+        "patient_both_correct_of_36": 13,
+        "all_five_correct_of_36": 4,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 17,
+          "did_0_performed_1": 3,
+          "did_1_performed_0": 5,
+          "did_1_performed_1": 11
+        }
+      }
+    }
+  },
+  "fresh3_aligned": {
+    "valid": 720,
+    "total": 720,
+    "forms": {
+      "active": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 32,
+          "actor_did": 19,
+          "actor_carried": 23,
+          "patient_verb": 36,
+          "patient_which": 33
+        },
+        "actor_answer_contradictions_of_36": 14,
+        "actor_all_three_correct_of_36": 18,
+        "patient_both_correct_of_36": 33,
+        "all_five_correct_of_36": 15,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 4,
+          "did_0_performed_1": 13,
+          "did_1_performed_1": 19
+        }
+      },
+      "passive": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 30,
+          "actor_did": 21,
+          "actor_carried": 32,
+          "patient_verb": 19,
+          "patient_which": 21
+        },
+        "actor_answer_contradictions_of_36": 11,
+        "actor_all_three_correct_of_36": 21,
+        "patient_both_correct_of_36": 19,
+        "all_five_correct_of_36": 7,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 6,
+          "did_0_performed_1": 9,
+          "did_1_performed_1": 21
+        }
+      },
+      "subject_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 33,
+          "actor_did": 27,
+          "actor_carried": 29,
+          "patient_verb": 35,
+          "patient_which": 32
+        },
+        "actor_answer_contradictions_of_36": 7,
+        "actor_all_three_correct_of_36": 26,
+        "patient_both_correct_of_36": 32,
+        "all_five_correct_of_36": 22,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 3,
+          "did_0_performed_1": 6,
+          "did_1_performed_1": 27
+        }
+      },
+      "object_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 18,
+          "actor_did": 22,
+          "actor_carried": 26,
+          "patient_verb": 18,
+          "patient_which": 17
+        },
+        "actor_answer_contradictions_of_36": 10,
+        "actor_all_three_correct_of_36": 16,
+        "patient_both_correct_of_36": 17,
+        "all_five_correct_of_36": 6,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 12,
+          "did_0_performed_1": 2,
+          "did_1_performed_0": 6,
+          "did_1_performed_1": 16
+        }
+      }
+    }
+  },
+  "fresh3_decoupled": {
+    "valid": 720,
+    "total": 720,
+    "forms": {
+      "active": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 31,
+          "actor_did": 19,
+          "actor_carried": 22,
+          "patient_verb": 33,
+          "patient_which": 30
+        },
+        "actor_answer_contradictions_of_36": 13,
+        "actor_all_three_correct_of_36": 18,
+        "patient_both_correct_of_36": 30,
+        "all_five_correct_of_36": 12,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 5,
+          "did_0_performed_1": 12,
+          "did_1_performed_1": 19
+        }
+      },
+      "passive": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 32,
+          "actor_did": 13,
+          "actor_carried": 28,
+          "patient_verb": 34,
+          "patient_which": 34
+        },
+        "actor_answer_contradictions_of_36": 20,
+        "actor_all_three_correct_of_36": 13,
+        "patient_both_correct_of_36": 34,
+        "all_five_correct_of_36": 11,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 4,
+          "did_0_performed_1": 19,
+          "did_1_performed_1": 13
+        }
+      },
+      "subject_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 31,
+          "actor_did": 26,
+          "actor_carried": 26,
+          "patient_verb": 33,
+          "patient_which": 30
+        },
+        "actor_answer_contradictions_of_36": 7,
+        "actor_all_three_correct_of_36": 24,
+        "patient_both_correct_of_36": 30,
+        "all_five_correct_of_36": 18,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 5,
+          "did_0_performed_1": 5,
+          "did_1_performed_1": 26
+        }
+      },
+      "object_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 18,
+          "actor_did": 19,
+          "actor_carried": 27,
+          "patient_verb": 20,
+          "patient_which": 19
+        },
+        "actor_answer_contradictions_of_36": 12,
+        "actor_all_three_correct_of_36": 15,
+        "patient_both_correct_of_36": 19,
+        "all_five_correct_of_36": 6,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 14,
+          "did_0_performed_1": 3,
+          "did_1_performed_0": 4,
+          "did_1_performed_1": 15
+        }
+      }
+    }
+  },
+  "fresh3_mixed": {
+    "valid": 720,
+    "total": 720,
+    "forms": {
+      "active": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 32,
+          "actor_did": 23,
+          "actor_carried": 24,
+          "patient_verb": 36,
+          "patient_which": 32
+        },
+        "actor_answer_contradictions_of_36": 11,
+        "actor_all_three_correct_of_36": 21,
+        "patient_both_correct_of_36": 32,
+        "all_five_correct_of_36": 17,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 4,
+          "did_0_performed_1": 9,
+          "did_1_performed_1": 23
+        }
+      },
+      "passive": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 32,
+          "actor_did": 11,
+          "actor_carried": 28,
+          "patient_verb": 35,
+          "patient_which": 34
+        },
+        "actor_answer_contradictions_of_36": 23,
+        "actor_all_three_correct_of_36": 11,
+        "patient_both_correct_of_36": 34,
+        "all_five_correct_of_36": 9,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 4,
+          "did_0_performed_1": 21,
+          "did_1_performed_1": 11
+        }
+      },
+      "subject_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 35,
+          "actor_did": 25,
+          "actor_carried": 28,
+          "patient_verb": 36,
+          "patient_which": 33
+        },
+        "actor_answer_contradictions_of_36": 10,
+        "actor_all_three_correct_of_36": 25,
+        "patient_both_correct_of_36": 33,
+        "all_five_correct_of_36": 22,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 1,
+          "did_0_performed_1": 10,
+          "did_1_performed_1": 25
+        }
+      },
+      "object_cleft": {
+        "correct_per_wording_of_36": {
+          "actor_performed": 18,
+          "actor_did": 20,
+          "actor_carried": 27,
+          "patient_verb": 16,
+          "patient_which": 16
+        },
+        "actor_answer_contradictions_of_36": 12,
+        "actor_all_three_correct_of_36": 15,
+        "patient_both_correct_of_36": 16,
+        "all_five_correct_of_36": 6,
+        "actor_did_vs_performed_paired_correctness": {
+          "did_0_performed_0": 13,
+          "did_0_performed_1": 3,
+          "did_1_performed_0": 5,
+          "did_1_performed_1": 15
+        }
+      }
+    }
+  }
+}

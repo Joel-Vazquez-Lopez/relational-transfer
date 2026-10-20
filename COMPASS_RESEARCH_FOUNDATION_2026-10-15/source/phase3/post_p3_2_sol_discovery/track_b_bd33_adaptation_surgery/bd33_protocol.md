@@ -1,0 +1,7 @@
+# B-D33 frozen discovery protocol: branch-specific adaptation after learned start
+
+Status: **discovery only**. Selected after early B-D32 outcomes showed poor cold-start task learning when either listener branch was frozen at random initialization. This test removes the weakest cold-start confound.
+
+Exactly reproduce each B-D21 CUE or B-D23 P95 model for 1000 updates, with parameter equality asserted against its archived step1000 checkpoint. Continue with the same optimizer state, batch-index sequence and rate through step3000, switching CUE→P95 or P95→CUE as in B-D25. At the switch freeze either the **query branch** (sym, mpos, mcls, msg_blocks, msg_norm) or the **candidate branch** (candidate encoder); verify frozen-branch SHA after continuation. Both seeds3801/3802, both switch directions, both freezes: eight new models. Speaker/emit frozen throughout. B-D25 unfrozen switches are the reference.
+
+At steps1000,2000,3000 report independent CUE/P95 four-choice accuracies and the frozen relation×cue grid's concordant/conflict preference, relation and cue score contrasts. Save only post-switch step2000/3000 checkpoints. If branch freeze makes task accuracy collapse, do not interpret the grid as a clean mechanistic necessity. If one branch alone adapts while the other is frozen and ordinary accuracy remains high, that branch is sufficient for the switch under this learned starting state. No protected/confirmation data or canonical mutation.

@@ -1,0 +1,602 @@
+{
+  "qwen05": {
+    "counts": {
+      "local_correct": 7,
+      "same_event_wrong_role": 7,
+      "wrong_event_wrong_role": 2,
+      "wrong_event_same_role": 2,
+      "unmatched_or_ambiguous": 6
+    },
+    "per_document": {
+      "2009 Men's Asia Pacific Floorball Championships": [
+        1,
+        4
+      ],
+      "2010 IAAF World Cross Country Championships": [
+        1,
+        4
+      ],
+      "2014 Men's Hockey World Cup": [
+        1,
+        4
+      ],
+      "Brabant Revolution": [
+        1,
+        4
+      ],
+      "Extreme Rules (2012)": [
+        2,
+        4
+      ],
+      "First Battle of the Isonzo": [
+        1,
+        4
+      ]
+    },
+    "details": [
+      {
+        "doc_id": "8375b6741c45d1b56481bf615c8ac131",
+        "title": "2009 Men's Asia Pacific Floorball Championships",
+        "event": "A",
+        "role": "Agent",
+        "model": "qwen05",
+        "response": "Japan",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Japan",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "8375b6741c45d1b56481bf615c8ac131",
+        "title": "2009 Men's Asia Pacific Floorball Championships",
+        "event": "A",
+        "role": "Patient",
+        "model": "qwen05",
+        "response": "Japan",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "India",
+        "category": "same_event_wrong_role"
+      },
+      {
+        "doc_id": "8375b6741c45d1b56481bf615c8ac131",
+        "title": "2009 Men's Asia Pacific Floorball Championships",
+        "event": "B",
+        "role": "Agent",
+        "model": "qwen05",
+        "response": "India",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Poland",
+        "category": "wrong_event_wrong_role"
+      },
+      {
+        "doc_id": "8375b6741c45d1b56481bf615c8ac131",
+        "title": "2009 Men's Asia Pacific Floorball Championships",
+        "event": "B",
+        "role": "Patient",
+        "model": "qwen05",
+        "response": "India",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Ukraine",
+        "category": "wrong_event_same_role"
+      },
+      {
+        "doc_id": "d51c2b7f8d15903cf1f0729b63a180c4",
+        "title": "2010 IAAF World Cross Country Championships",
+        "event": "A",
+        "role": "Agent",
+        "model": "qwen05",
+        "response": "Gebregziabher Gebremariam",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Gebregziabher Gebremariam",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "d51c2b7f8d15903cf1f0729b63a180c4",
+        "title": "2010 IAAF World Cross Country Championships",
+        "event": "A",
+        "role": "Patient",
+        "model": "qwen05",
+        "response": "Gebregziabher Gebremariam",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Ethiopia",
+        "category": "same_event_wrong_role"
+      },
+      {
+        "doc_id": "d51c2b7f8d15903cf1f0729b63a180c4",
+        "title": "2010 IAAF World Cross Country Championships",
+        "event": "B",
+        "role": "Agent",
+        "model": "qwen05",
+        "response": "Gebregziabher Gebremariam",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Shalane Flanagan",
+        "category": "wrong_event_same_role"
+      },
+      {
+        "doc_id": "d51c2b7f8d15903cf1f0729b63a180c4",
+        "title": "2010 IAAF World Cross Country Championships",
+        "event": "B",
+        "role": "Patient",
+        "model": "qwen05",
+        "response": "Gebregziabher Gebremariam",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "the United States",
+        "category": "wrong_event_wrong_role"
+      },
+      {
+        "doc_id": "16613ed8c8ab859e528665ca6a5ec4aa",
+        "title": "2014 Men's Hockey World Cup",
+        "event": "A",
+        "role": "Agent",
+        "model": "qwen05",
+        "response": "defending champions Australia",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Australia",
+        "category": "unmatched_or_ambiguous"
+      },
+      {
+        "doc_id": "16613ed8c8ab859e528665ca6a5ec4aa",
+        "title": "2014 Men's Hockey World Cup",
+        "event": "A",
+        "role": "Patient",
+        "model": "qwen05",
+        "response": "defending champions Australia",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Netherlands",
+        "category": "unmatched_or_ambiguous"
+      },
+      {
+        "doc_id": "16613ed8c8ab859e528665ca6a5ec4aa",
+        "title": "2014 Men's Hockey World Cup",
+        "event": "B",
+        "role": "Agent",
+        "model": "qwen05",
+        "response": "Argentina",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Argentina",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "16613ed8c8ab859e528665ca6a5ec4aa",
+        "title": "2014 Men's Hockey World Cup",
+        "event": "B",
+        "role": "Patient",
+        "model": "qwen05",
+        "response": "Argentina",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "England",
+        "category": "same_event_wrong_role"
+      },
+      {
+        "doc_id": "b10f421c0cc40013059af7362887758c",
+        "title": "Brabant Revolution",
+        "event": "A",
+        "role": "Agent",
+        "model": "qwen05",
+        "response": "Prussia",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Prussia",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "b10f421c0cc40013059af7362887758c",
+        "title": "Brabant Revolution",
+        "event": "A",
+        "role": "Patient",
+        "model": "qwen05",
+        "response": "Prussia",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "United Belgian States",
+        "category": "same_event_wrong_role"
+      },
+      {
+        "doc_id": "b10f421c0cc40013059af7362887758c",
+        "title": "Brabant Revolution",
+        "event": "B",
+        "role": "Agent",
+        "model": "qwen05",
+        "response": "Hendrik Van der Noot",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Church",
+        "category": "unmatched_or_ambiguous"
+      },
+      {
+        "doc_id": "b10f421c0cc40013059af7362887758c",
+        "title": "Brabant Revolution",
+        "event": "B",
+        "role": "Patient",
+        "model": "qwen05",
+        "response": "Hendrik Van der Noot",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Statists",
+        "category": "unmatched_or_ambiguous"
+      },
+      {
+        "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+        "title": "Extreme Rules (2012)",
+        "event": "A",
+        "role": "Agent",
+        "model": "qwen05",
+        "response": "John Cena",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "John Cena",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+        "title": "Extreme Rules (2012)",
+        "event": "A",
+        "role": "Patient",
+        "model": "qwen05",
+        "response": "John Cena",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Brock Lesnar",
+        "category": "same_event_wrong_role"
+      },
+      {
+        "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+        "title": "Extreme Rules (2012)",
+        "event": "B",
+        "role": "Agent",
+        "model": "qwen05",
+        "response": "Chris Jericho",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "CM Punk",
+        "category": "same_event_wrong_role"
+      },
+      {
+        "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+        "title": "Extreme Rules (2012)",
+        "event": "B",
+        "role": "Patient",
+        "model": "qwen05",
+        "response": "Chris Jericho",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Chris Jericho",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "b605e179adce15c07a0945bddd52645e",
+        "title": "First Battle of the Isonzo",
+        "event": "A",
+        "role": "Agent",
+        "model": "qwen05",
+        "response": "Major General Géza Lukachich von Somorja",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Géza Lukachich von Somorja",
+        "category": "unmatched_or_ambiguous"
+      },
+      {
+        "doc_id": "b605e179adce15c07a0945bddd52645e",
+        "title": "First Battle of the Isonzo",
+        "event": "A",
+        "role": "Patient",
+        "model": "qwen05",
+        "response": "Major General Géza Lukachich von Somorja",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Redipuglia",
+        "category": "unmatched_or_ambiguous"
+      },
+      {
+        "doc_id": "b605e179adce15c07a0945bddd52645e",
+        "title": "First Battle of the Isonzo",
+        "event": "B",
+        "role": "Agent",
+        "model": "qwen05",
+        "response": "Novak von Arienti",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Novak von Arienti",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "b605e179adce15c07a0945bddd52645e",
+        "title": "First Battle of the Isonzo",
+        "event": "B",
+        "role": "Patient",
+        "model": "qwen05",
+        "response": "Novak von Arienti",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Hill 383",
+        "category": "same_event_wrong_role"
+      }
+    ]
+  },
+  "qwen15": {
+    "counts": {
+      "local_correct": 12,
+      "same_event_wrong_role": 7,
+      "unmatched_or_ambiguous": 5
+    },
+    "per_document": {
+      "2009 Men's Asia Pacific Floorball Championships": [
+        2,
+        4
+      ],
+      "2010 IAAF World Cross Country Championships": [
+        1,
+        4
+      ],
+      "2014 Men's Hockey World Cup": [
+        3,
+        4
+      ],
+      "Brabant Revolution": [
+        2,
+        4
+      ],
+      "Extreme Rules (2012)": [
+        3,
+        4
+      ],
+      "First Battle of the Isonzo": [
+        1,
+        4
+      ]
+    },
+    "details": [
+      {
+        "doc_id": "8375b6741c45d1b56481bf615c8ac131",
+        "title": "2009 Men's Asia Pacific Floorball Championships",
+        "event": "A",
+        "role": "Agent",
+        "model": "qwen15",
+        "response": "Japan",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Japan",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "8375b6741c45d1b56481bf615c8ac131",
+        "title": "2009 Men's Asia Pacific Floorball Championships",
+        "event": "A",
+        "role": "Patient",
+        "model": "qwen15",
+        "response": "Japan",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "India",
+        "category": "same_event_wrong_role"
+      },
+      {
+        "doc_id": "8375b6741c45d1b56481bf615c8ac131",
+        "title": "2009 Men's Asia Pacific Floorball Championships",
+        "event": "B",
+        "role": "Agent",
+        "model": "qwen15",
+        "response": "Ukraine",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Poland",
+        "category": "same_event_wrong_role"
+      },
+      {
+        "doc_id": "8375b6741c45d1b56481bf615c8ac131",
+        "title": "2009 Men's Asia Pacific Floorball Championships",
+        "event": "B",
+        "role": "Patient",
+        "model": "qwen15",
+        "response": "Ukraine",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Ukraine",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "d51c2b7f8d15903cf1f0729b63a180c4",
+        "title": "2010 IAAF World Cross Country Championships",
+        "event": "A",
+        "role": "Agent",
+        "model": "qwen15",
+        "response": "Gebremariam",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Gebregziabher Gebremariam",
+        "category": "unmatched_or_ambiguous"
+      },
+      {
+        "doc_id": "d51c2b7f8d15903cf1f0729b63a180c4",
+        "title": "2010 IAAF World Cross Country Championships",
+        "event": "A",
+        "role": "Patient",
+        "model": "qwen15",
+        "response": "Gebremariam",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Ethiopia",
+        "category": "unmatched_or_ambiguous"
+      },
+      {
+        "doc_id": "d51c2b7f8d15903cf1f0729b63a180c4",
+        "title": "2010 IAAF World Cross Country Championships",
+        "event": "B",
+        "role": "Agent",
+        "model": "qwen15",
+        "response": "Shalane Flanagan",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Shalane Flanagan",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "d51c2b7f8d15903cf1f0729b63a180c4",
+        "title": "2010 IAAF World Cross Country Championships",
+        "event": "B",
+        "role": "Patient",
+        "model": "qwen15",
+        "response": "Shalane Flanagan",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "the United States",
+        "category": "same_event_wrong_role"
+      },
+      {
+        "doc_id": "16613ed8c8ab859e528665ca6a5ec4aa",
+        "title": "2014 Men's Hockey World Cup",
+        "event": "A",
+        "role": "Agent",
+        "model": "qwen15",
+        "response": "Australia",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Australia",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "16613ed8c8ab859e528665ca6a5ec4aa",
+        "title": "2014 Men's Hockey World Cup",
+        "event": "A",
+        "role": "Patient",
+        "model": "qwen15",
+        "response": "Netherlands",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Netherlands",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "16613ed8c8ab859e528665ca6a5ec4aa",
+        "title": "2014 Men's Hockey World Cup",
+        "event": "B",
+        "role": "Agent",
+        "model": "qwen15",
+        "response": "England",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Argentina",
+        "category": "same_event_wrong_role"
+      },
+      {
+        "doc_id": "16613ed8c8ab859e528665ca6a5ec4aa",
+        "title": "2014 Men's Hockey World Cup",
+        "event": "B",
+        "role": "Patient",
+        "model": "qwen15",
+        "response": "England",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "England",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "b10f421c0cc40013059af7362887758c",
+        "title": "Brabant Revolution",
+        "event": "A",
+        "role": "Agent",
+        "model": "qwen15",
+        "response": "Prussia",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Prussia",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "b10f421c0cc40013059af7362887758c",
+        "title": "Brabant Revolution",
+        "event": "A",
+        "role": "Patient",
+        "model": "qwen15",
+        "response": "Prussia",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "United Belgian States",
+        "category": "same_event_wrong_role"
+      },
+      {
+        "doc_id": "b10f421c0cc40013059af7362887758c",
+        "title": "Brabant Revolution",
+        "event": "B",
+        "role": "Agent",
+        "model": "qwen15",
+        "response": "Church",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Church",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "b10f421c0cc40013059af7362887758c",
+        "title": "Brabant Revolution",
+        "event": "B",
+        "role": "Patient",
+        "model": "qwen15",
+        "response": "Church",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Statists",
+        "category": "same_event_wrong_role"
+      },
+      {
+        "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+        "title": "Extreme Rules (2012)",
+        "event": "A",
+        "role": "Agent",
+        "model": "qwen15",
+        "response": "John Cena",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "John Cena",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+        "title": "Extreme Rules (2012)",
+        "event": "A",
+        "role": "Patient",
+        "model": "qwen15",
+        "response": "Brock Lesnar",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Brock Lesnar",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+        "title": "Extreme Rules (2012)",
+        "event": "B",
+        "role": "Agent",
+        "model": "qwen15",
+        "response": "Chris Jericho",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "CM Punk",
+        "category": "same_event_wrong_role"
+      },
+      {
+        "doc_id": "87f73e0c74bb37c4562a27fe8d12f81a",
+        "title": "Extreme Rules (2012)",
+        "event": "B",
+        "role": "Patient",
+        "model": "qwen15",
+        "response": "Chris Jericho",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Chris Jericho",
+        "category": "local_correct"
+      },
+      {
+        "doc_id": "b605e179adce15c07a0945bddd52645e",
+        "title": "First Battle of the Isonzo",
+        "event": "A",
+        "role": "Agent",
+        "model": "qwen15",
+        "response": "Major General Géza Lukachich von Somorja",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Géza Lukachich von Somorja",
+        "category": "unmatched_or_ambiguous"
+      },
+      {
+        "doc_id": "b605e179adce15c07a0945bddd52645e",
+        "title": "First Battle of the Isonzo",
+        "event": "A",
+        "role": "Patient",
+        "model": "qwen15",
+        "response": "Major General Géza Lukachich von Somorja",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Redipuglia",
+        "category": "unmatched_or_ambiguous"
+      },
+      {
+        "doc_id": "b605e179adce15c07a0945bddd52645e",
+        "title": "First Battle of the Isonzo",
+        "event": "B",
+        "role": "Agent",
+        "model": "qwen15",
+        "response": "Major General Novak von Arienti",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Novak von Arienti",
+        "category": "unmatched_or_ambiguous"
+      },
+      {
+        "doc_id": "b605e179adce15c07a0945bddd52645e",
+        "title": "First Battle of the Isonzo",
+        "event": "B",
+        "role": "Patient",
+        "model": "qwen15",
+        "response": "Hill 383",
+        "protocol_sha256": "d57377920a074d8436248f0d976d761a3671118752e38806f74b8acff3e38e02",
+        "gold_local": "Hill 383",
+        "category": "local_correct"
+      }
+    ]
+  }
+}

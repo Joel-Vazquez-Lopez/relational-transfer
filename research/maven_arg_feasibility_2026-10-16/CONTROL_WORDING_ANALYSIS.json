@@ -1,0 +1,507 @@
+{
+  "counts": {
+    "local_exact": 8,
+    "target_alias_contained": 12
+  },
+  "transitions": {
+    "local_exact -> local_exact": 7,
+    "target_alias_contained -> target_alias_contained": 9,
+    "same_event_wrong_role -> target_alias_contained": 2,
+    "unmatched_or_ambiguous -> target_alias_contained": 1,
+    "same_event_wrong_role -> local_exact": 1
+  },
+  "details": [
+    {
+      "doc_id": "b06020d331acbcd9a5c3bd228c576848",
+      "title": "Battle of Cepeda (1820)",
+      "event": "A",
+      "role": "Agent",
+      "response": "José de San Martín",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 5,
+        "total_tokens": 164,
+        "prompt_tokens_details": {
+          "cached_tokens": 144
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.00004225",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "José de San Martín",
+      "category": "local_exact",
+      "old_response": "José de San Martín",
+      "old_category": "local_exact"
+    },
+    {
+      "doc_id": "b06020d331acbcd9a5c3bd228c576848",
+      "title": "Battle of Cepeda (1820)",
+      "event": "A",
+      "role": "Patient",
+      "response": "The Army of the Andes",
+      "usage": {
+        "prompt_tokens": 166,
+        "completion_tokens": 6,
+        "total_tokens": 172,
+        "prompt_tokens_details": {
+          "cached_tokens": 144
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1204
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.0000445",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Army of the Andes",
+      "category": "target_alias_contained",
+      "old_response": "The Army of the Andes",
+      "old_category": "target_alias_contained"
+    },
+    {
+      "doc_id": "b06020d331acbcd9a5c3bd228c576848",
+      "title": "Battle of Cepeda (1820)",
+      "event": "B",
+      "role": "Agent",
+      "response": "Manuel Belgrano",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 5,
+        "total_tokens": 164,
+        "prompt_tokens_details": {
+          "cached_tokens": 144
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.00004225",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Manuel Belgrano",
+      "category": "local_exact",
+      "old_response": "Manuel Belgrano",
+      "old_category": "local_exact"
+    },
+    {
+      "doc_id": "b06020d331acbcd9a5c3bd228c576848",
+      "title": "Battle of Cepeda (1820)",
+      "event": "B",
+      "role": "Patient",
+      "response": "The Army of the North",
+      "usage": {
+        "prompt_tokens": 166,
+        "completion_tokens": 6,
+        "total_tokens": 172,
+        "prompt_tokens_details": {
+          "cached_tokens": 144
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1204
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.0000445",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Army of the North",
+      "category": "target_alias_contained",
+      "old_response": "The Army of the North",
+      "old_category": "target_alias_contained"
+    },
+    {
+      "doc_id": "0468fa6f43ced528e51523b49ff07aca",
+      "title": "Battle of Ostrach",
+      "event": "A",
+      "role": "Agent",
+      "response": "Archduke Charles",
+      "usage": {
+        "prompt_tokens": 114,
+        "completion_tokens": 4,
+        "total_tokens": 118,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.0000305",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Archduke Charles",
+      "category": "local_exact",
+      "old_response": "Archduke Charles",
+      "old_category": "local_exact"
+    },
+    {
+      "doc_id": "0468fa6f43ced528e51523b49ff07aca",
+      "title": "Battle of Ostrach",
+      "event": "A",
+      "role": "Patient",
+      "response": "the Austrian forces",
+      "usage": {
+        "prompt_tokens": 121,
+        "completion_tokens": 4,
+        "total_tokens": 125,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.00003225",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Austrian forces",
+      "category": "target_alias_contained",
+      "old_response": "Archduke Charles",
+      "old_category": "same_event_wrong_role"
+    },
+    {
+      "doc_id": "0468fa6f43ced528e51523b49ff07aca",
+      "title": "Battle of Ostrach",
+      "event": "B",
+      "role": "Agent",
+      "response": "Jean-Baptiste Jourdan",
+      "usage": {
+        "prompt_tokens": 114,
+        "completion_tokens": 6,
+        "total_tokens": 120,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.084
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.0000315",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Jean-Baptiste Jourdan",
+      "category": "local_exact",
+      "old_response": "Jean-Baptiste Jourdan",
+      "old_category": "local_exact"
+    },
+    {
+      "doc_id": "0468fa6f43ced528e51523b49ff07aca",
+      "title": "Battle of Ostrach",
+      "event": "B",
+      "role": "Patient",
+      "response": "the French forces",
+      "usage": {
+        "prompt_tokens": 121,
+        "completion_tokens": 4,
+        "total_tokens": 125,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.00003225",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "French forces",
+      "category": "target_alias_contained",
+      "old_response": "the French forces",
+      "old_category": "target_alias_contained"
+    },
+    {
+      "doc_id": "307d35d310c0d50ca295008c5d515445",
+      "title": "Battle of Ruona",
+      "event": "A",
+      "role": "Agent",
+      "response": "Carl Johan Adlercreutz",
+      "usage": {
+        "prompt_tokens": 125,
+        "completion_tokens": 6,
+        "total_tokens": 131,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0917
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.00003425",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Carl Johan Adlercreutz",
+      "category": "local_exact",
+      "old_response": "Carl Johan Adlercreutz",
+      "old_category": "local_exact"
+    },
+    {
+      "doc_id": "307d35d310c0d50ca295008c5d515445",
+      "title": "Battle of Ruona",
+      "event": "A",
+      "role": "Patient",
+      "response": "The Swedish army",
+      "usage": {
+        "prompt_tokens": 132,
+        "completion_tokens": 4,
+        "total_tokens": 136,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0952
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.000035",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Swedish army",
+      "category": "target_alias_contained",
+      "old_response": "5,000 men",
+      "old_category": "unmatched_or_ambiguous"
+    },
+    {
+      "doc_id": "307d35d310c0d50ca295008c5d515445",
+      "title": "Battle of Ruona",
+      "event": "B",
+      "role": "Agent",
+      "response": "Nikolay Kamensky",
+      "usage": {
+        "prompt_tokens": 125,
+        "completion_tokens": 6,
+        "total_tokens": 131,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.00003425",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Nikolay Kamensky",
+      "category": "local_exact",
+      "old_response": "Nikolay Kamensky",
+      "old_category": "local_exact"
+    },
+    {
+      "doc_id": "307d35d310c0d50ca295008c5d515445",
+      "title": "Battle of Ruona",
+      "event": "B",
+      "role": "Patient",
+      "response": "Russian army",
+      "usage": {
+        "prompt_tokens": 132,
+        "completion_tokens": 3,
+        "total_tokens": 135,
+        "prompt_tokens_details": {
+          "cached_tokens": 96
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.0945
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.0000345",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Russian army",
+      "category": "local_exact",
+      "old_response": "Nikolay Kamensky",
+      "old_category": "same_event_wrong_role"
+    },
+    {
+      "doc_id": "788284156c4a486090216897f75e6df6",
+      "title": "Capture of USS Chesapeake",
+      "event": "A",
+      "role": "Agent",
+      "response": "Captain James Lawrence",
+      "usage": {
+        "prompt_tokens": 145,
+        "completion_tokens": 4,
+        "total_tokens": 149,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1043
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.00003825",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "James Lawrence",
+      "category": "target_alias_contained",
+      "old_response": "Captain James Lawrence",
+      "old_category": "target_alias_contained"
+    },
+    {
+      "doc_id": "788284156c4a486090216897f75e6df6",
+      "title": "Capture of USS Chesapeake",
+      "event": "A",
+      "role": "Patient",
+      "response": "`` Chesapeake ''",
+      "usage": {
+        "prompt_tokens": 152,
+        "completion_tokens": 4,
+        "total_tokens": 156,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.00004",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Chesapeake",
+      "category": "local_exact",
+      "old_response": "`` Chesapeake ''",
+      "old_category": "local_exact"
+    },
+    {
+      "doc_id": "788284156c4a486090216897f75e6df6",
+      "title": "Capture of USS Chesapeake",
+      "event": "B",
+      "role": "Agent",
+      "response": "Captain Philip Broke",
+      "usage": {
+        "prompt_tokens": 145,
+        "completion_tokens": 5,
+        "total_tokens": 150,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.00003875",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Philip Broke",
+      "category": "target_alias_contained",
+      "old_response": "Captain Philip Broke",
+      "old_category": "target_alias_contained"
+    },
+    {
+      "doc_id": "788284156c4a486090216897f75e6df6",
+      "title": "Capture of USS Chesapeake",
+      "event": "B",
+      "role": "Patient",
+      "response": "HMS `` Shannon ''",
+      "usage": {
+        "prompt_tokens": 152,
+        "completion_tokens": 5,
+        "total_tokens": 157,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.0000405",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Shannon",
+      "category": "target_alias_contained",
+      "old_response": "HMS `` Shannon ''",
+      "old_category": "target_alias_contained"
+    },
+    {
+      "doc_id": "1dcb37c7c6b4c970a66b2ee6eabf884b",
+      "title": "Fall of Saigon",
+      "event": "A",
+      "role": "Agent",
+      "response": "General Văn Tiến Dũng",
+      "usage": {
+        "prompt_tokens": 140,
+        "completion_tokens": 6,
+        "total_tokens": 146,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.000038",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Văn Tiến Dũng",
+      "category": "target_alias_contained",
+      "old_response": "General Văn Tiến Dũng",
+      "old_category": "target_alias_contained"
+    },
+    {
+      "doc_id": "1dcb37c7c6b4c970a66b2ee6eabf884b",
+      "title": "Fall of Saigon",
+      "event": "A",
+      "role": "Patient",
+      "response": "The PAVN",
+      "usage": {
+        "prompt_tokens": 147,
+        "completion_tokens": 4,
+        "total_tokens": 151,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 0.1057
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.00003875",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "PAVN",
+      "category": "target_alias_contained",
+      "old_response": "General Văn Tiến Dũng",
+      "old_category": "same_event_wrong_role"
+    },
+    {
+      "doc_id": "1dcb37c7c6b4c970a66b2ee6eabf884b",
+      "title": "Fall of Saigon",
+      "event": "B",
+      "role": "Agent",
+      "response": "General Nguyễn Văn Toàn",
+      "usage": {
+        "prompt_tokens": 140,
+        "completion_tokens": 6,
+        "total_tokens": 146,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.000038",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "Nguyễn Văn Toàn",
+      "category": "target_alias_contained",
+      "old_response": "General Nguyễn Văn Toàn",
+      "old_category": "target_alias_contained"
+    },
+    {
+      "doc_id": "1dcb37c7c6b4c970a66b2ee6eabf884b",
+      "title": "Fall of Saigon",
+      "event": "B",
+      "role": "Patient",
+      "response": "Army of the Republic of Vietnam ( ARVN ) forces",
+      "usage": {
+        "prompt_tokens": 147,
+        "completion_tokens": 12,
+        "total_tokens": 159,
+        "prompt_tokens_details": {
+          "cached_tokens": 112
+        },
+        "reasoning_tokens": 0,
+        "co2_grams": 3e-06,
+        "gpu_energy_joules": 0.03
+      },
+      "finish_reason": "stop",
+      "estimated_eur": "0.00004275",
+      "protocol_sha256": "1c8be900fbb40f149c53f57a68ae165a617b7500b2bcad967e628d7c6fd6abc4",
+      "gold_local": "ARVN",
+      "category": "target_alias_contained",
+      "old_response": "Army of the Republic of Vietnam ( ARVN ) forces",
+      "old_category": "target_alias_contained"
+    }
+  ]
+}
