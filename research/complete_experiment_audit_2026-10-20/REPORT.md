@@ -2,6 +2,8 @@
 
 **20 October 2026 — critical audit of the recoverable research history**
 
+**Subsequent authorized experiment:** [Role-demand transfer: six development arms, confirmation stopped](ADDENDUM_ROLE_DEMAND.md). The308entry count below describes the preceding audit snapshot.
+
 **Subsequent metric clarification:** [Some historical “redirection” rates measure target-after accuracy, not paired switches](ADDENDUM_METRIC_DEFINITION.md). The linked archive-only recheck preserves the original values and supplies stricter paired counts where saved rows permit them.
 
 ## My assessment
