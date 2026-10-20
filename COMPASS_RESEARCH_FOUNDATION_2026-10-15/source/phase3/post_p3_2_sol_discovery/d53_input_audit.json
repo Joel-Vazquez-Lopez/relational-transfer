@@ -1,0 +1,22 @@
+{
+  "diagnostic": "D53",
+  "status": "discovery_only",
+  "seed": 1701,
+  "counts": {
+    "F_foil_only": {
+      "rows": 1024000,
+      "different_from_A": 153618,
+      "direct_H_comparison": 153618
+    },
+    "P_positive_only": {
+      "rows": 1024000,
+      "different_from_A": 51200,
+      "positive_changed_from_A": 51200
+    }
+  },
+  "positive_meaning_distribution_equalities": {
+    "P_positive_only_equals_F": true,
+    "F_foil_only_equals_A": true
+  },
+  "protected_seeds_accessed": false
+}

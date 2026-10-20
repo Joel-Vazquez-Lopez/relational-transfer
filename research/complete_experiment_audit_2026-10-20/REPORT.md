@@ -2,6 +2,8 @@
 
 **20 October 2026 — critical audit of the recoverable research history**
 
+**Subsequent metric clarification:** [Some historical “redirection” rates measure target-after accuracy, not paired switches](ADDENDUM_METRIC_DEFINITION.md). The linked archive-only recheck preserves the original values and supplies stricter paired counts where saved rows permit them.
+
 ## My assessment
 
 Your criticism is justified in an important respect: **the recent sequence produced much more experimental activity than progress toward the proposed linguistic mechanism.** Better instrumentation, another stopped competence screen, and an interesting output correction were repeatedly treated as reasons to keep the same broad narrative alive. They did not establish that narrative.
